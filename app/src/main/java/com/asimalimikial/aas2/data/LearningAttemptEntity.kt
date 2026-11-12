@@ -1,0 +1,23 @@
+package com.asimalimikial.aas2.data
+
+import androidx.room.Entity
+import androidx.room.Index
+import androidx.room.PrimaryKey
+
+@Entity(
+    tableName = "learning_attempts",
+    indices = [
+        Index(value = ["learnerId"]),
+        Index(value = ["skillId"]),
+        Index(value = ["learnerId", "createdAtEpochMillis"])
+    ]
+)
+data class LearningAttemptEntity(
+    @PrimaryKey val attemptId: String,
+    val learnerId: String,
+    val activityId: String,
+    val skillId: String,
+    val isCorrect: Boolean?,
+    val usedHint: Boolean,
+    val createdAtEpochMillis: Long
+)
