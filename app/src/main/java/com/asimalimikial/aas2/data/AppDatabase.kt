@@ -15,6 +15,7 @@ import androidx.room.RoomDatabase
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun learnerProfileDao(): LearnerProfileDao
+    abstract fun learningAttemptDao(): LearningAttemptDao
 
     companion object {
         @Volatile

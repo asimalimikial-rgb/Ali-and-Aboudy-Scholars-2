@@ -43,6 +43,20 @@ jobs:
       - name: Run unit tests
         run: gradle :app:testDebugUnitTest
 
+      - name: Verify Room schema export
+        run: |
+          find app/schemas -maxdepth 3 -type f -print
+          test -s app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
+
+      - name: Run database instrumentation tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          profile: pixel_2
+          disable-animations: true
+          script: gradle :app:connectedDebugAndroidTest
+
       - name: Assemble debug APK
         run: gradle :app:assembleDebug
 
