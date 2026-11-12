@@ -24,6 +24,30 @@ Early foundation stage. Product name, curriculum mappings, and package/applicati
 
 This repository is **AAS2-NEW** only. It is independent of the legacy repository `Ali-andd-aboudy-scholars`. Do not copy, merge, move, or modify legacy project files as part of this work.
 
-## Build
+## Android foundation
 
-Build and test instructions will be added with the first verified Android foundation commit.
+The initial foundation branch is `foundation/slice-0-android`.
+
+- Kotlin + Jetpack Compose
+- Room database for learner profiles and learning-attempt records
+- DataStore preferences
+- Versioned Kotlin-serializable content-pack models and a first validation layer
+- Unit tests for valid packs, duplicate skill IDs, and mixed learner pathways
+- GitHub Actions workflow for unit tests and debug APK assembly
+
+The current UI is a foundation-only learner chooser. Activity navigation, parent controls, the full learning engine, and curriculum content are not implemented yet.
+
+## Build locally
+
+Requirements: JDK 17, Android SDK Platform 35, and Gradle 8.11.1.
+
+```bash
+gradle :app:testDebugUnitTest
+gradle :app:assembleDebug
+```
+
+The CI workflow installs the Android SDK packages and runs these commands on pushes to `main` and `foundation/**`, and on pull requests targeting `main`.
+
+## Provisional technical identifiers
+
+The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. Do not publish a release APK from this foundation branch.
