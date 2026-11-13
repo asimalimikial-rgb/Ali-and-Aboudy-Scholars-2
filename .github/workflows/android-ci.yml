@@ -55,7 +55,25 @@ jobs:
           arch: x86_64
           profile: pixel_2
           disable-animations: true
-          script: gradle :app:connectedDebugAndroidTest
+          script: |
+            set +e
+            gradle :app:connectedDebugAndroidTest
+            test_status=$?
+            if [ "$test_status" -ne 0 ]; then
+              echo "::group::Android emulator diagnostics"
+              adb devices -l || true
+              echo "---- Relevant logcat (AndroidRuntime / instrumentation / runner / Room / SQLite) ----"
+              adb logcat -d -v time 2>&1 | grep -Ei 'AndroidRuntime|FATAL EXCEPTION|Process:|Instrumentation|TestRunner|AndroidJUnitRunner|Room|SQLite|crash|exception|fatal' | tail -n 400 || true
+              echo "---- Instrumentation result files ----"
+              find app/build/outputs/androidTest-results/connected app/build/reports/androidTests/connected -type f -maxdepth 6 -print 2>/dev/null || true
+              echo "---- XML test result excerpts ----"
+              find app/build/outputs/androidTest-results/connected -type f -name '*.xml' -print -exec sed -n '1,240p' {} \; 2>/dev/null || true
+              echo "---- Emulator and instrumentation processes ----"
+              adb shell getprop sys.boot_completed 2>/dev/null || true
+              adb shell ps -A 2>/dev/null | grep -Ei 'instrument|test|aas2' || true
+              echo "::endgroup::"
+            fi
+            exit "$test_status"
 
       - name: Assemble debug APK
         run: gradle :app:assembleDebug
