@@ -19,10 +19,7 @@ import androidx.compose.ui.unit.dp
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 
-/**
- * Reusable renderer for validated single-choice activities.
- * Loading packs and persisting attempts remain the responsibility of the caller.
- */
+/** Reusable renderer; content loading and attempt persistence are owned by the caller. */
 @Composable
 fun ActivityRenderer(
     activity: ActivityDefinition,
@@ -31,6 +28,7 @@ fun ActivityRenderer(
     modifier: Modifier = Modifier
 ) {
     var selectedOptionId by remember(activity.activityId) { mutableStateOf<String?>(null) }
+    val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
 
     Card(modifier = modifier.fillMaxWidth()) {
         Column(
@@ -38,20 +36,16 @@ fun ActivityRenderer(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             Text(activity.prompt, style = MaterialTheme.typography.titleLarge)
-
             activity.options.forEach { option ->
                 OutlinedButton(
                     modifier = Modifier.fillMaxWidth(),
-                    enabled = evaluation == null,
+                    enabled = currentEvaluation == null,
                     onClick = { selectedOptionId = option.optionId }
                 ) {
-                    Text(
-                        if (selectedOptionId == option.optionId) "✓  ${option.text}" else option.text
-                    )
+                    Text(if (selectedOptionId == option.optionId) "✓  ${option.text}" else option.text)
                 }
             }
-
-            if (evaluation == null) {
+            if (currentEvaluation == null) {
                 Button(
                     modifier = Modifier.fillMaxWidth(),
                     enabled = selectedOptionId != null,
@@ -61,13 +55,10 @@ fun ActivityRenderer(
                 }
             } else {
                 Text(
-                    evaluation.feedback,
+                    currentEvaluation.feedback,
                     style = MaterialTheme.typography.bodyLarge,
-                    color = if (evaluation.isCorrect) {
-                        MaterialTheme.colorScheme.primary
-                    } else {
-                        MaterialTheme.colorScheme.error
-                    }
+                    color = if (currentEvaluation.isCorrect) MaterialTheme.colorScheme.primary
+                    else MaterialTheme.colorScheme.error
                 )
             }
         }
