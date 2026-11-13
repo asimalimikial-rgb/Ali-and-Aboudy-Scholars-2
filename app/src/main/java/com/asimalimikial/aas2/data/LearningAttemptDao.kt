@@ -20,6 +20,23 @@ interface LearningAttemptDao {
     )
     fun observeForLearner(learnerId: String): Flow<List<LearningAttemptEntity>>
 
+    @Query(
+        """
+        SELECT * FROM learning_attempts
+        WHERE learnerId = :learnerId AND skillId = :skillId
+        ORDER BY createdAtEpochMillis ASC, attemptId ASC
+        """
+    )
+    fun observeForLearnerAndSkill(learnerId: String, skillId: String): Flow<List<LearningAttemptEntity>>
+
     @Query("SELECT COUNT(*) FROM learning_attempts WHERE learnerId = :learnerId")
     suspend fun countForLearner(learnerId: String): Int
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM learning_attempts
+        WHERE learnerId = :learnerId AND skillId = :skillId AND isCorrect IS NOT NULL
+        """
+    )
+    suspend fun countScoredAttemptsForSkill(learnerId: String, skillId: String): Int
 }
