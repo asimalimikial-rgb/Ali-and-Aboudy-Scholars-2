@@ -47,15 +47,13 @@ jobs:
       - name: Run JVM unit tests only
         run: gradle :app:testDebugUnitTest
 
-      - name: Verify Room schema export
+      - name: Verify checked-in Room schema export
         run: |
-          test -s app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
-          echo "Room schema export exists and is non-empty."
-
-      # Temporary source review output. It will be replaced by a tracked-schema
-      # comparison after the generated schema is checked into this branch.
-      - name: Print Room schema for initial source check-in
-        run: cat app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
+          schema=app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
+          test -s "$schema"
+          git ls-files --error-unmatch "$schema" >/dev/null
+          git diff --exit-code -- "$schema"
+          echo "Room schema export matches the checked-in schema."
 
       # APK assembly, APK upload, and emulator instrumentation are intentionally
       # disabled during the source-development phase. Instrumentation tests
