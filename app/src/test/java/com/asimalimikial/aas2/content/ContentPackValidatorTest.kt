@@ -63,4 +63,66 @@ class ContentPackValidatorTest {
 
         assertFalse(ContentPackValidator.validate(pack).isValid)
     }
+
+    @Test
+    fun emptySkillListIsRejected() {
+        val pack = ContentPack(
+            packId = "empty-pack",
+            version = "0.1.0",
+            schemaVersion = 1,
+            learnerPath = "KG2",
+            skills = emptyList()
+        )
+
+        assertFalse(ContentPackValidator.validate(pack).isValid)
+    }
+
+    @Test
+    fun unsupportedSchemaAndLearnerPathAreRejected() {
+        val pack = ContentPack(
+            packId = "future-pack",
+            version = "0.1.0",
+            schemaVersion = 99,
+            learnerPath = "UNKNOWN",
+            skills = listOf(
+                SkillDefinition(
+                    skillId = "skill.001",
+                    learnerPath = "UNKNOWN",
+                    domain = "Science",
+                    observableOutcome = "Observes a simple phenomenon"
+                )
+            )
+        )
+
+        val result = ContentPackValidator.validate(pack)
+
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.startsWith("Unsupported schemaVersion") })
+        assertTrue(result.errors.any { it.startsWith("Unsupported learnerPath") })
+    }
+
+    @Test
+    fun blankRequiredSkillFieldsAreRejected() {
+        val pack = ContentPack(
+            packId = "invalid-skill-pack",
+            version = "0.1.0",
+            schemaVersion = 1,
+            learnerPath = "KG2",
+            skills = listOf(
+                SkillDefinition(
+                    skillId = " ",
+                    learnerPath = "KG2",
+                    domain = " ",
+                    observableOutcome = ""
+                )
+            )
+        )
+
+        val result = ContentPackValidator.validate(pack)
+
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("skillId must not be blank") })
+        assertTrue(result.errors.any { it.contains("empty domain") })
+        assertTrue(result.errors.any { it.contains("empty observable outcome") })
+    }
 }
