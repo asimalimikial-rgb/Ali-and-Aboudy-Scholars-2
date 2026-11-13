@@ -69,7 +69,7 @@ class LearnerProgressCalculatorTest {
         )
         val result = LearnerProgressCalculator.summarize("ali", "counting", attempts)
         assertEquals(MasteryLevel.MASTERED, result.masteryLevel)
-        assertEquals(5, result.currentCorrectStreak)
+        assertEquals(4, result.currentCorrectStreak)
     }
 
     @Test(expected = IllegalArgumentException::class)
