@@ -5,11 +5,13 @@ An independent, offline-first Android learning app for two separate learner path
 - **Ali** — KG2
 - **Aboudy** — Grade 2
 
-The app uses a shared learning engine while keeping each learner's subjects, activities, attempts, progress, and recommendations isolated.
+The app is designed around a shared learning engine while keeping each learner's subjects, activities, attempts, progress, and recommendations isolated.
 
 ## Project status
 
-Early foundation stage. Product name, curriculum mappings, and package/application identifiers remain subject to final review where noted in the project decision log.
+Active source-development phase. Product name, curriculum mappings, and package/application identifiers remain subject to final review where noted.
+
+**Build policy:** APK and Debug APK production, APK artifact uploads, and releases are intentionally disabled during this phase. CI is limited to source validation, JVM unit tests, and Room schema checks. Emulator instrumentation will be reintroduced only when the project is ready for device-validation and APK production is explicitly authorized.
 
 ## Principles
 
@@ -26,28 +28,27 @@ This repository is **AAS2-NEW** only. It is independent of the legacy repository
 
 ## Android foundation
 
-The initial foundation branch is `foundation/slice-0-android`.
+The active development branch is `foundation/slice-0-android`.
 
 - Kotlin + Jetpack Compose
 - Room database for learner profiles and learning-attempt records
 - DataStore preferences
-- Versioned Kotlin-serializable content-pack models and a first validation layer
-- Unit tests for valid packs, duplicate skill IDs, and mixed learner pathways
-- GitHub Actions workflow for unit tests and debug APK assembly
+- Versioned Kotlin-serializable content-pack models and validation
+- Unit tests for content-pack validation
+- Room foreign-key isolation for learner attempts, with instrumentation tests currently retained in source but not executed in CI during the no-APK phase
 
-The current UI is a foundation-only learner chooser. Activity navigation, parent controls, the full learning engine, and curriculum content are not implemented yet.
+The current UI is still a foundation-stage learner chooser. A complete learner home, activity navigation, parent controls, adaptive learning, and curriculum content remain to be implemented.
 
-## Build locally
+## Source validation
 
 Requirements: JDK 17, Android SDK Platform 35, and Gradle 8.11.1.
 
 ```bash
 gradle :app:testDebugUnitTest
-gradle :app:assembleDebug
 ```
 
-The CI workflow installs the Android SDK packages and runs these commands on pushes to `main` and `foundation/**`, and on pull requests targeting `main`.
+The GitHub Actions workflow runs JVM unit tests and verifies the Room schema export. It does **not** run emulator instrumentation, assemble an APK, or upload APK artifacts during the current source-development phase.
 
 ## Provisional technical identifiers
 
-The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. Do not publish a release APK from this foundation branch.
+The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. No APK or release should be produced from this development phase.
