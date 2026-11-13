@@ -14,8 +14,8 @@ permissions:
   contents: read
 
 jobs:
-  build-and-test:
-    name: Build and unit tests
+  verify-and-test:
+    name: Source validation and unit tests (no APK)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,57 +40,15 @@ jobs:
         with:
           gradle-version: "8.11.1"
 
-      - name: Run unit tests
+      - name: Run JVM unit tests only
         run: gradle :app:testDebugUnitTest
 
       - name: Verify Room schema export
         run: |
-          find app/schemas -maxdepth 3 -type f -print
           test -s app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
+          echo "Room schema export exists and is non-empty."
 
-      - name: Run database instrumentation tests
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 35
-          arch: x86_64
-          profile: pixel_2
-          disable-animations: true
-          script: |
-            set +e
-            gradle :app:connectedDebugAndroidTest
-            test_status=$?
-            if [ "$test_status" -ne 0 ]; then
-              echo "::group::Android emulator diagnostics"
-              adb devices -l || true
-              echo "---- Relevant logcat (AndroidRuntime / instrumentation / runner / Room / SQLite) ----"
-              adb logcat -d -v time 2>&1 | grep -Ei 'AndroidRuntime|FATAL EXCEPTION|Process:|Instrumentation|TestRunner|AndroidJUnitRunner|Room|SQLite|crash|exception|fatal' | tail -n 400 || true
-              echo "---- Instrumentation result files ----"
-              find app/build/outputs/androidTest-results/connected app/build/reports/androidTests/connected -type f -maxdepth 6 -print 2>/dev/null || true
-              echo "---- XML test result excerpts ----"
-              find app/build/outputs/androidTest-results/connected -type f -name '*.xml' -print -exec sed -n '1,240p' {} \; 2>/dev/null || true
-              echo "---- Emulator and instrumentation processes ----"
-              adb shell getprop sys.boot_completed 2>/dev/null || true
-              adb shell ps -A 2>/dev/null | grep -Ei 'instrument|test|aas2' || true
-              echo "::endgroup::"
-            fi
-            exit "$test_status"
-
-      - name: Assemble debug APK
-        run: gradle :app:assembleDebug
-
-      - name: Upload test reports
-        if: always()
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          name: unit-test-reports
-          path: app/build/reports/tests/testDebugUnitTest/
-          if-no-files-found: ignore
-
-      - name: Upload debug APK
-        if: success()
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          name: scholars2-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+      # APK assembly, APK upload, and emulator instrumentation are intentionally
+      # disabled during the source-development phase. Instrumentation tests
+      # build/install test APKs and will be re-enabled only after explicit
+      # approval to enter device/emulator validation.
