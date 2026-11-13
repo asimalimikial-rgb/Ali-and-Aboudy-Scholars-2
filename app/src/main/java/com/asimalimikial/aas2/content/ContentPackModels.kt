@@ -9,7 +9,8 @@ data class ContentPack(
     val schemaVersion: Int,
     val learnerPath: String,
     val skills: List<SkillDefinition>,
-    val activities: List<ActivityDefinition> = emptyList()
+    val activities: List<ActivityDefinition> = emptyList(),
+    val sourceReferences: List<ContentSourceReference> = emptyList()
 )
 
 @Serializable
@@ -19,6 +20,23 @@ data class SkillDefinition(
     val domain: String,
     val observableOutcome: String,
     val sourceReferenceIds: List<String> = emptyList()
+)
+
+/**
+ * Provenance and reuse metadata for curriculum, content, and asset sources.
+ * REFERENCE_ONLY is the safe default until redistribution rights are verified.
+ */
+@Serializable
+data class ContentSourceReference(
+    val sourceReferenceId: String,
+    val title: String,
+    val publisher: String,
+    val url: String,
+    val license: String,
+    val licenseUrl: String? = null,
+    val attribution: String? = null,
+    val usageRights: String = "REFERENCE_ONLY",
+    val verifiedAt: String? = null
 )
 
 @Serializable

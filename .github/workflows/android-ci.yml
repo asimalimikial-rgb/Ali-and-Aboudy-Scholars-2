@@ -52,6 +52,11 @@ jobs:
           test -s app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
           echo "Room schema export exists and is non-empty."
 
+      # Temporary source review output. It will be replaced by a tracked-schema
+      # comparison after the generated schema is checked into this branch.
+      - name: Print Room schema for initial source check-in
+        run: cat app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
+
       # APK assembly, APK upload, and emulator instrumentation are intentionally
       # disabled during the source-development phase. Instrumentation tests
       # build/install test APKs and will be re-enabled only after explicit

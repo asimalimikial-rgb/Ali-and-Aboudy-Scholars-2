@@ -29,16 +29,26 @@ class ContentPackValidatorTest {
         difficulty = 1
     )
 
+    private fun validSource() = ContentSourceReference(
+        sourceReferenceId = "source-1",
+        title = "Test source",
+        publisher = "Test publisher",
+        url = "https://example.org/source",
+        license = "Reference only; reuse not assumed"
+    )
+
     private fun validPack(
         skills: List<SkillDefinition> = listOf(baseSkill()),
-        activities: List<ActivityDefinition> = emptyList()
+        activities: List<ActivityDefinition> = emptyList(),
+        sourceReferences: List<ContentSourceReference> = emptyList()
     ) = ContentPack(
         packId = "ali-numeracy-foundation",
         version = "0.1.0",
-        schemaVersion = 2,
+        schemaVersion = 3,
         learnerPath = "KG2",
         skills = skills,
-        activities = activities
+        activities = activities,
+        sourceReferences = sourceReferences
     )
 
     @Test fun validPackIsAccepted() {
@@ -48,6 +58,37 @@ class ContentPackValidatorTest {
     @Test fun validSingleChoiceActivityIsAccepted() {
         val result = ContentPackValidator.validate(validPack(activities = listOf(validActivity())))
         assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test fun validSourceReferenceResolvesSkillProvenance() {
+        val source = validSource()
+        val skill = baseSkill().copy(sourceReferenceIds = listOf(source.sourceReferenceId))
+        val result = ContentPackValidator.validate(
+            validPack(skills = listOf(skill), sourceReferences = listOf(source))
+        )
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test fun unknownSourceReferenceIsRejected() {
+        val skill = baseSkill().copy(sourceReferenceIds = listOf("missing-source"))
+        val result = ContentPackValidator.validate(validPack(skills = listOf(skill)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("unknown sourceReferenceId") })
+    }
+
+    @Test fun sourceLicenseAndSecureUrlAreRequired() {
+        val invalidSource = validSource().copy(url = "http://example.org/source", license = " ")
+        val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(invalidSource)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("HTTPS URL") })
+        assertTrue(result.errors.any { it.contains("no license or rights statement") })
+    }
+
+    @Test fun redistributionRequiresAttribution() {
+        val source = validSource().copy(usageRights = "REDISTRIBUTION_ALLOWED")
+        val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(source)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("requires attribution") })
     }
 
     @Test fun duplicateSkillIdsAreRejected() {
@@ -125,7 +166,7 @@ class ContentPackValidatorTest {
     }
 
     @Test fun previousSchemaVersionIsRejectedExplicitly() {
-        val result = ContentPackValidator.validate(validPack().copy(schemaVersion = 1))
+        val result = ContentPackValidator.validate(validPack().copy(schemaVersion = 2))
         assertFalse(result.isValid)
         assertTrue(result.errors.single().contains("Unsupported schemaVersion"))
     }

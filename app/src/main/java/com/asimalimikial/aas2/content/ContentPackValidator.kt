@@ -1,11 +1,18 @@
 package com.asimalimikial.aas2.content
 
 object ContentPackValidator {
-    // Version 2 introduces the structured activities and answer-option model.
-    private const val CURRENT_SCHEMA_VERSION = 2
+    // Version 3 adds a source catalog with explicit provenance and reuse metadata.
+    private const val CURRENT_SCHEMA_VERSION = 3
     private val supportedLearnerPaths = setOf("KG2", "GRADE_2")
     private val supportedActivityTypes = setOf("SINGLE_CHOICE")
     private val supportedLanguages = setOf("en", "ar")
+    private val supportedUsageRights = setOf(
+        "REFERENCE_ONLY",
+        "REDISTRIBUTION_ALLOWED",
+        "ADAPTATION_ALLOWED",
+        "PERMISSION_REQUIRED",
+        "PROHIBITED"
+    )
 
     fun validate(pack: ContentPack): ContentPackValidation {
         val errors = buildList {
@@ -14,6 +21,33 @@ object ContentPackValidator {
             if (pack.schemaVersion != CURRENT_SCHEMA_VERSION) add("Unsupported schemaVersion: ${pack.schemaVersion}")
             if (pack.learnerPath !in supportedLearnerPaths) add("Unsupported learnerPath: ${pack.learnerPath}")
             if (pack.skills.isEmpty()) add("A content pack must contain at least one skill")
+
+            val sourceIds = pack.sourceReferences.map { it.sourceReferenceId }
+            if (sourceIds.any(String::isBlank)) add("sourceReferenceId must not be blank")
+            if (sourceIds.size != sourceIds.toSet().size) add("sourceReferenceId values must be unique")
+
+            pack.sourceReferences.forEachIndexed { index, source ->
+                if (source.title.isBlank()) add("Source at index $index has an empty title")
+                if (source.publisher.isBlank()) add("Source at index $index has an empty publisher")
+                if (source.url.isBlank() || !source.url.startsWith("https://")) {
+                    add("Source at index $index must have an HTTPS URL")
+                }
+                if (source.license.isBlank()) add("Source at index $index has no license or rights statement")
+                if (source.licenseUrl != null && !source.licenseUrl.startsWith("https://")) {
+                    add("Source at index $index has an invalid license URL")
+                }
+                if (source.usageRights !in supportedUsageRights) {
+                    add("Source at index $index has unsupported usageRights")
+                }
+                if (source.usageRights in setOf("REDISTRIBUTION_ALLOWED", "ADAPTATION_ALLOWED") &&
+                    source.attribution.isNullOrBlank()
+                ) {
+                    add("Source at index $index requires attribution metadata")
+                }
+                if (source.verifiedAt != null && !Regex("""^\d{4}-\d{2}-\d{2}$""").matches(source.verifiedAt)) {
+                    add("Source at index $index verifiedAt must use YYYY-MM-DD")
+                }
+            }
 
             val skillIds = pack.skills.map { it.skillId }
             if (skillIds.any(String::isBlank)) add("skillId must not be blank")
@@ -26,6 +60,9 @@ object ContentPackValidator {
                 if (skill.sourceReferenceIds.any(String::isBlank)) add("Skill at index $index contains a blank source reference ID")
                 if (skill.sourceReferenceIds.size != skill.sourceReferenceIds.toSet().size) {
                     add("Skill at index $index contains duplicate source reference IDs")
+                }
+                if (skill.sourceReferenceIds.any { it !in sourceIds }) {
+                    add("Skill at index $index references an unknown sourceReferenceId")
                 }
             }
 
@@ -52,7 +89,13 @@ object ContentPackValidator {
                 }
                 if (activity.options.any { option ->
                         val path = option.imageAssetPath
-                        path != null && (path.isBlank() || path.startsWith("/") || path.split("/").any { it == ".." })
+                        path != null && (
+                            path.isBlank() ||
+                                path.startsWith("/") ||
+                                path.contains('\\') ||
+                                path.contains("://") ||
+                                path.split("/").any { it == ".." }
+                            )
                     }
                 ) {
                     add("Activity at index $index contains an unsafe image asset path")

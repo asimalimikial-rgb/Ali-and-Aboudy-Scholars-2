@@ -16,6 +16,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -24,6 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
+import com.asimalimikial.aas2.data.LearnerSelectionPolicy
 import com.asimalimikial.aas2.data.UserPreferences
 import kotlinx.coroutines.launch
 
@@ -55,17 +57,24 @@ class MainActivity : ComponentActivity() {
         setContent {
             val profiles by profileDao.observeProfiles().collectAsState(initial = emptyList())
             val selectedLearnerId by userPreferences.selectedLearnerId.collectAsState(initial = null)
-            val selectedProfile = profiles.firstOrNull { it.learnerId == selectedLearnerId }
+            val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
+
+            LaunchedEffect(selectedLearnerId, profiles) {
+                if (LearnerSelectionPolicy.shouldClearSelection(selectedLearnerId, profiles)) {
+                    userPreferences.clearSelectedLearner()
+                }
+            }
 
             MaterialTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     if (selectedProfile == null) {
                         LearnerProfileSelection(
-                            profiles = profiles,
+                            profiles = LearnerSelectionPolicy.activeProfiles(profiles),
                             onSelect = { profile ->
                                 lifecycleScope.launch {
-                                    // Persist only a learner that still exists in the local profile table.
-                                    if (profileDao.findById(profile.learnerId) != null) {
+                                    // Persist only a learner that still exists and is active.
+                                    val currentProfile = profileDao.findById(profile.learnerId)
+                                    if (currentProfile?.isActive == true) {
                                         userPreferences.setSelectedLearner(profile.learnerId)
                                     }
                                 }
@@ -106,7 +115,7 @@ private fun LearnerProfileSelection(
         )
 
         if (profiles.isEmpty()) {
-            Text("Preparing learner profiles…", style = MaterialTheme.typography.bodyMedium)
+            Text("No active learner profiles are available.", style = MaterialTheme.typography.bodyMedium)
         } else {
             profiles.forEach { profile ->
                 Button(
