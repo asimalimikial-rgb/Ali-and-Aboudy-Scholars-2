@@ -41,59 +41,42 @@ class ContentPackValidatorTest {
         activities = activities
     )
 
-    @Test
-    fun validPackIsAccepted() {
+    @Test fun validPackIsAccepted() {
         assertTrue(ContentPackValidator.validate(validPack()).isValid)
     }
 
-    @Test
-    fun validSingleChoiceActivityIsAccepted() {
+    @Test fun validSingleChoiceActivityIsAccepted() {
         val result = ContentPackValidator.validate(validPack(activities = listOf(validActivity())))
         assertTrue(result.errors.joinToString(), result.isValid)
     }
 
-    @Test
-    fun duplicateSkillIdsAreRejected() {
+    @Test fun duplicateSkillIdsAreRejected() {
         val skill = baseSkill()
         val result = ContentPackValidator.validate(validPack(skills = listOf(skill, skill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("skillId values must be unique") })
     }
 
-    @Test
-    fun mixedLearnerPathsAreRejected() {
-        val mismatchedSkill = baseSkill().copy(
-            skillId = "aboudy.math.001",
-            learnerPath = "GRADE_2"
-        )
+    @Test fun mixedLearnerPathsAreRejected() {
+        val mismatchedSkill = baseSkill().copy(skillId = "aboudy.math.001", learnerPath = "GRADE_2")
         val result = ContentPackValidator.validate(validPack(skills = listOf(mismatchedSkill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("different learner path") })
     }
 
-    @Test
-    fun emptySkillListIsRejected() {
-        val result = ContentPackValidator.validate(validPack(skills = emptyList()))
-        assertFalse(result.isValid)
+    @Test fun emptySkillListIsRejected() {
+        assertFalse(ContentPackValidator.validate(validPack(skills = emptyList())).isValid)
     }
 
-    @Test
-    fun unsupportedSchemaAndLearnerPathAreRejected() {
-        val result = ContentPackValidator.validate(
-            validPack().copy(schemaVersion = 99, learnerPath = "UNKNOWN")
-        )
+    @Test fun unsupportedSchemaAndLearnerPathAreRejected() {
+        val result = ContentPackValidator.validate(validPack().copy(schemaVersion = 99, learnerPath = "UNKNOWN"))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.startsWith("Unsupported schemaVersion") })
         assertTrue(result.errors.any { it.startsWith("Unsupported learnerPath") })
     }
 
-    @Test
-    fun blankRequiredSkillFieldsAreRejected() {
-        val invalidSkill = baseSkill().copy(
-            skillId = " ",
-            domain = " ",
-            observableOutcome = ""
-        )
+    @Test fun blankRequiredSkillFieldsAreRejected() {
+        val invalidSkill = baseSkill().copy(skillId = " ", domain = " ", observableOutcome = "")
         val result = ContentPackValidator.validate(validPack(skills = listOf(invalidSkill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("skillId must not be blank") })
@@ -101,25 +84,37 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.any { it.contains("empty observable outcome") })
     }
 
-    @Test
-    fun activityWithUnknownSkillOrIncorrectAnswerReferenceIsRejected() {
-        val invalidActivity = validActivity().copy(
-            skillId = "missing-skill",
-            correctOptionId = "not-an-option"
-        )
+    @Test fun duplicateSourceReferenceIdsAreRejected() {
+        val skill = baseSkill().copy(sourceReferenceIds = listOf("source-a", "source-a"))
+        val result = ContentPackValidator.validate(validPack(skills = listOf(skill)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("duplicate source reference IDs") })
+    }
+
+    @Test fun activityWithUnknownSkillOrIncorrectAnswerReferenceIsRejected() {
+        val invalidActivity = validActivity().copy(skillId = "missing-skill", correctOptionId = "not-an-option")
         val result = ContentPackValidator.validate(validPack(activities = listOf(invalidActivity)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("unknown skillId") })
         assertTrue(result.errors.any { it.contains("exactly one correct option") })
     }
 
-    @Test
-    fun duplicateOptionIdsAndInvalidDifficultyAreRejected() {
+    @Test fun unsafeImageAssetPathsAreRejected() {
         val activity = validActivity().copy(
             options = listOf(
-                AnswerOption(optionId = "same", text = "A"),
-                AnswerOption(optionId = "same", text = "B")
+                AnswerOption("one", "1", "../private/file.png"),
+                AnswerOption("two", "2")
             ),
+            correctOptionId = "two"
+        )
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("unsafe image asset path") })
+    }
+
+    @Test fun duplicateOptionIdsAndInvalidDifficultyAreRejected() {
+        val activity = validActivity().copy(
+            options = listOf(AnswerOption("same", "A"), AnswerOption("same", "B")),
             correctOptionId = "same",
             difficulty = 6
         )
@@ -129,8 +124,7 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.any { it.contains("difficulty must be between 1 and 5") })
     }
 
-    @Test
-    fun previousSchemaVersionIsRejectedExplicitly() {
+    @Test fun previousSchemaVersionIsRejectedExplicitly() {
         val result = ContentPackValidator.validate(validPack().copy(schemaVersion = 1))
         assertFalse(result.isValid)
         assertTrue(result.errors.single().contains("Unsupported schemaVersion"))
