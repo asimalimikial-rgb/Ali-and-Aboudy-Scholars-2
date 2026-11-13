@@ -2,10 +2,7 @@ package com.asimalimikial.aas2.learning
 
 import com.asimalimikial.aas2.content.ActivityDefinition
 
-/**
- * Result of evaluating one submitted single-choice response.
- * Invalid option IDs are rejected instead of being treated as incorrect answers.
- */
+/** Result of evaluating one submitted single-choice response. */
 data class ActivityEvaluationResult(
     val activityId: String,
     val selectedOptionId: String,
@@ -14,10 +11,7 @@ data class ActivityEvaluationResult(
 )
 
 object ActivityEvaluator {
-    fun evaluate(
-        activity: ActivityDefinition,
-        selectedOptionId: String
-    ): ActivityEvaluationResult {
+    fun evaluate(activity: ActivityDefinition, selectedOptionId: String): ActivityEvaluationResult {
         require(selectedOptionId.isNotBlank()) { "A selected option is required" }
         require(activity.activityId.isNotBlank()) { "Activity ID must not be blank" }
         require(activity.options.any { it.optionId == selectedOptionId }) {
