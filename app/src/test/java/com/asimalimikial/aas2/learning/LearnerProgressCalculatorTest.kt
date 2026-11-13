@@ -10,14 +10,15 @@ class LearnerProgressCalculatorTest {
         learner: String = "ali",
         skill: String = "counting",
         correct: Boolean?,
-        time: Long
+        time: Long,
+        usedHint: Boolean = false
     ) = LearningAttemptEntity(
         attemptId = id,
         learnerId = learner,
         activityId = "activity-$id",
         skillId = skill,
         isCorrect = correct,
-        usedHint = false,
+        usedHint = usedHint,
         createdAtEpochMillis = time
     )
 
@@ -55,10 +56,11 @@ class LearnerProgressCalculatorTest {
         assertEquals(2, result.scoredAttempts)
         assertEquals(100, result.accuracyPercent)
         assertEquals(2, result.currentCorrectStreak)
+        assertEquals(2, result.currentIndependentCorrectStreak)
     }
 
     @Test
-    fun masteryRequiresMinimumAttemptsAccuracyAndRecentStreak() {
+    fun masteryRequiresMinimumAttemptsAccuracyAndIndependentRecentStreak() {
         val attempts = listOf(
             attempt("a1", correct = true, time = 1),
             attempt("a2", correct = false, time = 2),
@@ -70,6 +72,47 @@ class LearnerProgressCalculatorTest {
         val result = LearnerProgressCalculator.summarize("ali", "counting", attempts)
         assertEquals(MasteryLevel.MASTERED, result.masteryLevel)
         assertEquals(4, result.currentCorrectStreak)
+        assertEquals(4, result.currentIndependentCorrectStreak)
+        assertEquals(5, result.independentCorrectAttempts)
+    }
+
+    @Test
+    fun hintedCorrectAnswersDoNotQualifyForIndependentMasteryStreak() {
+        val attempts = (1..5).map { index ->
+            attempt("hint-$index", correct = true, time = index.toLong(), usedHint = true)
+        }
+        val result = LearnerProgressCalculator.summarize("ali", "counting", attempts)
+        assertEquals(100, result.accuracyPercent)
+        assertEquals(5, result.hintedCorrectAttempts)
+        assertEquals(0, result.independentCorrectAttempts)
+        assertEquals(5, result.currentCorrectStreak)
+        assertEquals(0, result.currentIndependentCorrectStreak)
+        assertEquals(MasteryLevel.DEVELOPING, result.masteryLevel)
+    }
+
+    @Test
+    fun incorrectAnswerResetsBothRecentStreaks() {
+        val attempts = listOf(
+            attempt("a1", correct = true, time = 1),
+            attempt("a2", correct = true, time = 2),
+            attempt("a3", correct = false, time = 3),
+            attempt("a4", correct = true, time = 4)
+        )
+        val result = LearnerProgressCalculator.summarize("ali", "counting", attempts)
+        assertEquals(1, result.currentCorrectStreak)
+        assertEquals(1, result.currentIndependentCorrectStreak)
+    }
+
+    @Test
+    fun lowAccuracyDoesNotReachDeveloping() {
+        val attempts = listOf(
+            attempt("a1", correct = false, time = 1),
+            attempt("a2", correct = false, time = 2),
+            attempt("a3", correct = false, time = 3)
+        )
+        val result = LearnerProgressCalculator.summarize("ali", "counting", attempts)
+        assertEquals(0, result.accuracyPercent)
+        assertEquals(MasteryLevel.PRACTICING, result.masteryLevel)
     }
 
     @Test(expected = IllegalArgumentException::class)

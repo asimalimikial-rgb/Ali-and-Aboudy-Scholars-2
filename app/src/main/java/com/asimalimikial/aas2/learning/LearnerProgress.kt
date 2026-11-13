@@ -15,8 +15,11 @@ data class SkillProgressSnapshot(
     val scoredAttempts: Int,
     val correctAttempts: Int,
     val incorrectAttempts: Int,
+    val hintedCorrectAttempts: Int,
+    val independentCorrectAttempts: Int,
     val accuracyPercent: Int,
     val currentCorrectStreak: Int,
+    val currentIndependentCorrectStreak: Int,
     val masteryLevel: MasteryLevel
 )
 
@@ -42,13 +45,19 @@ object LearnerProgressCalculator {
 
         val correct = scored.count { it.isCorrect == true }
         val incorrect = scored.size - correct
+        val hintedCorrect = scored.count { it.isCorrect == true && it.usedHint }
+        val independentCorrect = scored.count { it.isCorrect == true && !it.usedHint }
         val accuracy = if (scored.isEmpty()) 0 else (correct * 100) / scored.size
-        val streak = scored.asReversed().takeWhile { it.isCorrect == true }.size
+        val currentStreak = scored.asReversed().takeWhile { it.isCorrect == true }.size
+        val independentStreak = scored.asReversed()
+            .takeWhile { it.isCorrect == true && !it.usedHint }
+            .size
 
+        // Provisional deterministic bands; educational calibration remains pending.
         val mastery = when {
             scored.isEmpty() -> MasteryLevel.NOT_STARTED
-            scored.size >= 5 && accuracy >= 80 && streak >= 3 -> MasteryLevel.MASTERED
-            scored.size >= 3 -> MasteryLevel.DEVELOPING
+            scored.size >= 5 && accuracy >= 80 && independentStreak >= 3 -> MasteryLevel.MASTERED
+            scored.size >= 3 && accuracy >= 60 -> MasteryLevel.DEVELOPING
             else -> MasteryLevel.PRACTICING
         }
 
@@ -58,8 +67,11 @@ object LearnerProgressCalculator {
             scoredAttempts = scored.size,
             correctAttempts = correct,
             incorrectAttempts = incorrect,
+            hintedCorrectAttempts = hintedCorrect,
+            independentCorrectAttempts = independentCorrect,
             accuracyPercent = accuracy,
-            currentCorrectStreak = streak,
+            currentCorrectStreak = currentStreak,
+            currentIndependentCorrectStreak = independentStreak,
             masteryLevel = mastery
         )
     }

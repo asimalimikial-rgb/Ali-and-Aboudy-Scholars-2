@@ -60,6 +60,19 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.joinToString(), result.isValid)
     }
 
+    @Test fun arabicActivityIsAcceptedForRtlRendering() {
+        val arabicActivity = validActivity().copy(
+            language = "ar",
+            prompt = "كم تفاحة ترى؟",
+            options = listOf(AnswerOption("two", "٢"), AnswerOption("three", "٣")),
+            correctOptionId = "three",
+            feedbackCorrect = "أحسنت!",
+            feedbackIncorrect = "حاول العد مرة أخرى."
+        )
+        val result = ContentPackValidator.validate(validPack(activities = listOf(arabicActivity)))
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
     @Test fun validSourceReferenceResolvesSkillProvenance() {
         val source = validSource()
         val skill = baseSkill().copy(sourceReferenceIds = listOf(source.sourceReferenceId))
@@ -85,7 +98,11 @@ class ContentPackValidatorTest {
     }
 
     @Test fun redistributionRequiresAttribution() {
-        val source = validSource().copy(usageRights = "REDISTRIBUTION_ALLOWED")
+        val source = validSource().copy(
+            license = "CC BY 4.0",
+            licenseUrl = "https://creativecommons.org/licenses/by/4.0/",
+            usageRights = "REDISTRIBUTION_ALLOWED"
+        )
         val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(source)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("requires attribution") })

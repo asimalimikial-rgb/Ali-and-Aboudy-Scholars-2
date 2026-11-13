@@ -47,4 +47,23 @@ class ActivityEvaluatorTest {
     fun blankOptionCannotBeSubmitted() {
         ActivityEvaluator.evaluate(activity(), " ")
     }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun unsupportedActivityTypeIsRejected() {
+        ActivityEvaluator.evaluate(activity().copy(activityType = "FREE_TEXT"), "two")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun duplicateOptionIdsAreRejectedBeforeScoring() {
+        val invalid = activity().copy(
+            options = listOf(AnswerOption("same", "1"), AnswerOption("same", "2")),
+            correctOptionId = "same"
+        )
+        ActivityEvaluator.evaluate(invalid, "same")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun blankFeedbackCannotBeReturned() {
+        ActivityEvaluator.evaluate(activity().copy(feedbackCorrect = " "), "two")
+    }
 }

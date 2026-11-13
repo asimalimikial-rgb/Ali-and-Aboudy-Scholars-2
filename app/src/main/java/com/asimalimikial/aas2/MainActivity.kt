@@ -70,6 +70,7 @@ class MainActivity : ComponentActivity() {
                     if (selectedProfile == null) {
                         LearnerProfileSelection(
                             profiles = LearnerSelectionPolicy.activeProfiles(profiles),
+                            isLoading = profiles.isEmpty(),
                             onSelect = { profile ->
                                 lifecycleScope.launch {
                                     // Persist only a learner that still exists and is active.
@@ -99,6 +100,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun LearnerProfileSelection(
     profiles: List<LearnerProfileEntity>,
+    isLoading: Boolean,
     onSelect: (LearnerProfileEntity) -> Unit
 ) {
     Column(
@@ -114,10 +116,10 @@ private fun LearnerProfileSelection(
             style = MaterialTheme.typography.bodyMedium
         )
 
-        if (profiles.isEmpty()) {
-            Text("No active learner profiles are available.", style = MaterialTheme.typography.bodyMedium)
-        } else {
-            profiles.forEach { profile ->
+        when {
+            isLoading -> Text("Preparing learner profiles…", style = MaterialTheme.typography.bodyMedium)
+            profiles.isEmpty() -> Text("No active learner profiles are available.", style = MaterialTheme.typography.bodyMedium)
+            else -> profiles.forEach { profile ->
                 Button(
                     modifier = Modifier.fillMaxWidth(),
                     onClick = { onSelect(profile) }
