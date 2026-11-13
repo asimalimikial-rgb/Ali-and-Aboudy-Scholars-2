@@ -7,6 +7,7 @@ import com.asimalimikial.aas2.content.ActivityDefinition
  * Invalid option IDs are rejected instead of being treated as incorrect answers.
  */
 data class ActivityEvaluationResult(
+    val activityId: String,
     val selectedOptionId: String,
     val isCorrect: Boolean,
     val feedback: String
@@ -18,6 +19,7 @@ object ActivityEvaluator {
         selectedOptionId: String
     ): ActivityEvaluationResult {
         require(selectedOptionId.isNotBlank()) { "A selected option is required" }
+        require(activity.activityId.isNotBlank()) { "Activity ID must not be blank" }
         require(activity.options.any { it.optionId == selectedOptionId }) {
             "Selected option does not belong to this activity"
         }
@@ -27,6 +29,7 @@ object ActivityEvaluator {
 
         val correct = selectedOptionId == activity.correctOptionId
         return ActivityEvaluationResult(
+            activityId = activity.activityId,
             selectedOptionId = selectedOptionId,
             isCorrect = correct,
             feedback = if (correct) activity.feedbackCorrect else activity.feedbackIncorrect
