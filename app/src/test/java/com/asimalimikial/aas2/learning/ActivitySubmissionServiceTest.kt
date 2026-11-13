@@ -83,7 +83,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test
-    fun validSubmissionIsEvaluatedAndPersistedForTheSelectedLearner() = runBlocking {
+    fun validSubmissionIsEvaluatedAndPersistedForTheSelectedLearner() = runBlocking<Unit> {
         val attempts = RecordingLearningAttemptDao()
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
@@ -108,7 +108,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test
-    fun incorrectSubmissionIsPersistedAsAnIncorrectResult() = runBlocking {
+    fun incorrectSubmissionIsPersistedAsAnIncorrectResult() = runBlocking<Unit> {
         val attempts = RecordingLearningAttemptDao()
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
@@ -124,7 +124,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test(expected = IllegalArgumentException::class)
-    fun unknownLearnerCannotSubmit() = runBlocking {
+    fun unknownLearnerCannotSubmit() = runBlocking<Unit> {
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(emptyList()),
             learningAttemptDao = RecordingLearningAttemptDao()
@@ -133,7 +133,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test(expected = IllegalArgumentException::class)
-    fun learnerCannotSubmitAnotherPathwaysContentPack() = runBlocking {
+    fun learnerCannotSubmitAnotherPathwaysContentPack() = runBlocking<Unit> {
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("aboudy", "Aboudy", "Grade 2"))),
             learningAttemptDao = RecordingLearningAttemptDao()
@@ -142,7 +142,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test(expected = IllegalArgumentException::class)
-    fun inactiveLearnerCannotSubmit() = runBlocking {
+    fun inactiveLearnerCannotSubmit() = runBlocking<Unit> {
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(
                 listOf(LearnerProfileEntity("ali", "Ali", "KG2", isActive = false))
@@ -153,7 +153,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test(expected = IllegalArgumentException::class)
-    fun invalidAnswerIsNotPersisted() = runBlocking {
+    fun invalidAnswerIsNotPersisted() = runBlocking<Unit> {
         val attempts = RecordingLearningAttemptDao()
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
