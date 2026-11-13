@@ -19,6 +19,7 @@ class UserPreferences(private val context: Context) {
         }
 
     suspend fun setSelectedLearner(learnerId: String) {
+        require(learnerId.isNotBlank()) { "learnerId must not be blank" }
         context.dataStore.edit { preferences ->
             preferences[selectedLearnerKey] = learnerId
         }
