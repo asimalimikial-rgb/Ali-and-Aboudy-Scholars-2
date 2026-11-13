@@ -1,7 +1,8 @@
 package com.asimalimikial.aas2.content
 
 object ContentPackValidator {
-    private const val CURRENT_SCHEMA_VERSION = 1
+    // Version 2 introduces the structured activities and answer-option model.
+    private const val CURRENT_SCHEMA_VERSION = 2
     private val supportedLearnerPaths = setOf("KG2", "GRADE_2")
     private val supportedActivityTypes = setOf("SINGLE_CHOICE")
     private val supportedLanguages = setOf("en", "ar")
