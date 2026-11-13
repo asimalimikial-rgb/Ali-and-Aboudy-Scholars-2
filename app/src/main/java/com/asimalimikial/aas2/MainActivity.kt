@@ -19,6 +19,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
+import com.asimalimikial.aas2.data.UserPreferences
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
 
         val database = AppDatabase.getInstance(applicationContext)
         val profileDao = database.learnerProfileDao()
+        val userPreferences = UserPreferences(applicationContext)
 
         lifecycleScope.launch {
             profileDao.insertDefaultsIfMissing(
@@ -47,11 +49,21 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val profiles by profileDao.observeProfiles().collectAsState(initial = emptyList())
+            val selectedLearnerId by userPreferences.selectedLearnerId.collectAsState(initial = null)
+
             MaterialTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     LearnerProfileSelection(
                         profiles = profiles,
-                        onSelect = { /* Learner home is introduced in the next vertical slice. */ }
+                        selectedLearnerId = selectedLearnerId,
+                        onSelect = { profile ->
+                            lifecycleScope.launch {
+                                // Persist only a learner that still exists in the local profile table.
+                                if (profileDao.findById(profile.learnerId) != null) {
+                                    userPreferences.setSelectedLearner(profile.learnerId)
+                                }
+                            }
+                        }
                     )
                 }
             }
@@ -62,6 +74,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun LearnerProfileSelection(
     profiles: List<LearnerProfileEntity>,
+    selectedLearnerId: String?,
     onSelect: (LearnerProfileEntity) -> Unit
 ) {
     Column(
@@ -72,10 +85,21 @@ private fun LearnerProfileSelection(
     ) {
         Text("Ali & Aboudy Scholars", style = MaterialTheme.typography.headlineMedium)
         Text("Choose a learner", style = MaterialTheme.typography.titleMedium)
+        Text(
+            "Each learner has a separate profile and learning history.",
+            style = MaterialTheme.typography.bodyMedium
+        )
 
         profiles.forEach { profile ->
+            val isSelected = profile.learnerId == selectedLearnerId
             Button(onClick = { onSelect(profile) }) {
-                Text("${profile.displayName} · ${profile.pathway}")
+                Text(
+                    if (isSelected) {
+                        "✓ ${profile.displayName} · ${profile.pathway}"
+                    } else {
+                        "${profile.displayName} · ${profile.pathway}"
+                    }
+                )
             }
         }
     }
