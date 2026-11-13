@@ -66,6 +66,26 @@ gradle :app:testDebugUnitTest
 
 The GitHub Actions workflow runs JVM unit tests and verifies that the generated Room schema matches the checked-in schema. It does **not** run emulator instrumentation, assemble an APK, or upload APK artifacts during the current source-development phase. Superseded runs on the same branch are cancelled automatically.
 
+
+## Slice 0 verification and stage gates
+
+### CI recovery record — 13 November 2026
+
+- Run [#37](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43375586084) failed during JVM test discovery: `ActivitySubmissionServiceTest > initializationError` reported JUnit `InvalidTestClassError`. The source review identified coroutine-backed test methods whose inferred return types were not JUnit 4-compatible.
+- The test methods now explicitly use `runBlocking<Unit>` (commit `af7fb94fb95e7b97eab7b3a7418d07276748335c`).
+- Run [#38](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43376505419) passed the JVM unit-test task and confirmed that the generated Room schema matches the checked-in schema.
+- A learner-scoped submission-isolation test was then added for Ali and Aboudy (commit `d6526609482538069ad4fd77d841a5c1e5c253ab`). Run [#39](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43376959943) passed both the JVM unit-test task and Room schema check.
+- These runs are source-only checks. They do not validate SQLite foreign-key behavior on a device.
+
+### Remaining integration gates
+
+- The Compose Activity Renderer supports single-choice activities and selects RTL for Arabic or LTR for English. It is not yet connected to a Content Pack repository or complete activity-navigation flow; option image assets are not yet rendered.
+- The Activity Submission Service validates the active learner and pathway, evaluates the answer, and persists learner-scoped attempt metadata. It is not yet wired into the renderer/navigation flow and does not persist the selected option or a feedback snapshot.
+- The Arabic/English implementation is per-activity language plus layout direction and button text; a complete language preference and paired localized-content workflow remain open.
+- Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
+- Content-source metadata and validation exist, but no reviewed Content Pack manifest or verified source/license catalog is present. Curriculum mapping and per-asset rights review remain blocked until those inputs exist.
+- Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
+
 ## Provisional technical identifiers
 
 The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. No APK or release should be produced from this development phase.
