@@ -162,4 +162,29 @@ class ActivitySubmissionServiceTest {
         service.submit("ali", pack(), "count-1", "not-an-option")
         assertTrue(attempts.savedAttempts.isEmpty())
     }
+
+    @Test
+    fun submissionsRemainIsolatedAcrossAliAndAboudy() = runBlocking<Unit> {
+        val attempts = RecordingLearningAttemptDao()
+        val service = ActivitySubmissionService(
+            learnerProfileDao = FakeLearnerProfileDao(
+                listOf(
+                    LearnerProfileEntity("ali", "Ali", "KG2"),
+                    LearnerProfileEntity("aboudy", "Aboudy", "Grade 2")
+                )
+            ),
+            learningAttemptDao = attempts,
+            attemptIdFactory = { "attempt-${attempts.savedAttempts.size + 1}" }
+        )
+
+        service.submit("ali", pack("KG2"), "count-1", "two")
+        service.submit("aboudy", pack("GRADE_2"), "count-1", "one")
+
+        assertEquals(listOf("ali", "aboudy"), attempts.savedAttempts.map { it.learnerId })
+        assertEquals(1, attempts.countForLearner("ali"))
+        assertEquals(1, attempts.countForLearner("aboudy"))
+        assertEquals(listOf("ali"), attempts.savedAttempts.filter { it.learnerId == "ali" }.map { it.learnerId })
+        assertEquals(listOf("aboudy"), attempts.savedAttempts.filter { it.learnerId == "aboudy" }.map { it.learnerId })
+    }
+
 }
