@@ -35,7 +35,7 @@ class ContentPackValidatorTest {
     ) = ContentPack(
         packId = "ali-numeracy-foundation",
         version = "0.1.0",
-        schemaVersion = 1,
+        schemaVersion = 2,
         learnerPath = "KG2",
         skills = skills,
         activities = activities
@@ -127,5 +127,12 @@ class ContentPackValidatorTest {
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("optionId values must be unique") })
         assertTrue(result.errors.any { it.contains("difficulty must be between 1 and 5") })
+    }
+
+    @Test
+    fun previousSchemaVersionIsRejectedExplicitly() {
+        val result = ContentPackValidator.validate(validPack().copy(schemaVersion = 1))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.single().contains("Unsupported schemaVersion"))
     }
 }
