@@ -25,17 +25,20 @@ import androidx.compose.ui.unit.dp
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 
-/** Reusable renderer; content loading and attempt persistence are owned by the caller. */
+/** Renders one validated single-choice activity; submission is delegated to the caller. */
 @Composable
 fun ActivityRenderer(
     activity: ActivityDefinition,
     evaluation: ActivityEvaluationResult?,
     onSubmitAnswer: (String) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    isSubmitting: Boolean = false,
+    submissionError: String? = null
 ) {
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
+    val canChangeAnswer = currentEvaluation == null && !isSubmitting
 
     CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
         Card(modifier = modifier.fillMaxWidth()) {
@@ -50,7 +53,7 @@ fun ActivityRenderer(
                         modifier = Modifier
                             .fillMaxWidth()
                             .semantics { selected = isSelected },
-                        enabled = currentEvaluation == null,
+                        enabled = canChangeAnswer,
                         onClick = { selectedOptionId = option.optionId },
                         colors = ButtonDefaults.outlinedButtonColors(
                             containerColor = if (isSelected) {
@@ -71,10 +74,24 @@ fun ActivityRenderer(
                 if (currentEvaluation == null) {
                     Button(
                         modifier = Modifier.fillMaxWidth(),
-                        enabled = selectedOptionId != null,
+                        enabled = selectedOptionId != null && !isSubmitting,
                         onClick = { selectedOptionId?.let(onSubmitAnswer) }
                     ) {
-                        Text(if (activity.language == "ar") "تحقق من الإجابة" else "Check answer")
+                        Text(
+                            when {
+                                isSubmitting && activity.language == "ar" -> "جارٍ حفظ الإجابة…"
+                                isSubmitting -> "Saving answer…"
+                                activity.language == "ar" -> "تحقق من الإجابة"
+                                else -> "Check answer"
+                            }
+                        )
+                    }
+                    if (submissionError != null) {
+                        Text(
+                            submissionError,
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.error
+                        )
                     }
                 } else {
                     Text(
