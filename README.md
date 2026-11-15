@@ -38,9 +38,10 @@ The active development branch is `foundation/slice-0-android`.
 - Versioned serializable content packs (schema v3)
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
-- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction
+- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, submitting state, and localized save-error feedback
 - Pure Kotlin Evaluation Engine with activity-contract checks, invalid-option rejection, and content-provided feedback
 - Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt to Room
+- Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, learner isolation, streaks, and mastery thresholds
@@ -49,8 +50,9 @@ The active development branch is `foundation/slice-0-android`.
 
 ## Important implementation boundaries
 
-- Activity Renderer and Activity Submission Service are implemented as reusable components but are not yet connected to a content-pack repository or a complete activity navigation flow.
+- `ActivitySession` now connects one supplied activity to learner-scoped evaluation and persistence. The application still does not load packs from a repository or navigate through a complete activity sequence; the caller must provide the selected learner, content pack, activity, and submission service.
 - The submission service currently stores learner ID, activity ID, skill ID, correctness, hint use, and timestamp. It does not yet persist the selected option or a feedback snapshot.
+- Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
 - Source-reference metadata and validation are implemented, but no real content-pack manifest or verified source catalog has been supplied. No reviewed, complete curriculum/content pack is claimed at this stage.
@@ -66,7 +68,6 @@ gradle :app:testDebugUnitTest
 
 The GitHub Actions workflow runs JVM unit tests and verifies that the generated Room schema matches the checked-in schema. It does **not** run emulator instrumentation, assemble an APK, or upload APK artifacts during the current source-development phase. Superseded runs on the same branch are cancelled automatically.
 
-
 ## Slice 0 verification and stage gates
 
 ### CI recovery record — 13 November 2026
@@ -75,13 +76,15 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - The test methods now explicitly use `runBlocking<Unit>` (commit `af7fb94fb95e7b97eab7b3a7418d07276748335c`).
 - Run [#38](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43376505419) passed the JVM unit-test task and confirmed that the generated Room schema matches the checked-in schema.
 - A learner-scoped submission-isolation test was then added for Ali and Aboudy (commit `d6526609482538069ad4fd77d841a5c1e5c253ab`). Run [#39](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43376959943) passed both the JVM unit-test task and Room schema check.
+- Run [#40](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43377367069) on the documented branch head passed both JVM unit tests and checked-in Room schema verification. It ran before the Activity Session integration in the next change set.
 - These runs are source-only checks. They do not validate SQLite foreign-key behavior on a device.
 
 ### Remaining integration gates
 
-- The Compose Activity Renderer supports single-choice activities and selects RTL for Arabic or LTR for English. It is not yet connected to a Content Pack repository or complete activity-navigation flow; option image assets are not yet rendered.
-- The Activity Submission Service validates the active learner and pathway, evaluates the answer, and persists learner-scoped attempt metadata. It is not yet wired into the renderer/navigation flow and does not persist the selected option or a feedback snapshot.
+- `ActivitySession` now wires the renderer to the submission service, but no Content Pack repository or complete activity-navigation flow exists yet.
+- The submission service does not persist the selected option or a feedback snapshot.
 - The Arabic/English implementation is per-activity language plus layout direction and button text; a complete language preference and paired localized-content workflow remain open.
+- Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - Content-source metadata and validation exist, but no reviewed Content Pack manifest or verified source/license catalog is present. Curriculum mapping and per-asset rights review remain blocked until those inputs exist.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
