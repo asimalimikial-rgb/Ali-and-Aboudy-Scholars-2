@@ -47,13 +47,23 @@ jobs:
       - name: Run JVM unit tests only
         run: gradle :app:testDebugUnitTest
 
+      # Temporary source-only inspection to capture Room's generated v2 schema.
+      # This prints no secrets and does not upload or publish an artifact.
+      - name: Inspect generated Room schema v2
+        run: |
+          schema=app/schemas/com.asimalimikial.aas2.data.AppDatabase/2.json
+          test -s "$schema"
+          echo "BEGIN_GENERATED_ROOM_SCHEMA_V2"
+          cat "$schema"
+          echo "END_GENERATED_ROOM_SCHEMA_V2"
+
       - name: Verify checked-in Room schema export
         run: |
           schema=app/schemas/com.asimalimikial.aas2.data.AppDatabase/1.json
           test -s "$schema"
           git ls-files --error-unmatch "$schema" >/dev/null
           git diff --exit-code -- "$schema"
-          echo "Room schema export matches the checked-in schema."
+          echo "Room schema v1 remains unchanged."
 
       # APK assembly, APK upload, and emulator instrumentation are intentionally
       # disabled during the source-development phase. Instrumentation tests

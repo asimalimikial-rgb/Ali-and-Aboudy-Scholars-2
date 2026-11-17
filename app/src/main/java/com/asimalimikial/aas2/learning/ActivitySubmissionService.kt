@@ -59,7 +59,11 @@ class ActivitySubmissionService(
                 skillId = activity.skillId,
                 isCorrect = result.isCorrect,
                 usedHint = usedHint,
-                createdAtEpochMillis = createdAt
+                createdAtEpochMillis = createdAt,
+                contentPackId = contentPack.packId,
+                contentPackVersion = contentPack.version,
+                selectedOptionId = result.selectedOptionId,
+                feedbackText = result.feedback
             )
         )
         return result

@@ -83,7 +83,7 @@ class ActivitySubmissionServiceTest {
     }
 
     @Test
-    fun validSubmissionIsEvaluatedAndPersistedForTheSelectedLearner() = runBlocking<Unit> {
+    fun validSubmissionIsEvaluatedAndFullSnapshotPersistedForSelectedLearner() = runBlocking<Unit> {
         val attempts = RecordingLearningAttemptDao()
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
@@ -105,10 +105,14 @@ class ActivitySubmissionServiceTest {
         assertEquals(true, saved.isCorrect)
         assertTrue(saved.usedHint)
         assertEquals(1234L, saved.createdAtEpochMillis)
+        assertEquals("test-pack", saved.contentPackId)
+        assertEquals("0.1.0", saved.contentPackVersion)
+        assertEquals("two", saved.selectedOptionId)
+        assertEquals("Well done", saved.feedbackText)
     }
 
     @Test
-    fun incorrectSubmissionIsPersistedAsAnIncorrectResult() = runBlocking<Unit> {
+    fun incorrectSubmissionPersistsSelectedOptionAndIncorrectFeedback() = runBlocking<Unit> {
         val attempts = RecordingLearningAttemptDao()
         val service = ActivitySubmissionService(
             learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
@@ -120,7 +124,10 @@ class ActivitySubmissionServiceTest {
         val result = service.submit("ali", pack(), "count-1", "one")
 
         assertFalse(result.isCorrect)
-        assertEquals(false, attempts.savedAttempts.single().isCorrect)
+        val saved = attempts.savedAttempts.single()
+        assertEquals(false, saved.isCorrect)
+        assertEquals("one", saved.selectedOptionId)
+        assertEquals("Try again", saved.feedbackText)
     }
 
     @Test(expected = IllegalArgumentException::class)
@@ -186,5 +193,4 @@ class ActivitySubmissionServiceTest {
         assertEquals(listOf("ali"), attempts.savedAttempts.filter { it.learnerId == "ali" }.map { it.learnerId })
         assertEquals(listOf("aboudy"), attempts.savedAttempts.filter { it.learnerId == "aboudy" }.map { it.learnerId })
     }
-
 }

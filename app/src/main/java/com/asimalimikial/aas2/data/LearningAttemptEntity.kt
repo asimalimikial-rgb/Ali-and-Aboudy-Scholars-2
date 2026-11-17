@@ -28,5 +28,12 @@ data class LearningAttemptEntity(
     val skillId: String,
     val isCorrect: Boolean?,
     val usedHint: Boolean,
-    val createdAtEpochMillis: Long
+    val createdAtEpochMillis: Long,
+    /**
+     * Nullable so attempts created before schema version 2 remain readable.
+     */
+    val contentPackId: String? = null,
+    val contentPackVersion: String? = null,
+    val selectedOptionId: String? = null,
+    val feedbackText: String? = null
 )
