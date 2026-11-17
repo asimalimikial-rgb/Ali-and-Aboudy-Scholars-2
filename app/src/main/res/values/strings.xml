@@ -21,6 +21,14 @@
     <string name="learning_area_thinking_creativity">Thinking &amp; Creativity</string>
     <string name="in_preparation">In preparation</string>
     <string name="switch_learner">Switch learner</string>
+    <string name="start_learning">Start learning</string>
+    <string name="learning_activities">Choose an activity</string>
+    <string name="loading_content_pack">Loading your activities…</string>
+    <string name="content_pack_load_error">Your activities could not be loaded. Please try again later.</string>
+    <string name="back_to_activities">Back to activities</string>
+    <string name="back_to_learning_space">Back to learning space</string>
+    <string name="no_activities_available">No activities are available in this language yet.</string>
+    <string name="activity_list_item">%1$d. %2$s</string>
 
     <string name="activity_check_answer_en">Check answer</string>
     <string name="activity_check_answer_ar">تحقق من الإجابة</string>

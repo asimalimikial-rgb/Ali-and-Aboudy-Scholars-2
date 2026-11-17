@@ -20,12 +20,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
+import com.asimalimikial.aas2.content.AndroidAssetContentPackTextSource
+import com.asimalimikial.aas2.content.AssetContentPackRepository
+import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.ui.LearningExperienceScreen
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
 import com.asimalimikial.aas2.data.LearnerSelectionPolicy
@@ -38,6 +45,13 @@ class MainActivity : ComponentActivity() {
         val database = AppDatabase.getInstance(applicationContext)
         val profileDao = database.learnerProfileDao()
         val userPreferences = UserPreferences(applicationContext)
+        val contentPackRepository = AssetContentPackRepository(
+            AndroidAssetContentPackTextSource(applicationContext)
+        )
+        val submissionService = ActivitySubmissionService(
+            learnerProfileDao = profileDao,
+            learningAttemptDao = database.learningAttemptDao()
+        )
 
         lifecycleScope.launch {
             profileDao.insertDefaultsIfMissing(
@@ -60,6 +74,11 @@ class MainActivity : ComponentActivity() {
             val profiles by profileDao.observeProfiles().collectAsState(initial = emptyList())
             val selectedLearnerId by userPreferences.selectedLearnerId.collectAsState(initial = null)
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
+            var showLearningExperience by remember { mutableStateOf(false) }
+
+            LaunchedEffect(selectedProfile?.learnerId) {
+                showLearningExperience = false
+            }
 
             LaunchedEffect(selectedLearnerId, profiles) {
                 if (LearnerSelectionPolicy.shouldClearSelection(selectedLearnerId, profiles)) {
@@ -83,10 +102,21 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
                         )
+                    } else if (showLearningExperience) {
+                        LearningExperienceScreen(
+                            learnerId = selectedProfile.learnerId,
+                            learnerPathway = selectedProfile.pathway,
+                            preferredLanguage = Locale.getDefault().language,
+                            contentPackRepository = contentPackRepository,
+                            submissionService = submissionService,
+                            onExit = { showLearningExperience = false }
+                        )
                     } else {
                         LearnerHome(
                             profile = selectedProfile,
+                            onStartLearning = { showLearningExperience = true },
                             onSwitchLearner = {
+                                showLearningExperience = false
                                 lifecycleScope.launch {
                                     userPreferences.clearSelectedLearner()
                                 }
@@ -138,6 +168,7 @@ private fun LearnerProfileSelection(
 @Composable
 private fun LearnerHome(
     profile: LearnerProfileEntity,
+    onStartLearning: () -> Unit,
     onSwitchLearner: () -> Unit
 ) {
     val displayName = localizedLearnerName(profile)
@@ -170,6 +201,13 @@ private fun LearnerHome(
                     style = MaterialTheme.typography.bodyMedium
                 )
             }
+        }
+
+        Button(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = onStartLearning
+        ) {
+            Text(stringResource(R.string.start_learning))
         }
 
         Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge)

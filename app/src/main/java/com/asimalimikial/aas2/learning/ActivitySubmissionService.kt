@@ -5,7 +5,6 @@ import com.asimalimikial.aas2.content.ContentPackValidator
 import com.asimalimikial.aas2.data.LearnerProfileDao
 import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.data.LearningAttemptEntity
-import java.util.Locale
 import java.util.UUID
 
 /**
@@ -31,7 +30,7 @@ class ActivitySubmissionService(
             ?: throw IllegalArgumentException("Unknown learnerId")
         require(learner.isActive) { "Inactive learner profiles cannot submit activities" }
 
-        val expectedPath = canonicalLearnerPath(learner.pathway)
+        val expectedPath = ContentPackSelectionPolicy.canonicalLearnerPath(learner.pathway)
             ?: throw IllegalArgumentException("Unsupported learner pathway")
         require(contentPack.learnerPath == expectedPath) {
             "Content pack does not belong to the selected learner pathway"
@@ -69,10 +68,4 @@ class ActivitySubmissionService(
         return result
     }
 
-    private fun canonicalLearnerPath(pathway: String): String? =
-        when (pathway.trim().uppercase(Locale.ROOT)) {
-            "KG2" -> "KG2"
-            "GRADE 2", "GRADE_2", "GRADE2" -> "GRADE_2"
-            else -> null
-        }
 }

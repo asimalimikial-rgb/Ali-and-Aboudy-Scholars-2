@@ -35,6 +35,7 @@ The active development branch is `foundation/slice-0-android`.
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
 - Learner chooser and persisted learner-home flow, localized through Android `values` and `values-ar` resources according to the device language, including launcher label, learner names, and pathway labels
+- Learning flow wired into MainActivity: pathway selects the matching bundled pilot pack, activities are filtered to the device language (with English fallback), and ActivitySession submissions persist learner-scoped attempts in Room
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
@@ -55,7 +56,7 @@ The active development branch is `foundation/slice-0-android`.
 - Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
-- Source-reference metadata and validation are implemented, but no real content-pack manifest or verified source catalog has been supplied. No reviewed, complete curriculum/content pack is claimed at this stage.
+- A verified source and rights register exists, and two small bilingual pilot packs are bundled and validated. They are not a complete curriculum; additional subject coverage, more activities, and a versioned content-pack catalog remain open.
 - The migration JVM test verifies the four nullable `ALTER TABLE ... ADD COLUMN` statements and rejects destructive table-drop SQL; it does not execute the migration against a real SQLite database. Room foreign-key and actual migration instrumentation tests remain unexecuted under the no-APK restriction.
 
 ## Source validation
@@ -108,11 +109,11 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Remaining integration gates
 
-- The repository infrastructure exists, but no actual content-pack JSON assets or manifest have been supplied, and no complete activity-navigation flow exists yet.
+- Two source-backed bilingual pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and progress dashboard remain open.
 - The app shell now follows the Android device language through `values` and `values-ar`; activity text and action labels follow the selected content pack language. An in-app language picker and paired localized-content workflow remain open.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
-- Content-source metadata and validation exist, but no reviewed Content Pack manifest or verified source/license catalog is present. Curriculum mapping and per-asset rights review remain blocked until those inputs exist.
+- The source/license register and per-pack source references are in place. The current packs are initial samples only; full curriculum mapping, a catalog/manifest, and per-asset review for future images/audio remain open.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
 
 ## Provisional technical identifiers
