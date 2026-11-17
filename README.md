@@ -87,6 +87,13 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - Commit `4238f512c712503b42b6adcdde725e9690912caa` added a JVM test for the additive migration SQL contract. Run [#49](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44193959359) passed all JVM tests and schema checks.
 - Runs #47–#49 produced zero workflow artifacts. No APK, Test APK, instrumentation, emulator run, or release was created.
 
+### Recent offline content and localization verification — 18 November 2026
+
+- Commit `a00d14ed6a72077d108e24fae7bd194567ddc09f` added the offline asset-based `ContentPackRepository`, safe pack-ID validation, strict JSON decoding, and distinct read/format/validation errors. Run [#51](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44194965564) passed all JVM tests and Room schema checks.
+- Commit `d467fe13e01a4d22678f8c0eddb5ede36ddfc432` added Arabic resource strings for the learner shell and content-language-specific activity actions/errors. Run [#52](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44195740216) passed.
+- Commit `aba6b713a63cb63f47c5a73a08791d91ffc52ed3` localized the Android launcher label, learner display names, and KG2/Grade 2 pathway labels. Run [#53](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44196357440) passed.
+- Runs #51–#53 produced zero workflow artifacts. No APK, Test APK, instrumentation test, emulator test, or release was created. Run #50 was cancelled when the newer content-repository commit superseded it; Run #51 is the successful verification for that code.
+
 ### Remaining integration gates
 
 - The repository infrastructure exists, but no actual content-pack JSON assets or manifest have been supplied, and no complete activity-navigation flow exists yet.
