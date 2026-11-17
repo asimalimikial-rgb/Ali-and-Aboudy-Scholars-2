@@ -8,12 +8,24 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class BundledContentPackAssetsTest {
-    private val repository = AssetContentPackRepository(
-        source = ContentPackTextSource { assetPath ->
-            File("src/main/assets", assetPath).readText(Charsets.UTF_8)
-        },
-        ioDispatcher = Dispatchers.Unconfined
-    )
+    private fun assetsRoot(): File {
+        val candidates = listOf(
+            File("src/main/assets"),
+            File("app/src/main/assets")
+        )
+        return candidates.firstOrNull { it.isDirectory }
+            ?: throw AssertionError("Could not locate app/src/main/assets from the JVM test working directory")
+    }
+
+    private val repository by lazy {
+        val root = assetsRoot()
+        AssetContentPackRepository(
+            source = ContentPackTextSource { assetPath ->
+                File(root, assetPath).readText(Charsets.UTF_8)
+            },
+            ioDispatcher = Dispatchers.Unconfined
+        )
+    }
 
     @Test
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {

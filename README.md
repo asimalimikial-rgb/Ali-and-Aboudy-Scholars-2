@@ -96,7 +96,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Initial original-content pilot packs
 
-- Bundled assets: `aas2-kg2-foundation` (4 skills, 8 bilingual activities) and `aas2-grade2-foundation` (6 skills, 12 bilingual activities), each with source-reference and rights metadata.
+- Bundled assets: `aas2-kg2-foundation` (4 skills, 8 bilingual activities) and `aas2-grade2-foundation` (6 skills, 12 bilingual activities), each with source-reference and rights metadata. JVM tests load these exact asset files through `AssetContentPackRepository` and validate them.
 - These are small foundation pilots, not complete KG2 or Grade 2 curricula. Their activity wording and options are original; copyrighted textbook passages, exercises, illustrations, and scripts are not included.
 - The repository can load and validate the bundled assets, but MainActivity/navigation is not yet wired to a pack catalog or activity sequence.
 
