@@ -117,7 +117,11 @@ object ContentPackValidator {
     }
 
     private fun isValidIsoDate(value: String): Boolean {
-        if (!Regex("""^\\d{4}-\\d{2}-\\d{2}$""").matches(value)) return false
+        if (value.length != 10 || value[4] != '-' || value[7] != '-') return false
+        for (index in value.indices) {
+            if (index == 4 || index == 7) continue
+            if (value[index] !in '0'..'9') return false
+        }
 
         val year = value.substring(0, 4).toInt()
         val month = value.substring(5, 7).toInt()
