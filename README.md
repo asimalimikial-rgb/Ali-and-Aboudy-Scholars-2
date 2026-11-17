@@ -35,7 +35,7 @@ The active development branch is `foundation/slice-0-android`.
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
 - Learner chooser and persisted learner-home flow
-- Versioned serializable content packs (schema v3)
+- Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
 - Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, submitting state, and localized save-error feedback
@@ -44,13 +44,13 @@ The active development branch is `foundation/slice-0-android`.
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Explicit learner-and-skill DAO query paths for progress reads
-- JVM unit tests for learner-selection policy, content validation and provenance, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
+- JVM unit tests for learner-selection policy, content validation and provenance, offline content-pack loading and failure handling, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
 - Room foreign-key isolation tests retained in source, pending later emulator validation
 
 ## Important implementation boundaries
 
-- `ActivitySession` now connects one supplied activity to learner-scoped evaluation and persistence. The application still does not load packs from a repository or navigate through a complete activity sequence; the caller must provide the selected learner, content pack, activity, and submission service.
+- `AssetContentPackRepository` can load and validate bundled JSON packs from `assets/content-packs/{packId}.json`. It is not yet wired into `MainActivity` or a complete activity-navigation flow; the caller must still provide the selected learner, content pack, activity, and submission service to `ActivitySession`.
 - Legacy attempt rows retain null values for the snapshot fields introduced in schema v2 because the earlier app version never recorded those values. New submissions persist the content-pack identity/version, selected option ID, and the exact feedback text shown at evaluation time.
 - Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
@@ -89,7 +89,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Remaining integration gates
 
-- `ActivitySession` now wires the renderer to the submission service, but no Content Pack repository or complete activity-navigation flow exists yet.
+- The repository infrastructure exists, but no actual content-pack JSON assets or manifest have been supplied, and no complete activity-navigation flow exists yet.
 - The Arabic/English implementation is per-activity language plus layout direction and button text; a complete language preference and paired localized-content workflow remain open.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
