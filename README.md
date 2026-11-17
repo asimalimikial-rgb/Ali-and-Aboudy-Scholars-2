@@ -34,11 +34,11 @@ The active development branch is `foundation/slice-0-android`.
 - Room database for separate learner profiles and learner-scoped learning-attempt records (schema v2)
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
-- Learner chooser and persisted learner-home flow
+- Learner chooser and persisted learner-home flow, localized through Android `values` and `values-ar` resources according to the device language
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
-- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, submitting state, and localized save-error feedback
+- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, content-language action labels, and localized save-error feedback
 - Pure Kotlin Evaluation Engine with activity-contract checks, invalid-option rejection, and content-provided feedback
 - Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt snapshot to Room (content-pack ID/version, selected option ID, correctness, hint use, feedback text, and timestamp)
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
@@ -90,7 +90,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 ### Remaining integration gates
 
 - The repository infrastructure exists, but no actual content-pack JSON assets or manifest have been supplied, and no complete activity-navigation flow exists yet.
-- The Arabic/English implementation is per-activity language plus layout direction and button text; a complete language preference and paired localized-content workflow remain open.
+- The app shell now follows the Android device language through `values` and `values-ar`; activity text and action labels follow the selected content pack language. An in-app language picker and paired localized-content workflow remain open.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - Content-source metadata and validation exist, but no reviewed Content Pack manifest or verified source/license catalog is present. Curriculum mapping and per-asset rights review remain blocked until those inputs exist.

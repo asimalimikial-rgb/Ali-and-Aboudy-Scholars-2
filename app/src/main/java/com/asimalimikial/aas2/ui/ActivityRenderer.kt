@@ -18,10 +18,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 
@@ -39,6 +41,12 @@ fun ActivityRenderer(
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
     val canChangeAnswer = currentEvaluation == null && !isSubmitting
+    val checkAnswerLabel = stringResource(
+        if (activity.language == "ar") R.string.activity_check_answer_ar else R.string.activity_check_answer_en
+    )
+    val savingAnswerLabel = stringResource(
+        if (activity.language == "ar") R.string.activity_saving_answer_ar else R.string.activity_saving_answer_en
+    )
 
     CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
         Card(modifier = modifier.fillMaxWidth()) {
@@ -68,7 +76,7 @@ fun ActivityRenderer(
                             }
                         )
                     ) {
-                        Text(if (isSelected) "✓  ${option.text}" else option.text)
+                        Text(if (isSelected) "✓  " + option.text else option.text)
                     }
                 }
                 if (currentEvaluation == null) {
@@ -77,14 +85,7 @@ fun ActivityRenderer(
                         enabled = selectedOptionId != null && !isSubmitting,
                         onClick = { selectedOptionId?.let(onSubmitAnswer) }
                     ) {
-                        Text(
-                            when {
-                                isSubmitting && activity.language == "ar" -> "جارٍ حفظ الإجابة…"
-                                isSubmitting -> "Saving answer…"
-                                activity.language == "ar" -> "تحقق من الإجابة"
-                                else -> "Check answer"
-                            }
-                        )
+                        Text(if (isSubmitting) savingAnswerLabel else checkAnswerLabel)
                     }
                     if (submissionError != null) {
                         Text(

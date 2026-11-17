@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Ali &amp; Aboudy Scholars</string>
+    <string name="choose_learner">Choose a learner</string>
+    <string name="learner_separation_note">Each learner has a separate profile and learning history.</string>
+    <string name="preparing_profiles">Preparing learner profiles…</string>
+    <string name="no_active_profiles">No active learner profiles are available.</string>
+    <string name="learner_label">%1$s · %2$s</string>
+    <string name="welcome_name">Welcome, %1$s!</string>
+    <string name="learning_pathway">Your learning pathway: %1$s</string>
+    <string name="learning_space_title">Your learning space</string>
+    <string name="learning_space_description">Your activities and progress are stored separately from the other learner.</string>
+    <string name="learning_areas">Learning areas</string>
+    <string name="learning_area_english_literacy">English &amp; Literacy</string>
+    <string name="learning_area_mathematics">Mathematics</string>
+    <string name="learning_area_science_discovery">Science &amp; Discovery</string>
+    <string name="learning_area_thinking_creativity">Thinking &amp; Creativity</string>
+    <string name="in_preparation">In preparation</string>
+    <string name="switch_learner">Switch learner</string>
+
+    <string name="activity_check_answer_en">Check answer</string>
+    <string name="activity_check_answer_ar">تحقق من الإجابة</string>
+    <string name="activity_saving_answer_en">Saving answer…</string>
+    <string name="activity_saving_answer_ar">جارٍ حفظ الإجابة…</string>
+    <string name="activity_save_error_en">Your answer could not be saved. Please try again.</string>
+    <string name="activity_save_error_ar">تعذر حفظ إجابتك. حاول مرة أخرى.</string>
+</resources>

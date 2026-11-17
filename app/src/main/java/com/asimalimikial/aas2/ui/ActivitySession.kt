@@ -8,6 +8,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
@@ -28,6 +30,9 @@ fun ActivitySession(
     modifier: Modifier = Modifier
 ) {
     val scope = rememberCoroutineScope()
+    val saveErrorText = stringResource(
+        if (activity.language == "ar") R.string.activity_save_error_ar else R.string.activity_save_error_en
+    )
     val sessionKey = ActivitySessionKey(
         learnerId = learnerId,
         contentPackId = contentPack.packId,
@@ -62,11 +67,7 @@ fun ActivitySession(
                         } catch (cancelled: CancellationException) {
                             throw cancelled
                         } catch (_: Exception) {
-                            submissionError = if (activity.language == "ar") {
-                                "تعذر حفظ الإجابة. تحقق من الاتصال بقاعدة البيانات ثم حاول مرة أخرى."
-                            } else {
-                                "Your answer could not be saved. Please try again."
-                            }
+                            submissionError = saveErrorText
                         } finally {
                             isSubmitting = false
                         }

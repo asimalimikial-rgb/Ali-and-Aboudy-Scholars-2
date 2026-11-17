@@ -20,14 +20,15 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
 import com.asimalimikial.aas2.data.LearnerSelectionPolicy
 import com.asimalimikial.aas2.data.UserPreferences
-import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -109,22 +110,22 @@ private fun LearnerProfileSelection(
             .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        Text("Ali & Aboudy Scholars", style = MaterialTheme.typography.headlineMedium)
-        Text("Choose a learner", style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.app_title), style = MaterialTheme.typography.headlineMedium)
+        Text(stringResource(R.string.choose_learner), style = MaterialTheme.typography.titleMedium)
         Text(
-            "Each learner has a separate profile and learning history.",
+            stringResource(R.string.learner_separation_note),
             style = MaterialTheme.typography.bodyMedium
         )
 
         when {
-            isLoading -> Text("Preparing learner profiles…", style = MaterialTheme.typography.bodyMedium)
-            profiles.isEmpty() -> Text("No active learner profiles are available.", style = MaterialTheme.typography.bodyMedium)
+            isLoading -> Text(stringResource(R.string.preparing_profiles), style = MaterialTheme.typography.bodyMedium)
+            profiles.isEmpty() -> Text(stringResource(R.string.no_active_profiles), style = MaterialTheme.typography.bodyMedium)
             else -> profiles.forEach { profile ->
                 Button(
                     modifier = Modifier.fillMaxWidth(),
                     onClick = { onSelect(profile) }
                 ) {
-                    Text("${profile.displayName} · ${profile.pathway}")
+                    Text(stringResource(R.string.learner_label, profile.displayName, profile.pathway))
                 }
             }
         }
@@ -143,12 +144,12 @@ private fun LearnerHome(
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            "Welcome, ${profile.displayName}!",
+            stringResource(R.string.welcome_name, profile.displayName),
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold
         )
         Text(
-            "Your learning pathway: ${profile.pathway}",
+            stringResource(R.string.learning_pathway, profile.pathway),
             style = MaterialTheme.typography.titleMedium
         )
 
@@ -157,35 +158,39 @@ private fun LearnerHome(
                 modifier = Modifier.padding(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text("Your learning space", style = MaterialTheme.typography.titleLarge)
+                Text(stringResource(R.string.learning_space_title), style = MaterialTheme.typography.titleLarge)
                 Text(
-                    "Your activities and progress are stored separately from the other learner.",
+                    stringResource(R.string.learning_space_description),
                     style = MaterialTheme.typography.bodyMedium
                 )
             }
         }
 
-        Text("Learning areas", style = MaterialTheme.typography.titleLarge)
-        listOf("English & Literacy", "Mathematics", "Science & Discovery", "Thinking & Creativity")
-            .forEach { subject ->
-                Card(modifier = Modifier.fillMaxWidth()) {
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16.dp),
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ) {
-                        Text(subject, style = MaterialTheme.typography.titleMedium)
-                        Text("In preparation", style = MaterialTheme.typography.bodySmall)
-                    }
+        Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge)
+        listOf(
+            R.string.learning_area_english_literacy,
+            R.string.learning_area_mathematics,
+            R.string.learning_area_science_discovery,
+            R.string.learning_area_thinking_creativity
+        ).forEach { subjectResId ->
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(stringResource(subjectResId), style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.in_preparation), style = MaterialTheme.typography.bodySmall)
                 }
             }
+        }
 
         OutlinedButton(
             modifier = Modifier.fillMaxWidth(),
             onClick = onSwitchLearner
         ) {
-            Text("Switch learner")
+            Text(stringResource(R.string.switch_learner))
         }
     }
 }

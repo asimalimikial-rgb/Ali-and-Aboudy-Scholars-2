@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">علماء علي وعبودي</string>
+    <string name="choose_learner">اختر المتعلم</string>
+    <string name="learner_separation_note">لكل طفل ملف تعلّم وسجل إنجازات مستقل.</string>
+    <string name="preparing_profiles">جارٍ تجهيز ملفات المتعلمين…</string>
+    <string name="no_active_profiles">لا توجد ملفات متعلمين نشطة حالياً.</string>
+    <string name="learner_label">%1$s · %2$s</string>
+    <string name="welcome_name">مرحباً، %1$s!</string>
+    <string name="learning_pathway">المسار التعليمي: %1$s</string>
+    <string name="learning_space_title">مساحة التعلم الخاصة بك</string>
+    <string name="learning_space_description">تُحفظ أنشطتك وتقدمك بصورة مستقلة عن المتعلم الآخر.</string>
+    <string name="learning_areas">مجالات التعلم</string>
+    <string name="learning_area_english_literacy">اللغة الإنجليزية والقراءة والكتابة</string>
+    <string name="learning_area_mathematics">الرياضيات</string>
+    <string name="learning_area_science_discovery">العلوم والاستكشاف</string>
+    <string name="learning_area_thinking_creativity">التفكير والإبداع</string>
+    <string name="in_preparation">قيد الإعداد</string>
+    <string name="switch_learner">تبديل المتعلم</string>
+</resources>
