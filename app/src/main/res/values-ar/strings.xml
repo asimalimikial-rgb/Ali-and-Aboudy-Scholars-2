@@ -29,4 +29,10 @@
     <string name="back_to_learning_space">العودة إلى مساحة التعلم</string>
     <string name="no_activities_available">لا توجد أنشطة متاحة بهذه اللغة حالياً.</string>
     <string name="activity_list_item">%1$d. %2$s</string>
+    <string name="practice_summary_title">ملخص التدريب</string>
+    <string name="practice_summary_empty">سيظهر سجل تدريبك هنا بعد أول إجابة.</string>
+    <string name="practice_summary_scored_attempts">المحاولات التي تم تقييمها: %1$d</string>
+    <string name="practice_summary_correct_answers">الإجابات الصحيحة: %1$d</string>
+    <string name="practice_summary_accuracy">نسبة الإجابات الصحيحة: %1$d%%</string>
+    <string name="practice_summary_hint_breakdown">صحيحة دون تلميح: %1$d · مع تلميح: %2$d</string>
 </resources>

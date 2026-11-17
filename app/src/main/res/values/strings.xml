@@ -29,6 +29,12 @@
     <string name="back_to_learning_space">Back to learning space</string>
     <string name="no_activities_available">No activities are available in this language yet.</string>
     <string name="activity_list_item">%1$d. %2$s</string>
+    <string name="practice_summary_title">Practice summary</string>
+    <string name="practice_summary_empty">Your saved practice will appear here after your first answer.</string>
+    <string name="practice_summary_scored_attempts">Scored attempts: %1$d</string>
+    <string name="practice_summary_correct_answers">Correct answers: %1$d</string>
+    <string name="practice_summary_accuracy">Accuracy: %1$d%%</string>
+    <string name="practice_summary_hint_breakdown">Correct without hints: %1$d · with hints: %2$d</string>
 
     <string name="activity_check_answer_en">Check answer</string>
     <string name="activity_check_answer_ar">تحقق من الإجابة</string>

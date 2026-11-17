@@ -44,6 +44,7 @@ The active development branch is `foundation/slice-0-android`.
 - Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt snapshot to Room (content-pack ID/version, selected option ID, correctness, hint use, feedback text, and timestamp)
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
+- Learner-home practice summary sourced from the selected learner's Room attempts, showing scored attempts, correct answers, accuracy, and hinted versus independent correct answers
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, offline content-pack loading and failure handling, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
@@ -109,7 +110,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Remaining integration gates
 
-- Two source-backed bilingual pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and progress dashboard remain open.
+- Two source-backed bilingual pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and skill-level progress visualization remain open.
 - The app shell now follows the Android device language through `values` and `values-ar`; activity text and action labels follow the selected content pack language. An in-app language picker and paired localized-content workflow remain open.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.

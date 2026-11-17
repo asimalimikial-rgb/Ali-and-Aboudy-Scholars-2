@@ -32,9 +32,11 @@ import kotlinx.coroutines.launch
 import com.asimalimikial.aas2.content.AndroidAssetContentPackTextSource
 import com.asimalimikial.aas2.content.AssetContentPackRepository
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
+import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.data.LearnerSelectionPolicy
 import com.asimalimikial.aas2.data.UserPreferences
 
@@ -114,6 +116,7 @@ class MainActivity : ComponentActivity() {
                     } else {
                         LearnerHome(
                             profile = selectedProfile,
+                            learningAttemptDao = database.learningAttemptDao(),
                             onStartLearning = { showLearningExperience = true },
                             onSwitchLearner = {
                                 showLearningExperience = false
@@ -168,11 +171,16 @@ private fun LearnerProfileSelection(
 @Composable
 private fun LearnerHome(
     profile: LearnerProfileEntity,
+    learningAttemptDao: LearningAttemptDao,
     onStartLearning: () -> Unit,
     onSwitchLearner: () -> Unit
 ) {
     val displayName = localizedLearnerName(profile)
     val displayPathway = localizedPathway(profile.pathway)
+    val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
+    val practiceSummary = remember(profile.learnerId, attempts) {
+        LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
+    }
 
     Column(
         modifier = Modifier
@@ -200,6 +208,45 @@ private fun LearnerHome(
                     stringResource(R.string.learning_space_description),
                     style = MaterialTheme.typography.bodyMedium
                 )
+            }
+        }
+
+        Card(modifier = Modifier.fillMaxWidth()) {
+            Column(
+                modifier = Modifier.padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                Text(
+                    stringResource(R.string.practice_summary_title),
+                    style = MaterialTheme.typography.titleLarge
+                )
+                if (practiceSummary.scoredAttempts == 0) {
+                    Text(
+                        stringResource(R.string.practice_summary_empty),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                } else {
+                    Text(
+                        stringResource(R.string.practice_summary_scored_attempts, practiceSummary.scoredAttempts),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Text(
+                        stringResource(R.string.practice_summary_correct_answers, practiceSummary.correctAnswers),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Text(
+                        stringResource(R.string.practice_summary_accuracy, practiceSummary.accuracyPercent),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Text(
+                        stringResource(
+                            R.string.practice_summary_hint_breakdown,
+                            practiceSummary.independentCorrectAnswers,
+                            practiceSummary.hintedCorrectAnswers
+                        ),
+                        style = MaterialTheme.typography.bodySmall
+                    )
+                }
             }
         }
 
