@@ -61,8 +61,8 @@ class ContentPackSelectionPolicyTest {
         language = language,
         prompt = "Test prompt",
         options = listOf(
-            ActivityOption(optionId = "a", text = "A"),
-            ActivityOption(optionId = "b", text = "B")
+            AnswerOption(optionId = "a", text = "A"),
+            AnswerOption(optionId = "b", text = "B")
         ),
         correctOptionId = "a",
         feedbackCorrect = "Correct",
