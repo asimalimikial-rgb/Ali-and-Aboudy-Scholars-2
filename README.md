@@ -94,6 +94,12 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - Commit `aba6b713a63cb63f47c5a73a08791d91ffc52ed3` localized the Android launcher label, learner display names, and KG2/Grade 2 pathway labels. Run [#53](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44196357440) passed.
 - Runs #51–#53 produced zero workflow artifacts. No APK, Test APK, instrumentation test, emulator test, or release was created. Run #50 was cancelled when the newer content-repository commit superseded it; Run #51 is the successful verification for that code.
 
+### Content provenance and licensing
+
+- The source and rights register is maintained in [`docs/content-source-register.md`](docs/content-source-register.md).
+- Production packs must distinguish reference-only curriculum sources from sources whose exact edition permits redistribution/adaptation. Every skill must carry source reference IDs; each source record must include its URL, rights statement, usage-rights classification, attribution where required, and verification date.
+- No copyrighted textbook questions, passages, dialogues, scripts, illustrations, characters, or page layouts may be copied into AAS2. Sudan Ministry/NCCER textbooks are reference-only unless written permission is obtained.
+
 ### Remaining integration gates
 
 - The repository infrastructure exists, but no actual content-pack JSON assets or manifest have been supplied, and no complete activity-navigation flow exists yet.

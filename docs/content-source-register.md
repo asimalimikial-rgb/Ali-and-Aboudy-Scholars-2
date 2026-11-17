@@ -1,0 +1,105 @@
+# AAS2 content-source and licensing register
+
+**Verified:** 2026-11-18  
+**Scope:** Ali & Aboudy Scholars 2 (AAS2-NEW), KG2 and Grade 2 content packs.  
+**Default rule:** a source is `REFERENCE_ONLY` unless the exact edition and reuse rights have been verified. Free access or a downloadable PDF does not mean permission to copy, adapt, or redistribute it.
+
+This register records sources that may inform original learning outcomes and content. It does not authorize copying protected textbook passages, exercises, illustrations, dialogue, characters, page layouts, audio, or assessment items.
+
+## Reuse-approved sources (subject to the listed conditions)
+
+### 1. Illustrative Mathematics — first edition IM K–12 Math (2019–2021)
+
+- **Source:** [Illustrative Mathematics Terms of Use](https://illustrativemathematics.org/terms-of-use/) and [K–5 curriculum](https://curriculum.illustrativemathematics.org/k5/curriculum.html)
+- **Scope:** Grade 2 number sense, addition/subtraction, place value, measurement, data, geometry, time, money, and equal groups.
+- **License:** CC BY 4.0 applies to the first edition, © 2019–2021.
+- **AAS2 usageRights:** `ADAPTATION_ALLOWED`.
+- **Conditions:** share and adapt, including commercially, with attribution to Illustrative Mathematics, a hyperlink to the CC BY 4.0 license, and an indication of changes. Do not use the IM name or logo as the AAS2 product brand or imply endorsement.
+- **Required attribution when adapting:** “Based on IM K–12 Math authored by Illustrative Mathematics and licensed under CC BY 4.0. Modified for AAS2.” Link to [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Edition warning:** do not confuse this first edition with IM v.360 (2024/2025), which is CC BY-NC 4.0 and is not approved for commercial use without written permission.
+
+### 2. Queensland Kindergarten Learning Guideline (QKLG 2024)
+
+- **Source:** [QKLG 2024 PDF](https://www.qcaa.qld.edu.au/downloads/kindergarten/qklg_2024.pdf) and [QCAA copyright notice](https://www.qcaa.qld.edu.au/copyright).
+- **Scope:** Queensland kindergarten learning framework; useful as an age-appropriate KG2 design reference, not as a Sudanese national curriculum. Its five learning and development areas are Identity, Connectedness, Wellbeing, Active learning, and Communicating.
+- **License:** CC BY 4.0 applies to QCAA information subject to the exceptions in the QCAA copyright notice.
+- **AAS2 usageRights:** `ADAPTATION_ALLOWED` only for QCAA-created material that is actually covered by CC BY 4.0.
+- **Required attribution when adapting:** “Modified from Queensland kindergarten learning guideline (QKLG) 2024, © State of Queensland (QCAA) 2024, licensed under CC BY 4.0.” Link to the [QCAA copyright notice](https://www.qcaa.qld.edu.au/copyright).
+- **Excluded material:** the Alice Springs (Mparntwe) Education Declaration 2019 is separately licensed CC BY-NC 4.0; third-party material remains under its own rights; do not reuse QCAA/QSA trademarks, Queensland Government coat of arms, standalone student images, student work samples, or QCAA video/audio containing students. The QKLG cover acknowledgment also credits a third-party graphic; do not extract that graphic.
+- **No endorsement:** attribution must not imply QCAA affiliation or approval.
+
+### 3. NOAA / Woods Hole Sea Grant — Plant and Animal Habitats (Grade 2, 2020)
+
+- **Source:** [NOAA Institutional Repository record](https://repository.library.noaa.gov/view/noaa/39080).
+- **Authors:** Grace Simpkins and Michael Irving; NOAA OAR / Sea Grant, Woods Hole Sea Grant; 2020; document WHOI-E-20-003.
+- **Scope:** Grade 2 plant and animal habitats, basic survival needs, habitat diversity, plant/animal interdependence, and seed dispersal/pollination.
+- **Rights record:** the NOAA repository explicitly labels this item **Public Domain**.
+- **AAS2 usageRights:** `ADAPTATION_ALLOWED`.
+- **Practice:** write new Sudan-context activities and explanations; cite the authors and repository record. Check any separately sourced photographs, video, or linked materials independently rather than assuming they share the PDF's rights status.
+
+## Reference-only sources (do not copy or adapt their content)
+
+### 4. Sudan Grade 2 Mathematics textbook (revised 2021)
+
+- **Source:** [Mathematics, Grade 2, Ministry of Education / NCCER, Bakht-er-Rudha](https://www.mdl.edu.sd/img/bookpdf/math2_1659464927.pdf).
+- **Scope observed:** number to 1,000, addition, multiplication, division, measurement, and geometry.
+- **Rights:** the PDF states that copyright belongs to the National Centre for Curricula and Educational Research and that no entity may copy, reprint, or dispose of its content without written permission.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** broad topic-level curriculum alignment only. Create independent explanations, examples, diagrams, questions, and answer choices. Do not copy or adapt textbook exercises, wording, page design, or illustrations.
+
+### 5. Sudan SMILE Starter 2 English Pupil’s Book (Grade 2, second edition 2020)
+
+- **Source:** [SMILE Starter 2, Grade 2, NCCER](https://www.mdl.edu.sd/img/bookpdf/english2_1664176727.pdf).
+- **Publisher/authority shown in the book:** Republic of the Sudan, Federal Ministry of Education, National Centre for Curricula and Educational Research (NCCER).
+- **Scope observed:** broad unit themes include home, family, toys and games, animals, and food and drink.
+- **Rights:** the book states “all rights reserved” and prohibits reproduction, storage, transmission, or other copying without prior written permission.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** broad topic-level alignment only. Do not copy its stories, characters, dialogues, vocabulary sequences, listening scripts, activities, illustrations, or page layouts. All AAS2 questions and feedback must be independently authored.
+
+### 6. Common Core State Standards — Grade 2 Mathematics and ELA
+
+- **Source:** [Official Terms of Use](https://www.thecorestandards.org/terms-of-use/); Grade 2 [Mathematics](https://www.thecorestandards.org/Math/Content/2/) and [ELA/Literacy](https://www.thecorestandards.org/ELA-Literacy/).
+- **Rights:** the standards are the property of NGA Center and CCSSO. A separate public license is referenced by the official terms page; the website terms also restrict other commercial uses without prior written consent. The grant was not verified as a general right to adapt or redistribute the standards in this app.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** keep standard identifiers/codes as internal alignment references and write original learning outcomes. Do not copy the full standards wording or represent the app as endorsed by NGA Center or CCSSO.
+
+### 7. Next Generation Science Standards (NGSS), Grade 2
+
+- **Source:** [NGSS Grade 2](https://www.nextgenscience.org/grade/2) and [NGSS Trademarks and Copyright](https://www.nextgenscience.org/ngss-trademarks-and-copyright/ngss-trademarks-and-copyright).
+- **Scope:** Grade 2 standards cover observable material properties and changes, plants and habitats, Earth materials and water, and engineering design.
+- **Rights:** the NGSS public license expressly identifies states, districts, schools, teachers, and non-profit education entities as eligible to copy/adapt the standards. AAS2 project eligibility as a qualifying entity has not been established.
+- **AAS2 usageRights:** `REFERENCE_ONLY` until written permission or eligibility is confirmed.
+- **Allowed AAS2 use:** use standard codes as internal alignment references only; do not reproduce or adapt the standards text, or use NGSS trademarks/logo in AAS2 branding.
+
+### 8. Head Start Early Learning Outcomes Framework (ELOF), Ages Birth to Five
+
+- **Source:** [Official HeadStart.gov ELOF page](https://www.headstart.gov/school-readiness/article/head-start-early-learning-outcomes-framework).
+- **Scope:** broad developmental framework across five domains for infants, toddlers, and preschoolers. The official page describes it as a continuum-of-learning framework, not a curriculum or checklist.
+- **Rights:** no explicit open reuse license was identified on the official page during this review.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** pedagogical/developmental reference only; do not reproduce its framework text or materials without confirming rights.
+
+## Not approved for redistribution in AAS2 at this time
+
+- **IM v.360 (2024/2025):** CC BY-NC 4.0; non-commercial use only, with commercial use prohibited without prior written permission. Do not mix this edition with the CC BY 4.0 first edition.
+- **OpenSciEd:** materials surfaced under CC BY-NC 4.0; commercial permission and additional terms may apply. Not approved while AAS2 distribution/commercial status is unresolved.
+- **Open Up Resources current K–5 Math edition:** its current licensing information restricts commercial use without written permission. Do not treat it as interchangeable with the CC BY 4.0 IM first edition.
+
+## Unresolved local-source gaps
+
+- No official Sudan KG2 / preschool framework was verified in this search.
+- No official Sudan Grade 2 science textbook or framework was verified in this search. Unofficial uploads are not accepted as curriculum authority.
+- These are search gaps, not proof that such documents do not exist. If an official ministry/NCCER source is later supplied, verify its edition and rights notice before adding it.
+
+## AAS2 content-authoring rules
+
+1. Write original prompts, answer options, feedback, examples, diagrams, and illustrations. Never copy passages, exercises, scripts, characters, or artwork from Macmillan, SMILE, Sudanese textbooks, or any other protected book.
+2. Use `REFERENCE_ONLY` sources for topic-level alignment and independently written explanations only. A reference-only source is not a license to adapt its expression.
+3. For CC BY 4.0 sources, preserve the required attribution, link the license, and state that the material was modified. Exclude every separately licensed or third-party component.
+4. For public-domain sources, keep the rights record and source attribution in the pack metadata even though attribution is not a condition of public-domain reuse.
+5. Each production skill must identify its supporting `sourceReferenceIds`; every production pack must include source records with exact title, publisher, HTTPS URL, license/rights statement, `usageRights`, and `verifiedAt`.
+6. Use only the validator's supported `usageRights` values: `REFERENCE_ONLY`, `REDISTRIBUTION_ALLOWED`, `ADAPTATION_ALLOWED`, `PERMISSION_REQUIRED`, or `PROHIBITED`.
+7. Re-check the exact edition and license immediately before release. A new edition may carry different terms. Do not infer reuse permission from a free download.
+8. Localize original examples to Sudanese children's everyday experience without presenting a foreign framework as the Sudanese national curriculum.
+
+**Review note:** this register is a conservative engineering rights screen, not legal advice. Where terms are ambiguous, keep the source `REFERENCE_ONLY` or obtain written permission.
