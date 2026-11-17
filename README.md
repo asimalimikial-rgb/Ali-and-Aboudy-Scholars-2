@@ -31,7 +31,7 @@ This repository is **AAS2-NEW** only. It is independent of the legacy repository
 The active development branch is `foundation/slice-0-android`.
 
 - Kotlin + Jetpack Compose
-- Room database for separate learner profiles and learning-attempt records
+- Room database for separate learner profiles and learner-scoped learning-attempt records (schema v2)
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
 - Learner chooser and persisted learner-home flow
@@ -40,18 +40,18 @@ The active development branch is `foundation/slice-0-android`.
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
 - Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, submitting state, and localized save-error feedback
 - Pure Kotlin Evaluation Engine with activity-contract checks, invalid-option rejection, and content-provided feedback
-- Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt to Room
+- Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt snapshot to Room (content-pack ID/version, selected option ID, correctness, hint use, feedback text, and timestamp)
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, learner isolation, streaks, and mastery thresholds
-- Room schema v1 checked into source; CI verifies that the generated export remains identical
+- Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
 - Room foreign-key isolation tests retained in source, pending later emulator validation
 
 ## Important implementation boundaries
 
 - `ActivitySession` now connects one supplied activity to learner-scoped evaluation and persistence. The application still does not load packs from a repository or navigate through a complete activity sequence; the caller must provide the selected learner, content pack, activity, and submission service.
-- The submission service currently stores learner ID, activity ID, skill ID, correctness, hint use, and timestamp. It does not yet persist the selected option or a feedback snapshot.
+- Legacy attempt rows retain null values for the snapshot fields introduced in schema v2 because the earlier app version never recorded those values. New submissions persist the content-pack identity/version, selected option ID, and the exact feedback text shown at evaluation time.
 - Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
@@ -82,7 +82,6 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 ### Remaining integration gates
 
 - `ActivitySession` now wires the renderer to the submission service, but no Content Pack repository or complete activity-navigation flow exists yet.
-- The submission service does not persist the selected option or a feedback snapshot.
 - The Arabic/English implementation is per-activity language plus layout direction and button text; a complete language preference and paired localized-content workflow remain open.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.

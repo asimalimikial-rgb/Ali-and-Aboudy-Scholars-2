@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "4d5b15ab26dca5b7aa05ded13a252d34",
+    "entities": [
+      {
+        "tableName": "learner_profiles",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`learnerId` TEXT NOT NULL, `displayName` TEXT NOT NULL, `pathway` TEXT NOT NULL, `isActive` INTEGER NOT NULL, PRIMARY KEY(`learnerId`))",
+        "fields": [
+          {
+            "fieldPath": "learnerId",
+            "columnName": "learnerId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayName",
+            "columnName": "displayName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pathway",
+            "columnName": "pathway",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "learnerId"
+          ]
+        }
+      },
+      {
+        "tableName": "learning_attempts",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`attemptId` TEXT NOT NULL, `learnerId` TEXT NOT NULL, `activityId` TEXT NOT NULL, `skillId` TEXT NOT NULL, `isCorrect` INTEGER, `usedHint` INTEGER NOT NULL, `createdAtEpochMillis` INTEGER NOT NULL, `contentPackId` TEXT, `contentPackVersion` TEXT, `selectedOptionId` TEXT, `feedbackText` TEXT, PRIMARY KEY(`attemptId`), FOREIGN KEY(`learnerId`) REFERENCES `learner_profiles`(`learnerId`) ON UPDATE NO ACTION ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "attemptId",
+            "columnName": "attemptId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "learnerId",
+            "columnName": "learnerId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "activityId",
+            "columnName": "activityId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skillId",
+            "columnName": "skillId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isCorrect",
+            "columnName": "isCorrect",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "usedHint",
+            "columnName": "usedHint",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "createdAtEpochMillis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentPackId",
+            "columnName": "contentPackId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "contentPackVersion",
+            "columnName": "contentPackVersion",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "selectedOptionId",
+            "columnName": "selectedOptionId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "feedbackText",
+            "columnName": "feedbackText",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "attemptId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_learning_attempts_learnerId",
+            "unique": false,
+            "columnNames": [
+              "learnerId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_learning_attempts_learnerId` ON `${TABLE_NAME}` (`learnerId`)"
+          },
+          {
+            "name": "index_learning_attempts_skillId",
+            "unique": false,
+            "columnNames": [
+              "skillId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_learning_attempts_skillId` ON `${TABLE_NAME}` (`skillId`)"
+          },
+          {
+            "name": "index_learning_attempts_learnerId_createdAtEpochMillis",
+            "unique": false,
+            "columnNames": [
+              "learnerId",
+              "createdAtEpochMillis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_learning_attempts_learnerId_createdAtEpochMillis` ON `${TABLE_NAME}` (`learnerId`, `createdAtEpochMillis`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "learner_profiles",
+            "onDelete": "RESTRICT",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "learnerId"
+            ],
+            "referencedColumns": [
+              "learnerId"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4d5b15ab26dca5b7aa05ded13a252d34')"
+    ]
+  }
+}
