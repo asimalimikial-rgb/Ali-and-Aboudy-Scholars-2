@@ -1,0 +1,284 @@
+{
+  "packId": "aas2-kg2-foundation",
+  "version": "0.1.0",
+  "schemaVersion": 3,
+  "learnerPath": "KG2",
+  "sourceReferences": [
+    {
+      "sourceReferenceId": "QCAA-QKLG-2024",
+      "title": "Queensland kindergarten learning guideline (QKLG) 2024",
+      "publisher": "Queensland Curriculum and Assessment Authority",
+      "url": "https://www.qcaa.qld.edu.au/downloads/kindergarten/qklg_2024.pdf",
+      "license": "CC BY 4.0 (QCAA-created material only; exceptions apply)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Modified from Queensland kindergarten learning guideline (QKLG) 2024, © State of Queensland (QCAA) 2024, licensed under CC BY 4.0.",
+      "usageRights": "ADAPTATION_ALLOWED",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "HS-ELOF-BIRTH5",
+      "title": "Head Start Early Learning Outcomes Framework: Ages Birth to Five",
+      "publisher": "U.S. Department of Health and Human Services, Administration for Children and Families",
+      "url": "https://www.headstart.gov/school-readiness/article/head-start-early-learning-outcomes-framework",
+      "license": "No explicit open reuse license identified on the official page; reference only",
+      "licenseUrl": null,
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "NOAA-WHOI-E20-003",
+      "title": "Plant and Animal Habitats (Science Grade 2 Lesson Plan/Activity), WHOI-E-20-003",
+      "publisher": "NOAA Office of Oceanic and Atmospheric Research / Sea Grant; Woods Hole Sea Grant",
+      "url": "https://repository.library.noaa.gov/view/noaa/39080",
+      "license": "Public Domain (NOAA Institutional Repository rights record)",
+      "licenseUrl": null,
+      "attribution": "Simpkins, Grace; Irving, Michael (2020). Plant and Animal Habitats (Science Grade 2 Lesson Plan/Activity), WHOI-E-20-003. Public Domain (NOAA Institutional Repository). Adapted for AAS2.",
+      "usageRights": "ADAPTATION_ALLOWED",
+      "verifiedAt": "2026-11-18"
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "counting-to-five",
+      "learnerPath": "KG2",
+      "domain": "Early Numeracy",
+      "observableOutcome": "Counts groups of up to five objects using one-to-one correspondence.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "common-shapes",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognizes common two-dimensional shapes by their visible attributes.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "plant-needs",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Recognizes that plants need water and sunlight to grow.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "NOAA-WHOI-E20-003"
+      ]
+    },
+    {
+      "skillId": "initial-sounds",
+      "learnerPath": "KG2",
+      "domain": "Language and Communication",
+      "observableOutcome": "Identifies the initial sound in familiar English and Arabic words.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "activityId": "kg2-count-01-en",
+      "skillId": "counting-to-five",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Ali has 3 mangoes. How many mangoes does he have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2"
+        },
+        {
+          "optionId": "b",
+          "text": "3"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well counted!",
+      "feedbackIncorrect": "Count each mango once, then try again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-count-01-ar",
+      "skillId": "counting-to-five",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "مع علي ٣ حبات مانجو. كم حبة مانجو معه؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "٢"
+        },
+        {
+          "optionId": "b",
+          "text": "٣"
+        },
+        {
+          "optionId": "c",
+          "text": "٤"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "أحسنت العد!",
+      "feedbackIncorrect": "عدّ كل حبة مرة واحدة ثم حاول مرة أخرى.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-shape-01-en",
+      "skillId": "common-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which shape has three sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Circle"
+        },
+        {
+          "optionId": "b",
+          "text": "Square"
+        },
+        {
+          "optionId": "c",
+          "text": "Triangle"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Correct! A triangle has three sides.",
+      "feedbackIncorrect": "Look at the number of sides on each shape.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-shape-01-ar",
+      "skillId": "common-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "أي شكل له ثلاثة أضلاع؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "دائرة"
+        },
+        {
+          "optionId": "b",
+          "text": "مربع"
+        },
+        {
+          "optionId": "c",
+          "text": "مثلث"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "صحيح! للمثلث ثلاثة أضلاع.",
+      "feedbackIncorrect": "انظر إلى عدد أضلاع كل شكل ثم حاول مرة أخرى.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-plant-01-en",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which pair helps a plant grow?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water and sunlight"
+        },
+        {
+          "optionId": "b",
+          "text": "Candy and toys"
+        },
+        {
+          "optionId": "c",
+          "text": "Shoes and books"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great! Plants need water and sunlight.",
+      "feedbackIncorrect": "Think about what a plant needs to stay alive.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "kg2-plant-01-ar",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "أي زوج يساعد النبات على النمو؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "الماء وضوء الشمس"
+        },
+        {
+          "optionId": "b",
+          "text": "الحلوى والألعاب"
+        },
+        {
+          "optionId": "c",
+          "text": "الأحذية والكتب"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "ممتاز! يحتاج النبات إلى الماء وضوء الشمس.",
+      "feedbackIncorrect": "فكّر فيما يحتاجه النبات ليعيش وينمو.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "kg2-sound-01-en",
+      "skillId": "initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the /s/ sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sun"
+        },
+        {
+          "optionId": "b",
+          "text": "ball"
+        },
+        {
+          "optionId": "c",
+          "text": "cat"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Yes! Sun begins with the /s/ sound.",
+      "feedbackIncorrect": "Say each word slowly and listen to its first sound.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "kg2-sound-01-ar",
+      "skillId": "initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "أي كلمة تبدأ بصوت حرف س؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "سمكة"
+        },
+        {
+          "optionId": "b",
+          "text": "بيت"
+        },
+        {
+          "optionId": "c",
+          "text": "قلم"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "صحيح! كلمة سمكة تبدأ بحرف س.",
+      "feedbackIncorrect": "انطق الكلمات ببطء واستمع إلى الصوت الأول.",
+      "difficulty": 2
+    }
+  ]
+}

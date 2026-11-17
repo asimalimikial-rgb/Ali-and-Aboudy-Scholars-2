@@ -94,6 +94,12 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - Commit `aba6b713a63cb63f47c5a73a08791d91ffc52ed3` localized the Android launcher label, learner display names, and KG2/Grade 2 pathway labels. Run [#53](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44196357440) passed.
 - Runs #51–#53 produced zero workflow artifacts. No APK, Test APK, instrumentation test, emulator test, or release was created. Run #50 was cancelled when the newer content-repository commit superseded it; Run #51 is the successful verification for that code.
 
+### Initial original-content pilot packs
+
+- Bundled assets: `aas2-kg2-foundation` (4 skills, 8 bilingual activities) and `aas2-grade2-foundation` (6 skills, 12 bilingual activities), each with source-reference and rights metadata.
+- These are small foundation pilots, not complete KG2 or Grade 2 curricula. Their activity wording and options are original; copyrighted textbook passages, exercises, illustrations, and scripts are not included.
+- The repository can load and validate the bundled assets, but MainActivity/navigation is not yet wired to a pack catalog or activity sequence.
+
 ### Content provenance and licensing
 
 - The source and rights register is maintained in [`docs/content-source-register.md`](docs/content-source-register.md).

@@ -1,0 +1,452 @@
+{
+  "packId": "aas2-grade2-foundation",
+  "version": "0.1.0",
+  "schemaVersion": 3,
+  "learnerPath": "GRADE_2",
+  "sourceReferences": [
+    {
+      "sourceReferenceId": "SD-G2-MATH-2021",
+      "title": "Mathematics, Grade 2, revised edition 2021",
+      "publisher": "Federal Ministry of Education / National Centre for Curricula and Educational Research, Sudan",
+      "url": "https://www.mdl.edu.sd/img/bookpdf/math2_1659464927.pdf",
+      "license": "All rights reserved; written permission required for copying or adaptation",
+      "licenseUrl": null,
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "IM-K12-MATH-2019-2021",
+      "title": "IM K–12 Math, first edition (2019–2021)",
+      "publisher": "Illustrative Mathematics",
+      "url": "https://curriculum.illustrativemathematics.org/k5/curriculum.html",
+      "license": "CC BY 4.0 (first edition 2019–2021 only)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Based on IM K–12 Math authored by Illustrative Mathematics and licensed under CC BY 4.0. Original AAS2 activities; no IM activity text reproduced.",
+      "usageRights": "ADAPTATION_ALLOWED",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "NOAA-WHOI-E20-003",
+      "title": "Plant and Animal Habitats (Science Grade 2 Lesson Plan/Activity), WHOI-E-20-003",
+      "publisher": "NOAA Office of Oceanic and Atmospheric Research / Sea Grant; Woods Hole Sea Grant",
+      "url": "https://repository.library.noaa.gov/view/noaa/39080",
+      "license": "Public Domain (NOAA Institutional Repository rights record)",
+      "licenseUrl": null,
+      "attribution": "Simpkins, Grace; Irving, Michael (2020). Plant and Animal Habitats (Science Grade 2 Lesson Plan/Activity), WHOI-E-20-003. Public Domain (NOAA Institutional Repository). Adapted for AAS2.",
+      "usageRights": "ADAPTATION_ALLOWED",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "NGSS-G2-2013",
+      "title": "Next Generation Science Standards, Grade 2",
+      "publisher": "NGSS Lead States; hosted by WestEd",
+      "url": "https://www.nextgenscience.org/grade/2",
+      "license": "Public license eligibility limited to states, districts, schools, teachers, and non-profit education entities; reference only for AAS2",
+      "licenseUrl": "https://www.nextgenscience.org/ngss-trademarks-and-copyright/ngss-trademarks-and-copyright",
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "SD-SMILE-G2-2020",
+      "title": "SMILE Starter 2 Pupil's Book, Grade 2 Basic Level, second edition 2020",
+      "publisher": "Federal Ministry of Education / National Centre for Curricula and Educational Research, Sudan",
+      "url": "https://www.mdl.edu.sd/img/bookpdf/english2_1664176727.pdf",
+      "license": "All rights reserved; prior written permission required for copying or adaptation",
+      "licenseUrl": null,
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "CCSS-G2-MATH",
+      "title": "Common Core State Standards, Grade 2 Mathematics",
+      "publisher": "National Governors Association Center for Best Practices and Council of Chief State School Officers",
+      "url": "https://www.thecorestandards.org/Math/Content/2/",
+      "license": "Public license referenced by official terms; standards text is reference-only for AAS2",
+      "licenseUrl": "https://www.thecorestandards.org/terms-of-use/",
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "CCSS-G2-ELA",
+      "title": "Common Core State Standards, Grade 2 English Language Arts",
+      "publisher": "National Governors Association Center for Best Practices and Council of Chief State School Officers",
+      "url": "https://www.thecorestandards.org/ELA-Literacy/",
+      "license": "Public license referenced by official terms; standards text is reference-only for AAS2",
+      "licenseUrl": "https://www.thecorestandards.org/terms-of-use/",
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-18"
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "place-value-to-1000",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Identifies the value of a digit in a three-digit number.",
+      "sourceReferenceIds": [
+        "SD-G2-MATH-2021",
+        "IM-K12-MATH-2019-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "addition-within-100",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Solves an addition problem with two two-digit addends.",
+      "sourceReferenceIds": [
+        "SD-G2-MATH-2021",
+        "IM-K12-MATH-2019-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "measure-length-centimeters",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Compares lengths measured in centimeters.",
+      "sourceReferenceIds": [
+        "SD-G2-MATH-2021",
+        "IM-K12-MATH-2019-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "plant-habitats",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies a suitable habitat for an animal and connects living things to their environments.",
+      "sourceReferenceIds": [
+        "NOAA-WHOI-E20-003",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "english-context-vocabulary",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Selects a familiar English word that completes a simple context sentence.",
+      "sourceReferenceIds": [
+        "SD-SMILE-G2-2020",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "english-sentence-order",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Recognizes a correctly ordered simple English sentence.",
+      "sourceReferenceIds": [
+        "SD-SMILE-G2-2020",
+        "CCSS-G2-ELA"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "activityId": "g2-place-01-en",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 472, what is the value of the digit 7?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "70"
+        },
+        {
+          "optionId": "c",
+          "text": "700"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! The 7 is in the tens place, so its value is 70.",
+      "feedbackIncorrect": "Look at the place of the digit 7 in the number.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-place-01-ar",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "في العدد ٤٧٢، ما قيمة الرقم ٧؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "٧"
+        },
+        {
+          "optionId": "b",
+          "text": "٧٠"
+        },
+        {
+          "optionId": "c",
+          "text": "٧٠٠"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "صحيح! الرقم ٧ في منزلة العشرات، فقيمته ٧٠.",
+      "feedbackIncorrect": "انظر إلى منزلة الرقم ٧ في العدد.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-add-01-en",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A basket has 26 oranges. Add 13 more. How many oranges are there now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "39"
+        },
+        {
+          "optionId": "b",
+          "text": "38"
+        },
+        {
+          "optionId": "c",
+          "text": "40"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! 26 + 13 = 39.",
+      "feedbackIncorrect": "Add the tens first, then add the ones.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-add-01-ar",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "في سلة ٢٦ برتقالة، أضفنا إليها ١٣ برتقالة. كم برتقالة أصبحت في السلة؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "٣٩"
+        },
+        {
+          "optionId": "b",
+          "text": "٣٨"
+        },
+        {
+          "optionId": "c",
+          "text": "٤٠"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "أحسنت! ٢٦ + ١٣ = ٣٩.",
+      "feedbackIncorrect": "اجمع العشرات أولاً ثم الآحاد.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-measure-01-en",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pencil is 14 cm long. A ruler is 20 cm long. Which is longer?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil"
+        },
+        {
+          "optionId": "b",
+          "text": "The ruler"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same length"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! 20 cm is longer than 14 cm.",
+      "feedbackIncorrect": "Compare 14 and 20.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-measure-01-ar",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "طول قلم ١٤ سم، وطول مسطرة ٢٠ سم. أيهما أطول؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "القلم"
+        },
+        {
+          "optionId": "b",
+          "text": "المسطرة"
+        },
+        {
+          "optionId": "c",
+          "text": "لهما الطول نفسه"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "صحيح! ٢٠ سم أطول من ١٤ سم.",
+      "feedbackIncorrect": "قارن بين ١٤ و٢٠.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-habitat-01-en",
+      "skillId": "plant-habitats",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which place is a suitable habitat for a fish?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A river"
+        },
+        {
+          "optionId": "b",
+          "text": "A dry desert"
+        },
+        {
+          "optionId": "c",
+          "text": "A hot oven"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Correct! A river provides water for fish.",
+      "feedbackIncorrect": "Think about what a fish needs to live.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-habitat-01-ar",
+      "skillId": "plant-habitats",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "أي مكان يُعد موطناً مناسباً للسمكة؟",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "النهر"
+        },
+        {
+          "optionId": "b",
+          "text": "الصحراء الجافة"
+        },
+        {
+          "optionId": "c",
+          "text": "الفرن الساخن"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "صحيح! يوفر النهر الماء الذي تحتاجه السمكة.",
+      "feedbackIncorrect": "فكّر فيما تحتاجه السمكة لتعيش.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-vocab-01-en",
+      "skillId": "english-context-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the word to complete the sentence: The camel lives in the ____.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "desert"
+        },
+        {
+          "optionId": "b",
+          "text": "chair"
+        },
+        {
+          "optionId": "c",
+          "text": "spoon"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Correct! Desert completes the sentence.",
+      "feedbackIncorrect": "Choose the word that names a place where a camel can live.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "g2-vocab-01-ar",
+      "skillId": "english-context-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "اختر الكلمة الإنجليزية الصحيحة لإكمال الجملة: The camel lives in the ____.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "desert"
+        },
+        {
+          "optionId": "b",
+          "text": "chair"
+        },
+        {
+          "optionId": "c",
+          "text": "spoon"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "أحسنت! كلمة desert تكمل الجملة بشكل صحيح.",
+      "feedbackIncorrect": "اختر كلمة تدل على مكان يمكن أن يعيش فيه الجمل.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "g2-sentence-01-en",
+      "skillId": "english-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correctly ordered English sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The children are playing."
+        },
+        {
+          "optionId": "b",
+          "text": "Playing the children are."
+        },
+        {
+          "optionId": "c",
+          "text": "Are the children playing the."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Correct! The words are in the right order.",
+      "feedbackIncorrect": "Read each sentence from left to right and check its word order.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-sentence-01-ar",
+      "skillId": "english-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "ar",
+      "prompt": "اختر الجملة الإنجليزية الصحيحة في ترتيب الكلمات.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The children are playing."
+        },
+        {
+          "optionId": "b",
+          "text": "Playing the children are."
+        },
+        {
+          "optionId": "c",
+          "text": "Are the children playing the."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "صحيح! ترتيب الكلمات في الجملة الأولى سليم.",
+      "feedbackIncorrect": "اقرأ كل جملة بالإنجليزية وتحقق من ترتيب كلماتها.",
+      "difficulty": 2
+    }
+  ]
+}
