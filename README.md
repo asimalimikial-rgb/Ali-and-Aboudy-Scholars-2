@@ -44,7 +44,7 @@ The active development branch is `foundation/slice-0-android`.
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Explicit learner-and-skill DAO query paths for progress reads
-- JVM unit tests for learner-selection policy, content validation and provenance, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, learner isolation, streaks, and mastery thresholds
+- JVM unit tests for learner-selection policy, content validation and provenance, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
 - Room foreign-key isolation tests retained in source, pending later emulator validation
 
@@ -56,7 +56,7 @@ The active development branch is `foundation/slice-0-android`.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
 - Source-reference metadata and validation are implemented, but no real content-pack manifest or verified source catalog has been supplied. No reviewed, complete curriculum/content pack is claimed at this stage.
-- Room instrumentation tests remain unexecuted under the no-APK restriction; JVM tests do not prove SQLite foreign-key behavior on a device.
+- The migration JVM test verifies the four nullable `ALTER TABLE ... ADD COLUMN` statements and rejects destructive table-drop SQL; it does not execute the migration against a real SQLite database. Room foreign-key and actual migration instrumentation tests remain unexecuted under the no-APK restriction.
 
 ## Source validation
 
@@ -78,6 +78,14 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - A learner-scoped submission-isolation test was then added for Ali and Aboudy (commit `d6526609482538069ad4fd77d841a5c1e5c253ab`). Run [#39](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43376959943) passed both the JVM unit-test task and Room schema check.
 - Run [#40](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/43377367069) on the documented branch head passed both JVM unit tests and checked-in Room schema verification. It ran before the Activity Session integration in the next change set.
 - These runs are source-only checks. They do not validate SQLite foreign-key behavior on a device.
+
+### Recent persistence and Room schema verification — 17–18 November 2026
+
+- Run [#46](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44077621582) passed JVM unit tests and the checked-in Room schema v1 check after the source URL/date validation fix.
+- Commit `09e1de15e526439873a7be921a5d21752119e415` added attempt snapshots and the additive Room 1→2 migration. Run [#47](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44192429377) passed JVM tests and generated schema v2.
+- Commit `c11e638d75eb0477a17215edc43d8f6662ed462f` checked in the generated schema v2 and updated CI to verify both schema versions. Run [#48](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44193447233) passed both JVM tests and schema v1/v2 checks.
+- Commit `4238f512c712503b42b6adcdde725e9690912caa` added a JVM test for the additive migration SQL contract. Run [#49](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/44193959359) passed all JVM tests and schema checks.
+- Runs #47–#49 produced zero workflow artifacts. No APK, Test APK, instrumentation, emulator run, or release was created.
 
 ### Remaining integration gates
 
