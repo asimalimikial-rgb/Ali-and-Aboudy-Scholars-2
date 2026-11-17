@@ -97,6 +97,31 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.any { it.contains("no license or rights statement") })
     }
 
+
+    @Test fun malformedHttpsUrlsWithoutHostsAreRejected() {
+        val invalidSource = validSource().copy(
+            url = "https://",
+            licenseUrl = "https:///license"
+        )
+        val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(invalidSource)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("valid HTTPS URL") })
+        assertTrue(result.errors.any { it.contains("invalid HTTPS license URL") })
+    }
+
+    @Test fun invalidCalendarDateIsRejected() {
+        val invalidSource = validSource().copy(verifiedAt = "2025-02-29")
+        val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(invalidSource)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("valid YYYY-MM-DD date") })
+    }
+
+    @Test fun validLeapDayIsAcceptedAsVerificationDate() {
+        val source = validSource().copy(verifiedAt = "2024-02-29")
+        val result = ContentPackValidator.validate(validPack(sourceReferences = listOf(source)))
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
     @Test fun redistributionRequiresAttribution() {
         val source = validSource().copy(
             license = "CC BY 4.0",

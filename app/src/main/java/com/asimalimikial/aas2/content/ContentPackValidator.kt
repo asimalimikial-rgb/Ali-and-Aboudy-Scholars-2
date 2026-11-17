@@ -1,5 +1,7 @@
 package com.asimalimikial.aas2.content
 
+import java.net.URI
+
 object ContentPackValidator {
     // Version 3 adds a source catalog with explicit provenance and reuse metadata.
     private const val CURRENT_SCHEMA_VERSION = 3
@@ -29,12 +31,12 @@ object ContentPackValidator {
             pack.sourceReferences.forEachIndexed { index, source ->
                 if (source.title.isBlank()) add("Source at index $index has an empty title")
                 if (source.publisher.isBlank()) add("Source at index $index has an empty publisher")
-                if (source.url.isBlank() || !source.url.startsWith("https://")) {
-                    add("Source at index $index must have an HTTPS URL")
+                if (!isValidHttpsUrl(source.url)) {
+                    add("Source at index $index must have a valid HTTPS URL")
                 }
                 if (source.license.isBlank()) add("Source at index $index has no license or rights statement")
-                if (source.licenseUrl != null && !source.licenseUrl.startsWith("https://")) {
-                    add("Source at index $index has an invalid license URL")
+                if (source.licenseUrl != null && !isValidHttpsUrl(source.licenseUrl)) {
+                    add("Source at index $index has an invalid HTTPS license URL")
                 }
                 if (source.usageRights !in supportedUsageRights) {
                     add("Source at index $index has unsupported usageRights")
@@ -44,8 +46,8 @@ object ContentPackValidator {
                 ) {
                     add("Source at index $index requires attribution metadata")
                 }
-                if (source.verifiedAt != null && !Regex("""^\d{4}-\d{2}-\d{2}$""").matches(source.verifiedAt)) {
-                    add("Source at index $index verifiedAt must use YYYY-MM-DD")
+                if (source.verifiedAt != null && !isValidIsoDate(source.verifiedAt)) {
+                    add("Source at index $index verifiedAt must be a valid YYYY-MM-DD date")
                 }
             }
 
@@ -107,4 +109,27 @@ object ContentPackValidator {
         }
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
+    private fun isValidHttpsUrl(value: String): Boolean {
+        val uri = runCatching { URI(value) }.getOrNull() ?: return false
+        return uri.scheme.equals("https", ignoreCase = true) &&
+            !uri.host.isNullOrBlank() &&
+            uri.rawUserInfo == null
+    }
+
+    private fun isValidIsoDate(value: String): Boolean {
+        if (!Regex("""^\\d{4}-\\d{2}-\\d{2}$""").matches(value)) return false
+
+        val year = value.substring(0, 4).toInt()
+        val month = value.substring(5, 7).toInt()
+        val day = value.substring(8, 10).toInt()
+        if (year !in 1..9999 || month !in 1..12) return false
+
+        val daysInMonth = when (month) {
+            2 -> if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) 29 else 28
+            4, 6, 9, 11 -> 30
+            else -> 31
+        }
+        return day in 1..daysInMonth
+    }
+
 }
