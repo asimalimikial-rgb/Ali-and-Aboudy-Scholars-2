@@ -3,6 +3,7 @@ package com.asimalimikial.aas2.learning
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.content.AnswerOption
 import com.asimalimikial.aas2.content.ContentPack
+import com.asimalimikial.aas2.content.ContentSourceReference
 import com.asimalimikial.aas2.content.SkillDefinition
 import com.asimalimikial.aas2.data.LearnerProfileDao
 import com.asimalimikial.aas2.data.LearnerProfileEntity
@@ -27,7 +28,19 @@ class ActivitySubmissionServiceTest {
                 skillId = "counting",
                 learnerPath = path,
                 domain = "Numeracy",
-                observableOutcome = "Counts a small set"
+                observableOutcome = "Counts a small set",
+                sourceReferenceIds = listOf("test-source")
+            )
+        ),
+        sourceReferences = listOf(
+            ContentSourceReference(
+                sourceReferenceId = "test-source",
+                title = "Test fixture source",
+                publisher = "AAS2 tests",
+                url = "https://example.org/test-source",
+                license = "Reference only; test fixture",
+                usageRights = "REFERENCE_ONLY",
+                verifiedAt = "2026-11-18"
             )
         ),
         activities = listOf(

@@ -23,6 +23,7 @@ object ContentPackValidator {
             if (pack.schemaVersion != CURRENT_SCHEMA_VERSION) add("Unsupported schemaVersion: ${pack.schemaVersion}")
             if (pack.learnerPath !in supportedLearnerPaths) add("Unsupported learnerPath: ${pack.learnerPath}")
             if (pack.skills.isEmpty()) add("A content pack must contain at least one skill")
+            if (pack.sourceReferences.isEmpty()) add("A content pack must contain at least one source reference")
 
             val sourceIds = pack.sourceReferences.map { it.sourceReferenceId }
             if (sourceIds.any(String::isBlank)) add("sourceReferenceId must not be blank")
@@ -59,6 +60,7 @@ object ContentPackValidator {
                 if (skill.learnerPath != pack.learnerPath) add("Skill at index $index belongs to a different learner path")
                 if (skill.domain.isBlank()) add("Skill at index $index has an empty domain")
                 if (skill.observableOutcome.isBlank()) add("Skill at index $index has an empty observable outcome")
+                if (skill.sourceReferenceIds.isEmpty()) add("Skill at index $index must reference at least one sourceReferenceId")
                 if (skill.sourceReferenceIds.any(String::isBlank)) add("Skill at index $index contains a blank source reference ID")
                 if (skill.sourceReferenceIds.size != skill.sourceReferenceIds.toSet().size) {
                     add("Skill at index $index contains duplicate source reference IDs")

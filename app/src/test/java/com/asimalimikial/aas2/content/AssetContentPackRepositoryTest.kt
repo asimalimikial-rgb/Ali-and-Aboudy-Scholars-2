@@ -22,7 +22,19 @@ class AssetContentPackRepositoryTest {
                 skillId = "counting",
                 learnerPath = "KG2",
                 domain = "Numeracy",
-                observableOutcome = "Counts a small set of objects"
+                observableOutcome = "Counts a small set of objects",
+                sourceReferenceIds = listOf("test-source")
+            )
+        ),
+        sourceReferences = listOf(
+            ContentSourceReference(
+                sourceReferenceId = "test-source",
+                title = "Test fixture source",
+                publisher = "AAS2 tests",
+                url = "https://example.org/test-source",
+                license = "Reference only; test fixture",
+                usageRights = "REFERENCE_ONLY",
+                verifiedAt = "2026-11-18"
             )
         )
     )

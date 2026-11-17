@@ -29,18 +29,22 @@ class ContentPackValidatorTest {
         difficulty = 1
     )
 
+    private fun validSkill() = baseSkill().copy(sourceReferenceIds = listOf("source-1"))
+
     private fun validSource() = ContentSourceReference(
         sourceReferenceId = "source-1",
         title = "Test source",
         publisher = "Test publisher",
         url = "https://example.org/source",
-        license = "Reference only; reuse not assumed"
+        license = "Reference only; reuse not assumed",
+        usageRights = "REFERENCE_ONLY",
+        verifiedAt = "2026-11-18"
     )
 
     private fun validPack(
-        skills: List<SkillDefinition> = listOf(baseSkill()),
+        skills: List<SkillDefinition> = listOf(validSkill()),
         activities: List<ActivityDefinition> = emptyList(),
-        sourceReferences: List<ContentSourceReference> = emptyList()
+        sourceReferences: List<ContentSourceReference> = listOf(validSource())
     ) = ContentPack(
         packId = "ali-numeracy-foundation",
         version = "0.1.0",
@@ -50,6 +54,19 @@ class ContentPackValidatorTest {
         activities = activities,
         sourceReferences = sourceReferences
     )
+
+
+    @Test fun packWithoutSourceReferencesIsRejected() {
+        val result = ContentPackValidator.validate(validPack(sourceReferences = emptyList()))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("at least one source reference") })
+    }
+
+    @Test fun skillWithoutSourceReferencesIsRejected() {
+        val result = ContentPackValidator.validate(validPack(skills = listOf(baseSkill())))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("must reference at least one sourceReferenceId") })
+    }
 
     @Test fun validPackIsAccepted() {
         assertTrue(ContentPackValidator.validate(validPack()).isValid)
@@ -134,14 +151,14 @@ class ContentPackValidatorTest {
     }
 
     @Test fun duplicateSkillIdsAreRejected() {
-        val skill = baseSkill()
+        val skill = validSkill()
         val result = ContentPackValidator.validate(validPack(skills = listOf(skill, skill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("skillId values must be unique") })
     }
 
     @Test fun mixedLearnerPathsAreRejected() {
-        val mismatchedSkill = baseSkill().copy(skillId = "aboudy.math.001", learnerPath = "GRADE_2")
+        val mismatchedSkill = validSkill().copy(skillId = "aboudy.math.001", learnerPath = "GRADE_2")
         val result = ContentPackValidator.validate(validPack(skills = listOf(mismatchedSkill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("different learner path") })
@@ -159,7 +176,7 @@ class ContentPackValidatorTest {
     }
 
     @Test fun blankRequiredSkillFieldsAreRejected() {
-        val invalidSkill = baseSkill().copy(skillId = " ", domain = " ", observableOutcome = "")
+        val invalidSkill = validSkill().copy(skillId = " ", domain = " ", observableOutcome = "")
         val result = ContentPackValidator.validate(validPack(skills = listOf(invalidSkill)))
         assertFalse(result.isValid)
         assertTrue(result.errors.any { it.contains("skillId must not be blank") })
