@@ -1,6 +1,7 @@
 package com.asimalimikial.aas2
 
 import android.os.Bundle
+import java.util.Locale
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -121,11 +122,13 @@ private fun LearnerProfileSelection(
             isLoading -> Text(stringResource(R.string.preparing_profiles), style = MaterialTheme.typography.bodyMedium)
             profiles.isEmpty() -> Text(stringResource(R.string.no_active_profiles), style = MaterialTheme.typography.bodyMedium)
             else -> profiles.forEach { profile ->
+                val displayName = localizedLearnerName(profile)
+                val displayPathway = localizedPathway(profile.pathway)
                 Button(
                     modifier = Modifier.fillMaxWidth(),
                     onClick = { onSelect(profile) }
                 ) {
-                    Text(stringResource(R.string.learner_label, profile.displayName, profile.pathway))
+                    Text(stringResource(R.string.learner_label, displayName, displayPathway))
                 }
             }
         }
@@ -137,6 +140,9 @@ private fun LearnerHome(
     profile: LearnerProfileEntity,
     onSwitchLearner: () -> Unit
 ) {
+    val displayName = localizedLearnerName(profile)
+    val displayPathway = localizedPathway(profile.pathway)
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -144,12 +150,12 @@ private fun LearnerHome(
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            stringResource(R.string.welcome_name, profile.displayName),
+            stringResource(R.string.welcome_name, displayName),
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold
         )
         Text(
-            stringResource(R.string.learning_pathway, profile.pathway),
+            stringResource(R.string.learning_pathway, displayPathway),
             style = MaterialTheme.typography.titleMedium
         )
 
@@ -194,3 +200,19 @@ private fun LearnerHome(
         }
     }
 }
+
+@Composable
+private fun localizedLearnerName(profile: LearnerProfileEntity): String =
+    when (profile.learnerId) {
+        "ali" -> stringResource(R.string.learner_ali)
+        "aboudy" -> stringResource(R.string.learner_aboudy)
+        else -> profile.displayName
+    }
+
+@Composable
+private fun localizedPathway(pathway: String): String =
+    when (pathway.trim().uppercase(Locale.ROOT)) {
+        "KG2" -> stringResource(R.string.pathway_kg2)
+        "GRADE 2", "GRADE_2", "GRADE2" -> stringResource(R.string.pathway_grade_2)
+        else -> pathway
+    }

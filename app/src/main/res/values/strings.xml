@@ -6,6 +6,10 @@
     <string name="preparing_profiles">Preparing learner profiles…</string>
     <string name="no_active_profiles">No active learner profiles are available.</string>
     <string name="learner_label">%1$s · %2$s</string>
+    <string name="learner_ali">Ali</string>
+    <string name="learner_aboudy">Aboudy</string>
+    <string name="pathway_kg2">KG2</string>
+    <string name="pathway_grade_2">Grade 2</string>
     <string name="welcome_name">Welcome, %1$s!</string>
     <string name="learning_pathway">Your learning pathway: %1$s</string>
     <string name="learning_space_title">Your learning space</string>

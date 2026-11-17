@@ -34,7 +34,7 @@ The active development branch is `foundation/slice-0-android`.
 - Room database for separate learner profiles and learner-scoped learning-attempt records (schema v2)
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
-- Learner chooser and persisted learner-home flow, localized through Android `values` and `values-ar` resources according to the device language
+- Learner chooser and persisted learner-home flow, localized through Android `values` and `values-ar` resources according to the device language, including launcher label, learner names, and pathway labels
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty

@@ -6,6 +6,10 @@
     <string name="preparing_profiles">جارٍ تجهيز ملفات المتعلمين…</string>
     <string name="no_active_profiles">لا توجد ملفات متعلمين نشطة حالياً.</string>
     <string name="learner_label">%1$s · %2$s</string>
+    <string name="learner_ali">علي</string>
+    <string name="learner_aboudy">عبودي</string>
+    <string name="pathway_kg2">المستوى الثاني لرياض الأطفال (KG2)</string>
+    <string name="pathway_grade_2">الصف الثاني</string>
     <string name="welcome_name">مرحباً، %1$s!</string>
     <string name="learning_pathway">المسار التعليمي: %1$s</string>
     <string name="learning_space_title">مساحة التعلم الخاصة بك</string>
