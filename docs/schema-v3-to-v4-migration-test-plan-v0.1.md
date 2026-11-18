@@ -8,7 +8,7 @@
 
 Introduce a new content contract that separates:
 - learning language from app/UI locale;
-- optional Arabic helper from the English learning prompt;
+- any future approved support aid from the English learning prompt (not part of MVP);
 - typed activity payloads from renderer implementation;
 - content provenance and rights from the activity presentation;
 - attempt evidence from mastery decisions.
@@ -120,7 +120,7 @@ For each type:
 - Do not change Room entities or migrations merely because content JSON changes.
 - If attempt evidence needs new fields (helper exposure, assessment phase, feedback snapshot, content version), design a separate additive Room migration.
 - Existing rows must receive safe defaults such as `legacy_unknown`, not fabricated evidence.
-- Never retroactively label a historical Arabic activity as an optional helper exposure; it was a separate language variant in v3.
+- Never retroactively label a historical Arabic activity as helper exposure; it was a separate language variant in v3. No helper is introduced in the MVP. A future approved support aid requires its own explicit evidence and tests.
 - Keep learner-path separation at repository query, progress, recommendations and export boundaries.
 - Test upgrade from an installed v3 database with attempts for both learners; test downgrade/rollback policy explicitly.
 - Preserve attempt history and avoid recomputing past correctness using a changed answer key.
@@ -141,7 +141,7 @@ For each type:
 | Rights | REFERENCE_ONLY source used as inspiration with original AAS2 text | Allowed; no copied source expression |
 | Language | Arabic device locale with English learning activity | English learning content remains selected |
 | Helper | Helper disabled | No helper displayed; task remains solvable |
-| Helper | Helper enabled | Brief Arabic helper displayed separately before answer |
+| Child-language policy | Device locale is Arabic | English learning content remains unchanged; no Arabic helper or pre-question explanation is shown in MVP |
 | Helper evidence | Helper used | Attempt marked supported, not unaided |
 | Answer key | Zero or multiple correct SINGLE_CHOICE keys | Validation failure |
 | Feedback | Invalid option feedback key | Validation failure |
