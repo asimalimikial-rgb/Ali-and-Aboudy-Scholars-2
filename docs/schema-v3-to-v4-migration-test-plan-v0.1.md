@@ -72,8 +72,8 @@ Validate:
 - declared activity type exactly matches its payload;
 - only enabled renderer capabilities are accepted for the current app build;
 - exactly one valid answer for SINGLE_CHOICE; set/ordering rules for later activity types;
-- valid language codes and helper policy;
-- helper cannot replace or mutate the learning prompt/answer;
+- valid learning-language codes and the no-helper MVP policy;
+- no helper/support field is accepted in the MVP v4 activity payload;
 - feedback keys reference valid option/misconception IDs;
 - assessment phase is from the allow-list;
 - media paths are relative, inside asset root, no traversal, no remote URL, expected extension and MIME match;
@@ -87,7 +87,7 @@ Validate:
 
 Do not add every interaction in one change. Recommended order after the feature matrix selects MVP scope:
 
-1. SINGLE_CHOICE (existing) with learning-language policy and optional helper slot.
+1. SINGLE_CHOICE (existing) with learning-language policy and no helper slot in MVP.
 2. MATCH_PAIRS and ORDER_SEQUENCE after interaction accessibility review.
 3. SORT_CATEGORIES.
 4. NUMERIC_ENTRY.
@@ -107,7 +107,7 @@ For each type:
 
 1. Convert one small reviewed activity set into v4 as a pilot, not all content at once.
 2. Preserve all v3 stable IDs and content version metadata.
-3. Add learningLanguage and optional helper separately.
+3. Add `learningLanguage`; no Arabic translation/helper is added to the child activity in MVP.
 4. Run science/domain, pedagogy, language, rights/media and technical QA.
 5. Compare v3 and v4 activity meaning, answer keys and learning objective equivalence.
 6. Keep v3 packs available as rollback fixtures until the v4 pilot passes all gates.
@@ -118,7 +118,7 @@ For each type:
 ## 4. Learner-progress and database compatibility
 
 - Do not change Room entities or migrations merely because content JSON changes.
-- If attempt evidence needs new fields (helper exposure, assessment phase, feedback snapshot, content version), design a separate additive Room migration.
+- If attempt evidence needs new fields (assessment phase, feedback snapshot, content version), design a separate additive Room migration. A future support-aid exposure field is out of scope until such aid is approved.
 - Existing rows must receive safe defaults such as `legacy_unknown`, not fabricated evidence.
 - Never retroactively label a historical Arabic activity as helper exposure; it was a separate language variant in v3. No helper is introduced in the MVP. A future approved support aid requires its own explicit evidence and tests.
 - Keep learner-path separation at repository query, progress, recommendations and export boundaries.
@@ -140,7 +140,7 @@ For each type:
 | Rights | Adaptation allowed without required attribution | Validation failure |
 | Rights | REFERENCE_ONLY source used as inspiration with original AAS2 text | Allowed; no copied source expression |
 | Language | Arabic device locale with English learning activity | English learning content remains selected |
-| Helper | Helper disabled | No helper displayed; task remains solvable |
+| Child activity support | No helper field in MVP pack | No Arabic helper or pre-question explanation is rendered |
 | Child-language policy | Device locale is Arabic | English learning content remains unchanged; no Arabic helper or pre-question explanation is shown in MVP |
 | Helper evidence | Helper used | Attempt marked supported, not unaided |
 | Answer key | Zero or multiple correct SINGLE_CHOICE keys | Validation failure |
@@ -164,9 +164,9 @@ For each type:
 Create fixtures:
 - `legacy-kg2-v3.json` and `legacy-grade2-v3.json` as exact baseline copies;
 - `valid-v4-single-choice-en.json`;
-- `valid-v4-single-choice-en-with-ar-helper.json`;
+- No helper fixture is included in MVP. Add a separate future-extension fixture only if an exception is approved.
 - `invalid-v4-unknown-skill.json`;
-- `invalid-v4-helper-replaces-learning-language.json`;
+- No support-aid field is accepted by the MVP schema; future extension tests are deferred.
 - `invalid-v4-unsafe-media-path.json`;
 - `invalid-v4-multiple-correct-options.json`;
 - `invalid-v4-unsupported-type.json`;
