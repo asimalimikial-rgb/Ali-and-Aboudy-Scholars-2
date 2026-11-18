@@ -40,11 +40,11 @@ animal, living, young, adult, habitat, vertebrate, invertebrate, backbone, insec
 
 | Lesson | Macmillan topic | Core skill IDs | Main outcome |
 |---|---|---|---|
-| L1 — What Makes an Animal Living? | Topic 5: What are animals? | AN-00, AN-05, AN-06, ENQ-01 | Recognise animal life, young/adult examples and basic habitat needs |
-| L2 — Different Kinds of Animals | Topic 6: Different kinds of animals | AN-02, ENQ-04, ENQ-05 | Group familiar animals using the backbone criterion |
-| L3 — Insects Around Us | Topic 7: Insects | AN-01, ENQ-01, ENQ-09 | Identify insects from six legs and body regions; recognise safe distance and simple roles |
-| L4 — Animal Life Cycles | Topic 8: Life cycles | AN-03, AN-05, ENQ-06, ENQ-07 | Sequence and compare familiar life cycles |
-| L5 — How Animals Survive | Topic 9: How do animals survive? | AN-04, AN-06, ENQ-08, ENQ-09 | Explain predator/prey relationships and how features help in a habitat |
+| L1 — What Makes an Animal Living? | Topic 5: What are animals? | SCI-G2-AN-00, SCI-G2-AN-05, SCI-G2-AN-06, SCI-G2-ENQ-01 | Recognise animal life, young/adult examples and basic habitat needs |
+| L2 — Different Kinds of Animals | Topic 6: Different kinds of animals | SCI-G2-AN-02, SCI-G2-ENQ-04, SCI-G2-ENQ-05 | Group familiar animals using the backbone criterion |
+| L3 — Insects Around Us | Topic 7: Insects | SCI-G2-AN-01, SCI-G2-ENQ-01, SCI-G2-ENQ-09 | Identify insects from six legs and body regions; recognise safe distance and simple roles |
+| L4 — Animal Life Cycles | Topic 8: Life cycles | SCI-G2-AN-03, SCI-G2-AN-05, SCI-G2-ENQ-06, SCI-G2-ENQ-07 | Sequence and compare familiar life cycles |
+| L5 — How Animals Survive | Topic 9: How do animals survive? | SCI-G2-AN-04, SCI-G2-AN-06, SCI-G2-ENQ-08, SCI-G2-ENQ-09 | Explain predator/prey relationships and how features help in a habitat |
 
 ## 3. Lesson L1 — What Makes an Animal Living?
 
@@ -74,12 +74,12 @@ Many animals produce young of their own kind. Young animals have different names
 
 | ID / skill / phase | Prompt | A | B | C | Key | Misconception targeted |
 |---|---|---|---|---|---|---|
-| SCI-G2-U02-L1-Q01 · AN-00 · DIAGNOSTIC · D1 | Which one is a living animal? | A toy fish | A wooden bird model | A real fish in water | C | Confuses realistic appearance with living needs |
-| SCI-G2-U02-L1-Q02 · AN-00 · GUIDED · D1 | Which is evidence that an animal is living? | It needs food and grows | It has a painted eye | It is made of plastic | A | Uses appearance rather than life processes |
-| SCI-G2-U02-L1-Q03 · AN-05 · INDEPENDENT · D1 | What is a young cat called? | A calf | A kitten | A chick | B | Confuses young-animal names |
-| SCI-G2-U02-L1-Q04 · AN-06 · INDEPENDENT · D2 | Which habitat can meet a fish's basic need for water? | A dry sandy path | A tree branch | A pond | C | Chooses by general outdoor appearance, not animal needs |
-| SCI-G2-U02-L1-Q05 · AN-05 · TRANSFER · D2 | A tadpole grows into a frog. What does this show? | Some young animals change in shape as they grow | All young animals look exactly like adults | A frog is not an animal when it is young | A | Assumes every young animal is a miniature adult |
-| SCI-G2-U02-L1-Q06 · AN-06 · GUIDED · D2 | What does a suitable habitat provide? | Only a place to hide | Things an animal needs, such as food, water and shelter | The same food for every animal | B | Reduces habitat to shelter or assumes identical needs |
+| SCI-G2-U02-L1-Q01 · SCI-G2-AN-00 · DIAGNOSTIC · D1 | Which one is a living animal? | A toy fish | A wooden bird model | A real fish in water | C | Confuses realistic appearance with living needs |
+| SCI-G2-U02-L1-Q02 · SCI-G2-AN-00 · GUIDED · D1 | Which is evidence that an animal is living? | It needs food and grows | It has a painted eye | It is made of plastic | A | Uses appearance rather than life processes |
+| SCI-G2-U02-L1-Q03 · SCI-G2-AN-05 · INDEPENDENT · D1 | What is a young cat called? | A calf | A kitten | A chick | B | Confuses young-animal names |
+| SCI-G2-U02-L1-Q04 · SCI-G2-AN-06 · INDEPENDENT · D2 | Which habitat can meet a fish's basic need for water? | A dry sandy path | A tree branch | A pond | C | Chooses by general outdoor appearance, not animal needs |
+| SCI-G2-U02-L1-Q05 · SCI-G2-AN-05 · TRANSFER · D2 | A tadpole grows into a frog. What does this show? | Some young animals change in shape as they grow | All young animals look exactly like adults | A frog is not an animal when it is young | A | Assumes every young animal is a miniature adult |
+| SCI-G2-U02-L1-Q06 · SCI-G2-AN-06 · GUIDED · D2 | What does a suitable habitat provide? | Only a place to hide | Things an animal needs, such as food, water and shelter | The same food for every animal | B | Reduces habitat to shelter or assumes identical needs |
 
 ## 4. Lesson L2 — Different Kinds of Animals
 
@@ -107,12 +107,12 @@ Do not classify animals by size, habitat or whether they move quickly. A small f
 
 | ID / skill / phase | Prompt | A | B | C | Key | Misconception targeted |
 |---|---|---|---|---|---|---|
-| SCI-G2-U02-L2-Q01 · AN-02 · DIAGNOSTIC · D1 | What does a vertebrate have? | Six legs | A backbone | Wings | B | Uses legs or wings instead of backbone |
-| SCI-G2-U02-L2-Q02 · AN-02 · GUIDED · D1 | Which animal is a vertebrate? | A snail | An earthworm | A frog | C | Assumes soft-bodied animals and frogs belong to the same group |
-| SCI-G2-U02-L2-Q03 · AN-02 · INDEPENDENT · D2 | Which animal is an invertebrate? | A butterfly | A cat | A fish | A | Confuses insect with vertebrate groups |
-| SCI-G2-U02-L2-Q04 · AN-02 · INDEPENDENT · D2 | Which feature is used in this grouping? | Where the animal lives | Whether it has a backbone | How fast it moves | B | Changes the classification rule |
-| SCI-G2-U02-L2-Q05 · AN-02 · TRANSFER · D2 | A large octopus has no backbone. Which group does it belong to? | Vertebrates | Mammals | Invertebrates | C | Assumes large animals must have backbones |
-| SCI-G2-U02-L2-Q06 · AN-02 · GUIDED · D2 | A spider has eight legs and no backbone. Which statement is correct? | It is an invertebrate, but it is not an insect | It is an insect because it is small | It is a vertebrate because it has legs | A | Confuses spiders with insects and legs with backbone |
+| SCI-G2-U02-L2-Q01 · SCI-G2-AN-02 · DIAGNOSTIC · D1 | What does a vertebrate have? | Six legs | A backbone | Wings | B | Uses legs or wings instead of backbone |
+| SCI-G2-U02-L2-Q02 · SCI-G2-AN-02 · GUIDED · D1 | Which animal is a vertebrate? | A snail | An earthworm | A frog | C | Assumes soft-bodied animals and frogs belong to the same group |
+| SCI-G2-U02-L2-Q03 · SCI-G2-AN-02 · INDEPENDENT · D2 | Which animal is an invertebrate? | A butterfly | A cat | A fish | A | Confuses insect with vertebrate groups |
+| SCI-G2-U02-L2-Q04 · SCI-G2-AN-02 · INDEPENDENT · D2 | Which feature is used in this grouping? | Where the animal lives | Whether it has a backbone | How fast it moves | B | Changes the classification rule |
+| SCI-G2-U02-L2-Q05 · SCI-G2-AN-02 · TRANSFER · D2 | A large octopus has no backbone. Which group does it belong to? | Vertebrates | Mammals | Invertebrates | C | Assumes large animals must have backbones |
+| SCI-G2-U02-L2-Q06 · SCI-G2-AN-02 · GUIDED · D2 | A spider has eight legs and no backbone. Which statement is correct? | It is an invertebrate, but it is not an insect | It is an insect because it is small | It is a vertebrate because it has legs | A | Confuses spiders with insects and legs with backbone |
 
 ## 5. Lesson L3 — Insects Around Us
 
@@ -141,12 +141,12 @@ Insects have different roles. Some bees and butterflies help pollinate flowers. 
 
 | ID / skill / phase | Prompt | A | B | C | Key | Misconception targeted |
 |---|---|---|---|---|---|---|
-| SCI-G2-U02-L3-Q01 · AN-01 · DIAGNOSTIC · D1 | How many legs does an adult insect have? | Eight | Six | Ten | B | Counts spider legs or wings as legs |
-| SCI-G2-U02-L3-Q02 · AN-01 · GUIDED · D1 | Which body regions are found in an insect? | Head, thorax and abdomen | Head, neck and tail | Shell, fin and tail | A | Uses mammal/fish body terms |
-| SCI-G2-U02-L3-Q03 · AN-01 · INDEPENDENT · D2 | Which animal is an insect? | A spider | An earthworm | A butterfly | C | Classifies all small invertebrates as insects |
-| SCI-G2-U02-L3-Q04 · AN-01 · INDEPENDENT · D2 | Which statement about insect wings is accurate? | Every insect has two pairs of wings | Many adult insects have wings, but some do not | Wings are the same as six legs | B | Overgeneralises a feature |
-| SCI-G2-U02-L3-Q05 · AN-01 · TRANSFER · D2 | You see a bee visiting a flower. How may the bee help the plant? | It may carry pollen between flowers | It turns the flower into an animal | It gives the plant its roots | A | Does not connect pollination with pollen transfer |
-| SCI-G2-U02-L3-Q06 · ENQ-09 · GUIDED · D1 | You find an unfamiliar insect near a nest. What is the safest action? | Pick it up to count its legs | Shake the nest to see what happens | Watch from a safe distance and tell an adult | C | Unsafe handling of insects/nests |
+| SCI-G2-U02-L3-Q01 · SCI-G2-AN-01 · DIAGNOSTIC · D1 | How many legs does an adult insect have? | Eight | Six | Ten | B | Counts spider legs or wings as legs |
+| SCI-G2-U02-L3-Q02 · SCI-G2-AN-01 · GUIDED · D1 | Which body regions are found in an insect? | Head, thorax and abdomen | Head, neck and tail | Shell, fin and tail | A | Uses mammal/fish body terms |
+| SCI-G2-U02-L3-Q03 · SCI-G2-AN-01 · INDEPENDENT · D2 | Which animal is an insect? | A spider | An earthworm | A butterfly | C | Classifies all small invertebrates as insects |
+| SCI-G2-U02-L3-Q04 · SCI-G2-AN-01 · INDEPENDENT · D2 | Which statement about insect wings is accurate? | Every insect has two pairs of wings | Many adult insects have wings, but some do not | Wings are the same as six legs | B | Overgeneralises a feature |
+| SCI-G2-U02-L3-Q05 · SCI-G2-AN-01 · TRANSFER · D2 | You see a bee visiting a flower. How may the bee help the plant? | It may carry pollen between flowers | It turns the flower into an animal | It gives the plant its roots | A | Does not connect pollination with pollen transfer |
+| SCI-G2-U02-L3-Q06 · SCI-G2-ENQ-09 · GUIDED · D1 | You find an unfamiliar insect near a nest. What is the safest action? | Pick it up to count its legs | Shake the nest to see what happens | Watch from a safe distance and tell an adult | C | Unsafe handling of insects/nests |
 
 ## 6. Lesson L4 — Animal Life Cycles
 
@@ -176,12 +176,12 @@ A young animal grows and develops. Some young animals look similar to adults; ot
 
 | ID / skill / phase | Prompt | A | B | C | Key | Misconception targeted |
 |---|---|---|---|---|---|---|
-| SCI-G2-U02-L4-Q01 · AN-03 · DIAGNOSTIC · D1 | What does a life cycle show? | Only where an animal sleeps | Only what an animal eats | How a living thing grows and changes through stages | C | Reduces life cycle to one behaviour |
-| SCI-G2-U02-L4-Q02 · AN-03 · GUIDED · D2 | Which stage comes after the caterpillar in a butterfly life cycle? | Pupa (chrysalis) | Tadpole | Chick | A | Mixes stages from different animals |
-| SCI-G2-U02-L4-Q03 · AN-03 · INDEPENDENT · D2 | Which order is correct for a frog? | Adult frog → egg → tadpole | Egg → tadpole → froglet → adult frog | Chick → froglet → egg | B | Confuses frog stages with other animals |
-| SCI-G2-U02-L4-Q04 · AN-05 · INDEPENDENT · D1 | What hatches from a chicken egg? | A tadpole | A caterpillar | A chick | C | Transfers a stage from another life cycle |
-| SCI-G2-U02-L4-Q05 · AN-03 · TRANSFER · D2 | Which statement compares butterfly and chicken life cycles correctly? | A butterfly has a pupa stage; a chicken does not | Both have a tadpole stage | A chicken becomes a butterfly | A | Assumes all animals share the same stages |
-| SCI-G2-U02-L4-Q06 · ENQ-06 · GUIDED · D2 | Why do scientists put life-cycle pictures in order? | To make the pictures look colourful | To show the order in which stages happen | To show which animal is strongest | B | Confuses sequence with appearance or ranking |
+| SCI-G2-U02-L4-Q01 · SCI-G2-AN-03 · DIAGNOSTIC · D1 | What does a life cycle show? | Only where an animal sleeps | Only what an animal eats | How a living thing grows and changes through stages | C | Reduces life cycle to one behaviour |
+| SCI-G2-U02-L4-Q02 · SCI-G2-AN-03 · GUIDED · D2 | Which stage comes after the caterpillar in a butterfly life cycle? | Pupa (chrysalis) | Tadpole | Chick | A | Mixes stages from different animals |
+| SCI-G2-U02-L4-Q03 · SCI-G2-AN-03 · INDEPENDENT · D2 | Which order is correct for a frog? | Adult frog → egg → tadpole | Egg → tadpole → froglet → adult frog | Chick → froglet → egg | B | Confuses frog stages with other animals |
+| SCI-G2-U02-L4-Q04 · SCI-G2-AN-05 · INDEPENDENT · D1 | What hatches from a chicken egg? | A tadpole | A caterpillar | A chick | C | Transfers a stage from another life cycle |
+| SCI-G2-U02-L4-Q05 · SCI-G2-AN-03 · TRANSFER · D2 | Which statement compares butterfly and chicken life cycles correctly? | A butterfly has a pupa stage; a chicken does not | Both have a tadpole stage | A chicken becomes a butterfly | A | Assumes all animals share the same stages |
+| SCI-G2-U02-L4-Q06 · SCI-G2-ENQ-06 · GUIDED · D2 | Why do scientists put life-cycle pictures in order? | To make the pictures look colourful | To show the order in which stages happen | To show which animal is strongest | B | Confuses sequence with appearance or ranking |
 
 ## 7. Lesson L5 — How Animals Survive
 
@@ -216,12 +216,12 @@ Examples should be explained with care:
 
 | ID / skill / phase | Prompt | A | B | C | Key | Misconception targeted |
 |---|---|---|---|---|---|---|
-| SCI-G2-U02-L5-Q01 · AN-04 · DIAGNOSTIC · D1 | What is a predator? | An animal that hunts another animal for food | A plant that makes seeds | An animal that never eats | A | Confuses predator with any living thing |
-| SCI-G2-U02-L5-Q02 · AN-04 · GUIDED · D1 | In a simple example, a fox hunts a rabbit. Which animal is the prey? | The fox | The rabbit | Both are plants | B | Reverses predator and prey roles |
-| SCI-G2-U02-L5-Q03 · AN-04 · INDEPENDENT · D2 | How can camouflage help a stick insect? | It makes the insect able to breathe underwater | It gives the insect more legs | It can help the insect blend in among branches | C | Confuses camouflage with unrelated functions |
-| SCI-G2-U02-L5-Q04 · AN-04 · INDEPENDENT · D2 | A white animal is difficult to see on snow but easy to see on dark soil. What does this show? | Camouflage works equally well everywhere | Camouflage is useful only when it matches the surroundings | Colour never affects how visible an animal is | B | Assumes camouflage is universal or irrelevant |
-| SCI-G2-U02-L5-Q05 · AN-04 · TRANSFER · D2 | How do a duck's webbed feet help it? | They help it push against water when swimming | They help it fly without wings | They store food for winter | A | Misidentifies the function of a body feature |
-| SCI-G2-U02-L5-Q06 · AN-04 · TRANSFER · D2 | What is stored in a camel's hump? | A large tank of water | Air for breathing | Fat that can be used for energy | C | Repeats the common false claim that the hump stores water |
+| SCI-G2-U02-L5-Q01 · SCI-G2-AN-04 · DIAGNOSTIC · D1 | What is a predator? | An animal that hunts another animal for food | A plant that makes seeds | An animal that never eats | A | Confuses predator with any living thing |
+| SCI-G2-U02-L5-Q02 · SCI-G2-AN-04 · GUIDED · D1 | In a simple example, a fox hunts a rabbit. Which animal is the prey? | The fox | The rabbit | Both are plants | B | Reverses predator and prey roles |
+| SCI-G2-U02-L5-Q03 · SCI-G2-AN-04 · INDEPENDENT · D2 | How can camouflage help a stick insect? | It makes the insect able to breathe underwater | It gives the insect more legs | It can help the insect blend in among branches | C | Confuses camouflage with unrelated functions |
+| SCI-G2-U02-L5-Q04 · SCI-G2-AN-04 · INDEPENDENT · D2 | A white animal is difficult to see on snow but easy to see on dark soil. What does this show? | Camouflage works equally well everywhere | Camouflage is useful only when it matches the surroundings | Colour never affects how visible an animal is | B | Assumes camouflage is universal or irrelevant |
+| SCI-G2-U02-L5-Q05 · SCI-G2-AN-04 · TRANSFER · D2 | How do a duck's webbed feet help it? | They help it push against water when swimming | They help it fly without wings | They store food for winter | A | Misidentifies the function of a body feature |
+| SCI-G2-U02-L5-Q06 · SCI-G2-AN-04 · TRANSFER · D2 | What is stored in a camel's hump? | A large tank of water | Air for breathing | Fat that can be used for energy | C | Repeats the common false claim that the hump stores water |
 
 ## 8. Unit assessment design
 
