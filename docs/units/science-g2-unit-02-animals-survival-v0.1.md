@@ -31,7 +31,7 @@ animal, living, young, adult, habitat, vertebrate, invertebrate, backbone, insec
 ### Safety and language
 
 - English is the science learning language.
-- Any Arabic helper is brief, optional, separate and pre-answer only; it is not a translation of the lesson.
+- No Arabic helper, translation or pre-question explanation is included in the current child activity under the confirmed product decision. Reconsider only with evidence and explicit approval.
 - Observe insects from a safe distance. Do not touch unknown insects, nests, eggs, wild animals or animal droppings.
 - No handling, feeding or trapping of wild animals is required. Practical observation is adult-supervised.
 - Do not teach that every animal has the same life cycle, that all insects have wings, or that camouflage makes an animal invisible in every environment.
