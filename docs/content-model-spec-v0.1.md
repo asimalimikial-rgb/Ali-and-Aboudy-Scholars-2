@@ -6,7 +6,7 @@
 
 ## 1. Design decisions
 
-1. **Separate learning language from interface/helper language.** The language of the learning objective and prompt is not selected from the device locale. A child using an Arabic device must not silently receive a fully translated Arabic science/English activity.
+1. **Separate learning language from UI locale.** The language of the learning objective and prompt is not selected from the device locale. A child using an Arabic device must not silently receive a fully translated Arabic science/English activity.
 2. **Arabic helper is deferred, not an MVP feature.** The confirmed product decision is no Arabic language or explanation inside child activities by default. The logical model may reserve an extension point for a future, evidence-backed exception, but no helper object is populated, exposed in settings, or rendered unless a new specific need is documented and approved.
 3. **Preserve v3 reading compatibility.** Existing v3 packs remain readable without rewriting their files. A v4-capable app reads v3 through an explicit legacy adapter; a v3 app must never be given a v4-only pack.
 4. **Content is typed, not renderer-inferred.** Each activity declares its type and typed payload. Renderer support is an allow-list, not a best-effort guess.
@@ -79,7 +79,7 @@ Optional:
 - `learningLanguage` is an ISO language code such as `en`; it determines prompt, choices, and answer content.
 - No Arabic helper, translation, or pre-question explanation is present in the current MVP. A future exception requires a specific observed learning need, a narrowly scoped proposal, and explicit approval. It must not be enabled merely because the device locale is Arabic.
 - `uiLocale` is selected by the app/parent settings and controls navigation, parent dashboard and system messages; it must not rewrite learning content.
-- No duplicate activity is required merely to provide a helper in another locale.
+- Do not generate duplicate learning activities merely to match the device locale; localize parent-facing UI independently.
 - The activity must be fully solvable in its learning language without translation or explanation.
 - If a future approved support aid is introduced, its exposure must be recorded and its effect on independent mastery evidence defined before implementation.
 - Any future support aid for phonics, spelling, reading or listening must not disclose the target phoneme, word form or correct response.
@@ -172,7 +172,7 @@ A reviewer may return an item to an earlier state with a reason. Only APPROVED c
 
 ## 6. Non-functional requirements
 
-- Offline operation: all required prompt, answer, helper and media assets are bundled or explicitly cached before the session.
+- Offline operation: all required prompt, answer and media assets are bundled or explicitly cached before the session. No helper assets are part of MVP.
 - Performance: parse/validate packs off the main UI thread; do not decode full-resolution media during composition.
 - Accessibility: scalable text, screen-reader labels, adequate touch targets, reduced motion, audio alternatives; RTL applies to UI/localized parent surfaces only if configured, not by translating child learning activities.
 - Privacy: no child response/audio/image upload by default; any future sync or recording requires a separate consent and data-retention design.
@@ -192,7 +192,7 @@ A reviewer may return an item to an earlier state with a reason. Only APPROVED c
 
 ## 8. Acceptance criteria for this specification
 
-- Learning language, UI locale and optional helper are separate concepts.
+- Learning language and UI locale are separate concepts; child-activity support aids remain deferred.
 - v3 can be read without changing existing pack files.
 - Each activity type has a typed payload and explicit renderer capability.
 - Source/rights metadata is traceable from skill/activity to canonical source IDs.
