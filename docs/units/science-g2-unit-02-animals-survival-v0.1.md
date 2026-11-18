@@ -122,7 +122,7 @@ Do not classify animals by size, habitat or whether they move quickly. A small f
 
 An adult insect has six legs and three main body regions: head, thorax and abdomen. Insects usually have a pair of antennae. Many adult insects have wings, but not all insects have wings. A spider is not an insect: it has eight legs and a different body plan.
 
-Insects have different roles. Some bees and butterflies help pollinate flowers. Some insects can damage crops or sting. The learner should observe insects from a safe distance and never touch an unknown insect or nest.
+Insects have different roles. Some bees and butterflies help pollinate flowers. Some ants and bees live in organised groups called colonies; not every insect lives this way. Some insects can damage crops or sting. The learner should observe insects from a safe distance and never touch an unknown insect or nest.
 
 **Guided practice:** count legs on clear original insect and spider illustrations; identify head, thorax and abdomen on a simplified diagram.
 
