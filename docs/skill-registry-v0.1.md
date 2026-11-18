@@ -150,6 +150,18 @@ The publisher's official Level 2 Scope and Sequence identifies all 18 topics. Th
 | `SCI-G2-MAT-04` | Identifies heat hazards and chooses a safe action requiring adult help | ENQ-09 | `CONFIRMED_SCOPE` | Treats a hot object as safe to touch |
 | `SCI-G2-SKY-01` | Identifies the Moon as Earth's natural satellite and distinguishes it from stars | ENQ-01 | `CONFIRMED_SCOPE` | Calls the Moon a star or confuses apparent brightness with object type |
 
+### 3.3.1 Animal-life coverage completion
+
+The initial v0.1 registry covered insects, vertebrate/invertebrate grouping, life cycles and survival adaptations, but did not give Topic 5 (What are animals?) explicit stable IDs for animal-life characteristics, young/adult relationships and habitats. Add these IDs without changing any existing ID:
+
+| Skill ID | Observable outcome | Prerequisite | Evidence | Common error to diagnose |
+|---|---|---|---|---|
+| `SCI-G2-AN-00` | Identifies an animal as a living thing using age-appropriate evidence such as growth, needing food/water/air and responding to its surroundings | `SCI-G2-ENQ-01` | `CONFIRMED_SCOPE` — Macmillan Topic 5 | Thinks every living thing must walk, or that a toy animal is alive |
+| `SCI-G2-AN-05` | Matches familiar young animals to adults and recognises that animals produce young of their own kind | `SCI-G2-AN-00`, `SCI-G2-ENQ-06` | `CONFIRMED_SCOPE` — Macmillan Topic 5 | Assumes all young animals look like smaller adults; ignores metamorphosis |
+| `SCI-G2-AN-06` | Connects a familiar animal to a habitat that can meet its basic needs | `SCI-G2-AN-00`, `SCI-G2-ENQ-01` | `CONFIRMED_SCOPE` — Macmillan Topic 5; AAS2 local examples | Chooses a habitat from appearance alone without considering water, food, shelter or space |
+
+**Scope boundary:** teach observable animal needs and life patterns, not detailed reproductive anatomy or taxonomy. Do not imply every animal has the same life cycle or habitat.
+
 ### 3.4 Scientific enquiry — cross-cutting skills
 
 | Skill ID | Observable outcome | Prerequisite | Evidence | Assessment evidence |
