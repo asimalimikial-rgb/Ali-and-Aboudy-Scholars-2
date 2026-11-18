@@ -231,3 +231,8 @@ Do not interpret a correct response after a hint as independent mastery. A singl
 ## Supersession note — 18 November 2026
 
 The original 32-item tables in this v0.1 authoring draft are retained as historical authoring material. They are **superseded for future review** by the revised 32-item candidate set in [SCI-G2-U01 QA Review v0.1](science-g2-unit-01-qa-review-v0.1.md). Use the revised set's balanced answer positions and canonical Skill IDs when conducting the independent review. Do not load either set into production JSON until the content-model and migration gates are met.
+
+
+## Delivery-order rule — confirmed child UX decision
+
+The lesson authoring sections below describe the teacher/content design, not a long explanation to display before a question. The child session starts with a short diagnostic question (Question-first). Only after the response may the engine provide a small, targeted teaching moment when needed, followed by guided practice, independent practice and transfer. Do not show a long lesson paragraph before the first question, and do not add Arabic text or a pre-question explanation to the child activity by default.
