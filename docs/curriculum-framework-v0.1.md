@@ -44,7 +44,7 @@ Maths Xpress lists Senior KG (ISBN 9789356664975) and describes learning outcome
 | English | Sudan SMILE Starter 2, Grade 2, 2nd edition 2020 | Local alignment reference; all rights reserved; no copying/adaptation |
 | English extension | Macmillan English World Level 2 | Official British English scope and sequence verified; exact learner edition/ISBN to confirm |
 | Mathematics | Sudan Grade 2 Mathematics, revised edition 2021; Macmillan Mathematics Level 2 | Sudan book is reference-only; Macmillan Level 2A vs 2B must be resolved |
-| Science | Macmillan Science Level 2; NOAA/Woods Hole Sea Grant Grade 2 habitat resource | AAS2 enrichment path; do not claim Science is listed as a Grade 2 subject in the public Sudan Learning Passport catalogue |
+| Science | **Macmillan Science Level 2 — core AAS2 subject**; NOAA/Woods Hole Sea Grant Grade 2 habitat resource as a supplementary open reference | Core Grade 2 pathway in AAS2 by explicit product decision; do not claim it is listed as a compulsory subject in the public Sudan Learning Passport catalogue |
 
 Verified candidate identifiers:
 
@@ -125,9 +125,9 @@ The book introduction describes the course as extending number and basic operati
 | Measurement | Compare and measure using the units and instruments confirmed in the exact source edition | Chooses and uses an appropriate measurement unit |
 | Geometry | Identify, describe, compare, and classify common shapes and spatial relationships | Uses attributes and mathematical language to describe shapes |
 
-### Science — AAS2 enrichment pathway
+### Science — Core AAS2 subject (Macmillan Science Level 2)
 
-The public Sudan Learning Passport Grade 2 listing reviewed on 18 November shows Arabic, Arts, English, Islamic Studies, and Mathematics; it does not list Science for Grade 2. Therefore AAS2 Science is retained as an enrichment pathway requested for the product, not represented as a confirmed national Grade 2 subject.
+Macmillan Science Level 2 is a **core subject in the AAS2 Grade 2 pathway**, with its own digital book, units, lessons, Skill Map, question bank, assessment, progress tracking, and review schedule. This is an AAS2 product decision, not a claim that Science is listed as a compulsory subject in every Sudanese Grade 2 school. The public Sudan Learning Passport Grade 2 listing reviewed on 18 November shows Arabic, Arts, English, Islamic Studies, and Mathematics; it does not list Science. That listing is a boundary on what we claim about the national catalogue, not a reason to demote Macmillan Science inside AAS2.
 
 | Skill domain | Proposed progression | Observable evidence |
 |---|---|---|
@@ -205,7 +205,7 @@ The current content model stores a single activity language and selects the acti
 
 ## 11. Next deliverables
 
-- Complete a subject-by-subject Curriculum Crosswalk with Covered / Partially Covered / Missing / Enrichment classifications.
+- Complete subject-by-subject Curriculum Crosswalks with Covered / Partially Covered / Missing / Enrichment classifications. Science is a core AAS2 subject and its Macmillan Level 2 scope map is maintained in `docs/macmillan-science-level2-curriculum-map-v0.1.md`.
 - Complete Skill Maps with prerequisites, observable outcomes, misconceptions, diagnostic evidence, mastery criteria, review timing, and activity archetypes.
 - Review the current content schema against the English-content/Arabic-support requirement.
 - Only after those reviews, draft the first complete original unit and lesson sequence for each subject.
