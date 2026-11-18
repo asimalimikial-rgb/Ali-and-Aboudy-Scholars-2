@@ -106,7 +106,7 @@ The official publisher Scope and Sequence supports a broad multi-skill map. The 
 
 ### 3.2 Mathematics — Macmillan Mathematics 2A/2B
 
-The current crosswalk has unit-title and catalogue evidence, but the current 2A Scope and Sequence has not been matched to ISBN 9781035130382. Do not silently treat older teacher-book content as the current 2A edition. Existing pilot IDs are retained.
+The current crosswalk records Macmillan Mathematics 2A Pupil's Book and eBook Pack ISBN 9781035130382 from the ELT Catalogue 2027. This confirms catalogue product identity, not the learner's family copy or the detailed scope. The current official levels/samples page does not clearly expose the 2A row, and an ISBN-matched 2A Scope and Sequence remains unverified. Do not silently attribute older Teacher's Book content to the 2027 edition. Existing pilot IDs are retained.
 
 | Skill ID | Observable outcome | Prerequisite | Evidence | Common error to diagnose | Suitable assessment pattern |
 |---|---|---|---|---|---|
@@ -220,7 +220,7 @@ Therefore, this document is a target curriculum/assessment model, not a statemen
 
 1. Confirm the exact family editions/ISBNs for Hop Skip and Jump Senior KG, Maths Xpress Senior KG, English World Level 2, Mathematics 2A/2B, and Science Level 2.
 2. Obtain full/official scope evidence for Hop Skip Senior KG and Maths Xpress Senior KG; current evidence is catalogue-level.
-3. Obtain current ISBN-matched Macmillan Mathematics 2A Scope and Sequence; do not assign older teacher-book unit detail to the 2027 edition without proof.
+3. Obtain the ISBN-matched Macmillan Mathematics 2A Scope and Sequence and confirm the family's actual copy; do not assign older teacher-book unit detail to the 2027 edition without proof.
 4. Compare selected English skills against the complete relevant Cambridge framework only after deciding which FLE/ESL comparison is appropriate; do not infer the learner's pathway.
 5. Calibrate item difficulty, distractor quality, mastery confidence and review timing using reviewed original items and actual learner evidence.
 6. Review SCI-G2-U01's 32 draft items against these Skill IDs, misconceptions and assessment phases before production approval.
@@ -230,6 +230,7 @@ Therefore, this document is a target curriculum/assessment model, not a statemen
 - Macmillan Science Level 2 Scope and Sequence: https://api.macmillanenglish.com/fileadmin/user_upload/Catalogue/Samples/Macmillan_Science/Macmillan_Science_Level_2_Scope_and_Sequence.pdf
 - Macmillan English World Level 2: https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples
 - Macmillan Mathematics: https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples
+- Macmillan ELT Catalogue 2027, Mathematics 2A/2B ISBN listing: https://online.flippingbook.com/view/887627778/44-45/
 - Macmillan Education India School Catalogue 2025: https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf
 - Sudan SMILE Starter 2 Grade 2: https://www.mdl.edu.sd/img/bookpdf/english2_1664176727.pdf
 - Sudan Grade 2 Mathematics revised edition 2021: https://www.mdl.edu.sd/img/bookpdf/math2_1659464927.pdf
