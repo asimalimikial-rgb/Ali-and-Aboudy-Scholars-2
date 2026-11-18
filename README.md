@@ -130,3 +130,7 @@ The initial Android namespace and application ID are `com.asimalimikial.aas2`. T
 - See [Macmillan Science Level 2 Curriculum Map v0.1](macmillan-science-level2-curriculum-map-v0.1.md).
 - See [Macmillan-first Curriculum Crosswalk v0.1](curriculum-crosswalk-v0.1.md) for both learner paths and all selected subjects.
 - See [Skill Registry v0.1](skill-registry-v0.1.md) for stable skills, prerequisites, misconceptions, assessment evidence, and mastery policy.
+- See [Content Model Specification v0.1](content-model-spec-v0.1.md) for the proposed bilingual, typed activity and provenance contract.
+- See [Schema v3 to v4 Migration & Test Plan v0.1](schema-v3-to-v4-migration-test-plan-v0.1.md) for backward-compatibility gates and regression coverage.
+- See [Science Grade 2 Unit 1 QA Review](units/science-g2-unit-01-qa-review-v0.1.md) for the revised 32-item candidate set and assessment audit.
+- See [Science Grade 2 Unit 2 — Animals and Survival](units/science-g2-unit-02-animals-survival-v0.1.md) for five lessons and 30 original draft items.
