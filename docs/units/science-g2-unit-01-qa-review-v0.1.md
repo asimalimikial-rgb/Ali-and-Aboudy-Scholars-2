@@ -136,7 +136,7 @@ The item tags in the tables are an authoring recommendation. A lesson delivery s
 3. Retain the scientifically important note that germination can begin without soil and that light is needed for photosynthesis in green seedlings, not necessarily to start germination.
 4. Ensure any illustrations label roots/stems/leaves accurately and do not show edible plant parts as universal across all plants.
 5. Use Sudan-context examples (date palm, sorghum, sesame, cotton) as optional familiar contexts, not assumptions about every household.
-6. Keep the Arabic helper as a separate optional pre-answer aid. It must not reveal the correct answer or be displayed as a full translation.
+6. Do not include Arabic helper text or a pre-question explanation in the current child activity. Reconsider only if a specific new learning need is evidenced and explicitly approved.
 7. Do not encode these revised items in schema v3. Wait for the approved v4 content contract and supported renderer.
 
 ## 6. Production approval checklist
