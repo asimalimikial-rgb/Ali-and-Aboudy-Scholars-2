@@ -138,7 +138,7 @@ Attempt evidence should eventually record:
 - learner ID/path, skill ID, activity ID + content version;
 - response and correctness;
 - attempt timestamp;
-- helper/hint exposure;
+- hint exposure (only for an explicitly supported hint activity; no helper field in MVP);
 - assessment phase;
 - feedback key shown;
 - evidence modality;
