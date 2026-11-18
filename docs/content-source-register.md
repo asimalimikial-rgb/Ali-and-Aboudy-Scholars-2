@@ -152,3 +152,43 @@ These are publisher references for curriculum alignment and edition identificati
 - Do not treat the India NCF alignment stated in the 2025 Macmillan Education India catalogue as Sudan curriculum alignment.
 - For Aboudy, use SMILE Starter 2 for Sudan Grade 2 English topic alignment and English World Level 2 as an additional international reference; do not combine their scope-and-sequence mechanically.
 - Grade 2 Science is a **Core AAS2 subject** in Aboudy's pathway by explicit product decision. This is an AAS2 product-scope decision, not a claim that Science is compulsory in every Sudanese Grade 2 school.
+
+
+## Stable source-reference catalog — AAS2 canonical IDs
+
+**Catalog revision:** 0.1  
+**Reviewed:** 2026-11-18  
+**Rule:** IDs below are immutable identifiers for the cited source/edition record. If a new edition is found, create a new ID; never silently repoint an existing ID. The same ID must be used consistently in curriculum maps, skill registries, content packs, and asset manifests.
+
+| Stable sourceReferenceId | Source / edition | Learner-path use | Rights status in AAS2 | Evidence status / notes |
+|---|---|---|---|---|
+| `MACMILLAN-SCIENCE-L2` | Macmillan Science Level 2; Workbook ISBN 9780230028432; Teacher's Book + Student eBook Pack ISBN 9781380000255 | Aboudy Grade 2 Science — Core AAS2 | `REFERENCE_ONLY` | Official product page and official 18-topic Scope and Sequence reviewed; exact family edition/pacing not confirmed |
+| `MACMILLAN-ENGLISH-WORLD-L2` | English World Level 2; Pupil's Book Pack 9781035117154; Workbook Pack 9781035117178; Teacher's Pack 9781035117550 | Aboudy Grade 2 English alignment | `REFERENCE_ONLY` | Official product page and Level 2 Scope and Sequence reviewed; exact family edition not confirmed |
+| `MACMILLAN-MATH-L2B` | Macmillan Mathematics Level 2B Pupil's Book ebook Pack 9781380000613 | Aboudy Grade 2 Mathematics | `REFERENCE_ONLY` | Official current product page confirms 2B; exact family edition not confirmed |
+| `MACMILLAN-MATH-L2-TEACHER` | Macmillan Mathematics Level 2 Teacher's ebook Pack 9781380000620 | Aboudy Grade 2 Mathematics reference | `REFERENCE_ONLY` | Official current product page confirms this pack; do not infer it is a 2A pupil book |
+| `MACMILLAN-MATH-L2A-PENDING` | Macmillan Mathematics Level 2A — edition/ISBN pending confirmation | Aboudy Grade 2 Mathematics candidate | `REFERENCE_ONLY` (provisional record only; not eligible for pack mapping) | No current official ISBN match verified. Do not cite as an identified edition or bind skills to it until confirmed |
+| `MACMILLAN-HSJ-SENIOR-KG` | Hop Skip and Jump Senior KG kit, catalogue ISBN 9789356660113 | Ali KG2 English/Literacy and broad integrated learning | `REFERENCE_ONLY` | Macmillan Education India School Catalogue 2025; Indian catalogue scope only, not Sudan curriculum proof |
+| `MACMILLAN-MATHS-XPRESS-SENIOR-KG` | Maths Xpress Senior KG, catalogue ISBN 9789356664975 | Ali KG2 Mathematics | `REFERENCE_ONLY` | Macmillan Education India School Catalogue 2025; detailed family edition/sequence unverified |
+| `MACMILLAN-MATHS-XPRESS-BOOK-2` | Maths Xpress Book 2, catalogue ISBN 9789356664999 | Candidate reference only; do not assume equivalence to Grade 2 Macmillan Mathematics | `REFERENCE_ONLY` | Product catalogue identity only; learner placement/edition not confirmed |
+| `SD-G2-MATH-2021` | Sudan Grade 2 Mathematics, revised edition 2021 | Local Grade 2 Mathematics alignment | `REFERENCE_ONLY` | Ministry/NCCER PDF reviewed; broad units recorded; no copying/adaptation |
+| `SD-SMILE-G2-2020` | SMILE Starter 2 Pupil's Book, Grade 2 Basic Level, second edition 2020 | Local Grade 2 English topic alignment | `REFERENCE_ONLY` | Ministry/NCCER PDF reviewed; use as secondary local alignment, not as the primary sequence |
+| `SUDAN-LP-G2-PUBLISHED` | Sudan Learning Passport published Grade 2 subject listing | Local curriculum-context check | `REFERENCE_ONLY` | Portal listing is a published-platform snapshot, not proof of every school’s current timetable or full national syllabus |
+| `QCAA-QKLG-2024` | Queensland Kindergarten Learning Guideline 2024 | Ali KG2 developmental/learning-design reference | `ADAPTATION_ALLOWED` only for QCAA-created material covered by CC BY 4.0 | Exclusions and third-party materials remain excluded; preserve attribution |
+| `HS-ELOF-BIRTH5` | Head Start Early Learning Outcomes Framework: Ages Birth to Five | Ali KG2 developmental reference | `REFERENCE_ONLY` | No explicit open reuse licence identified in reviewed official page |
+| `NOAA-WHOI-E20-003` | Plant and Animal Habitats, WHOI-E-20-003 (2020) | Original science activity inspiration where scope matches | `ADAPTATION_ALLOWED` | NOAA institutional repository identifies this item as Public Domain; check linked/embedded third-party assets separately |
+| `NGSS-G2-2013` | Next Generation Science Standards, Grade 2 | Science benchmark only | `REFERENCE_ONLY` | Terms restrict eligibility; not a substitute for Macmillan sequence or Sudan curriculum |
+| `IM-K12-MATH-2019-2021` | Illustrative Mathematics K–5 first edition (2019–2021) | Mathematics pedagogy/content reference | `ADAPTATION_ALLOWED` | CC BY 4.0 applies to first edition only; required attribution and change notice; do not substitute IM v.360 |
+| `CCSS-G2-MATH` | Common Core State Standards, Grade 2 Mathematics | External benchmark only | `REFERENCE_ONLY` | Do not reproduce standards text; use internal alignment references |
+| `CCSS-G2-ELA` | Common Core State Standards, Grade 2 ELA/Literacy | External benchmark only | `REFERENCE_ONLY` | Do not reproduce standards text; use internal alignment references |
+
+### Canonical metadata policy
+
+Every pack-level source record must carry the canonical ID, exact title, publisher, HTTPS source URL, rights statement, `usageRights`, and verification date. Add `licenseUrl` and required attribution where applicable. A missing exact ISBN or uncertain edition must remain explicit; do not fill it from a neighbouring level or teacher pack.
+
+### Pack migration inventory
+
+- Existing Grade 2 pack already contains: `SD-G2-MATH-2021`, `IM-K12-MATH-2019-2021`, `NOAA-WHOI-E20-003`, `NGSS-G2-2013`, `SD-SMILE-G2-2020`, `CCSS-G2-MATH`, `CCSS-G2-ELA`.
+- Existing KG2 pack already contains: `QCAA-QKLG-2024`, `HS-ELOF-BIRTH5`, `NOAA-WHOI-E20-003`.
+- Add Macmillan IDs to pack metadata only when the corresponding skills/activities are actually authored against that source. Do not add unused catalogue entries simply to make a pack look complete.
+- `MACMILLAN-MATH-L2A-PENDING` is a registry gap marker only; it must not be referenced from production skill records until edition evidence is obtained.
+
