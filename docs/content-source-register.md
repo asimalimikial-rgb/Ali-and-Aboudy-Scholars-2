@@ -151,4 +151,4 @@ These are publisher references for curriculum alignment and edition identificati
 - Do not equate a Macmillan product level with a school grade without examining the exact book, edition, and learner's actual placement.
 - Do not treat the India NCF alignment stated in the 2025 Macmillan Education India catalogue as Sudan curriculum alignment.
 - For Aboudy, use SMILE Starter 2 for Sudan Grade 2 English topic alignment and English World Level 2 as an additional international reference; do not combine their scope-and-sequence mechanically.
-- Grade 2 Science remains an AAS2 enrichment pathway unless a current official Sudanese source establishes its status for the learner's school.
+- Grade 2 Science is a **Core AAS2 subject** in Aboudy's pathway by explicit product decision. This is an AAS2 product-scope decision, not a claim that Science is compulsory in every Sudanese Grade 2 school.
