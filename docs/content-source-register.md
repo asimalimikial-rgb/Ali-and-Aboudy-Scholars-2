@@ -180,6 +180,10 @@ These are publisher references for curriculum alignment and edition identificati
 | `IM-K12-MATH-2019-2021` | Illustrative Mathematics K–5 first edition (2019–2021) | Mathematics pedagogy/content reference | `ADAPTATION_ALLOWED` | CC BY 4.0 applies to first edition only; required attribution and change notice; do not substitute IM v.360 |
 | `CCSS-G2-MATH` | Common Core State Standards, Grade 2 Mathematics | External benchmark only | `REFERENCE_ONLY` | Do not reproduce standards text; use internal alignment references |
 | `CCSS-G2-ELA` | Common Core State Standards, Grade 2 ELA/Literacy | External benchmark only | `REFERENCE_ONLY` | Do not reproduce standards text; use internal alignment references |
+| `CAMBRIDGE-EARLY-YEARS` | Cambridge Early Years curriculum framework | Developmental benchmark only | `REFERENCE_ONLY` | International comparison; not Sudan curriculum or an assumed learner pathway |
+| `CAMBRIDGE-PRIMARY-ENGLISH-0057-0058` | Cambridge Primary English curriculum (syllabuses 0057/0058) | External English benchmark only | `REFERENCE_ONLY` | Confirm syllabus version and pathway before detailed mapping |
+| `CAMBRIDGE-PRIMARY-MATH-0096` | Cambridge Primary Mathematics curriculum (syllabus 0096) | External Mathematics benchmark only | `REFERENCE_ONLY` | Not the selected Macmillan sequence |
+| `CAMBRIDGE-PRIMARY-SCIENCE-0097` | Cambridge Primary Science curriculum (syllabus 0097) | External Science benchmark only | `REFERENCE_ONLY` | Not the selected Macmillan sequence |
 
 ### Canonical metadata policy
 
