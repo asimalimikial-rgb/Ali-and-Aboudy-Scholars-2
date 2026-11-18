@@ -22,7 +22,7 @@ By the end of this unit, the learner should be able to:
 
 **Vocabulary:** plant, living, grow, root, stem, leaf/leaves, flower, fruit, seed, soil, germinate, cotton, wood, observe, compare.
 
-**Language policy:** English is the science learning language. Arabic helper text is a separate, optional, brief pre-answer aid; it is not a full Arabic translation of the lesson. The current content schema stores one activity language, so this unit remains a curriculum-authoring document until the bilingual content model is reviewed. Do not insert it into the app pack by guessing unsupported fields.
+**Language policy:** English is the science learning language. Under the confirmed product decision, no Arabic text or explanatory paragraph is placed inside the child's science activity by default. The current content schema stores one activity language; do not create Arabic variants or helper fields without a new evidenced need and explicit approval.
 
 ## Lesson sequence
 
@@ -54,7 +54,7 @@ Observe one plant in the home or outside with an adult. Record one feature today
 - Every green-looking object is a living plant.
 - Plants do not change because they do not walk.
 
-**Optional Arabic helper (pre-answer only):** «اختَر النبات الحي، وفكّر: هل يمكنه أن ينمو؟»
+**Arabic support:** Not included. No pre-question explanation or Arabic helper under the current product decision.
 
 ### L1 question set — original draft items
 
@@ -93,7 +93,7 @@ Create a simple food observation chart at home with an adult: food name, plant s
 - A fruit is always sweet.
 - A seed is not part of a plant.
 
-**Optional Arabic helper (pre-answer only):** «فكّر في الجزء الذي نأكله من النبات: جذر أم ساق أم ورقة أم ثمرة أم بذرة؟»
+**Arabic support:** Not included. No pre-question explanation or Arabic helper under the current product decision.
 
 ### L2 question set — original draft items
 
@@ -130,7 +130,7 @@ Find one object made partly from a plant material with an adult. Describe the ev
 - Every useful material comes from plants.
 - Processed foods no longer have a plant source.
 
-**Optional Arabic helper (pre-answer only):** «من أي نبات أو جزء نباتي جاء هذا الشيء؟»
+**Arabic support:** Not included. No pre-question explanation or Arabic helper under the current product decision.
 
 ### L3 question set — original draft items
 
@@ -170,7 +170,7 @@ For this age level, distinguish germination from later seedling growth: water, a
 - More water is always better.
 - Soil is the only possible place for a seed to begin germinating.
 
-**Optional Arabic helper (pre-answer only):** «رتّب مراحل نمو البذرة، وفكّر فيما تحتاجه في البداية.»
+**Arabic support:** Not included. No pre-question explanation or Arabic helper under the current product decision.
 
 ### L4 question set — original draft items
 
@@ -195,7 +195,7 @@ The 32 items are **draft authoring candidates**, not production-ready activities
 - Local-context review: examples are recognisable without assuming a specific household or food access.
 - Safety review: no unsafe tasting, handling, heating, or unsupervised investigation.
 - Curriculum review: correct topic and Skill ID mapping.
-- Technical review: stable unique IDs, supported activity type, schema validation, and separate Arabic helper handling.
+- Technical review: stable unique IDs, supported activity type, schema validation; no Arabic helper is added under the current product decision.
 - Media review: any future image must be newly created or individually licensed; no textbook artwork.
 
 ## Suggested lesson assessment
@@ -212,7 +212,7 @@ Do not interpret a correct response after a hint as independent mastery. A singl
 ## Production blockers / dependencies
 
 - The existing Grade 2 content pack schema v3 currently supports SINGLE_CHOICE activities and a single language field. This document intentionally does not invent new schema fields or add these 32 draft items to the live pack.
-- The product decision to keep English as the science learning language with optional short Arabic helper text requires a content-model review before these questions are loaded into production packs.
+- The product decision is English science learning with no Arabic text or pre-question explanation inside child activities by default. A future exception requires new evidence and approval.
 - The current app activity renderer is single-choice and does not yet render option images. Keep this first unit within the verified interaction capability until a renderer extension is designed and tested.
 - Confirm the exact learner edition and school pacing before final page-level mapping.
 
@@ -222,7 +222,7 @@ Do not interpret a correct response after a hint as independent mastery. A singl
 - Four lesson intentions and original teaching outlines: drafted.
 - Thirty-two original single-choice question candidates: drafted.
 - Answer keys and misconception targets: specified, pending independent QA.
-- Arabic helper examples: optional drafts only.
+- Arabic helper: not included.
 - Media assets: not created.
 - JSON pack conversion: blocked pending bilingual content model review and schema/renderer validation.
 - Unit approval: pending science, pedagogy, language, and safety review.
