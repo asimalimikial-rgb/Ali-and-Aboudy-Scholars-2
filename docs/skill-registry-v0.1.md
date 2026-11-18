@@ -46,10 +46,10 @@ The family's nominated reference is Hop Skip and Jump Senior KG. The available M
 |---|---|---|---|---|---|
 | `ALI-ENG-LIST-01` | Follows a familiar one-step spoken instruction in English | None | `CATALOGUE_ONLY` / `BENCHMARK_ONLY` | Responds to a visual cue rather than the spoken instruction | Audio-first response; adult-observed task |
 | `ALI-ENG-VOC-01` | Identifies a familiar spoken word by selecting its matching picture | LIST-01 | `PARTIAL_SCOPE` | Selects by colour/position rather than word meaning | Listen-and-select; picture matching |
-| `ALI-ENG-PHON-01` | Identifies the initial sound in a familiar English word | Listening to the word; familiar vocabulary | `PARTIAL_SCOPE`; current pilot ID `initial-sounds` is a related baseline | Chooses a letter name or a later sound instead of the first phoneme | Audio-first sound discrimination |
-| `ALI-ENG-PHON-02` | Connects a taught letter to its sound when the letter is shown | PHON-01 | `PENDING_EDITION` | Names the letter but does not produce/recognise its sound | Letter-sound selection; oral response |
-| `ALI-ENG-PHON-03` | Blends a short, taught sequence of phonemes into a simple word when ready | PHON-01, PHON-02 | `PENDING_EDITION` | Says letter names, omits a phoneme, or guesses from the picture | Listen/blend; build-a-word interaction |
-| `ALI-ENG-READ-01` | Matches a familiar decodable word to its meaning or picture | PHON-02; PHON-03 where decoding is required | `PENDING_EDITION` | Uses picture guessing without attending to print | Word-picture match; simple decoding check |
+| `initial-sounds` | Identifies the initial sound in a familiar English word | Listening to the word; familiar vocabulary | `PARTIAL_SCOPE`; existing pilot skill ID retained as the permanent ID | Chooses a letter name or a later sound instead of the first phoneme | Audio-first sound discrimination |
+| `ALI-ENG-PHON-02` | Connects a taught letter to its sound when the letter is shown | `initial-sounds` | `PENDING_EDITION` | Names the letter but does not produce/recognise its sound | Letter-sound selection; oral response |
+| `ALI-ENG-PHON-03` | Blends a short, taught sequence of phonemes into a simple word when ready | `initial-sounds`, ALI-ENG-PHON-02 | `PENDING_EDITION` | Says letter names, omits a phoneme, or guesses from the picture | Listen/blend; build-a-word interaction |
+| `ALI-ENG-READ-01` | Matches a familiar decodable word to its meaning or picture | ALI-ENG-PHON-02; ALI-ENG-PHON-03 where decoding is required | `PENDING_EDITION` | Uses picture guessing without attending to print | Word-picture match; simple decoding check |
 | `ALI-ENG-LIT-01` | Identifies a familiar character or key event in a short picture-supported story | LIST-01, VOC-01 | `PARTIAL_SCOPE` | Confuses a picture detail with the story event | Listen/read then select; event ordering |
 | `ALI-ENG-WRITE-01` | Recognises a target letter shape and follows its visual formation path | Visual discrimination | `PARTIAL_SCOPE`; catalogue lists handwriting component | Reverses orientation or traces without attending to start/direction | Trace/point task plus offline pencil practice |
 
@@ -76,8 +76,8 @@ Hop Skip and Jump's catalogue lists General Awareness and SEL/STEM/Creative Codi
 
 | Skill ID | Observable outcome | Evidence | Status |
 |---|---|---|---|
+| `plant-needs` | Recognises that plants need water and light to grow | Basic observation | Current KG2 pilot skill; QKLG developmental reference and NOAA public-domain topic reference |
 | `ALI-DISC-OBS-01` | Notices and names one visible feature of a familiar object or living thing | Catalogue component only | `CATALOGUE_ONLY` |
-| `ALI-DISC-CLASS-01` | Groups familiar objects by one visible feature | Catalogue component only | `CATALOGUE_ONLY` |
 | `ALI-DISC-SEQ-01` | Orders a short familiar routine or simple event sequence | STEM/creative-learning description only | `CATALOGUE_ONLY` |
 
 These are exploratory candidates, not a claim that the exact family book teaches each outcome.
