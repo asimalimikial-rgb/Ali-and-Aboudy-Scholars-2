@@ -103,3 +103,49 @@ This register records sources that may inform original learning outcomes and con
 8. Localize original examples to Sudanese children's everyday experience without presenting a foreign framework as the Sudanese national curriculum.
 
 **Review note:** this register is a conservative engineering rights screen, not legal advice. Where terms are ambiguous, keep the source `REFERENCE_ONLY` or obtain written permission.
+
+
+## Macmillan curriculum references — verified 18 November 2026
+
+These are publisher references for curriculum alignment and edition identification. The reviewed catalogue and product pages do not grant AAS2 a general right to reproduce textbook content. Keep each item `REFERENCE_ONLY` unless a separate written licence or permission is verified.
+
+### 9. Macmillan Education India — School Catalogue 2025
+
+- **Source:** [Macmillan Education India School Catalogue 2025](https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf).
+- **Hop Skip and Jump — Senior KG kit:** ISBN `9789356660113`. The catalogue lists literacy, numeracy, general awareness, phonics, stories, rhymes/songs, handwriting, art/craft, and SEL/STEM/creative coding components.
+- **Maths Xpress — Senior KG:** ISBN `9789356664975`; Book 2 ISBN `9789356664999`. The catalogue describes Maths Xpress as Nursery–Class 8 and states alignment with India's NCF 2022 for Foundational Years (Nursery–Grade 2), with learning outcomes, mental maths, oral maths talk, nature walks, puzzles/games, real-life links, revision, and formative assessment.
+- **Context limitation:** this is an India catalogue and refers to Indian curriculum frameworks. It is a scope/design reference, not evidence of alignment with the Sudanese national curriculum.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** verify product identity, broad subject scope, and pedagogical features; write independent AAS2 outcomes and activities. Do not copy worksheets, questions, images, stories, songs, phonics sequences, or page layouts.
+
+### 10. Macmillan English — English World Level 2
+
+- **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples) and [Level 2 Scope and Sequence PDF](https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf).
+- **Publisher metadata:** British English; six levels; CEFR Pre-A1 to A2+.
+- **Candidate ISBNs shown on the official page:** Pupil's Book Pack `9781035117154`; Workbook Pack `9781035117178`; Teacher's Pack `9781035117550`.
+- **Scope indicators:** 12 units with themes including action verbs, playground equipment, sports/hobbies, clothes, time phrases, body parts, food/drink, animals, sea creatures, beach/island/boat contexts; phonics includes magic-e, initial blends, and long-vowel patterns such as ee, oo, ai, and ea.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** use broad topics and skill coverage for crosswalk/alignment. Do not reproduce unit text, vocabulary lists as arranged by the book, stories, dialogues, exercises, phonics pages, audio scripts, or artwork.
+
+### 11. Macmillan Mathematics — Level 2
+
+- **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples).
+- **Candidate ISBNs shown on the official page:** Level 2B Pupil's Book ebook Pack `9781380000613`; Level 2 Teacher's ebook Pack `9781380000620`.
+- **Edition gap:** the previously discussed Level 2A reference has not been verified on the current official product page. Do not assume 2A and 2B are interchangeable or select one without checking the learner's actual book.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** confirm book identity and compare broad learning coverage; independently author all content.
+
+### 12. Macmillan Science — Level 2
+
+- **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-science/levels-samples).
+- **Candidate ISBNs shown on the official page:** Level 2 Workbook `9780230028432`; Teacher's Book + Student eBook Pack `9781380000255`.
+- **Publisher metadata:** six levels; British English. The product page does not by itself establish that Science is a national Grade 2 subject in Sudan.
+- **AAS2 usageRights:** `REFERENCE_ONLY`.
+- **Allowed AAS2 use:** confirm product identity and broad scope when the exact book is available; do not reproduce textbook text, exercises, diagrams, photographs, or teacher materials.
+
+## Curriculum crosswalk cautions
+
+- Do not equate a Macmillan product level with a school grade without examining the exact book, edition, and learner's actual placement.
+- Do not treat the India NCF alignment stated in the 2025 Macmillan Education India catalogue as Sudan curriculum alignment.
+- For Aboudy, use SMILE Starter 2 for Sudan Grade 2 English topic alignment and English World Level 2 as an additional international reference; do not combine their scope-and-sequence mechanically.
+- Grade 2 Science remains an AAS2 enrichment pathway unless a current official Sudanese source establishes its status for the learner's school.
