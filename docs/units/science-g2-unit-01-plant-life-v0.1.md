@@ -226,3 +226,8 @@ Do not interpret a correct response after a hint as independent mastery. A singl
 - Media assets: not created.
 - JSON pack conversion: blocked pending bilingual content model review and schema/renderer validation.
 - Unit approval: pending science, pedagogy, language, and safety review.
+
+
+## Supersession note — 18 November 2026
+
+The original 32-item tables in this v0.1 authoring draft are retained as historical authoring material. They are **superseded for future review** by the revised 32-item candidate set in [SCI-G2-U01 QA Review v0.1](science-g2-unit-01-qa-review-v0.1.md). Use the revised set's balanced answer positions and canonical Skill IDs when conducting the independent review. Do not load either set into production JSON until the content-model and migration gates are met.
