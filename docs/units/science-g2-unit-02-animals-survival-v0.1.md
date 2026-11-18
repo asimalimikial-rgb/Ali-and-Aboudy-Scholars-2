@@ -268,3 +268,8 @@ A supported answer is evidence of learning-in-progress, not independent mastery.
 | Science/pedagogy/language sign-off | Pending |
 
 **Disposition:** This is a new original curriculum-authoring draft for Unit 2. It is not a production-ready digital book or a claim of complete textbook coverage.
+
+
+## Delivery-order rule — confirmed child UX decision
+
+The lesson authoring sections below describe the teacher/content design, not a long explanation to display before a question. The child session starts with a short diagnostic question (Question-first). Only after the response may the engine provide a small, targeted teaching moment when needed, followed by guided practice, independent practice and transfer. Do not show a long lesson paragraph before the first question, and do not add Arabic text or a pre-question explanation to the child activity by default.
