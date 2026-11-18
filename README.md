@@ -128,3 +128,4 @@ The initial Android namespace and application ID are `com.asimalimikial.aas2`. T
 - The public Sudan Learning Passport Grade 2 listing is not used to determine the internal priority of AAS2 subjects; it only limits claims about the national catalogue.
 - The official Macmillan Science Level 2 Scope and Sequence has been reviewed and maps 18 topics into five AAS2 units plus a cross-cutting scientific-enquiry strand.
 - See [Macmillan Science Level 2 Curriculum Map v0.1](macmillan-science-level2-curriculum-map-v0.1.md).
+- See [Macmillan-first Curriculum Crosswalk v0.1](curriculum-crosswalk-v0.1.md) for both learner paths and all selected subjects.
