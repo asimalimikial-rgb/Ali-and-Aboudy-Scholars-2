@@ -175,3 +175,19 @@ Author Unit SCI-G2-U01 (Plant life and plant uses) first:
 8. Full schema validation and scientific/editorial review.
 
 Do not mark the unit complete until every lesson and question passes the production checks above.
+
+
+## 8. AAS2 authoring progress — 18 November 2026
+
+This section records AAS2-authored coverage, not publisher workbook completion.
+
+| Macmillan topics | AAS2 destination | Current state | Review boundary |
+|---|---|---|---|
+| 1–4 Plant life and plant uses | `docs/units/science-g2-unit-01-plant-life-v0.1.md` | Four lessons and 32 original candidate items drafted; revised item set documented in `docs/units/science-g2-unit-01-qa-review-v0.1.md` | Revised items still require independent science, pedagogy, language, rights and technical review |
+| 5–9 Animals and survival | `docs/units/science-g2-unit-02-animals-survival-v0.1.md` | Five lessons and 30 original candidate items drafted | Draft; independent review and supported activity renderer remain pending |
+| 10–14 Senses and our bodies | Future Unit 3 | Scope mapped; unit not yet authored | To author |
+| 15–17 Materials and physical properties | Future Unit 4 | Scope mapped; unit not yet authored | To author |
+| 18 The sky at night | Future Unit 5 | Scope mapped; unit not yet authored | To author |
+
+**Content count:** 62 original question candidates across Units 1–2 (32 revised candidates for Unit 1 and 30 candidates for Unit 2). This is not a production bank count, not a count of app-loaded activities, and not a claim of completed Macmillan textbook coverage.
+
