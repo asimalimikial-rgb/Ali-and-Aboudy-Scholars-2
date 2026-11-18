@@ -140,8 +140,10 @@ These are publisher references for curriculum alignment and edition identificati
 - **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-science/levels-samples).
 - **Candidate ISBNs shown on the official page:** Level 2 Workbook `9780230028432`; Teacher's Book + Student eBook Pack `9781380000255`.
 - **Publisher metadata:** six levels; British English. The product page does not by itself establish that Science is a national Grade 2 subject in Sudan.
+- **AAS2 curriculum role:** Core subject in the Aboudy Grade 2 pathway by explicit product decision; the official publisher Scope and Sequence maps 18 Level 2 topics.
 - **AAS2 usageRights:** `REFERENCE_ONLY`.
-- **Allowed AAS2 use:** confirm product identity and broad scope when the exact book is available; do not reproduce textbook text, exercises, diagrams, photographs, or teacher materials.
+- **Allowed AAS2 use:** confirm product identity and map broad learning objectives; author explanations, examples, activities, diagrams, questions, and feedback independently. Do not reproduce textbook text, exercises, diagrams, photographs, or teacher materials.
+- **Scope evidence:** [Official Macmillan Science Level 2 Scope and Sequence PDF](https://api.macmillanenglish.com/fileadmin/user_upload/Catalogue/Samples/Macmillan_Science/Macmillan_Science_Level_2_Scope_and_Sequence.pdf). The AAS2 topic map is documented in `docs/macmillan-science-level2-curriculum-map-v0.1.md`.
 
 ## Curriculum crosswalk cautions
 
