@@ -120,3 +120,11 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 ## Provisional technical identifiers
 
 The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. No APK or release should be produced from this development phase.
+
+
+## Curriculum priority update — 18 November 2026
+
+- Macmillan Science Level 2 is a **core AAS2 subject** in Aboudy's Grade 2 pathway, by explicit product decision. It is not an optional enrichment module.
+- The public Sudan Learning Passport Grade 2 listing is not used to determine the internal priority of AAS2 subjects; it only limits claims about the national catalogue.
+- The official Macmillan Science Level 2 Scope and Sequence has been reviewed and maps 18 topics into five AAS2 units plus a cross-cutting scientific-enquiry strand.
+- See [Macmillan Science Level 2 Curriculum Map v0.1](macmillan-science-level2-curriculum-map-v0.1.md).
