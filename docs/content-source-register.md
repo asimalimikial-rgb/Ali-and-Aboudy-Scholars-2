@@ -162,7 +162,7 @@ These are publisher references for curriculum alignment and edition identificati
 
 | Stable sourceReferenceId | Source / edition | Learner-path use | Rights status in AAS2 | Evidence status / notes |
 |---|---|---|---|---|
-| `MACMILLAN-SCIENCE-L2` | Macmillan Science Level 2; Workbook ISBN 9780230028432; Teacher's Book + Student eBook Pack ISBN 9781380000255 | Aboudy Grade 2 Science — Core AAS2 | `REFERENCE_ONLY` | Official product page and official 18-topic Scope and Sequence reviewed; exact family edition/pacing not confirmed |
+| `MACMILLAN-SCIENCE-L2` | Macmillan Science Level 2; Pupil's Book and eBook Pack ISBN 9781035130740; Workbook ISBN 9780230028432; Teacher's Book + Student eBook Pack ISBN 9781380000255 | Aboudy Grade 2 Science — Core AAS2 | `REFERENCE_ONLY` | ELT Catalogue 2027 product ISBNs and official 18-topic Scope and Sequence reviewed; exact family edition/pacing not confirmed |
 | `MACMILLAN-ENGLISH-WORLD-L2` | English World Level 2; Pupil's Book Pack 9781035117154; Workbook Pack 9781035117178; Teacher's Pack 9781035117550 | Aboudy Grade 2 English alignment | `REFERENCE_ONLY` | Official product page and Level 2 Scope and Sequence reviewed; exact family edition not confirmed |
 | `MACMILLAN-MATH-L2B` | Macmillan Mathematics Level 2B Pupil's Book ebook Pack 9781380000613 | Aboudy Grade 2 Mathematics | `REFERENCE_ONLY` | Official current product page confirms 2B; exact family edition not confirmed |
 | `MACMILLAN-MATH-L2-TEACHER` | Macmillan Mathematics Level 2 Teacher's ebook Pack 9781380000620 | Aboudy Grade 2 Mathematics reference | `REFERENCE_ONLY` | Official current product page confirms this pack; do not infer it is a 2A pupil book |
