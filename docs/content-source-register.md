@@ -129,9 +129,9 @@ These are publisher references for curriculum alignment and edition identificati
 
 ### 11. Macmillan Mathematics — Level 2
 
-- **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples).
+- **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples) and [ELT Catalogue 2027, pages 44–45](https://online.flippingbook.com/view/887627778/44-45/).
 - **Candidate ISBNs shown on the official page:** Level 2B Pupil's Book ebook Pack `9781380000613`; Level 2 Teacher's ebook Pack `9781380000620`.
-- **Edition gap:** the previously discussed Level 2A reference has not been verified on the current official product page. Do not assume 2A and 2B are interchangeable or select one without checking the learner's actual book.
+- **Level 2A:** ELT Catalogue 2027 lists Pupil's Book and eBook Pack ISBN `9781035130382` (catalogue identity confirmed). The current official levels/samples page does not clearly expose the 2A row, and an ISBN-matched 2A Scope and Sequence has not been verified. The exact family copy remains unconfirmed. Do not assign older Teacher's Book unit detail to the 2027 2A edition without matching evidence.
 - **AAS2 usageRights:** `REFERENCE_ONLY`.
 - **Allowed AAS2 use:** confirm book identity and compare broad learning coverage; independently author all content.
 
@@ -139,7 +139,7 @@ These are publisher references for curriculum alignment and edition identificati
 
 - **Source reference ID:** MACMILLAN-SCIENCE-L2.
 - **Source:** [Official Levels and Samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-science/levels-samples).
-- **Candidate ISBNs shown on the official page:** Level 2 Workbook `9780230028432`; Teacher's Book + Student eBook Pack `9781380000255`.
+- **ISBNs in Macmillan ELT Catalogue 2027:** Pupil's Book and eBook Pack `9781035130740`; Workbook `9780230028432`; Teacher's Book + Student eBook Pack `9781380000255`.
 - **Publisher metadata:** six levels; British English. The product page does not by itself establish that Science is a national Grade 2 subject in Sudan.
 - **AAS2 curriculum role:** Core subject in the Aboudy Grade 2 pathway by explicit product decision; the official publisher Scope and Sequence maps 18 Level 2 topics.
 - **AAS2 usageRights:** `REFERENCE_ONLY`.
@@ -167,6 +167,7 @@ These are publisher references for curriculum alignment and edition identificati
 | `MACMILLAN-MATH-L2B` | Macmillan Mathematics Level 2B Pupil's Book ebook Pack 9781380000613 | Aboudy Grade 2 Mathematics | `REFERENCE_ONLY` | Official current product page confirms 2B; exact family edition not confirmed |
 | `MACMILLAN-MATH-L2-TEACHER` | Macmillan Mathematics Level 2 Teacher's ebook Pack 9781380000620 | Aboudy Grade 2 Mathematics reference | `REFERENCE_ONLY` | Official current product page confirms this pack; do not infer it is a 2A pupil book |
 | `MACMILLAN-MATH-L2A-PENDING` | Macmillan Mathematics Level 2A — edition/ISBN pending confirmation | Aboudy Grade 2 Mathematics candidate | `REFERENCE_ONLY` (provisional record only; not eligible for pack mapping) | No current official ISBN match verified. Do not cite as an identified edition or bind skills to it until confirmed |
+| `MACMILLAN-MATH-L2A-9781035130382` | Macmillan Mathematics Level 2A Pupil's Book and eBook Pack, ELT Catalogue 2027 ISBN 9781035130382 | Aboudy Grade 2 Mathematics | `REFERENCE_ONLY` | Product identity/ISBN confirmed in ELT Catalogue 2027; current 2A Scope and Sequence and exact family copy remain unverified |
 | `MACMILLAN-HSJ-SENIOR-KG` | Hop Skip and Jump Senior KG kit, catalogue ISBN 9789356660113 | Ali KG2 English/Literacy and broad integrated learning | `REFERENCE_ONLY` | Macmillan Education India School Catalogue 2025; Indian catalogue scope only, not Sudan curriculum proof |
 | `MACMILLAN-MATHS-XPRESS-SENIOR-KG` | Maths Xpress Senior KG, catalogue ISBN 9789356664975 | Ali KG2 Mathematics | `REFERENCE_ONLY` | Macmillan Education India School Catalogue 2025; detailed family edition/sequence unverified |
 | `MACMILLAN-MATHS-XPRESS-BOOK-2` | Maths Xpress Book 2, catalogue ISBN 9789356664999 | Candidate reference only; do not assume equivalence to Grade 2 Macmillan Mathematics | `REFERENCE_ONLY` | Product catalogue identity only; learner placement/edition not confirmed |
@@ -194,5 +195,5 @@ Every pack-level source record must carry the canonical ID, exact title, publish
 - Existing Grade 2 pack already contains: `SD-G2-MATH-2021`, `IM-K12-MATH-2019-2021`, `NOAA-WHOI-E20-003`, `NGSS-G2-2013`, `SD-SMILE-G2-2020`, `CCSS-G2-MATH`, `CCSS-G2-ELA`.
 - Existing KG2 pack already contains: `QCAA-QKLG-2024`, `HS-ELOF-BIRTH5`, `NOAA-WHOI-E20-003`.
 - Add Macmillan IDs to pack metadata only when the corresponding skills/activities are actually authored against that source. Do not add unused catalogue entries simply to make a pack look complete.
-- `MACMILLAN-MATH-L2A-PENDING` is a registry gap marker only; it must not be referenced from production skill records until edition evidence is obtained.
+- `MACMILLAN-MATH-L2A-PENDING` is retained as a historical gap marker and must not be used in new pack/skill records. Use `MACMILLAN-MATH-L2A-9781035130382` for the catalogue-identified product only; detailed Scope and Sequence mapping and family-copy confirmation remain pending.
 
