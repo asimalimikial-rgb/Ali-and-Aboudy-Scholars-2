@@ -5,7 +5,7 @@
 **Learner pathway:** Aboudy — Grade 2  
 **Curriculum role:** Core AAS2 subject  
 **Primary reference:** Macmillan Science Level 2  
-**Candidate ISBNs:** Workbook 9780230028432; Teacher's Book + Student eBook Pack 9781380000255  
+**Catalogue ISBNs (ELT Catalogue 2027):** Pupil's Book and eBook Pack 9781035130740; Workbook 9780230028432; Teacher's Book + Student eBook Pack 9781380000255  
 **Rights:** REFERENCE_ONLY — curriculum alignment only; no reproduction of textbook expression or assets.
 
 ## 1. Product decision and evidence boundary
