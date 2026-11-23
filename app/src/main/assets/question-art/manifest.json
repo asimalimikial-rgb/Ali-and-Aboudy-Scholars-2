@@ -8,8 +8,8 @@
     {
       "activityId": "g2-place-01-en",
       "path": "question-art/g2-place-01-en.png",
-      "bytes": 15312,
-      "sha256": "179372467688b6239f355a70efa4651f19986abca07e2554ac336c49f1db0760",
+      "bytes": 13488,
+      "sha256": "8a7e80d8b0641f19b3446a13748872b15a18c0b81e16581564a65e1aede3b90c",
       "engineVersion": "1.6.0",
       "skillId": "place-value-to-1000",
       "visualProfile": "math"
@@ -17,8 +17,8 @@
     {
       "activityId": "g2-add-01-en",
       "path": "question-art/g2-add-01-en.png",
-      "bytes": 14756,
-      "sha256": "7911b85dffb331b826595c3e827788a182a93088c05bd4426c3f93f8f574beeb",
+      "bytes": 12816,
+      "sha256": "f28515b303fca271ec5d9f2dde662ebac9edb854c118b91f7f29413549e620b4",
       "engineVersion": "1.6.0",
       "skillId": "addition-within-100",
       "visualProfile": "math"
@@ -26,8 +26,8 @@
     {
       "activityId": "g2-measure-01-en",
       "path": "question-art/g2-measure-01-en.png",
-      "bytes": 15516,
-      "sha256": "19d6e7a0fd326f23b2d55aa2241a285dca112aaace1844d0636987053a6adab6",
+      "bytes": 13672,
+      "sha256": "5b156d0d5c5dd5c64c88d47adb6403a11f9092c084eea176474559b271893a26",
       "engineVersion": "1.6.0",
       "skillId": "measure-length-centimeters",
       "visualProfile": "math"
@@ -35,8 +35,8 @@
     {
       "activityId": "g2-habitat-01-en",
       "path": "question-art/g2-habitat-01-en.png",
-      "bytes": 18243,
-      "sha256": "71a90c00de0982a6df7759f6feb1dd8851d07c077d68e7b70826b3faf0ab1fd7",
+      "bytes": 16240,
+      "sha256": "377d5d0e837a70607e03cb469bf9c19edcec6901f2a43176819ffd16a36e8df7",
       "engineVersion": "1.6.0",
       "skillId": "plant-habitats",
       "visualProfile": "science"
@@ -44,8 +44,8 @@
     {
       "activityId": "g2-vocab-01-en",
       "path": "question-art/g2-vocab-01-en.png",
-      "bytes": 16659,
-      "sha256": "9700d1c749c2d3a163d0084d6539ce362189651defc370f5dc5ea0425edaba14",
+      "bytes": 14527,
+      "sha256": "ad302931596cd90f9dd6ec1eccb8316f89d48bbe3c6025464abddf0bdedae3dd",
       "engineVersion": "1.6.0",
       "skillId": "english-context-vocabulary",
       "visualProfile": "vocabulary"
@@ -53,8 +53,8 @@
     {
       "activityId": "g2-sentence-01-en",
       "path": "question-art/g2-sentence-01-en.png",
-      "bytes": 19312,
-      "sha256": "66c2619e40efbf7e4d13a10ae9409577621ca7283f0546f6ea2f75b2a4982a5d",
+      "bytes": 17654,
+      "sha256": "ef4cb21cc66e0a61c9f4aef8e7c5c2732ca357eded30186eec4f053600b3742b",
       "engineVersion": "1.6.0",
       "skillId": "english-sentence-order",
       "visualProfile": "english-grammar"
@@ -62,8 +62,8 @@
     {
       "activityId": "g2-place-02-en",
       "path": "question-art/g2-place-02-en.png",
-      "bytes": 15282,
-      "sha256": "69a37f4c0a5a3cdbcfc1e8a17a78dbbc1f9669d632babdc1124b1532067c39fa",
+      "bytes": 13375,
+      "sha256": "1be3122a27fa9dbbf16f867050da86d783fc01d3fd97f313e4273ef9302e2ca2",
       "engineVersion": "1.6.0",
       "skillId": "place-value-to-1000",
       "visualProfile": "math"
@@ -71,8 +71,8 @@
     {
       "activityId": "g2-add-02-en",
       "path": "question-art/g2-add-02-en.png",
-      "bytes": 14804,
-      "sha256": "c93bf075d8a25e3746332275d6a28e787a660d6fc0ca149a80826266f87b44ef",
+      "bytes": 12783,
+      "sha256": "0d98d1ce2fd17125b58fa749570e530d664a0fd514300d0174ce1f0e8654dd13",
       "engineVersion": "1.6.0",
       "skillId": "addition-within-100",
       "visualProfile": "math"
@@ -80,8 +80,8 @@
     {
       "activityId": "g2-measure-02-en",
       "path": "question-art/g2-measure-02-en.png",
-      "bytes": 15752,
-      "sha256": "c3393d37c56b84c9c6326535df3d00e30acdd2c80f81d8514de945eb7962e741",
+      "bytes": 13796,
+      "sha256": "9c9d75b3ce57af300829375f61d5154b25d2d64c12cb5f786ea22489dd775a14",
       "engineVersion": "1.6.0",
       "skillId": "measure-length-centimeters",
       "visualProfile": "math"
@@ -89,8 +89,8 @@
     {
       "activityId": "g2-habitat-02-en",
       "path": "question-art/g2-habitat-02-en.png",
-      "bytes": 19698,
-      "sha256": "c4ea549c14a302bf94f3f777c4408d71c736490b9a226dee00e0f9c2e48a72ac",
+      "bytes": 17581,
+      "sha256": "68c4391ac775247bd0205a6a594873a5a72e2ca9ce6a08aa9c25c0c03c277e72",
       "engineVersion": "1.6.0",
       "skillId": "plant-habitats",
       "visualProfile": "science"
@@ -98,8 +98,8 @@
     {
       "activityId": "g2-vocab-02-en",
       "path": "question-art/g2-vocab-02-en.png",
-      "bytes": 16194,
-      "sha256": "10493671b1bfa7a38c8e3a1215d6f3a9fbc7a1c0f96868de6cbc65d3d4ba802a",
+      "bytes": 14380,
+      "sha256": "7de9ac0a1c88fe57e46dfefcf3f1c1797810bedf5453766ad1707234a8ee8a35",
       "engineVersion": "1.6.0",
       "skillId": "english-context-vocabulary",
       "visualProfile": "vocabulary"
@@ -107,8 +107,8 @@
     {
       "activityId": "g2-sentence-02-en",
       "path": "question-art/g2-sentence-02-en.png",
-      "bytes": 18304,
-      "sha256": "a67cbd5efb669bafe9cd1f88a079b12b79bc06606f5b6aa26546b98e3becf3ba",
+      "bytes": 16443,
+      "sha256": "b2eef059c2c2fb57b332bf5f0720b4cdadf08168d89c8b79b132e1118b01ec1d",
       "engineVersion": "1.6.0",
       "skillId": "english-sentence-order",
       "visualProfile": "english-grammar"
@@ -116,8 +116,8 @@
     {
       "activityId": "sci-g2-u01-l1-q01-en",
       "path": "question-art/sci-g2-u01-l1-q01-en.png",
-      "bytes": 23207,
-      "sha256": "6e66f18ef39be10b185605a3bd588992b3884bcedd6b5a7bc771936089ed5b58",
+      "bytes": 21264,
+      "sha256": "4f66667868bf5b4f3376d8388fea47a69d2788125a713384c511898ed419e3c2",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science"
@@ -125,8 +125,8 @@
     {
       "activityId": "sci-g2-u01-l1-q02-en",
       "path": "question-art/sci-g2-u01-l1-q02-en.png",
-      "bytes": 17661,
-      "sha256": "8cea14a296c6d7477a2fb6d915fe24f18ea9e0864086ab227b7cc3c54216fbff",
+      "bytes": 15835,
+      "sha256": "1c46583d18e7dabd15caba76c6f01095b30122d99611adebc9471623785fb151",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science"
@@ -134,8 +134,8 @@
     {
       "activityId": "sci-g2-u01-l1-q03-en",
       "path": "question-art/sci-g2-u01-l1-q03-en.png",
-      "bytes": 21805,
-      "sha256": "5ab4a5e8a7b19a26cc0b946515534771b5e2c3746d24863040875631e6059f5d",
+      "bytes": 19881,
+      "sha256": "646982fe313b7778f1554974ca73f4392a62ad6cb973911acff1aebdb08ea2e0",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science"
@@ -143,8 +143,8 @@
     {
       "activityId": "sci-g2-u01-l1-q04-en",
       "path": "question-art/sci-g2-u01-l1-q04-en.png",
-      "bytes": 16677,
-      "sha256": "65326a4a99761966c6582f38d69b1d72567a0999dacb9637084bbe77ea20d138",
+      "bytes": 14655,
+      "sha256": "58db0e4cd41192e24cb2c63faaf4f771292a73f54fabb0f7f9e363b14c7aa721",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science"
@@ -152,8 +152,8 @@
     {
       "activityId": "sci-g2-u01-l1-q05-en",
       "path": "question-art/sci-g2-u01-l1-q05-en.png",
-      "bytes": 20387,
-      "sha256": "47ee87f865bf9d8998655de661fe12233b3609efc08a7b1b7cb5b637d5a15482",
+      "bytes": 18542,
+      "sha256": "4a1e2abec9420b56e3da8e4db38e8ab665eac56925ea39fbc16fe560f6a6a8f2",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science"
@@ -161,8 +161,8 @@
     {
       "activityId": "sci-g2-u01-l1-q06-en",
       "path": "question-art/sci-g2-u01-l1-q06-en.png",
-      "bytes": 18262,
-      "sha256": "50058b08734b204b9796be33dcf9c7b967f28866fc7cb5ff5ad059a8efa7cedc",
+      "bytes": 16241,
+      "sha256": "791958f441888a6af1bb7fbe7cd83ecdad4b6c534737e728ab15b954df16a1f8",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science"
@@ -170,8 +170,8 @@
     {
       "activityId": "sci-g2-u01-l1-q07-en",
       "path": "question-art/sci-g2-u01-l1-q07-en.png",
-      "bytes": 20780,
-      "sha256": "674156ed46259c50906c495c262ad0e4fa04474a762306d33da4c1f10bccaf7e",
+      "bytes": 18881,
+      "sha256": "d2aad7f80c14486fc18fd1c1f93c3b578ec00455abd36525b3cec452956bdc90",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science"
@@ -179,8 +179,8 @@
     {
       "activityId": "sci-g2-u01-l1-q08-en",
       "path": "question-art/sci-g2-u01-l1-q08-en.png",
-      "bytes": 21461,
-      "sha256": "23ea5cef0eaeb4682793627516f8b9c5b92286e8c5522022d4d41957ccaf65da",
+      "bytes": 19539,
+      "sha256": "be7d097be4484a601322fcec647a96072f6da09f4c3d43bc286f5dde5f880b94",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science"
@@ -188,8 +188,8 @@
     {
       "activityId": "sci-g2-u01-l2-q01-en",
       "path": "question-art/sci-g2-u01-l2-q01-en.png",
-      "bytes": 19546,
-      "sha256": "37600f429809b1f2f9a9de61f77c7e050f84e650753ecd915a1f9ff501843c44",
+      "bytes": 17612,
+      "sha256": "87788d2d12405d03e2d401bfeb6e45e921901e7e373af35d217b10269281dca8",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -197,8 +197,8 @@
     {
       "activityId": "sci-g2-u01-l2-q02-en",
       "path": "question-art/sci-g2-u01-l2-q02-en.png",
-      "bytes": 21111,
-      "sha256": "fd88db7ff106bfe346727dbd2305c0f34094411a980f9612794c0ef41f1ec42b",
+      "bytes": 19107,
+      "sha256": "c04e42a5d79fdec99cc77e3a6f257875750f11f2dcb915769808ef74288d7410",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -206,8 +206,8 @@
     {
       "activityId": "sci-g2-u01-l2-q03-en",
       "path": "question-art/sci-g2-u01-l2-q03-en.png",
-      "bytes": 23235,
-      "sha256": "6092cbdff83316be878ba714c143aee3207600eb36c865593be685ed828c8d08",
+      "bytes": 21414,
+      "sha256": "9d29cf990e569c88918a7290eae33dd29161927731dbc71785bcd5c79f6c1c0a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -215,8 +215,8 @@
     {
       "activityId": "sci-g2-u01-l2-q04-en",
       "path": "question-art/sci-g2-u01-l2-q04-en.png",
-      "bytes": 22096,
-      "sha256": "203343fe54443847f835c072a44daa1f806cb1e4fcb9ade3b2b6f24c9a36ef80",
+      "bytes": 20155,
+      "sha256": "f633ed20be09e15237dc08828b1fb963e54aec13a7e9312cb287586f0a85e6ee",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -224,8 +224,8 @@
     {
       "activityId": "sci-g2-u01-l2-q05-en",
       "path": "question-art/sci-g2-u01-l2-q05-en.png",
-      "bytes": 20199,
-      "sha256": "68c18ed3d7b703dae432f21bfcc4a825b7f2196f909f9e70479bdaa86fbe1f1d",
+      "bytes": 18275,
+      "sha256": "727ab70d966177d3faf9f55f57a093b0c6bb14523c7384316052b87b494e6ee3",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -233,8 +233,8 @@
     {
       "activityId": "sci-g2-u01-l2-q06-en",
       "path": "question-art/sci-g2-u01-l2-q06-en.png",
-      "bytes": 23326,
-      "sha256": "46f21eaadfb744f4b72ea5e5665d8e9ee1ad874dafd73f36ace62d00223effd7",
+      "bytes": 21523,
+      "sha256": "02222760d04c155a63bf5720d9d65dbd868d0183c6b35b426847e1c103acb952",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -242,8 +242,8 @@
     {
       "activityId": "sci-g2-u01-l2-q07-en",
       "path": "question-art/sci-g2-u01-l2-q07-en.png",
-      "bytes": 17223,
-      "sha256": "6de92db1843e40ba4d32281fa506130ac68df57a4a539270e440f2a5f3bb414a",
+      "bytes": 15225,
+      "sha256": "3d1a707caf25969c16fdddf047c7f22510de870e5ff59134afb036f1f3b307e0",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science"
@@ -251,8 +251,8 @@
     {
       "activityId": "sci-g2-u01-l2-q08-en",
       "path": "question-art/sci-g2-u01-l2-q08-en.png",
-      "bytes": 17573,
-      "sha256": "56b1e5494f138886dee2fe83c6125bdf8216090f49fad3c5ab3f6c7ada422c68",
+      "bytes": 15807,
+      "sha256": "90eebd0ad1c24747e00b0636668cc22367839887a1fc3034e174c0fd9a24012e",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science"
@@ -260,8 +260,8 @@
     {
       "activityId": "sci-g2-u01-l3-q01-en",
       "path": "question-art/sci-g2-u01-l3-q01-en.png",
-      "bytes": 19125,
-      "sha256": "0e0c722af44fe7299502153f906d1bcd4c07b5e96cefd1fcfbc3fdc7b8c42071",
+      "bytes": 17463,
+      "sha256": "809b5ea06a64d735548606e09a735adacb394fc919423f1ed6196c9d48c28c5b",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -269,8 +269,8 @@
     {
       "activityId": "sci-g2-u01-l3-q02-en",
       "path": "question-art/sci-g2-u01-l3-q02-en.png",
-      "bytes": 15315,
-      "sha256": "e54361aea6577bd804899a074e408daf541a43d9d6d7b67f0e9fde0078f2ef29",
+      "bytes": 13415,
+      "sha256": "921e4237a5b3d998fa3d83cbab602617a3db2cb0f096aa179228611ec2cf8075",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -278,8 +278,8 @@
     {
       "activityId": "sci-g2-u01-l3-q03-en",
       "path": "question-art/sci-g2-u01-l3-q03-en.png",
-      "bytes": 21722,
-      "sha256": "7d2a1f81673284a46a689cd65a1aa8a4895855bb3d529b5bf04827b5c5cfe1b6",
+      "bytes": 20014,
+      "sha256": "7f02f26ee44fc6b71598f2d7ff1e89c969778a94bccd466ba5d7c7bea8c2549f",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -287,8 +287,8 @@
     {
       "activityId": "sci-g2-u01-l3-q04-en",
       "path": "question-art/sci-g2-u01-l3-q04-en.png",
-      "bytes": 17908,
-      "sha256": "1be8ce3529fdbc6780e0a9d9f2bdb0857c8656a4ca2ce4f5d6f723f7fadbb212",
+      "bytes": 15977,
+      "sha256": "2e0651ec03ceff978605700fcf5a3790d41710c874bc5db3f45c6137221dcae0",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -296,8 +296,8 @@
     {
       "activityId": "sci-g2-u01-l3-q05-en",
       "path": "question-art/sci-g2-u01-l3-q05-en.png",
-      "bytes": 19356,
-      "sha256": "c919b901fdcd75760e48bc86c1b2a5b223a21d64afcba5d24a4cc3024765b683",
+      "bytes": 17448,
+      "sha256": "8dbbe03812938a2fcf4ba503faa93b2158120e5539dc7e43012eaf12509f39c7",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -305,8 +305,8 @@
     {
       "activityId": "sci-g2-u01-l3-q06-en",
       "path": "question-art/sci-g2-u01-l3-q06-en.png",
-      "bytes": 20669,
-      "sha256": "783aee905da6ad70840990da86264c37b1f6b6af9ab7b18b318130fb4a236693",
+      "bytes": 18703,
+      "sha256": "aa3efd6be925ab6702cbaa99315866e4aef30632a0c8f75a930596437e3df8d1",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -314,8 +314,8 @@
     {
       "activityId": "sci-g2-u01-l3-q07-en",
       "path": "question-art/sci-g2-u01-l3-q07-en.png",
-      "bytes": 18335,
-      "sha256": "943b88477b48d52ac5b8027d809c8e150abd28f9d31dc8c944d015dd5426d542",
+      "bytes": 16521,
+      "sha256": "a4b303abfcf7c7cfc14877f02a5fe1b2c0142872960e9934a46a5a3460c18588",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -323,8 +323,8 @@
     {
       "activityId": "sci-g2-u01-l3-q08-en",
       "path": "question-art/sci-g2-u01-l3-q08-en.png",
-      "bytes": 18561,
-      "sha256": "3e57acc03d722c7f12d290e208cc25f046d2c23a6025f8e072890166d5dbdcf8",
+      "bytes": 16593,
+      "sha256": "cc0f9bb0033b24254a0626ed3ee5739df9043cb1444a8fd1cfb8572b08add554",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science"
@@ -332,8 +332,8 @@
     {
       "activityId": "sci-g2-u01-l4-q01-en",
       "path": "question-art/sci-g2-u01-l4-q01-en.png",
-      "bytes": 22531,
-      "sha256": "39331fb2274c0725fd906f1eb5e6e9271edec891c6be749e99f18a6ac19013af",
+      "bytes": 20659,
+      "sha256": "8c61fa4c0cee7d11ebc3a7e35c8892dfe49f71c315a685a4d84ddafe226dcca4",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -341,8 +341,8 @@
     {
       "activityId": "sci-g2-u01-l4-q02-en",
       "path": "question-art/sci-g2-u01-l4-q02-en.png",
-      "bytes": 20231,
-      "sha256": "de0519cfaa42ee29a43b537c9faa7d75c1e65ba25850334a45f7794b2fa5ff84",
+      "bytes": 18280,
+      "sha256": "bb5c51e4eaf558ca95078e5d70ea6fb270214f73695a2d411d7017062e0abc65",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -350,8 +350,8 @@
     {
       "activityId": "sci-g2-u01-l4-q03-en",
       "path": "question-art/sci-g2-u01-l4-q03-en.png",
-      "bytes": 18197,
-      "sha256": "ee219dbf908f95cef4f7dedfc6f299cda6cfe8e7757496f639484b2f6567bd8b",
+      "bytes": 16382,
+      "sha256": "7def69ad238888c109c9584e5395f262f7e6c053c6725e323c33837b6bc16cb1",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -359,8 +359,8 @@
     {
       "activityId": "sci-g2-u01-l4-q04-en",
       "path": "question-art/sci-g2-u01-l4-q04-en.png",
-      "bytes": 19919,
-      "sha256": "c2c5e3681885f602b27da16342dd3c4eb6a6cecd89d707246f129108f6d9dc4b",
+      "bytes": 17913,
+      "sha256": "06e44c18b280713414b330a309d2dfdef0c4f19ace98f5ece18fa427fa9897d7",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -368,8 +368,8 @@
     {
       "activityId": "sci-g2-u01-l4-q05-en",
       "path": "question-art/sci-g2-u01-l4-q05-en.png",
-      "bytes": 20391,
-      "sha256": "e0f939bab11c55c568b5af4f39b7b86cfcb58ce6627aa0aa72e05699a4132c03",
+      "bytes": 18396,
+      "sha256": "94de0208aeb081f38c2fcc77eb09e51add486ebfb51b950c910d22d9a5ee8e22",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-07",
       "visualProfile": "science"
@@ -377,8 +377,8 @@
     {
       "activityId": "sci-g2-u01-l4-q06-en",
       "path": "question-art/sci-g2-u01-l4-q06-en.png",
-      "bytes": 22347,
-      "sha256": "924ef89328046bb23919262a45c238795a8f5cde4ff56a398420d6a560b1e456",
+      "bytes": 20457,
+      "sha256": "370bb4f8cfed2060c183b1a0b351b2cb5dd62e4909dbd060ea2829d525b95698",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -386,8 +386,8 @@
     {
       "activityId": "sci-g2-u01-l4-q07-en",
       "path": "question-art/sci-g2-u01-l4-q07-en.png",
-      "bytes": 16859,
-      "sha256": "b12a2d72359e2853daeb426cf3479eddc1893f4f14f555dc90142b60e6e251ed",
+      "bytes": 14887,
+      "sha256": "3e681cfd8abfdad617cc87f0811f21a397b5e8120c88e86faa6dba3feef5d48c",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -395,8 +395,8 @@
     {
       "activityId": "sci-g2-u01-l4-q08-en",
       "path": "question-art/sci-g2-u01-l4-q08-en.png",
-      "bytes": 19787,
-      "sha256": "4fff24596867de3e4bda1baabd516dce9c8a47225150737987dfe296f5e4fd5b",
+      "bytes": 17808,
+      "sha256": "61a11a9aad6b546b0b64fa71480b19cf1bf1bd28738c5f56439635ef19d1042a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science"
@@ -404,8 +404,8 @@
     {
       "activityId": "new-aboudy-english-001",
       "path": "question-art/new-aboudy-english-001.png",
-      "bytes": 19572,
-      "sha256": "f6e4630f750f1266c2b93371df7d22f2c4d6b913a6eddc482d114a456c6ae15b",
+      "bytes": 17855,
+      "sha256": "da714369d83c31b11e6c707f75c69388cb2b5a7bbd638bc9c92c0530bc8af330",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -413,8 +413,8 @@
     {
       "activityId": "new-aboudy-english-002",
       "path": "question-art/new-aboudy-english-002.png",
-      "bytes": 15464,
-      "sha256": "310bcf1c3b6f93cae8c7e6b4b1695c29a9e13809af8a8150567f69e3011d2c97",
+      "bytes": 13697,
+      "sha256": "6358588cb3740f29c22515dbd8a4b5756d93df356b902da66329d918c55df625",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -422,8 +422,8 @@
     {
       "activityId": "new-aboudy-english-003",
       "path": "question-art/new-aboudy-english-003.png",
-      "bytes": 14628,
-      "sha256": "12c0f2fe40843fd32d9ba6e125356c0dde665a18edc461ae73bd68afff06e3d3",
+      "bytes": 12923,
+      "sha256": "08919181b83ebb2261afbcc1998cd0d88b90ee9d9266f0b2479943905e78fec9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -431,8 +431,8 @@
     {
       "activityId": "new-aboudy-english-004",
       "path": "question-art/new-aboudy-english-004.png",
-      "bytes": 15836,
-      "sha256": "b9df6a0a30b0230aa4780b07ecc32b746214f828f7d928c20deb5ab2931aeaa1",
+      "bytes": 13918,
+      "sha256": "884528aeb62bf2ee18bc4131d11bf52ac4a410b5407f29e4c9baf9c700f8655c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -440,8 +440,8 @@
     {
       "activityId": "new-aboudy-english-005",
       "path": "question-art/new-aboudy-english-005.png",
-      "bytes": 14983,
-      "sha256": "1f423524fff6d1f016008d6ef24ed969d211841ae01750a5eafc7450da48f869",
+      "bytes": 13277,
+      "sha256": "be1525b251007e9400b5c9620bcd2955cf706d2f58b82ebeb5a6a420ce7d602b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -449,8 +449,8 @@
     {
       "activityId": "new-aboudy-english-006",
       "path": "question-art/new-aboudy-english-006.png",
-      "bytes": 14689,
-      "sha256": "9911f9dbe2c03af1ed38199f082faffa67250a96edf5da2c8e8dc1ccd334ac7c",
+      "bytes": 12893,
+      "sha256": "f7d5c0b4bb196dd843847d740422775b94d305d815b04dcd6d2717433f390ea5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -458,8 +458,8 @@
     {
       "activityId": "new-aboudy-english-007",
       "path": "question-art/new-aboudy-english-007.png",
-      "bytes": 14328,
-      "sha256": "3c12b10cbae03add3cd25af9c1e68cd2a94b3ab8b617f5bc572ab211a9542e42",
+      "bytes": 12467,
+      "sha256": "55b8bd014145f92dd3a829ad6129aa1fde4f5468418ab5f6378a545e56cf7441",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -467,8 +467,8 @@
     {
       "activityId": "new-aboudy-english-008",
       "path": "question-art/new-aboudy-english-008.png",
-      "bytes": 14980,
-      "sha256": "593297a839a71d8d0e4ecf0ab7d352191d23c1dea352af44c4cf3fd007701f10",
+      "bytes": 13073,
+      "sha256": "c7d18cda1e9d1bca9e0ead7e89485bfa0eb34ec0f54c372e16de0c2d059cd168",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -476,8 +476,8 @@
     {
       "activityId": "new-aboudy-english-009",
       "path": "question-art/new-aboudy-english-009.png",
-      "bytes": 13910,
-      "sha256": "78c1983ca57945a0ac926fb4d36f31c7e12d17c60eeb5895edf1906756a4ec90",
+      "bytes": 12217,
+      "sha256": "a89a1c0dfe994d124dd39690d5e347882974ed570c408006a2b0acba4053c385",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -485,8 +485,8 @@
     {
       "activityId": "new-aboudy-english-010",
       "path": "question-art/new-aboudy-english-010.png",
-      "bytes": 18051,
-      "sha256": "0a529450fc285e0ba01c7c24f1d1509d8cc61bb17eb41f3b1ff1797e88edc32d",
+      "bytes": 16127,
+      "sha256": "89fb9b77b047da6511266f6e9a4fc3264e3e1d169190faf6659940cbe7f0a749",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -494,8 +494,8 @@
     {
       "activityId": "new-aboudy-english-011",
       "path": "question-art/new-aboudy-english-011.png",
-      "bytes": 14504,
-      "sha256": "6fcda03edd5bfb176da043cd321a411c270af2395bd1343025c49f5e19e9b5f0",
+      "bytes": 12604,
+      "sha256": "227693c734a8557a9b32d67ec9a464688ae6aea8d88dec47d2c3fbf9dd3d05e7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -503,8 +503,8 @@
     {
       "activityId": "new-aboudy-english-012",
       "path": "question-art/new-aboudy-english-012.png",
-      "bytes": 14954,
-      "sha256": "ac7275dd7996a581466720d5e9a5ab65262aeaab694cfbc845e7221987aab101",
+      "bytes": 13188,
+      "sha256": "8b9a41c5698e593921b4bf405ded904a04417f5bb714aa09e3c8f8bcc8c5805a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -512,8 +512,8 @@
     {
       "activityId": "new-aboudy-english-013",
       "path": "question-art/new-aboudy-english-013.png",
-      "bytes": 14811,
-      "sha256": "16b8a1a2c9c491213697be1a0848d7d2182d26ce9d9ca59b0e9c37ac8bb88377",
+      "bytes": 13090,
+      "sha256": "f6c2cf1340dc795ef564a6f36452114458a8a499f2e1c9fd0c76d8322b8f0147",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -521,8 +521,8 @@
     {
       "activityId": "new-aboudy-english-014",
       "path": "question-art/new-aboudy-english-014.png",
-      "bytes": 15423,
-      "sha256": "49fe0cde903ddbbb5e661efba137fa324b37595f59166db55def8e7896eb5110",
+      "bytes": 13578,
+      "sha256": "03e9918b6aeb2c50010a8f32b04f0bcf981965d712605f8ae5bc4480ee6df246",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -530,8 +530,8 @@
     {
       "activityId": "new-aboudy-english-015",
       "path": "question-art/new-aboudy-english-015.png",
-      "bytes": 14843,
-      "sha256": "d29316b0e2a2798a2215f817091a24c0feb68d85e8497cf1e833a88de77877f1",
+      "bytes": 13167,
+      "sha256": "3dc82d62bd7af11e156a44de4ed9052d8e910917b41f854139a3f7f97f83c7b3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -539,8 +539,8 @@
     {
       "activityId": "new-aboudy-english-016",
       "path": "question-art/new-aboudy-english-016.png",
-      "bytes": 15028,
-      "sha256": "ba137a19356e92d39423ebbba318e7929cd3798ca7a90ef7b3156b8982b888bb",
+      "bytes": 13364,
+      "sha256": "86ff7e95a902443c1bcd54274c079e319a3fd87142ac16e2dbccfe42597f977a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -548,8 +548,8 @@
     {
       "activityId": "new-aboudy-english-017",
       "path": "question-art/new-aboudy-english-017.png",
-      "bytes": 14514,
-      "sha256": "69b123e9127e614d281476e290f8635ddc68601e51f2b29f90aaf4b36cdc0b98",
+      "bytes": 12818,
+      "sha256": "a7d9d0b548ceac1f1f218ef5da089f8cafe7a5365adccf2387181c7a6c906be9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -557,8 +557,8 @@
     {
       "activityId": "new-aboudy-english-018",
       "path": "question-art/new-aboudy-english-018.png",
-      "bytes": 18649,
-      "sha256": "e83093fef4bb62857632f8c6bba55abe8c280a3c20c95a25fa2ed8134b88ab2c",
+      "bytes": 17106,
+      "sha256": "cd43395aa22a5b3043fc6c5e7e6a3455a37f1e02d67e2e844e032c6599e77ab8",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -566,8 +566,8 @@
     {
       "activityId": "new-aboudy-english-019",
       "path": "question-art/new-aboudy-english-019.png",
-      "bytes": 16336,
-      "sha256": "b7203225265a04b7024c9312504080f1494d03c289aa9d2c1bef88cf97ec6639",
+      "bytes": 14512,
+      "sha256": "626b57d626212c0174df6692cec926061b12490b5bff4f114b15f5e05c321f72",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -575,8 +575,8 @@
     {
       "activityId": "new-aboudy-english-020",
       "path": "question-art/new-aboudy-english-020.png",
-      "bytes": 14924,
-      "sha256": "c068310c7b25e6648d095fb76b67e8ae5fabc4e5d5fa1039119dff0544e4d41b",
+      "bytes": 12918,
+      "sha256": "503c01e69ca8dc3c86b2fcc4fb728011a2cef9229e455de1c5b89ab5a5a9147d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -584,8 +584,8 @@
     {
       "activityId": "new-aboudy-english-021",
       "path": "question-art/new-aboudy-english-021.png",
-      "bytes": 15866,
-      "sha256": "ea78575016eedd46ef03d1430cf41b6247e58c17095bc5a06eb1c77d8672f4f3",
+      "bytes": 14080,
+      "sha256": "9450b38bbc152e7bd2912938f67f76bbc7a0adba853d54775a9918910f833328",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -593,8 +593,8 @@
     {
       "activityId": "new-aboudy-english-022",
       "path": "question-art/new-aboudy-english-022.png",
-      "bytes": 16915,
-      "sha256": "7a5b915404e9f784574a203483b165f9a8046e9c53b1cb23f2f765068b9781c3",
+      "bytes": 14849,
+      "sha256": "aea810a05955b4d4aae4ffce790a56df5ca57495e4d96ded55fd9f5d2aa5e135",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -602,8 +602,8 @@
     {
       "activityId": "new-aboudy-english-023",
       "path": "question-art/new-aboudy-english-023.png",
-      "bytes": 15608,
-      "sha256": "3c7998b5afd4896f8e12fa0811ae2538ec8b19fc0e3b317e8515465771744daa",
+      "bytes": 13887,
+      "sha256": "2729d06a4f752af28c304387aa9d051b0cc4422eccf05e5eaf10c72b3ba5a806",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -611,8 +611,8 @@
     {
       "activityId": "new-aboudy-english-024",
       "path": "question-art/new-aboudy-english-024.png",
-      "bytes": 15043,
-      "sha256": "5d858057c45c7b28620e6303c230a1955f37cdf7c114df94941ba2bc264e29ad",
+      "bytes": 13137,
+      "sha256": "432f82c6454d708ee2741c35a846db6d714c3216931a572e97320479dd168cf1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -620,8 +620,8 @@
     {
       "activityId": "new-aboudy-english-025",
       "path": "question-art/new-aboudy-english-025.png",
-      "bytes": 17612,
-      "sha256": "08eb253a67d25614f6342c4e6de543035acf27816bf1e9bd74b36302f9daf3cd",
+      "bytes": 15888,
+      "sha256": "83e34ebedef236072fbf91eafc10705c0b57cdd8dd8a65fc4bc0384d532a3864",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -629,8 +629,8 @@
     {
       "activityId": "new-aboudy-english-026",
       "path": "question-art/new-aboudy-english-026.png",
-      "bytes": 14731,
-      "sha256": "d5e7290c5a3f7a5f4ce399f749c71be56f9a9e3e3281a50204bd6c23f1ff6e34",
+      "bytes": 12912,
+      "sha256": "84017da8184d91d5c0e1956a43f9e344b667b48a6d93829d7cb330c930d4aad4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -638,8 +638,8 @@
     {
       "activityId": "new-aboudy-english-027",
       "path": "question-art/new-aboudy-english-027.png",
-      "bytes": 14790,
-      "sha256": "51c94ba8073800d4b765630c73747e758f5b46fdafa9bbc054d4d98f544dc419",
+      "bytes": 12957,
+      "sha256": "7251a0ffc0c10cbfac146bac26508432de41ca0273816ec9ef18b7e1dfb29c03",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -647,8 +647,8 @@
     {
       "activityId": "new-aboudy-english-028",
       "path": "question-art/new-aboudy-english-028.png",
-      "bytes": 16057,
-      "sha256": "0e5b2d9cdcf9bb4618e80aa14b398d3ebae35e21feb9138ffff86e687e43c400",
+      "bytes": 14229,
+      "sha256": "c4f99710c37aaec89bb199a3ab18299cfd9c22bdc4ab6f939c069aabdba5c225",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -656,8 +656,8 @@
     {
       "activityId": "new-aboudy-english-029",
       "path": "question-art/new-aboudy-english-029.png",
-      "bytes": 17961,
-      "sha256": "13c5dabe3e8c860a6e3840f4456681794d1d3ac5e273d06a88037c8361d5f1ca",
+      "bytes": 16110,
+      "sha256": "4849584b6496d2b762ab26655c7a6f09d38b343b6eb4ce5b97b4ec06aecf5829",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -665,8 +665,8 @@
     {
       "activityId": "new-aboudy-english-030",
       "path": "question-art/new-aboudy-english-030.png",
-      "bytes": 17518,
-      "sha256": "6fecaa3bbb7883ab3812fe7a9871d02355a7c746881f16d8fcdabce07f18656e",
+      "bytes": 15649,
+      "sha256": "ad717e815a2eac506f5d20ce8ac7153076cdab12837bb9f0def0b60ced185c2e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar"
@@ -674,8 +674,8 @@
     {
       "activityId": "new-aboudy-english-031",
       "path": "question-art/new-aboudy-english-031.png",
-      "bytes": 16631,
-      "sha256": "9005034ed22ec78e5afffc4c04c24292fbc9dda00cea5bc840d1f156a4fe9fb1",
+      "bytes": 14806,
+      "sha256": "3677574dfea0e98f4f3e1c51d3e7cad74d320faedbdbc164e4f09377f10a143a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -683,8 +683,8 @@
     {
       "activityId": "new-aboudy-english-032",
       "path": "question-art/new-aboudy-english-032.png",
-      "bytes": 16797,
-      "sha256": "cb831060d2338b55d3defd8476b20ef8252eb42c4456b60fe3cc82236aaaf3ae",
+      "bytes": 14654,
+      "sha256": "75e8e42e4c42f2b9f7c016884f1d1fe0a20e5da62a03a5e764c62c2d8546d61b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -692,8 +692,8 @@
     {
       "activityId": "new-aboudy-english-033",
       "path": "question-art/new-aboudy-english-033.png",
-      "bytes": 16721,
-      "sha256": "6403b0ee0a8d8a01458a0e849f1590bb2478ff0f7b84a16e5a99f0091a73078c",
+      "bytes": 14640,
+      "sha256": "c3980734407fcfa206808dad5d98760ac91988f9b2fe7338478810da11951c3b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -701,8 +701,8 @@
     {
       "activityId": "new-aboudy-english-034",
       "path": "question-art/new-aboudy-english-034.png",
-      "bytes": 16901,
-      "sha256": "54a9b99fa736a9adca4387df719bc270a06f77835cf2e81f9967488b05245207",
+      "bytes": 14898,
+      "sha256": "668aaf76e40d5ef801acaa724604815828322318e36b9ced6d1a72dfff60e85c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -710,8 +710,8 @@
     {
       "activityId": "new-aboudy-english-035",
       "path": "question-art/new-aboudy-english-035.png",
-      "bytes": 15401,
-      "sha256": "236ed08a6681221e98cf1b917f378f2040b7af87b97b0cf9a0c4fb6dbf2ac8c4",
+      "bytes": 13680,
+      "sha256": "1f8fb3409b535e181a86ea35bb5e22167c5ce664d2142b86dbf162bb2fe7159e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading"
@@ -719,8 +719,8 @@
     {
       "activityId": "new-aboudy-maths-001",
       "path": "question-art/new-aboudy-maths-001.png",
-      "bytes": 14962,
-      "sha256": "5f689d9224ab306ac8ad6bf6cfeda8b21b971984154311d95aa0b2e2b5301d6a",
+      "bytes": 13029,
+      "sha256": "bc3a0f3925caa459afba282eb41168827ad5173547d37b6ab03a36c5fcd5c3ff",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -728,8 +728,8 @@
     {
       "activityId": "new-aboudy-maths-002",
       "path": "question-art/new-aboudy-maths-002.png",
-      "bytes": 14975,
-      "sha256": "baee7995cfd4c455b61a236c1681c82fd38bec43fca2c3cb2004bd5fb13e80c4",
+      "bytes": 13238,
+      "sha256": "0aa88d6fc0c3fc84e57aabcb511f6271825948732b32e0fbe1d38e0d8c58f859",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -737,8 +737,8 @@
     {
       "activityId": "new-aboudy-maths-003",
       "path": "question-art/new-aboudy-maths-003.png",
-      "bytes": 15253,
-      "sha256": "69276adb62fe159d62c46a0d09826178fcb4824320e74c76a9d9fb6f006325fd",
+      "bytes": 13494,
+      "sha256": "2ef07eae049223bd4e762e49a43076785c5d1012df4f72d04b649c523405754d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -746,8 +746,8 @@
     {
       "activityId": "new-aboudy-maths-004",
       "path": "question-art/new-aboudy-maths-004.png",
-      "bytes": 14903,
-      "sha256": "125f6cd3a0ac7d31f5d0110b5f8a6e7d129ebb1f28800d85591d812739b15cd3",
+      "bytes": 13135,
+      "sha256": "f08f81c3b22b4442935803cb0154106ce0041d0c563ef90ac64d42eb82f428b8",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -755,8 +755,8 @@
     {
       "activityId": "new-aboudy-maths-005",
       "path": "question-art/new-aboudy-maths-005.png",
-      "bytes": 15508,
-      "sha256": "fec21fe6a8480559bfae5dc0685fe902c70d8964bea6df4b93ece998b156df9c",
+      "bytes": 13762,
+      "sha256": "ddd735621a8fdae61cab0a6ccd01aef0cd684586ca0e25fb0e0495c7c9c3c076",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -764,8 +764,8 @@
     {
       "activityId": "new-aboudy-maths-006",
       "path": "question-art/new-aboudy-maths-006.png",
-      "bytes": 15653,
-      "sha256": "c063d0eee26dad16266ea1a81b260a8460445203adf208ae5c4e2fc60b4185b4",
+      "bytes": 13733,
+      "sha256": "dc7936f25b2a9db0b11806b6851b2e60701ace6e004ed197df63ff6ce9a9f217",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -773,8 +773,8 @@
     {
       "activityId": "new-aboudy-maths-007",
       "path": "question-art/new-aboudy-maths-007.png",
-      "bytes": 15369,
-      "sha256": "881db2ddf7ee337d7dee115e564cc759b3e85738853600e51de746dc240126ab",
+      "bytes": 13635,
+      "sha256": "147820eb402c5c520485180daee173ffc61eed032dd388cfac8e7897bb801242",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -782,8 +782,8 @@
     {
       "activityId": "new-aboudy-maths-008",
       "path": "question-art/new-aboudy-maths-008.png",
-      "bytes": 15275,
-      "sha256": "a5ab886427f647f197eea9b92e33f9ade19adfb4a346229e002a620d36045506",
+      "bytes": 13381,
+      "sha256": "514829022ff0c3c311ca935c455b2a805a2d963bcc649c81ac04000e05cb236f",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -791,8 +791,8 @@
     {
       "activityId": "new-aboudy-maths-009",
       "path": "question-art/new-aboudy-maths-009.png",
-      "bytes": 14221,
-      "sha256": "05ced354853cd58c150419bb99d85fd59baf6a94cf4b52273750a4e6b952c88b",
+      "bytes": 12591,
+      "sha256": "2a6f9a8bfb77155cc8a656200b8d03cdcf0d6e46f022b552d1a7186070a44cf3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -800,8 +800,8 @@
     {
       "activityId": "new-aboudy-maths-010",
       "path": "question-art/new-aboudy-maths-010.png",
-      "bytes": 15486,
-      "sha256": "7129574e8de88b57605e2afa4b0511f946401bae551114510fb94ed051d9b7b1",
+      "bytes": 13534,
+      "sha256": "6bf387a1c05fe7b7b48c9d3e08137b74510ece38d338d4eecd994947d6aefeb9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-place-value",
       "visualProfile": "math"
@@ -809,8 +809,8 @@
     {
       "activityId": "new-aboudy-maths-011",
       "path": "question-art/new-aboudy-maths-011.png",
-      "bytes": 14785,
-      "sha256": "cd1687d76f0deeab5379a7174d701e5b1fb97476a1c2694c37e5cd56511dfa1c",
+      "bytes": 12858,
+      "sha256": "fd6132dc60e87e45fd0b7d3de575366dc0c12c77a80ce37e1350b8eb5f660972",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -818,8 +818,8 @@
     {
       "activityId": "new-aboudy-maths-012",
       "path": "question-art/new-aboudy-maths-012.png",
-      "bytes": 14802,
-      "sha256": "84998b4471d0d707974394bb98c8abc0565c107a80b3ef284458bee4f7f1782a",
+      "bytes": 12858,
+      "sha256": "59b04498898ea1af00afd1037530edea55ba69c673196a9db481f67355eeff51",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -827,8 +827,8 @@
     {
       "activityId": "new-aboudy-maths-013",
       "path": "question-art/new-aboudy-maths-013.png",
-      "bytes": 14772,
-      "sha256": "4548c70ab8247c656b857dd8d077c528c4e4bd912d7552ba229e6a08d71ea608",
+      "bytes": 12812,
+      "sha256": "adf8f0c0fa5ce812f66ee3d1926aec89dd9b751d5b82ccdcc144a26dae3d7c62",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -836,8 +836,8 @@
     {
       "activityId": "new-aboudy-maths-014",
       "path": "question-art/new-aboudy-maths-014.png",
-      "bytes": 14774,
-      "sha256": "701d3b52d8f368004d7ccb52f0753ea529a7b5dd5180cd091d356f846fafe40e",
+      "bytes": 12858,
+      "sha256": "6a6fcace7dc11a305e1cc87872591d3026ab5ee624293bddbacb3af8bf791f2b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -845,8 +845,8 @@
     {
       "activityId": "new-aboudy-maths-015",
       "path": "question-art/new-aboudy-maths-015.png",
-      "bytes": 14780,
-      "sha256": "a8eb164723de693073f5a6baf3e194cb873f47fb450a91dad2168f6c327f8cd1",
+      "bytes": 12839,
+      "sha256": "c35659d8cf6132808cb9f4983b7e389f9ff1551f84dc48c2894c5e6a8a97b0e2",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -854,8 +854,8 @@
     {
       "activityId": "new-aboudy-maths-016",
       "path": "question-art/new-aboudy-maths-016.png",
-      "bytes": 14541,
-      "sha256": "a275445eb1db865d7cbfdc9c0c1b4c99c487d284e6b875fc99b146cfcda2bb66",
+      "bytes": 12824,
+      "sha256": "b68e445f59111365af34907c42b8d00bbe2e5f95472c2b56553c87d45a18d67d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -863,8 +863,8 @@
     {
       "activityId": "new-aboudy-maths-017",
       "path": "question-art/new-aboudy-maths-017.png",
-      "bytes": 14715,
-      "sha256": "bccd1018d26132b1e25816355e6f36e488a5e3225d388d799389c5e37b217fd6",
+      "bytes": 12812,
+      "sha256": "c2bf574633b76aa6bd398d34ea505a8e09af4e3135f427f9f04b52d99fb07b21",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -872,8 +872,8 @@
     {
       "activityId": "new-aboudy-maths-018",
       "path": "question-art/new-aboudy-maths-018.png",
-      "bytes": 14569,
-      "sha256": "4ed0ebaa86ac83b37e3ae31dc417857c490f0b1b33be8444409faeebdbeccbb7",
+      "bytes": 12812,
+      "sha256": "6523ee9bbe344189326f821ca53aa3256a9f2e5ba20b998344b64ce7950c9829",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -881,8 +881,8 @@
     {
       "activityId": "new-aboudy-maths-019",
       "path": "question-art/new-aboudy-maths-019.png",
-      "bytes": 14823,
-      "sha256": "c25633d631268f3be3aca3057908f4638b884f393044fcd0491830de254ed436",
+      "bytes": 12839,
+      "sha256": "39f43d297fbf8bff8a96f7e7f4772fe60910ba7536f467d435065abcd09bc04e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -890,8 +890,8 @@
     {
       "activityId": "new-aboudy-maths-020",
       "path": "question-art/new-aboudy-maths-020.png",
-      "bytes": 14715,
-      "sha256": "937af6776d61e92c8697478cd0d226e3b4e0c2b5070a2f6232b7ccd29390b5e6",
+      "bytes": 12812,
+      "sha256": "ad8b9329560f2e59108156d9b7f2592266541289b120c217df45735761724f7a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -899,8 +899,8 @@
     {
       "activityId": "new-aboudy-maths-021",
       "path": "question-art/new-aboudy-maths-021.png",
-      "bytes": 15392,
-      "sha256": "f961bf5a5e4f83caf261cb858ca222446bafdf0ff96fc44863c7e84c8903a2b5",
+      "bytes": 13554,
+      "sha256": "80016618e6250768f1d6f988350dbd983665a2deb6c2923200f88af53a32d041",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -908,8 +908,8 @@
     {
       "activityId": "new-aboudy-maths-022",
       "path": "question-art/new-aboudy-maths-022.png",
-      "bytes": 15905,
-      "sha256": "8cffa44b9781ad55b759c7bdd4d756c9268a010f0881f6f41d2554861fbc9bba",
+      "bytes": 14105,
+      "sha256": "98e7942df8c6cb7b9cf8c6318d0b12314cb0a23d5d3b1c66a0dc01a5143084c4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -917,8 +917,8 @@
     {
       "activityId": "new-aboudy-maths-023",
       "path": "question-art/new-aboudy-maths-023.png",
-      "bytes": 15921,
-      "sha256": "d430f50a42df743d789395ca69849a83a165e72603e6f9a5b7d3c093a2c2abda",
+      "bytes": 14105,
+      "sha256": "610c6d1ca0d76deaef0115036656b7ba086a85dc65204a0bf42f2b95b9999cdd",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -926,8 +926,8 @@
     {
       "activityId": "new-aboudy-maths-024",
       "path": "question-art/new-aboudy-maths-024.png",
-      "bytes": 16840,
-      "sha256": "30ff606676efeeaa5985b67dd74cc7271942ee84148819979fb7a89a33b80ab9",
+      "bytes": 15108,
+      "sha256": "eeb9839a7d7b0ea00151cff03dac7ddd985ef783f013c252a929177446914cb4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -935,8 +935,8 @@
     {
       "activityId": "new-aboudy-maths-025",
       "path": "question-art/new-aboudy-maths-025.png",
-      "bytes": 15845,
-      "sha256": "91edfe4ed2782de87ffcf4a3ff54cc65f1cf41f4deb13bcbd981be9a9469e1a9",
+      "bytes": 14063,
+      "sha256": "dfc9979a1e9e473785ae3439ad3e1bbfcf1592aa13b106dbac223ca8fc28922c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -944,8 +944,8 @@
     {
       "activityId": "new-aboudy-maths-026",
       "path": "question-art/new-aboudy-maths-026.png",
-      "bytes": 15783,
-      "sha256": "816c62ee1970d62ab3f1587d74260d4df135968929ca7c9e09564f99c642134b",
+      "bytes": 14063,
+      "sha256": "babc0a2869f2d091b17819ced475b276e6603f16b17c45ec2a52b6f001744fe1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -953,8 +953,8 @@
     {
       "activityId": "new-aboudy-maths-027",
       "path": "question-art/new-aboudy-maths-027.png",
-      "bytes": 15979,
-      "sha256": "8b2bb7a9a5162aefcae15c67b64c42c1201ba20aa3086c789c3e0036d52eebda",
+      "bytes": 14076,
+      "sha256": "dab87d01ab5a932b8950042a78dbb17ae0b3b24f8caefbc1c3e5ac9b9ea60e7e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -962,8 +962,8 @@
     {
       "activityId": "new-aboudy-maths-028",
       "path": "question-art/new-aboudy-maths-028.png",
-      "bytes": 16890,
-      "sha256": "779c1bc897af57aa7d48c1c3615320182a1a358e27eb8890373b09cd6f73314c",
+      "bytes": 14906,
+      "sha256": "d6b78aba7ffdcfbee4525ce78dd2721c13ed6a7edbb68ba17a1f1c2142c29307",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-multiplication",
       "visualProfile": "math"
@@ -971,8 +971,8 @@
     {
       "activityId": "new-aboudy-maths-029",
       "path": "question-art/new-aboudy-maths-029.png",
-      "bytes": 13548,
-      "sha256": "22b99405a89dae47b4f56e4fd61a77be7da2b40a86bfaedc4a9d75fd3a496042",
+      "bytes": 11773,
+      "sha256": "4378870ad8656c687ec256158d08a804b010a41714119fa3053ac5ba745774ae",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -980,8 +980,8 @@
     {
       "activityId": "new-aboudy-maths-030",
       "path": "question-art/new-aboudy-maths-030.png",
-      "bytes": 14523,
-      "sha256": "89decf2e425b0f6da544fba59ca2832206d644d6e4fc876a5a340b0c6fea93d7",
+      "bytes": 12971,
+      "sha256": "7c2f0833b803711b6ae3ec7358209d9006d4c012899c673768acbbfc2475f072",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -989,8 +989,8 @@
     {
       "activityId": "new-aboudy-maths-031",
       "path": "question-art/new-aboudy-maths-031.png",
-      "bytes": 14850,
-      "sha256": "d94827efc1d9088dcf774fb1dbcb24c46e565768c7695822b468c8e98770f44d",
+      "bytes": 13052,
+      "sha256": "2d9217fa116a9c5b03e62a4fcbb5745291275570507fc26d9717e5c4641cf8f3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -998,8 +998,8 @@
     {
       "activityId": "new-aboudy-maths-032",
       "path": "question-art/new-aboudy-maths-032.png",
-      "bytes": 14297,
-      "sha256": "f597657fdff1ff6cf490844d8ce9cf50b5b9f7ae6f5be92dba1ea3035c992cf5",
+      "bytes": 12534,
+      "sha256": "10312700839d5dfbc4d07c1c75d5476594142d3632755a9bef9648a0cca3351f",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -1007,8 +1007,8 @@
     {
       "activityId": "new-aboudy-maths-033",
       "path": "question-art/new-aboudy-maths-033.png",
-      "bytes": 14509,
-      "sha256": "da8a5b0567f6b676efe36e2a27fdc3567f9d6b14c1a6f4eb628b91de199dbabc",
+      "bytes": 12879,
+      "sha256": "af6f772ca3f8c4b1d6605737578baf88b328af8661f3e2a8eec58875b2483f47",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -1016,8 +1016,8 @@
     {
       "activityId": "new-aboudy-maths-034",
       "path": "question-art/new-aboudy-maths-034.png",
-      "bytes": 15023,
-      "sha256": "28623840c008f5a74782a8a9e93700dec0c650a781bc8191f0a46402c7d25cb1",
+      "bytes": 13176,
+      "sha256": "5a4d19c19d8db5e107329e2ea04bcd71e39a3a8097b30f6177861820231649db",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -1025,8 +1025,8 @@
     {
       "activityId": "new-aboudy-maths-035",
       "path": "question-art/new-aboudy-maths-035.png",
-      "bytes": 14484,
-      "sha256": "274519745bcfa4fb630db18a6ce6c8911bc59fb804fa89d1406d99e818579921",
+      "bytes": 12686,
+      "sha256": "b8a4e523c11e43aec19c4fe52bf6e25adb2ab408c07ef8ed57498c3291293ef5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1034,8 +1034,8 @@
     {
       "activityId": "new-aboudy-maths-036",
       "path": "question-art/new-aboudy-maths-036.png",
-      "bytes": 14424,
-      "sha256": "8747b087837caf3f7b4bd28f0eb9591c939bdfc1492717bf7ac90bb22b3d16af",
+      "bytes": 12732,
+      "sha256": "cbf95e8745fd07515fa12b72156739e1f6b491dc8d68f1f774f0744df769e3b9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1043,8 +1043,8 @@
     {
       "activityId": "new-aboudy-maths-037",
       "path": "question-art/new-aboudy-maths-037.png",
-      "bytes": 15984,
-      "sha256": "273b7f1684b90c1813f542c2b74228f4a51c513b73e7e48a9281987c7a323a08",
+      "bytes": 14272,
+      "sha256": "7aa333b654827ff6814be2437f85ba09243b678b1c8c6f967269f96c7e7050da",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1052,8 +1052,8 @@
     {
       "activityId": "new-aboudy-maths-038",
       "path": "question-art/new-aboudy-maths-038.png",
-      "bytes": 15081,
-      "sha256": "718a27168bdc65da5b8dfd8589a22d8ffccb355f58345d543d0286c3221bad69",
+      "bytes": 13361,
+      "sha256": "6e1e9fa07d9c6fe38bd1ad20386677b6c7c220274a000b370ae0a075f3ccbfcc",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1061,8 +1061,8 @@
     {
       "activityId": "new-aboudy-maths-039",
       "path": "question-art/new-aboudy-maths-039.png",
-      "bytes": 14582,
-      "sha256": "dc06050cdad0e6e6ec2c686676e736fd927399374e3ae9b4a40119ad6e7eaad7",
+      "bytes": 12932,
+      "sha256": "c8c73c44b8004883495087d8f4d4a1786b6a99462361c324c6b445e50560cfa2",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1070,8 +1070,8 @@
     {
       "activityId": "new-aboudy-maths-040",
       "path": "question-art/new-aboudy-maths-040.png",
-      "bytes": 16045,
-      "sha256": "6262e4f71291b57e607c7d4d290723926f8887d19970126a9c2cf0fb77941ef7",
+      "bytes": 14414,
+      "sha256": "f3bce2cd75def703696a0a05ce31f62b6c71c8eea7e7e747e73e076bd5e02f53",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1079,8 +1079,8 @@
     {
       "activityId": "new-aboudy-science-001",
       "path": "question-art/new-aboudy-science-001.png",
-      "bytes": 24838,
-      "sha256": "287e98f7718e280b4e026de4e0cfef68cf739ccd087d220851f6426857a12a06",
+      "bytes": 23004,
+      "sha256": "612138e5be8eec6f34cc1135c8e9fdbb05a5cdd6deb2d83596d62121b7f85e11",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1088,8 +1088,8 @@
     {
       "activityId": "new-aboudy-science-002",
       "path": "question-art/new-aboudy-science-002.png",
-      "bytes": 21312,
-      "sha256": "2c82ddc8f1b43d58107ec796d00484c0b7d19353b498a6324150b0483b25a565",
+      "bytes": 19691,
+      "sha256": "57353a9c503cfa11a50f89223c3350432f9c4554d629e3e916fa4fa0b56ec2b4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1097,8 +1097,8 @@
     {
       "activityId": "new-aboudy-science-003",
       "path": "question-art/new-aboudy-science-003.png",
-      "bytes": 17001,
-      "sha256": "1669f8dad2d6ba77a73e317e2d55112b69ef308ec6dc69bec8fd47695a8c2850",
+      "bytes": 15256,
+      "sha256": "bd1fab41604bb8733167eb263c2b7a3d60329ab2468084bad91500eb47243799",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1106,8 +1106,8 @@
     {
       "activityId": "new-aboudy-science-004",
       "path": "question-art/new-aboudy-science-004.png",
-      "bytes": 20859,
-      "sha256": "c13a7bdeca210e2e9cd41baa915e504cee67315120d4c24d336dc4e7913e642d",
+      "bytes": 19088,
+      "sha256": "a41e81911e131c87928941926350f6af01ba8dc2cc7171e87a13e7650f05a13d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1115,8 +1115,8 @@
     {
       "activityId": "new-aboudy-science-005",
       "path": "question-art/new-aboudy-science-005.png",
-      "bytes": 22366,
-      "sha256": "7239f073e282236c248fa5c81e8e2a9bb9a66d479529f269b112cec5788fdc60",
+      "bytes": 20701,
+      "sha256": "6bb459b099608363949c54d1c360a38c24e28c05ab77f3ab5ea1abc616db9020",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1124,8 +1124,8 @@
     {
       "activityId": "new-aboudy-science-006",
       "path": "question-art/new-aboudy-science-006.png",
-      "bytes": 22825,
-      "sha256": "2278e08b04d4e2cd9fba285f009ac108a9aef9151ee3e1a44f5a715720f60250",
+      "bytes": 21038,
+      "sha256": "0f8e165a56697d30abcacad6964f0a7b49d7325cc72737e35edb1bd65f050015",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1133,8 +1133,8 @@
     {
       "activityId": "new-aboudy-science-007",
       "path": "question-art/new-aboudy-science-007.png",
-      "bytes": 20566,
-      "sha256": "86d01c8f26e2c6aab51cb96cd94565fbb7bfb3c45a57025ca73ac2201057609f",
+      "bytes": 18811,
+      "sha256": "014ccb7bdad270eb01c5280b022f27c618e7bc476d613427bac1aff662121267",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1142,8 +1142,8 @@
     {
       "activityId": "new-aboudy-science-008",
       "path": "question-art/new-aboudy-science-008.png",
-      "bytes": 22387,
-      "sha256": "095888dc43681346121141908c0fc1d050466f6d849d310c17b8e7f423dc9c70",
+      "bytes": 20674,
+      "sha256": "4b8f724e464a8227869024b663572c12dce3bd972805c6082112672c7faa8beb",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1151,8 +1151,8 @@
     {
       "activityId": "new-aboudy-science-009",
       "path": "question-art/new-aboudy-science-009.png",
-      "bytes": 20224,
-      "sha256": "af60ea70ff4c3518a3bec30805bb3297ef59c190c4aa648c8b03fdc8b74c8060",
+      "bytes": 18195,
+      "sha256": "2fb627c33747095dd7926eace07be6c46beb9c0d8307b7eda1f72adc6e9cd450",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1160,8 +1160,8 @@
     {
       "activityId": "new-aboudy-science-010",
       "path": "question-art/new-aboudy-science-010.png",
-      "bytes": 18530,
-      "sha256": "52a26499704a5ca05749d9b1088be351500e1605d59294fa4024bc84ba97ebde",
+      "bytes": 16377,
+      "sha256": "3d0e32b1e953ff2e843c391e31137ea506e4021e9807a2326f61b439dca1b3d4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1169,8 +1169,8 @@
     {
       "activityId": "new-aboudy-science-011",
       "path": "question-art/new-aboudy-science-011.png",
-      "bytes": 15799,
-      "sha256": "8572ae1a337fd9da862457b0c30eb71b9ccaadf86cf093d2b01cd6735eaa9437",
+      "bytes": 13951,
+      "sha256": "a00769167d4a8b4a441c0783691034048e1b44fdea13c88fa3ccee5cafad4a52",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1178,8 +1178,8 @@
     {
       "activityId": "new-aboudy-science-012",
       "path": "question-art/new-aboudy-science-012.png",
-      "bytes": 16830,
-      "sha256": "539667cb85c1d397afd9bed6be1ae3aefa4a5b2dbb1ca902be1271a28dd6805c",
+      "bytes": 14942,
+      "sha256": "fc56e42aa26dcadc3e287b65490b9e9dd616c431d1e4ea334918f96091d7fc2b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1187,8 +1187,8 @@
     {
       "activityId": "new-aboudy-science-013",
       "path": "question-art/new-aboudy-science-013.png",
-      "bytes": 13069,
-      "sha256": "a51438ab3504ccc89660d803f258d1f3a93746e7ccc9c3f828960bc7702a5d25",
+      "bytes": 11205,
+      "sha256": "349b14f61f37f304806f18ee30ee599b15c9860714e1f043357872bde07e8f39",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1196,8 +1196,8 @@
     {
       "activityId": "new-aboudy-science-014",
       "path": "question-art/new-aboudy-science-014.png",
-      "bytes": 30597,
-      "sha256": "3081825d592a9fa96327a73bd36572aeee350ee3240ed837a9b3fe5e55aaa5ac",
+      "bytes": 28560,
+      "sha256": "c22659f5aa40634acad04bb1644c0d403d7a0f559588750f3cba8372b1e8b29a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1205,8 +1205,8 @@
     {
       "activityId": "new-aboudy-science-015",
       "path": "question-art/new-aboudy-science-015.png",
-      "bytes": 20191,
-      "sha256": "3efc1c81a404bb6d7cb03652ac115b93bca93c2ff0daca37b53c1fa8a54665af",
+      "bytes": 18207,
+      "sha256": "d22feb88724a573e0207756309dcce55f909f323f0a1801d73859db474a92304",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1214,8 +1214,8 @@
     {
       "activityId": "new-aboudy-science-016",
       "path": "question-art/new-aboudy-science-016.png",
-      "bytes": 27728,
-      "sha256": "8e4d9be06f910fafbc170582eef0cb763170e0d033f89489f275aea7bc2c003a",
+      "bytes": 26002,
+      "sha256": "65de9ac31f101773db29acd37836a1935dd901a1073773a8aa60d6a9a20536cb",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1223,8 +1223,8 @@
     {
       "activityId": "new-aboudy-science-017",
       "path": "question-art/new-aboudy-science-017.png",
-      "bytes": 19799,
-      "sha256": "800a92af4d6cfd01719d4378a8a03c4748bd2de8ef1953b719990a39f6417c69",
+      "bytes": 17990,
+      "sha256": "830e3665e6b0d5ca5c8df806ac283d46e2297ced2b861ab3761aed93269526f7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1232,8 +1232,8 @@
     {
       "activityId": "new-aboudy-science-018",
       "path": "question-art/new-aboudy-science-018.png",
-      "bytes": 16993,
-      "sha256": "6b1436f2bef1dbcd1604857840e8e4afc391deaaa2bb9b83fcb35f1ce7137ebd",
+      "bytes": 14918,
+      "sha256": "2f9f08de3e5e0c2119afc34a7aeb54a2d0ed98985067e2d174b8e91eb45d19c3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1241,8 +1241,8 @@
     {
       "activityId": "new-aboudy-science-019",
       "path": "question-art/new-aboudy-science-019.png",
-      "bytes": 9157,
-      "sha256": "5f01990b0eae6743bb074b475b82cd27cac929d4c8d2b7a2722454d4b9803e8d",
+      "bytes": 6902,
+      "sha256": "64feaf474c41334af3a4eba503fa09503a2c6bd9cc564ca5a36be1bb5ee66106",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1250,8 +1250,8 @@
     {
       "activityId": "new-aboudy-science-020",
       "path": "question-art/new-aboudy-science-020.png",
-      "bytes": 19459,
-      "sha256": "4e450112e77293c4497715a6e98ad4b9fddb27e65e1b04b38edfc3f99510414b",
+      "bytes": 17493,
+      "sha256": "64bbdcfda1a8323e08b656bbf2bf946a607ff8d8702fe76c93ef841751d6aad2",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1259,8 +1259,8 @@
     {
       "activityId": "new-aboudy-science-021",
       "path": "question-art/new-aboudy-science-021.png",
-      "bytes": 22075,
-      "sha256": "c6629946d7d00135138a806e1f52d027e85d2303a7344ceae1468e4f76c95fba",
+      "bytes": 20346,
+      "sha256": "f955ad2ea0d6f8fe22afb7f140adbee1027b5d099790cbfd7917637194b5fb68",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1268,8 +1268,8 @@
     {
       "activityId": "new-aboudy-science-022",
       "path": "question-art/new-aboudy-science-022.png",
-      "bytes": 14973,
-      "sha256": "3075384737ab93de761eb4b3acc378f26f43974f796fc36d1547fe3b55fffd43",
+      "bytes": 12994,
+      "sha256": "9f22fd97b133d52ea6dba1216bed901a63695af468882fd4267fc4bf7db9cc04",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1277,8 +1277,8 @@
     {
       "activityId": "new-aboudy-science-023",
       "path": "question-art/new-aboudy-science-023.png",
-      "bytes": 17983,
-      "sha256": "7b94a4ff08dc3b3221fae2db0dbf80f2b358b441defb80477ea56273bb113ce1",
+      "bytes": 15930,
+      "sha256": "b3573c511730e8856f843c555219688b497107bf9edf97076bddc6a14357dda3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1286,8 +1286,8 @@
     {
       "activityId": "new-aboudy-science-024",
       "path": "question-art/new-aboudy-science-024.png",
-      "bytes": 27866,
-      "sha256": "680d75047439ff91723bbfcce8ee033e2e6ad228f134dbdfb07367a9294ae87e",
+      "bytes": 26082,
+      "sha256": "d5eed37365ba135f729d9ea878745becf82c0ac7ee1c5d75295b14e5ea111874",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1295,8 +1295,8 @@
     {
       "activityId": "new-aboudy-science-025",
       "path": "question-art/new-aboudy-science-025.png",
-      "bytes": 16987,
-      "sha256": "b7b0525e7ae440f9dc89650465e750c4f68fd4175b6ad44819bdb5f1dd5eb588",
+      "bytes": 15092,
+      "sha256": "7d64bb290b5bb0a30fbc0aa0bb92b9416db9040dab5edc4d919a62054e5f386e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science"
@@ -1304,8 +1304,8 @@
     {
       "activityId": "sci-g2-u02-l1-q01-en",
       "path": "question-art/sci-g2-u02-l1-q01-en.png",
-      "bytes": 19884,
-      "sha256": "00518a6d52e28ca245e67e9872e8925ce39f79ab04e6c16894a749cc91874dfb",
+      "bytes": 17836,
+      "sha256": "75692f10d7a5a36462f50f6ef1caae95f433fb4e0da6da4a118c5b229f761569",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science"
@@ -1313,8 +1313,8 @@
     {
       "activityId": "sci-g2-u02-l1-q02-en",
       "path": "question-art/sci-g2-u02-l1-q02-en.png",
-      "bytes": 23373,
-      "sha256": "ea4e56b98a28f48959616731561f65152f7e448829f6c8335557f6fbbd8a69a2",
+      "bytes": 21631,
+      "sha256": "1dbfb11693a7a3197712945eedc4e8a534884f7c1bed096527975b3adf160e34",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science"
@@ -1322,8 +1322,8 @@
     {
       "activityId": "sci-g2-u02-l1-q03-en",
       "path": "question-art/sci-g2-u02-l1-q03-en.png",
-      "bytes": 22036,
-      "sha256": "7243d2bd66d62b4e2a7b47b9fc15bec5def8ac106cd1805068db4a7baeb7a1d7",
+      "bytes": 20312,
+      "sha256": "3996f5647abb76dcc04b9329ea868512c185e5e8758c8c2dcc894eccbfcbce2b",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science"
@@ -1331,8 +1331,8 @@
     {
       "activityId": "sci-g2-u02-l1-q04-en",
       "path": "question-art/sci-g2-u02-l1-q04-en.png",
-      "bytes": 21173,
-      "sha256": "39abbf384bf849709b10052d7bb9f4a1d15f0a2f410d9c10ee2f177ce5221e5c",
+      "bytes": 19330,
+      "sha256": "c0fadc729d019001af15b8daf35dba7453832e8b3f88da3d1b630adbe4aa8bee",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science"
@@ -1340,8 +1340,8 @@
     {
       "activityId": "sci-g2-u02-l1-q05-en",
       "path": "question-art/sci-g2-u02-l1-q05-en.png",
-      "bytes": 18713,
-      "sha256": "2735682f70bd365e2b4a9198c67af0295b6e217cf4abca0f8efe3ab2fca5d08f",
+      "bytes": 16896,
+      "sha256": "196e3115d6e3a865e6732edf837fb40ed1870a3d1c9451745f4524cd8e39781a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science"
@@ -1349,8 +1349,8 @@
     {
       "activityId": "sci-g2-u02-l1-q06-en",
       "path": "question-art/sci-g2-u02-l1-q06-en.png",
-      "bytes": 20754,
-      "sha256": "bc0a4085f1d412c927359a9072b23d0141b5e31c070eedfc1fa0ab0bedd3e3f4",
+      "bytes": 18809,
+      "sha256": "88d9db44b14103ed367bad5ac766d0c17eb4aa04c263e4098bcec24e4773ee50",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science"
@@ -1358,8 +1358,8 @@
     {
       "activityId": "sci-g2-u02-l2-q01-en",
       "path": "question-art/sci-g2-u02-l2-q01-en.png",
-      "bytes": 15566,
-      "sha256": "617122769f1273b9a960a2481bad4121ecaf9d16a99631ebe60294acc666f0b4",
+      "bytes": 13758,
+      "sha256": "783669c14b8858f7b3698ed946484063e3af067711f04b1317ef1991b2d9917a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science"
@@ -1367,8 +1367,8 @@
     {
       "activityId": "sci-g2-u02-l2-q02-en",
       "path": "question-art/sci-g2-u02-l2-q02-en.png",
-      "bytes": 15753,
-      "sha256": "25a9516eb15ce9b5da1f6c697c1a54bf8e3920b2622a61c5be5ad60ca453ea41",
+      "bytes": 13703,
+      "sha256": "204e457b482662aad546364995566ee00b45ef371b4e80408cca014fca1de679",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science"
@@ -1376,8 +1376,8 @@
     {
       "activityId": "sci-g2-u02-l2-q03-en",
       "path": "question-art/sci-g2-u02-l2-q03-en.png",
-      "bytes": 25700,
-      "sha256": "1327ff18c727a5b94768776c819cdad1db356ee833b0c77ef7aa79d1c4231fa5",
+      "bytes": 23764,
+      "sha256": "4c4157c256e910e94bfaa09736d86f28c4d6f6fb7bc1d14c1973eec6ec16ab6a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science"
@@ -1385,8 +1385,8 @@
     {
       "activityId": "sci-g2-u02-l2-q04-en",
       "path": "question-art/sci-g2-u02-l2-q04-en.png",
-      "bytes": 18424,
-      "sha256": "49a9193a480ec3711e686b6de14a707c5891ddce847282f24295ab658018be97",
+      "bytes": 16536,
+      "sha256": "7214d9385084d5839269cdb4d9f586e694ada60a5dbbda283709a7f04d499fda",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-05",
       "visualProfile": "science"
@@ -1394,8 +1394,8 @@
     {
       "activityId": "sci-g2-u02-l2-q05-en",
       "path": "question-art/sci-g2-u02-l2-q05-en.png",
-      "bytes": 15482,
-      "sha256": "b22e5af72637f0ac1f5523d816e4ea73cc773297aff2f64b765214fa5207ade9",
+      "bytes": 13630,
+      "sha256": "89266eb7e49f0cc4fb1e411246768be8261bd00623970c973b7c843a9d7fde7f",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science"
@@ -1403,8 +1403,8 @@
     {
       "activityId": "sci-g2-u02-l2-q06-en",
       "path": "question-art/sci-g2-u02-l2-q06-en.png",
-      "bytes": 14574,
-      "sha256": "5ee536b336ce03dbdaad7ba12cf9afe1cf35e53566429ad96fca3840050294fe",
+      "bytes": 12879,
+      "sha256": "ed1058f96253c9032b85c642b45cb61a02dcbe342d5126d203691a10636d7dc0",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science"
@@ -1412,8 +1412,8 @@
     {
       "activityId": "sci-g2-u02-l3-q01-en",
       "path": "question-art/sci-g2-u02-l3-q01-en.png",
-      "bytes": 13868,
-      "sha256": "91b4e66bcea80509046ca4482168073ab0f00abc95ae82b3a50de3a751f17bd3",
+      "bytes": 11906,
+      "sha256": "1fb325ecb926e834c878e239a8fd09a48f74f88fa743940df9933fe34830d2cd",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science"
@@ -1421,8 +1421,8 @@
     {
       "activityId": "sci-g2-u02-l3-q02-en",
       "path": "question-art/sci-g2-u02-l3-q02-en.png",
-      "bytes": 19070,
-      "sha256": "41c8818e3f88584eb9f4f6bae72f0537bf5f1d10567a77c084f9e49328fb3b58",
+      "bytes": 17349,
+      "sha256": "1a72a6d929cc53061b4c6e011dff77d95fd7116fa04bff98d3498ad59ecd1994",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science"
@@ -1430,8 +1430,8 @@
     {
       "activityId": "sci-g2-u02-l3-q03-en",
       "path": "question-art/sci-g2-u02-l3-q03-en.png",
-      "bytes": 19474,
-      "sha256": "656808da8dddea29ac44c96361d198ff7ad01321477d9db371b40224a3609253",
+      "bytes": 17833,
+      "sha256": "3ac8f1be3ced834af10d6374a98cb724bcf80f265011cf937388892aa2ca43a0",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science"
@@ -1439,8 +1439,8 @@
     {
       "activityId": "sci-g2-u02-l3-q04-en",
       "path": "question-art/sci-g2-u02-l3-q04-en.png",
-      "bytes": 17070,
-      "sha256": "9b7b07afe90cbe3f5a2a3d42ae99a35363d9691daa035cefe324a4b9b6a043dc",
+      "bytes": 15203,
+      "sha256": "5b2826e876e1716bb935e6a4be23156d1e392258503a5f1546aa97e32437c048",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science"
@@ -1448,8 +1448,8 @@
     {
       "activityId": "sci-g2-u02-l3-q05-en",
       "path": "question-art/sci-g2-u02-l3-q05-en.png",
-      "bytes": 23676,
-      "sha256": "6c4425a23cd57c2a1d75f07fd91943966c789887309828efe53997761ae20823",
+      "bytes": 21822,
+      "sha256": "6d0d2b879f13358d55bfba9d53ddd0594b4fb2396eaf4649651c67ebab5d640b",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science"
@@ -1457,8 +1457,8 @@
     {
       "activityId": "sci-g2-u02-l3-q06-en",
       "path": "question-art/sci-g2-u02-l3-q06-en.png",
-      "bytes": 23102,
-      "sha256": "c4c61908b19ce4c52b28b8a896a0671857731e634ff5965916e096e35cc17f9d",
+      "bytes": 21230,
+      "sha256": "7877fefd666604c796fca82b451f39e76b5eb7e6f54f0c6fb7efcebb66625f5c",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science"
@@ -1466,8 +1466,8 @@
     {
       "activityId": "sci-g2-u02-l4-q01-en",
       "path": "question-art/sci-g2-u02-l4-q01-en.png",
-      "bytes": 21246,
-      "sha256": "700c9baacf56974c9e4e5dd31362a84eb2303bb1ec53c8d767626b38d54db04f",
+      "bytes": 19303,
+      "sha256": "0517e7c0d55fe97a61ddf25955a5e7b4fc83cfd49b8ac3d6336e4eae66a6df4b",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science"
@@ -1475,8 +1475,8 @@
     {
       "activityId": "sci-g2-u02-l4-q02-en",
       "path": "question-art/sci-g2-u02-l4-q02-en.png",
-      "bytes": 18496,
-      "sha256": "bb513a7d459ef8336b353ef77798c3ca74687debf3a11c68528f8fa163f643f6",
+      "bytes": 16538,
+      "sha256": "fc89cd5210062e03e91894433acb4f8394621cb15bb02155d018f804ab7b2650",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science"
@@ -1484,8 +1484,8 @@
     {
       "activityId": "sci-g2-u02-l4-q03-en",
       "path": "question-art/sci-g2-u02-l4-q03-en.png",
-      "bytes": 16556,
-      "sha256": "27e914faca86a2ae90416681c7c8687e1092598d9c0d5f12a9b78e7010d596d6",
+      "bytes": 14517,
+      "sha256": "ce39b3ad716046d26469bc690baa42f8cf45b4bae9859fae989ae0e836321116",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science"
@@ -1493,8 +1493,8 @@
     {
       "activityId": "sci-g2-u02-l4-q04-en",
       "path": "question-art/sci-g2-u02-l4-q04-en.png",
-      "bytes": 17126,
-      "sha256": "ff1be2fbd05a46823294ad8f4bcdcbefd7bc5d40bfc0334a8c96a8576a6f2ade",
+      "bytes": 15222,
+      "sha256": "710775a03e68bb1a6f5ef38cc04bf0857f5f9435394c918c368767eaa3360f15",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science"
@@ -1502,8 +1502,8 @@
     {
       "activityId": "sci-g2-u02-l4-q05-en",
       "path": "question-art/sci-g2-u02-l4-q05-en.png",
-      "bytes": 21572,
-      "sha256": "1fd26312f019229f4a15bcd1dc789e0a3a9da015452700c15d17f03e2e1ebbe5",
+      "bytes": 19619,
+      "sha256": "7f9d3a83121821d107e4cdb5492f8970c5bbf11780c354c101012714be0a54eb",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science"
@@ -1511,8 +1511,8 @@
     {
       "activityId": "sci-g2-u02-l4-q06-en",
       "path": "question-art/sci-g2-u02-l4-q06-en.png",
-      "bytes": 19680,
-      "sha256": "f518a03864cecc432adbf39185a04fcdcb6247a417ec6cf7403972837ff87dea",
+      "bytes": 17816,
+      "sha256": "f5adb0132c64c5e1ba918b9f0b661315f8905fe837f13238e46b95163e319f82",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-06",
       "visualProfile": "science"
@@ -1520,8 +1520,8 @@
     {
       "activityId": "sci-g2-u02-l5-q01-en",
       "path": "question-art/sci-g2-u02-l5-q01-en.png",
-      "bytes": 22447,
-      "sha256": "7d793fc8544e95d3ea83d1a318655b036c0c21c48e6f3b7e75826964d1968c48",
+      "bytes": 20570,
+      "sha256": "90d6e82dc9579170c1760da5ab2cae88681fff08520fd22affdbb0498f7e87ed",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science"
@@ -1529,8 +1529,8 @@
     {
       "activityId": "sci-g2-u02-l5-q02-en",
       "path": "question-art/sci-g2-u02-l5-q02-en.png",
-      "bytes": 20680,
-      "sha256": "15441fc2e1caf3bee85eaba257d4d46854b3b44a0672d07652ea7821011c96cc",
+      "bytes": 19005,
+      "sha256": "0971c4d28ab564dffc76e8733cf83d67ef4d366c72a653a1e44a36f624bfa909",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science"
@@ -1538,8 +1538,8 @@
     {
       "activityId": "sci-g2-u02-l5-q03-en",
       "path": "question-art/sci-g2-u02-l5-q03-en.png",
-      "bytes": 15884,
-      "sha256": "3d995f8f1f7533eb960e5a089221cf89691dcc827dab00ddd5b3be635852d837",
+      "bytes": 13966,
+      "sha256": "8acab5d3c7393d9c6c0ae258c8b198f50e16acb6d7cc80280070e90e9e8f4396",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science"
@@ -1547,8 +1547,8 @@
     {
       "activityId": "sci-g2-u02-l5-q04-en",
       "path": "question-art/sci-g2-u02-l5-q04-en.png",
-      "bytes": 22803,
-      "sha256": "19d619e46bcf82ec0ba0bfa70fe7ae11e8b1ba965c02f32ff673b5c93dc3db57",
+      "bytes": 20884,
+      "sha256": "89b872577be3e7586846152e1c3d87ea8aec61edb0ec20b51b2a4d78354fee1a",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-ENQ-08",
       "visualProfile": "science"
@@ -1556,8 +1556,8 @@
     {
       "activityId": "sci-g2-u02-l5-q05-en",
       "path": "question-art/sci-g2-u02-l5-q05-en.png",
-      "bytes": 20932,
-      "sha256": "a4c689613bacc09d62c14fb90e2c161e888725a75ea6e8e4dc7fe2c093ef1d03",
+      "bytes": 19084,
+      "sha256": "ace7a581926eb4ac01e89d4fe5148d9b242521e8fb5d2eb64228bdc98a9fc052",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science"
@@ -1565,8 +1565,8 @@
     {
       "activityId": "sci-g2-u02-l5-q06-en",
       "path": "question-art/sci-g2-u02-l5-q06-en.png",
-      "bytes": 15311,
-      "sha256": "a6351a1e31d756d7baaf0540f949d879326abdff9d6617be319f80923cde7e86",
+      "bytes": 13270,
+      "sha256": "541ce0acd08d9b042c59db179f8db49d75a74cf9acb16bb791516e66cd402848",
       "engineVersion": "1.6.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science"
@@ -1574,8 +1574,8 @@
     {
       "activityId": "kg2-count-01-en",
       "path": "question-art/kg2-count-01-en.png",
-      "bytes": 13386,
-      "sha256": "380ca8443d627886270ae7d620516224a53df517e3225fbbb459bba3a442b2db",
+      "bytes": 11720,
+      "sha256": "5c2211b8e56fd0b6d56aa7fab8f91c2e15b6e6b4f3e08ccd671f162c0d83b61e",
       "engineVersion": "1.6.0",
       "skillId": "counting-to-five",
       "visualProfile": "math"
@@ -1583,8 +1583,8 @@
     {
       "activityId": "kg2-shape-01-en",
       "path": "question-art/kg2-shape-01-en.png",
-      "bytes": 15574,
-      "sha256": "2222dbef2bd5eef41efda8a1a9537f625b6a475d89322d0f5744932dddbfd24d",
+      "bytes": 13738,
+      "sha256": "6ce00fe0bdb9ac9f4d744eee7b909e66d2f7be54895b474ec2130570dc12d6f5",
       "engineVersion": "1.6.0",
       "skillId": "common-shapes",
       "visualProfile": "math"
@@ -1592,8 +1592,8 @@
     {
       "activityId": "kg2-plant-01-en",
       "path": "question-art/kg2-plant-01-en.png",
-      "bytes": 20281,
-      "sha256": "cdd9b2f10bcc43ee79b3fe7c1d44b9384bf3d5005e34818a5655b59873c3a93b",
+      "bytes": 18567,
+      "sha256": "a14d04e4e37f3bea79a343e90efc7a9cf67edeadfd2aa7308bc7ab6a805622b3",
       "engineVersion": "1.6.0",
       "skillId": "plant-needs",
       "visualProfile": "science"
@@ -1601,8 +1601,8 @@
     {
       "activityId": "kg2-sound-01-en",
       "path": "question-art/kg2-sound-01-en.png",
-      "bytes": 24235,
-      "sha256": "ade9ebd63b9919590a68db877297a19a91688ac29beb35cddcca72531e007841",
+      "bytes": 22507,
+      "sha256": "e83e1e0fdfc400052976e264f7d94659a0204e3abcbb5619921caa74d5cbe0a1",
       "engineVersion": "1.6.0",
       "skillId": "initial-sounds",
       "visualProfile": "phonics"
@@ -1610,8 +1610,8 @@
     {
       "activityId": "kg2-count-02-en",
       "path": "question-art/kg2-count-02-en.png",
-      "bytes": 14092,
-      "sha256": "cb6dbbbd887fe41901b6388c7bca804308caf5f57e9cf26bcea68b2efea7d585",
+      "bytes": 12398,
+      "sha256": "d39cde751d1f7bf199f7e2c7f77498fbb4bd867607852a2be473138f51bdf4e7",
       "engineVersion": "1.6.0",
       "skillId": "counting-to-five",
       "visualProfile": "math"
@@ -1619,8 +1619,8 @@
     {
       "activityId": "kg2-shape-02-en",
       "path": "question-art/kg2-shape-02-en.png",
-      "bytes": 15607,
-      "sha256": "06f48506d91705cd6d5779c8a9abdafa1d0f3652f8de4e7828d83e5604ece317",
+      "bytes": 13727,
+      "sha256": "e3e268d7c2c6c0e79f11b86ef05310f9c5c403fdd2726180a47916acc493cb78",
       "engineVersion": "1.6.0",
       "skillId": "common-shapes",
       "visualProfile": "math"
@@ -1628,8 +1628,8 @@
     {
       "activityId": "kg2-plant-02-en",
       "path": "question-art/kg2-plant-02-en.png",
-      "bytes": 19458,
-      "sha256": "4cca66124364b2e1462482f3cdb0436866f993b64de84158ed535ce1ca9f22e3",
+      "bytes": 17767,
+      "sha256": "4c7ecf9282d514825813acf9f1a90afdeb6182d608206cf36cb4206e544797cb",
       "engineVersion": "1.6.0",
       "skillId": "plant-needs",
       "visualProfile": "science"
@@ -1637,8 +1637,8 @@
     {
       "activityId": "kg2-sound-02-en",
       "path": "question-art/kg2-sound-02-en.png",
-      "bytes": 19316,
-      "sha256": "7cb08b83f8b1860acc5d9b55c854f18d2c6031c54f4c496e76568611226eaebb",
+      "bytes": 17493,
+      "sha256": "1155a04893cecfcc99d340f574fdfa7cc43d3a23ee8f3857a90b85ccbd7820d0",
       "engineVersion": "1.6.0",
       "skillId": "initial-sounds",
       "visualProfile": "phonics"
@@ -1646,8 +1646,8 @@
     {
       "activityId": "new-ali-english-001",
       "path": "question-art/new-ali-english-001.png",
-      "bytes": 21400,
-      "sha256": "661fd4ff6050cb82fb27c32e3e6de77738d5b09be53524ddab4d9d82d393e602",
+      "bytes": 19564,
+      "sha256": "801379101dae45bd3f8b289a209a054c904a829c86299c10a701d1fe0522dca3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1655,8 +1655,8 @@
     {
       "activityId": "new-ali-english-002",
       "path": "question-art/new-ali-english-002.png",
-      "bytes": 20866,
-      "sha256": "5b9c48a21b020e00688318290790695bafa3a3e80bde2ff9fe28657cc9299e09",
+      "bytes": 19182,
+      "sha256": "e2523b646ef977e58166fcb1aff176fd4543aea1b7827950cfb3823113da16db",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1664,8 +1664,8 @@
     {
       "activityId": "new-ali-english-003",
       "path": "question-art/new-ali-english-003.png",
-      "bytes": 19836,
-      "sha256": "160348be8063ff6f8efd337ebcb6c9fb4a8dcb999f757d36c417a5027123055c",
+      "bytes": 17962,
+      "sha256": "b0ac7210751d07398e9c988d18febe557bdc0bd896246e82f539f89a0f0cd60e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1673,8 +1673,8 @@
     {
       "activityId": "new-ali-english-004",
       "path": "question-art/new-ali-english-004.png",
-      "bytes": 19943,
-      "sha256": "9c3882027a7a53208e1e3b63c4ebec9c3bc242a9bd50a4816cd5e44264fbd96d",
+      "bytes": 18186,
+      "sha256": "491f15138f59e8523cfedd38f301d72867e4af310c3e9fdfcd69dfbcc6976757",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1682,8 +1682,8 @@
     {
       "activityId": "new-ali-english-005",
       "path": "question-art/new-ali-english-005.png",
-      "bytes": 17368,
-      "sha256": "795e360cb2c1b86227c32527462fa11f66957b3f88991d3bc48a3d22c0c22550",
+      "bytes": 15668,
+      "sha256": "df1e46c4e21314347e4a60930ba9778a0009a1e1101b62164148f9f1e80eb29b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1691,8 +1691,8 @@
     {
       "activityId": "new-ali-english-006",
       "path": "question-art/new-ali-english-006.png",
-      "bytes": 16628,
-      "sha256": "34acb40f19a996d7cdbd905acb061bb3aaf95ef4fd8f7cce24bac11fe4094435",
+      "bytes": 14881,
+      "sha256": "7c16f01a8b7f7c7a3230edd7d3b8e3d836de19e227fc72c0567eb9999d88a8e6",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1700,8 +1700,8 @@
     {
       "activityId": "new-ali-english-007",
       "path": "question-art/new-ali-english-007.png",
-      "bytes": 22157,
-      "sha256": "0ef6813510746c8a7352796ffa53ac18631219960630fb0492cc27de6cfcc80e",
+      "bytes": 20383,
+      "sha256": "0dd1b037e1b0bd34c5dbac662173f3d3227cdf5de5aacfa99f32ed0c768ce3a1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1709,8 +1709,8 @@
     {
       "activityId": "new-ali-english-008",
       "path": "question-art/new-ali-english-008.png",
-      "bytes": 19693,
-      "sha256": "0a261cb5f47acf719b74486568cc296a334354f70f91f3c8142b3936455f8849",
+      "bytes": 17825,
+      "sha256": "d3b8e969ed7ea6231cceb1c82238b3eda60c678a979d8a7ac552f8312a6c6d7c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1718,8 +1718,8 @@
     {
       "activityId": "new-ali-english-009",
       "path": "question-art/new-ali-english-009.png",
-      "bytes": 17955,
-      "sha256": "2f028d427090111457e8654405979781b1fde0b05d92b5ad2e771987c3ef53d6",
+      "bytes": 16205,
+      "sha256": "20189ff938177a9e72c18ed23b6393ba134b1ca3f17ef19afbd821e1a155f552",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1727,8 +1727,8 @@
     {
       "activityId": "new-ali-english-010",
       "path": "question-art/new-ali-english-010.png",
-      "bytes": 15826,
-      "sha256": "8c2af118ae0f1ebdf6248c6f48930b6c0d9bcab02ee6ff577c3a34521759a18e",
+      "bytes": 13831,
+      "sha256": "28dfb2eb649cd14dcedc3fbbdc2bdf8e5160fe59cc293a2751b4756dde57cfed",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1736,8 +1736,8 @@
     {
       "activityId": "new-ali-english-011",
       "path": "question-art/new-ali-english-011.png",
-      "bytes": 16368,
-      "sha256": "cf25c0b4be34b29ece6a1c51733ea26449b850531decc107e4865db370ec4f88",
+      "bytes": 14557,
+      "sha256": "df3db31714e46313c562c729d1073500488d66c7abaf96c8cb76b5fc139666a3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1745,8 +1745,8 @@
     {
       "activityId": "new-ali-english-012",
       "path": "question-art/new-ali-english-012.png",
-      "bytes": 21708,
-      "sha256": "eb38f09b8a26f36fbfe574266b9998134da0adf1a923f22a8d837bfd2e97cb9a",
+      "bytes": 19620,
+      "sha256": "17d9d7199c34598624ed3466b4185c3c589a906a0ab5c66590333e184572d928",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1754,8 +1754,8 @@
     {
       "activityId": "new-ali-english-013",
       "path": "question-art/new-ali-english-013.png",
-      "bytes": 15638,
-      "sha256": "dfb9f9e60ca037db0a08557e0675048961077aef19f25e2c18828b9e84643a83",
+      "bytes": 13753,
+      "sha256": "31f527bf9c9e545565b62b4cdc99095a82da2a995e7e4aa134b5825c4e480246",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1763,8 +1763,8 @@
     {
       "activityId": "new-ali-english-014",
       "path": "question-art/new-ali-english-014.png",
-      "bytes": 16969,
-      "sha256": "1726bad0fbc314a9d666b289d2ea30025b90364b352fa07ff831be5ce2248cc8",
+      "bytes": 15058,
+      "sha256": "c439120912f22e1fc981036fa82292c16cb7dab46f69f13ad7b3c0da766a4163",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1772,8 +1772,8 @@
     {
       "activityId": "new-ali-english-015",
       "path": "question-art/new-ali-english-015.png",
-      "bytes": 17648,
-      "sha256": "47fe2a7b6e0afe94dcb2d6c2dfd91bc942ad7b927e98024fcbf17fb1daaee5a1",
+      "bytes": 15675,
+      "sha256": "bb193261e8be3dedc76420edcf295734a7a3af503cff7f6430b7e8ee59154706",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1781,8 +1781,8 @@
     {
       "activityId": "new-ali-english-016",
       "path": "question-art/new-ali-english-016.png",
-      "bytes": 18152,
-      "sha256": "b6c50fe3b435d0a6cd330089f6fa6e1ec80c5a22a2416deb001a8e932cb05773",
+      "bytes": 16296,
+      "sha256": "10351ff2c13db7e79b1001da29ce5dd2cff722f9c25b86564d6faeabf08b5d0d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1790,8 +1790,8 @@
     {
       "activityId": "new-ali-english-017",
       "path": "question-art/new-ali-english-017.png",
-      "bytes": 17379,
-      "sha256": "e71690bee3813489c0df4dfe3173e591bc7fd74070c1554bba5901e2bf496f60",
+      "bytes": 15656,
+      "sha256": "866bbec356638eeaa98f5c5931c2eb14c9ec14b88ff2f4bacd24d60a573cf178",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1799,8 +1799,8 @@
     {
       "activityId": "new-ali-english-018",
       "path": "question-art/new-ali-english-018.png",
-      "bytes": 18257,
-      "sha256": "6e8569731a164fb5755027008ace47c7e2bc9d001e6af773231bacd6022f8cc5",
+      "bytes": 16101,
+      "sha256": "9fef22a03c18c86d9eb6b7b4d9cfaf7c0256e1fb947d492118d769f044bc11fc",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1808,8 +1808,8 @@
     {
       "activityId": "new-ali-english-019",
       "path": "question-art/new-ali-english-019.png",
-      "bytes": 20859,
-      "sha256": "23235353988b8f063e3398788d9910845a8716545b96e4f0f662029d84b4bc18",
+      "bytes": 18890,
+      "sha256": "3875293d4b90fdf741f5f424b86f046d733a725d22ca2e53975351f44108443b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1817,8 +1817,8 @@
     {
       "activityId": "new-ali-english-020",
       "path": "question-art/new-ali-english-020.png",
-      "bytes": 18744,
-      "sha256": "bd1cf9823f141bb6bc7e133ecefbcf876381ff7b1fd8ef6cedcda114ccea2835",
+      "bytes": 16641,
+      "sha256": "e76ffa973436fe645733a5905db3f4993d6b0f832a992931f06171d6e40eeca7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-initial-sounds",
       "visualProfile": "phonics"
@@ -1826,8 +1826,8 @@
     {
       "activityId": "new-ali-english-021",
       "path": "question-art/new-ali-english-021.png",
-      "bytes": 24567,
-      "sha256": "3872b178d13fda2936515c4e91625986a9203f938eff36623a4f77283a0995db",
+      "bytes": 22783,
+      "sha256": "4b9f739d50b3227d38ba37c4cecd31f22a1d3ee8fa3ec0c399d89f9948647668",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1835,8 +1835,8 @@
     {
       "activityId": "new-ali-english-022",
       "path": "question-art/new-ali-english-022.png",
-      "bytes": 17845,
-      "sha256": "8a0b2d85ae90f3dfde2c923c2f13b61a3047b97ad9ada2af54b40c51e1c1a8ef",
+      "bytes": 16158,
+      "sha256": "92283eb993122c0518974a396233c22452ac3556778af6be7e4f92e08db6266a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1844,8 +1844,8 @@
     {
       "activityId": "new-ali-english-023",
       "path": "question-art/new-ali-english-023.png",
-      "bytes": 15598,
-      "sha256": "0f3acaca2751e0e138c9de4746a0f88ae261e5911ed43531f15249607dbb455e",
+      "bytes": 13804,
+      "sha256": "d09a99a3f7e994523aeb8f63201ac0d0668dbf9442cb8d11780042c50b20d489",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1853,8 +1853,8 @@
     {
       "activityId": "new-ali-english-024",
       "path": "question-art/new-ali-english-024.png",
-      "bytes": 22706,
-      "sha256": "7bb49a678b9be0acbf3416f31a5bdb2bd33d9e7e6b3a40de32a9380c7c8db832",
+      "bytes": 20991,
+      "sha256": "3f172c3da87d33330cbe56bc3a8cbda4024307fadfa48d5a500bced5520fb110",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1862,8 +1862,8 @@
     {
       "activityId": "new-ali-english-025",
       "path": "question-art/new-ali-english-025.png",
-      "bytes": 18028,
-      "sha256": "671dcec295918ef07431a8a19e0bcdeee628ef267c528716486e192ab29e30b4",
+      "bytes": 16282,
+      "sha256": "0e44dcbd51ad889affd83710ac30a69f8ab6104190d11554949662e9b9002480",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1871,8 +1871,8 @@
     {
       "activityId": "new-ali-english-026",
       "path": "question-art/new-ali-english-026.png",
-      "bytes": 20639,
-      "sha256": "c3a6680410f79e78ba1cae6b1aaa6a89090852d25ab838a739ad416cdca1b63f",
+      "bytes": 18729,
+      "sha256": "70a40b3651c92faebc5dbf5e023b578a9257966303fdba462acae86e57359098",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1880,8 +1880,8 @@
     {
       "activityId": "new-ali-english-027",
       "path": "question-art/new-ali-english-027.png",
-      "bytes": 21331,
-      "sha256": "66935905f553a1eed8f0605b3c511b5503d42bb203744c06dc18cba424c5cc77",
+      "bytes": 19523,
+      "sha256": "c4c07652dcd83f7b4c1e5462d5f0a97eb3467a74eb33d8a6d22789a8717c0265",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1889,8 +1889,8 @@
     {
       "activityId": "new-ali-english-028",
       "path": "question-art/new-ali-english-028.png",
-      "bytes": 19442,
-      "sha256": "047e94d1b741a7c4e9dd0794107ab83650efc5eb4d4112ef9450d999917c89c0",
+      "bytes": 17555,
+      "sha256": "c20e696616ef9840994724119241e7f8d94b989854431fa2bbbbdb7e3ade7b93",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1898,8 +1898,8 @@
     {
       "activityId": "new-ali-english-029",
       "path": "question-art/new-ali-english-029.png",
-      "bytes": 17946,
-      "sha256": "f7845fdd4e2be082867b2413ff732fc236b566ca38664a7365ee3767bfbc5062",
+      "bytes": 16214,
+      "sha256": "7264dad601c44cf68bd696414bdefe4402fba33d0eda6cbacbc9942c9f41ab79",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1907,8 +1907,8 @@
     {
       "activityId": "new-ali-english-030",
       "path": "question-art/new-ali-english-030.png",
-      "bytes": 21550,
-      "sha256": "941a377cf06a0438944c0328c7af22cf1fbf58a7ecb32b5529a70cfcb3e52fda",
+      "bytes": 19795,
+      "sha256": "caa23235ca3af6a3d1980df006b99dbfff26bedbef37eca337a2b884f4c51898",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-rhyming-words",
       "visualProfile": "phonics"
@@ -1916,8 +1916,8 @@
     {
       "activityId": "new-ali-english-031",
       "path": "question-art/new-ali-english-031.png",
-      "bytes": 20020,
-      "sha256": "8b65050dafef66504bb9b6c35638d9f0730e2a6271784bb7e8ab6981a22f4e71",
+      "bytes": 18256,
+      "sha256": "fda5ad3ebeb51bc2749b9bcc3e73a51be3e894e282445da0b9260d0972156c7c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1925,8 +1925,8 @@
     {
       "activityId": "new-ali-english-032",
       "path": "question-art/new-ali-english-032.png",
-      "bytes": 16760,
-      "sha256": "43e69c805212cf1d90c0db399975d4ba9359bb6a5728539a5689072abb48ea18",
+      "bytes": 15028,
+      "sha256": "af9cef8b587e727ac0fd88fed588761e26feed69859eb89050277858cccc4338",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1934,8 +1934,8 @@
     {
       "activityId": "new-ali-english-033",
       "path": "question-art/new-ali-english-033.png",
-      "bytes": 16048,
-      "sha256": "e0945dca27bebf9e3f321f8218850218c5541337d9c4214b611c0d3c0298a1cd",
+      "bytes": 14311,
+      "sha256": "da99c3426aa8940c0c123e2afdcc61fb41f3d9ca2299e236f5ee7ed14c58636d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1943,8 +1943,8 @@
     {
       "activityId": "new-ali-english-034",
       "path": "question-art/new-ali-english-034.png",
-      "bytes": 15650,
-      "sha256": "b7bce257e49d32d2771eb75a97f74745a53512fc3c9cd2c06f1ecacf78096aa5",
+      "bytes": 13700,
+      "sha256": "5b324dd9973ba5e6a54cf26dc00f5604b8d0051a2955b348e032c4945179cd69",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1952,8 +1952,8 @@
     {
       "activityId": "new-ali-english-035",
       "path": "question-art/new-ali-english-035.png",
-      "bytes": 14973,
-      "sha256": "7b0b136a841a4eeaba724c82f58f2a3c79d86eceff7f2ec9b1e55669a7032a51",
+      "bytes": 13220,
+      "sha256": "e151e0a67237b6f4791af8226d4051f1b5e21d08163d976d762e652d7fe84c97",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1961,8 +1961,8 @@
     {
       "activityId": "new-ali-english-036",
       "path": "question-art/new-ali-english-036.png",
-      "bytes": 21929,
-      "sha256": "487d09971f0b75c04b0462ddf1994dd05f15673d5ba32a0b6cbe2d3f9f515981",
+      "bytes": 20018,
+      "sha256": "5d9f9f00a634d05b1bbe29114bc636f05cdd573c762eb70d855961f9cde353ba",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1970,8 +1970,8 @@
     {
       "activityId": "new-ali-english-037",
       "path": "question-art/new-ali-english-037.png",
-      "bytes": 17853,
-      "sha256": "c1d7905a69214c59d0e8d7b20329d41b05fbcb39f73fc135ddc265310552f234",
+      "bytes": 16194,
+      "sha256": "3732580cf3bdd58d01e5978de197c089ae3c33947843b085d857de5a13362ccd",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1979,8 +1979,8 @@
     {
       "activityId": "new-ali-english-038",
       "path": "question-art/new-ali-english-038.png",
-      "bytes": 15929,
-      "sha256": "e185232c5151dcd5084eab42892fa39f67666b467b730aaba2625da676bb5ecf",
+      "bytes": 14278,
+      "sha256": "453b4eb43da0e6e7c0abe9497cad43b137f0c476351a1a7392834223928278fd",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1988,8 +1988,8 @@
     {
       "activityId": "new-ali-english-039",
       "path": "question-art/new-ali-english-039.png",
-      "bytes": 20914,
-      "sha256": "9b9122e7a6bbea82799956d11e593e5ec27934e5b8699807053533b59ce38faf",
+      "bytes": 19241,
+      "sha256": "7e000f39ab5f2e4f3bda3896fdb08dc3a4ebb40cae2914dbbb936ce81b0060b5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -1997,8 +1997,8 @@
     {
       "activityId": "new-ali-english-040",
       "path": "question-art/new-ali-english-040.png",
-      "bytes": 21619,
-      "sha256": "ff7ad0c8ca90ae581754b5685a88aa1ce8f1373ed08a3dc29b63a7f492e27575",
+      "bytes": 19856,
+      "sha256": "d0e2f70807948ad824ab208facb1a841a1b9bac21c3c6a23840daafe8caf5185",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-everyday-vocabulary",
       "visualProfile": "vocabulary"
@@ -2006,8 +2006,8 @@
     {
       "activityId": "new-ali-maths-001",
       "path": "question-art/new-ali-maths-001.png",
-      "bytes": 13860,
-      "sha256": "0a9a4b87a4a9ef797446a835bf6a77d28c0bc23d25cd6e3bdee98eaa561530b9",
+      "bytes": 12206,
+      "sha256": "f02c2fed1fe2b782305a7560a214593faa1f9e53d97dd8745372d2af3de4cc36",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2015,8 +2015,8 @@
     {
       "activityId": "new-ali-maths-002",
       "path": "question-art/new-ali-maths-002.png",
-      "bytes": 14268,
-      "sha256": "698ace49c232c433e9a9d8f48df0c035967c211ad517f244145fd2c4ae81f5c9",
+      "bytes": 12418,
+      "sha256": "5c55e984f55732870c16b36fc2f9f236afb8d963aa29dc85f5c0842c0e61da12",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2024,8 +2024,8 @@
     {
       "activityId": "new-ali-maths-003",
       "path": "question-art/new-ali-maths-003.png",
-      "bytes": 13706,
-      "sha256": "d338c2a8d85b9ae337f35f0820b0060056ddd628a57afda6adcb8fc25a105ec1",
+      "bytes": 11991,
+      "sha256": "678637f80dda7fda7068ca7337e273dfffb6932f90a833f897845a90f0355e4f",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2033,8 +2033,8 @@
     {
       "activityId": "new-ali-maths-004",
       "path": "question-art/new-ali-maths-004.png",
-      "bytes": 12826,
-      "sha256": "2180bcbfbb255b78ef0de7c1be81069a1c83f074535e3b4056ca57fb7aca824f",
+      "bytes": 11090,
+      "sha256": "83a1cd17ac580aa6fd329278fe6ed0af40c0671bea8b01d0755c9fd8dba9138e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2042,8 +2042,8 @@
     {
       "activityId": "new-ali-maths-005",
       "path": "question-art/new-ali-maths-005.png",
-      "bytes": 15943,
-      "sha256": "fe036a8d2da2482e0ed1d34f56a518508f299b123ead189c9c70e4677c9fe8bc",
+      "bytes": 14250,
+      "sha256": "f7ae8b4961619b38ff253b578d620442bbcb570c91a0fbf96de363226aad591b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2051,8 +2051,8 @@
     {
       "activityId": "new-ali-maths-006",
       "path": "question-art/new-ali-maths-006.png",
-      "bytes": 16520,
-      "sha256": "f0de682a2a07d0f5a7a6c4943b4d3569dce924d0831d72d851d18f7343655ad5",
+      "bytes": 14549,
+      "sha256": "fa0612e094e45056eddc7e25edfe80ad7250e6f073ccb3def2eaa511087a8e19",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2060,8 +2060,8 @@
     {
       "activityId": "new-ali-maths-007",
       "path": "question-art/new-ali-maths-007.png",
-      "bytes": 18631,
-      "sha256": "247296bcb16828037257dc493956d9826f5ed9d6f83c066311392f9128535a79",
+      "bytes": 16809,
+      "sha256": "34a0efdc91198c9daa9acfea9749dd3a76b510f953ff0616b0953225ed98fad4",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2069,8 +2069,8 @@
     {
       "activityId": "new-ali-maths-008",
       "path": "question-art/new-ali-maths-008.png",
-      "bytes": 16666,
-      "sha256": "98d3a1f9f9fc1ba89d2a7c18b893d1b4cf60d1b93335d2816a9a004b7bf7fedb",
+      "bytes": 14932,
+      "sha256": "85d50c8974f6e1e31caffcf634b9592f20061c8be921a80fd32bf603dc0c4c5f",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2078,8 +2078,8 @@
     {
       "activityId": "new-ali-maths-009",
       "path": "question-art/new-ali-maths-009.png",
-      "bytes": 20117,
-      "sha256": "aa222f97b70e928dd0eedfa70c0ac2a10457791ab8471577e91d05e518885c63",
+      "bytes": 18479,
+      "sha256": "9fc3fb78a32b29c8f0bae08732e9a28917c17b5c3a9fdfbdcaa812451f6d842f",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2087,8 +2087,8 @@
     {
       "activityId": "new-ali-maths-010",
       "path": "question-art/new-ali-maths-010.png",
-      "bytes": 11298,
-      "sha256": "8130ed750ed77d763567641d2dfe269dc6495e35d1d9febd334155cba1f7e87f",
+      "bytes": 9267,
+      "sha256": "92dabac8572d8add7783cd36fd2c3d2d3d1662a6c6fc8071f6d622a7e5ba965e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2096,8 +2096,8 @@
     {
       "activityId": "new-ali-maths-011",
       "path": "question-art/new-ali-maths-011.png",
-      "bytes": 12901,
-      "sha256": "e09a6226cc638f3e0b5196022e9844b9d35cd15d6c2d5be30f4d5d8aad38ef85",
+      "bytes": 11107,
+      "sha256": "2bfd543eb5d5c81888bb17318e5c578b387e44e83adb5e280e508b9a8749cdd3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2105,8 +2105,8 @@
     {
       "activityId": "new-ali-maths-012",
       "path": "question-art/new-ali-maths-012.png",
-      "bytes": 14214,
-      "sha256": "5960927b0c0225ff4ed72ff101072780493566c42c3778df7a489f90cd498b4e",
+      "bytes": 12352,
+      "sha256": "8c9a18081869956da6d08719fd7de5d6a3844c55e9e14c7ddb0f6534449674ad",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2114,8 +2114,8 @@
     {
       "activityId": "new-ali-maths-013",
       "path": "question-art/new-ali-maths-013.png",
-      "bytes": 14028,
-      "sha256": "8f1642f7858b601d27a55e2a17fb97d2b5566c8622e0141d9f4ea2a20147ea3f",
+      "bytes": 12164,
+      "sha256": "856860b3cc9f01365063c8d55d94864e41b58f6542811b04db452250b229fab0",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2123,8 +2123,8 @@
     {
       "activityId": "new-ali-maths-014",
       "path": "question-art/new-ali-maths-014.png",
-      "bytes": 13135,
-      "sha256": "99b15c1176046ebc4decc00e19405d3aefff159b62cb100bbf374c5fecedf057",
+      "bytes": 11336,
+      "sha256": "e66124a5ed71f03616696c918f5c67b4e068684c21607fd89a48c5716e42ad86",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2132,8 +2132,8 @@
     {
       "activityId": "new-ali-maths-015",
       "path": "question-art/new-ali-maths-015.png",
-      "bytes": 13310,
-      "sha256": "1fb2c514b1607a5c04a10aa37a729b7ea45f2c7155a0e18902ab3e53ff2be13e",
+      "bytes": 11650,
+      "sha256": "b94d85eb483e14cf66782d8238449f7237a7ad1621707d4db7aaa2110d86e2ff",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2141,8 +2141,8 @@
     {
       "activityId": "new-ali-maths-016",
       "path": "question-art/new-ali-maths-016.png",
-      "bytes": 12536,
-      "sha256": "fa5427fa6c922a0f01b0b3edf974d91a403bda223d4a8019733c8d3525337fa1",
+      "bytes": 10866,
+      "sha256": "bd0dc509f1c4c442f328df31dea5d1a34d2c0726e66b25f3a1f675848a145950",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2150,8 +2150,8 @@
     {
       "activityId": "new-ali-maths-017",
       "path": "question-art/new-ali-maths-017.png",
-      "bytes": 13920,
-      "sha256": "b99e3e9bd14dd26ffea4ae5ad10cde0bca86c3196887d5ff8158f16726fb0c90",
+      "bytes": 12341,
+      "sha256": "b3dc87df0a2bf8ba3de44e828cca27f72e4266fccfeeb6f10f241183f294c9d5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2159,8 +2159,8 @@
     {
       "activityId": "new-ali-maths-018",
       "path": "question-art/new-ali-maths-018.png",
-      "bytes": 13969,
-      "sha256": "bdaa0a8c93c806bc56d01a5041de987cddccac9052463391e17fbe97a25c2a1e",
+      "bytes": 12163,
+      "sha256": "3fdc91c1fa982d2b76f5d59de2509cf80ce9e0ec9ac30d5297e755fb98d4de31",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2168,8 +2168,8 @@
     {
       "activityId": "new-ali-maths-019",
       "path": "question-art/new-ali-maths-019.png",
-      "bytes": 13599,
-      "sha256": "2bebb81ccd67d7038c0b84e45907281a3a621f3e9364957474066ca9cad56d2a",
+      "bytes": 11946,
+      "sha256": "8f5f7f3df8b9eeea50b84b543d12f410d2b46602d73125ee29c034aa5ac76882",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2177,8 +2177,8 @@
     {
       "activityId": "new-ali-maths-020",
       "path": "question-art/new-ali-maths-020.png",
-      "bytes": 12316,
-      "sha256": "fb5fb5a85d395e90a3068c774e08d420803857155923898265a7400bfc957279",
+      "bytes": 10467,
+      "sha256": "e59d4175d06c7141375eb463eb40d9fedd44cc318e17f24eb070a00305847457",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-number-patterns",
       "visualProfile": "math"
@@ -2186,8 +2186,8 @@
     {
       "activityId": "new-ali-maths-021",
       "path": "question-art/new-ali-maths-021.png",
-      "bytes": 20440,
-      "sha256": "58f2fdee7e59dc25f1d89087f443ced36c6621bdbab6abffb4f8e22344f4c592",
+      "bytes": 18532,
+      "sha256": "d12c90e64f140c1997a44d4377741daa254feeafd1a655fec089ec28a60b6641",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2195,8 +2195,8 @@
     {
       "activityId": "new-ali-maths-022",
       "path": "question-art/new-ali-maths-022.png",
-      "bytes": 19105,
-      "sha256": "049f58ac5b3e1e2b149328c294f3248ff54ebad9c0f5b7d79cab5b05365baf87",
+      "bytes": 17380,
+      "sha256": "c5c08a12ac434e2c466d9c7f2a7d33360590f5b5baae22c1e5af7e74b8230d02",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2204,8 +2204,8 @@
     {
       "activityId": "new-ali-maths-023",
       "path": "question-art/new-ali-maths-023.png",
-      "bytes": 20311,
-      "sha256": "c50a2e3033110392c5535415527f1d38f071e1ae0fa0de0195749d64f7fbdff2",
+      "bytes": 18606,
+      "sha256": "d4930111263b6462be3ac1b1bc796cc73b68514bf33274c6eb93c53b428bae33",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2213,8 +2213,8 @@
     {
       "activityId": "new-ali-maths-024",
       "path": "question-art/new-ali-maths-024.png",
-      "bytes": 20334,
-      "sha256": "9f06988977a3b7d9df6f001b1529afda987a7f24dbed2b445450b4b3bae13074",
+      "bytes": 18570,
+      "sha256": "e0f2f610379c1056ac972a6f798dfc86e9c2e5cff0c32b795457d6bd17fa7e0b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2222,8 +2222,8 @@
     {
       "activityId": "new-ali-maths-025",
       "path": "question-art/new-ali-maths-025.png",
-      "bytes": 20406,
-      "sha256": "34c810beb3c5e334aebea1dbd8ec92fc7514f53a32ff61ad032e0ab309346465",
+      "bytes": 18611,
+      "sha256": "e291684074d8872ce35422f0e573f81b1b45439c4370e89f405d37d46e33bcc6",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2231,8 +2231,8 @@
     {
       "activityId": "new-ali-maths-026",
       "path": "question-art/new-ali-maths-026.png",
-      "bytes": 20429,
-      "sha256": "293a617a2c57ce04cdb7d6623d53e15b55cb670b485141cb46db1c93950cafa8",
+      "bytes": 18619,
+      "sha256": "740d502d4ac596a903d146b4069a63468b4b41e68e692cd4b868c4d7d9651d96",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2240,8 +2240,8 @@
     {
       "activityId": "new-ali-maths-027",
       "path": "question-art/new-ali-maths-027.png",
-      "bytes": 20292,
-      "sha256": "9f75455859e0a08fccbffad56ebe182ad3f795186b0dd10ca7a5c04d06ec9674",
+      "bytes": 18566,
+      "sha256": "aefa77fda0541058a32e603cf8ffb7f6c0af0d1fa59046867414225f81ffd1cd",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2249,8 +2249,8 @@
     {
       "activityId": "new-ali-maths-028",
       "path": "question-art/new-ali-maths-028.png",
-      "bytes": 20251,
-      "sha256": "20ad7eebac0c92307adc1103cafa43352120bcbd976b9cfdb6c4bea6d057eae5",
+      "bytes": 18606,
+      "sha256": "1a78a4f7ea0e344cab2976afe728bab5a145c851f86222b4a4bda4bbfcf96850",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2258,8 +2258,8 @@
     {
       "activityId": "new-ali-maths-029",
       "path": "question-art/new-ali-maths-029.png",
-      "bytes": 20422,
-      "sha256": "213bbfe5c07fe7be36f31f15632497688013eded32ec22cc1826417dedaeeae0",
+      "bytes": 18611,
+      "sha256": "0a7ba1bd5b548cbbd193dd611020876bb5a11b78ce50f907e9b46a5b3ab3ae92",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2267,8 +2267,8 @@
     {
       "activityId": "new-ali-maths-030",
       "path": "question-art/new-ali-maths-030.png",
-      "bytes": 18975,
-      "sha256": "bf9719e4261184579e9bcb5d6206e1d23f61b462f6585c09be2026dbdfcfae52",
+      "bytes": 17358,
+      "sha256": "4246c4fe1701baf2486f137ca14b443e03ad4a1b62d32db12d2f7026ec1cbafc",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-adding-and-taking-away",
       "visualProfile": "english"
@@ -2276,8 +2276,8 @@
     {
       "activityId": "new-ali-maths-031",
       "path": "question-art/new-ali-maths-031.png",
-      "bytes": 12809,
-      "sha256": "f637072ec0c9f1ee94f2177ecb13c70da71b74ccddfa0d0e52521706e5a4f7a0",
+      "bytes": 11266,
+      "sha256": "b762a8e353c5b7855dce56d93fb17aba30269d56c77f1ecd5a1c7903803f97e7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-shapes",
       "visualProfile": "math"
@@ -2285,8 +2285,8 @@
     {
       "activityId": "new-ali-maths-032",
       "path": "question-art/new-ali-maths-032.png",
-      "bytes": 13274,
-      "sha256": "ef2a212a71a4314dd8c6fc85fc9249f3d4987666bcad1a80fbb3ba1e3628036c",
+      "bytes": 11498,
+      "sha256": "5ed4d888b343365f7bcc380b8ba94039a75b62595d2dda766f98eaf47b75bc17",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-shapes",
       "visualProfile": "math"
@@ -2294,8 +2294,8 @@
     {
       "activityId": "new-ali-maths-033",
       "path": "question-art/new-ali-maths-033.png",
-      "bytes": 13039,
-      "sha256": "5b954797a90ee78423b4c77da71c5eb2f43d97be4e617297644d1953e63dd838",
+      "bytes": 11498,
+      "sha256": "dbe5d3198e38cffcb5bd6921d32f6ba46a3d6c8ae586a2086329c4f215993a87",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-shapes",
       "visualProfile": "math"
@@ -2303,8 +2303,8 @@
     {
       "activityId": "new-ali-maths-034",
       "path": "question-art/new-ali-maths-034.png",
-      "bytes": 12684,
-      "sha256": "05d138d466ab2bee043b66a4c0db24213f4bffa844d1f476f7e15de5db7a4c30",
+      "bytes": 10518,
+      "sha256": "317d741e16cd25d45e6c224e28900ce71d350d94958ae1f403d3e60a3f2e1498",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-shapes",
       "visualProfile": "math"
@@ -2312,8 +2312,8 @@
     {
       "activityId": "new-ali-maths-035",
       "path": "question-art/new-ali-maths-035.png",
-      "bytes": 13585,
-      "sha256": "bffc9425bb291accaf55c2295db8b463d938bfd99ceafeee24e236fdd7716a10",
+      "bytes": 11670,
+      "sha256": "4bb8de0eac3acfeff3ccf1323edf60ac1dc947f17afd950fb4fb3ffbbddfeac3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-shapes",
       "visualProfile": "math"
@@ -2321,8 +2321,8 @@
     {
       "activityId": "new-ali-science-001",
       "path": "question-art/new-ali-science-001.png",
-      "bytes": 17151,
-      "sha256": "e46045cb0e02c1b1a82bf83ed89fe15bb87e7b1d8bc5e81a6410c18f78872b12",
+      "bytes": 15183,
+      "sha256": "ebb82e3c0ed2e88367cdc237c11c266bad2ca703499c4c1cabbb031f20fc902b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2330,8 +2330,8 @@
     {
       "activityId": "new-ali-science-002",
       "path": "question-art/new-ali-science-002.png",
-      "bytes": 22435,
-      "sha256": "a8b27b26116ef5dd7d29baa1e878e9e73099d37a566b6c1eca35239d3ba4cd37",
+      "bytes": 20619,
+      "sha256": "b0c0f49c4f39199ff4d84ca9e0550605a0f2dc4d7845ca7d3cdf3e68b33c156b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2339,8 +2339,8 @@
     {
       "activityId": "new-ali-science-003",
       "path": "question-art/new-ali-science-003.png",
-      "bytes": 18724,
-      "sha256": "502192e67d6cbb19a3fd538e2e76fa8a6a30e3b9843b2e41bd12fe09d40444b2",
+      "bytes": 16829,
+      "sha256": "7361460965e5c19656fae2d5a3c919381b83e3b1a988867ce5882e7f5aeec6a6",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2348,8 +2348,8 @@
     {
       "activityId": "new-ali-science-004",
       "path": "question-art/new-ali-science-004.png",
-      "bytes": 19324,
-      "sha256": "fb53996dbda8161f53b7502f5e0c9143de7d851469e0cb2969393896416af141",
+      "bytes": 17336,
+      "sha256": "5d9df968c83b7394853bf303399423f88e07008b14ba37b37455257d890983d7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2357,8 +2357,8 @@
     {
       "activityId": "new-ali-science-005",
       "path": "question-art/new-ali-science-005.png",
-      "bytes": 19048,
-      "sha256": "db7247c65e6222e3c0b9b36fa1cdabd24eb040ebb58b39b4d9e457db2724f382",
+      "bytes": 17117,
+      "sha256": "4976f0d7fc5c30ea14dd465cf788745c60b4debd71a519ead5050b3eeb274e3d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2366,8 +2366,8 @@
     {
       "activityId": "new-ali-science-006",
       "path": "question-art/new-ali-science-006.png",
-      "bytes": 20479,
-      "sha256": "62c18bbfeb13bc7873cbfe608d2c5833c45984393b1779d39a39e8376463672a",
+      "bytes": 18622,
+      "sha256": "c0d62c5fc6b3b6ec224c7d552c5fef199abcbcdd7d3c9981b3dc3284a499178c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2375,8 +2375,8 @@
     {
       "activityId": "new-ali-science-007",
       "path": "question-art/new-ali-science-007.png",
-      "bytes": 21503,
-      "sha256": "ad8d871c5e4dafea00e60d5957763c2c2e25a3812bca1950dd000f0137020281",
+      "bytes": 19707,
+      "sha256": "60eccb7af210ed7b8c125292bb1b1c7f41dfaf9e77adbf3a56bd9272f42e4e85",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2384,8 +2384,8 @@
     {
       "activityId": "new-ali-science-008",
       "path": "question-art/new-ali-science-008.png",
-      "bytes": 20198,
-      "sha256": "96c30e6a5d69e08fc3f879c7de96def3189ca9ce458244c0eebc8785c2fb668b",
+      "bytes": 18405,
+      "sha256": "b59b05a97987095cafeb6344b629451caece9210c156768753fccd51d2ac5e06",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2393,8 +2393,8 @@
     {
       "activityId": "new-ali-science-009",
       "path": "question-art/new-ali-science-009.png",
-      "bytes": 18455,
-      "sha256": "59a620ee482f5052ea1257152d5e7fbac9485fb9ccaed46cc8de3873dda4e59b",
+      "bytes": 16577,
+      "sha256": "f6b2140d4f9725befa0000562e97414f06a9a0467317fd3abbb9e56205a89937",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2402,8 +2402,8 @@
     {
       "activityId": "new-ali-science-010",
       "path": "question-art/new-ali-science-010.png",
-      "bytes": 18300,
-      "sha256": "b6ad2556fb30db33aa41d0333aa1f1f04e9eaa8f030646a4fb5ed9b525efdb50",
+      "bytes": 16320,
+      "sha256": "c4c4dbe862707851dbc8bcf7f3cce26a4fb5c9a069ee3b37dc812e7e74435fbd",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2411,8 +2411,8 @@
     {
       "activityId": "new-ali-science-011",
       "path": "question-art/new-ali-science-011.png",
-      "bytes": 15613,
-      "sha256": "0cbb3edc84661784306d213d78ec0272bdefdf9a2e41bdde580cda09844cb94c",
+      "bytes": 13674,
+      "sha256": "1579af40a0ba2eff043509d738319b8ce5daf6015179dc30bd3f0b23eb7bbcff",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2420,8 +2420,8 @@
     {
       "activityId": "new-ali-science-012",
       "path": "question-art/new-ali-science-012.png",
-      "bytes": 12731,
-      "sha256": "16ca0ca89918ed4703e449739b1b3d75b686c31187a0024fd35dd44d87d0ffc2",
+      "bytes": 10881,
+      "sha256": "155c85dbe3419bf5a88707b13760a74c5f03d4857c5cf0e743d1673e18c373d5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2429,8 +2429,8 @@
     {
       "activityId": "new-ali-science-013",
       "path": "question-art/new-ali-science-013.png",
-      "bytes": 21138,
-      "sha256": "56218c9bdc8c53125384cf2a68ab0f7bafdb8c840a0e7e840278594b5f642b06",
+      "bytes": 19306,
+      "sha256": "fa0ff7936ddcccbda1ce337c559ec307746b019740ba9992b1f4e34ed73737a8",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2438,8 +2438,8 @@
     {
       "activityId": "new-ali-science-014",
       "path": "question-art/new-ali-science-014.png",
-      "bytes": 15935,
-      "sha256": "4e6f9a4ed673d1881e1d2e277554ec6739feab3bcb938b6b34ebef5923e90751",
+      "bytes": 14276,
+      "sha256": "0f0654a5e8045f6eabd7d71465cbb95975c90a9c32ada65e28fa463e91cb47b2",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2447,8 +2447,8 @@
     {
       "activityId": "new-ali-science-015",
       "path": "question-art/new-ali-science-015.png",
-      "bytes": 17657,
-      "sha256": "c35a9e1ceea338718b9e0e59dc21a877fe8588c65e9ac20c96e484701ed682d1",
+      "bytes": 15612,
+      "sha256": "4b1150188769122698cad96e25d07bd3b959e58feedbf7fa548909b6468578a3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2456,8 +2456,8 @@
     {
       "activityId": "new-ali-science-016",
       "path": "question-art/new-ali-science-016.png",
-      "bytes": 22217,
-      "sha256": "d6790978887de7e09608de9b062d0bf7f7d8704c7c318c9ead435733c79b75d0",
+      "bytes": 20297,
+      "sha256": "46bfe091f6243b1844b157dff1faae1c80868eec63beafa6e62a50406f31e2a9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2465,8 +2465,8 @@
     {
       "activityId": "new-ali-science-017",
       "path": "question-art/new-ali-science-017.png",
-      "bytes": 15349,
-      "sha256": "6f0be2e0952d5bb028f1a6c4d10b7acf573f46ccbc9f2d4f808bd320090c7e83",
+      "bytes": 13390,
+      "sha256": "1b09fe4f715b21ef781df5076d9d351de4fb80e39858efa7da9c540a2ca21b58",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2474,8 +2474,8 @@
     {
       "activityId": "new-ali-science-018",
       "path": "question-art/new-ali-science-018.png",
-      "bytes": 15341,
-      "sha256": "8f4dff77df21dcc166ff63b671a2adfca5ef9a9216ff0f2daa21edaac8c2c87a",
+      "bytes": 13389,
+      "sha256": "2cad3c6381d5a3b6f5a2574cced9a1f8f03db59ad3f8e6f3e85acbeccd9e2535",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2483,8 +2483,8 @@
     {
       "activityId": "new-ali-science-019",
       "path": "question-art/new-ali-science-019.png",
-      "bytes": 20838,
-      "sha256": "5991645cb079ca2d8dc13d7c1de84685a22df39d8c69e57befb12fd6aba991d5",
+      "bytes": 19064,
+      "sha256": "93cd19efbb2f5a58aeee7ddd399a83ed3b9d2ee0ceffb0c32781a8f9335ac964",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2492,8 +2492,8 @@
     {
       "activityId": "new-ali-science-020",
       "path": "question-art/new-ali-science-020.png",
-      "bytes": 18499,
-      "sha256": "7c39500da5458e86d6c32f5011db0d64c60eae27a214be3e4fac4abd88618def",
+      "bytes": 16488,
+      "sha256": "2cd5e89c0b9acc483fb9ea6fd7f129944106ca6fcb1ff8ede0f81d048aa4b868",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2501,8 +2501,8 @@
     {
       "activityId": "new-ali-science-021",
       "path": "question-art/new-ali-science-021.png",
-      "bytes": 20753,
-      "sha256": "29d5669c1fb426097c60cf29fc1b0a43f3cdb66d7b981f48453bc3f253bda733",
+      "bytes": 18914,
+      "sha256": "23b346e4888e52ce93af3c983013bdc52419f6d8c2bc5b052c88d7bc69897343",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2510,8 +2510,8 @@
     {
       "activityId": "new-ali-science-022",
       "path": "question-art/new-ali-science-022.png",
-      "bytes": 18168,
-      "sha256": "fcadc53186fca0403854ef962a6b0989781cecdce78a7a6eaaad82b139402233",
+      "bytes": 16212,
+      "sha256": "f820c3065785d8429a357c22955f25f560feb6bae4750edf94f56391a9af4ff1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2519,8 +2519,8 @@
     {
       "activityId": "new-ali-science-023",
       "path": "question-art/new-ali-science-023.png",
-      "bytes": 18327,
-      "sha256": "2d0660cbc59321393112da8beada03673c57fa6adf10e61783d8b41638fb5952",
+      "bytes": 16488,
+      "sha256": "e9ce8d55d005a896e956c275033e5c4ca7479e31d47722718b66b2d6b2b9abe9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2528,8 +2528,8 @@
     {
       "activityId": "new-ali-science-024",
       "path": "question-art/new-ali-science-024.png",
-      "bytes": 10780,
-      "sha256": "df1735a173ac3937221a6560067be05c2a5927a1d2b2aa285da40c1cbdede233",
+      "bytes": 8619,
+      "sha256": "d30e75d4789537366b391fdb310c59e60fc7656298877374a3d77b58a5fd767a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
@@ -2537,8 +2537,8 @@
     {
       "activityId": "new-ali-science-025",
       "path": "question-art/new-ali-science-025.png",
-      "bytes": 20495,
-      "sha256": "a7fea142bf8c4a88631249361b15b4dc194d120b970842fe06079f8bc20c9dbc",
+      "bytes": 18690,
+      "sha256": "fc2c4cca20c9d5f577c94077f4630fd97095032b29291923f032c923ee12fa99",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science"
