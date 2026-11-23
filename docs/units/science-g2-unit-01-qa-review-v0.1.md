@@ -152,3 +152,12 @@ The item tags in the tables are an authoring recommendation. A lesson delivery s
 - [ ] Content status changed to APPROVED only after all checks pass.
 
 **Disposition:** Original v0.1 questions should not be imported unchanged. This revised set is a stronger candidate, but remains DRAFT pending independent review and implementation support.
+
+
+## Integration status — 23 November 2026
+
+- The revised 32-item candidate set is now integrated into `aas2-grade2-foundation` as schema-v4 content, organised into four lessons (8 activities per lesson).
+- All 32 activities have three unique options, one correct key, complete option rationales, misconception codes, assessment phases, and unique local prompt-image paths.
+- Automated audit found no duplicate prompts, no Arabic child text, no missing rationales, and a balanced answer-key distribution (A=10, B=10, C=12).
+- Each prompt illustration is generated from the extracted Visual Learning Engine v1.6.0; all 32 science image hashes are unique. The full app now has 52 unique prompt images across both learner paths.
+- This confirms integration and automated structural checks only. Independent subject/pedagogy review and on-device visual/audio QA remain open. Macmillan source rights remain REFERENCE_ONLY; no protected textbook text or artwork is included.
