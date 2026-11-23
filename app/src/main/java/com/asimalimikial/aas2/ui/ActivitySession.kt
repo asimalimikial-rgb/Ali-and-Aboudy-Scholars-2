@@ -52,6 +52,12 @@ fun ActivitySession(
             isSubmitting = isSubmitting,
             submissionError = submissionError,
             modifier = modifier,
+            onRetry = {
+                if (!isSubmitting) {
+                    evaluation = null
+                    submissionError = null
+                }
+            },
             onSubmitAnswer = { selectedOptionId ->
                 if (!isSubmitting && evaluation == null) {
                     isSubmitting = true
