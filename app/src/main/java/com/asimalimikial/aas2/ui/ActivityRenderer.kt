@@ -33,6 +33,7 @@ fun ActivityRenderer(
     activity: ActivityDefinition,
     evaluation: ActivityEvaluationResult?,
     onSubmitAnswer: (String) -> Unit,
+    onRetry: () -> Unit,
     modifier: Modifier = Modifier,
     isSubmitting: Boolean = false,
     submissionError: String? = null
@@ -99,8 +100,19 @@ fun ActivityRenderer(
                         currentEvaluation.feedback,
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (currentEvaluation.isCorrect) MaterialTheme.colorScheme.primary
-                        else MaterialTheme.colorScheme.error
+                        else MaterialTheme.colorScheme.onSurfaceVariant
                     )
+                    if (!currentEvaluation.isCorrect) {
+                        OutlinedButton(
+                            modifier = Modifier.fillMaxWidth(),
+                            onClick = {
+                                selectedOptionId = null
+                                onRetry()
+                            }
+                        ) {
+                            Text(stringResource(R.string.activity_try_again))
+                        }
+                    }
                 }
             }
         }
