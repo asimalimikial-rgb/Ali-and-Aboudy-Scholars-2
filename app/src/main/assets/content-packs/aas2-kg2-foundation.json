@@ -279,6 +279,106 @@
       "feedbackCorrect": "صحيح! كلمة سمكة تبدأ بحرف س.",
       "feedbackIncorrect": "انطق الكلمات ببطء واستمع إلى الصوت الأول.",
       "difficulty": 2
+    },
+    {
+      "activityId": "kg2-count-02-en",
+      "skillId": "counting-to-five",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many stars can you count?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "You counted four stars!",
+      "feedbackIncorrect": "Touch each star once as you count.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-shape-02-en",
+      "skillId": "common-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which shape has four equal sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Circle"
+        },
+        {
+          "optionId": "b",
+          "text": "Triangle"
+        },
+        {
+          "optionId": "c",
+          "text": "Square"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "That's right! A square has four equal sides.",
+      "feedbackIncorrect": "Look for the shape with four sides of the same length.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "kg2-plant-02-en",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What should Ali give a thirsty plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water"
+        },
+        {
+          "optionId": "b",
+          "text": "A toy"
+        },
+        {
+          "optionId": "c",
+          "text": "A shoe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Yes! Plants need water to grow.",
+      "feedbackIncorrect": "Think about what roots take in from the soil.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "kg2-sound-02-en",
+      "skillId": "initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the /m/ sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sun"
+        },
+        {
+          "optionId": "b",
+          "text": "moon"
+        },
+        {
+          "optionId": "c",
+          "text": "fish"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Moon begins with the /m/ sound.",
+      "feedbackIncorrect": "Say each word slowly. Listen for /m/ at the beginning.",
+      "difficulty": 2
     }
   ]
 }
