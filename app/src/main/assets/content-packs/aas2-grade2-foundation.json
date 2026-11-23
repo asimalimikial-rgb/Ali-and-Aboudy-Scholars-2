@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -322,6 +322,116 @@
       "observableOutcome": "Recognizes basic concepts about living things, materials and the Earth.",
       "sourceReferenceIds": [
         "AAS2-ORIGINAL-AUTHORED",
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-00",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies animals as living things using observable evidence.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-05",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Matches familiar young animals with adults and recognises that young animals can change as they grow.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-06",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies suitable habitats by matching animal needs with available food, water and shelter.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-02",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Classifies familiar animals as vertebrates or invertebrates using the presence of a backbone.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies adult insects using six legs and three main body regions, while distinguishing spiders.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-03",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Sequences and compares familiar animal life-cycle stages.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-AN-04",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Explains how predator-prey relationships and observable adaptations can help animals survive.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Observes and identifies relevant visible features of familiar living things.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-05",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Classifies familiar animals using a stated scientific rule and explains the grouping.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-06",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Sequences stages in a life cycle using evidence from the activity.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-08",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Explains how an observable body feature can help an animal in a stated habitat.",
+      "sourceReferenceIds": [
         "MACMILLAN-SCIENCE-L2",
         "NGSS-G2-2013"
       ]
@@ -4547,6 +4657,1086 @@
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/new-aboudy-science-025.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q01-en",
+      "skillId": "SCI-G2-AN-00",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which one is a living animal?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A toy fish"
+        },
+        {
+          "optionId": "b",
+          "text": "A wooden bird model"
+        },
+        {
+          "optionId": "c",
+          "text": "A real fish in water"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U02-L1-M01",
+      "optionRationales": {
+        "a": "A toy does not grow or need food and water",
+        "b": "A wooden model is not alive",
+        "c": "A real fish is a living animal"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q02-en",
+      "skillId": "SCI-G2-AN-00",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is evidence that an animal is living?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It needs food and grows"
+        },
+        {
+          "optionId": "b",
+          "text": "It has a painted eye"
+        },
+        {
+          "optionId": "c",
+          "text": "It is made of plastic"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L1-M02",
+      "optionRationales": {
+        "a": "Food needs and growth are evidence of life",
+        "b": "Painted appearance is not life",
+        "c": "Plastic models are not living"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q03-en",
+      "skillId": "SCI-G2-AN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a young cat called?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A calf"
+        },
+        {
+          "optionId": "b",
+          "text": "A kitten"
+        },
+        {
+          "optionId": "c",
+          "text": "A chick"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L1-M03",
+      "optionRationales": {
+        "a": "A calf is a young cow",
+        "b": "A kitten is a young cat",
+        "c": "A chick is a young bird"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q04-en",
+      "skillId": "SCI-G2-AN-06",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which habitat can meet a fish's basic need for water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A dry sandy path"
+        },
+        {
+          "optionId": "b",
+          "text": "A tree branch"
+        },
+        {
+          "optionId": "c",
+          "text": "A pond"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L1-M04",
+      "optionRationales": {
+        "a": "A dry path does not provide water",
+        "b": "A branch is not an aquatic habitat",
+        "c": "A pond provides water"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q05-en",
+      "skillId": "SCI-G2-AN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A tadpole grows into a frog. What does this show?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Some young animals change in shape as they grow"
+        },
+        {
+          "optionId": "b",
+          "text": "All young animals look exactly like adults"
+        },
+        {
+          "optionId": "c",
+          "text": "A frog is not an animal when it is young"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L1-M05",
+      "optionRationales": {
+        "a": "Some life cycles include major changes in body form",
+        "b": "Many young animals do not look exactly like adults",
+        "c": "A tadpole is an animal"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l1-q06-en",
+      "skillId": "SCI-G2-AN-06",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does a suitable habitat provide?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Only a place to hide"
+        },
+        {
+          "optionId": "b",
+          "text": "Things an animal needs, such as food, water and shelter"
+        },
+        {
+          "optionId": "c",
+          "text": "The same food for every animal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L1",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L1-M06",
+      "optionRationales": {
+        "a": "Shelter alone is not enough",
+        "b": "Habitats provide several needs",
+        "c": "Different animals have different diets"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q01-en",
+      "skillId": "SCI-G2-AN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does a vertebrate have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Six legs"
+        },
+        {
+          "optionId": "b",
+          "text": "A backbone"
+        },
+        {
+          "optionId": "c",
+          "text": "Wings"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U02-L2-M01",
+      "optionRationales": {
+        "a": "Leg number is not the defining feature",
+        "b": "Vertebrates have a backbone",
+        "c": "Wings are not the grouping rule"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q02-en",
+      "skillId": "SCI-G2-AN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal is a vertebrate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A snail"
+        },
+        {
+          "optionId": "b",
+          "text": "An earthworm"
+        },
+        {
+          "optionId": "c",
+          "text": "A frog"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L2-M02",
+      "optionRationales": {
+        "a": "A snail is an invertebrate",
+        "b": "An earthworm is an invertebrate",
+        "c": "A frog has a backbone"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q03-en",
+      "skillId": "SCI-G2-AN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal is an invertebrate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A butterfly"
+        },
+        {
+          "optionId": "b",
+          "text": "A cat"
+        },
+        {
+          "optionId": "c",
+          "text": "A fish"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L2-M03",
+      "optionRationales": {
+        "a": "A butterfly has no backbone",
+        "b": "A cat is a vertebrate",
+        "c": "A fish is a vertebrate"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q04-en",
+      "skillId": "SCI-G2-ENQ-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which feature is used in this animal grouping?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Where the animal lives"
+        },
+        {
+          "optionId": "b",
+          "text": "Whether it has a backbone"
+        },
+        {
+          "optionId": "c",
+          "text": "How fast it moves"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L2-M04",
+      "optionRationales": {
+        "a": "Habitat is not the stated rule",
+        "b": "The backbone is the classification feature",
+        "c": "Speed is not the stated rule"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q05-en",
+      "skillId": "SCI-G2-AN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A large octopus has no backbone. Which group does it belong to?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Vertebrates"
+        },
+        {
+          "optionId": "b",
+          "text": "Mammals"
+        },
+        {
+          "optionId": "c",
+          "text": "Invertebrates"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L2-M05",
+      "optionRationales": {
+        "a": "Vertebrates have a backbone",
+        "b": "Octopuses are not mammals",
+        "c": "An octopus is an invertebrate"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l2-q06-en",
+      "skillId": "SCI-G2-AN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A spider has eight legs and no backbone. Which statement is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It is an invertebrate, but it is not an insect"
+        },
+        {
+          "optionId": "b",
+          "text": "It is an insect because it is small"
+        },
+        {
+          "optionId": "c",
+          "text": "It is a vertebrate because it has legs"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L2",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L2-M06",
+      "optionRationales": {
+        "a": "Spiders are invertebrates but are not insects",
+        "b": "Small size does not make an animal an insect",
+        "c": "Having legs does not mean an animal has a backbone"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q01-en",
+      "skillId": "SCI-G2-AN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many legs does an adult insect have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Eight"
+        },
+        {
+          "optionId": "b",
+          "text": "Six"
+        },
+        {
+          "optionId": "c",
+          "text": "Ten"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U02-L3-M01",
+      "optionRationales": {
+        "a": "Eight legs are typical of spiders",
+        "b": "Adult insects have six legs",
+        "c": "Ten is not the insect body-plan count"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q02-en",
+      "skillId": "SCI-G2-AN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body regions are found in an insect?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Head, thorax and abdomen"
+        },
+        {
+          "optionId": "b",
+          "text": "Head, neck and tail"
+        },
+        {
+          "optionId": "c",
+          "text": "Shell, fin and tail"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L3-M02",
+      "optionRationales": {
+        "a": "These are the three main insect body regions",
+        "b": "These are not the insect body regions",
+        "c": "These features describe other body plans"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q03-en",
+      "skillId": "SCI-G2-AN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal is an insect?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A spider"
+        },
+        {
+          "optionId": "b",
+          "text": "An earthworm"
+        },
+        {
+          "optionId": "c",
+          "text": "A butterfly"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L3-M03",
+      "optionRationales": {
+        "a": "A spider is an arachnid, not an insect",
+        "b": "An earthworm is not an insect",
+        "c": "A butterfly is an insect"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q04-en",
+      "skillId": "SCI-G2-AN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about insect wings is accurate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Every insect has two pairs of wings"
+        },
+        {
+          "optionId": "b",
+          "text": "Many adult insects have wings, but some do not"
+        },
+        {
+          "optionId": "c",
+          "text": "Wings are the same as six legs"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L3-M04",
+      "optionRationales": {
+        "a": "Not every insect has two pairs of wings",
+        "b": "Some adult insects are wingless",
+        "c": "Wings are not legs"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q05-en",
+      "skillId": "SCI-G2-AN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You see a bee visiting a flower. How may the bee help the plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It may carry pollen between flowers"
+        },
+        {
+          "optionId": "b",
+          "text": "It turns the flower into an animal"
+        },
+        {
+          "optionId": "c",
+          "text": "It gives the plant its roots"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L3-M05",
+      "optionRationales": {
+        "a": "Bees can transfer pollen between flowers",
+        "b": "Flowers do not become animals",
+        "c": "Roots are plant structures, not given by bees"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l3-q06-en",
+      "skillId": "SCI-G2-ENQ-09",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You find an unfamiliar insect near a nest. What is the safest action?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pick it up to count its legs"
+        },
+        {
+          "optionId": "b",
+          "text": "Shake the nest to see what happens"
+        },
+        {
+          "optionId": "c",
+          "text": "Watch from a safe distance and tell an adult"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L3",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L3-M06",
+      "optionRationales": {
+        "a": "Unknown insects should not be handled",
+        "b": "Disturbing a nest is unsafe",
+        "c": "Observing from a safe distance is safer"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q01-en",
+      "skillId": "SCI-G2-AN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does a life cycle show?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Only where an animal sleeps"
+        },
+        {
+          "optionId": "b",
+          "text": "Only what an animal eats"
+        },
+        {
+          "optionId": "c",
+          "text": "How a living thing grows and changes through stages"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U02-L4-M01",
+      "optionRationales": {
+        "a": "Sleeping place is not a life cycle",
+        "b": "Food alone is not a life cycle",
+        "c": "A life cycle shows stages of growth and change"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q02-en",
+      "skillId": "SCI-G2-AN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which stage comes after the caterpillar in a butterfly life cycle?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pupa (chrysalis)"
+        },
+        {
+          "optionId": "b",
+          "text": "Tadpole"
+        },
+        {
+          "optionId": "c",
+          "text": "Chick"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L4-M02",
+      "optionRationales": {
+        "a": "The caterpillar changes into a pupa",
+        "b": "A tadpole belongs to a frog life cycle",
+        "c": "A chick belongs to a chicken life cycle"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q03-en",
+      "skillId": "SCI-G2-AN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which order is correct for a frog?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Adult frog → egg → tadpole"
+        },
+        {
+          "optionId": "b",
+          "text": "Egg → tadpole → froglet → adult frog"
+        },
+        {
+          "optionId": "c",
+          "text": "Chick → froglet → egg"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L4-M03",
+      "optionRationales": {
+        "a": "This order is not the frog's growth sequence",
+        "b": "This is the familiar frog life-cycle order",
+        "c": "A chick belongs to a chicken life cycle"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q04-en",
+      "skillId": "SCI-G2-AN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What hatches from a chicken egg?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A tadpole"
+        },
+        {
+          "optionId": "b",
+          "text": "A caterpillar"
+        },
+        {
+          "optionId": "c",
+          "text": "A chick"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L4-M04",
+      "optionRationales": {
+        "a": "A tadpole is a frog stage",
+        "b": "A caterpillar is a butterfly stage",
+        "c": "A chick hatches from a chicken egg"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q05-en",
+      "skillId": "SCI-G2-AN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement compares butterfly and chicken life cycles correctly?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A butterfly has a pupa stage; a chicken does not"
+        },
+        {
+          "optionId": "b",
+          "text": "Both have a tadpole stage"
+        },
+        {
+          "optionId": "c",
+          "text": "A chicken becomes a butterfly"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L4-M05",
+      "optionRationales": {
+        "a": "A butterfly has a pupa stage; chickens do not",
+        "b": "Tadpoles are frog stages",
+        "c": "A chicken does not change into a butterfly"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l4-q06-en",
+      "skillId": "SCI-G2-ENQ-06",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why do scientists put life-cycle pictures in order?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "To make the pictures look colourful"
+        },
+        {
+          "optionId": "b",
+          "text": "To show the order in which stages happen"
+        },
+        {
+          "optionId": "c",
+          "text": "To show which animal is strongest"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L4",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L4-M06",
+      "optionRationales": {
+        "a": "Colour is not the purpose of sequencing",
+        "b": "Ordering shows the sequence of stages",
+        "c": "Strength is not the purpose of a life-cycle sequence"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q01-en",
+      "skillId": "SCI-G2-AN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a predator?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "An animal that hunts another animal for food"
+        },
+        {
+          "optionId": "b",
+          "text": "A plant that makes seeds"
+        },
+        {
+          "optionId": "c",
+          "text": "An animal that never eats"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U02-L5-M01",
+      "optionRationales": {
+        "a": "A predator hunts another animal for food",
+        "b": "A plant is not a predator",
+        "c": "A predator feeds; it does not never eat"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q02-en",
+      "skillId": "SCI-G2-AN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In a simple example, a fox hunts a rabbit. Which animal is the prey?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The fox"
+        },
+        {
+          "optionId": "b",
+          "text": "The rabbit"
+        },
+        {
+          "optionId": "c",
+          "text": "Both are plants"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U02-L5-M02",
+      "optionRationales": {
+        "a": "The fox is the predator in this example",
+        "b": "The rabbit is being hunted, so it is prey",
+        "c": "Neither animal is a plant"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q03-en",
+      "skillId": "SCI-G2-AN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can camouflage help a stick insect?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It makes the insect able to breathe underwater"
+        },
+        {
+          "optionId": "b",
+          "text": "It gives the insect more legs"
+        },
+        {
+          "optionId": "c",
+          "text": "It can help the insect blend in among branches"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good effort. Try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L5-M03",
+      "optionRationales": {
+        "a": "Camouflage is not an underwater breathing feature",
+        "b": "Camouflage does not add legs",
+        "c": "Matching the surroundings can make it harder to see"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q04-en",
+      "skillId": "SCI-G2-ENQ-08",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A white animal is difficult to see on snow but easy to see on dark soil. What does this show?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Camouflage works equally well everywhere"
+        },
+        {
+          "optionId": "b",
+          "text": "Camouflage is useful when it matches the surroundings"
+        },
+        {
+          "optionId": "c",
+          "text": "Colour never affects how visible an animal is"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U02-L5-M04",
+      "optionRationales": {
+        "a": "Camouflage depends on the surroundings",
+        "b": "Matching surroundings can reduce visibility",
+        "c": "Colour can affect how visible an animal is"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q05-en",
+      "skillId": "SCI-G2-AN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How do a duck's webbed feet help it?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "They help it push against water when swimming"
+        },
+        {
+          "optionId": "b",
+          "text": "They help it fly without wings"
+        },
+        {
+          "optionId": "c",
+          "text": "They store food for winter"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L5-M05",
+      "optionRationales": {
+        "a": "Webbed feet help a duck push against water",
+        "b": "Webbed feet do not replace wings",
+        "c": "Webbed feet are not food stores"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u02-l5-q06-en",
+      "skillId": "SCI-G2-AN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is stored in a camel's hump?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A large tank of water"
+        },
+        {
+          "optionId": "b",
+          "text": "Air for breathing"
+        },
+        {
+          "optionId": "c",
+          "text": "Fat that can be used for energy"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Have another go!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U02",
+      "lessonId": "SCI-G2-U02-L5",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U02-L5-M06",
+      "optionRationales": {
+        "a": "A camel's hump does not store a tank of water",
+        "b": "The hump is not an air store",
+        "c": "The hump stores fat that can be used for energy"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q06-en.png"
     }
   ],
   "books": [
@@ -4571,6 +5761,19 @@
         "SCI-G2-U01-L2",
         "SCI-G2-U01-L3",
         "SCI-G2-U01-L4"
+      ]
+    },
+    {
+      "unitId": "SCI-G2-U02",
+      "bookId": "macmillan-science-level2",
+      "title": "Animals and Survival",
+      "sequence": 2,
+      "lessonIds": [
+        "SCI-G2-U02-L1",
+        "SCI-G2-U02-L2",
+        "SCI-G2-U02-L3",
+        "SCI-G2-U02-L4",
+        "SCI-G2-U02-L5"
       ]
     }
   ],
@@ -4613,6 +5816,64 @@
       "skillIds": [
         "SCI-G2-PL-04",
         "SCI-G2-ENQ-07"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U02-L1",
+      "unitId": "SCI-G2-U02",
+      "title": "What Makes an Animal Living?",
+      "sequence": 1,
+      "skillIds": [
+        "SCI-G2-AN-00",
+        "SCI-G2-AN-05",
+        "SCI-G2-AN-06",
+        "SCI-G2-ENQ-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U02-L2",
+      "unitId": "SCI-G2-U02",
+      "title": "Different Kinds of Animals",
+      "sequence": 2,
+      "skillIds": [
+        "SCI-G2-AN-02",
+        "SCI-G2-ENQ-04",
+        "SCI-G2-ENQ-05"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U02-L3",
+      "unitId": "SCI-G2-U02",
+      "title": "Insects Around Us",
+      "sequence": 3,
+      "skillIds": [
+        "SCI-G2-AN-01",
+        "SCI-G2-ENQ-01",
+        "SCI-G2-ENQ-09"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U02-L4",
+      "unitId": "SCI-G2-U02",
+      "title": "Animal Life Cycles",
+      "sequence": 4,
+      "skillIds": [
+        "SCI-G2-AN-03",
+        "SCI-G2-AN-05",
+        "SCI-G2-ENQ-06",
+        "SCI-G2-ENQ-07"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U02-L5",
+      "unitId": "SCI-G2-U02",
+      "title": "How Animals Survive",
+      "sequence": 5,
+      "skillIds": [
+        "SCI-G2-AN-04",
+        "SCI-G2-AN-06",
+        "SCI-G2-ENQ-08",
+        "SCI-G2-ENQ-09"
       ]
     }
   ]
