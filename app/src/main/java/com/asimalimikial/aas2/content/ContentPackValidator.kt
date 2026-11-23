@@ -3,11 +3,15 @@ package com.asimalimikial.aas2.content
 import java.net.URI
 
 object ContentPackValidator {
-    // Version 3 adds a source catalog with explicit provenance and reuse metadata.
-    private const val CURRENT_SCHEMA_VERSION = 3
+    // Schema 4 adds a book → unit → lesson hierarchy and reviewed activity metadata.
+    // Schema 3 remains readable so existing learner packs and progress stay intact.
+    private val supportedSchemaVersions = setOf(3, 4)
     private val supportedLearnerPaths = setOf("KG2", "GRADE_2")
     private val supportedActivityTypes = setOf("SINGLE_CHOICE")
     private val supportedLanguages = setOf("en", "ar")
+    private val supportedAssessmentPhases = setOf(
+        "DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER", "DELAYED_REVIEW"
+    )
     private val supportedUsageRights = setOf(
         "REFERENCE_ONLY",
         "REDISTRIBUTION_ALLOWED",
@@ -20,7 +24,7 @@ object ContentPackValidator {
         val errors = buildList {
             if (pack.packId.isBlank()) add("packId must not be blank")
             if (pack.version.isBlank()) add("version must not be blank")
-            if (pack.schemaVersion != CURRENT_SCHEMA_VERSION) add("Unsupported schemaVersion: ${pack.schemaVersion}")
+            if (pack.schemaVersion !in supportedSchemaVersions) add("Unsupported schemaVersion: ${pack.schemaVersion}")
             if (pack.learnerPath !in supportedLearnerPaths) add("Unsupported learnerPath: ${pack.learnerPath}")
             if (pack.skills.isEmpty()) add("A content pack must contain at least one skill")
             if (pack.sourceReferences.isEmpty()) add("A content pack must contain at least one source reference")
@@ -32,21 +36,15 @@ object ContentPackValidator {
             pack.sourceReferences.forEachIndexed { index, source ->
                 if (source.title.isBlank()) add("Source at index $index has an empty title")
                 if (source.publisher.isBlank()) add("Source at index $index has an empty publisher")
-                if (!isValidHttpsUrl(source.url)) {
-                    add("Source at index $index must have a valid HTTPS URL")
-                }
+                if (!isValidHttpsUrl(source.url)) add("Source at index $index must have a valid HTTPS URL")
                 if (source.license.isBlank()) add("Source at index $index has no license or rights statement")
                 if (source.licenseUrl != null && !isValidHttpsUrl(source.licenseUrl)) {
                     add("Source at index $index has an invalid HTTPS license URL")
                 }
-                if (source.usageRights !in supportedUsageRights) {
-                    add("Source at index $index has unsupported usageRights")
-                }
+                if (source.usageRights !in supportedUsageRights) add("Source at index $index has unsupported usageRights")
                 if (source.usageRights in setOf("REDISTRIBUTION_ALLOWED", "ADAPTATION_ALLOWED") &&
                     source.attribution.isNullOrBlank()
-                ) {
-                    add("Source at index $index requires attribution metadata")
-                }
+                ) add("Source at index $index requires attribution metadata")
                 if (source.verifiedAt != null && !isValidIsoDate(source.verifiedAt)) {
                     add("Source at index $index verifiedAt must be a valid YYYY-MM-DD date")
                 }
@@ -67,6 +65,57 @@ object ContentPackValidator {
                 }
                 if (skill.sourceReferenceIds.any { it !in sourceIds }) {
                     add("Skill at index $index references an unknown sourceReferenceId")
+                }
+            }
+
+            if (pack.schemaVersion == 4) {
+                if (pack.books.isEmpty()) add("Schema 4 requires at least one book")
+                if (pack.units.isEmpty()) add("Schema 4 requires at least one unit")
+                if (pack.lessons.isEmpty()) add("Schema 4 requires at least one lesson")
+
+                val bookIds = pack.books.map { it.bookId }
+                val unitIds = pack.units.map { it.unitId }
+                val lessonIds = pack.lessons.map { it.lessonId }
+                if (bookIds.any(String::isBlank) || bookIds.size != bookIds.toSet().size) {
+                    add("Schema 4 book IDs must be nonblank and unique")
+                }
+                if (unitIds.any(String::isBlank) || unitIds.size != unitIds.toSet().size) {
+                    add("Schema 4 unit IDs must be nonblank and unique")
+                }
+                if (lessonIds.any(String::isBlank) || lessonIds.size != lessonIds.toSet().size) {
+                    add("Schema 4 lesson IDs must be nonblank and unique")
+                }
+
+                pack.books.forEachIndexed { index, book ->
+                    if (book.title.isBlank() || book.subject.isBlank()) add("Book at index $index has blank title or subject")
+                    if (book.learnerPath != pack.learnerPath) add("Book at index $index belongs to a different learner path")
+                    if (book.sourceReferenceIds.isEmpty() || book.sourceReferenceIds.any { it !in sourceIds }) {
+                        add("Book at index $index must reference known source IDs")
+                    }
+                }
+
+                pack.units.forEachIndexed { index, unit ->
+                    if (unit.bookId !in bookIds) add("Unit at index $index references an unknown bookId")
+                    if (unit.title.isBlank() || unit.sequence < 1) add("Unit at index $index has invalid title or sequence")
+                    if (unit.lessonIds.isEmpty() || unit.lessonIds.size != unit.lessonIds.toSet().size) {
+                        add("Unit at index $index must list unique lesson IDs")
+                    }
+                    if (unit.lessonIds.any { it !in lessonIds }) add("Unit at index $index references an unknown lessonId")
+                }
+
+                pack.lessons.forEachIndexed { index, lesson ->
+                    if (lesson.unitId !in unitIds) add("Lesson at index $index references an unknown unitId")
+                    if (lesson.title.isBlank() || lesson.sequence < 1) add("Lesson at index $index has invalid title or sequence")
+                    if (lesson.skillIds.isEmpty() || lesson.skillIds.size != lesson.skillIds.toSet().size) {
+                        add("Lesson at index $index must list unique skill IDs")
+                    }
+                    if (lesson.skillIds.any { it !in skillIds }) add("Lesson at index $index references an unknown skillId")
+                }
+                pack.units.forEachIndexed { index, unit ->
+                    val lessonsForUnit = pack.lessons.filter { it.unitId == unit.unitId }.map { it.lessonId }.toSet()
+                    if (unit.lessonIds.toSet() != lessonsForUnit) {
+                        add("Unit at index $index lessonIds must match lessons assigned to the unit")
+                    }
                 }
             }
 
@@ -91,26 +140,49 @@ object ContentPackValidator {
                 if (activity.options.any { it.text.isBlank() && it.imageAssetPath.isNullOrBlank() }) {
                     add("Activity at index $index contains an option without text or image")
                 }
-                if (activity.options.any { option ->
-                        val path = option.imageAssetPath
-                        path != null && (
-                            path.isBlank() ||
-                                path.startsWith("/") ||
-                                path.contains('\\') ||
-                                path.contains("://") ||
-                                path.split("/").any { it == ".." }
-                            )
-                    }
-                ) {
+                if (activity.options.any { it.imageAssetPath != null && !isSafeAssetPath(it.imageAssetPath) }) {
                     add("Activity at index $index contains an unsafe image asset path")
+                }
+                if (activity.promptImageAssetPath != null && !isSafeAssetPath(activity.promptImageAssetPath)) {
+                    add("Activity at index $index contains an unsafe prompt image asset path")
                 }
                 if (optionIds.count { it == activity.correctOptionId } != 1) {
                     add("Activity at index $index must identify exactly one correct option")
+                }
+
+                val hasBookMetadata = activity.bookId != null || activity.unitId != null || activity.lessonId != null
+                if (hasBookMetadata) {
+                    if (activity.bookId !in pack.books.map { it.bookId }) add("Activity at index $index references an unknown bookId")
+                    val unit = pack.units.singleOrNull { it.unitId == activity.unitId }
+                    val lesson = pack.lessons.singleOrNull { it.lessonId == activity.lessonId }
+                    if (unit == null) add("Activity at index $index references an unknown unitId")
+                    if (lesson == null) add("Activity at index $index references an unknown lessonId")
+                    if (unit != null && unit.bookId != activity.bookId) add("Activity at index $index bookId does not match its unit")
+                    if (lesson != null && lesson.unitId != activity.unitId) add("Activity at index $index unitId does not match its lesson")
+                    if (lesson != null && activity.skillId !in lesson.skillIds) {
+                        add("Activity at index $index skillId is not assigned to its lesson")
+                    }
+                    if (activity.assessmentPhase !in supportedAssessmentPhases) {
+                        add("Activity at index $index has an unsupported or missing assessmentPhase")
+                    }
+                    if (activity.misconceptionCode.isNullOrBlank()) add("Activity at index $index has no misconceptionCode")
+                    if (activity.promptImageAssetPath.isNullOrBlank()) add("Activity at index $index has no unique prompt image")
+                    if (activity.optionRationales.keys != optionIds.toSet() ||
+                        activity.optionRationales.values.any(String::isBlank)
+                    ) add("Activity at index $index must have one nonblank rationale for each option")
                 }
             }
         }
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
+
+    private fun isSafeAssetPath(path: String): Boolean =
+        path.isNotBlank() &&
+            !path.startsWith("/") &&
+            !path.contains('\\') &&
+            !path.contains("://") &&
+            path.split("/").none { it == ".." }
+
     private fun isValidHttpsUrl(value: String): Boolean {
         val uri = runCatching { URI(value) }.getOrNull() ?: return false
         return uri.scheme.equals("https", ignoreCase = true) &&
@@ -137,5 +209,4 @@ object ContentPackValidator {
         }
         return day in 1..daysInMonth
     }
-
 }
