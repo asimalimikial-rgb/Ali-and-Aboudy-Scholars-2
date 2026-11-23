@@ -58,4 +58,5 @@
     <string name="parent_gate_description">أكد قفل شاشة الجهاز لفتح لوحة ولي الأمر.</string>
     <string name="parent_gate_setup_title">قفل الجهاز مطلوب</string>
     <string name="parent_gate_setup_message">اضبط رقم PIN أو كلمة مرور أو نمطاً لقفل شاشة Android قبل فتح لوحة ولي الأمر. تظل الأنشطة التعليمية متاحة دون هذا الإعداد.</string>
+    <string name="picture_answer_option">خيار بصورة</string>
 </resources>
