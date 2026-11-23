@@ -34,7 +34,6 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
-import com.asimalimikial.aas2.content.AnswerOption
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
