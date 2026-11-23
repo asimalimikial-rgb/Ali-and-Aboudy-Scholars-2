@@ -48,6 +48,20 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 - The dashboard closes automatically when the app leaves the foreground.
 - No external navigation or network permission was added.
 
+### 6. Optional offline answer illustrations
+
+- The Compose answer renderer can load optional raster files from validated app asset paths.
+- Decoding runs on the IO dispatcher and downsamples large images before display.
+- Missing, corrupt, or unsupported images are omitted safely; the option text remains available.
+- The current v0.2.0 pilot packs do not yet reference image assets, so this is renderer capability rather than bundled illustration coverage.
+
+### 7. Expanded original English pilot content
+
+- Both content packs are now at content version 0.2.0 while retaining schema v3.
+- Ali KG2 has 8 original English activities across 4 skills; Aboudy Grade 2 has 12 original English activities across 6 skills.
+- Legacy Arabic activity records remain in the files but are not surfaced by the child runtime.
+- The new content QA report records the corrected KG2 counting stimulus, English-only initial-sounds outcome, and Grade 2 centimetre-comparison item: [Foundation Pilot Content QA v0.2](units/foundation-pilot-content-qa-v0.2.md).
+
 ## Acceptance coverage in this slice
 
 | Requirement | Implementation evidence | Validation |
@@ -73,7 +87,7 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 
 - No edits to the old/legacy repository.
 - No merge to `main`.
-- No JSON pack rewrite or content expansion.
+- Content packs were updated to version 0.2.0 with original English activities; schema v3 remains unchanged. No Room/Schema v4 migration was introduced.
 - No schema v4, Room migration, Manifest permission, or Gradle dependency change.
 - No APK, Release, or artifact upload.
 - No copyrighted textbook pages, questions, images, or scans copied into the app.
