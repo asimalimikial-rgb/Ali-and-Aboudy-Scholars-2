@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -36,6 +36,17 @@
       "attribution": "Simpkins, Grace; Irving, Michael (2020). Plant and Animal Habitats (Science Grade 2 Lesson Plan/Activity), WHOI-E-20-003. Public Domain (NOAA Institutional Repository). Adapted for AAS2.",
       "usageRights": "ADAPTATION_ALLOWED",
       "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "AAS2-ORIGINAL-AUTHORED",
+      "title": "AAS2 original authored question set — 200 activities",
+      "publisher": "Ali & Aboudy Scholars 2 project",
+      "url": "https://github.com/asimalimikial-rgb/Ali-andd-aboudy-scholars/blob/main/content/question-bank/README.md",
+      "license": "Original project-authored activity prompts; no protected textbook text or third-party illustrations are intentionally reproduced. Redistribution rights remain subject to project-owner review.",
+      "licenseUrl": null,
+      "attribution": "Original AAS2-authored educational content migrated from the legacy project.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-23"
     }
   ],
   "skills": [
@@ -76,6 +87,86 @@
       "sourceReferenceIds": [
         "QCAA-QKLG-2024",
         "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-initial-sounds",
+      "learnerPath": "KG2",
+      "domain": "English",
+      "observableOutcome": "Identifies the first sound in familiar spoken English words.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-rhyming-words",
+      "learnerPath": "KG2",
+      "domain": "English",
+      "observableOutcome": "Recognizes familiar words that share the same ending sound.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "learnerPath": "KG2",
+      "domain": "English",
+      "observableOutcome": "Understands and selects familiar English words in everyday contexts.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-counting-pictures",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Counts pictured objects accurately using one-to-one correspondence.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-number-patterns",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognizes and continues simple number and visual patterns.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Solves simple joining and separating problems using quantities.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-shapes",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognizes common two-dimensional shapes and their visible properties.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-my-world-discovery",
+      "learnerPath": "KG2",
+      "domain": "Science",
+      "observableOutcome": "Identifies age-appropriate facts about familiar living things and the surrounding world.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "QCAA-QKLG-2024"
       ]
     }
   ],
@@ -396,6 +487,2606 @@
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/kg2-sound-02-en.png"
+    },
+    {
+      "activityId": "new-ali-english-001",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /b/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "ball"
+        },
+        {
+          "optionId": "b",
+          "text": "moon"
+        },
+        {
+          "optionId": "c",
+          "text": "sun"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-001.png"
+    },
+    {
+      "activityId": "new-ali-english-002",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /m/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "moon"
+        },
+        {
+          "optionId": "b",
+          "text": "fish"
+        },
+        {
+          "optionId": "c",
+          "text": "dog"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-002.png"
+    },
+    {
+      "activityId": "new-ali-english-003",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /s/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sun"
+        },
+        {
+          "optionId": "b",
+          "text": "cat"
+        },
+        {
+          "optionId": "c",
+          "text": "bed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-003.png"
+    },
+    {
+      "activityId": "new-ali-english-004",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /f/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "fish"
+        },
+        {
+          "optionId": "b",
+          "text": "van"
+        },
+        {
+          "optionId": "c",
+          "text": "pig"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-004.png"
+    },
+    {
+      "activityId": "new-ali-english-005",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /t/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "top"
+        },
+        {
+          "optionId": "b",
+          "text": "hen"
+        },
+        {
+          "optionId": "c",
+          "text": "jam"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-005.png"
+    },
+    {
+      "activityId": "new-ali-english-006",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /r/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rain"
+        },
+        {
+          "optionId": "b",
+          "text": "cup"
+        },
+        {
+          "optionId": "c",
+          "text": "fox"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-006.png"
+    },
+    {
+      "activityId": "new-ali-english-007",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /p/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "pen"
+        },
+        {
+          "optionId": "b",
+          "text": "dog"
+        },
+        {
+          "optionId": "c",
+          "text": "leaf"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-007.png"
+    },
+    {
+      "activityId": "new-ali-english-008",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /d/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "duck"
+        },
+        {
+          "optionId": "b",
+          "text": "sun"
+        },
+        {
+          "optionId": "c",
+          "text": "hat"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-008.png"
+    },
+    {
+      "activityId": "new-ali-english-009",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /g/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "goat"
+        },
+        {
+          "optionId": "b",
+          "text": "map"
+        },
+        {
+          "optionId": "c",
+          "text": "sit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-009.png"
+    },
+    {
+      "activityId": "new-ali-english-010",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /h/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hat"
+        },
+        {
+          "optionId": "b",
+          "text": "leg"
+        },
+        {
+          "optionId": "c",
+          "text": "box"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-010.png"
+    },
+    {
+      "activityId": "new-ali-english-011",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /l/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "leaf"
+        },
+        {
+          "optionId": "b",
+          "text": "cup"
+        },
+        {
+          "optionId": "c",
+          "text": "net"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-011.png"
+    },
+    {
+      "activityId": "new-ali-english-012",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /n/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "nest"
+        },
+        {
+          "optionId": "b",
+          "text": "pig"
+        },
+        {
+          "optionId": "c",
+          "text": "jam"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-012.png"
+    },
+    {
+      "activityId": "new-ali-english-013",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /k/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "kite"
+        },
+        {
+          "optionId": "b",
+          "text": "fish"
+        },
+        {
+          "optionId": "c",
+          "text": "bed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-013.png"
+    },
+    {
+      "activityId": "new-ali-english-014",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /j/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "jam"
+        },
+        {
+          "optionId": "b",
+          "text": "top"
+        },
+        {
+          "optionId": "c",
+          "text": "run"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-014.png"
+    },
+    {
+      "activityId": "new-ali-english-015",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /v/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "van"
+        },
+        {
+          "optionId": "b",
+          "text": "cup"
+        },
+        {
+          "optionId": "c",
+          "text": "hen"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-015.png"
+    },
+    {
+      "activityId": "new-ali-english-016",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /w/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "web"
+        },
+        {
+          "optionId": "b",
+          "text": "dog"
+        },
+        {
+          "optionId": "c",
+          "text": "sit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-016.png"
+    },
+    {
+      "activityId": "new-ali-english-017",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /y/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "yam"
+        },
+        {
+          "optionId": "b",
+          "text": "pen"
+        },
+        {
+          "optionId": "c",
+          "text": "fox"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-017.png"
+    },
+    {
+      "activityId": "new-ali-english-018",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with /z/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "zip"
+        },
+        {
+          "optionId": "b",
+          "text": "hat"
+        },
+        {
+          "optionId": "c",
+          "text": "map"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-018.png"
+    },
+    {
+      "activityId": "new-ali-english-019",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word ends with /t/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hat"
+        },
+        {
+          "optionId": "b",
+          "text": "hen"
+        },
+        {
+          "optionId": "c",
+          "text": "hop"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-019.png"
+    },
+    {
+      "activityId": "new-ali-english-020",
+      "skillId": "aas2-ali-initial-sounds",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word ends with /p/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "cup"
+        },
+        {
+          "optionId": "b",
+          "text": "cat"
+        },
+        {
+          "optionId": "c",
+          "text": "can"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-020.png"
+    },
+    {
+      "activityId": "new-ali-english-021",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with cat.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hat"
+        },
+        {
+          "optionId": "b",
+          "text": "sun"
+        },
+        {
+          "optionId": "c",
+          "text": "dog"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-021.png"
+    },
+    {
+      "activityId": "new-ali-english-022",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with log.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "frog"
+        },
+        {
+          "optionId": "b",
+          "text": "pen"
+        },
+        {
+          "optionId": "c",
+          "text": "cup"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-022.png"
+    },
+    {
+      "activityId": "new-ali-english-023",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with cake.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "lake"
+        },
+        {
+          "optionId": "b",
+          "text": "fish"
+        },
+        {
+          "optionId": "c",
+          "text": "bed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-023.png"
+    },
+    {
+      "activityId": "new-ali-english-024",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with bell.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "shell"
+        },
+        {
+          "optionId": "b",
+          "text": "map"
+        },
+        {
+          "optionId": "c",
+          "text": "pig"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-024.png"
+    },
+    {
+      "activityId": "new-ali-english-025",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with light.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "night"
+        },
+        {
+          "optionId": "b",
+          "text": "box"
+        },
+        {
+          "optionId": "c",
+          "text": "run"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-025.png"
+    },
+    {
+      "activityId": "new-ali-english-026",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with star.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "car"
+        },
+        {
+          "optionId": "b",
+          "text": "hen"
+        },
+        {
+          "optionId": "c",
+          "text": "top"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-026.png"
+    },
+    {
+      "activityId": "new-ali-english-027",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with bee.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "tree"
+        },
+        {
+          "optionId": "b",
+          "text": "hat"
+        },
+        {
+          "optionId": "c",
+          "text": "fox"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-027.png"
+    },
+    {
+      "activityId": "new-ali-english-028",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with moon.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "spoon"
+        },
+        {
+          "optionId": "b",
+          "text": "dog"
+        },
+        {
+          "optionId": "c",
+          "text": "jam"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-028.png"
+    },
+    {
+      "activityId": "new-ali-english-029",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with sock.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rock"
+        },
+        {
+          "optionId": "b",
+          "text": "cup"
+        },
+        {
+          "optionId": "c",
+          "text": "leaf"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-029.png"
+    },
+    {
+      "activityId": "new-ali-english-030",
+      "skillId": "aas2-ali-rhyming-words",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Pick the word that rhymes with chair.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "bear"
+        },
+        {
+          "optionId": "b",
+          "text": "sun"
+        },
+        {
+          "optionId": "c",
+          "text": "pig"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-030.png"
+    },
+    {
+      "activityId": "new-ali-english-031",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A bird builds a home in a ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "nest"
+        },
+        {
+          "optionId": "b",
+          "text": "shoe"
+        },
+        {
+          "optionId": "c",
+          "text": "cup"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-031.png"
+    },
+    {
+      "activityId": "new-ali-english-032",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A toothbrush cleans your ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "teeth"
+        },
+        {
+          "optionId": "b",
+          "text": "hands"
+        },
+        {
+          "optionId": "c",
+          "text": "shoes"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-032.png"
+    },
+    {
+      "activityId": "new-ali-english-033",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A doctor helps people who are ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sick"
+        },
+        {
+          "optionId": "b",
+          "text": "sleeping"
+        },
+        {
+          "optionId": "c",
+          "text": "swimming"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-033.png"
+    },
+    {
+      "activityId": "new-ali-english-034",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A warm coat is useful on a ___ day.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "cold"
+        },
+        {
+          "optionId": "b",
+          "text": "hot"
+        },
+        {
+          "optionId": "c",
+          "text": "dry"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-034.png"
+    },
+    {
+      "activityId": "new-ali-english-035",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A farmer grows crops on a ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "farm"
+        },
+        {
+          "optionId": "b",
+          "text": "library"
+        },
+        {
+          "optionId": "c",
+          "text": "hospital"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-035.png"
+    },
+    {
+      "activityId": "new-ali-english-036",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "We read a story in a ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "book"
+        },
+        {
+          "optionId": "b",
+          "text": "spoon"
+        },
+        {
+          "optionId": "c",
+          "text": "ball"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-036.png"
+    },
+    {
+      "activityId": "new-ali-english-037",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A fish needs ___ to live.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "water"
+        },
+        {
+          "optionId": "b",
+          "text": "sand"
+        },
+        {
+          "optionId": "c",
+          "text": "clouds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-037.png"
+    },
+    {
+      "activityId": "new-ali-english-038",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "An umbrella helps us when it ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rains"
+        },
+        {
+          "optionId": "b",
+          "text": "is sunny"
+        },
+        {
+          "optionId": "c",
+          "text": "is windy indoors"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-038.png"
+    },
+    {
+      "activityId": "new-ali-english-039",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A baker makes ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "bread"
+        },
+        {
+          "optionId": "b",
+          "text": "shoes"
+        },
+        {
+          "optionId": "c",
+          "text": "toys"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-039.png"
+    },
+    {
+      "activityId": "new-ali-english-040",
+      "skillId": "aas2-ali-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A clock helps us tell the ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "time"
+        },
+        {
+          "optionId": "b",
+          "text": "colour"
+        },
+        {
+          "optionId": "c",
+          "text": "weight"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-english-040.png"
+    },
+    {
+      "activityId": "new-ali-maths-001",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 3 apples. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-001.png"
+    },
+    {
+      "activityId": "new-ali-maths-002",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 4 stars. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "5"
+        },
+        {
+          "optionId": "c",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-002.png"
+    },
+    {
+      "activityId": "new-ali-maths-003",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 5 fish. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-003.png"
+    },
+    {
+      "activityId": "new-ali-maths-004",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 2 cars. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2"
+        },
+        {
+          "optionId": "b",
+          "text": "3"
+        },
+        {
+          "optionId": "c",
+          "text": "1"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-004.png"
+    },
+    {
+      "activityId": "new-ali-maths-005",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 6 flowers. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6"
+        },
+        {
+          "optionId": "b",
+          "text": "7"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-005.png"
+    },
+    {
+      "activityId": "new-ali-maths-006",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 7 teddy bears. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "8"
+        },
+        {
+          "optionId": "c",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-006.png"
+    },
+    {
+      "activityId": "new-ali-maths-007",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 8 balls. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-007.png"
+    },
+    {
+      "activityId": "new-ali-maths-008",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 9 bananas. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-008.png"
+    },
+    {
+      "activityId": "new-ali-maths-009",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 10 butterflies. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "10"
+        },
+        {
+          "optionId": "b",
+          "text": "11"
+        },
+        {
+          "optionId": "c",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-009.png"
+    },
+    {
+      "activityId": "new-ali-maths-010",
+      "skillId": "aas2-ali-counting-pictures",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A card shows 1 pencil. How many are shown?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1"
+        },
+        {
+          "optionId": "b",
+          "text": "2"
+        },
+        {
+          "optionId": "c",
+          "text": "0"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-010.png"
+    },
+    {
+      "activityId": "new-ali-maths-011",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 1, 2, 3, 4, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-011.png"
+    },
+    {
+      "activityId": "new-ali-maths-012",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 2, 4, 6, 8, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "10"
+        },
+        {
+          "optionId": "b",
+          "text": "11"
+        },
+        {
+          "optionId": "c",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-012.png"
+    },
+    {
+      "activityId": "new-ali-maths-013",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 5, 6, 7, 8, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-013.png"
+    },
+    {
+      "activityId": "new-ali-maths-014",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 10, 9, 8, 7, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6"
+        },
+        {
+          "optionId": "b",
+          "text": "7"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-014.png"
+    },
+    {
+      "activityId": "new-ali-maths-015",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 3, 4, 5, 6, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "8"
+        },
+        {
+          "optionId": "c",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-015.png"
+    },
+    {
+      "activityId": "new-ali-maths-016",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 0, 1, 2, 3, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "5"
+        },
+        {
+          "optionId": "c",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-016.png"
+    },
+    {
+      "activityId": "new-ali-maths-017",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 6, 7, 8, 9, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "10"
+        },
+        {
+          "optionId": "b",
+          "text": "11"
+        },
+        {
+          "optionId": "c",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-017.png"
+    },
+    {
+      "activityId": "new-ali-maths-018",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 1, 3, 5, 7, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-018.png"
+    },
+    {
+      "activityId": "new-ali-maths-019",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 4, 5, 6, 7, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-019.png"
+    },
+    {
+      "activityId": "new-ali-maths-020",
+      "skillId": "aas2-ali-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete the pattern 10, 8, 6, 4, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2"
+        },
+        {
+          "optionId": "b",
+          "text": "3"
+        },
+        {
+          "optionId": "c",
+          "text": "1"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-020.png"
+    },
+    {
+      "activityId": "new-ali-maths-021",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 2 shells. You find 1 more. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-021.png"
+    },
+    {
+      "activityId": "new-ali-maths-022",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 3 shells. You give away 2. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1"
+        },
+        {
+          "optionId": "b",
+          "text": "2"
+        },
+        {
+          "optionId": "c",
+          "text": "0"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-022.png"
+    },
+    {
+      "activityId": "new-ali-maths-023",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 4 shells. You find 1 more. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-023.png"
+    },
+    {
+      "activityId": "new-ali-maths-024",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 5 shells. You give away 2. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-024.png"
+    },
+    {
+      "activityId": "new-ali-maths-025",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 6 shells. You find 3 more. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-025.png"
+    },
+    {
+      "activityId": "new-ali-maths-026",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 7 shells. You give away 2. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-026.png"
+    },
+    {
+      "activityId": "new-ali-maths-027",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 8 shells. You find 1 more. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-027.png"
+    },
+    {
+      "activityId": "new-ali-maths-028",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 9 shells. You give away 1. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-028.png"
+    },
+    {
+      "activityId": "new-ali-maths-029",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 4 shells. You find 3 more. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "8"
+        },
+        {
+          "optionId": "c",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-029.png"
+    },
+    {
+      "activityId": "new-ali-maths-030",
+      "skillId": "aas2-ali-adding-and-taking-away",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 5 shells. You give away 4. How many now?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1"
+        },
+        {
+          "optionId": "b",
+          "text": "2"
+        },
+        {
+          "optionId": "c",
+          "text": "0"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-030.png"
+    },
+    {
+      "activityId": "new-ali-maths-031",
+      "skillId": "aas2-ali-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many straight sides does a triangle have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-031.png"
+    },
+    {
+      "activityId": "new-ali-maths-032",
+      "skillId": "aas2-ali-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many straight sides does a square have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "5"
+        },
+        {
+          "optionId": "c",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-032.png"
+    },
+    {
+      "activityId": "new-ali-maths-033",
+      "skillId": "aas2-ali-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many straight sides does a rectangle have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "5"
+        },
+        {
+          "optionId": "c",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-033.png"
+    },
+    {
+      "activityId": "new-ali-maths-034",
+      "skillId": "aas2-ali-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many straight sides does a circle have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "0"
+        },
+        {
+          "optionId": "b",
+          "text": "1"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-034.png"
+    },
+    {
+      "activityId": "new-ali-maths-035",
+      "skillId": "aas2-ali-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many straight sides does a pentagon have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-maths-035.png"
+    },
+    {
+      "activityId": "new-ali-science-001",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about plants is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Plants need water, light and air"
+        },
+        {
+          "optionId": "b",
+          "text": "Plants can grow without water"
+        },
+        {
+          "optionId": "c",
+          "text": "Plants do not need sunlight"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-001.png"
+    },
+    {
+      "activityId": "new-ali-science-002",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about roots is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Roots take in water from the soil"
+        },
+        {
+          "optionId": "b",
+          "text": "Flowers take in all the water"
+        },
+        {
+          "optionId": "c",
+          "text": "Roots make sunlight"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-002.png"
+    },
+    {
+      "activityId": "new-ali-science-003",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about seeds is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A seed can grow into a new plant"
+        },
+        {
+          "optionId": "b",
+          "text": "A seed grows into an animal"
+        },
+        {
+          "optionId": "c",
+          "text": "A seed cannot grow"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-003.png"
+    },
+    {
+      "activityId": "new-ali-science-004",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about mammals is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A goat is a mammal"
+        },
+        {
+          "optionId": "b",
+          "text": "A goat is a bird"
+        },
+        {
+          "optionId": "c",
+          "text": "A goat is a reptile"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-004.png"
+    },
+    {
+      "activityId": "new-ali-science-005",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about desert animals is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Camels are adapted to dry deserts"
+        },
+        {
+          "optionId": "b",
+          "text": "Camels live only underwater"
+        },
+        {
+          "optionId": "c",
+          "text": "Camels are adapted to icy polar habitats"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-005.png"
+    },
+    {
+      "activityId": "new-ali-science-006",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about birds is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hens have feathers"
+        },
+        {
+          "optionId": "b",
+          "text": "Hens have scales"
+        },
+        {
+          "optionId": "c",
+          "text": "Hens have fur"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-006.png"
+    },
+    {
+      "activityId": "new-ali-science-007",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about hearing is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ears help us hear sounds"
+        },
+        {
+          "optionId": "b",
+          "text": "Eyes help us hear sounds"
+        },
+        {
+          "optionId": "c",
+          "text": "Hands help us hear sounds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-007.png"
+    },
+    {
+      "activityId": "new-ali-science-008",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about smell is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The nose helps us smell"
+        },
+        {
+          "optionId": "b",
+          "text": "Ears help us smell"
+        },
+        {
+          "optionId": "c",
+          "text": "Feet help us smell"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-008.png"
+    },
+    {
+      "activityId": "new-ali-science-009",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about taste is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The tongue helps us taste food"
+        },
+        {
+          "optionId": "b",
+          "text": "Ears help us taste food"
+        },
+        {
+          "optionId": "c",
+          "text": "Skin helps us taste food"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-009.png"
+    },
+    {
+      "activityId": "new-ali-science-010",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about hygiene is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Washing hands with soap helps remove germs"
+        },
+        {
+          "optionId": "b",
+          "text": "Soap makes germs grow on hands"
+        },
+        {
+          "optionId": "c",
+          "text": "Dry hands remove all germs"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-010.png"
+    },
+    {
+      "activityId": "new-ali-science-011",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about clouds is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Dark clouds can be a sign of rain"
+        },
+        {
+          "optionId": "b",
+          "text": "Dark clouds are made of smoke"
+        },
+        {
+          "optionId": "c",
+          "text": "Dark clouds always mean snow"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-011.png"
+    },
+    {
+      "activityId": "new-ali-science-012",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about wind is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Wind can make a kite fly"
+        },
+        {
+          "optionId": "b",
+          "text": "Still air makes a kite fly high"
+        },
+        {
+          "optionId": "c",
+          "text": "Rain lifts a kite into the sky"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-012.png"
+    },
+    {
+      "activityId": "new-ali-science-013",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about daylight is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Sun gives Earth daylight"
+        },
+        {
+          "optionId": "b",
+          "text": "The Moon gives Earth its daylight"
+        },
+        {
+          "optionId": "c",
+          "text": "Stars make daytime bright"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-013.png"
+    },
+    {
+      "activityId": "new-ali-science-014",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about rain is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A raincoat helps keep us dry in rain"
+        },
+        {
+          "optionId": "b",
+          "text": "A raincoat makes clothes wetter"
+        },
+        {
+          "optionId": "c",
+          "text": "A paper bag keeps us dry in rain"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-014.png"
+    },
+    {
+      "activityId": "new-ali-science-015",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about seasons is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Summer is usually warmer than winter"
+        },
+        {
+          "optionId": "b",
+          "text": "Winter is usually warmer than summer"
+        },
+        {
+          "optionId": "c",
+          "text": "Summer is usually colder than winter"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-015.png"
+    },
+    {
+      "activityId": "new-ali-science-016",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about materials is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A wooden chair is made from wood"
+        },
+        {
+          "optionId": "b",
+          "text": "A wooden chair is made from glass"
+        },
+        {
+          "optionId": "c",
+          "text": "A wooden chair is made from water"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-016.png"
+    },
+    {
+      "activityId": "new-ali-science-017",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about glass is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Clear glass lets light pass through"
+        },
+        {
+          "optionId": "b",
+          "text": "Clear glass blocks all light"
+        },
+        {
+          "optionId": "c",
+          "text": "Clear glass makes its own light"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-017.png"
+    },
+    {
+      "activityId": "new-ali-science-018",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about magnets is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Magnets can attract iron objects"
+        },
+        {
+          "optionId": "b",
+          "text": "Magnets attract paper and wood"
+        },
+        {
+          "optionId": "c",
+          "text": "Magnets attract every material"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-018.png"
+    },
+    {
+      "activityId": "new-ali-science-019",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about living things is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A rock is non-living"
+        },
+        {
+          "optionId": "b",
+          "text": "A rock grows leaves"
+        },
+        {
+          "optionId": "c",
+          "text": "A rock needs food to live"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-019.png"
+    },
+    {
+      "activityId": "new-ali-science-020",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about animal needs is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Animals need food, water and air"
+        },
+        {
+          "optionId": "b",
+          "text": "Animals only need sunlight"
+        },
+        {
+          "optionId": "c",
+          "text": "Animals can live without water"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-020.png"
+    },
+    {
+      "activityId": "new-ali-science-021",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about life cycles is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A chick hatches from an egg"
+        },
+        {
+          "optionId": "b",
+          "text": "A chick hatches from a seed"
+        },
+        {
+          "optionId": "c",
+          "text": "A chick hatches from a stone"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-021.png"
+    },
+    {
+      "activityId": "new-ali-science-022",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about body parts is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The skull protects the brain"
+        },
+        {
+          "optionId": "b",
+          "text": "The skull protects the stomach"
+        },
+        {
+          "optionId": "c",
+          "text": "The skull helps us digest food"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-022.png"
+    },
+    {
+      "activityId": "new-ali-science-023",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about safety is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "We should stay away from hot stoves"
+        },
+        {
+          "optionId": "b",
+          "text": "Touch a hot stove to test it"
+        },
+        {
+          "optionId": "c",
+          "text": "Hot stoves are safe to play beside"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-023.png"
+    },
+    {
+      "activityId": "new-ali-science-024",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about floating is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A cork can float on water"
+        },
+        {
+          "optionId": "b",
+          "text": "A cork always sinks in water"
+        },
+        {
+          "optionId": "c",
+          "text": "A cork dissolves in water"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-024.png"
+    },
+    {
+      "activityId": "new-ali-science-025",
+      "skillId": "aas2-ali-my-world-discovery",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about melting is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ice melts into liquid water"
+        },
+        {
+          "optionId": "b",
+          "text": "Ice changes into sand"
+        },
+        {
+          "optionId": "c",
+          "text": "Ice changes into stone"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/new-ali-science-025.png"
     }
   ]
 }
