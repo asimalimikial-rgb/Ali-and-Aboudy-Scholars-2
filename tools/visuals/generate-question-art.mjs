@@ -111,6 +111,26 @@ function mathPromptSvg(activity) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/>${drawing}</svg>`;
 }
 
+function countedObjectsSvg(kind, count) {
+  const amount = Math.max(1, Math.min(20, Number(count) || 1));
+  const source = visuals.svg(kind, kind);
+  const opening = source.match(/^<svg\b[^>]*>/);
+  const inner = opening
+    ? source.slice(opening[0].length, source.lastIndexOf("</svg>")).replace(/<title>[\s\S]*?<\/title>/, "")
+    : "";
+  const columns = amount <= 4 ? amount : 5;
+  const rows = Math.ceil(amount / columns);
+  const cellWidth = 136 / columns;
+  const cellHeight = 68 / rows;
+  const size = Math.min(44, cellWidth * 0.82, cellHeight * 0.82);
+  const objects = Array.from({ length: amount }, (_, index) => {
+    const x = 12 + (index % columns) * cellWidth + (cellWidth - size) / 2;
+    const y = 19 + Math.floor(index / columns) * cellHeight + (cellHeight - size) / 2;
+    return `<g transform="translate(${x} ${y}) scale(${size / 100})">${inner}</g>`;
+  }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/>${objects}</svg>`;
+}
+
 function makeQuestionSvg(activity, fragments, serial) {
   let selected = fragments.slice(0, 4);
   if (selected.length === 0) {
@@ -178,7 +198,7 @@ for (const filename of packFiles) {
       legacyData: profile.type === "counting" ? { entities: [countedEntity], count: promptNumber } : {}
     };
     const promptFragments = profile.type === "counting"
-      ? extractSvgFragments(visuals.render(question, {}))
+      ? [countedObjectsSvg(countedEntity, promptNumber)]
       : profile.skill === "math"
         ? [mathPromptSvg(activity)]
         : profile.skill === "english-grammar"
