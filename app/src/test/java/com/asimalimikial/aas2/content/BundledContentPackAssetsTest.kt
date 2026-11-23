@@ -28,7 +28,7 @@ class BundledContentPackAssetsTest {
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
         assertEquals("KG2", pack.learnerPath)
-        assertEquals("0.2.1", pack.version)
+        assertEquals("0.2.2", pack.version)
         assertEquals(4, pack.skills.size)
         assertEquals(12, pack.activities.size)
         assertEquals(8, pack.activities.count { it.language == "en" })
@@ -42,7 +42,7 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.3.1", pack.version)
+        assertEquals("0.3.2", pack.version)
         assertEquals(4, pack.schemaVersion)
         assertEquals(13, pack.skills.size)
         assertEquals(50, pack.activities.size)
@@ -80,12 +80,15 @@ class BundledContentPackAssetsTest {
     }
 
     @Test
-    fun everyScienceQuestionHasItsOwnBundledIllustration() = runBlocking<Unit> {
-        val pack = repository.load("aas2-grade2-foundation")
-        val scienceActivities = pack.activities.filter { it.lessonId != null }
-        val imagePaths = scienceActivities.mapNotNull { it.promptImageAssetPath }
-        assertEquals(32, imagePaths.size)
-        assertEquals(32, imagePaths.distinct().size)
+    fun everyEnglishQuestionHasItsOwnBundledIllustration() = runBlocking<Unit> {
+        val packs = listOf(
+            repository.load("aas2-kg2-foundation"),
+            repository.load("aas2-grade2-foundation")
+        )
+        val englishActivities = packs.flatMap { it.activities }.filter { it.language == "en" }
+        val imagePaths = englishActivities.mapNotNull { it.promptImageAssetPath }
+        assertEquals(52, imagePaths.size)
+        assertEquals("Each English question must have a unique image path", 52, imagePaths.distinct().size)
         assertPngAssets(imagePaths, "question-art/")
     }
 
