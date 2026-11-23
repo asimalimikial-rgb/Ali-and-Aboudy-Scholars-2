@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -250,8 +250,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! The 7 is in the tens place, so its value is 70.",
-      "feedbackIncorrect": "Look at the place of the digit 7 in the number.",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2
     },
     {
@@ -300,8 +300,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Well done! 26 + 13 = 39.",
-      "feedbackIncorrect": "Add the tens first, then add the ones.",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2
     },
     {
@@ -350,8 +350,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! 20 cm is longer than 14 cm.",
-      "feedbackIncorrect": "Compare 14 and 20.",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2
     },
     {
@@ -403,8 +403,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Correct! A river provides water for fish.",
-      "feedbackIncorrect": "Think about what a fish needs to live.",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2
     },
     {
@@ -453,8 +453,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Correct! Desert completes the sentence.",
-      "feedbackIncorrect": "Choose the word that names a place where a camel can live.",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 1
     },
     {
@@ -503,8 +503,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Correct! The words are in the right order.",
-      "feedbackIncorrect": "Read each sentence from left to right and check its word order.",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2
     },
     {
@@ -553,8 +553,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! The 6 is in the tens place, so its value is 60.",
-      "feedbackIncorrect": "Check whether the 6 is in the ones, tens, or hundreds place.",
+      "feedbackCorrect": "Super work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2
     },
     {
@@ -578,8 +578,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done! 34 + 25 = 59.",
-      "feedbackIncorrect": "Add the tens and ones, then put the totals together.",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2
     },
     {
@@ -603,8 +603,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Correct! 120 cm is longer than 95 cm.",
-      "feedbackIncorrect": "Compare 120 cm and 95 cm.",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 1
     },
     {
@@ -631,8 +631,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "A camel is adapted to live in dry desert habitats.",
-      "feedbackIncorrect": "Think about the hot, dry place where camels are commonly adapted to live.",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2
     },
     {
@@ -656,8 +656,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Yes! Dark clouds can mean that it may rain.",
-      "feedbackIncorrect": "Choose the word that makes sense with dark clouds in the sky.",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 2
     },
     {
@@ -681,8 +681,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! The sentence is in a clear word order.",
-      "feedbackIncorrect": "A sentence usually begins with who or what it is about.",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2
     },
     {
@@ -706,7 +706,7 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "You got it!",
+      "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
@@ -742,8 +742,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -778,8 +778,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Well done!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Super work!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -814,8 +814,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Nice try. Keep going!",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -850,8 +850,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "You got it!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -886,8 +886,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -922,7 +922,7 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done!",
+      "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
@@ -958,8 +958,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -994,8 +994,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "You got it!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1030,8 +1030,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Nice try. Keep going!",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1066,8 +1066,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Super work!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1102,8 +1102,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1138,7 +1138,7 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "You got it!",
+      "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
@@ -1174,8 +1174,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1210,8 +1210,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Well done!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1246,8 +1246,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Nice try. Keep going!",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1282,8 +1282,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "You got it!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1318,8 +1318,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1354,7 +1354,7 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Well done!",
+      "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
@@ -1390,8 +1390,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1426,8 +1426,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "You got it!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1462,8 +1462,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Nice try. Keep going!",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1498,8 +1498,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1534,8 +1534,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1570,7 +1570,7 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "You got it!",
+      "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
@@ -1606,8 +1606,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1642,8 +1642,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Super work!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1678,8 +1678,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Nice try. Keep going!",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1714,8 +1714,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "You got it!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1750,8 +1750,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Great thinking!",
-      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
@@ -1786,7 +1786,7 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Well done!",
+      "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
@@ -1822,8 +1822,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Excellent work!",
-      "feedbackIncorrect": "Good effort. You can try again!",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U01",
