@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -101,8 +101,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well counted!",
-      "feedbackIncorrect": "Count each mango once, then try again.",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1
     },
     {
@@ -154,8 +154,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "Correct! A triangle has three sides.",
-      "feedbackIncorrect": "Look at the number of sides on each shape.",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 1
     },
     {
@@ -204,8 +204,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Great! Plants need water and sunlight.",
-      "feedbackIncorrect": "Think about what a plant needs to stay alive.",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
       "difficulty": 2
     },
     {
@@ -257,8 +257,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Yes! Sun begins with the /s/ sound.",
-      "feedbackIncorrect": "Say each word slowly and listen to its first sound.",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2
     },
     {
@@ -307,8 +307,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "You counted four stars!",
-      "feedbackIncorrect": "Touch each star once as you count.",
+      "feedbackCorrect": "Brilliant!",
+      "feedbackIncorrect": "Have another go!",
       "difficulty": 1
     },
     {
@@ -335,8 +335,8 @@
         }
       ],
       "correctOptionId": "c",
-      "feedbackCorrect": "That's right! A square has four equal sides.",
-      "feedbackIncorrect": "Look for the shape with four sides of the same length.",
+      "feedbackCorrect": "Fantastic!",
+      "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2
     },
     {
@@ -360,8 +360,8 @@
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "Yes! Plants need water to grow.",
-      "feedbackIncorrect": "Think about what roots take in from the soil.",
+      "feedbackCorrect": "Super work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1
     },
     {
@@ -385,8 +385,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Moon begins with the /m/ sound.",
-      "feedbackIncorrect": "Say each word slowly. Listen for /m/ at the beginning.",
+      "feedbackCorrect": "That's right!",
+      "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2
     }
   ]
