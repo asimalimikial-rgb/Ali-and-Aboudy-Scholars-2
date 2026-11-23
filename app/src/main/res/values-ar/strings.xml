@@ -81,4 +81,10 @@
     <string name="back_to_units">العودة إلى الوحدات</string>
     <string name="back_to_lessons">العودة إلى الدروس</string>
     <string name="additional_practice">تدريبات إضافية</string>
+    <string name="audio_listen_question">استمع إلى السؤال</string>
+    <string name="audio_listen_option">استمع</string>
+    <string name="audio_listen_feedback">استمع إلى التشجيع</string>
+    <string name="audio_stop">إيقاف</string>
+    <string name="audio_loading">جارٍ تحميل الصوت…</string>
+    <string name="audio_error">تعذّر تشغيل الصوت.</string>
 </resources>
