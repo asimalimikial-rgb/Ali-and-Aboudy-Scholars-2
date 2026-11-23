@@ -37,6 +37,21 @@ class ContentPackSelectionPolicyTest {
         assertTrue(ContentPackSelectionPolicy.englishActivities(pack).isEmpty())
     }
 
+    @Test
+    fun groupsKg2DomainsIntoAgeAppropriateLearningAreas() {
+        assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Early Numeracy", "KG2"))
+        assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Mathematics", "KG2"))
+        assertEquals("English & Literacy", ContentPackSelectionPolicy.subjectForDomain("Language and Communication", "KG2"))
+        assertEquals("Discovery", ContentPackSelectionPolicy.subjectForDomain("Science and Discovery", "KG2"))
+    }
+
+    @Test
+    fun keepsGradeTwoCoreSubjectsDistinct() {
+        assertEquals("English", ContentPackSelectionPolicy.subjectForDomain("English Language", "Grade 2"))
+        assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Mathematics", "Grade 2"))
+        assertEquals("Science", ContentPackSelectionPolicy.subjectForDomain("Science", "Grade 2"))
+    }
+
     private fun samplePack(
         activities: List<ActivityDefinition> = listOf(
             sampleActivity("activity-en", "en"),
