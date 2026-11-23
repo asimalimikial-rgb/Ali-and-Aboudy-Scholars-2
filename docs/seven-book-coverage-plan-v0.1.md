@@ -54,3 +54,49 @@ This document is the working map for the seven named study books. It distinguish
 - The app currently exposes the Macmillan Science Level 2 hierarchy (two units, nine lessons).
 - The remaining book hierarchies and mappings are not yet implemented in the child-facing app.
 - This is an explicit open implementation task, not a completed feature.
+
+
+## Official catalogue ISBNs and digital-access evidence — 23 November 2026
+
+The following ISBNs are catalogue matches, not proof that the user's physical copies are the same edition. Confirm the printed ISBN on each physical book before treating an edition as exact.
+
+| # | Book | Catalogue ISBN | Evidence |
+|---|---|---|---|
+| 1 | Hop Skip and Jump — Senior KG Kit | 9789356660113 | Macmillan India School Catalogue 2025 lists Senior KG kit and its components |
+| 2 | Maths Xpress — Senior KG | 9789356664975 | Macmillan India School Catalogue 2025 |
+| 3 | English World — Level 2 Pupil's Book Pack | 9781035117154 | Macmillan English official Level 2 samples/catalogue page |
+| 4 | Macmillan Mathematics — Level 2A Pupil's Book eBook Pack | 9781380000637 | Macmillan Education India ELT Digital Catalogue 2023 |
+| 5 | Macmillan Mathematics — Level 2B Pupil's Book eBook Pack | 9781380000613 | Macmillan Education India ELT Digital Catalogue 2023 |
+| 6 | Macmillan Science — Level 2 Pupil's eBook Pack | 9781380000262 | Macmillan Education India ELT Digital Catalogue 2023 |
+| 7 | Maths Xpress — Book 2 | 9789356664999 | Macmillan India School Catalogue 2025 |
+
+### Hop Skip and Jump Senior KG component coverage
+The 2025 catalogue lists the Senior KG kit as more than a single literacy/phonics workbook. It includes:
+- Literacy Skill Sheets
+- Numeracy Skill Sheets
+- General Awareness Skill Sheets
+- My Second Book of Phonics
+- My Third Book of Stories
+- My Third Book of Rhymes and Songs
+- My Second Book of Handwriting
+- My Third Book of Art and Craft
+- My Third Book of SEL, STEM and Creative Coding
+
+Current 65 mapped Ali activities cover initial sounds, rhyming, everyday vocabulary and My World Discovery. This is only partial kit coverage. Handwriting, stories, rhymes, art/craft, SEL/STEM and further literacy/numeracy sequences remain open content work. Do not mark the kit complete.
+
+### Official digital access route
+- Macmillan Education Everywhere (MEE): https://www.macmillaneducationeverywhere.com/
+- Current MEE Help Centre: https://www.macmillaneducationeverywhere.com/help-centre/?language=en
+- Macmillan's help material says the access code is normally printed inside the book/booklet or supplied by the institution/local representative/material supplier. A code is activated in MEE and the resource appears in My Bookshelf.
+- MEE distinguishes View from Download; Download enables local/offline access when the particular resource offers that option. Do not assume every resource has a downloadable PDF.
+- The former LMS page states it was scheduled to sunset on 31 July 2026. The current access investigation should therefore use MEE, not the legacy LMS.
+
+### Source links
+- [Macmillan India School Catalogue 2025](https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf)
+- [Macmillan English — English World levels and samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples)
+- [Macmillan Education India — ELT Digital Catalogue 2023](https://macmillaneducation.in/wp-content/uploads/2023/02/ELT-Digital-catalogue-2023.pdf)
+- [Macmillan Education Everywhere](https://www.macmillaneducationeverywhere.com/)
+- [MEE Help Centre](https://www.macmillaneducationeverywhere.com/help-centre/?language=en)
+
+### Copyright/access conclusion
+No public evidence found in these official catalogue pages that provides unrestricted free full-book PDF downloads. The verified route is the publisher's access-code platform and any download control it provides for the licensed resource. Continue searching lawful access routes, but do not scrape, bypass DRM, or embed publisher eBooks in AAS2.
