@@ -27,7 +27,13 @@
     <string name="content_pack_load_error">تعذر تحميل الأنشطة. حاول مرة أخرى لاحقاً.</string>
     <string name="back_to_activities">العودة إلى الأنشطة</string>
     <string name="back_to_learning_space">العودة إلى مساحة التعلم</string>
-    <string name="no_activities_available">لا توجد أنشطة متاحة بهذه اللغة حالياً.</string>
+    <string name="no_activities_available">لا توجد أنشطة متاحة في هذا المجال حالياً.</string>
+    <string name="choose_learning_area">اختر مجالاً للتعلم</string>
+    <string name="choose_activity">اختر نشاطاً</string>
+    <string name="back_to_learning_areas">العودة إلى مجالات التعلم</string>
+    <string name="learning_area_progress">تدرّبت على %1$d من %2$d أنشطة</string>
+    <string name="activity_number">النشاط %1$d</string>
+    <string name="activity_practised">تم التدريب عليه</string>
     <string name="activity_list_item">%1$d. %2$s</string>
     <string name="practice_summary_title">ملخص التدريب</string>
     <string name="practice_summary_empty">سيظهر سجل تدريبك هنا بعد أول إجابة.</string>
