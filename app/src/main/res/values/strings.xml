@@ -50,5 +50,6 @@
     <string name="activity_saving_answer_en">Saving answer…</string>
     <string name="activity_saving_answer_ar">جارٍ حفظ الإجابة…</string>
     <string name="activity_save_error_en">Your answer could not be saved. Please try again.</string>
+    <string name="activity_try_again">Try again</string>
     <string name="activity_save_error_ar">تعذر حفظ إجابتك. حاول مرة أخرى.</string>
 </resources>
