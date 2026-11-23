@@ -94,4 +94,6 @@
     <string name="audio_stop">Stop</string>
     <string name="audio_loading">Loading audio…</string>
     <string name="audio_error">Audio could not be played.</string>
+    <string name="unit_number_title">Unit %1$d: %2$s</string>
+    <string name="lesson_number_title">Lesson %1$d: %2$s</string>
 </resources>
