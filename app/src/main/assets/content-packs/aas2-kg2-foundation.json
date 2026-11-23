@@ -180,22 +180,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/kg2-count-01-en.png",
+      "promptImageAssetPath": "question-art/kg2-count-01-en.svg",
       "promptAudioAssetPath": "speech/712d6f6feb44373092f5492fd2a753f1886ba8f487f13cab8e85b164e333bf7e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4ad3494fe1685323f4047e33740a27c29a70e230cca9645d4a7a8665445f7d8d.ogg",
@@ -240,24 +243,24 @@
         {
           "optionId": "a",
           "text": "Circle",
-          "imageAssetPath": "option-art/shape-circle.png"
+          "imageAssetPath": "option-art/b2ce063f903c8b8a32095fab.svg"
         },
         {
           "optionId": "b",
           "text": "Square",
-          "imageAssetPath": "option-art/shape-square.png"
+          "imageAssetPath": "option-art/d6f343b4b91e2bd4e03555c0.svg"
         },
         {
           "optionId": "c",
           "text": "Triangle",
-          "imageAssetPath": "option-art/shape-triangle.png"
+          "imageAssetPath": "option-art/904c7e6df02768488545861f.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/kg2-shape-01-en.png",
+      "promptImageAssetPath": "question-art/kg2-shape-01-en.svg",
       "promptAudioAssetPath": "speech/fa56bb819f9792a03471ad4f780b7d88e751ef81398db053f332591b85a4dd62.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/eb1a15edadd1abacaa3359816746018b0fe54176bd23cb662529a2813492861f.ogg",
@@ -301,22 +304,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Water and sunlight"
+          "text": "Water and sunlight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         },
         {
           "optionId": "b",
-          "text": "Candy and toys"
+          "text": "Candy and toys",
+          "imageAssetPath": "option-art/d28a8dc5f316f270740cebd8.svg"
         },
         {
           "optionId": "c",
-          "text": "Shoes and books"
+          "text": "Shoes and books",
+          "imageAssetPath": "option-art/e6e8ec96a449506a106dc66c.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/kg2-plant-01-en.png",
+      "promptImageAssetPath": "question-art/kg2-plant-01-en.svg",
       "promptAudioAssetPath": "speech/e7ea5f7f20f10fcfaecde3e24a97ac720a0d1f421c84a711756f40bf2ea3275c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/175344a181e91c90405911e925d7c864989960a9a2307eb2a690ba6e82a008e1.ogg",
@@ -361,24 +367,24 @@
         {
           "optionId": "a",
           "text": "sun",
-          "imageAssetPath": "option-art/sun.png"
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         },
         {
           "optionId": "b",
           "text": "ball",
-          "imageAssetPath": "option-art/ball.png"
+          "imageAssetPath": "option-art/5814ae4c16379c868be3840f.svg"
         },
         {
           "optionId": "c",
           "text": "cat",
-          "imageAssetPath": "option-art/cat.png"
+          "imageAssetPath": "option-art/cd495cf5997fb718a8535fde.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/kg2-sound-01-en.png",
+      "promptImageAssetPath": "question-art/kg2-sound-01-en.svg",
       "promptAudioAssetPath": "speech/8b636543ac5ad0075b49d7dafe101bce00a64faf83b5e25fcc57df3e79a76093.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/6ae11f4f067afd2a19d6e2cb122edf178aeb2bea0c84e5018834021c56d748bd.ogg",
@@ -422,22 +428,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/kg2-count-02-en.png",
+      "promptImageAssetPath": "question-art/kg2-count-02-en.svg",
       "promptAudioAssetPath": "speech/2c4dbca64f058201c26aaae195c94e4f6f8202be37777f3668b4a7d42367b850.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1186b297c4f60fcf7f739f4aa0c74ac37a2956f6ecf920c0c828709b545b3e0c.ogg",
@@ -457,24 +466,24 @@
         {
           "optionId": "a",
           "text": "Circle",
-          "imageAssetPath": "option-art/shape-circle.png"
+          "imageAssetPath": "option-art/b2ce063f903c8b8a32095fab.svg"
         },
         {
           "optionId": "b",
           "text": "Triangle",
-          "imageAssetPath": "option-art/shape-triangle.png"
+          "imageAssetPath": "option-art/904c7e6df02768488545861f.svg"
         },
         {
           "optionId": "c",
           "text": "Square",
-          "imageAssetPath": "option-art/shape-square.png"
+          "imageAssetPath": "option-art/d6f343b4b91e2bd4e03555c0.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic!",
       "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/kg2-shape-02-en.png",
+      "promptImageAssetPath": "question-art/kg2-shape-02-en.svg",
       "promptAudioAssetPath": "speech/13c194658e65796047716fa6290ed883d416a581493e2eeb7f89f6b173d60026.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/939af480886ce890bd7bd404e29b59629d0ba7f9adebabecabf41fb50a404889.ogg",
@@ -493,22 +502,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Water"
+          "text": "Water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "b",
-          "text": "A toy"
+          "text": "A toy",
+          "imageAssetPath": "option-art/d28a8dc5f316f270740cebd8.svg"
         },
         {
           "optionId": "c",
-          "text": "A shoe"
+          "text": "A shoe",
+          "imageAssetPath": "option-art/6b66f115d19738f1787cf68f.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/kg2-plant-02-en.png",
+      "promptImageAssetPath": "question-art/kg2-plant-02-en.svg",
       "promptAudioAssetPath": "speech/8bea832d159a742678752c81125cd6dec336468c91dc5f0f1a66fe409ea7362b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/de7c267e5fad7bd103991ba311642c7767f4cfdd0863cc264a54ef8b5aa4329b.ogg",
@@ -527,22 +539,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         },
         {
           "optionId": "b",
-          "text": "moon"
+          "text": "moon",
+          "imageAssetPath": "option-art/9f1a2752a835c342722f63fe.svg"
         },
         {
           "optionId": "c",
-          "text": "fish"
+          "text": "fish",
+          "imageAssetPath": "option-art/3081907345c0c89daa806060.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "That's right!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/kg2-sound-02-en.png",
+      "promptImageAssetPath": "question-art/kg2-sound-02-en.svg",
       "promptAudioAssetPath": "speech/890bed2d5edc649f784865394db339417380282764073ebcdd509960ff0bf2be.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1d8ac3e9a2178c2c3cddf843a3bc39637153ad0f6f14649fd2680f0b3ba0af19.ogg",
@@ -561,22 +576,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         },
         {
           "optionId": "b",
-          "text": "ball"
+          "text": "ball",
+          "imageAssetPath": "option-art/5814ae4c16379c868be3840f.svg"
         },
         {
           "optionId": "c",
-          "text": "moon"
+          "text": "moon",
+          "imageAssetPath": "option-art/9f1a2752a835c342722f63fe.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-001.png",
+      "promptImageAssetPath": "question-art/new-ali-english-001.svg",
       "promptAudioAssetPath": "speech/2b3825b4f5b7f6d0631dbc9e376a9563f13e81b7c2e7cf4ba5a209b9b596419f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/252c51ee98407e0efecf680415e36c20020de6044c4c6649197db69ea0038ab4.ogg",
@@ -595,22 +613,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "dog"
+          "text": "dog",
+          "imageAssetPath": "option-art/c54f8139e8d535fb85b1c171.svg"
         },
         {
           "optionId": "b",
-          "text": "fish"
+          "text": "fish",
+          "imageAssetPath": "option-art/3081907345c0c89daa806060.svg"
         },
         {
           "optionId": "c",
-          "text": "moon"
+          "text": "moon",
+          "imageAssetPath": "option-art/9f1a2752a835c342722f63fe.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-002.png",
+      "promptImageAssetPath": "question-art/new-ali-english-002.svg",
       "promptAudioAssetPath": "speech/9508a2c56e411b1acc75c97fd3b7ede61e5bc3e9d4070a926188d58897651b9e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c3fd2f1c6297d531584aa6f50a5e3ec1c8f40b045999d7f3f1c651e6c2b61527.ogg",
@@ -629,22 +650,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "bed"
+          "text": "bed",
+          "imageAssetPath": "option-art/7d8ec184862c6d9a9cc2d5f8.svg"
         },
         {
           "optionId": "b",
-          "text": "cat"
+          "text": "cat",
+          "imageAssetPath": "option-art/cd495cf5997fb718a8535fde.svg"
         },
         {
           "optionId": "c",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-003.png",
+      "promptImageAssetPath": "question-art/new-ali-english-003.svg",
       "promptAudioAssetPath": "speech/2bcfb04e248a9d963c22de78fe7d10e526a037d2b684260c5be9626c3c5da5f1.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/034e190d8f0058f522add96a0be5b92b64d15b2387906949e556ca27d076c062.ogg",
@@ -663,22 +687,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "pig"
+          "text": "pig",
+          "imageAssetPath": "option-art/f6ac35aaed60ff9607bbb5ac.svg"
         },
         {
           "optionId": "b",
-          "text": "fish"
+          "text": "fish",
+          "imageAssetPath": "option-art/3081907345c0c89daa806060.svg"
         },
         {
           "optionId": "c",
-          "text": "van"
+          "text": "van",
+          "imageAssetPath": "option-art/a292d6cc44727f0dd47a2ee3.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-004.png",
+      "promptImageAssetPath": "question-art/new-ali-english-004.svg",
       "promptAudioAssetPath": "speech/a3f02a9fca75835fd5d79c0a1ee521169b19d8a658f9ec91683ad4b058ac756a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/40f4e9ae8a8aa00a0edfbb102710d483d6c4abc25ebc764ac3136f745f42d962.ogg",
@@ -697,22 +724,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "jam"
+          "text": "jam",
+          "imageAssetPath": "option-art/f9ce098847bc449de2a46705.svg"
         },
         {
           "optionId": "b",
-          "text": "hen"
+          "text": "hen",
+          "imageAssetPath": "option-art/244d270aaf51d859cbc30ff7.svg"
         },
         {
           "optionId": "c",
-          "text": "top"
+          "text": "top",
+          "imageAssetPath": "option-art/7a2ac2ffbe306d1c123d7173.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-005.png",
+      "promptImageAssetPath": "question-art/new-ali-english-005.svg",
       "promptAudioAssetPath": "speech/ef55d56221e61aebdb6162f86d9a5752cf9618ba0a40c2ed7bdbeb9e15df4569.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/682003272b8abd823dff09f86c7291a2d0b7ec2f35824e5df3275b9b28500088.ogg",
@@ -731,22 +761,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "fox"
+          "text": "fox",
+          "imageAssetPath": "option-art/443006f2c37158b83d4dc4a3.svg"
         },
         {
           "optionId": "b",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         },
         {
           "optionId": "c",
-          "text": "rain"
+          "text": "rain",
+          "imageAssetPath": "option-art/7147d62ffc431190384c97e8.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-006.png",
+      "promptImageAssetPath": "question-art/new-ali-english-006.svg",
       "promptAudioAssetPath": "speech/0f3ecaf9a7b58652cce15c388d04fbc5f57ce6ddbebde0feaa216f049aec553f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4d401f92deebb749bd8e371f9aa194d1f969a3a3185292c307c8991618f0084f.ogg",
@@ -765,22 +798,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "pen"
+          "text": "pen",
+          "imageAssetPath": "option-art/decd8c4bf591106d9d036eaa.svg"
         },
         {
           "optionId": "b",
-          "text": "leaf"
+          "text": "leaf",
+          "imageAssetPath": "option-art/2689d12961b163defdd90852.svg"
         },
         {
           "optionId": "c",
-          "text": "dog"
+          "text": "dog",
+          "imageAssetPath": "option-art/c54f8139e8d535fb85b1c171.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-007.png",
+      "promptImageAssetPath": "question-art/new-ali-english-007.svg",
       "promptAudioAssetPath": "speech/147c447a9ca6781ef92a84b1b8c1500dd644b3ea8095042528b4ae94715fcfef.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/37d155febf8efb9daf186c0996cb508940cefa946204132aa4f7122331b96659.ogg",
@@ -799,22 +835,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         },
         {
           "optionId": "b",
-          "text": "duck"
+          "text": "duck",
+          "imageAssetPath": "option-art/244d270aaf51d859cbc30ff7.svg"
         },
         {
           "optionId": "c",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-008.png",
+      "promptImageAssetPath": "question-art/new-ali-english-008.svg",
       "promptAudioAssetPath": "speech/5763ed52590a2309c63ec39377caf4f4526ee638b736ab7133de62fa6d362016.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/176addb083f5d2243358d32f38c31413dede3fa3c88d8ece7a44e648d154846f.ogg",
@@ -837,18 +876,20 @@
         },
         {
           "optionId": "b",
-          "text": "map"
+          "text": "map",
+          "imageAssetPath": "option-art/bbbf0e41d1898a4412c9dd44.svg"
         },
         {
           "optionId": "c",
-          "text": "goat"
+          "text": "goat",
+          "imageAssetPath": "option-art/33a4031a64b1293054f0c114.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-009.png",
+      "promptImageAssetPath": "question-art/new-ali-english-009.svg",
       "promptAudioAssetPath": "speech/fa787ab41fca01c72f5c087728be7c349b1a6ba99f4de9cfa4904e083423ac62.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/dfce7409c40742b64e17af805a6f6d1bb4a1fe226086b0c62e3dab1fb8f5a74f.ogg",
@@ -871,18 +912,20 @@
         },
         {
           "optionId": "b",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         },
         {
           "optionId": "c",
-          "text": "leg"
+          "text": "leg",
+          "imageAssetPath": "option-art/9a423f615fe2570aaaa307e5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-010.png",
+      "promptImageAssetPath": "question-art/new-ali-english-010.svg",
       "promptAudioAssetPath": "speech/aaa221256b0206f0215b270bce13b5fbe1f2a8c4b5b110daad0e572bba53e003.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/426c9015d0e8bb97b5a69f31dbbd2613aad20ac76d32ff30ec5e3352e1a1d859.ogg",
@@ -901,22 +944,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "net"
+          "text": "net",
+          "imageAssetPath": "option-art/08ab23169a16a8befc91e3e6.svg"
         },
         {
           "optionId": "b",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         },
         {
           "optionId": "c",
-          "text": "leaf"
+          "text": "leaf",
+          "imageAssetPath": "option-art/2689d12961b163defdd90852.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-011.png",
+      "promptImageAssetPath": "question-art/new-ali-english-011.svg",
       "promptAudioAssetPath": "speech/552431a8bfb2c218ca9a76328393642c4eec6248dca8f9a26da310d4e9e01321.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e6eaa5cb2b911d555aedb098180d65838aa9cabc669adab9847ea885ee5c3271.ogg",
@@ -935,22 +981,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "jam"
+          "text": "jam",
+          "imageAssetPath": "option-art/f9ce098847bc449de2a46705.svg"
         },
         {
           "optionId": "b",
-          "text": "nest"
+          "text": "nest",
+          "imageAssetPath": "option-art/a2f7b20bea7c722d1333123f.svg"
         },
         {
           "optionId": "c",
-          "text": "pig"
+          "text": "pig",
+          "imageAssetPath": "option-art/f6ac35aaed60ff9607bbb5ac.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-012.png",
+      "promptImageAssetPath": "question-art/new-ali-english-012.svg",
       "promptAudioAssetPath": "speech/057c9cd9e6854b043d8c920225226099f380afba06a701eafc234283f1b9fe84.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/989cddbce0f2314d1a5e8eadaa0f1d364cc0e49b4a0a3142d56a030a54e57c0c.ogg",
@@ -969,22 +1018,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "kite"
+          "text": "kite",
+          "imageAssetPath": "option-art/21307e1de2e9ae75cff1b5d8.svg"
         },
         {
           "optionId": "b",
-          "text": "bed"
+          "text": "bed",
+          "imageAssetPath": "option-art/7d8ec184862c6d9a9cc2d5f8.svg"
         },
         {
           "optionId": "c",
-          "text": "fish"
+          "text": "fish",
+          "imageAssetPath": "option-art/3081907345c0c89daa806060.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-013.png",
+      "promptImageAssetPath": "question-art/new-ali-english-013.svg",
       "promptAudioAssetPath": "speech/bd4b1f0a3284d223f0dad853e2b527822b019099366d1e8803c62df4c20e83fd.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8c2644ef70e0fb2dc3e6881bc558d09bd043c32869e3d8546081f6b37a8a429a.ogg",
@@ -1003,22 +1055,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "run"
+          "text": "run",
+          "imageAssetPath": "option-art/7de8da9509dacd468f4566cf.svg"
         },
         {
           "optionId": "b",
-          "text": "jam"
+          "text": "jam",
+          "imageAssetPath": "option-art/f9ce098847bc449de2a46705.svg"
         },
         {
           "optionId": "c",
-          "text": "top"
+          "text": "top",
+          "imageAssetPath": "option-art/7a2ac2ffbe306d1c123d7173.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-014.png",
+      "promptImageAssetPath": "question-art/new-ali-english-014.svg",
       "promptAudioAssetPath": "speech/dc80bf4f6c27f6f7c44a4eb9c5bd83354097cea9dec4d362244c68b8b3db7de2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a66e473711a2b3692588bc233404ab45a1547d69b00a116c688887bc9dc80b5c.ogg",
@@ -1037,22 +1092,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hen"
+          "text": "hen",
+          "imageAssetPath": "option-art/244d270aaf51d859cbc30ff7.svg"
         },
         {
           "optionId": "b",
-          "text": "van"
+          "text": "van",
+          "imageAssetPath": "option-art/a292d6cc44727f0dd47a2ee3.svg"
         },
         {
           "optionId": "c",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-015.png",
+      "promptImageAssetPath": "question-art/new-ali-english-015.svg",
       "promptAudioAssetPath": "speech/4e62f9d2218c253c487450abc09b4cd7684f6c12c8b15405bf44f4927d6532d1.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e5815731bd637f204cc53d4fb42fada7f0b78970cfbcd7f3ff34d5cf9f5ae906.ogg",
@@ -1079,14 +1137,15 @@
         },
         {
           "optionId": "c",
-          "text": "dog"
+          "text": "dog",
+          "imageAssetPath": "option-art/c54f8139e8d535fb85b1c171.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-016.png",
+      "promptImageAssetPath": "question-art/new-ali-english-016.svg",
       "promptAudioAssetPath": "speech/2eac689da46a569dcac5777dc5982f53b1fde2df6748f0dcfaad684f776f7b3a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c2cfb0c9a8461ea8dde4fb48fb130afb308f172b278573697f2d0bc19f6c98cb.ogg",
@@ -1105,7 +1164,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "fox"
+          "text": "fox",
+          "imageAssetPath": "option-art/443006f2c37158b83d4dc4a3.svg"
         },
         {
           "optionId": "b",
@@ -1113,14 +1173,15 @@
         },
         {
           "optionId": "c",
-          "text": "pen"
+          "text": "pen",
+          "imageAssetPath": "option-art/decd8c4bf591106d9d036eaa.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-017.png",
+      "promptImageAssetPath": "question-art/new-ali-english-017.svg",
       "promptAudioAssetPath": "speech/aed8fb25dc931f0ccd3877e45dee0eb188769fc9ac75688880364d4dc2ef501e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a44b0a82798daf5dbcd15d1b61d18380e91fe87b2a9bae8ce2fb6d7d4c549faf.ogg",
@@ -1139,11 +1200,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "map"
+          "text": "map",
+          "imageAssetPath": "option-art/bbbf0e41d1898a4412c9dd44.svg"
         },
         {
           "optionId": "b",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         },
         {
           "optionId": "c",
@@ -1154,7 +1217,7 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-018.png",
+      "promptImageAssetPath": "question-art/new-ali-english-018.svg",
       "promptAudioAssetPath": "speech/5ced911704e9019517f73bc87a780db36279baaa9b9473a71ba93dffd14a16bb.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e64e6cceec70f6021bfdc94b1ca649f75874d27781ddab931fecd1d06bce9537.ogg",
@@ -1173,22 +1236,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hop"
+          "text": "hop",
+          "imageAssetPath": "option-art/48090f7b1d51440af3bc35c6.svg"
         },
         {
           "optionId": "b",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         },
         {
           "optionId": "c",
-          "text": "hen"
+          "text": "hen",
+          "imageAssetPath": "option-art/244d270aaf51d859cbc30ff7.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-019.png",
+      "promptImageAssetPath": "question-art/new-ali-english-019.svg",
       "promptAudioAssetPath": "speech/e6bcb115896757672033bbf8e45db3383f50313369cebe07550d5e41024e5534.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/f5aba3994dc2b116bc7b134f17eaafd8c7e1abee9a8815b857252584d28fbea4.ogg",
@@ -1207,22 +1273,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "can"
+          "text": "can",
+          "imageAssetPath": "option-art/9f1970ee75dfdde320eacde4.svg"
         },
         {
           "optionId": "b",
-          "text": "cat"
+          "text": "cat",
+          "imageAssetPath": "option-art/cd495cf5997fb718a8535fde.svg"
         },
         {
           "optionId": "c",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-020.png",
+      "promptImageAssetPath": "question-art/new-ali-english-020.svg",
       "promptAudioAssetPath": "speech/b35af8fe974fcd090ab3c1c97ecd3f7367484b3b5cbd00edb1055c79780d51a7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/f2dde0370afd7d8d652afe3931f3976372c9a1bdab0f895da5e7108c42a540e9.ogg",
@@ -1241,22 +1310,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         },
         {
           "optionId": "b",
-          "text": "dog"
+          "text": "dog",
+          "imageAssetPath": "option-art/c54f8139e8d535fb85b1c171.svg"
         },
         {
           "optionId": "c",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-021.png",
+      "promptImageAssetPath": "question-art/new-ali-english-021.svg",
       "promptAudioAssetPath": "speech/8c337b38b7f4d702d7205090fc3ed2c46030b24a01c486fb119a1bccd073245b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8ce75ef5242a8b42e4962017051e004de3125e991f5808b7c786542ed806b1ec.ogg",
@@ -1275,22 +1347,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         },
         {
           "optionId": "b",
-          "text": "frog"
+          "text": "frog",
+          "imageAssetPath": "option-art/42ebe407252b1e260b50fe26.svg"
         },
         {
           "optionId": "c",
-          "text": "pen"
+          "text": "pen",
+          "imageAssetPath": "option-art/decd8c4bf591106d9d036eaa.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-022.png",
+      "promptImageAssetPath": "question-art/new-ali-english-022.svg",
       "promptAudioAssetPath": "speech/5c15751fcc3ab7e458ab88f118e743f146064796c907a9c8c648738149573e7d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c92711c19131395243bbd40a16d1bf9a5ab418c0ec74966f19f3bccbcf08408f.ogg",
@@ -1309,11 +1384,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "bed"
+          "text": "bed",
+          "imageAssetPath": "option-art/7d8ec184862c6d9a9cc2d5f8.svg"
         },
         {
           "optionId": "b",
-          "text": "fish"
+          "text": "fish",
+          "imageAssetPath": "option-art/3081907345c0c89daa806060.svg"
         },
         {
           "optionId": "c",
@@ -1324,7 +1401,7 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-023.png",
+      "promptImageAssetPath": "question-art/new-ali-english-023.svg",
       "promptAudioAssetPath": "speech/2e5da4e1fedd87e368207348011b36c7c00e2367fccd5040bfd30c2e7fe70e02.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e9c04fbe8c535bcccd6992215d5cd4003e40a3f683cf1ad40c6724286787312a.ogg",
@@ -1343,22 +1420,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "shell"
+          "text": "shell",
+          "imageAssetPath": "option-art/6b0e748f2d0966889e95e22e.svg"
         },
         {
           "optionId": "b",
-          "text": "pig"
+          "text": "pig",
+          "imageAssetPath": "option-art/f6ac35aaed60ff9607bbb5ac.svg"
         },
         {
           "optionId": "c",
-          "text": "map"
+          "text": "map",
+          "imageAssetPath": "option-art/bbbf0e41d1898a4412c9dd44.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-024.png",
+      "promptImageAssetPath": "question-art/new-ali-english-024.svg",
       "promptAudioAssetPath": "speech/1fbe94f11f4ca572d32242bd5533f930346bc696a53159464b6d984be5d82051.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/fcb61461c7ff38b0e28203b94ab77d091523cc6c5e67dbc72d4fd3a9ec5f69ec.ogg",
@@ -1377,7 +1457,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "run"
+          "text": "run",
+          "imageAssetPath": "option-art/7de8da9509dacd468f4566cf.svg"
         },
         {
           "optionId": "b",
@@ -1392,7 +1473,7 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-025.png",
+      "promptImageAssetPath": "question-art/new-ali-english-025.svg",
       "promptAudioAssetPath": "speech/5df739d8bbdd9232bbe6f438213312bc85eb731b4d79fa0108b4a4929675fac2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/0fef448c2accf854b8c45aa8186fdeabbb3979e6936c9bce47fb1d9ebfacb8e8.ogg",
@@ -1411,22 +1492,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "top"
+          "text": "top",
+          "imageAssetPath": "option-art/7a2ac2ffbe306d1c123d7173.svg"
         },
         {
           "optionId": "b",
-          "text": "hen"
+          "text": "hen",
+          "imageAssetPath": "option-art/244d270aaf51d859cbc30ff7.svg"
         },
         {
           "optionId": "c",
-          "text": "car"
+          "text": "car",
+          "imageAssetPath": "option-art/3514da6dd3027fcabac37f05.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-026.png",
+      "promptImageAssetPath": "question-art/new-ali-english-026.svg",
       "promptAudioAssetPath": "speech/b1b60cff07794648ce332cf04375807d33dc904c33504183d066d10e87de779f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/60e6c7fa53d4ca84420a50a7b7104f5af9339840d2b7650913cbeb741ffbfab0.ogg",
@@ -1445,22 +1529,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "tree"
+          "text": "tree",
+          "imageAssetPath": "option-art/e83ee226d6a631b8d70ba1a6.svg"
         },
         {
           "optionId": "b",
-          "text": "fox"
+          "text": "fox",
+          "imageAssetPath": "option-art/443006f2c37158b83d4dc4a3.svg"
         },
         {
           "optionId": "c",
-          "text": "hat"
+          "text": "hat",
+          "imageAssetPath": "option-art/852cb0b047c3ad83c43aaf5d.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-027.png",
+      "promptImageAssetPath": "question-art/new-ali-english-027.svg",
       "promptAudioAssetPath": "speech/10b36299ba0f59bd6b4716961cf67d1c4eeda6f3de7d059bb81f0923582b083a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c4d15daeb85fcaed6284982440467ea9a2c2bfa2a4a6ef9b3e8efacbd82aeb1a.ogg",
@@ -1479,22 +1566,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "jam"
+          "text": "jam",
+          "imageAssetPath": "option-art/f9ce098847bc449de2a46705.svg"
         },
         {
           "optionId": "b",
-          "text": "dog"
+          "text": "dog",
+          "imageAssetPath": "option-art/c54f8139e8d535fb85b1c171.svg"
         },
         {
           "optionId": "c",
-          "text": "spoon"
+          "text": "spoon",
+          "imageAssetPath": "option-art/f2fdffe20172cd15341b06f5.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-028.png",
+      "promptImageAssetPath": "question-art/new-ali-english-028.svg",
       "promptAudioAssetPath": "speech/9ad53e54e7e61ac249c37975a4393d35f799a7f957e6310de3e7ea7fc98e32a0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/113f43f1c2289c1ecfe00fce9a93a392a0a90cb2a64c49220f4be79e9d5d4cc8.ogg",
@@ -1513,22 +1603,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "leaf"
+          "text": "leaf",
+          "imageAssetPath": "option-art/2689d12961b163defdd90852.svg"
         },
         {
           "optionId": "b",
-          "text": "rock"
+          "text": "rock",
+          "imageAssetPath": "option-art/edfbfe71aaa743c3dd66c833.svg"
         },
         {
           "optionId": "c",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/c30f937e68e6e196c59e64bc.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-029.png",
+      "promptImageAssetPath": "question-art/new-ali-english-029.svg",
       "promptAudioAssetPath": "speech/46df7af99aa9c3c7a39f5732b0b6ff8acb01dd199e928450300ca03023d701ce.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/665ad7e61ea004f5997daacd2e5331b9e822e7a1fc280f39ce2e52b24f24afae.ogg",
@@ -1547,22 +1640,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "pig"
+          "text": "pig",
+          "imageAssetPath": "option-art/f6ac35aaed60ff9607bbb5ac.svg"
         },
         {
           "optionId": "b",
-          "text": "bear"
+          "text": "bear",
+          "imageAssetPath": "option-art/8b16926c59e767a6ccf63edf.svg"
         },
         {
           "optionId": "c",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/731a0835e88f4aa5b6f6bc42.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-030.png",
+      "promptImageAssetPath": "question-art/new-ali-english-030.svg",
       "promptAudioAssetPath": "speech/93e182be38e8c57578c3001a84860961559211561bc4eeb5428d3e30ba0d4991.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8b0fb6d7ee8407785ee92844d6e4970177b0759abf72e62a3d4019fac2982310.ogg",
@@ -1581,22 +1677,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "cup"
+          "text": "cup",
+          "imageAssetPath": "option-art/b11574cc6f8c585229579db9.svg"
         },
         {
           "optionId": "b",
-          "text": "shoe"
+          "text": "shoe",
+          "imageAssetPath": "option-art/c13a73ae0307024d0ec93ee9.svg"
         },
         {
           "optionId": "c",
-          "text": "nest"
+          "text": "nest",
+          "imageAssetPath": "option-art/5dee5d259d3c33c9918d1adf.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-031.png",
+      "promptImageAssetPath": "question-art/new-ali-english-031.svg",
       "promptAudioAssetPath": "speech/a0c209d28b65456d01151c15463d487440a6104c30f40d95cd19bbb6b5110a9c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/aa27504119ecab73339d1f0903b1f5eb1327787c164a1a0ca2ff6c535fb914af.ogg",
@@ -1615,22 +1714,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "teeth"
+          "text": "teeth",
+          "imageAssetPath": "option-art/784c2cef667fc8ac00c912aa.svg"
         },
         {
           "optionId": "b",
-          "text": "shoes"
+          "text": "shoes",
+          "imageAssetPath": "option-art/c13a73ae0307024d0ec93ee9.svg"
         },
         {
           "optionId": "c",
-          "text": "hands"
+          "text": "hands",
+          "imageAssetPath": "option-art/abcb9617c88c0491c5d8ea48.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-032.png",
+      "promptImageAssetPath": "question-art/new-ali-english-032.svg",
       "promptAudioAssetPath": "speech/b6b1477d2209f67218a1e1ea93a7f594dd8c26642189fb95c073b2241bbbef78.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/557882596a5a9211297c89838bb7565d10c996c50184b9963095bc9c72c5ea99.ogg",
@@ -1664,7 +1766,7 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-033.png",
+      "promptImageAssetPath": "question-art/new-ali-english-033.svg",
       "promptAudioAssetPath": "speech/a68c648ed9452b76d14b4de247ddec61eff0a0df3df18602a77e630e76f55a3c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7cb4c285de6a57f9c861d221242956f1fb9edd8c1fd108c65e046b54d5c06b73.ogg",
@@ -1683,7 +1785,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "cold"
+          "text": "cold",
+          "imageAssetPath": "option-art/1452ccc4ccb9899633529663.svg"
         },
         {
           "optionId": "b",
@@ -1691,14 +1794,15 @@
         },
         {
           "optionId": "c",
-          "text": "hot"
+          "text": "hot",
+          "imageAssetPath": "option-art/37e5a6a3c15ca8fd9c8f4417.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-034.png",
+      "promptImageAssetPath": "question-art/new-ali-english-034.svg",
       "promptAudioAssetPath": "speech/2dd52ca3a4c9b7bdd13354ac9c54d49bbc2103574216eecd199d371de9bdc150.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c8027ec9700fa92271c9157e7e95848d7dd03e70e7ec02c1ceb376757d6a637a.ogg",
@@ -1725,14 +1829,15 @@
         },
         {
           "optionId": "c",
-          "text": "farm"
+          "text": "farm",
+          "imageAssetPath": "option-art/b98a464e78aa16f9bfa215ee.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-035.png",
+      "promptImageAssetPath": "question-art/new-ali-english-035.svg",
       "promptAudioAssetPath": "speech/29e4d1c13ca41510ae4d9fb8f2d4bfddff65ceb452a6a1151afc52ead0fbfa3b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/77f282a6e59fc033d0967340041c7a8b5cda71a5c5ad71a0f0f425fd374f17d5.ogg",
@@ -1751,22 +1856,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "ball"
+          "text": "ball",
+          "imageAssetPath": "option-art/44afe55cce5b1ac83ec6e849.svg"
         },
         {
           "optionId": "b",
-          "text": "spoon"
+          "text": "spoon",
+          "imageAssetPath": "option-art/1ef66a894cfe1b90ed437781.svg"
         },
         {
           "optionId": "c",
-          "text": "book"
+          "text": "book",
+          "imageAssetPath": "option-art/aa5d2d3cad68c6a3e1c954d1.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-036.png",
+      "promptImageAssetPath": "question-art/new-ali-english-036.svg",
       "promptAudioAssetPath": "speech/a9c4ae8a0ba3973ba5515c406cef70d4620775594c44144f6d4bff2d352708ea.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5af17a1903c9b8d3b93c74fea9759e3d573d398fef91a82760be9be7fc665c0e.ogg",
@@ -1785,11 +1893,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "water"
+          "text": "water",
+          "imageAssetPath": "option-art/2052f20ec977a8724355746e.svg"
         },
         {
           "optionId": "b",
-          "text": "clouds"
+          "text": "clouds",
+          "imageAssetPath": "option-art/e8515c5670d8404b60549d45.svg"
         },
         {
           "optionId": "c",
@@ -1800,7 +1910,7 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-037.png",
+      "promptImageAssetPath": "question-art/new-ali-english-037.svg",
       "promptAudioAssetPath": "speech/417dee2f9a94eb3d27b86870d14cacfd78b553a2279b50bbffc925d5a1c4be4d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/25d4e44aabed06dbabae774f2fdfe6fc186bd50822952bb6b0145e6a9691b1d1.ogg",
@@ -1819,7 +1929,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "is windy indoors"
+          "text": "is windy indoors",
+          "imageAssetPath": "option-art/fa0710ecfd00e9245217c1d0.svg"
         },
         {
           "optionId": "b",
@@ -1827,14 +1938,15 @@
         },
         {
           "optionId": "c",
-          "text": "is sunny"
+          "text": "is sunny",
+          "imageAssetPath": "option-art/88d9c24cf45cae60d44b06e8.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-038.png",
+      "promptImageAssetPath": "question-art/new-ali-english-038.svg",
       "promptAudioAssetPath": "speech/62a2f24bcfa9f85e7f1c9f4a3fd29def247372b6463ea2dec79f74bd3946c052.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/28b7441874850a7c6766c2e0ba41d9bb1b81cfca4161cb1b8006ab45df2512a9.ogg",
@@ -1853,22 +1965,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "bread"
+          "text": "bread",
+          "imageAssetPath": "option-art/5b987b1108322d53094de045.svg"
         },
         {
           "optionId": "b",
-          "text": "toys"
+          "text": "toys",
+          "imageAssetPath": "option-art/9b4bf16d4e637afe529b442a.svg"
         },
         {
           "optionId": "c",
-          "text": "shoes"
+          "text": "shoes",
+          "imageAssetPath": "option-art/c13a73ae0307024d0ec93ee9.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-039.png",
+      "promptImageAssetPath": "question-art/new-ali-english-039.svg",
       "promptAudioAssetPath": "speech/fe55ef986eea1d7a7c7ed935aa38092369b4303f6f2e0d5c076423536b1b1d01.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/afd27f85e62fddc9b7bfe3136e2230a248e4e2e725d61f3165450ae8cdec6f5c.ogg",
@@ -1887,22 +2002,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "weight"
+          "text": "weight",
+          "imageAssetPath": "option-art/a921ee70599aec7789326711.svg"
         },
         {
           "optionId": "b",
-          "text": "time"
+          "text": "time",
+          "imageAssetPath": "option-art/6620fed2ceee7a9682f4ff1d.svg"
         },
         {
           "optionId": "c",
-          "text": "colour"
+          "text": "colour",
+          "imageAssetPath": "option-art/5b76b0680f3d359b0c2becc2.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-english-040.png",
+      "promptImageAssetPath": "question-art/new-ali-english-040.svg",
       "promptAudioAssetPath": "speech/a12e7efbdf7fae0ce3217c3d93121eacd7cc7154d9c2d6cd0ee70213bbe58646.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/090d08db5ec3e047d651e31f49ebeeab3d8dda1ad96874448569df60ea2fdfd4.ogg",
@@ -1921,22 +2039,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-001.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-001.svg",
       "promptAudioAssetPath": "speech/7a5c617af13ba198ef324ca1d6575e947bf67a0ffa88384a338565a6983584f2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d760f77019a426e78a068c5f0513ae080a09aa16999c1e26bd56bf0d3ef43558.ogg",
@@ -1955,22 +2076,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-002.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-002.svg",
       "promptAudioAssetPath": "speech/3fcf026fea897f195b8ec60c2e4bfe144f9eff47ba06e49bd58e36de9ef01d0e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d70a3915f86f313134550c557ec388e4c9edcdc449ce01f962a855d1e2b7e4eb.ogg",
@@ -1989,22 +2113,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-003.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-003.svg",
       "promptAudioAssetPath": "speech/ab23f0c1e371f3a4a74c42b382e1d439c08664e09df6674911cffb601c366dc8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cebc210d7cf8bdb8adc640997266617407cd1ea28b01d6f3826556ff85a4dcb6.ogg",
@@ -2023,22 +2150,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/830127ab62db86bf97f3a6dc.svg"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-004.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-004.svg",
       "promptAudioAssetPath": "speech/69374c7d1b019293cb5b9cb1840908760813a614ea24cc80076a0f8d89f2d7eb.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5aa18c6980816d91e6168b5b04f90e185e79126e3c8a7a3db19fe0c5ca6f5c61.ogg",
@@ -2057,22 +2187,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-005.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-005.svg",
       "promptAudioAssetPath": "speech/09207d57c195922dc7bd0c6c79e71603c12454f325e245db0b57c6066bbb26e3.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d6f2b7119b3a508359fa40f0ce3cea550e4fa1327491dd2fa9ce6bd85123c42e.ogg",
@@ -2091,22 +2224,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-006.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-006.svg",
       "promptAudioAssetPath": "speech/6fdb449d7f433b651435e3da030c8eb5f7b4fda76852e845710ccb0cdb8b0c53.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b15b47e009ac85baeffca087e9e150375011cc5bd800d91c77b7388440c5a2e2.ogg",
@@ -2125,22 +2261,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "c",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-007.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-007.svg",
       "promptAudioAssetPath": "speech/15df28a8b3fa624245dd7b9caec5924c498de76e00079fa753c6f56edfb76780.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5fd5d7fe76b0ce15a4cd096f150163335a70fb6a45c6119359e3079d4323d5f2.ogg",
@@ -2159,22 +2298,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-008.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-008.svg",
       "promptAudioAssetPath": "speech/cbf0f5d248ef287e9ce12a04e70684d371d6ba50b004d06fc612b0e2c974ca39.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/77d98344211fb861bdbedad9aadae2d8698859d0866dfb10d0ddd61643eda05b.ogg",
@@ -2193,22 +2335,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "11"
+          "text": "11",
+          "imageAssetPath": "option-art/e02c7acbc9ed3e533583b5d4.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-009.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-009.svg",
       "promptAudioAssetPath": "speech/62f8bbfae83a8fed9f5e0ed24d24a48a9c2bd42fbfa6558fc0799fe8b9c07147.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/62d20f893c5a1e231626aea4016c4873b4d97d8b45cc917228b157df3022f9bd.ogg",
@@ -2227,22 +2372,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "0"
+          "text": "0",
+          "imageAssetPath": "option-art/4a48a59c3aa297ceee4bdcae.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/830127ab62db86bf97f3a6dc.svg"
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-010.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-010.svg",
       "promptAudioAssetPath": "speech/8fa79681925980133bd8eb1061e528225106216e9eb5f1233600775ae7cab706.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/922cf4ed4f51a010d9fb79c87178d38d13497f8d6302911253264d2b4c3c9a6f.ogg",
@@ -2261,22 +2409,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-011.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-011.svg",
       "promptAudioAssetPath": "speech/47eb85a8f866b83b938dbe08c94ec7d434e632382ad800acd2b98f1bcc0bbf5a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7356cdeb2d2533a52825fd970995d9366e9e983fb55a997d4a888d59f857f101.ogg",
@@ -2295,22 +2446,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "c",
-          "text": "11"
+          "text": "11",
+          "imageAssetPath": "option-art/e02c7acbc9ed3e533583b5d4.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-012.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-012.svg",
       "promptAudioAssetPath": "speech/2bc42632e4e7ede64fd492919e993d0d023d2e17956a081511252018084e0986.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8cccedbc13d133007088018fd2eb95985ea657ad1af597d34cb14c2ff617c6a3.ogg",
@@ -2329,22 +2483,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-013.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-013.svg",
       "promptAudioAssetPath": "speech/fcb8ec005d2607b0c1b997466ea42b00649689f1bd6eb544d1737011f7a74cde.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/730b38db5462809371ccae97929cec660a5289116020d54fcf63f1c88c310100.ogg",
@@ -2363,22 +2520,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-014.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-014.svg",
       "promptAudioAssetPath": "speech/90814fe79a9a581b30e031b63b191343bba186d35a0e62e01a2008630893738a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/efe8bf830b1d9fb9e60629efff58aa4e380d8d31dd0aca8adf779af89bbeef5f.ogg",
@@ -2397,22 +2557,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-015.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-015.svg",
       "promptAudioAssetPath": "speech/ee2988379c591b237a7b08a95b0d45566542ac53299005d0f06be020b17cdbec.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ca87331674f6d75f9211c2cf5bf34ce2ae4c94d3e2795ad9428924dfe9af06c6.ogg",
@@ -2431,22 +2594,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-016.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-016.svg",
       "promptAudioAssetPath": "speech/f5cd1c1009995cec13320208948b6d38c3fca010f5b1b1da1f6d948349b3af14.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/498f574e1ff7ff3e85b8ad172a7d106275cdaf331e65ea8cd8a5c94dfe114d6d.ogg",
@@ -2465,22 +2631,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "c",
-          "text": "11"
+          "text": "11",
+          "imageAssetPath": "option-art/e02c7acbc9ed3e533583b5d4.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-017.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-017.svg",
       "promptAudioAssetPath": "speech/db3ef02abc3ee5d00e9ce0282016ff854773e24d57a0562e6f93533df45867ea.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bc0d311f1ce44e6ef9eaa81323ba3973c8ad635b01360f7e0b8841759f7fe84b.ogg",
@@ -2499,22 +2668,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "c",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-018.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-018.svg",
       "promptAudioAssetPath": "speech/5448d94b9202712292ce1fa176ed23a7e4b13bce6f6f6f605f6e30b48d4c59a7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3c646ad76c5054000de869d2a72aac3f64270eadcc02cacc8378331a90265586.ogg",
@@ -2533,22 +2705,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-019.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-019.svg",
       "promptAudioAssetPath": "speech/cbf8b7ee14fa6a14502667841e7dcf7fb7e78cfc6c71e2150c3ca17acda1ad77.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8eeaebf5cf3944f251c1b26d3f0e6a9249967f712fa55440ef3207202771f62b.ogg",
@@ -2567,22 +2742,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/830127ab62db86bf97f3a6dc.svg"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-020.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-020.svg",
       "promptAudioAssetPath": "speech/c162e847137e6816cae2f24c2e8d984e9ec162c6ad162b59beaed403a840ff44.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5ec978dc68f3f3cd79f73a894ad323f1662efa0c02cb383f89316ad533b26036.ogg",
@@ -2601,22 +2779,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/159669fae8936d0b9cc9387c.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/cb5e0cf78f9f5643c60ed227.svg"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/45cdaca6d40896c7f3e710ca.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-021.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-021.svg",
       "promptAudioAssetPath": "speech/b737045b3bf4d2a3a194682546cc46f13502f5796328af33d11ed0f0d1797208.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/358e6e2fcf3a246df0f271e6a189ec3a4f0fed6bfea15d2e9ef6cee745fdc2f8.ogg",
@@ -2635,22 +2816,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "0"
+          "text": "0",
+          "imageAssetPath": "option-art/a000a0009a0e321f7a5d0145.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/8b108c95f23b09552bf08e1d.svg"
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/159669fae8936d0b9cc9387c.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-022.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-022.svg",
       "promptAudioAssetPath": "speech/73dc3dbe9184676ad7b3960e61d3e13edc306b592520a0dbadb5c4d4524cead4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/0f21477ab161952b2c628f3faf9444d0d54dbca1cb45c31dcb6a27e6c1e28e8d.ogg",
@@ -2669,22 +2853,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/d80cceb21055d59cb469cab7.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/cb5e0cf78f9f5643c60ed227.svg"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/2b30bf30e3e2c32b0f730e96.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-023.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-023.svg",
       "promptAudioAssetPath": "speech/aefb1f5bf649b6bffc6eb7e0fae74df88b4c69abf1a30f56912b97da1248f97c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/158375c545c9d2586955e94eb58f85b689c925f20409635794babc3cdf85e716.ogg",
@@ -2703,22 +2890,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/45cdaca6d40896c7f3e710ca.svg"
         },
         {
           "optionId": "b",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/159669fae8936d0b9cc9387c.svg"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/cb5e0cf78f9f5643c60ed227.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-024.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-024.svg",
       "promptAudioAssetPath": "speech/31300ac524962ad8df873d74e8468ac14dfb99d87b571498fba50f8a820f4e1b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/0b6a0f3c4861d68ab756a1ce17d23434e715560a0fa10f5a6d72ea5b98b7705e.ogg",
@@ -2737,22 +2927,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/1888a97076c2908b2d3082ae.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/e2a2965e8f10afc47904477a.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/7c819d6c6207467819ecf88f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-025.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-025.svg",
       "promptAudioAssetPath": "speech/8168695e9c40e28c3c6898284d7e4349e5d540e7e5514d47e7739cff47280a74.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/058f3f9e758eefaf30790191046c2d80e95a3372573502b6e54e8da8f56e4e11.ogg",
@@ -2771,22 +2964,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/cb5e0cf78f9f5643c60ed227.svg"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/2b30bf30e3e2c32b0f730e96.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/d80cceb21055d59cb469cab7.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-026.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-026.svg",
       "promptAudioAssetPath": "speech/5d6de001bb00c4660c36eda453b73bbba630479b53618fa54d78ffac9e6c1df4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b4a5eab00169c2e942f74ddaefdcff1e4d80d9fd99d02e3e9e0519544fdcb20f.ogg",
@@ -2805,22 +3001,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/e2a2965e8f10afc47904477a.svg"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/1888a97076c2908b2d3082ae.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/7c819d6c6207467819ecf88f.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-027.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-027.svg",
       "promptAudioAssetPath": "speech/98cdcff429e2fd9bc57b762bea97bd27ef9480c2b83c5e9d0393a92fd2254295.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2a0871a645e3eb7de92d090a3d6d72a729bbf0a750acbda2b2e71d318734b4a6.ogg",
@@ -2839,22 +3038,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/dad7e272047d2fd34b422a07.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/e2a2965e8f10afc47904477a.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/1888a97076c2908b2d3082ae.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-028.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-028.svg",
       "promptAudioAssetPath": "speech/81b80602bfd334c82f81985b279b58aa25abb902be8a46dc66cf0026d86ab00d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/70171d2f663f183173dd32c3346a77fb8136abb2ebeabfa898bc02c70e5b8164.ogg",
@@ -2873,22 +3075,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/2b30bf30e3e2c32b0f730e96.svg"
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/dad7e272047d2fd34b422a07.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/1888a97076c2908b2d3082ae.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-029.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-029.svg",
       "promptAudioAssetPath": "speech/f5537c73e0a8074775646f0c1290c60fca3c76edc5934cd6bf4cc9e2ff8504b0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/26d6d73d84077b6c58ed058d310b293d68fd7b0915c80c632c6b859940633034.ogg",
@@ -2907,22 +3112,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "0"
+          "text": "0",
+          "imageAssetPath": "option-art/a000a0009a0e321f7a5d0145.svg"
         },
         {
           "optionId": "b",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/159669fae8936d0b9cc9387c.svg"
         },
         {
           "optionId": "c",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/8b108c95f23b09552bf08e1d.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-030.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-030.svg",
       "promptAudioAssetPath": "speech/d3a3c055cd2d12cb37fa0cf3e2c18698a4d273c0dae936fef692eed1ed39d69e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a590a75b00d798fa78c3d2d51792a3ed83fbfacbbf37f923a6fea3aa93a37efa.ogg",
@@ -2941,22 +3149,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-031.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-031.svg",
       "promptAudioAssetPath": "speech/c851ce63482c75117ff530c8b1ef5916b2ec42231e49a3f451c8087b9ad70fc2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3e69e97796b36cc5a030eb7b8dd5129605a19499b2216aa475d448d250ffcaa0.ogg",
@@ -2975,22 +3186,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-032.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-032.svg",
       "promptAudioAssetPath": "speech/0554a8e87f2515b9693e7d6e84d6f68325aeb05fc974af8ca5ecd1dc151da4b4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c020bc5c206d0b2a99279cc65d16a98179d62b524420fc47ae32f6aae6a92e99.ogg",
@@ -3009,22 +3223,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-033.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-033.svg",
       "promptAudioAssetPath": "speech/98eda9d764b8635c51f39fe1d6bf13dc665f60b13d353e8792f71e9049ad8d5c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/067100d75803f40fa4719295875783a69452297ab30445441033d1c6149ce9ec.ogg",
@@ -3043,22 +3260,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/830127ab62db86bf97f3a6dc.svg"
         },
         {
           "optionId": "c",
-          "text": "0"
+          "text": "0",
+          "imageAssetPath": "option-art/4a48a59c3aa297ceee4bdcae.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-034.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-034.svg",
       "promptAudioAssetPath": "speech/4a0cc6dd6702882fd4b3565dfaf0ed1b33131941b616287c01944af0e0cf9251.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bb041fa4157835412fa7da6171f62f7bd0f7b98c2c1dd5e591326be0d8c9739d.ogg",
@@ -3077,22 +3297,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-maths-035.png",
+      "promptImageAssetPath": "question-art/new-ali-maths-035.svg",
       "promptAudioAssetPath": "speech/5dceee0eb9b9653b6ddbc36649bc17f9560065c33f0beefa81d175870c6e2de8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/40bfc28dd7b1382f0fab69a307808fdd9eef60e04a9a2e9837ec4819538a7abb.ogg",
@@ -3111,22 +3334,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Plants do not need sunlight"
+          "text": "Plants do not need sunlight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         },
         {
           "optionId": "b",
-          "text": "Plants need water, light and air"
+          "text": "Plants need water, light and air",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         },
         {
           "optionId": "c",
-          "text": "Plants can grow without water"
+          "text": "Plants can grow without water",
+          "imageAssetPath": "option-art/6ad96f482e3d44ea36566b5f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-001.png",
+      "promptImageAssetPath": "question-art/new-ali-science-001.svg",
       "promptAudioAssetPath": "speech/b11e16ff095a6ba1c30bf2c1b640ab5ade1fb16073eb0eb6955f7b3ebfd2c2b2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/dcd05f2e77f771413a98e7711da6e54a13b222b390096e452c6c625a2391c96c.ogg",
@@ -3145,22 +3371,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Roots make sunlight"
+          "text": "Roots make sunlight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         },
         {
           "optionId": "b",
-          "text": "Roots take in water from the soil"
+          "text": "Roots take in water from the soil",
+          "imageAssetPath": "option-art/572b787201172643a28e6fe6.svg"
         },
         {
           "optionId": "c",
-          "text": "Flowers take in all the water"
+          "text": "Flowers take in all the water",
+          "imageAssetPath": "option-art/4e36a4648c9284129e5fb98b.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-002.png",
+      "promptImageAssetPath": "question-art/new-ali-science-002.svg",
       "promptAudioAssetPath": "speech/986f1c391d7f041434920a3ec7b09f07dd247d0e56fdd01f1b7cc6a2b403b535.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/76fb907c9d014803c275bb27b37f03e4493fc125662805c27976bb43e16cbf42.ogg",
@@ -3179,22 +3408,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A seed can grow into a new plant"
+          "text": "A seed can grow into a new plant",
+          "imageAssetPath": "option-art/7fb09ac8670a2c1d5df78274.svg"
         },
         {
           "optionId": "b",
-          "text": "A seed cannot grow"
+          "text": "A seed cannot grow",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         },
         {
           "optionId": "c",
-          "text": "A seed grows into an animal"
+          "text": "A seed grows into an animal",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-003.png",
+      "promptImageAssetPath": "question-art/new-ali-science-003.svg",
       "promptAudioAssetPath": "speech/63f4fc8db38cb223a583c705ea4d7185bd3ae0aced9865200f735e951486f06f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5e4dec2b7f1c49a67d6dbd267b523443474a13600eeb979971dc67e48bc943ea.ogg",
@@ -3213,22 +3445,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A goat is a reptile"
+          "text": "A goat is a reptile",
+          "imageAssetPath": "option-art/af8d5039eb7303a575373ba9.svg"
         },
         {
           "optionId": "b",
-          "text": "A goat is a bird"
+          "text": "A goat is a bird",
+          "imageAssetPath": "option-art/ef7d172212bc527625eadcb5.svg"
         },
         {
           "optionId": "c",
-          "text": "A goat is a mammal"
+          "text": "A goat is a mammal",
+          "imageAssetPath": "option-art/af8d5039eb7303a575373ba9.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-004.png",
+      "promptImageAssetPath": "question-art/new-ali-science-004.svg",
       "promptAudioAssetPath": "speech/835cd6fc09a1cc90ad9d03ff2779a5775dbfd4f8a943d8d3f3a230fac3864b6a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ba1292c857ff8ff6b5c57345ae25977d828b0d42627a024ecbba19ee292d9424.ogg",
@@ -3247,22 +3482,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Camels are adapted to dry deserts"
+          "text": "Camels are adapted to dry deserts",
+          "imageAssetPath": "option-art/43c133f67ffabb3f6a5c6d90.svg"
         },
         {
           "optionId": "b",
-          "text": "Camels are adapted to icy polar habitats"
+          "text": "Camels are adapted to icy polar habitats",
+          "imageAssetPath": "option-art/cc37f0ba602c9c4d7bc3414a.svg"
         },
         {
           "optionId": "c",
-          "text": "Camels live only underwater"
+          "text": "Camels live only underwater",
+          "imageAssetPath": "option-art/e470425486ac1efe5dfeb5fc.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-005.png",
+      "promptImageAssetPath": "question-art/new-ali-science-005.svg",
       "promptAudioAssetPath": "speech/7e2aeb54b670f0f2924ed3d0d72fd95f88116b340d989d974975f5399a92d1f6.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ce1913ed83b7c3af6716eccdbd67c18668cae7e97052e454719d07fdd48cc8fa.ogg",
@@ -3281,22 +3519,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hens have feathers"
+          "text": "Hens have feathers",
+          "imageAssetPath": "option-art/d5eef51390f5e38dba95dbb2.svg"
         },
         {
           "optionId": "b",
-          "text": "Hens have fur"
+          "text": "Hens have fur",
+          "imageAssetPath": "option-art/d5eef51390f5e38dba95dbb2.svg"
         },
         {
           "optionId": "c",
-          "text": "Hens have scales"
+          "text": "Hens have scales",
+          "imageAssetPath": "option-art/d5eef51390f5e38dba95dbb2.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-006.png",
+      "promptImageAssetPath": "question-art/new-ali-science-006.svg",
       "promptAudioAssetPath": "speech/ddfa4cba97c85e24339e8452b38e197e0ff2f7e07ac2c953ad0390a89609b77f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b7ba886500187689d3e634b61915e444681f6aae7093047b93501bafbdd185f1.ogg",
@@ -3315,22 +3556,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hands help us hear sounds"
+          "text": "Hands help us hear sounds",
+          "imageAssetPath": "option-art/be4d36ad0b27b9d5edfad94f.svg"
         },
         {
           "optionId": "b",
-          "text": "Ears help us hear sounds"
+          "text": "Ears help us hear sounds",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "c",
-          "text": "Eyes help us hear sounds"
+          "text": "Eyes help us hear sounds",
+          "imageAssetPath": "option-art/3d751aa216c249e3f465ae53.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-007.png",
+      "promptImageAssetPath": "question-art/new-ali-science-007.svg",
       "promptAudioAssetPath": "speech/9b1fa13ffe9b471fe05cce8f5a0878176ffc70ed51e1d4d082095192e42a237c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/da53dda6f168636649e7cf0ee7625fb351bb910088fbc4dc04e44b4c68fa77c0.ogg",
@@ -3349,22 +3593,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Feet help us smell"
+          "text": "Feet help us smell",
+          "imageAssetPath": "option-art/b82f7933fb9194e5f01fa921.svg"
         },
         {
           "optionId": "b",
-          "text": "Ears help us smell"
+          "text": "Ears help us smell",
+          "imageAssetPath": "option-art/21c49b2cfab59cb5835ecb4a.svg"
         },
         {
           "optionId": "c",
-          "text": "The nose helps us smell"
+          "text": "The nose helps us smell",
+          "imageAssetPath": "option-art/de3bc6d1d86d5349bc238a0a.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-008.png",
+      "promptImageAssetPath": "question-art/new-ali-science-008.svg",
       "promptAudioAssetPath": "speech/308b3772b36a942e7cc9fdcb3ae65e3a187a6d8441e7d4f4d86c2c394bd0b45a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/52b8d76d618c7355f2774d6d742b04108e25bd447ba3985d36708436ab80cbf8.ogg",
@@ -3383,22 +3630,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The tongue helps us taste food"
+          "text": "The tongue helps us taste food",
+          "imageAssetPath": "option-art/20221c62a0090fcfe241a87a.svg"
         },
         {
           "optionId": "b",
-          "text": "Skin helps us taste food"
+          "text": "Skin helps us taste food",
+          "imageAssetPath": "option-art/20221c62a0090fcfe241a87a.svg"
         },
         {
           "optionId": "c",
-          "text": "Ears help us taste food"
+          "text": "Ears help us taste food",
+          "imageAssetPath": "option-art/81872a22597ddc8e099d16ce.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-009.png",
+      "promptImageAssetPath": "question-art/new-ali-science-009.svg",
       "promptAudioAssetPath": "speech/6d06c42c0c19f70296285b645739b02e9adbb4ea41f63f3ad0a1cb9544361ac4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/14cc9946e9e0ce88c9cb0377ace47309901d954c61cf9414539412e5879923e5.ogg",
@@ -3417,22 +3667,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Washing hands with soap helps remove germs"
+          "text": "Washing hands with soap helps remove germs",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         },
         {
           "optionId": "b",
-          "text": "Dry hands remove all germs"
+          "text": "Dry hands remove all germs",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         },
         {
           "optionId": "c",
-          "text": "Soap makes germs grow on hands"
+          "text": "Soap makes germs grow on hands",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-010.png",
+      "promptImageAssetPath": "question-art/new-ali-science-010.svg",
       "promptAudioAssetPath": "speech/d69e06ea10815b65a3b6df2db1c62522833f36e223f8eaa56b0aaac0ff229fd5.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8c3ea79d91afa6990772590c2cc6d991526a58d1f1779ef5f07d65401f404dc5.ogg",
@@ -3451,22 +3704,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Dark clouds always mean snow"
+          "text": "Dark clouds always mean snow",
+          "imageAssetPath": "option-art/494b63209019a5c6ae22ede3.svg"
         },
         {
           "optionId": "b",
-          "text": "Dark clouds can be a sign of rain"
+          "text": "Dark clouds can be a sign of rain",
+          "imageAssetPath": "option-art/abff8448b90c55f70ca7f2b4.svg"
         },
         {
           "optionId": "c",
-          "text": "Dark clouds are made of smoke"
+          "text": "Dark clouds are made of smoke",
+          "imageAssetPath": "option-art/4ee3a97ab2bc411903c00463.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-011.png",
+      "promptImageAssetPath": "question-art/new-ali-science-011.svg",
       "promptAudioAssetPath": "speech/bec6969e0cc4d9d5dc499a498134b38008ec10cf4bee3c3652ca93423f1981c5.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/de9f08116b574f723951c3b7749f082bbed1da53e7efc34e30012c6bd28102cd.ogg",
@@ -3485,22 +3741,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Rain lifts a kite into the sky"
+          "text": "Rain lifts a kite into the sky",
+          "imageAssetPath": "option-art/dfc58d99cabf864560b139b7.svg"
         },
         {
           "optionId": "b",
-          "text": "Wind can make a kite fly"
+          "text": "Wind can make a kite fly",
+          "imageAssetPath": "option-art/204a60576f22ff2035c82fa2.svg"
         },
         {
           "optionId": "c",
-          "text": "Still air makes a kite fly high"
+          "text": "Still air makes a kite fly high",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-012.png",
+      "promptImageAssetPath": "question-art/new-ali-science-012.svg",
       "promptAudioAssetPath": "speech/b5edc1b9cc0c7c05158d9d167eaf91756711f7b42b01ea28f7998f73215904d7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/fc31d7d8f364cd5ed949dd6fdf76226fea795525fc9e698d2c8cb280176d5f7b.ogg",
@@ -3519,22 +3778,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Stars make daytime bright"
+          "text": "Stars make daytime bright",
+          "imageAssetPath": "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
         },
         {
           "optionId": "b",
-          "text": "The Moon gives Earth its daylight"
+          "text": "The Moon gives Earth its daylight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         },
         {
           "optionId": "c",
-          "text": "The Sun gives Earth daylight"
+          "text": "The Sun gives Earth daylight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-013.png",
+      "promptImageAssetPath": "question-art/new-ali-science-013.svg",
       "promptAudioAssetPath": "speech/89f761d08d3d171ad4201b595f35d0e6f09c2f902748345b694eac5511d3756f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/6316978cb68c02099ac8e068a27091493be8bd73c4f69aa32e8de5cac0ea6a99.ogg",
@@ -3553,22 +3815,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A paper bag keeps us dry in rain"
+          "text": "A paper bag keeps us dry in rain",
+          "imageAssetPath": "option-art/cf984a4d079ceef7f56f05c9.svg"
         },
         {
           "optionId": "b",
-          "text": "A raincoat makes clothes wetter"
+          "text": "A raincoat makes clothes wetter",
+          "imageAssetPath": "option-art/3e6a10c2e796b1420f11f91d.svg"
         },
         {
           "optionId": "c",
-          "text": "A raincoat helps keep us dry in rain"
+          "text": "A raincoat helps keep us dry in rain",
+          "imageAssetPath": "option-art/3e6a10c2e796b1420f11f91d.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-014.png",
+      "promptImageAssetPath": "question-art/new-ali-science-014.svg",
       "promptAudioAssetPath": "speech/c01515181dd440a539f4372a295e0d09d0fab2b7e7aa55bd30cedec50e20e058.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/f070972e896f91344c72ec9d675dc91a2be4b7d12f063b41a4887b7afd83162a.ogg",
@@ -3587,22 +3852,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Summer is usually warmer than winter"
+          "text": "Summer is usually warmer than winter",
+          "imageAssetPath": "option-art/725cb11dd551a873d6e55923.svg"
         },
         {
           "optionId": "b",
-          "text": "Summer is usually colder than winter"
+          "text": "Summer is usually colder than winter",
+          "imageAssetPath": "option-art/725cb11dd551a873d6e55923.svg"
         },
         {
           "optionId": "c",
-          "text": "Winter is usually warmer than summer"
+          "text": "Winter is usually warmer than summer",
+          "imageAssetPath": "option-art/725cb11dd551a873d6e55923.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-015.png",
+      "promptImageAssetPath": "question-art/new-ali-science-015.svg",
       "promptAudioAssetPath": "speech/c7f7a62632ee89217f4d15146bcce353193f2d80768be50da7ca3703e47edb5a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c48bb703b069409b7958680ef2d2ed278b45d033b5071f4551df67c7f907393c.ogg",
@@ -3621,22 +3889,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A wooden chair is made from water"
+          "text": "A wooden chair is made from water",
+          "imageAssetPath": "option-art/72951ec545845f7eef09298f.svg"
         },
         {
           "optionId": "b",
-          "text": "A wooden chair is made from glass"
+          "text": "A wooden chair is made from glass",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "c",
-          "text": "A wooden chair is made from wood"
+          "text": "A wooden chair is made from wood",
+          "imageAssetPath": "option-art/a9433a3b49bdc7d8ff408079.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-016.png",
+      "promptImageAssetPath": "question-art/new-ali-science-016.svg",
       "promptAudioAssetPath": "speech/da605265d8e47857c85223ae11803952641c76b03112375177b58b48e2e75c76.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/dae47120ba3b34ea62aa57a42df00750161a0a29ea52dd0ee5e654e038a01204.ogg",
@@ -3655,22 +3926,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Clear glass makes its own light"
+          "text": "Clear glass makes its own light",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "b",
-          "text": "Clear glass blocks all light"
+          "text": "Clear glass blocks all light",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "c",
-          "text": "Clear glass lets light pass through"
+          "text": "Clear glass lets light pass through",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-017.png",
+      "promptImageAssetPath": "question-art/new-ali-science-017.svg",
       "promptAudioAssetPath": "speech/984779ba5c67116eeaca184f3e1d24dd3ab2f4756c4da23db764186f8d1d7ccc.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9b115468e15fe87d86d87f4b451b6f5d6bb39c13c68deadcdd7a7f8c936fac3e.ogg",
@@ -3689,22 +3963,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Magnets attract every material"
+          "text": "Magnets attract every material",
+          "imageAssetPath": "option-art/c40b59de92fac5c8b9c6e0ca.svg"
         },
         {
           "optionId": "b",
-          "text": "Magnets can attract iron objects"
+          "text": "Magnets can attract iron objects",
+          "imageAssetPath": "option-art/06c7979dc847855f457607a4.svg"
         },
         {
           "optionId": "c",
-          "text": "Magnets attract paper and wood"
+          "text": "Magnets attract paper and wood",
+          "imageAssetPath": "option-art/88f34cdc6be9ca85d8f63564.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-018.png",
+      "promptImageAssetPath": "question-art/new-ali-science-018.svg",
       "promptAudioAssetPath": "speech/9a5919ee135512e8afba730e94c6418460082135c43e7ce00b8edbaf3e044d25.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7a2912e7cec976e67d137c27619febb43a0498e8be04881a3623c0244dfbeb55.ogg",
@@ -3723,22 +4000,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A rock is non-living"
+          "text": "A rock is non-living",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "b",
-          "text": "A rock needs food to live"
+          "text": "A rock needs food to live",
+          "imageAssetPath": "option-art/8b5200c0331b795b6b344a86.svg"
         },
         {
           "optionId": "c",
-          "text": "A rock grows leaves"
+          "text": "A rock grows leaves",
+          "imageAssetPath": "option-art/65df95e3d3fa5dec0f27d2a9.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-019.png",
+      "promptImageAssetPath": "question-art/new-ali-science-019.svg",
       "promptAudioAssetPath": "speech/fd7dcaffe5eeee34a15bc3fc46e77c5ed22d8a3fc527c1a70b527f3d29c5f012.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/09104806a8ca7fac757509ca0953729060c786b52267230d03fe4c5fbc16e87c.ogg",
@@ -3757,22 +4037,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Animals can live without water"
+          "text": "Animals can live without water",
+          "imageAssetPath": "option-art/093fb24b5a187177d41f01de.svg"
         },
         {
           "optionId": "b",
-          "text": "Animals only need sunlight"
+          "text": "Animals only need sunlight",
+          "imageAssetPath": "option-art/dca1ba6409c7f918fedcba3f.svg"
         },
         {
           "optionId": "c",
-          "text": "Animals need food, water and air"
+          "text": "Animals need food, water and air",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-020.png",
+      "promptImageAssetPath": "question-art/new-ali-science-020.svg",
       "promptAudioAssetPath": "speech/8fb5d50882a5d8c0184d192ae40a211d164bd4052b47374ccd3f8065f06fe3a5.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7b8fe570c0f0f7170dc08c0feebad7ff587cab1fadee8cdb9d31a4e764a9a2f1.ogg",
@@ -3791,22 +4074,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A chick hatches from a stone"
+          "text": "A chick hatches from a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "b",
-          "text": "A chick hatches from a seed"
+          "text": "A chick hatches from a seed",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         },
         {
           "optionId": "c",
-          "text": "A chick hatches from an egg"
+          "text": "A chick hatches from an egg",
+          "imageAssetPath": "option-art/dde6c37f958c493bffba5c21.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-021.png",
+      "promptImageAssetPath": "question-art/new-ali-science-021.svg",
       "promptAudioAssetPath": "speech/9e4bcb696cbd9bd4157c35a86e4dba114a141325c49062cebb634bdaa3c77f52.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5f14534b98eb93f879f87b5c923a16cdba7f7a731c87c607c73dcb0fa4cbf639.ogg",
@@ -3825,22 +4111,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The skull protects the brain"
+          "text": "The skull protects the brain",
+          "imageAssetPath": "option-art/430772e32e82c8d01309e2a7.svg"
         },
         {
           "optionId": "b",
-          "text": "The skull helps us digest food"
+          "text": "The skull helps us digest food",
+          "imageAssetPath": "option-art/430772e32e82c8d01309e2a7.svg"
         },
         {
           "optionId": "c",
-          "text": "The skull protects the stomach"
+          "text": "The skull protects the stomach",
+          "imageAssetPath": "option-art/430772e32e82c8d01309e2a7.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-022.png",
+      "promptImageAssetPath": "question-art/new-ali-science-022.svg",
       "promptAudioAssetPath": "speech/d3726c1689c109d22aa8a321a2b3488092cd3a0709c89655e1edc138e920bfa8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/733ce58bbd4048c8fd1ef5a60e79d85bae26aa1dcdda30fb18ac9c4f128fb420.ogg",
@@ -3859,22 +4148,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hot stoves are safe to play beside"
+          "text": "Hot stoves are safe to play beside",
+          "imageAssetPath": "option-art/6f3b1767afde5d74de45bdf8.svg"
         },
         {
           "optionId": "b",
-          "text": "We should stay away from hot stoves"
+          "text": "We should stay away from hot stoves",
+          "imageAssetPath": "option-art/43bb16c5153ccf63a26e02f4.svg"
         },
         {
           "optionId": "c",
-          "text": "Touch a hot stove to test it"
+          "text": "Touch a hot stove to test it",
+          "imageAssetPath": "option-art/b5cc91945da8dcc03c4b0baa.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-023.png",
+      "promptImageAssetPath": "question-art/new-ali-science-023.svg",
       "promptAudioAssetPath": "speech/8777e9354a8f34b8fe9e843ba8e4df4fc0e9c1c57efe7de09c00cc02a74f32d4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4a913279f746e4525c3247f6244e29188d943fd818942be23a48c226c12fc309.ogg",
@@ -3893,22 +4185,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A cork can float on water"
+          "text": "A cork can float on water",
+          "imageAssetPath": "option-art/720341f6793664e07009cb53.svg"
         },
         {
           "optionId": "b",
-          "text": "A cork dissolves in water"
+          "text": "A cork dissolves in water",
+          "imageAssetPath": "option-art/720341f6793664e07009cb53.svg"
         },
         {
           "optionId": "c",
-          "text": "A cork always sinks in water"
+          "text": "A cork always sinks in water",
+          "imageAssetPath": "option-art/720341f6793664e07009cb53.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-024.png",
+      "promptImageAssetPath": "question-art/new-ali-science-024.svg",
       "promptAudioAssetPath": "speech/2d44456974aeacb01a9d01d82a5cecc3d1305f00461ddb1924b6f35c40b74f26.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bcda4b92094f60a878e9bba6835da8b3abd45b25670f24d1bc4fb66223780ed9.ogg",
@@ -3927,22 +4222,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Ice melts into liquid water"
+          "text": "Ice melts into liquid water",
+          "imageAssetPath": "option-art/fe2eaf9118c3788223afada3.svg"
         },
         {
           "optionId": "b",
-          "text": "Ice changes into stone"
+          "text": "Ice changes into stone",
+          "imageAssetPath": "option-art/c0078da69a2e2960a81b444e.svg"
         },
         {
           "optionId": "c",
-          "text": "Ice changes into sand"
+          "text": "Ice changes into sand",
+          "imageAssetPath": "option-art/528dd03dbd919195364c28f3.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/new-ali-science-025.png",
+      "promptImageAssetPath": "question-art/new-ali-science-025.svg",
       "promptAudioAssetPath": "speech/de3929300308e90e91646c16e622c151ab059356c00c0075ab1ad2e950791d9d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1c927f88b1c9c175d517d8ed7d8d949e757130c7c9db83e620ab6804469d61f3.ogg",

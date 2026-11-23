@@ -447,22 +447,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "b",
-          "text": "70"
+          "text": "70",
+          "imageAssetPath": "option-art/e7c623e01f3ab0aca2ffeeda.svg"
         },
         {
           "optionId": "c",
-          "text": "700"
+          "text": "700",
+          "imageAssetPath": "option-art/f8448d0a47f10407288d1bc8.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-place-01-en.png",
+      "promptImageAssetPath": "question-art/g2-place-01-en.svg",
       "promptAudioAssetPath": "speech/fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e0cfcb90289768cb690c70c10dafb87ea67c38a34eeae277084f4873c95db44b.ogg",
@@ -506,22 +509,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "39"
+          "text": "39",
+          "imageAssetPath": "option-art/a4cc43f4cddc9df33a07ae97.svg"
         },
         {
           "optionId": "b",
-          "text": "38"
+          "text": "38",
+          "imageAssetPath": "option-art/f483f236bf503e769b0227ef.svg"
         },
         {
           "optionId": "c",
-          "text": "40"
+          "text": "40",
+          "imageAssetPath": "option-art/857dfbaef0b6d41248d8d562.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-add-01-en.png",
+      "promptImageAssetPath": "question-art/g2-add-01-en.svg",
       "promptAudioAssetPath": "speech/bc5f422bf6fca14163c03454b777d36ac0fbfa0a7a5a125965eec01fb49342c0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/26ce3fcafec57b9eececff8c84cfc958af6fefb92943de737d6c12f2b1feda77.ogg",
@@ -565,11 +571,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The pencil"
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
         },
         {
           "optionId": "b",
-          "text": "The ruler"
+          "text": "The ruler",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
         },
         {
           "optionId": "c",
@@ -580,7 +588,7 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-measure-01-en.png",
+      "promptImageAssetPath": "question-art/g2-measure-01-en.svg",
       "promptAudioAssetPath": "speech/9223ec2dd29f88466448b2abf54ce1da00c81f5727289c7dc319d0cdb559454d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8e66658a0b518f1d312a69b382829d60956b957fbb248acfd14a40823b96e51a.ogg",
@@ -624,25 +632,24 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A river",
-          "imageAssetPath": "option-art/river.png"
+          "text": "A river"
         },
         {
           "optionId": "b",
           "text": "A dry desert",
-          "imageAssetPath": "option-art/desert.png"
+          "imageAssetPath": "option-art/20c602bf30794543642f21fb.svg"
         },
         {
           "optionId": "c",
           "text": "A hot oven",
-          "imageAssetPath": "option-art/oven.png"
+          "imageAssetPath": "option-art/cf6fb35fe9eed6ceea070eb6.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-habitat-01-en.png",
+      "promptImageAssetPath": "question-art/g2-habitat-01-en.svg",
       "promptAudioAssetPath": "speech/2410c68048c847b40a2037c239e3b2bdb6fae0bb72bc3da33ebe0ed48fbbac9d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ae92331fbc9683f2817fc2690529dff18c60bdbab268fab3a87eb79ddc03dc08.ogg",
@@ -686,22 +693,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "desert"
+          "text": "desert",
+          "imageAssetPath": "option-art/7722d6ea1ac80af94cf7a12a.svg"
         },
         {
           "optionId": "b",
-          "text": "chair"
+          "text": "chair",
+          "imageAssetPath": "option-art/b9ddffad7dc80e561cd7c7cf.svg"
         },
         {
           "optionId": "c",
-          "text": "spoon"
+          "text": "spoon",
+          "imageAssetPath": "option-art/1ef66a894cfe1b90ed437781.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/g2-vocab-01-en.png",
+      "promptImageAssetPath": "question-art/g2-vocab-01-en.svg",
       "promptAudioAssetPath": "speech/77c5bfcdea844d24abaa5c0104590bc0722935a216f8a38ff7796538612a38b3.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/26f733b5f762528c629bee3bdd9a2f9af5772d76ae550c56e0cd5e2908889926.ogg",
@@ -745,15 +755,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The children are playing."
+          "text": "The children are playing.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         },
         {
           "optionId": "b",
-          "text": "Playing the children are."
+          "text": "Playing the children are.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         },
         {
           "optionId": "c",
-          "text": "Are the children playing the."
+          "text": "Are the children playing the.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -804,22 +817,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "60"
+          "text": "60",
+          "imageAssetPath": "option-art/07eac41fdba944cd3eb179c6.svg"
         },
         {
           "optionId": "c",
-          "text": "600"
+          "text": "600",
+          "imageAssetPath": "option-art/c70c6b78940e0f783343e355.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-place-02-en.png",
+      "promptImageAssetPath": "question-art/g2-place-02-en.svg",
       "promptAudioAssetPath": "speech/21a62fc843f95de2d022f167b075e462bec4f83b76949e148928564f03ac40d7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/97b45514bc4a491f0dab9311a3a48731eceae0151d9be65569431a887464e4df.ogg",
@@ -838,22 +854,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "58"
+          "text": "58",
+          "imageAssetPath": "option-art/76d67df0004bddfcdcb4ba28.svg"
         },
         {
           "optionId": "b",
-          "text": "59"
+          "text": "59",
+          "imageAssetPath": "option-art/40ca7558c5a24be97555de51.svg"
         },
         {
           "optionId": "c",
-          "text": "69"
+          "text": "69",
+          "imageAssetPath": "option-art/c74d24af97347a2b78253440.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "That's right!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-add-02-en.png",
+      "promptImageAssetPath": "question-art/g2-add-02-en.svg",
       "promptAudioAssetPath": "speech/5c06f467975f538d8b2658c1693d7bdd3930b1ea7a359d4208ca36e021253a29.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a759e3f182de123d948e3f726acb53ce982f94c36dd8ac220c781325e7230862.ogg",
@@ -876,7 +895,8 @@
         },
         {
           "optionId": "b",
-          "text": "The table"
+          "text": "The table",
+          "imageAssetPath": "option-art/79c09568ed7814999f45028d.svg"
         },
         {
           "optionId": "c",
@@ -887,7 +907,7 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/g2-measure-02-en.png",
+      "promptImageAssetPath": "question-art/g2-measure-02-en.svg",
       "promptAudioAssetPath": "speech/aadb47e69760f77edc1f3c0220a9ec01761bfd127f7dc85acf1a818efe8932e6.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bfe560e758f262e63fc265e3302b8d7eba82f8a5723a9e3d76edb3bfa3e93d17.ogg",
@@ -906,25 +926,24 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A coral reef",
-          "imageAssetPath": "option-art/coral-reef.png"
+          "text": "A coral reef"
         },
         {
           "optionId": "b",
           "text": "A desert",
-          "imageAssetPath": "option-art/desert.png"
+          "imageAssetPath": "option-art/20c602bf30794543642f21fb.svg"
         },
         {
           "optionId": "c",
           "text": "A deep ocean",
-          "imageAssetPath": "option-art/deep-ocean.png"
+          "imageAssetPath": "option-art/0111e7e12fffd422a317a7f7.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-habitat-02-en.png",
+      "promptImageAssetPath": "question-art/g2-habitat-02-en.svg",
       "promptAudioAssetPath": "speech/a5403fc4a4fd24f385dd2e269e406411a141439f4a32e675b91b37f624e69071.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/61934f93c61bfb64486403f6834d34718b0c3f2a1e21433124aed2d43fab3870.ogg",
@@ -943,7 +962,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "rain"
+          "text": "rain",
+          "imageAssetPath": "option-art/0e3f257ee17bc95a6b4dde3c.svg"
         },
         {
           "optionId": "b",
@@ -958,7 +978,7 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Have another go!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-vocab-02-en.png",
+      "promptImageAssetPath": "question-art/g2-vocab-02-en.svg",
       "promptAudioAssetPath": "speech/cd6f4d83fdded5b1b54441e4c97e9626c46f1f11523d45caff698a13b1fefe8b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/6870aebb3c981f373520a770dd8b8002d80a518aa34e6e524cb8717d86c5360a.ogg",
@@ -977,15 +997,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Runs the fast dog."
+          "text": "Runs the fast dog.",
+          "imageAssetPath": "option-art/9739aa2cb83d6213322a7ca4.svg"
         },
         {
           "optionId": "b",
-          "text": "The dog runs fast."
+          "text": "The dog runs fast.",
+          "imageAssetPath": "option-art/9739aa2cb83d6213322a7ca4.svg"
         },
         {
           "optionId": "c",
-          "text": "Fast the dog runs."
+          "text": "Fast the dog runs.",
+          "imageAssetPath": "option-art/9739aa2cb83d6213322a7ca4.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1011,15 +1034,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A wooden spoon"
+          "text": "A wooden spoon",
+          "imageAssetPath": "option-art/136f3f4803266ff4c5ec82a7.svg"
         },
         {
           "optionId": "b",
-          "text": "A young bean plant"
+          "text": "A young bean plant",
+          "imageAssetPath": "option-art/6c32a293ac53d297791f730d.svg"
         },
         {
           "optionId": "c",
-          "text": "A plastic flower"
+          "text": "A plastic flower",
+          "imageAssetPath": "option-art/a68a1b7f45ed21e6ca80578e.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1036,7 +1062,7 @@
         "b": "Living and growing",
         "c": "Artificial, despite its shape"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q01-en.svg",
       "promptAudioAssetPath": "speech/3db4db0a64df60d7c84dcceb2a7ed27d88b89e2db30782ca8c13bad83fb4bd84.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3dcd773269b55c814f8030bb023a8f26d2cefe8c52cbf978ebdc1c0770ce278a.ogg",
@@ -1055,15 +1081,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It moves when the wind blows"
+          "text": "It moves when the wind blows",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         },
         {
           "optionId": "b",
-          "text": "Someone paints it green"
+          "text": "Someone paints it green",
+          "imageAssetPath": "option-art/6950ca2b6ea8fd31523c18fe.svg"
         },
         {
           "optionId": "c",
-          "text": "It grows new leaves"
+          "text": "It grows new leaves",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1080,7 +1109,7 @@
         "b": "Paint is not growth",
         "c": "New growth is evidence of life"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q02-en.svg",
       "promptAudioAssetPath": "speech/6b902aed831efdb61e70c0e69337c4d425c60f3957d846c6be3bf42d1e53c546.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e3b739b471e5283e2b28c87f3c510e3e54fb6457c0231d0c8ce4a8dfc13d4a64.ogg",
@@ -1099,15 +1128,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Making food"
+          "text": "Making food",
+          "imageAssetPath": "option-art/d73ea43e5f6274002d311bf3.svg"
         },
         {
           "optionId": "b",
-          "text": "Taking in water through roots"
+          "text": "Taking in water through roots",
+          "imageAssetPath": "option-art/315e6c733b85d4f062a22df6.svg"
         },
         {
           "optionId": "c",
-          "text": "Holding the plant in the soil"
+          "text": "Holding the plant in the soil",
+          "imageAssetPath": "option-art/fe5c187601d382959e70fc63.svg"
         }
       ],
       "correctOptionId": "a",
@@ -1124,7 +1156,7 @@
         "b": "Roots mainly take in water",
         "c": "Roots help anchor the plant"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q03-en.svg",
       "promptAudioAssetPath": "speech/cf7300964b9ee88577a55ac1f462810d2ee6b016ef473763cdbb09c30271ec13.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3a77a8f40b15fdb29a314c20f3e8a9580e88502a1310c90f6bcca1c1077a475a.ogg",
@@ -1147,11 +1179,13 @@
         },
         {
           "optionId": "b",
-          "text": "Measure their heights in the same way"
+          "text": "Measure their heights in the same way",
+          "imageAssetPath": "option-art/cd5636b886166db4eb3b073b.svg"
         },
         {
           "optionId": "c",
-          "text": "Guess which plant is older"
+          "text": "Guess which plant is older",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1168,7 +1202,7 @@
         "b": "The same measure provides comparable evidence",
         "c": "Age is only a guess"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q04-en.svg",
       "promptAudioAssetPath": "speech/fe88d6adcdd3852674f50e65d02de1292359bbdd0d374fad32a75b966d103ce1.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/91e0bc8479986ed0fbb05ed36a61fde68afd8e7a29cc5d0aae23b4abaf274bfe.ogg",
@@ -1187,15 +1221,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A plastic cover around every leaf"
+          "text": "A plastic cover around every leaf",
+          "imageAssetPath": "option-art/133ea4d44d50ce7831cabdba.svg"
         },
         {
           "optionId": "b",
-          "text": "Music played every day"
+          "text": "Music played every day",
+          "imageAssetPath": "option-art/6f3b1767afde5d74de45bdf8.svg"
         },
         {
           "optionId": "c",
-          "text": "A suitable supply of water"
+          "text": "A suitable supply of water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1212,7 +1249,7 @@
         "b": "Music is not a required growth condition",
         "c": "Water is essential"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q05-en.svg",
       "promptAudioAssetPath": "speech/59039797861e5b2b3b788bd3a9fc88ac4d1457185db8d91ceecb7a97f9625473.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cf797370e2ed1395ff40f8c1f03c40356ab3fd0a7056ac9af67b12ed83a2730f.ogg",
@@ -1239,7 +1276,8 @@
         },
         {
           "optionId": "c",
-          "text": "It is changing only because the pot is larger"
+          "text": "It is changing only because the pot is larger",
+          "imageAssetPath": "option-art/e35309be076c2e1ab7e6e02f.svg"
         }
       ],
       "correctOptionId": "a",
@@ -1256,7 +1294,7 @@
         "b": "Plants do not need to walk",
         "c": "Pot size alone does not explain stem growth"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q06-en.svg",
       "promptAudioAssetPath": "speech/0cb6928db884408f7dee7b256ad4f3a213dbc812b405ed85ca7d700329fd26ee.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1063ccc5abe09a94ca141b185bffa97c0ffc3a71d202d3312ebff011753a8dc0.ogg",
@@ -1275,15 +1313,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "All plants have the same size and shape"
+          "text": "All plants have the same size and shape",
+          "imageAssetPath": "option-art/4a4359bb01885d6dc1f85fa8.svg"
         },
         {
           "optionId": "b",
-          "text": "Plants can differ in size, shape and leaf form"
+          "text": "Plants can differ in size, shape and leaf form",
+          "imageAssetPath": "option-art/e0775949eb8a3717bc638cad.svg"
         },
         {
           "optionId": "c",
-          "text": "Only plants with flowers are living"
+          "text": "Only plants with flowers are living",
+          "imageAssetPath": "option-art/071884a791ea61591dc6337d.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1300,7 +1341,7 @@
         "b": "Plants have many forms",
         "c": "Many living plants are not flowering when observed"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q07-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q07-en.svg",
       "promptAudioAssetPath": "speech/96629407eb24d867b9c6d71d075fa3c557ca88a02512a4aced7fbb63d392afa0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/391e0d1048a8231b42671ba2e6061ef51eb5f1a4f635e83570b17b69b40a5ce0.ogg",
@@ -1323,7 +1364,8 @@
         },
         {
           "optionId": "b",
-          "text": "Taste a leaf to identify it"
+          "text": "Taste a leaf to identify it",
+          "imageAssetPath": "option-art/e21a8ab2400c17abe78a0cef.svg"
         },
         {
           "optionId": "c",
@@ -1344,7 +1386,7 @@
         "b": "Unknown plants may be unsafe to taste",
         "c": "Careful observation is safe"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q08-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q08-en.svg",
       "promptAudioAssetPath": "speech/478d4036712bb16126cd604b443e6369b4b7fc740d52bd61aff27579d982dc31.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5f5647d8d9d90f852be1e04f958257b1464c48fca78fbe904421b2aa7ccda872.ogg",
@@ -1363,7 +1405,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Flowers"
+          "text": "Flowers",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "b",
@@ -1371,7 +1414,8 @@
         },
         {
           "optionId": "c",
-          "text": "Roots"
+          "text": "Roots",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1388,7 +1432,7 @@
         "b": "Fruits often contain seeds",
         "c": "Roots absorb water"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q01-en.svg",
       "promptAudioAssetPath": "speech/644c1a507ca517d163309da602de6551a4d5a181d7f33ef74ff960cf19fe4aa5.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5bc9e0d9e0ad94e65bf271bed14fa10250a204918075cc18526fca423edcb6db.ogg",
@@ -1407,11 +1451,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The stem"
+          "text": "The stem",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "b",
-          "text": "The seed"
+          "text": "The seed",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         },
         {
           "optionId": "c",
@@ -1432,7 +1478,7 @@
         "b": "A seed can grow into a plant",
         "c": "A fruit protects seeds in many plants"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q02-en.svg",
       "promptAudioAssetPath": "speech/2d4523ea9811ca64da744ce2f1fd988a39da92e300f44c0890459f8686c1b6af.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/30eefad04fccf0cdf6c8fc64ad0c26b55c7a52683d13ebaa56005b84e9ac8d35.ogg",
@@ -1451,15 +1497,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Roots"
+          "text": "Roots",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "b",
-          "text": "Leaves"
+          "text": "Leaves",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         },
         {
           "optionId": "c",
-          "text": "Flowers"
+          "text": "Flowers",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1476,7 +1525,7 @@
         "b": "Leaves are major photosynthetic organs",
         "c": "Flowers support reproduction"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q03-en.svg",
       "promptAudioAssetPath": "speech/d75ef9816af760aa59f415ecea15d5b69c517ffda3f62c35204c38d9b5db5238.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b28d5c6fcc4e2dc4aa8a0af75abb9a3fc59c51e963f7f4faaeba6317d0d80d6a.ogg",
@@ -1495,7 +1544,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The flower"
+          "text": "The flower",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "b",
@@ -1503,7 +1553,8 @@
         },
         {
           "optionId": "c",
-          "text": "The root"
+          "text": "The root",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1520,7 +1571,7 @@
         "b": "A carrot is not a botanical fruit",
         "c": "The edible carrot part is a storage root"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q04-en.svg",
       "promptAudioAssetPath": "speech/030680dc678921c95fece6832bcb279abaf09d45bacd78d8fb901de5fddf82ad.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b1f5734ff0342400caa1d157cad99bea140d953c799ac25c7e2c3ec9f54f0573.ogg",
@@ -1539,15 +1590,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Peas"
+          "text": "Peas",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         },
         {
           "optionId": "b",
-          "text": "Lettuce leaves"
+          "text": "Lettuce leaves",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         },
         {
           "optionId": "c",
-          "text": "Carrot roots"
+          "text": "Carrot roots",
+          "imageAssetPath": "option-art/deef1909d978c4d9d515fea6.svg"
         }
       ],
       "correctOptionId": "a",
@@ -1564,7 +1618,7 @@
         "b": "Lettuce leaves are leaves",
         "c": "Carrots are roots"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q05-en.svg",
       "promptAudioAssetPath": "speech/833b40c216fbdf19fba51caf2652e51736056fb122148c74d83232da0f77a7b4.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e23d56cd35631e406a9973613fffb4789471b06a249561b465293d2b7cf63761.ogg",
@@ -1583,11 +1637,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The root"
+          "text": "The root",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "b",
-          "text": "The flower buds"
+          "text": "The flower buds",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "c",
@@ -1608,7 +1664,7 @@
         "b": "Broccoli is commonly eaten as immature flower structures",
         "c": "Not the usual broccoli part"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q06-en.svg",
       "promptAudioAssetPath": "speech/12b36226aa26e330c812226eac1b50dd3defccabf648ccbfcab03863ffb4856d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/04455e71c91e6e3ae3f16c70692360ac27989b1781d03e11ff35fc04727f1fff.ogg",
@@ -1627,15 +1683,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It is the root of the plant"
+          "text": "It is the root of the plant",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "b",
-          "text": "It is the fruit of the plant"
+          "text": "It is the fruit of the plant",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "c",
-          "text": "It is a modified underground stem (tuber)"
+          "text": "It is a modified underground stem (tuber)",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1652,7 +1711,7 @@
         "b": "A potato is not a botanical fruit",
         "c": "A potato tuber is a modified underground stem"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q07-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q07-en.svg",
       "promptAudioAssetPath": "speech/e7ad9dbd0901eb102d2c63154b45a9ed1da91de4476932d28d20cbb5a1028a3e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/206f19c0daccb4f6eb22bff480de762b3e4ca4ff971243b63916aad707be31f3.ogg",
@@ -1675,7 +1734,8 @@
         },
         {
           "optionId": "b",
-          "text": "Taste a very small piece"
+          "text": "Taste a very small piece",
+          "imageAssetPath": "option-art/22a38e86f4d6773625efafbc.svg"
         },
         {
           "optionId": "c",
@@ -1696,7 +1756,7 @@
         "b": "Tasting unknown plants is unsafe",
         "c": "Animals can also be harmed"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q08-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q08-en.svg",
       "promptAudioAssetPath": "speech/cb8ef8d81a1f5c41f7606795d30f5ceb366cf364cfc6da3ced066eecc89886ce.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2e14fb2b81b7a2444e85c09f25450268df46918be37e2de8fe5785b01e013b1b.ogg",
@@ -1719,11 +1779,13 @@
         },
         {
           "optionId": "b",
-          "text": "A cotton plant"
+          "text": "A cotton plant",
+          "imageAssetPath": "option-art/285a0bf56344970936b76a38.svg"
         },
         {
           "optionId": "c",
-          "text": "A rock"
+          "text": "A rock",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1740,7 +1802,7 @@
         "b": "Cotton is a plant source",
         "c": "A rock is a mineral"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q01-en.svg",
       "promptAudioAssetPath": "speech/b2fb2517650f1ac59203f00a494d7caa141154cde2085cb85faf551727e64297.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e9f172a8d98b9d0b5c9508644a8eab47929d895978cf34b94734f9c141557292.ogg",
@@ -1767,7 +1829,8 @@
         },
         {
           "optionId": "c",
-          "text": "Wood fibres"
+          "text": "Wood fibres",
+          "imageAssetPath": "option-art/e896fe4d0353700fe7c30ac4.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1784,7 +1847,7 @@
         "b": "Sand is not the usual paper fibre",
         "c": "Wood fibres are a common plant-based source"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q02-en.svg",
       "promptAudioAssetPath": "speech/41ba88f751a5b2e8f67cdb3322308c74fc4f3b5f92f46c825e4e3f1922aa7ac7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/14774ea80ef2766b1e4797a73372e7784a48cb30988b248ea70043cae7eec38e.ogg",
@@ -1803,15 +1866,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Seeds"
+          "text": "Seeds",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         },
         {
           "optionId": "b",
-          "text": "Roots"
+          "text": "Roots",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "c",
-          "text": "Flowers"
+          "text": "Flowers",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         }
       ],
       "correctOptionId": "a",
@@ -1828,7 +1894,7 @@
         "b": "Roots are not the usual source",
         "c": "Flowers are not the usual source"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q03-en.svg",
       "promptAudioAssetPath": "speech/e05f0e25a1512aae457e9b6ceb54aef648214a71584262f56b109341adc8c809.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/060259b96f1c02ebf32940c5431041ceff4b40b57a86a75f9c413dab8fef616b.ogg",
@@ -1847,7 +1913,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Metal and glass"
+          "text": "Metal and glass",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "b",
@@ -1855,7 +1922,8 @@
         },
         {
           "optionId": "c",
-          "text": "Plastic and paper"
+          "text": "Plastic and paper",
+          "imageAssetPath": "option-art/2a97196634701a437e999376.svg"
         }
       ],
       "correctOptionId": "b",
@@ -1872,7 +1940,7 @@
         "b": "Date palms provide dates and shade",
         "c": "These are not direct palm products"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q04-en.svg",
       "promptAudioAssetPath": "speech/d3490219911082bfb1efa9f790eabc7c53f05a5a21d58f3d19cc16d25fa4fd7a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a906c3c19ef1003e688aa4ed447a24dc421685de15a5b1497e6ca5ef4c84ec8f.ogg",
@@ -1891,15 +1959,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Fish"
+          "text": "Fish",
+          "imageAssetPath": "option-art/69f7f6dda1302e396ea7809f.svg"
         },
         {
           "optionId": "b",
-          "text": "Eggs"
+          "text": "Eggs",
+          "imageAssetPath": "option-art/dde6c37f958c493bffba5c21.svg"
         },
         {
           "optionId": "c",
-          "text": "Sorghum flour"
+          "text": "Sorghum flour",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         }
       ],
       "correctOptionId": "c",
@@ -1916,7 +1987,7 @@
         "b": "Eggs are animal products",
         "c": "Sorghum flour is milled from a grain"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q05-en.svg",
       "promptAudioAssetPath": "speech/986969bee5de3ff49feff6ee227be77f9a002895711ae06c4367eb4e36c78281.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/dd4d22d3d0a777bf52bd18e08775c1bdf85ae643285095fc3fdedf9af15da766.ogg",
@@ -1935,15 +2006,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Cotton cloth and wooden furniture"
+          "text": "Cotton cloth and wooden furniture",
+          "imageAssetPath": "option-art/b067f4e59afe637b6f67ab87.svg"
         },
         {
           "optionId": "b",
-          "text": "Glass cup and iron nail"
+          "text": "Glass cup and iron nail",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "c",
-          "text": "Fish and eggs"
+          "text": "Fish and eggs",
+          "imageAssetPath": "option-art/be3ec7541957362d32072f69.svg"
         }
       ],
       "correctOptionId": "a",
@@ -1960,7 +2034,7 @@
         "b": "Glass and iron are not plant materials",
         "c": "Fish and eggs are animal products"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q06-en.svg",
       "promptAudioAssetPath": "speech/738310c5174a9e9fcb79ed806d968487008a50d8dbbeb796004ce0351f203e0b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/eff95770881b7f91044427dccc9052293583a8d93911f83e914d81a9ed065fcb.ogg",
@@ -1983,11 +2057,13 @@
         },
         {
           "optionId": "b",
-          "text": "It still has a plant source"
+          "text": "It still has a plant source",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         },
         {
           "optionId": "c",
-          "text": "It came from the soil as ready-made paper"
+          "text": "It came from the soil as ready-made paper",
+          "imageAssetPath": "option-art/ea99348944b6d7eeb5090355.svg"
         }
       ],
       "correctOptionId": "b",
@@ -2004,7 +2080,7 @@
         "b": "Paper made from wood still has a plant source",
         "c": "Paper is manufactured"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q07-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q07-en.svg",
       "promptAudioAssetPath": "speech/fc445dee5147f4ae2db548cf34ac37622b7cf2b11e6844f5808bc496e89dd823.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8a46fb9a797517fb28f33d5e6c8bb641def640747b922459d7cbdab04f41cbee.ogg",
@@ -2027,11 +2103,13 @@
         },
         {
           "optionId": "b",
-          "text": "Pull up seedlings to see their roots"
+          "text": "Pull up seedlings to see their roots",
+          "imageAssetPath": "option-art/972a27ce3f37a67348960349.svg"
         },
         {
           "optionId": "c",
-          "text": "Water plants appropriately and avoid damaging them"
+          "text": "Water plants appropriately and avoid damaging them",
+          "imageAssetPath": "option-art/315e6c733b85d4f062a22df6.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2048,7 +2126,7 @@
         "b": "This harms seedlings",
         "c": "This shows responsible care"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q08-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q08-en.svg",
       "promptAudioAssetPath": "speech/c3112af6c11317d218c897a0e138a0c94db03fe1ffb73ce4f81a87afef18c5ce.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e8f4498285a15657b9743b0e57b8a35dfcea554521b72e8d783c41a05b459d01.ogg",
@@ -2067,15 +2145,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A flower opening"
+          "text": "A flower opening",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "b",
-          "text": "A leaf falling"
+          "text": "A leaf falling",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         },
         {
           "optionId": "c",
-          "text": "A seed beginning to grow"
+          "text": "A seed beginning to grow",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2092,7 +2173,7 @@
         "b": "Leaf fall is unrelated",
         "c": "Germination is when a seed begins to grow"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q01-en.svg",
       "promptAudioAssetPath": "speech/a257c678fa0e51c6e0460d5c6b308ddc1808cc263a76e5c0d675b46fa35d23f5.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/49f09c15f8e48a4df4191c6db1f1c551ea89515f65a56259a15d650dc782e61d.ogg",
@@ -2111,11 +2192,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A tiny root"
+          "text": "A tiny root",
+          "imageAssetPath": "option-art/9e661bd5176f24aeb3da27cb.svg"
         },
         {
           "optionId": "b",
-          "text": "A flower"
+          "text": "A flower",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "c",
@@ -2136,7 +2219,7 @@
         "b": "A flower develops later",
         "c": "A fruit develops later"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q02-en.svg",
       "promptAudioAssetPath": "speech/1fa013021b5d299c4e35c04f6b6f4596b922c46722179e1e77109814aaff22aa.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/0924d5ec8b050ee4f1b8a739a0a013e4f0f67845984f488c5be0e2902c879f3f.ogg",
@@ -2155,15 +2238,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Bright light, soil and fertiliser only"
+          "text": "Bright light, soil and fertiliser only",
+          "imageAssetPath": "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
         },
         {
           "optionId": "b",
-          "text": "Water, air and suitable warmth"
+          "text": "Water, air and suitable warmth",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         },
         {
           "optionId": "c",
-          "text": "A sealed container filled with water"
+          "text": "A sealed container filled with water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         }
       ],
       "correctOptionId": "b",
@@ -2180,7 +2266,7 @@
         "b": "Water, air and suitable warmth support germination",
         "c": "Flooding can limit oxygen"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q03-en.svg",
       "promptAudioAssetPath": "speech/1eb205255eaee2cdb101725d2802f0bde289dfbf225673be00ead9cde6e4dcd8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3ed28747428f055a7198ede341df181e152eb746e870d66ee188204e95cf36ec.ogg",
@@ -2199,15 +2285,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Loud sounds"
+          "text": "Loud sounds",
+          "imageAssetPath": "option-art/e6419c2e8d332a0cfd84953c.svg"
         },
         {
           "optionId": "b",
-          "text": "Coloured soil"
+          "text": "Coloured soil",
+          "imageAssetPath": "option-art/571fa5c7f5fec7168c07fd3d.svg"
         },
         {
           "optionId": "c",
-          "text": "Light"
+          "text": "Light",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2224,7 +2313,7 @@
         "b": "Soil colour does not provide energy",
         "c": "Light supplies energy for photosynthesis"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q04-en.svg",
       "promptAudioAssetPath": "speech/5722274ef580aa502a4bea208975500c9ad8144c0e72db121c883bb8135fc1df.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7962fc2d5607b7f2056b6c2f8ae8d6409864fc4f1b9c04a09ccbdda9bc46cc69.ogg",
@@ -2247,11 +2336,13 @@
         },
         {
           "optionId": "b",
-          "text": "Open the container and taste a seed"
+          "text": "Open the container and taste a seed",
+          "imageAssetPath": "option-art/eaf813f42898eacc00a9a561.svg"
         },
         {
           "optionId": "c",
-          "text": "Keep the seeds completely underwater"
+          "text": "Keep the seeds completely underwater",
+          "imageAssetPath": "option-art/5b4d6b01c850998f02cf2b7b.svg"
         }
       ],
       "correctOptionId": "a",
@@ -2268,7 +2359,7 @@
         "b": "Tasting experimental seeds is unsafe and unnecessary",
         "c": "Flooding is unsuitable"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q05-en.svg",
       "promptAudioAssetPath": "speech/0c94e9772d81cb6156125013cc1a942546b5299717082f979501e38f94ecb38f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9e05fa1e13bd373cf46ffa7556188cc1d20ccf808dcd100d1d84ee7f027c4a83.ogg",
@@ -2287,15 +2378,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Flower → fruit → dry seed"
+          "text": "Flower → fruit → dry seed",
+          "imageAssetPath": "option-art/6598f2eafcebcde9a79ae082.svg"
         },
         {
           "optionId": "b",
-          "text": "Seed → tiny root → young seedling"
+          "text": "Seed → tiny root → young seedling",
+          "imageAssetPath": "option-art/1079cdaef9b7bfb388d1be6d.svg"
         },
         {
           "optionId": "c",
-          "text": "Leaf → metal pot → seed"
+          "text": "Leaf → metal pot → seed",
+          "imageAssetPath": "option-art/5e27425d241ce83b717599bc.svg"
         }
       ],
       "correctOptionId": "b",
@@ -2312,7 +2406,7 @@
         "b": "This is a plausible early growth sequence",
         "c": "These items do not form a growth sequence"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q06-en.svg",
       "promptAudioAssetPath": "speech/1ec24b59b4307a9590e851daddd35dced7ec8a1d67aa67d4d7dd9c30cc4b053b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/02899a87eb30310b12fa769555036f724d078b446fba78165e91fe7b73c3c0a4.ogg",
@@ -2331,15 +2425,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Seeds need to float all the time"
+          "text": "Seeds need to float all the time",
+          "imageAssetPath": "option-art/10098e2afb9cefbfea7d3850.svg"
         },
         {
           "optionId": "b",
-          "text": "More water always makes seeds grow faster"
+          "text": "More water always makes seeds grow faster",
+          "imageAssetPath": "option-art/e279d7a890af7be1a43f1da4.svg"
         },
         {
           "optionId": "c",
-          "text": "Seeds need water and air"
+          "text": "Seeds need water and air",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2356,7 +2453,7 @@
         "b": "Excess water can reduce available air",
         "c": "Both water and oxygen matter"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q07-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q07-en.svg",
       "promptAudioAssetPath": "speech/4f937d19bfcda0556a7e2d3d897d59dfd77a7906fd207d886cb6c686134aa2ba.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2ca7298d65cb605d237e38a5125d40c248aa3ef758dff73eeda0adf7bf1c622c.ogg",
@@ -2375,15 +2472,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Soil is not always needed for germination to begin"
+          "text": "Soil is not always needed for germination to begin",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         },
         {
           "optionId": "b",
-          "text": "Seeds never need soil as plants grow"
+          "text": "Seeds never need soil as plants grow",
+          "imageAssetPath": "option-art/d51a585bd935cfefe92d70d5.svg"
         },
         {
           "optionId": "c",
-          "text": "Seeds can germinate without water"
+          "text": "Seeds can germinate without water",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         }
       ],
       "correctOptionId": "a",
@@ -2400,7 +2500,7 @@
         "b": "Soil supports later plant growth and many plant needs",
         "c": "Water is important for germination"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.svg",
       "promptAudioAssetPath": "speech/a9e79fbd934976bff747561b7eee2bceeac2d4e7c26181e36b22e85196bc48d0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e2c30a42024836ce3212039998e1ab53b7112398cf5d56b651517c00ceb116e6.ogg",
@@ -2419,15 +2519,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The children are playing."
+          "text": "The children are playing.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         },
         {
           "optionId": "b",
-          "text": "The Children are playing."
+          "text": "The Children are playing.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         },
         {
           "optionId": "c",
-          "text": "the children are playing."
+          "text": "the children are playing.",
+          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -2453,15 +2556,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hops"
+          "text": "hops",
+          "imageAssetPath": "option-art/a35760504a7c2313642b2301.svg"
         },
         {
           "optionId": "b",
-          "text": "quickly"
+          "text": "quickly",
+          "imageAssetPath": "option-art/9739aa2cb83d6213322a7ca4.svg"
         },
         {
           "optionId": "c",
-          "text": "rabbit"
+          "text": "rabbit",
+          "imageAssetPath": "option-art/a35760504a7c2313642b2301.svg"
         }
       ],
       "correctOptionId": "a",
@@ -2491,7 +2597,8 @@
         },
         {
           "optionId": "b",
-          "text": "leaves"
+          "text": "leaves",
+          "imageAssetPath": "option-art/898a330bc274be92a15f66ab.svg"
         },
         {
           "optionId": "c",
@@ -2521,15 +2628,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "shines"
+          "text": "shines",
+          "imageAssetPath": "option-art/249851036f549325eca162a5.svg"
         },
         {
           "optionId": "b",
-          "text": "star"
+          "text": "star",
+          "imageAssetPath": "option-art/249851036f549325eca162a5.svg"
         },
         {
           "optionId": "c",
-          "text": "bright"
+          "text": "bright",
+          "imageAssetPath": "option-art/249851036f549325eca162a5.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2691,7 +2801,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "am"
+          "text": "am",
+          "imageAssetPath": "option-art/cd8412de9c9959aee4eb8201.svg"
         },
         {
           "optionId": "b",
@@ -2759,7 +2870,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "small"
+          "text": "small",
+          "imageAssetPath": "option-art/6f35c88ffc90fa98b79a6330.svg"
         },
         {
           "optionId": "b",
@@ -2767,7 +2879,8 @@
         },
         {
           "optionId": "c",
-          "text": "huge"
+          "text": "huge",
+          "imageAssetPath": "option-art/9707c14cd9a490ab04487908.svg"
         }
       ],
       "correctOptionId": "a",
@@ -2793,7 +2906,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "jump"
+          "text": "jump",
+          "imageAssetPath": "option-art/a35760504a7c2313642b2301.svg"
         },
         {
           "optionId": "b",
@@ -2801,7 +2915,8 @@
         },
         {
           "optionId": "c",
-          "text": "quickly"
+          "text": "quickly",
+          "imageAssetPath": "option-art/9739aa2cb83d6213322a7ca4.svg"
         }
       ],
       "correctOptionId": "b",
@@ -2835,7 +2950,8 @@
         },
         {
           "optionId": "c",
-          "text": "children"
+          "text": "children",
+          "imageAssetPath": "option-art/9a323d9214ccbac1a43da5c7.svg"
         }
       ],
       "correctOptionId": "c",
@@ -2861,11 +2977,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "shell"
+          "text": "shell",
+          "imageAssetPath": "option-art/882bcec06de0628d5ff7ddc0.svg"
         },
         {
           "optionId": "b",
-          "text": "green"
+          "text": "green",
+          "imageAssetPath": "option-art/36f9928a361965f163a72916.svg"
         },
         {
           "optionId": "c",
@@ -2997,15 +3115,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "I bought pens; books and paper."
+          "text": "I bought pens; books and paper.",
+          "imageAssetPath": "option-art/d577e6eb7639e1c8809608e9.svg"
         },
         {
           "optionId": "b",
-          "text": "I bought pens, books and paper."
+          "text": "I bought pens, books and paper.",
+          "imageAssetPath": "option-art/d577e6eb7639e1c8809608e9.svg"
         },
         {
           "optionId": "c",
-          "text": "I bought pens books and paper."
+          "text": "I bought pens books and paper.",
+          "imageAssetPath": "option-art/d577e6eb7639e1c8809608e9.svg"
         }
       ],
       "correctOptionId": "b",
@@ -3039,7 +3160,8 @@
         },
         {
           "optionId": "c",
-          "text": "Buying a toy"
+          "text": "Buying a toy",
+          "imageAssetPath": "option-art/1a16fd8bea6ad28b2241af31.svg"
         }
       ],
       "correctOptionId": "b",
@@ -3065,15 +3187,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "map"
+          "text": "map",
+          "imageAssetPath": "option-art/c22d98771bde7d98fb70bd29.svg"
         },
         {
           "optionId": "b",
-          "text": "train"
+          "text": "train",
+          "imageAssetPath": "option-art/e1a2e4f9d1d7e38fc43c4fc8.svg"
         },
         {
           "optionId": "c",
-          "text": "cat"
+          "text": "cat",
+          "imageAssetPath": "option-art/3944d7f96b178c4f6940cd42.svg"
         }
       ],
       "correctOptionId": "b",
@@ -3171,7 +3296,8 @@
         },
         {
           "optionId": "b",
-          "text": "blue"
+          "text": "blue",
+          "imageAssetPath": "option-art/2e338239ff52a248e44b08ea.svg"
         },
         {
           "optionId": "c",
@@ -3337,7 +3463,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "see"
+          "text": "see",
+          "imageAssetPath": "option-art/218a6fdecf793d37168b504c.svg"
         },
         {
           "optionId": "b",
@@ -3375,11 +3502,13 @@
         },
         {
           "optionId": "b",
-          "text": "The Empty Plate"
+          "text": "The Empty Plate",
+          "imageAssetPath": "option-art/ecdd2b2928632e21f9955b04.svg"
         },
         {
           "optionId": "c",
-          "text": "A Broken Pencil"
+          "text": "A Broken Pencil",
+          "imageAssetPath": "option-art/129f0af92d2ca486b96c52f7.svg"
         }
       ],
       "correctOptionId": "a",
@@ -3405,7 +3534,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Close the door gently."
+          "text": "Close the door gently.",
+          "imageAssetPath": "option-art/308dfedc07f593e20f739433.svg"
         },
         {
           "optionId": "b",
@@ -3413,7 +3543,8 @@
         },
         {
           "optionId": "c",
-          "text": "The door is brown."
+          "text": "The door is brown.",
+          "imageAssetPath": "option-art/e1b047cc234e527c34d1683b.svg"
         }
       ],
       "correctOptionId": "a",
@@ -3439,15 +3570,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Under her bed"
+          "text": "Under her bed",
+          "imageAssetPath": "option-art/63499dac3aa44bc6e2b677e8.svg"
         },
         {
           "optionId": "b",
-          "text": "Near a sunny window"
+          "text": "Near a sunny window",
+          "imageAssetPath": "option-art/071187a826d3b9b462c200f8.svg"
         },
         {
           "optionId": "c",
-          "text": "In a cupboard"
+          "text": "In a cupboard",
+          "imageAssetPath": "option-art/d6b487f9b0ca8ba0f580209a.svg"
         }
       ],
       "correctOptionId": "b",
@@ -3473,15 +3607,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "He told his teacher"
+          "text": "He told his teacher",
+          "imageAssetPath": "option-art/d767a22a964f9d3f6fd74a4e.svg"
         },
         {
           "optionId": "b",
-          "text": "He took it to a shop"
+          "text": "He took it to a shop",
+          "imageAssetPath": "option-art/2b5232a31c7c3aa2b9a2d1e7.svg"
         },
         {
           "optionId": "c",
-          "text": "He left it alone"
+          "text": "He left it alone",
+          "imageAssetPath": "option-art/2b5232a31c7c3aa2b9a2d1e7.svg"
         }
       ],
       "correctOptionId": "a",
@@ -3511,11 +3648,13 @@
         },
         {
           "optionId": "b",
-          "text": "Read and water flowers"
+          "text": "Read and water flowers",
+          "imageAssetPath": "option-art/660b11a1e2f14674b7c71569.svg"
         },
         {
           "optionId": "c",
-          "text": "Play football"
+          "text": "Play football",
+          "imageAssetPath": "option-art/001fa9e59b2827305f5b9742.svg"
         }
       ],
       "correctOptionId": "b",
@@ -3541,7 +3680,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The school was closed"
+          "text": "The school was closed",
+          "imageAssetPath": "option-art/4ac0ff9996ac6c450c1b033d.svg"
         },
         {
           "optionId": "b",
@@ -3549,7 +3689,8 @@
         },
         {
           "optionId": "c",
-          "text": "The wind was too strong"
+          "text": "The wind was too strong",
+          "imageAssetPath": "option-art/88377491d0672c39e9885aa3.svg"
         }
       ],
       "correctOptionId": "c",
@@ -3579,11 +3720,13 @@
         },
         {
           "optionId": "b",
-          "text": "A bicycle"
+          "text": "A bicycle",
+          "imageAssetPath": "option-art/1d2c9c757d816b31aa41b0c5.svg"
         },
         {
           "optionId": "c",
-          "text": "A storybook"
+          "text": "A storybook",
+          "imageAssetPath": "option-art/0b94b0ff77ab7e8541891bb5.svg"
         }
       ],
       "correctOptionId": "c",
@@ -3609,22 +3752,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "30"
+          "text": "30",
+          "imageAssetPath": "option-art/7802499ced013e88b3a2245d.svg"
         },
         {
           "optionId": "c",
-          "text": "300"
+          "text": "300",
+          "imageAssetPath": "option-art/5ac196a75b24873297c37e2d.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-001.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-001.svg",
       "promptAudioAssetPath": "speech/959bcce38062c0df58715483b1dfc38f36085bf3f56c8234ed277e67794dfb4b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/439d8405670c054beec505cb6ddc5f028a7a64242922ab6524ba4b1665c9bb9a.ogg",
@@ -3643,22 +3789,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "500"
+          "text": "500",
+          "imageAssetPath": "option-art/39bd5a2229a616f21d921453.svg"
         },
         {
           "optionId": "c",
-          "text": "50"
+          "text": "50",
+          "imageAssetPath": "option-art/6bbc67cb2d8db0d293489346.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-002.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-002.svg",
       "promptAudioAssetPath": "speech/f8835af28320635246d216a586bb466162892a0b8d50b23d3ce32483c070af20.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/daee3c8978b7f08fddeba420fe1fa14665354407212004bf2eb13b245b605b44.ogg",
@@ -3677,22 +3826,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "b",
-          "text": "700"
+          "text": "700",
+          "imageAssetPath": "option-art/f8448d0a47f10407288d1bc8.svg"
         },
         {
           "optionId": "c",
-          "text": "70"
+          "text": "70",
+          "imageAssetPath": "option-art/e7c623e01f3ab0aca2ffeeda.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-003.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-003.svg",
       "promptAudioAssetPath": "speech/937b0187bb943b18551957e7e59f09e5160975cda0d4e3d9de1df69b2ea00806.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/47f9a5cf27fb61c95b13f4ab66a6583375f45b6e22fbf963c5bd630b83c12121.ogg",
@@ -3711,22 +3863,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "400"
+          "text": "400",
+          "imageAssetPath": "option-art/892d09b58157c7dcc8bedd7d.svg"
         },
         {
           "optionId": "c",
-          "text": "40"
+          "text": "40",
+          "imageAssetPath": "option-art/857dfbaef0b6d41248d8d562.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-004.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-004.svg",
       "promptAudioAssetPath": "speech/40d6c5d603cb95ddf9e9610f0b89919534c47ebaa0e4778f9f9585a200b9cedd.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9c73faf053469ec217d614b02cfff7219270d1005e804855d27750a9b49d0904.ogg",
@@ -3745,22 +3900,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "900"
+          "text": "900",
+          "imageAssetPath": "option-art/75d388a8064c5e56b7a7fd6a.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "90"
+          "text": "90",
+          "imageAssetPath": "option-art/3d0f9aa8170e8140e7f1a942.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-005.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-005.svg",
       "promptAudioAssetPath": "speech/7389ea343bf5298f391e6f79a6143a26a24cf076c5a6a60aea883d3b03931c9d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2273c2762288f79ae6367a8cb96da14868801a64db6169f5ea68ccf1374d07ff.ogg",
@@ -3779,22 +3937,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "200"
+          "text": "200",
+          "imageAssetPath": "option-art/c18850700b251c0ee4457189.svg"
         },
         {
           "optionId": "c",
-          "text": "20"
+          "text": "20",
+          "imageAssetPath": "option-art/4aaeff2018427c50d772bbc5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-006.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-006.svg",
       "promptAudioAssetPath": "speech/94391c83c1603a11f54f47ef9232a6af4b5558342c3bc79daa7bb4ef1871e128.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/80d700cbcdecc0f98d70e5999e61fa718b277bf9dc0f8b4e3f7c6e3144dd725a.ogg",
@@ -3813,22 +3974,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "b",
-          "text": "800"
+          "text": "800",
+          "imageAssetPath": "option-art/f1035810d50cb373d68e765a.svg"
         },
         {
           "optionId": "c",
-          "text": "80"
+          "text": "80",
+          "imageAssetPath": "option-art/ce4c69cef55ed3129ceb7cd4.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-007.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-007.svg",
       "promptAudioAssetPath": "speech/869930e42c801dfd1aac6eaa4d052051b57382fbd3253cd52739cb9a8f35dfe0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7c74e554b075393ba85fe6f3c29f7ec568ac61cdaa9e47b7da77190b5eea26c7.ogg",
@@ -3847,22 +4011,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "600"
+          "text": "600",
+          "imageAssetPath": "option-art/c70c6b78940e0f783343e355.svg"
         },
         {
           "optionId": "c",
-          "text": "60"
+          "text": "60",
+          "imageAssetPath": "option-art/07eac41fdba944cd3eb179c6.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-008.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-008.svg",
       "promptAudioAssetPath": "speech/aa3e7969f8f073744de6e68f79ee70f1a44c62bcb00a2c4145c6ac6f868a996c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9bd4ad5da25b3d9654b29b9e9561660e61e809eccf7e5510136847bc38a43a1e.ogg",
@@ -3881,22 +4048,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "100"
+          "text": "100",
+          "imageAssetPath": "option-art/ebd3fdf8830dd67a7ae746a4.svg"
         },
         {
           "optionId": "b",
-          "text": "1"
+          "text": "1",
+          "imageAssetPath": "option-art/830127ab62db86bf97f3a6dc.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-009.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-009.svg",
       "promptAudioAssetPath": "speech/528e1fe580a19a65a7151ebf1023a88c2805ba966eaf9da8b5ce0fa9a3b1e76d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4dee07f655ab26e602d21d0ff599f9d5e1fc7cab2474f8fa4c4c21abddbaf662.ogg",
@@ -3915,22 +4085,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "700"
+          "text": "700",
+          "imageAssetPath": "option-art/f8448d0a47f10407288d1bc8.svg"
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "c",
-          "text": "70"
+          "text": "70",
+          "imageAssetPath": "option-art/e7c623e01f3ab0aca2ffeeda.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-010.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-010.svg",
       "promptAudioAssetPath": "speech/91ace28cdbd56024922441216a6c87c6067348b1ec314341dad4759e70eb13a2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cbccf5e4a9bb4802f9be4f682ad54c422e95de62f8d1505e2062531245d30148.ogg",
@@ -3949,22 +4122,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "63"
+          "text": "63",
+          "imageAssetPath": "option-art/171616cfc8bc337a5e4837b9.svg"
         },
         {
           "optionId": "b",
-          "text": "53"
+          "text": "53",
+          "imageAssetPath": "option-art/c76e696f5599f39a28a38aeb.svg"
         },
         {
           "optionId": "c",
-          "text": "73"
+          "text": "73",
+          "imageAssetPath": "option-art/00e226ecd9d2d27e30c4661d.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-011.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-011.svg",
       "promptAudioAssetPath": "speech/e8312d0ee1bd837feb53d0b42413b67fe5c7f940e8eaa0a81cbf2f90e6920a4f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/53b443e4570d817f90f1e9e971f822dfcbff474d7094307515a68ac89d4714a7.ogg",
@@ -3983,22 +4159,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         },
         {
           "optionId": "b",
-          "text": "65"
+          "text": "65",
+          "imageAssetPath": "option-art/1f0e8a23b13682b4bd01bb79.svg"
         },
         {
           "optionId": "c",
-          "text": "55"
+          "text": "55",
+          "imageAssetPath": "option-art/2e58321f4e4d361882080e30.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-012.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-012.svg",
       "promptAudioAssetPath": "speech/9fbbc4586688d2cdbab7d5848c5cf7eaae945b8d821c74bc825cc1d3343da3cb.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5352ebd05652ac10faa486708ae1b33b1d4080c4ba7a4bebcb8dc6d6fcd48882.ogg",
@@ -4017,22 +4196,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "83"
+          "text": "83",
+          "imageAssetPath": "option-art/69fdb839338dbf9a000238b5.svg"
         },
         {
           "optionId": "b",
-          "text": "73"
+          "text": "73",
+          "imageAssetPath": "option-art/00e226ecd9d2d27e30c4661d.svg"
         },
         {
           "optionId": "c",
-          "text": "93"
+          "text": "93",
+          "imageAssetPath": "option-art/a8aab2a25bb08075bb2a10a0.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-013.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-013.svg",
       "promptAudioAssetPath": "speech/19dce9fd4b0dfdc602d8e27b25e5d6e0f2bbf13af170cfb8c895edfed84459f8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/25fed1c273c919c99f7cca8fa4fa83435c6d4e2183c3f268338410feb3967ca3.ogg",
@@ -4051,22 +4233,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "36"
+          "text": "36",
+          "imageAssetPath": "option-art/b0f6866d9f143d02bb7af599.svg"
         },
         {
           "optionId": "b",
-          "text": "56"
+          "text": "56",
+          "imageAssetPath": "option-art/a654143e5eae0c6ebfe6eb35.svg"
         },
         {
           "optionId": "c",
-          "text": "46"
+          "text": "46",
+          "imageAssetPath": "option-art/c7f38b0e98bc619f70680114.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-014.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-014.svg",
       "promptAudioAssetPath": "speech/218d0b69063b936fff5cde819fe057bf86bcae1ebd923c6844e9f7d490180486.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cc902df60d883aca64b072630ed7d56d3519e82ca32def48c6c67b69167acd36.ogg",
@@ -4085,22 +4270,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "83"
+          "text": "83",
+          "imageAssetPath": "option-art/69fdb839338dbf9a000238b5.svg"
         },
         {
           "optionId": "b",
-          "text": "73"
+          "text": "73",
+          "imageAssetPath": "option-art/00e226ecd9d2d27e30c4661d.svg"
         },
         {
           "optionId": "c",
-          "text": "93"
+          "text": "93",
+          "imageAssetPath": "option-art/a8aab2a25bb08075bb2a10a0.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-015.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-015.svg",
       "promptAudioAssetPath": "speech/6cae9f83ecfe71725e441692a0f1ed0bc367067d72e9780043765a8d63afc3f0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/f67402bd9f0808b3471fde95c3a0c30ef7786e976ec23a4400edd39b0f6575f0.ogg",
@@ -4119,22 +4307,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "25"
+          "text": "25",
+          "imageAssetPath": "option-art/2afb04a4f54d86c56c21d9a8.svg"
         },
         {
           "optionId": "b",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         },
         {
           "optionId": "c",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-016.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-016.svg",
       "promptAudioAssetPath": "speech/6d48833faf4152b397f598efe33dfa3153061e8e8dfe6e1de375c94bd823afde.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2447f574cd4c6e6e0feed75ea3361e018776ffdba6fb0fe2863b7c421a1b6dad.ogg",
@@ -4153,22 +4344,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "149"
+          "text": "149",
+          "imageAssetPath": "option-art/396ee77d5600e28825ffee59.svg"
         },
         {
           "optionId": "b",
-          "text": "159"
+          "text": "159",
+          "imageAssetPath": "option-art/46ee836d1f74dbdce40d589a.svg"
         },
         {
           "optionId": "c",
-          "text": "169"
+          "text": "169",
+          "imageAssetPath": "option-art/f33aa4ec086db5b99bd44ca5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-017.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-017.svg",
       "promptAudioAssetPath": "speech/e1f8fa3725645b47afeaf173f837542dbd7da7d262e0547bb1bdaa50da7e091e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a780f384abafd31caa7c6fbdb848fc0a489ddca68b1073a642f319240db568d7.ogg",
@@ -4187,22 +4381,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "85"
+          "text": "85",
+          "imageAssetPath": "option-art/3b99ab84a36a24b29aeb5aa3.svg"
         },
         {
           "optionId": "b",
-          "text": "75"
+          "text": "75",
+          "imageAssetPath": "option-art/eab154a9ed6bc3cdb7264430.svg"
         },
         {
           "optionId": "c",
-          "text": "95"
+          "text": "95",
+          "imageAssetPath": "option-art/657110d616b9c0c3f2595b56.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-018.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-018.svg",
       "promptAudioAssetPath": "speech/365e96c723f48f618b4a63cb81b88ea7db11e28e808447062a99cc42d55a5a3c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bfa6bd7a60320c7e0f741d85cd3414d85cba0e444a78af9ed085263e37b502f6.ogg",
@@ -4221,22 +4418,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "77"
+          "text": "77",
+          "imageAssetPath": "option-art/6c2fd1fb24b327e92837c60e.svg"
         },
         {
           "optionId": "b",
-          "text": "97"
+          "text": "97",
+          "imageAssetPath": "option-art/872a14600e0c92a48f983f7f.svg"
         },
         {
           "optionId": "c",
-          "text": "87"
+          "text": "87",
+          "imageAssetPath": "option-art/04bf0c16e4c6866466dc3800.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-019.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-019.svg",
       "promptAudioAssetPath": "speech/2f85046713bd2c452b564d7ac64eb70e759aa627baceebde56b167b8bc36775a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c674f487e7a36e95cfc3d41be5cf0f588c59d736f7b74292691d2ea12324aed2.ogg",
@@ -4255,22 +4455,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         },
         {
           "optionId": "b",
-          "text": "55"
+          "text": "55",
+          "imageAssetPath": "option-art/2e58321f4e4d361882080e30.svg"
         },
         {
           "optionId": "c",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-020.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-020.svg",
       "promptAudioAssetPath": "speech/bdd60bbbfe73420f77e41cfa0c02000bbb9ec15fea00752e5f0d48945d4239ed.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1f16d740c6ed554bc99438c4d570a77816d88aff73dfd5fabb3aea0aaf59c922.ogg",
@@ -4289,22 +4492,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "12"
+          "text": "12",
+          "imageAssetPath": "option-art/72fded42dc6bc101654031c2.svg"
         },
         {
           "optionId": "b",
-          "text": "14"
+          "text": "14",
+          "imageAssetPath": "option-art/c8247504c59b64003eddfff7.svg"
         },
         {
           "optionId": "c",
-          "text": "16"
+          "text": "16",
+          "imageAssetPath": "option-art/92084e1d7e4136b3e2a49dae.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-021.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-021.svg",
       "promptAudioAssetPath": "speech/2be9bbceb6c0b57a9dd46c7a19783b2463ae076029ba59afad37fd0a230694e8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ea13c9ec19263f614411fddae705c78a5a44a6eef42e0841e6fc06a4f38931c4.ogg",
@@ -4323,22 +4529,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "30"
+          "text": "30",
+          "imageAssetPath": "option-art/7802499ced013e88b3a2245d.svg"
         },
         {
           "optionId": "b",
-          "text": "25"
+          "text": "25",
+          "imageAssetPath": "option-art/2afb04a4f54d86c56c21d9a8.svg"
         },
         {
           "optionId": "c",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-022.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-022.svg",
       "promptAudioAssetPath": "speech/3e9160fd58d2507f9a93fbd711946a09d9ba64a1a4bdbc1b98df0912cdbf2f3d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1611a39c12d398b2071d011149931128788200da80c015c3b9af741617f997ad.ogg",
@@ -4357,22 +4566,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "21"
+          "text": "21",
+          "imageAssetPath": "option-art/8512b391fe382fa302df97fe.svg"
         },
         {
           "optionId": "b",
-          "text": "27"
+          "text": "27",
+          "imageAssetPath": "option-art/a3eae9411e990ab5b059ee1e.svg"
         },
         {
           "optionId": "c",
-          "text": "24"
+          "text": "24",
+          "imageAssetPath": "option-art/67183ea18c1aed9d277bcc1b.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-023.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-023.svg",
       "promptAudioAssetPath": "speech/a1af947c5169627d5c8b35a41cad6f00001504b62dd40a78e60fee93a1e9b5ba.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ce5b85376328e1dce45814a99c27b2365c5901d303883a9d933496349e4ed319.ogg",
@@ -4391,22 +4603,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "24"
+          "text": "24",
+          "imageAssetPath": "option-art/67183ea18c1aed9d277bcc1b.svg"
         },
         {
           "optionId": "b",
-          "text": "20"
+          "text": "20",
+          "imageAssetPath": "option-art/4aaeff2018427c50d772bbc5.svg"
         },
         {
           "optionId": "c",
-          "text": "28"
+          "text": "28",
+          "imageAssetPath": "option-art/7c15fba42f8354bf7431b938.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-024.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-024.svg",
       "promptAudioAssetPath": "speech/c5b71f8f853bb5a6a6b17b3aeb7980a1b3f1008a09ff7270a901e1b736d76864.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e50b66d3d5d0ab2149edb09c1700b13c100b775b97613c0accf05e0a74382dd7.ogg",
@@ -4425,22 +4640,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "80"
+          "text": "80",
+          "imageAssetPath": "option-art/ce4c69cef55ed3129ceb7cd4.svg"
         },
         {
           "optionId": "b",
-          "text": "100"
+          "text": "100",
+          "imageAssetPath": "option-art/ebd3fdf8830dd67a7ae746a4.svg"
         },
         {
           "optionId": "c",
-          "text": "90"
+          "text": "90",
+          "imageAssetPath": "option-art/3d0f9aa8170e8140e7f1a942.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-025.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-025.svg",
       "promptAudioAssetPath": "speech/72e927472c7d6f2f6189af091eceb22b81feb5508baf2e83889da36fe84a9a53.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ec86839032c69b814fef9523e1f8af38072a3b2726c332c8fc22d505a0389be7.ogg",
@@ -4459,22 +4677,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "22"
+          "text": "22",
+          "imageAssetPath": "option-art/756b3880ba87f4896c973741.svg"
         },
         {
           "optionId": "b",
-          "text": "26"
+          "text": "26",
+          "imageAssetPath": "option-art/6323af4754ae161cddc75ad9.svg"
         },
         {
           "optionId": "c",
-          "text": "24"
+          "text": "24",
+          "imageAssetPath": "option-art/67183ea18c1aed9d277bcc1b.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-026.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-026.svg",
       "promptAudioAssetPath": "speech/1c65e9b580b950e4d2b423f529f03e97ff43a111d222976a2dd4bba7318c68d8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/70e5dc2bf7250952a80b0dbe71cdba1c8cb04d7cfc8275b7a42de28718a4761c.ogg",
@@ -4493,22 +4714,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "40"
+          "text": "40",
+          "imageAssetPath": "option-art/857dfbaef0b6d41248d8d562.svg"
         },
         {
           "optionId": "b",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         },
         {
           "optionId": "c",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-027.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-027.svg",
       "promptAudioAssetPath": "speech/be28eff868eff07bf88058cb9f9cb4a12c81ccfba91215bcc03ab9d032c47c16.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d33f76b82fb1feac3e9602c08631e7b50ced4031379451abe584a98fc37ceefe.ogg",
@@ -4527,22 +4751,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "18"
+          "text": "18",
+          "imageAssetPath": "option-art/b0cafed603c9e61657b62318.svg"
         },
         {
           "optionId": "b",
-          "text": "24"
+          "text": "24",
+          "imageAssetPath": "option-art/67183ea18c1aed9d277bcc1b.svg"
         },
         {
           "optionId": "c",
-          "text": "21"
+          "text": "21",
+          "imageAssetPath": "option-art/8512b391fe382fa302df97fe.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-028.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-028.svg",
       "promptAudioAssetPath": "speech/c0201d2afc21dcd3145b7662b3dc00fe0ce50ef548f5b8b2c771cc6719352864.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/271413aea094296a933be2aed6e7cf6012ed7f1c77908e13215af728e21fcb64.ogg",
@@ -4561,22 +4788,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9:00"
+          "text": "9:00",
+          "imageAssetPath": "option-art/37ca6773318b054dde711123.svg"
         },
         {
           "optionId": "b",
-          "text": "10:00"
+          "text": "10:00",
+          "imageAssetPath": "option-art/fa8b76040231d4799df1da5e.svg"
         },
         {
           "optionId": "c",
-          "text": "8:30"
+          "text": "8:30",
+          "imageAssetPath": "option-art/64e959444408b963966fb6c2.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-029.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-029.svg",
       "promptAudioAssetPath": "speech/46f129561220f49c326c9cfdec6bd0027d0049a5fbf5328496ac92d8b9a8c978.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7516e294743bd663ecbedba5a6ec75dfeda695eb0069ce86e3d2ad3176d56f39.ogg",
@@ -4595,22 +4825,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "60"
+          "text": "60",
+          "imageAssetPath": "option-art/07eac41fdba944cd3eb179c6.svg"
         },
         {
           "optionId": "b",
-          "text": "30"
+          "text": "30",
+          "imageAssetPath": "option-art/7802499ced013e88b3a2245d.svg"
         },
         {
           "optionId": "c",
-          "text": "15"
+          "text": "15",
+          "imageAssetPath": "option-art/8e50bf3e4e60f6a6bfea32c5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-030.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-030.svg",
       "promptAudioAssetPath": "speech/daeac1a98cd2430d411e68717f62f1a638544cf7a3388470b75dcd05c41e85f3.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7ead6807e96ea5ba7542e3a8d934c4eacba7ba5ad07f681f1a022a6307d8f57f.ogg",
@@ -4629,22 +4862,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "30 pounds"
+          "text": "30 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "b",
-          "text": "25 pounds"
+          "text": "25 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "c",
-          "text": "20 pounds"
+          "text": "20 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-031.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-031.svg",
       "promptAudioAssetPath": "speech/9ec370e4f908cf8e517165c572fa6e2c2f3d17fce3f941548d8f57c44b8b74a8.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bfe2fede7dbfc9719dfc75885a19d02cd2f7d5096cb9478a227b34edf188403d.ogg",
@@ -4663,7 +4899,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Kilograms"
+          "text": "Kilograms",
+          "imageAssetPath": "option-art/9934a083b143ed22f66bc7ef.svg"
         },
         {
           "optionId": "b",
@@ -4671,14 +4908,15 @@
         },
         {
           "optionId": "c",
-          "text": "Centimetres"
+          "text": "Centimetres",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-032.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-032.svg",
       "promptAudioAssetPath": "speech/d85d1eb23c660984100a309ec53c080cc5955a432fdbfb5f8117cd108ef99242.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c27d6959995a286014b625ecb57e308b9a57d7999ae4784873c734c2b8bcb450.ogg",
@@ -4712,7 +4950,7 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-033.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-033.svg",
       "promptAudioAssetPath": "speech/1fbf4ec1ed91bf8885315b4e6ce6f15da95574a79b26dafee6aadd227b207818.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8e502c28f168cfb87ec1f4766a1cb537c2eded10ed662430a15c3dbf8290900f.ogg",
@@ -4735,18 +4973,20 @@
         },
         {
           "optionId": "b",
-          "text": "1 kilogram"
+          "text": "1 kilogram",
+          "imageAssetPath": "option-art/9934a083b143ed22f66bc7ef.svg"
         },
         {
           "optionId": "c",
-          "text": "500 grams"
+          "text": "500 grams",
+          "imageAssetPath": "option-art/dd37d28b0c3b41468ba4b39d.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-034.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-034.svg",
       "promptAudioAssetPath": "speech/e8b9b04b0eeffaeec516cf8f2bbc7d84feb7f90cb5f07371caf6a675972ab013.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/851dedf7877812cfa9fa6874a41cc665ce7e9b294dcc2469d3e6cba410140bc8.ogg",
@@ -4780,7 +5020,7 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-035.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-035.svg",
       "promptAudioAssetPath": "speech/6faba9fd13550733237cfe1d117bbd91399caa0696dd8d0d591f984408f0619b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4c6ee43eee84d86744b5e03fda5dc76049268868ecaf1cfa428d157223db6f89.ogg",
@@ -4814,7 +5054,7 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-036.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-036.svg",
       "promptAudioAssetPath": "speech/b8683b7ac9cbc50fec5b4cb5b7f163d24e56c7b9aaa25282099afdc2259404c1.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/32510c66b00d3c1c624acec4f53671aa100c0c8defe2fe5ed6c7a7e5cf97b46f.ogg",
@@ -4833,22 +5073,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "1000"
+          "text": "1000",
+          "imageAssetPath": "option-art/05b8c011776b2c6ca9cc8fd4.svg"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "c",
-          "text": "100"
+          "text": "100",
+          "imageAssetPath": "option-art/ebd3fdf8830dd67a7ae746a4.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-037.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-037.svg",
       "promptAudioAssetPath": "speech/5b7fa2ae71d070c95bc425450d3cf9061e3f8353da29f5dd7491379e33963b5f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/84df9b7b3ce9ff5e390e05a5ecb1a0b43a10b73c178e2749e7f614167e23f7f5.ogg",
@@ -4871,18 +5114,20 @@
         },
         {
           "optionId": "b",
-          "text": "Clock"
+          "text": "Clock",
+          "imageAssetPath": "option-art/510aa73f219cda0f22fd40a2.svg"
         },
         {
           "optionId": "c",
-          "text": "Ruler"
+          "text": "Ruler",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-038.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-038.svg",
       "promptAudioAssetPath": "speech/79c3331cf8635ba4b5f18dabb6a0d87bd3752595fcc264a5e96e8ef2d964444d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1256448bd117cfbdafe0e7fa2042cfc450dee6d274aa44c38fa549642b9c9c01.ogg",
@@ -4901,22 +5146,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3:30"
+          "text": "3:30",
+          "imageAssetPath": "option-art/3897d7fc0e8e60b2ebe17a49.svg"
         },
         {
           "optionId": "b",
-          "text": "2:15"
+          "text": "2:15",
+          "imageAssetPath": "option-art/6fce0b8f64b7019958be8819.svg"
         },
         {
           "optionId": "c",
-          "text": "2:45"
+          "text": "2:45",
+          "imageAssetPath": "option-art/806ad4ebe2ec87c3fb232706.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-039.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-039.svg",
       "promptAudioAssetPath": "speech/b8c2c3d3109fcb38f9ba22ddd3fbf3b540066cdc7f96bd6ebc29569d72c51a33.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/525c2c12d35b79836e8a70f0cc6978e3767c27840ccca0c59edd75a165e2cf7f.ogg",
@@ -4935,22 +5183,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "200 pounds"
+          "text": "200 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "b",
-          "text": "2 pounds"
+          "text": "2 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "c",
-          "text": "20 pounds"
+          "text": "20 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-040.png",
+      "promptImageAssetPath": "question-art/new-aboudy-maths-040.svg",
       "promptAudioAssetPath": "speech/36ceba96776d78b9397c048385c182a41655214abf7cf66c2820c582aca67e1b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/229c4b438018536b7da7adfe19646a07f07a63b49b77c14bf946b54ec8ecb525.ogg",
@@ -4969,22 +5220,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Flowers turn directly into roots"
+          "text": "Flowers turn directly into roots",
+          "imageAssetPath": "option-art/071884a791ea61591dc6337d.svg"
         },
         {
           "optionId": "b",
-          "text": "Flowers take in all the water from soil"
+          "text": "Flowers take in all the water from soil",
+          "imageAssetPath": "option-art/f74f7cb8c26bf0b5e3eea69d.svg"
         },
         {
           "optionId": "c",
-          "text": "Flowers help many plants make seeds"
+          "text": "Flowers help many plants make seeds",
+          "imageAssetPath": "option-art/48f4c0c353ecf7d96c036ad5.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-001.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-001.svg",
       "promptAudioAssetPath": "speech/5bdf7a740dddd034045ad383acdea93190c8b3bbce7895f81b32a2dab7460010.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/942aa883b6bffb866cb08decf658bf6da459507a8888fcb38380f81e8bcc9d8a.ogg",
@@ -5003,22 +5257,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A butterfly begins life as an egg"
+          "text": "A butterfly begins life as an egg",
+          "imageAssetPath": "option-art/176dccf74fc6a933011ac3aa.svg"
         },
         {
           "optionId": "b",
-          "text": "A butterfly begins life as a seed"
+          "text": "A butterfly begins life as a seed",
+          "imageAssetPath": "option-art/214658cbd6f874e93e21f509.svg"
         },
         {
           "optionId": "c",
-          "text": "A butterfly begins life as a small bird"
+          "text": "A butterfly begins life as a small bird",
+          "imageAssetPath": "option-art/947531dac9e55010b90e5d1d.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-002.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-002.svg",
       "promptAudioAssetPath": "speech/3f8ee7a089a5f38122a4a87fee6943af4c5aa914915788f1f100d3f027d7b114.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/424ec9ce48bb18dfdfe20c8c91bbf8b1e6539c6e7a41771cde71a71019f0e3bb.ogg",
@@ -5037,22 +5294,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Plants get all their food from soil"
+          "text": "Plants get all their food from soil",
+          "imageAssetPath": "option-art/c17bd4dab5d625ec83604b17.svg"
         },
         {
           "optionId": "b",
-          "text": "Green plants take in oxygen to make food"
+          "text": "Green plants take in oxygen to make food",
+          "imageAssetPath": "option-art/3f52ec32aeb25ecfb519bc01.svg"
         },
         {
           "optionId": "c",
-          "text": "Green plants take in carbon dioxide"
+          "text": "Green plants take in carbon dioxide",
+          "imageAssetPath": "option-art/5af75041114cc92cba52ec58.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-003.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-003.svg",
       "promptAudioAssetPath": "speech/e12adaa72b4b1d20563435fc630929149c1baba6cca7c9da08001dfe205267a0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a5013fdb8f8e441b8b6abdba01d1c598570be2842763ce2b80e963629bbcfda5.ogg",
@@ -5071,22 +5331,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Polar bears live in tropical rainforests"
+          "text": "Polar bears live in tropical rainforests",
+          "imageAssetPath": "option-art/ba871ff1513f9d68293b0620.svg"
         },
         {
           "optionId": "b",
-          "text": "Polar bears live in Antarctica"
+          "text": "Polar bears live in Antarctica",
+          "imageAssetPath": "option-art/ba871ff1513f9d68293b0620.svg"
         },
         {
           "optionId": "c",
-          "text": "Polar bears live in Arctic habitats"
+          "text": "Polar bears live in Arctic habitats",
+          "imageAssetPath": "option-art/3c5557a4a84a806d165aab44.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-004.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-004.svg",
       "promptAudioAssetPath": "speech/e1458c1406ec7a6605b1d959332a44a552de97b714f78e4ac170fcf2d5a24d11.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/70eb0733d2439994716a8e9b2c0baa15394acd98f5bb9df7770758279e5b5ac9.ogg",
@@ -5105,22 +5368,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A food chain shows how water freezes"
+          "text": "A food chain shows how water freezes",
+          "imageAssetPath": "option-art/f194eeb025901ea65f268a00.svg"
         },
         {
           "optionId": "b",
-          "text": "A food chain shows how energy moves between organisms"
+          "text": "A food chain shows how energy moves between organisms",
+          "imageAssetPath": "option-art/16b6ed83a8d7f339430f55f5.svg"
         },
         {
           "optionId": "c",
-          "text": "A food chain shows how rocks are made"
+          "text": "A food chain shows how rocks are made",
+          "imageAssetPath": "option-art/f0b3a3ee0a3db13c0ca8f023.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-005.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-005.svg",
       "promptAudioAssetPath": "speech/a5071fe3bf19ce5817dcdf4d0d2246d821dff9d8aecd4b2c6ee2791e2da63cda.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cc3f903e881283d3b7f4ff0827752ae80b005c801aa1be11ba36a73abcddf14a.ogg",
@@ -5139,22 +5405,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Rabbits are omnivores"
+          "text": "Rabbits are omnivores",
+          "imageAssetPath": "option-art/108f8e41a631ea1180579819.svg"
         },
         {
           "optionId": "b",
-          "text": "Rabbits are carnivores"
+          "text": "Rabbits are carnivores",
+          "imageAssetPath": "option-art/108f8e41a631ea1180579819.svg"
         },
         {
           "optionId": "c",
-          "text": "Rabbits are herbivores"
+          "text": "Rabbits are herbivores",
+          "imageAssetPath": "option-art/5774f008533b3a13808a68a3.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-006.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-006.svg",
       "promptAudioAssetPath": "speech/def023173245ba470dac1ca656ddd9404b28925d769c8f64403c4f44a212809e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/e795f4a6fd7a9eae5cef08f3eb80cd580db5b39b0337e07b720ee1c5eecc143d.ogg",
@@ -5173,7 +5442,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The heart pumps blood around the body"
+          "text": "The heart pumps blood around the body",
+          "imageAssetPath": "option-art/204da8c2598c310c2a2a8e97.svg"
         },
         {
           "optionId": "b",
@@ -5181,14 +5451,15 @@
         },
         {
           "optionId": "c",
-          "text": "The lungs pump blood around the body"
+          "text": "The lungs pump blood around the body",
+          "imageAssetPath": "option-art/5d90271287283ee6390e1aef.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-007.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-007.svg",
       "promptAudioAssetPath": "speech/d9a33033185084affaddccaccd5a2d49e89aa894ac5c2e2061ff8668d44e8ada.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/02a6e70e5ef0570dad85b1a4a1107ff60e92d4326f4719ca6277cb496df6f955.ogg",
@@ -5207,22 +5478,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A balanced diet contains just one type of food"
+          "text": "A balanced diet contains just one type of food",
+          "imageAssetPath": "option-art/fcebe29e6860acb1cebe20ec.svg"
         },
         {
           "optionId": "b",
-          "text": "A balanced diet contains only sweets"
+          "text": "A balanced diet contains only sweets",
+          "imageAssetPath": "option-art/fcebe29e6860acb1cebe20ec.svg"
         },
         {
           "optionId": "c",
-          "text": "A balanced diet provides different nutrients"
+          "text": "A balanced diet provides different nutrients",
+          "imageAssetPath": "option-art/fcebe29e6860acb1cebe20ec.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-008.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-008.svg",
       "promptAudioAssetPath": "speech/ab9893e49262649ce8c491f9bde535f3b239c34be696b02f6d49e10706ffc13e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a4e1a811c0ea295b0d79ac048cb560f90115b57332e8b61a835fd3ab24ef4fc1.ogg",
@@ -5241,22 +5515,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The lungs help us breathe"
+          "text": "The lungs help us breathe",
+          "imageAssetPath": "option-art/5d90271287283ee6390e1aef.svg"
         },
         {
           "optionId": "b",
-          "text": "The stomach helps us breathe"
+          "text": "The stomach helps us breathe",
+          "imageAssetPath": "option-art/5d90271287283ee6390e1aef.svg"
         },
         {
           "optionId": "c",
-          "text": "The liver helps us breathe"
+          "text": "The liver helps us breathe",
+          "imageAssetPath": "option-art/5d90271287283ee6390e1aef.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-009.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-009.svg",
       "promptAudioAssetPath": "speech/58ca9077ae3ae2ab46221761d368df7a47164a1dea86528dbf2eddfbbc6802ea.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/67941becb6b73f90260c51697d3b3ea297d3f7960096088410a369b6978d1073.ogg",
@@ -5275,22 +5552,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Soap and water help remove germs"
+          "text": "Soap and water help remove germs",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         },
         {
           "optionId": "b",
-          "text": "Soap adds germs to our hands"
+          "text": "Soap adds germs to our hands",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         },
         {
           "optionId": "c",
-          "text": "Perfume and dry air remove all germs"
+          "text": "Perfume and dry air remove all germs",
+          "imageAssetPath": "option-art/2fe4fd45030133eb3e1990c7.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-010.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-010.svg",
       "promptAudioAssetPath": "speech/26e6848abf63ae1dc9b49b7ffd62622013b8c9fb318c2b5a37c098532a5ad3de.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/3254cd7db7f34f851da3849260ffdb9faa6e8e6491e00bf455b468aca45e3506.ogg",
@@ -5309,22 +5589,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Solids take the shape of every container"
+          "text": "Solids take the shape of every container",
+          "imageAssetPath": "option-art/32783d932a70543bf2ac274e.svg"
         },
         {
           "optionId": "b",
-          "text": "Solids always flow like liquids"
+          "text": "Solids always flow like liquids",
+          "imageAssetPath": "option-art/89debe8febb01d7241ace4fb.svg"
         },
         {
           "optionId": "c",
-          "text": "Solids keep their own shape"
+          "text": "Solids keep their own shape",
+          "imageAssetPath": "option-art/32783d932a70543bf2ac274e.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-011.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-011.svg",
       "promptAudioAssetPath": "speech/546ff4b7bedf0795153eed72e95957177734b3e832f0e3252dab95d7d2183c9f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9cac5ef075ac7a0d20d268e3c846958c80514e317e3e0fa084dce095dc337edc.ogg",
@@ -5343,22 +5626,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Freezing changes water into steam"
+          "text": "Freezing changes water into steam",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "b",
-          "text": "Freezing changes liquid water into water vapour"
+          "text": "Freezing changes liquid water into water vapour",
+          "imageAssetPath": "option-art/98dbca8602202d237c0efaf3.svg"
         },
         {
           "optionId": "c",
-          "text": "Freezing changes liquid water into ice"
+          "text": "Freezing changes liquid water into ice",
+          "imageAssetPath": "option-art/fe2eaf9118c3788223afada3.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-012.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-012.svg",
       "promptAudioAssetPath": "speech/a692031215a23fbe6e815af2fc8f3374cf97444c6899a73272828dd3b2332d62.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8257d1b6ceab974b3d11efa399c6104fc5256c1a35efe488b7ff4f9f419ba356.ogg",
@@ -5377,22 +5663,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Plastic is always a better heat conductor than metal"
+          "text": "Plastic is always a better heat conductor than metal",
+          "imageAssetPath": "option-art/68115be92e3bbe09390bc066.svg"
         },
         {
           "optionId": "b",
-          "text": "Metal transfers heat well"
+          "text": "Metal transfers heat well",
+          "imageAssetPath": "option-art/cd7dc9df2e7092a9cef07074.svg"
         },
         {
           "optionId": "c",
-          "text": "Wood transfers heat better than metal"
+          "text": "Wood transfers heat better than metal",
+          "imageAssetPath": "option-art/535bc8d13f8f2c532dae033a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-013.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-013.svg",
       "promptAudioAssetPath": "speech/f937758d8b80c2d2864308b3c18a14c6bd599c97eb877817de031eeabd3d7b77.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/bc07e05deea32b73433aa53ca057f8d473934085d8195f0cdbacebdcc8b23671.ogg",
@@ -5411,22 +5700,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Gravity only works on very heavy objects"
+          "text": "Gravity only works on very heavy objects",
+          "imageAssetPath": "option-art/f74b3490f30761effcc02736.svg"
         },
         {
           "optionId": "b",
-          "text": "Gravity pushes objects away from Earth"
+          "text": "Gravity pushes objects away from Earth",
+          "imageAssetPath": "option-art/bbc600b3b68ffee102905bca.svg"
         },
         {
           "optionId": "c",
-          "text": "Gravity pulls objects towards Earth"
+          "text": "Gravity pulls objects towards Earth",
+          "imageAssetPath": "option-art/bbc600b3b68ffee102905bca.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-014.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-014.svg",
       "promptAudioAssetPath": "speech/c842e34522693acfc92783ca8325855ae05dc1ad3b01dfd69c54f5e968549e10.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/74906b4cb3fc86c586a790dff347c2d8ad80045dc29c8991c160231171b5e00e.ogg",
@@ -5445,22 +5737,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A ramp removes the force of gravity"
+          "text": "A ramp removes the force of gravity",
+          "imageAssetPath": "option-art/e05059c35c61808632f3657d.svg"
         },
         {
           "optionId": "b",
-          "text": "A ramp makes a toy car heavier"
+          "text": "A ramp makes a toy car heavier",
+          "imageAssetPath": "option-art/29ef08ed35fc51e29370533c.svg"
         },
         {
           "optionId": "c",
-          "text": "A steeper ramp can make a toy car move faster"
+          "text": "A steeper ramp can make a toy car move faster",
+          "imageAssetPath": "option-art/29ef08ed35fc51e29370533c.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-015.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-015.svg",
       "promptAudioAssetPath": "speech/f482678651451f42c4a53041efcf514ffec02f541fc89a324ffc7280036fd083.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/08c7a38e6048f312a876e905a970513aa8df575019b121d9dd5c2206725d9882.ogg",
@@ -5479,22 +5774,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Earth's rotation causes day and night"
+          "text": "Earth's rotation causes day and night",
+          "imageAssetPath": "option-art/4e28db96abea76913feca88d.svg"
         },
         {
           "optionId": "b",
-          "text": "The Moon's orbit causes day and night"
+          "text": "The Moon's orbit causes day and night",
+          "imageAssetPath": "option-art/5d1fbc7904b02c41d25658d6.svg"
         },
         {
           "optionId": "c",
-          "text": "Earth's revolution around the Sun causes day and night"
+          "text": "Earth's revolution around the Sun causes day and night",
+          "imageAssetPath": "option-art/b4eb23d8263cb4ba22a4edc4.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-016.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-016.svg",
       "promptAudioAssetPath": "speech/8b37272fefea70cd929035c29db7cff55890bf800d8c90829cd6af0653fdc715.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/aa35062eabac70823d245be87786d78661ff2b0644b2726d3a6f53eecb2ea2c1.ogg",
@@ -5513,22 +5811,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A mirror creates its own light"
+          "text": "A mirror creates its own light",
+          "imageAssetPath": "option-art/80a222908d27ad2bf0aaa82f.svg"
         },
         {
           "optionId": "b",
-          "text": "The Sun is a natural source of light"
+          "text": "The Sun is a natural source of light",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         },
         {
           "optionId": "c",
-          "text": "The Moon makes its own light"
+          "text": "The Moon makes its own light",
+          "imageAssetPath": "option-art/98d938e24d01daf0a14eea1d.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-017.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-017.svg",
       "promptAudioAssetPath": "speech/56a1bf8dec1a20de0e0bc94bda6ffeb4bc8f040540093113c8e761645bb0ba5c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/7f84600c9bd5ac222ae83fadd32454f46a410d417187a3e131b7a4b7c5f4743a.ogg",
@@ -5547,22 +5848,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Evaporation changes liquid water into water vapour"
+          "text": "Evaporation changes liquid water into water vapour",
+          "imageAssetPath": "option-art/03e5db663daee228eafb65f6.svg"
         },
         {
           "optionId": "b",
-          "text": "Evaporation changes water vapour into rocks"
+          "text": "Evaporation changes water vapour into rocks",
+          "imageAssetPath": "option-art/03e5db663daee228eafb65f6.svg"
         },
         {
           "optionId": "c",
-          "text": "Evaporation changes liquid water into ice"
+          "text": "Evaporation changes liquid water into ice",
+          "imageAssetPath": "option-art/f73818e4f2cb1aa0695fc54a.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-018.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-018.svg",
       "promptAudioAssetPath": "speech/336db24f12ddc4ff8c136d56da7a8586d715cb14600cd78d99cdea76890cc7db.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/80a37fdd8161ef820d17be6e16aeb8681d4a84775daf9e6893bbd2a4620a9f6d.ogg",
@@ -5581,22 +5885,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Recycling paper helps reduce waste"
+          "text": "Recycling paper helps reduce waste",
+          "imageAssetPath": "option-art/b784b680d54f74605f32fe3c.svg"
         },
         {
           "optionId": "b",
-          "text": "Throwing paper away is the same as recycling"
+          "text": "Throwing paper away is the same as recycling",
+          "imageAssetPath": "option-art/b784b680d54f74605f32fe3c.svg"
         },
         {
           "optionId": "c",
-          "text": "Burning paper is the best way to recycle it"
+          "text": "Burning paper is the best way to recycle it",
+          "imageAssetPath": "option-art/80efcc6c93bbdf069bf9d2e2.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-019.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-019.svg",
       "promptAudioAssetPath": "speech/e9c1343a83ef06a4f251b338f0d1b269e6d04ea64b3474b061a4284d40dcb343.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9e0fed330e875eb47f3cfd027cc33bd6afa50abc066ee578cec07c116ef087a9.ogg",
@@ -5615,22 +5922,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "People and plants need clean water"
+          "text": "People and plants need clean water",
+          "imageAssetPath": "option-art/e2646dbd344e7bd0b2a2ea0a.svg"
         },
         {
           "optionId": "b",
-          "text": "Dirty water is always safe to drink"
+          "text": "Dirty water is always safe to drink",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "c",
-          "text": "Only plants need clean water"
+          "text": "Only plants need clean water",
+          "imageAssetPath": "option-art/315e6c733b85d4f062a22df6.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-020.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-020.svg",
       "promptAudioAssetPath": "speech/5acf02d8f83d6084f69c2851651da5684059dbf18f46f9d0e843a46acafeff3e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/69041eee19a21b32c21566a4f6ce7fe3ad6ce1bf2be855c2400f51d80b6eb6db.ogg",
@@ -5649,22 +5959,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The rib cage protects the heart and lungs"
+          "text": "The rib cage protects the heart and lungs",
+          "imageAssetPath": "option-art/a4acd13a8ff8dade13cfe2fb.svg"
         },
         {
           "optionId": "b",
-          "text": "The rib cage helps digest food"
+          "text": "The rib cage helps digest food",
+          "imageAssetPath": "option-art/046d0435c42d0bc19df38fc2.svg"
         },
         {
           "optionId": "c",
-          "text": "The rib cage protects the brain"
+          "text": "The rib cage protects the brain",
+          "imageAssetPath": "option-art/f867e8a7e9a521f1e60bec9b.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-021.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-021.svg",
       "promptAudioAssetPath": "speech/c74d146df4a5588701a1fe08f40bb6e786c0e79c8b770b3c3c83239cfe9cfd7c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/2b2275043a4a008e008a095804ddbb82f45a3fd9fc48e20d405b539efbcfd246.ogg",
@@ -5683,22 +5996,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A pulley is an inclined plane"
+          "text": "A pulley is an inclined plane",
+          "imageAssetPath": "option-art/9ae6cfac7767bc088605e367.svg"
         },
         {
           "optionId": "b",
-          "text": "A ramp is an example of an inclined plane"
+          "text": "A ramp is an example of an inclined plane",
+          "imageAssetPath": "option-art/de3acc1c2fb17e09bbafb31f.svg"
         },
         {
           "optionId": "c",
-          "text": "A lever is an inclined plane"
+          "text": "A lever is an inclined plane",
+          "imageAssetPath": "option-art/97f9d63b6d618e361c2647ff.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-022.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-022.svg",
       "promptAudioAssetPath": "speech/403868dd2d5c1728b9714aa4d647ff17914278be17ee55f4830fc88bf5d9a344.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5589511d9016384429a68fecdceea729e6321d9dbde70062b62c55f8aadf857b.ogg",
@@ -5717,22 +6033,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A shadow forms without any light"
+          "text": "A shadow forms without any light",
+          "imageAssetPath": "option-art/94d86b396d4a3c5dc101553e.svg"
         },
         {
           "optionId": "b",
-          "text": "A shadow forms when an object blocks light"
+          "text": "A shadow forms when an object blocks light",
+          "imageAssetPath": "option-art/4614a6dcf4f066ef909c4f51.svg"
         },
         {
           "optionId": "c",
-          "text": "A shadow forms when sound is blocked"
+          "text": "A shadow forms when sound is blocked",
+          "imageAssetPath": "option-art/77af0aaca0eaa36a9a49d614.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-023.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-023.svg",
       "promptAudioAssetPath": "speech/a30211a3f4ce8a6156d0d17af68ce8c4b2ff99e9a302ec58f5994050333ec12c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d0437f25818d82a6aa1ec5c65ddb9e9605871060e9213cd67afeb77a39fcc492.ogg",
@@ -5751,22 +6070,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Earth is the planet we live on"
+          "text": "Earth is the planet we live on",
+          "imageAssetPath": "option-art/b45abbbc51e4282d145cde73.svg"
         },
         {
           "optionId": "b",
-          "text": "Earth is the Moon's natural satellite"
+          "text": "Earth is the Moon's natural satellite",
+          "imageAssetPath": "option-art/58c00c9e6be7501dc98d5ee7.svg"
         },
         {
           "optionId": "c",
-          "text": "Earth is a star"
+          "text": "Earth is a star",
+          "imageAssetPath": "option-art/74e8e590a6402056f28f512f.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-024.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-024.svg",
       "promptAudioAssetPath": "speech/f6e535ec2d14208e70836915113085bda5f7cb0159bdaa183b64271fa6b14b4d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/fd0dc0d7c6f3391ade3e89d8817bc35120293c60487b7921c572b548cfaf64aa.ogg",
@@ -5785,22 +6107,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A thermometer measures temperature"
+          "text": "A thermometer measures temperature",
+          "imageAssetPath": "option-art/8641c4b46f32b44162db22d1.svg"
         },
         {
           "optionId": "b",
-          "text": "A clock measures temperature"
+          "text": "A clock measures temperature",
+          "imageAssetPath": "option-art/db022d96060cc1d23f821126.svg"
         },
         {
           "optionId": "c",
-          "text": "A ruler measures temperature"
+          "text": "A ruler measures temperature",
+          "imageAssetPath": "option-art/918cae4a06c4c8d204d219c2.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-025.png",
+      "promptImageAssetPath": "question-art/new-aboudy-science-025.svg",
       "promptAudioAssetPath": "speech/1cc321f2dcf901ca5fa532008f9088becbbe241095c886d58fcda9384c40b31f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/9008d47ba89d33e9e2b7c3b84ae1a0602d324c51f159ec4e0966130455905227.ogg",
@@ -5819,15 +6144,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A toy fish"
+          "text": "A toy fish",
+          "imageAssetPath": "option-art/b86bdbbc040b6595c898eacf.svg"
         },
         {
           "optionId": "b",
-          "text": "A wooden bird model"
+          "text": "A wooden bird model",
+          "imageAssetPath": "option-art/4fc5c377380cf59a52411a6d.svg"
         },
         {
           "optionId": "c",
-          "text": "A real fish in water"
+          "text": "A real fish in water",
+          "imageAssetPath": "option-art/55bcb48988c3c2cb4ff97b36.svg"
         }
       ],
       "correctOptionId": "c",
@@ -5844,7 +6172,7 @@
         "b": "A wooden model is not alive",
         "c": "A real fish is a living animal"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q01-en.svg",
       "promptAudioAssetPath": "speech/6ab0fbf4f25e9a2cbc40227c88ab46d3083d4840375daaefdd1df23fbdca3dfa.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/624c0fe4856d6b2610688b0864b9e3597beb3466643cd36688c277914e95c129.ogg",
@@ -5863,15 +6191,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It needs food and grows"
+          "text": "It needs food and grows",
+          "imageAssetPath": "option-art/d73ea43e5f6274002d311bf3.svg"
         },
         {
           "optionId": "b",
-          "text": "It has a painted eye"
+          "text": "It has a painted eye",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         },
         {
           "optionId": "c",
-          "text": "It is made of plastic"
+          "text": "It is made of plastic",
+          "imageAssetPath": "option-art/f52fcaa7562d6aca13a6c8d8.svg"
         }
       ],
       "correctOptionId": "a",
@@ -5888,7 +6219,7 @@
         "b": "Painted appearance is not life",
         "c": "Plastic models are not living"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q02-en.svg",
       "promptAudioAssetPath": "speech/3e9077f37ac1dfed6e144160429c25a22226dacfca40b296fa0f8158857acd94.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b1c29b64e88b057a45a3b24ac09d65ae55f2fa03a4b881c70407b32857f370e7.ogg",
@@ -5911,7 +6242,8 @@
         },
         {
           "optionId": "b",
-          "text": "A kitten"
+          "text": "A kitten",
+          "imageAssetPath": "option-art/e9952da885cffdc35fe13fdb.svg"
         },
         {
           "optionId": "c",
@@ -5932,7 +6264,7 @@
         "b": "A kitten is a young cat",
         "c": "A chick is a young bird"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q03-en.svg",
       "promptAudioAssetPath": "speech/c7e3440108251bd7136cc4bc770bf5c9393e9c42561b6b577eb421a2a4aeb2bb.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1ef59a99fd13160c180e822149be01ca0eed764f365b818a9ce6d7fb2c82e92e.ogg",
@@ -5955,11 +6287,13 @@
         },
         {
           "optionId": "b",
-          "text": "A tree branch"
+          "text": "A tree branch",
+          "imageAssetPath": "option-art/f6c72881c6974d4d7c5f83ff.svg"
         },
         {
           "optionId": "c",
-          "text": "A pond"
+          "text": "A pond",
+          "imageAssetPath": "option-art/1a2dfaaf84828bceed49f917.svg"
         }
       ],
       "correctOptionId": "c",
@@ -5976,7 +6310,7 @@
         "b": "A branch is not an aquatic habitat",
         "c": "A pond provides water"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q04-en.svg",
       "promptAudioAssetPath": "speech/e6da1e0ce826812f19f14c612f1ceea7568a1e965ed6787413344c339de718f1.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/cc34f5eaf74d91fc1707bbf9cb1cdbe603154239fe9dd5a9e4a52e0333e44064.ogg",
@@ -5995,7 +6329,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Some young animals change in shape as they grow"
+          "text": "Some young animals change in shape as they grow",
+          "imageAssetPath": "option-art/716eba40d37c6f3ee8e278f4.svg"
         },
         {
           "optionId": "b",
@@ -6003,7 +6338,8 @@
         },
         {
           "optionId": "c",
-          "text": "A frog is not an animal when it is young"
+          "text": "A frog is not an animal when it is young",
+          "imageAssetPath": "option-art/24dec27b6bd0c6f3dfe78e34.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6020,7 +6356,7 @@
         "b": "Many young animals do not look exactly like adults",
         "c": "A tadpole is an animal"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q05-en.svg",
       "promptAudioAssetPath": "speech/b0516c01a77c3aa09be5d29b1c65dbaa927c995f61d13fbbf40c1866d460c1ff.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/82a9548394b9caec0c13a8e0f8c771e66ab14ddcf28228b43feb618b8734cfce.ogg",
@@ -6043,11 +6379,13 @@
         },
         {
           "optionId": "b",
-          "text": "Things an animal needs, such as food, water and shelter"
+          "text": "Things an animal needs, such as food, water and shelter",
+          "imageAssetPath": "option-art/f76ceb21f9d094865b238972.svg"
         },
         {
           "optionId": "c",
-          "text": "The same food for every animal"
+          "text": "The same food for every animal",
+          "imageAssetPath": "option-art/d73ea43e5f6274002d311bf3.svg"
         }
       ],
       "correctOptionId": "b",
@@ -6064,7 +6402,7 @@
         "b": "Habitats provide several needs",
         "c": "Different animals have different diets"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q06-en.svg",
       "promptAudioAssetPath": "speech/81d273da50e3209ec5292730a17f03f1f31d5a11d13c97e4a0ffc05793e68527.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/b137efd5c5658b8c7193325f13c7fb3bdb4185de0c7e096b355f064f4ae01403.ogg",
@@ -6083,11 +6421,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Six legs"
+          "text": "Six legs",
+          "imageAssetPath": "option-art/028857bfd6ef11b7c42a63f7.svg"
         },
         {
           "optionId": "b",
-          "text": "A backbone"
+          "text": "A backbone",
+          "imageAssetPath": "option-art/508db01e54f0e135487ee192.svg"
         },
         {
           "optionId": "c",
@@ -6108,7 +6448,7 @@
         "b": "Vertebrates have a backbone",
         "c": "Wings are not the grouping rule"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q01-en.svg",
       "promptAudioAssetPath": "speech/47e80e8d77d2d4de99791c9732fcd5d005a9b36aca4a31e450d5c299ce7f9514.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/6cee956c1dcacb2a947cac9a01e0815e2885207cca5d9e6f9f36a5f15e553125.ogg",
@@ -6135,7 +6475,8 @@
         },
         {
           "optionId": "c",
-          "text": "A frog"
+          "text": "A frog",
+          "imageAssetPath": "option-art/24dec27b6bd0c6f3dfe78e34.svg"
         }
       ],
       "correctOptionId": "c",
@@ -6152,7 +6493,7 @@
         "b": "An earthworm is an invertebrate",
         "c": "A frog has a backbone"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q02-en.svg",
       "promptAudioAssetPath": "speech/d024ced8d5afd7df71ecd2f8f8baba95cebc8b6faf759ccd201a4f82aa9eae09.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ae94b9df52c6a7683c6f67e1fb600db5949c11bb4d2bf01010451dd6572f6926.ogg",
@@ -6171,15 +6512,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A butterfly"
+          "text": "A butterfly",
+          "imageAssetPath": "option-art/39f92ee8d2deaa426b84e17d.svg"
         },
         {
           "optionId": "b",
-          "text": "A cat"
+          "text": "A cat",
+          "imageAssetPath": "option-art/e9952da885cffdc35fe13fdb.svg"
         },
         {
           "optionId": "c",
-          "text": "A fish"
+          "text": "A fish",
+          "imageAssetPath": "option-art/69f7f6dda1302e396ea7809f.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6196,7 +6540,7 @@
         "b": "A cat is a vertebrate",
         "c": "A fish is a vertebrate"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q03-en.svg",
       "promptAudioAssetPath": "speech/b7fc4ad92fff9aa6efcce4b6e2f1fbb3258ee3a6633a1f60776ec31a47b2d1e0.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/80dbfb5475478e9016188c06b711fd95541ad86465ff201ff271fef5d734a338.ogg",
@@ -6219,11 +6563,13 @@
         },
         {
           "optionId": "b",
-          "text": "Whether it has a backbone"
+          "text": "Whether it has a backbone",
+          "imageAssetPath": "option-art/508db01e54f0e135487ee192.svg"
         },
         {
           "optionId": "c",
-          "text": "How fast it moves"
+          "text": "How fast it moves",
+          "imageAssetPath": "option-art/51d672ba0579c9cc1d75f3c7.svg"
         }
       ],
       "correctOptionId": "b",
@@ -6240,7 +6586,7 @@
         "b": "The backbone is the classification feature",
         "c": "Speed is not the stated rule"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q04-en.svg",
       "promptAudioAssetPath": "speech/ca205b84df1f524ee87b487b90a8f2559d221519160206b664f3ca0d9960571f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/694e53fc39e392310042374a1eb31b94d20fbc3abb1037dec5e2fa0c3a4dff47.ogg",
@@ -6259,15 +6605,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Vertebrates"
+          "text": "Vertebrates",
+          "imageAssetPath": "option-art/be843401304c7e93d73408b1.svg"
         },
         {
           "optionId": "b",
-          "text": "Mammals"
+          "text": "Mammals",
+          "imageAssetPath": "option-art/5f53d4cba8e2bbd38a4ba693.svg"
         },
         {
           "optionId": "c",
-          "text": "Invertebrates"
+          "text": "Invertebrates",
+          "imageAssetPath": "option-art/be843401304c7e93d73408b1.svg"
         }
       ],
       "correctOptionId": "c",
@@ -6284,7 +6633,7 @@
         "b": "Octopuses are not mammals",
         "c": "An octopus is an invertebrate"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q05-en.svg",
       "promptAudioAssetPath": "speech/9c9382c2639d1c38e15adbccfdbe67d4cc0253acff49cc0b6c69525a7e020627.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/245145c9aafe4816e83f1d1ddce48054fdad1a79505d9144e0d58151e58e3cd9.ogg",
@@ -6303,15 +6652,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It is an invertebrate, but it is not an insect"
+          "text": "It is an invertebrate, but it is not an insect",
+          "imageAssetPath": "option-art/230bc4a427031169d0ae87f0.svg"
         },
         {
           "optionId": "b",
-          "text": "It is an insect because it is small"
+          "text": "It is an insect because it is small",
+          "imageAssetPath": "option-art/ebde30914a0787022101c3a0.svg"
         },
         {
           "optionId": "c",
-          "text": "It is a vertebrate because it has legs"
+          "text": "It is a vertebrate because it has legs",
+          "imageAssetPath": "option-art/0d919a18b223c9a62f1dff2d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6328,7 +6680,7 @@
         "b": "Small size does not make an animal an insect",
         "c": "Having legs does not mean an animal has a backbone"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q06-en.svg",
       "promptAudioAssetPath": "speech/76ed6587cf2c8d9e4e46507582ec62fa84c010847fb3d0ae8533b9ff4d802fae.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/57ccd5614fb84de8161f7578263127e72b630ee560c5a0e91ae92f1d1243182d.ogg",
@@ -6372,7 +6724,7 @@
         "b": "Adult insects have six legs",
         "c": "Ten is not the insect body-plan count"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q01-en.svg",
       "promptAudioAssetPath": "speech/6bbf7b4fa5045b9471da1d4aa12eea744991f2edfa33085c09b8355f3cc9ddaf.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/a9e031d9ad4b595f932f2a5668249b463dd5e914e567b443d014082add5548f4.ogg",
@@ -6399,7 +6751,8 @@
         },
         {
           "optionId": "c",
-          "text": "Shell, fin and tail"
+          "text": "Shell, fin and tail",
+          "imageAssetPath": "option-art/e6ef7f00c4171a86928bdc43.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6416,7 +6769,7 @@
         "b": "These are not the insect body regions",
         "c": "These features describe other body plans"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q02-en.svg",
       "promptAudioAssetPath": "speech/d8fa03b70ed34ef58700dbf453f3ee87663dc2cf30505472bafb62d491ed7e4f.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/35d25861fff505f3c3376da8bb8442324bef620aa5e3741d47344116f086e51d.ogg",
@@ -6435,7 +6788,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A spider"
+          "text": "A spider",
+          "imageAssetPath": "option-art/c3b3be7b6515c45ab6ce7185.svg"
         },
         {
           "optionId": "b",
@@ -6443,7 +6797,8 @@
         },
         {
           "optionId": "c",
-          "text": "A butterfly"
+          "text": "A butterfly",
+          "imageAssetPath": "option-art/39f92ee8d2deaa426b84e17d.svg"
         }
       ],
       "correctOptionId": "c",
@@ -6460,7 +6815,7 @@
         "b": "An earthworm is not an insect",
         "c": "A butterfly is an insect"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q03-en.svg",
       "promptAudioAssetPath": "speech/0417fda5f9dd6ff078374bbb92e4280c1aa82489a8c7c04228b3ca77bfa89e17.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/31dc8400dc30ccd593866e3497b55bd609e2ca55c96edae492946d9bf1caf895.ogg",
@@ -6479,15 +6834,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Every insect has two pairs of wings"
+          "text": "Every insect has two pairs of wings",
+          "imageAssetPath": "option-art/a6acde9826c25582716e8784.svg"
         },
         {
           "optionId": "b",
-          "text": "Many adult insects have wings, but some do not"
+          "text": "Many adult insects have wings, but some do not",
+          "imageAssetPath": "option-art/a6acde9826c25582716e8784.svg"
         },
         {
           "optionId": "c",
-          "text": "Wings are the same as six legs"
+          "text": "Wings are the same as six legs",
+          "imageAssetPath": "option-art/028857bfd6ef11b7c42a63f7.svg"
         }
       ],
       "correctOptionId": "b",
@@ -6504,7 +6862,7 @@
         "b": "Some adult insects are wingless",
         "c": "Wings are not legs"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q04-en.svg",
       "promptAudioAssetPath": "speech/daa28f248804c0e3ffba14113a092ef0f24f900fd5858875fc2daf636d7774db.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/d7e8cdcc5c85dfa37305f7ed848cf1c44c74c8da0c7583aab7ac992b2cc600f1.ogg",
@@ -6523,15 +6881,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It may carry pollen between flowers"
+          "text": "It may carry pollen between flowers",
+          "imageAssetPath": "option-art/5647bd42a1d2f7a2e0b81a1b.svg"
         },
         {
           "optionId": "b",
-          "text": "It turns the flower into an animal"
+          "text": "It turns the flower into an animal",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "c",
-          "text": "It gives the plant its roots"
+          "text": "It gives the plant its roots",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6548,7 +6909,7 @@
         "b": "Flowers do not become animals",
         "c": "Roots are plant structures, not given by bees"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q05-en.svg",
       "promptAudioAssetPath": "speech/eecf449f9b7913c94842028acc44ebca2303b6483279dda82dd374f45ab1a71d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/91b729d844246a51ed5bd19ff352b4c89f5235a83aa687cf275ae7d5d82d9963.ogg",
@@ -6567,11 +6928,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Pick it up to count its legs"
+          "text": "Pick it up to count its legs",
+          "imageAssetPath": "option-art/028857bfd6ef11b7c42a63f7.svg"
         },
         {
           "optionId": "b",
-          "text": "Shake the nest to see what happens"
+          "text": "Shake the nest to see what happens",
+          "imageAssetPath": "option-art/512cc93a9298fa6edeaca3bd.svg"
         },
         {
           "optionId": "c",
@@ -6592,7 +6955,7 @@
         "b": "Disturbing a nest is unsafe",
         "c": "Observing from a safe distance is safer"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q06-en.svg",
       "promptAudioAssetPath": "speech/5982bb872c05653e245fc836b3e99951401f421dcf0e73e179c4595563622744.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/07112a8b8a2286c37093c8efbe9feeebf1f9c65b1418d7e9d15bb64546e1a2bd.ogg",
@@ -6636,7 +6999,7 @@
         "b": "Food alone is not a life cycle",
         "c": "A life cycle shows stages of growth and change"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q01-en.svg",
       "promptAudioAssetPath": "speech/0b9ef812f65a0c78578577edeafb0c212aa40ba26e4bd0cad24af41c287722b2.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/29b1964db7cb6d4b261806d6cac9883c048cdee11945886cac742a26124ac9ea.ogg",
@@ -6655,11 +7018,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Pupa (chrysalis)"
+          "text": "Pupa (chrysalis)",
+          "imageAssetPath": "option-art/1e333a01026245dd0b3d780f.svg"
         },
         {
           "optionId": "b",
-          "text": "Tadpole"
+          "text": "Tadpole",
+          "imageAssetPath": "option-art/6b4d0f1848c6f1e2ac3ac78c.svg"
         },
         {
           "optionId": "c",
@@ -6680,7 +7045,7 @@
         "b": "A tadpole belongs to a frog life cycle",
         "c": "A chick belongs to a chicken life cycle"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q02-en.svg",
       "promptAudioAssetPath": "speech/f0f57b0b2fdf08727742b476d78e49ee807548bc3dfdd03db8a864e6c9aa5dda.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/0bfbf0d6fe0f943bf556227b7b82cb8e3ff29008a23b6794993253c8b8d8d798.ogg",
@@ -6699,15 +7064,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Adult frog → egg → tadpole"
+          "text": "Adult frog → egg → tadpole",
+          "imageAssetPath": "option-art/44ce307f40dfee347a4baac3.svg"
         },
         {
           "optionId": "b",
-          "text": "Egg → tadpole → froglet → adult frog"
+          "text": "Egg → tadpole → froglet → adult frog",
+          "imageAssetPath": "option-art/44ce307f40dfee347a4baac3.svg"
         },
         {
           "optionId": "c",
-          "text": "Chick → froglet → egg"
+          "text": "Chick → froglet → egg",
+          "imageAssetPath": "option-art/e46ee9e120a16f5fdd9ba7bf.svg"
         }
       ],
       "correctOptionId": "b",
@@ -6724,7 +7092,7 @@
         "b": "This is the familiar frog life-cycle order",
         "c": "A chick belongs to a chicken life cycle"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q03-en.svg",
       "promptAudioAssetPath": "speech/86595593ce9b77b4f8ceef0e8892da596d44db93d88fc59ca8925ff9e8512cfe.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/02834f057681edec0bb5a674ae0d5d48113890ffa112ef6a6c031d1321e7d363.ogg",
@@ -6743,11 +7111,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A tadpole"
+          "text": "A tadpole",
+          "imageAssetPath": "option-art/6b4d0f1848c6f1e2ac3ac78c.svg"
         },
         {
           "optionId": "b",
-          "text": "A caterpillar"
+          "text": "A caterpillar",
+          "imageAssetPath": "option-art/0f02b0c6fba3f1a80865cdd4.svg"
         },
         {
           "optionId": "c",
@@ -6768,7 +7138,7 @@
         "b": "A caterpillar is a butterfly stage",
         "c": "A chick hatches from a chicken egg"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q04-en.svg",
       "promptAudioAssetPath": "speech/12c731a6e7d57376d8d9303e2c9c62faead1d66479b328bd469317d02c770b87.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/c28ab53b341c119f22a85b5b9c453eff7fabe79aa5ba5a1d2cd1f1bda9a3cdfc.ogg",
@@ -6787,15 +7157,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A butterfly has a pupa stage; a chicken does not"
+          "text": "A butterfly has a pupa stage; a chicken does not",
+          "imageAssetPath": "option-art/af5d80b9d6aa4405d0e8ec53.svg"
         },
         {
           "optionId": "b",
-          "text": "Both have a tadpole stage"
+          "text": "Both have a tadpole stage",
+          "imageAssetPath": "option-art/6b4d0f1848c6f1e2ac3ac78c.svg"
         },
         {
           "optionId": "c",
-          "text": "A chicken becomes a butterfly"
+          "text": "A chicken becomes a butterfly",
+          "imageAssetPath": "option-art/d9f2343c16957bb2e1fa1e72.svg"
         }
       ],
       "correctOptionId": "a",
@@ -6812,7 +7185,7 @@
         "b": "Tadpoles are frog stages",
         "c": "A chicken does not change into a butterfly"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q05-en.svg",
       "promptAudioAssetPath": "speech/3f1207eadcacc21f58484db2bfa63c73e8ce826edd5e16960b7c122fbe36121b.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/5975d8f7682c42f711c30655dde8f6db38be76049f3c676d1187aec3ba02c52b.ogg",
@@ -6856,7 +7229,7 @@
         "b": "Ordering shows the sequence of stages",
         "c": "Strength is not the purpose of a life-cycle sequence"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q06-en.svg",
       "promptAudioAssetPath": "speech/dbf6e74ad881ab003c39d7ca73f81b13e23d93c4517acb8cdc273b32ba779e36.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/1b6cd92974de13c9cb4d76e8713c6fbefd5f3ce4359373a79da28e09921af34a.ogg",
@@ -6875,11 +7248,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "An animal that hunts another animal for food"
+          "text": "An animal that hunts another animal for food",
+          "imageAssetPath": "option-art/d73ea43e5f6274002d311bf3.svg"
         },
         {
           "optionId": "b",
-          "text": "A plant that makes seeds"
+          "text": "A plant that makes seeds",
+          "imageAssetPath": "option-art/a13ec1d8d513211b8991a238.svg"
         },
         {
           "optionId": "c",
@@ -6900,7 +7275,7 @@
         "b": "A plant is not a predator",
         "c": "A predator feeds; it does not never eat"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q01-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q01-en.svg",
       "promptAudioAssetPath": "speech/bc7fe9facd5e788ad728d8a7423b7e15c6811336b1dd6b9bc704affc391ab314.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/034c553f6383eb90f28b5a38671970b7c608315f6c3e0421bf6a9d26e1ece96e.ogg",
@@ -6919,15 +7294,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The fox"
+          "text": "The fox",
+          "imageAssetPath": "option-art/10f8520d7c4e51219cd55ec7.svg"
         },
         {
           "optionId": "b",
-          "text": "The rabbit"
+          "text": "The rabbit",
+          "imageAssetPath": "option-art/108f8e41a631ea1180579819.svg"
         },
         {
           "optionId": "c",
-          "text": "Both are plants"
+          "text": "Both are plants",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "b",
@@ -6944,7 +7322,7 @@
         "b": "The rabbit is being hunted, so it is prey",
         "c": "Neither animal is a plant"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q02-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q02-en.svg",
       "promptAudioAssetPath": "speech/03e24aef1d1ae8dc42c2f4ac23b555cc294f1630c5d86407df6d23b16e9c41ec.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8e362956406a424927693a8729e56c8ef1d53304cde13e6085d03e19b2ccd8c3.ogg",
@@ -6963,15 +7341,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It makes the insect able to breathe underwater"
+          "text": "It makes the insect able to breathe underwater",
+          "imageAssetPath": "option-art/30d7c2ac3af84688bd161c70.svg"
         },
         {
           "optionId": "b",
-          "text": "It gives the insect more legs"
+          "text": "It gives the insect more legs",
+          "imageAssetPath": "option-art/50a578640bf5023fbd62e590.svg"
         },
         {
           "optionId": "c",
-          "text": "It can help the insect blend in among branches"
+          "text": "It can help the insect blend in among branches",
+          "imageAssetPath": "option-art/e8033be3c177a9be3cfa1002.svg"
         }
       ],
       "correctOptionId": "c",
@@ -6988,7 +7369,7 @@
         "b": "Camouflage does not add legs",
         "c": "Matching the surroundings can make it harder to see"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q03-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q03-en.svg",
       "promptAudioAssetPath": "speech/e2d8e0131c26471b2ba7b7403a2e2d4bc4baeb6355baf767dbe849f7034a8688.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/125b91a3f658f993c72b03cc700d3e4f777dd370e66906481ab3c99ba000506b.ogg",
@@ -7015,7 +7396,8 @@
         },
         {
           "optionId": "c",
-          "text": "Colour never affects how visible an animal is"
+          "text": "Colour never affects how visible an animal is",
+          "imageAssetPath": "option-art/0b21f501d84126d36f652eb2.svg"
         }
       ],
       "correctOptionId": "b",
@@ -7032,7 +7414,7 @@
         "b": "Matching surroundings can reduce visibility",
         "c": "Colour can affect how visible an animal is"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q04-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q04-en.svg",
       "promptAudioAssetPath": "speech/cb0ccb92ee3124c1246cf895fc50b400e4eabf930935c8b22cdc8218aafa6056.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/096ec90ccc67dfe004d254506d9d18571ad24e7c075421f534f3f7f75b891189.ogg",
@@ -7051,7 +7433,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "They help it push against water when swimming"
+          "text": "They help it push against water when swimming",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "b",
@@ -7059,7 +7442,8 @@
         },
         {
           "optionId": "c",
-          "text": "They store food for winter"
+          "text": "They store food for winter",
+          "imageAssetPath": "option-art/0b47daab1b4e5cf74e3d1ad8.svg"
         }
       ],
       "correctOptionId": "a",
@@ -7076,7 +7460,7 @@
         "b": "Webbed feet do not replace wings",
         "c": "Webbed feet are not food stores"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q05-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q05-en.svg",
       "promptAudioAssetPath": "speech/50665447dbf62fe9983a803fb3c8ee1377ac9a6cff912d5ae8d72c9914d2af25.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/920e20126af0e501678ac9ee9ca751716a125315b220cfa7052353be4b1f0244.ogg",
@@ -7095,15 +7479,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A large tank of water"
+          "text": "A large tank of water",
+          "imageAssetPath": "option-art/58d6a260cae2e47f0a9706a7.svg"
         },
         {
           "optionId": "b",
-          "text": "Air for breathing"
+          "text": "Air for breathing",
+          "imageAssetPath": "option-art/62f93cafd54533724b54f86a.svg"
         },
         {
           "optionId": "c",
-          "text": "Fat that can be used for energy"
+          "text": "Fat that can be used for energy",
+          "imageAssetPath": "option-art/d5d4b267960243b0b6294825.svg"
         }
       ],
       "correctOptionId": "c",
@@ -7120,7 +7507,7 @@
         "b": "The hump is not an air store",
         "c": "The hump stores fat that can be used for energy"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q06-en.png",
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q06-en.svg",
       "promptAudioAssetPath": "speech/91b6c919ce8659910621f8d810079ae5fada4aadb253eac2ddeec6e4e944e14a.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/98477bfd893a8edb3b3424cf17f422fe2cdb3f0764b9657f2e9b7e1111417613.ogg",
