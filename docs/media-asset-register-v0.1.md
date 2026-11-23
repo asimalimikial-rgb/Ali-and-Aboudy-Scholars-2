@@ -3,7 +3,7 @@
 **Date:** 23 November 2026  
 **Repository:** `asimalimikial-rgb/Ali-and-Aboudy-Scholars-2`  
 **Branch:** `foundation/slice-0-android`  
-**Status:** Eleven option illustrations plus 52 unique question illustrations are bundled; visual device QA remains open.
+**Status:** Eleven option illustrations plus 282 unique question illustrations are bundled; visual device QA remains open.
 
 ## Rights and production rule
 
@@ -84,9 +84,9 @@ The shared JVM asset-integrity test now expects eleven unique referenced illustr
 ## Question-specific illustration set — 23 November 2026
 
 - The extracted **Scholars Visual Learning Engine v1.6.0** is used at build time only; it is not an Android runtime dependency.
-- All **52 English activities** currently bundled across Ali KG2 (8) and Aboudy Grade 2 (44) now declare one question-specific image path under `question-art/`.
-- GitHub Actions generated the 52 PNGs from the original semantic SVG engine and produced `app/src/main/assets/question-art/manifest.json`.
-- Manifest verification confirmed 52 unique activity IDs, 52 unique paths, and 52 unique SHA-256 hashes. This verifies byte-level uniqueness, not pedagogical correctness of every visual.
+- All **282 English activities** currently bundled across Ali KG2 (108) and Aboudy Grade 2 (174) now declare one question-specific image path under `question-art/`.
+- GitHub Actions generated the 282 PNGs from the original semantic SVG engine and produced `app/src/main/assets/question-art/manifest.json`.
+- Manifest verification confirmed 282 unique activity IDs, 282 unique paths, and 282 unique SHA-256 hashes. This verifies byte-level uniqueness, not pedagogical correctness of every visual.
 - The PNGs are local app assets; no runtime network request is needed.
 - The renderer shows each question image above its prompt and retains text as an accessible fallback.
 - The JVM asset test has been updated to require one unique local illustration for every English activity. Android device-scale visual review remains open.
