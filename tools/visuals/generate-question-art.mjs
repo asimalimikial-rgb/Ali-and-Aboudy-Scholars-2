@@ -357,7 +357,7 @@ for (const filename of packFiles) {
         ? [phonicsPromptSvg(activity)]
         : profile.skill === "math"
           ? [mathPromptSvg(activity)]
-          : profile.skill === "english-grammar"
+          : (profile.skill === "english-grammar" || /sentence.*order|words.*correct order|word order|opposite|past tense|yesterday|punctuation|punctuated|question mark|city|place|turtle|adverb|contraction|do not|synonym|same meaning|comma|list|main idea|story|possessive|joins ideas|reason|because|future|prefix|sea|see|sounds like|complete:|___|blank|instruction/i.test(promptText))
             ? [languageTaskSvg(activity)]
             : profile.skill === "reading"
               ? [readingPromptSvg()]
