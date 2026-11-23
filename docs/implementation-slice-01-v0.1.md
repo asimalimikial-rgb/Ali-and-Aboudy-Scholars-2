@@ -82,6 +82,7 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 - **Run #142** — passed on `ac2cc6ce92617852f7f272a507cea609286e51b0`: includes Parent Dashboard, Android device credential gate, lifecycle close, Arabic labels, Kotlin compilation, JVM unit tests, and Room schema verification.
 - **Run #147** — passed on `201fdbe02465a160dc7ea16c00c7f7e8aef9c487`: includes the modern Android Activity Result API for the credential gate, Kotlin compilation, JVM unit tests, and Room schema verification.
 - **Run #167** — passed on `6acf5e89b48b2032929114fa3a71f5df6f15bfad`: includes content-pack v0.2.0 counts and item-alignment assertions, offline image-renderer compilation, Kotlin compilation, JVM unit tests, and Room schema v1/v2 verification. No Kotlin compiler warnings were reported in this run.
+- **Run #169** — passed on `1633ed6f8f738b271d17861c5a6b83e6bfb76fa4`: final implementation/feature-matrix documentation revision; Kotlin compilation, JVM unit tests, and Room schema v1/v2 verification passed again. No Kotlin compiler warnings were reported. The workflow emitted a separate GitHub Actions Node 20 deprecation warning.
 - CI does not build a distributable APK and does not run emulator or physical-device instrumentation.
 
 ## Preserved boundaries
