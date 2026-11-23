@@ -197,3 +197,12 @@ Every pack-level source record must carry the canonical ID, exact title, publish
 - Add Macmillan IDs to pack metadata only when the corresponding skills/activities are actually authored against that source. Do not add unused catalogue entries simply to make a pack look complete.
 - `MACMILLAN-MATH-L2A-PENDING` is retained as a historical gap marker and must not be used in new pack/skill records. Use `MACMILLAN-MATH-L2A-9781035130382` for the catalogue-identified product only; detailed Scope and Sequence mapping and family-copy confirmation remain pending.
 
+
+
+## Textbook cover and digital access evidence — 23 November 2026
+
+A dedicated register was added: [Textbook covers, ISBNs, official samples and lawful digital access](textbook-covers-and-digital-access-register-v0.1.md).
+
+It records the six core curriculum products plus the separate Indian Maths Xpress Class 2 title, external cover-preview references, publisher product pages, official Scope and Sequence files, the official Mathematics 2B sample unit, and lawful eBook access routes. It explicitly distinguishes a cover preview, a sample unit, a Scope and Sequence, a catalogue entry, and a complete book.
+
+No complete copyrighted textbook or unauthorized scan was copied into the repository. Current full-book access must come from a valid publisher eBook code/account, school/library licence, or a family-owned copy. The exact family editions still require cover + ISBN/copyright page + contents-page matching.
