@@ -191,3 +191,11 @@ This section records AAS2-authored coverage, not publisher workbook completion.
 
 **Content count:** 62 original question candidates across Units 1–2 (32 revised candidates for Unit 1 and 30 candidates for Unit 2). This is not a production bank count, not a count of app-loaded activities, and not a claim of completed Macmillan textbook coverage.
 
+
+
+## AAS2 authoring status update — 23 November 2026
+
+- AAS2 Science Unit 1 (publisher topics 1–4) has now been authored into the Grade 2 v4 content pack as four lessons and 32 original English activities, eight per lesson.
+- Every activity has a source-backed skill mapping, three unique answer options, one correct answer, distractor rationales, a misconception code, an assessment phase, and a unique offline prompt illustration.
+- The activities are newly authored from the mapped learning outcomes and public-domain/standards references; no Macmillan pupil-book wording, workbook questions, teacher instructions, diagrams or page artwork was copied.
+- The remaining Macmillan Science units 2–5 and cross-cutting enquiry expansion remain mapped but not yet authored. This is not a complete Level 2 science curriculum.
