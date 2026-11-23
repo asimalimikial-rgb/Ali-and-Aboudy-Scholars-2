@@ -81,4 +81,11 @@
     <string name="parent_settings_saving">Saving…</string>
     <string name="parent_settings_save_error">Settings could not be saved. Please try again.</string>
 
+    <string name="choose_book">Choose a book</string>
+    <string name="choose_unit">Choose a unit</string>
+    <string name="choose_lesson">Choose a lesson</string>
+    <string name="back_to_books">Back to books</string>
+    <string name="back_to_units">Back to units</string>
+    <string name="back_to_lessons">Back to lessons</string>
+    <string name="additional_practice">Additional practice</string>
 </resources>
