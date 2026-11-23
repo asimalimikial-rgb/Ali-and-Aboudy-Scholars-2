@@ -3,7 +3,7 @@
 **Date:** 23 November 2026  
 **Repository:** `asimalimikial-rgb/Ali-and-Aboudy-Scholars-2`  
 **Branch:** `foundation/slice-0-android`  
-**Status:** Initial KG2 illustration set added; visual device QA remains open.
+**Status:** Eleven option illustrations plus 52 unique question illustrations are bundled; visual device QA remains open.
 
 ## Rights and production rule
 
@@ -79,3 +79,14 @@ The shared JVM asset-integrity test now expects eleven unique referenced illustr
 - Expected roles per English activity: prompt, every answer option, correct feedback and incorrect encouragement. Paths are stored directly in the content pack and point to local `speech/` assets.
 - The Android app uses a single cancellable local MediaPlayer controller; it does not include a TTS runtime or model weights and does not call Android System TTS or network speech.
 - The generation workflow has not yet completed. Do not record a final clip count or claim on-device playback until its manifest, hashes, duration and OGG files are verified.
+
+
+## Question-specific illustration set — 23 November 2026
+
+- The extracted **Scholars Visual Learning Engine v1.6.0** is used at build time only; it is not an Android runtime dependency.
+- All **52 English activities** currently bundled across Ali KG2 (8) and Aboudy Grade 2 (44) now declare one question-specific image path under `question-art/`.
+- GitHub Actions generated the 52 PNGs from the original semantic SVG engine and produced `app/src/main/assets/question-art/manifest.json`.
+- Manifest verification confirmed 52 unique activity IDs, 52 unique paths, and 52 unique SHA-256 hashes. This verifies byte-level uniqueness, not pedagogical correctness of every visual.
+- The PNGs are local app assets; no runtime network request is needed.
+- The renderer shows each question image above its prompt and retains text as an accessible fallback.
+- The JVM asset test has been updated to require one unique local illustration for every English activity. Android device-scale visual review remains open.
