@@ -168,6 +168,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    @Suppress("DEPRECATION")
     private fun requestParentGate(onAuthorized: () -> Unit) {
         val keyguardManager = getSystemService(KeyguardManager::class.java)
         if (keyguardManager == null || !keyguardManager.isDeviceSecure) {
