@@ -65,4 +65,5 @@
     <string name="parent_gate_setup_title">Device lock required</string>
     <string name="parent_gate_setup_message">Set a PIN, password or pattern in Android screen-lock settings before opening the parent dashboard. The learning activities remain available without this setup.</string>
     <string name="activity_save_error_ar">تعذر حفظ إجابتك. حاول مرة أخرى.</string>
+    <string name="picture_answer_option">Picture option</string>
 </resources>
