@@ -38,6 +38,7 @@ import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.data.ParentAppLanguagePolicy
 import com.asimalimikial.aas2.data.UserPreferences
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 
 /** Parent-only preferences. The caller must enter through the protected Parent Dashboard. */
@@ -147,6 +148,8 @@ fun ParentSettingsScreen(
                     try {
                         userPreferences.setParentAppLanguage(selectedLanguage)
                         onBack()
+                    } catch (cancelled: CancellationException) {
+                        throw cancelled
                     } catch (_: Exception) {
                         saveError = true
                     } finally {

@@ -120,3 +120,10 @@ This is a functional first implementation slice on top of the existing Android f
 - The saved language override applies only while the protected Parent Dashboard or Parent Settings screen is active. Learner-facing screens continue to follow the Android device locale; the learning activity content itself remains English-only.
 - The settings screen has a separate foreground-exit callback: leaving the app from settings closes the entire parent area, while the Back action returns to the already-authorized dashboard.
 - A JVM policy test covers the parent-only locale scope. Device-level visual verification of locale changes and background closure remains pending.
+
+## Grade 2 habitat media follow-up — 23 November 2026
+
+- Added five original raster illustrations for the Grade 2 habitat-choice activities: river, desert, oven, coral reef and deep ocean.
+- Linked the options in `g2-habitat-01-en` and `g2-habitat-02-en`; the existing text labels remain visible and accessible.
+- The bundled media set now contains eleven unique PNG files across Ali KG2 and Aboudy Grade 2. The JVM integrity test checks all eleven paths, file existence, minimum size and PNG signature.
+- Other Grade 2 skills remain text-only pending content review. Phone-scale rendering and accessibility verification remain open.

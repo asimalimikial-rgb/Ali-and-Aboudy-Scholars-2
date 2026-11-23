@@ -307,15 +307,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A river"
+          "text": "A river",
+          "imageAssetPath": "option-art/river.png"
         },
         {
           "optionId": "b",
-          "text": "A dry desert"
+          "text": "A dry desert",
+          "imageAssetPath": "option-art/desert.png"
         },
         {
           "optionId": "c",
-          "text": "A hot oven"
+          "text": "A hot oven",
+          "imageAssetPath": "option-art/oven.png"
         }
       ],
       "correctOptionId": "a",
@@ -532,15 +535,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A coral reef"
+          "text": "A coral reef",
+          "imageAssetPath": "option-art/coral-reef.png"
         },
         {
           "optionId": "b",
-          "text": "A desert"
+          "text": "A desert",
+          "imageAssetPath": "option-art/desert.png"
         },
         {
           "optionId": "c",
-          "text": "A deep ocean"
+          "text": "A deep ocean",
+          "imageAssetPath": "option-art/deep-ocean.png"
         }
       ],
       "correctOptionId": "b",

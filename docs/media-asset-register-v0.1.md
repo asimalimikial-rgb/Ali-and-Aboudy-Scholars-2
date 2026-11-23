@@ -45,3 +45,17 @@ The images supplement visible text labels. They are not intended to be the sole 
 - Add runtime tests for missing and corrupt image files, including text fallback.
 - Inspect the six images at actual phone scale and with accessibility settings enabled.
 - Maintain per-file provenance and rights review for every later image or audio asset.
+
+## Grade 2 habitat illustration set — 23 November 2026
+
+The first Grade 2 visual set supports the two original habitat-choice activities. All five files are original AAS2 project-created PNGs (192 × 192); they are not textbook scans, traces or derivatives.
+
+| Asset path | Visual subject | Linked activity options |
+|---|---|---|
+| `option-art/river.png` | River habitat | `g2-habitat-01-en` — A river |
+| `option-art/desert.png` | Desert habitat | `g2-habitat-01-en` — A dry desert; `g2-habitat-02-en` — A desert |
+| `option-art/oven.png` | Hot oven | `g2-habitat-01-en` — A hot oven |
+| `option-art/coral-reef.png` | Coral reef | `g2-habitat-02-en` — A coral reef |
+| `option-art/deep-ocean.png` | Deep ocean | `g2-habitat-02-en` — A deep ocean |
+
+The shared JVM asset-integrity test now expects eleven unique referenced illustrations across both packs. Other Grade 2 skills remain text-only until a reviewed learning item benefits from an image.

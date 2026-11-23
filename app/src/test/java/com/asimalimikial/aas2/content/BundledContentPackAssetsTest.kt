@@ -71,7 +71,7 @@ class BundledContentPackAssetsTest {
             .mapNotNull { it.imageAssetPath }
             .distinct()
 
-        assertEquals(6, imagePaths.size)
+        assertEquals(11, imagePaths.size)
         val pngSignature = byteArrayOf(
             0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A
         )
