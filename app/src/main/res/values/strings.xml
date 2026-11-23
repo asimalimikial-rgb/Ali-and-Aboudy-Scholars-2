@@ -27,7 +27,13 @@
     <string name="content_pack_load_error">Your activities could not be loaded. Please try again later.</string>
     <string name="back_to_activities">Back to activities</string>
     <string name="back_to_learning_space">Back to learning space</string>
-    <string name="no_activities_available">No activities are available in this language yet.</string>
+    <string name="no_activities_available">No activities are available in this learning area yet.</string>
+    <string name="choose_learning_area">Choose a learning area</string>
+    <string name="choose_activity">Choose an activity</string>
+    <string name="back_to_learning_areas">Back to learning areas</string>
+    <string name="learning_area_progress">Practised %1$d of %2$d activities</string>
+    <string name="activity_number">Activity %1$d</string>
+    <string name="activity_practised">Practised</string>
     <string name="activity_list_item">%1$d. %2$s</string>
     <string name="practice_summary_title">Practice summary</string>
     <string name="practice_summary_empty">Your saved practice will appear here after your first answer.</string>
