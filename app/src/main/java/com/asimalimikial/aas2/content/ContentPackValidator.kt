@@ -170,6 +170,22 @@ object ContentPackValidator {
                     }
                     if (activity.misconceptionCode.isNullOrBlank()) add("Activity at index $index has no misconceptionCode")
                     if (activity.promptImageAssetPath.isNullOrBlank()) add("Activity at index $index has no unique prompt image")
+                    if (activity.promptAudioAssetPath.isNullOrBlank()) add("Activity at index $index has no prompt audio")
+                    if (activity.feedbackCorrectAudioAssetPath.isNullOrBlank() ||
+                        activity.feedbackIncorrectAudioAssetPath.isNullOrBlank()
+                    ) add("Activity at index $index is missing feedback audio")
+                    if (activity.optionAudioAssetPaths.keys != optionIds.toSet() ||
+                        activity.optionAudioAssetPaths.values.any { !isSafeAssetPath(it) }
+                    ) add("Activity at index $index must have one safe audio asset for each option")
+                    if (activity.promptAudioAssetPath != null && !isSafeAssetPath(activity.promptAudioAssetPath)) {
+                        add("Activity at index $index contains an unsafe prompt audio asset path")
+                    }
+                    if (activity.feedbackCorrectAudioAssetPath != null && !isSafeAssetPath(activity.feedbackCorrectAudioAssetPath)) {
+                        add("Activity at index $index contains an unsafe correct-feedback audio path")
+                    }
+                    if (activity.feedbackIncorrectAudioAssetPath != null && !isSafeAssetPath(activity.feedbackIncorrectAudioAssetPath)) {
+                        add("Activity at index $index contains an unsafe incorrect-feedback audio path")
+                    }
                     if (activity.optionRationales.keys != optionIds.toSet() ||
                         activity.optionRationales.values.any(String::isBlank)
                     ) add("Activity at index $index must have one nonblank rationale for each option")
