@@ -75,41 +75,30 @@ function wordCardSvg(value) {
 }
 
 function numberCardSvg(value) {
-  const number = Math.max(0, Math.min(9999, Number(value)));
-  const dots = number <= 20
-    ? Array.from({ length: number }, (_, index) => {
-        const x = 28 + (index % 5) * 15;
-        const y = 76 - Math.floor(index / 5) * 14;
-        return `<circle cx="${x}" cy="${y}" r="4.5" fill="#4d9eaa"/>`;
-      }).join("")
-    : "";
-  const place = number > 20
-    ? `<text x="80" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#58738a">Hundreds · Tens · Ones</text>`
-    : "";
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><text x="80" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#24415c">${number}</text>${dots}${place}</svg>`;
+  const digits = String(value).trim();
+  const segments = {
+    "0": "abcdef", "1": "bc", "2": "abged", "3": "abgcd", "4": "fgbc",
+    "5": "afgcd", "6": "afgecd", "7": "abc", "8": "abcdefg", "9": "abfgcd"
+  };
+  const segmentShape = {
+    a: [5, 3, 16, 4], b: [21, 7, 4, 14], c: [21, 25, 4, 14],
+    d: [5, 39, 16, 4], e: [1, 25, 4, 14], f: [1, 7, 4, 14], g: [5, 21, 16, 4]
+  };
+  const gap = 5;
+  const digitWidth = 26;
+  const totalWidth = digits.length * digitWidth + Math.max(0, digits.length - 1) * gap;
+  const startX = (160 - totalWidth) / 2;
+  const glyphs = [...digits].map((digit, index) => {
+    const active = segments[digit] || "";
+    const shapes = [...active].map(segment => {
+      const [x, y, width, height] = segmentShape[segment];
+      return `<rect x="${startX + index * (digitWidth + gap) + x}" y="${y + 30}" width="${width}" height="${height}" rx="2" fill="#24415c"/>`;
+    }).join("");
+    return shapes;
+  }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><rect x="14" y="13" width="132" height="7" rx="3.5" fill="#d9eaf7"/>${glyphs}<circle cx="24" cy="91" r="4" fill="#48a987"/><circle cx="136" cy="91" r="4" fill="#d79a38"/></svg>`;
 }
 
-function mathPromptSvg(activity) {
-  const skill = String(activity.skillId || "").toLowerCase();
-  let drawing = "";
-  const promptText = String(activity.prompt || "").toLowerCase();
-  if (/place-value/.test(skill)) {
-    drawing = `<rect x="16" y="18" width="38" height="54" rx="5" fill="#e7f2fb" stroke="#4d8dbb"/><rect x="61" y="18" width="38" height="54" rx="5" fill="#e8f6ee" stroke="#48a987"/><rect x="106" y="18" width="38" height="54" rx="5" fill="#fff3df" stroke="#d79a38"/><text x="35" y="38" text-anchor="middle" font-size="10" fill="#24415c">H</text><text x="80" y="38" text-anchor="middle" font-size="10" fill="#24415c">T</text><text x="125" y="38" text-anchor="middle" font-size="10" fill="#24415c">O</text><path d="M25 58h20M70 58h20M115 58h20" stroke="#24415c" stroke-width="5" stroke-linecap="round"/>`;
-  } else if (/addition|subtraction|adding|taking-away/.test(skill)) {
-    drawing = `<path d="M18 63H142" stroke="#4d8dbb" stroke-width="4" stroke-linecap="round"/>${Array.from({length:7},(_,i)=>`<path d="M${24+i*19} 54v18" stroke="#4d8dbb" stroke-width="2"/>`).join("")}<circle cx="43" cy="63" r="7" fill="#48a987"/><circle cx="81" cy="63" r="7" fill="#d79a38"/><text x="62" y="36" text-anchor="middle" font-size="24" font-weight="700" fill="#24415c">${/subtract|take away|difference|left over|remain|how many left/.test(promptText)?"−":"+"}</text>`;
-  } else if (/multiplication/.test(skill)) {
-    drawing = Array.from({length:12},(_,i)=>`<circle cx="${43+(i%4)*25}" cy="${30+Math.floor(i/4)*24}" r="7" fill="#4d9eaa"/>`).join("");
-  } else if (/measure/.test(skill) && !/fraction/.test(skill)) {
-    drawing = `<rect x="15" y="38" width="130" height="30" rx="5" fill="#fff3df" stroke="#d79a38"/>${Array.from({length:13},(_,i)=>`<path d="M${20+i*10} 38v${i%2===0?17:9}" stroke="#9b6a1f" stroke-width="1.5"/>`).join("")}`;
-  } else if (/fraction/.test(skill)) {
-    drawing = `<circle cx="80" cy="54" r="35" fill="#e8f6ee" stroke="#48a987" stroke-width="2"/><path d="M80 19v70M45 54h70" stroke="#ffffff" stroke-width="3"/><path d="M80 54L80 19A35 35 0 0 1 115 54Z" fill="#d79a38"/>`;
-  } else if (/shape/.test(skill)) {
-    drawing = `<circle cx="35" cy="54" r="19" fill="#d9eaf7" stroke="#4d8dbb" stroke-width="2"/><rect x="65" y="35" width="38" height="38" rx="3" fill="#e8f6ee" stroke="#48a987" stroke-width="2"/><path d="M125 32L146 73H104Z" fill="#fff3df" stroke="#d79a38" stroke-width="2"/>`;
-  } else {
-    drawing = Array.from({length:10},(_,i)=>`<circle cx="${39+(i%5)*21}" cy="${38+Math.floor(i/5)*28}" r="7" fill="#4d9eaa"/>`).join("");
-  }
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/>${drawing}</svg>`;
-}
 
 function countedObjectsSvg(kind, count) {
   const amount = Math.max(1, Math.min(20, Number(count) || 1));
@@ -246,6 +235,7 @@ for (const filename of packFiles) {
       const optionText = String(option.text || "").trim();
       if (profile.textFirst) return wordCardSvg(optionText);
       if (profile.skill === "math" && !/shape/.test(String(activity.skillId || "").toLowerCase())) {
+        if (/^\d{1,4}$/.test(optionText)) return numberCardSvg(optionText);
         return wordCardSvg(optionText);
       }
       const visualKind = visuals.optionVisualKind(question, optionText);
