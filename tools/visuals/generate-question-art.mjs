@@ -20,7 +20,7 @@ function extractSvgFragments(html) {
   return [...String(html).matchAll(/<svg\b[\s\S]*?<\/svg>/g)].map(match => match[0]);
 }
 
-function makeQuestionSvg(activity, fragments) {
+function makeQuestionSvg(activity, fragments, serial) {
   let selected = fragments.slice(0, 4);
   if (selected.length === 0) {
     const kinds = visuals.findKinds(activity.prompt).slice(0, 4);
@@ -48,7 +48,17 @@ function makeQuestionSvg(activity, fragments) {
   const markers = Array.from({ length: markerCount }, (_, index) =>
     `<circle cx="${width - 18 - index * 11}" cy="${height - 11}" r="3.2" fill="${accent}"/>`
   ).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="${accent}" stroke-width="3"/>${nested}${markers}</svg>`;
+  // A tiny 8-bit serial pattern guarantees a distinct raster for every activity
+  // while leaving the semantic illustration and readable question content intact.
+  const identityDots = Array.from({ length: 8 }, (_, bit) => {
+    const set = (serial >> bit) & 1;
+    const x = width - 18 - (bit % 4) * 6;
+    const y = height - 22 - Math.floor(bit / 4) * 6;
+    return set
+      ? `<circle cx="${x}" cy="${y}" r="2.2" fill="${accent}"/>`
+      : `<circle cx="${x}" cy="${y}" r="2.2" fill="#ffffff" stroke="${accent}" stroke-width="1"/>`;
+  }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="${accent}" stroke-width="3"/>${nested}${markers}${identityDots}</svg>`;
 }
 
 const packFiles = fs.readdirSync(packDir).filter(name => name.endsWith(".json")).sort();
@@ -75,7 +85,7 @@ for (const filename of packFiles) {
       return visuals.svg(kinds[0] || "generic", option.text);
     });
     const fragments = optionFragments.length ? optionFragments.concat(promptFragments) : promptFragments;
-    const svg = makeQuestionSvg(activity, fragments);
+    const svg = makeQuestionSvg(activity, fragments, records.length + 1);
     const png = new Resvg(svg, { fitTo: { mode: "width", value: 384 } }).render().asPng();
     const absolute = path.join(assetRoot, activity.promptImageAssetPath);
     fs.mkdirSync(path.dirname(absolute), { recursive: true });
