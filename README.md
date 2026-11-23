@@ -58,7 +58,7 @@ The active development branch is `foundation/slice-0-android`.
 
 - `AssetContentPackRepository` loads and validates bundled JSON packs from `assets/content-packs/{packId}.json` and is wired into `MainActivity`, `LearningExperienceScreen`, and the read-only `ParentDashboardScreen`. The learning screen opens the next unpractised English activity, then supports subject-grouped catalogue navigation and learner-scoped progress.
 - Legacy attempt rows retain null values for the snapshot fields introduced in schema v2 because the earlier app version never recorded those values. New submissions persist the content-pack identity/version, selected option ID, and the exact feedback text shown at evaluation time.
-- Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
+- Optional raster option images are loaded from validated local asset paths, downsampled off the main thread, and omitted safely when missing or corrupt. The current pilot packs do not yet reference image assets.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
 - A verified source and rights register exists, and two small schema-v3 pilot packs are bundled and validated. Legacy Arabic variants remain in those files but are not selected by the child learning runtime; they are not a complete curriculum. Additional reviewed content, a versioned content-pack catalog, and expanded curriculum coverage remain open.
@@ -116,7 +116,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 - Two source-backed schema-v3 pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress visualization remain open.
 - App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
-- Option image assets still need a safe offline asset loader and renderer.
+- Curated original option illustrations still need to be added to the packs; the renderer and missing/corrupt-image fallback are implemented.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - The source/license register and per-pack source references are in place. The current packs are initial samples only; full curriculum mapping, a catalog/manifest, and per-asset review for future images/audio remain open.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
@@ -158,4 +158,5 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - Implemented English-only question-first learning sessions, learner-specific subject grouping, dynamic home subject availability, per-activity practice markers, and retryable non-punitive feedback.
 - Added a read-only Parent Dashboard with per-skill evidence and an Android device-credential gate. It requires a secure device lock and closes when the app leaves the foreground.
 - See [Implementation Slice 01](docs/implementation-slice-01-v0.1.md) for scope, acceptance coverage, test evidence, and remaining work.
+- See [Foundation Pilot Content QA v0.2](docs/units/foundation-pilot-content-qa-v0.2.md) for the expanded 8-item KG2 / 12-item Grade 2 English pilot review.
 - The current CI workflow compiles Kotlin and runs JVM tests, then checks Room schema v1/v2. It intentionally does not assemble or upload an APK and does not run emulator/device instrumentation.
