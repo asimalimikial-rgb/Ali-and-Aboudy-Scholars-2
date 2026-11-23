@@ -1,12 +1,15 @@
 package com.asimalimikial.aas2
 
+import android.app.Activity
+import android.app.AlertDialog
+import android.app.KeyguardManager
+import android.content.Intent
 import android.os.Bundle
 import java.util.Locale
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -36,6 +39,7 @@ import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
+import com.asimalimikial.aas2.ui.ParentDashboardScreen
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
 import com.asimalimikial.aas2.data.LearningAttemptDao
@@ -79,9 +83,11 @@ class MainActivity : ComponentActivity() {
             val selectedLearnerId by userPreferences.selectedLearnerId.collectAsState(initial = null)
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
             var showLearningExperience by remember { mutableStateOf(false) }
+            var showParentDashboard by remember { mutableStateOf(false) }
 
             LaunchedEffect(selectedProfile?.learnerId) {
                 showLearningExperience = false
+                showParentDashboard = false
             }
 
             LaunchedEffect(selectedLearnerId, profiles) {
@@ -106,6 +112,15 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
                         )
+                    } else if (showParentDashboard) {
+                        ParentDashboardScreen(
+                            profile = selectedProfile,
+                            learnerName = localizedLearnerName(selectedProfile),
+                            pathwayLabel = localizedPathway(selectedProfile.pathway),
+                            contentPackRepository = contentPackRepository,
+                            learningAttemptDao = database.learningAttemptDao(),
+                            onExit = { showParentDashboard = false }
+                        )
                     } else if (showLearningExperience) {
                         LearningExperienceScreen(
                             learnerId = selectedProfile.learnerId,
@@ -121,8 +136,12 @@ class MainActivity : ComponentActivity() {
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
                             onStartLearning = { showLearningExperience = true },
+                            onOpenParentDashboard = {
+                                requestParentGate { showParentDashboard = true }
+                            },
                             onSwitchLearner = {
                                 showLearningExperience = false
+                                showParentDashboard = false
                                 lifecycleScope.launch {
                                     userPreferences.clearSelectedLearner()
                                 }
@@ -132,6 +151,53 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    @Suppress("DEPRECATION")
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == PARENT_GATE_REQUEST_CODE) {
+            val authorizedAction = pendingParentGateAction
+            pendingParentGateAction = null
+            if (resultCode == Activity.RESULT_OK) {
+                authorizedAction?.invoke()
+            }
+        }
+    }
+
+    @Suppress("DEPRECATION")
+    private fun requestParentGate(onAuthorized: () -> Unit) {
+        val keyguardManager = getSystemService(KeyguardManager::class.java)
+        if (keyguardManager == null || !keyguardManager.isDeviceSecure) {
+            showParentGateSetupRequired()
+            return
+        }
+
+        val credentialIntent = keyguardManager.createConfirmDeviceCredentialIntent(
+            getString(R.string.parent_gate_title),
+            getString(R.string.parent_gate_description)
+        )
+        if (credentialIntent == null) {
+            showParentGateSetupRequired()
+            return
+        }
+
+        pendingParentGateAction = onAuthorized
+        startActivityForResult(credentialIntent, PARENT_GATE_REQUEST_CODE)
+    }
+
+    private fun showParentGateSetupRequired() {
+        AlertDialog.Builder(this)
+            .setTitle(R.string.parent_gate_setup_title)
+            .setMessage(R.string.parent_gate_setup_message)
+            .setPositiveButton(android.R.string.ok, null)
+            .show()
+    }
+
+    private var pendingParentGateAction: (() -> Unit)? = null
+
+    private companion object {
+        const val PARENT_GATE_REQUEST_CODE = 7314
     }
 }
 
@@ -177,6 +243,7 @@ private fun LearnerHome(
     contentPackRepository: AssetContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     onStartLearning: () -> Unit,
+    onOpenParentDashboard: () -> Unit,
     onSwitchLearner: () -> Unit
 ) {
     val displayName = localizedLearnerName(profile)
@@ -315,6 +382,13 @@ private fun LearnerHome(
                     }
                 }
             }
+        }
+
+        OutlinedButton(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = onOpenParentDashboard
+        ) {
+            Text(stringResource(R.string.open_parent_dashboard))
         }
 
         OutlinedButton(
