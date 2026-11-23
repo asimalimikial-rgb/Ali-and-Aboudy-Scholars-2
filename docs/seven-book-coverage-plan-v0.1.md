@@ -12,7 +12,7 @@ This document is the working map for the seven named study books. It distinguish
 | 3 | Aboudy — Grade 2 | Macmillan English World — Level 2 Pupil's Book Pack | 35 newly authored activities: grammar/word study 29, reading comprehension 6 | Provisional skill alignment; one reading item needs an original passage before release |
 | 4 | Aboudy — Grade 2 | Macmillan Mathematics — Level 2A Pupil's Book and eBook Pack | 34 newly authored activities: place value 10, addition/subtraction 10, multiplication 8, fractions/measure 6 | Provisional skill alignment; app book/unit hierarchy not yet integrated |
 | 5 | Aboudy — Grade 2 | Macmillan Mathematics — Level 2B Pupil's Book eBook Pack | 6 newly authored activities: measure and apply | Provisional skill alignment; additional unit coverage required |
-| 6 | Aboudy — Grade 2 | Macmillan Science — Level 2 Pupil's Book and eBook Pack | 62 original AAS2 activities: Unit 1 = 32 across 4 lessons; Unit 2 = 30 across 5 lessons | Integrated in schema-v4 book/unit/lesson hierarchy; Units 3–5 still to author |
+| 6 | Aboudy — Grade 2 | Macmillan Science — Level 2 Pupil's Book and eBook Pack (current scope reference ISBN 9781035130740) | 62 original AAS2 activities: Unit 1 = 32 across 4 lessons; Unit 2 = 30 across 5 lessons | Integrated in schema-v4 book/unit/lesson hierarchy; Units 3–5 still to author |
 | 7 | Aboudy — Grade 2 | Maths Xpress — Book 2 | No activities assigned yet | Book identity recorded; full scope/contents and legal digital access still require verification |
 
 ### Secondary reference
@@ -100,3 +100,7 @@ Current 65 mapped Ali activities cover initial sounds, rhyming, everyday vocabul
 
 ### Copyright/access conclusion
 No public evidence found in these official catalogue pages that provides unrestricted free full-book PDF downloads. The verified route is the publisher's access-code platform and any download control it provides for the licensed resource. Continue searching lawful access routes, but do not scrape, bypass DRM, or embed publisher eBooks in AAS2.
+
+
+### Science edition correction
+The current Grade 2 source registry and the official Macmillan Science Level 2 Scope and Sequence PDF identify the current aligned title as **Macmillan Science Level 2 — Pupil's Book and eBook Pack, ISBN 9781035130740**. The ISBN 9781380000262 appears in the older Macmillan Education India ELT Digital Catalogue 2023 as a Level 2 Pupil's eBook Pack. Treat it as an older/alternate catalogue candidate until the printed ISBN on the user's copy is checked. Use the current scope-and-sequence reference for topic mapping.
