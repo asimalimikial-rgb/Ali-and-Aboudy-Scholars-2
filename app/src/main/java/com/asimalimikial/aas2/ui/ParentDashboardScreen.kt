@@ -13,15 +13,20 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.content.ContentPackRepository
@@ -42,6 +47,16 @@ fun ParentDashboardScreen(
     learningAttemptDao: LearningAttemptDao,
     onExit: () -> Unit
 ) {
+    val lifecycleOwner = LocalLifecycleOwner.current
+    val currentOnExit by rememberUpdatedState(onExit)
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_STOP) currentOnExit()
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
+    }
+
     val packId = remember(profile.pathway) {
         ContentPackSelectionPolicy.packIdForPathway(profile.pathway)
     }
