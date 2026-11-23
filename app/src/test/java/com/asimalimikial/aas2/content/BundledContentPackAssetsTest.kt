@@ -45,21 +45,21 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.3.3", pack.version)
+        assertEquals("0.4.0", pack.version)
         assertEquals(4, pack.schemaVersion)
-        assertEquals(21, pack.skills.size)
-        assertEquals(150, pack.activities.size)
-        assertEquals(144, pack.activities.count { it.language == "en" })
+        assertEquals(32, pack.skills.size)
+        assertEquals(180, pack.activities.size)
+        assertEquals(174, pack.activities.count { it.language == "en" })
         assertEquals(6, pack.activities.count { it.language == "ar" })
         assertEquals(1, pack.books.size)
         assertEquals("macmillan-science-level2", pack.books.single().bookId)
-        assertEquals(1, pack.units.size)
-        assertEquals(4, pack.lessons.size)
+        assertEquals(2, pack.units.size)
+        assertEquals(9, pack.lessons.size)
         val scienceActivities = pack.activities.filter { it.lessonId != null }
-        assertEquals(32, scienceActivities.size)
-        pack.lessons.forEach { lesson ->
-            assertEquals(8, scienceActivities.count { it.lessonId == lesson.lessonId })
-        }
+        assertEquals(62, scienceActivities.size)
+        val lessonSizes = scienceActivities.groupBy { it.lessonId }.values.map { it.size }
+        assertEquals(4, lessonSizes.count { it == 8 })
+        assertEquals(5, lessonSizes.count { it == 6 })
         assertTrue(scienceActivities.all { it.assessmentPhase in setOf("DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER") })
         assertTrue(scienceActivities.all { it.optionRationales.size == 3 })
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
@@ -90,8 +90,8 @@ class BundledContentPackAssetsTest {
         )
         val englishActivities = packs.flatMap { it.activities }.filter { it.language == "en" }
         val imagePaths = englishActivities.mapNotNull { it.promptImageAssetPath }
-        assertEquals(252, imagePaths.size)
-        assertEquals("Each English question must have a unique image path", 252, imagePaths.distinct().size)
+        assertEquals(282, imagePaths.size)
+        assertEquals("Each English question must have a unique image path", 282, imagePaths.distinct().size)
         assertPngAssets(imagePaths, "question-art/")
     }
 
@@ -138,7 +138,7 @@ class BundledContentPackAssetsTest {
             repository.load("aas2-grade2-foundation")
         )
         val englishActivities = packs.flatMap { it.activities }.filter { it.language == "en" }
-        assertEquals(252, englishActivities.size)
+        assertEquals(282, englishActivities.size)
         val allPaths = mutableListOf<String>()
         englishActivities.forEach { activity ->
             val paths = listOfNotNull(
