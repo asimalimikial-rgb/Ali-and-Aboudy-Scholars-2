@@ -160,3 +160,7 @@ Official links:
 - https://www.macmillaneducationeverywhere.com/help-centre/?language=en
 
 No unrestricted public full-PDF source was confirmed. Use the licensed MEE access route and do not bypass access controls or redistribute protected books.
+
+
+## Edition correction — Macmillan Science Level 2
+The Grade 2 content pack's current official source registry identifies the aligned Macmillan Science Level 2 Pupil's Book and eBook Pack as **ISBN 9781035130740**, using the publisher's official Scope and Sequence PDF: https://api.macmillanenglish.com/fileadmin/user_upload/Catalogue/Samples/Macmillan_Science/Macmillan_Science_Level_2_Scope_and_Sequence.pdf. The earlier ISBN **9781380000262** appears in the 2023 ELT Digital Catalogue as a Level 2 Pupil's eBook Pack and is retained only as an older/alternate catalogue candidate. The exact edition of the user's physical book remains unconfirmed until its printed ISBN is checked.
