@@ -108,8 +108,8 @@ class MainActivity : ComponentActivity() {
                         LearningExperienceScreen(
                             learnerId = selectedProfile.learnerId,
                             learnerPathway = selectedProfile.pathway,
-                            preferredLanguage = Locale.getDefault().language,
                             contentPackRepository = contentPackRepository,
+                            learningAttemptDao = database.learningAttemptDao(),
                             submissionService = submissionService,
                             onExit = { showLearningExperience = false }
                         )
