@@ -88,4 +88,10 @@
     <string name="back_to_units">Back to units</string>
     <string name="back_to_lessons">Back to lessons</string>
     <string name="additional_practice">Additional practice</string>
+    <string name="audio_listen_question">Listen to question</string>
+    <string name="audio_listen_option">Listen</string>
+    <string name="audio_listen_feedback">Listen to feedback</string>
+    <string name="audio_stop">Stop</string>
+    <string name="audio_loading">Loading audio…</string>
+    <string name="audio_error">Audio could not be played.</string>
 </resources>
