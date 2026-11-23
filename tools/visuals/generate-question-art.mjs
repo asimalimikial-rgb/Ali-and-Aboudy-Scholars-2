@@ -271,7 +271,8 @@ for (const filename of packFiles) {
       engineVersion: visuals.version,
       skillId: activity.skillId,
       visualProfile: profile.skill,
-      optionLabels: (activity.options || []).map(option => String(option.text || ""))
+      optionLabels: (activity.options || []).map(option => String(option.text || "")),
+      optionSvgText: optionFragments.map(fragment => [...fragment.matchAll(/<text[^>]*>([\\s\\S]*?)<\\/text>/g)].map(match => match[1]))
     });
   }
 }
