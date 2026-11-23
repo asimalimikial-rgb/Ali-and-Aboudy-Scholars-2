@@ -38,6 +38,34 @@ class ContentPackSelectionPolicyTest {
     }
 
     @Test
+    fun startsWithTheFirstUnpractisedActivity() {
+        val activities = listOf(
+            sampleActivity("activity-1", "en"),
+            sampleActivity("activity-2", "en")
+        )
+
+        assertEquals(
+            "activity-2",
+            ContentPackSelectionPolicy.nextActivity(activities, setOf("activity-1"))?.activityId
+        )
+    }
+
+    @Test
+    fun restartsFromTheFirstActivityWhenAllActivitiesWerePractised() {
+        val activities = listOf(sampleActivity("activity-1", "en"))
+
+        assertEquals(
+            "activity-1",
+            ContentPackSelectionPolicy.nextActivity(activities, setOf("activity-1"))?.activityId
+        )
+    }
+
+    @Test
+    fun returnsNullWhenNoActivitiesExist() {
+        assertNull(ContentPackSelectionPolicy.nextActivity(emptyList(), emptySet()))
+    }
+
+    @Test
     fun groupsKg2DomainsIntoAgeAppropriateLearningAreas() {
         assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Early Numeracy", "KG2"))
         assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Mathematics", "KG2"))
