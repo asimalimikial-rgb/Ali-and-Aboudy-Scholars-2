@@ -28,9 +28,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import com.asimalimikial.aas2.content.AndroidAssetContentPackTextSource
 import com.asimalimikial.aas2.content.AssetContentPackRepository
+import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
@@ -116,6 +118,7 @@ class MainActivity : ComponentActivity() {
                     } else {
                         LearnerHome(
                             profile = selectedProfile,
+                            contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
                             onStartLearning = { showLearningExperience = true },
                             onSwitchLearner = {
@@ -171,6 +174,7 @@ private fun LearnerProfileSelection(
 @Composable
 private fun LearnerHome(
     profile: LearnerProfileEntity,
+    contentPackRepository: AssetContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     onStartLearning: () -> Unit,
     onSwitchLearner: () -> Unit
@@ -178,6 +182,33 @@ private fun LearnerHome(
     val displayName = localizedLearnerName(profile)
     val displayPathway = localizedPathway(profile.pathway)
     val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
+    var availableSubjects by remember(profile.learnerId) { mutableStateOf<List<Pair<String, Int>>>(emptyList()) }
+    var isLoadingSubjects by remember(profile.learnerId) { mutableStateOf(true) }
+    LaunchedEffect(profile.learnerId, profile.pathway) {
+        isLoadingSubjects = true
+        val packId = ContentPackSelectionPolicy.packIdForPathway(profile.pathway)
+        if (packId == null) {
+            availableSubjects = emptyList()
+            isLoadingSubjects = false
+        } else {
+            try {
+                val pack = contentPackRepository.load(packId)
+                val skillById = pack.skills.associateBy { it.skillId }
+                availableSubjects = ContentPackSelectionPolicy.englishActivities(pack)
+                    .groupBy { activity ->
+                        val domain = skillById[activity.skillId]?.domain ?: "General practice"
+                        ContentPackSelectionPolicy.subjectForDomain(domain, profile.pathway)
+                    }
+                    .map { (subject, subjectActivities) -> subject to subjectActivities.size }
+            } catch (cancelled: CancellationException) {
+                throw cancelled
+            } catch (_: Exception) {
+                availableSubjects = emptyList()
+            } finally {
+                isLoadingSubjects = false
+            }
+        }
+    }
     val practiceSummary = remember(profile.learnerId, attempts) {
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
     }
@@ -258,21 +289,30 @@ private fun LearnerHome(
         }
 
         Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge)
-        listOf(
-            R.string.learning_area_english_literacy,
-            R.string.learning_area_mathematics,
-            R.string.learning_area_science_discovery,
-            R.string.learning_area_thinking_creativity
-        ).forEach { subjectResId ->
-            Card(modifier = Modifier.fillMaxWidth()) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween
-                ) {
-                    Text(stringResource(subjectResId), style = MaterialTheme.typography.titleMedium)
-                    Text(stringResource(R.string.in_preparation), style = MaterialTheme.typography.bodySmall)
+        when {
+            isLoadingSubjects -> Text(
+                stringResource(R.string.loading_learning_areas),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            availableSubjects.isEmpty() -> Text(
+                stringResource(R.string.no_learning_areas),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            else -> availableSubjects.forEach { (subject, activityCount) ->
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp),
+                        verticalArrangement = Arrangement.spacedBy(4.dp)
+                    ) {
+                        Text(subject, style = MaterialTheme.typography.titleMedium)
+                        Text(
+                            stringResource(R.string.available_activity_count, activityCount),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
                 }
             }
         }
