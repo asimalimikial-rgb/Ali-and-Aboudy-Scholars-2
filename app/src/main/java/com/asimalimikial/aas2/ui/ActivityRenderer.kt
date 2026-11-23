@@ -66,6 +66,12 @@ fun ActivityRenderer(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
+                activity.promptImageAssetPath?.let { path ->
+                    OptionImage(
+                        assetPath = path,
+                        contentDescription = activity.prompt
+                    )
+                }
                 Text(activity.prompt, style = MaterialTheme.typography.titleLarge)
                 activity.options.forEach { option ->
                     val isSelected = selectedOptionId == option.optionId
