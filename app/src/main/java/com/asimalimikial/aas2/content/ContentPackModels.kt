@@ -10,7 +10,37 @@ data class ContentPack(
     val learnerPath: String,
     val skills: List<SkillDefinition>,
     val activities: List<ActivityDefinition> = emptyList(),
-    val sourceReferences: List<ContentSourceReference> = emptyList()
+    val sourceReferences: List<ContentSourceReference> = emptyList(),
+    val books: List<BookDefinition> = emptyList(),
+    val units: List<UnitDefinition> = emptyList(),
+    val lessons: List<LessonDefinition> = emptyList()
+)
+
+@Serializable
+data class BookDefinition(
+    val bookId: String,
+    val title: String,
+    val subject: String,
+    val learnerPath: String,
+    val sourceReferenceIds: List<String>
+)
+
+@Serializable
+data class UnitDefinition(
+    val unitId: String,
+    val bookId: String,
+    val title: String,
+    val sequence: Int,
+    val lessonIds: List<String>
+)
+
+@Serializable
+data class LessonDefinition(
+    val lessonId: String,
+    val unitId: String,
+    val title: String,
+    val sequence: Int,
+    val skillIds: List<String>
 )
 
 @Serializable
@@ -50,7 +80,14 @@ data class ActivityDefinition(
     val correctOptionId: String,
     val feedbackCorrect: String,
     val feedbackIncorrect: String,
-    val difficulty: Int
+    val difficulty: Int,
+    val bookId: String? = null,
+    val unitId: String? = null,
+    val lessonId: String? = null,
+    val assessmentPhase: String? = null,
+    val misconceptionCode: String? = null,
+    val optionRationales: Map<String, String> = emptyMap(),
+    val promptImageAssetPath: String? = null
 )
 
 @Serializable
