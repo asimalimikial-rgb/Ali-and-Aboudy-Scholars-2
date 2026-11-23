@@ -1,0 +1,50 @@
+name: Generate offline question illustrations
+
+on:
+  push:
+    branches:
+      - "foundation/**"
+    paths:
+      - "app/src/main/assets/content-packs/**"
+      - "tools/visuals/**"
+      - ".github/workflows/generate-question-art.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aas2-question-art-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install pinned SVG renderer
+        run: npm install --no-save @resvg/resvg-js@2.6.2
+      - name: Generate and verify one illustration per activity
+        run: node tools/visuals/generate-question-art.mjs
+      - name: Commit generated offline illustrations
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/question-art
+          if git diff --cached --quiet; then
+            echo "Question illustrations are already current."
+          else
+            git commit -m "Generate offline illustrations for curriculum questions"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
