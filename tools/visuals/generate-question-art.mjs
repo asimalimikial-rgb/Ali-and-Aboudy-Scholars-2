@@ -167,7 +167,9 @@ for (const filename of packFiles) {
       path: activity.promptImageAssetPath,
       bytes: png.length,
       sha256: crypto.createHash("sha256").update(png).digest("hex"),
-      engineVersion: visuals.version
+      engineVersion: visuals.version,
+      skillId: activity.skillId,
+      visualProfile: profile.skill
     });
   }
 }
