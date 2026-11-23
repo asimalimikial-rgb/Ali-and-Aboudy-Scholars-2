@@ -270,7 +270,8 @@ for (const filename of packFiles) {
       sha256: crypto.createHash("sha256").update(png).digest("hex"),
       engineVersion: visuals.version,
       skillId: activity.skillId,
-      visualProfile: profile.skill
+      visualProfile: profile.skill,
+      optionLabels: (activity.options || []).map(option => String(option.text || ""))
     });
   }
 }
