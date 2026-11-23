@@ -187,8 +187,16 @@ These are evidence-graded planning documents. They do not authorize Android runt
 
 ## Offline media expansion — 23 November 2026
 
-- The extracted Scholars Visual Learning Engine v1.6.0 now generates one unique local PNG illustration for every English activity in the current packs: 8 KG2 and 44 Grade 2 activities (52 total). The generated manifest records per-activity paths and SHA-256 hashes; all 52 hashes are unique.
+- The extracted Scholars Visual Learning Engine v1.6.0 now generates one unique local PNG illustration for every English activity in the current packs: 108 KG2 and 174 Grade 2 activities (282 total). The generated manifest records per-activity paths and SHA-256 hashes; all 282 hashes are unique.
 - The English offline speech pipeline is configured to use Supertonic 3 through sherpa-onnx 2.0.1 in GitHub Actions only. English speech generation is pinned to speed 0.70; OGG clips, SHA-256 metadata, and per-question prompt/option/feedback paths are generated into app assets. Neither the model weights nor the TTS runtime is packaged in Android.
-- The speech-generation workflow is still running/queued for the current content revision. Do not treat the audio library as complete until the manifest and all referenced OGG files are committed and the asset-integrity test passes.
+- The speech-generation workflow is still running for the current 282-activity content revision. Do not treat the audio library as complete until the manifest and all referenced OGG files are committed and the asset-integrity test passes.
 - The renderer now uses a single offline audio controller per activity, prevents clips from overlapping, and keeps the stop control available while a clip is preparing.
 - Android device playback, visual scale/accessibility review, and full curriculum expansion remain open. No APK or release is claimed by this source-only work.
+\n
+### Original question-bank migration
+
+- The legacy bank contains 816 records: 616 legacy curriculum/game records and 200 explicitly tagged `new-authored` records.
+- The 200 original-authored records have been migrated into the new packs: 100 for Ali KG2 and 100 for Aboudy Grade 2, with eight new unit-level skills added to each pathway. Exact duplicate prompt checks against the current 52-item pilot returned zero matches; every imported answer was verified against its options.
+- Aboudy's original Science Unit 2 adds 30 further reviewed candidate activities. The current packs therefore contain 282 English activities (108 KG2 + 174 Grade 2), plus 10 retained Arabic historical records that are not shown in child sessions.
+- The remaining 616 legacy records are not bulk-copied into the new runtime. Their item-level source, rights, activity-type, and curriculum mappings must be reviewed before migration; protected textbook expression is not redistributed.
+- The 200 migrated records remain marked `REFERENCE_ONLY` pending the project-owner's item-level redistribution review. Do not treat this as public-release rights clearance.
