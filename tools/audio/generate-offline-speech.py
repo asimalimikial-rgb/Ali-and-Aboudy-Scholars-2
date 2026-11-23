@@ -24,16 +24,16 @@ LANGUAGE = "en"
 
 
 def normalise(value):
-    return re.sub(r"\\s+", " ", value).strip() if isinstance(value, str) else ""
+    return re.sub(r"\s+", " ", value).strip() if isinstance(value, str) else ""
 
 
 def add_record(records, activity, role, text, option_id=None):
     text = normalise(text)
     if not text:
         raise ValueError(f"Missing English audio text: {activity['activityId']} / {role}")
-    if re.search(r"[\\u0600-\\u06FF]", text):
+    if re.search(r"[\u0600-\u06FF]", text):
         raise ValueError(f"Arabic text is not permitted in the English-only audio corpus: {activity['activityId']} / {role}")
-    identity = "\\n".join([
+    identity = "\n".join([
         MODEL_VERSION, LANGUAGE, VOICE, str(SID), f"{ENGLISH_SPEED:.2f}",
         str(STEPS), activity["activityId"], role, option_id or "", text
     ])
@@ -219,7 +219,7 @@ def main():
                 activity.update(fields)
                 changed = True
         if changed:
-            pack_path.write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+            pack_path.write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     manifest = {
         "schemaVersion": 1,
@@ -240,14 +240,14 @@ def main():
         "activities": activity_manifest,
         "files": files,
     }
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (output_dir / "NOTICE.txt").write_text(
-        "Offline pre-generated English educational speech for Ali & Aboudy Scholars 2.\\n"
-        "Generated with Supertonic 3 via sherpa-onnx 2.0.1 in GitHub Actions only.\\n"
-        "The TTS runtime and model weights are not included in the Android application.\\n"
-        "English words and sentences use speed 0.70.\\n"
-        "Model license: BigScience Open RAIL-M; use-based restrictions apply.\\n"
-        "Preserve this notice and disclose that the voice is machine-generated.\\n",
+        "Offline pre-generated English educational speech for Ali & Aboudy Scholars 2.\n"
+        "Generated with Supertonic 3 via sherpa-onnx 2.0.1 in GitHub Actions only.\n"
+        "The TTS runtime and model weights are not included in the Android application.\n"
+        "English words and sentences use speed 0.70.\n"
+        "Model license: BigScience Open RAIL-M; use-based restrictions apply.\n"
+        "Preserve this notice and disclose that the voice is machine-generated.\n",
         encoding="utf-8",
     )
     print(f"Complete: {len(files)} English clips, {manifest['totalBytes']} bytes, {english_activity_count} English activities.")
