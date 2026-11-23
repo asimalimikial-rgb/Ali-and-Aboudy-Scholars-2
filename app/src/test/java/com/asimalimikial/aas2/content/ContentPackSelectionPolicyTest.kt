@@ -22,21 +22,19 @@ class ContentPackSelectionPolicyTest {
     }
 
     @Test
-    fun selectsArabicActivitiesForArabicDeviceLanguage() {
+    fun selectsOnlyEnglishLearningActivitiesRegardlessOfDeviceLocale() {
         val pack = samplePack()
-        val activities = ContentPackSelectionPolicy.activitiesForLanguage(pack, "ar-SD")
+        val activities = ContentPackSelectionPolicy.englishActivities(pack)
 
-        assertEquals(listOf("activity-ar"), activities.map { it.activityId })
-        assertTrue(activities.all { it.language == "ar" })
+        assertEquals(listOf("activity-en"), activities.map { it.activityId })
+        assertTrue(activities.all { it.language == "en" })
     }
 
     @Test
-    fun fallsBackToEnglishWhenPreferredLanguageIsUnavailable() {
-        val pack = samplePack(activities = listOf(sampleActivity("activity-en", "en")))
+    fun doesNotFallBackToArabicWhenEnglishContentIsMissing() {
+        val pack = samplePack(activities = listOf(sampleActivity("activity-ar", "ar")))
 
-        val activities = ContentPackSelectionPolicy.activitiesForLanguage(pack, "ar")
-
-        assertEquals(listOf("activity-en"), activities.map { it.activityId })
+        assertTrue(ContentPackSelectionPolicy.englishActivities(pack).isEmpty())
     }
 
     private fun samplePack(
