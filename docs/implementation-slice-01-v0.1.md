@@ -53,7 +53,7 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 - The Compose answer renderer can load optional raster files from validated app asset paths.
 - Decoding runs on the IO dispatcher and downsamples large images before display.
 - Missing, corrupt, or unsupported images are omitted safely; the option text remains available.
-- The current v0.2.0 pilot packs do not yet reference image assets, so this is renderer capability rather than bundled illustration coverage.
+- At the initial slice baseline, the v0.2.0 pilot packs did not reference image assets; the follow-up below adds the first six KG2 illustrations.
 
 ### 7. Expanded original English pilot content
 
@@ -97,10 +97,17 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 
 1. Verify the modern Activity Result API implementation with CI.
 2. Perform emulator and real-device tests for parent credential prompts, lifecycle closure, back navigation, screen sizes, and offline behavior.
-3. Add safe option-image rendering and media integrity/fallback tests.
+3. Six original KG2 option illustrations are now bundled and covered by a JVM asset-integrity test; Grade 2 illustrations and runtime missing/corrupt-image fallback testing remain open.
 4. Add a proper parent settings surface only after its controls and security behavior are specified.
 5. Expand content only after independent subject/pedagogy/language review and source/edition evidence closure.
 6. Keep numeric mastery thresholds provisional; do not present them as calibrated educational conclusions.
+
+## Media asset follow-up — 23 November 2026
+
+- Added six original 192×192 PNG illustrations under `app/src/main/assets/option-art/`: circle, square, triangle, sun, ball and cat.
+- Linked the three shape illustrations to both KG2 shape activities, and sun/ball/cat to the KG2 initial `/s/` sound activity. Text labels remain visible and accessible; images are supplementary rather than the only answer cue.
+- The illustrations are original project-created assets, not scans, crops, or derivatives of textbook artwork. The Grade 2 pack remains text-only at this stage.
+- `BundledContentPackAssetsTest` now checks every referenced image path, file existence, minimum file size and PNG signature. This verifies packaged source assets, not visual rendering on a physical Android device.
 
 ## Current product limitation
 

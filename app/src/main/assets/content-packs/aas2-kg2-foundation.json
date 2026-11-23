@@ -139,15 +139,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Circle"
+          "text": "Circle",
+          "imageAssetPath": "option-art/shape-circle.png"
         },
         {
           "optionId": "b",
-          "text": "Square"
+          "text": "Square",
+          "imageAssetPath": "option-art/shape-square.png"
         },
         {
           "optionId": "c",
-          "text": "Triangle"
+          "text": "Triangle",
+          "imageAssetPath": "option-art/shape-triangle.png"
         }
       ],
       "correctOptionId": "c",
@@ -239,15 +242,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/sun.png"
         },
         {
           "optionId": "b",
-          "text": "ball"
+          "text": "ball",
+          "imageAssetPath": "option-art/ball.png"
         },
         {
           "optionId": "c",
-          "text": "cat"
+          "text": "cat",
+          "imageAssetPath": "option-art/cat.png"
         }
       ],
       "correctOptionId": "a",
@@ -314,15 +320,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Circle"
+          "text": "Circle",
+          "imageAssetPath": "option-art/shape-circle.png"
         },
         {
           "optionId": "b",
-          "text": "Triangle"
+          "text": "Triangle",
+          "imageAssetPath": "option-art/shape-triangle.png"
         },
         {
           "optionId": "c",
-          "text": "Square"
+          "text": "Square",
+          "imageAssetPath": "option-art/shape-square.png"
         }
       ],
       "correctOptionId": "c",

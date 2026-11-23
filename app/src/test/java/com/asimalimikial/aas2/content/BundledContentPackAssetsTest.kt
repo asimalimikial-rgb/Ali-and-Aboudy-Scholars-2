@@ -58,4 +58,34 @@ class BundledContentPackAssetsTest {
         assertEquals("a", measureActivity.correctOptionId)
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
     }
+
+    @Test
+    fun everyReferencedOptionIllustrationExistsAndIsAValidPng() = runBlocking<Unit> {
+        val packs = listOf(
+            repository.load("aas2-kg2-foundation"),
+            repository.load("aas2-grade2-foundation")
+        )
+        val imagePaths = packs
+            .flatMap { it.activities }
+            .flatMap { it.options }
+            .mapNotNull { it.imageAssetPath }
+            .distinct()
+
+        assertEquals(6, imagePaths.size)
+        val pngSignature = byteArrayOf(
+            0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A
+        )
+        imagePaths.forEach { imagePath ->
+            assertTrue(imagePath.startsWith("option-art/"))
+            val imageFile = File(assetsRoot(), imagePath)
+            assertTrue("Missing bundled image: $imagePath", imageFile.isFile)
+            val bytes = imageFile.readBytes()
+            assertTrue("Image is too small: $imagePath", bytes.size > 1024)
+            assertTrue(
+                "Invalid PNG signature: $imagePath",
+                bytes.take(8).toByteArray().contentEquals(pngSignature)
+            )
+        }
+    }
+
 }
