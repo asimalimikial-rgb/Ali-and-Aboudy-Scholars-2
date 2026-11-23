@@ -71,6 +71,21 @@ function wordCardSvg(value) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><rect x="14" y="13" width="132" height="7" rx="3.5" fill="#d9eaf7"/>${text}<circle cx="24" cy="91" r="4" fill="#48a987"/><circle cx="136" cy="91" r="4" fill="#d79a38"/></svg>`;
 }
 
+function numberCardSvg(value) {
+  const number = Math.max(0, Math.min(9999, Number(value)));
+  const dots = number <= 20
+    ? Array.from({ length: number }, (_, index) => {
+        const x = 28 + (index % 5) * 15;
+        const y = 76 - Math.floor(index / 5) * 14;
+        return `<circle cx="${x}" cy="${y}" r="4.5" fill="#4d9eaa"/>`;
+      }).join("")
+    : "";
+  const place = number > 20
+    ? `<text x="80" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#58738a">Hundreds · Tens · Ones</text>`
+    : "";
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><text x="80" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#24415c">${number}</text>${dots}${place}</svg>`;
+}
+
 function makeQuestionSvg(activity, fragments, serial) {
   let selected = fragments.slice(0, 4);
   if (selected.length === 0) {
@@ -130,12 +145,16 @@ for (const filename of packFiles) {
     const html = visuals.render(question, {});
     const promptFragments = extractSvgFragments(html);
     const optionFragments = (activity.options || []).map(option => {
-      if (profile.textFirst) return wordCardSvg(option.text);
-      const optionHtml = visuals.renderOption(question, option.text);
+      const optionText = String(option.text || "").trim();
+      if (profile.textFirst) return wordCardSvg(optionText);
+      if (profile.skill === "math" && /^\d{1,4}$/.test(optionText)) return numberCardSvg(optionText);
+      const visualKind = visuals.optionVisualKind(question, optionText);
+      if (visualKind === "word-card") return wordCardSvg(optionText);
+      const optionHtml = visuals.renderOption(question, optionText);
       const rendered = extractSvgFragments(optionHtml)[0];
       if (rendered) return rendered;
-      const kinds = visuals.findKinds(option.text);
-      return kinds.length ? visuals.svg(kinds[0], option.text) : wordCardSvg(option.text);
+      const kinds = visuals.findKinds(optionText);
+      return kinds.length ? visuals.svg(kinds[0], optionText) : wordCardSvg(optionText);
     });
     const fragments = optionFragments.length ? optionFragments.concat(promptFragments) : promptFragments;
     const svg = makeQuestionSvg(activity, fragments, records.length + 1);
