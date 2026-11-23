@@ -15,6 +15,16 @@ const packDir = path.join(root, "app/src/main/assets/content-packs");
 const assetRoot = path.join(root, "app/src/main/assets");
 const outputRoot = path.join(assetRoot, "question-art");
 const optionRoot = path.join(assetRoot, "option-art");
+function pruneGeneratedDirectory(directory, keepNames) {
+  let removed = 0;
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (!entry.isFile() || keepNames.has(entry.name)) continue;
+    fs.unlinkSync(path.join(directory, entry.name));
+    removed += 1;
+  }
+  return removed;
+}
+
 fs.mkdirSync(outputRoot, { recursive: true });
 fs.mkdirSync(optionRoot, { recursive: true });
 
@@ -461,6 +471,14 @@ fs.writeFileSync(path.join(optionRoot, "manifest.json"), JSON.stringify({
   count: optionFiles.length,
   files: optionFiles
 }, null, 2) + "\n");
+const removedQuestionFiles = pruneGeneratedDirectory(
+  outputRoot,
+  new Set([...records.map(record => path.basename(record.path)), "manifest.json"])
+);
+const removedOptionFiles = pruneGeneratedDirectory(
+  optionRoot,
+  new Set([...optionFiles.map(record => path.basename(record.path)), "manifest.json"])
+);
 for (const record of records.concat(optionFiles)) {
   const bytes = fs.readFileSync(path.join(assetRoot, record.path));
   if (bytes.length !== record.bytes || crypto.createHash("sha256").update(bytes).digest("hex") !== record.sha256) {
@@ -477,4 +495,5 @@ for (const record of records.concat(optionFiles)) {
 }
 console.log("Generated and SHA-256 validated " + records.length + " question illustrations in " +
   Object.entries(manifest.formats).map(([format, count]) => count + " " + format.toUpperCase()).join(", ") +
-  " plus " + optionFiles.length + " reusable option illustrations.");
+  " plus " + optionFiles.length + " reusable option illustrations. " +
+  "Removed " + removedQuestionFiles + " stale question files and " + removedOptionFiles + " stale option files.");

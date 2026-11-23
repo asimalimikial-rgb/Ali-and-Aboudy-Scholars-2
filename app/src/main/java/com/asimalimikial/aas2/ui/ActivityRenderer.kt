@@ -2,7 +2,8 @@ package com.asimalimikial.aas2.ui
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import java.io.IOException
+import android.graphics.Canvas
+import com.caverock.androidsvg.SVG
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -229,19 +230,27 @@ private fun OptionImage(
     val bitmap by produceState<Bitmap?>(initialValue = null, key1 = assetPath) {
         value = withContext(Dispatchers.IO) {
             try {
-                val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
-                context.assets.open(assetPath).use { input ->
-                    BitmapFactory.decodeStream(input, null, bounds)
+                if (assetPath.endsWith(".svg", ignoreCase = true)) {
+                    val picture = SVG.getFromAsset(context.assets, assetPath)
+                        .renderToPicture(384, 180)
+                    Bitmap.createBitmap(384, 180, Bitmap.Config.ARGB_8888).also { rendered ->
+                        Canvas(rendered).drawPicture(picture)
+                    }
+                } else {
+                    val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+                    context.assets.open(assetPath).use { input ->
+                        BitmapFactory.decodeStream(input, null, bounds)
+                    }
+                    val sampleSize = calculateSampleSize(bounds.outWidth, bounds.outHeight)
+                    context.assets.open(assetPath).use { input ->
+                        BitmapFactory.decodeStream(
+                            input,
+                            null,
+                            BitmapFactory.Options().apply { inSampleSize = sampleSize }
+                        )
+                    }
                 }
-                val sampleSize = calculateSampleSize(bounds.outWidth, bounds.outHeight)
-                context.assets.open(assetPath).use { input ->
-                    BitmapFactory.decodeStream(
-                        input,
-                        null,
-                        BitmapFactory.Options().apply { inSampleSize = sampleSize }
-                    )
-                }
-            } catch (_: IOException) {
+            } catch (_: Exception) {
                 null
             }
         }

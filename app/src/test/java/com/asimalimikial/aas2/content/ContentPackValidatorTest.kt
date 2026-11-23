@@ -199,6 +199,26 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.any { it.contains("exactly one correct option") })
     }
 
+    @Test fun offlineSvgPromptAndOptionAssetsAreAccepted() {
+        val activity = validActivity().copy(
+            promptImageAssetPath = "question-art/activity-001.svg",
+            options = listOf(
+                AnswerOption("two", "2", "option-art/two.svg"),
+                AnswerOption("three", "3", "option-art/three.svg"),
+                AnswerOption("four", "4", "option-art/four.svg")
+            )
+        )
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test fun unsupportedVisualFileExtensionsAreRejected() {
+        val activity = validActivity().copy(promptImageAssetPath = "question-art/activity-001.webp")
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("unsafe prompt image asset path") })
+    }
+
     @Test fun unsafeImageAssetPathsAreRejected() {
         val activity = validActivity().copy(
             options = listOf(

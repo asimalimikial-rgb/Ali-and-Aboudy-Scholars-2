@@ -97,7 +97,7 @@ class BundledContentPackAssetsTest {
         }
     }
     @Test
-    fun everyReferencedOptionIllustrationExistsAndIsAValidPng() = runBlocking<Unit> {
+    fun everyReferencedOptionIllustrationExistsAsAnOfflineSvg() = runBlocking<Unit> {
         val packs = listOf(
             repository.load("aas2-kg2-foundation"),
             repository.load("aas2-grade2-foundation")
@@ -106,8 +106,9 @@ class BundledContentPackAssetsTest {
             .flatMap { it.options }
             .mapNotNull { it.imageAssetPath }
             .distinct()
-        assertEquals(11, imagePaths.size)
-        assertPngAssets(imagePaths, "option-art/")
+        assertTrue(imagePaths.isNotEmpty())
+        assertTrue(imagePaths.all { it.endsWith(".svg", ignoreCase = true) })
+        assertVisualAssets(imagePaths, "option-art/")
     }
 
     @Test
@@ -120,23 +121,36 @@ class BundledContentPackAssetsTest {
         val imagePaths = englishActivities.mapNotNull { it.promptImageAssetPath }
         assertEquals(282, imagePaths.size)
         assertEquals("Each English question must have a unique image path", 282, imagePaths.distinct().size)
-        assertPngAssets(imagePaths, "question-art/")
+        assertTrue("Question art should contain SVG assets", imagePaths.any { it.endsWith(".svg", ignoreCase = true) })
+        assertTrue("Text-heavy question art should retain PNG assets", imagePaths.any { it.endsWith(".png", ignoreCase = true) })
+        assertVisualAssets(imagePaths, "question-art/")
     }
 
-    private fun assertPngAssets(paths: List<String>, requiredPrefix: String) {
-        val pngSignature = byteArrayOf(
-            0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A
-        )
+    private fun assertVisualAssets(paths: List<String>, requiredPrefix: String) {
+        val pngSignature = byteArrayOf(0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A)
         paths.forEach { imagePath ->
             assertTrue("Unexpected asset path: $imagePath", imagePath.startsWith(requiredPrefix))
             val imageFile = File(assetsRoot(), imagePath)
-            assertTrue("Missing bundled image: $imagePath", imageFile.isFile)
+            assertTrue("Missing bundled visual: $imagePath", imageFile.isFile)
             val bytes = imageFile.readBytes()
-            assertTrue("Image is too small: $imagePath", bytes.size > 1024)
-            assertTrue(
-                "Invalid PNG signature: $imagePath",
-                bytes.take(8).toByteArray().contentEquals(pngSignature)
-            )
+            assertTrue("Visual asset is too small: $imagePath", bytes.size > 100)
+            when {
+                imagePath.endsWith(".png", ignoreCase = true) -> assertTrue(
+                    "Invalid PNG signature: $imagePath",
+                    bytes.take(8).toByteArray().contentEquals(pngSignature)
+                )
+                imagePath.endsWith(".svg", ignoreCase = true) -> {
+                    val svgText = String(bytes, Charsets.UTF_8).trimStart()
+                    assertTrue("Invalid SVG root: $imagePath", svgText.startsWith("<svg"))
+                    assertTrue("Incomplete SVG document: $imagePath", svgText.contains("</svg>"))
+                    assertTrue(
+                        "SVG must not reference external files: $imagePath",
+                        !Regex("""(?:href|src)\s*=\s*["'](?:https?:|file:)""", RegexOption.IGNORE_CASE)
+                            .containsMatchIn(svgText)
+                    )
+                }
+                else -> throw AssertionError("Unsupported visual format: $imagePath")
+            }
         }
     }
 

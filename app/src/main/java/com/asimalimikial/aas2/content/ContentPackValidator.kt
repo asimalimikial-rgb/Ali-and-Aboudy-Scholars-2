@@ -140,10 +140,10 @@ object ContentPackValidator {
                 if (activity.options.any { it.text.isBlank() && it.imageAssetPath.isNullOrBlank() }) {
                     add("Activity at index $index contains an option without text or image")
                 }
-                if (activity.options.any { it.imageAssetPath != null && !isSafeAssetPath(it.imageAssetPath) }) {
+                if (activity.options.any { it.imageAssetPath != null && !isSafeImageAssetPath(it.imageAssetPath) }) {
                     add("Activity at index $index contains an unsafe image asset path")
                 }
-                if (activity.promptImageAssetPath != null && !isSafeAssetPath(activity.promptImageAssetPath)) {
+                if (activity.promptImageAssetPath != null && !isSafeImageAssetPath(activity.promptImageAssetPath)) {
                     add("Activity at index $index contains an unsafe prompt image asset path")
                 }
                 if (optionIds.count { it == activity.correctOptionId } != 1) {
@@ -194,6 +194,9 @@ object ContentPackValidator {
         }
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
+
+    private fun isSafeImageAssetPath(path: String): Boolean =
+        isSafeAssetPath(path) && (path.endsWith(".png", ignoreCase = true) || path.endsWith(".svg", ignoreCase = true))
 
     private fun isSafeAssetPath(path: String): Boolean =
         path.isNotBlank() &&
