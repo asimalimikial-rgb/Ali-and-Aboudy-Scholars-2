@@ -183,3 +183,12 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - Post-answer English feedback was normalized to short encouragement only; it no longer repeats hints or explanations after submission.
 - The English-only Supertonic 3 / sherpa-onnx generation workflow is configured to generate pre-recorded assets at speed 0.70 in GitHub Actions. The audio generation run is still in progress/pending; no generated audio count or runtime success is claimed until the manifest and files are verified.
 - No APK, release, artifact publication, main merge, signing, manifest permission, or Room schema change was performed.
+
+
+## Offline media expansion — 23 November 2026
+
+- The extracted Scholars Visual Learning Engine v1.6.0 now generates one unique local PNG illustration for every English activity in the current packs: 8 KG2 and 44 Grade 2 activities (52 total). The generated manifest records per-activity paths and SHA-256 hashes; all 52 hashes are unique.
+- The English offline speech pipeline is configured to use Supertonic 3 through sherpa-onnx 2.0.1 in GitHub Actions only. English speech generation is pinned to speed 0.70; OGG clips, SHA-256 metadata, and per-question prompt/option/feedback paths are generated into app assets. Neither the model weights nor the TTS runtime is packaged in Android.
+- The speech-generation workflow is still running/queued for the current content revision. Do not treat the audio library as complete until the manifest and all referenced OGG files are committed and the asset-integrity test passes.
+- The renderer now uses a single offline audio controller per activity, prevents clips from overlapping, and keeps the stop control available while a clip is preparing.
+- Android device playback, visual scale/accessibility review, and full curriculum expansion remain open. No APK or release is claimed by this source-only work.
