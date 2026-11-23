@@ -143,6 +143,27 @@ class ActivitySubmissionServiceTest {
         assertEquals("Try again", saved.feedbackText)
     }
 
+    @Test
+    fun retrySubmissionsAreStoredAsSeparateAttempts() = runBlocking<Unit> {
+        val attempts = RecordingLearningAttemptDao()
+        var attemptNumber = 0
+        val service = ActivitySubmissionService(
+            learnerProfileDao = FakeLearnerProfileDao(listOf(LearnerProfileEntity("ali", "Ali", "KG2"))),
+            learningAttemptDao = attempts,
+            nowEpochMillis = { 3000L + attemptNumber },
+            attemptIdFactory = { "attempt-${++attemptNumber}" }
+        )
+
+        val firstResult = service.submit("ali", pack(), "count-1", "one")
+        val secondResult = service.submit("ali", pack(), "count-1", "two")
+
+        assertFalse(firstResult.isCorrect)
+        assertTrue(secondResult.isCorrect)
+        assertEquals(2, attempts.savedAttempts.size)
+        assertEquals(listOf("attempt-1", "attempt-2"), attempts.savedAttempts.map { it.attemptId })
+        assertEquals(listOf(false, true), attempts.savedAttempts.map { it.isCorrect })
+    }
+
     @Test(expected = IllegalArgumentException::class)
     fun unknownLearnerCannotSubmit() = runBlocking<Unit> {
         val service = ActivitySubmissionService(
