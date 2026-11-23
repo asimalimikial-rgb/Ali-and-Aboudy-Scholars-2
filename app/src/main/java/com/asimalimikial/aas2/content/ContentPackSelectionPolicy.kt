@@ -2,7 +2,7 @@ package com.asimalimikial.aas2.content
 
 import java.util.Locale
 
-/** Shared learner-path and language selection rules for bundled learning content. */
+/** Shared learner-path and learning-language selection rules for bundled content. */
 object ContentPackSelectionPolicy {
     fun canonicalLearnerPath(pathway: String): String? =
         when (pathway.trim().uppercase(Locale.ROOT)) {
@@ -18,12 +18,11 @@ object ContentPackSelectionPolicy {
             else -> null
         }
 
-    fun activitiesForLanguage(
-        pack: ContentPack,
-        preferredLanguage: String
-    ): List<ActivityDefinition> {
-        val language = if (preferredLanguage.trim().lowercase(Locale.ROOT).startsWith("ar")) "ar" else "en"
-        val preferred = pack.activities.filter { it.language == language }
-        return if (preferred.isNotEmpty()) preferred else pack.activities.filter { it.language == "en" }
-    }
+    /**
+     * English is the learning language for the current child pathways.
+     * Device locale controls app chrome only and must never select translated
+     * learning content. Arabic child-activity support remains deferred.
+     */
+    fun englishActivities(pack: ContentPack): List<ActivityDefinition> =
+        pack.activities.filter { it.language == "en" }
 }
