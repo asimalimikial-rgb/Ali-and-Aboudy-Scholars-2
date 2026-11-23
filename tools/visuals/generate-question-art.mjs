@@ -66,9 +66,9 @@ function wordCardSvg(value) {
   const fontSize = visible.some(item => item.length > 19) ? 10 : 12;
   const startY = visible.length === 1 ? 58 : visible.length === 2 ? 49 : 40;
   const text = visible.map((item, index) =>
-    `<text x="80" y="\${startY + index * 19}" text-anchor="middle" font-family="Arial, sans-serif" font-size="\${fontSize}" font-weight="700" fill="#24415c">\${escapeXml(item)}</text>`
+    `<text x="80" y="${startY + index * 19}" text-anchor="middle" font-family="Arial, sans-serif" font-size="${fontSize}" font-weight="700" fill="#24415c">${escapeXml(item)}</text>`
   ).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><rect x="14" y="13" width="132" height="7" rx="3.5" fill="#d9eaf7">\${text}<circle cx="24" cy="91" r="4" fill="#48a987"/><circle cx="136" cy="91" r="4" fill="#d79a38"/></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><rect x="14" y="13" width="132" height="7" rx="3.5" fill="#d9eaf7"/>${text}<circle cx="24" cy="91" r="4" fill="#48a987"/><circle cx="136" cy="91" r="4" fill="#d79a38"/></svg>`;
 }
 
 function makeQuestionSvg(activity, fragments, serial) {
