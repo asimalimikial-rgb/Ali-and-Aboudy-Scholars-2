@@ -3,6 +3,8 @@ package com.asimalimikial.aas2.ui
 import android.content.Context
 import android.media.AudioAttributes
 import android.media.MediaPlayer
+import java.io.File
+import java.security.MessageDigest
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -48,6 +50,29 @@ class OfflineAudioController(private val context: Context) {
 
     fun release() = stop()
 
+    private fun cachedAudioFile(assetPath: String): File {
+        val directory = File(context.cacheDir, "aas2-offline-audio").apply { mkdirs() }
+        val digest = MessageDigest.getInstance("SHA-256")
+            .digest(assetPath.toByteArray(Charsets.UTF_8))
+            .joinToString("") { byte -> "%02x".format(byte) }
+        val target = File(directory, "$digest.ogg")
+        if (!target.isFile || target.length() == 0L) {
+            val temporary = File(directory, "$digest.tmp")
+            context.assets.open(assetPath).use { input ->
+                temporary.outputStream().use { output -> input.copyTo(output) }
+            }
+            if (temporary.length() == 0L) {
+                temporary.delete()
+                throw IllegalStateException("Bundled audio asset is empty: $assetPath")
+            }
+            if (!temporary.renameTo(target)) {
+                temporary.copyTo(target, overwrite = true)
+                temporary.delete()
+            }
+        }
+        return target
+    }
+
     private fun play(assetPath: String) {
         stop()
         activeAssetPath = assetPath
@@ -61,13 +86,7 @@ class OfflineAudioController(private val context: Context) {
                     .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
                     .build()
             )
-            context.assets.openFd(assetPath).use { descriptor ->
-                created.setDataSource(
-                    descriptor.fileDescriptor,
-                    descriptor.startOffset,
-                    descriptor.length
-                )
-            }
+            created.setDataSource(cachedAudioFile(assetPath).absolutePath)
             created.setOnPreparedListener { prepared ->
                 if (player === prepared) {
                     isLoading = false
