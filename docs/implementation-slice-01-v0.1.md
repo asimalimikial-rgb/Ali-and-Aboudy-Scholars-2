@@ -80,7 +80,8 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 - **Run #131** — passed on `4420fbfcc0a20d86a91df77d9b01072026e95814`: Kotlin compilation, JVM unit tests, and Room schema v1/v2 verification.
 - **Run #136** — passed on `7452b75297cefa1a4dd0884341675f39d6c1cb57`: includes retry persistence test, Kotlin compilation, JVM unit tests, and Room schema verification.
 - **Run #142** — passed on `ac2cc6ce92617852f7f272a507cea609286e51b0`: includes Parent Dashboard, Android device credential gate, lifecycle close, Arabic labels, Kotlin compilation, JVM unit tests, and Room schema verification.
-- The subsequent modernization to Android Activity Result API is a later code change and must be covered by the next CI run.
+- **Run #147** — passed on `201fdbe02465a160dc7ea16c00c7f7e8aef9c487`: includes the modern Android Activity Result API for the credential gate, Kotlin compilation, JVM unit tests, and Room schema verification.
+- **Run #167** — passed on `6acf5e89b48b2032929114fa3a71f5df6f15bfad`: includes content-pack v0.2.0 counts and item-alignment assertions, offline image-renderer compilation, Kotlin compilation, JVM unit tests, and Room schema v1/v2 verification. No Kotlin compiler warnings were reported in this run.
 - CI does not build a distributable APK and does not run emulator or physical-device instrumentation.
 
 ## Preserved boundaries
@@ -103,4 +104,4 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 
 ## Current product limitation
 
-This is a functional first implementation slice on top of the existing Android foundation, not a completed full curriculum or production release. The bundled content remains a small pilot: eight English activities for KG2 and twelve for Grade 2. The seven textbook records remain reference-only; no full copyrighted book is bundled.
+This is a functional first implementation slice on top of the existing Android foundation, not a completed full curriculum or production release. The bundled content remains a small pilot: eight English activities for KG2 and twelve for Grade 2, with content version 0.2.0 and schema v3. The renderer supports optional local raster illustrations, but the current packs do not yet include image assets. The seven textbook records remain reference-only; no full copyrighted book is bundled.
