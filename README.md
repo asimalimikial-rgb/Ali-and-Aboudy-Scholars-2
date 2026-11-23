@@ -177,8 +177,8 @@ These are evidence-graded planning documents. They do not authorize Android runt
 
 - Grade 2 Science Unit 1 is now integrated as a schema-v4 book → unit → lesson hierarchy: four lessons covering plants as living things, plant parts/foods, useful plants, and germination/growth.
 - The unit contains 32 original English single-choice activities (8 per lesson), with three unique options, one correct key, option-level rationales, misconception codes, difficulty, and assessment phases. Answer-key distribution is balanced: A=10, B=10, C=12. The set has no duplicate prompts or Arabic child text.
-- The Grade 2 pack now contains 44 English activities; KG2 contains 8. Arabic legacy records remain stored but are excluded from the learner runtime.
-- The legacy Visual Learning Engine v1.6.0 was extracted into `tools/visuals/` for build-time use only. GitHub Actions generated 52 distinct PNG prompt illustrations (SHA-256 uniqueness verified) and a manifest. The JavaScript engine itself is not packaged in the Android app.
+- The Grade 2 pack now contains 174 English activities; KG2 contains 108. Arabic legacy records remain stored but are excluded from the learner runtime.
+- The legacy Visual Learning Engine v1.6.0 was extracted into `tools/visuals/` for build-time use only. GitHub Actions generated 282 distinct PNG prompt illustrations (SHA-256 uniqueness verified) and a manifest. The JavaScript engine itself is not packaged in the Android app.
 - The Activity Renderer now displays local prompt illustrations and provides local audio buttons for question prompts, options, and post-answer feedback. One per-activity audio controller cancels previous playback before starting another clip.
 - Post-answer English feedback was normalized to short encouragement only; it no longer repeats hints or explanations after submission.
 - The English-only Supertonic 3 / sherpa-onnx generation workflow is configured to generate pre-recorded assets at speed 0.70 in GitHub Actions. The audio generation run is still in progress/pending; no generated audio count or runtime success is claimed until the manifest and files are verified.
@@ -192,7 +192,8 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - The speech-generation workflow is still running for the current 282-activity content revision. Do not treat the audio library as complete until the manifest and all referenced OGG files are committed and the asset-integrity test passes.
 - The renderer now uses a single offline audio controller per activity, prevents clips from overlapping, and keeps the stop control available while a clip is preparing.
 - Android device playback, visual scale/accessibility review, and full curriculum expansion remain open. No APK or release is claimed by this source-only work.
-\n
+
+
 ### Original question-bank migration
 
 - The legacy bank contains 816 records: 616 legacy curriculum/game records and 200 explicitly tagged `new-authored` records.
