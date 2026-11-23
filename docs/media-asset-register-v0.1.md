@@ -90,3 +90,13 @@ The shared JVM asset-integrity test now expects eleven unique referenced illustr
 - The PNGs are local app assets; no runtime network request is needed.
 - The renderer shows each question image above its prompt and retains text as an accessible fallback.
 - The JVM asset test has been updated to require one unique local illustration for every English activity. Android device-scale visual review remains open.
+
+
+## Expanded 282-question media coverage — 23 November 2026
+
+- Following migration of 200 authored activities and integration of Grade 2 Science Unit 2, the two learner packs now contain 282 English activities.
+- The image workflow regenerated the complete question-art set after answer-option reordering. Current manifest: 282 activity IDs, 282 unique paths, 282 unique SHA-256 values.
+- English speech workflow run [#45207325560](https://github.com/asimalimikial/Ali-and-Aboudy-Scholars-2/actions/runs/45207325560) is in progress on the corrected content revision.
+- Expected speech coverage: 1,692 OGG clips (one prompt, three option clips, correct encouragement and incorrect encouragement for each of 282 activities), English only, speed 0.70.
+- This count remains expected until the workflow completes and all file hashes, durations, language labels, and speed metadata validate. No audio asset completeness or device playback claim is made yet.
+- Answer-position rebalance was performed by reordering option objects and reassigning option IDs while preserving the correct answer text. Option audio mapping will be generated from the new IDs.
