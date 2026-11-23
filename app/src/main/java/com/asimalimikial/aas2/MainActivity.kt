@@ -7,6 +7,8 @@ import android.content.Intent
 import android.os.Bundle
 import java.util.Locale
 import androidx.activity.ComponentActivity
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -47,8 +49,21 @@ import com.asimalimikial.aas2.data.LearnerSelectionPolicy
 import com.asimalimikial.aas2.data.UserPreferences
 
 class MainActivity : ComponentActivity() {
+    private lateinit var parentGateLauncher: ActivityResultLauncher<Intent>
+    private var pendingParentGateAction: (() -> Unit)? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        parentGateLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) { result ->
+            val authorizedAction = pendingParentGateAction
+            pendingParentGateAction = null
+            if (result.resultCode == Activity.RESULT_OK) {
+                authorizedAction?.invoke()
+            }
+        }
 
         val database = AppDatabase.getInstance(applicationContext)
         val profileDao = database.learnerProfileDao()
@@ -153,19 +168,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    @Suppress("DEPRECATION")
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == PARENT_GATE_REQUEST_CODE) {
-            val authorizedAction = pendingParentGateAction
-            pendingParentGateAction = null
-            if (resultCode == Activity.RESULT_OK) {
-                authorizedAction?.invoke()
-            }
-        }
-    }
-
-    @Suppress("DEPRECATION")
     private fun requestParentGate(onAuthorized: () -> Unit) {
         val keyguardManager = getSystemService(KeyguardManager::class.java)
         if (keyguardManager == null || !keyguardManager.isDeviceSecure) {
@@ -183,7 +185,7 @@ class MainActivity : ComponentActivity() {
         }
 
         pendingParentGateAction = onAuthorized
-        startActivityForResult(credentialIntent, PARENT_GATE_REQUEST_CODE)
+        parentGateLauncher.launch(credentialIntent)
     }
 
     private fun showParentGateSetupRequired() {
@@ -193,8 +195,6 @@ class MainActivity : ComponentActivity() {
             .setPositiveButton(android.R.string.ok, null)
             .show()
     }
-
-    private var pendingParentGateAction: (() -> Unit)? = null
 
     private companion object {
         const val PARENT_GATE_REQUEST_CODE = 7314
