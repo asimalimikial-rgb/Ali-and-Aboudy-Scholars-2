@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -89,6 +89,17 @@
       "license": "Copyrighted publisher material; REFERENCE_ONLY. Topic-level alignment only; no reproduction or redistribution rights granted.",
       "licenseUrl": null,
       "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "sourceReferenceId": "AAS2-ORIGINAL-AUTHORED",
+      "title": "AAS2 original authored question set — 200 activities",
+      "publisher": "Ali & Aboudy Scholars 2 project",
+      "url": "https://github.com/asimalimikial-rgb/Ali-andd-aboudy-scholars/blob/main/content/question-bank/README.md",
+      "license": "Original project-authored activity prompts; no protected textbook text or third-party illustrations are intentionally reproduced. Redistribution rights remain subject to project-owner review.",
+      "licenseUrl": null,
+      "attribution": "Original AAS2-authored educational content migrated from the legacy project.",
       "usageRights": "REFERENCE_ONLY",
       "verifiedAt": "2026-11-23"
     }
@@ -223,6 +234,94 @@
       "domain": "Science",
       "observableOutcome": "Observes plants safely and avoids tasting or damaging unknown plants.",
       "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "learnerPath": "GRADE_2",
+      "domain": "English",
+      "observableOutcome": "Applies early grammar, word recognition, capitalization and punctuation conventions.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "CCSS-G2-ELA",
+        "SD-SMILE-G2-2020"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "learnerPath": "GRADE_2",
+      "domain": "English",
+      "observableOutcome": "Identifies meaning and key details in short age-appropriate English texts.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "CCSS-G2-ELA",
+        "SD-SMILE-G2-2020"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-place-value",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Identifies the value of digits in two- and three-digit numbers.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "SD-G2-MATH-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Solves age-appropriate addition and subtraction problems.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "SD-G2-MATH-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-multiplication",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Represents multiplication through equal groups and repeated addition.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "SD-G2-MATH-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Uses measurement ideas to solve simple practical problems.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "SD-G2-MATH-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognizes equal parts and applies simple measurement relationships.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "SD-G2-MATH-2021",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Recognizes basic concepts about living things, materials and the Earth.",
+      "sourceReferenceIds": [
+        "AAS2-ORIGINAL-AUTHORED",
         "MACMILLAN-SCIENCE-L2",
         "NGSS-G2-2013"
       ]
@@ -1848,6 +1947,2606 @@
         "c": "Water is important for germination"
       },
       "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.png"
+    },
+    {
+      "activityId": "new-aboudy-english-001",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the sentence with correct capital letters.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The children are playing."
+        },
+        {
+          "optionId": "b",
+          "text": "the children are playing."
+        },
+        {
+          "optionId": "c",
+          "text": "The Children are playing."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-001.png"
+    },
+    {
+      "activityId": "new-aboudy-english-002",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Find the verb in: The rabbit hops quickly.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hops"
+        },
+        {
+          "optionId": "b",
+          "text": "rabbit"
+        },
+        {
+          "optionId": "c",
+          "text": "quickly"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-002.png"
+    },
+    {
+      "activityId": "new-aboudy-english-003",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the plural of leaf.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "leaves"
+        },
+        {
+          "optionId": "b",
+          "text": "leafs"
+        },
+        {
+          "optionId": "c",
+          "text": "leafes"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-003.png"
+    },
+    {
+      "activityId": "new-aboudy-english-004",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes the star in bright star?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "bright"
+        },
+        {
+          "optionId": "b",
+          "text": "star"
+        },
+        {
+          "optionId": "c",
+          "text": "shines"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-004.png"
+    },
+    {
+      "activityId": "new-aboudy-english-005",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the opposite of careful.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "careless"
+        },
+        {
+          "optionId": "b",
+          "text": "helpful"
+        },
+        {
+          "optionId": "c",
+          "text": "quiet"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-005.png"
+    },
+    {
+      "activityId": "new-aboudy-english-006",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the past tense of go.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "went"
+        },
+        {
+          "optionId": "b",
+          "text": "goed"
+        },
+        {
+          "optionId": "c",
+          "text": "going"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-006.png"
+    },
+    {
+      "activityId": "new-aboudy-english-007",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which punctuation mark ends a question?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "?"
+        },
+        {
+          "optionId": "b",
+          "text": "!"
+        },
+        {
+          "optionId": "c",
+          "text": "."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-007.png"
+    },
+    {
+      "activityId": "new-aboudy-english-008",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is the name of a city?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Khartoum"
+        },
+        {
+          "optionId": "b",
+          "text": "city"
+        },
+        {
+          "optionId": "c",
+          "text": "river"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-008.png"
+    },
+    {
+      "activityId": "new-aboudy-english-009",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: The pupils ___ ready.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "are"
+        },
+        {
+          "optionId": "b",
+          "text": "is"
+        },
+        {
+          "optionId": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-009.png"
+    },
+    {
+      "activityId": "new-aboudy-english-010",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correctly punctuated sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "We visited the museum."
+        },
+        {
+          "optionId": "b",
+          "text": "We visited the museum"
+        },
+        {
+          "optionId": "c",
+          "text": "We visited the museum?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-010.png"
+    },
+    {
+      "activityId": "new-aboudy-english-011",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose a synonym for tiny.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "small"
+        },
+        {
+          "optionId": "b",
+          "text": "huge"
+        },
+        {
+          "optionId": "c",
+          "text": "wide"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-011.png"
+    },
+    {
+      "activityId": "new-aboudy-english-012",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which option names a place?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "library"
+        },
+        {
+          "optionId": "b",
+          "text": "quickly"
+        },
+        {
+          "optionId": "c",
+          "text": "jump"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-012.png"
+    },
+    {
+      "activityId": "new-aboudy-english-013",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the plural of child.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "children"
+        },
+        {
+          "optionId": "b",
+          "text": "childs"
+        },
+        {
+          "optionId": "c",
+          "text": "childes"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-013.png"
+    },
+    {
+      "activityId": "new-aboudy-english-014",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word tells how the turtle moves?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "slowly"
+        },
+        {
+          "optionId": "b",
+          "text": "green"
+        },
+        {
+          "optionId": "c",
+          "text": "shell"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-014.png"
+    },
+    {
+      "activityId": "new-aboudy-english-015",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the contraction for do not.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "don't"
+        },
+        {
+          "optionId": "b",
+          "text": "doesn't"
+        },
+        {
+          "optionId": "c",
+          "text": "didn't"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-015.png"
+    },
+    {
+      "activityId": "new-aboudy-english-016",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: I ___ my work yesterday.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "finished"
+        },
+        {
+          "optionId": "b",
+          "text": "finish"
+        },
+        {
+          "optionId": "c",
+          "text": "finishing"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-016.png"
+    },
+    {
+      "activityId": "new-aboudy-english-017",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose a synonym for begin.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "start"
+        },
+        {
+          "optionId": "b",
+          "text": "finish"
+        },
+        {
+          "optionId": "c",
+          "text": "forget"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-017.png"
+    },
+    {
+      "activityId": "new-aboudy-english-018",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence uses a comma in a list?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "I bought pens, books and paper."
+        },
+        {
+          "optionId": "b",
+          "text": "I bought pens books and paper."
+        },
+        {
+          "optionId": "c",
+          "text": "I bought pens; books and paper."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-018.png"
+    },
+    {
+      "activityId": "new-aboudy-english-019",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the main idea of this story?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Helping an animal"
+        },
+        {
+          "optionId": "b",
+          "text": "Buying a toy"
+        },
+        {
+          "optionId": "c",
+          "text": "Cooking dinner"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-019.png"
+    },
+    {
+      "activityId": "new-aboudy-english-020",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long a sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "train"
+        },
+        {
+          "optionId": "b",
+          "text": "cat"
+        },
+        {
+          "optionId": "c",
+          "text": "map"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-020.png"
+    },
+    {
+      "activityId": "new-aboudy-english-021",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word is an adverb in: Sara spoke softly?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "softly"
+        },
+        {
+          "optionId": "b",
+          "text": "Sara"
+        },
+        {
+          "optionId": "c",
+          "text": "spoke"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-021.png"
+    },
+    {
+      "activityId": "new-aboudy-english-022",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct possessive form.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ali's bag"
+        },
+        {
+          "optionId": "b",
+          "text": "the Ali bag"
+        },
+        {
+          "optionId": "c",
+          "text": "Ali bags"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-022.png"
+    },
+    {
+      "activityId": "new-aboudy-english-023",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word joins ideas to explain a reason?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "because"
+        },
+        {
+          "optionId": "b",
+          "text": "blue"
+        },
+        {
+          "optionId": "c",
+          "text": "under"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-023.png"
+    },
+    {
+      "activityId": "new-aboudy-english-024",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the opposite of ancient.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "modern"
+        },
+        {
+          "optionId": "b",
+          "text": "historic"
+        },
+        {
+          "optionId": "c",
+          "text": "old"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-024.png"
+    },
+    {
+      "activityId": "new-aboudy-english-025",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence describes the future?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "We will visit tomorrow."
+        },
+        {
+          "optionId": "b",
+          "text": "We visited yesterday."
+        },
+        {
+          "optionId": "c",
+          "text": "We visit every day."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-025.png"
+    },
+    {
+      "activityId": "new-aboudy-english-026",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: There are ___ apples.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "many"
+        },
+        {
+          "optionId": "b",
+          "text": "much"
+        },
+        {
+          "optionId": "c",
+          "text": "anyone"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-026.png"
+    },
+    {
+      "activityId": "new-aboudy-english-027",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does the prefix un- mean?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "not"
+        },
+        {
+          "optionId": "b",
+          "text": "again"
+        },
+        {
+          "optionId": "c",
+          "text": "before"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-027.png"
+    },
+    {
+      "activityId": "new-aboudy-english-028",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word sounds like sea but has a different meaning?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "see"
+        },
+        {
+          "optionId": "b",
+          "text": "say"
+        },
+        {
+          "optionId": "c",
+          "text": "saw"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-028.png"
+    },
+    {
+      "activityId": "new-aboudy-english-029",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which title suits a story about rescuing a kitten?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Helpful Rescue"
+        },
+        {
+          "optionId": "b",
+          "text": "A Broken Pencil"
+        },
+        {
+          "optionId": "c",
+          "text": "The Empty Plate"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-029.png"
+    },
+    {
+      "activityId": "new-aboudy-english-030",
+      "skillId": "aas2-aboudy-grammar-and-word-study",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence gives an instruction?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Close the door gently."
+        },
+        {
+          "optionId": "b",
+          "text": "The door is brown."
+        },
+        {
+          "optionId": "c",
+          "text": "Did you close it?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-030.png"
+    },
+    {
+      "activityId": "new-aboudy-english-031",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Lina planted sunflower seeds and watered them near a sunny window. Where did Lina put the pot?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Near a sunny window"
+        },
+        {
+          "optionId": "b",
+          "text": "In a cupboard"
+        },
+        {
+          "optionId": "c",
+          "text": "Under her bed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-031.png"
+    },
+    {
+      "activityId": "new-aboudy-english-032",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Omar found a puppy by the school gate and told his teacher. What did Omar do after finding the puppy?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "He told his teacher"
+        },
+        {
+          "optionId": "b",
+          "text": "He left it alone"
+        },
+        {
+          "optionId": "c",
+          "text": "He took it to a shop"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-032.png"
+    },
+    {
+      "activityId": "new-aboudy-english-033",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Sami reads with his grandmother and waters flowers every Friday. What do they do together?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Read and water flowers"
+        },
+        {
+          "optionId": "b",
+          "text": "Play football"
+        },
+        {
+          "optionId": "c",
+          "text": "Go swimming"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-033.png"
+    },
+    {
+      "activityId": "new-aboudy-english-034",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Strong wind blew across the playground, so the teacher asked pupils to wait before flying paper planes. Why did they wait?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The wind was too strong"
+        },
+        {
+          "optionId": "b",
+          "text": "It was lunchtime"
+        },
+        {
+          "optionId": "c",
+          "text": "The school was closed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-034.png"
+    },
+    {
+      "activityId": "new-aboudy-english-035",
+      "skillId": "aas2-aboudy-reading-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Maya saved coins for two weeks and bought a storybook. What did Maya buy?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A storybook"
+        },
+        {
+          "optionId": "b",
+          "text": "A bicycle"
+        },
+        {
+          "optionId": "c",
+          "text": "A jacket"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-english-035.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-001",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 347, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "300"
+        },
+        {
+          "optionId": "b",
+          "text": "30"
+        },
+        {
+          "optionId": "c",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-001.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-002",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 582, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "500"
+        },
+        {
+          "optionId": "b",
+          "text": "50"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-002.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-003",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 719, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "700"
+        },
+        {
+          "optionId": "b",
+          "text": "70"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-003.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-004",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 406, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "400"
+        },
+        {
+          "optionId": "b",
+          "text": "40"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-004.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-005",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 935, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "900"
+        },
+        {
+          "optionId": "b",
+          "text": "90"
+        },
+        {
+          "optionId": "c",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-005.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-006",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 261, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "200"
+        },
+        {
+          "optionId": "b",
+          "text": "20"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-006.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-007",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 804, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "800"
+        },
+        {
+          "optionId": "b",
+          "text": "80"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-007.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-008",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 653, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "600"
+        },
+        {
+          "optionId": "b",
+          "text": "60"
+        },
+        {
+          "optionId": "c",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-008.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-009",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 190, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "100"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "1"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-009.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-010",
+      "skillId": "aas2-aboudy-place-value",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 728, what is the value of the hundreds digit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "700"
+        },
+        {
+          "optionId": "b",
+          "text": "70"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-010.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-011",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 36 + 27.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "63"
+        },
+        {
+          "optionId": "b",
+          "text": "73"
+        },
+        {
+          "optionId": "c",
+          "text": "53"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-011.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-012",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 84 - 29.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "55"
+        },
+        {
+          "optionId": "b",
+          "text": "65"
+        },
+        {
+          "optionId": "c",
+          "text": "45"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-012.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-013",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 48 + 35.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "83"
+        },
+        {
+          "optionId": "b",
+          "text": "93"
+        },
+        {
+          "optionId": "c",
+          "text": "73"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-013.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-014",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 92 - 46.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "46"
+        },
+        {
+          "optionId": "b",
+          "text": "56"
+        },
+        {
+          "optionId": "c",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-014.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-015",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 57 + 26.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "83"
+        },
+        {
+          "optionId": "b",
+          "text": "93"
+        },
+        {
+          "optionId": "c",
+          "text": "73"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-015.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-016",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 73 - 38.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "35"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-016.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-017",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 125 + 34.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "159"
+        },
+        {
+          "optionId": "b",
+          "text": "169"
+        },
+        {
+          "optionId": "c",
+          "text": "149"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-017.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-018",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 160 - 75.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "85"
+        },
+        {
+          "optionId": "b",
+          "text": "95"
+        },
+        {
+          "optionId": "c",
+          "text": "75"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-018.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-019",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 68 + 19.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "87"
+        },
+        {
+          "optionId": "b",
+          "text": "97"
+        },
+        {
+          "optionId": "c",
+          "text": "77"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-019.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-020",
+      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 101 - 56.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "45"
+        },
+        {
+          "optionId": "b",
+          "text": "55"
+        },
+        {
+          "optionId": "c",
+          "text": "35"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-020.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-021",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 2 equal groups of 7. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "14"
+        },
+        {
+          "optionId": "b",
+          "text": "16"
+        },
+        {
+          "optionId": "c",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-021.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-022",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 5 equal groups of 6. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "30"
+        },
+        {
+          "optionId": "b",
+          "text": "35"
+        },
+        {
+          "optionId": "c",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-022.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-023",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 3 equal groups of 8. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "24"
+        },
+        {
+          "optionId": "b",
+          "text": "27"
+        },
+        {
+          "optionId": "c",
+          "text": "21"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-023.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-024",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 4 equal groups of 6. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "24"
+        },
+        {
+          "optionId": "b",
+          "text": "28"
+        },
+        {
+          "optionId": "c",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-024.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-025",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 10 equal groups of 9. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "90"
+        },
+        {
+          "optionId": "b",
+          "text": "100"
+        },
+        {
+          "optionId": "c",
+          "text": "80"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-025.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-026",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 2 equal groups of 12. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "24"
+        },
+        {
+          "optionId": "b",
+          "text": "26"
+        },
+        {
+          "optionId": "c",
+          "text": "22"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-026.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-027",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 5 equal groups of 8. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "40"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "35"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-027.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-028",
+      "skillId": "aas2-aboudy-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 3 equal groups of 7. How many altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "21"
+        },
+        {
+          "optionId": "b",
+          "text": "24"
+        },
+        {
+          "optionId": "c",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-028.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-029",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A lesson starts at 8:00 and lasts one hour. When does it finish?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9:00"
+        },
+        {
+          "optionId": "b",
+          "text": "8:30"
+        },
+        {
+          "optionId": "c",
+          "text": "10:00"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-029.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-030",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many minutes are in half an hour?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "30"
+        },
+        {
+          "optionId": "b",
+          "text": "15"
+        },
+        {
+          "optionId": "c",
+          "text": "60"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-030.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-031",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A book costs 25 pounds. You pay 50 pounds. What change do you get?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "25 pounds"
+        },
+        {
+          "optionId": "b",
+          "text": "20 pounds"
+        },
+        {
+          "optionId": "c",
+          "text": "30 pounds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-031.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-032",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which unit is best for measuring a pencil's length?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Centimetres"
+        },
+        {
+          "optionId": "b",
+          "text": "Litres"
+        },
+        {
+          "optionId": "c",
+          "text": "Kilograms"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-032.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-033",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A cake is cut into 4 equal pieces. What fraction is one piece?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "One quarter"
+        },
+        {
+          "optionId": "b",
+          "text": "One half"
+        },
+        {
+          "optionId": "c",
+          "text": "One whole"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-033.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-034",
+      "skillId": "aas2-aboudy-measure-and-apply",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is heavier: 1 kilogram or 500 grams?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1 kilogram"
+        },
+        {
+          "optionId": "b",
+          "text": "500 grams"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-034.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-035",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which fraction is equal to one half?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2/4"
+        },
+        {
+          "optionId": "b",
+          "text": "1/3"
+        },
+        {
+          "optionId": "c",
+          "text": "1/5"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-035.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-036",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A shape has 3 equal parts and 1 is shaded. What fraction is shaded?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1/3"
+        },
+        {
+          "optionId": "b",
+          "text": "1/2"
+        },
+        {
+          "optionId": "c",
+          "text": "3/3"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-036.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-037",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many centimetres are in one metre?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "100"
+        },
+        {
+          "optionId": "b",
+          "text": "10"
+        },
+        {
+          "optionId": "c",
+          "text": "1000"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-037.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-038",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool measures the mass of a bag?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Scales"
+        },
+        {
+          "optionId": "b",
+          "text": "Ruler"
+        },
+        {
+          "optionId": "c",
+          "text": "Clock"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-038.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-039",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is 15 minutes after 2:30?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2:45"
+        },
+        {
+          "optionId": "b",
+          "text": "2:15"
+        },
+        {
+          "optionId": "c",
+          "text": "3:30"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-039.png"
+    },
+    {
+      "activityId": "new-aboudy-maths-040",
+      "skillId": "aas2-aboudy-fractions-and-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "If 100 piasters make one pound, how many pounds are 200 piasters?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2 pounds"
+        },
+        {
+          "optionId": "b",
+          "text": "20 pounds"
+        },
+        {
+          "optionId": "c",
+          "text": "200 pounds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-maths-040.png"
+    },
+    {
+      "activityId": "new-aboudy-science-001",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about flowering plants is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Flowers help many plants make seeds"
+        },
+        {
+          "optionId": "b",
+          "text": "Flowers take in all the water from soil"
+        },
+        {
+          "optionId": "c",
+          "text": "Flowers turn directly into roots"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-001.png"
+    },
+    {
+      "activityId": "new-aboudy-science-002",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about butterfly life cycle is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A butterfly begins life as an egg"
+        },
+        {
+          "optionId": "b",
+          "text": "A butterfly begins life as a small bird"
+        },
+        {
+          "optionId": "c",
+          "text": "A butterfly begins life as a seed"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-002.png"
+    },
+    {
+      "activityId": "new-aboudy-science-003",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about photosynthesis is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Green plants take in carbon dioxide"
+        },
+        {
+          "optionId": "b",
+          "text": "Green plants take in oxygen to make food"
+        },
+        {
+          "optionId": "c",
+          "text": "Plants get all their food from soil"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-003.png"
+    },
+    {
+      "activityId": "new-aboudy-science-004",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about polar habitats is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Polar bears live in Arctic habitats"
+        },
+        {
+          "optionId": "b",
+          "text": "Polar bears live in Antarctica"
+        },
+        {
+          "optionId": "c",
+          "text": "Polar bears live in tropical rainforests"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-004.png"
+    },
+    {
+      "activityId": "new-aboudy-science-005",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about food chains is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A food chain shows how energy moves between organisms"
+        },
+        {
+          "optionId": "b",
+          "text": "A food chain shows how rocks are made"
+        },
+        {
+          "optionId": "c",
+          "text": "A food chain shows how water freezes"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-005.png"
+    },
+    {
+      "activityId": "new-aboudy-science-006",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about herbivores is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rabbits are herbivores"
+        },
+        {
+          "optionId": "b",
+          "text": "Rabbits are carnivores"
+        },
+        {
+          "optionId": "c",
+          "text": "Rabbits are omnivores"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-006.png"
+    },
+    {
+      "activityId": "new-aboudy-science-007",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about circulation is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The heart pumps blood around the body"
+        },
+        {
+          "optionId": "b",
+          "text": "The lungs pump blood around the body"
+        },
+        {
+          "optionId": "c",
+          "text": "The stomach pumps blood around the body"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-007.png"
+    },
+    {
+      "activityId": "new-aboudy-science-008",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about nutrition is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A balanced diet provides different nutrients"
+        },
+        {
+          "optionId": "b",
+          "text": "A balanced diet contains only sweets"
+        },
+        {
+          "optionId": "c",
+          "text": "A balanced diet contains just one type of food"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-008.png"
+    },
+    {
+      "activityId": "new-aboudy-science-009",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about breathing is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The lungs help us breathe"
+        },
+        {
+          "optionId": "b",
+          "text": "The liver helps us breathe"
+        },
+        {
+          "optionId": "c",
+          "text": "The stomach helps us breathe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-009.png"
+    },
+    {
+      "activityId": "new-aboudy-science-010",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about hygiene is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Soap and water help remove germs"
+        },
+        {
+          "optionId": "b",
+          "text": "Perfume and dry air remove all germs"
+        },
+        {
+          "optionId": "c",
+          "text": "Soap adds germs to our hands"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-010.png"
+    },
+    {
+      "activityId": "new-aboudy-science-011",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about solids is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Solids keep their own shape"
+        },
+        {
+          "optionId": "b",
+          "text": "Solids always flow like liquids"
+        },
+        {
+          "optionId": "c",
+          "text": "Solids take the shape of every container"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-011.png"
+    },
+    {
+      "activityId": "new-aboudy-science-012",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about freezing is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Freezing changes liquid water into ice"
+        },
+        {
+          "optionId": "b",
+          "text": "Freezing changes liquid water into water vapour"
+        },
+        {
+          "optionId": "c",
+          "text": "Freezing changes water into steam"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-012.png"
+    },
+    {
+      "activityId": "new-aboudy-science-013",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about heat conductors is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Metal transfers heat well"
+        },
+        {
+          "optionId": "b",
+          "text": "Wood transfers heat better than metal"
+        },
+        {
+          "optionId": "c",
+          "text": "Plastic is always a better heat conductor than metal"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-013.png"
+    },
+    {
+      "activityId": "new-aboudy-science-014",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about gravity is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Gravity pulls objects towards Earth"
+        },
+        {
+          "optionId": "b",
+          "text": "Gravity pushes objects away from Earth"
+        },
+        {
+          "optionId": "c",
+          "text": "Gravity only works on very heavy objects"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Wonderful work!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-014.png"
+    },
+    {
+      "activityId": "new-aboudy-science-015",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about ramps is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A steeper ramp can make a toy car move faster"
+        },
+        {
+          "optionId": "b",
+          "text": "A ramp makes a toy car heavier"
+        },
+        {
+          "optionId": "c",
+          "text": "A ramp removes the force of gravity"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great answer!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-015.png"
+    },
+    {
+      "activityId": "new-aboudy-science-016",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about Earth rotation is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Earth's rotation causes day and night"
+        },
+        {
+          "optionId": "b",
+          "text": "Earth's revolution around the Sun causes day and night"
+        },
+        {
+          "optionId": "c",
+          "text": "The Moon's orbit causes day and night"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Fantastic effort!",
+      "feedbackIncorrect": "Good try! Keep going!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-016.png"
+    },
+    {
+      "activityId": "new-aboudy-science-017",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about light sources is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Sun is a natural source of light"
+        },
+        {
+          "optionId": "b",
+          "text": "The Moon makes its own light"
+        },
+        {
+          "optionId": "c",
+          "text": "A mirror creates its own light"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-017.png"
+    },
+    {
+      "activityId": "new-aboudy-science-018",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about water cycle is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Evaporation changes liquid water into water vapour"
+        },
+        {
+          "optionId": "b",
+          "text": "Evaporation changes liquid water into ice"
+        },
+        {
+          "optionId": "c",
+          "text": "Evaporation changes water vapour into rocks"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Smart thinking!",
+      "feedbackIncorrect": "You can do it!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-018.png"
+    },
+    {
+      "activityId": "new-aboudy-science-019",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about recycling is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Recycling paper helps reduce waste"
+        },
+        {
+          "optionId": "b",
+          "text": "Burning paper is the best way to recycle it"
+        },
+        {
+          "optionId": "c",
+          "text": "Throwing paper away is the same as recycling"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Keep shining!",
+      "feedbackIncorrect": "Take your time!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-019.png"
+    },
+    {
+      "activityId": "new-aboudy-science-020",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about water conservation is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "People and plants need clean water"
+        },
+        {
+          "optionId": "b",
+          "text": "Only plants need clean water"
+        },
+        {
+          "optionId": "c",
+          "text": "Dirty water is always safe to drink"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You're amazing!",
+      "feedbackIncorrect": "Keep thinking!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-020.png"
+    },
+    {
+      "activityId": "new-aboudy-science-021",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about skeleton is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The rib cage protects the heart and lungs"
+        },
+        {
+          "optionId": "b",
+          "text": "The rib cage protects the brain"
+        },
+        {
+          "optionId": "c",
+          "text": "The rib cage helps digest food"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "That was great!",
+      "feedbackIncorrect": "One more try!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-021.png"
+    },
+    {
+      "activityId": "new-aboudy-science-022",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about simple machines is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A ramp is an example of an inclined plane"
+        },
+        {
+          "optionId": "b",
+          "text": "A lever is an inclined plane"
+        },
+        {
+          "optionId": "c",
+          "text": "A pulley is an inclined plane"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "You're getting there!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-022.png"
+    },
+    {
+      "activityId": "new-aboudy-science-023",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about shadows is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A shadow forms when an object blocks light"
+        },
+        {
+          "optionId": "b",
+          "text": "A shadow forms when sound is blocked"
+        },
+        {
+          "optionId": "c",
+          "text": "A shadow forms without any light"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Brilliant thinking!",
+      "feedbackIncorrect": "Great effort! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-023.png"
+    },
+    {
+      "activityId": "new-aboudy-science-024",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about planets is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Earth is the planet we live on"
+        },
+        {
+          "optionId": "b",
+          "text": "Earth is a star"
+        },
+        {
+          "optionId": "c",
+          "text": "Earth is the Moon's natural satellite"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "No worries! Try again!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-024.png"
+    },
+    {
+      "activityId": "new-aboudy-science-025",
+      "skillId": "aas2-aboudy-living-world-matter-and-earth",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about temperature is scientifically correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A thermometer measures temperature"
+        },
+        {
+          "optionId": "b",
+          "text": "A ruler measures temperature"
+        },
+        {
+          "optionId": "c",
+          "text": "A clock measures temperature"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Super job!",
+      "feedbackIncorrect": "Keep learning!",
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/new-aboudy-science-025.png"
     }
   ],
   "books": [
