@@ -156,7 +156,7 @@ private fun OptionImage(
     contentDescription: String
 ) {
     val context = LocalContext.current
-    val bitmap by produceState<android.graphics.Bitmap?>(initialValue = null, assetPath) {
+    val bitmap by produceState<android.graphics.Bitmap?>(initialValue = null, key1 = assetPath) {
         value = withContext(Dispatchers.IO) {
             runCatching {
                 context.assets.open(assetPath).use { input ->
