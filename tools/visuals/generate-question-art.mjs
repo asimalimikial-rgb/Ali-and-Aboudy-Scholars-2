@@ -187,6 +187,22 @@ function phonicsPromptSvg(activity) {
 function fallbackPromptFragments(activity, profile) {
   const prompt = String(activity.prompt || "").toLowerCase();
   const scene = kinds => kinds.map(kind => visuals.svg(kind, kind));
+  if (/potato/.test(prompt)) return scene(["potato", "plant", "soil"]);
+  if (/cotton/.test(prompt)) return scene(["cotton", "plant", "shirt"]);
+  if (/bean/.test(prompt)) return scene(["bean", "seed", "plant"]);
+  if (/herbivore/.test(prompt)) return scene(["rabbit", "goat", "plant"]);
+  if (/circulation/.test(prompt)) return scene(["heart", "lungs"]);
+  if (/hygiene/.test(prompt)) return scene(["toothbrush", "soap", "water"]);
+  if (/solid|solids/.test(prompt)) return scene(["block", "rock", "ice"]);
+  if (/mammal/.test(prompt)) return scene(["goat", "cow", "dog"]);
+  if (/desert animal/.test(prompt)) return scene(["camel", "sun", "rock"]);
+  if (/material/.test(prompt)) return scene(["wood", "glass", "metal", "plastic"]);
+  if (/magnet/.test(prompt)) return scene(["magnet", "iron", "paper"]);
+  if (/animal needs/.test(prompt)) return scene(["water", "food", "wind", "plant"]);
+  if (/body parts/.test(prompt)) return scene(["eye", "ear", "nose", "tooth"]);
+  if (/safety/.test(prompt)) return scene(["helmet", "stove", "person"]);
+  if (/floating/.test(prompt)) return scene(["boat", "water", "wood", "stone"]);
+  if (/melting/.test(prompt)) return scene(["ice", "water", "sun"]);
   if (/food chain/.test(prompt)) return scene(["sun", "plant", "rabbit", "fox"]);
   if (/life cycle/.test(prompt)) return /frog/.test(prompt) ? scene(["egg", "tadpole", "frog"]) : scene(["egg", "caterpillar", "pupa", "butterfly"]);
   if (/octopus/.test(prompt)) return scene(["octopus", "water"]);
@@ -206,18 +222,13 @@ function fallbackPromptFragments(activity, profile) {
   if (/water conservation|clean water/.test(prompt)) return scene(["tap", "water", "plant"]);
   if (/skeleton|rib cage/.test(prompt)) return scene(["rib_cage", "heart", "lungs"]);
   if (/suitable habitat|habitat/.test(prompt)) return scene(["pond", "tree", "water", "sun"]);
-  if (/living animal|living thing/.test(prompt)) return scene(["fish", "bird", "toy"]);
+  if (/animal is living|living animal|living thing/.test(prompt)) return scene(["fish", "bird", "plant"]);
   const promptKinds = visuals.findKinds(prompt).filter(kind => visuals.hasSpecificVisual(kind));
   if (promptKinds.length) return scene(promptKinds.slice(0, 4));
-  if (profile.skill === "math") {
-    const nums = [...prompt.matchAll(/\b\d{1,3}\b/g)].map(match => match[0]).slice(0, 4);
-    if (nums.length) return nums.map(number => numberCardSvg(number));
-  }
-  if (profile.skill === "english-grammar") return [wordCardSvg(activity.prompt)];
-  if (profile.skill === "reading") return [visuals.svg("book", "book")];
+  if (profile.skill === "vocabulary") return [wordCardSvg(activity.prompt)];
+  if (profile.skill === "reading") return [readingPromptSvg()];
   return [];
 }
-
 function optionVisualFragments(question, option) {
   const label = String(option.text || "").trim();
   if (!label) return [];
@@ -232,6 +243,58 @@ function optionVisualFragments(question, option) {
   });
   if (rendered.length) return rendered.slice(0, 3);
   return visuals.findKinds(label).filter(kind => visuals.hasSpecificVisual(kind)).slice(0, 3).map(kind => visuals.svg(kind, label));
+}
+
+function mathPromptSvg(activity) {
+  const prompt = String(activity.prompt || "").toLowerCase();
+  const numbers = [...prompt.matchAll(/\b\d{1,3}\b/g)].map(match => match[0]);
+  const shell = inner => '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150"><rect x="2" y="2" width="316" height="146" rx="18" fill="#f7fbff" stroke="#8aaec2" stroke-width="3"/>' + inner + '</svg>';
+  if (/pattern/.test(prompt) && numbers.length) {
+    const cells = numbers.slice(0, 4).map(n => '<rect x="18" y="38" width="54" height="58" rx="9" fill="#fff" stroke="#6c9ab3" stroke-width="2"/><text x="45" y="77" text-anchor="middle" font-size="27" font-weight="700" fill="#24485c">' + n + '</text>').join("");
+    return shell(cells + '<path d="M76 67h14m-5-5 5 5-5 5M132 67h14m-5-5 5 5-5 5M188 67h14m-5-5 5 5-5 5" stroke="#6c9ab3" stroke-width="3" fill="none"/><rect x="246" y="38" width="54" height="58" rx="9" fill="#fff3cf" stroke="#d3a33e" stroke-width="2"/><text x="273" y="77" text-anchor="middle" font-size="30" font-weight="700" fill="#9a6a16">?</text>');
+  }
+  if (/calculate|add|plus|subtract|minus/.test(prompt) && numbers.length >= 2) {
+    const sign = /plus|add|\+/.test(prompt) ? "+" : "−";
+    return shell('<text x="160" y="92" text-anchor="middle" font-size="48" font-weight="800" fill="#24485c">' + numbers[0] + " " + sign + " " + numbers[1] + " = ?" + '</text>');
+  }
+  if (/pentagon/.test(prompt)) return visuals.svg("pentagon", "pentagon");
+  if (/hexagon/.test(prompt)) return visuals.svg("hexagon", "hexagon");
+  if (/straight sides|sides/.test(prompt)) return shell('<polygon points="70,18 120,50 100,112 40,112 20,50" fill="#f2c34e" stroke="#9a742f" stroke-width="4"/><text x="205" y="82" text-anchor="middle" font-size="42" font-weight="800" fill="#24485c">?</text>');
+  if (/mass|weigh|weight/.test(prompt)) return visuals.svg("scale", "scale");
+  if (/clock|time|hour|minutes/.test(prompt)) return visuals.svg("clock", "clock");
+  if (/fraction|half|quarter|equal parts/.test(prompt)) return visuals.svg("fraction", "fraction");
+  if (/centimet|metre|length|ruler/.test(prompt)) return visuals.svg("ruler", "ruler");
+  if (/money|pounds|piasters|cost|change/.test(prompt)) return visuals.svg("coin", "coin");
+  if (/place value|hundreds|tens|ones|digit/.test(prompt)) return numbers.length ? numberCardSvg(numbers[0]) : visuals.svg("number", "number");
+  if (/groups|times|multiply|multiplication/.test(prompt)) return visuals.svg("array", "array");
+  return numbers.length ? numberCardSvg(numbers[0]) : visuals.svg("number", "number");
+}
+
+function languageTaskSvg(activity) {
+  const prompt = String(activity.prompt || "").toLowerCase();
+  const shell = inner => '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150"><rect x="2" y="2" width="316" height="146" rx="18" fill="#fffaf0" stroke="#d4b36a" stroke-width="3"/>' + inner + '</svg>';
+  if (/sentence.*order|words.*correct order|word order/.test(prompt)) return shell('<rect x="24" y="48" width="70" height="40" rx="8" fill="#b9dff0"/><rect x="125" y="48" width="70" height="40" rx="8" fill="#f7d28b"/><rect x="226" y="48" width="70" height="40" rx="8" fill="#bfe2b5"/><path d="M98 68h22m-6-6 6 6-6 6m82-6h22m-6-6 6 6-6 6" stroke="#54788d" stroke-width="4" fill="none"/>');
+  if (/opposite/.test(prompt)) return shell('<path d="M45 75h95m-15-15 15 15-15 15M275 75h-95m15-15-15 15 15 15" stroke="#477e98" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>');
+  if (/past tense|yesterday/.test(prompt)) return shell('<path d="M55 82h210m-12-12 12 12-12 12" stroke="#477e98" stroke-width="5" fill="none"/><circle cx="90" cy="82" r="15" fill="#f4c56a"/><circle cx="230" cy="82" r="15" fill="#8bc6df"/><text x="90" y="42" text-anchor="middle" font-size="19" fill="#74531e">Past</text><text x="230" y="42" text-anchor="middle" font-size="19" fill="#315b70">Now</text>');
+  if (/punctuation|punctuated|question mark/.test(prompt)) return shell('<text x="70" y="108" font-size="82" font-weight="800" fill="#477e98">?</text><text x="145" y="108" font-size="82" font-weight="800" fill="#e4a33f">!</text><text x="220" y="108" font-size="82" font-weight="800" fill="#6aa56c">.</text><text x="280" y="108" font-size="82" font-weight="800" fill="#a879d6">,</text>');
+  if (/city|place/.test(prompt)) return shell('<path d="M25 120V65h45v55m10 0V38h50v82m12 0V70h44v50m10 0V52h60v68" fill="#8bc6df" stroke="#477e98" stroke-width="3"/><path d="M40 78h12m-12 15h12m43-37h15m-15 18h15m-15 18h15m30-4h12m-12 17h12m33-37h16m-16 18h16" stroke="#fff" stroke-width="4"/>');
+  if (/turtle|adverb|how the .* moves/.test(prompt)) return visuals.svg("turtle", "turtle");
+  if (/contraction|do not/.test(prompt)) return shell('<rect x="28" y="48" width="100" height="48" rx="9" fill="#b9dff0"/><rect x="190" y="48" width="100" height="48" rx="9" fill="#f7d28b"/><path d="M132 72h50m-12-12 12 12-12 12" stroke="#54788d" stroke-width="4" fill="none"/><text x="160" y="36" text-anchor="middle" font-size="28" font-weight="700" fill="#477e98">’</text>');
+  if (/synonym|same meaning/.test(prompt)) return shell('<rect x="28" y="48" width="100" height="48" rx="9" fill="#b9dff0"/><rect x="190" y="48" width="100" height="48" rx="9" fill="#bfe2b5"/><text x="160" y="86" text-anchor="middle" font-size="42" font-weight="800" fill="#477e98">=</text>');
+  if (/comma|list/.test(prompt)) return shell('<circle cx="62" cy="70" r="18" fill="#f2c34e"/><circle cx="160" cy="70" r="18" fill="#8bc6df"/><circle cx="258" cy="70" r="18" fill="#8dc98c"/><text x="111" y="86" font-size="42" fill="#477e98">,</text><text x="209" y="86" font-size="42" fill="#477e98">,</text>');
+  if (/main idea|story/.test(prompt)) return shell('<path d="M42 42q38-15 76 0v70q-38-15-76 0Zm76 0q38-15 76 0v70q-38-15-76 0Z" fill="#fff" stroke="#477e98" stroke-width="4"/><circle cx="235" cy="62" r="22" fill="none" stroke="#d49b3e" stroke-width="7"/><path d="m251 79 24 24" stroke="#d49b3e" stroke-width="8" stroke-linecap="round"/>');
+  if (/possessive/.test(prompt)) return shell('<rect x="60" y="48" width="150" height="55" rx="10" fill="#b9dff0"/><text x="235" y="89" font-size="50" font-weight="800" fill="#477e98">’s</text>');
+  if (/joins ideas|reason|because/.test(prompt)) return shell('<circle cx="75" cy="70" r="30" fill="#b9dff0"/><circle cx="245" cy="70" r="30" fill="#f7d28b"/><path d="M108 70h104m-14-12 14 12-14 12" stroke="#54788d" stroke-width="5" fill="none"/>');
+  if (/future/.test(prompt)) return shell('<rect x="100" y="28" width="120" height="92" rx="9" fill="#fff" stroke="#477e98" stroke-width="4"/><path d="M100 50h120M130 18v22m60-22v22" stroke="#477e98" stroke-width="5"/><path d="M135 85h70m-15-15 15 15-15 15" stroke="#d49b3e" stroke-width="5" fill="none"/>');
+  if (/prefix|un-/.test(prompt)) return shell('<rect x="38" y="48" width="94" height="50" rx="9" fill="#f7d28b"/><rect x="188" y="48" width="94" height="50" rx="9" fill="#b9dff0"/><text x="85" y="82" text-anchor="middle" font-size="30" font-weight="800" fill="#74531e">un-</text><path d="M140 73h40m-12-12 12 12-12 12" stroke="#54788d" stroke-width="4" fill="none"/>');
+  if (/sea|see|sounds like/.test(prompt)) return shell('<path d="M20 100q30-25 60 0t60 0 60 0 60 0" fill="none" stroke="#4c9fc7" stroke-width="8"/><path d="M225 38q30-20 55 8-25 28-55 8-10-8 0-16Z" fill="#fff" stroke="#477e98" stroke-width="4"/><circle cx="250" cy="54" r="7" fill="#477e98"/>');
+  if (/complete:|___|blank/.test(prompt)) return shell('<rect x="25" y="55" width="270" height="40" rx="8" fill="#fff" stroke="#477e98" stroke-width="3"/><path d="M40 75h65m20 0h55m20 0h75" stroke="#8aaec2" stroke-width="3" stroke-linecap="round"/><rect x="128" y="63" width="48" height="24" rx="4" fill="#f7d28b"/>');
+  if (/instruction/.test(prompt)) return shell('<path d="M75 112V42m-18 18 18-18 18 18" stroke="#477e98" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="140" y="42" width="135" height="62" rx="10" fill="#f7d28b" stroke="#bd8c35" stroke-width="3"/><path d="M170 74h75m-15-15 15 15-15 15" stroke="#815b1e" stroke-width="5" fill="none"/>');
+  return wordCardSvg(activity.prompt);
+}
+
+function readingPromptSvg() {
+  return '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150"><rect x="2" y="2" width="316" height="146" rx="18" fill="#f7fbff" stroke="#8aaec2" stroke-width="3"/><path d="M35 36q42-18 84 0v82q-42-18-84 0Zm84 0q42-18 84 0v82q-42-18-84 0Z" fill="#fff" stroke="#477e98" stroke-width="4"/><circle cx="235" cy="62" r="24" fill="none" stroke="#d49b3e" stroke-width="7"/><path d="m253 81 28 28" stroke="#d49b3e" stroke-width="9" stroke-linecap="round"/></svg>';
 }
 
 function makeQuestionSvg(activity, fragments) {
@@ -292,9 +355,13 @@ for (const filename of packFiles) {
       ? [countedObjectsSvg(countedEntity, promptNumber)]
       : profile.skill === "phonics"
         ? [phonicsPromptSvg(activity)]
-        : profile.skill === "science"
-          ? fallbackPromptFragments(activity, profile)
-          : extractSvgFragments(visuals.render(question, {}));
+        : profile.skill === "math"
+          ? [mathPromptSvg(activity)]
+          : profile.skill === "english-grammar"
+            ? [languageTaskSvg(activity)]
+            : profile.skill === "reading"
+              ? [readingPromptSvg()]
+              : fallbackPromptFragments(activity, profile);
     promptFragments = promptFragments.filter(fragment => {
       const kind = fragment.match(/data-visual-icon-kind="([^"]+)"/)?.[1];
       return !kind || visuals.hasSpecificVisual(kind);

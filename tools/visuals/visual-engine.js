@@ -4,7 +4,7 @@
 "use strict";
 var NUMBERS={zero:0,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};
 var TERMS={
- apple:["apple","apples"],banana:["banana","bananas"],orange:["orange","oranges"],grape:["grape","grapes"],lemon:["lemon","lemons"],mango:["mango","mangoes"],donkey:["donkey","donkeys"],frog:["frog","frogs","froglet","froglets"],spider:["spider","spiders"],octopus:["octopus","octopuses"],tadpole:["tadpole","tadpoles"],caterpillar:["caterpillar","caterpillars"],pupa:["pupa","pupae","chrysalis","chrysalises"],polar_bear:["polar bear","polar bears"],tooth:["tooth","teeth"],doctor:["doctor","doctors"],farm:["farm","farms","farmer","farmers"],baker:["baker","bakers"],ramp:["ramp","ramps"],pulley:["pulley","pulleys"],lever:["lever","levers"],rib_cage:["rib cage","rib cages","backbone"],plastic:["plastic"],scale:["scale","scales","weighing scales"],cake:["cake","cakes"],tap:["tap","taps","faucet","faucets"],bin:["bin","recycling bin","recycle bin"],water_vapour:["water vapour","water vapor"],food_chain:["food chain","food chains"],life_cycle:["life cycle","life cycles"],skeleton:["skeleton","skeletons","vertebrate","vertebrates","invertebrate","invertebrates"],gravity:["gravity"],photosynthesis:["photosynthesis"],day_night:["day and night"],balanced_diet:["balanced diet"],recycling:["recycling"],predator:["predator","predators"],prey:["prey"],insect:["insect","insects"],habitat:["habitat","habitats"],evaporation:["evaporation"],water_cycle:["water cycle"],mirror:["mirror","mirrors"],coat:["coat","coats"],cold:["cold","chilly"],
+ apple:["apple","apples"],banana:["banana","bananas"],orange:["orange","oranges"],grape:["grape","grapes"],lemon:["lemon","lemons"],potato:["potato","potatoes"],cotton:["cotton","cotton fibre","cotton fibres","cotton fiber","cotton fibers"],bean:["bean","beans"],herbivore:["herbivore","herbivores"],circulation:["circulation","blood circulation"],hygiene:["hygiene"],solid:["solid","solids"],simple_machine:["simple machine","simple machines"],mammal:["mammal","mammals"],desert:["desert","deserts"],material:["material","materials"],magnet:["magnet","magnets"],animal_needs:["animal needs"],body_parts:["body parts"],safety:["safety"],floating:["floating"],melting:["melting"],bean_growth:["bean growth"],potato_plant:["potato plant"],pentagon:["pentagon","pentagons"],hexagon:["hexagon","hexagons"],mango:["mango","mangoes"],donkey:["donkey","donkeys"],frog:["frog","frogs","froglet","froglets"],spider:["spider","spiders"],octopus:["octopus","octopuses"],tadpole:["tadpole","tadpoles"],caterpillar:["caterpillar","caterpillars"],pupa:["pupa","pupae","chrysalis","chrysalises"],polar_bear:["polar bear","polar bears"],tooth:["tooth","teeth"],doctor:["doctor","doctors"],farm:["farm","farms","farmer","farmers"],baker:["baker","bakers"],ramp:["ramp","ramps"],pulley:["pulley","pulleys"],lever:["lever","levers"],rib_cage:["rib cage","rib cages","backbone"],plastic:["plastic"],scale:["scale","scales","weighing scales"],cake:["cake","cakes"],tap:["tap","taps","faucet","faucets"],bin:["bin","recycling bin","recycle bin"],water_vapour:["water vapour","water vapor"],food_chain:["food chain","food chains"],life_cycle:["life cycle","life cycles"],skeleton:["skeleton","skeletons","vertebrate","vertebrates","invertebrate","invertebrates"],gravity:["gravity"],photosynthesis:["photosynthesis"],day_night:["day and night"],balanced_diet:["balanced diet"],recycling:["recycling"],predator:["predator","predators"],prey:["prey"],insect:["insect","insects"],habitat:["habitat","habitats"],evaporation:["evaporation"],water_cycle:["water cycle"],mirror:["mirror","mirrors"],coat:["coat","coats"],cold:["cold","chilly"],
  star:["star","stars"],cat:["cat","cats","kitten","kittens"],dog:["dog","dogs","puppy","puppies"],fox:["fox","foxes"],bird:["bird","birds","chicken","chickens","hen","hens","duck","ducks","owl","owls"],
  fish:["fish","fishes"],bee:["bee","bees"],butterfly:["butterfly","butterflies"],pig:["pig","pigs"],cow:["cow","cows"],goat:["goat","goats"],camel:["camel","camels"],rabbit:["rabbit","rabbits"],elephant:["elephant","elephants"],
  sun:["sun","sunlight","sunny","daylight","light"],moon:["moon"],cloud:["cloud","clouds"],rain:["rain","rainy"],wind:["wind","windy","air"],rainbow:["rainbow","rainbows"],
@@ -100,6 +100,33 @@ function body(kind){
  case "mirror":return body("glass");
  case "coat":return body("raincoat");
  case "cold":return body("ice");
+ case "potato":return '<ellipse cx="50" cy="54" rx="38" ry="25" transform="rotate(-18 50 54)" fill="#b78a56" stroke="#805d37" stroke-width="3"/><circle cx="32" cy="45" r="2.5" fill="#805d37"/><circle cx="61" cy="62" r="2.5" fill="#805d37"/><circle cx="70" cy="43" r="2" fill="#805d37"/>';
+ case "cotton":return '<path d="M50 85V42m0 22-22-15m22 4 22-18" stroke="#4f8e4d" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="28" cy="47" r="13" fill="#fff" stroke="#b9c6cf" stroke-width="2"/><circle cx="50" cy="42" r="14" fill="#fff" stroke="#b9c6cf" stroke-width="2"/><circle cx="73" cy="34" r="13" fill="#fff" stroke="#b9c6cf" stroke-width="2"/>';
+ case "bean":return '<path d="M15 55q12-40 57-25 25 8 10 33-18 29-55 13-18-8-12-21Z" fill="#77b95c" stroke="#397b3d" stroke-width="3"/><ellipse cx="37" cy="54" rx="8" ry="12" fill="#c6d98a"/><ellipse cx="58" cy="54" rx="8" ry="12" fill="#c6d98a"/>';
+ case "magnet":return '<path d="M22 20v38q0 30 28 30t28-30V20H59v38q0 10-9 10t-9-10V20Z" fill="#e75b58" stroke="#963c3a" stroke-width="4"/><path d="M22 20h19v18H22Zm37 0h19v18H59Z" fill="#e6edf2" stroke="#607b91" stroke-width="3"/>';
+ case "soap":return '<rect x="18" y="34" width="64" height="43" rx="14" fill="#b8dff1" stroke="#6d9db6" stroke-width="3"/><path d="M29 47q20-12 40 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>';
+ case "toothbrush":return '<path d="M20 72 76 31" stroke="#4d91bd" stroke-width="10" stroke-linecap="round"/><path d="m68 24 16-12 11 15-16 12Z" fill="#e8f4fb" stroke="#4d91bd" stroke-width="3"/><path d="m72 23 8-7m-2 13 8-7m-1 13 8-7" stroke="#4d91bd" stroke-width="2"/>';
+ case "helmet":return '<path d="M15 65q0-39 35-46 35 7 35 46H15Z" fill="#f2c34e" stroke="#a77c26" stroke-width="3"/><path d="M10 65h80v10H10Z" fill="#e2a936" stroke="#a77c26" stroke-width="3"/>';
+ case "boat":return '<path d="M12 62h76L72 83H30Z" fill="#b87943" stroke="#80512f" stroke-width="3"/><path d="M49 18v44M49 20 22 55h27Z" fill="#f7f4e8" stroke="#8098a8" stroke-width="3"/><path d="M49 22 78 55H49Z" fill="#e7b653" stroke="#9a742f" stroke-width="3"/><path d="M8 91q14-9 28 0t28 0 28 0" stroke="#4c9fc7" stroke-width="4" fill="none"/>';
+ case "shirt":return '<path d="m30 18 20 9 20-9 21 17-13 17-10-8v42H32V44l-10 8L9 35Z" fill="#6ca8d5" stroke="#3c6e97" stroke-width="3"/>';
+ case "stone":return body("rock");
+ case "solid":return body("block");
+ case "herbivore":return body("rabbit");
+ case "mammal":return body("goat");
+ case "desert":return body("camel");
+ case "material":return body("wood");
+ case "animal_needs":return body("water");
+ case "body_parts":return body("skull");
+ case "safety":return body("helmet");
+ case "floating":return body("boat");
+ case "melting":return body("ice");
+ case "circulation":return body("heart");
+ case "hygiene":return body("soap");
+ case "simple_machine":return body("ramp");
+ case "bean_growth":return body("bean");
+ case "potato_plant":return body("potato");
+ case "pentagon":return '<polygon points="50,10 90,40 75,88 25,88 10,40" fill="#f2c34e" stroke="#9a742f" stroke-width="4"/>';
+ case "hexagon":return '<polygon points="30,12 70,12 92,50 70,88 30,88 8,50" fill="#8bc6df" stroke="#477e98" stroke-width="4"/>';
  case "star":return '<path d="m50 7 11 27 29 2-22 18 7 29-25-16-25 16 7-29L10 36l29-2Z" fill="#ffd34e" stroke="#d39a20" stroke-width="3" stroke-linejoin="round"/><path d="m39 36 3-7m15 13 7 1" stroke="#fff2b5" stroke-width="3" stroke-linecap="round"/>';
  case "cat":return '<path d="M23 39 19 12l22 15q9-4 18 0l22-15-4 29" fill="#f3b76c" stroke="#895a32" stroke-width="4" stroke-linejoin="round"/><ellipse cx="50" cy="54" rx="31" ry="28" fill="#f6c987" stroke="#895a32" stroke-width="3"/><ellipse cx="39" cy="49" rx="4" ry="6" fill="#263b4d"/><ellipse cx="61" cy="49" rx="4" ry="6" fill="#263b4d"/><path d="m45 61 5 4 5-4m-10 5q-8 8-16 1m26-1q8 8 16 1" fill="none" stroke="#895a32" stroke-width="2.5" stroke-linecap="round"/><path d="M20 61 5 57m16 10L5 71m74-10 16-4M79 67l16 4" stroke="#895a32" stroke-width="2"/>';
  case "dog":return '<path d="M26 34Q4 10 12 55q4 19 23 8M74 34Q96 10 88 55q-4 19-23 8" fill="#a96a3c" stroke="#744324" stroke-width="3"/><ellipse cx="50" cy="53" rx="31" ry="30" fill="#d89a62" stroke="#744324" stroke-width="3"/><ellipse cx="39" cy="47" rx="4" ry="5" fill="#263b4d"/><ellipse cx="61" cy="47" rx="4" ry="5" fill="#263b4d"/><ellipse cx="50" cy="62" rx="13" ry="10" fill="#f8e2c8"/><ellipse cx="50" cy="58" rx="5" ry="4" fill="#263b4d"/><path d="M50 62v7q-8 8-14 0m14 0q8 8 14 0" fill="none" stroke="#744324" stroke-width="2.5" stroke-linecap="round"/>';
@@ -771,5 +798,5 @@ function renderOption(q,value){
  }
  return '<div class="visual-choice-art" data-option-visual-kind="word-card">'+wordCardVisual(label)+'</div>';
 }
-root.ScholarsVisuals={version:"1.7.0",render:render,renderOption:renderOption,optionVisualKind:optionVisualKind,kindOf:kindOf,svg:svg,findKinds:findKinds,countedEntities:countedEntities,visualKinds:Object.keys(TERMS),hasSpecificVisual:hasSpecificVisual};
+root.ScholarsVisuals={version:"1.8.0",render:render,renderOption:renderOption,optionVisualKind:optionVisualKind,kindOf:kindOf,svg:svg,findKinds:findKinds,countedEntities:countedEntities,visualKinds:Object.keys(TERMS),hasSpecificVisual:hasSpecificVisual};
 })(window);
