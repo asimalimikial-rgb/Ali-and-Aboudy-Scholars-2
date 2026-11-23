@@ -104,7 +104,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Initial original-content pilot packs
 
-- Bundled assets (content version 0.2.0, schema v3): `aas2-kg2-foundation` (4 skills, 12 stored activity records: 8 English plus 4 legacy Arabic variants) and `aas2-grade2-foundation` (6 skills, 18 records: 12 English plus 6 legacy Arabic variants), each with source-reference and rights metadata. The child runtime exposes English activities only; Arabic child-activity support is deferred.
+- Bundled assets: `aas2-kg2-foundation` (content v0.2.2, schema v3; 4 skills, 12 records, 8 English) and `aas2-grade2-foundation` (content v0.3.2, schema v4; 13 skills, 50 records, 44 English). The Grade 2 pack now includes a navigable AAS2 Science book structure with Unit 1, four lessons and 32 original activities aligned to Macmillan Science topics 1–4. Arabic legacy records remain stored but are not exposed by the child runtime.
 - These are small foundation pilots, not complete KG2 or Grade 2 curricula. Their activity wording and options are original; copyrighted textbook passages, exercises, illustrations, and scripts are not included.
 - `AssetContentPackRepository` loads and validates these assets through the MainActivity learning flow and read-only Parent Dashboard. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress remain open.
 
@@ -118,9 +118,9 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 - Two source-backed schema-v3 pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress visualization remain open.
 - App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
-- Six original option illustrations are now bundled for Ali KG2; Grade 2 illustrations and on-device visual/accessibility QA remain open.
+- Fifty-two distinct offline prompt illustrations are now bundled: one per English activity across both learners. Eleven original option illustrations remain available as supplementary answer visuals. On-device visual/accessibility QA is still open.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
-- The source/license register and per-pack source references are in place. The current packs are initial samples only; full curriculum mapping, a catalog/manifest, and per-asset review for future images/audio remain open.
+- The source/license register and per-pack source references are in place. The 32 Grade 2 science questions are original AAS2 wording based on topic-level curriculum mapping; the Macmillan source remains `REFERENCE_ONLY`, and no protected textbook text or artwork is bundled. Remaining book units and other subjects still require authoring.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
 
 ## Provisional technical identifiers
@@ -171,3 +171,15 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - The run passed JVM unit tests and checked-in Room schema v1/v2 verification. It did not build an APK or run Android instrumentation.
 - The five Grade 2 habitat illustrations are included in the same passing source-validation run.
 - The Parent Settings screen and parent-only language override are included in the passing source-validation run.
+
+
+## Curriculum authoring and offline media update — 23 November 2026
+
+- Grade 2 Science Unit 1 is now integrated as a schema-v4 book → unit → lesson hierarchy: four lessons covering plants as living things, plant parts/foods, useful plants, and germination/growth.
+- The unit contains 32 original English single-choice activities (8 per lesson), with three unique options, one correct key, option-level rationales, misconception codes, difficulty, and assessment phases. Answer-key distribution is balanced: A=10, B=10, C=12. The set has no duplicate prompts or Arabic child text.
+- The Grade 2 pack now contains 44 English activities; KG2 contains 8. Arabic legacy records remain stored but are excluded from the learner runtime.
+- The legacy Visual Learning Engine v1.6.0 was extracted into `tools/visuals/` for build-time use only. GitHub Actions generated 52 distinct PNG prompt illustrations (SHA-256 uniqueness verified) and a manifest. The JavaScript engine itself is not packaged in the Android app.
+- The Activity Renderer now displays local prompt illustrations and provides local audio buttons for question prompts, options, and post-answer feedback. One per-activity audio controller cancels previous playback before starting another clip.
+- Post-answer English feedback was normalized to short encouragement only; it no longer repeats hints or explanations after submission.
+- The English-only Supertonic 3 / sherpa-onnx generation workflow is configured to generate pre-recorded assets at speed 0.70 in GitHub Actions. The audio generation run is still in progress/pending; no generated audio count or runtime success is claimed until the manifest and files are verified.
+- No APK, release, artifact publication, main merge, signing, manifest permission, or Room schema change was performed.
