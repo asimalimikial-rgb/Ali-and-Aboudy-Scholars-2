@@ -53,7 +53,7 @@ The family's nominated reference is Hop Skip and Jump Senior KG. The available M
 | `ALI-ENG-LIT-01` | Identifies a familiar character or key event in a short picture-supported story | LIST-01, VOC-01 | `PARTIAL_SCOPE` | Confuses a picture detail with the story event | Listen/read then select; event ordering |
 | `ALI-ENG-WRITE-01` | Recognises a target letter shape and follows its visual formation path | Visual discrimination | `PARTIAL_SCOPE`; catalogue lists handwriting component | Reverses orientation or traces without attending to start/direction | Trace/point task plus offline pencil practice |
 
-**Language-path note:** Cambridge Early Years EY3 separates First Language and Second Language pathways. The correct comparison route is not inferred from age alone. The AAS2 learner activity remains question-first; any Arabic helper is a separate product-language feature, not a replacement for English learning content.
+**Language-path note:** Cambridge Early Years EY3 separates First Language and Second Language pathways. The correct comparison route is not inferred from age alone. The current product decision is question-first, with no explanatory paragraph before the question and no Arabic language inside child activities by default. Parent-facing UI localization is separate from the learning language. Any child-facing Arabic support requires a specific evidenced need and new approval; device locale must not silently translate English learning content.
 
 ### 2.2 Mathematics and early numeracy
 
