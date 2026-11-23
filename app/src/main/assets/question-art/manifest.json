@@ -26,8 +26,8 @@
     {
       "activityId": "g2-measure-01-en",
       "path": "question-art/g2-measure-01-en.png",
-      "bytes": 16268,
-      "sha256": "2c67e1e415d00363d5fab36a7a58e8ec3652abfd8fe1e82f0ad216d13f42a9b0",
+      "bytes": 15516,
+      "sha256": "19d6e7a0fd326f23b2d55aa2241a285dca112aaace1844d0636987053a6adab6",
       "engineVersion": "1.6.0",
       "skillId": "measure-length-centimeters",
       "visualProfile": "math"
@@ -80,8 +80,8 @@
     {
       "activityId": "g2-measure-02-en",
       "path": "question-art/g2-measure-02-en.png",
-      "bytes": 15102,
-      "sha256": "45196236a7129b1e6f2fc2b37d04b4e69c41f7fdfcab087d6a7117072fa7d781",
+      "bytes": 15752,
+      "sha256": "c3393d37c56b84c9c6326535df3d00e30acdd2c80f81d8514de945eb7962e741",
       "engineVersion": "1.6.0",
       "skillId": "measure-length-centimeters",
       "visualProfile": "math"
@@ -809,8 +809,8 @@
     {
       "activityId": "new-aboudy-maths-011",
       "path": "question-art/new-aboudy-maths-011.png",
-      "bytes": 14689,
-      "sha256": "d05e454f3b27eb6df7944929d1aa1fcb13cda7c97eb0a3536f07ce448bb9a17d",
+      "bytes": 14785,
+      "sha256": "cd1687d76f0deeab5379a7174d701e5b1fb97476a1c2694c37e5cd56511dfa1c",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -818,8 +818,8 @@
     {
       "activityId": "new-aboudy-maths-012",
       "path": "question-art/new-aboudy-maths-012.png",
-      "bytes": 14708,
-      "sha256": "a8abba6e691fded497be268fe522b3e47e5e36ceb2f5b7d97263b14dfd1ba49c",
+      "bytes": 14802,
+      "sha256": "84998b4471d0d707974394bb98c8abc0565c107a80b3ef284458bee4f7f1782a",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -827,8 +827,8 @@
     {
       "activityId": "new-aboudy-maths-013",
       "path": "question-art/new-aboudy-maths-013.png",
-      "bytes": 14677,
-      "sha256": "238a134d53e985859647ea5f122b761538fc9b989ce35ee01e790d7468b6624f",
+      "bytes": 14772,
+      "sha256": "4548c70ab8247c656b857dd8d077c528c4e4bd912d7552ba229e6a08d71ea608",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -836,8 +836,8 @@
     {
       "activityId": "new-aboudy-maths-014",
       "path": "question-art/new-aboudy-maths-014.png",
-      "bytes": 14680,
-      "sha256": "fb0f1b64a8d95a503365e3004feccd11af40cc83f9d8ee2accaa9c5b5655f879",
+      "bytes": 14774,
+      "sha256": "701d3b52d8f368004d7ccb52f0753ea529a7b5dd5180cd091d356f846fafe40e",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -845,8 +845,8 @@
     {
       "activityId": "new-aboudy-maths-015",
       "path": "question-art/new-aboudy-maths-015.png",
-      "bytes": 14683,
-      "sha256": "af1b72838c3dce80d6f0c504f928bce1ff62150441d1a4b94e4b2f7b6c8bf27d",
+      "bytes": 14780,
+      "sha256": "a8eb164723de693073f5a6baf3e194cb873f47fb450a91dad2168f6c327f8cd1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -854,8 +854,8 @@
     {
       "activityId": "new-aboudy-maths-016",
       "path": "question-art/new-aboudy-maths-016.png",
-      "bytes": 14445,
-      "sha256": "177117166462be252cdf3b281fa93a0704d2bd07c477c423f9036735dcf1ff08",
+      "bytes": 14541,
+      "sha256": "a275445eb1db865d7cbfdc9c0c1b4c99c487d284e6b875fc99b146cfcda2bb66",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -863,8 +863,8 @@
     {
       "activityId": "new-aboudy-maths-017",
       "path": "question-art/new-aboudy-maths-017.png",
-      "bytes": 14618,
-      "sha256": "94d80b6bfb34fa002660419cdfe81ef86daa22f326f46033f0588da456317565",
+      "bytes": 14715,
+      "sha256": "bccd1018d26132b1e25816355e6f36e488a5e3225d388d799389c5e37b217fd6",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -872,8 +872,8 @@
     {
       "activityId": "new-aboudy-maths-018",
       "path": "question-art/new-aboudy-maths-018.png",
-      "bytes": 14473,
-      "sha256": "a357504f07f26bfbd94a8e32756a3ac79fd181178cd743f8bbd49c11653bf454",
+      "bytes": 14569,
+      "sha256": "4ed0ebaa86ac83b37e3ae31dc417857c490f0b1b33be8444409faeebdbeccbb7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -881,8 +881,8 @@
     {
       "activityId": "new-aboudy-maths-019",
       "path": "question-art/new-aboudy-maths-019.png",
-      "bytes": 14728,
-      "sha256": "9893bc7eb2999b8ac8dc0cac3a7b406f052c563db97ded29aa33d0959997f77e",
+      "bytes": 14823,
+      "sha256": "c25633d631268f3be3aca3057908f4638b884f393044fcd0491830de254ed436",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -890,8 +890,8 @@
     {
       "activityId": "new-aboudy-maths-020",
       "path": "question-art/new-aboudy-maths-020.png",
-      "bytes": 14619,
-      "sha256": "315f21bcf2fa40d6a21af2c63dc8725da0825ee5b752a60188465ace7542a63a",
+      "bytes": 14715,
+      "sha256": "937af6776d61e92c8697478cd0d226e3b4e0c2b5070a2f6232b7ccd29390b5e6",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-addition-and-subtraction",
       "visualProfile": "math"
@@ -971,8 +971,8 @@
     {
       "activityId": "new-aboudy-maths-029",
       "path": "question-art/new-aboudy-maths-029.png",
-      "bytes": 19993,
-      "sha256": "0772e5ab3f176502bb7b07b9e85675d3c95f6493356cc1ece6c9962be7a211b5",
+      "bytes": 13548,
+      "sha256": "22b99405a89dae47b4f56e4fd61a77be7da2b40a86bfaedc4a9d75fd3a496042",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -989,8 +989,8 @@
     {
       "activityId": "new-aboudy-maths-031",
       "path": "question-art/new-aboudy-maths-031.png",
-      "bytes": 13913,
-      "sha256": "fbd568996967d4f4dd4eb03df6b4e2508c9800f699d7de0db8f04a6a7b213cc6",
+      "bytes": 14850,
+      "sha256": "d94827efc1d9088dcf774fb1dbcb24c46e565768c7695822b468c8e98770f44d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -998,8 +998,8 @@
     {
       "activityId": "new-aboudy-maths-032",
       "path": "question-art/new-aboudy-maths-032.png",
-      "bytes": 13157,
-      "sha256": "2b60601c06509bf4b7b2e4b3efa08c56b0c5eeffa65c7d81cb68422873c33f18",
+      "bytes": 14297,
+      "sha256": "f597657fdff1ff6cf490844d8ce9cf50b5b9f7ae6f5be92dba1ea3035c992cf5",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -1016,8 +1016,8 @@
     {
       "activityId": "new-aboudy-maths-034",
       "path": "question-art/new-aboudy-maths-034.png",
-      "bytes": 15504,
-      "sha256": "c46d01f26ac3d9da77810de1200cf2c8fc6f0d1840cb3735a2c1d15728685572",
+      "bytes": 15023,
+      "sha256": "28623840c008f5a74782a8a9e93700dec0c650a781bc8191f0a46402c7d25cb1",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-measure-and-apply",
       "visualProfile": "math"
@@ -1025,8 +1025,8 @@
     {
       "activityId": "new-aboudy-maths-035",
       "path": "question-art/new-aboudy-maths-035.png",
-      "bytes": 13070,
-      "sha256": "8af398616d49e595cf05bc9f75b84b3061610b51c31de5327871883eff6edd67",
+      "bytes": 14484,
+      "sha256": "274519745bcfa4fb630db18a6ce6c8911bc59fb804fa89d1406d99e818579921",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1034,8 +1034,8 @@
     {
       "activityId": "new-aboudy-maths-036",
       "path": "question-art/new-aboudy-maths-036.png",
-      "bytes": 13013,
-      "sha256": "5bf21f95ab3274d8ab16431965d27ef681e054207fb960ee14a1921636ff4a2a",
+      "bytes": 14424,
+      "sha256": "8747b087837caf3f7b4bd28f0eb9591c939bdfc1492717bf7ac90bb22b3d16af",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1043,8 +1043,8 @@
     {
       "activityId": "new-aboudy-maths-037",
       "path": "question-art/new-aboudy-maths-037.png",
-      "bytes": 14568,
-      "sha256": "5e438c64e518f579206e242c2a5d767efaefbe1b9cf060f5830aa84f2e7d4b7a",
+      "bytes": 15984,
+      "sha256": "273b7f1684b90c1813f542c2b74228f4a51c513b73e7e48a9281987c7a323a08",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1052,8 +1052,8 @@
     {
       "activityId": "new-aboudy-maths-038",
       "path": "question-art/new-aboudy-maths-038.png",
-      "bytes": 15692,
-      "sha256": "b9c5c47c3e7a5176250ca0272bdf9dc04912775463c0eb7e2e292bade7016901",
+      "bytes": 15081,
+      "sha256": "718a27168bdc65da5b8dfd8589a22d8ffccb355f58345d543d0286c3221bad69",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1061,8 +1061,8 @@
     {
       "activityId": "new-aboudy-maths-039",
       "path": "question-art/new-aboudy-maths-039.png",
-      "bytes": 19777,
-      "sha256": "483f169be74b9e88b39728232d62a07f2eca70268777f8580dd49a54e9499eb2",
+      "bytes": 14582,
+      "sha256": "dc06050cdad0e6e6ec2c686676e736fd927399374e3ae9b4a40119ad6e7eaad7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
@@ -1070,8 +1070,8 @@
     {
       "activityId": "new-aboudy-maths-040",
       "path": "question-art/new-aboudy-maths-040.png",
-      "bytes": 13700,
-      "sha256": "dee5b32be5816b9aa2eedf558f4aea1b51463305dbaa6217f0348b9f6f21178d",
+      "bytes": 16045,
+      "sha256": "6262e4f71291b57e607c7d4d290723926f8887d19970126a9c2cf0fb77941ef7",
       "engineVersion": "1.6.0",
       "skillId": "aas2-aboudy-fractions-and-measure",
       "visualProfile": "math"
