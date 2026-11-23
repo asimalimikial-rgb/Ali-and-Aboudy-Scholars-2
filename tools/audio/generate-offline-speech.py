@@ -221,6 +221,11 @@ def main():
         if changed:
             pack_path.write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    active_audio_files = {entry["file"] for entry in files}
+    for stale_file in output_dir.glob("*.ogg"):
+        if stale_file.name not in active_audio_files:
+            stale_file.unlink()
+
     manifest = {
         "schemaVersion": 1,
         "model": {
