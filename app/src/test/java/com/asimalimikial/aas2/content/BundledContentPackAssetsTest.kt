@@ -28,7 +28,7 @@ class BundledContentPackAssetsTest {
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
         assertEquals("KG2", pack.learnerPath)
-        assertEquals("0.2.0", pack.version)
+        assertEquals("0.2.1", pack.version)
         assertEquals(4, pack.skills.size)
         assertEquals(12, pack.activities.size)
         assertEquals(8, pack.activities.count { it.language == "en" })
@@ -42,7 +42,7 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.3.0", pack.version)
+        assertEquals("0.3.1", pack.version)
         assertEquals(4, pack.schemaVersion)
         assertEquals(13, pack.skills.size)
         assertEquals(50, pack.activities.size)
@@ -102,6 +102,25 @@ class BundledContentPackAssetsTest {
             assertTrue(
                 "Invalid PNG signature: $imagePath",
                 bytes.take(8).toByteArray().contentEquals(pngSignature)
+            )
+        }
+    }
+
+    @Test
+    fun EnglishPostAnswerFeedbackIsEncouragementOnly() = runBlocking<Unit> {
+        val packs = listOf(
+            repository.load("aas2-kg2-foundation"),
+            repository.load("aas2-grade2-foundation")
+        )
+        val englishActivities = packs.flatMap { it.activities }.filter { it.language == "en" }
+        assertTrue(englishActivities.isNotEmpty())
+        englishActivities.forEach { activity ->
+            assertTrue("Correct feedback should be brief: ${activity.activityId}", activity.feedbackCorrect.length <= 32)
+            assertTrue("Incorrect feedback should be brief encouragement: ${activity.activityId}", activity.feedbackIncorrect.length <= 48)
+            assertTrue("Incorrect feedback must not explain the answer: ${activity.activityId}",
+                listOf("because", "roots", "leaves", "tens place", "compare", "add the").none {
+                    activity.feedbackIncorrect.contains(it, ignoreCase = true)
+                }
             )
         }
     }
