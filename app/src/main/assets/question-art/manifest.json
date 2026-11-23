@@ -8,15 +8,15 @@
     {
       "activityId": "g2-place-01-en",
       "path": "question-art/g2-place-01-en.png",
-      "bytes": 11837,
-      "sha256": "6c0e0dcc43120dc78565a1624ae23eac2a6887bfae0365b1b1be1622ad1752d0",
+      "bytes": 14212,
+      "sha256": "5e510473d49c42b7a6f50fc803ebf4f7e8bac16480e9f55501de3158781be476",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "g2-add-01-en",
       "path": "question-art/g2-add-01-en.png",
-      "bytes": 18237,
-      "sha256": "5898bf38571150395afe7ac055ccb882f741713f6086c58f1cdd02a17f18e2fb",
+      "bytes": 16745,
+      "sha256": "e4de10500738ee2e010d64e56add16129597c3c4a5dd4fa43a4c629220fbfe07",
       "engineVersion": "1.6.0"
     },
     {
@@ -50,15 +50,15 @@
     {
       "activityId": "g2-place-02-en",
       "path": "question-art/g2-place-02-en.png",
-      "bytes": 11911,
-      "sha256": "79d6ba0b3672467b8ab81e7f266687416088fd27e8a84c0225d7d7a40ee52f91",
+      "bytes": 14174,
+      "sha256": "a91d4df1532ac56e9f9d4cec29715ba0358ea43ddb52364dc33ac85a756d5c50",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "g2-add-02-en",
       "path": "question-art/g2-add-02-en.png",
-      "bytes": 16485,
-      "sha256": "bc5b7d58db8b854dc53accf10d3281da7775480e75000e9b7674836b18061a01",
+      "bytes": 16348,
+      "sha256": "3ff2b5b540c2d5901b83abcb1f8205aabd197b2ce23e836b038b69ffe72d400f",
       "engineVersion": "1.6.0"
     },
     {
@@ -561,197 +561,197 @@
     {
       "activityId": "new-aboudy-maths-001",
       "path": "question-art/new-aboudy-maths-001.png",
-      "bytes": 12030,
-      "sha256": "b931d5f7486871cea410a3b1bf179831c75d8659f82d9ae4ae5623add117f376",
+      "bytes": 13969,
+      "sha256": "6e09cede0b92e04b15068754f17882a5dfe114f41278fa307c04a2d1fbbb3286",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-002",
       "path": "question-art/new-aboudy-maths-002.png",
-      "bytes": 11734,
-      "sha256": "5a8b95e436607233f630a82e1eabd36e28fc08ed2ca9f424f0916eb38b25742a",
+      "bytes": 13865,
+      "sha256": "34c390ef49ec6c369895d649df2aca2c087ea1d18cdb3e7307937afdbf5fe058",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-003",
       "path": "question-art/new-aboudy-maths-003.png",
-      "bytes": 11755,
-      "sha256": "ebc42f7cc3a4bff929967ea3c46465bc7342c93156b018139f63c23a1ec32ba5",
+      "bytes": 14131,
+      "sha256": "1430fda8f3a573f47258873480bf9f05d05c2ad849eedb748be5e535f624c66c",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-004",
       "path": "question-art/new-aboudy-maths-004.png",
-      "bytes": 11863,
-      "sha256": "b7faee7c36adcc74c38d1ea8088c9ec650487766563675583cf07e064614db06",
+      "bytes": 13908,
+      "sha256": "d5fdd546df587032eb014f4d06fdfd57d70a8aedbcfd58e651cc3fb2cefba343",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-005",
       "path": "question-art/new-aboudy-maths-005.png",
-      "bytes": 11932,
-      "sha256": "9e463f0ce4cdeb4a17447b0a1c2d71542377349c22536b5a93c6ffdb4aa2962e",
+      "bytes": 14433,
+      "sha256": "c3a8259e733f791c31fcbf5e97ca78c02f4aa9a419df9c916c7f246986297f5a",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-006",
       "path": "question-art/new-aboudy-maths-006.png",
-      "bytes": 11924,
-      "sha256": "0b7eeb4962d66717a27cc2f23c8b8e64c5123aae713f6093a5a7365c6623be57",
+      "bytes": 14544,
+      "sha256": "af6d748b5f54bab7e64b4f22d7562f90e4ad95da5f5c6f588b47d8df7be22801",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-007",
       "path": "question-art/new-aboudy-maths-007.png",
-      "bytes": 11777,
-      "sha256": "6e4dd6480c34469b4985a96a346938b19dbe9662cc5990dbdb18b90508b10bfb",
+      "bytes": 14288,
+      "sha256": "b03333daff9b72caf94b6e6aa2be8b65d588de6f087e6e1afbdc9e5efb53d1f9",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-008",
       "path": "question-art/new-aboudy-maths-008.png",
-      "bytes": 11895,
-      "sha256": "7ca558380f8e6c6007037ed09e6d678ffbfa26f70b345aae179a4248b54cec3f",
+      "bytes": 14159,
+      "sha256": "4bed2d7fa43edac478aa1c1a04d03700ddbb0a7c97250a1625a1b0bc756da4c6",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-009",
       "path": "question-art/new-aboudy-maths-009.png",
-      "bytes": 11713,
-      "sha256": "858797c17d15a23bb93982125d200b9f62a04f6e04adffa039fb2a6078d6fcad",
+      "bytes": 13231,
+      "sha256": "62962d740419323f553a639de6f9e4e539d6fe6858a07c5ef33884e58e686c72",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-010",
       "path": "question-art/new-aboudy-maths-010.png",
-      "bytes": 11933,
-      "sha256": "62e8bc0a567a9964facc1fc6bce707b4d5096d1a9e06788304f2915fc68b5be9",
+      "bytes": 14352,
+      "sha256": "191394a39f6506cfee6d1a87f90a05ab95f3305865b4046bbdf5cd62cc533a07",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-011",
       "path": "question-art/new-aboudy-maths-011.png",
-      "bytes": 11969,
-      "sha256": "b9d72f7c182abb501aeb765079fceab5516df422e453f7b6a82fdcfab730720f",
+      "bytes": 14707,
+      "sha256": "5e61b079759bd70e47f38bbcf6b64e0adfdc8dba8f36f9feb0916eaeeb769858",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-012",
       "path": "question-art/new-aboudy-maths-012.png",
-      "bytes": 11987,
-      "sha256": "babef31e61f1c19e6f1c8099fd2d0dd635605a302b413cbbeee9d473e808e195",
+      "bytes": 14722,
+      "sha256": "5a79ab2a057c972f64c201285af9cc2cd43d2d3c3a6e0e4e479d95f90ce6e2c9",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-013",
       "path": "question-art/new-aboudy-maths-013.png",
-      "bytes": 11915,
-      "sha256": "142d1e2fe24b3adf7dc6d27fc3c2029ff72cf420f25530d3736dac233d912b77",
+      "bytes": 14642,
+      "sha256": "805810b6ede9fa99283e185c88d1c59b7b070034ad597d192eb739c5263fdf39",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-014",
       "path": "question-art/new-aboudy-maths-014.png",
-      "bytes": 11949,
-      "sha256": "65f7bd4dcbb00915bab9d2c25b6f39cd0cb23ed22879199946a3be0bcfed9ac3",
+      "bytes": 14687,
+      "sha256": "01a31d2dd90d6cdfc5d7b9104136a99c53ccf86406c37013799a19dc39f35544",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-015",
       "path": "question-art/new-aboudy-maths-015.png",
-      "bytes": 12094,
-      "sha256": "747352b9ed401094bdbb8e8829382fe30994d72bf26b1d9ac4e437b1c4dc4b6e",
+      "bytes": 14704,
+      "sha256": "9de47d970d8f7255a7de9d599f7d979b0f3685c305eacd4aa21dd9e8f73a46db",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-016",
       "path": "question-art/new-aboudy-maths-016.png",
-      "bytes": 11723,
-      "sha256": "0732ca25dab95d191b17095a970f8c17d8b3f45692545dcf684359b31747765c",
+      "bytes": 14465,
+      "sha256": "f00f29e01c9514a78b27de572274c4a4c113953644223a73509608ec7a564214",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-017",
       "path": "question-art/new-aboudy-maths-017.png",
-      "bytes": 11870,
-      "sha256": "6d63bf6e5642dc86e2cc611f02bf7a88f09fea54069744e8a674ef99c33b48a3",
+      "bytes": 14593,
+      "sha256": "2b57b49df01305e4b93d2dffee8d63b05330cb014640b297c2a8559db726569d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-018",
       "path": "question-art/new-aboudy-maths-018.png",
-      "bytes": 11733,
-      "sha256": "b31b2068f18877abe64383ad12eeae37fc31b13df5f96f888a8c11f31e0d0fdd",
+      "bytes": 14460,
+      "sha256": "19d96a3cb6131a1f75c46ef38000519b45c531e135eff4536da41d0f63e75fdd",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-019",
       "path": "question-art/new-aboudy-maths-019.png",
-      "bytes": 12156,
-      "sha256": "a31a9f05f34779a526f715e3ab474e5adc97e2a26995ac4bbc7a71795667d41a",
+      "bytes": 14764,
+      "sha256": "61b247d701c0f53c6e018561aba09d420449d42bc5664eb777d755431aaa347a",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-020",
       "path": "question-art/new-aboudy-maths-020.png",
-      "bytes": 11878,
-      "sha256": "f9ea0b0af669a27be0f402875e0036621f478a2087b47b6d7d2fcbe2c0dd9177",
+      "bytes": 14600,
+      "sha256": "f62b50b7edd330ec301639b3564e8b4883bddad81df38d01a9eed56c8f6e2ac1",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-021",
       "path": "question-art/new-aboudy-maths-021.png",
-      "bytes": 22982,
-      "sha256": "05d8ccc148b05ed5b217f6ede29260408659407a62f09dde39147989ca8a88eb",
+      "bytes": 17966,
+      "sha256": "4e8f6fd1bfceed5b9cd1e3bd9b657b707b3d90235a5cc4771b93a567b9e19950",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-022",
       "path": "question-art/new-aboudy-maths-022.png",
-      "bytes": 23075,
-      "sha256": "acf7c086d4406e05b96a8c35b8e068b59235d6cade1c81cd5cfa4eef143885be",
+      "bytes": 18108,
+      "sha256": "1991a689c33def9a9db088ce700e7dbedd46483235d42548afdee3a9b543cbce",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-023",
       "path": "question-art/new-aboudy-maths-023.png",
-      "bytes": 23090,
-      "sha256": "39477afaa946de505f0a9e7fe28c3908b6557da4218deded545250b45d223be7",
+      "bytes": 18124,
+      "sha256": "08c56eab440fae11e20bd0c46f94770b6ea80c3ded9ed62b55c63df6fee2fce9",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-024",
       "path": "question-art/new-aboudy-maths-024.png",
-      "bytes": 22902,
-      "sha256": "c34da3b6a9d06e48e503f1aa3c7477e3d594822f62cf1b781efd876cbba2852c",
+      "bytes": 19007,
+      "sha256": "9419cab98f0696b8876d2472223857f98f070eeeedba16317b615d84ff1ea319",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-025",
       "path": "question-art/new-aboudy-maths-025.png",
-      "bytes": 22881,
-      "sha256": "ac3979d8a2bf4a50e47915db7d8b08fc1edcde548e966af1ad46523f017992c3",
+      "bytes": 17926,
+      "sha256": "32ef0ceeb918b6972c474c5470c19bde3e37e3ca3c47604b74a61ab7b6fbd28e",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-026",
       "path": "question-art/new-aboudy-maths-026.png",
-      "bytes": 22820,
-      "sha256": "cb9c283820bc839e91fb84058ea5d8ee3a395a9a9f2c6279a175169474200de5",
+      "bytes": 17869,
+      "sha256": "b13ad491846d66a8213ec693a5e1e476c8401434db4f2250e4049ce92b047237",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-027",
       "path": "question-art/new-aboudy-maths-027.png",
-      "bytes": 23019,
-      "sha256": "c534884155d02a663e07064900256baca0be2fd9f02f7d51dd8938243f06339b",
+      "bytes": 18086,
+      "sha256": "3a5bae3f2d807ee6e33ab88170553e993696ce73835a9fbd46eb4ce68e23ae1d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-maths-028",
       "path": "question-art/new-aboudy-maths-028.png",
-      "bytes": 23110,
-      "sha256": "dd1ad3679e033563d92be4929917b218b7e69aa94c0ec9472559435e4043ef36",
+      "bytes": 18980,
+      "sha256": "21cb64d3d4cb70159a22c345eef46b8f5dd7d1785a8e4625d0db7d4697e4fb5d",
       "engineVersion": "1.6.0"
     },
     {
@@ -764,8 +764,8 @@
     {
       "activityId": "new-aboudy-maths-030",
       "path": "question-art/new-aboudy-maths-030.png",
-      "bytes": 20467,
-      "sha256": "049217f38edb22d26554dcf7836011da736f3db1905b9d95b26d0ae6d9e2fdf3",
+      "bytes": 17452,
+      "sha256": "a24b250f2bb0e2f220be67e7d0ffc93d59fa418166458ca72d336039b06971b7",
       "engineVersion": "1.6.0"
     },
     {
@@ -813,8 +813,8 @@
     {
       "activityId": "new-aboudy-maths-037",
       "path": "question-art/new-aboudy-maths-037.png",
-      "bytes": 9447,
-      "sha256": "3cb823f4884855d6247973fd4e58897cc94d103bb5d915367d7165415aa0cc71",
+      "bytes": 13719,
+      "sha256": "c60d9a5533a921fb79ed966d000b84b0b718aa9b6688f4bd6131d50cc0aec7cc",
       "engineVersion": "1.6.0"
     },
     {
@@ -1226,8 +1226,8 @@
     {
       "activityId": "kg2-count-01-en",
       "path": "question-art/kg2-count-01-en.png",
-      "bytes": 18247,
-      "sha256": "ff4215ef4a676d045a871f467761c6accdd380884a163b65ddb81fc9e48273b9",
+      "bytes": 13699,
+      "sha256": "a8303bc0444f0f1a3595a84bc43a9970e475830f3108b5b2b842691d5cbbae50",
       "engineVersion": "1.6.0"
     },
     {
@@ -1254,8 +1254,8 @@
     {
       "activityId": "kg2-count-02-en",
       "path": "question-art/kg2-count-02-en.png",
-      "bytes": 18033,
-      "sha256": "061598ae94ffaf2983f8f43283569e470fdb200b0af4399823a80b64d7723bfb",
+      "bytes": 14350,
+      "sha256": "15d1e8b10450d58e2ab230ca6ba3ad7f4f328da4bccf9b51697772d04620bf2a",
       "engineVersion": "1.6.0"
     },
     {
@@ -1562,141 +1562,141 @@
     {
       "activityId": "new-ali-maths-001",
       "path": "question-art/new-ali-maths-001.png",
-      "bytes": 21595,
-      "sha256": "66fa292086e6737f5c3f621f34ecc20214dbcc686a432f353cb28bffeeb6b179",
+      "bytes": 14822,
+      "sha256": "62995514a711be964ebed29106e9ecbd83981d08d265ff11629d34a66366de89",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-002",
       "path": "question-art/new-ali-maths-002.png",
-      "bytes": 18190,
-      "sha256": "b1af9c70a93620cba00933d5f369fcf1507436a07f9df22180d2f7315b2df082",
+      "bytes": 14476,
+      "sha256": "2a6fe7fe5e48f6b7df16e853469e50d6498e36fe8d9365599d833fc51a7025c2",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-003",
       "path": "question-art/new-ali-maths-003.png",
-      "bytes": 17864,
-      "sha256": "796a2e90e7192604093c5f006b029ebdf68134458576b863de5703b7b1baf91e",
+      "bytes": 13796,
+      "sha256": "dc9f2beb4218bdecb012be26e39ec2732817fa51cd253df4bf7a5e880bcf243b",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-004",
       "path": "question-art/new-ali-maths-004.png",
-      "bytes": 17823,
-      "sha256": "aae023099d48fa0f6eab04b235d082a575e91a0e4ebb17a15995b74282fffeae",
+      "bytes": 13438,
+      "sha256": "3921fb76fa067b1a4b688464d802c0ab2da1a3a6f88293d87d26f763f1181238",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-005",
       "path": "question-art/new-ali-maths-005.png",
-      "bytes": 25413,
-      "sha256": "ad7ba8b81efda471171d133a830263f04717764086b797c9de51707a80f2b452",
+      "bytes": 16527,
+      "sha256": "0c61c31e681cd5569c32ec6f368567034ee4eae58b81b77007130b7444ab70d3",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-006",
       "path": "question-art/new-ali-maths-006.png",
-      "bytes": 21749,
-      "sha256": "a8e5515cc7a008c9840930584dcfc97d85e9ce1832f94a902f27296837cabee6",
+      "bytes": 15842,
+      "sha256": "0497c12cf411176979d71f6796b0e1a7200ea058f14fee70984527f2fe2a06c9",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-007",
       "path": "question-art/new-ali-maths-007.png",
-      "bytes": 23869,
-      "sha256": "3a2d6b78a06a817e5644b7cfb10931ea201a4c778b0d1131af2b2c003e9c990c",
+      "bytes": 17034,
+      "sha256": "9f9e82088c06d65fece24483a6a35ebef822439b9dd165214e8ba680fd6b7357",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-008",
       "path": "question-art/new-ali-maths-008.png",
-      "bytes": 17008,
-      "sha256": "3693999d7a3fb930761b9033aeb2b360ca0b2bc2adccbba83a5979935e8e6a48",
+      "bytes": 14702,
+      "sha256": "e27e03e982020aa5eaa5c13d547db338524ba85578461a65c4b4b401d0fc2264",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-009",
       "path": "question-art/new-ali-maths-009.png",
-      "bytes": 23819,
-      "sha256": "c3eb2664a19cbc69f855e7c0ec222a260c7e908f738f7a5e4ab15202a693a36c",
+      "bytes": 16804,
+      "sha256": "efb3beac1b65027fe50a05239066f6a4fe180ab7f90b5094b4696fc5a627f5e3",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-010",
       "path": "question-art/new-ali-maths-010.png",
-      "bytes": 16964,
-      "sha256": "56c54a799561a284e2f54d47bf22d8c8e2d91d0bf0cfcb06469be3c6d204ae5b",
+      "bytes": 13353,
+      "sha256": "eea0940b71f6a8d8aadc62c682b8ffcc274ad2947a580e304339b3191094f54d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-011",
       "path": "question-art/new-ali-maths-011.png",
-      "bytes": 11949,
-      "sha256": "240b8345f3be3739f800447aa0afae5f29e084901d9743c983559cce91889a38",
+      "bytes": 12185,
+      "sha256": "3f5fb432efed81a1c36852ec8cd1b842e247fe912fb3dcaae029091c72d18751",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-012",
       "path": "question-art/new-ali-maths-012.png",
-      "bytes": 11871,
-      "sha256": "caf4d73aec329f452b0abb8b2f31d3eb7bb17509672ed0015aabcd294a302d75",
+      "bytes": 13437,
+      "sha256": "4c3fa03d2e2eeb7977f63f3b1b460adc90bbf8998982a4c7264d1fba4fdd31bc",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-013",
       "path": "question-art/new-ali-maths-013.png",
-      "bytes": 11880,
-      "sha256": "b38418e40e1ac9b0830beb2cd2d3e9f380c9000a7c3f9ea103aba0cd01a8fa48",
+      "bytes": 13238,
+      "sha256": "98c8f48e5236bb2b0c467de9f302d36c5ad920783c012d676a5cdc44ef364e48",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-014",
       "path": "question-art/new-ali-maths-014.png",
-      "bytes": 11885,
-      "sha256": "35225f49e49514a9c41150daf841277599841d9599836f6b658c54dab06c5621",
+      "bytes": 12419,
+      "sha256": "86fae689fb916f32a6e42b68c537a4931da2bbd5d00d8c91007657b4d20ec313",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-015",
       "path": "question-art/new-ali-maths-015.png",
-      "bytes": 11674,
-      "sha256": "d1e9e8011b3cf14a7fae6b907efb7129396dc29e7d5eb00e41473e0563571899",
+      "bytes": 12580,
+      "sha256": "67f48aef3dbd1201e68c5a6540749f2f0c6f9af51d4b403bc0bff78b81c687b3",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-016",
       "path": "question-art/new-ali-maths-016.png",
-      "bytes": 11811,
-      "sha256": "483976d9f18bb21016128a88cb8ab931226a4904d68ece50108570e6bf648efc",
+      "bytes": 11776,
+      "sha256": "90e4f650f93275836c08dca21d9db2378843a344b4779f7f52c455b6a56dc8fa",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-017",
       "path": "question-art/new-ali-maths-017.png",
-      "bytes": 11535,
-      "sha256": "9b3b42fdb5d9370697f3ebb5054172c04b2e74c960bc30fd1c14aff6bedb1303",
+      "bytes": 13097,
+      "sha256": "f0a2e6390414080af2d684939d13d10d42ce52de9d651771bb766c09ec6ea6ff",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-018",
       "path": "question-art/new-ali-maths-018.png",
-      "bytes": 11762,
-      "sha256": "a04d2333f583b10c9b1bf6fc4720196218e044e8078bbc39e9eff311986bff3c",
+      "bytes": 13154,
+      "sha256": "82d40a55a177fdfb3d54b27faa654fb1be919486ae7b1d44d075108d55dc090b",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-019",
       "path": "question-art/new-ali-maths-019.png",
-      "bytes": 11624,
-      "sha256": "4a480d5c2f7076e9d7e13b3104e9fdceb5d84d2a90f8fbec346dc24d33230eef",
+      "bytes": 12811,
+      "sha256": "ed21bd9dbf87344be63e30175e77e3c2355620d9943bed1794e2be6bfe8c464d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-020",
       "path": "question-art/new-ali-maths-020.png",
-      "bytes": 11918,
-      "sha256": "cab405754a47928920bdb36a5e4ab5b026f77947722dd8639d58a64caf35c449",
+      "bytes": 11517,
+      "sha256": "38bdf5cfed528dc84c78cdb04099f9cee251fb7abf3941e8f20692261275bb1b",
       "engineVersion": "1.6.0"
     },
     {
@@ -1772,36 +1772,36 @@
     {
       "activityId": "new-ali-maths-031",
       "path": "question-art/new-ali-maths-031.png",
-      "bytes": 11358,
-      "sha256": "02614fba2aa994c2a11295c70a55a4d51ec0cc1bb9bdaa20d0eade662a889384",
+      "bytes": 12557,
+      "sha256": "f25e87e8fa2b503437926b306fb4226fcd1c65323889666725d7346597a1b000",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-032",
       "path": "question-art/new-ali-maths-032.png",
-      "bytes": 8272,
-      "sha256": "6c6ffb2287bc78a2e9002fccdaac5db629d2c9580fe20f9d1e48e1c34b4d665b",
+      "bytes": 10820,
+      "sha256": "4d745fe956ce55a183d987dfa7cc9eb96d1c3c9f34bd396285623614679416af",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-033",
       "path": "question-art/new-ali-maths-033.png",
-      "bytes": 7311,
-      "sha256": "bf07ba3df426fbb522fd44acc1e39e48d2859bbdbdf1c32530405721883c470d",
+      "bytes": 10333,
+      "sha256": "fc1e8b4d64f5445f5c1f02b0cebdc719a554f9075f9171f52b7324e948a6cad5",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-034",
       "path": "question-art/new-ali-maths-034.png",
-      "bytes": 15158,
-      "sha256": "85680db7dc074105f9c9f171eb3431eff35818fd57373bd547768a056d109ad1",
+      "bytes": 12441,
+      "sha256": "6c6d9f88325eb0587295be8775f3cc8de2062e233ae177b0adaf311da7a782bc",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-maths-035",
       "path": "question-art/new-ali-maths-035.png",
-      "bytes": 11874,
-      "sha256": "af6ed536c462897d4eb3e7bd6907a3cf90cc17ed938dff0a480a84f784ad5c7e",
+      "bytes": 12165,
+      "sha256": "01d17578951353924d0cc31b7b3e085872da46a6ad020ccd0a774489f8df4c6c",
       "engineVersion": "1.6.0"
     },
     {
