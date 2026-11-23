@@ -42,7 +42,7 @@ The active development branch is `foundation/slice-0-android`.
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
-- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, content-language action labels, and localized save-error feedback
+- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, accessible optional offline raster illustrations, localized answer labels, and localized save-error feedback
 - Pure Kotlin Evaluation Engine with activity-contract checks, invalid-option rejection, and content-provided feedback
 - Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt snapshot to Room (content-pack ID/version, selected option ID, correctness, hint use, feedback text, and timestamp)
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
@@ -102,7 +102,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Initial original-content pilot packs
 
-- Bundled assets: `aas2-kg2-foundation` (4 skills, 8 stored activity records: 4 English plus 4 legacy Arabic variants) and `aas2-grade2-foundation` (6 skills, 12 records: 6 English plus 6 legacy Arabic variants), each with source-reference and rights metadata. The child runtime exposes English activities only; Arabic child-activity support is deferred.
+- Bundled assets: `aas2-kg2-foundation` (4 skills, 12 stored activity records: 8 English plus 4 legacy Arabic variants) and `aas2-grade2-foundation` (6 skills, 18 records: 12 English plus 6 legacy Arabic variants), each with source-reference and rights metadata. The child runtime exposes English activities only; Arabic child-activity support is deferred.
 - These are small foundation pilots, not complete KG2 or Grade 2 curricula. Their activity wording and options are original; copyrighted textbook passages, exercises, illustrations, and scripts are not included.
 - `AssetContentPackRepository` loads and validates these assets through the MainActivity learning flow and read-only Parent Dashboard. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress remain open.
 
