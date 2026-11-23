@@ -1,7 +1,7 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.2.0",
-  "schemaVersion": 3,
+  "version": "0.3.0",
+  "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
     {
@@ -80,6 +80,17 @@
       "attribution": null,
       "usageRights": "REFERENCE_ONLY",
       "verifiedAt": "2026-11-18"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-SCIENCE-L2",
+      "title": "Macmillan Science Level 2 — Pupil's Book and eBook Pack (ISBN 9781035130740)",
+      "publisher": "Macmillan Education",
+      "url": "https://api.macmillanenglish.com/fileadmin/user_upload/Catalogue/Samples/Macmillan_Science/Macmillan_Science_Level_2_Scope_and_Sequence.pdf",
+      "license": "Copyrighted publisher material; REFERENCE_ONLY. Topic-level alignment only; no reproduction or redistribution rights granted.",
+      "licenseUrl": null,
+      "attribution": null,
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-23"
     }
   ],
   "skills": [
@@ -144,6 +155,76 @@
       "sourceReferenceIds": [
         "SD-SMILE-G2-2020",
         "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-PL-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies plants as living things using observable evidence such as growth and change.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-PL-02",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Names common plant parts and connects selected parts with their functions and edible uses.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-PL-03",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Traces familiar foods and useful materials to plant sources.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-PL-04",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Describes early seed germination and identifies conditions that support seedling growth.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-04",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Compares plants fairly using observable features and consistent measurements.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-07",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Records visible changes during a simple supervised observation.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-ENQ-09",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Observes plants safely and avoids tasting or damaging unknown plants.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
       ]
     }
   ],
@@ -603,6 +684,1225 @@
       "feedbackCorrect": "Correct! The sentence is in a clear word order.",
       "feedbackIncorrect": "A sentence usually begins with who or what it is about.",
       "difficulty": 2
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q01-en",
+      "skillId": "SCI-G2-PL-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which one is a living plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A wooden spoon"
+        },
+        {
+          "optionId": "b",
+          "text": "A young bean plant"
+        },
+        {
+          "optionId": "c",
+          "text": "A plastic flower"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U01-L1-M01",
+      "optionRationales": {
+        "a": "Came from a plant but is no longer living",
+        "b": "Living and growing",
+        "c": "Artificial, despite its shape"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q02-en",
+      "skillId": "SCI-G2-PL-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which observation is evidence that a plant is living?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It moves when the wind blows"
+        },
+        {
+          "optionId": "b",
+          "text": "Someone paints it green"
+        },
+        {
+          "optionId": "c",
+          "text": "It grows new leaves"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L1-M02",
+      "optionRationales": {
+        "a": "Wind moves non-living things too",
+        "b": "Paint is not growth",
+        "c": "New growth is evidence of life"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q03-en",
+      "skillId": "SCI-G2-PL-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What do many green plants use light for?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Making food"
+        },
+        {
+          "optionId": "b",
+          "text": "Taking in water through roots"
+        },
+        {
+          "optionId": "c",
+          "text": "Holding the plant in the soil"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L1-M03",
+      "optionRationales": {
+        "a": "Light supplies energy for making food",
+        "b": "Roots mainly take in water",
+        "c": "Roots help anchor the plant"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q04-en",
+      "skillId": "SCI-G2-ENQ-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Two plants are in pots. Which is the fairest way to compare their growth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Choose the pot that looks nicer"
+        },
+        {
+          "optionId": "b",
+          "text": "Measure their heights in the same way"
+        },
+        {
+          "optionId": "c",
+          "text": "Guess which plant is older"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L1-M04",
+      "optionRationales": {
+        "a": "Decoration is irrelevant",
+        "b": "The same measure provides comparable evidence",
+        "c": "Age is only a guess"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q05-en",
+      "skillId": "SCI-G2-PL-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which condition is important for the healthy growth of most green plants?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A plastic cover around every leaf"
+        },
+        {
+          "optionId": "b",
+          "text": "Music played every day"
+        },
+        {
+          "optionId": "c",
+          "text": "A suitable supply of water"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L1-M05",
+      "optionRationales": {
+        "a": "A plastic cover is not a general plant need",
+        "b": "Music is not a required growth condition",
+        "c": "Water is essential"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q06-en",
+      "skillId": "SCI-G2-PL-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A plant stays in one place, but its stem becomes longer. What does this show?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It is growing"
+        },
+        {
+          "optionId": "b",
+          "text": "It cannot be living because it does not walk"
+        },
+        {
+          "optionId": "c",
+          "text": "It is changing only because the pot is larger"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L1-M06",
+      "optionRationales": {
+        "a": "Growth is a sign of life",
+        "b": "Plants do not need to walk",
+        "c": "Pot size alone does not explain stem growth"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q07-en",
+      "skillId": "SCI-G2-ENQ-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about plants is accurate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "All plants have the same size and shape"
+        },
+        {
+          "optionId": "b",
+          "text": "Plants can differ in size, shape and leaf form"
+        },
+        {
+          "optionId": "c",
+          "text": "Only plants with flowers are living"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L1-M07",
+      "optionRationales": {
+        "a": "This overgeneralises",
+        "b": "Plants have many forms",
+        "c": "Many living plants are not flowering when observed"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q07-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q08-en",
+      "skillId": "SCI-G2-ENQ-09",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How should you observe a plant outdoors?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pull it from the ground to inspect it"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste a leaf to identify it"
+        },
+        {
+          "optionId": "c",
+          "text": "Look carefully and avoid damaging it"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L1",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L1-M08",
+      "optionRationales": {
+        "a": "Pulling it out is destructive",
+        "b": "Unknown plants may be unsafe to taste",
+        "c": "Careful observation is safe"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q08-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q01-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which plant part usually takes in water from the soil?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Flowers"
+        },
+        {
+          "optionId": "b",
+          "text": "Fruits"
+        },
+        {
+          "optionId": "c",
+          "text": "Roots"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U01-L2-M01",
+      "optionRationales": {
+        "a": "Flowers are reproductive structures",
+        "b": "Fruits often contain seeds",
+        "c": "Roots absorb water"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q02-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which part supports many plant leaves and flowers?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The stem"
+        },
+        {
+          "optionId": "b",
+          "text": "The seed"
+        },
+        {
+          "optionId": "c",
+          "text": "The fruit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L2-M02",
+      "optionRationales": {
+        "a": "The stem supports the plant and transports materials",
+        "b": "A seed can grow into a plant",
+        "c": "A fruit protects seeds in many plants"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q03-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which plant part helps many green plants make food using light?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Roots"
+        },
+        {
+          "optionId": "b",
+          "text": "Leaves"
+        },
+        {
+          "optionId": "c",
+          "text": "Flowers"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L2-M03",
+      "optionRationales": {
+        "a": "Roots absorb water and minerals",
+        "b": "Leaves are major photosynthetic organs",
+        "c": "Flowers support reproduction"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q04-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which part of a carrot do people usually eat?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The flower"
+        },
+        {
+          "optionId": "b",
+          "text": "The fruit"
+        },
+        {
+          "optionId": "c",
+          "text": "The root"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L2-M04",
+      "optionRationales": {
+        "a": "Not the usual edible part",
+        "b": "A carrot is not a botanical fruit",
+        "c": "The edible carrot part is a storage root"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q05-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which food is an example of seeds that people eat?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Peas"
+        },
+        {
+          "optionId": "b",
+          "text": "Lettuce leaves"
+        },
+        {
+          "optionId": "c",
+          "text": "Carrot roots"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L2-M05",
+      "optionRationales": {
+        "a": "Peas are seeds",
+        "b": "Lettuce leaves are leaves",
+        "c": "Carrots are roots"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q06-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which part of the broccoli plant do we commonly eat?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The root"
+        },
+        {
+          "optionId": "b",
+          "text": "The flower buds"
+        },
+        {
+          "optionId": "c",
+          "text": "The fruit"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L2-M06",
+      "optionRationales": {
+        "a": "Not the common edible part",
+        "b": "Broccoli is commonly eaten as immature flower structures",
+        "c": "Not the usual broccoli part"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q07-en",
+      "skillId": "SCI-G2-PL-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about a potato is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It is the root of the plant"
+        },
+        {
+          "optionId": "b",
+          "text": "It is the fruit of the plant"
+        },
+        {
+          "optionId": "c",
+          "text": "It is a modified underground stem (tuber)"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L2-M07",
+      "optionRationales": {
+        "a": "This is a common misconception",
+        "b": "A potato is not a botanical fruit",
+        "c": "A potato tuber is a modified underground stem"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q07-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q08-en",
+      "skillId": "SCI-G2-ENQ-09",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You find an unfamiliar wild plant. You do not know whether it is safe to eat. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Do not eat it; ask a trusted adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste a very small piece"
+        },
+        {
+          "optionId": "c",
+          "text": "Feed it to a pet to test it"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L2",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L2-M08",
+      "optionRationales": {
+        "a": "This is the safe action",
+        "b": "Tasting unknown plants is unsafe",
+        "c": "Animals can also be harmed"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q08-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q01-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Cotton fibres used to make some clothes come from which source?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sheep wool"
+        },
+        {
+          "optionId": "b",
+          "text": "A cotton plant"
+        },
+        {
+          "optionId": "c",
+          "text": "A rock"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U01-L3-M01",
+      "optionRationales": {
+        "a": "Sheep wool is an animal fibre, not cotton",
+        "b": "Cotton is a plant source",
+        "c": "A rock is a mineral"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q02-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which plant material is commonly used to make paper?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Feathers"
+        },
+        {
+          "optionId": "b",
+          "text": "Sand"
+        },
+        {
+          "optionId": "c",
+          "text": "Wood fibres"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L3-M02",
+      "optionRationales": {
+        "a": "Feathers are animal material",
+        "b": "Sand is not the usual paper fibre",
+        "c": "Wood fibres are a common plant-based source"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q03-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Sesame oil is made from which part of a plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Seeds"
+        },
+        {
+          "optionId": "b",
+          "text": "Roots"
+        },
+        {
+          "optionId": "c",
+          "text": "Flowers"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L3-M03",
+      "optionRationales": {
+        "a": "Sesame oil is pressed from seeds",
+        "b": "Roots are not the usual source",
+        "c": "Flowers are not the usual source"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q04-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A family grows a date palm. Which pair describes two useful things it can provide?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Metal and glass"
+        },
+        {
+          "optionId": "b",
+          "text": "Dates and shade"
+        },
+        {
+          "optionId": "c",
+          "text": "Plastic and paper"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L3-M04",
+      "optionRationales": {
+        "a": "These are not produced by the palm",
+        "b": "Date palms provide dates and shade",
+        "c": "These are not direct palm products"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q05-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which food is made from a plant grain?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Fish"
+        },
+        {
+          "optionId": "b",
+          "text": "Eggs"
+        },
+        {
+          "optionId": "c",
+          "text": "Sorghum flour"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L3-M05",
+      "optionRationales": {
+        "a": "Fish is an animal food",
+        "b": "Eggs are animal products",
+        "c": "Sorghum flour is milled from a grain"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q06-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which pair includes two products that can come from plants?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Cotton cloth and wooden furniture"
+        },
+        {
+          "optionId": "b",
+          "text": "Glass cup and iron nail"
+        },
+        {
+          "optionId": "c",
+          "text": "Fish and eggs"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L3-M06",
+      "optionRationales": {
+        "a": "Cotton and wood are plant-derived",
+        "b": "Glass and iron are not plant materials",
+        "c": "Fish and eggs are animal products"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q07-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Paper has been made from wood and changed in a factory. What is its original source?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It has become an animal product"
+        },
+        {
+          "optionId": "b",
+          "text": "It still has a plant source"
+        },
+        {
+          "optionId": "c",
+          "text": "It came from the soil as ready-made paper"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L3-M07",
+      "optionRationales": {
+        "a": "Processing does not change its source category",
+        "b": "Paper made from wood still has a plant source",
+        "c": "Paper is manufactured"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q07-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q08-en",
+      "skillId": "SCI-G2-PL-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action shows care for useful plants?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Break young branches for fun"
+        },
+        {
+          "optionId": "b",
+          "text": "Pull up seedlings to see their roots"
+        },
+        {
+          "optionId": "c",
+          "text": "Water plants appropriately and avoid damaging them"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L3",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L3-M08",
+      "optionRationales": {
+        "a": "This damages plants",
+        "b": "This harms seedlings",
+        "c": "This shows responsible care"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q08-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q01-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does germination mean?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A flower opening"
+        },
+        {
+          "optionId": "b",
+          "text": "A leaf falling"
+        },
+        {
+          "optionId": "c",
+          "text": "A seed beginning to grow"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "DIAGNOSTIC",
+      "misconceptionCode": "SCI-G2-U01-L4-M01",
+      "optionRationales": {
+        "a": "Flowering happens later",
+        "b": "Leaf fall is unrelated",
+        "c": "Germination is when a seed begins to grow"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q01-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q02-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which part commonly appears first when a bean seed starts to germinate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A tiny root"
+        },
+        {
+          "optionId": "b",
+          "text": "A flower"
+        },
+        {
+          "optionId": "c",
+          "text": "A fruit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L4-M02",
+      "optionRationales": {
+        "a": "The root usually emerges first",
+        "b": "A flower develops later",
+        "c": "A fruit develops later"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q02-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q03-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which conditions help many common seeds begin to germinate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Bright light, soil and fertiliser only"
+        },
+        {
+          "optionId": "b",
+          "text": "Water, air and suitable warmth"
+        },
+        {
+          "optionId": "c",
+          "text": "A sealed container filled with water"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L4-M03",
+      "optionRationales": {
+        "a": "Light and soil are not universal requirements for germination",
+        "b": "Water, air and suitable warmth support germination",
+        "c": "Flooding can limit oxygen"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q03-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q04-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A seedling has green leaves. What helps the green plant make food?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Loud sounds"
+        },
+        {
+          "optionId": "b",
+          "text": "Coloured soil"
+        },
+        {
+          "optionId": "c",
+          "text": "Light"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L4-M04",
+      "optionRationales": {
+        "a": "Sound is not a food-making requirement",
+        "b": "Soil colour does not provide energy",
+        "c": "Light supplies energy for photosynthesis"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q04-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q05-en",
+      "skillId": "SCI-G2-ENQ-07",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You are watching beans germinate on damp paper with an adult. What is the best way to record what happens?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Draw or note visible changes each day"
+        },
+        {
+          "optionId": "b",
+          "text": "Open the container and taste a seed"
+        },
+        {
+          "optionId": "c",
+          "text": "Keep the seeds completely underwater"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "You got it!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 1,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "SCI-G2-U01-L4-M05",
+      "optionRationales": {
+        "a": "Daily records show observable change",
+        "b": "Tasting experimental seeds is unsafe and unnecessary",
+        "c": "Flooding is unsuitable"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q05-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q06-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which order shows a simple early stage of bean growth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Flower → fruit → dry seed"
+        },
+        {
+          "optionId": "b",
+          "text": "Seed → tiny root → young seedling"
+        },
+        {
+          "optionId": "c",
+          "text": "Leaf → metal pot → seed"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great thinking!",
+      "feedbackIncorrect": "Keep thinking. You are learning!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "SCI-G2-U01-L4-M06",
+      "optionRationales": {
+        "a": "This is not the early germination sequence",
+        "b": "This is a plausible early growth sequence",
+        "c": "These items do not form a growth sequence"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q06-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q07-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why should the paper around a germinating seed be damp, not flooded?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Seeds need to float all the time"
+        },
+        {
+          "optionId": "b",
+          "text": "More water always makes seeds grow faster"
+        },
+        {
+          "optionId": "c",
+          "text": "Seeds need water and air"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done!",
+      "feedbackIncorrect": "Nice try. Keep going!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L4-M07",
+      "optionRationales": {
+        "a": "Floating is not the goal",
+        "b": "Excess water can reduce available air",
+        "c": "Both water and oxygen matter"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q07-en.png"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q08-en",
+      "skillId": "SCI-G2-PL-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A bean begins to germinate on damp paper before it is planted in soil. What does this show?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Soil is not always needed for germination to begin"
+        },
+        {
+          "optionId": "b",
+          "text": "Seeds never need soil as plants grow"
+        },
+        {
+          "optionId": "c",
+          "text": "Seeds can germinate without water"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work!",
+      "feedbackIncorrect": "Good effort. You can try again!",
+      "difficulty": 2,
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U01",
+      "lessonId": "SCI-G2-U01-L4",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "SCI-G2-U01-L4-M08",
+      "optionRationales": {
+        "a": "Germination can begin without soil",
+        "b": "Soil supports later plant growth and many plant needs",
+        "c": "Water is important for germination"
+      },
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.png"
+    }
+  ],
+  "books": [
+    {
+      "bookId": "macmillan-science-level2",
+      "title": "Macmillan Science Level 2",
+      "subject": "Science",
+      "learnerPath": "GRADE_2",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "unitId": "SCI-G2-U01",
+      "bookId": "macmillan-science-level2",
+      "title": "Plant Life and Plant Uses",
+      "sequence": 1,
+      "lessonIds": [
+        "SCI-G2-U01-L1",
+        "SCI-G2-U01-L2",
+        "SCI-G2-U01-L3",
+        "SCI-G2-U01-L4"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "SCI-G2-U01-L1",
+      "unitId": "SCI-G2-U01",
+      "title": "Plants Are Living Things",
+      "sequence": 1,
+      "skillIds": [
+        "SCI-G2-PL-01",
+        "SCI-G2-ENQ-04",
+        "SCI-G2-ENQ-09"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U01-L2",
+      "unitId": "SCI-G2-U01",
+      "title": "Parts of Plants and Plants We Eat",
+      "sequence": 2,
+      "skillIds": [
+        "SCI-G2-PL-02",
+        "SCI-G2-ENQ-09"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U01-L3",
+      "unitId": "SCI-G2-U01",
+      "title": "Useful Plants",
+      "sequence": 3,
+      "skillIds": [
+        "SCI-G2-PL-03"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U01-L4",
+      "unitId": "SCI-G2-U01",
+      "title": "Seeds and Plant Growth",
+      "sequence": 4,
+      "skillIds": [
+        "SCI-G2-PL-04",
+        "SCI-G2-ENQ-07"
+      ]
     }
   ]
 }
