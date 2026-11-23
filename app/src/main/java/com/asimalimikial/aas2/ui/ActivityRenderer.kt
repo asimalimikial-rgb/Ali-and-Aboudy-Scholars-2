@@ -98,7 +98,7 @@ fun ActivityRenderer(
                                 .weight(1f)
                                 .semantics { selected = isSelected },
                             enabled = canChangeAnswer,
-                            onClick = { selectedOptionId = option.optionId },
+                            onClick = { audioController.stop(); selectedOptionId = option.optionId },
                             colors = ButtonDefaults.outlinedButtonColors(
                                 containerColor = if (isSelected) {
                                     MaterialTheme.colorScheme.secondaryContainer
@@ -139,7 +139,7 @@ fun ActivityRenderer(
                     Button(
                         modifier = Modifier.fillMaxWidth(),
                         enabled = selectedOptionId != null && !isSubmitting,
-                        onClick = { selectedOptionId?.let(onSubmitAnswer) }
+                        onClick = { selectedOptionId?.let { answerId -> audioController.stop(); onSubmitAnswer(answerId) } }
                     ) {
                         Text(if (isSubmitting) savingAnswerLabel else checkAnswerLabel)
                     }
@@ -169,6 +169,7 @@ fun ActivityRenderer(
                         OutlinedButton(
                             modifier = Modifier.fillMaxWidth(),
                             onClick = {
+                                audioController.stop()
                                 selectedOptionId = null
                                 onRetry()
                             }
