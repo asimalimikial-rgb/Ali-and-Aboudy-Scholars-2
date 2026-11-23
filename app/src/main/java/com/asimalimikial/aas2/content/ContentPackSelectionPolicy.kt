@@ -26,6 +26,13 @@ object ContentPackSelectionPolicy {
     fun englishActivities(pack: ContentPack): List<ActivityDefinition> =
         pack.activities.filter { it.language == "en" }
 
+    /** Starts with the first unpractised question; revisits the first item when all were tried. */
+    fun nextActivity(
+        activities: List<ActivityDefinition>,
+        practicedActivityIds: Set<String>
+    ): ActivityDefinition? =
+        activities.firstOrNull { it.activityId !in practicedActivityIds } ?: activities.firstOrNull()
+
     /** Groups low-level skill domains into age-appropriate learning areas. */
     fun subjectForDomain(domain: String, learnerPathway: String): String {
         return when (canonicalLearnerPath(learnerPathway)) {
