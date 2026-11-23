@@ -192,3 +192,16 @@ No feature row is marked fully production-verified solely because source CI pass
 - EDU-017 remains only source/logic verified; airplane-mode and process-restart device tests remain a release gate.
 - EDU-020 currently gates the read-only Parent Dashboard using Android device credentials. External navigation and parent settings are not implemented by this slice.
 - CI #167 passed on commit 6acf5e89b48b2032929114fa3a71f5df6f15bfad, documentation CI #169 passed on 1633ed6f8f738b271d17861c5a6b83e6bfb76fa4, and image-integrity CI #174 passed on 125baa77d580648d8decf8fe81c86b3e940bcfc7. These are source compilation/JVM test/schema checks, not emulator or device acceptance.
+
+
+## Implementation addendum — curriculum hierarchy, question visuals and audio — 23 November 2026
+
+| Feature area | Current implementation state | Evidence / remaining gate |
+|---|---|---|
+| Book/unit/lesson navigation | Schema-v4 book → unit → lesson navigation is implemented for Grade 2 Science Unit 1; schema-v3 packs remain readable | 32 original questions across four lessons; full remaining books/units not yet authored |
+| EDU-034 visual support | Partial implementation expanded: one unique local prompt illustration for every English activity (52 total), plus the existing 11 option illustrations | Image workflow #45205308307 passed; on-device visual/accessibility and missing/corrupt fallback tests remain |
+| EDU-024 listening support | Partial implementation: local prompt, option and feedback playback controls; single active player cancels prior playback | Audio generation at 70% English speed is in progress/pending; file integrity and real-device Airplane Mode playback remain open |
+| Post-answer feedback | Correct/incorrect feedback normalized to brief English encouragement only | Content tests assert short feedback and no post-answer explanation; real-device voice timing remains open |
+| Curriculum content | Grade 2 Science topics 1–4 have 32 original authored questions; other Macmillan Science topics and other nominated books remain to author | Macmillan sources remain reference-only; no protected text or artwork copied |
+
+The implementation status above is not production verification. Source CI, generated assets, and real-device quality are tracked separately. No APK, Release, or main merge is implied.
