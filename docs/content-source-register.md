@@ -206,3 +206,8 @@ A dedicated register was added: [Textbook covers, ISBNs, official samples and la
 It records the six core curriculum products plus the separate Indian Maths Xpress Class 2 title, external cover-preview references, publisher product pages, official Scope and Sequence files, the official Mathematics 2B sample unit, and lawful eBook access routes. It explicitly distinguishes a cover preview, a sample unit, a Scope and Sequence, a catalogue entry, and a complete book.
 
 No complete copyrighted textbook or unauthorized scan was copied into the repository. Current full-book access must come from a valid publisher eBook code/account, school/library licence, or a family-owned copy. The exact family editions still require cover + ISBN/copyright page + contents-page matching.
+
+
+## Digital-book access investigation update — 23 November 2026
+
+A second investigation was added: [Textbook Digital Access Investigation v0.2](textbook-digital-access-investigation-v0.2.md). It verifies publisher-origin BlinkLearning eBook records for Macmillan Science 2, Mathematics 2A and Mathematics 2B, including visible contents structures and demo/licence gates. Science 2 explicitly requires a licence. It also records legitimate purchase leads for Hop Skip and Jump Senior KG, Maths Xpress Senior KG, English World Level 2, and the separate Indian Maths Xpress Class 2 title. No full public authorized PDF was verified, no DRM or access control was bypassed, and no textbook files were copied into the repository. The 2009 Internet Archive Macmillan Mathematics set was excluded because its ISBNs/edition do not match the requested books and the item is access-restricted/print-disabled.
