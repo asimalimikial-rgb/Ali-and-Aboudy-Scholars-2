@@ -132,3 +132,31 @@ All seven textbook records remain `REFERENCE_ONLY`. This research does not autho
 - The MEE help centre was checked for access-code and subscription rules.
 - The older Internet Archive candidate was rejected as a different edition and access-restricted.
 - No complete book file was downloaded or placed in the repository.
+
+
+## Verified ISBN and platform update — 23 November 2026
+
+Official catalogue evidence now confirms the following candidate ISBNs:
+- Hop Skip and Jump Senior KG Kit — 9789356660113 (Macmillan India School Catalogue 2025).
+- Maths Xpress Senior KG — 9789356664975 (Macmillan India School Catalogue 2025).
+- Maths Xpress Book 2 — 9789356664999 (Macmillan India School Catalogue 2025).
+- English World Level 2 Pupil's Book Pack — 9781035117154 (Macmillan English official catalogue/sample page).
+- Macmillan Mathematics Level 2A — 9781380000637; Level 2B — 9781380000613 (Macmillan Education India ELT Digital Catalogue 2023).
+- Macmillan Science Level 2 Pupil's eBook Pack — 9781380000262 (Macmillan Education India ELT Digital Catalogue 2023).
+
+Edition caveat: these are catalogue matches; the user's physical ISBNs have not been inspected, so exact edition equivalence remains unconfirmed.
+
+### Hop Skip and Jump Senior KG — confirmed kit contents
+The 2025 catalogue lists Literacy Skill Sheets, Numeracy Skill Sheets, General Awareness Skill Sheets, My Second Book of Phonics, My Third Book of Stories, My Third Book of Rhymes and Songs, My Second Book of Handwriting, My Third Book of Art and Craft, and My Third Book of SEL/STEM/Creative Coding. This expands the KG2 content plan beyond the current 65 mapped activities; handwriting, stories, rhymes, art/craft and SEL/STEM remain open.
+
+### MEE access
+Macmillan Education Everywhere is the current official digital route. The publisher's help centre says access codes are normally inside the book/booklet or supplied by the institution/local representative. After activation, a resource appears in My Bookshelf. The Download control enables offline access when offered for that resource; not every resource is guaranteed to have a downloadable PDF. The legacy LMS page states sunset was scheduled for 31 July 2026.
+
+Official links:
+- https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf
+- https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples
+- https://macmillaneducation.in/wp-content/uploads/2023/02/ELT-Digital-catalogue-2023.pdf
+- https://www.macmillaneducationeverywhere.com/
+- https://www.macmillaneducationeverywhere.com/help-centre/?language=en
+
+No unrestricted public full-PDF source was confirmed. Use the licensed MEE access route and do not bypass access controls or redistribute protected books.
