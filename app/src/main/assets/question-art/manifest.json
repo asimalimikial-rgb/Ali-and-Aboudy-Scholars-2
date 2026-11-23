@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "generator": "Scholars Visual Learning Engine",
+  "engineVersion": "1.6.0",
+  "outputFormat": "PNG",
+  "questionCount": 32,
+  "files": [
+    {
+      "activityId": "sci-g2-u01-l1-q01-en",
+      "path": "question-art/sci-g2-u01-l1-q01-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q02-en",
+      "path": "question-art/sci-g2-u01-l1-q02-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q03-en",
+      "path": "question-art/sci-g2-u01-l1-q03-en.png",
+      "bytes": 14588,
+      "sha256": "fbd34cf2b003363a11222dcff8693e0e3e5ac3c6a9f5aeb6d33ab119eb68f0bf",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q04-en",
+      "path": "question-art/sci-g2-u01-l1-q04-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q05-en",
+      "path": "question-art/sci-g2-u01-l1-q05-en.png",
+      "bytes": 9374,
+      "sha256": "54afb80f9475f5a63ead9c80ae78915906ffc2970e5b51823e90581f4a8daddb",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q06-en",
+      "path": "question-art/sci-g2-u01-l1-q06-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q07-en",
+      "path": "question-art/sci-g2-u01-l1-q07-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l1-q08-en",
+      "path": "question-art/sci-g2-u01-l1-q08-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q01-en",
+      "path": "question-art/sci-g2-u01-l2-q01-en.png",
+      "bytes": 14421,
+      "sha256": "7b27390ddabd354df04a2d26aafca8f9314edb7de84a30fb303e7198d257f83d",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q02-en",
+      "path": "question-art/sci-g2-u01-l2-q02-en.png",
+      "bytes": 17127,
+      "sha256": "7520beba4084b440d4df8033d364216556227ec3fe9ed8813d6737b30a66e705",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q03-en",
+      "path": "question-art/sci-g2-u01-l2-q03-en.png",
+      "bytes": 14588,
+      "sha256": "fbd34cf2b003363a11222dcff8693e0e3e5ac3c6a9f5aeb6d33ab119eb68f0bf",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q04-en",
+      "path": "question-art/sci-g2-u01-l2-q04-en.png",
+      "bytes": 11559,
+      "sha256": "66cfb42a480a4c614d429438dd2284161d4e301805825ed3f22013c2eb48fc3c",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q05-en",
+      "path": "question-art/sci-g2-u01-l2-q05-en.png",
+      "bytes": 16069,
+      "sha256": "56436004b0bc98bf6309721f756f970edd033dc64076072241cf5300b566db31",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q06-en",
+      "path": "question-art/sci-g2-u01-l2-q06-en.png",
+      "bytes": 12240,
+      "sha256": "d4a1cc9cafe6f94f1520aec67f0d8f71b2db7296721ef15344461fbe4a0a5869",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q07-en",
+      "path": "question-art/sci-g2-u01-l2-q07-en.png",
+      "bytes": 18560,
+      "sha256": "d8dd838fe67804070f7a2f6e0bb56a01719f64ba932ebe95509b9f71bde9975b",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l2-q08-en",
+      "path": "question-art/sci-g2-u01-l2-q08-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q01-en",
+      "path": "question-art/sci-g2-u01-l3-q01-en.png",
+      "bytes": 18560,
+      "sha256": "d8dd838fe67804070f7a2f6e0bb56a01719f64ba932ebe95509b9f71bde9975b",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q02-en",
+      "path": "question-art/sci-g2-u01-l3-q02-en.png",
+      "bytes": 7018,
+      "sha256": "f338be303e94a70105381c61fd8a27a80f7d09cfb3ab1f4b72fd3f4973fcaee3",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q03-en",
+      "path": "question-art/sci-g2-u01-l3-q03-en.png",
+      "bytes": 9761,
+      "sha256": "cec029ad6d047459a62cd82baded9bd4da6146e912d8a817a3b7d6a149913fc4",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q04-en",
+      "path": "question-art/sci-g2-u01-l3-q04-en.png",
+      "bytes": 14521,
+      "sha256": "e367ddba85c92dd956acbbd708234f0df43551f5425c1f798bbcf1f9a59be8d0",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q05-en",
+      "path": "question-art/sci-g2-u01-l3-q05-en.png",
+      "bytes": 15726,
+      "sha256": "3a3c92b430403114c16f69e2f4d61f45386b8edf978fba5a250d1fd435be3754",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q06-en",
+      "path": "question-art/sci-g2-u01-l3-q06-en.png",
+      "bytes": 8331,
+      "sha256": "26aa3809c4d7ca34fed6b519b35bf65cd81b0c8c97dc52223de1f084a87c4861",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q07-en",
+      "path": "question-art/sci-g2-u01-l3-q07-en.png",
+      "bytes": 5710,
+      "sha256": "8e55d4c11014b089563d3cb8cefef9e13f8080959b85506e15f830ef37103c71",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l3-q08-en",
+      "path": "question-art/sci-g2-u01-l3-q08-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q01-en",
+      "path": "question-art/sci-g2-u01-l4-q01-en.png",
+      "bytes": 10644,
+      "sha256": "eda3e1a7984e9f2ee7e93b0453320c48d0c2b43f5a1ef45fc4a2b8ca31a6f675",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q02-en",
+      "path": "question-art/sci-g2-u01-l4-q02-en.png",
+      "bytes": 18192,
+      "sha256": "25a8543151709a3cd859f46d9e90b29f3271cd3a4908fa7a9dabf61054618dec",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q03-en",
+      "path": "question-art/sci-g2-u01-l4-q03-en.png",
+      "bytes": 9761,
+      "sha256": "cec029ad6d047459a62cd82baded9bd4da6146e912d8a817a3b7d6a149913fc4",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q04-en",
+      "path": "question-art/sci-g2-u01-l4-q04-en.png",
+      "bytes": 14455,
+      "sha256": "51cd6f5f070bfbf94e73c5ee1670b70cd7802fc76179621a2af04c7e027a9178",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q05-en",
+      "path": "question-art/sci-g2-u01-l4-q05-en.png",
+      "bytes": 11646,
+      "sha256": "ac7c60ab3ff3619ecea7952aca831e1406bb60a4629a238b4f491a88335b1f51",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q06-en",
+      "path": "question-art/sci-g2-u01-l4-q06-en.png",
+      "bytes": 18560,
+      "sha256": "d8dd838fe67804070f7a2f6e0bb56a01719f64ba932ebe95509b9f71bde9975b",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q07-en",
+      "path": "question-art/sci-g2-u01-l4-q07-en.png",
+      "bytes": 7226,
+      "sha256": "e1b9a1fa5ec062d46c1738c8172ecfdcf05219c4acf17c1b90b0f3b842e5974f",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "sci-g2-u01-l4-q08-en",
+      "path": "question-art/sci-g2-u01-l4-q08-en.png",
+      "bytes": 14421,
+      "sha256": "7b27390ddabd354df04a2d26aafca8f9314edb7de84a30fb303e7198d257f83d",
+      "engineVersion": "1.6.0"
+    }
+  ]
+}
