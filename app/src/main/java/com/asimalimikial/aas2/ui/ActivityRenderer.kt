@@ -19,6 +19,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -57,6 +58,9 @@ fun ActivityRenderer(
     val audioController = remember(activity.activityId) { OfflineAudioController(context) }
     androidx.compose.runtime.DisposableEffect(audioController) {
         onDispose { audioController.release() }
+    }
+    LaunchedEffect(activity.activityId, currentEvaluation) {
+        audioController.stop()
     }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
@@ -197,7 +201,7 @@ private fun AudioClipButton(
     }
     Button(
         modifier = modifier.widthIn(min = 68.dp),
-        enabled = !(isActive && controller.isLoading),
+        enabled = true,
         onClick = { controller.toggle(assetPath) }
     ) {
         Text(buttonLabel)
