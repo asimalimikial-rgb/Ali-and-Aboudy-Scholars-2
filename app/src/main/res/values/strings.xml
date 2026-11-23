@@ -51,5 +51,18 @@
     <string name="activity_saving_answer_ar">جارٍ حفظ الإجابة…</string>
     <string name="activity_save_error_en">Your answer could not be saved. Please try again.</string>
     <string name="activity_try_again">Try again</string>
+    <string name="open_parent_dashboard">Parent dashboard</string>
+    <string name="parent_dashboard_title">Parent dashboard</string>
+    <string name="parent_dashboard_learner">%1$s · %2$s</string>
+    <string name="parent_dashboard_description">A private, read-only view of this learner’s progress on this device.</string>
+    <string name="parent_dashboard_overview">Learning overview</string>
+    <string name="parent_dashboard_attempt_summary">%1$d attempts · %2$d correct · %3$d%% accuracy</string>
+    <string name="parent_dashboard_no_skills">No skill records are available in this learning pack.</string>
+    <string name="parent_skill_not_assessed">Not assessed yet</string>
+    <string name="parent_skill_attempt_summary">%1$d attempts · %2$d correct · %3$d%% accuracy</string>
+    <string name="parent_gate_title">Parent access</string>
+    <string name="parent_gate_description">Confirm your device screen lock to open the parent dashboard.</string>
+    <string name="parent_gate_setup_title">Device lock required</string>
+    <string name="parent_gate_setup_message">Set a PIN, password or pattern in Android screen-lock settings before opening the parent dashboard. The learning activities remain available without this setup.</string>
     <string name="activity_save_error_ar">تعذر حفظ إجابتك. حاول مرة أخرى.</string>
 </resources>
