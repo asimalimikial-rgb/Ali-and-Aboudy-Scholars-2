@@ -205,3 +205,17 @@ No feature row is marked fully production-verified solely because source CI pass
 | Curriculum content | Grade 2 Science topics 1–4 have 32 original authored questions; other Macmillan Science topics and other nominated books remain to author | Macmillan sources remain reference-only; no protected text or artwork copied |
 
 The implementation status above is not production verification. Source CI, generated assets, and real-device quality are tracked separately. No APK, Release, or main merge is implied.
+
+
+## Updated content and media status — 23 November 2026
+
+| Area | Verified source state | Remaining gate |
+|---|---|---|
+| Learner content banks | 282 English activities: 108 KG2 and 174 Grade 2; exactly 100 newly imported activities per learner | 616 legacy records remain excluded pending item-level rights, activity-type and curriculum review |
+| Science book hierarchy | Grade 2 Science: 2 units, 9 lessons, 62 original activities (32 + 30) | Remaining Science units 3–5 and other books still require authoring |
+| Answer-key quality | New 200 activities rebalanced to A=33/B=33/C=34 per learner; full bank A=95/B=95/C=92 | Continue duplicate, distractor, accuracy and skill-coverage review as content grows |
+| EDU-034 visuals | 282 question-specific PNGs; 282 unique paths and SHA-256 values | Physical-device visual, accessibility and corrupt/missing asset checks |
+| EDU-024 audio | English-only generator and single-player local Android controller implemented; target speed 0.70 | Run #45207325560 in progress; expected 1,692 clips, not yet verified or committed |
+| Post-answer feedback | Short English encouragement only; no post-answer hints or explanations | Confirm timing and voice quality on the actual Android device |
+
+No row is considered production-ready until its stated device and rights gates are closed.
