@@ -54,7 +54,7 @@ class OfflineAudioController(private val context: Context) {
         val directory = File(context.cacheDir, "aas2-offline-audio").apply { mkdirs() }
         val digest = MessageDigest.getInstance("SHA-256")
             .digest(assetPath.toByteArray(Charsets.UTF_8))
-            .joinToString("") { byte -> "%02x".format(byte) }
+            .joinToString("") { byte -> "%02x".format(byte.toInt() and 0xff) }
         val target = File(directory, "$digest.ogg")
         if (!target.isFile || target.length() == 0L) {
             val temporary = File(directory, "$digest.tmp")
