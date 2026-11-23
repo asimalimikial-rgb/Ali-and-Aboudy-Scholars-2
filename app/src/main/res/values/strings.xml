@@ -34,6 +34,9 @@
     <string name="learning_area_progress">Practised %1$d of %2$d activities</string>
     <string name="activity_number">Activity %1$d</string>
     <string name="activity_practised">Practised</string>
+    <string name="loading_learning_areas">Loading learning areas…</string>
+    <string name="no_learning_areas">No learning areas are available yet.</string>
+    <string name="available_activity_count">%1$d activities available</string>
     <string name="activity_list_item">%1$d. %2$s</string>
     <string name="practice_summary_title">Practice summary</string>
     <string name="practice_summary_empty">Your saved practice will appear here after your first answer.</string>
