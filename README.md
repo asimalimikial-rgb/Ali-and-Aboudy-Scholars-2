@@ -134,3 +134,11 @@ The initial Android namespace and application ID are `com.asimalimikial.aas2`. T
 - See [Schema v3 to v4 Migration & Test Plan v0.1](schema-v3-to-v4-migration-test-plan-v0.1.md) for backward-compatibility gates and regression coverage.
 - See [Science Grade 2 Unit 1 QA Review](units/science-g2-unit-01-qa-review-v0.1.md) for the revised 32-item candidate set and assessment audit.
 - See [Science Grade 2 Unit 2 — Animals and Survival](units/science-g2-unit-02-animals-survival-v0.1.md) for five lessons and 30 original draft items.
+
+## Product planning and curriculum closure
+
+- [Unified feature inventory and Feature Evaluation / Feature-to-Module / Feature-to-Skill matrices](docs/feature-matrix-v0.2.md)
+- [Curriculum evidence closure register and outstanding book/local-curriculum gaps](docs/curriculum-evidence-closure-v0.1.md)
+- [Vertical Skill Map from KG2 to Grade 2](docs/vertical-skill-map-v0.1.md)
+
+These are evidence-graded planning documents. They do not authorize Android runtime, schema, Room, APK, release, or main-branch changes.
