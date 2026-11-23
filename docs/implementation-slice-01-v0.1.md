@@ -99,8 +99,8 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 
 1. Verify the modern Activity Result API implementation with CI.
 2. Perform emulator and real-device tests for parent credential prompts, lifecycle closure, back navigation, screen sizes, and offline behavior.
-3. Six original KG2 option illustrations are now bundled and covered by a JVM asset-integrity test; Grade 2 illustrations and runtime missing/corrupt-image fallback testing remain open.
-4. Add a proper parent settings surface only after its controls and security behavior are specified.
+3. Eleven original option illustrations are now bundled (six KG2 and five Grade 2 habitat illustrations) and covered by a JVM asset-integrity test; runtime missing/corrupt-image fallback testing and device-scale visual QA remain open.
+4. Parent Settings have now been implemented for parent-facing language (system / English / Arabic) and are gated behind the protected Parent Dashboard; verify language changes, back navigation and foreground exit on emulator/physical device.
 5. Expand content only after independent subject/pedagogy/language review and source/edition evidence closure.
 6. Keep numeric mastery thresholds provisional; do not present them as calibrated educational conclusions.
 
@@ -127,3 +127,38 @@ This is a functional first implementation slice on top of the existing Android f
 - Linked the options in `g2-habitat-01-en` and `g2-habitat-02-en`; the existing text labels remain visible and accessible.
 - The bundled media set now contains eleven unique PNG files across Ali KG2 and Aboudy Grade 2. The JVM integrity test checks all eleven paths, file existence, minimum size and PNG signature.
 - Other Grade 2 skills remain text-only pending content review. Phone-scale rendering and accessibility verification remain open.
+
+
+## Parent Settings and Grade 2 media follow-up — 23 November 2026
+
+### Parent Settings
+
+- Added a protected Parent Settings screen reachable only from the Parent Dashboard.
+- Persisted parent UI language choices (follow device, English, Arabic) through DataStore.
+- Scoped locale override to the parent dashboard/settings surface only; learner-facing screens keep the device locale and child activity content remains English-only.
+- Added lifecycle handling so leaving the app from settings closes the parent area; Back returns to the already-authorized dashboard.
+- Added JVM policy tests for normalization, supported languages, locale direction and parent-only scope.
+
+### Grade 2 illustrations
+
+- Added five original offline PNGs for river, desert, oven, coral reef and deep ocean; linked them to the two Grade 2 habitat-choice activities.
+- All eleven referenced illustrations across both packs are checked by the JVM asset-integrity test.
+- PNG file structure, dimensions and chunk CRCs for the five new Grade 2 images were independently checked; each is 192 × 192.
+
+### CI evidence
+
+- **Run #179 passed** on `fa0afce974a823f17269d87fb184bf68536e872f`.
+- Passed JVM unit tests and checked-in Room schema v1/v2 verification.
+- The workflow is source-only: it does not assemble APKs or execute emulator instrumentation.
+
+### Still open
+
+1. Emulator and physical-device verification of Parent Gate, settings locale/RTL, foreground exit, back navigation and screen sizes.
+2. Android instrumentation for Room foreign-key isolation and actual SQLite migration execution.
+3. Airplane-mode learning session and process/device restart persistence test.
+4. Runtime tests for missing/corrupt image fallback and visual/accessibility checks on target phone sizes.
+5. Independent curriculum and pedagogy review before expanding the small 8+12 English activity pilot; Grade 2 mathematics and English remain narrow samples.
+6. Production-ready versioned content catalog/manifest and full provenance validation across every item and asset.
+7. Provisional mastery thresholds require calibration; no production claim of mastery is allowed.
+
+No APK, release, artifact upload, main merge, Room schema change, Manifest change, Gradle dependency change or signing change was made.

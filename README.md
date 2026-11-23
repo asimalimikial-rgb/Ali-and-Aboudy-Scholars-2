@@ -49,10 +49,12 @@ The active development branch is `foundation/slice-0-android`.
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Learner-home practice summary sourced from the selected learner's Room attempts, showing scored attempts, correct answers, accuracy, and hinted versus independent correct answers
 - Read-only Parent Dashboard shows the selected learner's per-skill attempt evidence and accuracy; access requires the Android device credential, and the dashboard closes when the app leaves the foreground
+- Parent Settings are accessible only from the protected Parent Dashboard; parent UI language (follow device / English / Arabic) is persisted in DataStore and scoped to parent screens, while learner-facing screens keep the device locale and child activities remain English-only
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, offline content-pack loading and failure handling, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
 - Room foreign-key isolation tests retained in source, pending later emulator validation
+- Parent language policy JVM tests cover supported settings, fallback to system locale, RTL selection and isolation from learner-facing screens
 
 ## Important implementation boundaries
 
@@ -161,3 +163,11 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - See [Foundation Pilot Content QA v0.2](docs/units/foundation-pilot-content-qa-v0.2.md) for the expanded 8-item KG2 / 12-item Grade 2 English pilot review.
 - See [Original Offline Media Asset Register v0.1](docs/media-asset-register-v0.1.md) for the six KG2 PNGs, rights notes, integrity checks, and remaining media QA.
 - The current CI workflow compiles Kotlin and runs JVM tests, then checks Room schema v1/v2. It intentionally does not assemble or upload an APK and does not run emulator/device instrumentation.
+
+
+### Latest source validation — 23 November 2026
+
+- [GitHub Actions #179](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/45190733050) passed on commit `fa0afce974a823f17269d87fb184bf68536e872f`.
+- The run passed JVM unit tests and checked-in Room schema v1/v2 verification. It did not build an APK or run Android instrumentation.
+- The five Grade 2 habitat illustrations are included in the same passing source-validation run.
+- The Parent Settings screen and parent-only language override are included in the passing source-validation run.
