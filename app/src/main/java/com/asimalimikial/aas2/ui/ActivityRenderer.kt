@@ -2,13 +2,17 @@ package com.asimalimikial.aas2.ui
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.media.AudioAttributes
+import android.media.MediaPlayer
 import java.io.IOException
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -17,11 +21,13 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.produceState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
@@ -66,50 +72,59 @@ fun ActivityRenderer(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
+                activity.promptAudioAssetPath?.let { path ->
+                    AudioClipButton(path, stringResource(R.string.audio_listen_question))
+                }
                 activity.promptImageAssetPath?.let { path ->
-                    OptionImage(
-                        assetPath = path,
-                        contentDescription = activity.prompt
-                    )
+                    OptionImage(assetPath = path, contentDescription = activity.prompt)
                 }
                 Text(activity.prompt, style = MaterialTheme.typography.titleLarge)
                 activity.options.forEach { option ->
                     val isSelected = selectedOptionId == option.optionId
-                    OutlinedButton(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .semantics { selected = isSelected },
-                        enabled = canChangeAnswer,
-                        onClick = { selectedOptionId = option.optionId },
-                        colors = ButtonDefaults.outlinedButtonColors(
-                            containerColor = if (isSelected) {
-                                MaterialTheme.colorScheme.secondaryContainer
-                            } else {
-                                MaterialTheme.colorScheme.surface
-                            },
-                            contentColor = if (isSelected) {
-                                MaterialTheme.colorScheme.onSecondaryContainer
-                            } else {
-                                MaterialTheme.colorScheme.primary
-                            }
-                        )
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Column(
-                            modifier = Modifier.fillMaxWidth(),
-                            verticalArrangement = Arrangement.spacedBy(8.dp)
+                        OutlinedButton(
+                            modifier = Modifier
+                                .weight(1f)
+                                .semantics { selected = isSelected },
+                            enabled = canChangeAnswer,
+                            onClick = { selectedOptionId = option.optionId },
+                            colors = ButtonDefaults.outlinedButtonColors(
+                                containerColor = if (isSelected) {
+                                    MaterialTheme.colorScheme.secondaryContainer
+                                } else {
+                                    MaterialTheme.colorScheme.surface
+                                },
+                                contentColor = if (isSelected) {
+                                    MaterialTheme.colorScheme.onSecondaryContainer
+                                } else {
+                                    MaterialTheme.colorScheme.primary
+                                }
+                            )
                         ) {
-                            option.imageAssetPath?.let { path ->
-                                OptionImage(
-                                    assetPath = path,
-                                    contentDescription = option.text.ifBlank {
-                                        stringResource(R.string.picture_answer_option)
-                                    }
-                                )
+                            Column(
+                                modifier = Modifier.fillMaxWidth(),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                option.imageAssetPath?.let { path ->
+                                    OptionImage(
+                                        assetPath = path,
+                                        contentDescription = option.text.ifBlank {
+                                            stringResource(R.string.picture_answer_option)
+                                        }
+                                    )
+                                }
+                                val optionLabel = option.text.ifBlank {
+                                    stringResource(R.string.picture_answer_option)
+                                }
+                                Text(if (isSelected) "✓  $optionLabel" else optionLabel)
                             }
-                            val optionLabel = option.text.ifBlank {
-                                stringResource(R.string.picture_answer_option)
-                            }
-                            Text(if (isSelected) "✓  $optionLabel" else optionLabel)
+                        }
+                        activity.optionAudioAssetPaths[option.optionId]?.let { path ->
+                            AudioClipButton(path, stringResource(R.string.audio_listen_option))
                         }
                     }
                 }
@@ -135,6 +150,14 @@ fun ActivityRenderer(
                         color = if (currentEvaluation.isCorrect) MaterialTheme.colorScheme.primary
                         else MaterialTheme.colorScheme.onSurfaceVariant
                     )
+                    val feedbackAudio = if (currentEvaluation.isCorrect) {
+                        activity.feedbackCorrectAudioAssetPath
+                    } else {
+                        activity.feedbackIncorrectAudioAssetPath
+                    }
+                    feedbackAudio?.let { path ->
+                        AudioClipButton(path, stringResource(R.string.audio_listen_feedback))
+                    }
                     if (!currentEvaluation.isCorrect) {
                         OutlinedButton(
                             modifier = Modifier.fillMaxWidth(),
@@ -149,6 +172,103 @@ fun ActivityRenderer(
                 }
             }
         }
+    }
+}
+
+/**
+ * Plays a generated, bundled audio file only. There is no TTS engine, network request,
+ * or silent fallback in the Android playback path.
+ */
+@Composable
+private fun AudioClipButton(
+    assetPath: String,
+    label: String,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    var player by remember(assetPath) { mutableStateOf<MediaPlayer?>(null) }
+    var isLoading by remember(assetPath) { mutableStateOf(false) }
+    var isPlaying by remember(assetPath) { mutableStateOf(false) }
+    var hasError by remember(assetPath) { mutableStateOf(false) }
+    val stopLabel = stringResource(R.string.audio_stop)
+    val loadingLabel = stringResource(R.string.audio_loading)
+    val errorLabel = stringResource(R.string.audio_error)
+
+    fun releasePlayer() {
+        player?.let { active ->
+            runCatching { if (active.isPlaying) active.stop() }
+            runCatching { active.release() }
+        }
+        player = null
+        isLoading = false
+        isPlaying = false
+    }
+
+    DisposableEffect(assetPath) {
+        onDispose { releasePlayer() }
+    }
+
+    Button(
+        modifier = modifier.widthIn(min = 68.dp),
+        enabled = !isLoading,
+        onClick = {
+            if (player != null) {
+                releasePlayer()
+            } else {
+                hasError = false
+                isLoading = true
+                try {
+                    val created = MediaPlayer()
+                    created.setAudioAttributes(
+                        AudioAttributes.Builder()
+                            .setUsage(AudioAttributes.USAGE_MEDIA)
+                            .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                            .build()
+                    )
+                    context.assets.openFd(assetPath).use { descriptor ->
+                        created.setDataSource(
+                            descriptor.fileDescriptor,
+                            descriptor.startOffset,
+                            descriptor.length
+                        )
+                    }
+                    created.setOnPreparedListener { prepared ->
+                        isLoading = false
+                        isPlaying = true
+                        prepared.start()
+                    }
+                    created.setOnCompletionListener { completed ->
+                        completed.release()
+                        if (player === completed) player = null
+                        isPlaying = false
+                    }
+                    created.setOnErrorListener { failed, _, _ ->
+                        failed.release()
+                        if (player === failed) player = null
+                        isLoading = false
+                        isPlaying = false
+                        hasError = true
+                        true
+                    }
+                    player = created
+                    created.prepareAsync()
+                } catch (_: Exception) {
+                    releasePlayer()
+                    hasError = true
+                }
+            }
+        }
+    ) {
+        Text(
+            when {
+                isLoading -> loadingLabel
+                isPlaying -> stopLabel
+                else -> label
+            }
+        )
+    }
+    if (hasError) {
+        Text(errorLabel, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
     }
 }
 
