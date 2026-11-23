@@ -32,10 +32,13 @@ class BundledContentPackAssetsTest {
         val pack = repository.load("aas2-kg2-foundation")
 
         assertEquals("KG2", pack.learnerPath)
+        assertEquals("0.2.0", pack.version)
         assertEquals(4, pack.skills.size)
-        assertEquals(8, pack.activities.size)
-        assertTrue(pack.activities.any { it.language == "en" })
-        assertTrue(pack.activities.any { it.language == "ar" })
+        assertEquals(12, pack.activities.size)
+        assertEquals(8, pack.activities.count { it.language == "en" })
+        assertEquals(4, pack.activities.count { it.language == "ar" })
+        assertTrue(pack.activities.filter { it.language == "en" }.groupBy { it.skillId }.values.all { it.size == 2 })
+        assertTrue(pack.activities.single { it.activityId == "kg2-count-02-en" }.prompt.contains("★ ★ ★ ★"))
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
     }
 
@@ -44,10 +47,15 @@ class BundledContentPackAssetsTest {
         val pack = repository.load("aas2-grade2-foundation")
 
         assertEquals("GRADE_2", pack.learnerPath)
+        assertEquals("0.2.0", pack.version)
         assertEquals(6, pack.skills.size)
-        assertEquals(12, pack.activities.size)
-        assertTrue(pack.activities.any { it.language == "en" })
-        assertTrue(pack.activities.any { it.language == "ar" })
+        assertEquals(18, pack.activities.size)
+        assertEquals(12, pack.activities.count { it.language == "en" })
+        assertEquals(6, pack.activities.count { it.language == "ar" })
+        assertTrue(pack.activities.filter { it.language == "en" }.groupBy { it.skillId }.values.all { it.size == 2 })
+        val measureActivity = pack.activities.single { it.activityId == "g2-measure-02-en" }
+        assertTrue(measureActivity.prompt.contains("120 cm"))
+        assertEquals("a", measureActivity.correctOptionId)
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
     }
 }
