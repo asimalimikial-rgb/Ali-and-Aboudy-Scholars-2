@@ -2,8 +2,6 @@ package com.asimalimikial.aas2.ui
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.media.AudioAttributes
-import android.media.MediaPlayer
 import java.io.IOException
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -22,7 +20,6 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
@@ -56,6 +53,11 @@ fun ActivityRenderer(
     isSubmitting: Boolean = false,
     submissionError: String? = null
 ) {
+    val context = LocalContext.current
+    val audioController = remember(activity.activityId) { OfflineAudioController(context) }
+    androidx.compose.runtime.DisposableEffect(audioController) {
+        onDispose { audioController.release() }
+    }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
@@ -74,7 +76,7 @@ fun ActivityRenderer(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 activity.promptAudioAssetPath?.let { path ->
-                    AudioClipButton(path, stringResource(R.string.audio_listen_question))
+                    AudioClipButton(audioController, path, stringResource(R.string.audio_listen_question))
                 }
                 activity.promptImageAssetPath?.let { path ->
                     OptionImage(assetPath = path, contentDescription = activity.prompt)
@@ -125,7 +127,7 @@ fun ActivityRenderer(
                             }
                         }
                         activity.optionAudioAssetPaths[option.optionId]?.let { path ->
-                            AudioClipButton(path, stringResource(R.string.audio_listen_option))
+                            AudioClipButton(audioController, path, stringResource(R.string.audio_listen_option))
                         }
                     }
                 }
@@ -157,7 +159,7 @@ fun ActivityRenderer(
                         activity.feedbackIncorrectAudioAssetPath
                     }
                     feedbackAudio?.let { path ->
-                        AudioClipButton(path, stringResource(R.string.audio_listen_feedback))
+                        AudioClipButton(audioController, path, stringResource(R.string.audio_listen_feedback))
                     }
                     if (!currentEvaluation.isCorrect) {
                         OutlinedButton(
@@ -182,94 +184,30 @@ fun ActivityRenderer(
  */
 @Composable
 private fun AudioClipButton(
+    controller: OfflineAudioController,
     assetPath: String,
     label: String,
     modifier: Modifier = Modifier
 ) {
-    val context = LocalContext.current
-    var player by remember(assetPath) { mutableStateOf<MediaPlayer?>(null) }
-    var isLoading by remember(assetPath) { mutableStateOf(false) }
-    var isPlaying by remember(assetPath) { mutableStateOf(false) }
-    var hasError by remember(assetPath) { mutableStateOf(false) }
-    val stopLabel = stringResource(R.string.audio_stop)
-    val loadingLabel = stringResource(R.string.audio_loading)
-    val errorLabel = stringResource(R.string.audio_error)
-
-    fun releasePlayer() {
-        player?.let { active ->
-            runCatching { if (active.isPlaying) active.stop() }
-            runCatching { active.release() }
-        }
-        player = null
-        isLoading = false
-        isPlaying = false
+    val isActive = controller.activeAssetPath == assetPath
+    val buttonLabel = when {
+        isActive && controller.isLoading -> stringResource(R.string.audio_loading)
+        isActive && controller.isPlaying -> stringResource(R.string.audio_stop)
+        else -> label
     }
-
-    DisposableEffect(assetPath) {
-        onDispose { releasePlayer() }
-    }
-
     Button(
         modifier = modifier.widthIn(min = 68.dp),
-        enabled = !isLoading,
-        onClick = {
-            if (player != null) {
-                releasePlayer()
-            } else {
-                hasError = false
-                isLoading = true
-                try {
-                    val created = MediaPlayer()
-                    created.setAudioAttributes(
-                        AudioAttributes.Builder()
-                            .setUsage(AudioAttributes.USAGE_MEDIA)
-                            .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
-                            .build()
-                    )
-                    context.assets.openFd(assetPath).use { descriptor ->
-                        created.setDataSource(
-                            descriptor.fileDescriptor,
-                            descriptor.startOffset,
-                            descriptor.length
-                        )
-                    }
-                    created.setOnPreparedListener { prepared ->
-                        isLoading = false
-                        isPlaying = true
-                        prepared.start()
-                    }
-                    created.setOnCompletionListener { completed ->
-                        completed.release()
-                        if (player === completed) player = null
-                        isPlaying = false
-                    }
-                    created.setOnErrorListener { failed, _, _ ->
-                        failed.release()
-                        if (player === failed) player = null
-                        isLoading = false
-                        isPlaying = false
-                        hasError = true
-                        true
-                    }
-                    player = created
-                    created.prepareAsync()
-                } catch (_: Exception) {
-                    releasePlayer()
-                    hasError = true
-                }
-            }
-        }
+        enabled = !(isActive && controller.isLoading),
+        onClick = { controller.toggle(assetPath) }
     ) {
-        Text(
-            when {
-                isLoading -> loadingLabel
-                isPlaying -> stopLabel
-                else -> label
-            }
-        )
+        Text(buttonLabel)
     }
-    if (hasError) {
-        Text(errorLabel, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
+    if (isActive && controller.hasError) {
+        Text(
+            stringResource(R.string.audio_error),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.error
+        )
     }
 }
 
