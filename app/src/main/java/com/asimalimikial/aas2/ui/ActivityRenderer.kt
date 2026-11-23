@@ -157,20 +157,20 @@ private fun OptionImage(
     contentDescription: String
 ) {
     val context = LocalContext.current
-    val bitmap by produceState<android.graphics.Bitmap?>(initialValue = null, key1 = assetPath) {
+    val bitmap by produceState<Bitmap?>(initialValue = null, key1 = assetPath) {
         value = withContext(Dispatchers.IO) {
             try {
+                val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
                 context.assets.open(assetPath).use { input ->
-                    val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
                     BitmapFactory.decodeStream(input, null, bounds)
-                    val sampleSize = calculateSampleSize(bounds.outWidth, bounds.outHeight)
-                    context.assets.open(assetPath).use { imageInput ->
-                        BitmapFactory.decodeStream(
-                            imageInput,
-                            null,
-                            BitmapFactory.Options().apply { inSampleSize = sampleSize }
-                        )
-                    }
+                }
+                val sampleSize = calculateSampleSize(bounds.outWidth, bounds.outHeight)
+                context.assets.open(assetPath).use { input ->
+                    BitmapFactory.decodeStream(
+                        input,
+                        null,
+                        BitmapFactory.Options().apply { inSampleSize = sampleSize }
+                    )
                 }
             } catch (_: IOException) {
                 null
@@ -189,7 +189,6 @@ private fun OptionImage(
         )
     }
 }
-
 
 /** Keeps large supplied illustrations from allocating their full-resolution bitmap in memory. */
 private fun calculateSampleSize(width: Int, height: Int): Int {
