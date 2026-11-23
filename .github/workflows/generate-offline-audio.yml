@@ -44,7 +44,7 @@ jobs:
           curl --fail --location --retry 3 --retry-delay 2 "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2" -o "$MODEL_ARCHIVE"
           echo "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427  $MODEL_ARCHIVE" | sha256sum --check -
           tar -xjf "$MODEL_ARCHIVE" -C "$MODEL_DIR"
-          MODEL_PATH="$(find "$MODEL_DIR" -type f -name tts.json -printf '%h\\n' | head -n 1)"
+          MODEL_PATH="$(find "$MODEL_DIR" -type f -name tts.json -printf '%h\n' | head -n 1)"
           test -n "$MODEL_PATH"
           for f in duration_predictor.int8.onnx text_encoder.int8.onnx vector_estimator.int8.onnx vocoder.int8.onnx tts.json unicode_indexer.bin voice.bin; do test -s "$MODEL_PATH/$f"; done
           echo "MODEL_PATH=$MODEL_PATH" >> "$GITHUB_ENV"
