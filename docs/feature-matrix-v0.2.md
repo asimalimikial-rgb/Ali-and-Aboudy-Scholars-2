@@ -182,3 +182,13 @@ The following implementation evidence supplements, but does not rewrite, the pro
 | EDU-019 | Parent/app chrome is localized independently of English learning content | Runtime policy tests; full parent settings are not yet implemented |
 
 No feature row is marked fully production-verified solely because source CI passed. CI does not prove real-device usability, full curriculum coverage, or production readiness.
+
+
+## Content and media implementation addendum — 23 November 2026
+
+- Both pilot packs were updated to content version 0.2.0 while retaining schema v3. KG2 now contains 8 original English activities across 4 skills; Grade 2 contains 12 across 6 skills. Each skill has two English pilot items. Legacy Arabic records remain stored but are filtered from the child learning runtime.
+- The content QA report is [Foundation Pilot Content QA Review v0.2](units/foundation-pilot-content-qa-v0.2.md). It records corrections to the KG2 counting stimulus, English-only initial-sounds metadata, and Grade 2 centimetre comparison.
+- EDU-034 partial implementation: the renderer supports optional validated raster option images, decodes off the main thread, downsamples large bitmaps, and keeps text options available if an image is missing or corrupt. No bundled pilot item currently references an image, and no SVG pack assets have been approved.
+- EDU-017 remains only source/logic verified; airplane-mode and process-restart device tests remain a release gate.
+- EDU-020 currently gates the read-only Parent Dashboard using Android device credentials. External navigation and parent settings are not implemented by this slice.
+- CI #167 passed on commit 6acf5e89b48b2032929114fa3a71f5df6f15bfad; this is source compilation/JVM test/schema evidence, not emulator or device acceptance.
