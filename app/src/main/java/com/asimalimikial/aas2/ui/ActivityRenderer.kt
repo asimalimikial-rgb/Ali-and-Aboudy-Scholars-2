@@ -1,6 +1,8 @@
 package com.asimalimikial.aas2.ui
 
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import java.io.IOException
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -158,11 +160,22 @@ private fun OptionImage(
     val context = LocalContext.current
     val bitmap by produceState<android.graphics.Bitmap?>(initialValue = null, key1 = assetPath) {
         value = withContext(Dispatchers.IO) {
-            runCatching {
+            try {
                 context.assets.open(assetPath).use { input ->
-                    BitmapFactory.decodeStream(input)
+                    val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+                    BitmapFactory.decodeStream(input, null, bounds)
+                    val sampleSize = calculateSampleSize(bounds.outWidth, bounds.outHeight)
+                    context.assets.open(assetPath).use { imageInput ->
+                        BitmapFactory.decodeStream(
+                            imageInput,
+                            null,
+                            BitmapFactory.Options().apply { inSampleSize = sampleSize }
+                        )
+                    }
                 }
-            }.getOrNull()
+            } catch (_: IOException) {
+                null
+            }
         }
     }
 
@@ -176,4 +189,15 @@ private fun OptionImage(
             contentScale = ContentScale.Fit
         )
     }
+}
+
+
+/** Keeps large supplied illustrations from allocating their full-resolution bitmap in memory. */
+private fun calculateSampleSize(width: Int, height: Int): Int {
+    if (width <= 0 || height <= 0) return 1
+    var sampleSize = 1
+    while (width / sampleSize > 1200 || height / sampleSize > 900) {
+        sampleSize *= 2
+    }
+    return sampleSize
 }
