@@ -1,0 +1,90 @@
+name: Generate offline English speech assets
+
+on:
+  push:
+    branches:
+      - "foundation/**"
+    paths:
+      - "app/src/main/assets/content-packs/**"
+      - "tools/audio/**"
+      - ".github/workflows/generate-offline-audio.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aas2-offline-audio-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install speech generation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check sherpa-onnx==2.0.1 soundfile numpy
+      - name: Download and verify pinned Supertonic 3 model
+        shell: bash
+        run: |
+          set -euo pipefail
+          MODEL_ARCHIVE="$RUNNER_TEMP/supertonic3.tar.bz2"
+          MODEL_DIR="$RUNNER_TEMP/supertonic3"
+          mkdir -p "$MODEL_DIR"
+          curl --fail --location --retry 3 --retry-delay 2 "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2" -o "$MODEL_ARCHIVE"
+          echo "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427  $MODEL_ARCHIVE" | sha256sum --check -
+          tar -xjf "$MODEL_ARCHIVE" -C "$MODEL_DIR"
+          MODEL_PATH="$(find "$MODEL_DIR" -type f -name tts.json -printf '%h\\n' | head -n 1)"
+          test -n "$MODEL_PATH"
+          for f in duration_predictor.int8.onnx text_encoder.int8.onnx vector_estimator.int8.onnx vocoder.int8.onnx tts.json unicode_indexer.bin voice.bin; do test -s "$MODEL_PATH/$f"; done
+          echo "MODEL_PATH=$MODEL_PATH" >> "$GITHUB_ENV"
+      - name: Generate English-only audio at 70 percent speed
+        run: |
+          python tools/audio/generate-offline-speech.py --pack-dir app/src/main/assets/content-packs --model-dir "$MODEL_PATH" --output-dir app/src/main/assets/speech
+      - name: Validate audio manifest, language, speed and file hashes
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          root = pathlib.Path("app/src/main/assets/speech")
+          manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
+          assert manifest["settings"]["language"] == "en"
+          assert manifest["settings"]["speed"] == 0.70
+          assert manifest["count"] == len(manifest["files"])
+          assert manifest["sourceEnglishActivityCount"] > 0
+          assert set(manifest["activities"]) == {x["activityId"] for x in manifest["files"] if x["role"] == "prompt"}
+          total = 0
+          for item in manifest["files"]:
+              assert item["language"] == "en" and item["speed"] == 0.70
+              data = (root / item["file"]).read_bytes()
+              assert len(data) == item["bytes"] and len(data) > 100
+              assert hashlib.sha256(data).hexdigest() == item["sha256"]
+              assert item["durationMs"] >= 100
+              total += len(data)
+          assert total == manifest["totalBytes"]
+          print(f"Validated {manifest['count']} English clips at 70% speed ({total} bytes).")
+          PY
+      - name: Commit generated audio and per-activity asset references
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/speech app/src/main/assets/content-packs
+          if git diff --cached --quiet; then
+            echo "Offline English speech assets are already current."
+          else
+            git commit -m "Generate offline English question audio at 70 percent speed"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
