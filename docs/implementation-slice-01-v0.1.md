@@ -201,3 +201,14 @@ No APK, release, artifact upload, main merge, Room schema change, Manifest chang
 4. Verify 52 prompt images render at phone scale, including missing/corrupt asset fallback and accessibility descriptions.
 5. Continue authoring Grade 2 Science Units 2–5 and the remaining books/subjects; Unit 1 is not the full year curriculum.
 6. No APK, release, merge to main, or signing changes are authorized by this implementation slice.
+
+
+## Expanded learner bank and answer-position correction — 23 November 2026
+
+- The content bank now contains 282 English activities: 108 for Ali KG2 and 174 for Aboudy Grade 2, plus 10 historical Arabic records that are not exposed to children.
+- Exactly 200 newly imported authored activities are present (100 per learner). The 62 additional Grade 2 Science activities are organised as Unit 1 (32 questions across 4 lessons) and Unit 2 (30 questions across 5 lessons).
+- The 200 imported activities were audited for unique prompts, three unique options and one answer key. All were originally keyed to option A; this was corrected by deterministic option reordering without changing the correct answer text. Each learner bank now has A=33, B=33, C=34. Across the full 282-item English bank, the distribution is A=95, B=95, C=92.
+- Image workflow regenerated and verified 282 unique question-specific PNGs after option reordering. The manifest contains 282 unique paths and SHA-256 hashes.
+- Audio workflow run #45207325560 is in progress on the corrected 282-item content revision. Expected total is 1,692 English OGG clips (prompt, three options and two feedback roles per activity), but this is not complete until manifest/hash/duration/language/speed validation succeeds.
+- The 200 imported authored activities remain under item-level rights review before any public redistribution. Science questions are original and mapped to curriculum topics; publisher sources remain REFERENCE_ONLY.
+- The Unit 2 QA review file records structural audit results. Independent subject/pedagogy review and all real-device QA remain open.
