@@ -74,4 +74,11 @@
     <string name="parent_settings_saving">جارٍ الحفظ…</string>
     <string name="parent_settings_save_error">تعذر حفظ الإعدادات. حاول مرة أخرى.</string>
 
+    <string name="choose_book">اختر كتاباً</string>
+    <string name="choose_unit">اختر وحدة</string>
+    <string name="choose_lesson">اختر درساً</string>
+    <string name="back_to_books">العودة إلى الكتب</string>
+    <string name="back_to_units">العودة إلى الوحدات</string>
+    <string name="back_to_lessons">العودة إلى الدروس</string>
+    <string name="additional_practice">تدريبات إضافية</string>
 </resources>
