@@ -35,7 +35,10 @@ The active development branch is `foundation/slice-0-android`.
 - DataStore persistence for the selected learner, with blank IDs rejected
 - Active-profile selection policy; stale, blank, or inactive persisted selections are cleared after Room has loaded profiles
 - Learner chooser and persisted learner-home flow, localized through Android `values` and `values-ar` resources according to the device language, including launcher label, learner names, and pathway labels
-- Learning flow wired into MainActivity: pathway selects the matching bundled pilot pack, activities are filtered to the device language (with English fallback), and ActivitySession submissions persist learner-scoped attempts in Room
+- Learning flow wired into MainActivity: each learner loads only their own bundled pilot pack; child activities are English-only regardless of device locale, grouped into age-appropriate learning areas, and learner-scoped attempts are persisted in Room
+- Question-first session entry: the first unpractised English activity opens immediately; returning to the activity catalogue shows remaining activities and practice markers
+- Learner home derives its available learning areas and activity counts from the actual bundled pack instead of displaying static placeholder subjects
+- Incorrect answers use neutral feedback and an explicit retry action; every retry is persisted as a separate attempt
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
@@ -45,6 +48,7 @@ The active development branch is `foundation/slice-0-android`.
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
 - Learner-scoped progress calculation with accuracy, hinted versus independent correct attempts, separate recent streaks, and provisional mastery bands
 - Learner-home practice summary sourced from the selected learner's Room attempts, showing scored attempts, correct answers, accuracy, and hinted versus independent correct answers
+- Read-only Parent Dashboard shows the selected learner's per-skill attempt evidence and accuracy; access requires the Android device credential, and the dashboard closes when the app leaves the foreground
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, offline content-pack loading and failure handling, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
@@ -57,7 +61,7 @@ The active development branch is `foundation/slice-0-android`.
 - Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
 - Attempt rows are protected by a Room foreign key to the learner profile and all progress reads must remain learner-scoped.
-- A verified source and rights register exists, and two small bilingual pilot packs are bundled and validated. They are not a complete curriculum; additional subject coverage, more activities, and a versioned content-pack catalog remain open.
+- A verified source and rights register exists, and two small schema-v3 pilot packs are bundled and validated. Legacy Arabic variants remain in those files but are not selected by the child learning runtime; they are not a complete curriculum. Additional reviewed content, a versioned content-pack catalog, and expanded curriculum coverage remain open.
 - The migration JVM test verifies the four nullable `ALTER TABLE ... ADD COLUMN` statements and rejects destructive table-drop SQL; it does not execute the migration against a real SQLite database. Room foreign-key and actual migration instrumentation tests remain unexecuted under the no-APK restriction.
 
 ## Source validation
@@ -110,8 +114,8 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Remaining integration gates
 
-- Two source-backed bilingual pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and skill-level progress visualization remain open.
-- The app shell now follows the Android device language through `values` and `values-ar`; activity text and action labels follow the selected content pack language. An in-app language picker and paired localized-content workflow remain open.
+- Two source-backed schema-v3 pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress visualization remain open.
+- App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
 - Option image assets still need a safe offline asset loader and renderer.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - The source/license register and per-pack source references are in place. The current packs are initial samples only; full curriculum mapping, a catalog/manifest, and per-asset review for future images/audio remain open.
@@ -146,3 +150,12 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - [Textbook digital-access investigation v0.2 — BlinkLearning eBooks, licence requirements and legitimate purchase routes](docs/textbook-digital-access-investigation-v0.2.md)
 
 - [MVP Proposal v0.2 — Draft for Product Review](docs/mvp-proposal-v0.2-draft.md)
+
+
+## Implementation slice 01 — 23 November 2026
+
+- The explicit user instruction to begin building was applied to the confirmed core boundaries; it does not automatically approve every optional feature or unresolved v4/Room decision.
+- Implemented English-only question-first learning sessions, learner-specific subject grouping, dynamic home subject availability, per-activity practice markers, and retryable non-punitive feedback.
+- Added a read-only Parent Dashboard with per-skill evidence and an Android device-credential gate. It requires a secure device lock and closes when the app leaves the foreground.
+- See [Implementation Slice 01](docs/implementation-slice-01-v0.1.md) for scope, acceptance coverage, test evidence, and remaining work.
+- The current CI workflow compiles Kotlin and runs JVM tests, then checks Room schema v1/v2. It intentionally does not assemble or upload an APK and does not run emulator/device instrumentation.
