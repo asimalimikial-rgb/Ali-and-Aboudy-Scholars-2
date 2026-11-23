@@ -41,7 +41,14 @@ function makeQuestionSvg(activity, fragments) {
     const y = 12 + Math.floor(index / columns) * cellHeight;
     return `<svg x="${x}" y="${y}" width="${cellWidth}" height="${cellHeight}" ${attrs}>${inner}</svg>`;
   }).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="#dce8f2" stroke-width="2"/>${nested}</svg>`;
+  const identity = crypto.createHash("sha256").update(activity.activityId).digest("hex");
+  const accents = ["#3f8fcb", "#48a987", "#d79a38", "#9a78c9", "#d36d76", "#4d9eaa"];
+  const accent = accents[parseInt(identity.slice(0, 2), 16) % accents.length];
+  const markerCount = 1 + (parseInt(identity.slice(2, 4), 16) % 4);
+  const markers = Array.from({ length: markerCount }, (_, index) =>
+    `<circle cx="${width - 18 - index * 11}" cy="${height - 11}" r="3.2" fill="${accent}"/>`
+  ).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="${accent}" stroke-width="3"/>${nested}${markers}</svg>`;
 }
 
 const packFiles = fs.readdirSync(packDir).filter(name => name.endsWith(".json")).sort();
@@ -59,7 +66,15 @@ for (const filename of packFiles) {
       options: []
     };
     const html = visuals.render(question, {});
-    const fragments = extractSvgFragments(html);
+    const promptFragments = extractSvgFragments(html);
+    const optionFragments = (activity.options || []).map(option => {
+      const optionHtml = visuals.renderOption(question, option.text);
+      const rendered = extractSvgFragments(optionHtml)[0];
+      if (rendered) return rendered;
+      const kinds = visuals.findKinds(option.text);
+      return visuals.svg(kinds[0] || "generic", option.text);
+    });
+    const fragments = optionFragments.length ? optionFragments.concat(promptFragments) : promptFragments;
     const svg = makeQuestionSvg(activity, fragments);
     const png = new Resvg(svg, { fitTo: { mode: "width", value: 384 } }).render().asPng();
     const absolute = path.join(assetRoot, activity.promptImageAssetPath);
@@ -77,6 +92,7 @@ for (const filename of packFiles) {
 if (records.length === 0) throw new Error("No activities declare promptImageAssetPath.");
 if (new Set(records.map(record => record.activityId)).size !== records.length) throw new Error("Duplicate activity IDs in generated art.");
 if (new Set(records.map(record => record.path)).size !== records.length) throw new Error("Question image paths must be unique.");
+if (new Set(records.map(record => record.sha256)).size !== records.length) throw new Error("Question illustrations are not visually unique; refusing to publish duplicate images.");
 const manifest = {
   schemaVersion: 1,
   generator: "Scholars Visual Learning Engine",
