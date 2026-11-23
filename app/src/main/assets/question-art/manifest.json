@@ -1574,8 +1574,8 @@
     {
       "activityId": "kg2-count-01-en",
       "path": "question-art/kg2-count-01-en.png",
-      "bytes": 12426,
-      "sha256": "e91d2dda7ccd309eac13c383987eb71887039fd034164eaff12f65022b185486",
+      "bytes": 13699,
+      "sha256": "a8303bc0444f0f1a3595a84bc43a9970e475830f3108b5b2b842691d5cbbae50",
       "engineVersion": "1.6.0",
       "skillId": "counting-to-five",
       "visualProfile": "math"
@@ -1610,8 +1610,8 @@
     {
       "activityId": "kg2-count-02-en",
       "path": "question-art/kg2-count-02-en.png",
-      "bytes": 12619,
-      "sha256": "8001ee96b724f97d0f20edfd0b8699362cd51074fff3c79a0edb238cd1806ab6",
+      "bytes": 14350,
+      "sha256": "15d1e8b10450d58e2ab230ca6ba3ad7f4f328da4bccf9b51697772d04620bf2a",
       "engineVersion": "1.6.0",
       "skillId": "counting-to-five",
       "visualProfile": "math"
@@ -2006,8 +2006,8 @@
     {
       "activityId": "new-ali-maths-001",
       "path": "question-art/new-ali-maths-001.png",
-      "bytes": 12331,
-      "sha256": "10ac12ffe303a7bcc649c5951336524a6ca1f1badcb450b146675c3a1bcda409",
+      "bytes": 14822,
+      "sha256": "62995514a711be964ebed29106e9ecbd83981d08d265ff11629d34a66366de89",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2015,8 +2015,8 @@
     {
       "activityId": "new-ali-maths-002",
       "path": "question-art/new-ali-maths-002.png",
-      "bytes": 12708,
-      "sha256": "47fe9467943a136ea69c19ff85a7e2aa70b65b66464948ff686ecab77ca9e07c",
+      "bytes": 14476,
+      "sha256": "2a6fe7fe5e48f6b7df16e853469e50d6498e36fe8d9365599d833fc51a7025c2",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2024,8 +2024,8 @@
     {
       "activityId": "new-ali-maths-003",
       "path": "question-art/new-ali-maths-003.png",
-      "bytes": 12805,
-      "sha256": "650e594b0c4bd5b593132644efd8812076499c96a82015ad2b855649ce7a0e1b",
+      "bytes": 13796,
+      "sha256": "dc9f2beb4218bdecb012be26e39ec2732817fa51cd253df4bf7a5e880bcf243b",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2033,8 +2033,8 @@
     {
       "activityId": "new-ali-maths-004",
       "path": "question-art/new-ali-maths-004.png",
-      "bytes": 12216,
-      "sha256": "f7bd37575615f7dd0b0b74311aa6334ef6554704c6bb86682d16e51920ec9f27",
+      "bytes": 13438,
+      "sha256": "3921fb76fa067b1a4b688464d802c0ab2da1a3a6f88293d87d26f763f1181238",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2042,8 +2042,8 @@
     {
       "activityId": "new-ali-maths-005",
       "path": "question-art/new-ali-maths-005.png",
-      "bytes": 13048,
-      "sha256": "448c184236b035f7959adbe86fd13085fd11f5bfeac399a7b5fe8c409fcba635",
+      "bytes": 16527,
+      "sha256": "0c61c31e681cd5569c32ec6f368567034ee4eae58b81b77007130b7444ab70d3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2051,8 +2051,8 @@
     {
       "activityId": "new-ali-maths-006",
       "path": "question-art/new-ali-maths-006.png",
-      "bytes": 13647,
-      "sha256": "fe042eda9da65773cae0c866cce697efdab4335bcd2417a10c71849966f8d57a",
+      "bytes": 15842,
+      "sha256": "0497c12cf411176979d71f6796b0e1a7200ea058f14fee70984527f2fe2a06c9",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2060,8 +2060,8 @@
     {
       "activityId": "new-ali-maths-007",
       "path": "question-art/new-ali-maths-007.png",
-      "bytes": 13730,
-      "sha256": "e4d9324ffa044f86075ced91ba475268f4a0532c822355fd893531fcf7ce295c",
+      "bytes": 17034,
+      "sha256": "9f9e82088c06d65fece24483a6a35ebef822439b9dd165214e8ba680fd6b7357",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2069,8 +2069,8 @@
     {
       "activityId": "new-ali-maths-008",
       "path": "question-art/new-ali-maths-008.png",
-      "bytes": 13821,
-      "sha256": "2e10ac602e9f5d2d6309fc54a181cafee443d35dbfb5024dfdcc3d3dba965ec4",
+      "bytes": 14702,
+      "sha256": "e27e03e982020aa5eaa5c13d547db338524ba85578461a65c4b4b401d0fc2264",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2078,8 +2078,8 @@
     {
       "activityId": "new-ali-maths-009",
       "path": "question-art/new-ali-maths-009.png",
-      "bytes": 13919,
-      "sha256": "d52bf9d790e779b279dd8aa5beba2fc50db969937fa7443d6b4e7eff54fa99ba",
+      "bytes": 16804,
+      "sha256": "efb3beac1b65027fe50a05239066f6a4fe180ab7f90b5094b4696fc5a627f5e3",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
@@ -2087,8 +2087,8 @@
     {
       "activityId": "new-ali-maths-010",
       "path": "question-art/new-ali-maths-010.png",
-      "bytes": 12065,
-      "sha256": "d18b62ee793d87f9a19c13f6571a933e5d819e310da7867e6f1e48d70beac40c",
+      "bytes": 13353,
+      "sha256": "eea0940b71f6a8d8aadc62c682b8ffcc274ad2947a580e304339b3191094f54d",
       "engineVersion": "1.6.0",
       "skillId": "aas2-ali-counting-pictures",
       "visualProfile": "math"
