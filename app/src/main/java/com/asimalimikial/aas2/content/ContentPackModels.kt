@@ -87,7 +87,11 @@ data class ActivityDefinition(
     val assessmentPhase: String? = null,
     val misconceptionCode: String? = null,
     val optionRationales: Map<String, String> = emptyMap(),
-    val promptImageAssetPath: String? = null
+    val promptImageAssetPath: String? = null,
+    val promptAudioAssetPath: String? = null,
+    val optionAudioAssetPaths: Map<String, String> = emptyMap(),
+    val feedbackCorrectAudioAssetPath: String? = null,
+    val feedbackIncorrectAudioAssetPath: String? = null
 )
 
 @Serializable
