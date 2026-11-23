@@ -199,3 +199,13 @@ This section records AAS2-authored coverage, not publisher workbook completion.
 - Every activity has a source-backed skill mapping, three unique answer options, one correct answer, distractor rationales, a misconception code, an assessment phase, and a unique offline prompt illustration.
 - The activities are newly authored from the mapped learning outcomes and public-domain/standards references; no Macmillan pupil-book wording, workbook questions, teacher instructions, diagrams or page artwork was copied.
 - The remaining Macmillan Science units 2–5 and cross-cutting enquiry expansion remain mapped but not yet authored. This is not a complete Level 2 science curriculum.
+
+
+## AAS2 Science Unit 2 authoring status — 23 November 2026
+
+- Unit 2, **Animals and Survival**, is integrated in the Grade 2 schema-v4 book structure as five lessons with six original activities each (30 total).
+- Lesson sequence: What Makes an Animal Living?; Different Kinds of Animals; Insects Around Us; Animal Life Cycles; How Animals Survive.
+- The 30 questions cover animal life evidence, habitat needs, vertebrate/invertebrate grouping, insect body plan, life cycles, predator/prey and observable adaptations.
+- Structural audit: answer distribution A=10, B=10, C=10; no duplicate prompts; three distinct options and one correct key per question. Each question has option rationales, misconception code, assessment phase and a unique prompt image.
+- This is original AAS2 wording aligned to the topic map, not copied Macmillan pupil-book expression. Macmillan source status remains REFERENCE_ONLY.
+- Independent subject/pedagogy review is still required. Units 3–5 remain mapped but not yet authored.
