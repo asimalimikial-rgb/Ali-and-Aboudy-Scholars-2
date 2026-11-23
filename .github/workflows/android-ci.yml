@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   verify-and-test:
-    name: Source validation and unit tests (no APK)
+    name: Source validation, unit tests and debug compile (no release)
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -47,6 +47,11 @@ jobs:
 
       - name: Run JVM unit tests only
         run: gradle :app:testDebugUnitTest
+
+      # Build-only validation: this creates a debug APK and Android test APK,
+      # but does not sign/publish a release or execute device tests.
+      - name: Compile debug app and instrumentation APKs
+        run: gradle :app:assembleDebug :app:assembleDebugAndroidTest
 
       - name: Verify checked-in Room schema exports
         run: |
