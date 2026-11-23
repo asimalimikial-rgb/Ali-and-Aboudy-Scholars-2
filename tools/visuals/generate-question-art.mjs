@@ -160,8 +160,13 @@ for (const filename of packFiles) {
     if (!activity.promptImageAssetPath) continue;
     if (activity.language !== "en") throw new Error(`Question art must be generated only for English activities: ${activity.activityId}`);
     const profile = visualProfile(activity);
-    const countMatch = String(activity.prompt || "").match(/\b(?:shows?|has)\s+(\d{1,2})\s+([a-z-]+)/i);
-    const promptNumber = countMatch ? Number(countMatch[1]) : (visuals.numbersIn(activity.prompt || "")[0]?.value ?? 5);
+    const promptText = String(activity.prompt || "");
+    const numberWords = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+    const countMatch = promptText.match(/\b(?:shows?|has)\s+(\d{1,2}|zero|one|two|three|four|five|six|seven|eight|nine|ten)\s+([a-z-]+)/i);
+    const numberToken = countMatch?.[1] || promptText.match(/\b\d{1,2}\b/)?.[0] || promptText.match(/\b(zero|one|two|three|four|five|six|seven|eight|nine|ten)\b/i)?.[0];
+    const promptNumber = numberToken
+      ? (Number.isFinite(Number(numberToken)) ? Number(numberToken) : (numberWords[numberToken.toLowerCase()] ?? 5))
+      : 5;
     const promptKinds = visuals.findKinds(activity.prompt || "");
     const countedEntity = promptKinds.find(kind => !["number", "dot", "group"].includes(kind)) || "dot";
     const question = {
