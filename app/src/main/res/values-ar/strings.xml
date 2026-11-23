@@ -44,4 +44,18 @@
     <string name="practice_summary_correct_answers">الإجابات الصحيحة: %1$d</string>
     <string name="practice_summary_accuracy">نسبة الإجابات الصحيحة: %1$d%%</string>
     <string name="practice_summary_hint_breakdown">صحيحة دون تلميح: %1$d · مع تلميح: %2$d</string>
+    <string name="activity_try_again">حاول مرة أخرى</string>
+    <string name="open_parent_dashboard">لوحة ولي الأمر</string>
+    <string name="parent_dashboard_title">لوحة ولي الأمر</string>
+    <string name="parent_dashboard_learner">%1$s · %2$s</string>
+    <string name="parent_dashboard_description">عرض خاص للقراءة فقط يوضح تقدم المتعلم المحفوظ على هذا الجهاز.</string>
+    <string name="parent_dashboard_overview">ملخص التعلم</string>
+    <string name="parent_dashboard_attempt_summary">%1$d محاولة · %2$d صحيحة · دقة %3$d%%</string>
+    <string name="parent_dashboard_no_skills">لا توجد سجلات مهارات في حزمة التعلم هذه.</string>
+    <string name="parent_skill_not_assessed">لم يتم تقييمها بعد</string>
+    <string name="parent_skill_attempt_summary">%1$d محاولة · %2$d صحيحة · دقة %3$d%%</string>
+    <string name="parent_gate_title">دخول ولي الأمر</string>
+    <string name="parent_gate_description">أكد قفل شاشة الجهاز لفتح لوحة ولي الأمر.</string>
+    <string name="parent_gate_setup_title">قفل الجهاز مطلوب</string>
+    <string name="parent_gate_setup_message">اضبط رقم PIN أو كلمة مرور أو نمطاً لقفل شاشة Android قبل فتح لوحة ولي الأمر. تظل الأنشطة التعليمية متاحة دون هذا الإعداد.</string>
 </resources>
