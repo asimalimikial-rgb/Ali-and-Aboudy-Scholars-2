@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "schemaVersion": 3,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -503,24 +503,24 @@
       "skillId": "measure-length-centimeters",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which tool is best for measuring the length of a desk?",
+      "prompt": "A desk is 120 cm long. A table is 95 cm long. Which is longer?",
       "options": [
         {
           "optionId": "a",
-          "text": "A ruler"
+          "text": "The desk"
         },
         {
           "optionId": "b",
-          "text": "A cup"
+          "text": "The table"
         },
         {
           "optionId": "c",
-          "text": "A clock"
+          "text": "They are the same length"
         }
       ],
       "correctOptionId": "a",
-      "feedbackCorrect": "A ruler is used to measure length.",
-      "feedbackIncorrect": "Choose the tool that has measurement marks for length.",
+      "feedbackCorrect": "Correct! 120 cm is longer than 95 cm.",
+      "feedbackIncorrect": "Compare 120 cm and 95 cm.",
       "difficulty": 1
     },
     {
