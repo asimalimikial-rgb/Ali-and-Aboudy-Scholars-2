@@ -28,7 +28,7 @@ class BundledContentPackAssetsTest {
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
         assertEquals("KG2", pack.learnerPath)
-        assertEquals("0.2.3", pack.version)
+        assertEquals("0.2.4", pack.version)
         assertEquals(12, pack.skills.size)
         assertEquals(112, pack.activities.size)
         assertEquals(108, pack.activities.count { it.language == "en" })
@@ -45,7 +45,7 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.4.0", pack.version)
+        assertEquals("0.4.1", pack.version)
         assertEquals(4, pack.schemaVersion)
         assertEquals(32, pack.skills.size)
         assertEquals(180, pack.activities.size)
@@ -81,6 +81,12 @@ class BundledContentPackAssetsTest {
         assertEquals(200, newActivities.size)
         assertEquals(100, newActivities.count { it.activityId.startsWith("new-ali-") })
         assertEquals(100, newActivities.count { it.activityId.startsWith("new-aboudy-") })
+        listOf("new-ali-", "new-aboudy-").forEach { prefix ->
+            val learnerItems = newActivities.filter { it.activityId.startsWith(prefix) }
+            assertEquals(33, learnerItems.count { it.correctOptionId == "a" })
+            assertEquals(33, learnerItems.count { it.correctOptionId == "b" })
+            assertEquals(34, learnerItems.count { it.correctOptionId == "c" })
+        }
         assertEquals(200, newActivities.map { it.activityId }.distinct().size)
         assertEquals(200, newActivities.map { it.prompt.trim().lowercase() }.distinct().size)
         newActivities.forEach { activity ->
