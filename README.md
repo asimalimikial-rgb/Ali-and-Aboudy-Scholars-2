@@ -201,3 +201,14 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - Aboudy's original Science Unit 2 adds 30 further reviewed candidate activities. The current packs therefore contain 282 English activities (108 KG2 + 174 Grade 2), plus 10 retained Arabic historical records that are not shown in child sessions.
 - The remaining 616 legacy records are not bulk-copied into the new runtime. Their item-level source, rights, activity-type, and curriculum mappings must be reviewed before migration; protected textbook expression is not redistributed.
 - The 200 migrated records remain marked `REFERENCE_ONLY` pending the project-owner's item-level redistribution review. Do not treat this as public-release rights clearance.
+
+
+## Question-bank expansion and answer-key audit — 23 November 2026
+
+- Current packs contain 282 English activities: Ali KG2 108 and Aboudy Grade 2 174. Ten historical Arabic records remain stored but are excluded from child sessions.
+- The 200 newly imported authored activities are exactly 100 for Ali and 100 for Aboudy. They are additional to the 62 original Grade 2 Science activities (Unit 1: 32; Unit 2: 30).
+- Grade 2 Science is now organised as one book, two units and nine lessons. Unit 1 has four lessons with eight questions each; Unit 2 has five lessons with six questions each.
+- Automated content audit found zero duplicate prompts across the 282 English activities, three distinct options per imported new activity, and one correct key per question. The 200 new activities have balanced answer positions per learner: A=33, B=33, C=34. Overall English bank distribution is A=95, B=95, C=92.
+- All 282 English activities declare unique local prompt-image paths. The image manifest verifies 282 unique activity IDs, paths and SHA-256 values.
+- The audio workflow is generating English-only local assets at speed 0.70. Expected coverage is 1,692 clips (prompt + 3 options + 2 feedback clips per English activity); this is an expected count, not a completed result until the manifest and all files pass validation.
+- The 200 imported authored activities remain under item-level rights review for any future public redistribution. No copyrighted textbook expression is copied into the original Science unit questions.
