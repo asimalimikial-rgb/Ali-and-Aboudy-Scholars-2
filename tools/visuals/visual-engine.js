@@ -4,7 +4,7 @@
 "use strict";
 var NUMBERS={zero:0,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};
 var TERMS={
- apple:["apple","apples"],banana:["banana","bananas"],orange:["orange","oranges"],grape:["grape","grapes"],lemon:["lemon","lemons"],
+ apple:["apple","apples"],banana:["banana","bananas"],orange:["orange","oranges"],grape:["grape","grapes"],lemon:["lemon","lemons"],mango:["mango","mangoes"],donkey:["donkey","donkeys"],frog:["frog","frogs","froglet","froglets"],spider:["spider","spiders"],octopus:["octopus","octopuses"],tadpole:["tadpole","tadpoles"],caterpillar:["caterpillar","caterpillars"],pupa:["pupa","pupae","chrysalis","chrysalises"],polar_bear:["polar bear","polar bears"],tooth:["tooth","teeth"],doctor:["doctor","doctors"],farm:["farm","farms","farmer","farmers"],baker:["baker","bakers"],ramp:["ramp","ramps"],pulley:["pulley","pulleys"],lever:["lever","levers"],rib_cage:["rib cage","rib cages","backbone"],plastic:["plastic"],scale:["scale","scales","weighing scales"],cake:["cake","cakes"],tap:["tap","taps","faucet","faucets"],bin:["bin","recycling bin","recycle bin"],water_vapour:["water vapour","water vapor"],food_chain:["food chain","food chains"],life_cycle:["life cycle","life cycles"],skeleton:["skeleton","skeletons","vertebrate","vertebrates","invertebrate","invertebrates"],gravity:["gravity"],photosynthesis:["photosynthesis"],day_night:["day and night"],balanced_diet:["balanced diet"],recycling:["recycling"],predator:["predator","predators"],prey:["prey"],insect:["insect","insects"],habitat:["habitat","habitats"],evaporation:["evaporation"],water_cycle:["water cycle"],mirror:["mirror","mirrors"],coat:["coat","coats"],cold:["cold","chilly"],
  star:["star","stars"],cat:["cat","cats","kitten","kittens"],dog:["dog","dogs","puppy","puppies"],fox:["fox","foxes"],bird:["bird","birds","chicken","chickens","hen","hens","duck","ducks","owl","owls"],
  fish:["fish","fishes"],bee:["bee","bees"],butterfly:["butterfly","butterflies"],pig:["pig","pigs"],cow:["cow","cows"],goat:["goat","goats"],camel:["camel","camels"],rabbit:["rabbit","rabbits"],elephant:["elephant","elephants"],
  sun:["sun","sunlight","sunny","daylight","light"],moon:["moon"],cloud:["cloud","clouds"],rain:["rain","rainy"],wind:["wind","windy","air"],rainbow:["rainbow","rainbows"],
@@ -60,6 +60,46 @@ function body(kind){
  case "apple":return '<path d="M50 28C24 15 12 35 21 61c6 19 17 25 29 17 12 8 23 2 29-17 9-26-3-46-29-33Z" fill="#ef4444" stroke="#a92735" stroke-width="3"/><path d="M50 29c-3-12 2-18 10-22" fill="none" stroke="#79502e" stroke-width="5" stroke-linecap="round"/><path d="M55 14c13-10 25-3 23 8-10 6-20 3-23-8Z" fill="#35a853" stroke="#20763a" stroke-width="2"/><path d="M31 42c-4 8-3 16 1 20" fill="none" stroke="#ffb1a5" stroke-width="4" stroke-linecap="round"/>';
  case "banana":return '<path d="M18 22c8 32 29 51 57 40 8-3 13-9 15-17-9 6-17 7-25 3-18-8-29-25-34-43-6 4-10 10-13 17Z" fill="#ffd43b" stroke="#bd8619" stroke-width="3"/><path d="M18 22l-5-5m73 28 7 1" stroke="#805b27" stroke-width="5" stroke-linecap="round"/>';
  case "orange":return '<circle cx="50" cy="49" r="31" fill="#ff9b32" stroke="#d66b16" stroke-width="3"/><path d="M48 18c0-9 7-12 15-10-1 9-7 14-15 10Z" fill="#39984b" stroke="#26733a" stroke-width="2"/><path d="M50 20v-7" stroke="#79502e" stroke-width="4"/><circle cx="39" cy="39" r="3" fill="#ffc16c"/><circle cx="61" cy="55" r="3" fill="#ffc16c"/>';
+ case "mango":return '<path d="M48 16C22 17 10 39 22 65c10 23 39 24 55 3 18-25 4-52-29-52Z" fill="#f4ad32" stroke="#b66b1d" stroke-width="3"/><path d="M58 13c15-9 27-2 25 10-11 6-22 3-25-10Z" fill="#3c9b55" stroke="#26723d" stroke-width="2"/>';
+ case "donkey":return '<ellipse cx="50" cy="58" rx="30" ry="22" fill="#9ca3af" stroke="#59616b" stroke-width="3"/><path d="M63 48q8-19 5-31l9-12 5 28q13 5 9 21-7 16-25 9Z" fill="#aeb5bf" stroke="#59616b" stroke-width="3"/><path d="M68 19 66 2 58 0 58 22M79 18 84 2 91 4 86 27" fill="#858d98" stroke="#59616b" stroke-width="3"/><circle cx="78" cy="39" r="3" fill="#263b4d"/><path d="M29 73v15m15-12v12m22-14v14m12-18v18" stroke="#59616b" stroke-width="5" stroke-linecap="round"/>';
+ case "frog":return '<ellipse cx="50" cy="57" rx="31" ry="24" fill="#5dbb68" stroke="#287d43" stroke-width="3"/><circle cx="31" cy="31" r="13" fill="#75ce79" stroke="#287d43" stroke-width="3"/><circle cx="69" cy="31" r="13" fill="#75ce79" stroke="#287d43" stroke-width="3"/><circle cx="31" cy="31" r="5" fill="#263b4d"/><circle cx="69" cy="31" r="5" fill="#263b4d"/><path d="M33 61q17 15 34 0M27 75l-14 10m60-10 14 10" fill="none" stroke="#287d43" stroke-width="4"/>';
+ case "spider":return '<circle cx="50" cy="52" r="17" fill="#394b5c"/><circle cx="50" cy="29" r="12" fill="#536879"/><path d="M36 42 16 24 6 30m8 24L4 53m32 12L15 82 7 77m57-35 20-18 10 6m-9 17 12-1m-33 21 21 17 8-5" fill="none" stroke="#394b5c" stroke-width="5" stroke-linecap="round"/>';
+ case "octopus":return '<path d="M25 53c-12 17-12 31-2 31s9-12 16-15c5 19 17 24 21 12 2-7-3-13-4-18 14 19 28 18 29 7 1-8-8-13-17-18 20 8 31-1 25-10-5-7-17-5-27-2 13-14 8-31-3-31-8 0-12 10-13 20-7-20-24-23-29-12-4 8 3 17 12 23-19-7-31 2-25 12 4 6 14 5 27 1Z" fill="#a879d6" stroke="#65439b" stroke-width="3"/><circle cx="43" cy="43" r="3" fill="#263b4d"/><circle cx="59" cy="43" r="3" fill="#263b4d"/>';
+ case "tadpole":return '<circle cx="35" cy="48" r="18" fill="#4caa62" stroke="#26723d" stroke-width="3"/><path d="M51 49q24-18 43 0-18 4-32 13" fill="#75c77b" stroke="#26723d" stroke-width="3"/>';
+ case "caterpillar":return '<circle cx="23" cy="56" r="16" fill="#8acb5a" stroke="#4b8b35" stroke-width="3"/><circle cx="44" cy="56" r="16" fill="#78bd4f" stroke="#4b8b35" stroke-width="3"/><circle cx="65" cy="56" r="16" fill="#8acb5a" stroke="#4b8b35" stroke-width="3"/><circle cx="82" cy="48" r="14" fill="#62ad47" stroke="#4b8b35" stroke-width="3"/>';
+ case "pupa":return '<path d="M48 15q-19 13-13 40 4 23 17 27 16-13 16-34 0-23-20-33Z" fill="#a6b96b" stroke="#647c43" stroke-width="3"/><path d="M19 15q31 9 60 0" stroke="#7d5933" stroke-width="4" fill="none"/>';
+ case "tooth":return '<path d="M27 18q-14 4-12 23 3 14 11 19 7 4 11 22 3 11 9 8 6-3 7-17 2-13 7-13 6 0 8 13 2 14 8 16 7 2 9-11 2-16 8-25 9-13 0-29-9-15-24-8-14 7-25 1-10-5-17 1Z" fill="#fffdf1" stroke="#9aa8b5" stroke-width="3"/>';
+ case "doctor":return '<circle cx="50" cy="22" r="15" fill="#d99b70" stroke="#885b40" stroke-width="3"/><path d="M28 43q22-14 44 0l9 42H19Z" fill="#f7fbff" stroke="#7895ad" stroke-width="3"/><path d="M42 47v20q8 12 16 0V47" stroke="#3e8fbb" stroke-width="4" fill="none"/>';
+ case "farm":return '<path d="M10 48 50 17 90 48v36H10Z" fill="#e6a34e" stroke="#9a642e" stroke-width="3"/><path d="M34 84V55h32v29" fill="#b85d45" stroke="#7d3d31" stroke-width="3"/><path d="M5 91q22-15 45 0t45 0" stroke="#5e9d55" stroke-width="5" fill="none"/>';
+ case "baker":return '<circle cx="50" cy="25" r="14" fill="#d99b70" stroke="#885b40" stroke-width="3"/><path d="M34 14q16-21 32 0" fill="#fff" stroke="#a6b3bf" stroke-width="3"/><path d="M25 45q25-16 50 0l6 40H19Z" fill="#fff" stroke="#a6b3bf" stroke-width="3"/><path d="M38 68q-2-17 12-17t12 17q-12 10-24 0Z" fill="#dca45c" stroke="#9c642f" stroke-width="3"/>';
+ case "ramp":return '<path d="M10 83 83 32 91 83Z" fill="#d7e4ef" stroke="#6e8da7" stroke-width="3"/><rect x="43" y="43" width="19" height="12" rx="3" fill="#e65b4e" stroke="#9b3e36" stroke-width="2" transform="rotate(-34 52 49)"/>';
+ case "pulley":return '<circle cx="50" cy="36" r="21" fill="#dce7ef" stroke="#607b91" stroke-width="5"/><circle cx="50" cy="36" r="6" fill="#607b91"/><path d="M29 36v42q0 12 13 12h16q13 0 13-12V36" fill="none" stroke="#b67a3d" stroke-width="4"/>';
+ case "lever":return '<path d="M12 76 88 76 50 30Z" fill="#d8e5ee" stroke="#67849a" stroke-width="3"/><path d="M10 30 90 70" stroke="#b77c3c" stroke-width="8" stroke-linecap="round"/>';
+ case "rib_cage":return '<path d="M50 12v70" stroke="#d8dfe5" stroke-width="8" stroke-linecap="round"/><path d="M50 25q-36-17-34 8 2 16 34 17m0-25q36-17 34 8-2 16-34 17m0 0q-30 0-28 20 2 10 28 9m0-29q30 0 28 20-2 10-28 9" stroke="#e9edf0" stroke-width="6" fill="none" stroke-linecap="round"/>';
+ case "plastic":return '<path d="M40 12h20v12l9 9v51H31V33l9-9Z" fill="#a9d9ee" stroke="#4c8aa8" stroke-width="3"/>';
+ case "scale":return '<path d="M50 18v60M25 32h50M30 32 16 62h28ZM70 32 56 62h28Z" stroke="#607b91" stroke-width="4" fill="none"/>';
+ case "cake":return '<path d="M15 42h70v39H15Z" fill="#e8a0a8" stroke="#a75e69" stroke-width="3"/><path d="M15 42q35-25 70 0" fill="#fff0d8" stroke="#a75e69" stroke-width="3"/>';
+ case "tap":return '<path d="M20 37h45q15 0 15 15v7H63v-6q0-5-5-5H20Z" fill="#9fb6c7" stroke="#607b91" stroke-width="4"/><path d="M35 37V20h35v17" stroke="#607b91" stroke-width="4" fill="none"/><path d="M72 62q-8 12 0 20 8-8 0-20Z" fill="#48a9d7"/>';
+ case "bin":return '<path d="M26 28h48l-5 59H31Z" fill="#67a8c7" stroke="#3b728f" stroke-width="3"/><path d="M20 25h60M39 18h22" stroke="#3b728f" stroke-width="5" stroke-linecap="round"/>';
+ case "polar_bear":return body("bear");
+ case "water_vapour":return body("cloud");
+ case "food_chain":return body("plant");
+ case "life_cycle":return body("butterfly");
+ case "skeleton":return body("rib_cage");
+ case "gravity":return body("planet");
+ case "photosynthesis":return body("plant");
+ case "day_night":return body("planet");
+ case "balanced_diet":return body("plate");
+ case "recycling":return body("bin");
+ case "predator":return body("fox");
+ case "prey":return body("rabbit");
+ case "insect":return body("bee");
+ case "habitat":return body("tree");
+ case "evaporation":return body("water");
+ case "water_cycle":return body("cloud");
+ case "mirror":return body("glass");
+ case "coat":return body("raincoat");
+ case "cold":return body("ice");
  case "star":return '<path d="m50 7 11 27 29 2-22 18 7 29-25-16-25 16 7-29L10 36l29-2Z" fill="#ffd34e" stroke="#d39a20" stroke-width="3" stroke-linejoin="round"/><path d="m39 36 3-7m15 13 7 1" stroke="#fff2b5" stroke-width="3" stroke-linecap="round"/>';
  case "cat":return '<path d="M23 39 19 12l22 15q9-4 18 0l22-15-4 29" fill="#f3b76c" stroke="#895a32" stroke-width="4" stroke-linejoin="round"/><ellipse cx="50" cy="54" rx="31" ry="28" fill="#f6c987" stroke="#895a32" stroke-width="3"/><ellipse cx="39" cy="49" rx="4" ry="6" fill="#263b4d"/><ellipse cx="61" cy="49" rx="4" ry="6" fill="#263b4d"/><path d="m45 61 5 4 5-4m-10 5q-8 8-16 1m26-1q8 8 16 1" fill="none" stroke="#895a32" stroke-width="2.5" stroke-linecap="round"/><path d="M20 61 5 57m16 10L5 71m74-10 16-4M79 67l16 4" stroke="#895a32" stroke-width="2"/>';
  case "dog":return '<path d="M26 34Q4 10 12 55q4 19 23 8M74 34Q96 10 88 55q-4 19-23 8" fill="#a96a3c" stroke="#744324" stroke-width="3"/><ellipse cx="50" cy="53" rx="31" ry="30" fill="#d89a62" stroke="#744324" stroke-width="3"/><ellipse cx="39" cy="47" rx="4" ry="5" fill="#263b4d"/><ellipse cx="61" cy="47" rx="4" ry="5" fill="#263b4d"/><ellipse cx="50" cy="62" rx="13" ry="10" fill="#f8e2c8"/><ellipse cx="50" cy="58" rx="5" ry="4" fill="#263b4d"/><path d="M50 62v7q-8 8-14 0m14 0q8 8 14 0" fill="none" stroke="#744324" stroke-width="2.5" stroke-linecap="round"/>';
@@ -731,5 +771,5 @@ function renderOption(q,value){
  }
  return '<div class="visual-choice-art" data-option-visual-kind="word-card">'+wordCardVisual(label)+'</div>';
 }
-root.ScholarsVisuals={version:"1.6.0",render:render,renderOption:renderOption,optionVisualKind:optionVisualKind,kindOf:kindOf,svg:svg,findKinds:findKinds,countedEntities:countedEntities,visualKinds:Object.keys(TERMS),hasSpecificVisual:hasSpecificVisual};
+root.ScholarsVisuals={version:"1.7.0",render:render,renderOption:renderOption,optionVisualKind:optionVisualKind,kindOf:kindOf,svg:svg,findKinds:findKinds,countedEntities:countedEntities,visualKinds:Object.keys(TERMS),hasSpecificVisual:hasSpecificVisual};
 })(window);
