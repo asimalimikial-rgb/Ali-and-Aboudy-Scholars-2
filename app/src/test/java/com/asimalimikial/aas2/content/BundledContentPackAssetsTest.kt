@@ -51,6 +51,7 @@ class BundledContentPackAssetsTest {
         assertEquals(180, pack.activities.size)
         assertEquals(174, pack.activities.count { it.language == "en" })
         assertEquals(6, pack.activities.count { it.language == "ar" })
+        assertEquals(100, pack.activities.count { it.activityId.startsWith("new-aboudy-") })
         assertEquals(1, pack.books.size)
         assertEquals("macmillan-science-level2", pack.books.single().bookId)
         assertEquals(2, pack.units.size)
@@ -68,6 +69,27 @@ class BundledContentPackAssetsTest {
         assertEquals("a", measureActivity.correctOptionId)
     }
 
+    @Test
+    fun exactlyOneHundredNewActivitiesWereAddedForEachLearnerWithoutDuplicatePrompts() = runBlocking<Unit> {
+        val packs = listOf(
+            repository.load("aas2-kg2-foundation"),
+            repository.load("aas2-grade2-foundation")
+        )
+        val newActivities = packs.flatMap { it.activities }.filter {
+            it.activityId.startsWith("new-ali-") || it.activityId.startsWith("new-aboudy-")
+        }
+        assertEquals(200, newActivities.size)
+        assertEquals(100, newActivities.count { it.activityId.startsWith("new-ali-") })
+        assertEquals(100, newActivities.count { it.activityId.startsWith("new-aboudy-") })
+        assertEquals(200, newActivities.map { it.activityId }.distinct().size)
+        assertEquals(200, newActivities.map { it.prompt.trim().lowercase() }.distinct().size)
+        newActivities.forEach { activity ->
+            assertEquals(3, activity.options.size)
+            assertEquals(3, activity.options.map { it.text.trim() }.distinct().size)
+            assertEquals(1, activity.options.count { it.optionId == activity.correctOptionId })
+            assertTrue(activity.promptImageAssetPath?.startsWith("question-art/") == true)
+        }
+    }
     @Test
     fun everyReferencedOptionIllustrationExistsAndIsAValidPng() = runBlocking<Unit> {
         val packs = listOf(
