@@ -143,5 +143,6 @@ The initial Android namespace and application ID are `com.asimalimikial.aas2`. T
 
 These are evidence-graded planning documents. They do not authorize Android runtime, schema, Room, APK, release, or main-branch changes.
 - [Textbook covers, ISBNs, official samples and lawful digital access register](docs/textbook-covers-and-digital-access-register-v0.1.md)
+- [Textbook digital-access investigation v0.2 — BlinkLearning eBooks, licence requirements and legitimate purchase routes](docs/textbook-digital-access-investigation-v0.2.md)
 
 - [MVP Proposal v0.2 — Draft for Product Review](docs/mvp-proposal-v0.2-draft.md)
