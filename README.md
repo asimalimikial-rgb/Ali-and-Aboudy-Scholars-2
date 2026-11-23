@@ -102,7 +102,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Initial original-content pilot packs
 
-- Bundled assets: `aas2-kg2-foundation` (4 skills, 12 stored activity records: 8 English plus 4 legacy Arabic variants) and `aas2-grade2-foundation` (6 skills, 18 records: 12 English plus 6 legacy Arabic variants), each with source-reference and rights metadata. The child runtime exposes English activities only; Arabic child-activity support is deferred.
+- Bundled assets (content version 0.2.0, schema v3): `aas2-kg2-foundation` (4 skills, 12 stored activity records: 8 English plus 4 legacy Arabic variants) and `aas2-grade2-foundation` (6 skills, 18 records: 12 English plus 6 legacy Arabic variants), each with source-reference and rights metadata. The child runtime exposes English activities only; Arabic child-activity support is deferred.
 - These are small foundation pilots, not complete KG2 or Grade 2 curricula. Their activity wording and options are original; copyrighted textbook passages, exercises, illustrations, and scripts are not included.
 - `AssetContentPackRepository` loads and validates these assets through the MainActivity learning flow and read-only Parent Dashboard. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress remain open.
 
