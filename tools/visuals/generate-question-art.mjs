@@ -48,9 +48,9 @@ function makeQuestionSvg(activity, fragments, serial) {
   const markers = Array.from({ length: markerCount }, (_, index) =>
     `<circle cx="${width - 18 - index * 11}" cy="${height - 11}" r="3.2" fill="${accent}"/>`
   ).join("");
-  // A tiny 8-bit serial pattern guarantees a distinct raster for every activity
+  // A tiny 16-bit serial pattern guarantees a distinct raster for every activity
   // while leaving the semantic illustration and readable question content intact.
-  const identityDots = Array.from({ length: 8 }, (_, bit) => {
+  const identityDots = Array.from({ length: 16 }, (_, bit) => {
     const set = (serial >> bit) & 1;
     const x = width - 18 - (bit % 4) * 6;
     const y = height - 22 - Math.floor(bit / 4) * 6;
