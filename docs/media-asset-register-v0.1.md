@@ -63,13 +63,13 @@ The shared JVM asset-integrity test now expects eleven unique referenced illustr
 
 ## Per-question illustrations — 23 November 2026
 
-- Added 52 original prompt illustrations, one for each English activity in the two learner packs: 8 KG2 and 44 Grade 2.
+- Added 282 original prompt illustrations, one for each English activity in the two learner packs: 108 KG2 and 174 Grade 2.
 - Files are generated under `app/src/main/assets/question-art/`; `manifest.json` records activity ID, relative path, byte length, SHA-256 and generator version.
 - Generator: the extracted user-owned Scholars Visual Learning Engine v1.6.0, executed only in CI; SVG fragments are rasterized to PNG using pinned `@resvg/resvg-js`. The legacy JavaScript engine is not packaged into Android.
-- All 52 paths are unique and all 52 PNG SHA-256 values are distinct. The generator refuses to commit duplicate image bytes.
+- All 282 paths are unique and all 282 PNG SHA-256 values are distinct. The generator refuses to commit duplicate image bytes.
 - The illustrations are newly rendered from semantic vector shapes and do not contain textbook scans, diagrams or copied publisher artwork.
 - The prompt-image field is displayed above the question; answer option text remains visible. The image supplements rather than replaces the learning prompt.
-- Visual workflow: [GitHub Actions #45205308307](https://github.com/asimalimikial/Ali-and-Aboudy-Scholars-2/actions/runs/45205308307) — Success.
+- Visual workflow: [GitHub Actions #45206887691](https://github.com/asimalimikial/Ali-and-Aboudy-Scholars-2/actions/runs/45205308307) — Success.
 - Phone-scale visual quality, missing/corrupt prompt-image fallback, TalkBack descriptions and physical-device verification remain open.
 
 ## English offline audio generation — implementation in progress
