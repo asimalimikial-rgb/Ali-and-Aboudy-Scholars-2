@@ -56,7 +56,7 @@ The active development branch is `foundation/slice-0-android`.
 
 ## Important implementation boundaries
 
-- `AssetContentPackRepository` can load and validate bundled JSON packs from `assets/content-packs/{packId}.json`. It is not yet wired into `MainActivity` or a complete activity-navigation flow; the caller must still provide the selected learner, content pack, activity, and submission service to `ActivitySession`.
+- `AssetContentPackRepository` loads and validates bundled JSON packs from `assets/content-packs/{packId}.json` and is wired into `MainActivity`, `LearningExperienceScreen`, and the read-only `ParentDashboardScreen`. The learning screen opens the next unpractised English activity, then supports subject-grouped catalogue navigation and learner-scoped progress.
 - Legacy attempt rows retain null values for the snapshot fields introduced in schema v2 because the earlier app version never recorded those values. New submissions persist the content-pack identity/version, selected option ID, and the exact feedback text shown at evaluation time.
 - Option image assets are validated as safe relative paths but are not yet rendered by the Compose activity UI.
 - Mastery bands are an initial deterministic rule set, not yet calibrated against educational research or child-specific learning data. Hint-assisted correct responses are reported separately and do not qualify for the independent mastery streak.
