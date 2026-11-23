@@ -1,8 +1,11 @@
 package com.asimalimikial.aas2.ui
 
+import android.graphics.BitmapFactory
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -13,10 +16,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.selected
@@ -25,7 +32,10 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
+import com.asimalimikial.aas2.content.AnswerOption
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 /** Renders one validated single-choice activity; submission is delegated to the caller. */
 @Composable
@@ -77,7 +87,23 @@ fun ActivityRenderer(
                             }
                         )
                     ) {
-                        Text(if (isSelected) "✓  " + option.text else option.text)
+                        Column(
+                            modifier = Modifier.fillMaxWidth(),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            option.imageAssetPath?.let { path ->
+                                OptionImage(
+                                    assetPath = path,
+                                    contentDescription = option.text.ifBlank {
+                                        stringResource(R.string.picture_answer_option)
+                                    }
+                                )
+                            }
+                            val optionLabel = option.text.ifBlank {
+                                stringResource(R.string.picture_answer_option)
+                            }
+                            Text(if (isSelected) "✓  $optionLabel" else optionLabel)
+                        }
                     }
                 }
                 if (currentEvaluation == null) {
@@ -116,5 +142,38 @@ fun ActivityRenderer(
                 }
             }
         }
+    }
+}
+
+/**
+ * Loads an optional raster illustration from the app's bundled assets.
+ * Missing, corrupt, or unsupported images resolve to null; the answer label remains usable.
+ * The path is already checked by ContentPackValidator before a pack reaches this renderer.
+ */
+@Composable
+private fun OptionImage(
+    assetPath: String,
+    contentDescription: String
+) {
+    val context = LocalContext.current
+    val bitmap by produceState<android.graphics.Bitmap?>(initialValue = null, assetPath) {
+        value = withContext(Dispatchers.IO) {
+            runCatching {
+                context.assets.open(assetPath).use { input ->
+                    BitmapFactory.decodeStream(input)
+                }
+            }.getOrNull()
+        }
+    }
+
+    bitmap?.let { decoded ->
+        Image(
+            bitmap = decoded.asImageBitmap(),
+            contentDescription = contentDescription,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(112.dp),
+            contentScale = ContentScale.Fit
+        )
     }
 }
