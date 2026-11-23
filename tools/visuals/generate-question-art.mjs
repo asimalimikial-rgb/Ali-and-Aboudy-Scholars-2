@@ -25,6 +25,9 @@ function visualProfile(activity) {
   if (/initial-sounds|rhyming|phonics|letter-sound/.test(skill)) {
     return { type: "phonics", skill: "phonics", textFirst: false };
   }
+  if (/counting-pictures|counting-to-five/.test(skill)) {
+    return { type: "counting", skill: "math", textFirst: false };
+  }
   if (/reading-comprehension|reading|story/.test(skill)) {
     return { type: "reading_comprehension", skill: "reading", textFirst: true };
   }
@@ -157,20 +160,27 @@ for (const filename of packFiles) {
     if (!activity.promptImageAssetPath) continue;
     if (activity.language !== "en") throw new Error(`Question art must be generated only for English activities: ${activity.activityId}`);
     const profile = visualProfile(activity);
+    const countMatch = String(activity.prompt || "").match(/\b(?:shows?|has)\s+(\d{1,2})\s+([a-z-]+)/i);
+    const promptNumber = countMatch ? Number(countMatch[1]) : (visuals.numbersIn(activity.prompt || "")[0]?.value ?? 5);
+    const promptKinds = visuals.findKinds(activity.prompt || "");
+    const countedEntity = promptKinds.find(kind => !["number", "dot", "group"].includes(kind)) || "dot";
     const question = {
       id: activity.activityId,
       type: profile.type,
       skill: profile.skill,
       prompt: activity.prompt,
-      options: (activity.options || []).map(option => option.text)
+      options: (activity.options || []).map(option => option.text),
+      legacyData: profile.type === "counting" ? { entities: [countedEntity], count: promptNumber } : {}
     };
-    const promptFragments = profile.skill === "math"
-      ? [mathPromptSvg(activity)]
-      : profile.skill === "english-grammar"
-        ? [wordCardSvg(activity.prompt)]
-        : profile.type === "reading_comprehension"
-          ? [visuals.svg("book", "reading")]
-          : extractSvgFragments(visuals.render(question, {}));
+    const promptFragments = profile.type === "counting"
+      ? extractSvgFragments(visuals.render(question, {}))
+      : profile.skill === "math"
+        ? [mathPromptSvg(activity)]
+        : profile.skill === "english-grammar"
+          ? [wordCardSvg(activity.prompt)]
+          : profile.type === "reading_comprehension"
+            ? [visuals.svg("book", "reading")]
+            : extractSvgFragments(visuals.render(question, {}));
     const optionFragments = (activity.options || []).map(option => {
       const optionText = String(option.text || "").trim();
       if (profile.textFirst) return wordCardSvg(optionText);
