@@ -79,7 +79,8 @@ fun LearningExperienceScreen(
     }
     val activitiesByDomain = remember(activities, skillById) {
         activities.groupBy { activity ->
-            skillById[activity.skillId]?.domain ?: "General practice"
+            val domain = skillById[activity.skillId]?.domain ?: "General practice"
+            ContentPackSelectionPolicy.subjectForDomain(domain, learnerPathway)
         }
     }
     val practicedActivityIds = remember(attempts, packId) {
