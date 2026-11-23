@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.layout.weight
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -59,11 +58,11 @@ fun ActivityRenderer(
     androidx.compose.runtime.DisposableEffect(audioController) {
         onDispose { audioController.release() }
     }
+    var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
+    val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     LaunchedEffect(activity.activityId, currentEvaluation) {
         audioController.stop()
     }
-    var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
-    val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
     val canChangeAnswer = currentEvaluation == null && !isSubmitting
     val checkAnswerLabel = stringResource(
