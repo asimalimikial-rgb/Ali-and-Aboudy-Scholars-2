@@ -353,7 +353,7 @@ private fun UnitCard(
 ) {
     Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
         Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Unit ${unit.sequence}: ${unit.title}", style = MaterialTheme.typography.titleLarge)
+            Text(stringResource(R.string.unit_number_title, unit.sequence, unit.title), style = MaterialTheme.typography.titleLarge)
             Text(
                 stringResource(R.string.learning_area_progress, practicedCount, activityCount),
                 style = MaterialTheme.typography.bodyMedium,
@@ -372,7 +372,7 @@ private fun LessonCard(
 ) {
     Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
         Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Lesson ${lesson.sequence}: ${lesson.title}", style = MaterialTheme.typography.titleLarge)
+            Text(stringResource(R.string.lesson_number_title, lesson.sequence, lesson.title), style = MaterialTheme.typography.titleLarge)
             Text(
                 stringResource(R.string.learning_area_progress, practicedCount, activityCount),
                 style = MaterialTheme.typography.bodyMedium,
