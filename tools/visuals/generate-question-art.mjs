@@ -131,7 +131,57 @@ function countedObjectsSvg(kind, count) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/>${objects}</svg>`;
 }
 
-function makeQuestionSvg(activity, fragments, serial) {
+const PNG_CRC_TABLE = new Uint32Array(256);
+for (let index = 0; index < 256; index++) {
+  let value = index;
+  for (let bit = 0; bit < 8; bit++) value = (value & 1) ? (0xedb88320 ^ (value >>> 1)) : (value >>> 1);
+  PNG_CRC_TABLE[index] = value >>> 0;
+}
+
+function crc32(buffer) {
+  let value = 0xffffffff;
+  for (const byte of buffer) value = PNG_CRC_TABLE[(value ^ byte) & 0xff] ^ (value >>> 8);
+  return (value ^ 0xffffffff) >>> 0;
+}
+
+function pngTextChunk(keyword, value) {
+  const type = Buffer.from("tEXt", "ascii");
+  const data = Buffer.concat([
+    Buffer.from(keyword, "latin1"),
+    Buffer.from([0]),
+    Buffer.from(value, "latin1")
+  ]);
+  const length = Buffer.alloc(4);
+  length.writeUInt32BE(data.length, 0);
+  const crcInput = Buffer.concat([type, data]);
+  const checksum = Buffer.alloc(4);
+  checksum.writeUInt32BE(crc32(crcInput), 0);
+  return Buffer.concat([length, type, data, checksum]);
+}
+
+function addPngMetadata(png, activityId, visualProfile) {
+  const signature = png.subarray(0, 8);
+  const chunks = [];
+  let offset = 8;
+  while (offset + 12 <= png.length) {
+    const length = png.readUInt32BE(offset);
+    const type = png.toString("ascii", offset + 4, offset + 8);
+    const end = offset + 12 + length;
+    if (end > png.length) throw new Error("Malformed PNG chunk while adding question metadata.");
+    if (type === "IEND") {
+      const metadata = Buffer.concat([
+        pngTextChunk("AAS2-Activity-ID", activityId),
+        pngTextChunk("AAS2-Visual-Profile", visualProfile)
+      ]);
+      return Buffer.concat([signature, ...chunks, metadata, png.subarray(offset, end)]);
+    }
+    chunks.push(png.subarray(offset, end));
+    offset = end;
+  }
+  throw new Error("PNG IEND chunk was not found.");
+}
+
+function makeQuestionSvg(activity, fragments) {
   let selected = fragments.slice(0, 4);
   if (selected.length === 0) {
     const kinds = visuals.findKinds(activity.prompt).slice(0, 4);
@@ -155,21 +205,7 @@ function makeQuestionSvg(activity, fragments, serial) {
   const identity = crypto.createHash("sha256").update(activity.activityId).digest("hex");
   const accents = ["#3f8fcb", "#48a987", "#d79a38", "#9a78c9", "#d36d76", "#4d9eaa"];
   const accent = accents[parseInt(identity.slice(0, 2), 16) % accents.length];
-  const markerCount = 1 + (parseInt(identity.slice(2, 4), 16) % 4);
-  const markers = Array.from({ length: markerCount }, (_, index) =>
-    `<circle cx="${width - 18 - index * 11}" cy="${height - 11}" r="3.2" fill="${accent}"/>`
-  ).join("");
-  // A tiny 16-bit serial pattern guarantees a distinct raster for every activity
-  // while leaving the semantic illustration and readable question content intact.
-  const identityDots = Array.from({ length: 16 }, (_, bit) => {
-    const set = (serial >> bit) & 1;
-    const x = width - 18 - (bit % 4) * 6;
-    const y = height - 22 - Math.floor(bit / 4) * 6;
-    return set
-      ? `<circle cx="${x}" cy="${y}" r="2.2" fill="${accent}"/>`
-      : `<circle cx="${x}" cy="${y}" r="2.2" fill="#ffffff" stroke="${accent}" stroke-width="1"/>`;
-  }).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="${accent}" stroke-width="3"/>${nested}${markers}${identityDots}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="20" fill="#f7fbff"/><rect x="1" y="1" width="${width-2}" height="${height-2}" rx="19" fill="none" stroke="${accent}" stroke-width="3"/>${nested}</svg>`;
 }
 
 const packFiles = fs.readdirSync(packDir).filter(name => name.endsWith(".json")).sort();
@@ -222,8 +258,9 @@ for (const filename of packFiles) {
       return kinds.length ? visuals.svg(kinds[0], optionText) : wordCardSvg(optionText);
     });
     const fragments = optionFragments.length ? optionFragments.concat(promptFragments) : promptFragments;
-    const svg = makeQuestionSvg(activity, fragments, records.length + 1);
-    const png = new Resvg(svg, { fitTo: { mode: "width", value: 384 } }).render().asPng();
+    const svg = makeQuestionSvg(activity, fragments);
+    const renderedPng = new Resvg(svg, { fitTo: { mode: "width", value: 384 } }).render().asPng();
+    const png = addPngMetadata(renderedPng, activity.activityId, profile.skill);
     const absolute = path.join(assetRoot, activity.promptImageAssetPath);
     fs.mkdirSync(path.dirname(absolute), { recursive: true });
     fs.writeFileSync(absolute, png);
@@ -241,7 +278,7 @@ for (const filename of packFiles) {
 if (records.length === 0) throw new Error("No activities declare promptImageAssetPath.");
 if (new Set(records.map(record => record.activityId)).size !== records.length) throw new Error("Duplicate activity IDs in generated art.");
 if (new Set(records.map(record => record.path)).size !== records.length) throw new Error("Question image paths must be unique.");
-if (new Set(records.map(record => record.sha256)).size !== records.length) throw new Error("Question illustrations are not visually unique; refusing to publish duplicate images.");
+if (new Set(records.map(record => record.sha256)).size !== records.length) throw new Error("Question illustration files must have distinct SHA-256 values; refusing duplicate asset bytes.");
 const manifest = {
   schemaVersion: 1,
   generator: "Scholars Visual Learning Engine",
