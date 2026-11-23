@@ -105,4 +105,37 @@ class BundledContentPackAssetsTest {
             )
         }
     }
+
+    @Test
+    fun everyEnglishActivityHasUniqueBundledOfflineAudioForPromptOptionsAndFeedback() = runBlocking<Unit> {
+        val packs = listOf(
+            repository.load("aas2-kg2-foundation"),
+            repository.load("aas2-grade2-foundation")
+        )
+        val englishActivities = packs.flatMap { it.activities }.filter { it.language == "en" }
+        assertEquals(52, englishActivities.size)
+        val allPaths = mutableListOf<String>()
+        englishActivities.forEach { activity ->
+            val paths = listOfNotNull(
+                activity.promptAudioAssetPath,
+                activity.feedbackCorrectAudioAssetPath,
+                activity.feedbackIncorrectAudioAssetPath
+            ) + activity.optionAudioAssetPaths.values
+            assertEquals("Every answer option must have audio for ${activity.activityId}", activity.options.size + 3, paths.size)
+            assertTrue(paths.all { it.startsWith("speech/") })
+            allPaths += paths
+        }
+        assertEquals("Every generated clip is tied to one question role", allPaths.size, allPaths.distinct().size)
+        allPaths.forEach { audioPath ->
+            val file = File(assetsRoot(), audioPath)
+            assertTrue("Missing offline audio: $audioPath", file.isFile)
+            val bytes = file.readBytes()
+            assertTrue("Audio file is too small: $audioPath", bytes.size > 100)
+            assertTrue(
+                "Invalid OGG container: $audioPath",
+                bytes.take(4).toByteArray().contentEquals("OggS".toByteArray(Charsets.US_ASCII))
+            )
+        }
+    }
+
 }
