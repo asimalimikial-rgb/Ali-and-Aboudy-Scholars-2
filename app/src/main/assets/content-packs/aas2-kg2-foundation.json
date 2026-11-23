@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -72,7 +72,7 @@
       "skillId": "initial-sounds",
       "learnerPath": "KG2",
       "domain": "Language and Communication",
-      "observableOutcome": "Identifies the initial sound in familiar English and Arabic words.",
+      "observableOutcome": "Identifies the initial sound in familiar English words.",
       "sourceReferenceIds": [
         "QCAA-QKLG-2024",
         "HS-ELOF-BIRTH5"
@@ -285,7 +285,7 @@
       "skillId": "counting-to-five",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "How many stars can you count?",
+      "prompt": "How many stars are there? ★ ★ ★ ★",
       "options": [
         {
           "optionId": "a",
