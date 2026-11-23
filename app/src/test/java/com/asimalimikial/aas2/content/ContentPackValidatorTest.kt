@@ -229,4 +229,103 @@ class ContentPackValidatorTest {
         assertFalse(result.isValid)
         assertTrue(result.errors.single().contains("Unsupported schemaVersion"))
     }
+ 
+    @Test fun schemaFourBookUnitLessonAndQuestionMetadataAreAccepted() {
+        val activity = validActivity().copy(
+            bookId = "book-1",
+            unitId = "unit-1",
+            lessonId = "lesson-1",
+            assessmentPhase = "DIAGNOSTIC",
+            misconceptionCode = "misconception-1",
+            optionRationales = mapOf(
+                "two" to "Rationale for two",
+                "three" to "Rationale for three",
+                "four" to "Rationale for four"
+            ),
+            promptImageAssetPath = "question-art/activity-001.png"
+        )
+        val pack = validPack(activities = listOf(activity)).copy(
+            schemaVersion = 4,
+            books = listOf(
+                BookDefinition(
+                    bookId = "book-1",
+                    title = "Test Science Book",
+                    subject = "Science",
+                    learnerPath = "KG2",
+                    sourceReferenceIds = listOf("source-1")
+                )
+            ),
+            units = listOf(
+                UnitDefinition(
+                    unitId = "unit-1",
+                    bookId = "book-1",
+                    title = "Unit 1",
+                    sequence = 1,
+                    lessonIds = listOf("lesson-1")
+                )
+            ),
+            lessons = listOf(
+                LessonDefinition(
+                    lessonId = "lesson-1",
+                    unitId = "unit-1",
+                    title = "Lesson 1",
+                    sequence = 1,
+                    skillIds = listOf("ali.math.counting.001")
+                )
+            )
+        )
+        val result = ContentPackValidator.validate(pack)
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test fun schemaFourRejectsUnsafePromptImagePath() {
+        val activity = validActivity().copy(
+            bookId = "book-1",
+            unitId = "unit-1",
+            lessonId = "lesson-1",
+            assessmentPhase = "DIAGNOSTIC",
+            misconceptionCode = "misconception-1",
+            optionRationales = mapOf(
+                "two" to "Rationale for two",
+                "three" to "Rationale for three",
+                "four" to "Rationale for four"
+            ),
+            promptImageAssetPath = "../outside.png"
+        )
+        val pack = validPack(activities = listOf(activity)).copy(
+            schemaVersion = 4,
+            books = listOf(BookDefinition("book-1", "Book", "Science", "KG2", listOf("source-1"))),
+            units = listOf(UnitDefinition("unit-1", "book-1", "Unit", 1, listOf("lesson-1"))),
+            lessons = listOf(LessonDefinition("lesson-1", "unit-1", "Lesson", 1, listOf("ali.math.counting.001")))
+        )
+        val result = ContentPackValidator.validate(pack)
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("unsafe prompt image asset path") })
+    }
+
+    @Test fun schemaFourRejectsUnsupportedAssessmentPhase() {
+        val activity = validActivity().copy(
+            bookId = "book-1",
+            unitId = "unit-1",
+            lessonId = "lesson-1",
+            assessmentPhase = "GUESSING",
+            misconceptionCode = "misconception-1",
+            optionRationales = mapOf(
+                "two" to "Rationale for two",
+                "three" to "Rationale for three",
+                "four" to "Rationale for four"
+            ),
+            promptImageAssetPath = "question-art/activity-001.png"
+        )
+        val pack = validPack(activities = listOf(activity)).copy(
+            schemaVersion = 4,
+            books = listOf(BookDefinition("book-1", "Book", "Science", "KG2", listOf("source-1"))),
+            units = listOf(UnitDefinition("unit-1", "book-1", "Unit", 1, listOf("lesson-1"))),
+            lessons = listOf(LessonDefinition("lesson-1", "unit-1", "Lesson", 1, listOf("ali.math.counting.001")))
+        )
+        val result = ContentPackValidator.validate(pack)
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("assessmentPhase") })
+    }
+
 }
