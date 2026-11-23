@@ -89,4 +89,4 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 
 ## Current product limitation
 
-This is a functional first implementation slice on top of the existing Android foundation, not a completed full curriculum or production release. The bundled content remains a small pilot: four English activities for KG2 and six for Grade 2. The seven textbook records remain reference-only; no full copyrighted book is bundled.
+This is a functional first implementation slice on top of the existing Android foundation, not a completed full curriculum or production release. The bundled content remains a small pilot: eight English activities for KG2 and twelve for Grade 2. The seven textbook records remain reference-only; no full copyrighted book is bundled.
