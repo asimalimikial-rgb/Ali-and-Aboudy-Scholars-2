@@ -323,15 +323,15 @@
     {
       "activityId": "new-aboudy-english-002",
       "path": "question-art/new-aboudy-english-002.png",
-      "bytes": 23289,
-      "sha256": "7a31839a40b6afdef40aa0ac082caef043426faddde37c1370ab81226910c06d",
+      "bytes": 23180,
+      "sha256": "3a8053875aad9e997ed0fc148e88f75905590bb600b6c24c517abe3dc207a81b",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-003",
       "path": "question-art/new-aboudy-english-003.png",
-      "bytes": 19852,
-      "sha256": "1d5bf3733faf165acd47af79934f0ac8ed495f462de7f3e9664f4fffb8d226bd",
+      "bytes": 19869,
+      "sha256": "e6a5c31309e8782de999b5bc7d55f6a2c109ee93eab9be40d9ef4ef38707f3d6",
       "engineVersion": "1.6.0"
     },
     {
@@ -372,8 +372,8 @@
     {
       "activityId": "new-aboudy-english-009",
       "path": "question-art/new-aboudy-english-009.png",
-      "bytes": 19192,
-      "sha256": "d8aae5d4b1fb8997f094f570b99238eace090ff83c96609d5219e86d913f24b8",
+      "bytes": 19782,
+      "sha256": "33bd394a3cf949becf9fec5c26f1551c6c89677091daeb516466ce392620de09",
       "engineVersion": "1.6.0"
     },
     {
@@ -386,29 +386,29 @@
     {
       "activityId": "new-aboudy-english-011",
       "path": "question-art/new-aboudy-english-011.png",
-      "bytes": 13739,
-      "sha256": "b999b1edb1215f92a3bddbb6913abd2dc97b30843d1a25c496a2411effeaae7c",
+      "bytes": 13582,
+      "sha256": "b4cb99f2725929a9d3123be094158318046a021d728b300fee25aaf4138f5b3d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-012",
       "path": "question-art/new-aboudy-english-012.png",
-      "bytes": 20989,
-      "sha256": "be6d1187a5db2fadbc2047191d383f03b033df93a4c05daa556f058e6443d251",
+      "bytes": 21116,
+      "sha256": "88766cdb42b80f0b8203bb3cfbae5cdc732f98b39bcaccf6cd0c12d0b505c263",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-013",
       "path": "question-art/new-aboudy-english-013.png",
-      "bytes": 19227,
-      "sha256": "451a7d68bc8296e4fc37e88f56ebb7ca3064600f3c2a46bdc46eedb3688117c2",
+      "bytes": 17653,
+      "sha256": "3859543cd1601573dcff13aa30d103c1f917ad695b96a41aa4bcd2fbd34e6fdb",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-014",
       "path": "question-art/new-aboudy-english-014.png",
-      "bytes": 19608,
-      "sha256": "8a8dcc0a0c9c83589e604c8424bb43f56849642f28ff9f9868faa4ac213822c1",
+      "bytes": 19675,
+      "sha256": "f780565909dd740c6652b3814efe83ad556abe149dd0d648ec88bf1767cf8292",
       "engineVersion": "1.6.0"
     },
     {
@@ -442,15 +442,15 @@
     {
       "activityId": "new-aboudy-english-019",
       "path": "question-art/new-aboudy-english-019.png",
-      "bytes": 19795,
-      "sha256": "366bdcb42c85def1d7c68ae5ac857462fa508ba88c86f5d4e71f32e93bc19274",
+      "bytes": 19389,
+      "sha256": "a6092c9118f1a6a91d37528d57da14f47cf577c5156a35fcbc71367bf0e486a9",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-020",
       "path": "question-art/new-aboudy-english-020.png",
-      "bytes": 21204,
-      "sha256": "3cecef51b4f46b482738dba05857c5372bb3151e7a02d713fda62db312cb3ef3",
+      "bytes": 21180,
+      "sha256": "9a10cf8e42e1d904e2d7ff1fd5bb4fd3abdbd757fbfd4a139ade26c258137b54",
       "engineVersion": "1.6.0"
     },
     {
@@ -512,22 +512,22 @@
     {
       "activityId": "new-aboudy-english-029",
       "path": "question-art/new-aboudy-english-029.png",
-      "bytes": 23072,
-      "sha256": "2467667bceeeaed8b885f57307fcdcf68a461a60ceeef225c32775765a4c3a0b",
+      "bytes": 22938,
+      "sha256": "15b058ac14821bb1b3691cc92a3ac35287fe0122229cb39bb1e0215d6838050e",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-030",
       "path": "question-art/new-aboudy-english-030.png",
-      "bytes": 14625,
-      "sha256": "915b47f0bffd8252c83e442a640af438ddb260cd02742e469cd8579763cec01c",
+      "bytes": 14718,
+      "sha256": "4a1fc2ea1c86ec975b6d301bdab73c308cf3ef64894fff32fc6ffa2b6dd9cf9d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-031",
       "path": "question-art/new-aboudy-english-031.png",
-      "bytes": 17809,
-      "sha256": "5be86898ff0f6a53dce35f599b1a9705a16eaba7aa61d6c0f16df54632161a01",
+      "bytes": 17518,
+      "sha256": "56b03d64ba78df9a6d188b31535ee1b7dcf11b53e0de6e37e4433d58fddb2623",
       "engineVersion": "1.6.0"
     },
     {
@@ -540,22 +540,22 @@
     {
       "activityId": "new-aboudy-english-033",
       "path": "question-art/new-aboudy-english-033.png",
-      "bytes": 24226,
-      "sha256": "da44489d3719e7dbc77649b6b2ef3184ed4d8318f8b953ae46aac4519376056d",
+      "bytes": 24470,
+      "sha256": "9baaa8f4493a34256e5464af00bfdbd338dd44eba35224106a713a18fde8e0ed",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-034",
       "path": "question-art/new-aboudy-english-034.png",
-      "bytes": 13310,
-      "sha256": "90b6d223746ebb2e22b4bce2841bfb5acbbb0b355b97dd26e6a2069fa065218f",
+      "bytes": 13080,
+      "sha256": "7486bf2ff693afa54f2d853a502612c9ee4b83e981e797fca90238b45cd7f0f1",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-english-035",
       "path": "question-art/new-aboudy-english-035.png",
-      "bytes": 18923,
-      "sha256": "92f2ccb7d6c927e7b75133594a7997413cb6a918bc473d32977109ec28afcbc6",
+      "bytes": 18403,
+      "sha256": "2737356809b2e375b8a03b8e72c8f25b32f47203f971bee5069361fb82e58ad4",
       "engineVersion": "1.6.0"
     },
     {
@@ -778,8 +778,8 @@
     {
       "activityId": "new-aboudy-maths-032",
       "path": "question-art/new-aboudy-maths-032.png",
-      "bytes": 15915,
-      "sha256": "2e5a51216fe1fd2e9afd9c3be9c953a6c78b694fe0cf3c7174c0bec5b092f7ef",
+      "bytes": 15913,
+      "sha256": "8d43477577168444cbb42f46ff5b11f6417382c4b35231d2c1db6ec56fd0fe99",
       "engineVersion": "1.6.0"
     },
     {
@@ -792,8 +792,8 @@
     {
       "activityId": "new-aboudy-maths-034",
       "path": "question-art/new-aboudy-maths-034.png",
-      "bytes": 15798,
-      "sha256": "155c2b90dbe40035b486400f89c3636616c1733580cf8086db879c5055eff344",
+      "bytes": 15717,
+      "sha256": "9009bf126e85e53757fd7a0e37b6153bd5d0995a8084f15d294a1497fb5e9c3a",
       "engineVersion": "1.6.0"
     },
     {
@@ -820,8 +820,8 @@
     {
       "activityId": "new-aboudy-maths-038",
       "path": "question-art/new-aboudy-maths-038.png",
-      "bytes": 17730,
-      "sha256": "f6ea858e550798e03cd95a44f5d36f7eed289ad7c950fa271d93704fec223bd7",
+      "bytes": 17733,
+      "sha256": "d09c6e59700c6ebf5722da51ed4bca12347e88212fcf4295f98af620cfe26e52",
       "engineVersion": "1.6.0"
     },
     {
@@ -848,8 +848,8 @@
     {
       "activityId": "new-aboudy-science-002",
       "path": "question-art/new-aboudy-science-002.png",
-      "bytes": 21422,
-      "sha256": "23c51deea201ca7fa26ebb412411291d3c262c5e4b9a65be87b5cf85bcd4aa27",
+      "bytes": 21312,
+      "sha256": "2c82ddc8f1b43d58107ec796d00484c0b7d19353b498a6324150b0483b25a565",
       "engineVersion": "1.6.0"
     },
     {
@@ -869,8 +869,8 @@
     {
       "activityId": "new-aboudy-science-005",
       "path": "question-art/new-aboudy-science-005.png",
-      "bytes": 22583,
-      "sha256": "3d4e9b0306200e2867a0f09bc7a738e55d8cb18c1f279e145fd3514b679c1742",
+      "bytes": 22366,
+      "sha256": "7239f073e282236c248fa5c81e8e2a9bb9a66d479529f269b112cec5788fdc60",
       "engineVersion": "1.6.0"
     },
     {
@@ -883,8 +883,8 @@
     {
       "activityId": "new-aboudy-science-007",
       "path": "question-art/new-aboudy-science-007.png",
-      "bytes": 19533,
-      "sha256": "e1c28a482fe156cb7e20779752a299dad7522d5a74e09f54914445af00878974",
+      "bytes": 19607,
+      "sha256": "3ef0a5042ba7d8c9fab2a027322f2786fc595c3fb9417ea9adbea1e81b851b24",
       "engineVersion": "1.6.0"
     },
     {
@@ -925,29 +925,29 @@
     {
       "activityId": "new-aboudy-science-013",
       "path": "question-art/new-aboudy-science-013.png",
-      "bytes": 12934,
-      "sha256": "053a6ff4e31bb659c07017de627c016f8e4401659bbce0d957df9a09e949a1bc",
+      "bytes": 13069,
+      "sha256": "a51438ab3504ccc89660d803f258d1f3a93746e7ccc9c3f828960bc7702a5d25",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-014",
       "path": "question-art/new-aboudy-science-014.png",
-      "bytes": 25412,
-      "sha256": "74c89d915e1f5529fb38776da5faa535926e33c97b2e5fbd6087a58177d5dd92",
+      "bytes": 27257,
+      "sha256": "8de649ce955b13ef2e5ecf6464246183dfc5421360ec177ae18f9bbf13ed70ac",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-015",
       "path": "question-art/new-aboudy-science-015.png",
-      "bytes": 18498,
-      "sha256": "7b76c416341bcc59b55e249a55144e2062d3bbc550c8cdc86babe0ea0616e651",
+      "bytes": 19983,
+      "sha256": "3779b23919998bda4b084e24050f07b4755216d2a136d4859cc65053e6f661de",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-016",
       "path": "question-art/new-aboudy-science-016.png",
-      "bytes": 27912,
-      "sha256": "c22c7d9c60e8c3d8a48024876e715b51ffd099f7242109ad4ad339e8113007e7",
+      "bytes": 27728,
+      "sha256": "8e4d9be06f910fafbc170582eef0cb763170e0d033f89489f275aea7bc2c003a",
       "engineVersion": "1.6.0"
     },
     {
@@ -974,15 +974,15 @@
     {
       "activityId": "new-aboudy-science-020",
       "path": "question-art/new-aboudy-science-020.png",
-      "bytes": 17196,
-      "sha256": "22feaef5fbfb8d3015c5c2429fdba511bc4a84b86d8bdaee1d674e572fb4d8d6",
+      "bytes": 19459,
+      "sha256": "4e450112e77293c4497715a6e98ad4b9fddb27e65e1b04b38edfc3f99510414b",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-021",
       "path": "question-art/new-aboudy-science-021.png",
-      "bytes": 22284,
-      "sha256": "28f93b4066d53a3cc27150db390c9c3c5d4b5c9a1b515ef705886ecb716afad4",
+      "bytes": 22256,
+      "sha256": "d801fb2a38f0dba4e1e039e8e5f99821f544e7e177a7015baeb647081f3c8795",
       "engineVersion": "1.6.0"
     },
     {
@@ -995,22 +995,22 @@
     {
       "activityId": "new-aboudy-science-023",
       "path": "question-art/new-aboudy-science-023.png",
-      "bytes": 19365,
-      "sha256": "70e47d7ee11e2e622a2c386de7ad4baeef619b1695563dbdf79c6ae216d2c013",
+      "bytes": 17983,
+      "sha256": "7b94a4ff08dc3b3221fae2db0dbf80f2b358b441defb80477ea56273bb113ce1",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-024",
       "path": "question-art/new-aboudy-science-024.png",
-      "bytes": 27847,
-      "sha256": "281480f2e0636da89527d9aef5ccd5219bf8c5621b676b750b06d3e8b3acbbae",
+      "bytes": 27866,
+      "sha256": "680d75047439ff91723bbfcce8ee033e2e6ad228f134dbdfb07367a9294ae87e",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-aboudy-science-025",
       "path": "question-art/new-aboudy-science-025.png",
-      "bytes": 17012,
-      "sha256": "38e2658ec6cdb97e4890a594f8ed10bb0824b73c3b05dfb9c50435d91ab0beb2",
+      "bytes": 16987,
+      "sha256": "b7b0525e7ae440f9dc89650465e750c4f68fd4175b6ad44819bdb5f1dd5eb588",
       "engineVersion": "1.6.0"
     },
     {
@@ -1282,225 +1282,225 @@
     {
       "activityId": "new-ali-english-001",
       "path": "question-art/new-ali-english-001.png",
-      "bytes": 22043,
-      "sha256": "8839604b1a676753ae59582689d1d91ee78b1e1cdeaecd885ac779dc7101727a",
+      "bytes": 22073,
+      "sha256": "58e7c04defd5c2f6065ee7635d0697e0bba5f6aa1d7464b9321f7201ee54125d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-002",
       "path": "question-art/new-ali-english-002.png",
-      "bytes": 21507,
-      "sha256": "14ca4f012a651f09629dbab56239fd948e4cfb7a6ec7971a48459d1b023bd8bb",
+      "bytes": 21541,
+      "sha256": "f108108e6463b34d34d1f838c25d4ec0754197920561a4f9268196a593cb5176",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-003",
       "path": "question-art/new-ali-english-003.png",
-      "bytes": 20638,
-      "sha256": "0d867d4a63e9826276377913f68161246824d982649249af0e5ce7daeb140a9b",
+      "bytes": 20538,
+      "sha256": "2b54ab44884e09919cec650cd713aa0867d6744f7501264be79d8b3fc55f7445",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-004",
       "path": "question-art/new-ali-english-004.png",
-      "bytes": 20648,
-      "sha256": "e72f59ee3692bb33713236671891c9ab9b70924b3d665f7b68892d43b7407e87",
+      "bytes": 20521,
+      "sha256": "4f2f430f020634ca502c21c7e5f25f6e1c215a5de467685880170fd7cd7fb240",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-005",
       "path": "question-art/new-ali-english-005.png",
-      "bytes": 18120,
-      "sha256": "81fbb267c76b1021773c1f5f1a5e2e4007efb28bfeb46d11e74228a7612515db",
+      "bytes": 18074,
+      "sha256": "2e0d71ee2a57de9dab120e80c2511ea1a9e2d400b79b782e59e76c0ef051b608",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-006",
       "path": "question-art/new-ali-english-006.png",
-      "bytes": 17426,
-      "sha256": "44f68d4a8a584b0d94107927e4e38451745f5fe51c27303263aba4eec3f78a5f",
+      "bytes": 17330,
+      "sha256": "159d38af52bb167d1ed5501551f96886b4ff9079d4bbf52711c73151a2daed1a",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-007",
       "path": "question-art/new-ali-english-007.png",
-      "bytes": 22777,
-      "sha256": "ec46b5fa4846785793c43750b8db9327437bfd2068b9825af8da45318593d6f8",
+      "bytes": 22812,
+      "sha256": "c5e6aac499d0b754c9e1631e944f44c05ea40e8d53481e434d5f100d1b00d5df",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-008",
       "path": "question-art/new-ali-english-008.png",
-      "bytes": 20563,
-      "sha256": "752f1ecadd554cd7544b333c2b1d3bacc4df73cf1a4e3a961690d549f3fd9a39",
+      "bytes": 20409,
+      "sha256": "a63ef0ac3e240ca09d1ff36981d2b2eba0a286d2ddf4cee08d92f35588bf017c",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-009",
       "path": "question-art/new-ali-english-009.png",
-      "bytes": 19053,
-      "sha256": "02675f083107a1e2d6161fab1d8fae9f13c4ff9cb3d2514b33fa2ebae6719ff2",
+      "bytes": 19140,
+      "sha256": "d66ad171afa9a25879525c77721eb65f352e0e78b2db077a8914d919bb0cb129",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-010",
       "path": "question-art/new-ali-english-010.png",
-      "bytes": 17449,
-      "sha256": "91836661c8cfacc7001339273d3e707d876ae6777a194a4d9cbc53993e38771e",
+      "bytes": 17502,
+      "sha256": "e1e5d402b0f268caf6e3e9add904537fc978903ac2463bc67ea10672ab5711b4",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-011",
       "path": "question-art/new-ali-english-011.png",
-      "bytes": 17012,
-      "sha256": "e23ec88f663b779cfa44289c768e5cccdbbbbbf5363a038bfad32d9254cf9867",
+      "bytes": 17027,
+      "sha256": "0bf40f0fdbf7b94446d42567716152efef8ecd19bb5aaacd4d3f7e208be6d139",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-012",
       "path": "question-art/new-ali-english-012.png",
-      "bytes": 22419,
-      "sha256": "4a1fa8bc1a5f6b5b86ca300fba918a197c4dc9e249859c85d52e9cc3110cb341",
+      "bytes": 22380,
+      "sha256": "16b2f7db0817f9a0ff050f64db531c15660b3f54fa8faa626ea1738fb40e6af7",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-013",
       "path": "question-art/new-ali-english-013.png",
-      "bytes": 16455,
-      "sha256": "9d1de6ce7954c33106f0db04ddbebbef5a4cd63f04320000bb3d3d6a83a22dfb",
+      "bytes": 16497,
+      "sha256": "ae1e9a759248806772c3afc8bb1c87eaa38478851088cbd3d55f3cac5da717ba",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-014",
       "path": "question-art/new-ali-english-014.png",
-      "bytes": 17739,
-      "sha256": "c4772afa999b616521f95321637b8c8d1d4477afe1ae4eb4d48de9f525c675a2",
+      "bytes": 17685,
+      "sha256": "a0293719a8606d0bd115e859d9313f2dbef6d41083753f4f184ea83096760546",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-015",
       "path": "question-art/new-ali-english-015.png",
-      "bytes": 17952,
-      "sha256": "a2e324e7baf3950a60f8cd6149737a5f00f64d5f68777423f9652bfdb804c29a",
+      "bytes": 18306,
+      "sha256": "a868fdc7d04e040843666b5a2ac64d67fc3d3f03fdc7f83ed41c9a5c30d17d03",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-016",
       "path": "question-art/new-ali-english-016.png",
-      "bytes": 21421,
-      "sha256": "8213a80b9fc2270c52e5fc695531b57c4ac472ddeba878a5e7ad99fcd169c358",
+      "bytes": 20858,
+      "sha256": "7f5ea88dd73d5d8a764c98dbd4333839afae62d48e62f5f750281e6bb4c69d60",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-017",
       "path": "question-art/new-ali-english-017.png",
-      "bytes": 19000,
-      "sha256": "25a7262fe6bf77b455e7fd086b00d0874a4c3a5758e776fd3cce8ca5691becc2",
+      "bytes": 19090,
+      "sha256": "220047fb215b0f348bd432bf245b3cad54a62091e5f737661f74f220bf5b03af",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-018",
       "path": "question-art/new-ali-english-018.png",
-      "bytes": 19943,
-      "sha256": "4eee81fb448c2ff12ee937865540df1e33a7632fde5df597b6001f38b1ed3c6f",
+      "bytes": 19946,
+      "sha256": "132ed6819c3464d553e2b248522680bf80faea0c13be19d11f151b13132db650",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-019",
       "path": "question-art/new-ali-english-019.png",
-      "bytes": 21685,
-      "sha256": "9f568b31bb49eea1715e7ca1e6ec30fce100115042a3bb538709110bd041d693",
+      "bytes": 21479,
+      "sha256": "6e6e7d37b3cbb2fc7326ee2972ef80c2cbc5ffefc6659c1a735df6064ca8f6a1",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-020",
       "path": "question-art/new-ali-english-020.png",
-      "bytes": 19281,
-      "sha256": "8d6ce11e30a8342d8ca1047962aafa4bc057ba0066e570d4f18a563a29f1f31e",
+      "bytes": 19379,
+      "sha256": "1083a4748058cf3d26f5e06cc00fe04eb91d269648141b0bb231d41891043810",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-021",
       "path": "question-art/new-ali-english-021.png",
-      "bytes": 24763,
-      "sha256": "4a288e943c01a0ac26ebff08b9620027614d26103f76141760c6b8a23f7eabfe",
+      "bytes": 24567,
+      "sha256": "3872b178d13fda2936515c4e91625986a9203f938eff36623a4f77283a0995db",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-022",
       "path": "question-art/new-ali-english-022.png",
-      "bytes": 18722,
-      "sha256": "809d4038bfae3109ae1d4c073e6d80083e1d7364022c22ebc82810b721f2742d",
+      "bytes": 18796,
+      "sha256": "cb20d57b437be4ff5f112be6af392e242448cccc55d98376201f5773caa01110",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-023",
       "path": "question-art/new-ali-english-023.png",
-      "bytes": 17180,
-      "sha256": "a06e6eb6db418a15da0d5adcc4a9548ba1cbe4b2443e55430afa0d96d35e0f34",
+      "bytes": 17169,
+      "sha256": "0f68997182098a4f0467107045b87d5bae9952c4fc3646a2117fc606df7a7091",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-024",
       "path": "question-art/new-ali-english-024.png",
-      "bytes": 23376,
-      "sha256": "7f373bf6a9ed1dc2a7cdb901edf66dc186fde7d0115e5add7f069f4f6ea6a036",
+      "bytes": 23390,
+      "sha256": "54fad7ad462e884da84a459143a6b41a941ebbc97de7f4fd25a74266454d2d8d",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-025",
       "path": "question-art/new-ali-english-025.png",
-      "bytes": 19354,
-      "sha256": "7390ac9ab46e292f651b776960b7508131d660e8c26244d9b55bc7c1844e97bd",
+      "bytes": 19779,
+      "sha256": "1e71eb99ca69f4605e900013eb3c6a7e2062226c87f4f6ea852c01a44563dc6f",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-026",
       "path": "question-art/new-ali-english-026.png",
-      "bytes": 20612,
-      "sha256": "0a679d85562b418ae77aec6cd224ca7ece34eec192868c05fd2417702c864cd0",
+      "bytes": 20639,
+      "sha256": "c3a6680410f79e78ba1cae6b1aaa6a89090852d25ab838a739ad416cdca1b63f",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-027",
       "path": "question-art/new-ali-english-027.png",
-      "bytes": 21432,
-      "sha256": "9762db15f1496adf53175d9422f4b32b0de677d3e97d60ed30c493291fc8d906",
+      "bytes": 21331,
+      "sha256": "66935905f553a1eed8f0605b3c511b5503d42bb203744c06dc18cba424c5cc77",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-028",
       "path": "question-art/new-ali-english-028.png",
-      "bytes": 19341,
-      "sha256": "c6c71327a84c504ca8713187de0147d90f8553719de38ca449f148f48706ac60",
+      "bytes": 19442,
+      "sha256": "047e94d1b741a7c4e9dd0794107ab83650efc5eb4d4112ef9450d999917c89c0",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-029",
       "path": "question-art/new-ali-english-029.png",
-      "bytes": 17775,
-      "sha256": "e3ec3c479ed16da2fb7f298f532f4fba9d446dbab447057289c8da485700959d",
+      "bytes": 17946,
+      "sha256": "f7845fdd4e2be082867b2413ff732fc236b566ca38664a7365ee3767bfbc5062",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-030",
       "path": "question-art/new-ali-english-030.png",
-      "bytes": 21897,
-      "sha256": "1f300a92aec924d3ca9c4d53e35032197879cc442b352f08fe42b32d490092f9",
+      "bytes": 21550,
+      "sha256": "941a377cf06a0438944c0328c7af22cf1fbf58a7ecb32b5529a70cfcb3e52fda",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-031",
       "path": "question-art/new-ali-english-031.png",
-      "bytes": 20052,
-      "sha256": "d2c14ccc8bfb5472e78bc9bb0de164c571aa5c635f360d5c88c44608f206fc2b",
+      "bytes": 20020,
+      "sha256": "8b65050dafef66504bb9b6c35638d9f0730e2a6271784bb7e8ab6981a22f4e71",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-032",
       "path": "question-art/new-ali-english-032.png",
-      "bytes": 18175,
-      "sha256": "7b3da7e81124e73a21465ebf7f073a0904de364b2d25679573926eeae879badc",
+      "bytes": 18352,
+      "sha256": "90f4f39f31d0ddb30b95ae8a0e07a571d32c881e8786f7a21d01be40cac91667",
       "engineVersion": "1.6.0"
     },
     {
@@ -1513,8 +1513,8 @@
     {
       "activityId": "new-ali-english-034",
       "path": "question-art/new-ali-english-034.png",
-      "bytes": 17177,
-      "sha256": "12b4e4b07d3890bd5dca1b0488e4b673d6700cf2dba5b3c774066ff4a91f96c0",
+      "bytes": 17812,
+      "sha256": "eafcacc6dbd0dedc1ce29cad5c858581ad2a7a9fde23e3164b67978bc7a728f7",
       "engineVersion": "1.6.0"
     },
     {
@@ -1527,36 +1527,36 @@
     {
       "activityId": "new-ali-english-036",
       "path": "question-art/new-ali-english-036.png",
-      "bytes": 19612,
-      "sha256": "8f60ca759af2ce7b8c019ed93d8969de7736b6c0523e07c31f78469201878ca8",
+      "bytes": 19711,
+      "sha256": "5e6f9742cc7b095060cfb754997ada8d97f3e285bdba10f51c3b84b343d28764",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-037",
       "path": "question-art/new-ali-english-037.png",
-      "bytes": 18525,
-      "sha256": "a222723ec7878b79eb36d2b38e20ed13e087fbd433d2cb7aa3c5bb9b3d27c2b2",
+      "bytes": 18701,
+      "sha256": "c45026feab46203a6bf482fef7268c546004c79e977c82adfcc21356dc54aa36",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-038",
       "path": "question-art/new-ali-english-038.png",
-      "bytes": 17004,
-      "sha256": "cf1bc6eb8c7176af041a0073644ed9271ce728ac06992f9e1ae2830759f1974a",
+      "bytes": 16801,
+      "sha256": "7695f82a35d7da4a6e62e684415ea2b62341f91367edc49ef0e42334963c75d0",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-039",
       "path": "question-art/new-ali-english-039.png",
-      "bytes": 20549,
-      "sha256": "4b90a56a92e4bdde8f498ddfa3618fc7ceedd1e48443b3bf76d16394a0a09c87",
+      "bytes": 20149,
+      "sha256": "d723def10e71898898cb3aa247a3d8fc934c2d12344fae81ac2e6222b09e0074",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-english-040",
       "path": "question-art/new-ali-english-040.png",
-      "bytes": 21846,
-      "sha256": "dcee5266ef68e9855eac2ff379773b006003bb0a08a6180c77cdc845cb63992e",
+      "bytes": 21619,
+      "sha256": "ff7ad0c8ca90ae581754b5685a88aa1ce8f1373ed08a3dc29b63a7f492e27575",
       "engineVersion": "1.6.0"
     },
     {
@@ -1625,8 +1625,8 @@
     {
       "activityId": "new-ali-maths-010",
       "path": "question-art/new-ali-maths-010.png",
-      "bytes": 17042,
-      "sha256": "5f58077671f1af3733f552bdb1ba62c7e4e83b8e6a986c89e810ab4e70a92862",
+      "bytes": 16964,
+      "sha256": "56c54a799561a284e2f54d47bf22d8c8e2d91d0bf0cfcb06469be3c6d204ae5b",
       "engineVersion": "1.6.0"
     },
     {
@@ -1709,8 +1709,8 @@
     {
       "activityId": "new-ali-maths-022",
       "path": "question-art/new-ali-maths-022.png",
-      "bytes": 19249,
-      "sha256": "ccf887aaf24a9577aa7e5986a836f2d3728e6b0838d48e31dc9eaaa32c931b1f",
+      "bytes": 19105,
+      "sha256": "049f58ac5b3e1e2b149328c294f3248ff54ebad9c0f5b7d79cab5b05365baf87",
       "engineVersion": "1.6.0"
     },
     {
@@ -1765,8 +1765,8 @@
     {
       "activityId": "new-ali-maths-030",
       "path": "question-art/new-ali-maths-030.png",
-      "bytes": 19129,
-      "sha256": "cac7679711211e09066a96c205ee12a3e6163f433407ad9a8e4f5795969182eb",
+      "bytes": 18975,
+      "sha256": "bf9719e4261184579e9bcb5d6206e1d23f61b462f6585c09be2026dbdfcfae52",
       "engineVersion": "1.6.0"
     },
     {
@@ -1793,8 +1793,8 @@
     {
       "activityId": "new-ali-maths-034",
       "path": "question-art/new-ali-maths-034.png",
-      "bytes": 15072,
-      "sha256": "83981c78390eb65113a1aca51f3976abe61b2a4cf1dd4239bb91dcd0b3ca3a0f",
+      "bytes": 15158,
+      "sha256": "85680db7dc074105f9c9f171eb3431eff35818fd57373bd547768a056d109ad1",
       "engineVersion": "1.6.0"
     },
     {
@@ -1807,15 +1807,15 @@
     {
       "activityId": "new-ali-science-001",
       "path": "question-art/new-ali-science-001.png",
-      "bytes": 18094,
-      "sha256": "8450ad9fd81f449bd564c2cfd0d064a28f8f4e9c72228e77facd7629e791d0d1",
+      "bytes": 17151,
+      "sha256": "e46045cb0e02c1b1a82bf83ed89fe15bb87e7b1d8bc5e81a6410c18f78872b12",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-002",
       "path": "question-art/new-ali-science-002.png",
-      "bytes": 22453,
-      "sha256": "8ce4803a8f163d579a289dd2593af8be4b18d78eb5a05fc75f16a1ec02ba2afa",
+      "bytes": 22435,
+      "sha256": "a8b27b26116ef5dd7d29baa1e878e9e73099d37a566b6c1eca35239d3ba4cd37",
       "engineVersion": "1.6.0"
     },
     {
@@ -1849,22 +1849,22 @@
     {
       "activityId": "new-ali-science-007",
       "path": "question-art/new-ali-science-007.png",
-      "bytes": 22961,
-      "sha256": "03209f18b8189a0fad575fc30a2d3ff7a641470fee850826963ba827398f723f",
+      "bytes": 21503,
+      "sha256": "ad8d871c5e4dafea00e60d5957763c2c2e25a3812bca1950dd000f0137020281",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-008",
       "path": "question-art/new-ali-science-008.png",
-      "bytes": 20092,
-      "sha256": "6266f00c7b4f11e4d8dd29edda2ab86a2a6932def343a73e15a062248d8b6353",
+      "bytes": 20198,
+      "sha256": "96c30e6a5d69e08fc3f879c7de96def3189ca9ce458244c0eebc8785c2fb668b",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-009",
       "path": "question-art/new-ali-science-009.png",
-      "bytes": 19247,
-      "sha256": "a864e4f9cfc192b0f265148b1e3a35502f95a01193505e57b21e81e86c4fdf15",
+      "bytes": 18455,
+      "sha256": "59a620ee482f5052ea1257152d5e7fbac9485fb9ccaed46cc8de3873dda4e59b",
       "engineVersion": "1.6.0"
     },
     {
@@ -1884,22 +1884,22 @@
     {
       "activityId": "new-ali-science-012",
       "path": "question-art/new-ali-science-012.png",
-      "bytes": 12707,
-      "sha256": "f8ab4966b3e6289b8c040751ce97cf3885b000e703817c7aa077dd5b98dbbd5d",
+      "bytes": 12731,
+      "sha256": "16ca0ca89918ed4703e449739b1b3d75b686c31187a0024fd35dd44d87d0ffc2",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-013",
       "path": "question-art/new-ali-science-013.png",
-      "bytes": 21301,
-      "sha256": "c4ff2514f613d2bfee50ec3baf3defd24e143198958c9e30f6e3f3600daf1dea",
+      "bytes": 21138,
+      "sha256": "56218c9bdc8c53125384cf2a68ab0f7bafdb8c840a0e7e840278594b5f642b06",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-014",
       "path": "question-art/new-ali-science-014.png",
-      "bytes": 14293,
-      "sha256": "bb91a130ee02a0107f4d9cce7c338d69c3feedbd9fb890aed6d7fb99b9206cb8",
+      "bytes": 15935,
+      "sha256": "4e6f9a4ed673d1881e1d2e277554ec6739feab3bcb938b6b34ebef5923e90751",
       "engineVersion": "1.6.0"
     },
     {
@@ -1926,29 +1926,29 @@
     {
       "activityId": "new-ali-science-018",
       "path": "question-art/new-ali-science-018.png",
-      "bytes": 16451,
-      "sha256": "d56e72a2b943f7c11317c8d7f92030b52cfdfe9d406cb3b0a7740cee6ebdaf8d",
+      "bytes": 16370,
+      "sha256": "de56ea1712956cc6fb6f77d668735030616399d4f10e8eb1c4950ff85ce3c598",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-019",
       "path": "question-art/new-ali-science-019.png",
-      "bytes": 21193,
-      "sha256": "0fe4feab1484f1917e14b69eb25fe8d15a2edddc14bef11ac366d8023c223bd1",
+      "bytes": 20037,
+      "sha256": "27fdb14a236032fd318f4a29684dcea45dbe85b5c8f8d16726ac89759abe7ee5",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-020",
       "path": "question-art/new-ali-science-020.png",
-      "bytes": 18485,
-      "sha256": "ee073796b6ff9b256508d6f07aec7f0edc79456d3dc3d48409609e8a8eb9bc27",
+      "bytes": 18390,
+      "sha256": "17f2a3641f841ce4be3c48b0e0da3f2d6b549ecd4a199640ee675f33b214ab9a",
       "engineVersion": "1.6.0"
     },
     {
       "activityId": "new-ali-science-021",
       "path": "question-art/new-ali-science-021.png",
-      "bytes": 19908,
-      "sha256": "f6d6690145c5536e5287b1584b7be151767154938647f02eab8484bef6302e5d",
+      "bytes": 19949,
+      "sha256": "d5579242823733b8e98a71768e874784215dbb466ec43d4cf82b6cb59daf699a",
       "engineVersion": "1.6.0"
     },
     {
@@ -1961,8 +1961,8 @@
     {
       "activityId": "new-ali-science-023",
       "path": "question-art/new-ali-science-023.png",
-      "bytes": 17530,
-      "sha256": "a290b97235ff0d57ce8171aea40ac788379b08631cf8ecc3282b9db97b34becc",
+      "bytes": 17967,
+      "sha256": "5d39523e55d4506da790f55681a4da56ad32e4746a602d02d2b249d2add6efcb",
       "engineVersion": "1.6.0"
     },
     {
@@ -1975,8 +1975,8 @@
     {
       "activityId": "new-ali-science-025",
       "path": "question-art/new-ali-science-025.png",
-      "bytes": 20082,
-      "sha256": "a39ee3b4eb7441607e3313ef1b0a614a5f4d2634c1c76d18b287251fdb14e348",
+      "bytes": 20377,
+      "sha256": "81eeaef80f7a5c407503b2f49938237c32ab27dcafcc63cf2e5e87c6fe2cbb04",
       "engineVersion": "1.6.0"
     }
   ]
