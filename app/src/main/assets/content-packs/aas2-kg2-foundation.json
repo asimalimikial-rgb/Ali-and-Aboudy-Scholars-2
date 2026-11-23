@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -497,18 +497,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "ball"
+          "text": "sun"
         },
         {
           "optionId": "b",
-          "text": "moon"
+          "text": "ball"
         },
         {
           "optionId": "c",
-          "text": "sun"
+          "text": "moon"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -523,7 +523,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "moon"
+          "text": "dog"
         },
         {
           "optionId": "b",
@@ -531,10 +531,10 @@
         },
         {
           "optionId": "c",
-          "text": "dog"
+          "text": "moon"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -549,7 +549,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "sun"
+          "text": "bed"
         },
         {
           "optionId": "b",
@@ -557,10 +557,10 @@
         },
         {
           "optionId": "c",
-          "text": "bed"
+          "text": "sun"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -575,18 +575,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "fish"
+          "text": "pig"
         },
         {
           "optionId": "b",
-          "text": "van"
+          "text": "fish"
         },
         {
           "optionId": "c",
-          "text": "pig"
+          "text": "van"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
@@ -601,7 +601,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "top"
+          "text": "jam"
         },
         {
           "optionId": "b",
@@ -609,10 +609,10 @@
         },
         {
           "optionId": "c",
-          "text": "jam"
+          "text": "top"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -627,7 +627,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "rain"
+          "text": "fox"
         },
         {
           "optionId": "b",
@@ -635,10 +635,10 @@
         },
         {
           "optionId": "c",
-          "text": "fox"
+          "text": "rain"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -657,11 +657,11 @@
         },
         {
           "optionId": "b",
-          "text": "dog"
+          "text": "leaf"
         },
         {
           "optionId": "c",
-          "text": "leaf"
+          "text": "dog"
         }
       ],
       "correctOptionId": "a",
@@ -679,18 +679,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "duck"
+          "text": "hat"
         },
         {
           "optionId": "b",
-          "text": "sun"
+          "text": "duck"
         },
         {
           "optionId": "c",
-          "text": "hat"
+          "text": "sun"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -705,7 +705,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "goat"
+          "text": "sit"
         },
         {
           "optionId": "b",
@@ -713,10 +713,10 @@
         },
         {
           "optionId": "c",
-          "text": "sit"
+          "text": "goat"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -731,18 +731,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hat"
+          "text": "box"
         },
         {
           "optionId": "b",
-          "text": "leg"
+          "text": "hat"
         },
         {
           "optionId": "c",
-          "text": "box"
+          "text": "leg"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -757,7 +757,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "leaf"
+          "text": "net"
         },
         {
           "optionId": "b",
@@ -765,10 +765,10 @@
         },
         {
           "optionId": "c",
-          "text": "net"
+          "text": "leaf"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -783,18 +783,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "nest"
+          "text": "jam"
         },
         {
           "optionId": "b",
-          "text": "pig"
+          "text": "nest"
         },
         {
           "optionId": "c",
-          "text": "jam"
+          "text": "pig"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -813,11 +813,11 @@
         },
         {
           "optionId": "b",
-          "text": "fish"
+          "text": "bed"
         },
         {
           "optionId": "c",
-          "text": "bed"
+          "text": "fish"
         }
       ],
       "correctOptionId": "a",
@@ -835,18 +835,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "jam"
+          "text": "run"
         },
         {
           "optionId": "b",
-          "text": "top"
+          "text": "jam"
         },
         {
           "optionId": "c",
-          "text": "run"
+          "text": "top"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
@@ -861,18 +861,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "van"
+          "text": "hen"
         },
         {
           "optionId": "b",
-          "text": "cup"
+          "text": "van"
         },
         {
           "optionId": "c",
-          "text": "hen"
+          "text": "cup"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -887,18 +887,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "web"
+          "text": "sit"
         },
         {
           "optionId": "b",
-          "text": "dog"
+          "text": "web"
         },
         {
           "optionId": "c",
-          "text": "sit"
+          "text": "dog"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -913,18 +913,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "yam"
+          "text": "fox"
         },
         {
           "optionId": "b",
-          "text": "pen"
+          "text": "yam"
         },
         {
           "optionId": "c",
-          "text": "fox"
+          "text": "pen"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
@@ -939,7 +939,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "zip"
+          "text": "map"
         },
         {
           "optionId": "b",
@@ -947,10 +947,10 @@
         },
         {
           "optionId": "c",
-          "text": "map"
+          "text": "zip"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -965,18 +965,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hat"
+          "text": "hop"
         },
         {
           "optionId": "b",
-          "text": "hen"
+          "text": "hat"
         },
         {
           "optionId": "c",
-          "text": "hop"
+          "text": "hen"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -991,7 +991,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "cup"
+          "text": "can"
         },
         {
           "optionId": "b",
@@ -999,10 +999,10 @@
         },
         {
           "optionId": "c",
-          "text": "can"
+          "text": "cup"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -1021,11 +1021,11 @@
         },
         {
           "optionId": "b",
-          "text": "sun"
+          "text": "dog"
         },
         {
           "optionId": "c",
-          "text": "dog"
+          "text": "sun"
         }
       ],
       "correctOptionId": "a",
@@ -1043,18 +1043,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "frog"
+          "text": "cup"
         },
         {
           "optionId": "b",
-          "text": "pen"
+          "text": "frog"
         },
         {
           "optionId": "c",
-          "text": "cup"
+          "text": "pen"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -1069,7 +1069,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "lake"
+          "text": "bed"
         },
         {
           "optionId": "b",
@@ -1077,10 +1077,10 @@
         },
         {
           "optionId": "c",
-          "text": "bed"
+          "text": "lake"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -1099,11 +1099,11 @@
         },
         {
           "optionId": "b",
-          "text": "map"
+          "text": "pig"
         },
         {
           "optionId": "c",
-          "text": "pig"
+          "text": "map"
         }
       ],
       "correctOptionId": "a",
@@ -1121,7 +1121,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "night"
+          "text": "run"
         },
         {
           "optionId": "b",
@@ -1129,10 +1129,10 @@
         },
         {
           "optionId": "c",
-          "text": "run"
+          "text": "night"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -1147,7 +1147,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "car"
+          "text": "top"
         },
         {
           "optionId": "b",
@@ -1155,10 +1155,10 @@
         },
         {
           "optionId": "c",
-          "text": "top"
+          "text": "car"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -1177,11 +1177,11 @@
         },
         {
           "optionId": "b",
-          "text": "hat"
+          "text": "fox"
         },
         {
           "optionId": "c",
-          "text": "fox"
+          "text": "hat"
         }
       ],
       "correctOptionId": "a",
@@ -1199,7 +1199,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "spoon"
+          "text": "jam"
         },
         {
           "optionId": "b",
@@ -1207,10 +1207,10 @@
         },
         {
           "optionId": "c",
-          "text": "jam"
+          "text": "spoon"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -1225,18 +1225,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "rock"
+          "text": "leaf"
         },
         {
           "optionId": "b",
-          "text": "cup"
+          "text": "rock"
         },
         {
           "optionId": "c",
-          "text": "leaf"
+          "text": "cup"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -1251,18 +1251,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "bear"
+          "text": "pig"
         },
         {
           "optionId": "b",
-          "text": "sun"
+          "text": "bear"
         },
         {
           "optionId": "c",
-          "text": "pig"
+          "text": "sun"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -1277,7 +1277,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "nest"
+          "text": "cup"
         },
         {
           "optionId": "b",
@@ -1285,10 +1285,10 @@
         },
         {
           "optionId": "c",
-          "text": "cup"
+          "text": "nest"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -1307,11 +1307,11 @@
         },
         {
           "optionId": "b",
-          "text": "hands"
+          "text": "shoes"
         },
         {
           "optionId": "c",
-          "text": "shoes"
+          "text": "hands"
         }
       ],
       "correctOptionId": "a",
@@ -1333,11 +1333,11 @@
         },
         {
           "optionId": "b",
-          "text": "sleeping"
+          "text": "swimming"
         },
         {
           "optionId": "c",
-          "text": "swimming"
+          "text": "sleeping"
         }
       ],
       "correctOptionId": "a",
@@ -1359,11 +1359,11 @@
         },
         {
           "optionId": "b",
-          "text": "hot"
+          "text": "dry"
         },
         {
           "optionId": "c",
-          "text": "dry"
+          "text": "hot"
         }
       ],
       "correctOptionId": "a",
@@ -1381,7 +1381,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "farm"
+          "text": "hospital"
         },
         {
           "optionId": "b",
@@ -1389,10 +1389,10 @@
         },
         {
           "optionId": "c",
-          "text": "hospital"
+          "text": "farm"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -1407,7 +1407,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "book"
+          "text": "ball"
         },
         {
           "optionId": "b",
@@ -1415,10 +1415,10 @@
         },
         {
           "optionId": "c",
-          "text": "ball"
+          "text": "book"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -1437,11 +1437,11 @@
         },
         {
           "optionId": "b",
-          "text": "sand"
+          "text": "clouds"
         },
         {
           "optionId": "c",
-          "text": "clouds"
+          "text": "sand"
         }
       ],
       "correctOptionId": "a",
@@ -1459,18 +1459,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "rains"
+          "text": "is windy indoors"
         },
         {
           "optionId": "b",
-          "text": "is sunny"
+          "text": "rains"
         },
         {
           "optionId": "c",
-          "text": "is windy indoors"
+          "text": "is sunny"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -1489,11 +1489,11 @@
         },
         {
           "optionId": "b",
-          "text": "shoes"
+          "text": "toys"
         },
         {
           "optionId": "c",
-          "text": "toys"
+          "text": "shoes"
         }
       ],
       "correctOptionId": "a",
@@ -1511,18 +1511,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "time"
+          "text": "weight"
         },
         {
           "optionId": "b",
-          "text": "colour"
+          "text": "time"
         },
         {
           "optionId": "c",
-          "text": "weight"
+          "text": "colour"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -1537,7 +1537,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "2"
         },
         {
           "optionId": "b",
@@ -1545,10 +1545,10 @@
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "3"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -1563,7 +1563,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "3"
         },
         {
           "optionId": "b",
@@ -1571,10 +1571,10 @@
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "4"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -1589,18 +1589,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "4"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "5"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "6"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -1619,11 +1619,11 @@
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "1"
         },
         {
           "optionId": "c",
-          "text": "1"
+          "text": "3"
         }
       ],
       "correctOptionId": "a",
@@ -1645,11 +1645,11 @@
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "5"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "7"
         }
       ],
       "correctOptionId": "a",
@@ -1667,18 +1667,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "6"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "7"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "8"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -1693,18 +1693,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "7"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "8"
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "9"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
@@ -1723,11 +1723,11 @@
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "8"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "10"
         }
       ],
       "correctOptionId": "a",
@@ -1749,11 +1749,11 @@
         },
         {
           "optionId": "b",
-          "text": "11"
+          "text": "9"
         },
         {
           "optionId": "c",
-          "text": "9"
+          "text": "11"
         }
       ],
       "correctOptionId": "a",
@@ -1771,18 +1771,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "1"
+          "text": "0"
         },
         {
           "optionId": "b",
-          "text": "2"
+          "text": "1"
         },
         {
           "optionId": "c",
-          "text": "0"
+          "text": "2"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -1797,18 +1797,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "4"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "5"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "6"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -1823,18 +1823,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "10"
+          "text": "9"
         },
         {
           "optionId": "b",
-          "text": "11"
+          "text": "10"
         },
         {
           "optionId": "c",
-          "text": "9"
+          "text": "11"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -1849,18 +1849,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "8"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "9"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "10"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -1875,7 +1875,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "5"
         },
         {
           "optionId": "b",
@@ -1883,10 +1883,10 @@
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "6"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
@@ -1901,7 +1901,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "6"
         },
         {
           "optionId": "b",
@@ -1909,10 +1909,10 @@
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "7"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -1931,11 +1931,11 @@
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "3"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "5"
         }
       ],
       "correctOptionId": "a",
@@ -1953,18 +1953,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "10"
+          "text": "9"
         },
         {
           "optionId": "b",
-          "text": "11"
+          "text": "10"
         },
         {
           "optionId": "c",
-          "text": "9"
+          "text": "11"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
@@ -1979,7 +1979,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "8"
         },
         {
           "optionId": "b",
@@ -1987,10 +1987,10 @@
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "9"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -2005,7 +2005,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "7"
         },
         {
           "optionId": "b",
@@ -2013,10 +2013,10 @@
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "8"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -2035,11 +2035,11 @@
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "1"
         },
         {
           "optionId": "c",
-          "text": "1"
+          "text": "3"
         }
       ],
       "correctOptionId": "a",
@@ -2057,7 +2057,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "2"
         },
         {
           "optionId": "b",
@@ -2065,10 +2065,10 @@
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "3"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -2083,18 +2083,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "1"
+          "text": "0"
         },
         {
           "optionId": "b",
-          "text": "2"
+          "text": "1"
         },
         {
           "optionId": "c",
-          "text": "0"
+          "text": "2"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -2113,11 +2113,11 @@
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "4"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "6"
         }
       ],
       "correctOptionId": "a",
@@ -2139,11 +2139,11 @@
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "2"
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "4"
         }
       ],
       "correctOptionId": "a",
@@ -2161,18 +2161,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "9"
+          "text": "8"
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "9"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "10"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -2187,7 +2187,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "4"
         },
         {
           "optionId": "b",
@@ -2195,10 +2195,10 @@
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "5"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -2217,11 +2217,11 @@
         },
         {
           "optionId": "b",
-          "text": "10"
+          "text": "8"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "10"
         }
       ],
       "correctOptionId": "a",
@@ -2239,7 +2239,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "7"
         },
         {
           "optionId": "b",
@@ -2247,10 +2247,10 @@
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "8"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -2265,18 +2265,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "6"
         },
         {
           "optionId": "b",
-          "text": "8"
+          "text": "7"
         },
         {
           "optionId": "c",
-          "text": "6"
+          "text": "8"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -2291,7 +2291,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "1"
+          "text": "0"
         },
         {
           "optionId": "b",
@@ -2299,10 +2299,10 @@
         },
         {
           "optionId": "c",
-          "text": "0"
+          "text": "1"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 1,
@@ -2321,11 +2321,11 @@
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "2"
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "4"
         }
       ],
       "correctOptionId": "a",
@@ -2347,11 +2347,11 @@
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "3"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "5"
         }
       ],
       "correctOptionId": "a",
@@ -2373,11 +2373,11 @@
         },
         {
           "optionId": "b",
-          "text": "5"
+          "text": "3"
         },
         {
           "optionId": "c",
-          "text": "3"
+          "text": "5"
         }
       ],
       "correctOptionId": "a",
@@ -2395,7 +2395,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "0"
+          "text": "2"
         },
         {
           "optionId": "b",
@@ -2403,10 +2403,10 @@
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "0"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 1,
@@ -2425,11 +2425,11 @@
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "4"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "6"
         }
       ],
       "correctOptionId": "a",
@@ -2447,18 +2447,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Plants need water, light and air"
+          "text": "Plants do not need sunlight"
         },
         {
           "optionId": "b",
-          "text": "Plants can grow without water"
+          "text": "Plants need water, light and air"
         },
         {
           "optionId": "c",
-          "text": "Plants do not need sunlight"
+          "text": "Plants can grow without water"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -2473,18 +2473,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Roots take in water from the soil"
+          "text": "Roots make sunlight"
         },
         {
           "optionId": "b",
-          "text": "Flowers take in all the water"
+          "text": "Roots take in water from the soil"
         },
         {
           "optionId": "c",
-          "text": "Roots make sunlight"
+          "text": "Flowers take in all the water"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
@@ -2503,11 +2503,11 @@
         },
         {
           "optionId": "b",
-          "text": "A seed grows into an animal"
+          "text": "A seed cannot grow"
         },
         {
           "optionId": "c",
-          "text": "A seed cannot grow"
+          "text": "A seed grows into an animal"
         }
       ],
       "correctOptionId": "a",
@@ -2525,7 +2525,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A goat is a mammal"
+          "text": "A goat is a reptile"
         },
         {
           "optionId": "b",
@@ -2533,10 +2533,10 @@
         },
         {
           "optionId": "c",
-          "text": "A goat is a reptile"
+          "text": "A goat is a mammal"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -2555,11 +2555,11 @@
         },
         {
           "optionId": "b",
-          "text": "Camels live only underwater"
+          "text": "Camels are adapted to icy polar habitats"
         },
         {
           "optionId": "c",
-          "text": "Camels are adapted to icy polar habitats"
+          "text": "Camels live only underwater"
         }
       ],
       "correctOptionId": "a",
@@ -2581,11 +2581,11 @@
         },
         {
           "optionId": "b",
-          "text": "Hens have scales"
+          "text": "Hens have fur"
         },
         {
           "optionId": "c",
-          "text": "Hens have fur"
+          "text": "Hens have scales"
         }
       ],
       "correctOptionId": "a",
@@ -2603,18 +2603,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Ears help us hear sounds"
+          "text": "Hands help us hear sounds"
         },
         {
           "optionId": "b",
-          "text": "Eyes help us hear sounds"
+          "text": "Ears help us hear sounds"
         },
         {
           "optionId": "c",
-          "text": "Hands help us hear sounds"
+          "text": "Eyes help us hear sounds"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -2629,7 +2629,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The nose helps us smell"
+          "text": "Feet help us smell"
         },
         {
           "optionId": "b",
@@ -2637,10 +2637,10 @@
         },
         {
           "optionId": "c",
-          "text": "Feet help us smell"
+          "text": "The nose helps us smell"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -2659,11 +2659,11 @@
         },
         {
           "optionId": "b",
-          "text": "Ears help us taste food"
+          "text": "Skin helps us taste food"
         },
         {
           "optionId": "c",
-          "text": "Skin helps us taste food"
+          "text": "Ears help us taste food"
         }
       ],
       "correctOptionId": "a",
@@ -2685,11 +2685,11 @@
         },
         {
           "optionId": "b",
-          "text": "Soap makes germs grow on hands"
+          "text": "Dry hands remove all germs"
         },
         {
           "optionId": "c",
-          "text": "Dry hands remove all germs"
+          "text": "Soap makes germs grow on hands"
         }
       ],
       "correctOptionId": "a",
@@ -2707,18 +2707,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Dark clouds can be a sign of rain"
+          "text": "Dark clouds always mean snow"
         },
         {
           "optionId": "b",
-          "text": "Dark clouds are made of smoke"
+          "text": "Dark clouds can be a sign of rain"
         },
         {
           "optionId": "c",
-          "text": "Dark clouds always mean snow"
+          "text": "Dark clouds are made of smoke"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -2733,18 +2733,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Wind can make a kite fly"
+          "text": "Rain lifts a kite into the sky"
         },
         {
           "optionId": "b",
-          "text": "Still air makes a kite fly high"
+          "text": "Wind can make a kite fly"
         },
         {
           "optionId": "c",
-          "text": "Rain lifts a kite into the sky"
+          "text": "Still air makes a kite fly high"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 1,
@@ -2759,7 +2759,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The Sun gives Earth daylight"
+          "text": "Stars make daytime bright"
         },
         {
           "optionId": "b",
@@ -2767,10 +2767,10 @@
         },
         {
           "optionId": "c",
-          "text": "Stars make daytime bright"
+          "text": "The Sun gives Earth daylight"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -2785,7 +2785,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A raincoat helps keep us dry in rain"
+          "text": "A paper bag keeps us dry in rain"
         },
         {
           "optionId": "b",
@@ -2793,10 +2793,10 @@
         },
         {
           "optionId": "c",
-          "text": "A paper bag keeps us dry in rain"
+          "text": "A raincoat helps keep us dry in rain"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 1,
@@ -2815,11 +2815,11 @@
         },
         {
           "optionId": "b",
-          "text": "Winter is usually warmer than summer"
+          "text": "Summer is usually colder than winter"
         },
         {
           "optionId": "c",
-          "text": "Summer is usually colder than winter"
+          "text": "Winter is usually warmer than summer"
         }
       ],
       "correctOptionId": "a",
@@ -2837,7 +2837,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A wooden chair is made from wood"
+          "text": "A wooden chair is made from water"
         },
         {
           "optionId": "b",
@@ -2845,10 +2845,10 @@
         },
         {
           "optionId": "c",
-          "text": "A wooden chair is made from water"
+          "text": "A wooden chair is made from wood"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 1,
@@ -2863,7 +2863,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Clear glass lets light pass through"
+          "text": "Clear glass makes its own light"
         },
         {
           "optionId": "b",
@@ -2871,10 +2871,10 @@
         },
         {
           "optionId": "c",
-          "text": "Clear glass makes its own light"
+          "text": "Clear glass lets light pass through"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 1,
@@ -2889,18 +2889,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Magnets can attract iron objects"
+          "text": "Magnets attract every material"
         },
         {
           "optionId": "b",
-          "text": "Magnets attract paper and wood"
+          "text": "Magnets can attract iron objects"
         },
         {
           "optionId": "c",
-          "text": "Magnets attract every material"
+          "text": "Magnets attract paper and wood"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
@@ -2919,11 +2919,11 @@
         },
         {
           "optionId": "b",
-          "text": "A rock grows leaves"
+          "text": "A rock needs food to live"
         },
         {
           "optionId": "c",
-          "text": "A rock needs food to live"
+          "text": "A rock grows leaves"
         }
       ],
       "correctOptionId": "a",
@@ -2941,7 +2941,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Animals need food, water and air"
+          "text": "Animals can live without water"
         },
         {
           "optionId": "b",
@@ -2949,10 +2949,10 @@
         },
         {
           "optionId": "c",
-          "text": "Animals can live without water"
+          "text": "Animals need food, water and air"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 1,
@@ -2967,7 +2967,7 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A chick hatches from an egg"
+          "text": "A chick hatches from a stone"
         },
         {
           "optionId": "b",
@@ -2975,10 +2975,10 @@
         },
         {
           "optionId": "c",
-          "text": "A chick hatches from a stone"
+          "text": "A chick hatches from an egg"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 1,
@@ -2997,11 +2997,11 @@
         },
         {
           "optionId": "b",
-          "text": "The skull protects the stomach"
+          "text": "The skull helps us digest food"
         },
         {
           "optionId": "c",
-          "text": "The skull helps us digest food"
+          "text": "The skull protects the stomach"
         }
       ],
       "correctOptionId": "a",
@@ -3019,18 +3019,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "We should stay away from hot stoves"
+          "text": "Hot stoves are safe to play beside"
         },
         {
           "optionId": "b",
-          "text": "Touch a hot stove to test it"
+          "text": "We should stay away from hot stoves"
         },
         {
           "optionId": "c",
-          "text": "Hot stoves are safe to play beside"
+          "text": "Touch a hot stove to test it"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 1,
@@ -3049,11 +3049,11 @@
         },
         {
           "optionId": "b",
-          "text": "A cork always sinks in water"
+          "text": "A cork dissolves in water"
         },
         {
           "optionId": "c",
-          "text": "A cork dissolves in water"
+          "text": "A cork always sinks in water"
         }
       ],
       "correctOptionId": "a",
@@ -3075,11 +3075,11 @@
         },
         {
           "optionId": "b",
-          "text": "Ice changes into sand"
+          "text": "Ice changes into stone"
         },
         {
           "optionId": "c",
-          "text": "Ice changes into stone"
+          "text": "Ice changes into sand"
         }
       ],
       "correctOptionId": "a",
