@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -103,7 +103,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/kg2-count-01-en.png"
     },
     {
       "activityId": "kg2-count-01-ar",
@@ -156,7 +157,8 @@
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good effort. Try again!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/kg2-shape-01-en.png"
     },
     {
       "activityId": "kg2-shape-01-ar",
@@ -206,7 +208,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/kg2-plant-01-en.png"
     },
     {
       "activityId": "kg2-plant-01-ar",
@@ -259,7 +262,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/kg2-sound-01-en.png"
     },
     {
       "activityId": "kg2-sound-01-ar",
@@ -309,7 +313,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Have another go!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/kg2-count-02-en.png"
     },
     {
       "activityId": "kg2-shape-02-en",
@@ -337,7 +342,8 @@
       "correctOptionId": "c",
       "feedbackCorrect": "Fantastic!",
       "feedbackIncorrect": "Good try. Keep learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/kg2-shape-02-en.png"
     },
     {
       "activityId": "kg2-plant-02-en",
@@ -362,7 +368,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/kg2-plant-02-en.png"
     },
     {
       "activityId": "kg2-sound-02-en",
@@ -387,7 +394,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "That's right!",
       "feedbackIncorrect": "Good effort. Try again!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/kg2-sound-02-en.png"
     }
   ]
 }
