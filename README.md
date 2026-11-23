@@ -116,7 +116,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 - Two source-backed schema-v3 pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress visualization remain open.
 - App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
-- Curated original option illustrations still need to be added to the packs; the renderer and missing/corrupt-image fallback are implemented.
+- Six original option illustrations are now bundled for Ali KG2; Grade 2 illustrations and on-device visual/accessibility QA remain open.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - The source/license register and per-pack source references are in place. The current packs are initial samples only; full curriculum mapping, a catalog/manifest, and per-asset review for future images/audio remain open.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
@@ -159,4 +159,5 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - Added a read-only Parent Dashboard with per-skill evidence and an Android device-credential gate. It requires a secure device lock and closes when the app leaves the foreground.
 - See [Implementation Slice 01](docs/implementation-slice-01-v0.1.md) for scope, acceptance coverage, test evidence, and remaining work.
 - See [Foundation Pilot Content QA v0.2](docs/units/foundation-pilot-content-qa-v0.2.md) for the expanded 8-item KG2 / 12-item Grade 2 English pilot review.
+- See [Original Offline Media Asset Register v0.1](docs/media-asset-register-v0.1.md) for the six KG2 PNGs, rights notes, integrity checks, and remaining media QA.
 - The current CI workflow compiles Kotlin and runs JVM tests, then checks Room schema v1/v2. It intentionally does not assemble or upload an APK and does not run emulator/device instrumentation.
