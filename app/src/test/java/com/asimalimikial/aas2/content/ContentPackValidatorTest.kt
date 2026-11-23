@@ -242,8 +242,16 @@ class ContentPackValidatorTest {
                 "three" to "Rationale for three",
                 "four" to "Rationale for four"
             ),
-            promptImageAssetPath = "question-art/activity-001.png"
-        )
+            promptImageAssetPath = "question-art/activity-001.png",
+            promptAudioAssetPath = "speech/test-prompt.ogg",
+            optionAudioAssetPaths = mapOf(
+                "two" to "speech/test-two.ogg",
+                "three" to "speech/test-three.ogg",
+                "four" to "speech/test-four.ogg"
+            ),
+            feedbackCorrectAudioAssetPath = "speech/test-correct.ogg",
+            feedbackIncorrectAudioAssetPath = "speech/test-incorrect.ogg",
+                )
         val pack = validPack(activities = listOf(activity)).copy(
             schemaVersion = 4,
             books = listOf(
@@ -290,8 +298,16 @@ class ContentPackValidatorTest {
                 "three" to "Rationale for three",
                 "four" to "Rationale for four"
             ),
-            promptImageAssetPath = "../outside.png"
-        )
+            promptImageAssetPath = "../outside.png",
+            promptAudioAssetPath = "speech/test-prompt.ogg",
+            optionAudioAssetPaths = mapOf(
+                "two" to "speech/test-two.ogg",
+                "three" to "speech/test-three.ogg",
+                "four" to "speech/test-four.ogg"
+            ),
+            feedbackCorrectAudioAssetPath = "speech/test-correct.ogg",
+            feedbackIncorrectAudioAssetPath = "speech/test-incorrect.ogg",
+                )
         val pack = validPack(activities = listOf(activity)).copy(
             schemaVersion = 4,
             books = listOf(BookDefinition("book-1", "Book", "Science", "KG2", listOf("source-1"))),
@@ -315,8 +331,16 @@ class ContentPackValidatorTest {
                 "three" to "Rationale for three",
                 "four" to "Rationale for four"
             ),
-            promptImageAssetPath = "question-art/activity-001.png"
-        )
+            promptImageAssetPath = "question-art/activity-001.png",
+            promptAudioAssetPath = "speech/test-prompt.ogg",
+            optionAudioAssetPaths = mapOf(
+                "two" to "speech/test-two.ogg",
+                "three" to "speech/test-three.ogg",
+                "four" to "speech/test-four.ogg"
+            ),
+            feedbackCorrectAudioAssetPath = "speech/test-correct.ogg",
+            feedbackIncorrectAudioAssetPath = "speech/test-incorrect.ogg",
+                )
         val pack = validPack(activities = listOf(activity)).copy(
             schemaVersion = 4,
             books = listOf(BookDefinition("book-1", "Book", "Science", "KG2", listOf("source-1"))),
