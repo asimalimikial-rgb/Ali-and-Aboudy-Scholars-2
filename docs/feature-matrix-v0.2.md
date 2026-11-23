@@ -165,3 +165,20 @@ The table below links feature IDs to the current canonical Skill Registry. A bro
 - [x] Feature-to-Skill links use existing registry IDs and explicitly retain evidence limits.
 - [x] Arabic/default explanation decision in section 20 is applied.
 - [x] No runtime, JSON pack, Room schema, APK, release or main-branch change is included.
+
+
+## Implementation state — Slice 01 (23 November 2026)
+
+The following implementation evidence supplements, but does not rewrite, the proposed priority/disposition rows above:
+
+| Feature IDs | Current implementation state | Evidence / remaining gate |
+|---|---|---|
+| EDU-001, EDU-004 | Existing learner isolation and separate path-to-pack selection retained | JVM learner-isolation tests; real-device validation remains |
+| EDU-005 | First unpractised question opens immediately; return-to-catalogue navigation remains available | JVM selection-policy tests; broader diagnostic/adaptive cycle remains partial |
+| EDU-009, EDU-026 | Objective single-choice submission, persisted feedback, neutral retry action | JVM service test confirms separate attempt records; more activity types remain out of scope |
+| EDU-015, EDU-016 | Read-only parent progress dashboard with overall and per-skill evidence | Requires Android device credential; UI and lifecycle still need device testing |
+| EDU-017 | Local bundled-pack loading and learner-scoped Room persistence remain offline-first | Source path and JVM tests; airplane-mode and process-restart device tests remain |
+| EDU-020 | Parent dashboard is protected by Android system device credential and closes on app background | CI source compile; real-device credential and lifecycle tests remain |
+| EDU-019 | Parent/app chrome is localized independently of English learning content | Runtime policy tests; full parent settings are not yet implemented |
+
+No feature row is marked fully production-verified solely because source CI passed. CI does not prove real-device usability, full curriculum coverage, or production readiness.
