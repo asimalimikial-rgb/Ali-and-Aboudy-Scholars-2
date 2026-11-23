@@ -162,3 +162,42 @@ This is a functional first implementation slice on top of the existing Android f
 7. Provisional mastery thresholds require calibration; no production claim of mastery is allowed.
 
 No APK, release, artifact upload, main merge, Room schema change, Manifest change, Gradle dependency change or signing change was made.
+
+
+## Curriculum content, question visuals and offline audio — 23 November 2026
+
+### Grade 2 Science Unit 1
+
+- Added schema-v4 book/unit/lesson metadata while retaining schema-v3 compatibility for the KG2 pack.
+- Digital book: AAS2 Science — Grade 2, aligned to Macmillan Science Level 2 (reference-only). Unit 1 maps to publisher topics 1–4; the four lessons are Plants Are Living Things, Parts of Plants and Plants We Eat, Useful Plants, and Seeds and Plant Growth.
+- Added 32 original English activities (8 per lesson), each with three distinct options, one answer key, option rationales, misconception code, assessment phase, and a unique prompt-image path.
+- Automated content audit: 32/32 activities have three unique options, a valid single answer, complete rationales and image references; no duplicate prompts or Arabic child text. Correct-option distribution A=10, B=10, C=12.
+- The source book remains REFERENCE_ONLY. No textbook passage, question, page, illustration or workbook content was copied.
+
+### Visual Learning Engine extraction
+
+- Extracted user-owned legacy Visual Learning Engine v1.6.0 to `tools/visuals/visual-engine.js` for build-time generation only.
+- Added an automated SVG-to-PNG pipeline using pinned `@resvg/resvg-js`; generated 52 unique local prompt illustrations for all 52 English activities across KG2 and Grade 2.
+- The engine runtime is not included in the Android app. Only generated PNG assets and their SHA-256 manifest are packaged.
+- Visual workflow run [#45205308307](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/45205308307) completed successfully. This proves generated files and manifest checks, not on-device rendering.
+
+### Audio pipeline and playback
+
+- Added English-only speech generation using the legacy Supertonic 3 / sherpa-onnx 2.0.1 pipeline in GitHub Actions only. The pinned model archive is verified by SHA-256; model weights/runtime are not packaged in APK.
+- Target generation speed is 0.70 for English words and sentences. Audio roles include each prompt, each option, and correct/incorrect encouragement. Arabic audio is excluded.
+- Added schema-v4 audio paths and a single cancellable Android audio controller. Playback is from local assets only; no Android TTS, Web Speech, network speech or silent fallback.
+- Audio generation run is still running/pending; generated asset count, hashes and playback on a physical phone remain unverified.
+
+### Content language and feedback correction
+
+- English post-answer feedback now contains brief encouragement only. No explanation or hint is repeated after submission.
+- The learner runtime continues to select English activities only; historical Arabic records remain non-displayed.
+
+### Remaining gates
+
+1. Wait for the audio workflow, then verify every audio file, SHA-256, duration, language and speed from the manifest.
+2. Run Android JVM CI after the final generated assets commit; distinguish source tests from device playback.
+3. Verify prompt/option/feedback playback, stop/replay and rapid clip switching on the target Android phone in Airplane Mode.
+4. Verify 52 prompt images render at phone scale, including missing/corrupt asset fallback and accessibility descriptions.
+5. Continue authoring Grade 2 Science Units 2–5 and the remaining books/subjects; Unit 1 is not the full year curriculum.
+6. No APK, release, merge to main, or signing changes are authorized by this implementation slice.
