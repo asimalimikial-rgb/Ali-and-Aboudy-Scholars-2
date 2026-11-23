@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.app.KeyguardManager
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import java.util.Locale
 import androidx.activity.ComponentActivity
@@ -22,6 +23,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -29,6 +31,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -42,10 +48,12 @@ import com.asimalimikial.aas2.learning.ActivitySubmissionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
 import com.asimalimikial.aas2.ui.ParentDashboardScreen
+import com.asimalimikial.aas2.ui.ParentSettingsScreen
 import com.asimalimikial.aas2.data.AppDatabase
 import com.asimalimikial.aas2.data.LearnerProfileEntity
 import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.data.LearnerSelectionPolicy
+import com.asimalimikial.aas2.data.ParentAppLanguagePolicy
 import com.asimalimikial.aas2.data.UserPreferences
 
 class MainActivity : ComponentActivity() {
@@ -96,13 +104,32 @@ class MainActivity : ComponentActivity() {
         setContent {
             val profiles by profileDao.observeProfiles().collectAsState(initial = emptyList())
             val selectedLearnerId by userPreferences.selectedLearnerId.collectAsState(initial = null)
+            val parentAppLanguage by userPreferences.parentAppLanguage.collectAsState(
+                initial = ParentAppLanguagePolicy.SYSTEM
+            )
+            val parentLocale = remember(parentAppLanguage) {
+                ParentAppLanguagePolicy.localeFor(parentAppLanguage)
+            }
+            val baseConfiguration = LocalConfiguration.current
+            val localizedConfiguration = remember(baseConfiguration, parentLocale) {
+                Configuration(baseConfiguration).apply {
+                    setLocale(parentLocale)
+                    setLayoutDirection(parentLocale)
+                }
+            }
+            val baseContext = LocalContext.current
+            val localizedContext = remember(baseContext, localizedConfiguration) {
+                baseContext.createConfigurationContext(localizedConfiguration)
+            }
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
             var showLearningExperience by remember { mutableStateOf(false) }
             var showParentDashboard by remember { mutableStateOf(false) }
+            var showParentSettings by remember { mutableStateOf(false) }
 
             LaunchedEffect(selectedProfile?.learnerId) {
                 showLearningExperience = false
                 showParentDashboard = false
+                showParentSettings = false
             }
 
             LaunchedEffect(selectedLearnerId, profiles) {
@@ -111,8 +138,17 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
-            MaterialTheme {
-                Surface(modifier = Modifier.fillMaxSize()) {
+            CompositionLocalProvider(
+                LocalConfiguration provides localizedConfiguration,
+                LocalContext provides localizedContext,
+                LocalLayoutDirection provides if (ParentAppLanguagePolicy.isRightToLeft(parentLocale)) {
+                    LayoutDirection.Rtl
+                } else {
+                    LayoutDirection.Ltr
+                }
+            ) {
+                MaterialTheme {
+                    Surface(modifier = Modifier.fillMaxSize()) {
                     if (selectedProfile == null) {
                         LearnerProfileSelection(
                             profiles = LearnerSelectionPolicy.activeProfiles(profiles),
@@ -127,6 +163,11 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
                         )
+                    } else if (showParentSettings) {
+                        ParentSettingsScreen(
+                            userPreferences = userPreferences,
+                            onBack = { showParentSettings = false }
+                        )
                     } else if (showParentDashboard) {
                         ParentDashboardScreen(
                             profile = selectedProfile,
@@ -134,7 +175,8 @@ class MainActivity : ComponentActivity() {
                             pathwayLabel = localizedPathway(selectedProfile.pathway),
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
-                            onExit = { showParentDashboard = false }
+                            onOpenSettings = { showParentSettings = true },
+                            onExit = { showParentDashboard = false; showParentSettings = false }
                         )
                     } else if (showLearningExperience) {
                         LearningExperienceScreen(
@@ -157,6 +199,7 @@ class MainActivity : ComponentActivity() {
                             onSwitchLearner = {
                                 showLearningExperience = false
                                 showParentDashboard = false
+                                showParentSettings = false
                                 lifecycleScope.launch {
                                     userPreferences.clearSelectedLearner()
                                 }
@@ -164,6 +207,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
                 }
+            }
             }
         }
     }

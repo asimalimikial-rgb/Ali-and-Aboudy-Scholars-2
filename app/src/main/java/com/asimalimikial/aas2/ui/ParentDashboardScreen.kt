@@ -45,6 +45,7 @@ fun ParentDashboardScreen(
     pathwayLabel: String,
     contentPackRepository: ContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
+    onOpenSettings: () -> Unit,
     onExit: () -> Unit
 ) {
     val lifecycleOwner = LocalLifecycleOwner.current
@@ -108,6 +109,12 @@ fun ParentDashboardScreen(
             onClick = onExit
         ) {
             Text(stringResource(R.string.back_to_learning_space))
+        }
+        OutlinedButton(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = onOpenSettings
+        ) {
+            Text(stringResource(R.string.parent_settings_button))
         }
 
         Text(

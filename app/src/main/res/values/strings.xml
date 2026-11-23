@@ -66,4 +66,19 @@
     <string name="parent_gate_setup_message">Set a PIN, password or pattern in Android screen-lock settings before opening the parent dashboard. The learning activities remain available without this setup.</string>
     <string name="activity_save_error_ar">تعذر حفظ إجابتك. حاول مرة أخرى.</string>
     <string name="picture_answer_option">Picture option</string>
+
+    <string name="parent_settings_button">Parent settings</string>
+    <string name="back_to_parent_dashboard">Back to parent dashboard</string>
+    <string name="parent_settings_title">Parent settings</string>
+    <string name="parent_settings_description">Choose the language used for parent-facing screens on this device.</string>
+    <string name="parent_settings_language_title">Parent interface language</string>
+    <string name="parent_settings_language_system">Use device language</string>
+    <string name="parent_settings_language_english">English</string>
+    <string name="parent_settings_language_arabic">Arabic</string>
+    <string name="parent_settings_child_language_note">Child learning activities remain in English. This setting changes parent-facing app screens only.</string>
+    <string name="parent_settings_audio_note">Audio controls will appear when approved audio activities are added.</string>
+    <string name="parent_settings_save">Save settings</string>
+    <string name="parent_settings_saving">Saving…</string>
+    <string name="parent_settings_save_error">Settings could not be saved. Please try again.</string>
+
 </resources>

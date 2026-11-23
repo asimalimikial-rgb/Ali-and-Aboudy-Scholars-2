@@ -59,4 +59,19 @@
     <string name="parent_gate_setup_title">قفل الجهاز مطلوب</string>
     <string name="parent_gate_setup_message">اضبط رقم PIN أو كلمة مرور أو نمطاً لقفل شاشة Android قبل فتح لوحة ولي الأمر. تظل الأنشطة التعليمية متاحة دون هذا الإعداد.</string>
     <string name="picture_answer_option">خيار بصورة</string>
+
+    <string name="parent_settings_button">إعدادات ولي الأمر</string>
+    <string name="back_to_parent_dashboard">العودة إلى لوحة ولي الأمر</string>
+    <string name="parent_settings_title">إعدادات ولي الأمر</string>
+    <string name="parent_settings_description">اختر اللغة المستخدمة في شاشات ولي الأمر على هذا الجهاز.</string>
+    <string name="parent_settings_language_title">لغة واجهة ولي الأمر</string>
+    <string name="parent_settings_language_system">استخدم لغة الجهاز</string>
+    <string name="parent_settings_language_english">الإنجليزية</string>
+    <string name="parent_settings_language_arabic">العربية</string>
+    <string name="parent_settings_child_language_note">تظل الأنشطة التعليمية الموجهة للطفل باللغة الإنجليزية. يغيّر هذا الإعداد شاشات ولي الأمر فقط.</string>
+    <string name="parent_settings_audio_note">ستظهر إعدادات الصوت عند إضافة أنشطة صوتية معتمدة.</string>
+    <string name="parent_settings_save">حفظ الإعدادات</string>
+    <string name="parent_settings_saving">جارٍ الحفظ…</string>
+    <string name="parent_settings_save_error">تعذر حفظ الإعدادات. حاول مرة أخرى.</string>
+
 </resources>
