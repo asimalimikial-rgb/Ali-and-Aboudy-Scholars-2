@@ -20,6 +20,57 @@ function extractSvgFragments(html) {
   return [...String(html).matchAll(/<svg\b[\s\S]*?<\/svg>/g)].map(match => match[0]);
 }
 
+function visualProfile(activity) {
+  const skill = String(activity.skillId || "").toLowerCase();
+  if (/initial-sounds|rhyming|phonics|letter-sound/.test(skill)) {
+    return { type: "phonics", skill: "phonics", textFirst: false };
+  }
+  if (/reading-comprehension|reading|story/.test(skill)) {
+    return { type: "reading_comprehension", skill: "reading", textFirst: true };
+  }
+  if (/grammar|word-study|sentence-order|punctuation|capital/.test(skill)) {
+    return { type: "mc_text", skill: "english-grammar", textFirst: true };
+  }
+  if (/vocabulary|context-vocabulary/.test(skill)) {
+    return { type: "mc_text", skill: "vocabulary", textFirst: false };
+  }
+  if (/math|count|shape|place-value|addition|subtraction|multiplication|measure|fraction|number-pattern/.test(skill)) {
+    return { type: "mc_text", skill: "math", textFirst: false };
+  }
+  if (/science|plant|animal|habitat|living-world|my-world-discovery|matter|earth|SCI-G2/i.test(skill)) {
+    return { type: "mc_text", skill: "science", textFirst: false };
+  }
+  return { type: "mc_text", skill: "english", textFirst: false };
+}
+
+function escapeXml(value) {
+  return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+}
+
+function wordCardSvg(value) {
+  const words = String(value).trim().split(/\s+/);
+  const lines = [];
+  let line = "";
+  for (const word of words) {
+    const next = line ? line + " " + word : word;
+    if (next.length > 23 && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = next;
+    }
+  }
+  if (line) lines.push(line);
+  const visible = lines.slice(0, 3);
+  const fontSize = visible.some(item => item.length > 19) ? 10 : 12;
+  const startY = visible.length === 1 ? 58 : visible.length === 2 ? 49 : 40;
+  const text = visible.map((item, index) =>
+    `<text x="80" y="\${startY + index * 19}" text-anchor="middle" font-family="Arial, sans-serif" font-size="\${fontSize}" font-weight="700" fill="#24415c">\${escapeXml(item)}</text>`
+  ).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#ffffff" stroke="#7da6c7" stroke-width="2"/><rect x="14" y="13" width="132" height="7" rx="3.5" fill="#d9eaf7">\${text}<circle cx="24" cy="91" r="4" fill="#48a987"/><circle cx="136" cy="91" r="4" fill="#d79a38"/></svg>`;
+}
+
 function makeQuestionSvg(activity, fragments, serial) {
   let selected = fragments.slice(0, 4);
   if (selected.length === 0) {
@@ -68,21 +119,23 @@ for (const filename of packFiles) {
   for (const activity of pack.activities || []) {
     if (!activity.promptImageAssetPath) continue;
     if (activity.language !== "en") throw new Error(`Question art must be generated only for English activities: ${activity.activityId}`);
+    const profile = visualProfile(activity);
     const question = {
       id: activity.activityId,
-      type: "mc_text",
-      skill: "science plant life",
+      type: profile.type,
+      skill: profile.skill,
       prompt: activity.prompt,
-      options: []
+      options: (activity.options || []).map(option => option.text)
     };
     const html = visuals.render(question, {});
     const promptFragments = extractSvgFragments(html);
     const optionFragments = (activity.options || []).map(option => {
+      if (profile.textFirst) return wordCardSvg(option.text);
       const optionHtml = visuals.renderOption(question, option.text);
       const rendered = extractSvgFragments(optionHtml)[0];
       if (rendered) return rendered;
       const kinds = visuals.findKinds(option.text);
-      return visuals.svg(kinds[0] || "generic", option.text);
+      return kinds.length ? visuals.svg(kinds[0], option.text) : wordCardSvg(option.text);
     });
     const fragments = optionFragments.length ? optionFragments.concat(promptFragments) : promptFragments;
     const svg = makeQuestionSvg(activity, fragments, records.length + 1);
