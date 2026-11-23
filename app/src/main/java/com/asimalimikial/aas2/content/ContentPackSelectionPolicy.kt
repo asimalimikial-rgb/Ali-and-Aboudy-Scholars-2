@@ -25,4 +25,23 @@ object ContentPackSelectionPolicy {
      */
     fun englishActivities(pack: ContentPack): List<ActivityDefinition> =
         pack.activities.filter { it.language == "en" }
+
+    /** Groups low-level skill domains into age-appropriate learning areas. */
+    fun subjectForDomain(domain: String, learnerPathway: String): String {
+        return when (canonicalLearnerPath(learnerPathway)) {
+            "KG2" -> when (domain.trim()) {
+                "Early Numeracy", "Mathematics" -> "Mathematics"
+                "Language and Communication" -> "English & Literacy"
+                "Science and Discovery" -> "Discovery"
+                else -> domain
+            }
+            "GRADE_2" -> when (domain.trim()) {
+                "English Language" -> "English"
+                "Mathematics" -> "Mathematics"
+                "Science" -> "Science"
+                else -> domain
+            }
+            else -> domain
+        }
+    }
 }
