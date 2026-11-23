@@ -9,10 +9,7 @@ import org.junit.Test
 
 class BundledContentPackAssetsTest {
     private fun assetsRoot(): File {
-        val candidates = listOf(
-            File("src/main/assets"),
-            File("app/src/main/assets")
-        )
+        val candidates = listOf(File("src/main/assets"), File("app/src/main/assets"))
         return candidates.firstOrNull { it.isDirectory }
             ?: throw AssertionError("Could not locate app/src/main/assets from the JVM test working directory")
     }
@@ -30,7 +27,6 @@ class BundledContentPackAssetsTest {
     @Test
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
-
         assertEquals("KG2", pack.learnerPath)
         assertEquals("0.2.0", pack.version)
         assertEquals(4, pack.skills.size)
@@ -43,20 +39,30 @@ class BundledContentPackAssetsTest {
     }
 
     @Test
-    fun grade2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
+    fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
-
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.2.0", pack.version)
-        assertEquals(6, pack.skills.size)
-        assertEquals(18, pack.activities.size)
-        assertEquals(12, pack.activities.count { it.language == "en" })
+        assertEquals("0.3.0", pack.version)
+        assertEquals(4, pack.schemaVersion)
+        assertEquals(13, pack.skills.size)
+        assertEquals(50, pack.activities.size)
+        assertEquals(44, pack.activities.count { it.language == "en" })
         assertEquals(6, pack.activities.count { it.language == "ar" })
-        assertTrue(pack.activities.filter { it.language == "en" }.groupBy { it.skillId }.values.all { it.size == 2 })
+        assertEquals(1, pack.books.size)
+        assertEquals("macmillan-science-level2", pack.books.single().bookId)
+        assertEquals(1, pack.units.size)
+        assertEquals(4, pack.lessons.size)
+        val scienceActivities = pack.activities.filter { it.lessonId != null }
+        assertEquals(32, scienceActivities.size)
+        pack.lessons.forEach { lesson ->
+            assertEquals(8, scienceActivities.count { it.lessonId == lesson.lessonId })
+        }
+        assertTrue(scienceActivities.all { it.assessmentPhase in setOf("DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER") })
+        assertTrue(scienceActivities.all { it.optionRationales.size == 3 })
+        assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
         val measureActivity = pack.activities.single { it.activityId == "g2-measure-02-en" }
         assertTrue(measureActivity.prompt.contains("120 cm"))
         assertEquals("a", measureActivity.correctOptionId)
-        assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
     }
 
     @Test
@@ -65,18 +71,30 @@ class BundledContentPackAssetsTest {
             repository.load("aas2-kg2-foundation"),
             repository.load("aas2-grade2-foundation")
         )
-        val imagePaths = packs
-            .flatMap { it.activities }
+        val imagePaths = packs.flatMap { it.activities }
             .flatMap { it.options }
             .mapNotNull { it.imageAssetPath }
             .distinct()
-
         assertEquals(11, imagePaths.size)
+        assertPngAssets(imagePaths, "option-art/")
+    }
+
+    @Test
+    fun everyScienceQuestionHasItsOwnBundledIllustration() = runBlocking<Unit> {
+        val pack = repository.load("aas2-grade2-foundation")
+        val scienceActivities = pack.activities.filter { it.lessonId != null }
+        val imagePaths = scienceActivities.mapNotNull { it.promptImageAssetPath }
+        assertEquals(32, imagePaths.size)
+        assertEquals(32, imagePaths.distinct().size)
+        assertPngAssets(imagePaths, "question-art/")
+    }
+
+    private fun assertPngAssets(paths: List<String>, requiredPrefix: String) {
         val pngSignature = byteArrayOf(
             0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A
         )
-        imagePaths.forEach { imagePath ->
-            assertTrue(imagePath.startsWith("option-art/"))
+        paths.forEach { imagePath ->
+            assertTrue("Unexpected asset path: $imagePath", imagePath.startsWith(requiredPrefix))
             val imageFile = File(assetsRoot(), imagePath)
             assertTrue("Missing bundled image: $imagePath", imageFile.isFile)
             val bytes = imageFile.readBytes()
@@ -87,5 +105,4 @@ class BundledContentPackAssetsTest {
             )
         }
     }
-
 }
