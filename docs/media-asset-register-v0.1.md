@@ -59,3 +59,23 @@ The first Grade 2 visual set supports the two original habitat-choice activities
 | `option-art/deep-ocean.png` | Deep ocean | `g2-habitat-02-en` — A deep ocean |
 
 The shared JVM asset-integrity test now expects eleven unique referenced illustrations across both packs. Other Grade 2 skills remain text-only until a reviewed learning item benefits from an image.
+
+
+## Per-question illustrations — 23 November 2026
+
+- Added 52 original prompt illustrations, one for each English activity in the two learner packs: 8 KG2 and 44 Grade 2.
+- Files are generated under `app/src/main/assets/question-art/`; `manifest.json` records activity ID, relative path, byte length, SHA-256 and generator version.
+- Generator: the extracted user-owned Scholars Visual Learning Engine v1.6.0, executed only in CI; SVG fragments are rasterized to PNG using pinned `@resvg/resvg-js`. The legacy JavaScript engine is not packaged into Android.
+- All 52 paths are unique and all 52 PNG SHA-256 values are distinct. The generator refuses to commit duplicate image bytes.
+- The illustrations are newly rendered from semantic vector shapes and do not contain textbook scans, diagrams or copied publisher artwork.
+- The prompt-image field is displayed above the question; answer option text remains visible. The image supplements rather than replaces the learning prompt.
+- Visual workflow: [GitHub Actions #45205308307](https://github.com/asimalimikial/Ali-and-Aboudy-Scholars-2/actions/runs/45205308307) — Success.
+- Phone-scale visual quality, missing/corrupt prompt-image fallback, TalkBack descriptions and physical-device verification remain open.
+
+## English offline audio generation — implementation in progress
+
+- Added `tools/audio/generate-offline-speech.py` and `.github/workflows/generate-offline-audio.yml`.
+- The pipeline is English-only, uses Supertonic 3 through sherpa-onnx 2.0.1 in GitHub Actions, and targets speed 0.70 for words and sentences.
+- Expected roles per English activity: prompt, every answer option, correct feedback and incorrect encouragement. Paths are stored directly in the content pack and point to local `speech/` assets.
+- The Android app uses a single cancellable local MediaPlayer controller; it does not include a TTS runtime or model weights and does not call Android System TTS or network speech.
+- The generation workflow has not yet completed. Do not record a final clip count or claim on-device playback until its manifest, hashes, duration and OGG files are verified.
