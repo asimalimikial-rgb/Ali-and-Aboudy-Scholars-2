@@ -34,6 +34,9 @@
     <string name="learning_area_progress">تدرّبت على %1$d من %2$d أنشطة</string>
     <string name="activity_number">النشاط %1$d</string>
     <string name="activity_practised">تم التدريب عليه</string>
+    <string name="loading_learning_areas">جارٍ تحميل مجالات التعلم…</string>
+    <string name="no_learning_areas">لا توجد مجالات تعلم متاحة حالياً.</string>
+    <string name="available_activity_count">%1$d أنشطة متاحة</string>
     <string name="activity_list_item">%1$d. %2$s</string>
     <string name="practice_summary_title">ملخص التدريب</string>
     <string name="practice_summary_empty">سيظهر سجل تدريبك هنا بعد أول إجابة.</string>
