@@ -17,7 +17,7 @@ const outputRoot = path.join(assetRoot, "question-art");
 fs.mkdirSync(outputRoot, { recursive: true });
 
 function extractSvgFragments(html) {
-  return [...String(html).matchAll(/<svg\\b[\\s\\S]*?<\\/svg>/g)].map(match => match[0]);
+  return [...String(html).matchAll(/<svg\b[\s\S]*?<\/svg>/g)].map(match => match[0]);
 }
 
 function makeQuestionSvg(activity, fragments) {
@@ -33,9 +33,9 @@ function makeQuestionSvg(activity, fragments) {
   const width = columns * cellWidth + 24;
   const height = rows * cellHeight + 24;
   const nested = selected.map((fragment, index) => {
-    const match = fragment.match(/^<svg\\b([^>]*)>/);
+    const match = fragment.match(/^<svg\b([^>]*)>/);
     if (!match) return "";
-    const attrs = match[1].replace(/\\s+(?:x|y|width|height)="[^"]*"/g, "");
+    const attrs = match[1].replace(/\s+(?:x|y|width|height)="[^"]*"/g, "");
     const inner = fragment.slice(match[0].length, fragment.lastIndexOf("</svg>"));
     const x = 12 + (index % columns) * cellWidth;
     const y = 12 + Math.floor(index / columns) * cellHeight;
@@ -85,7 +85,7 @@ const manifest = {
   questionCount: records.length,
   files: records
 };
-fs.writeFileSync(path.join(outputRoot, "manifest.json"), JSON.stringify(manifest, null, 2) + "\\n");
+fs.writeFileSync(path.join(outputRoot, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
 for (const record of records) {
   const bytes = fs.readFileSync(path.join(assetRoot, record.path));
   if (bytes.length !== record.bytes || crypto.createHash("sha256").update(bytes).digest("hex") !== record.sha256) {
