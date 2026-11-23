@@ -245,9 +245,8 @@ for (const filename of packFiles) {
     const optionFragments = (activity.options || []).map(option => {
       const optionText = String(option.text || "").trim();
       if (profile.textFirst) return wordCardSvg(optionText);
-      if (profile.skill === "math") {
-        if (/^\d{1,4}$/.test(optionText)) return numberCardSvg(optionText);
-        if (!/shape/.test(String(activity.skillId || "").toLowerCase())) return wordCardSvg(optionText);
+      if (profile.skill === "math" && !/shape/.test(String(activity.skillId || "").toLowerCase())) {
+        return wordCardSvg(optionText);
       }
       const visualKind = visuals.optionVisualKind(question, optionText);
       if (visualKind === "word-card") return wordCardSvg(optionText);
