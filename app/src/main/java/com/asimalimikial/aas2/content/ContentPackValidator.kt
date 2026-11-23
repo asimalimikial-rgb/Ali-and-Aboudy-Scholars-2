@@ -152,9 +152,12 @@ object ContentPackValidator {
 
                 val hasBookMetadata = activity.bookId != null || activity.unitId != null || activity.lessonId != null
                 if (hasBookMetadata) {
-                    if (activity.bookId !in pack.books.map { it.bookId }) add("Activity at index $index references an unknown bookId")
-                    val unit = pack.units.singleOrNull { it.unitId == activity.unitId }
-                    val lesson = pack.lessons.singleOrNull { it.lessonId == activity.lessonId }
+                    val knownBookIds = pack.books.map { it.bookId }.toSet()
+                    if (activity.bookId == null || activity.bookId !in knownBookIds) {
+                        add("Activity at index $index references an unknown bookId")
+                    }
+                    val unit = activity.unitId?.let { id -> pack.units.singleOrNull { it.unitId == id } }
+                    val lesson = activity.lessonId?.let { id -> pack.lessons.singleOrNull { it.lessonId == id } }
                     if (unit == null) add("Activity at index $index references an unknown unitId")
                     if (lesson == null) add("Activity at index $index references an unknown lessonId")
                     if (unit != null && unit.bookId != activity.bookId) add("Activity at index $index bookId does not match its unit")
@@ -162,7 +165,7 @@ object ContentPackValidator {
                     if (lesson != null && activity.skillId !in lesson.skillIds) {
                         add("Activity at index $index skillId is not assigned to its lesson")
                     }
-                    if (activity.assessmentPhase !in supportedAssessmentPhases) {
+                    if (activity.assessmentPhase == null || activity.assessmentPhase !in supportedAssessmentPhases) {
                         add("Activity at index $index has an unsupported or missing assessmentPhase")
                     }
                     if (activity.misconceptionCode.isNullOrBlank()) add("Activity at index $index has no misconceptionCode")
