@@ -3,8 +3,92 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.6.0",
   "outputFormat": "PNG",
-  "questionCount": 32,
+  "questionCount": 52,
   "files": [
+    {
+      "activityId": "g2-place-01-en",
+      "path": "question-art/g2-place-01-en.png",
+      "bytes": 12112,
+      "sha256": "706a60707f5c5ab9deda647f18d71ff60925fab61b507c4ace730773b516da6d",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-add-01-en",
+      "path": "question-art/g2-add-01-en.png",
+      "bytes": 16303,
+      "sha256": "7ee196968304eaa42e4aeb4caacf8dbc0b56fd31eed6b3a3b8bd636acb7f25a6",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-measure-01-en",
+      "path": "question-art/g2-measure-01-en.png",
+      "bytes": 12970,
+      "sha256": "fe05e2013fab5c17d661ab258a392ec9d4f3dc47cf9f86cc1bc4e7c38dbf4e71",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-habitat-01-en",
+      "path": "question-art/g2-habitat-01-en.png",
+      "bytes": 17168,
+      "sha256": "2321328512fed46f4a7e42e077d8a78e9e34c51508593188c11368889542974a",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-vocab-01-en",
+      "path": "question-art/g2-vocab-01-en.png",
+      "bytes": 14752,
+      "sha256": "bb3b80884c837c3518ae366ae1d9291e61891b2c786a77c9de236eca7a7a519b",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-sentence-01-en",
+      "path": "question-art/g2-sentence-01-en.png",
+      "bytes": 17398,
+      "sha256": "ddc53069514a894353d6e6993dfb16966fc75ef00fcb892d57cbdafa701ad0ad",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-place-02-en",
+      "path": "question-art/g2-place-02-en.png",
+      "bytes": 12288,
+      "sha256": "91982d5a577dbd18e9613360f25507bbb3a16ae0b7f63032e140008dc0f91985",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-add-02-en",
+      "path": "question-art/g2-add-02-en.png",
+      "bytes": 14691,
+      "sha256": "445bf398418742c52682b1a1216198c4ac50df647f265ba8beeb7d23af4df07c",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-measure-02-en",
+      "path": "question-art/g2-measure-02-en.png",
+      "bytes": 12500,
+      "sha256": "c9e09bbcde77e1e8e0e3883a6dc179405f0f3c202e0f5dc17bcea6d880b28357",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-habitat-02-en",
+      "path": "question-art/g2-habitat-02-en.png",
+      "bytes": 18220,
+      "sha256": "1cb882e95b25400eeb807a0c8ebd97fc7470e4bbf46d13437559c93810b611dd",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-vocab-02-en",
+      "path": "question-art/g2-vocab-02-en.png",
+      "bytes": 16068,
+      "sha256": "5770fece20d4ca8104261aa88d83e78779e27088c4ddca8df6faf79dc4a000d7",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "g2-sentence-02-en",
+      "path": "question-art/g2-sentence-02-en.png",
+      "bytes": 17540,
+      "sha256": "c75a061fd3bdb34280179abb1ce6a1dd7ad33a5c054d98b7e378c6bd08c62662",
+      "engineVersion": "1.6.0"
+    },
     {
       "activityId": "sci-g2-u01-l1-q01-en",
       "path": "question-art/sci-g2-u01-l1-q01-en.png",
@@ -227,6 +311,62 @@
       "path": "question-art/sci-g2-u01-l4-q08-en.png",
       "bytes": 18138,
       "sha256": "d2cab74e5dc69b3678f3d6199eb0ef823b369689de3b5b246355e98e76bc100d",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-count-01-en",
+      "path": "question-art/kg2-count-01-en.png",
+      "bytes": 16588,
+      "sha256": "a4e515ce5a052b38f7a97187c271e1830f4dd93734994da18f687c54f6d0488b",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-shape-01-en",
+      "path": "question-art/kg2-shape-01-en.png",
+      "bytes": 13609,
+      "sha256": "f69567ac390c44d989e92d87fb6a1d71f6282bd5d70a35817cd76f919bcf55f9",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-plant-01-en",
+      "path": "question-art/kg2-plant-01-en.png",
+      "bytes": 18618,
+      "sha256": "48b149cef33444b640d68aa70383486fa4f2c844c3d5b78b8fa399e0565f6e04",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-sound-01-en",
+      "path": "question-art/kg2-sound-01-en.png",
+      "bytes": 22545,
+      "sha256": "0eeb926e0eec444e9c7d6d7285313ded24bb1933ef192180cd30c6c9e6b3a92f",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-count-02-en",
+      "path": "question-art/kg2-count-02-en.png",
+      "bytes": 16299,
+      "sha256": "d2290923d2c593db5bf0769b31bfc2ae3fc40cd8d7e9d3cef7d5de7e708eac0f",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-shape-02-en",
+      "path": "question-art/kg2-shape-02-en.png",
+      "bytes": 13710,
+      "sha256": "897d1eb0fb1d5c8ba8bf279b4d66ebc75277f004d3eecc452b06593e77997a8a",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-plant-02-en",
+      "path": "question-art/kg2-plant-02-en.png",
+      "bytes": 17813,
+      "sha256": "379c87f0cb5865f8e68109471948354bba4c8753a26b671d4802ac4f98c79ca9",
+      "engineVersion": "1.6.0"
+    },
+    {
+      "activityId": "kg2-sound-02-en",
+      "path": "question-art/kg2-sound-02-en.png",
+      "bytes": 17623,
+      "sha256": "3f27d264e8b3553dede5e589585d8a9ef42b6722116832eb606511fd7e3c373f",
       "engineVersion": "1.6.0"
     }
   ]
