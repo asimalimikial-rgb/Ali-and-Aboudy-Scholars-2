@@ -114,3 +114,9 @@ The user explicitly instructed: “ابني التطبيق الآن” (“Build
 ## Current product limitation
 
 This is a functional first implementation slice on top of the existing Android foundation, not a completed full curriculum or production release. The bundled content remains a small pilot: eight English activities for KG2 and twelve for Grade 2, with content version 0.2.0 and schema v3. The renderer supports optional local raster illustrations; KG2 now includes six original PNG assets for shape and initial-sound activities, while Grade 2 remains text-only and visual device QA is still pending. The seven textbook records remain reference-only; no full copyrighted book is bundled.
+
+## Parent settings scope correction — 23 November 2026
+
+- The saved language override applies only while the protected Parent Dashboard or Parent Settings screen is active. Learner-facing screens continue to follow the Android device locale; the learning activity content itself remains English-only.
+- The settings screen has a separate foreground-exit callback: leaving the app from settings closes the entire parent area, while the Back action returns to the already-authorized dashboard.
+- A JVM policy test covers the parent-only locale scope. Device-level visual verification of locale changes and background closure remains pending.

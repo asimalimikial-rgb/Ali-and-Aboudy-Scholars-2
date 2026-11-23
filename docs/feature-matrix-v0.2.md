@@ -179,7 +179,7 @@ The following implementation evidence supplements, but does not rewrite, the pro
 | EDU-015, EDU-016 | Read-only parent progress dashboard with overall and per-skill evidence | Requires Android device credential; UI and lifecycle still need device testing |
 | EDU-017 | Local bundled-pack loading and learner-scoped Room persistence remain offline-first | Source path and JVM tests; airplane-mode and process-restart device tests remain |
 | EDU-020 | Parent dashboard is protected by Android system device credential and closes on app background | CI source compile; real-device credential and lifecycle tests remain |
-| EDU-019 | Parent/app chrome is localized independently of English learning content | Runtime policy tests; full parent settings are not yet implemented |
+| EDU-019 | Parent UI language can be persisted as system/English/Arabic from the gated settings screen; learner-facing screens retain device locale and child activities remain English | JVM language-policy tests; DataStore preference and parent-only locale scope implemented; audio controls remain pending approved audio playback |
 
 No feature row is marked fully production-verified solely because source CI passed. CI does not prove real-device usability, full curriculum coverage, or production readiness.
 

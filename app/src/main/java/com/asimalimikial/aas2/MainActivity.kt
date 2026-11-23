@@ -107,24 +107,25 @@ class MainActivity : ComponentActivity() {
             val parentAppLanguage by userPreferences.parentAppLanguage.collectAsState(
                 initial = ParentAppLanguagePolicy.SYSTEM
             )
-            val parentLocale = remember(parentAppLanguage) {
-                ParentAppLanguagePolicy.localeFor(parentAppLanguage)
+            val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
+            var showLearningExperience by remember { mutableStateOf(false) }
+            var showParentDashboard by remember { mutableStateOf(false) }
+            var showParentSettings by remember { mutableStateOf(false) }
+            val parentSurfaceActive = showParentDashboard || showParentSettings
+            val appLocale = remember(parentAppLanguage, parentSurfaceActive) {
+                ParentAppLanguagePolicy.localeForActiveScreen(parentSurfaceActive, parentAppLanguage)
             }
             val baseConfiguration = LocalConfiguration.current
-            val localizedConfiguration = remember(baseConfiguration, parentLocale) {
+            val localizedConfiguration = remember(baseConfiguration, appLocale) {
                 Configuration(baseConfiguration).apply {
-                    setLocale(parentLocale)
-                    setLayoutDirection(parentLocale)
+                    setLocale(appLocale)
+                    setLayoutDirection(appLocale)
                 }
             }
             val baseContext = LocalContext.current
             val localizedContext = remember(baseContext, localizedConfiguration) {
                 baseContext.createConfigurationContext(localizedConfiguration)
             }
-            val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
-            var showLearningExperience by remember { mutableStateOf(false) }
-            var showParentDashboard by remember { mutableStateOf(false) }
-            var showParentSettings by remember { mutableStateOf(false) }
 
             LaunchedEffect(selectedProfile?.learnerId) {
                 showLearningExperience = false
@@ -141,7 +142,7 @@ class MainActivity : ComponentActivity() {
             CompositionLocalProvider(
                 LocalConfiguration provides localizedConfiguration,
                 LocalContext provides localizedContext,
-                LocalLayoutDirection provides if (ParentAppLanguagePolicy.isRightToLeft(parentLocale)) {
+                LocalLayoutDirection provides if (ParentAppLanguagePolicy.isRightToLeft(appLocale)) {
                     LayoutDirection.Rtl
                 } else {
                     LayoutDirection.Ltr
@@ -166,7 +167,11 @@ class MainActivity : ComponentActivity() {
                     } else if (showParentSettings) {
                         ParentSettingsScreen(
                             userPreferences = userPreferences,
-                            onBack = { showParentSettings = false }
+                            onBack = { showParentSettings = false },
+                            onLeaveForeground = {
+                                showParentSettings = false
+                                showParentDashboard = false
+                            }
                         )
                     } else if (showParentDashboard) {
                         ParentDashboardScreen(

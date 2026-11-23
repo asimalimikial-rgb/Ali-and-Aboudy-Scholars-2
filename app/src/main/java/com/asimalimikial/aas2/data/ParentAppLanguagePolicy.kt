@@ -20,5 +20,11 @@ object ParentAppLanguagePolicy {
             else -> systemLocale
         }
 
+    fun localeForActiveScreen(
+        parentSurfaceActive: Boolean,
+        preference: String?,
+        systemLocale: Locale = Locale.getDefault()
+    ): Locale = if (parentSurfaceActive) localeFor(preference, systemLocale) else systemLocale
+
     fun isRightToLeft(locale: Locale): Boolean = locale.language == ARABIC
 }

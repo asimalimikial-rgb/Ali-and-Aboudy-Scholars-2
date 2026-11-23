@@ -44,13 +44,14 @@ import kotlinx.coroutines.launch
 @Composable
 fun ParentSettingsScreen(
     userPreferences: UserPreferences,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onLeaveForeground: () -> Unit
 ) {
     val lifecycleOwner = LocalLifecycleOwner.current
-    val currentOnBack by rememberUpdatedState(onBack)
+    val currentOnLeaveForeground by rememberUpdatedState(onLeaveForeground)
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_STOP) currentOnBack()
+            if (event == Lifecycle.Event.ON_STOP) currentOnLeaveForeground()
         }
         lifecycleOwner.lifecycle.addObserver(observer)
         onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }

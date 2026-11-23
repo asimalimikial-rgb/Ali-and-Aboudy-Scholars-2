@@ -21,6 +21,18 @@ class ParentAppLanguagePolicyTest {
     }
 
     @Test
+    fun parentLanguageOverrideDoesNotChangeLearnerFacingScreens() {
+        assertEquals(
+            "fr",
+            ParentAppLanguagePolicy.localeForActiveScreen(false, "ar", Locale.FRENCH).language
+        )
+        assertEquals(
+            "ar",
+            ParentAppLanguagePolicy.localeForActiveScreen(true, "ar", Locale.FRENCH).language
+        )
+    }
+
+    @Test
     fun localeSelectionAndDirectionAreConsistent() {
         assertEquals("ar", ParentAppLanguagePolicy.localeFor("ar").language)
         assertEquals("en", ParentAppLanguagePolicy.localeFor("en").language)
