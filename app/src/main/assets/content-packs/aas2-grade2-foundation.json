@@ -447,6 +447,156 @@
       "feedbackCorrect": "صحيح! ترتيب الكلمات في الجملة الأولى سليم.",
       "feedbackIncorrect": "اقرأ كل جملة بالإنجليزية وتحقق من ترتيب كلماتها.",
       "difficulty": 2
+    },
+    {
+      "activityId": "g2-place-02-en",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 361, what is the value of the digit 6?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6"
+        },
+        {
+          "optionId": "b",
+          "text": "60"
+        },
+        {
+          "optionId": "c",
+          "text": "600"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! The 6 is in the tens place, so its value is 60.",
+      "feedbackIncorrect": "Check whether the 6 is in the ones, tens, or hundreds place.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-add-02-en",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 34 red beads and 25 blue beads. How many beads are there altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "58"
+        },
+        {
+          "optionId": "b",
+          "text": "59"
+        },
+        {
+          "optionId": "c",
+          "text": "69"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! 34 + 25 = 59.",
+      "feedbackIncorrect": "Add the tens and ones, then put the totals together.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-measure-02-en",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool is best for measuring the length of a desk?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A ruler"
+        },
+        {
+          "optionId": "b",
+          "text": "A cup"
+        },
+        {
+          "optionId": "c",
+          "text": "A clock"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "A ruler is used to measure length.",
+      "feedbackIncorrect": "Choose the tool that has measurement marks for length.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "g2-habitat-02-en",
+      "skillId": "plant-habitats",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which place is a suitable habitat for a camel?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A coral reef"
+        },
+        {
+          "optionId": "b",
+          "text": "A desert"
+        },
+        {
+          "optionId": "c",
+          "text": "A deep ocean"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "A camel is adapted to live in dry desert habitats.",
+      "feedbackIncorrect": "Think about the hot, dry place where camels are commonly adapted to live.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-vocab-02-en",
+      "skillId": "english-context-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "The sky is dark and the clouds are thick. It may ____.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rain"
+        },
+        {
+          "optionId": "b",
+          "text": "read"
+        },
+        {
+          "optionId": "c",
+          "text": "swim"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Yes! Dark clouds can mean that it may rain.",
+      "feedbackIncorrect": "Choose the word that makes sense with dark clouds in the sky.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "g2-sentence-02-en",
+      "skillId": "english-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence has the words in the correct order?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Runs the fast dog."
+        },
+        {
+          "optionId": "b",
+          "text": "The dog runs fast."
+        },
+        {
+          "optionId": "c",
+          "text": "Fast the dog runs."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! The sentence is in a clear word order.",
+      "feedbackIncorrect": "A sentence usually begins with who or what it is about.",
+      "difficulty": 2
     }
   ]
 }
