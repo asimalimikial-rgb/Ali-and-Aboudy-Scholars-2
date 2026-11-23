@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -252,7 +252,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-place-01-en.png"
     },
     {
       "activityId": "g2-place-01-ar",
@@ -302,7 +303,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good effort. Try again!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-add-01-en.png"
     },
     {
       "activityId": "g2-add-01-ar",
@@ -352,7 +354,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-measure-01-en.png"
     },
     {
       "activityId": "g2-measure-01-ar",
@@ -405,7 +408,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-habitat-01-en.png"
     },
     {
       "activityId": "g2-habitat-01-ar",
@@ -455,7 +459,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Have another go!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/g2-vocab-01-en.png"
     },
     {
       "activityId": "g2-vocab-01-ar",
@@ -505,7 +510,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Fantastic!",
       "feedbackIncorrect": "Good try. Keep learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-sentence-01-en.png"
     },
     {
       "activityId": "g2-sentence-01-ar",
@@ -555,7 +561,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-place-02-en.png"
     },
     {
       "activityId": "g2-add-02-en",
@@ -580,7 +587,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "That's right!",
       "feedbackIncorrect": "Good effort. Try again!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-add-02-en.png"
     },
     {
       "activityId": "g2-measure-02-en",
@@ -605,7 +613,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "You can do it!",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/g2-measure-02-en.png"
     },
     {
       "activityId": "g2-habitat-02-en",
@@ -633,7 +642,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-habitat-02-en.png"
     },
     {
       "activityId": "g2-vocab-02-en",
@@ -658,7 +668,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Have another go!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-vocab-02-en.png"
     },
     {
       "activityId": "g2-sentence-02-en",
@@ -683,7 +694,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Good try. Keep learning!",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/g2-sentence-02-en.png"
     },
     {
       "activityId": "sci-g2-u01-l1-q01-en",
