@@ -462,7 +462,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-place-01-en.png"
+      "promptImageAssetPath": "question-art/g2-place-01-en.png",
+      "promptAudioAssetPath": "speech/fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e0cfcb90289768cb690c70c10dafb87ea67c38a34eeae277084f4873c95db44b.ogg",
+        "b": "speech/d76a3864f0220d0e51a28223cbc55418e4b76cec2fc2f9c75d187ab378fde522.ogg",
+        "c": "speech/b07a23f5069f62c5a02dca760dcd79cf253cac15658da7e1b82ffdc4e4851fd0.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f53583f10b259d6d57db64a4584880b6521c950ba09ae8a6a7972c591e2decb6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a42fdd417b2348eeb266edf9b43872010c94e8eac9ec77a5a16e69d71354791d.ogg"
     },
     {
       "activityId": "g2-place-01-ar",
@@ -513,7 +521,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-add-01-en.png"
+      "promptImageAssetPath": "question-art/g2-add-01-en.png",
+      "promptAudioAssetPath": "speech/bc5f422bf6fca14163c03454b777d36ac0fbfa0a7a5a125965eec01fb49342c0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/26ce3fcafec57b9eececff8c84cfc958af6fefb92943de737d6c12f2b1feda77.ogg",
+        "b": "speech/d5937161e353d8b34f866ca01adac3e99945c3f78ec2878050f4e23ea98c3d34.ogg",
+        "c": "speech/2952a40bbb218a236af281993a084c1c088fd063ab4abab9604da218a9a8eaa4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e6e5c9d2e7eb66348e265bfe5dedecea02c78105ed77262bf21a2b08664d9839.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e582a4ad7680d603f00c2ee740c00e01c6ea9d70253af198bc10c4de595a725d.ogg"
     },
     {
       "activityId": "g2-add-01-ar",
@@ -564,7 +580,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-measure-01-en.png"
+      "promptImageAssetPath": "question-art/g2-measure-01-en.png",
+      "promptAudioAssetPath": "speech/9223ec2dd29f88466448b2abf54ce1da00c81f5727289c7dc319d0cdb559454d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8e66658a0b518f1d312a69b382829d60956b957fbb248acfd14a40823b96e51a.ogg",
+        "b": "speech/99dd1eacf41ef4e0462dfabf6ae579a0a1df72686cd8514fce6c2ada40e8194a.ogg",
+        "c": "speech/2d573719ae6ee7e107e31ed8b9094ab936cc881c0ae2e8201d77b8fdb9f25278.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2358c4a851f7d1357377c5485542db17ef77e04e25439dc072712144cdecb120.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0d8680569ac7387ca924c9aa269dcd3ced1be0dc226903d0ac1ced42d6b73cb9.ogg"
     },
     {
       "activityId": "g2-measure-01-ar",
@@ -618,7 +642,15 @@
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-habitat-01-en.png"
+      "promptImageAssetPath": "question-art/g2-habitat-01-en.png",
+      "promptAudioAssetPath": "speech/2410c68048c847b40a2037c239e3b2bdb6fae0bb72bc3da33ebe0ed48fbbac9d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ae92331fbc9683f2817fc2690529dff18c60bdbab268fab3a87eb79ddc03dc08.ogg",
+        "b": "speech/b222e3ae8fe2d20656ac6c959ba23a628723db95f7890909641ec21c5a121a02.ogg",
+        "c": "speech/854bcf7581a61a450d8d2db568842386c2b3153ac5d400e813097ebad419d9b9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/67659c38b726d55f7cdf07a5b86f530a286fa692c56c480e69e1f90075e62786.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dd0bbc63c3bdcc358716def57a147c683e9c80ea7ce1695eb90eaa1df2105ca6.ogg"
     },
     {
       "activityId": "g2-habitat-01-ar",
@@ -669,7 +701,15 @@
       "feedbackCorrect": "Brilliant!",
       "feedbackIncorrect": "Have another go!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/g2-vocab-01-en.png"
+      "promptImageAssetPath": "question-art/g2-vocab-01-en.png",
+      "promptAudioAssetPath": "speech/77c5bfcdea844d24abaa5c0104590bc0722935a216f8a38ff7796538612a38b3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/26f733b5f762528c629bee3bdd9a2f9af5772d76ae550c56e0cd5e2908889926.ogg",
+        "b": "speech/97870eb13e2483d31aeedb52af622f3ce20d6619bff6b1b04a0de5f696ad496a.ogg",
+        "c": "speech/786b13f4e660da9d0c261fac2e96f2a252f488d940cf333e82dfeed35a0d8965.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f693758a48320db81f39dc1437caf407aedb8a86ed6662cb8253261dbd11a8bf.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ad339eff2ab506d7f4aaf30df1e9104e3c5d9a94ec81279b123d6196312d4ba2.ogg"
     },
     {
       "activityId": "g2-vocab-01-ar",
@@ -720,7 +760,15 @@
       "feedbackCorrect": "Fantastic!",
       "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-sentence-01-en.png"
+      "promptImageAssetPath": "question-art/g2-sentence-01-en.png",
+      "promptAudioAssetPath": "speech/f53f118218472b90bccd8e286fbdda4a9996a7f271cc79d97c7a2ed528c13dca.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4973310e621bbb980436e9c2718a89418e4a47b8b4c114fcd132a8bb6fe63e16.ogg",
+        "b": "speech/6ac9a23ffd5cfd0aac52eaaee65e4d50ebbec384cbe7b0f6752b9d3d2d0f2b9e.ogg",
+        "c": "speech/6a7f509d8612a60794095bdfb2d6c1021d7f02f7c302fd36a14f06583acdf0c6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b88636df86b42a19fd16459cc4f8e1ff5bfec35c3bbaf5e32c2d8724413da76a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/06c1c13611bcaaab6e6cecfdfdc66679653606418962f6250d8cbf0af912986d.ogg"
     },
     {
       "activityId": "g2-sentence-01-ar",
@@ -771,7 +819,15 @@
       "feedbackCorrect": "Super work!",
       "feedbackIncorrect": "Nice try. Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-place-02-en.png"
+      "promptImageAssetPath": "question-art/g2-place-02-en.png",
+      "promptAudioAssetPath": "speech/21a62fc843f95de2d022f167b075e462bec4f83b76949e148928564f03ac40d7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/97b45514bc4a491f0dab9311a3a48731eceae0151d9be65569431a887464e4df.ogg",
+        "b": "speech/a2c8af59f033a735110a74d48d571bc8cf8e95e9c14197180137bf3ac7ccb345.ogg",
+        "c": "speech/94e8d9e7ad76e59e301677f61d22a22ee74d858f1c7e38ddfa652e85afea5a8d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cf783f2de1df2402b72178284aab6dc9ff2c3c6316b6062d02ecd8df0ba1cf1f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5e250cc3d0714670486611163615710dd6f497a3ea4f9b278775d3abfff49b0c.ogg"
     },
     {
       "activityId": "g2-add-02-en",
@@ -797,7 +853,15 @@
       "feedbackCorrect": "That's right!",
       "feedbackIncorrect": "Good effort. Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-add-02-en.png"
+      "promptImageAssetPath": "question-art/g2-add-02-en.png",
+      "promptAudioAssetPath": "speech/5c06f467975f538d8b2658c1693d7bdd3930b1ea7a359d4208ca36e021253a29.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a759e3f182de123d948e3f726acb53ce982f94c36dd8ac220c781325e7230862.ogg",
+        "b": "speech/085c38aa7c8c81ff5528277d639a79ebfd1f0cd241698e9ac7ef846ee18be809.ogg",
+        "c": "speech/14ac0ffccea8a38edeeefce9e25936c1a792438cd65a4854275726faf3e1c3f3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/fea4ba8369cff730c96c35d564ca36692a32197ddeec1abe72a89a820397b989.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ef2fbefb8be7d96b5728d5ccdf1d158548c3fcad053743837d61ccb90569d09c.ogg"
     },
     {
       "activityId": "g2-measure-02-en",
@@ -823,7 +887,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/g2-measure-02-en.png"
+      "promptImageAssetPath": "question-art/g2-measure-02-en.png",
+      "promptAudioAssetPath": "speech/aadb47e69760f77edc1f3c0220a9ec01761bfd127f7dc85acf1a818efe8932e6.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bfe560e758f262e63fc265e3302b8d7eba82f8a5723a9e3d76edb3bfa3e93d17.ogg",
+        "b": "speech/d47d3304ac0371f74ba74fa857023012a792e2926ca287b35bce45d3bfc4b56c.ogg",
+        "c": "speech/a652168babcb79b4dfb3d75e3de64b071f949cb6cd4f5d23c7a23c337bc84348.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9e910def08539e44bdf2e8aa146a6e9d1957f44452d00b70a3ec320685db6b38.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8f90fcd80133bb0a42037e4db3af0b0d4d86b53054fd57c65604aa13985ade20.ogg"
     },
     {
       "activityId": "g2-habitat-02-en",
@@ -852,7 +924,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking. You're learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-habitat-02-en.png"
+      "promptImageAssetPath": "question-art/g2-habitat-02-en.png",
+      "promptAudioAssetPath": "speech/a5403fc4a4fd24f385dd2e269e406411a141439f4a32e675b91b37f624e69071.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/61934f93c61bfb64486403f6834d34718b0c3f2a1e21433124aed2d43fab3870.ogg",
+        "b": "speech/de674f56454835f6be7ae5cb63b58193a6988ba1b93bd4d68b7623ffb96eb8d4.ogg",
+        "c": "speech/92561269851a44b2f71a034f18a66cf1dd37d214315c0caca3944c7b7da4894c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1aa8ae7f6080566f7ca3fcb6c0aa7a2abefcb7eb89b26627d7fe4ba692e0b4cc.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fd3857053ba850d0f3c492e256a6063c18297f485d2143eff0592963b0eac72b.ogg"
     },
     {
       "activityId": "g2-vocab-02-en",
@@ -878,7 +958,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Have another go!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-vocab-02-en.png"
+      "promptImageAssetPath": "question-art/g2-vocab-02-en.png",
+      "promptAudioAssetPath": "speech/cd6f4d83fdded5b1b54441e4c97e9626c46f1f11523d45caff698a13b1fefe8b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6870aebb3c981f373520a770dd8b8002d80a518aa34e6e524cb8717d86c5360a.ogg",
+        "b": "speech/faa172f30a04fcbef09e7cad8dd0e2e4c8b461d59a4ea08bca7cfbba4b6831f1.ogg",
+        "c": "speech/b8b6bab4eb9a2110f4534066800e2923a1e9fb7aab65378ca4aac0cef7350d04.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8b0cfd0690b0a5e35b53d11e6ca27483b929133d76862e3024c273f46fd2fff9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7fb8b141f60143c838e56c09cad4d58fa52b5bfba596711986c11e3c0dc2b9cf.ogg"
     },
     {
       "activityId": "g2-sentence-02-en",
@@ -904,7 +992,15 @@
       "feedbackCorrect": "Great thinking!",
       "feedbackIncorrect": "Good try. Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/g2-sentence-02-en.png"
+      "promptImageAssetPath": "question-art/g2-sentence-02-en.png",
+      "promptAudioAssetPath": "speech/fb7a5955e6d76b270bc0951b46897359af378ecd5fe709380589b7d0b9215693.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/aafae143f2658d3e79261eebefa2e690e91f0ba46aa78a7a243684166277fa27.ogg",
+        "b": "speech/4c16f84abc8b6d05a8d9f69c637513fde869154a7dbd51589892888e1f201fdd.ogg",
+        "c": "speech/9112d249178fcf4e8d247611a82353eccb623a844196dff353734e04d760ad7a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e7c3da9ab01b3d9be57c18707c15ce144a1d22c78b20ea474b9fbc315acbb0a4.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/363f48c420ff241d9255d484a488021a8f8f2cd7fb653937575cf68d874edab1.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q01-en",
@@ -940,7 +1036,15 @@
         "b": "Living and growing",
         "c": "Artificial, despite its shape"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q01-en.png",
+      "promptAudioAssetPath": "speech/3db4db0a64df60d7c84dcceb2a7ed27d88b89e2db30782ca8c13bad83fb4bd84.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/3dcd773269b55c814f8030bb023a8f26d2cefe8c52cbf978ebdc1c0770ce278a.ogg",
+        "b": "speech/34872a87479049e7b1e7b6a30a3c6b481fc244c2e76f442f35eff3713fc8797c.ogg",
+        "c": "speech/dc3d00ef0428516eb352320bd7e305c79591bfd3ca1fc7c3d6310efc2850f81a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/606d85886f2ca1531b1ab4ced760db74a4663f6135cb9b1dfe8c9b49c8281b61.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d439b859da0eb63e63d7e7a1d6c6ffc23706f4845279efa05cc1cd40a0009113.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q02-en",
@@ -976,7 +1080,15 @@
         "b": "Paint is not growth",
         "c": "New growth is evidence of life"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q02-en.png",
+      "promptAudioAssetPath": "speech/6b902aed831efdb61e70c0e69337c4d425c60f3957d846c6be3bf42d1e53c546.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e3b739b471e5283e2b28c87f3c510e3e54fb6457c0231d0c8ce4a8dfc13d4a64.ogg",
+        "b": "speech/cc112ea86e1e944382afac2ac9cd3556b12014e0f788c92021c4cc12e2185a09.ogg",
+        "c": "speech/62641b1b83c74d592912004af36a8bd1b4e4f1db7545edadc062cdedecac6aa3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0cd413693a02bb653df787f5b612c81727882e563ddb305c09842f0bf1dd3657.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/05491a3bd4b18a4a5a826063b8f63180052eedb672325026358d89b012285e55.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q03-en",
@@ -1012,7 +1124,15 @@
         "b": "Roots mainly take in water",
         "c": "Roots help anchor the plant"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q03-en.png",
+      "promptAudioAssetPath": "speech/cf7300964b9ee88577a55ac1f462810d2ee6b016ef473763cdbb09c30271ec13.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/3a77a8f40b15fdb29a314c20f3e8a9580e88502a1310c90f6bcca1c1077a475a.ogg",
+        "b": "speech/e02b1da1bb44fc328425a2c62d9c20dc712bb220b0b476ddbcac28ef1850bcd9.ogg",
+        "c": "speech/0b00505ddad1dc717f2f8d5402e0e04734fade2883da07d9f434b31e21d05d9c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/bab52b869e0c8c5a2a983bb362ab291baea74959af432e9032fc3e7931573a12.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f13e911a193975b4abb091f43d915a30e56bffd75c7082673c87c9b24b9ca058.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q04-en",
@@ -1048,7 +1168,15 @@
         "b": "The same measure provides comparable evidence",
         "c": "Age is only a guess"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q04-en.png",
+      "promptAudioAssetPath": "speech/fe88d6adcdd3852674f50e65d02de1292359bbdd0d374fad32a75b966d103ce1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/91e0bc8479986ed0fbb05ed36a61fde68afd8e7a29cc5d0aae23b4abaf274bfe.ogg",
+        "b": "speech/e05d3cc71dfd905f088f650d5c94b54fdc099ea61cf49e61db6d216b9664bc27.ogg",
+        "c": "speech/c026fc52f65de92991879ffeee8e678ce19dd759c0b0893f4acd9bad339df4e0.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1a3adf2330b3218d48308edd31678690a8d873ef9906bbb35e2d0803c97601c6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4ce54965c4c9583dd9865ccfb1d2487128918737218bd53741b48d4d96b909b4.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q05-en",
@@ -1084,7 +1212,15 @@
         "b": "Music is not a required growth condition",
         "c": "Water is essential"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q05-en.png",
+      "promptAudioAssetPath": "speech/59039797861e5b2b3b788bd3a9fc88ac4d1457185db8d91ceecb7a97f9625473.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cf797370e2ed1395ff40f8c1f03c40356ab3fd0a7056ac9af67b12ed83a2730f.ogg",
+        "b": "speech/e51b513c5c90fb406aa71aad228552124f3419bfd75a258f7060af0e5fb9f8d7.ogg",
+        "c": "speech/5477d12697caae6340e66bd216061b920aa5422b5c47ba4aadb70cd082a1d331.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8211f4c1485ec014884faee21531dda7b4855024e87a2133d17aafaf9b86df7d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/89602acb0acad8e51b36899be1f77ac4294722695245604d003e7a069d69c3d9.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q06-en",
@@ -1120,7 +1256,15 @@
         "b": "Plants do not need to walk",
         "c": "Pot size alone does not explain stem growth"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q06-en.png",
+      "promptAudioAssetPath": "speech/0cb6928db884408f7dee7b256ad4f3a213dbc812b405ed85ca7d700329fd26ee.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1063ccc5abe09a94ca141b185bffa97c0ffc3a71d202d3312ebff011753a8dc0.ogg",
+        "b": "speech/865b4ed6753c9ba689f776a0c175b2fdf66f61cd0e50703a4987d5132ca40a5f.ogg",
+        "c": "speech/449aa7c6ea3db71aa825852d065344a0b0af19f5546b78ebf7c85cb38ebaba83.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c3f645efef96f003a5de75262854646711781c2024136101a19103af306ed3be.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/67d28d91fb9bb10e4cafe0fc3da134ca9f53ca88ebf94eade70ddb5004ea3a86.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q07-en",
@@ -1156,7 +1300,15 @@
         "b": "Plants have many forms",
         "c": "Many living plants are not flowering when observed"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q07-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q07-en.png",
+      "promptAudioAssetPath": "speech/96629407eb24d867b9c6d71d075fa3c557ca88a02512a4aced7fbb63d392afa0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/391e0d1048a8231b42671ba2e6061ef51eb5f1a4f635e83570b17b69b40a5ce0.ogg",
+        "b": "speech/ff494c6aff8294023aa3afd3399bc9ab89601c7f7c74998b54724e00445ae136.ogg",
+        "c": "speech/3a7c62f55a5ecfd586af93b5bb0ef1806bac7e2469a8f3fa663ac11e5a91490e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/898e93048eef91ab9988636b3dcafbd72180b352e5396d1554c64e6a34a476fc.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dc4b19c8965e4838716dba3fa321426992d284fc45d63a334ef9c213f60c0e9b.ogg"
     },
     {
       "activityId": "sci-g2-u01-l1-q08-en",
@@ -1192,7 +1344,15 @@
         "b": "Unknown plants may be unsafe to taste",
         "c": "Careful observation is safe"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q08-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l1-q08-en.png",
+      "promptAudioAssetPath": "speech/478d4036712bb16126cd604b443e6369b4b7fc740d52bd61aff27579d982dc31.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5f5647d8d9d90f852be1e04f958257b1464c48fca78fbe904421b2aa7ccda872.ogg",
+        "b": "speech/f3cbdd1cb8b5175e40c7f80e893d90d0392c9cfed30cc9019b948ba1e43a0c55.ogg",
+        "c": "speech/53b2a52440ddfc3861478ac099c7ba37d94bc570c6541da1b6f0cb1d5f65a6fa.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f1838a41a96e3efa2e0466d792aabbc9d0cc6b84046ebeed7b9a9e8d8b842cd7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/67d10e70b963041a59e27cdd9ae927fb3619dba10171974951743d617f992643.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q01-en",
@@ -1228,7 +1388,15 @@
         "b": "Fruits often contain seeds",
         "c": "Roots absorb water"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q01-en.png",
+      "promptAudioAssetPath": "speech/644c1a507ca517d163309da602de6551a4d5a181d7f33ef74ff960cf19fe4aa5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5bc9e0d9e0ad94e65bf271bed14fa10250a204918075cc18526fca423edcb6db.ogg",
+        "b": "speech/23acba4b15993b923da643a7bda666a27b9e146d9d339b340fbb05fce69782f5.ogg",
+        "c": "speech/daaa5d7952b74b7e67eacdefa354fdd32dd4363d447aa6b351b76b6936c7212a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6b65de1e0becc6b243a5cc48ee5507830a91d0af322bba78b12c12e3ba6fede2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f7d47a11d08cef042294153cfc826c0a45f2dc3b7152ea82e006c54328760ab5.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q02-en",
@@ -1264,7 +1432,15 @@
         "b": "A seed can grow into a plant",
         "c": "A fruit protects seeds in many plants"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q02-en.png",
+      "promptAudioAssetPath": "speech/2d4523ea9811ca64da744ce2f1fd988a39da92e300f44c0890459f8686c1b6af.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/30eefad04fccf0cdf6c8fc64ad0c26b55c7a52683d13ebaa56005b84e9ac8d35.ogg",
+        "b": "speech/9348e66a8dbe45f3eb7c415fb7030cd8c40d6fc5674675572c600a0ad5f37ed4.ogg",
+        "c": "speech/73f7761d32a83c8f7be18671196f60a0b1fa04f3673eadc4c422cc9992870b11.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0e87257a7883b6da7c0f4aeac200fcceabb8792e7f60ab804b5a995dc9bd9edf.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/59932279a6219a02cf33941775dcb8c9216c3a3308b509c86826ec140a60fd87.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q03-en",
@@ -1300,7 +1476,15 @@
         "b": "Leaves are major photosynthetic organs",
         "c": "Flowers support reproduction"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q03-en.png",
+      "promptAudioAssetPath": "speech/d75ef9816af760aa59f415ecea15d5b69c517ffda3f62c35204c38d9b5db5238.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b28d5c6fcc4e2dc4aa8a0af75abb9a3fc59c51e963f7f4faaeba6317d0d80d6a.ogg",
+        "b": "speech/7ca0797111beddf7644b163dcfe1294ac94e165d10967a6e1a1e86dbb6e37406.ogg",
+        "c": "speech/6b0930723913951bcc8d7b2e4d3fb2db002cccef0d879baa0c3e896f60b17578.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/241694f64bd353f4b603f07403607414563959e5523387d6e6905b83a0e8534f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0d573867b8ea11ec58844b2609492d9302670db73806d12065f2d388888c640b.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q04-en",
@@ -1336,7 +1520,15 @@
         "b": "A carrot is not a botanical fruit",
         "c": "The edible carrot part is a storage root"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q04-en.png",
+      "promptAudioAssetPath": "speech/030680dc678921c95fece6832bcb279abaf09d45bacd78d8fb901de5fddf82ad.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b1f5734ff0342400caa1d157cad99bea140d953c799ac25c7e2c3ec9f54f0573.ogg",
+        "b": "speech/8f007d255bdf15481ea894688ab04fb9a5a3c058be4eb4fa7cddbe5f59efb088.ogg",
+        "c": "speech/adf2a93426a6d8a38655359af49feda3d93c5524f1a2b9a2505ab786125219ac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/abf524849a54f21a9c58b1a07a9e1264c7a54dc2a8263f8a5c0eab633bf2c432.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/20c5763cc272904d33063d22cbb4a17ce9e02cf708b685e0d681f727a05cd8aa.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q05-en",
@@ -1372,7 +1564,15 @@
         "b": "Lettuce leaves are leaves",
         "c": "Carrots are roots"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q05-en.png",
+      "promptAudioAssetPath": "speech/833b40c216fbdf19fba51caf2652e51736056fb122148c74d83232da0f77a7b4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e23d56cd35631e406a9973613fffb4789471b06a249561b465293d2b7cf63761.ogg",
+        "b": "speech/b361253033ffd15424f26358fafadfa7ec6ac5e40b743a04cabffdaf1837c7ec.ogg",
+        "c": "speech/1c055f2f4fb971513807473b28becd4a80c5180100ef13711fb16cc85d0b19c8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6d37d41a4ac103c5221bdca76b09968aaf941d855988bbfa2e953a3577df293e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7f71ae81dd8151064f3e79d012a248f06fd6ae8c8584faabf71f04537e6ac48a.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q06-en",
@@ -1408,7 +1608,15 @@
         "b": "Broccoli is commonly eaten as immature flower structures",
         "c": "Not the usual broccoli part"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q06-en.png",
+      "promptAudioAssetPath": "speech/12b36226aa26e330c812226eac1b50dd3defccabf648ccbfcab03863ffb4856d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/04455e71c91e6e3ae3f16c70692360ac27989b1781d03e11ff35fc04727f1fff.ogg",
+        "b": "speech/e0836e50beb7c7c20f399ff91be62f98bb10f33967ef1336c1ed3da0a35cd30c.ogg",
+        "c": "speech/c9b848d76a7b7e5b37fdc4bbd0b1760db9a077ecf47f8df2493aaa57b24e0672.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/383f918bbe118a23ea9900171fddeae6d3a67cb16e21071833274bc9dcdd5acd.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d34256fad6f9ab5a2c674eb80311ee98527538ea56800d0f619cc9759e7b64a9.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q07-en",
@@ -1444,7 +1652,15 @@
         "b": "A potato is not a botanical fruit",
         "c": "A potato tuber is a modified underground stem"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q07-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q07-en.png",
+      "promptAudioAssetPath": "speech/e7ad9dbd0901eb102d2c63154b45a9ed1da91de4476932d28d20cbb5a1028a3e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/206f19c0daccb4f6eb22bff480de762b3e4ca4ff971243b63916aad707be31f3.ogg",
+        "b": "speech/06109a3ca4082c86b04b38c1d208d5d3bccbdff1dbbfc9c5564d10acf5ce77dc.ogg",
+        "c": "speech/c1ded793e8cb7818cc8aaecc3f30377b345468783f3ed34e26bf46c6d440e9b3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/06953263b8328ba3c612c17cc936e598c1e65d3b3b2b233536054eea6255ddfa.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f27799d9bc955bc9a267b2ded094a1360a2cb9ab98094d7518cbd025fafdc6ba.ogg"
     },
     {
       "activityId": "sci-g2-u01-l2-q08-en",
@@ -1480,7 +1696,15 @@
         "b": "Tasting unknown plants is unsafe",
         "c": "Animals can also be harmed"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q08-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l2-q08-en.png",
+      "promptAudioAssetPath": "speech/cb8ef8d81a1f5c41f7606795d30f5ceb366cf364cfc6da3ced066eecc89886ce.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2e14fb2b81b7a2444e85c09f25450268df46918be37e2de8fe5785b01e013b1b.ogg",
+        "b": "speech/bc21bc0adb206867856affa133da74c3f9b5d1c92f7a514d416c58c81675e63a.ogg",
+        "c": "speech/6163886950440d8ef8c412cfff9cf12a1ce3843b564d4ae476e809d8fbd63b91.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/08b140acb09c4c7d5bb7787bd9c61295c148e0d1782d1b1e61b5228da01a54ce.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3629f44b0edbebdcd815f55c22845ef81edabcbb36354aa34dcc97acf17cd543.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q01-en",
@@ -1516,7 +1740,15 @@
         "b": "Cotton is a plant source",
         "c": "A rock is a mineral"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q01-en.png",
+      "promptAudioAssetPath": "speech/b2fb2517650f1ac59203f00a494d7caa141154cde2085cb85faf551727e64297.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e9f172a8d98b9d0b5c9508644a8eab47929d895978cf34b94734f9c141557292.ogg",
+        "b": "speech/555b4ef194508191778e1d0f101afc361bd9600de765eba1a857b7c9961029c2.ogg",
+        "c": "speech/198f7edb50d240755abae4b2bc20a4d731de7fdb1fa28dfe8af516750d1d1ab6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7edf088e2d5ae1eb40fc08fdd5c539a60c2476450630accdf33af33f2b8e51d5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b3d691f1f7cb0e4f996358fad78ce57312c0cf3326692b33973c6269ef19b13c.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q02-en",
@@ -1552,7 +1784,15 @@
         "b": "Sand is not the usual paper fibre",
         "c": "Wood fibres are a common plant-based source"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q02-en.png",
+      "promptAudioAssetPath": "speech/41ba88f751a5b2e8f67cdb3322308c74fc4f3b5f92f46c825e4e3f1922aa7ac7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/14774ea80ef2766b1e4797a73372e7784a48cb30988b248ea70043cae7eec38e.ogg",
+        "b": "speech/30c58262c7f0dadc0b5afc637c0244ffe254458a188131149e6e9dc4a51bcf51.ogg",
+        "c": "speech/ece83fd5fcb0349d794d7f32971dbd65550dd1ca88dfee047e827367536a41f6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4c3441d0d987ad8981fcb8d37b4fdfb25af967c46b85b54bd01028be8aa9717a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f3dd4e8d17ea40d73e01723c53f1879bd97da7017db2b643ff1e29422106c95b.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q03-en",
@@ -1588,7 +1828,15 @@
         "b": "Roots are not the usual source",
         "c": "Flowers are not the usual source"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q03-en.png",
+      "promptAudioAssetPath": "speech/e05f0e25a1512aae457e9b6ceb54aef648214a71584262f56b109341adc8c809.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/060259b96f1c02ebf32940c5431041ceff4b40b57a86a75f9c413dab8fef616b.ogg",
+        "b": "speech/370d227079300233400a69cfdd2d9862b8cf9661be04957234dc7c743664035a.ogg",
+        "c": "speech/1c83073fdf385bb47bdda26545d2712b8b393bc118373de827731bc76d07379e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/56f4c3ef48efbb9490a388e912c65840f38f53683a199ed72a70cae8339e464f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a20087deb49e3ccf71a64a418df1c691b73a609f0a0094cf5b758e38765c48a4.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q04-en",
@@ -1624,7 +1872,15 @@
         "b": "Date palms provide dates and shade",
         "c": "These are not direct palm products"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q04-en.png",
+      "promptAudioAssetPath": "speech/d3490219911082bfb1efa9f790eabc7c53f05a5a21d58f3d19cc16d25fa4fd7a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a906c3c19ef1003e688aa4ed447a24dc421685de15a5b1497e6ca5ef4c84ec8f.ogg",
+        "b": "speech/c68c3d56df1cb21dff904c997d65c0771ef18fdd70499a1772bb59a6132c2279.ogg",
+        "c": "speech/5f95c9188d92e908a59c74707afa635bfc1f28c12f72286c875fd6831b06f2a8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/81ef1cf4910a07b3c87860ea6542ed1bd8438800dcc543c3a2fd5b268290351d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/51906bb52a36b93d25da43c6903601a9ab3e2f03ae6b28f67fad892b1746dcd7.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q05-en",
@@ -1660,7 +1916,15 @@
         "b": "Eggs are animal products",
         "c": "Sorghum flour is milled from a grain"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q05-en.png",
+      "promptAudioAssetPath": "speech/986969bee5de3ff49feff6ee227be77f9a002895711ae06c4367eb4e36c78281.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/dd4d22d3d0a777bf52bd18e08775c1bdf85ae643285095fc3fdedf9af15da766.ogg",
+        "b": "speech/675f03458fc900d9a5baa46007d43a65a90c3e4115f2f09ebe78f46c1b868db5.ogg",
+        "c": "speech/98a1216d5326a04c676528d6eccbec1f61db56c2e1260d0996bdfb2566880118.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/eb600fcd7116041ef66fa3436bddbf0bc1f51447a6532f4b09481141209e8930.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/caa0aeb95fdd366f6bcf663741d9d8808cd210de1f5df66cafe158cd76de584b.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q06-en",
@@ -1696,7 +1960,15 @@
         "b": "Glass and iron are not plant materials",
         "c": "Fish and eggs are animal products"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q06-en.png",
+      "promptAudioAssetPath": "speech/738310c5174a9e9fcb79ed806d968487008a50d8dbbeb796004ce0351f203e0b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/eff95770881b7f91044427dccc9052293583a8d93911f83e914d81a9ed065fcb.ogg",
+        "b": "speech/d44ab12f5df9085598a398f82ad1e504c3c06ec655cad769c39ed520d7d7492c.ogg",
+        "c": "speech/b0bc3f5c238fbbfb90d14abda79d274171873a70e80bf795af147f8b6e093b82.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e24ca7238af0a910b70fb6e0749d1b5973879ed2082910a62674a24dd022507d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a28d03fe76b5ef01ce51e1b6a43b0272e050c5a03d848129e55318c55c4b03ee.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q07-en",
@@ -1732,7 +2004,15 @@
         "b": "Paper made from wood still has a plant source",
         "c": "Paper is manufactured"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q07-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q07-en.png",
+      "promptAudioAssetPath": "speech/fc445dee5147f4ae2db548cf34ac37622b7cf2b11e6844f5808bc496e89dd823.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8a46fb9a797517fb28f33d5e6c8bb641def640747b922459d7cbdab04f41cbee.ogg",
+        "b": "speech/945857497627b4c0cb9459549e70634110e82b1e9866e98266b4a0b646d48ee2.ogg",
+        "c": "speech/5641191f548183f968165286aa8da5af5bb67d4ad733fc18b9034104b045fc80.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/40c3049f196dd89891d0cdc566cd2218e26404852f14f49b322ca6d2a3a31574.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4bfb43357fcd5f28f956126f52a686902ea0ed76aba7b58c22c79de66a2c80f0.ogg"
     },
     {
       "activityId": "sci-g2-u01-l3-q08-en",
@@ -1768,7 +2048,15 @@
         "b": "This harms seedlings",
         "c": "This shows responsible care"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q08-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l3-q08-en.png",
+      "promptAudioAssetPath": "speech/c3112af6c11317d218c897a0e138a0c94db03fe1ffb73ce4f81a87afef18c5ce.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e8f4498285a15657b9743b0e57b8a35dfcea554521b72e8d783c41a05b459d01.ogg",
+        "b": "speech/68a3e7206a58483f20ccc41bd3b3bb4ab35c87c183b997160b47a1c59b6101c8.ogg",
+        "c": "speech/2998f643017291820cdb08a07156d75ea68655f05dc217217444044cb721139e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ac634b04289d68c0a6d9ef710c66192170dea7c59348e49242add7bd5ad8f4f5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/89b01bf0ea06ac2e99ceb1854d22c24b35c635c146b9ae01a71ff1071835d025.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q01-en",
@@ -1804,7 +2092,15 @@
         "b": "Leaf fall is unrelated",
         "c": "Germination is when a seed begins to grow"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q01-en.png",
+      "promptAudioAssetPath": "speech/a257c678fa0e51c6e0460d5c6b308ddc1808cc263a76e5c0d675b46fa35d23f5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/49f09c15f8e48a4df4191c6db1f1c551ea89515f65a56259a15d650dc782e61d.ogg",
+        "b": "speech/41bc686bc30bafa67b8479837aaa9643eafaf3abfeed4d1b4b53dde712cd9d2c.ogg",
+        "c": "speech/350e941c938fb8e4b8c90fc8ae09b87f6606a073aa821d9b4acc66b40f7e252c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/98d8a875598fad511716279f726ad34253af355352897521ead79a97ea91e5a6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/06b18e48107968b02963be6cccb2048b257afaa135d0c0a810d39451767df56a.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q02-en",
@@ -1840,7 +2136,15 @@
         "b": "A flower develops later",
         "c": "A fruit develops later"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q02-en.png",
+      "promptAudioAssetPath": "speech/1fa013021b5d299c4e35c04f6b6f4596b922c46722179e1e77109814aaff22aa.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/0924d5ec8b050ee4f1b8a739a0a013e4f0f67845984f488c5be0e2902c879f3f.ogg",
+        "b": "speech/504c314f47b8fc0f5c75c56d29010c84f84335dd7ddb890783b1504403cb6d28.ogg",
+        "c": "speech/08cd7d9a70ab0e1916d6cf17d7f5de6602dc75c4b1c8bc13879268aaf4a41328.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e6c0792ec68e653ac05f26004fc961e7f8487cdc1862270d6e326739e60f6ec8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d3ef3524c0d9f0851fc6e0a9d2c73273393b8790cf0748d3200b745cd769c508.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q03-en",
@@ -1876,7 +2180,15 @@
         "b": "Water, air and suitable warmth support germination",
         "c": "Flooding can limit oxygen"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q03-en.png",
+      "promptAudioAssetPath": "speech/1eb205255eaee2cdb101725d2802f0bde289dfbf225673be00ead9cde6e4dcd8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/3ed28747428f055a7198ede341df181e152eb746e870d66ee188204e95cf36ec.ogg",
+        "b": "speech/203823052dabe59355945f7b5dd35667aae4faed3911fbc47d729947617318b1.ogg",
+        "c": "speech/6fdef8fe58171d450073fa292bb5f7033ddb5bbd2739d292d2b8b523a7546933.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/32fcbf405b293fa936a31f24ab6736142b1d441357c99abe4bf6f32244e8cfba.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ac2292749eeae92a42ab56f05d133d45247f0c9e7331182519f994b08d221d80.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q04-en",
@@ -1912,7 +2224,15 @@
         "b": "Soil colour does not provide energy",
         "c": "Light supplies energy for photosynthesis"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q04-en.png",
+      "promptAudioAssetPath": "speech/5722274ef580aa502a4bea208975500c9ad8144c0e72db121c883bb8135fc1df.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7962fc2d5607b7f2056b6c2f8ae8d6409864fc4f1b9c04a09ccbdda9bc46cc69.ogg",
+        "b": "speech/849fa33a7e46221b75d4e0a06cafb0e0d08db5d17601ab356c8fd087064acda2.ogg",
+        "c": "speech/1f3295621b59e153da317f1c47ec914f01a8194d401a07ba543beb554a953e22.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d094e0f8c64f3c5c7de2a8d66e5384031349c69ce0991bc503401fdccfda3b11.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0a961b320df2e1a0eba2ef52e8697b49377892ec8a95fd46ad6f2af6cc947187.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q05-en",
@@ -1948,7 +2268,15 @@
         "b": "Tasting experimental seeds is unsafe and unnecessary",
         "c": "Flooding is unsuitable"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q05-en.png",
+      "promptAudioAssetPath": "speech/0c94e9772d81cb6156125013cc1a942546b5299717082f979501e38f94ecb38f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9e05fa1e13bd373cf46ffa7556188cc1d20ccf808dcd100d1d84ee7f027c4a83.ogg",
+        "b": "speech/27d69e9cc190ef469264b7329adc33ab0341a464f537eda47b1ed05695996547.ogg",
+        "c": "speech/167c46f78b267fb559e48287620397d0b0ee0f1edcc288731544dde8e59b49fc.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/33e0e25dc39366eb1c9905c4509b03526392ff417cb0cfd5c461c27fbcedd615.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e8e6cedd499346266a404a49375fed20058a06aa3117f8ed36c149384e2e99eb.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q06-en",
@@ -1984,7 +2312,15 @@
         "b": "This is a plausible early growth sequence",
         "c": "These items do not form a growth sequence"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q06-en.png",
+      "promptAudioAssetPath": "speech/1ec24b59b4307a9590e851daddd35dced7ec8a1d67aa67d4d7dd9c30cc4b053b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/02899a87eb30310b12fa769555036f724d078b446fba78165e91fe7b73c3c0a4.ogg",
+        "b": "speech/c2827a8c9cf49f4423cd0d9a2538fe96f768bee62fc80d8a4af6405ac6379d53.ogg",
+        "c": "speech/9981448b1d9338c286d754ee3d687b5c1b343a0094a4ef70719cb0641a23df56.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5d396752fdcaa13d6a79db7aedfb03403085c94083bbde9f7fc797cced836de3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d14ebd60406283f9fd7bf32ef79b1cf63b34ee7c38693b9a1cc772a59afa4828.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q07-en",
@@ -2020,7 +2356,15 @@
         "b": "Excess water can reduce available air",
         "c": "Both water and oxygen matter"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q07-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q07-en.png",
+      "promptAudioAssetPath": "speech/4f937d19bfcda0556a7e2d3d897d59dfd77a7906fd207d886cb6c686134aa2ba.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2ca7298d65cb605d237e38a5125d40c248aa3ef758dff73eeda0adf7bf1c622c.ogg",
+        "b": "speech/7fedac1c76ec23126d571fc8e99b5c32ac3d1c0c7bb764a361eb29a17cb25a89.ogg",
+        "c": "speech/b613f85c5fbffa7f841dcf5c7cc4bd8c518cc0ab856290a519ecc632caf8e61b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/99b0f248b69dde082e4b6d5acd3e8432fa58b5d25774e0700f243d7bcd793c2f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/10b491e683eae028e573d3bcd8218b191b6aadaf7b05b12aa30d53ef118f62de.ogg"
     },
     {
       "activityId": "sci-g2-u01-l4-q08-en",
@@ -2056,7 +2400,15 @@
         "b": "Soil supports later plant growth and many plant needs",
         "c": "Water is important for germination"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u01-l4-q08-en.png",
+      "promptAudioAssetPath": "speech/a9e79fbd934976bff747561b7eee2bceeac2d4e7c26181e36b22e85196bc48d0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e2c30a42024836ce3212039998e1ab53b7112398cf5d56b651517c00ceb116e6.ogg",
+        "b": "speech/464388d600bcc6dcbce627fad7475d46d35efa603e28236c2fa5fad217385da0.ogg",
+        "c": "speech/18bcec1a1ee5d67827dd94b159d1fc19e97f1a0ec0d0a7e34e07f621cea30f65.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2de7097c144e7ff12b029d406d607694109a7a6c4e243a741a06c312f30e8197.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/82166e49526fe275909e9534bd616df91f2558d2a051ac491fdc0cea36ae647e.ogg"
     },
     {
       "activityId": "new-aboudy-english-001",
@@ -2082,7 +2434,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-001.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-001.png",
+      "promptAudioAssetPath": "speech/3ca7b5be6d7a6c1d2f7cf118c5eebf7642252fe596c771d0918418ae24f31a8e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/039fb6d5a90006961fe4335e27c9435b06638b957d8bd54fb065fde8b71376d2.ogg",
+        "b": "speech/279508041f9243560dbcbf5885e959a38f0b6acf54d769ce243eb4292ae22cba.ogg",
+        "c": "speech/25db19c7274ccf7b5b4f91aa688104bd8da8090deb35a35e3f098412cd22adf6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/bb9d363731beaf859da71c7b5116f7c0e7ea81fa6a00c6750a445b946cee5bed.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e2795abf68b42a38456c1069b0841afce0c027dd1d80a5dcaf3ce16e6af737db.ogg"
     },
     {
       "activityId": "new-aboudy-english-002",
@@ -2108,7 +2468,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-002.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-002.png",
+      "promptAudioAssetPath": "speech/06f672e1b57e7513c50f4abfa94f5e83adab10d3e1cf006c0aa34a54124b6fd4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f1432a2d7426848375e4ca9bae7d19811fb389660a47489a61b21849efcff5cf.ogg",
+        "b": "speech/fc86d5bdccc77cc9fb99cb54416b6c9abba92bfa443efcfde43612889c4e1650.ogg",
+        "c": "speech/76401283a57706ccdf1dadb18c6750d6703674afe97180a6d44f17086037840e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/792c960114100d7d5e211f0f9b37bfc82253bb09fd0322bbd59e7c27bef64911.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7d2b9af85ab62be0a2c49f358e946595bd745756184a28e5f7f5e3dbb181e3ea.ogg"
     },
     {
       "activityId": "new-aboudy-english-003",
@@ -2134,7 +2502,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-003.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-003.png",
+      "promptAudioAssetPath": "speech/05d836b4e3dd8cfaedba0bd703c103ba7880f60e17c2970cd172e1626724baed.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/805086ddeb962ea4d8ab25c94a388422a66d7bd60f7e3ceb5f82b9a4bbf572e1.ogg",
+        "b": "speech/c4271c395f04b7f35803ff2e4938945071d8de5a0e94b681308d74c0c9ca9c52.ogg",
+        "c": "speech/d9230907e28c2482bc8cfa655b18ea142cc46f5ebe9399f59efe12f2c9c6e7c9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e47c69a54946c89740bf09c7f53d1cda3f9d632ce02adf18de321e679d0c8bb2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fc2198e5afb8c6141ee6fba0e7b3110230a87bc7ccbb069d6716c26816254bf5.ogg"
     },
     {
       "activityId": "new-aboudy-english-004",
@@ -2160,7 +2536,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-004.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-004.png",
+      "promptAudioAssetPath": "speech/9a3fe8f2825fc96ed4e4584980bafbbca62e0b567c47d3fcb92ad144742c4b85.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4b35913d5aa2f1347c4ccbf93ae256461f72711440761f94df8ce22182bb0335.ogg",
+        "b": "speech/a32ea55134c43d09d3b44e07385f327d944b4a7033b0bd02140118da91e92a19.ogg",
+        "c": "speech/d08387a453b00066676fff80aec84b3eefbea981c9449d574325aa170c33245e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ac75e3a34eceb588c07b001658113143c00bd6d6a207cea6041bbab6fef93b40.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e18c4252ac6840ee3f512f0effa38dcc9a366cee2464bb083e41c46e669054fd.ogg"
     },
     {
       "activityId": "new-aboudy-english-005",
@@ -2186,7 +2570,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-005.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-005.png",
+      "promptAudioAssetPath": "speech/087ad3d585e8a8f5afcbed864f3edd2ba7da69acd0be66c68e1fd3920802bda0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7305adc6f16a096c56b0696cc8f2f453b7dea422438d5a72ce4c492235ccc539.ogg",
+        "b": "speech/d42a5a69bbdc17bb1d9bc4d0d3d9e6daab98f13821ac6b4c477ece9ea7623326.ogg",
+        "c": "speech/31ac8b5c07f0f275f03aa2e83f5d2d1cccb94917fbeaa8a9495f8cc8eb0de8eb.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a4e888aa4aeec26e7e472ab2286caf1e6deb4cd9099e3383dda3ac39d239d91a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b0ac0c8d53ced3faab8d5adb4d38b1f79caa22da35972c0637c1e0a7fcffc456.ogg"
     },
     {
       "activityId": "new-aboudy-english-006",
@@ -2212,7 +2604,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-006.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-006.png",
+      "promptAudioAssetPath": "speech/92b692308f830ab7ef1f879d327c0aa8136962bbc785ab35ca7de850ed474684.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2d1d5a4ff529c0693830a77dcc12bda949d562b1a11bc01a40611611f273f0bd.ogg",
+        "b": "speech/306e0ef0695e08a40879fb2dcdb0d129d679697da389624f8aaaa255fc0774b7.ogg",
+        "c": "speech/55e2ac1ccd68df9a59aaff5e746e84764beed69d69d2899a2751c63656e7a24c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f83393b9232300fb481072eeafdf0c570585eb091895de2db5d360e8b9114e1b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8d361deef531d867f4250f6ae9d99803dd11a822bfc66f62ea7c94e4bdcb2b9c.ogg"
     },
     {
       "activityId": "new-aboudy-english-007",
@@ -2238,7 +2638,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-007.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-007.png",
+      "promptAudioAssetPath": "speech/4c5839f40d12236ddbcd34ad58dce9946e8a7e8ad2f93534f82807f1fad568b5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5cb8f51e6c0e39fa35746a9fc7696f5eb70e0905e49ad53c3de5c9bd120d0098.ogg",
+        "b": "speech/33d88e1b1072702407454a12e8bffba3c4228096107a99afe5c8182265b63ccf.ogg",
+        "c": "speech/e728ae3c7bfa58936ec6e46cc4b93dace25af9fcff1c00f5a4ad6ae9885f97ba.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4756b6f5ad65713693ddcda71415bb5f8c39ccdb71529c42bd9865e4568e86f6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/59570c645f9ca49bbe712799d6070693e882f84a92060af43df52c9ed56132c3.ogg"
     },
     {
       "activityId": "new-aboudy-english-008",
@@ -2264,7 +2672,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-008.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-008.png",
+      "promptAudioAssetPath": "speech/9a128d56eb72df1b2ae3508534f90fffedcac76c15c6f5d6f3df5cdf8117d4d3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/62e4c44e8a136766973bd498a3ec0ac35cde3d8723e48c669ecc48ac018dd0f3.ogg",
+        "b": "speech/463e04d9a78785508c3f9a9497548a99007fa880b8479d64101ebe9df29280bf.ogg",
+        "c": "speech/df8381e09b93fe8434b405fcc0c1295e172c72a6c07d9c4ba5d8340e55d49e2e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c8974109b086511b36e98902cf76c37cc82af9a382fd78a16ee7fabd747a1054.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/25fb85a1d342eff192f68add84aea3d4390699529e2b65d4853310647527cc0d.ogg"
     },
     {
       "activityId": "new-aboudy-english-009",
@@ -2290,7 +2706,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-009.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-009.png",
+      "promptAudioAssetPath": "speech/cd79abba4041fa4084d97333fb52cea3db912b2c6238059e22a24460abb99167.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1ebfafae6525b10a00f8603aa616bbce3fe127629150a3ca9b3c056094770d98.ogg",
+        "b": "speech/25a7b46873083fcae8082d34d05a5030cf7ec50b05c128bf45c4878b10f571db.ogg",
+        "c": "speech/16f0d8e104c41574f348b99dbb3e957573b736c7685c850b0ca8382851cb7718.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f4f7eeb47d28a9c569e695bc80897e4d1cf8cec1c0109023f99b6224929645f2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fd6a2a0b8de9ebb00905924ca8235f600136825fdf02cc562f3ff75606234f75.ogg"
     },
     {
       "activityId": "new-aboudy-english-010",
@@ -2316,7 +2740,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-010.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-010.png",
+      "promptAudioAssetPath": "speech/2a042b99357ac7f969f41caab30615fa7871e9306b2ad5ed17e4aa518f8e2e6b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/227f4ec10efe8e70c81732a4dacced5e58cd440050d625a1327f585dc06a8fb6.ogg",
+        "b": "speech/d08bf80312d41034e1fa358a96e9ad17a9b9b33827a7b85daf2d9377169aa31c.ogg",
+        "c": "speech/7b8958ad99f2d5c288e7ad27b0d4552b76938641e5f314548af3acaa2de5a484.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/55857689a3d068200c3e37fad097997601b724977c82a7fde416b1ff3cf8dc62.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f61fae6f5c4560e4603f9da4bdd86d3d05b67ace6c605e144156b541d4901ce4.ogg"
     },
     {
       "activityId": "new-aboudy-english-011",
@@ -2342,7 +2774,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-011.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-011.png",
+      "promptAudioAssetPath": "speech/c1c281042d1c25117c48a769bdec7c909d688b659be439746316dac4d83f4418.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/30be10c2903e7d924c54cd56fad54c29e2343b79a53c91b1a802c79a9b07b9e3.ogg",
+        "b": "speech/1c51bbdb64c3d11d5501b2de0a958df4ba6d212a496a5448065b1414b29814e8.ogg",
+        "c": "speech/956252197b2c15e626a9cbc2684cca0de03f0ffdcafa437c456f40026ff78c1a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/437c02697e40609449ed2735995130d1251af700dec5e0d59cc1cf0bfb71184e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/54ad89b5158421296ee5dc9abdf88974b7836dbadc1cba8ff34143baf287534c.ogg"
     },
     {
       "activityId": "new-aboudy-english-012",
@@ -2368,7 +2808,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-012.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-012.png",
+      "promptAudioAssetPath": "speech/438f9cfae5674825c96ef5546b78755acc68d0cff9039d9c0ab460c06b7e60e4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6271d0d4173da0ff8e38082fbb7f88320d6e05623628eb36c9ec0faf19cc7c62.ogg",
+        "b": "speech/b844a18a69aed6033053ca819ba7c67ae137e2481a438565a9db5a0fc77de932.ogg",
+        "c": "speech/c62a5afb05bb06da0c6c9dbf5469ba901602d909820572d0244e15b21e9c2ba9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/35886381542bf62cdb076c78a7a694abcbebe27a3dd06803dbdd5fb1913f710c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/146dbb4f0623612c7f4c43e1008e8f29b61bc79ac418474c90d6d596c875c1e9.ogg"
     },
     {
       "activityId": "new-aboudy-english-013",
@@ -2394,7 +2842,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-013.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-013.png",
+      "promptAudioAssetPath": "speech/d15bee23876973f45c2242debe855cadd9a0f83139963fef5e57df18e2e616ba.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2e80339dcd8beaf8773a27b5e6e4f87de587de6d963b53c5304b71da20f7d558.ogg",
+        "b": "speech/70de61ae0846b43de812c7e6462e93fed49b7da9e44135aa5a32357d1ffb36d1.ogg",
+        "c": "speech/8186cb2de7906ba08aba0c91bf02d252835e2760421e58e1aab0e7f69101fbde.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/47b7d195d9d68fe7621d5d5451ec04d0523b4ec4d049ec60e2f4cdefbd52e580.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3b890b6a26a43d0fac151065ea072c3bc9c2b0d4f507602463946b57b5157d46.ogg"
     },
     {
       "activityId": "new-aboudy-english-014",
@@ -2420,7 +2876,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-014.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-014.png",
+      "promptAudioAssetPath": "speech/99cdeeadc6435e1430e94b33dcc08b3e2251c84bea3f9063240458c156c5c5ac.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b96d051451a94e0c88b0fb5506f64510dd054b5fc6adc761bee2d016e00d2201.ogg",
+        "b": "speech/365fcecdc94d81491d1153497ce430afd81c4a2cd864a50be5390626362722f3.ogg",
+        "c": "speech/43025fa454f318111a1cd667ea8ff79d1fe5deb68dddc482d709f4cb04701d7c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/682b2e2535ba66628989d57990cc3fade0f70523bef71080f474717b5c4139a3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/eca3c59c0e263b1d55e62f57ec2cd8be35f5dcabebacf96963f2e37070a6def9.ogg"
     },
     {
       "activityId": "new-aboudy-english-015",
@@ -2446,7 +2910,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-015.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-015.png",
+      "promptAudioAssetPath": "speech/336a5d20519dd25a1fa0f796665de3f2b3baf6e3e574cf6733da53918d00560e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/070aedf53df1e36dda4da279ade32f51f203d8511805b9ca9014c4bdbcdcfc7b.ogg",
+        "b": "speech/4c311336dd5eca8ff82f0c7e10a1e421e4735ee809aabed4389e408dbf943eee.ogg",
+        "c": "speech/5922e06661fa15532ae3a99599f761140fc027eb9c450f680247118f9049fe99.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/62f5e031526c99ddaf9c9996dedb8628b95ee22c1d2ee6b8f3b0e9dd53d17927.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6689bcb2879686a4e57dabe371c164e1338ab2c59915d8022ec213f926e2b3b0.ogg"
     },
     {
       "activityId": "new-aboudy-english-016",
@@ -2472,7 +2944,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-016.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-016.png",
+      "promptAudioAssetPath": "speech/b1bd6b9ba5119db13160a51d99a2f27c7fdb0f04c33c253c18555a6d5877111d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b9e681038c7d308fe2994d3fabd3b19922d1ee8774df6a47372700fced732cd7.ogg",
+        "b": "speech/14f1591c07910403918a812b517ab30028da5c61d8346775302cd23600e6c283.ogg",
+        "c": "speech/f466b383de6f1bc6d7a0b9a0cba7444ec6c98cf459549204929cd31604a7866c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d9a10ebf883ded9ecd0377b426a9bfac2c1fbfcbbbc805db3f5d3c374ebd1844.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9a061c4c98d9be210d4c18acbd061330ce446ee14620a12cc29f4f8dba21b741.ogg"
     },
     {
       "activityId": "new-aboudy-english-017",
@@ -2498,7 +2978,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-017.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-017.png",
+      "promptAudioAssetPath": "speech/47f8a7c882157d166e6d5a4748e415586c6aa2b83454f09787f83ca1d31cd07d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/159326b18e435294970d4a5cf8383a1b2c71e4e3ad0358debbb743e2313b4935.ogg",
+        "b": "speech/34d634409af493d9f7acca516ad7f0a5e0b93c32e08bd5b5497a7cd094620494.ogg",
+        "c": "speech/53306bc1617a029f6e07052489ebf14785cba994c8645974bc7c17799e8513f4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d04b2aaa69054307192e20508c2adfb2c9f63528479f24351babe7da415e7621.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e2e00be58c856331371a8fb3b16f1b56ee2cc07a29f8a909cdbd1c3fc17bca43.ogg"
     },
     {
       "activityId": "new-aboudy-english-018",
@@ -2524,7 +3012,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-018.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-018.png",
+      "promptAudioAssetPath": "speech/b90a0da6174ff1fb3878fbb41459f693f62b87b1c8649642dff92e351a55ab8a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f3e29390ae70128e57d812829a20fbcf2c70e20b4e26c753d9879a220842d9f7.ogg",
+        "b": "speech/215a9d80782e8ad92d4b7d7596e7f4bac7e7711d090e73b67716f69f6081113c.ogg",
+        "c": "speech/0c20ae2399b4ebd6441bd6ee618676879a6fa82b9727fba110b3cb4623d75f52.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/03f395ae499f2ba6af877c50dc11a02a30eb6af1d45bad9c10425c132ff51299.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/af18225bdaec72ffb8b268dac7cfcdeda681531a5e095cb6d47e91aec14c8f65.ogg"
     },
     {
       "activityId": "new-aboudy-english-019",
@@ -2550,7 +3046,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-019.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-019.png",
+      "promptAudioAssetPath": "speech/d329250628654fb89ed36970d34ec0f5aa6906b8a15a1b838f740ad55afadded.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f012b6a5f175e240f942b8dcb1f0f4d2b335f944d6365e6b503edd69fbae59ad.ogg",
+        "b": "speech/3b48a8d1ef0f3fb39a08ef94548904a1939908fe1b690d90487d5402254a9cd8.ogg",
+        "c": "speech/775f69135b60b8272ca5699fe755db58fe3740a9fbd7905956062bd2183fe8ff.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5426d25d56ca971da7cb02f986ec8b565d9f646e12b385b00f12fdfd7342ef0e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5720e0894d9ff2d5ee04d245e31ec5c62f9f987b6e122dd60d9fc85dfeba9a71.ogg"
     },
     {
       "activityId": "new-aboudy-english-020",
@@ -2576,7 +3080,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-020.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-020.png",
+      "promptAudioAssetPath": "speech/c11182a8fce8ebe14b0c620d57fd9e58bb9a471b7393239072d5b96574720daa.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8887f2ea03d6e302d0b54289fd872680acfe543e0c4bc6c5461cef4d8cde6903.ogg",
+        "b": "speech/c794552f506b077f715df6305f542a0528fb6842abe1f2759e2ba731b0394329.ogg",
+        "c": "speech/50ec8b72275d485b49290e14279f146bb7346318c4489fb9bcb5714f888e2fc0.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5246fb4040e403fd9b0170aec43a18802f4e17fa1bc2773b21b96dd8df8af9fb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a1dfbaba6053485a5a6d0b9e2af102f7a640e7d24a60d27169ffd4b033633e06.ogg"
     },
     {
       "activityId": "new-aboudy-english-021",
@@ -2602,7 +3114,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-021.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-021.png",
+      "promptAudioAssetPath": "speech/0fa51e40b8688942858265c3f8a91a2d9067c6e038870062b0c28acca0e7daec.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/96631a7158767ec9f111d6c9b4c3a1d5a3687244b19738a666f9710d24e63047.ogg",
+        "b": "speech/c51d7b6742b7a0f09ea0b6ff50f675ce8a7ea58c6e96489cadcf55cd21bfcd5b.ogg",
+        "c": "speech/dce64cbe978e6472f15f1e9fd740773a5ae0c4951dd3d7070c0eda0a15a745f4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ed2fdadf2d25f7bcc41bb9e418a039c9d51a2d3ac3ab69e6c60ef05a67084602.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/c52b2363478cf5568d19e3d40d175c6171f9e9993e12fbdf38b08dbe2f2e0a01.ogg"
     },
     {
       "activityId": "new-aboudy-english-022",
@@ -2628,7 +3148,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-022.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-022.png",
+      "promptAudioAssetPath": "speech/8161f7f5858cc549bb44b7f2860d87459871ed57e20448f8760fd6ebbec554a1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/567640c45c31c305fd1f730e565497f3977d45175bc405dbbecd5681fa19399f.ogg",
+        "b": "speech/615f653787ceda2b1b06c72c98bb064b6a02857369b5bfab3f57dca4b25bc8b1.ogg",
+        "c": "speech/8440c019d9a10f1c4ae846d3f12e242841e53ad4d7f9ca14876e19e916490397.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b8af27445145e18c7e075262b67ef3dcf6bb904e9e6c07648974c3955dcdf75b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4df1fb5c973e8da0694f27b48e9f13846dee3a63b28842e15a8f5325fb9bea83.ogg"
     },
     {
       "activityId": "new-aboudy-english-023",
@@ -2654,7 +3182,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-023.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-023.png",
+      "promptAudioAssetPath": "speech/c46aad3eb6acc1f742fa5238ee6bb93c064818643ab8024168bf20505bd9a3b1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e3e18d9add4803d6aa7554e4aaac68a9d381a3bfe3ecfe851bafa6ec7283adfd.ogg",
+        "b": "speech/725f9689b741f641a5937ef2b09afc71b6134c6946df0be1d3ee0b164a4084d4.ogg",
+        "c": "speech/0b92c911d81c3a74783bde48ac763a4c9db24307c4ac9b5efcc98b394830448d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/216f2e7a9a9d0360da6b04b6bff9656b5b99f0b04d9d9bba6ee7ba4f5bd0d5fa.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/81eda353034821910d708f0ec1f0e52743fb9458de7f410e23b9b86ef746a9c9.ogg"
     },
     {
       "activityId": "new-aboudy-english-024",
@@ -2680,7 +3216,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-024.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-024.png",
+      "promptAudioAssetPath": "speech/70d4591e9b570e36a576bfce09f8cbee92062316d94dc48a090e7367345938a9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b30fd771478e3a13ae666f9836b664f9eecd9145ee016026dde9e1746d7bafca.ogg",
+        "b": "speech/09b4fcab0e49ccfac143163f1aa82a320ba79462f3220283aa6e8a0cb455c1a3.ogg",
+        "c": "speech/f2ba9962036c60f1ab813dd2a9f2183e25c8e5385183ad2e3a2c31959fb5e17b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/96dc0528ecbd490d2142132d785354d31a8200e79017d67d170a8c413e284f80.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7e5936392be539f78635cbcb4899aaced2ee04b98fbd7e980a8d6c065218f9fc.ogg"
     },
     {
       "activityId": "new-aboudy-english-025",
@@ -2706,7 +3250,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-025.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-025.png",
+      "promptAudioAssetPath": "speech/96b9d5145a05d13d6df6349d3f09fee2f64af33a1b0fabf65b438619c0be94bb.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e2807b7b37372b56ca6c31ddb7ce14e3cd17c833386c5ba4c466c4031b493ef0.ogg",
+        "b": "speech/1622b380286a99624313d7522dc8970a460d8a95035b1694d46613f2ce628a93.ogg",
+        "c": "speech/abcd2fe7a551414c86120b78dae298c745cacd33eac24445118b0af888221960.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/13d5dcbfbb396add4f573aa1e3944b9ede0e2720a09cfdf70a61a48c9d175de7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/819e1144457c9893a04082b6f1b850ed02fb795a0a3cdb54e9d86b4a5ee666cd.ogg"
     },
     {
       "activityId": "new-aboudy-english-026",
@@ -2732,7 +3284,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-026.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-026.png",
+      "promptAudioAssetPath": "speech/07c4d076178b9048bb863a4978f15eb5c454e4532dfd333d2cbf3bc5a95b4504.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b190b4307f7bcc00ae5e3f56a77041fafb67a3ba190ada7255eb647a012c79ee.ogg",
+        "b": "speech/b218f785ef0cac155105bef03b62e17f5a3c78a92a17b6f2e9f5918dfcb141a3.ogg",
+        "c": "speech/9620db4784f0ccf62bff0f34a14313e348880536d85c948e4597850c2e666845.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3f55257bc2bd087d4b3d461e51e4bd3556fb79d0a085496922b3d266b8b5a146.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fcc631cda5affb4fb1a034d2412e4bf10145b30a9420295388e3c908c248ebb9.ogg"
     },
     {
       "activityId": "new-aboudy-english-027",
@@ -2758,7 +3318,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-027.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-027.png",
+      "promptAudioAssetPath": "speech/159776f1bf154dfbe6febc38072427c6a51c0c7f849f1dfa2bb30b7ae66104c2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bb6f52c85fa8fe1aecebb19e97027ab4ac9ff386c150d9060888cc131c74f731.ogg",
+        "b": "speech/7f39b7d0972b5e837da83dec01c90aeac10daa5af462a5551442dfd48b3837c4.ogg",
+        "c": "speech/20ad0091b6ccafba695792612796e41bd846826f8fb8bf53927afc5bff812392.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c27bf1ffc31324bfab00b9e0df04838d1e22662d6a436839fc33bc5ac12d21af.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f9503ce00c5c7de3f6cb67d36f8a7868221a0fb53efec70eb7b09b3b1f34f0f8.ogg"
     },
     {
       "activityId": "new-aboudy-english-028",
@@ -2784,7 +3352,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-028.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-028.png",
+      "promptAudioAssetPath": "speech/9e2fc8400bad41a9130af2a00b6355725dad27ed148b6eb06bf2b2642836f6c8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bb07d6183153556b7d734db559afc4653d869ffef23621f5cd8fc55848c57f01.ogg",
+        "b": "speech/1edc7ee1d37bcbe9e4df7abe541749a5cf2a3b2efdb18e385d0f306bb7a14351.ogg",
+        "c": "speech/ce3d91274c85020ee5214c2518d389d7237fea48e9b3f71095c27a7e42c96007.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0c654bde24a670dd2702d32789ba3d3827a0a916105ddc6b53b841a26fd58954.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cec3c9b398cc3e601ee5232a232347a15efc7c955b23892fe5041f3f1e614e48.ogg"
     },
     {
       "activityId": "new-aboudy-english-029",
@@ -2810,7 +3386,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-029.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-029.png",
+      "promptAudioAssetPath": "speech/7c1ff423dd1978b98359793f83fb2350137000551d2af125e3ace75db574f22a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/eccaf19f8fc1b1f519f2c80c590def631416df104a90b785bd5cf56aef247ec2.ogg",
+        "b": "speech/24c4ab73e490b6c2510270ef50dfcac47815064ffe726022dc48d5193cbaaae9.ogg",
+        "c": "speech/9069f4fcf8160d664eb98398a9d5dd26b3bf8593da3bbb2b3ed36d546660180e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d5ff8c562469b8feb0aeedc9737d63d22366ef32e4c6b4d707b6a30849d03bf8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/931d48374b4059349683cf27cd463672856be03906d9e3ae94785bbcf6456513.ogg"
     },
     {
       "activityId": "new-aboudy-english-030",
@@ -2836,7 +3420,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-030.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-030.png",
+      "promptAudioAssetPath": "speech/750e4c0c31c4702aac4c16a74e101607ec8f4a8b3183cd1377204eb18f3636f7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/234b336592418bc158abead441e7884ebc0f1e34da388ad5fb1ec4dbf03f0477.ogg",
+        "b": "speech/d7e6a5c5b60dbf5818d6d7aef4406846d0244d16984b713899dcc648b2b2ccf9.ogg",
+        "c": "speech/fce533109ff1d49771407a7984c77ce6d3caa0635fe572cfa1eb51e2c7f46be1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0493e3f4714fa84d0fb231c4b66229ac51ad61307f93c3f858d95cfcbd4d16c9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0064fb6321cc76f7802b9890acb6dc03a4f02b3ae8ee0f0d5f68edc2d84c72c1.ogg"
     },
     {
       "activityId": "new-aboudy-english-031",
@@ -2862,7 +3454,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-031.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-031.png",
+      "promptAudioAssetPath": "speech/17cafb39d6f85ff18008320bd2782087254b3d4608912178ab300a3016d89aa3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/63cdd71c4e201056c799e0adef46c3eae6a4eb48fe2921b1b3f344910bf07d74.ogg",
+        "b": "speech/f61b24330dd5031d84d010506119da38376bbad1cf74c83cfa8f7cdcc05cd710.ogg",
+        "c": "speech/c005ad9864a7fac2606600b8aa556b5eb05fc1d538ba9fa74cf99c6c04a39ef2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/920bde5710f70369b1c6bb4c0fa65aeb3ed495e34ff3f0fe4e9d613b351392ef.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/85921c7d8a196f8802b7504b8ec470d6c6e20c1dce73e89d3bb88f35fb641888.ogg"
     },
     {
       "activityId": "new-aboudy-english-032",
@@ -2888,7 +3488,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-032.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-032.png",
+      "promptAudioAssetPath": "speech/600fb5c48da34ac7be0402f30af78e91bb1c83cc4192f0effcf02534232e8c7c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/3af13423bec56464ea102379cdac21c3d5ea78a6ba5bd53a58647e2d8e159bd7.ogg",
+        "b": "speech/f1408ad82bff2ec7cf01e329db283e53f46bf54c0d31e685bf2bf7ba0a0c889e.ogg",
+        "c": "speech/a0488e15a6957c82876bb9a8c02902909ddbc5d97f604b93e726acb324b3fab5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/27146490af661119ef0f0f45ccf8ff0a37a6c54993542cd238887a52fcaafd1f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e6d5dc656acb13ef119beeea3c3e68f6b1f762c873eab2c255a078ca83018a04.ogg"
     },
     {
       "activityId": "new-aboudy-english-033",
@@ -2914,7 +3522,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-033.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-033.png",
+      "promptAudioAssetPath": "speech/d7d7fe581a54e45cc35617bf625fea65459764b5bb0b729c81590496a4b65786.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/235d97bed3fa07fab246f6f36e2dfd5684e167f1784f13ea275f96aa652cb5cb.ogg",
+        "b": "speech/aeb1e23b719198bc75b91c0a087d0b82b6aba9b9116cb75d6d91496862061f3b.ogg",
+        "c": "speech/00aa79caa2d13ecbdebedffe125787417079c62e61ab5d4fd7212c545c78b3f7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/73bd993458841a9c862bf9a574dcb51fa6a2a769f5c9a1b721e422ec091c519b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a102e85154d405bd4697ede14ac5edf4bcb33df564f33b31eee7e3573eed0d47.ogg"
     },
     {
       "activityId": "new-aboudy-english-034",
@@ -2940,7 +3556,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-034.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-034.png",
+      "promptAudioAssetPath": "speech/f2ab1325e81a67de0ad552d9299af1ceae23af64302697e26f0be8758776f472.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9ba13bc0233ae331a1dc0c96714a2d3632ac913043191e3912b57212e2498c6d.ogg",
+        "b": "speech/401d609369dba557bc43930ffa61d4edf55ecf59c45d8fe643dbcd563d97315d.ogg",
+        "c": "speech/e8e64f801276989b1aa0255cc25c331e978dacaec648860c0a35995ec9f388e7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0e40fbaf42bb17d59ea5054b7abc97c5b605dd1cd2dfe3a2c463455fe495dc5a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1d502fa3fde06cdd5555a8f2c626b157730886672bd92316da1fb2680588e461.ogg"
     },
     {
       "activityId": "new-aboudy-english-035",
@@ -2966,7 +3590,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-english-035.png"
+      "promptImageAssetPath": "question-art/new-aboudy-english-035.png",
+      "promptAudioAssetPath": "speech/c77969b9b064a6a134ac137baeb829fa12fdcbaacd011043abb7a92d0ce671d9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c7fcb9cd6b04034e761c29834d107e5c3b5229939959db1b1360f12d87b65559.ogg",
+        "b": "speech/34e458142dc674d281a72c293d3796fe4b3af808963a57fbd4f9383fc6596347.ogg",
+        "c": "speech/2869495538f6c21d1e8553f683392eb893369684869d0517e315e95f72b654ac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6013abc3c021d30b55133a5ffd540b06d36bc8bc31a832f3b5d92269aceab135.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6597009b6faec211c509ca612bc2232f91ebf8a3391f50454a47064c9f6267bb.ogg"
     },
     {
       "activityId": "new-aboudy-maths-001",
@@ -2992,7 +3624,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-001.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-001.png",
+      "promptAudioAssetPath": "speech/959bcce38062c0df58715483b1dfc38f36085bf3f56c8234ed277e67794dfb4b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/439d8405670c054beec505cb6ddc5f028a7a64242922ab6524ba4b1665c9bb9a.ogg",
+        "b": "speech/0a18bcd9d906c585c72081da55f88c867adab9c66c5184e26da42d93aa86b8a7.ogg",
+        "c": "speech/91902a6bbb21396d90f01ab9c8ae69c8e9a23948c4f3ef1406d5b3f6713f92d7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/462e6fe8cbbd675de3ba1d2a6eb3c78d4129e66f13b6a14924267c2ac24659b4.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d28a53711ecfdc90447f5b8da0efa3877071005e8cee7246a828533f492613c1.ogg"
     },
     {
       "activityId": "new-aboudy-maths-002",
@@ -3018,7 +3658,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-002.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-002.png",
+      "promptAudioAssetPath": "speech/f8835af28320635246d216a586bb466162892a0b8d50b23d3ce32483c070af20.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/daee3c8978b7f08fddeba420fe1fa14665354407212004bf2eb13b245b605b44.ogg",
+        "b": "speech/c1df938b01d08443a37ef0a2f658018eee58a7a476ebd3b051a9505d0be8c151.ogg",
+        "c": "speech/cecf270ae2f778d89e404aae0b6637232dd1bf88b1e905526e01f0a9b9bda6b1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/91012107145ca22e9ff77690b82c08871d82882c218f4f9578238448a2da046e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6371999957fbd07f82710c43dce7e939e6ba45ca38eee1e835715f9293b3b56b.ogg"
     },
     {
       "activityId": "new-aboudy-maths-003",
@@ -3044,7 +3692,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-003.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-003.png",
+      "promptAudioAssetPath": "speech/937b0187bb943b18551957e7e59f09e5160975cda0d4e3d9de1df69b2ea00806.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/47f9a5cf27fb61c95b13f4ab66a6583375f45b6e22fbf963c5bd630b83c12121.ogg",
+        "b": "speech/76cd9de44f3e3135fee30ac82dff09107b28de87c08a7668bfdc438a8f613c5a.ogg",
+        "c": "speech/0200c8aa2b3e10d52215bdded82b4059841955e5d4b68ac79b10c533cbdf30ca.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/eac2509753ab6299a31cedd285baf3e20b7de51dba3b930ce99be72daab43518.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/621f6a61b281f80778b8143d66d8a3334f8edf8f61977f4048ae9b1189f49476.ogg"
     },
     {
       "activityId": "new-aboudy-maths-004",
@@ -3070,7 +3726,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-004.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-004.png",
+      "promptAudioAssetPath": "speech/40d6c5d603cb95ddf9e9610f0b89919534c47ebaa0e4778f9f9585a200b9cedd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9c73faf053469ec217d614b02cfff7219270d1005e804855d27750a9b49d0904.ogg",
+        "b": "speech/f20e5d8a7303a410e00f641c608874c53331e9b69efce374f131e2e423270eb9.ogg",
+        "c": "speech/9d156cca7e62988e10f0d32f222583891ca270c66285c70dd5e1fe99e6f676a3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8a6c6c0336ebe78ae2e545c072dc5a55ebdf0baa29688cebb09d7822b9bd376b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d7e22a18f470eddfd102bad374671de631701fdc6d83c6ef0e0656be9020a185.ogg"
     },
     {
       "activityId": "new-aboudy-maths-005",
@@ -3096,7 +3760,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-005.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-005.png",
+      "promptAudioAssetPath": "speech/7389ea343bf5298f391e6f79a6143a26a24cf076c5a6a60aea883d3b03931c9d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2273c2762288f79ae6367a8cb96da14868801a64db6169f5ea68ccf1374d07ff.ogg",
+        "b": "speech/64a3de4b887e65d94ca2825a73ebc7cbd241c079b56c7f2bb82fcd306e8744b1.ogg",
+        "c": "speech/2a03fbbb82513c1701568e968c7b0a8bed68ebf09f706f072df39f8ef646ca1c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3201b69bce1a9e2579f155adf6c3ed4fc5e0f06e0dfda0708ff1d6ea3a224815.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4ba7ad3abf7100296db779843d8fccfd68c8e0b4a2c544a704f20d3cb9537dab.ogg"
     },
     {
       "activityId": "new-aboudy-maths-006",
@@ -3122,7 +3794,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-006.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-006.png",
+      "promptAudioAssetPath": "speech/94391c83c1603a11f54f47ef9232a6af4b5558342c3bc79daa7bb4ef1871e128.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/80d700cbcdecc0f98d70e5999e61fa718b277bf9dc0f8b4e3f7c6e3144dd725a.ogg",
+        "b": "speech/c555d3ba0f06d927dde7a774dc978f58548d71dece3aa6ce909b82a844df6ba5.ogg",
+        "c": "speech/4d816a3979432009d179ddb71935d9c122ed1598ab42fb0a8103eb8dbd81f55d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/747b900f5f86030e0da606e9cffa57c8ccc4a28e0ecfe97b0fbc3f4169de5b86.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a2ff6a6603862e4b2018cdf9cc4f77ebe41608d7e56c19fdebbf6434581abfc5.ogg"
     },
     {
       "activityId": "new-aboudy-maths-007",
@@ -3148,7 +3828,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-007.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-007.png",
+      "promptAudioAssetPath": "speech/869930e42c801dfd1aac6eaa4d052051b57382fbd3253cd52739cb9a8f35dfe0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7c74e554b075393ba85fe6f3c29f7ec568ac61cdaa9e47b7da77190b5eea26c7.ogg",
+        "b": "speech/41b09759ddd013f75de155470294de4bbc5413b06af17ec2a929b3d84752bcec.ogg",
+        "c": "speech/fa525789331f52497780cd8138aa7bef7f249f0036be2f78f8c6f6079ccb630d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/460358f2f26d709b1a780370a5807131f5abfe16fd898b08da0ec64e304422ca.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4e251089c8668784396c35fe06f36aca5e1a0a918d46fe63f0292abcaec46e6f.ogg"
     },
     {
       "activityId": "new-aboudy-maths-008",
@@ -3174,7 +3862,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-008.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-008.png",
+      "promptAudioAssetPath": "speech/aa3e7969f8f073744de6e68f79ee70f1a44c62bcb00a2c4145c6ac6f868a996c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9bd4ad5da25b3d9654b29b9e9561660e61e809eccf7e5510136847bc38a43a1e.ogg",
+        "b": "speech/230e9e3dbdece54468a871fac78521b7be66d9afd16c8d346d6c79db9f7370d4.ogg",
+        "c": "speech/d11105a16ce880b8cd7ed9f3e5bb759fee675128f28ac93ed3c81d85853bbeb3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c199d5513d2285a8cd0840161a533068d65037265ad06abba57658b0e8b3ecbe.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/41c82c61d7701e71d702ff7fc311543b90a8da335c8515bb447019a951e7f525.ogg"
     },
     {
       "activityId": "new-aboudy-maths-009",
@@ -3200,7 +3896,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-009.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-009.png",
+      "promptAudioAssetPath": "speech/528e1fe580a19a65a7151ebf1023a88c2805ba966eaf9da8b5ce0fa9a3b1e76d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4dee07f655ab26e602d21d0ff599f9d5e1fc7cab2474f8fa4c4c21abddbaf662.ogg",
+        "b": "speech/4aa5c091b3ddd6aa3aea2db461379ec4341420eab2baf7d02466de781184c554.ogg",
+        "c": "speech/c8b41ba6e48b10d434f339f5fb74edc315997cdc9a7067fd5ed739b5960f1598.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/10f5ffd9ea102ee33109a4e484a07d0a7314851bd5fc94d334c71602a345b502.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8b5d9ca25163d58582231a3470e67b318bf27c376d96eadfdb0d8fe80f90c8cd.ogg"
     },
     {
       "activityId": "new-aboudy-maths-010",
@@ -3226,7 +3930,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-010.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-010.png",
+      "promptAudioAssetPath": "speech/91ace28cdbd56024922441216a6c87c6067348b1ec314341dad4759e70eb13a2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cbccf5e4a9bb4802f9be4f682ad54c422e95de62f8d1505e2062531245d30148.ogg",
+        "b": "speech/7accfbf575c6e64e8425c6cbd4d885e5814f37497cea181e832063f00e9c3f71.ogg",
+        "c": "speech/5ee6857e45b0e2ec8c6f3bf30ac39d645dcaf23b95b74fa06a97fee0b5707f5a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c484340b86c0e4e458c5adedd43fa997baa38067b3a908d147f2fba442733f36.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/14a70be3bf6723131ebe4be518b1540872b4a1cbddf5d8feb2ce7223d3e72eb9.ogg"
     },
     {
       "activityId": "new-aboudy-maths-011",
@@ -3252,7 +3964,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-011.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-011.png",
+      "promptAudioAssetPath": "speech/e8312d0ee1bd837feb53d0b42413b67fe5c7f940e8eaa0a81cbf2f90e6920a4f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/53b443e4570d817f90f1e9e971f822dfcbff474d7094307515a68ac89d4714a7.ogg",
+        "b": "speech/2b5396acb0fde4dfa7ed61bba3dc0635b5377013243731aeef17c5b60527cfe0.ogg",
+        "c": "speech/d25c97d4313f79aa6b8aad297cc7629b09fde9a0cacf3ef3629effc4070c3c49.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/48d8b3bdef56d2b4c41ebafc3b3cc4e6670a2a9ff853d4f684b81f25fa2a6ba3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/db09ed8cb4bb69135e714d08167d6e08d45c2c47439f6f2e56ef7dd39b2297fb.ogg"
     },
     {
       "activityId": "new-aboudy-maths-012",
@@ -3278,7 +3998,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-012.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-012.png",
+      "promptAudioAssetPath": "speech/9fbbc4586688d2cdbab7d5848c5cf7eaae945b8d821c74bc825cc1d3343da3cb.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5352ebd05652ac10faa486708ae1b33b1d4080c4ba7a4bebcb8dc6d6fcd48882.ogg",
+        "b": "speech/e0d31f1f68207ad42a966ee237f1bbc5c06e513e3160c7136cd87c56b7fe0e8f.ogg",
+        "c": "speech/86e30ef7e138096ff0c7e36ac766202e7ca46bec8700e32fddf8001ed5adcdcb.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ee2b3bfd58153ccec17b39c9de1a988d6b894920c45045ec8a3b3f67087fa163.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6caa2a7606ad5ba33f6e645d521794aa33173e2aff1e667dab82b40439eb53a7.ogg"
     },
     {
       "activityId": "new-aboudy-maths-013",
@@ -3304,7 +4032,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-013.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-013.png",
+      "promptAudioAssetPath": "speech/19dce9fd4b0dfdc602d8e27b25e5d6e0f2bbf13af170cfb8c895edfed84459f8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/25fed1c273c919c99f7cca8fa4fa83435c6d4e2183c3f268338410feb3967ca3.ogg",
+        "b": "speech/954f05bfc56dec960468533f5a260e80a9e96e23c96e2b9e1720b8ab45c3fd5d.ogg",
+        "c": "speech/88cab3346767d1be7a809048b8493c540bc21669bbeca47eb3d663a0739cd499.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ddad68bca1fbf29fd82088ffa1ca99802c07e91eb268e0c0d40cd6fdce62bb05.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/86ccd913e6864c981976c0a416fa252992f2ca8e5f70602ac0c753f5d72e6f48.ogg"
     },
     {
       "activityId": "new-aboudy-maths-014",
@@ -3330,7 +4066,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-014.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-014.png",
+      "promptAudioAssetPath": "speech/218d0b69063b936fff5cde819fe057bf86bcae1ebd923c6844e9f7d490180486.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cc902df60d883aca64b072630ed7d56d3519e82ca32def48c6c67b69167acd36.ogg",
+        "b": "speech/cfa2dfc019289f076be20b30de44b322880d34511822f5da70e79edc978399d7.ogg",
+        "c": "speech/a10031293a047419985933cdc8fac078b0180fd50f586bde35dd8d3827a30f54.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9a45e8363c5be44b7b8b58bc3ab48616d5ca7b5c8de2dd14d3f2de546d2495d7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5f236a7708f049b056065c5cdedc08493b1dc24e5a45174d89f04eb671c76ef1.ogg"
     },
     {
       "activityId": "new-aboudy-maths-015",
@@ -3356,7 +4100,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-015.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-015.png",
+      "promptAudioAssetPath": "speech/6cae9f83ecfe71725e441692a0f1ed0bc367067d72e9780043765a8d63afc3f0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f67402bd9f0808b3471fde95c3a0c30ef7786e976ec23a4400edd39b0f6575f0.ogg",
+        "b": "speech/bb272917ec1272d2d6612ea6fcc31d43eaa0552086fb7a088ed9f2e85c72a2aa.ogg",
+        "c": "speech/fcb517ef696f22a33a68484905cb51dc2e5d44709c767981ff21b8150c1d7b4d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f817552d91e804f59eef07c0e5ae111fb5656c1947e9c18361b362128efc1e63.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7d7968795203eac6f38648249cb7bafc6c64e8249fabfef32e78f4754e98b632.ogg"
     },
     {
       "activityId": "new-aboudy-maths-016",
@@ -3382,7 +4134,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-016.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-016.png",
+      "promptAudioAssetPath": "speech/6d48833faf4152b397f598efe33dfa3153061e8e8dfe6e1de375c94bd823afde.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2447f574cd4c6e6e0feed75ea3361e018776ffdba6fb0fe2863b7c421a1b6dad.ogg",
+        "b": "speech/5e00d9195aa2f6ac644c6b5418f652b63f5188ced5db2ccc64b786d8db7712f1.ogg",
+        "c": "speech/2ca770c3b422918a4f602621cad58abbabac07ba7a0778e36e8b77d46b425742.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9276e5362b68088ea50fc271ce18dcf4c9b3464ec854cb26c580675b91d768c8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ef03e44d35932aeff865f4d9c065768f8f47c36921451cd27225a304cb21a415.ogg"
     },
     {
       "activityId": "new-aboudy-maths-017",
@@ -3408,7 +4168,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-017.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-017.png",
+      "promptAudioAssetPath": "speech/e1f8fa3725645b47afeaf173f837542dbd7da7d262e0547bb1bdaa50da7e091e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a780f384abafd31caa7c6fbdb848fc0a489ddca68b1073a642f319240db568d7.ogg",
+        "b": "speech/3ceac5a170ddcf21d1b47b05f72a6ad503815cc47994d49fe85283fdd73ef556.ogg",
+        "c": "speech/8802072d5af9ff70fc65472a6e22ee4f9906a5267125bdb34139124056883a0c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/65109e3d3a0175a6208b17cc5346c85da6685f4de9f32008af19a6f460b237af.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/28b51689578020b0000e4d4deeb9a5b3d3dcd7c596f9060bcac3992d64f00683.ogg"
     },
     {
       "activityId": "new-aboudy-maths-018",
@@ -3434,7 +4202,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-018.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-018.png",
+      "promptAudioAssetPath": "speech/365e96c723f48f618b4a63cb81b88ea7db11e28e808447062a99cc42d55a5a3c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bfa6bd7a60320c7e0f741d85cd3414d85cba0e444a78af9ed085263e37b502f6.ogg",
+        "b": "speech/f3a794c6c0a55539c91c82eb77a0d1b7afea5352a517db584af8bad2ce51a0bd.ogg",
+        "c": "speech/a0185aff3053a6b5ecf076a911d556350e71ac7d49e762cc0bb6539d59923409.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/df27ac88fb4a732181183f5e406ae107af87d44d466f3207b56a752f14161609.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a5a853bd4c91e735530cdcfcb8c9472f2189baddd5d570430d3432f95a3a6469.ogg"
     },
     {
       "activityId": "new-aboudy-maths-019",
@@ -3460,7 +4236,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-019.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-019.png",
+      "promptAudioAssetPath": "speech/2f85046713bd2c452b564d7ac64eb70e759aa627baceebde56b167b8bc36775a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c674f487e7a36e95cfc3d41be5cf0f588c59d736f7b74292691d2ea12324aed2.ogg",
+        "b": "speech/676927da660c1fef58147d9e84376c6a6a90b2c70dd4ccb1c5c70b5e4a6e8aa3.ogg",
+        "c": "speech/340f31c0ac557b5e68d209ab559d706d0544022a637795cc0eaf3397bca006d4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/930a98b4bf353e38c4dda7ae67be0094bb0b2f11233c78bad7def8dbdbdd9b85.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e976ec605c8ab8ae8b758133191df1e7f65262827a66071e09290e2d0c173d7e.ogg"
     },
     {
       "activityId": "new-aboudy-maths-020",
@@ -3486,7 +4270,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-020.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-020.png",
+      "promptAudioAssetPath": "speech/bdd60bbbfe73420f77e41cfa0c02000bbb9ec15fea00752e5f0d48945d4239ed.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1f16d740c6ed554bc99438c4d570a77816d88aff73dfd5fabb3aea0aaf59c922.ogg",
+        "b": "speech/2952d9a41d2143cd17038e22d87efbb977c05a5a8c4d0defbf0bc47cbf3364b0.ogg",
+        "c": "speech/9d25d58031737edfa05bc9344b44b1867bd0de82abe8a7c0bf6b38baa06f8c2e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b24d60e1ec2e6f67686e6e7937662311c011a53b5edb0a37f6c38f164d194fbb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4aba8107f5c30c4c142478592f71756ee6e038d7c2a33a8ca63613a2c941d282.ogg"
     },
     {
       "activityId": "new-aboudy-maths-021",
@@ -3512,7 +4304,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-021.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-021.png",
+      "promptAudioAssetPath": "speech/2be9bbceb6c0b57a9dd46c7a19783b2463ae076029ba59afad37fd0a230694e8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ea13c9ec19263f614411fddae705c78a5a44a6eef42e0841e6fc06a4f38931c4.ogg",
+        "b": "speech/1d90a0a535e83ef9755867e7933361784e1071a0311bb2a124597593f987c7f2.ogg",
+        "c": "speech/05de9fa0a27cd774e578a791bd184786c90907bfddad717fe1ef296451f5daac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/fdf8f1204fcdf22122bb571c862037b8c7f148cf78b406af0d5974b55a10ea89.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6edebcd975551768aef335e56e75b1ca4043fd3ca718e7ac62127826dae9b111.ogg"
     },
     {
       "activityId": "new-aboudy-maths-022",
@@ -3538,7 +4338,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-022.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-022.png",
+      "promptAudioAssetPath": "speech/3e9160fd58d2507f9a93fbd711946a09d9ba64a1a4bdbc1b98df0912cdbf2f3d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1611a39c12d398b2071d011149931128788200da80c015c3b9af741617f997ad.ogg",
+        "b": "speech/0544838a2b59cb61ab667b9c5c0cc9e75e0618fa619a3993a38a5ae1c5b34930.ogg",
+        "c": "speech/b736f1eedff24b057d3e98fd53f95bb1a80730322862fc63e5a0a84d864612a4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8b1e464d162005a4e2ea10fc484454f4a35acbdda14d03acc83100b7ef7a8b2a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9a12f2494215f2c52334521e11a6ba1eb89cb920a7bb1d164e4bab4e862a9463.ogg"
     },
     {
       "activityId": "new-aboudy-maths-023",
@@ -3564,7 +4372,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-023.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-023.png",
+      "promptAudioAssetPath": "speech/a1af947c5169627d5c8b35a41cad6f00001504b62dd40a78e60fee93a1e9b5ba.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ce5b85376328e1dce45814a99c27b2365c5901d303883a9d933496349e4ed319.ogg",
+        "b": "speech/093dcbb40146c83ef6639da976f5027414236f7a8809497586b34872730136a8.ogg",
+        "c": "speech/b3d3d0f163aef6064cd9ca9d408671f034f339b889c8b4bb9a47570717151e02.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/201a2a78f099db33fdafb36dca5e2f9945b2ea6c99341ef8503765b85a20f168.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a5aabbdd7cb0929f51f8d45a8b8f1090f64ede2e51c9fe801e68da52dedd34bc.ogg"
     },
     {
       "activityId": "new-aboudy-maths-024",
@@ -3590,7 +4406,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-024.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-024.png",
+      "promptAudioAssetPath": "speech/c5b71f8f853bb5a6a6b17b3aeb7980a1b3f1008a09ff7270a901e1b736d76864.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e50b66d3d5d0ab2149edb09c1700b13c100b775b97613c0accf05e0a74382dd7.ogg",
+        "b": "speech/b61c70d663aeee3dffb742a3e0c2f3629cb6d8331a3cb06e363c38408ffe9de9.ogg",
+        "c": "speech/fa680fbbd20339fab2e3724b4e2269c3882783f49b637df9afc19e594b31dbbd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7349f85745eb664bd2dc7e4fe18ab8508cf91afe2aca235077926aabb87aac5f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ce4e39173fecae91b76c129d3d4520dba6d833037545eea61966e74d06df9628.ogg"
     },
     {
       "activityId": "new-aboudy-maths-025",
@@ -3616,7 +4440,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-025.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-025.png",
+      "promptAudioAssetPath": "speech/72e927472c7d6f2f6189af091eceb22b81feb5508baf2e83889da36fe84a9a53.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ec86839032c69b814fef9523e1f8af38072a3b2726c332c8fc22d505a0389be7.ogg",
+        "b": "speech/c464317f4f46be772d55d24f2fc4d00c4fcce29a62f8d2bd7de00862f8751a2f.ogg",
+        "c": "speech/f0c6a15f80698613a96e15ebd73f7ebecac4caf4777a77a2f08976515619639e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/10ea4d636529e74dba60d35f3c3b07873a91dbdecb44ee47b01cac66d6f68a93.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/163339046a4a4f9bb2cc6961938552e1d663d5f1d4dc69a27b6091829d2c37e3.ogg"
     },
     {
       "activityId": "new-aboudy-maths-026",
@@ -3642,7 +4474,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-026.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-026.png",
+      "promptAudioAssetPath": "speech/1c65e9b580b950e4d2b423f529f03e97ff43a111d222976a2dd4bba7318c68d8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/70e5dc2bf7250952a80b0dbe71cdba1c8cb04d7cfc8275b7a42de28718a4761c.ogg",
+        "b": "speech/42b34961b544e38260e04230de99cf1eb74fbda4ed7ed2ec41ed17b519df345c.ogg",
+        "c": "speech/7d341308380be26faaa6d3646226ddb1e9884c4f6579b498068a9839254d5b9d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e9f231547a7df573cfc298acfb88d6998666aec474dcb755e334406e3ad81baa.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d190f02fe8f8a6de367e24ef1045a10008f7233f8c1940213f92e8c096489475.ogg"
     },
     {
       "activityId": "new-aboudy-maths-027",
@@ -3668,7 +4508,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-027.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-027.png",
+      "promptAudioAssetPath": "speech/be28eff868eff07bf88058cb9f9cb4a12c81ccfba91215bcc03ab9d032c47c16.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d33f76b82fb1feac3e9602c08631e7b50ced4031379451abe584a98fc37ceefe.ogg",
+        "b": "speech/d448219c0f26a6a693ee2b4750c14997881a432f577951c3db21aac1fbb4cea1.ogg",
+        "c": "speech/eb0fa2b963c8534f8490b1dc8583d63f1aa068d3253dffce2d5de708ff6fb1a8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/08d8892bdf2fda2fa41d2ee79b7de16c814d9eec3f0623c1ecbfb8cb72751c86.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/45b827c931714e467e0bd41f835a3a4ebd85daf9a1f08caaf350b47cf682295a.ogg"
     },
     {
       "activityId": "new-aboudy-maths-028",
@@ -3694,7 +4542,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-028.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-028.png",
+      "promptAudioAssetPath": "speech/c0201d2afc21dcd3145b7662b3dc00fe0ce50ef548f5b8b2c771cc6719352864.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/271413aea094296a933be2aed6e7cf6012ed7f1c77908e13215af728e21fcb64.ogg",
+        "b": "speech/792ad11ff3fd89f66e76c39fa6ed1d91c4c9789ca0fd5fc83c6fac77ba0df8dc.ogg",
+        "c": "speech/3af5ac2e6bb7bb208357b2855dc97b382bb0b1f8501ce4651ccdae53f8b376c5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1e15ddf6f5dabac9ea68fbddaea8cf3d55a7c078e5a42050f55e47045c611d4b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/648e6f6723540b947a203370e99dfeffbb17d868bcbd9feda51519d5c5ff0580.ogg"
     },
     {
       "activityId": "new-aboudy-maths-029",
@@ -3720,7 +4576,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-029.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-029.png",
+      "promptAudioAssetPath": "speech/46f129561220f49c326c9cfdec6bd0027d0049a5fbf5328496ac92d8b9a8c978.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7516e294743bd663ecbedba5a6ec75dfeda695eb0069ce86e3d2ad3176d56f39.ogg",
+        "b": "speech/5ffda4d33178f42c2fbf0ceaec6847cca5cc7dfff083cb8451f18c739e70adf3.ogg",
+        "c": "speech/7eb8520be474a7026714e164f3e9ae2f762a376986abea85544268a571ba57db.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9a4ce14533e6009692f303344de1ea7798ad6e9a78df0393edac93840ef63dba.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ee75efa9356b406cb44e50476b81f553ae60062b1d4b9eaf6c2476010e293c2b.ogg"
     },
     {
       "activityId": "new-aboudy-maths-030",
@@ -3746,7 +4610,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-030.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-030.png",
+      "promptAudioAssetPath": "speech/daeac1a98cd2430d411e68717f62f1a638544cf7a3388470b75dcd05c41e85f3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7ead6807e96ea5ba7542e3a8d934c4eacba7ba5ad07f681f1a022a6307d8f57f.ogg",
+        "b": "speech/9f94c80772dde4c7ab8ec6f73175b1904fda30c22063ec2f0ecf04e7fc0f81bf.ogg",
+        "c": "speech/4dff6b01d6905fa3d084914ae887c9f3112911180ec36e92392588e63a4c71a6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/001896497650d7a783d7e8d2f73464ea59f788dd68429358ace30b4470e4cb26.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3e8f5ed97314e88bba83c6c920209187bc424df213088a26b1ea8ac38230516e.ogg"
     },
     {
       "activityId": "new-aboudy-maths-031",
@@ -3772,7 +4644,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-031.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-031.png",
+      "promptAudioAssetPath": "speech/9ec370e4f908cf8e517165c572fa6e2c2f3d17fce3f941548d8f57c44b8b74a8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bfe2fede7dbfc9719dfc75885a19d02cd2f7d5096cb9478a227b34edf188403d.ogg",
+        "b": "speech/d3cfb8376984314ffa53ef8a8dca495c9c386ff43ed175b02f6ea6855fb892fc.ogg",
+        "c": "speech/77456119c24c48e9caabf612a387d5b0a824c6ed2a1004d312f6c7e94f7a2ef1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/29bc99718dbcdb56c88a8a573bebd35dbe1247a9ad51c659209126168e2ec591.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/73a269c7d787c9e6d4d3a15242b211f1a9e01a436b37c08085351aab97a585b5.ogg"
     },
     {
       "activityId": "new-aboudy-maths-032",
@@ -3798,7 +4678,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-032.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-032.png",
+      "promptAudioAssetPath": "speech/d85d1eb23c660984100a309ec53c080cc5955a432fdbfb5f8117cd108ef99242.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c27d6959995a286014b625ecb57e308b9a57d7999ae4784873c734c2b8bcb450.ogg",
+        "b": "speech/93364b0e2f7fd6d394dd20a4fb51cc871332dd263a1649e4ab9e532660a0f63d.ogg",
+        "c": "speech/8572815e499e2fa1c86564cdc6445ce104544130079dba10c58bf3765f1607ac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d9a8de5b8572dd4b056fcd88e52016ece5beb4d23356375bd792f77b040fb713.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/324b241231c1fc203447d7edf21a858c6f2c32793c5921ec0504dc0c46d1b41d.ogg"
     },
     {
       "activityId": "new-aboudy-maths-033",
@@ -3824,7 +4712,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-033.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-033.png",
+      "promptAudioAssetPath": "speech/1fbf4ec1ed91bf8885315b4e6ce6f15da95574a79b26dafee6aadd227b207818.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8e502c28f168cfb87ec1f4766a1cb537c2eded10ed662430a15c3dbf8290900f.ogg",
+        "b": "speech/dcd658a4aa9b93ec4c71ace025eb9136357fc786ce08e2eacefadb045617156e.ogg",
+        "c": "speech/800140c76ccee21b8597447d22cb07f892c43bf753c4bee1b59d8a57e7a5536e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0559db94f17095176be76633b75eacccad2715c1700905fa2ec47069813ce5ff.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7804047392665a0451764afed44be60c33301b999e9a9c41f6ae12ead9bab524.ogg"
     },
     {
       "activityId": "new-aboudy-maths-034",
@@ -3850,7 +4746,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-034.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-034.png",
+      "promptAudioAssetPath": "speech/e8b9b04b0eeffaeec516cf8f2bbc7d84feb7f90cb5f07371caf6a675972ab013.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/851dedf7877812cfa9fa6874a41cc665ce7e9b294dcc2469d3e6cba410140bc8.ogg",
+        "b": "speech/42079bee3c6498757fb939d5d736205a669308e43006adcabaa486fd646a9e1b.ogg",
+        "c": "speech/9afb364a2314df54b2967e5976bdd6f181874120627455801cd97b52c5d9a5d1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9e87a2fc19c8007746e7c2f93df60dcc0ca9a07421edbf0a02fcadef72c45fe1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1f5492f29456a0b9eca97489efa1fdab3ec9d1352eed24bbf52903a2fc07b00b.ogg"
     },
     {
       "activityId": "new-aboudy-maths-035",
@@ -3876,7 +4780,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-035.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-035.png",
+      "promptAudioAssetPath": "speech/6faba9fd13550733237cfe1d117bbd91399caa0696dd8d0d591f984408f0619b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4c6ee43eee84d86744b5e03fda5dc76049268868ecaf1cfa428d157223db6f89.ogg",
+        "b": "speech/fbfb8bb54dfd8e15e09b3b1bba3e2861335d4e472b85664f63ca0993bdeb66a3.ogg",
+        "c": "speech/631d2e02e8f25b72eb875205219444ba538f9ace3973e09ec5ac3f05e63178c9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/91285a043408773701f212ed2026130f132e9af7885a6e9250efd9278596685b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d4d264fc5de72d1911890c9904d10eeb1169c644fb5d112d39a931c5c6f63c73.ogg"
     },
     {
       "activityId": "new-aboudy-maths-036",
@@ -3902,7 +4814,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-036.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-036.png",
+      "promptAudioAssetPath": "speech/b8683b7ac9cbc50fec5b4cb5b7f163d24e56c7b9aaa25282099afdc2259404c1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/32510c66b00d3c1c624acec4f53671aa100c0c8defe2fe5ed6c7a7e5cf97b46f.ogg",
+        "b": "speech/6c83bf95c2155e1f1fe35b712dde85873eb11fc5816821459f0b70a9eee10e87.ogg",
+        "c": "speech/4f80e8560d0fc5d06e7d0cc3e7114145cb257f5746fd81be1703998a1fe123bc.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8a267c858029e14c4920404ffc5fcad117fd44f4f5fd80eb9f097e08282e52c0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dc48a014069aea0a84c590cc2af28e99c5e6ceb6ce229f8d310e2466f22cefc7.ogg"
     },
     {
       "activityId": "new-aboudy-maths-037",
@@ -3928,7 +4848,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-037.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-037.png",
+      "promptAudioAssetPath": "speech/5b7fa2ae71d070c95bc425450d3cf9061e3f8353da29f5dd7491379e33963b5f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/84df9b7b3ce9ff5e390e05a5ecb1a0b43a10b73c178e2749e7f614167e23f7f5.ogg",
+        "b": "speech/ce5ae9e2f44052eae089f93a3f928293336f2970c3ac1906d5361fe8b65efcb4.ogg",
+        "c": "speech/f9df19391644a42c93c170d54dc1ec3449207c080ac5ccb5668050dcf977dc28.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a4e12ad895155227a74e36c0a1b619113b6d7ab4a56adea6467095aa5387fa4e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/762bb737cd651bd33a0e6a5a334358ef18a7ad7923cfd7fbcc71b1720e5222dc.ogg"
     },
     {
       "activityId": "new-aboudy-maths-038",
@@ -3954,7 +4882,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-038.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-038.png",
+      "promptAudioAssetPath": "speech/79c3331cf8635ba4b5f18dabb6a0d87bd3752595fcc264a5e96e8ef2d964444d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1256448bd117cfbdafe0e7fa2042cfc450dee6d274aa44c38fa549642b9c9c01.ogg",
+        "b": "speech/8dd21b3ead769f1854378ab4d52089b509d059aebfc98c95dc989769a55a7139.ogg",
+        "c": "speech/34d63bd01363c942f68f6af1d1596fa3747d718c19a0db23a35b0c0867495351.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/db4f47fd84a8ab7e0d2abc7831661640e3b3d36d4ebedeefffa400c503bfe735.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2e45f1bdd0941daa232e95e32875c930352cefb48b4e0c5e20367f50531ef3cc.ogg"
     },
     {
       "activityId": "new-aboudy-maths-039",
@@ -3980,7 +4916,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-039.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-039.png",
+      "promptAudioAssetPath": "speech/b8c2c3d3109fcb38f9ba22ddd3fbf3b540066cdc7f96bd6ebc29569d72c51a33.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/525c2c12d35b79836e8a70f0cc6978e3767c27840ccca0c59edd75a165e2cf7f.ogg",
+        "b": "speech/8fe251c299c6bd62f8b2a945187227cd970b717a26137078044c313bb7943e08.ogg",
+        "c": "speech/205905d4ad017dad1c6b9cbf3d7ef4f871fa85ad3e172629f6e4cad7b737b760.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6a0f7b2c964db5cc50c6172a47e14e72c92707440ebc5a7556309c7e0b2ce706.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cf0e99db8133010a543acaf377eb3c5e21ddcee3b085caf861f6820fdfe008ab.ogg"
     },
     {
       "activityId": "new-aboudy-maths-040",
@@ -4006,7 +4950,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-maths-040.png"
+      "promptImageAssetPath": "question-art/new-aboudy-maths-040.png",
+      "promptAudioAssetPath": "speech/36ceba96776d78b9397c048385c182a41655214abf7cf66c2820c582aca67e1b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/229c4b438018536b7da7adfe19646a07f07a63b49b77c14bf946b54ec8ecb525.ogg",
+        "b": "speech/02d3d5c4fe79b0c3b27a5411e40c4a7fcf4a720c78dd14397362e9e6e2095cff.ogg",
+        "c": "speech/039c9861d7d8406d60790c85606d6ddc7012eb13fad36eac25545932f6a0371b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/dff88c94b11523a40d0467c432a3025374564417183f3a9de7320656a6509be9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1eb8fda2e85d1e20cacb3e50dc3d14f250ce06e1c1d4c10aea08d9cda420d37e.ogg"
     },
     {
       "activityId": "new-aboudy-science-001",
@@ -4032,7 +4984,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-001.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-001.png",
+      "promptAudioAssetPath": "speech/5bdf7a740dddd034045ad383acdea93190c8b3bbce7895f81b32a2dab7460010.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/942aa883b6bffb866cb08decf658bf6da459507a8888fcb38380f81e8bcc9d8a.ogg",
+        "b": "speech/b9605e8cc9beb92540f4f0e62152dcab6bd5d242fea7a9a17d84134e4625e593.ogg",
+        "c": "speech/eb666c7f75d14553835f30e0bc9e114525d29bbf0117cb6c34496b21a074e14b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c70f5407a26ba5ab6e87ce618cb7c285b48e9d64a7aface04a594813b75b497c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/09066f8ccf7d318364c53514148990a03fe7d488da8691c781ed83d4ca487adf.ogg"
     },
     {
       "activityId": "new-aboudy-science-002",
@@ -4058,7 +5018,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-002.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-002.png",
+      "promptAudioAssetPath": "speech/3f8ee7a089a5f38122a4a87fee6943af4c5aa914915788f1f100d3f027d7b114.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/424ec9ce48bb18dfdfe20c8c91bbf8b1e6539c6e7a41771cde71a71019f0e3bb.ogg",
+        "b": "speech/cab85e4b41453f20bd6a0f938f84d028df919455ad03350dee14296ed2c3b43d.ogg",
+        "c": "speech/42264211577fb46c9ab820fff187bad953402535d385ce0c02c29ab8d8cb51d9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/098daf9feff01629efc48761c1dd77e3e02879bae0b86b83e17f4770dcf13fbb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/bcf632d0eb7d9b0619f240015971812b210b2c8022ce7a69a450375a1ca52eee.ogg"
     },
     {
       "activityId": "new-aboudy-science-003",
@@ -4084,7 +5052,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-003.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-003.png",
+      "promptAudioAssetPath": "speech/e12adaa72b4b1d20563435fc630929149c1baba6cca7c9da08001dfe205267a0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a5013fdb8f8e441b8b6abdba01d1c598570be2842763ce2b80e963629bbcfda5.ogg",
+        "b": "speech/055e1f453f6ab125c61f87a9681977b2f11b49f1b3e1aebcd4ecbe5a5a4c5980.ogg",
+        "c": "speech/9447890f1ac1e025858cc30f29a1f6b6d46fbabdacbaf7ff3c8a3557499fca1a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/aab56b5e651d52208d6c8f6600650c8ef8b20e1e40f88ebb1cf5a1286eaa1d39.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/183be34fe34ff1de1a70bb6fedb6209ee549fc6deb326e256ae0065da92e603e.ogg"
     },
     {
       "activityId": "new-aboudy-science-004",
@@ -4110,7 +5086,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-004.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-004.png",
+      "promptAudioAssetPath": "speech/e1458c1406ec7a6605b1d959332a44a552de97b714f78e4ac170fcf2d5a24d11.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/70eb0733d2439994716a8e9b2c0baa15394acd98f5bb9df7770758279e5b5ac9.ogg",
+        "b": "speech/a1317a0ac1b64989aad064cfb1eb52d217a64bfd1b7c540bfe4fd9d63b83ec67.ogg",
+        "c": "speech/bc86d179e70438674db8cfdaabecd0579b786a5d32a2d1ced894b4645ec5ff44.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a909ab79028c6b2c9a3ed24136bca54fdecf49bdf34c4ef25a843350fba01553.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5870ad42ed0d9f72ed3fdc6bfbb8645a5fb26c87009e382e86f91c1d16054447.ogg"
     },
     {
       "activityId": "new-aboudy-science-005",
@@ -4136,7 +5120,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-005.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-005.png",
+      "promptAudioAssetPath": "speech/a5071fe3bf19ce5817dcdf4d0d2246d821dff9d8aecd4b2c6ee2791e2da63cda.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cc3f903e881283d3b7f4ff0827752ae80b005c801aa1be11ba36a73abcddf14a.ogg",
+        "b": "speech/99ca3be233698980cdb3273af7f8827c7129b567122b721c17a5476489c11056.ogg",
+        "c": "speech/139f40923425e46fb32c3986aa3106ee9ac12c6e6558a1abcaf9aef047524a1d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cbc69105e37c1c484f6f061d630491c69c085e0aa95c46aedfbffcaf2d51f004.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9d68aec1c8cee8f0eed72f08669ce9eb5552bb1933ca2e14defd74d1edf19ba2.ogg"
     },
     {
       "activityId": "new-aboudy-science-006",
@@ -4162,7 +5154,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-006.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-006.png",
+      "promptAudioAssetPath": "speech/def023173245ba470dac1ca656ddd9404b28925d769c8f64403c4f44a212809e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e795f4a6fd7a9eae5cef08f3eb80cd580db5b39b0337e07b720ee1c5eecc143d.ogg",
+        "b": "speech/0c04f9edc00724b7c156f4ae3252169d072a9c722fa852614cd3e30f5dbeb02c.ogg",
+        "c": "speech/e13035d323afaf8c5072b8a51552cb48031ef16f1823f6409c0a0270260b1821.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5af0fe39279d1c0121bdd414b10e86f3d71ca380f61d513641661f279c1e33a5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/715b182f98c91acdf59d6676bdab27936617fd8132fc73d1a399abc71538c432.ogg"
     },
     {
       "activityId": "new-aboudy-science-007",
@@ -4188,7 +5188,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-007.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-007.png",
+      "promptAudioAssetPath": "speech/d9a33033185084affaddccaccd5a2d49e89aa894ac5c2e2061ff8668d44e8ada.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/02a6e70e5ef0570dad85b1a4a1107ff60e92d4326f4719ca6277cb496df6f955.ogg",
+        "b": "speech/cd47ef4e5e0ceaa1ee8595fbb57b6f6caba81abdf7b65a1438c556e55a24cf6d.ogg",
+        "c": "speech/91dc6b690912f412330da4db78e393e38a2a331cb0d1e1f0fa5e6bc483d42700.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a65303c6da558a83674889924d12578fc1d6fe7675f418bb77747ae6aac4fba8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0182155c6a73a3b41ecdcf6739f41cdfada102ed04dc29be1e66b53fb7eccb89.ogg"
     },
     {
       "activityId": "new-aboudy-science-008",
@@ -4214,7 +5222,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-008.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-008.png",
+      "promptAudioAssetPath": "speech/ab9893e49262649ce8c491f9bde535f3b239c34be696b02f6d49e10706ffc13e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a4e1a811c0ea295b0d79ac048cb560f90115b57332e8b61a835fd3ab24ef4fc1.ogg",
+        "b": "speech/6af54033fd01eed3a2e1ee8c4d9698794d0ad4f5521021d7fb9c9be89a74a37b.ogg",
+        "c": "speech/24ad8cb1c12e75a044a1a4dd1d9decb49fbab523e16460621cbd6bb1801301bc.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5a891351c973138852f167ac29df227dc279eddb599236ae984b8d33771fefb0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a4a08cdead7fca5c624cb75b4c1198fabdd95fd2bc0ee617a6b6a316d41f7482.ogg"
     },
     {
       "activityId": "new-aboudy-science-009",
@@ -4240,7 +5256,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-009.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-009.png",
+      "promptAudioAssetPath": "speech/58ca9077ae3ae2ab46221761d368df7a47164a1dea86528dbf2eddfbbc6802ea.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/67941becb6b73f90260c51697d3b3ea297d3f7960096088410a369b6978d1073.ogg",
+        "b": "speech/e0ae986b7740dc2143d207de679130ac3a5363be6cd9532ef5d16b42b53c0de1.ogg",
+        "c": "speech/3869533ae28f646f9e897ea815f52fe2293b056e9aa8fed317bff4de897d8ed6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6bd5c3193dad1813f39114a7f0afa5bc6092388a215bdf4cd91e9e28490c1397.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/38a3df9c2648840eee7640d1a2ed4f8f6be2492d7d93343216eaf3fb1847b5a2.ogg"
     },
     {
       "activityId": "new-aboudy-science-010",
@@ -4266,7 +5290,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-010.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-010.png",
+      "promptAudioAssetPath": "speech/26e6848abf63ae1dc9b49b7ffd62622013b8c9fb318c2b5a37c098532a5ad3de.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/3254cd7db7f34f851da3849260ffdb9faa6e8e6491e00bf455b468aca45e3506.ogg",
+        "b": "speech/e9a11cdba9fcddd515415b447e1fecdde56ad6a5551d6e1a534ae04e33bc09c9.ogg",
+        "c": "speech/ca4c28968eab7486565f5ef81249ba95cc8969bae5f7538bdba69cffa20a10f2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/32e888fcf9b3d26206e56ae76e0c60f883e896d45b7b397e33f66cdb051da914.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ac376f5eded787725ecc4ceeab8b6935e4c58d6b8e654021a3e94772227de2a0.ogg"
     },
     {
       "activityId": "new-aboudy-science-011",
@@ -4292,7 +5324,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-011.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-011.png",
+      "promptAudioAssetPath": "speech/546ff4b7bedf0795153eed72e95957177734b3e832f0e3252dab95d7d2183c9f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9cac5ef075ac7a0d20d268e3c846958c80514e317e3e0fa084dce095dc337edc.ogg",
+        "b": "speech/bcf98551211f57935eafbf6bbe9d679ca2b3ae8020ca8f021792c2a39d108d8d.ogg",
+        "c": "speech/c7a848806570f00bd13947b11682721386f6aec5e98111046b9dd1767380273b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/165d3cef789975dfad70cdcb949a7ba5928f4335f398b0eb7b74ad6944aabb8b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f96deb9110b987a98918d3730fa479d0c0abe1459313557985993c37c5adb11a.ogg"
     },
     {
       "activityId": "new-aboudy-science-012",
@@ -4318,7 +5358,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-012.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-012.png",
+      "promptAudioAssetPath": "speech/a692031215a23fbe6e815af2fc8f3374cf97444c6899a73272828dd3b2332d62.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8257d1b6ceab974b3d11efa399c6104fc5256c1a35efe488b7ff4f9f419ba356.ogg",
+        "b": "speech/d02ab3c971fae6c2096ee293b8603a55fbb67298600e757b2a91d4d24704c14a.ogg",
+        "c": "speech/74b72d61b238d784474ce19c8a31d8eced581e0b7604d2b80ce3a16e425d1609.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f9828597dfc43ad3866ce5c1a3aadaedfc1d5235c3a02071829f039650c0d415.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2caeced398a517496eb22bf6f95a25323c6fbee4e31df11cbc5bb17ddb8cd672.ogg"
     },
     {
       "activityId": "new-aboudy-science-013",
@@ -4344,7 +5392,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-013.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-013.png",
+      "promptAudioAssetPath": "speech/f937758d8b80c2d2864308b3c18a14c6bd599c97eb877817de031eeabd3d7b77.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bc07e05deea32b73433aa53ca057f8d473934085d8195f0cdbacebdcc8b23671.ogg",
+        "b": "speech/3d9526a4520542b1e44c3bcfff21b39a30f5871b09c5a81f0f36ffeb1b00a804.ogg",
+        "c": "speech/0e258d0a587c0440b184cc6740a7baf63cc992f855282db702f66aab84187df4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/70438ee379ac73fb401107a688bcd59cf19a475823e8e0de2b51fb61aca4f1b1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8458f6cceabf2638ce9e6d68dc78d42cabe37a4c9ce848f712fae548691d46be.ogg"
     },
     {
       "activityId": "new-aboudy-science-014",
@@ -4370,7 +5426,15 @@
       "feedbackCorrect": "Wonderful work!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-014.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-014.png",
+      "promptAudioAssetPath": "speech/c842e34522693acfc92783ca8325855ae05dc1ad3b01dfd69c54f5e968549e10.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/74906b4cb3fc86c586a790dff347c2d8ad80045dc29c8991c160231171b5e00e.ogg",
+        "b": "speech/4111ca30f35407fd0723eb298eb8be310508ec88c93f2626c9c6ae94c518d3e4.ogg",
+        "c": "speech/617a82c56add1c30be85137c3522da874912703356b448b47e89257f216d371b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6b7686cca48727217e798f052760a37a00e771a2f2a3e6ed298dfa976608c54b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9c4ff80ef789f6a5ffb47923adc0f7ab82f2a16ac288fe730844b9e713f6ccbc.ogg"
     },
     {
       "activityId": "new-aboudy-science-015",
@@ -4396,7 +5460,15 @@
       "feedbackCorrect": "Great answer!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-015.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-015.png",
+      "promptAudioAssetPath": "speech/f482678651451f42c4a53041efcf514ffec02f541fc89a324ffc7280036fd083.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/08c7a38e6048f312a876e905a970513aa8df575019b121d9dd5c2206725d9882.ogg",
+        "b": "speech/13daa61119981dd2fcb2d6cc29f66a7d985bb77166baa1de329ec73d0445faac.ogg",
+        "c": "speech/5aa4a9961c5233dbb0170c959a4a8097caf62807da5b47bd0cbf0a5ec44b3304.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7fb19736f045b2a0f18c436e140f47fd1737fdd47ddf6114194a1d63b1026bbb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1fa762b2563d90b1801b72f937718fdd173b67133fa0b1f9462c538386bd2cc3.ogg"
     },
     {
       "activityId": "new-aboudy-science-016",
@@ -4422,7 +5494,15 @@
       "feedbackCorrect": "Fantastic effort!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-016.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-016.png",
+      "promptAudioAssetPath": "speech/8b37272fefea70cd929035c29db7cff55890bf800d8c90829cd6af0653fdc715.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/aa35062eabac70823d245be87786d78661ff2b0644b2726d3a6f53eecb2ea2c1.ogg",
+        "b": "speech/309aace7441f8f23013b50f121e3e1c5533367400f7199c12ecaae2240fdd5ff.ogg",
+        "c": "speech/217261ae72bfb4a9a08941c16ecc437859c4f67dae07bc16ce63295b3fee08b2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7349ac2bafa63ad91fdd32eb1f7db70e3781779f4647c8ac94878e16eed8d2d7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/abad3414d5a1a783f7a6da26cff13d99e7cee382cb36a2abf027afb9241e836a.ogg"
     },
     {
       "activityId": "new-aboudy-science-017",
@@ -4448,7 +5528,15 @@
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-017.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-017.png",
+      "promptAudioAssetPath": "speech/56a1bf8dec1a20de0e0bc94bda6ffeb4bc8f040540093113c8e761645bb0ba5c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7f84600c9bd5ac222ae83fadd32454f46a410d417187a3e131b7a4b7c5f4743a.ogg",
+        "b": "speech/1de851d205178f93edd5b234c3daad2885b2846ac2d99d101b6860d941853b09.ogg",
+        "c": "speech/3ce776fc8b78702765f6c3ed958f3f02c87a6307d2a0324cbec01f0a7317aeac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1ecd10b62d7937523112943bb4d8835bec52e060301aba478e2cfbbad4765979.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5cd8046470a85e35ff78d97cbf0eca991a12925f81c985ec4f0ee6faa89a8c66.ogg"
     },
     {
       "activityId": "new-aboudy-science-018",
@@ -4474,7 +5562,15 @@
       "feedbackCorrect": "Smart thinking!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-018.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-018.png",
+      "promptAudioAssetPath": "speech/336db24f12ddc4ff8c136d56da7a8586d715cb14600cd78d99cdea76890cc7db.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/80a37fdd8161ef820d17be6e16aeb8681d4a84775daf9e6893bbd2a4620a9f6d.ogg",
+        "b": "speech/2263bfcf6aafb6699a42588c39f696811bd76e36c962f4b87bd23abefa91cf81.ogg",
+        "c": "speech/c46280bcca7ff94accd9222b117f7b8d91b6220669cf0dfb89d721d9dbf8797b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/975b4f41d2fdafa238229ea5e7e0dd28d66cf74e460e786d3f00be053b123105.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/48a5a4f785efe9e112f1cc00d4d1723897b24cd8fff9db5719d3559997347dab.ogg"
     },
     {
       "activityId": "new-aboudy-science-019",
@@ -4500,7 +5596,15 @@
       "feedbackCorrect": "Keep shining!",
       "feedbackIncorrect": "Take your time!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-019.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-019.png",
+      "promptAudioAssetPath": "speech/e9c1343a83ef06a4f251b338f0d1b269e6d04ea64b3474b061a4284d40dcb343.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9e0fed330e875eb47f3cfd027cc33bd6afa50abc066ee578cec07c116ef087a9.ogg",
+        "b": "speech/b5d425fe443aaf92c86b5fafce96c8a4ff01a7c1cc8d7b15937764789cf410de.ogg",
+        "c": "speech/662315dd69c65a60c8eb8bcd86111a4349021795e3b01740a26c77e690cf692a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a688650c5719c6bfeea0174dd74f945914d6cf97a2bd677b849a74bf8d12e66d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d54bd075e9b16a73b64a2633b3fea6b6f01536b651b34ce6a7fe8e232aaba1e9.ogg"
     },
     {
       "activityId": "new-aboudy-science-020",
@@ -4526,7 +5630,15 @@
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "Keep thinking!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-020.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-020.png",
+      "promptAudioAssetPath": "speech/5acf02d8f83d6084f69c2851651da5684059dbf18f46f9d0e843a46acafeff3e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/69041eee19a21b32c21566a4f6ce7fe3ad6ce1bf2be855c2400f51d80b6eb6db.ogg",
+        "b": "speech/4a03e060b9f2babd22950f254ae5faecbd003a69fe2443e3f1d037fed2f40c28.ogg",
+        "c": "speech/c870817bdf6c8a0967cb779f1cf9529853d4943bcb0e7f2609f6f0a22b0f0639.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/fd40c4775f465b42d27d0c744beb716330cafb96b651dc34371ec3ac87de0d27.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0967e45effc0254f3c911d1cab399a407135ee0b17c669f33734d4feaaa0ed24.ogg"
     },
     {
       "activityId": "new-aboudy-science-021",
@@ -4552,7 +5664,15 @@
       "feedbackCorrect": "That was great!",
       "feedbackIncorrect": "One more try!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-021.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-021.png",
+      "promptAudioAssetPath": "speech/c74d146df4a5588701a1fe08f40bb6e786c0e79c8b770b3c3c83239cfe9cfd7c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2b2275043a4a008e008a095804ddbb82f45a3fd9fc48e20d405b539efbcfd246.ogg",
+        "b": "speech/263d7bd927aba34083ee92b5edde3c1b02758cd3bf73a0d04c02ad181d31d72a.ogg",
+        "c": "speech/9e83a9515c5321ad50cc2d1d36c0a273f2f9553b9f0dd92ca6563ea46b2309c8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f9a1fe5ccccd91ee4dc78883482b889d9c0b34600e21f5929a326260791804b5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e1014bdba06fa1e723a98a1cbf585799c3599f5cd243c54b58e43ea64ccf2035.ogg"
     },
     {
       "activityId": "new-aboudy-science-022",
@@ -4578,7 +5698,15 @@
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "You're getting there!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-022.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-022.png",
+      "promptAudioAssetPath": "speech/403868dd2d5c1728b9714aa4d647ff17914278be17ee55f4830fc88bf5d9a344.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5589511d9016384429a68fecdceea729e6321d9dbde70062b62c55f8aadf857b.ogg",
+        "b": "speech/32143e1fc9e800574fd2dce18d8c3e9beddcd2403e4072b78fbd39ebf4928a0f.ogg",
+        "c": "speech/b4d5174a56a8135aaad4d6eaa3d0c631d988e3fb1bf857065570627f0deced76.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0bba1bcf2431ce0e5387ccd9d584d11d4279e3c488eb7b8edb9b4a831a2c0a43.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9973b55ab5c439b909ffd7209e0a6f77383a384909634ee03c12273a502d8712.ogg"
     },
     {
       "activityId": "new-aboudy-science-023",
@@ -4604,7 +5732,15 @@
       "feedbackCorrect": "Brilliant thinking!",
       "feedbackIncorrect": "Great effort! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-023.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-023.png",
+      "promptAudioAssetPath": "speech/a30211a3f4ce8a6156d0d17af68ce8c4b2ff99e9a302ec58f5994050333ec12c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d0437f25818d82a6aa1ec5c65ddb9e9605871060e9213cd67afeb77a39fcc492.ogg",
+        "b": "speech/328cab2d02ea99bf7acfd745909608bc32cea2f3c20f7f56e05fb20b8b3a4083.ogg",
+        "c": "speech/7f85f2581d344a65a1e24de9231357c55b50293bc957ac4656aa802c777ce05c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1544bca128538034021c29bba657501dc22d11c1652419f8e1ada8cfdf567e5c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d0bf611b8c828cd86c255e0afadc40f089143ac21316bf3934619425507157c7.ogg"
     },
     {
       "activityId": "new-aboudy-science-024",
@@ -4630,7 +5766,15 @@
       "feedbackCorrect": "You got it!",
       "feedbackIncorrect": "No worries! Try again!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-024.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-024.png",
+      "promptAudioAssetPath": "speech/f6e535ec2d14208e70836915113085bda5f7cb0159bdaa183b64271fa6b14b4d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fd0dc0d7c6f3391ade3e89d8817bc35120293c60487b7921c572b548cfaf64aa.ogg",
+        "b": "speech/0c71388da18e2da3170559cc0ea6b21d706df2893d0c1be6e36285a0f6a88e71.ogg",
+        "c": "speech/c1c2de0472045c49c250a95f7473f68f36422ae600badedcc0f9908d531a855b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5ba23f30974b083020df04c938f90b7d839719f18ace7bdb3728b97901ebd617.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/59e07294a856825c0e12430507d2fe430f9effe391100d092c3ed41195a0d6f0.ogg"
     },
     {
       "activityId": "new-aboudy-science-025",
@@ -4656,7 +5800,15 @@
       "feedbackCorrect": "Super job!",
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/new-aboudy-science-025.png"
+      "promptImageAssetPath": "question-art/new-aboudy-science-025.png",
+      "promptAudioAssetPath": "speech/1cc321f2dcf901ca5fa532008f9088becbbe241095c886d58fcda9384c40b31f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9008d47ba89d33e9e2b7c3b84ae1a0602d324c51f159ec4e0966130455905227.ogg",
+        "b": "speech/19d6f43415be491ada6223c88bd1e9549935d79bdc4546f83e1c51c3413663ae.ogg",
+        "c": "speech/6bdb292e2ec3878ea6b4df5d08c64d380dab35bfaf9cfac89d9eb917da1f3419.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e95a90cb92f4a45e8659859534b540f267dcfa24acd12d132d1642b1fa621c10.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/237a55cddb5456658809781e2a671cfa0d9c09d5d0060248ee13c5bd8152a989.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q01-en",
@@ -4692,7 +5844,15 @@
         "b": "A wooden model is not alive",
         "c": "A real fish is a living animal"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q01-en.png",
+      "promptAudioAssetPath": "speech/6ab0fbf4f25e9a2cbc40227c88ab46d3083d4840375daaefdd1df23fbdca3dfa.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/624c0fe4856d6b2610688b0864b9e3597beb3466643cd36688c277914e95c129.ogg",
+        "b": "speech/8cf84dcfb8750db1ae102d026b4ce4d1df5bf093dd374f812b2e7c97e5480e22.ogg",
+        "c": "speech/cf265a640c6c15513e8f77555338a03cd02f4bdc5c3a666a3f868ab5e7fa2e65.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/dc62b18d23295c03220ed13b4fdee4d11c4e1843202a136287c33d6e244e99da.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ba639b245b58732aae7151c58f66c71c3dd80ffec81f3cfbd6629209d182b1af.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q02-en",
@@ -4728,7 +5888,15 @@
         "b": "Painted appearance is not life",
         "c": "Plastic models are not living"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q02-en.png",
+      "promptAudioAssetPath": "speech/3e9077f37ac1dfed6e144160429c25a22226dacfca40b296fa0f8158857acd94.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b1c29b64e88b057a45a3b24ac09d65ae55f2fa03a4b881c70407b32857f370e7.ogg",
+        "b": "speech/4370be96d5f0e1180a9477362c7a1515e36b3dea2b8298d79f5a97eadf01f71a.ogg",
+        "c": "speech/0f158b1001a1a98e4078a19ba257e68d126abd1714e6404fa7e43fe33f0a9bbe.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cf05faa84815e749b40fd5dec15baa7dc818c074c6650f921ef0baffa75ccc7f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b9b550f21edb04fa18687f30335d139e5fe5415fa580106437af4ded8ad0b058.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q03-en",
@@ -4764,7 +5932,15 @@
         "b": "A kitten is a young cat",
         "c": "A chick is a young bird"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q03-en.png",
+      "promptAudioAssetPath": "speech/c7e3440108251bd7136cc4bc770bf5c9393e9c42561b6b577eb421a2a4aeb2bb.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1ef59a99fd13160c180e822149be01ca0eed764f365b818a9ce6d7fb2c82e92e.ogg",
+        "b": "speech/5778a0bdbf02f66a5ef7d21453b8c6aae3330b4123911fe814fee5c512202106.ogg",
+        "c": "speech/a8105cd2bd279e37bfc21a45049fa057c991bcf2cda5553f9e186aaff06f8980.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/11109afac8906a4dc4f0c9a6256cb3a8ba0f7e54bfd1c6eae5efce88155a6b5a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/48ea922c0e06c89bf06e5c2727fc8db4afc6236a18e157bc0ebba308373c31e9.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q04-en",
@@ -4800,7 +5976,15 @@
         "b": "A branch is not an aquatic habitat",
         "c": "A pond provides water"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q04-en.png",
+      "promptAudioAssetPath": "speech/e6da1e0ce826812f19f14c612f1ceea7568a1e965ed6787413344c339de718f1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cc34f5eaf74d91fc1707bbf9cb1cdbe603154239fe9dd5a9e4a52e0333e44064.ogg",
+        "b": "speech/eb1e6ee7e0cb5730e4cd672208c53609fae639cca7da8ae98b711e0258306464.ogg",
+        "c": "speech/c2add73a62067209640a27185f3c38f87ac3d6b263139868ff8ed6ec42d67470.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ddaf33a523593153e0486cedfe243485ca945d9c21bba7c49c8598012783b5de.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/31273452d6c1a965cbe5cbe795ca2ff3b01597ed69e7d1c5778d5749118a2ed4.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q05-en",
@@ -4836,7 +6020,15 @@
         "b": "Many young animals do not look exactly like adults",
         "c": "A tadpole is an animal"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q05-en.png",
+      "promptAudioAssetPath": "speech/b0516c01a77c3aa09be5d29b1c65dbaa927c995f61d13fbbf40c1866d460c1ff.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/82a9548394b9caec0c13a8e0f8c771e66ab14ddcf28228b43feb618b8734cfce.ogg",
+        "b": "speech/8adea1f6b99702795f18f50cd021ccd26d8ae2ff0f2bc983005c0eb90c25cf32.ogg",
+        "c": "speech/47f73c982b39faa9e9f494be136784be73f453de5163084c63a8f2ab850bf82c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b5114c78f0b6c94adf243631057c0e4909effa305e44a55e832f28b525e42efd.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6353989ae65785672b766fea30206877eb33d2c8be02cd46a1dbdc8fe1a80305.ogg"
     },
     {
       "activityId": "sci-g2-u02-l1-q06-en",
@@ -4872,7 +6064,15 @@
         "b": "Habitats provide several needs",
         "c": "Different animals have different diets"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l1-q06-en.png",
+      "promptAudioAssetPath": "speech/81d273da50e3209ec5292730a17f03f1f31d5a11d13c97e4a0ffc05793e68527.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b137efd5c5658b8c7193325f13c7fb3bdb4185de0c7e096b355f064f4ae01403.ogg",
+        "b": "speech/3e09178813a32ee0f8980ca5e6967763df418e2def78e67d004a2ede87f6abe2.ogg",
+        "c": "speech/78c3385f9603a5784342f641ae997525b895ba07511e58bcdd970376c850d18a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e048877e8cb34166bb699c86a84493601401696fc45c6c65bca90fccfc9c2558.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/94a87db7e826d19b78814f8ee08fd3e8fc75ca9dfd758d38f149de78d8aac1ed.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q01-en",
@@ -4908,7 +6108,15 @@
         "b": "Vertebrates have a backbone",
         "c": "Wings are not the grouping rule"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q01-en.png",
+      "promptAudioAssetPath": "speech/47e80e8d77d2d4de99791c9732fcd5d005a9b36aca4a31e450d5c299ce7f9514.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6cee956c1dcacb2a947cac9a01e0815e2885207cca5d9e6f9f36a5f15e553125.ogg",
+        "b": "speech/eca0058f7b704541cf2f37c90ce7a48c340644c5165c1498d0b23c211ab04a0f.ogg",
+        "c": "speech/91bf6b6817d1fc29e2761fdd904891d726d515df23e7b517279c7707b6574d9b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6ceeff784d2479727bfcdeff82648668c0774a0c8ebc7c79180f6f5e1e9d7ef0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7723bc8958b8c870150a103a4cca75545f6cdd680638c7241e6d9ba6cb9e43f2.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q02-en",
@@ -4944,7 +6152,15 @@
         "b": "An earthworm is an invertebrate",
         "c": "A frog has a backbone"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q02-en.png",
+      "promptAudioAssetPath": "speech/d024ced8d5afd7df71ecd2f8f8baba95cebc8b6faf759ccd201a4f82aa9eae09.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ae94b9df52c6a7683c6f67e1fb600db5949c11bb4d2bf01010451dd6572f6926.ogg",
+        "b": "speech/6d30cba98922c2a0d976e83b7bbb9c3a1e3b26390e66193bfe8248d675e13b4d.ogg",
+        "c": "speech/ee732aa8674f2237900ec645167047b909fc02fded1b13cb5811e43086e6d604.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/415c05eeeacf88cad1dfc6dd2531623cf71a1f554f857f9be18dd4c7dc3794b2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/92d1cab9511118b3fecbc7cb950f11e894bf99b725f83ad8971ce71b2a4ddfa8.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q03-en",
@@ -4980,7 +6196,15 @@
         "b": "A cat is a vertebrate",
         "c": "A fish is a vertebrate"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q03-en.png",
+      "promptAudioAssetPath": "speech/b7fc4ad92fff9aa6efcce4b6e2f1fbb3258ee3a6633a1f60776ec31a47b2d1e0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/80dbfb5475478e9016188c06b711fd95541ad86465ff201ff271fef5d734a338.ogg",
+        "b": "speech/cb8990248951efaee76196b3aa88d403c843e35cbef482f697ea4b59953bf052.ogg",
+        "c": "speech/dedb9a6c514eb2e1dc781b0ea17ea4315f591d2016b84476b83e3c85d172dbe5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/eccd9ecd778050394ebb9793558fecd6950d9d708f97952731c469d4b676b258.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/af3ae2b4840fb7b55d09631a289127c1861bf8b13fd576174654c4993a0c9c9a.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q04-en",
@@ -5016,7 +6240,15 @@
         "b": "The backbone is the classification feature",
         "c": "Speed is not the stated rule"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q04-en.png",
+      "promptAudioAssetPath": "speech/ca205b84df1f524ee87b487b90a8f2559d221519160206b664f3ca0d9960571f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/694e53fc39e392310042374a1eb31b94d20fbc3abb1037dec5e2fa0c3a4dff47.ogg",
+        "b": "speech/5d5f522a14e3fd8691d1eaeec4da1c6d060ff534703ae9102e6c8137aace1de5.ogg",
+        "c": "speech/44e4648e23858a7445966335c113950c3e6bcd64e4439427ae166338eca85160.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2fb941b4a0d896fdaf0bdcee2c63014634248f2feefbdb0f682bfee719e7b3f2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/35870f089807e6a13826bbd3f56be62f12e1dca14dcb5143c9c5b2a190c776f8.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q05-en",
@@ -5052,7 +6284,15 @@
         "b": "Octopuses are not mammals",
         "c": "An octopus is an invertebrate"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q05-en.png",
+      "promptAudioAssetPath": "speech/9c9382c2639d1c38e15adbccfdbe67d4cc0253acff49cc0b6c69525a7e020627.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/245145c9aafe4816e83f1d1ddce48054fdad1a79505d9144e0d58151e58e3cd9.ogg",
+        "b": "speech/ee6d7ff2336ce7e9a47d2da851f6c114a6010447f5b5308b6a3c56dae3c8afcc.ogg",
+        "c": "speech/d80b284b0f162f63b6966ca131eaf6fb6e08c629fe39ced9440e0eb15c3312a4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c457525085c1420e95b7e3178d9227c94e1e0548b2d085103ba27f1ff9a53a62.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0ef33f8fcef0756def67f577634e1941b960c12ed5a8cd6a1aac3f7221d075b4.ogg"
     },
     {
       "activityId": "sci-g2-u02-l2-q06-en",
@@ -5088,7 +6328,15 @@
         "b": "Small size does not make an animal an insect",
         "c": "Having legs does not mean an animal has a backbone"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l2-q06-en.png",
+      "promptAudioAssetPath": "speech/76ed6587cf2c8d9e4e46507582ec62fa84c010847fb3d0ae8533b9ff4d802fae.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/57ccd5614fb84de8161f7578263127e72b630ee560c5a0e91ae92f1d1243182d.ogg",
+        "b": "speech/5959bb25c9176558c8e23a1068ec1056424132aaaa86e11a9bac4837ab8bc70c.ogg",
+        "c": "speech/2aaa7f351c6199a148bcc4bbdea65ae4f8b52668e29ee923a741104efe3b8a86.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9000ed577dc94532e48e00290acfcf3eaa523cff2144ab90a2ed61ceeb553008.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/874eeba3d80797ee5a2cce21d11c6d856cb53ca4da0e2b1211df3da017e6827c.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q01-en",
@@ -5124,7 +6372,15 @@
         "b": "Adult insects have six legs",
         "c": "Ten is not the insect body-plan count"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q01-en.png",
+      "promptAudioAssetPath": "speech/6bbf7b4fa5045b9471da1d4aa12eea744991f2edfa33085c09b8355f3cc9ddaf.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a9e031d9ad4b595f932f2a5668249b463dd5e914e567b443d014082add5548f4.ogg",
+        "b": "speech/63cb1af386ccc86b64d936f07eced85e1271587e1002eaefcf337c44213f9e33.ogg",
+        "c": "speech/b64fea9836aa869b05289c019d6861fa62b4eba9d45618b5941d068e08f624f8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/74e1d062aa43ddb48efad67d8e39ca348e299c77f7ab14124a4c9b9101a21bf3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4d8a1e518c360489cc2d32b0cc47fe4b20ef70ed2c10784c4fcc3f866cbbc2a8.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q02-en",
@@ -5160,7 +6416,15 @@
         "b": "These are not the insect body regions",
         "c": "These features describe other body plans"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q02-en.png",
+      "promptAudioAssetPath": "speech/d8fa03b70ed34ef58700dbf453f3ee87663dc2cf30505472bafb62d491ed7e4f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/35d25861fff505f3c3376da8bb8442324bef620aa5e3741d47344116f086e51d.ogg",
+        "b": "speech/66f73c8a0a025aef26dc3e7f25329cc4f2fef92f98250a5af650a3b67eaf176c.ogg",
+        "c": "speech/3089306e618061e345b6ed07a9077e60c026ac9a14eabaa9ce5fc553147276c5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5bc41eaaa39eaea6791b6513b2a85af3b8abf37b2a734795a788786334ee54e6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/be52310c5ae6626f761e15e14a01df47112bacd79c8e7956dc72d17a5541cbb7.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q03-en",
@@ -5196,7 +6460,15 @@
         "b": "An earthworm is not an insect",
         "c": "A butterfly is an insect"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q03-en.png",
+      "promptAudioAssetPath": "speech/0417fda5f9dd6ff078374bbb92e4280c1aa82489a8c7c04228b3ca77bfa89e17.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/31dc8400dc30ccd593866e3497b55bd609e2ca55c96edae492946d9bf1caf895.ogg",
+        "b": "speech/4be4495912f94786fa1af0863e8767ca73a9bf59630b07d3b7b933341f20ae4a.ogg",
+        "c": "speech/1bdb138568843bae8e0125c468c1a73123104e88c153a1f5188f5aa93dd44274.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0ec149073d0e1cfc9a86445b2c3c925928027794e27cfb899e5d36fce8f89be0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b32ba902a1ea177ea18915b4a471ab12b4a51b87751f5e31913758048bc585f8.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q04-en",
@@ -5232,7 +6504,15 @@
         "b": "Some adult insects are wingless",
         "c": "Wings are not legs"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q04-en.png",
+      "promptAudioAssetPath": "speech/daa28f248804c0e3ffba14113a092ef0f24f900fd5858875fc2daf636d7774db.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d7e8cdcc5c85dfa37305f7ed848cf1c44c74c8da0c7583aab7ac992b2cc600f1.ogg",
+        "b": "speech/de2ee361558f56f55a5a8d7c5877d7cdeb977200e03beb6895956aa4a3ef6f25.ogg",
+        "c": "speech/678719300b4012b397151bf47c8d8c10239983e215a28543972fc6960b865b1f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e089c1c474793bb1f54bccc3f8308b159cf94048b1342dfd795cbdb4d1d44b36.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a17ec302ffcc97cb846db715d5b01fbed7a88f211a0ebcb10a4ac826326d6f69.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q05-en",
@@ -5268,7 +6548,15 @@
         "b": "Flowers do not become animals",
         "c": "Roots are plant structures, not given by bees"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q05-en.png",
+      "promptAudioAssetPath": "speech/eecf449f9b7913c94842028acc44ebca2303b6483279dda82dd374f45ab1a71d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/91b729d844246a51ed5bd19ff352b4c89f5235a83aa687cf275ae7d5d82d9963.ogg",
+        "b": "speech/ca65f51557c5b6c84d1c26beff6d9fdfb8178766bf38579a712362ce6d720dc4.ogg",
+        "c": "speech/c7121b7756c48dd558e0344fff2b187828d2de6beb6ee97045889b7814172447.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6f8e92437c087aa7d1cfddcd9525a5e2642b50366f2be22b4401e6b710f0bece.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/665b06e71aa1820e9508047ddc56347e87575e32c55f580f2a05f4825c30710e.ogg"
     },
     {
       "activityId": "sci-g2-u02-l3-q06-en",
@@ -5304,7 +6592,15 @@
         "b": "Disturbing a nest is unsafe",
         "c": "Observing from a safe distance is safer"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l3-q06-en.png",
+      "promptAudioAssetPath": "speech/5982bb872c05653e245fc836b3e99951401f421dcf0e73e179c4595563622744.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/07112a8b8a2286c37093c8efbe9feeebf1f9c65b1418d7e9d15bb64546e1a2bd.ogg",
+        "b": "speech/08a88adfbc3573d4bfd7d1a56e7cb87eed7878951517c07b465ca4a4aedc59f7.ogg",
+        "c": "speech/598a7a51b8124156d372307f7f4d1439d77e4ac608233a601f86f109cf4bad9f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/af61b5c4d1a7c1642f5aa35ac3df3262324dc318f5ba2d52281f4f38322eb732.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/92e164884cea26c90ad5aadd1aebf8eaf01c5b7142fd4f24d5c55214e27b0e12.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q01-en",
@@ -5340,7 +6636,15 @@
         "b": "Food alone is not a life cycle",
         "c": "A life cycle shows stages of growth and change"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q01-en.png",
+      "promptAudioAssetPath": "speech/0b9ef812f65a0c78578577edeafb0c212aa40ba26e4bd0cad24af41c287722b2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/29b1964db7cb6d4b261806d6cac9883c048cdee11945886cac742a26124ac9ea.ogg",
+        "b": "speech/7483706e651523b4f6462252ffbc46bc1c2c286fca57ea37a4246dd9899f7672.ogg",
+        "c": "speech/72467ddf491f397e763fa27a8963721030fc5fad590efd045853e99a8bd51b9e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1f1d955b83cdb6bc35195babad7b47d6ba9ad4c56be10001acb448ef4b41b4c5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/47c6a7dcbf6e9d1e8f1e4d45b294d56b4da132eef883d5206265662f14ffd2c1.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q02-en",
@@ -5376,7 +6680,15 @@
         "b": "A tadpole belongs to a frog life cycle",
         "c": "A chick belongs to a chicken life cycle"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q02-en.png",
+      "promptAudioAssetPath": "speech/f0f57b0b2fdf08727742b476d78e49ee807548bc3dfdd03db8a864e6c9aa5dda.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/0bfbf0d6fe0f943bf556227b7b82cb8e3ff29008a23b6794993253c8b8d8d798.ogg",
+        "b": "speech/752ab2b44194db4b89f1ae987eed45ed1478f0c7384e2b41d3ff16d519e5b9ad.ogg",
+        "c": "speech/6d937659d62c5e18bf9ddddfe1519f7ee688a94484a2982c4d9ddf886cfe63e4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0b756d05bbced84620638ff0eef7785e6e8b4205b109d6f0d168194ec3383790.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e9b543255de1a663b75aafaa08301bf800c7ffd71e9b7d1a663d0ddfecd5f030.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q03-en",
@@ -5412,7 +6724,15 @@
         "b": "This is the familiar frog life-cycle order",
         "c": "A chick belongs to a chicken life cycle"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q03-en.png",
+      "promptAudioAssetPath": "speech/86595593ce9b77b4f8ceef0e8892da596d44db93d88fc59ca8925ff9e8512cfe.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/02834f057681edec0bb5a674ae0d5d48113890ffa112ef6a6c031d1321e7d363.ogg",
+        "b": "speech/c8b18099d3751093023028c3f6900b890298deb31ca56b6a0a720e229cbf92cb.ogg",
+        "c": "speech/6582a8752f72bdb6654bbe571318d34886808de9734705313ba50b6da0dc0c25.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/04ec472e1831896eadf01db2febd23c5db27e63821add220bab4d2f89b3d7429.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a35eecef717a36d3c7cf4cf91ad9e1dbcfac3dabf100ec95b5f1d4662fe52d1b.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q04-en",
@@ -5448,7 +6768,15 @@
         "b": "A caterpillar is a butterfly stage",
         "c": "A chick hatches from a chicken egg"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q04-en.png",
+      "promptAudioAssetPath": "speech/12c731a6e7d57376d8d9303e2c9c62faead1d66479b328bd469317d02c770b87.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c28ab53b341c119f22a85b5b9c453eff7fabe79aa5ba5a1d2cd1f1bda9a3cdfc.ogg",
+        "b": "speech/e3f3ecdf0d9bc410dcf03b25ec8f7dce14cc105e023d3ccf29d2fe3798cf3c86.ogg",
+        "c": "speech/82e601777004468ce57f86f049ddc7e4f876e9b633771c485712ad9dba4edcee.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/10ab97f749705bfd0b2d1e51b94cd66a5d560652982f2d6bc8ad075990fd37ef.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/40a27a6323598788ed5b688dda9e023e50ee300f05bd2004988ee5d5b020ca93.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q05-en",
@@ -5484,7 +6812,15 @@
         "b": "Tadpoles are frog stages",
         "c": "A chicken does not change into a butterfly"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q05-en.png",
+      "promptAudioAssetPath": "speech/3f1207eadcacc21f58484db2bfa63c73e8ce826edd5e16960b7c122fbe36121b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5975d8f7682c42f711c30655dde8f6db38be76049f3c676d1187aec3ba02c52b.ogg",
+        "b": "speech/3b4d0d517ace3d92e72d6ec37a139c45d7709f9f5d094bba44d611bdd6a342b9.ogg",
+        "c": "speech/a14a145f2f186c1a0e584029bb53ea2d4fb105a37fcd686fe0b00714e555c9ec.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3b6fc16d3a7a1eef8b0d8ea6f7375235f39c8fe9238f07ebcb64aa99c0454f5e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b46d09780c58ac91b3c9b5621dd45d31b0493657314a4e36c5a64e3b2f15756d.ogg"
     },
     {
       "activityId": "sci-g2-u02-l4-q06-en",
@@ -5520,7 +6856,15 @@
         "b": "Ordering shows the sequence of stages",
         "c": "Strength is not the purpose of a life-cycle sequence"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l4-q06-en.png",
+      "promptAudioAssetPath": "speech/dbf6e74ad881ab003c39d7ca73f81b13e23d93c4517acb8cdc273b32ba779e36.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1b6cd92974de13c9cb4d76e8713c6fbefd5f3ce4359373a79da28e09921af34a.ogg",
+        "b": "speech/2a953f75505a424c934e8a34f8c711deb299c49927fca0180838eaf23636c71f.ogg",
+        "c": "speech/1c0ae5c25fa083f8eea17e67e126cecbfc5c09e8e30ae44c1d58254e759cbb5c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3222fe2f08d4ed6a788dfb63df7eb3f783168dac420763a9df39e750fd5332dd.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6145114ec85cd662196189d88d3a529df8c133883102faa94ac69938c312b0f7.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q01-en",
@@ -5556,7 +6900,15 @@
         "b": "A plant is not a predator",
         "c": "A predator feeds; it does not never eat"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q01-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q01-en.png",
+      "promptAudioAssetPath": "speech/bc7fe9facd5e788ad728d8a7423b7e15c6811336b1dd6b9bc704affc391ab314.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/034c553f6383eb90f28b5a38671970b7c608315f6c3e0421bf6a9d26e1ece96e.ogg",
+        "b": "speech/89ac65828073afe52e56935a6614b06dfed6d61be77292555f77c07b184f2505.ogg",
+        "c": "speech/7ec1165d4c89bcbcc3b8aaa9b0730e8ba1734c618e97345a41c43dea70147ee2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/839fdb8a7424d520415a43e88faf8f0d7c813d6801373fb405207dc33640681a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dc08284583d204b0edf8a2a31bbf0dfb9377bbd00932c043fe50d41623377f45.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q02-en",
@@ -5592,7 +6944,15 @@
         "b": "The rabbit is being hunted, so it is prey",
         "c": "Neither animal is a plant"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q02-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q02-en.png",
+      "promptAudioAssetPath": "speech/03e24aef1d1ae8dc42c2f4ac23b555cc294f1630c5d86407df6d23b16e9c41ec.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8e362956406a424927693a8729e56c8ef1d53304cde13e6085d03e19b2ccd8c3.ogg",
+        "b": "speech/0ecd5452582f2702ce71f92983d1e5d59aa94385965b731a0d5d0657ad889561.ogg",
+        "c": "speech/d6972db51de40f1c3aa620275ea9f0d593c6575e52901fee230567c444ff17cd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/30b47d153f3fec91adda29d586617a520fbd19c5b981ebb1f142c5a4c58b265e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/39b71a7d308ae3ef4476baf1bee9e96bfd1336721bcec41c41836d400c652a4c.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q03-en",
@@ -5628,7 +6988,15 @@
         "b": "Camouflage does not add legs",
         "c": "Matching the surroundings can make it harder to see"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q03-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q03-en.png",
+      "promptAudioAssetPath": "speech/e2d8e0131c26471b2ba7b7403a2e2d4bc4baeb6355baf767dbe849f7034a8688.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/125b91a3f658f993c72b03cc700d3e4f777dd370e66906481ab3c99ba000506b.ogg",
+        "b": "speech/ac9809b65f7b1f09dcf17346eb26d1e4ffdf2bbd31734634aa8b5cb59fceb9d2.ogg",
+        "c": "speech/a88f9db85887dd1d569685198cd9da2fe86f6c53b494ed80a0d5997b36cb2010.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/49a7261480b212823173a81745d40b47ee2f18985bad974ad5e167aa212440f3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/85f3ee0784ed4246f2e7b6840b18c8c4ddf6777958a31a26035d8d468252c878.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q04-en",
@@ -5664,7 +7032,15 @@
         "b": "Matching surroundings can reduce visibility",
         "c": "Colour can affect how visible an animal is"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q04-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q04-en.png",
+      "promptAudioAssetPath": "speech/cb0ccb92ee3124c1246cf895fc50b400e4eabf930935c8b22cdc8218aafa6056.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/096ec90ccc67dfe004d254506d9d18571ad24e7c075421f534f3f7f75b891189.ogg",
+        "b": "speech/77104c91be3a9698005e630c3ab8ebfb8a7f3f4a2a7850ac09a5c75bfe7a6990.ogg",
+        "c": "speech/02c422ea1a320bee47f3a50487d6d60275328ff80a1bdccb8c902a22e66d12c7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9ba61647366a42bf7b12e32d0cbcdd3a599d9b982dc8746b186295a52d925757.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/c7fd3e25f5fa8d666d00df8ae7c829078660b8facc8ae928c0d0ac05f1c75fd5.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q05-en",
@@ -5700,7 +7076,15 @@
         "b": "Webbed feet do not replace wings",
         "c": "Webbed feet are not food stores"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q05-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q05-en.png",
+      "promptAudioAssetPath": "speech/50665447dbf62fe9983a803fb3c8ee1377ac9a6cff912d5ae8d72c9914d2af25.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/920e20126af0e501678ac9ee9ca751716a125315b220cfa7052353be4b1f0244.ogg",
+        "b": "speech/9a4f461f3b0577438ad554b12c65eb3fb8da94de72a1a7ab572192e95e8836b8.ogg",
+        "c": "speech/6a7d5600a9cde6b29ac90acfd8dc057ab876a8380782cf7e262827e7511d9de9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8dbdb4ff1321b4458f0e44cd31daa4cfb618fec223c9b5b95e7f26d7558c02e6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7aea35974b02ecad9067695aec00465e797bb3bef8a2aebeced81b7936b8b555.ogg"
     },
     {
       "activityId": "sci-g2-u02-l5-q06-en",
@@ -5736,7 +7120,15 @@
         "b": "The hump is not an air store",
         "c": "The hump stores fat that can be used for energy"
       },
-      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q06-en.png"
+      "promptImageAssetPath": "question-art/sci-g2-u02-l5-q06-en.png",
+      "promptAudioAssetPath": "speech/91b6c919ce8659910621f8d810079ae5fada4aadb253eac2ddeec6e4e944e14a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/98477bfd893a8edb3b3424cf17f422fe2cdb3f0764b9657f2e9b7e1111417613.ogg",
+        "b": "speech/af69546cb0de999b2286a9328d9395998bc970f8278503a89417aee61855acce.ogg",
+        "c": "speech/bb75d84bbf4d9d358985733eef88100aa5dcb31156e079a59f8d09d0a7c38a11.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/bcaefa6ef980bd727579bda7ca0f502fe8e872233fc135201d2dbab2f966721f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/06b6fecfa7865c543f261fac6a059ec74863c678a19ff9fda61006adcf9b2933.ogg"
     }
   ],
   "books": [

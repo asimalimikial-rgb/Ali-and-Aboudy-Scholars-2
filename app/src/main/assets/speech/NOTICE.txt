@@ -1,0 +1,6 @@
+Offline pre-generated English educational speech for Ali & Aboudy Scholars 2.
+Generated with Supertonic 3 via sherpa-onnx 2.0.1 in GitHub Actions only.
+The TTS runtime and model weights are not included in the Android application.
+English words and sentences use speed 0.70.
+Model license: BigScience Open RAIL-M; use-based restrictions apply.
+Preserve this notice and disclose that the voice is machine-generated.
