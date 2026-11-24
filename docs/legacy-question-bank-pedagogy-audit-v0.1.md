@@ -60,9 +60,11 @@ They should remain open-response activities. The first review patch adds observa
 
 ## 5. Review patch batch 01
 
-File: `content/staging/legacy-question-bank-review-batch-01.json`
+Files:
+- `content/staging/legacy-question-bank-review-queue-v0.1.json` — all 616 legacy IDs, grouped into 25 batches of up to 25 items, with book/unit context and seven unchecked review gates per item.
+- `content/staging/legacy-question-bank-review-batch-01.json` — the first revision patch.
 
-This batch contains seven reviewed changes covering 12 records:
+The first patch contains seven revised item records covering 12 records:
 
 - Five duplicate pairs: revise the second item in each pair with a distinct but same-skill prompt.
 - Two drawing activities: add open-response rubrics and remove the expectation of a single keyed answer.
@@ -87,7 +89,7 @@ Every legacy item must pass the following before entering a production pack:
 
 ## 7. Current status
 
-**Completed:** source bank inspected; 616 legacy records counted; structural MC gate run; duplicate groups and current-pack overlap identified; two open-response items identified; first revision patch committed.
+**Completed:** source bank inspected; 616 legacy records counted; structural MC gate run; duplicate groups and current-pack overlap identified; two open-response items identified; a 616-item review queue and the first revision patch committed.
 
 **Still open:** item-level domain and pedagogy review of all 616; difficulty calibration; final seven-book mapping; review of distractor quality and reading load; support for the 120 custom interaction records; generation of new audio after approved text changes; integration into production packs and regression tests.
 
