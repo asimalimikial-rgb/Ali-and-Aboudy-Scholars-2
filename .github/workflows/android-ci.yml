@@ -53,6 +53,28 @@ jobs:
       - name: Compile debug app and instrumentation APKs
         run: gradle :app:assembleDebug :app:assembleDebugAndroidTest
 
+      # Publish a private, installable debug APK artifact before emulator tests.
+      # This lets the user test the current app even if a later device test fails.
+      - name: Calculate debug APK SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK=app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          sha256sum "$APK" | tee app-debug.sha256
+          echo "Debug APK: $APK" >> "$GITHUB_STEP_SUMMARY"
+          echo "SHA-256: $(sha256sum "$APK" | awk '{print $1}')" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload installable debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ali-Aboudy-Scholars-2-debug-${{ github.run_number }}-${{ github.sha }}
+          path: |
+            app/build/outputs/apk/debug/app-debug.apk
+            app-debug.sha256
+          if-no-files-found: error
+          retention-days: 30
+
       - name: Verify checked-in Room schema exports
         run: |
           schema_dir=app/schemas/com.asimalimikial.aas2.data.AppDatabase
