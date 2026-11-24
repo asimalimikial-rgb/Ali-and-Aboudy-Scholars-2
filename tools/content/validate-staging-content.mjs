@@ -396,8 +396,8 @@ for (const item of listeningLeakPatch.items) {
   assert.ok(["letter", "word", "number"].includes(item.targetKind));
   assert.equal(item.answer, item.audioStimulus);
   assert.ok(item.options.includes(item.answer));
-  const escapedTarget = String(item.audioStimulus).replace(/[.*+?^\${}()|[\]\\]/g, "\\console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");");
-  assert.ok(!new RegExp("(^|[^a-z0-9])" + escapedTarget + "([^a-z0-9]|$)", "i").test(item.proposedPrompt));
+  const promptTokens = item.proposedPrompt.toLowerCase().split(/[^a-z0-9]+/);
+  assert.ok(!promptTokens.includes(String(item.audioStimulus).toLowerCase()));
   assert.equal(item.rendererSupportRequired, "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT");
   assert.equal(item.reviewStatus, "REVISED_PENDING_AUDIO_AND_RENDERER_QA");
   assert.equal(item.productionApproved, false);
