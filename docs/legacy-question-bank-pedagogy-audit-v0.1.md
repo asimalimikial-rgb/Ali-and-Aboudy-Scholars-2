@@ -12,15 +12,21 @@
 | Legacy records | 616 |
 | Ali — KG2 | 301 |
 | Aboudy — Grade 2 | 315 |
-| Objective items with answer options | 496 |
-| Other interaction records | 120 |
+| Items with 3–4 answer options and one keyed answer | 496 |
+| Strict single-choice types (`mc_text`, `mc_picture`) | 468 |
+| Specialized option-bearing interactions | 28 |
+| No-option custom interactions | 120 |
 | Records with blank prompt | 0 |
 | Records missing a skill, book ID, or unit ID | 0 |
 | Records marked with a calibrated difficulty | 0 |
 
-The 496 objective candidates all passed this first structural gate: each has 3–4 distinct options and the keyed answer occurs exactly once. This is a structural result only; it does not establish that the prompt, distractors, answer key, difficulty or curriculum placement is pedagogically correct.
+The 496 option-bearing items passed this first structural gate: each has 3–4 distinct options and the keyed answer occurs exactly once. They are not all single-choice questions.
 
-The 120 remaining records include counting, spelling, tracing/drawing, true/false, sentence building, matching, number line, comparison, comprehension, word problems, place value, clock, money and graph activities. They must retain their intended interaction type. They are not to be converted mechanically into single-choice questions.
+- 468 records are strict single-choice candidates (`mc_text` and `mc_picture`).
+- 28 records have options but retain specialized types: phonics (1), fill-gap (3), number-line (3), comprehension (10), word problem (9), place value (1), and graph (1). These require their own interaction semantics and must not be relabelled as generic single-choice without review.
+- 120 records have no answer options and require custom interactions: count (22), spelling (11), tracing (4), true/false (60), sentence building (13), matching (6), comparison (2), clock (1), and money (1).
+
+The structural check does not establish that prompts, distractors, answer keys, difficulty or curriculum placement are pedagogically correct. The current Android renderer is single-choice; the 28 specialized and 120 custom items need the appropriate renderer before runtime integration.
 
 ## 2. Duplication review
 
