@@ -96,6 +96,7 @@ data class ActivityDefinition(
     val hintSequence: List<String> = emptyList(),
     /** Short, sequential English teaching steps; empty for activities without authored help. */
     val helpSteps: List<String> = emptyList(),
+    /** Optional visual aids must be bundled locally and match the English support text. */
     val hintImageAssetPath: String? = null,
     val helpImageAssetPath: String? = null
 )
