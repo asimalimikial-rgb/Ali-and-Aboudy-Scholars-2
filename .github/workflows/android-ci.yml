@@ -17,6 +17,7 @@ on:
   pull_request:
     branches:
       - main
+      - "foundation/**"
     paths:
       - "app/**"
       - "build.gradle.kts"
