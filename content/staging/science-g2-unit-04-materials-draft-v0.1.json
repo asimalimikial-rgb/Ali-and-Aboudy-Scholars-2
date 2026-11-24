@@ -88,12 +88,12 @@
       "prompt": "Which familiar object is most likely to float on water?",
       "options": [
         {
-          "optionId": "a",
-          "text": "A dry leaf"
-        },
-        {
           "optionId": "b",
           "text": "A metal coin"
+        },
+        {
+          "optionId": "a",
+          "text": "A dry leaf"
         },
         {
           "optionId": "c",
@@ -138,16 +138,16 @@
       "prompt": "What would a wooden block usually do when gently placed on water?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Float"
-        },
-        {
           "optionId": "b",
           "text": "Dissolve"
         },
         {
           "optionId": "c",
           "text": "Turn into a liquid"
+        },
+        {
+          "optionId": "a",
+          "text": "Float"
         }
       ],
       "correctOptionId": "a",
@@ -188,12 +188,12 @@
       "prompt": "Which object is most likely to sink?",
       "options": [
         {
-          "optionId": "a",
-          "text": "A cork"
-        },
-        {
           "optionId": "b",
           "text": "A metal spoon"
+        },
+        {
+          "optionId": "a",
+          "text": "A cork"
         },
         {
           "optionId": "c",
@@ -238,16 +238,16 @@
       "prompt": "How can you find out whether a safe classroom object floats?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Place it gently in water and observe"
-        },
-        {
           "optionId": "b",
           "text": "Guess from its colour"
         },
         {
           "optionId": "c",
           "text": "Taste the object"
+        },
+        {
+          "optionId": "a",
+          "text": "Place it gently in water and observe"
         }
       ],
       "correctOptionId": "a",
@@ -288,12 +288,12 @@
       "prompt": "A wide toy boat floats. What helps it stay on the water?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Its shape helps it push water aside"
-        },
-        {
           "optionId": "b",
           "text": "It has no weight"
+        },
+        {
+          "optionId": "a",
+          "text": "Its shape helps it push water aside"
         },
         {
           "optionId": "c",
@@ -388,16 +388,16 @@
       "prompt": "You pour the same water into a tall jar without spilling. What changes?",
       "options": [
         {
-          "optionId": "a",
-          "text": "The shape of the water"
-        },
-        {
           "optionId": "b",
           "text": "The amount of water"
         },
         {
           "optionId": "c",
           "text": "The water becomes solid"
+        },
+        {
+          "optionId": "a",
+          "text": "The shape of the water"
         }
       ],
       "correctOptionId": "a",
@@ -438,12 +438,12 @@
       "prompt": "Which one is a liquid?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Milk"
-        },
-        {
           "optionId": "b",
           "text": "A pencil"
+        },
+        {
+          "optionId": "a",
+          "text": "Milk"
         },
         {
           "optionId": "c",
@@ -538,16 +538,16 @@
       "prompt": "What does the capacity of a cup tell you?",
       "options": [
         {
-          "optionId": "a",
-          "text": "How much it can hold"
-        },
-        {
           "optionId": "b",
           "text": "Its colour"
         },
         {
           "optionId": "c",
           "text": "How loud it is"
+        },
+        {
+          "optionId": "a",
+          "text": "How much it can hold"
         }
       ],
       "correctOptionId": "a",
@@ -588,12 +588,12 @@
       "prompt": "What happens when salt is stirred into water?",
       "options": [
         {
-          "optionId": "a",
-          "text": "It dissolves and spreads through the water"
-        },
-        {
           "optionId": "b",
           "text": "It turns into a stone"
+        },
+        {
+          "optionId": "a",
+          "text": "It dissolves and spreads through the water"
         },
         {
           "optionId": "c",
@@ -688,12 +688,12 @@
       "prompt": "When sugar dissolves, is the sugar still in the water?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Yes, it is spread through the water"
-        },
-        {
           "optionId": "b",
           "text": "No, it is destroyed"
+        },
+        {
+          "optionId": "a",
+          "text": "Yes, it is spread through the water"
         },
         {
           "optionId": "c",
@@ -738,16 +738,16 @@
       "prompt": "What usually happens when cooking oil and water are poured together?",
       "options": [
         {
-          "optionId": "a",
-          "text": "They form separate layers"
-        },
-        {
           "optionId": "b",
           "text": "The oil dissolves completely"
         },
         {
           "optionId": "c",
           "text": "They become a solid"
+        },
+        {
+          "optionId": "a",
+          "text": "They form separate layers"
         }
       ],
       "correctOptionId": "a",
@@ -838,12 +838,12 @@
       "prompt": "Which is a natural source of heat and light?",
       "options": [
         {
-          "optionId": "a",
-          "text": "The Sun"
-        },
-        {
           "optionId": "b",
           "text": "A wooden chair"
+        },
+        {
+          "optionId": "a",
+          "text": "The Sun"
         },
         {
           "optionId": "c",
@@ -888,16 +888,16 @@
       "prompt": "A cooking pot is on a hot stove. What should a child do?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Stay away and tell an adult"
-        },
-        {
           "optionId": "b",
           "text": "Touch the pot to test it"
         },
         {
           "optionId": "c",
           "text": "Move the pot alone"
+        },
+        {
+          "optionId": "a",
+          "text": "Stay away and tell an adult"
         }
       ],
       "correctOptionId": "a",
@@ -988,12 +988,12 @@
       "prompt": "You see smoke coming from a room. What is safest?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Move away and alert a trusted adult"
-        },
-        {
           "optionId": "b",
           "text": "Go inside to investigate"
+        },
+        {
+          "optionId": "a",
+          "text": "Move away and alert a trusted adult"
         },
         {
           "optionId": "c",
