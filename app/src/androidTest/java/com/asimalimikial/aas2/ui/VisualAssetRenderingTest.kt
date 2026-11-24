@@ -12,6 +12,7 @@ import org.junit.Assert.assertEquals
 import android.graphics.BitmapFactory
 import org.junit.Test
 import org.junit.runner.RunWith
+import kotlinx.serialization.decodeFromString
 
 @RunWith(AndroidJUnit4::class)
 class VisualAssetRenderingTest {
