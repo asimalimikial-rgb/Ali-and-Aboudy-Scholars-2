@@ -465,6 +465,15 @@ assert.equal(legacyArabicPatch.summary.productionApproved, 0);
 assert.equal(new Set(legacyArabicPatch.items.map(item => item.questionId)).size, 12);
 assert.ok(legacyArabicPatch.items.every(item => item.field === "legacyData.explanationAr" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
 
+const legacyHelperPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-helper-alignment-batch-06-07-v0.1.json"), "utf8"));
+assert.equal(legacyHelperPatch.items.length, 30);
+assert.equal(legacyHelperPatch.summary.arabicHelperCorrections, 30);
+assert.equal(legacyHelperPatch.summary.productionApproved, 0);
+assert.equal(legacyHelperPatch.summary.runtimeIntegrated, 0);
+assert.equal(legacyHelperPatch.summary.currentChildRuntimeExposure, false);
+assert.equal(new Set(legacyHelperPatch.items.map(item => item.questionId)).size, 30);
+assert.ok(legacyHelperPatch.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
+
 
 const scienceEnrichment = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-enrichment-x01-mapping-v0.1.json"), "utf8"));
 assert.equal(scienceEnrichment.items.length, 25);
