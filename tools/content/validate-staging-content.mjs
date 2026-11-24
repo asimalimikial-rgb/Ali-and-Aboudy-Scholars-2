@@ -413,5 +413,5 @@ assert.equal(legacyQualityPatch.summary.productionApproved, 0);
 assert.equal(new Set(legacyQualityPatch.items.map(item => item.questionId)).size, 12);
 assert.ok(legacyQualityPatch.items.every(item => item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 24 pending legacy correction proposals (12 initial + 12 second-pass), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 24 pending legacy correction proposals (12 initial + 12 second-pass), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references.");
 
