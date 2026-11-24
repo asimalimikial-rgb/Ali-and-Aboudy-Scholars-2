@@ -32,6 +32,9 @@ assert.equal(science.integratedUnits.reduce((sum, unit) => sum + unit.activities
 assert.equal(science.integratedUnits.reduce((sum, unit) => sum + unit.lessons, 0), 9);
 assert.equal(catalog.integrationState.completeSevenBookCoverage, "NOT_COMPLETE",
   "The catalog must not claim complete seven-book coverage.");
+const englishWorld = catalog.books.find(book => book.bookId === "english-world-level-2");
+assert.equal(englishWorld.officialScopeSequence.length, 12,
+  "English World Level 2 must retain the verified 12-unit scope sequence.");
 
 assert.equal(patch.source.reviewedLegacyCount, 616);
 const patches = patch.patches;
@@ -154,6 +157,12 @@ for (const pack of packs) {
 }
 assert.equal(englishActivityCount, 282);
 assert.equal(seenActivityIds.size, 282);
+const readingActivities = packs[1].activities.filter(activity => activity.skillId === "aas2-aboudy-reading-comprehension");
+assert.ok(readingActivities.every(activity => activity.prompt.trim().length >= 75),
+  "Reading-comprehension prompts must include a self-contained stimulus, not only a question.");
+const mainIdea = readingActivities.find(activity => activity.activityId === "new-aboudy-english-019");
+assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.includes("What is the main idea of the story?"),
+  "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog, 616-item review queue (468 single-choice, 28 specialized option interactions, 120 custom), legacy review patch, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog and English World 12-unit scope, 616-item review queue (468 single-choice, 28 specialized option interactions, 120 custom), reading-stimulus checks, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
