@@ -21,7 +21,7 @@ jobs:
   verify-and-test:
     name: Source validation, unit tests and debug compile (no release)
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,7 +64,23 @@ jobs:
           done
           echo "Room schema v1 and v2 exports match the checked-in schemas."
 
-      # APK assembly, APK upload, and emulator instrumentation are intentionally
-      # disabled during the source-development phase. Instrumentation tests
-      # build/install test APKs and will be re-enabled only after explicit
-      # approval to enter device/emulator validation.
+      - name: Enable KVM for Android emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Run Android instrumentation tests on API 35 emulator
+        uses: ReactiveCircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_7_pro
+          emulator-boot-timeout: 600
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          script: gradle :app:connectedDebugAndroidTest
+
+      # Instrumentation now runs on an API 35 emulator. Physical-device
+      # acceptance on the family's Android handset remains a separate QA gate.
