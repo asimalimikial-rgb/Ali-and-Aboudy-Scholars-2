@@ -8,11 +8,32 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.caverock.androidsvg.SVG
 import org.junit.Assert.assertTrue
+import org.junit.Assert.assertEquals
+import android.graphics.BitmapFactory
 import org.junit.Test
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class VisualAssetRenderingTest {
+    @Test
+    fun allSevenPersonalBookCoversDecodeFromOfflineAssets() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val json = context.assets.open("book-covers/manifest.json").bufferedReader().use { it.readText() }
+        val manifest = kotlinx.serialization.json.Json { ignoreUnknownKeys = true }
+            .decodeFromString<CoverManifestForTest>(json)
+        assertEquals(7, manifest.covers.size)
+        manifest.covers.forEach { cover ->
+            val bitmap = context.assets.open(cover.assetPath).use { BitmapFactory.decodeStream(it) }
+            assertTrue("Cover should decode: ${cover.assetPath}", bitmap != null && bitmap.width >= 400 && bitmap.height >= 400)
+        }
+    }
+
+    @kotlinx.serialization.Serializable
+    data class CoverManifestForTest(val covers: List<CoverForTest>)
+
+    @kotlinx.serialization.Serializable
+    data class CoverForTest(val assetPath: String)
+
     @Test
     fun generatedQuestionAndOptionSvgsRenderFromOfflineAssets() {
         val context = ApplicationProvider.getApplicationContext<Context>()

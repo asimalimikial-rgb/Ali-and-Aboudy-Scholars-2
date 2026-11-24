@@ -166,6 +166,10 @@ fun LearningExperienceScreen(
             )
         }
 
+        if (!isLoading && !loadError && loadedPack != null && selectedDomain == null && selectedBookId == null && selectedUnitId == null && selectedLessonId == null && selectedActivityId == null) {
+            PersonalBookShelf(learnerPathway = learnerPathway)
+        }
+
         when {
             isLoading -> {
                 Text(stringResource(R.string.loading_content_pack), style = MaterialTheme.typography.bodyLarge)
