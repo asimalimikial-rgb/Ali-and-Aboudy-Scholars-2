@@ -86,7 +86,7 @@
         "unit-level sequence",
         "review of the reading item that requires an original passage"
       ],
-      "nextAction": "Review the 35 existing English activities against the 12-unit scope; map only exact matches and retain unrelated skills as supplementary or revise them.",
+      "nextAction": "Complete pedagogy review for the 15 candidate activities; map approved items to unit/lesson IDs in the Android pack, and retain 20 broader items as supplementary or revise them against a unit outcome.",
       "scopeSource": {
         "productPage": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples",
         "scopeAndSequence": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
@@ -100,7 +100,9 @@
             "action verbs",
             "present continuous",
             "a_e magic-e",
-            "sequencing"
+            "sequencing",
+            "capital letters for days of the week",
+            "noun + plural -es"
           ]
         },
         {
@@ -175,6 +177,8 @@
             "animals",
             "was/were",
             "ld/lk/lp/lt endings",
+            "conjunction but",
+            "half past eight",
             "conjunction but"
           ]
         },
@@ -207,7 +211,8 @@
             "regular past verbs",
             "first/next/then",
             "ai sound",
-            "diary writing"
+            "diary writing",
+            "adverb too"
           ]
         },
         {
@@ -218,11 +223,12 @@
             "movement prepositions",
             "past tense",
             "ea sound",
+            "comma in a list",
             "comma in a list"
           ]
         }
       ],
-      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; ACTIVITY_MAPPING_PENDING"
+      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; 15 CANDIDATE ALIGNMENTS; 20 SUPPLEMENTARY; RUNTIME_MAPPING_PENDING"
     },
     {
       "sequence": 4,

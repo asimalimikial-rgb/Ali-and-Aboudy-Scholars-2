@@ -31,7 +31,7 @@ Initial alignment observations:
 
 - Direct candidates include action verbs (Unit 1), contractions (Unit 6), past-tense verbs (Units 8/11/12), and commas in lists (Unit 12).
 - Several existing items test broader grammar or vocabulary not explicitly listed in this Level 2 sequence. Keep them as supplementary only if the AAS2 learning outcome justifies them; do not assign a textbook unit merely to fill a field.
-- The current main-idea activity `new-aboudy-english-019` had no story stimulus. Its prompt was revised to include a short, self-contained original story; the offline audio and illustration workflows regenerated the corresponding assets and updated the pack references.
+- The main-idea activity `new-aboudy-english-019` now includes a short, self-contained original story. Three additional items were revised to align with the verified scope: day-name capitalization (Unit 1), a_e phonics (Unit 1), and the contrast conjunction but (Unit 8). The offline audio and illustration workflows regenerated the affected assets and updated the pack references.
 - The remaining reading items embed their short stimulus in the prompt. Their reading skill, inference demand, and vocabulary load still need item-level review.
 
 ## Next mapping gate

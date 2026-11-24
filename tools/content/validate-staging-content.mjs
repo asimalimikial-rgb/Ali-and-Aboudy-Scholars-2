@@ -84,18 +84,30 @@ assert.ok(reviewQueue.records.every(item => Object.values(item.reviewChecks).eve
   "Review checks must start unchecked; do not pre-approve legacy content.");
 
 assert.equal(englishWorldQueue.bookId, "english-world-level-2");
-assert.equal(englishWorldQueue.packVersion, "0.4.2");
+assert.equal(englishWorldQueue.packVersion, "0.4.4");
 assert.equal(englishWorldQueue.summary.total, 35);
 assert.equal(englishWorldQueue.summary.grammarAndWordStudy, 29);
 assert.equal(englishWorldQueue.summary.readingComprehension, 6);
-assert.equal(englishWorldQueue.summary.candidateAlignment, 12);
-assert.equal(englishWorldQueue.summary.rewriteRequired, 3);
+assert.equal(englishWorldQueue.summary.candidateAlignment, 15);
+assert.equal(englishWorldQueue.summary.rewriteRequired, 0);
 assert.equal(englishWorldQueue.summary.supplementaryReview, 20);
 assert.equal(englishWorldQueue.summary.runtimeMapped, 0);
 assert.equal(englishWorldQueue.records.length, 35);
 assert.equal(new Set(englishWorldQueue.records.map(item => item.activityId)).size, 35);
-assert.ok(englishWorldQueue.records.every(item => item.reviewStatus === "PENDING_PEDAGOGY_REVIEW" && item.runtimeUnitId === null),
-  "English World candidates must remain pending until unit mapping is reviewed.");
+assert.ok(englishWorldQueue.records.every(item =>
+  ["PENDING_PEDAGOGY_REVIEW", "REVISED_PENDING_PEDAGOGY_QA"].includes(item.reviewStatus) && item.runtimeUnitId === null
+), "English World candidates must remain pending until unit mapping is reviewed.");
+const grade2Pack = packs[1];
+assert.equal(grade2Pack.version, "0.4.4");
+const capitalizationItem = grade2Pack.activities.find(item => item.activityId === "new-aboudy-english-001");
+assert.equal(capitalizationItem.correctOptionId, "b");
+assert.equal(capitalizationItem.options.find(option => option.optionId === "b").text, "I visit Grandma on Monday.");
+const longAItem = grade2Pack.activities.find(item => item.activityId === "new-aboudy-english-020");
+assert.equal(longAItem.correctOptionId, "b");
+assert.equal(longAItem.options.find(option => option.optionId === "b").text, "cake");
+const conjunctionItem = grade2Pack.activities.find(item => item.activityId === "new-aboudy-english-023");
+assert.equal(conjunctionItem.correctOptionId, "b");
+assert.equal(conjunctionItem.options.find(option => option.optionId === "b").text, "but");
 
 // Verify all generated media against manifests and the actual checked-in files.
 const audio = JSON.parse(fs.readFileSync(path.join(assetRoot, "speech/manifest.json"), "utf8"));
@@ -140,8 +152,8 @@ for (const file of questionArt.files) {
   assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid question-art metadata: " + file.path);
 }
 
-assert.equal(optionArt.count, 374);
-assert.equal(optionArt.files.length, 374);
+assert.equal(optionArt.count, 373);
+assert.equal(optionArt.files.length, 373);
 assert.ok(unique(optionArt.files.map(file => file.path)), "Option-art paths must be unique.");
 assert.ok(unique(optionArt.files.map(file => file.sha256)), "Option-art hashes must be unique.");
 for (const file of optionArt.files) {
@@ -200,4 +212,4 @@ assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.inclu
   "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog, 12-unit English World scope and 35-item mapping queue, 616-item legacy review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog, 12-unit English World scope and 35-item mapping queue, 616-item legacy review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 373 option illustrations, and all 282 activity-to-media references.");

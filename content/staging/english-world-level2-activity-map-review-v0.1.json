@@ -2,13 +2,13 @@
   "schemaVersion": "AAS2-ENGLISH-WORLD-L2-MAP-REVIEW-0.1",
   "bookId": "english-world-level-2",
   "sourceScope": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
-  "packVersion": "0.4.2",
+  "packVersion": "0.4.4",
   "summary": {
     "total": 35,
     "grammarAndWordStudy": 29,
     "readingComprehension": 6,
-    "candidateAlignment": 12,
-    "rewriteRequired": 3,
+    "candidateAlignment": 15,
+    "rewriteRequired": 0,
     "supplementaryReview": 20,
     "runtimeMapped": 0
   },
@@ -19,11 +19,11 @@
       "activityType": "SINGLE_CHOICE",
       "prompt": "Choose the sentence with correct capital letters.",
       "bookId": "english-world-level-2",
-      "candidateUnitNumber": 7,
-      "alignmentStatus": "REWRITE_REQUIRED",
-      "reviewStatus": "PENDING_PEDAGOGY_REVIEW",
+      "candidateUnitNumber": 1,
+      "alignmentStatus": "CANDIDATE_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_PEDAGOGY_QA",
       "runtimeUnitId": null,
-      "reviewNote": "Unit 7 covers capitalisation of months/days; current generic capital-letter item should be rewritten to that context."
+      "reviewNote": "Rewritten to assess correct capitalisation of day names and the first-person pronoun; aligns with Unit 1 capital letters for days."
     },
     {
       "activityId": "new-aboudy-english-002",
@@ -248,10 +248,10 @@
       "prompt": "Which word has the long a sound?",
       "bookId": "english-world-level-2",
       "candidateUnitNumber": 1,
-      "alignmentStatus": "REWRITE_REQUIRED",
-      "reviewStatus": "PENDING_PEDAGOGY_REVIEW",
+      "alignmentStatus": "CANDIDATE_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_PEDAGOGY_QA",
       "runtimeUnitId": null,
-      "reviewNote": "The current correct option train uses ai, while Unit 1 phonics focus is a_e magic-e; revise to a_e examples before mapping."
+      "reviewNote": "Rewritten to the Unit 1 a_e magic-e pattern; the correct example is cake."
     },
     {
       "activityId": "new-aboudy-english-021",
@@ -284,10 +284,10 @@
       "prompt": "Which word joins ideas to explain a reason?",
       "bookId": "english-world-level-2",
       "candidateUnitNumber": 8,
-      "alignmentStatus": "REWRITE_REQUIRED",
-      "reviewStatus": "PENDING_PEDAGOGY_REVIEW",
+      "alignmentStatus": "CANDIDATE_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_PEDAGOGY_QA",
       "runtimeUnitId": null,
-      "reviewNote": "Current target because is not in the listed Unit 8/10 conjunction focus; rewrite to but (Unit 8) or or (Unit 10)."
+      "reviewNote": "Rewritten to assess the contrast conjunction but, matching Unit 8."
     },
     {
       "activityId": "new-aboudy-english-024",
