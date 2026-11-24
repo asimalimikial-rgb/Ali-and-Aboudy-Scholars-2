@@ -435,5 +435,20 @@ assert.equal(legacyArabicPatch.summary.productionApproved, 0);
 assert.equal(new Set(legacyArabicPatch.items.map(item => item.questionId)).size, 12);
 assert.ok(legacyArabicPatch.items.every(item => item.field === "legacyData.explanationAr" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 36 pending legacy correction proposals (12 initial + 12 second-pass + 12 stale Arabic explanations), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references, plus seven private book covers with checksum verification.");
+
+const scienceEnrichment = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-enrichment-x01-mapping-v0.1.json"), "utf8"));
+assert.equal(scienceEnrichment.items.length, 25);
+assert.equal(scienceEnrichment.summary.missingOptionRationalesInCurrentRuntime, 25);
+assert.equal(scienceEnrichment.summary.currentlyMissingUnitLessonMapping, 25);
+assert.equal(scienceEnrichment.releaseGate.runtimeMappingApplied, false);
+assert.equal(new Set(scienceEnrichment.items.map(item => item.activityId)).size, 25);
+for (const item of scienceEnrichment.items) {
+  assert.equal(item.proposedUnitId, "SCI-G2-X01");
+  assert.ok(scienceEnrichment.lessons.some(lesson => lesson.lessonId === item.proposedLessonId));
+  assert.deepEqual(Object.keys(item.proposedOptionRationales).sort(), ["a", "b", "c"]);
+  assert.equal(item.mediaStatus.existingPromptImage, true);
+  assert.equal(item.mediaStatus.existingPromptAudio, true);
+}
+
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 36 pending legacy correction proposals (12 initial + 12 second-pass + 12 stale Arabic explanations), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, 25 unmapped Science enrichment activities staged with rationales, and all current media references, plus seven private book covers with checksum verification.");
 

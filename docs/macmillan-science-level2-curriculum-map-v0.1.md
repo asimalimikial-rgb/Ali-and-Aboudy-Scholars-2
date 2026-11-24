@@ -209,3 +209,15 @@ This section records AAS2-authored coverage, not publisher workbook completion.
 - Structural audit: answer distribution A=10, B=10, C=10; no duplicate prompts; three distinct options and one correct key per question. Each question has option rationales, misconception code, assessment phase and a unique prompt image.
 - This is original AAS2 wording aligned to the topic map, not copied Macmillan pupil-book expression. Macmillan source status remains REFERENCE_ONLY.
 - Independent subject/pedagogy review is still required. Units 3–5 remain mapped but not yet authored.
+
+
+## Science enrichment audit — 24 November 2026
+
+A second pass over the current Grade 2 runtime pack found 25 activities using the generic skill `aas2-aboudy-living-world-matter-and-earth` with no `unitId`, no `lessonId`, and no option-level rationales. Their existing prompt images and English audio references are present, but the curriculum mapping and feedback quality are incomplete.
+
+Created `content/staging/science-g2-enrichment-x01-mapping-v0.1.json`:
+- Proposes a separate supplementary unit `SCI-G2-X01` with six lessons (plants/animals, body/health, materials/temperature, forces/simple machines, Earth/light/day-night, water/environment).
+- Adds three option-level rationales and a misconception code to every item.
+- Flags the ramp-speed claim (`new-aboudy-science-015`) for revision to a safer, more precise statement about what a ramp is.
+- Labels the unit supplementary, not part of the five-unit Macmillan core sequence.
+- No runtime mapping or live content was changed. Human science/pedagogy/media QA remains required.

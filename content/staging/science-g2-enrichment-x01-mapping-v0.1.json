@@ -1,0 +1,1124 @@
+{
+  "schemaVersion": 1,
+  "draftId": "science-g2-enrichment-x01-mapping-v0.1",
+  "learnerPath": "GRADE_2",
+  "status": "PROPOSAL_PENDING_REVIEW",
+  "unit": {
+    "unitId": "SCI-G2-X01",
+    "title": "Science Enrichment and Everyday Science",
+    "isCoreMacmillanUnit": false,
+    "bookId": null
+  },
+  "sourceBoundary": "Original AAS2 supplementary questions. These are not mapped to Macmillan Science Level 2 core scope unless independently confirmed.",
+  "lessons": [
+    {
+      "lessonId": "SCI-G2-X01-L1",
+      "title": "Plants and Animal Facts",
+      "skillIds": [
+        "SCI-G2-X01-PLANT-ANIMAL"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-X01-L2",
+      "title": "Body Systems and Healthy Habits",
+      "skillIds": [
+        "SCI-G2-X01-BODY-HEALTH"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-X01-L3",
+      "title": "Materials and Temperature",
+      "skillIds": [
+        "SCI-G2-X01-MATTER"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-X01-L4",
+      "title": "Forces and Simple Machines",
+      "skillIds": [
+        "SCI-G2-X01-FORCES"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-X01-L5",
+      "title": "Earth, Light and Day/Night",
+      "skillIds": [
+        "SCI-G2-X01-EARTH-LIGHT"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-X01-L6",
+      "title": "Water and Environmental Care",
+      "skillIds": [
+        "SCI-G2-X01-ENVIRONMENT"
+      ]
+    }
+  ],
+  "activityCount": 25,
+  "summary": {
+    "mappedToEnrichment": 25,
+    "proposedRevision": 1,
+    "missingCurrentMediaReferences": 0,
+    "missingOptionRationalesInCurrentRuntime": 25,
+    "currentlyMissingUnitLessonMapping": 25
+  },
+  "items": [
+    {
+      "activityId": "new-aboudy-science-001",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about flowering plants is scientifically correct?",
+      "proposedPrompt": "Which statement about flowering plants is scientifically correct?",
+      "originalOptions": [
+        "Flowers turn directly into roots",
+        "Flowers take in all the water from soil",
+        "Flowers help many plants make seeds"
+      ],
+      "proposedOptions": [
+        "Flowers turn directly into roots",
+        "Flowers take in all the water from soil",
+        "Flowers help many plants make seeds"
+      ],
+      "originalCorrectOption": "Flowers help many plants make seeds",
+      "proposedCorrectOption": "Flowers help many plants make seeds",
+      "proposedOptionRationales": {
+        "a": "Flowers do not turn directly into roots.",
+        "b": "Flowers do not take in all the water from soil.",
+        "c": "Flowers help many flowering plants reproduce by forming seeds."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_001",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-002",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about butterfly life cycle is scientifically correct?",
+      "proposedPrompt": "Which statement about butterfly life cycle is scientifically correct?",
+      "originalOptions": [
+        "A butterfly begins life as an egg",
+        "A butterfly begins life as a seed",
+        "A butterfly begins life as a small bird"
+      ],
+      "proposedOptions": [
+        "A butterfly begins life as an egg",
+        "A butterfly begins life as a seed",
+        "A butterfly begins life as a small bird"
+      ],
+      "originalCorrectOption": "A butterfly begins life as an egg",
+      "proposedCorrectOption": "A butterfly begins life as an egg",
+      "proposedOptionRationales": {
+        "a": "A butterfly develops from an egg.",
+        "b": "Seeds grow into plants, not butterflies.",
+        "c": "Butterflies are insects, not birds."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_002",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-003",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about photosynthesis is scientifically correct?",
+      "proposedPrompt": "Which statement about photosynthesis is scientifically correct?",
+      "originalOptions": [
+        "Plants get all their food from soil",
+        "Green plants take in oxygen to make food",
+        "Green plants take in carbon dioxide"
+      ],
+      "proposedOptions": [
+        "Plants get all their food from soil",
+        "Green plants take in oxygen to make food",
+        "Green plants take in carbon dioxide"
+      ],
+      "originalCorrectOption": "Green plants take in carbon dioxide",
+      "proposedCorrectOption": "Green plants take in carbon dioxide",
+      "proposedOptionRationales": {
+        "a": "Soil provides minerals and support, but plants make sugars using light energy.",
+        "b": "Green plants use carbon dioxide in photosynthesis and release oxygen; they do not use oxygen to make their food.",
+        "c": "Green plants take in carbon dioxide from the air for photosynthesis."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_003",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-004",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about polar habitats is scientifically correct?",
+      "proposedPrompt": "Which statement about polar habitats is scientifically correct?",
+      "originalOptions": [
+        "Polar bears live in tropical rainforests",
+        "Polar bears live in Antarctica",
+        "Polar bears live in Arctic habitats"
+      ],
+      "proposedOptions": [
+        "Polar bears live in tropical rainforests",
+        "Polar bears live in Antarctica",
+        "Polar bears live in Arctic habitats"
+      ],
+      "originalCorrectOption": "Polar bears live in Arctic habitats",
+      "proposedCorrectOption": "Polar bears live in Arctic habitats",
+      "proposedOptionRationales": {
+        "a": "Polar bears are adapted to Arctic habitats, not tropical rainforests.",
+        "b": "Polar bears do not live naturally in Antarctica.",
+        "c": "Polar bears live in Arctic regions."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_004",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-005",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about food chains is scientifically correct?",
+      "proposedPrompt": "Which statement about food chains is scientifically correct?",
+      "originalOptions": [
+        "A food chain shows how water freezes",
+        "A food chain shows how energy moves between organisms",
+        "A food chain shows how rocks are made"
+      ],
+      "proposedOptions": [
+        "A food chain shows how water freezes",
+        "A food chain shows how energy moves between organisms",
+        "A food chain shows how rocks are made"
+      ],
+      "originalCorrectOption": "A food chain shows how energy moves between organisms",
+      "proposedCorrectOption": "A food chain shows how energy moves between organisms",
+      "proposedOptionRationales": {
+        "a": "A food chain is not about freezing water.",
+        "b": "A food chain shows how food and energy pass between living things.",
+        "c": "Rocks are not the focus of a food chain."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_005",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-006",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L1",
+      "proposedSkillId": "SCI-G2-X01-PLANT-ANIMAL",
+      "originalPrompt": "Which statement about herbivores is scientifically correct?",
+      "proposedPrompt": "Which statement about herbivores is scientifically correct?",
+      "originalOptions": [
+        "Rabbits are omnivores",
+        "Rabbits are carnivores",
+        "Rabbits are herbivores"
+      ],
+      "proposedOptions": [
+        "Rabbits are omnivores",
+        "Rabbits are carnivores",
+        "Rabbits are herbivores"
+      ],
+      "originalCorrectOption": "Rabbits are herbivores",
+      "proposedCorrectOption": "Rabbits are herbivores",
+      "proposedOptionRationales": {
+        "a": "Rabbits mainly eat plants, so they are not omnivores.",
+        "b": "Rabbits do not eat other animals as their main food source.",
+        "c": "Rabbits are herbivores because they eat plants."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_006",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-007",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L2",
+      "proposedSkillId": "SCI-G2-X01-BODY-HEALTH",
+      "originalPrompt": "Which statement about circulation is scientifically correct?",
+      "proposedPrompt": "Which statement about circulation is scientifically correct?",
+      "originalOptions": [
+        "The heart pumps blood around the body",
+        "The stomach pumps blood around the body",
+        "The lungs pump blood around the body"
+      ],
+      "proposedOptions": [
+        "The heart pumps blood around the body",
+        "The stomach pumps blood around the body",
+        "The lungs pump blood around the body"
+      ],
+      "originalCorrectOption": "The heart pumps blood around the body",
+      "proposedCorrectOption": "The heart pumps blood around the body",
+      "proposedOptionRationales": {
+        "a": "The heart pumps blood around the body.",
+        "b": "The stomach helps digest food.",
+        "c": "The lungs help us breathe."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_007",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-008",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L2",
+      "proposedSkillId": "SCI-G2-X01-BODY-HEALTH",
+      "originalPrompt": "Which statement about nutrition is scientifically correct?",
+      "proposedPrompt": "Which statement about nutrition is scientifically correct?",
+      "originalOptions": [
+        "A balanced diet contains just one type of food",
+        "A balanced diet contains only sweets",
+        "A balanced diet provides different nutrients"
+      ],
+      "proposedOptions": [
+        "A balanced diet contains just one type of food",
+        "A balanced diet contains only sweets",
+        "A balanced diet provides different nutrients"
+      ],
+      "originalCorrectOption": "A balanced diet provides different nutrients",
+      "proposedCorrectOption": "A balanced diet provides different nutrients",
+      "proposedOptionRationales": {
+        "a": "A balanced diet includes different foods and nutrients.",
+        "b": "A diet of only sweets is not balanced.",
+        "c": "A balanced diet provides a variety of nutrients."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_008",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-009",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L2",
+      "proposedSkillId": "SCI-G2-X01-BODY-HEALTH",
+      "originalPrompt": "Which statement about breathing is scientifically correct?",
+      "proposedPrompt": "Which statement about breathing is scientifically correct?",
+      "originalOptions": [
+        "The lungs help us breathe",
+        "The stomach helps us breathe",
+        "The liver helps us breathe"
+      ],
+      "proposedOptions": [
+        "The lungs help us breathe",
+        "The stomach helps us breathe",
+        "The liver helps us breathe"
+      ],
+      "originalCorrectOption": "The lungs help us breathe",
+      "proposedCorrectOption": "The lungs help us breathe",
+      "proposedOptionRationales": {
+        "a": "The lungs are the main organs used for breathing.",
+        "b": "The stomach digests food.",
+        "c": "The liver has other functions; it is not the main breathing organ."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_009",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-010",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L2",
+      "proposedSkillId": "SCI-G2-X01-BODY-HEALTH",
+      "originalPrompt": "Which statement about hygiene is scientifically correct?",
+      "proposedPrompt": "Which statement about hygiene is scientifically correct?",
+      "originalOptions": [
+        "Soap and water help remove germs",
+        "Soap adds germs to our hands",
+        "Perfume and dry air remove all germs"
+      ],
+      "proposedOptions": [
+        "Soap and water help remove germs",
+        "Soap adds germs to our hands",
+        "Perfume and dry air remove all germs"
+      ],
+      "originalCorrectOption": "Soap and water help remove germs",
+      "proposedCorrectOption": "Soap and water help remove germs",
+      "proposedOptionRationales": {
+        "a": "Soap and water help remove dirt and many germs from hands.",
+        "b": "Soap does not add germs when used properly.",
+        "c": "Perfume does not remove germs and dry air is not a hand-cleaning method."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_010",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-011",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L3",
+      "proposedSkillId": "SCI-G2-X01-MATTER",
+      "originalPrompt": "Which statement about solids is scientifically correct?",
+      "proposedPrompt": "Which statement about solids is scientifically correct?",
+      "originalOptions": [
+        "Solids take the shape of every container",
+        "Solids always flow like liquids",
+        "Solids keep their own shape"
+      ],
+      "proposedOptions": [
+        "Solids take the shape of every container",
+        "Solids always flow like liquids",
+        "Solids keep their own shape"
+      ],
+      "originalCorrectOption": "Solids keep their own shape",
+      "proposedCorrectOption": "Solids keep their own shape",
+      "proposedOptionRationales": {
+        "a": "Solids generally keep their own shape.",
+        "b": "Solids do not take the shape of every container.",
+        "c": "Solids do not flow like liquids."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_011",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-012",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L3",
+      "proposedSkillId": "SCI-G2-X01-MATTER",
+      "originalPrompt": "Which statement about freezing is scientifically correct?",
+      "proposedPrompt": "Which statement about freezing is scientifically correct?",
+      "originalOptions": [
+        "Freezing changes water into steam",
+        "Freezing changes liquid water into water vapour",
+        "Freezing changes liquid water into ice"
+      ],
+      "proposedOptions": [
+        "Freezing changes water into steam",
+        "Freezing changes liquid water into water vapour",
+        "Freezing changes liquid water into ice"
+      ],
+      "originalCorrectOption": "Freezing changes liquid water into ice",
+      "proposedCorrectOption": "Freezing changes liquid water into ice",
+      "proposedOptionRationales": {
+        "a": "Freezing does not change water into steam.",
+        "b": "Water vapour forms by evaporation, not freezing.",
+        "c": "Freezing changes liquid water into solid ice."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_012",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-013",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L3",
+      "proposedSkillId": "SCI-G2-X01-MATTER",
+      "originalPrompt": "Which statement about heat conductors is scientifically correct?",
+      "proposedPrompt": "Which statement about heat conductors is scientifically correct?",
+      "originalOptions": [
+        "Plastic is always a better heat conductor than metal",
+        "Metal transfers heat well",
+        "Wood transfers heat better than metal"
+      ],
+      "proposedOptions": [
+        "Plastic is always a better heat conductor than metal",
+        "Metal transfers heat well",
+        "Wood transfers heat better than metal"
+      ],
+      "originalCorrectOption": "Metal transfers heat well",
+      "proposedCorrectOption": "Metal transfers heat well",
+      "proposedOptionRationales": {
+        "a": "Plastic is generally a poor heat conductor compared with metal.",
+        "b": "Metal transfers heat well and is a good conductor.",
+        "c": "Wood is generally a poorer heat conductor than metal."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_013",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-014",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L4",
+      "proposedSkillId": "SCI-G2-X01-FORCES",
+      "originalPrompt": "Which statement about gravity is scientifically correct?",
+      "proposedPrompt": "Which statement about gravity is scientifically correct?",
+      "originalOptions": [
+        "Gravity only works on very heavy objects",
+        "Gravity pushes objects away from Earth",
+        "Gravity pulls objects towards Earth"
+      ],
+      "proposedOptions": [
+        "Gravity only works on very heavy objects",
+        "Gravity pushes objects away from Earth",
+        "Gravity pulls objects towards Earth"
+      ],
+      "originalCorrectOption": "Gravity pulls objects towards Earth",
+      "proposedCorrectOption": "Gravity pulls objects towards Earth",
+      "proposedOptionRationales": {
+        "a": "Gravity acts on objects of different masses, not only very heavy ones.",
+        "b": "Gravity pulls objects toward Earth rather than pushing them away.",
+        "c": "Near Earth's surface, gravity pulls objects toward Earth."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_014",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-015",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L4",
+      "proposedSkillId": "SCI-G2-X01-FORCES",
+      "originalPrompt": "Which statement about ramps is scientifically correct?",
+      "proposedPrompt": "Which statement about a ramp is correct?",
+      "originalOptions": [
+        "A ramp removes the force of gravity",
+        "A ramp makes a toy car heavier",
+        "A steeper ramp can make a toy car move faster"
+      ],
+      "proposedOptions": [
+        "A ramp is a sloping surface that can help move an object up or down",
+        "A ramp removes the force of gravity",
+        "A ramp makes an object heavier"
+      ],
+      "originalCorrectOption": "A steeper ramp can make a toy car move faster",
+      "proposedCorrectOption": "A ramp is a sloping surface that can help move an object up or down",
+      "proposedOptionRationales": {
+        "a": "A ramp is a sloping surface that can help move an object between heights.",
+        "b": "A ramp does not remove gravity.",
+        "c": "A ramp does not make an object heavier."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_015",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "REVISE_BEFORE_REUSE",
+      "revisionNote": "Replaces an overgeneralised claim that a steeper ramp always makes a toy car faster.",
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-016",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L5",
+      "proposedSkillId": "SCI-G2-X01-EARTH-LIGHT",
+      "originalPrompt": "Which statement about Earth rotation is scientifically correct?",
+      "proposedPrompt": "Which statement about Earth rotation is scientifically correct?",
+      "originalOptions": [
+        "Earth's rotation causes day and night",
+        "The Moon's orbit causes day and night",
+        "Earth's revolution around the Sun causes day and night"
+      ],
+      "proposedOptions": [
+        "Earth's rotation causes day and night",
+        "The Moon's orbit causes day and night",
+        "Earth's revolution around the Sun causes day and night"
+      ],
+      "originalCorrectOption": "Earth's rotation causes day and night",
+      "proposedCorrectOption": "Earth's rotation causes day and night",
+      "proposedOptionRationales": {
+        "a": "Earth's rotation on its axis causes the cycle of day and night.",
+        "b": "The Moon's orbit around Earth does not cause day and night.",
+        "c": "Earth's revolution around the Sun causes a year, not the daily cycle of day and night."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_016",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-017",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L5",
+      "proposedSkillId": "SCI-G2-X01-EARTH-LIGHT",
+      "originalPrompt": "Which statement about light sources is scientifically correct?",
+      "proposedPrompt": "Which statement about light sources is scientifically correct?",
+      "originalOptions": [
+        "A mirror creates its own light",
+        "The Sun is a natural source of light",
+        "The Moon makes its own light"
+      ],
+      "proposedOptions": [
+        "A mirror creates its own light",
+        "The Sun is a natural source of light",
+        "The Moon makes its own light"
+      ],
+      "originalCorrectOption": "The Sun is a natural source of light",
+      "proposedCorrectOption": "The Sun is a natural source of light",
+      "proposedOptionRationales": {
+        "a": "A mirror reflects light; it does not create its own light.",
+        "b": "The Sun is a natural source of light.",
+        "c": "The Moon reflects sunlight and does not make its own light."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_017",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-018",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L6",
+      "proposedSkillId": "SCI-G2-X01-ENVIRONMENT",
+      "originalPrompt": "Which statement about water cycle is scientifically correct?",
+      "proposedPrompt": "Which statement about water cycle is scientifically correct?",
+      "originalOptions": [
+        "Evaporation changes liquid water into water vapour",
+        "Evaporation changes water vapour into rocks",
+        "Evaporation changes liquid water into ice"
+      ],
+      "proposedOptions": [
+        "Evaporation changes liquid water into water vapour",
+        "Evaporation changes water vapour into rocks",
+        "Evaporation changes liquid water into ice"
+      ],
+      "originalCorrectOption": "Evaporation changes liquid water into water vapour",
+      "proposedCorrectOption": "Evaporation changes liquid water into water vapour",
+      "proposedOptionRationales": {
+        "a": "Evaporation changes liquid water into water vapour.",
+        "b": "Water vapour does not change into rocks by evaporation.",
+        "c": "Freezing changes liquid water into ice."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_018",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-019",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L6",
+      "proposedSkillId": "SCI-G2-X01-ENVIRONMENT",
+      "originalPrompt": "Which statement about recycling is scientifically correct?",
+      "proposedPrompt": "Which statement about recycling is scientifically correct?",
+      "originalOptions": [
+        "Recycling paper helps reduce waste",
+        "Throwing paper away is the same as recycling",
+        "Burning paper is the best way to recycle it"
+      ],
+      "proposedOptions": [
+        "Recycling paper helps reduce waste",
+        "Throwing paper away is the same as recycling",
+        "Burning paper is the best way to recycle it"
+      ],
+      "originalCorrectOption": "Recycling paper helps reduce waste",
+      "proposedCorrectOption": "Recycling paper helps reduce waste",
+      "proposedOptionRationales": {
+        "a": "Recycling paper can reduce waste and the need for new materials.",
+        "b": "Throwing paper away is not recycling.",
+        "c": "Burning paper creates smoke and is not the best recycling method."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_019",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-020",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L6",
+      "proposedSkillId": "SCI-G2-X01-ENVIRONMENT",
+      "originalPrompt": "Which statement about water conservation is scientifically correct?",
+      "proposedPrompt": "Which statement about water conservation is scientifically correct?",
+      "originalOptions": [
+        "People and plants need clean water",
+        "Dirty water is always safe to drink",
+        "Only plants need clean water"
+      ],
+      "proposedOptions": [
+        "People and plants need clean water",
+        "Dirty water is always safe to drink",
+        "Only plants need clean water"
+      ],
+      "originalCorrectOption": "People and plants need clean water",
+      "proposedCorrectOption": "People and plants need clean water",
+      "proposedOptionRationales": {
+        "a": "People and plants need clean water for health and growth.",
+        "b": "Dirty water may contain harmful germs and is not always safe to drink.",
+        "c": "People as well as plants need clean water."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_020",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-021",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L2",
+      "proposedSkillId": "SCI-G2-X01-BODY-HEALTH",
+      "originalPrompt": "Which statement about skeleton is scientifically correct?",
+      "proposedPrompt": "Which statement about skeleton is scientifically correct?",
+      "originalOptions": [
+        "The rib cage protects the heart and lungs",
+        "The rib cage helps digest food",
+        "The rib cage protects the brain"
+      ],
+      "proposedOptions": [
+        "The rib cage protects the heart and lungs",
+        "The rib cage helps digest food",
+        "The rib cage protects the brain"
+      ],
+      "originalCorrectOption": "The rib cage protects the heart and lungs",
+      "proposedCorrectOption": "The rib cage protects the heart and lungs",
+      "proposedOptionRationales": {
+        "a": "The rib cage helps protect the heart and lungs.",
+        "b": "The rib cage does not digest food.",
+        "c": "The skull protects the brain; the rib cage protects the chest organs."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_021",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-022",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L4",
+      "proposedSkillId": "SCI-G2-X01-FORCES",
+      "originalPrompt": "Which statement about simple machines is scientifically correct?",
+      "proposedPrompt": "Which statement about simple machines is scientifically correct?",
+      "originalOptions": [
+        "A pulley is an inclined plane",
+        "A ramp is an example of an inclined plane",
+        "A lever is an inclined plane"
+      ],
+      "proposedOptions": [
+        "A pulley is an inclined plane",
+        "A ramp is an example of an inclined plane",
+        "A lever is an inclined plane"
+      ],
+      "originalCorrectOption": "A ramp is an example of an inclined plane",
+      "proposedCorrectOption": "A ramp is an example of an inclined plane",
+      "proposedOptionRationales": {
+        "a": "A pulley and a lever are different simple machines.",
+        "b": "A ramp is an example of an inclined plane.",
+        "c": "A lever is not an inclined plane."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_022",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-023",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L5",
+      "proposedSkillId": "SCI-G2-X01-EARTH-LIGHT",
+      "originalPrompt": "Which statement about shadows is scientifically correct?",
+      "proposedPrompt": "Which statement about shadows is scientifically correct?",
+      "originalOptions": [
+        "A shadow forms without any light",
+        "A shadow forms when an object blocks light",
+        "A shadow forms when sound is blocked"
+      ],
+      "proposedOptions": [
+        "A shadow forms without any light",
+        "A shadow forms when an object blocks light",
+        "A shadow forms when sound is blocked"
+      ],
+      "originalCorrectOption": "A shadow forms when an object blocks light",
+      "proposedCorrectOption": "A shadow forms when an object blocks light",
+      "proposedOptionRationales": {
+        "a": "A shadow needs a light source; it does not form without light.",
+        "b": "A shadow forms when an object blocks some light.",
+        "c": "Sound is not light, so blocking sound does not make a shadow."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_023",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-024",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L5",
+      "proposedSkillId": "SCI-G2-X01-EARTH-LIGHT",
+      "originalPrompt": "Which statement about planets is scientifically correct?",
+      "proposedPrompt": "Which statement about planets is scientifically correct?",
+      "originalOptions": [
+        "Earth is the planet we live on",
+        "Earth is the Moon's natural satellite",
+        "Earth is a star"
+      ],
+      "proposedOptions": [
+        "Earth is the planet we live on",
+        "Earth is the Moon's natural satellite",
+        "Earth is a star"
+      ],
+      "originalCorrectOption": "Earth is the planet we live on",
+      "proposedCorrectOption": "Earth is the planet we live on",
+      "proposedOptionRationales": {
+        "a": "Earth is the planet on which we live.",
+        "b": "Earth is not the Moon's satellite; the Moon is Earth's natural satellite.",
+        "c": "Earth is a planet, not a star."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_024",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    },
+    {
+      "activityId": "new-aboudy-science-025",
+      "originalSkillId": "aas2-aboudy-living-world-matter-and-earth",
+      "proposedUnitId": "SCI-G2-X01",
+      "proposedLessonId": "SCI-G2-X01-L3",
+      "proposedSkillId": "SCI-G2-X01-MATTER",
+      "originalPrompt": "Which statement about temperature is scientifically correct?",
+      "proposedPrompt": "Which statement about temperature is scientifically correct?",
+      "originalOptions": [
+        "A thermometer measures temperature",
+        "A clock measures temperature",
+        "A ruler measures temperature"
+      ],
+      "proposedOptions": [
+        "A thermometer measures temperature",
+        "A clock measures temperature",
+        "A ruler measures temperature"
+      ],
+      "originalCorrectOption": "A thermometer measures temperature",
+      "proposedCorrectOption": "A thermometer measures temperature",
+      "proposedOptionRationales": {
+        "a": "A thermometer measures temperature.",
+        "b": "A clock measures time.",
+        "c": "A ruler measures length."
+      },
+      "proposedMisconceptionCode": "SCI_G2_X01_025",
+      "assessmentPhase": "GUIDED",
+      "difficulty": "PROVISIONAL_D2",
+      "curriculumStatus": "SUPPLEMENTARY_NOT_CORE_MACMILLAN_SEQUENCE",
+      "disposition": "KEEP_AS_SUPPLEMENTARY_ENRICHMENT",
+      "revisionNote": null,
+      "mediaStatus": {
+        "existingPromptImage": true,
+        "existingPromptAudio": true,
+        "existingOptionAudio": true,
+        "existingOptionImages": true,
+        "humanVisualQa": "PENDING",
+        "humanListeningQa": "PENDING"
+      },
+      "reviewStatus": "MAPPING_AND_PEDAGOGY_REVIEW_PENDING",
+      "runtimeMappingApplied": false
+    }
+  ],
+  "releaseGate": {
+    "scienceReview": false,
+    "pedagogyReview": false,
+    "languageReview": false,
+    "mediaReview": false,
+    "runtimeMappingApplied": false
+  }
+}
