@@ -8,7 +8,7 @@
 
 Introduce a new content contract that separates:
 - learning language from app/UI locale;
-- any future approved support aid from the English learning prompt (not part of MVP);
+- optional English-only progressive hints and step-by-step help from the core prompt;
 - typed activity payloads from renderer implementation;
 - content provenance and rights from the activity presentation;
 - attempt evidence from mastery decisions.
@@ -164,7 +164,7 @@ For each type:
 Create fixtures:
 - `legacy-kg2-v3.json` and `legacy-grade2-v3.json` as exact baseline copies;
 - `valid-v4-single-choice-en.json`;
-- No helper fixture is included in MVP. Add a separate future-extension fixture only if an exception is approved.
+- Add valid English hint/help fixtures, plus invalid Arabic, blank, overlong, and answer-revealing cases.
 - `invalid-v4-unknown-skill.json`;
 - No support-aid field is accepted by the MVP schema; future extension tests are deferred.
 - `invalid-v4-unsafe-media-path.json`;
@@ -175,7 +175,7 @@ Create fixtures:
 Assertions:
 - stable IDs/counts/answer keys preserved;
 - normalized v3 and equivalent v4 domain representations are equal for legacy-supported fields;
-- no helper is synthesized from old language variants;
+- no Arabic helper is synthesized from old language variants;
 - app locale changes do not change the learning objective or answer key;
 - evaluator output is deterministic;
 - no network call is needed to load or solve a bundled activity.
@@ -214,4 +214,4 @@ Required before implementation PR can be considered complete:
 
 ## 10. Current decision
 
-**Proceed with specification and test design only.** The user authorized the five parallel planning/content workstreams, not an unreviewed Android code migration. Actual Kotlin/schema/Room edits remain gated by review of the specification and explicit implementation authorization. The existing v3 packs and app files remain untouched.
+**Implementation authorized by the user's later explicit direction (24 November 2026):** add backward-compatible English-only hints/help, keep legacy Arabic variants unexposed, and do not change Room schema unless evidence requires it. Preserve existing v3/v4 packs and stable IDs. The existing v3 packs and app files remain untouched.
