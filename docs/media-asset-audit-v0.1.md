@@ -34,7 +34,7 @@ The manifest has 71 items without a specific `matchedPromptKinds` value. These a
 
 ## Option illustrations
 
-The option-art manifest contains 374 SVG files. All paths and SHA-256 values are unique and all entries have size/hash metadata.
+The option-art manifest contains 373 SVG files. All paths and SHA-256 values are unique and all entries have size/hash metadata.
 
 ## Runtime and QA boundary
 
@@ -45,4 +45,4 @@ The option-art manifest contains 374 SVG files. All paths and SHA-256 values are
 
 ## Automated regression gate
 
-`tools/content/validate-staging-content.mjs` now checks the seven-book catalog, the first legacy review patch, all 1,692 OGG files, all 282 question illustrations, all 374 option illustrations, and every activity-to-media reference. The gate runs in the dedicated Content validation GitHub Actions workflow.
+`tools/content/validate-staging-content.mjs` now checks the seven-book catalog, the first legacy review patch, all 1,692 OGG files, all 282 question illustrations, all 373 option illustrations, and every activity-to-media reference. The gate runs in the dedicated Content validation GitHub Actions workflow.
