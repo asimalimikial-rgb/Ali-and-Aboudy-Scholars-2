@@ -513,7 +513,7 @@ assert.equal(legacyBatch20to22Patch.summary.productionApproved, 0);
 assert.equal(legacyBatch20to22Patch.summary.runtimeIntegrated, 0);
 assert.equal(new Set(legacyBatch20to22Patch.items.map(item => item.questionId)).size, 18);
 assert.ok(legacyBatch20to22Patch.items.every(item => ((Array.isArray(item.changes) && item.changes.length > 0) || (typeof item.field === "string" && item.originalValue !== item.proposedValue)) && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
-assert.ok(legacyBatch20to22Patch.items.filter(item => item.changes.some(change => change.field === "prompt")).every(item => item.audioRegenerationRequired === true));
+assert.ok(legacyBatch20to22Patch.items.filter(item => Array.isArray(item.changes) && item.changes.some(change => change.field === "prompt")).every(item => item.audioRegenerationRequired === true));
 
 
 const scienceEnrichment = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-enrichment-x01-mapping-v0.1.json"), "utf8"));
