@@ -5,6 +5,7 @@ import assert from "node:assert/strict";
 const catalog = JSON.parse(fs.readFileSync("content/catalog/seven-book-catalog.json", "utf8"));
 const patch = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-batch-01.json", "utf8"));
 const reviewQueue = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-queue-v0.1.json", "utf8"));
+const englishWorldQueue = JSON.parse(fs.readFileSync("content/staging/english-world-level2-activity-map-review-v0.1.json", "utf8"));
 const assetRoot = "app/src/main/assets";
 const packs = [
   JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-kg2-foundation.json"), "utf8")),
@@ -81,6 +82,20 @@ assert.ok(reviewQueue.records.every(item => item.bookId && item.unitId && item.r
   "Every legacy question must retain its book/unit context and remain unapproved until review is complete.");
 assert.ok(reviewQueue.records.every(item => Object.values(item.reviewChecks).every(value => value === false)),
   "Review checks must start unchecked; do not pre-approve legacy content.");
+
+assert.equal(englishWorldQueue.bookId, "english-world-level-2");
+assert.equal(englishWorldQueue.packVersion, "0.4.2");
+assert.equal(englishWorldQueue.summary.total, 35);
+assert.equal(englishWorldQueue.summary.grammarAndWordStudy, 29);
+assert.equal(englishWorldQueue.summary.readingComprehension, 6);
+assert.equal(englishWorldQueue.summary.candidateAlignment, 12);
+assert.equal(englishWorldQueue.summary.rewriteRequired, 3);
+assert.equal(englishWorldQueue.summary.supplementaryReview, 20);
+assert.equal(englishWorldQueue.summary.runtimeMapped, 0);
+assert.equal(englishWorldQueue.records.length, 35);
+assert.equal(new Set(englishWorldQueue.records.map(item => item.activityId)).size, 35);
+assert.ok(englishWorldQueue.records.every(item => item.reviewStatus === "PENDING_PEDAGOGY_REVIEW" && item.runtimeUnitId === null),
+  "English World candidates must remain pending until unit mapping is reviewed.");
 
 // Verify all generated media against manifests and the actual checked-in files.
 const audio = JSON.parse(fs.readFileSync(path.join(assetRoot, "speech/manifest.json"), "utf8"));
@@ -185,4 +200,4 @@ assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.inclu
   "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog and English World 12-unit scope, 616-item review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog, 12-unit English World scope and 35-item mapping queue, 616-item legacy review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
