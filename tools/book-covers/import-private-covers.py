@@ -51,6 +51,10 @@ BOOKS = [
                 "image": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/maths_ukg.jpg",
                 "page": "https://raajkart.com/macmillan-maths-xpress-for-senior-kg-revised.html",
             },
+            {
+                "image": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/macmillan_maths_xpress_upper_kg.jpg",
+                "page": "https://raajkart.com/macmillan-maths-xpress-for-senior-kg-revised.html",
+            },
         ],
     },
     {
