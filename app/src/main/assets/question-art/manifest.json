@@ -1389,12 +1389,20 @@
       "activityId": "new-aboudy-english-019",
       "path": "question-art/new-aboudy-english-019.png",
       "format": "png",
-      "bytes": 9552,
-      "sha256": "898130c22dc3f243cc75677bcf1e907f50aadefb2ef631bc6af3bb5202372ec1",
+      "bytes": 7416,
+      "sha256": "404b73272d924e03bc40eb0aac8cdcb5caf262da8422ce2bc71eb3cc4490d25e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-reading-comprehension",
       "visualProfile": "reading",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "cold",
+        "cat",
+        "bed",
+        "person",
+        "road",
+        "food",
+        "temperature"
+      ],
       "optionImagePaths": [
         "option-art/1a16fd8bea6ad28b2241af31.svg"
       ],
