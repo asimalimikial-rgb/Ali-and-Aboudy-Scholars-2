@@ -4,7 +4,7 @@
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
   "questionCount": 282,
-  "optionImageCount": 373,
+  "optionImageCount": 375,
   "formats": {
     "svg": 245,
     "png": 37
@@ -3938,7 +3938,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/dca1ba6409c7f918fedcba3f.svg",
+        "option-art/1022e86e35c6d0fc5a88e4b1.svg",
         "option-art/d28a8dc5f316f270740cebd8.svg",
         "option-art/e6e8ec96a449506a106dc66c.svg"
       ],
@@ -5722,7 +5722,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/dca1ba6409c7f918fedcba3f.svg",
+        "option-art/e8fa77221d9bdf30215d2846.svg",
         "option-art/62f93cafd54533724b54f86a.svg",
         "option-art/6ad96f482e3d44ea36566b5f.svg"
       ],
@@ -5745,7 +5745,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/dca1ba6409c7f918fedcba3f.svg",
+        "option-art/e8fa77221d9bdf30215d2846.svg",
         "option-art/572b787201172643a28e6fe6.svg",
         "option-art/4e36a4648c9284129e5fb98b.svg"
       ],
@@ -5999,7 +5999,7 @@
       ],
       "optionImagePaths": [
         "option-art/ebc3d730f59dbd9a7cc2cde5.svg",
-        "option-art/dca1ba6409c7f918fedcba3f.svg",
+        "option-art/58c00c9e6be7501dc98d5ee7.svg",
         "option-art/dca1ba6409c7f918fedcba3f.svg"
       ],
       "optionLabels": [
@@ -6156,7 +6156,7 @@
       ],
       "optionImagePaths": [
         "option-art/093fb24b5a187177d41f01de.svg",
-        "option-art/dca1ba6409c7f918fedcba3f.svg",
+        "option-art/166c2d9db1727cef91a8cbf6.svg",
         "option-art/62f93cafd54533724b54f86a.svg"
       ],
       "optionLabels": [

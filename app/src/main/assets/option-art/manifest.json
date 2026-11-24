@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 373,
+  "count": 375,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -599,7 +599,8 @@
       "sha256": "a38a21fc3c28ebb72a2cb462fe09a7c80d623e362bd66eda93217a96eafe625d",
       "labels": [
         "Light",
-        "The Sun is a natural source of light"
+        "The Sun is a natural source of light",
+        "Animals only need sunlight"
       ]
     },
     {
@@ -1936,7 +1937,8 @@
       "bytes": 1322,
       "sha256": "63eaf9a73b2118984d274b168fd8391474a963f5b21c80906af29928e2aed8d9",
       "labels": [
-        "Earth is the Moon's natural satellite"
+        "Earth is the Moon's natural satellite",
+        "The Moon gives Earth its daylight"
       ]
     },
     {
@@ -2338,16 +2340,11 @@
       ]
     },
     {
-      "path": "option-art/dca1ba6409c7f918fedcba3f.svg",
-      "bytes": 1432,
-      "sha256": "46618fa720c9b44d06569f0c4a20c8fcdd908b27fadf08c35c446b7f16c42784",
+      "path": "option-art/1022e86e35c6d0fc5a88e4b1.svg",
+      "bytes": 1311,
+      "sha256": "bd2b7d3bdaf59e2e597c0f201152f3f8030b0ec7d6ee3978e2b61cfb0bce3243",
       "labels": [
-        "Water and sunlight",
-        "Plants do not need sunlight",
-        "Roots make sunlight",
-        "The Moon gives Earth its daylight",
-        "The Sun gives Earth daylight",
-        "Animals only need sunlight"
+        "Water and sunlight"
       ]
     },
     {
@@ -2981,6 +2978,15 @@
       ]
     },
     {
+      "path": "option-art/e8fa77221d9bdf30215d2846.svg",
+      "bytes": 1406,
+      "sha256": "6b0009e5ec71d16556f61f5edb411b97252bd987d4da959d23fa40a7e8a552f2",
+      "labels": [
+        "Plants do not need sunlight",
+        "Roots make sunlight"
+      ]
+    },
+    {
       "path": "option-art/6ad96f482e3d44ea36566b5f.svg",
       "bytes": 1734,
       "sha256": "2c7475dd3a93038c123c992e35cb8b4807a73fc64992f1ec13549bdc5a5be1ca",
@@ -3166,6 +3172,14 @@
       "sha256": "a2857a2dddb58bd91bf615b5d204e0d89135ca7196fcbca3ae912a493da64720",
       "labels": [
         "Wind can make a kite fly"
+      ]
+    },
+    {
+      "path": "option-art/dca1ba6409c7f918fedcba3f.svg",
+      "bytes": 1432,
+      "sha256": "46618fa720c9b44d06569f0c4a20c8fcdd908b27fadf08c35c446b7f16c42784",
+      "labels": [
+        "The Sun gives Earth daylight"
       ]
     },
     {
