@@ -102,7 +102,7 @@
     <string name="activity_hint_number">Hint %1$d</string>
     <string name="activity_show_me_how">Show me how</string>
     <string name="activity_next_help_step">Show next step</string>
-    <string name="activity_help_title">Let&apos;s work it out</string>
+    <string name="activity_help_title">Work it out step by step</string>
     <string name="activity_help_step_number">Step %1$d</string>
     <string name="activity_try_again_en">Try again</string>
     <string name="picture_answer_option_en">Picture answer option</string>
