@@ -87,12 +87,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/79f995df47e505dab1fbb79035611b8e6e4142cd59593e2a9b1f3fd0034de3cf.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/103681f6d0008c586cd394f4a9002666d466d8c1951b00e709abddb9bef5b455.ogg",
+        "b": "content/staging/media/science-g2/speech/30f7741f631c02ec10412b7801f12244db25c878feb7c4b4e8efde3cbc842e83.ogg",
+        "c": "content/staging/media/science-g2/speech/8653682144e6f86b1f2f6e021a488f65f474049e6c845379e406fde8fb60be93.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/cac23c5eddcac4a3ae6a0c4911c7769580debd86a01bd262eb8bf8fc45b447dd.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/2c6fd0821653a21c3d82e66aa0bffe1dde2811ef53fabf6152abf1c894871807.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-002",
@@ -129,12 +137,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/820d40c22977b588e83d5660cb9ace9dc13c6ee86dbe8a3e46661d7f315d2f36.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/4dbb0df79ef72f8f013f021689562954f32b5a1685dc026fb84f89983e241c3e.ogg",
+        "b": "content/staging/media/science-g2/speech/7e79d97190499067bb150cbd39b3127302453d09db071f54000e7590ed673391.ogg",
+        "c": "content/staging/media/science-g2/speech/f063c9fb9aec309cf9c6222508d8f82f74ea1b3e908089e807b30e0792a696f6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/7748a46d247e04477a93addf45221d8a1c5ff483e5e7eff71526f96bd749ee7f.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c075d7958cc66318f83285b3ac4ed9a40ee7f386f7683b7ce9100f17c39b1ccb.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-003",
@@ -171,12 +187,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/fabb2c234e326cd17995eb9798ccb8a56be10ed3e51bf1bdebc92db71e19e84e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/e4c69f38ea622b3873856cc39019b4a94a9643915db640c7e6891b37003e2b0f.ogg",
+        "b": "content/staging/media/science-g2/speech/20ee4d2d96b37789ef667a40a90f99a9d03a99896a389eff810fafa94622ca53.ogg",
+        "c": "content/staging/media/science-g2/speech/ec09588041cb6a65c16e593bdb785ae1216c43c50f5fac9efa0acaeb36be68e1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/3d8984c6030f0d16d9781acf47b5915e34d183e46429e13dd0e3b3ebff31ba58.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/28d8bfcbeb1e4d2ce489c195bbd7f878634bc81e2801753c724ac69a1b56addc.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-004",
@@ -213,12 +237,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/fb1a4c17fe8a8f2a9025c2a6404a71bb8bc785d28186ef5619a6be070235ff19.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/955ba13dbd27e4437b5d0215ab1a3223b3fcadb98658aa58a13844c7c68a6c73.ogg",
+        "b": "content/staging/media/science-g2/speech/cb7273f1d8444ac189706ce207ed9bd969df76562dd642519ba20eae5f7b2821.ogg",
+        "c": "content/staging/media/science-g2/speech/5e19799fe875178cc92ecd30e57d4f99cf97f93f65569af565bd99f7d36d7561.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/b3d1548cf11e99d4924a4132f0b398775e85a71503f3f03188800f5dbe69d840.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/fabb1fa367e19442e1b74c127b97550bdf7ad9d2c2fa4067c8352072b9a64e29.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-005",
@@ -255,12 +287,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/de876cc9315f5738d66b228962c81a004c194934cd95ba672ed95cca65f06e1b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/14a37eb4ede57499c493072d052b59f9400d8552eb222f0bccab6e20afbd7db6.ogg",
+        "b": "content/staging/media/science-g2/speech/c4549f5713c0846cc16d22c262d7c55483277676989c9662b3ca5a3b5ba6652c.ogg",
+        "c": "content/staging/media/science-g2/speech/e18a2da3355bebbe5fa86835dee807cc279de746405d00686331a3160ae56da9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/0e8a9a0345e74dc348c0c6ce6fa188f91d689eaa178e76b368aab0f3e74d5604.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5db8d76f633f48ac6ad478fd7074ea1833ac910b7bbc7f5cfa3e70dfe62e1596.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-006",
@@ -297,12 +337,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/bb14916dc02bee87b9582ddb3ffcdbfd2164b5883f36e1c801ef73536fabb0dd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/7bd2dd3a7671903cddceb3ef6da96caad9652d9e33d140ce0e1ad7f2d61b5456.ogg",
+        "b": "content/staging/media/science-g2/speech/984d806f461c3930ab7cc247ac8dd410b141f686d104e47fd20fbcf2ae810190.ogg",
+        "c": "content/staging/media/science-g2/speech/20723f0b203379ccb034cce970c4f2c75ddbd4019ab63b0edaf0a9ed266fd14f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/37bfaf7b64c8c215e2e0f07153aba5f3c45578fdf214d60b63f92e053cbcc5a0.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/cc4626c05f44d407afabf5ad7d4832d9036b82213e6d12a0d9a5495894cf2664.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-007",
@@ -339,12 +387,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "An adult prepares and demonstrates the model; do not taste model materials.",
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/f0d8f323c31d17057fed659667017afc878f39606b34b516319cd9675c7bf964.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/eef0cb15eb8762571e91ef03b81660e9777b8b755e2c0e5e742d4b0ada5c071c.ogg",
+        "b": "content/staging/media/science-g2/speech/a75e2a4f11badc8eee19c65ecf5c91ab925c25a7738580ae38da725850f5860a.ogg",
+        "c": "content/staging/media/science-g2/speech/ecc66ff44aba0316572c118c88dcad4327cded699373ef9e5464d592eb26d0fa.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/5835ff0e3962ab0666288f736482cc2431f6785990504e563a935bf0205cbe65.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/35cec078cc4100ac91c90e622df2e859e485da1914d945b6ef93de66ea4a6d6c.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-008",
@@ -381,12 +437,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/5b607067bfd1b37011068f85e77cf711249f891ffa1c3430bbc4005c0ebfecdb.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/9c3ea0c8c28c992907ff8f6951d2cbaab1a589ccbc9e00a4364c013d3a2f165b.ogg",
+        "b": "content/staging/media/science-g2/speech/e39e33c0e2301ce79b0eac339c6eb5b973ba5b2f674f63a73cbd3d6e80381b4c.ogg",
+        "c": "content/staging/media/science-g2/speech/f6ccedbd2ef4d4ea7c5a9ede1217074f8598d7fbc9d6a1993fec534d22daefef.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/bd63947ad5891559ff77740ece5e8476a265a3499ff1f3c61e2415cb32b8ff69.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/6f88d54d9cbb24cf8b69f69c148769f5b04346f34686583d9c920e64572d151c.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-009",
@@ -423,12 +487,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/3126c2651c5d1114f9008edcc9b192c713a6839576beb5a2d5a7114b4f570048.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/794d51adbf7c20be8472dafeda0b8f1283062406a004029c0e5ea0a2e94efbaf.ogg",
+        "b": "content/staging/media/science-g2/speech/11a90b48268c5da95151f3284853a995f5c97673ba84f7631fa8af2b9ecb4bc1.ogg",
+        "c": "content/staging/media/science-g2/speech/44dba58f608b7e752972f1ae37eac7e8758825ff6a2072b56312754e55402139.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/dc807e824be770c065608ea63c5f4af3be6e244cd27a37809aef67be6892a0fc.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/562c917d81a1cddbd2c9e087cfaaac91486fa5a1a786780dc641da7a8a133a80.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-010",
@@ -465,12 +537,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/fcf891a3f720131a16441e22c70aca3457515e1fabf8972d2f52f41316b110de.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/0d6db18ae2111272874193188e04347e02a652183b4c6ea4271631f8d58ba293.ogg",
+        "b": "content/staging/media/science-g2/speech/3d7929d3443b2102384c526d80dd7e8a1a1d09e4ce6d718eef7f00fbf678c793.ogg",
+        "c": "content/staging/media/science-g2/speech/9579565600a65e20c5526556f86914bb0a20270ea7b9c70ec80c465dd8fa4b95.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/fcb58fa2f4bcda4d088df4e04a3e539aaeb252e8935d1451ff85308039019afe.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/3187f1dc00a47153987144984dcbc88be601a4038e520c512d5588f609df1a8f.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-011",
@@ -507,12 +587,20 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/fee095725a831f377c04127f47ac79fafbfad3031bf65b0b0947d2da84cd1dc9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/1f107c773617c4bf57ff2e60945901bb7439baeb340f27afba39e0c9c15c7549.ogg",
+        "b": "content/staging/media/science-g2/speech/c2906c12d2263ba15a1220cadc370dbde2c1d6109a921c18df4763591c089d36.ogg",
+        "c": "content/staging/media/science-g2/speech/54a024951efa3911fe1658e5c7d533f18958e8d0d318029d9625342e3764f747.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/95d050f87a7d9d4f90edd6a773672d759afadde83e54b0495cdf1fc72fe000fd.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/036454621226ccc5bbd4464c1aae5f3d1f8dae665df9fd31a577552b3f96b08d.ogg"
     },
     {
       "activityId": "aas2-g2-sci-u05-012",
@@ -549,22 +637,31 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Observe from a safe ground-level place with an adult.",
       "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
-      "audioStatus": "PENDING_STAGING_GENERATION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "runtimeStatus": "NOT_INTEGRATED",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "feedbackCorrect": "Well done! You chose the best answer.",
-      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/c00a9d112a22fcb79a75429b78e9f89c2c967d3e5411ee7b873f9ce771f4d077.ogg",
+      "optionAudioAssetPaths": {
+        "a": "content/staging/media/science-g2/speech/9030ce0b49fa953d257d4fe6210e48c4f43c3d3a081f87003182f23240d60e27.ogg",
+        "b": "content/staging/media/science-g2/speech/918e9b0ff9c2c9290bc3832c658473a41bc296fa06801155f7615cf77953e5aa.ogg",
+        "c": "content/staging/media/science-g2/speech/715570d6c0839d4d1cfa347063fadcf2b64061d977f0c46e76f10ac1c4d3267d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/bf83b8d4c9e1ce89bb206b427cd4eb0591bd5a0f233bb006bf227f7ec08aa97f.ogg",
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5dffa0036108274b635ce7a364807b2d8de6888b4e9c19fadc85b9d7fd08dcf3.ogg"
     }
   ],
   "releaseGate": {
     "runtimeIntegrated": false,
-    "mediaGenerated": false,
+    "mediaGenerated": true,
     "independentScienceReview": false,
     "pedagogyReview": false,
     "languageReview": false,
     "accessibilityReview": false,
     "contentValidation": false,
     "androidCi": false
-  }
+  },
+  "audioManifestPath": "content/staging/media/science-g2/speech/manifest.json"
 }

@@ -1,0 +1,4 @@
+Staging-only English audio for AAS2 Grade 2 Science Units 3–5.
+Generated with Supertonic 3 via sherpa-onnx 2.0.1 in GitHub Actions.
+English-only at speed 0.70. Machine-generated speech; listening/transcript QA is still required.
+Not integrated into the Android runtime. Model license: BigScience Open RAIL-M.
