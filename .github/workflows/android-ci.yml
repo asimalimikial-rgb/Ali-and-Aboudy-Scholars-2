@@ -67,13 +67,13 @@ jobs:
 
       - name: Upload installable debug APK
         uses: actions/upload-artifact@v6
+        continue-on-error: true
         with:
           name: Ali-Aboudy-Scholars-2-debug-${{ github.run_number }}-${{ github.sha }}
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
-          archive: false
 
       - name: Verify checked-in Room schema exports
         run: |
