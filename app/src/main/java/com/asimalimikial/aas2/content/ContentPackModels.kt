@@ -94,6 +94,7 @@ data class ActivityDefinition(
     val feedbackIncorrectAudioAssetPath: String? = null,
     /** Progressive English-only support; empty defaults preserve older bundled packs. */
     val hintSequence: List<String> = emptyList(),
+    /** Short, sequential English teaching steps; empty for activities without authored help. */
     val helpSteps: List<String> = emptyList(),
     val hintImageAssetPath: String? = null,
     val helpImageAssetPath: String? = null
