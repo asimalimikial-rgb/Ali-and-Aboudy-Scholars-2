@@ -6,12 +6,16 @@
   },
   "status": "STAGING_ONLY_PENDING_TECHNICAL_QA",
   "summary": {
-    "patchItems": 9,
+    "patchItems": 12,
     "answerKeyCorrections": 1,
     "scienceCorrections": 3,
+    "phonicsCorrections": 2,
     "promptOrPresentationCorrections": 2,
     "sentenceRepairs": 2,
+    "currencyLocalizations": 1,
     "readingStimulusRepairs": 1,
+    "openIssueGroups": 7,
+    "targetRevealItems": 69,
     "productionApproved": 0
   },
   "patchItems": [
@@ -179,6 +183,47 @@
       "mediaRegenerationRequired": true,
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false
+    },
+    {
+      "questionId": "legacy-ali-0001",
+      "sourceBatch": "LEGACY-01",
+      "changeType": "PHONEME_NOTATION_CORRECTION",
+      "changes": {
+        "prompt": "Which word starts with the sound /æ/?",
+        "legacyDataTitle": "Which word starts with the sound /æ/?"
+      },
+      "rationale": "For the selected British English phoneme model, apple begins with /æ/; the generic /a/ notation is ambiguous.",
+      "accentModel": "British English; confirm against the selected course edition",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-ali-0007",
+      "sourceBatch": "LEGACY-01",
+      "changeType": "PHONEME_CORRECTION",
+      "changes": {
+        "prompt": "Blend: /s/ - /ʌ/ - /n/",
+        "legacyDataTitle": "Blend: /s/ - /ʌ/ - /n/"
+      },
+      "rationale": "The short vowel in sun is /ʌ/ in the selected British English model, not /u/.",
+      "accentModel": "British English",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-ali-0008",
+      "sourceBatch": "LEGACY-01",
+      "changeType": "AMBIGUOUS_CVC_PROMPT",
+      "changes": {
+        "prompt": "Which word begins with /d/?",
+        "legacyDataTitle": "Which word begins with /d/?"
+      },
+      "rationale": "DOG and CAT are both CVC words, so the original prompt does not have a unique answer; the revised initial-sound question makes DOG uniquely correct.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
     }
   ],
   "openIssues": [
@@ -225,6 +270,81 @@
       ],
       "issue": "Arabic explanationAr payloads refer to other questions or unrelated content.",
       "requiredAction": "Discard or regenerate after item review; never expose these stale explanations to children."
+    },
+    {
+      "questionIds": [
+        "legacy-ali-0019",
+        "legacy-ali-0020",
+        "legacy-ali-0021",
+        "legacy-ali-0022",
+        "legacy-ali-0023",
+        "legacy-ali-0024",
+        "legacy-ali-0025",
+        "legacy-ali-0026",
+        "legacy-ali-0027",
+        "legacy-ali-0028",
+        "legacy-ali-0029",
+        "legacy-ali-0030",
+        "legacy-ali-0031",
+        "legacy-ali-0032",
+        "legacy-ali-0033",
+        "legacy-ali-0034",
+        "legacy-ali-0035",
+        "legacy-ali-0036",
+        "legacy-ali-0037",
+        "legacy-ali-0038",
+        "legacy-ali-0039",
+        "legacy-ali-0040",
+        "legacy-ali-0041",
+        "legacy-ali-0042",
+        "legacy-ali-0043",
+        "legacy-ali-0044",
+        "legacy-ali-0045",
+        "legacy-ali-0046",
+        "legacy-ali-0047",
+        "legacy-ali-0048",
+        "legacy-ali-0049",
+        "legacy-ali-0050",
+        "legacy-ali-0051",
+        "legacy-ali-0052",
+        "legacy-ali-0053",
+        "legacy-ali-0054",
+        "legacy-ali-0055",
+        "legacy-ali-0056",
+        "legacy-ali-0057",
+        "legacy-ali-0058",
+        "legacy-ali-0059",
+        "legacy-ali-0060",
+        "legacy-ali-0061",
+        "legacy-ali-0096",
+        "legacy-ali-0097",
+        "legacy-ali-0098",
+        "legacy-ali-0099",
+        "legacy-ali-0104",
+        "legacy-ali-0105",
+        "legacy-ali-0106",
+        "legacy-ali-0107",
+        "legacy-ali-0116",
+        "legacy-ali-0117",
+        "legacy-ali-0118",
+        "legacy-ali-0119",
+        "legacy-ali-0120",
+        "legacy-ali-0121",
+        "legacy-ali-0122",
+        "legacy-ali-0123",
+        "legacy-ali-0137",
+        "legacy-ali-0138",
+        "legacy-ali-0139",
+        "legacy-ali-0140",
+        "legacy-ali-0141",
+        "legacy-ali-0142",
+        "legacy-ali-0143",
+        "legacy-ali-0144",
+        "legacy-ali-0145",
+        "legacy-ali-0146"
+      ],
+      "issue": "The visible listening prompt includes the exact answer target.",
+      "requiredAction": "Replace with a neutral visible instruction, store the target separately as an audio stimulus, and ensure the target is not printed in the prompt."
     }
   ]
 }

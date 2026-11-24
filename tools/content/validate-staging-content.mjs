@@ -136,12 +136,15 @@ assert.equal(legacyRendererRequirements.custom.length, 120);
 assert.equal(legacyRendererRequirements.storyBearingMultipleChoice.length, 19);
 assert.equal(legacyRendererRequirements.visualBearingMultipleChoice.length, 15);
 assert.equal(legacyRendererRequirements.counts.structuredStimulusMultipleChoice, 34);
+assert.equal(legacyRendererRequirements.targetRevealMultipleChoice.length, 69);
+assert.equal(legacyRendererRequirements.counts.targetRevealMultipleChoice, 69);
 assert.equal(new Set([
   ...legacyRendererRequirements.specialized.map(item => item.questionId),
   ...legacyRendererRequirements.custom.map(item => item.questionId),
   ...legacyRendererRequirements.storyBearingMultipleChoice.map(item => item.questionId),
-  ...legacyRendererRequirements.visualBearingMultipleChoice.map(item => item.questionId)
-]).size, 182);
+  ...legacyRendererRequirements.visualBearingMultipleChoice.map(item => item.questionId),
+  ...legacyRendererRequirements.targetRevealMultipleChoice.map(item => item.questionId)
+]).size, 251);
 const capitalizationItem = grade2Pack.activities.find(item => item.activityId === "new-aboudy-english-001");
 assert.equal(capitalizationItem.correctOptionId, "b");
 assert.equal(capitalizationItem.options.find(option => option.optionId === "b").text, "I visit Grandma on Monday.");

@@ -11,7 +11,9 @@
     "customNoOption": 120,
     "storyBearingMultipleChoice": 19,
     "visualBearingMultipleChoice": 15,
-    "structuredStimulusMultipleChoice": 34
+    "structuredStimulusMultipleChoice": 34,
+    "targetRevealMultipleChoice": 69,
+    "totalUniqueRendererRequirements": 251
   },
   "specialized": [
     {
@@ -1344,5 +1346,490 @@
       "runtimeIntegrated": false
     }
   ],
-  "globalDisposition": "REQUIREMENTS_ONLY_NOT_RUNTIME_INTEGRATED"
+  "globalDisposition": "REQUIREMENTS_ONLY_NOT_RUNTIME_INTEGRATED",
+  "targetRevealMultipleChoice": [
+    {
+      "questionId": "legacy-ali-0019",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0020",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0021",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0022",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0023",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0024",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0025",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0026",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0027",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0028",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0029",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0030",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0031",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0032",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0033",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0034",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0035",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0036",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0037",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0038",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0039",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0040",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0041",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0042",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0043",
+      "targetKind": "letter",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0044",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0045",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0046",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0047",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0048",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0049",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0050",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0051",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0052",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0053",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0054",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0055",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0056",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0057",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0058",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0059",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0060",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0061",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0096",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0097",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0098",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0099",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0104",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0105",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0106",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0107",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0116",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0117",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0118",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0119",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0120",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0121",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0122",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0123",
+      "targetKind": "word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0137",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0138",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0139",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0140",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0141",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0142",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0143",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0144",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0145",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0146",
+      "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    }
+  ]
 }

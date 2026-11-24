@@ -93,3 +93,16 @@ The staging patch `content/staging/legacy-question-bank-correction-patch-v0.1.js
 - Attach the missing Sami passage to its follow-up question.
 
 All nine patch items remain `REVISED_PENDING_TECHNICAL_QA`; any text/audio-affecting change requires regeneration and validation. The five open issue groups above remain unpatched. No source-bank item is changed or production-approved.
+
+
+## 9. Listening target leakage — 69 multiple-choice items
+
+A deterministic scan found 69 items where a visible prompt such as “Listen and find: [target]” contains the exact answer. These items are still valid multiple-choice response formats, but the visible prompt invalidates the listening construct.
+
+Required presentation:
+1. Display a neutral instruction (e.g. “Listen, then choose the matching answer”).
+2. Store and play the target letter, word or number as a separate audio stimulus.
+3. Do not render the target text in the visible prompt.
+4. Revalidate the audio-to-stimulus mapping and test the interaction with audio muted to ensure the answer is not exposed.
+
+The 69 IDs are in `targetRevealMultipleChoice` in `content/staging/legacy-question-bank-renderer-requirements-v0.1.json`. They do not overlap the 19 story-bearing or 15 visual-bearing multiple-choice items.

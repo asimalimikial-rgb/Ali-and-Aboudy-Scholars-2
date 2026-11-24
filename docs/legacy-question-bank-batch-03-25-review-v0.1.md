@@ -63,3 +63,8 @@ The 34 structured-stimulus multiple-choice records need passage/visual rendering
 ## Approval boundary
 
 No legacy record is production-approved. The staging correction patch must pass technical QA, content/media regeneration, Content Validation and Android CI before any migration. Typed renderers must be implemented before specialized/custom activities are integrated. Arabic helper/explanation fields remain excluded from the child runtime.
+
+
+## Listening target-leak scan
+
+A deterministic scan found 69 multiple-choice items whose visible prompt contains the exact target answer. These are letter, word and number listening tasks. The target must be stored as a separate audio stimulus and the visible prompt must be neutral. Their IDs are listed in `content/staging/legacy-question-bank-renderer-requirements-v0.1.json`; they are not approved for listening assessment until the presentation is corrected.
