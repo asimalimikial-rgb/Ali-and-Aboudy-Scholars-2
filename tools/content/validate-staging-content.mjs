@@ -272,7 +272,7 @@ for (const activity of scienceDraft.activities) {
   assert.equal(activity.activityType, "SINGLE_CHOICE");
   assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
   assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
-  assert.equal(activity.assetStatus, "NOT_GENERATED");
+  assert.equal(activity.assetStatus, "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA");
   assert.equal(activity.options.length, 3);
   const optionIds = activity.options.map(option => option.optionId);
   const optionTexts = activity.options.map(option => option.text.trim().toLowerCase());
