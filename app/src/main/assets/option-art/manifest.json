@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 376,
+  "count": 378,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -300,13 +300,12 @@
       ]
     },
     {
-      "path": "option-art/315e6c733b85d4f062a22df6.svg",
-      "bytes": 1296,
-      "sha256": "7c66cdc463656b5a09a688a728ae358284374a8547e358e1ee4481eebbe775d5",
+      "path": "option-art/4764daa11bcd53ee0316f04a.svg",
+      "bytes": 1815,
+      "sha256": "d7cc1f0b77b503542258b55291f49767b789f347a34fa73877e44ca08e5a6cce",
       "labels": [
         "Taking in water through roots",
-        "Water plants appropriately and avoid damaging them",
-        "Only plants need clean water"
+        "Roots take in water from the soil"
       ]
     },
     {
@@ -331,17 +330,10 @@
       "sha256": "b5e48d707208f1f8fd0fe25393ff1d72fc69164251c9bd6c8dc2e68a2062b2b4",
       "labels": [
         "Guess which plant is older",
-        "Roots",
         "The stem",
-        "Roots",
-        "The root",
-        "The root",
-        "It is the root of the plant",
         "It is the fruit of the plant",
         "It is a modified underground stem (tuber)",
-        "Roots",
         "It still has a plant source",
-        "It gives the plant its roots",
         "Both are plants"
       ]
     },
@@ -404,8 +396,7 @@
       "bytes": 1611,
       "sha256": "bc073138d19a79809a1c01087963c2531e005c61b55b49495e356f42c3a6183c",
       "labels": [
-        "Only plants with flowers are living",
-        "Flowers turn directly into roots"
+        "Only plants with flowers are living"
       ]
     },
     {
@@ -432,6 +423,20 @@
       ]
     },
     {
+      "path": "option-art/ff3855c84b2fc901e736b892.svg",
+      "bytes": 1420,
+      "sha256": "490bb380ecc27a7f67eb2184e2abe9c64673488dbd39797c1e7d10994e5f55fb",
+      "labels": [
+        "Roots",
+        "Roots",
+        "The root",
+        "The root",
+        "It is the root of the plant",
+        "Roots",
+        "It gives the plant its roots"
+      ]
+    },
+    {
       "path": "option-art/5b4d6b01c850998f02cf2b7b.svg",
       "bytes": 925,
       "sha256": "289c1575f719deb6ab7f34517b7838d7805b34807f1f8e559c99e3edaf2dbda1",
@@ -448,9 +453,9 @@
       ]
     },
     {
-      "path": "option-art/deef1909d978c4d9d515fea6.svg",
-      "bytes": 1394,
-      "sha256": "94ad46de2e7afee5c58e2cfc54c676fa2f111f7d2f12227486451c6c43b0f1dc",
+      "path": "option-art/55a002de5bfc087ae4b384b0.svg",
+      "bytes": 1913,
+      "sha256": "691b878f635d7df460328921665b5360ed0c8844848ae31fd1519ee53b6b50b4",
       "labels": [
         "Carrot roots"
       ]
@@ -553,11 +558,20 @@
       ]
     },
     {
-      "path": "option-art/972a27ce3f37a67348960349.svg",
-      "bytes": 1347,
-      "sha256": "2bd57c429a8f2ee9f55f7c27ea46c5642a2d001849ca94c046ff790cf0045b49",
+      "path": "option-art/6f1d74e6495e42ea7f390b80.svg",
+      "bytes": 1866,
+      "sha256": "9cdc3cfa05ef921c0f91e81d65a9eba0edd25a670f8086bb123d2bb772909cca",
       "labels": [
         "Pull up seedlings to see their roots"
+      ]
+    },
+    {
+      "path": "option-art/315e6c733b85d4f062a22df6.svg",
+      "bytes": 1296,
+      "sha256": "7c66cdc463656b5a09a688a728ae358284374a8547e358e1ee4481eebbe775d5",
+      "labels": [
+        "Water plants appropriately and avoid damaging them",
+        "Only plants need clean water"
       ]
     },
     {
@@ -1524,6 +1538,14 @@
       "sha256": "f80e972aa36d9a2e90d8885c787edb6e80bb79efbe74724548b40ca3b43b43d8",
       "labels": [
         "2:45"
+      ]
+    },
+    {
+      "path": "option-art/14a9ee3139184bfa2f9c0e48.svg",
+      "bytes": 2130,
+      "sha256": "d3b02ebc290a76b355a4830c0fb523eff591139f0e0dc34405de8d6971796454",
+      "labels": [
+        "Flowers turn directly into roots"
       ]
     },
     {
@@ -2994,19 +3016,11 @@
       ]
     },
     {
-      "path": "option-art/e8fa77221d9bdf30215d2846.svg",
-      "bytes": 1406,
-      "sha256": "6b0009e5ec71d16556f61f5edb411b97252bd987d4da959d23fa40a7e8a552f2",
+      "path": "option-art/5bee1f069767f4db9c1aafa8.svg",
+      "bytes": 1925,
+      "sha256": "6b51a0d48a7cc558ecebe7e91fe3269745912b07433aa538bf570d38f05d1706",
       "labels": [
         "Roots make sunlight"
-      ]
-    },
-    {
-      "path": "option-art/572b787201172643a28e6fe6.svg",
-      "bytes": 1796,
-      "sha256": "30bf628039d40005d9969fabcc4db92c1b06a8520479d3895009631db7ce84b0",
-      "labels": [
-        "Roots take in water from the soil"
       ]
     },
     {

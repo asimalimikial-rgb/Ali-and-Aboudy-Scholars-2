@@ -4,7 +4,7 @@
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
   "questionCount": 282,
-  "optionImageCount": 376,
+  "optionImageCount": 378,
   "formats": {
     "svg": 245,
     "png": 37
@@ -341,7 +341,7 @@
       ],
       "optionImagePaths": [
         "option-art/d73ea43e5f6274002d311bf3.svg",
-        "option-art/315e6c733b85d4f062a22df6.svg",
+        "option-art/4764daa11bcd53ee0316f04a.svg",
         "option-art/fe5c187601d382959e70fc63.svg"
       ],
       "optionLabels": [
@@ -477,7 +477,7 @@
       ],
       "optionImagePaths": [
         "option-art/0005f9d6422fd3aa4b4496ea.svg",
-        "option-art/dd39a0e4eedf704c1054b2c5.svg"
+        "option-art/ff3855c84b2fc901e736b892.svg"
       ],
       "optionLabels": [
         "Flowers",
@@ -525,7 +525,7 @@
         "food"
       ],
       "optionImagePaths": [
-        "option-art/dd39a0e4eedf704c1054b2c5.svg",
+        "option-art/ff3855c84b2fc901e736b892.svg",
         "option-art/013d0b6109c9ba7acac51b60.svg",
         "option-art/0005f9d6422fd3aa4b4496ea.svg"
       ],
@@ -550,7 +550,7 @@
       ],
       "optionImagePaths": [
         "option-art/0005f9d6422fd3aa4b4496ea.svg",
-        "option-art/dd39a0e4eedf704c1054b2c5.svg"
+        "option-art/ff3855c84b2fc901e736b892.svg"
       ],
       "optionLabels": [
         "The flower",
@@ -575,7 +575,7 @@
       "optionImagePaths": [
         "option-art/5b4d6b01c850998f02cf2b7b.svg",
         "option-art/013d0b6109c9ba7acac51b60.svg",
-        "option-art/deef1909d978c4d9d515fea6.svg"
+        "option-art/55a002de5bfc087ae4b384b0.svg"
       ],
       "optionLabels": [
         "Peas",
@@ -597,7 +597,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/dd39a0e4eedf704c1054b2c5.svg",
+        "option-art/ff3855c84b2fc901e736b892.svg",
         "option-art/0005f9d6422fd3aa4b4496ea.svg"
       ],
       "optionLabels": [
@@ -619,7 +619,7 @@
         "potato"
       ],
       "optionImagePaths": [
-        "option-art/dd39a0e4eedf704c1054b2c5.svg",
+        "option-art/ff3855c84b2fc901e736b892.svg",
         "option-art/dd39a0e4eedf704c1054b2c5.svg",
         "option-art/dd39a0e4eedf704c1054b2c5.svg"
       ],
@@ -710,7 +710,7 @@
       ],
       "optionImagePaths": [
         "option-art/5b4d6b01c850998f02cf2b7b.svg",
-        "option-art/dd39a0e4eedf704c1054b2c5.svg",
+        "option-art/ff3855c84b2fc901e736b892.svg",
         "option-art/0005f9d6422fd3aa4b4496ea.svg"
       ],
       "optionLabels": [
@@ -828,7 +828,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/972a27ce3f37a67348960349.svg",
+        "option-art/6f1d74e6495e42ea7f390b80.svg",
         "option-art/315e6c733b85d4f062a22df6.svg"
       ],
       "optionLabels": [
@@ -2637,7 +2637,7 @@
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/071884a791ea61591dc6337d.svg",
+        "option-art/14a9ee3139184bfa2f9c0e48.svg",
         "option-art/f74f7cb8c26bf0b5e3eea69d.svg",
         "option-art/48f4c0c353ecf7d96c036ad5.svg"
       ],
@@ -3574,7 +3574,7 @@
       "optionImagePaths": [
         "option-art/5647bd42a1d2f7a2e0b81a1b.svg",
         "option-art/0005f9d6422fd3aa4b4496ea.svg",
-        "option-art/dd39a0e4eedf704c1054b2c5.svg"
+        "option-art/ff3855c84b2fc901e736b892.svg"
       ],
       "optionLabels": [
         "It may carry pollen between flowers",
@@ -5736,17 +5736,18 @@
       "activityId": "new-ali-science-002",
       "path": "question-art/new-ali-science-002.svg",
       "format": "svg",
-      "bytes": 865,
-      "sha256": "47b423f35862fac18569bef340e4a62d08e8a3cdbdfd67df5e6a2f74999af74a",
+      "bytes": 1384,
+      "sha256": "2951d5f321ad9e1d3e31530f6882e21154daec2d0b8078f10ca5f5bd64eb1368",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
       "matchedPromptKinds": [
+        "roots",
         "plant"
       ],
       "optionImagePaths": [
-        "option-art/e8fa77221d9bdf30215d2846.svg",
-        "option-art/572b787201172643a28e6fe6.svg",
+        "option-art/5bee1f069767f4db9c1aafa8.svg",
+        "option-art/4764daa11bcd53ee0316f04a.svg",
         "option-art/4e36a4648c9284129e5fb98b.svg"
       ],
       "optionLabels": [
