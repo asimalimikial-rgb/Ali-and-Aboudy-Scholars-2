@@ -1038,17 +1038,19 @@
       "activityId": "new-aboudy-english-001",
       "path": "question-art/new-aboudy-english-001.png",
       "format": "png",
-      "bytes": 15363,
-      "sha256": "805502b9acc3f738c2aed126d073050f0bd54b870b7d2ff99d58057dbc0db728",
+      "bytes": 14898,
+      "sha256": "753303f71b52e8ed6ae2396ad6ed98f984abe35908025924a81104008e93dd8f",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "letter"
+      ],
       "optionImagePaths": [],
       "optionLabels": [
         "I visit Grandma on monday.",
         "I visit Grandma on Monday.",
-        "I visit Grandma on mondAy."
+        "i visit Grandma on Tuesday."
       ]
     },
     {
