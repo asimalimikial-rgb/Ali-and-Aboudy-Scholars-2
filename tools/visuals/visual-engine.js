@@ -713,7 +713,7 @@ function render(q,d){
 }
 function semanticOptionKinds(q,label){
  var text=norm(label),prompt=String(q&&q.prompt||""),found=findKinds(label);
- if(/\b(never happens|does not happen|doesn't happen|not true|false statement)\b/i.test(text)){
+ if(/\b(never happens|does not happen|doesn't happen|do not need|does not need|don't need|doesn't need|not need|not true|false statement)\b/i.test(text)){
   var context=sceneKinds(prompt,2);return context.length?["negation",context[0]]:["negation"];
  }
  if(/\bforest\b/i.test(text))return ["tree","tree","tree"];
