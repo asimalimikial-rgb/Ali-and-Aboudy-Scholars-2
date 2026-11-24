@@ -58,7 +58,6 @@ fun LearningExperienceScreen(
     var selectedUnitId by remember(packId) { mutableStateOf<String?>(null) }
     var selectedLessonId by remember(packId) { mutableStateOf<String?>(null) }
     var selectedActivityId by remember(packId) { mutableStateOf<String?>(null) }
-    var hasStartedInitialQuestion by remember(packId) { mutableStateOf(false) }
 
     LaunchedEffect(packId) {
         if (packId == null) {
@@ -109,21 +108,6 @@ fun LearningExperienceScreen(
     }
     val lessonActivities = remember(activities, selectedLessonId) {
         activities.filter { it.lessonId == selectedLessonId }
-    }
-
-    LaunchedEffect(activities, practicedActivityIds, skillById) {
-        if (!hasStartedInitialQuestion && activities.isNotEmpty()) {
-            val firstActivity = ContentPackSelectionPolicy.nextActivity(
-                activities = activities,
-                practicedActivityIds = practicedActivityIds
-            )
-            if (firstActivity != null) {
-                selectedActivityId = firstActivity.activityId
-                val domain = skillById[firstActivity.skillId]?.domain ?: "General practice"
-                selectedDomain = ContentPackSelectionPolicy.subjectForDomain(domain, learnerPathway)
-                hasStartedInitialQuestion = true
-            }
-        }
     }
 
     fun navigateBack() {
