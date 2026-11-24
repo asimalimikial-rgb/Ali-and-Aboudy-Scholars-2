@@ -2535,11 +2535,11 @@
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/new-aboudy-english-001.png",
-      "promptAudioAssetPath": "speech/3ca7b5be6d7a6c1d2f7cf118c5eebf7642252fe596c771d0918418ae24f31a8e.ogg",
+      "promptAudioAssetPath": "speech/d133fe96b2b51be44bac687c10000b23237bab28679017995d339f2085410085.ogg",
       "optionAudioAssetPaths": {
-        "a": "speech/039fb6d5a90006961fe4335e27c9435b06638b957d8bd54fb065fde8b71376d2.ogg",
-        "b": "speech/279508041f9243560dbcbf5885e959a38f0b6acf54d769ce243eb4292ae22cba.ogg",
-        "c": "speech/25db19c7274ccf7b5b4f91aa688104bd8da8090deb35a35e3f098412cd22adf6.ogg"
+        "a": "speech/ebe2ec85df9f395238fa2efe4ce9d5fcb68613daa12792a24b6927477b5459d7.ogg",
+        "b": "speech/598db3973dc73850346e49730cea41cd90ecb5e657bd99504a4f2c0743797ab0.ogg",
+        "c": "speech/1eadcb64e0d49527d500b42ba121c895e284439b42fd648ce025661ba7750a76.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bb9d363731beaf859da71c7b5116f7c0e7ea81fa6a00c6750a445b946cee5bed.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/e2795abf68b42a38456c1069b0841afce0c027dd1d80a5dcaf3ce16e6af737db.ogg"
@@ -3203,10 +3203,10 @@
       "feedbackIncorrect": "Keep learning!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/new-aboudy-english-020.png",
-      "promptAudioAssetPath": "speech/c11182a8fce8ebe14b0c620d57fd9e58bb9a471b7393239072d5b96574720daa.ogg",
+      "promptAudioAssetPath": "speech/1355f4cf44cff0035d915ce9fdd5426ee6158703b70d45216a5148faf39cb69c.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/8887f2ea03d6e302d0b54289fd872680acfe543e0c4bc6c5461cef4d8cde6903.ogg",
-        "b": "speech/c794552f506b077f715df6305f542a0528fb6842abe1f2759e2ba731b0394329.ogg",
+        "b": "speech/5f6ac1e0d44c33dd68e0e7c9a89ab53d31fb2e7de2b0e53a39ddf14ed97f17e2.ogg",
         "c": "speech/50ec8b72275d485b49290e14279f146bb7346318c4489fb9bcb5714f888e2fc0.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5246fb4040e403fd9b0170aec43a18802f4e17fa1bc2773b21b96dd8df8af9fb.ogg",
@@ -3305,10 +3305,10 @@
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/new-aboudy-english-023.png",
-      "promptAudioAssetPath": "speech/c46aad3eb6acc1f742fa5238ee6bb93c064818643ab8024168bf20505bd9a3b1.ogg",
+      "promptAudioAssetPath": "speech/ababe2ee4fa71c5dd471d242d3828545e084bf6d822c66cc528e2ca321a9fae0.ogg",
       "optionAudioAssetPaths": {
-        "a": "speech/e3e18d9add4803d6aa7554e4aaac68a9d381a3bfe3ecfe851bafa6ec7283adfd.ogg",
-        "b": "speech/725f9689b741f641a5937ef2b09afc71b6134c6946df0be1d3ee0b164a4084d4.ogg",
+        "a": "speech/a91dd26b8a2abee744df03f16af02624d9b82a4ec0d0a1169f274f2a5e5f7f09.ogg",
+        "b": "speech/f7ffd0129febfb7835f75ed1410b60595f73b9fdcf0bd564a3eba79ba783a27b.ogg",
         "c": "speech/0b92c911d81c3a74783bde48ac763a4c9db24307c4ac9b5efcc98b394830448d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/216f2e7a9a9d0360da6b04b6bff9656b5b99f0b04d9d9bba6ee7ba4f5bd0d5fa.ogg",

@@ -22,7 +22,7 @@
   },
   "sourceEnglishActivityCount": 282,
   "count": 1692,
-  "totalBytes": 25713495,
+  "totalBytes": 25766471,
   "activities": {
     "g2-place-01-en": {
       "prompt": "fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
@@ -465,11 +465,11 @@
       "feedbackIncorrect": "82166e49526fe275909e9534bd616df91f2558d2a051ac491fdc0cea36ae647e.ogg"
     },
     "new-aboudy-english-001": {
-      "prompt": "3ca7b5be6d7a6c1d2f7cf118c5eebf7642252fe596c771d0918418ae24f31a8e.ogg",
+      "prompt": "d133fe96b2b51be44bac687c10000b23237bab28679017995d339f2085410085.ogg",
       "options": {
-        "a": "039fb6d5a90006961fe4335e27c9435b06638b957d8bd54fb065fde8b71376d2.ogg",
-        "b": "279508041f9243560dbcbf5885e959a38f0b6acf54d769ce243eb4292ae22cba.ogg",
-        "c": "25db19c7274ccf7b5b4f91aa688104bd8da8090deb35a35e3f098412cd22adf6.ogg"
+        "a": "ebe2ec85df9f395238fa2efe4ce9d5fcb68613daa12792a24b6927477b5459d7.ogg",
+        "b": "598db3973dc73850346e49730cea41cd90ecb5e657bd99504a4f2c0743797ab0.ogg",
+        "c": "1eadcb64e0d49527d500b42ba121c895e284439b42fd648ce025661ba7750a76.ogg"
       },
       "feedbackCorrect": "bb9d363731beaf859da71c7b5116f7c0e7ea81fa6a00c6750a445b946cee5bed.ogg",
       "feedbackIncorrect": "e2795abf68b42a38456c1069b0841afce0c027dd1d80a5dcaf3ce16e6af737db.ogg"
@@ -655,10 +655,10 @@
       "feedbackIncorrect": "5720e0894d9ff2d5ee04d245e31ec5c62f9f987b6e122dd60d9fc85dfeba9a71.ogg"
     },
     "new-aboudy-english-020": {
-      "prompt": "c11182a8fce8ebe14b0c620d57fd9e58bb9a471b7393239072d5b96574720daa.ogg",
+      "prompt": "1355f4cf44cff0035d915ce9fdd5426ee6158703b70d45216a5148faf39cb69c.ogg",
       "options": {
         "a": "8887f2ea03d6e302d0b54289fd872680acfe543e0c4bc6c5461cef4d8cde6903.ogg",
-        "b": "c794552f506b077f715df6305f542a0528fb6842abe1f2759e2ba731b0394329.ogg",
+        "b": "5f6ac1e0d44c33dd68e0e7c9a89ab53d31fb2e7de2b0e53a39ddf14ed97f17e2.ogg",
         "c": "50ec8b72275d485b49290e14279f146bb7346318c4489fb9bcb5714f888e2fc0.ogg"
       },
       "feedbackCorrect": "5246fb4040e403fd9b0170aec43a18802f4e17fa1bc2773b21b96dd8df8af9fb.ogg",
@@ -685,10 +685,10 @@
       "feedbackIncorrect": "4df1fb5c973e8da0694f27b48e9f13846dee3a63b28842e15a8f5325fb9bea83.ogg"
     },
     "new-aboudy-english-023": {
-      "prompt": "c46aad3eb6acc1f742fa5238ee6bb93c064818643ab8024168bf20505bd9a3b1.ogg",
+      "prompt": "ababe2ee4fa71c5dd471d242d3828545e084bf6d822c66cc528e2ca321a9fae0.ogg",
       "options": {
-        "a": "e3e18d9add4803d6aa7554e4aaac68a9d381a3bfe3ecfe851bafa6ec7283adfd.ogg",
-        "b": "725f9689b741f641a5937ef2b09afc71b6134c6946df0be1d3ee0b164a4084d4.ogg",
+        "a": "a91dd26b8a2abee744df03f16af02624d9b82a4ec0d0a1169f274f2a5e5f7f09.ogg",
+        "b": "f7ffd0129febfb7835f75ed1410b60595f73b9fdcf0bd564a3eba79ba783a27b.ogg",
         "c": "0b92c911d81c3a74783bde48ac763a4c9db24307c4ac9b5efcc98b394830448d.ogg"
       },
       "feedbackCorrect": "216f2e7a9a9d0360da6b04b6bff9656b5b99f0b04d9d9bba6ee7ba4f5bd0d5fa.ogg",
@@ -3171,24 +3171,6 @@
       "peak": 0.32854363322257996
     },
     {
-      "key": "039fb6d5a90006961fe4335e27c9435b06638b957d8bd54fb065fde8b71376d2",
-      "file": "039fb6d5a90006961fe4335e27c9435b06638b957d8bd54fb065fde8b71376d2.ogg",
-      "text": "The children are playing.",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-001",
-      "role": "option",
-      "optionId": "a",
-      "sha256": "258e724d743811b86bd8395fd97dfcf1bfbd8b34252f2ad480dc456a75173ab2",
-      "bytes": 15000,
-      "durationMs": 2867,
-      "sampleRate": 44100,
-      "peak": 0.2774339020252228
-    },
-    {
       "key": "03d4ee890e72593135f98124e1f8f5018e7edbcdf62222ebd961487edb2e9f93",
       "file": "03d4ee890e72593135f98124e1f8f5018e7edbcdf62222ebd961487edb2e9f93.ogg",
       "text": "hat",
@@ -5241,6 +5223,24 @@
       "peak": 0.36901018023490906
     },
     {
+      "key": "1355f4cf44cff0035d915ce9fdd5426ee6158703b70d45216a5148faf39cb69c",
+      "file": "1355f4cf44cff0035d915ce9fdd5426ee6158703b70d45216a5148faf39cb69c.ogg",
+      "text": "Which word has the long a sound in a_e?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-020",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "a7ac5e834b4891165e0e17c3e3b65cf49f49625123eee680ed45deed9cb3c3af",
+      "bytes": 21561,
+      "durationMs": 3879,
+      "sampleRate": 44100,
+      "peak": 0.25229325890541077
+    },
+    {
       "key": "139f40923425e46fb32c3986aa3106ee9ac12c6e6558a1abcaf9aef047524a1d",
       "file": "139f40923425e46fb32c3986aa3106ee9ac12c6e6558a1abcaf9aef047524a1d.ogg",
       "text": "A food chain shows how rocks are made",
@@ -6429,6 +6429,24 @@
       "peak": 0.3237818479537964
     },
     {
+      "key": "1eadcb64e0d49527d500b42ba121c895e284439b42fd648ce025661ba7750a76",
+      "file": "1eadcb64e0d49527d500b42ba121c895e284439b42fd648ce025661ba7750a76.ogg",
+      "text": "I visit Grandma on mondAy.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-001",
+      "role": "option",
+      "optionId": "c",
+      "sha256": "2c7d0727809c7125274189619242c95f398c55ca185ffcf5059fa9a599c27b14",
+      "bytes": 19808,
+      "durationMs": 3727,
+      "sampleRate": 44100,
+      "peak": 0.33583104610443115
+    },
+    {
       "key": "1eb205255eaee2cdb101725d2802f0bde289dfbf225673be00ead9cde6e4dcd8",
       "file": "1eb205255eaee2cdb101725d2802f0bde289dfbf225673be00ead9cde6e4dcd8.ogg",
       "text": "Which conditions help many common seeds begin to germinate?",
@@ -7455,24 +7473,6 @@
       "peak": 0.35936322808265686
     },
     {
-      "key": "25db19c7274ccf7b5b4f91aa688104bd8da8090deb35a35e3f098412cd22adf6",
-      "file": "25db19c7274ccf7b5b4f91aa688104bd8da8090deb35a35e3f098412cd22adf6.ogg",
-      "text": "the children are playing.",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-001",
-      "role": "option",
-      "optionId": "c",
-      "sha256": "9493a76d371b8b3230c4a5b24a1bb641f841b07ac31c7e3e94250c9a7cf1537f",
-      "bytes": 15345,
-      "durationMs": 2846,
-      "sampleRate": 44100,
-      "peak": 0.25095197558403015
-    },
-    {
       "key": "25fb85a1d342eff192f68add84aea3d4390699529e2b65d4853310647527cc0d",
       "file": "25fb85a1d342eff192f68add84aea3d4390699529e2b65d4853310647527cc0d.ogg",
       "text": "Great effort! Try again!",
@@ -7669,24 +7669,6 @@
       "durationMs": 3719,
       "sampleRate": 44100,
       "peak": 0.23347701132297516
-    },
-    {
-      "key": "279508041f9243560dbcbf5885e959a38f0b6acf54d769ce243eb4292ae22cba",
-      "file": "279508041f9243560dbcbf5885e959a38f0b6acf54d769ce243eb4292ae22cba.ogg",
-      "text": "The Children are playing.",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-001",
-      "role": "option",
-      "optionId": "b",
-      "sha256": "214695134dbe11e28dc3dea0dcf2d9cf1237b613c4fe22c1ac55bda08de07adb",
-      "bytes": 14928,
-      "durationMs": 2845,
-      "sampleRate": 44100,
-      "peak": 0.28107750415802
     },
     {
       "key": "27a6bc9004cf029156d54e638e59c107b290e24abeda6d61d9e52961844bb412",
@@ -9829,24 +9811,6 @@
       "durationMs": 1925,
       "sampleRate": 44100,
       "peak": 0.3758215010166168
-    },
-    {
-      "key": "3ca7b5be6d7a6c1d2f7cf118c5eebf7642252fe596c771d0918418ae24f31a8e",
-      "file": "3ca7b5be6d7a6c1d2f7cf118c5eebf7642252fe596c771d0918418ae24f31a8e.ogg",
-      "text": "Choose the sentence with correct capital letters.",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-001",
-      "role": "prompt",
-      "optionId": null,
-      "sha256": "6fed257d1da2538622371bbd11038a43cf9cfe7d593c6cc85ead6d13ae661593",
-      "bytes": 27331,
-      "durationMs": 5086,
-      "sampleRate": 44100,
-      "peak": 0.3034144639968872
     },
     {
       "key": "3ce776fc8b78702765f6c3ed958f3f02c87a6307d2a0324cbec01f0a7317aeac",
@@ -13143,6 +13107,24 @@
       "peak": 0.4198906421661377
     },
     {
+      "key": "598db3973dc73850346e49730cea41cd90ecb5e657bd99504a4f2c0743797ab0",
+      "file": "598db3973dc73850346e49730cea41cd90ecb5e657bd99504a4f2c0743797ab0.ogg",
+      "text": "I visit Grandma on Monday.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-001",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "b1dc8a904a90a83950517b8494c2df56d76be141e583ffb78664c85413a931e5",
+      "bytes": 19469,
+      "durationMs": 3699,
+      "sampleRate": 44100,
+      "peak": 0.3960385322570801
+    },
+    {
       "key": "59932279a6219a02cf33941775dcb8c9216c3a3308b509c86826ec140a60fd87",
       "file": "59932279a6219a02cf33941775dcb8c9216c3a3308b509c86826ec140a60fd87.ogg",
       "text": "Keep thinking. You're learning!",
@@ -14005,6 +13987,24 @@
       "durationMs": 2679,
       "sampleRate": 44100,
       "peak": 0.28356945514678955
+    },
+    {
+      "key": "5f6ac1e0d44c33dd68e0e7c9a89ab53d31fb2e7de2b0e53a39ddf14ed97f17e2",
+      "file": "5f6ac1e0d44c33dd68e0e7c9a89ab53d31fb2e7de2b0e53a39ddf14ed97f17e2.ogg",
+      "text": "cake",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-020",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "a194ba3b09b2fb7d36205ac5031fb53484f4b2895f22a660e0e791230c831ec5",
+      "bytes": 8669,
+      "durationMs": 1936,
+      "sampleRate": 44100,
+      "peak": 0.3753865361213684
     },
     {
       "key": "5f78c597833060e1139df5d36feac3b001e668d543668ddcd9888fac122ef240",
@@ -16273,24 +16273,6 @@
       "durationMs": 5182,
       "sampleRate": 44100,
       "peak": 0.3502499461174011
-    },
-    {
-      "key": "725f9689b741f641a5937ef2b09afc71b6134c6946df0be1d3ee0b164a4084d4",
-      "file": "725f9689b741f641a5937ef2b09afc71b6134c6946df0be1d3ee0b164a4084d4.ogg",
-      "text": "blue",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-023",
-      "role": "option",
-      "optionId": "b",
-      "sha256": "a41fc42af7ae6094bd95f8cce90f2749c53b54516bc3db1c402571e2fa716e82",
-      "bytes": 8937,
-      "durationMs": 1932,
-      "sampleRate": 44100,
-      "peak": 0.2780207395553589
     },
     {
       "key": "7292c686fc9aa33c7722a2bbd8f2ca3562541f2934bf70173f6b1bba59219f3b",
@@ -23043,6 +23025,24 @@
       "peak": 0.4250321388244629
     },
     {
+      "key": "a91dd26b8a2abee744df03f16af02624d9b82a4ec0d0a1169f274f2a5e5f7f09",
+      "file": "a91dd26b8a2abee744df03f16af02624d9b82a4ec0d0a1169f274f2a5e5f7f09.ogg",
+      "text": "and",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-023",
+      "role": "option",
+      "optionId": "a",
+      "sha256": "7e8effb0d18528191edc99d8ce3079a166791bab7c94d04bdc5e1c83a452c946",
+      "bytes": 8697,
+      "durationMs": 1932,
+      "sampleRate": 44100,
+      "peak": 0.2963228225708008
+    },
+    {
       "key": "a9c4ae8a0ba3973ba5515c406cef70d4620775594c44144f6d4bff2d352708ea",
       "file": "a9c4ae8a0ba3973ba5515c406cef70d4620775594c44144f6d4bff2d352708ea.ogg",
       "text": "We read a story in a ___.",
@@ -23311,6 +23311,24 @@
       "durationMs": 6157,
       "sampleRate": 44100,
       "peak": 0.334145724773407
+    },
+    {
+      "key": "ababe2ee4fa71c5dd471d242d3828545e084bf6d822c66cc528e2ca321a9fae0",
+      "file": "ababe2ee4fa71c5dd471d242d3828545e084bf6d822c66cc528e2ca321a9fae0.ogg",
+      "text": "Choose the word that joins two ideas that contrast: The monster looks scary, ___ it is friendly.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-023",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "80d9e3703dad98a6b47b611f8452d8153638d3c258891a57b95e06f3f3b961e2",
+      "bytes": 53646,
+      "durationMs": 9701,
+      "sampleRate": 44100,
+      "peak": 0.3150620460510254
     },
     {
       "key": "abad3414d5a1a783f7a6da26cff13d99e7cee382cb36a2abf027afb9241e836a",
@@ -25671,24 +25689,6 @@
       "peak": 0.36836349964141846
     },
     {
-      "key": "c11182a8fce8ebe14b0c620d57fd9e58bb9a471b7393239072d5b96574720daa",
-      "file": "c11182a8fce8ebe14b0c620d57fd9e58bb9a471b7393239072d5b96574720daa.ogg",
-      "text": "Which word has the long a sound?",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-020",
-      "role": "prompt",
-      "optionId": null,
-      "sha256": "65b3845e6471aa405f35c0bd77a8d02dbacf47e078a3f38d898895e32993d430",
-      "bytes": 17280,
-      "durationMs": 3222,
-      "sampleRate": 44100,
-      "peak": 0.28055626153945923
-    },
-    {
       "key": "c162e847137e6816cae2f24c2e8d984e9ec162c6ad162b59beaed403a840ff44",
       "file": "c162e847137e6816cae2f24c2e8d984e9ec162c6ad162b59beaed403a840ff44.ogg",
       "text": "Complete the pattern 10, 8, 6, 4, __.",
@@ -26103,24 +26103,6 @@
       "peak": 0.3598857522010803
     },
     {
-      "key": "c46aad3eb6acc1f742fa5238ee6bb93c064818643ab8024168bf20505bd9a3b1",
-      "file": "c46aad3eb6acc1f742fa5238ee6bb93c064818643ab8024168bf20505bd9a3b1.ogg",
-      "text": "Which word joins ideas to explain a reason?",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-023",
-      "role": "prompt",
-      "optionId": null,
-      "sha256": "0b906d707b2b1afb1c570c1463cb60b1058424587e8746f981ccc7a9272558b7",
-      "bytes": 24889,
-      "durationMs": 4459,
-      "sampleRate": 44100,
-      "peak": 0.32357853651046753
-    },
-    {
       "key": "c484340b86c0e4e458c5adedd43fa997baa38067b3a908d147f2fba442733f36",
       "file": "c484340b86c0e4e458c5adedd43fa997baa38067b3a908d147f2fba442733f36.ogg",
       "text": "Smart thinking!",
@@ -26515,24 +26497,6 @@
       "durationMs": 7826,
       "sampleRate": 44100,
       "peak": 0.28847527503967285
-    },
-    {
-      "key": "c794552f506b077f715df6305f542a0528fb6842abe1f2759e2ba731b0394329",
-      "file": "c794552f506b077f715df6305f542a0528fb6842abe1f2759e2ba731b0394329.ogg",
-      "text": "train",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-020",
-      "role": "option",
-      "optionId": "b",
-      "sha256": "bbf4849f3f72174390ac19350588fc3d79d58f08deab2339a2ce241c536d52e7",
-      "bytes": 8968,
-      "durationMs": 1943,
-      "sampleRate": 44100,
-      "peak": 0.3510991334915161
     },
     {
       "key": "c7a848806570f00bd13947b11682721386f6aec5e98111046b9dd1767380273b",
@@ -27865,6 +27829,24 @@
       "durationMs": 1928,
       "sampleRate": 44100,
       "peak": 0.33248206973075867
+    },
+    {
+      "key": "d133fe96b2b51be44bac687c10000b23237bab28679017995d339f2085410085",
+      "file": "d133fe96b2b51be44bac687c10000b23237bab28679017995d339f2085410085.ogg",
+      "text": "Choose the sentence with the day of the week written correctly.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-001",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "10f1e6c28dcfd22f3a7184ea545c9a446a35a072e45108f1adb9524fa5a706f0",
+      "bytes": 34018,
+      "durationMs": 6132,
+      "sampleRate": 44100,
+      "peak": 0.3819012939929962
     },
     {
       "key": "d14ebd60406283f9fd7bf32ef79b1cf63b34ee7c38693b9a1cc772a59afa4828",
@@ -30207,24 +30189,6 @@
       "peak": 0.21913595497608185
     },
     {
-      "key": "e3e18d9add4803d6aa7554e4aaac68a9d381a3bfe3ecfe851bafa6ec7283adfd",
-      "file": "e3e18d9add4803d6aa7554e4aaac68a9d381a3bfe3ecfe851bafa6ec7283adfd.ogg",
-      "text": "under",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-023",
-      "role": "option",
-      "optionId": "a",
-      "sha256": "858baae6821298b181fe24c382e71ec1e0571eb4c4ac0c2262312105ed14cc7e",
-      "bytes": 9095,
-      "durationMs": 1935,
-      "sampleRate": 44100,
-      "peak": 0.3458036184310913
-    },
-    {
       "key": "e3f3ecdf0d9bc410dcf03b25ec8f7dce14cc105e023d3ccf29d2fe3798cf3c86",
       "file": "e3f3ecdf0d9bc410dcf03b25ec8f7dce14cc105e023d3ccf29d2fe3798cf3c86.ogg",
       "text": "A caterpillar",
@@ -31159,6 +31123,24 @@
       "durationMs": 2396,
       "sampleRate": 44100,
       "peak": 0.33458733558654785
+    },
+    {
+      "key": "ebe2ec85df9f395238fa2efe4ce9d5fcb68613daa12792a24b6927477b5459d7",
+      "file": "ebe2ec85df9f395238fa2efe4ce9d5fcb68613daa12792a24b6927477b5459d7.ogg",
+      "text": "I visit Grandma on monday.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-001",
+      "role": "option",
+      "optionId": "a",
+      "sha256": "5e750a810e137c473fbfc9f6d6cc5bc67eb54a393c85265349cf3f80ab7ed811",
+      "bytes": 19824,
+      "durationMs": 3716,
+      "sampleRate": 44100,
+      "peak": 0.39441579580307007
     },
     {
       "key": "ec3955da40879081e6ec8d069b1cc90aaf71d4fab2fe65637fe34aa36c21c5c1",
@@ -32419,6 +32401,24 @@
       "durationMs": 2128,
       "sampleRate": 44100,
       "peak": 0.2573278248310089
+    },
+    {
+      "key": "f7ffd0129febfb7835f75ed1410b60595f73b9fdcf0bd564a3eba79ba783a27b",
+      "file": "f7ffd0129febfb7835f75ed1410b60595f73b9fdcf0bd564a3eba79ba783a27b.ogg",
+      "text": "but",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-023",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "8da12580a40a65ca420f1044627fcc625cb08ebeb715209a1428eba04e26ab12",
+      "bytes": 9057,
+      "durationMs": 1931,
+      "sampleRate": 44100,
+      "peak": 0.5083173513412476
     },
     {
       "key": "f817552d91e804f59eef07c0e5ae111fb5656c1947e9c18361b362128efc1e63",
