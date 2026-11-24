@@ -220,8 +220,8 @@ for (const file of questionArt.files) {
   assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid question-art metadata: " + file.path);
 }
 
-assert.equal(optionArt.count, 376);
-assert.equal(optionArt.files.length, 376);
+assert.equal(optionArt.count, 378);
+assert.equal(optionArt.files.length, 378);
 assert.ok(unique(optionArt.files.map(file => file.path)), "Option-art paths must be unique.");
 assert.ok(unique(optionArt.files.map(file => file.sha256)), "Option-art hashes must be unique.");
 for (const file of optionArt.files) {
