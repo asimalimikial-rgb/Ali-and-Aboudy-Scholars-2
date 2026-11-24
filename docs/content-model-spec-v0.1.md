@@ -2,7 +2,7 @@
 
 **Status:** Revised implementation specification v0.2; English-only hints and guided help are approved product requirements. Runtime changes remain additive and backward-compatible.  
 **Baseline:** Existing Kotlin content model and two bundled JSON packs at schema v3.  
-**Product invariants:** One shared learning engine; isolated KG2 and Grade 2 learner paths; offline-first; Macmillan-first curriculum mapping; original AAS2-authored learning content; English remains the learning language for English/Science activities. No Arabic or explanatory paragraph is added inside child activities by default, under the confirmed Notion product decision.
+**Product invariants:** One shared learning engine; isolated KG2 and Grade 2 learner paths; offline-first; Macmillan-first curriculum mapping; original AAS2-authored learning content; English remains the learning language for English/Science activities. No Arabic is added inside child activities. English hints and step-by-step help are an approved learner-support feature.
 
 ## 1. Design decisions
 
@@ -172,7 +172,7 @@ A reviewer may return an item to an earlier state with a reason. Only APPROVED c
 
 ## 6. Non-functional requirements
 
-- Offline operation: all required prompt, answer and media assets are bundled or explicitly cached before the session. No helper assets are part of MVP.
+- Offline operation: prompts, answers, hint/help text and required visual assets are bundled or explicitly cached before the session.
 - Performance: parse/validate packs off the main UI thread; do not decode full-resolution media during composition.
 - Accessibility: scalable text, screen-reader labels, adequate touch targets, reduced motion, audio alternatives; RTL applies to UI/localized parent surfaces only if configured, not by translating child learning activities.
 - Privacy: no child response/audio/image upload by default; any future sync or recording requires a separate consent and data-retention design.
