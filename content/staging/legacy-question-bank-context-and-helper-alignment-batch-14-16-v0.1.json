@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "patchId": "legacy-question-bank-context-and-helper-alignment-batch-14-16-v0.1",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "file": "content/question-bank/legacy-question-bank.json"
+  },
+  "scope": "LEGACY-14 through LEGACY-16; 75 Aboudy Grade 2 records inspected.",
+  "summary": {
+    "items": 44,
+    "contextualPromptCorrections": 12,
+    "arabicHelperCorrections": 44,
+    "productionApproved": 0,
+    "runtimeIntegrated": 0,
+    "currentChildRuntimeExposure": false,
+    "englishPromptAudioRegenerationRequired": 12,
+    "futureArabicHelperAudioRegenerationRequired": 44
+  },
+  "items": [
+    {
+      "questionId": "legacy-aboudy-0066",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “teacher” a noun?",
+          "proposedValue": "In \"The teacher is kind\", is teacher a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “teacher” a noun?",
+          "proposedValue": "In \"The teacher is kind\", is teacher a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة teacher ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0067",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “run” a noun?",
+          "proposedValue": "In \"I run every day\", is run a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “run” a noun?",
+          "proposedValue": "In \"I run every day\", is run a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة run ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0068",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “school” a noun?",
+          "proposedValue": "In \"My school is big\", is school a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “school” a noun?",
+          "proposedValue": "In \"My school is big\", is school a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة school ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0069",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “jump” a noun?",
+          "proposedValue": "In \"I jump high\", is jump a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “jump” a noun?",
+          "proposedValue": "In \"I jump high\", is jump a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة jump ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0070",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “book” a noun?",
+          "proposedValue": "In \"The book is new\", is book a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “book” a noun?",
+          "proposedValue": "In \"The book is new\", is book a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة book ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0071",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “sing” a noun?",
+          "proposedValue": "In \"They sing together\", is sing a noun?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “sing” a noun?",
+          "proposedValue": "In \"They sing together\", is sing a noun?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة sing ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "حدّد الكلمة التي تسمّي شخصاً أو مكاناً أو شيئاً، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0072",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “run” a verb?",
+          "proposedValue": "In \"I run every day\", is run a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “run” a verb?",
+          "proposedValue": "In \"I run every day\", is run a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة run ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0073",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “cat” a verb?",
+          "proposedValue": "In \"The cat sleeps\", is cat a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “cat” a verb?",
+          "proposedValue": "In \"The cat sleeps\", is cat a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة cat ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0074",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “jump” a verb?",
+          "proposedValue": "In \"I jump high\", is jump a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “jump” a verb?",
+          "proposedValue": "In \"I jump high\", is jump a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة jump ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0075",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “table” a verb?",
+          "proposedValue": "In \"The table is brown\", is table a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “table” a verb?",
+          "proposedValue": "In \"The table is brown\", is table a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة table ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0076",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “read” a verb?",
+          "proposedValue": "In \"I read a book\", is read a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “read” a verb?",
+          "proposedValue": "In \"I read a book\", is read a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة read ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0077",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Is “chair” a verb?",
+          "proposedValue": "In \"The chair is brown\", is chair a verb?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Is “chair” a verb?",
+          "proposedValue": "In \"The chair is brown\", is chair a verb?"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "انطق كلمة chair ببطء، واستمع إلى أول صوت فيها قبل أن تحكم على العبارة.",
+          "proposedValue": "ابحث عن الكلمة التي تدل على فعل أو عمل، ثم قيّم العبارة."
+        }
+      ],
+      "rationale": "Add sentence context so noun/verb classification is unambiguous; align the Arabic helper with grammatical function rather than initial-sound listening.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0025",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة is بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن كلمة تسمّي شخصاً أو مكاناً أو شيئاً؛ هذه هي وظيفة الاسم."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0026",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة is بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن كلمة تسمّي شخصاً أو مكاناً أو شيئاً؛ هذه هي وظيفة الاسم."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0027",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة person بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن كلمة تدل على شخص، لا على مكان أو شيء."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0028",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة place بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن كلمة تدل على مكان يمكن الذهاب إليه."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0029",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة letter بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن اسم محدد لشخص؛ الأسماء المحددة تبدأ بحرف كبير في الإنجليزية."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0030",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة a big dog بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "ابحث عن الكلمة التي تصف الاسم وتخبرنا عن صفته."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0040",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة bag بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "الجملة تسأل عن مكان الحقيبة؛ اختر علامة الاستفهام في النهاية."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0041",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة apples بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "هذه جملة تخبرنا بشيء؛ اختر النقطة في النهاية."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0042",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة amazing بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "الجملة تعبّر عن دهشة أو انفعال؛ اختر علامة التعجب."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0043",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة name بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "هذه جملة سؤال؛ اختر علامة الاستفهام في النهاية."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0044",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة asleep بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "هذه جملة تخبرنا بشيء؛ اختر النقطة في النهاية."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0045",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة story بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0046",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة live بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0047",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة Ben بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0048",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة end بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0049",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-14",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة Mia بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0050",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة kitten بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0051",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة kitten بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0052",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة Mia بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0053",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة go بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0054",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة see بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0055",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة them بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0056",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة kite بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0057",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة up بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0058",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة like بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0059",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-15",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة lunch بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0089",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة live بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0090",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة came بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0091",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة run بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0092",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "اقرأ كلمة describes بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+          "proposedValue": "اقرأ القصة، ثم ارجع إلى الجملة التي تحتوي على الإجابة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0096",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال place، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "حدّد منزلة الرقم 4 في العدد، ثم اختر اسم هذه المنزلة."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0097",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-16",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال means، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "حدّد منزلة الرقم 5 أولاً، ثم اكتب قيمته بحسب موقعه."
+        }
+      ],
+      "rationale": "The existing helper focuses on pronunciation or generic strategy rather than the assessed grammar, punctuation, reading-comprehension or place-value skill.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    }
+  ]
+}

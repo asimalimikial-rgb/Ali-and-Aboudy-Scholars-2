@@ -487,6 +487,16 @@ assert.equal(legacyHelperPatchBatch11to13.summary.runtimeIntegrated, 0);
 assert.equal(new Set(legacyHelperPatchBatch11to13.items.map(item => item.questionId)).size, 11);
 assert.ok(legacyHelperPatchBatch11to13.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
 
+const legacyContextHelperPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-context-and-helper-alignment-batch-14-16-v0.1.json"), "utf8"));
+assert.equal(legacyContextHelperPatch.items.length, 44);
+assert.equal(legacyContextHelperPatch.summary.contextualPromptCorrections, 12);
+assert.equal(legacyContextHelperPatch.summary.arabicHelperCorrections, 44);
+assert.equal(legacyContextHelperPatch.summary.productionApproved, 0);
+assert.equal(legacyContextHelperPatch.summary.runtimeIntegrated, 0);
+assert.equal(new Set(legacyContextHelperPatch.items.map(item => item.questionId)).size, 44);
+assert.ok(legacyContextHelperPatch.items.every(item => item.changes.length > 0 && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
+assert.ok(legacyContextHelperPatch.items.filter(item => item.changes.some(change => change.field === "prompt")).every(item => item.audioRegenerationRequired === true));
+
 
 const scienceEnrichment = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-enrichment-x01-mapping-v0.1.json"), "utf8"));
 assert.equal(scienceEnrichment.items.length, 25);
