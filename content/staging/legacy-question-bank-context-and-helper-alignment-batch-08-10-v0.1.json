@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "patchId": "legacy-question-bank-context-and-helper-alignment-batch-08-10-v0.1",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "file": "content/question-bank/legacy-question-bank.json"
+  },
+  "scope": "LEGACY-08 through LEGACY-10; 75 Ali KG2 records reviewed.",
+  "summary": {
+    "items": 14,
+    "promptCorrections": 4,
+    "helperCorrections": 13,
+    "openVisualIssues": 7,
+    "productionApproved": 0,
+    "runtimeIntegrated": 0,
+    "currentChildRuntimeExposure": false,
+    "audioRegenerationRequiredOnFutureMigration": 4,
+    "futureArabicHelperAudioRegenerationRequired": 13
+  },
+  "items": [
+    {
+      "questionId": "legacy-ali-0190",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-08",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال circle، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن خصائص الأشكال من حيث عدد الأضلاع والزوايا وطول الأضلاع."
+        }
+      ],
+      "rationale": "The prompt asks for shape recognition, but only text labels are supplied; the helper should describe the visual properties.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0191",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-08",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال square، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن خصائص الأشكال من حيث عدد الأضلاع والزوايا وطول الأضلاع."
+        }
+      ],
+      "rationale": "The prompt asks for shape recognition, but only text labels are supplied.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0192",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-08",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال triangle، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن خصائص الأشكال من حيث عدد الأضلاع والزوايا وطول الأضلاع."
+        }
+      ],
+      "rationale": "The prompt asks for shape recognition, but only text labels are supplied.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0193",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-08",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال rectangle، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن خصائص الأشكال من حيث عدد الأضلاع والزوايا وطول الأضلاع."
+        }
+      ],
+      "rationale": "The prompt asks for shape recognition, but only text labels are supplied.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0219",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال tree، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "انظر إلى موضع الطائر بالنسبة إلى الشجرة، ثم اختر كلمة المكان المناسبة."
+        }
+      ],
+      "rationale": "The task depends on a spatial scene, but no visual scene is stored.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0221",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال clouds، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "انظر إلى موضع الشمس بالنسبة إلى السحب في المشهد."
+        }
+      ],
+      "rationale": "The task depends on a spatial scene, but no visual scene is stored.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0225",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال longer، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن الطول المعتاد للحيوانات المعروضة، ولا تعتمد على الحجم وحده."
+        }
+      ],
+      "rationale": "The comparative-length item has no measured lengths or scale; the helper should avoid treating size as exact measurement.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0228",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-10",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حوّل الكميتين إلى الوحدة نفسها قبل المقارنة بين الكتلتين.",
+          "proposedValue": "قارن الكتلة المعتادة للأشياء؛ لا تخلط بين الكتلة والحجم."
+        }
+      ],
+      "rationale": "The old helper instructs unit conversion although no measured quantities or units are shown.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0229",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-10",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال lighter، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "فكّر في كتلة كل حيوان مقارنة بالآخرين."
+        }
+      ],
+      "rationale": "The current helper is generic rather than guiding qualitative mass comparison.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0230",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-10",
+      "changes": [
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال water، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن سعة الأوعية، أي كمية الماء التي يمكن لكل وعاء أن يحتويها."
+        }
+      ],
+      "rationale": "The task compares capacity; the helper should explain how much water each container can hold.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-ali-0220",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "The fish is ______ the water.",
+          "proposedValue": "The fish is ______ the water surface."
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "The fish is ______ the water.",
+          "proposedValue": "The fish is ______ the water surface."
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال water، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "قارن موضع السمكة بسطح الماء؛ هل هي فوق السطح أم تحته؟"
+        }
+      ],
+      "rationale": "Make the spatial reference explicit; the original “below the water” wording is imprecise.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredOnFutureMigration": true
+    },
+    {
+      "questionId": "legacy-ali-0222",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "You write with your ______ hand.",
+          "proposedValue": "The hand on the right side of your body is your ______ hand."
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "You write with your ______ hand.",
+          "proposedValue": "The hand on the right side of your body is your ______ hand."
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال hand، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "فكّر في الجهة اليمنى من جسمك، ثم حدّد اليد الموجودة فيها."
+        }
+      ],
+      "rationale": "Remove the assumption that the learner is right-handed while preserving the right/left spatial concept.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredOnFutureMigration": true
+    },
+    {
+      "questionId": "legacy-ali-0223",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-09",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Your heart is on the ______ side.",
+          "proposedValue": "Your heart is mostly on the ______ side of your chest."
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Your heart is on the ______ side.",
+          "proposedValue": "Your heart is mostly on the ______ side of your chest."
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال side، ثم اختر طريقة تمثيل تساعدك على الحل.",
+          "proposedValue": "تذكّر موضع القلب في الصدر بالنسبة إلى المنتصف."
+        }
+      ],
+      "rationale": "Use a scientifically cautious statement rather than implying the heart lies entirely on the left side.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredOnFutureMigration": true
+    },
+    {
+      "questionId": "legacy-ali-0245",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-10",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "What does the flower need?",
+          "proposedValue": "What helped the seed grow?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "What does the flower need?",
+          "proposedValue": "What helped the seed grow?"
+        }
+      ],
+      "rationale": "Align the top-level prompt and title with the story's explicit question; the old title asks about a flower while the story is about a seed.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredOnFutureMigration": true
+    }
+  ],
+  "openIssues": [
+    {
+      "questionId": "legacy-ali-0190",
+      "issue": "Shape-name options are text-only; add shape illustrations if the intended assessment is visual shape recognition rather than reading shape vocabulary."
+    },
+    {
+      "questionId": "legacy-ali-0191",
+      "issue": "Shape-name options are text-only; add shape illustrations if the intended assessment is visual shape recognition rather than reading shape vocabulary."
+    },
+    {
+      "questionId": "legacy-ali-0192",
+      "issue": "Shape-name options are text-only; add shape illustrations if the intended assessment is visual shape recognition rather than reading shape vocabulary."
+    },
+    {
+      "questionId": "legacy-ali-0193",
+      "issue": "Shape-name options are text-only; add shape illustrations if the intended assessment is visual shape recognition rather than reading shape vocabulary."
+    },
+    {
+      "questionId": "legacy-ali-0219",
+      "issue": "Add a spatial illustration showing the bird above the tree; the relation is not otherwise established."
+    },
+    {
+      "questionId": "legacy-ali-0221",
+      "issue": "Add a spatial illustration showing the sun above the clouds; the relation is not otherwise established."
+    },
+    {
+      "questionId": "legacy-ali-0225",
+      "issue": "Provide a length scale or explicit measured lengths; animal size varies and the current prompt gives no measurement evidence."
+    }
+  ]
+}

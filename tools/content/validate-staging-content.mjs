@@ -513,6 +513,17 @@ assert.equal(legacyFinalHelperPatch.summary.runtimeIntegrated, 0);
 assert.equal(new Set(legacyFinalHelperPatch.items.map(item => item.questionId)).size, 30);
 assert.ok(legacyFinalHelperPatch.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
 
+const legacyBatch08to10Patch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-context-and-helper-alignment-batch-08-10-v0.1.json"), "utf8"));
+assert.equal(legacyBatch08to10Patch.items.length, 14);
+assert.equal(legacyBatch08to10Patch.summary.promptCorrections, 4);
+assert.equal(legacyBatch08to10Patch.summary.helperCorrections, 13);
+assert.equal(legacyBatch08to10Patch.openIssues.length, 7);
+assert.equal(legacyBatch08to10Patch.summary.productionApproved, 0);
+assert.equal(legacyBatch08to10Patch.summary.runtimeIntegrated, 0);
+assert.equal(new Set(legacyBatch08to10Patch.items.map(item => item.questionId)).size, 14);
+assert.ok(legacyBatch08to10Patch.items.every(item => Array.isArray(item.changes) && item.changes.length > 0 && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
+assert.ok(legacyBatch08to10Patch.items.filter(item => item.changes.some(change => change.field === "prompt")).every(item => item.audioRegenerationRequiredOnFutureMigration === true));
+
 const legacyBatch20to22Patch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-localisation-and-science-batch-20-22-v0.1.json"), "utf8"));
 assert.equal(legacyBatch20to22Patch.items.length, 18);
 assert.equal(legacyBatch20to22Patch.summary.helperCorrections, 11);
