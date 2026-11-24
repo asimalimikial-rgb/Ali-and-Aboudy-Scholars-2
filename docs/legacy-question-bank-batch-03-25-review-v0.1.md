@@ -13,7 +13,7 @@
 
 ## Confirmed corrections staged
 
-Nine patch records are in `content/staging/legacy-question-bank-correction-patch-v0.1.json`:
+Twelve patch records are in `content/staging/legacy-question-bank-correction-patch-v0.1.json` (nine findings from batches 03–25 plus three Batch 01 prompt/phoneme corrections):
 
 | Item | Finding | Proposed correction |
 |---|---|---|
@@ -26,6 +26,9 @@ Nine patch records are in `content/staging/legacy-question-bank-correction-patch
 | `legacy-aboudy-0221` | Seed-germination answer omits oxygen | Add water, air and warmth |
 | `legacy-aboudy-0242` | “What shines brightly?” has multiple plausible answers | Ask for the main source of daytime light |
 | `legacy-aboudy-0315` | Follow-up question has no passage | Attach the Sami weather passage or group it with a shared stimulus |
+| `legacy-ali-0001` | Generic `/a/` notation is accent-ambiguous for “apple” | Use British English short-vowel notation `/æ/`; verify against the selected course edition |
+| `legacy-ali-0007` | “sun” is represented with the wrong short-vowel phoneme | Change the blend stimulus to `/s/ - /ʌ/ - /n/` |
+| `legacy-ali-0008` | “Pick the CVC word: DOG” has more than one valid answer | Ask which word begins with `/d/` so DOG is uniquely correct |
 
 All changes are staging proposals with `REVISED_PENDING_TECHNICAL_QA`. The source bank remains untouched. Prompt, option, story or target changes require regenerated audio and renewed media validation.
 

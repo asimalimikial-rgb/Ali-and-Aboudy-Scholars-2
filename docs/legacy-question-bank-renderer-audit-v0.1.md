@@ -82,7 +82,7 @@ The 468 strict multiple-choice records are not all plain text-only items. A sour
 
 ## 7. Item-level corrections staged — batches 03–25
 
-The staging patch `content/staging/legacy-question-bank-correction-patch-v0.1.json` contains nine proposed corrections:
+The staging patch `content/staging/legacy-question-bank-correction-patch-v0.1.json` contains twelve proposed corrections (nine from batches 03–25 and three from Batch 01):
 - Correct the `bus` /s/ true/false answer from true to false.
 - Align “red ball” wording with the colored-circle options.
 - Localize the 15-cent money task to 15 piastres.
@@ -91,8 +91,11 @@ The staging patch `content/staging/legacy-question-bank-correction-patch-v0.1.js
 - Include air with water and warmth in the seed-germination answer.
 - Clarify the daytime Sun question.
 - Attach the missing Sami passage to its follow-up question.
+- Clarify the British English short-vowel notation for “apple” as `/æ/`.
+- Correct the short-vowel phoneme in the “sun” blend to `/ʌ/`.
+- Replace the ambiguous DOG CVC prompt with a unique initial-/d/ question.
 
-All nine patch items remain `REVISED_PENDING_TECHNICAL_QA`; any text/audio-affecting change requires regeneration and validation. The five open issue groups above remain unpatched. No source-bank item is changed or production-approved.
+All twelve patch items remain `REVISED_PENDING_TECHNICAL_QA`; any text/audio-affecting change requires regeneration and validation. The five open issue groups above remain unpatched. No source-bank item is changed or production-approved.
 
 
 ## 9. Listening target leakage — 69 multiple-choice items
