@@ -731,7 +731,10 @@ function semanticOptionKinds(q,label){
  if(/\bbrain\b/i.test(text))return ["brain","skull"];
  if(/\bcork\b/i.test(text))return ["cork","water"];
  if(/\bstove\b/i.test(text))return ["stove","sun"];
- if(/\bdaylight|sunlight\b/i.test(text))return ["sun","planet"];
+ if(/\bdaylight|sunlight\b/i.test(text)){
+  var daylightKinds=found.filter(function(kind){return kind!=="sun"||/\bsunlight|\bsun\b/i.test(text);});
+  return daylightKinds.length?daylightKinds.slice(0,3):["sun"];
+ }
  if(/\bair\b/i.test(text))return ["wind"];
  if(/\bocean|sea\b/i.test(text))return ["water","fish"];
  if(/\bbig|bigger|large|huge\b/i.test(text))return ["big"];
