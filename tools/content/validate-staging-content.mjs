@@ -1,8 +1,14 @@
 import fs from "node:fs";
+import path from "node:path";
 import assert from "node:assert/strict";
 
 const catalog = JSON.parse(fs.readFileSync("content/catalog/seven-book-catalog.json", "utf8"));
 const patch = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-batch-01.json", "utf8"));
+const assetRoot = "app/src/main/assets";
+const packs = [
+  JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-kg2-foundation.json"), "utf8")),
+  JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-grade2-foundation.json"), "utf8"))
+];
 
 assert.equal(catalog.books.length, 7, "The selected book catalog must contain exactly seven books.");
 const bookIds = catalog.books.map(book => book.bookId);
@@ -51,4 +57,81 @@ for (const item of openResponse) {
 assert.match(patch.reviewPolicy.arabicHelper, /Do not expose/i,
   "Legacy Arabic helper fields must not be exposed in the child runtime.");
 
-console.log("PASS staging content validation: seven-book catalog, 282-item reconciliation, 62 Science mappings, and seven pending legacy review patches.");
+// Verify all generated media against manifests and the actual checked-in files.
+const audio = JSON.parse(fs.readFileSync(path.join(assetRoot, "speech/manifest.json"), "utf8"));
+const questionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "question-art/manifest.json"), "utf8"));
+const optionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "option-art/manifest.json"), "utf8"));
+const unique = values => new Set(values).size === values.length;
+
+assert.equal(audio.count, 1692);
+assert.equal(audio.files.length, 1692);
+assert.equal(Object.keys(audio.activities).length, 282);
+assert.equal(audio.settings.language, "en");
+assert.equal(audio.settings.speed, 0.70);
+assert.ok(unique(audio.files.map(file => file.file)), "Audio filenames must be unique.");
+assert.ok(unique(audio.files.map(file => file.sha256)), "Audio hashes must be unique.");
+assert.ok(audio.files.every(file =>
+  file.language === "en" && file.speed === 0.70 && file.bytes > 0 &&
+  file.durationMs >= 100 && /^[a-f0-9]{64}$/.test(file.sha256)
+), "Every audio manifest entry must have valid English/speed/hash/size/duration metadata.");
+for (const file of audio.files) {
+  assert.ok(fs.existsSync(path.join(assetRoot, "speech", file.file)), "Missing OGG file: " + file.file);
+}
+const audioRoles = audio.files.reduce((counts, file) => {
+  counts[file.role] = (counts[file.role] || 0) + 1;
+  return counts;
+}, {});
+assert.deepEqual(audioRoles, {
+  "feedback-correct": 282,
+  "feedback-incorrect": 282,
+  option: 846,
+  prompt: 282
+});
+
+assert.equal(questionArt.questionCount, 282);
+assert.equal(questionArt.files.length, 282);
+assert.equal(questionArt.formats.svg, 245);
+assert.equal(questionArt.formats.png, 37);
+assert.ok(unique(questionArt.files.map(file => file.activityId)), "Question-art activity IDs must be unique.");
+assert.ok(unique(questionArt.files.map(file => file.path)), "Question-art paths must be unique.");
+assert.ok(unique(questionArt.files.map(file => file.sha256)), "Question-art hashes must be unique.");
+for (const file of questionArt.files) {
+  assert.ok(fs.existsSync(path.join(assetRoot, file.path)), "Missing question illustration: " + file.path);
+  assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid question-art metadata: " + file.path);
+}
+
+assert.equal(optionArt.count, 374);
+assert.equal(optionArt.files.length, 374);
+assert.ok(unique(optionArt.files.map(file => file.path)), "Option-art paths must be unique.");
+assert.ok(unique(optionArt.files.map(file => file.sha256)), "Option-art hashes must be unique.");
+for (const file of optionArt.files) {
+  assert.ok(fs.existsSync(path.join(assetRoot, file.path)), "Missing option illustration: " + file.path);
+  assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid option-art metadata: " + file.path);
+}
+
+let englishActivityCount = 0;
+const seenActivityIds = new Set();
+for (const pack of packs) {
+  for (const activity of pack.activities) {
+    if (activity.language !== "en") continue;
+    englishActivityCount += 1;
+    assert.ok(!seenActivityIds.has(activity.activityId), "Duplicate English activity ID: " + activity.activityId);
+    seenActivityIds.add(activity.activityId);
+    assert.ok(audio.activities[activity.activityId], "Missing audio manifest mapping: " + activity.activityId);
+    assert.ok(fs.existsSync(path.join(assetRoot, activity.promptImageAssetPath)), "Missing prompt image reference: " + activity.activityId);
+    assert.ok(fs.existsSync(path.join(assetRoot, activity.promptAudioAssetPath)), "Missing prompt audio reference: " + activity.activityId);
+    assert.ok(fs.existsSync(path.join(assetRoot, activity.feedbackCorrectAudioAssetPath)), "Missing correct-feedback audio: " + activity.activityId);
+    assert.ok(fs.existsSync(path.join(assetRoot, activity.feedbackIncorrectAudioAssetPath)), "Missing incorrect-feedback audio: " + activity.activityId);
+    const optionIds = activity.options.map(option => option.optionId);
+    assert.deepEqual(Object.keys(activity.optionAudioAssetPaths).sort(), [...optionIds].sort(),
+      "Every option must have exactly one audio reference: " + activity.activityId);
+    for (const assetPath of Object.values(activity.optionAudioAssetPaths)) {
+      assert.ok(fs.existsSync(path.join(assetRoot, assetPath)), "Missing option audio reference: " + activity.activityId);
+    }
+  }
+}
+assert.equal(englishActivityCount, 282);
+assert.equal(seenActivityIds.size, 282);
+assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
+
+console.log("PASS: seven-book catalog, legacy review patch, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
