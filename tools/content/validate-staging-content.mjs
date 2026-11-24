@@ -412,6 +412,17 @@ assert.equal(legacyQualityPatch.summary.arabicHelperCorrections, 7);
 assert.equal(legacyQualityPatch.summary.productionApproved, 0);
 assert.equal(new Set(legacyQualityPatch.items.map(item => item.questionId)).size, 12);
 assert.ok(legacyQualityPatch.items.every(item => item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
+assert.equal(legacyQualityPatch.summary.audioRegenerationRequired, 12);
+assert.ok(legacyQualityPatch.items.every(item => item.audioRegenerationRequired === true && Array.isArray(item.mediaRegenerationScope)));
+const busQualityFix = legacyQualityPatch.items.find(item => item.questionId === "legacy-ali-0073");
+assert.equal(busQualityFix.proposedAnswer, true);
+assert.equal(busQualityFix.proposedLegacyDataAnswer, true);
+assert.equal(busQualityFix.supersedesPatch, "legacy-question-bank-correction-patch-v0.1.json#legacy-ali-0073");
+const phonemePromptFixes = legacyQualityPatch.items.filter(item => ["legacy-ali-0112", "legacy-ali-0113", "legacy-ali-0114", "legacy-ali-0115"].includes(item.questionId));
+assert.equal(phonemePromptFixes.length, 4);
+assert.ok(phonemePromptFixes.every(item => item.additionalChanges?.length === 1 && item.additionalChanges[0].field === "prompt" && item.additionalChanges[0].proposedValue.includes("phonemes: /")));
+const hatHelperFix = legacyQualityPatch.items.find(item => item.questionId === "legacy-ali-0009");
+assert.ok(hatHelperFix.proposedValue.includes("/h/") && hatHelperFix.proposedValue.includes("/t/") && hatHelperFix.proposedValue.includes("/æ/"));
 
 
 const personalCoverManifest = JSON.parse(fs.readFileSync(path.join(process.cwd(), "app/src/main/assets/book-covers/manifest.json"), "utf8"));
