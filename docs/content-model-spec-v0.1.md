@@ -1,13 +1,13 @@
 # AAS2 Content Model Specification v0.1
 
-**Status:** Architecture specification draft; no Android schema or runtime code changed by this document.  
+**Status:** Revised implementation specification v0.2; English-only hints and guided help are approved product requirements. Runtime changes remain additive and backward-compatible.  
 **Baseline:** Existing Kotlin content model and two bundled JSON packs at schema v3.  
 **Product invariants:** One shared learning engine; isolated KG2 and Grade 2 learner paths; offline-first; Macmillan-first curriculum mapping; original AAS2-authored learning content; English remains the learning language for English/Science activities. No Arabic or explanatory paragraph is added inside child activities by default, under the confirmed Notion product decision.
 
 ## 1. Design decisions
 
 1. **Separate learning language from UI locale.** The language of the learning objective and prompt is not selected from the device locale. A child using an Arabic device must not silently receive a fully translated Arabic science/English activity.
-2. **Arabic helper is deferred, not an MVP feature.** The confirmed product decision is no Arabic language or explanation inside child activities by default. The logical model may reserve an extension point for a future, evidence-backed exception, but no helper object is populated, exposed in settings, or rendered unless a new specific need is documented and approved.
+2. **No Arabic in child learning content.** Prompts, options, hints, help steps, explanations, feedback, audio scripts/transcripts, and text embedded in learning media must be English-only. The user explicitly approved high-quality English hints and step-by-step help; these are not translations and must not reveal the answer.
 3. **Preserve v3 reading compatibility.** Existing v3 packs remain readable without rewriting their files. A v4-capable app reads v3 through an explicit legacy adapter; a v3 app must never be given a v4-only pack.
 4. **Content is typed, not renderer-inferred.** Each activity declares its type and typed payload. Renderer support is an allow-list, not a best-effort guess.
 5. **Provenance is first-class.** Skills, activities and media refer to stable source IDs and content review states. A source's curriculum alignment does not grant reproduction rights.
@@ -70,14 +70,14 @@ Required:
 - `mediaIds`: zero or more IDs in the manifest.
 
 Optional:
-- No helper field is populated in the MVP content contract. A future approved exception may add a separate support object without changing `learningLanguage`.
+- Optional `hintSequence` (1–3 progressive English hints), `helpSteps` (1–4 short English teaching steps), and optional `hintImageAssetPath` / `helpImageAssetPath` are permitted. Empty defaults preserve v3/v4 pack compatibility.
 - `accessibility`: concise alt text, spoken text equivalent, reduced-motion alternative.
 - `tags`: diagnostic, practice, transfer, review, local-context etc.
 
 ### 3.4 Language model
 
 - `learningLanguage` is an ISO language code such as `en`; it determines prompt, choices, and answer content.
-- No Arabic helper, translation, or pre-question explanation is present in the current MVP. A future exception requires a specific observed learning need, a narrowly scoped proposal, and explicit approval. It must not be enabled merely because the device locale is Arabic.
+- Arabic translations or Arabic explanations are never permitted inside child activities. Hints and help are authored in clear, age-appropriate English and must work without translation.
 - `uiLocale` is selected by the app/parent settings and controls navigation, parent dashboard and system messages; it must not rewrite learning content.
 - Do not generate duplicate learning activities merely to match the device locale; localize parent-facing UI independently.
 - The activity must be fully solvable in its learning language without translation or explanation.
@@ -138,7 +138,7 @@ Attempt evidence should eventually record:
 - learner ID/path, skill ID, activity ID + content version;
 - response and correctness;
 - attempt timestamp;
-- hint exposure (only for an explicitly supported hint activity; no helper field in MVP);
+- hint/help exposure (whether a hint or help step was revealed);
 - assessment phase;
 - feedback key shown;
 - evidence modality;
@@ -185,7 +185,7 @@ A reviewer may return an item to an earlier state with a reason. Only APPROVED c
 - Final Kotlin sealed classes / JSON discriminator names.
 - Whether v4 is introduced with one new pack or staged dual-reader release.
 - Which activity types are in MVP beyond SINGLE_CHOICE.
-- Whether a future Arabic helper is justified; current product rule is no Arabic or explanation inside child activities unless a new need is evidenced and approved.
+- No Arabic support is allowed in child activities. English-only hints/help are approved and must be quality-reviewed.
 - Numeric mastery thresholds and exact spaced-review intervals.
 - Any cloud account, analytics, speech recognition, generative marking or data synchronization.
 - Exact image/audio compression budgets.
