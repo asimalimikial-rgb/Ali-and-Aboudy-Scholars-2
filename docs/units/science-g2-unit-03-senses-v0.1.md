@@ -37,3 +37,9 @@ This original AAS2 unit follows the scope-level sequence for Macmillan Science L
 6. Pass Content Validation and Android CI; test playback and rendering on a physical Android device.
 
 **No activity in this draft is production-approved.** See `content/staging/science-g2-unit-03-senses-draft-v0.1.json` for the complete structured draft.
+
+## First-pass assessment QA — 24 November 2026
+
+- Item `aas2-g2-sci-u03-039` originally asked which two senses can help notice an orange. That wording admitted several valid pairs (for example sight and smell, touch and smell, or smell and taste), so the intended key was not uniquely determined.
+- Revised the prompt to ask specifically about noticing the orange's smell and taste; retained the keyed pair `Smell and taste` and updated option rationales to explain why the other pairs do not meet both requested functions.
+- The item remains a staging draft. Its prompt audio is marked for regeneration; transcript/acoustic QA and SVG rendering review remain pending. No runtime content was changed.
