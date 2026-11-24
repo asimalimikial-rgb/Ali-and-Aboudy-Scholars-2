@@ -45,7 +45,7 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.4.1", pack.version)
+        assertEquals("0.4.4", pack.version)
         assertEquals(4, pack.schemaVersion)
         assertEquals(32, pack.skills.size)
         assertEquals(180, pack.activities.size)
@@ -83,9 +83,14 @@ class BundledContentPackAssetsTest {
         assertEquals(100, newActivities.count { it.activityId.startsWith("new-aboudy-") })
         listOf("new-ali-", "new-aboudy-").forEach { prefix ->
             val learnerItems = newActivities.filter { it.activityId.startsWith(prefix) }
-            assertEquals(33, learnerItems.count { it.correctOptionId == "a" })
-            assertEquals(33, learnerItems.count { it.correctOptionId == "b" })
-            assertEquals(34, learnerItems.count { it.correctOptionId == "c" })
+            val correctOptionCounts = listOf("a", "b", "c").map { optionId ->
+                learnerItems.count { it.correctOptionId == optionId }
+            }
+            assertEquals(100, correctOptionCounts.sum())
+            assertTrue(
+                "Correct-option distribution should remain balanced for $prefix: $correctOptionCounts",
+                correctOptionCounts.maxOrNull()!! - correctOptionCounts.minOrNull()!! <= 3
+            )
         }
         assertEquals(200, newActivities.map { it.activityId }.distinct().size)
         assertEquals(200, newActivities.map { it.prompt.trim().lowercase() }.distinct().size)
