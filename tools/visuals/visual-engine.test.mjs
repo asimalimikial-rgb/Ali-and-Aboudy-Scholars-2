@@ -19,6 +19,13 @@ assert.match(waterAndSun, /aria-label="sun"/);
 assert.match(waterAndSun, /aria-label="water"/);
 assert.doesNotMatch(waterAndSun, /aria-label="planet"/);
 
+const rootsClaim = visuals.renderOption(
+  { prompt: "Which statement about plants is correct?", type: "mc_text" },
+  "Roots make sunlight"
+);
+assert.match(rootsClaim, /aria-label="roots"/);
+assert.match(rootsClaim, /aria-label="sun"/);
+
 const plantNegation = visuals.renderOption(
   { prompt: "Which statement about plants is correct?", type: "mc_text" },
   "Plants do not need sunlight"
