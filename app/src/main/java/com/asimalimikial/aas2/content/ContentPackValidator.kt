@@ -132,6 +132,24 @@ object ContentPackValidator {
                 if (activity.feedbackCorrect.isBlank()) add("Activity at index $index has empty correct feedback")
                 if (activity.feedbackIncorrect.isBlank()) add("Activity at index $index has empty incorrect feedback")
                 if (activity.difficulty !in 1..5) add("Activity at index $index difficulty must be between 1 and 5")
+                if (activity.hintSequence.size > 3) add("Activity at index $index may contain at most three progressive hints")
+                if (activity.hintSequence.any { it.isBlank() || it.length > 180 || containsArabicScript(it) }) {
+                    add("Activity at index $index hints must be short, nonblank, English-only text")
+                }
+                if (activity.helpSteps.size > 4) add("Activity at index $index may contain at most four help steps")
+                if (activity.helpSteps.any { it.isBlank() || it.length > 240 || containsArabicScript(it) }) {
+                    add("Activity at index $index help steps must be concise, nonblank, English-only text")
+                }
+                if (activity.language != "en" &&
+                    (activity.hintSequence.isNotEmpty() || activity.helpSteps.isNotEmpty() ||
+                        activity.hintImageAssetPath != null || activity.helpImageAssetPath != null)
+                ) add("Hints and help are only allowed on English learner activities")
+                if (activity.hintImageAssetPath != null && !isSafeImageAssetPath(activity.hintImageAssetPath)) {
+                    add("Activity at index $index contains an unsafe hint image asset path")
+                }
+                if (activity.helpImageAssetPath != null && !isSafeImageAssetPath(activity.helpImageAssetPath)) {
+                    add("Activity at index $index contains an unsafe help image asset path")
+                }
 
                 val optionIds = activity.options.map { it.optionId }
                 if (activity.options.size < 2) add("Activity at index $index must contain at least two options")
@@ -194,6 +212,13 @@ object ContentPackValidator {
         }
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
+
+    private fun containsArabicScript(value: String): Boolean =
+        value.any { character ->
+            character.code in 0x0600..0x06FF ||
+                character.code in 0x0750..0x077F ||
+                character.code in 0x08A0..0x08FF
+        }
 
     private fun isSafeImageAssetPath(path: String): Boolean =
         isSafeAssetPath(path) && (path.endsWith(".png", ignoreCase = true) || path.endsWith(".svg", ignoreCase = true))

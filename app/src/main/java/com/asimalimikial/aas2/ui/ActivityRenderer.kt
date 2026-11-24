@@ -52,7 +52,8 @@ fun ActivityRenderer(
     onRetry: () -> Unit,
     modifier: Modifier = Modifier,
     isSubmitting: Boolean = false,
-    submissionError: String? = null
+    submissionError: String? = null,
+    onSupportUsed: () -> Unit = {}
 ) {
     val context = LocalContext.current
     val audioController = remember(activity.activityId) { OfflineAudioController(context) }
@@ -60,6 +61,8 @@ fun ActivityRenderer(
         onDispose { audioController.release() }
     }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
+    var revealedHintCount by remember(activity.activityId) { mutableStateOf(0) }
+    var revealedHelpStepCount by remember(activity.activityId) { mutableStateOf(0) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     LaunchedEffect(activity.activityId, currentEvaluation) {
         audioController.stop()
@@ -80,7 +83,7 @@ fun ActivityRenderer(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 activity.promptAudioAssetPath?.let { path ->
-                    AudioClipButton(audioController, path, stringResource(R.string.audio_listen_question))
+                    AudioClipButton(audioController, path, stringResource(R.string.audio_listen_question_en))
                 }
                 activity.promptImageAssetPath?.let { path ->
                     OptionImage(assetPath = path, contentDescription = activity.prompt)
@@ -120,18 +123,68 @@ fun ActivityRenderer(
                                     OptionImage(
                                         assetPath = path,
                                         contentDescription = option.text.ifBlank {
-                                            stringResource(R.string.picture_answer_option)
+                                            stringResource(R.string.picture_answer_option_en)
                                         }
                                     )
                                 }
                                 val optionLabel = option.text.ifBlank {
-                                    stringResource(R.string.picture_answer_option)
+                                    stringResource(R.string.picture_answer_option_en)
                                 }
                                 Text(if (isSelected) "✓  $optionLabel" else optionLabel)
                             }
                         }
                         activity.optionAudioAssetPaths[option.optionId]?.let { path ->
-                            AudioClipButton(audioController, path, stringResource(R.string.audio_listen_option))
+                            AudioClipButton(audioController, path, stringResource(R.string.audio_listen_option_en))
+                        }
+                    }
+                }
+                if (currentEvaluation == null && revealedHintCount < activity.hintSequence.size) {
+                    OutlinedButton(
+                        modifier = Modifier.fillMaxWidth(),
+                        enabled = canChangeAnswer,
+                        onClick = {
+                            audioController.stop()
+                            revealedHintCount += 1
+                            onSupportUsed()
+                        }
+                    ) {
+                        Text(stringResource(if (revealedHintCount == 0) R.string.activity_need_hint else R.string.activity_next_hint))
+                    }
+                }
+                if (revealedHintCount > 0) {
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Text(stringResource(R.string.activity_hint_title), style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary)
+                        activity.hintImageAssetPath?.let { path ->
+                            OptionImage(assetPath = path, contentDescription = stringResource(R.string.activity_hint_title))
+                        }
+                        activity.hintSequence.take(revealedHintCount).forEachIndexed { index, hint ->
+                            Text(stringResource(R.string.activity_hint_number, index + 1), style = MaterialTheme.typography.labelMedium)
+                            Text(hint, style = MaterialTheme.typography.bodyLarge)
+                        }
+                    }
+                }
+                if (currentEvaluation == null && revealedHelpStepCount < activity.helpSteps.size) {
+                    OutlinedButton(
+                        modifier = Modifier.fillMaxWidth(),
+                        enabled = canChangeAnswer,
+                        onClick = {
+                            audioController.stop()
+                            revealedHelpStepCount += 1
+                            onSupportUsed()
+                        }
+                    ) {
+                        Text(stringResource(if (revealedHelpStepCount == 0) R.string.activity_show_me_how else R.string.activity_next_help_step))
+                    }
+                }
+                if (revealedHelpStepCount > 0) {
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Text(stringResource(R.string.activity_help_title), style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary)
+                        activity.helpImageAssetPath?.let { path ->
+                            OptionImage(assetPath = path, contentDescription = stringResource(R.string.activity_help_title))
+                        }
+                        activity.helpSteps.take(revealedHelpStepCount).forEachIndexed { index, step ->
+                            Text(stringResource(R.string.activity_help_step_number, index + 1), style = MaterialTheme.typography.labelMedium)
+                            Text(step, style = MaterialTheme.typography.bodyLarge)
                         }
                     }
                 }
@@ -163,7 +216,7 @@ fun ActivityRenderer(
                         activity.feedbackIncorrectAudioAssetPath
                     }
                     feedbackAudio?.let { path ->
-                        AudioClipButton(audioController, path, stringResource(R.string.audio_listen_feedback))
+                        AudioClipButton(audioController, path, stringResource(R.string.audio_listen_feedback_en))
                     }
                     if (!currentEvaluation.isCorrect) {
                         OutlinedButton(
@@ -174,7 +227,7 @@ fun ActivityRenderer(
                                 onRetry()
                             }
                         ) {
-                            Text(stringResource(R.string.activity_try_again))
+                            Text(stringResource(R.string.activity_try_again_en))
                         }
                     }
                 }
@@ -196,8 +249,8 @@ private fun AudioClipButton(
 ) {
     val isActive = controller.activeAssetPath == assetPath
     val buttonLabel = when {
-        isActive && controller.isLoading -> stringResource(R.string.audio_loading)
-        isActive && controller.isPlaying -> stringResource(R.string.audio_stop)
+        isActive && controller.isLoading -> stringResource(R.string.audio_loading_en)
+        isActive && controller.isPlaying -> stringResource(R.string.audio_stop_en)
         else -> label
     }
     Button(
@@ -209,7 +262,7 @@ private fun AudioClipButton(
     }
     if (isActive && controller.hasError) {
         Text(
-            stringResource(R.string.audio_error),
+            stringResource(R.string.audio_error_en),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.error
         )

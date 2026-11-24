@@ -372,4 +372,48 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.any { it.contains("assessmentPhase") })
     }
 
+
+    @Test
+    fun englishHintsAndStepByStepHelpAreAccepted() {
+        val activity = validActivity().copy(
+            hintSequence = listOf("Count each apple once.", "Touch each apple as you count."),
+            helpSteps = listOf("Point to one apple at a time.", "Say one number for each apple.")
+        )
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test
+    fun arabicTextIsRejectedFromEnglishHintsAndHelp() {
+        val activity = validActivity().copy(hintSequence = listOf("عدّ كل تفاحة مرة واحدة."))
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("English-only text") })
+    }
+
+    @Test
+    fun historicalArabicActivitiesCannotContainHintsOrHelp() {
+        val activity = validActivity().copy(language = "ar", prompt = "كم تفاحة ترى؟", hintSequence = listOf("Count each apple once."))
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("only allowed on English learner activities") })
+    }
+
+    @Test
+    fun excessiveHintStepsAreRejected() {
+        val activity = validActivity().copy(hintSequence = listOf("One.", "Two.", "Three.", "Four."))
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("at most three progressive hints") })
+    }
+
+    @Test
+    fun unsafeHintAndHelpImagePathsAreRejected() {
+        val activity = validActivity().copy(hintImageAssetPath = "../outside.svg", helpImageAssetPath = "https://example.org/help.svg")
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("unsafe hint image asset path") })
+        assertTrue(result.errors.any { it.contains("unsafe help image asset path") })
+    }
+
 }

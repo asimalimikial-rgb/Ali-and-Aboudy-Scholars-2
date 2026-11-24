@@ -91,7 +91,11 @@ data class ActivityDefinition(
     val promptAudioAssetPath: String? = null,
     val optionAudioAssetPaths: Map<String, String> = emptyMap(),
     val feedbackCorrectAudioAssetPath: String? = null,
-    val feedbackIncorrectAudioAssetPath: String? = null
+    val feedbackIncorrectAudioAssetPath: String? = null,
+    val hintSequence: List<String> = emptyList(),
+    val helpSteps: List<String> = emptyList(),
+    val hintImageAssetPath: String? = null,
+    val helpImageAssetPath: String? = null
 )
 
 @Serializable
