@@ -33,7 +33,7 @@
 
 - Learner: Aboudy — Grade 2
 - ISBN: `9781035117154`
-- Image source: [Shopee product listing](https://shopee.co.th/English-World-2-PUPIL-S-BOOK-PACK)
+- Image source: [Shopee product listing](https://shopee.co.th/DKTODAY-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD-ENGLISH-WORLD-2-PUPIL%27S-BOOK-PACK-i.204155689.29900078366)
 - ISBN evidence: [Macmillan English — Level 2 products and samples](https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples)
 - Status: **Candidate cover only. Verify the cover/edition against the family's copy; do not assume the seller image proves ISBN identity.**
 
