@@ -141,8 +141,8 @@ Official catalogue evidence now confirms the following candidate ISBNs:
 - Maths Xpress Senior KG — 9789356664975 (Macmillan India School Catalogue 2025).
 - Maths Xpress Book 2 — 9789356664999 (Macmillan India School Catalogue 2025).
 - English World Level 2 Pupil's Book Pack — 9781035117154 (Macmillan English official catalogue/sample page).
-- Macmillan Mathematics Level 2A — 9781380000637; Level 2B — 9781380000613 (Macmillan Education India ELT Digital Catalogue 2023).
-- Macmillan Science Level 2 Pupil's eBook Pack — 9781380000262 (Macmillan Education India ELT Digital Catalogue 2023).
+- Macmillan Mathematics Level 2A current Pupil's Book with eBook Pack — 9781035130382; the earlier 2023 digital-catalogue identifier 9781380000637 is retained as an older/alternate edition record. Level 2B remains 9781380000613.
+- Macmillan Science Level 2 current Pupil's Book and eBook Pack — 9781035130740; the earlier 2023 digital-catalogue identifier 9781380000262 is retained as an older/alternate edition record.
 
 Edition caveat: these are catalogue matches; the user's physical ISBNs have not been inspected, so exact edition equivalence remains unconfirmed.
 
@@ -164,3 +164,16 @@ No unrestricted public full-PDF source was confirmed. Use the licensed MEE acces
 
 ## Edition correction — Macmillan Science Level 2
 The Grade 2 content pack's current official source registry identifies the aligned Macmillan Science Level 2 Pupil's Book and eBook Pack as **ISBN 9781035130740**, using the publisher's official Scope and Sequence PDF: https://api.macmillanenglish.com/fileadmin/user_upload/Catalogue/Samples/Macmillan_Science/Macmillan_Science_Level_2_Scope_and_Sequence.pdf. The earlier ISBN **9781380000262** appears in the 2023 ELT Digital Catalogue as a Level 2 Pupil's eBook Pack and is retained only as an older/alternate catalogue candidate. The exact edition of the user's physical book remains unconfirmed until its printed ISBN is checked.
+
+
+## Current-edition ISBN reconciliation — 24 November 2026
+
+The latest Macmillan ELT Catalogue (2027 listing, Level 2 mathematics section) and the product-level record now support the following current product identifiers:
+
+- **Mathematics 2A:** `9781035130382` — Level 2A Pupil's Book with eBook Pack. Product-level confirmation: [Cărturești listing](https://carturesti.ro/carte/macmillan-mathematics-level-2a-pupil-s-book-with-ebook-3815428032). Catalogue cross-check: [Macmillan ELT Catalogue, pages 44–45](https://online.flippingbook.com/view/887627778/44-45/).
+- **Mathematics 2B:** `9781380000613` — Level 2B Pupil's Book with eBook Pack. The Macmillan levels page and the 2027 catalogue list this identifier.
+- **Science Level 2:** `9781035130740` — current Pupil's Book and eBook Pack. Confirmed by [ELTBOOKS product record](https://www.eltbooks.com/p/macmillan-science-level-2-pupils-book-and-ebook-pack/9781035130740/?lang=en) and the [Macmillan ELT Catalogue](https://online.flippingbook.com/view/887627778/44-45/).
+
+The identifiers `9781380000637` (Mathematics 2A) and `9781380000262` (Science 2) appear in the older 2023 digital catalogue. They must not be silently substituted for the current product ISBNs above. Keep them as older/alternate edition records until the family's physical copies are checked.
+
+This edition reconciliation changes product identification only. It does not establish that any full eBook is publicly downloadable, does not change the existing licensed-access findings, and does not authorize reproduction or redistribution. All seven titles remain `REFERENCE_ONLY`.
