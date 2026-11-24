@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "AAS2-LEGACY-QUALITY-PATCH-0.3",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "legacyQuestionCount": 616
+  },
+  "summary": {
+    "items": 12,
+    "staleArabicExplanations": 12,
+    "productionApproved": 0
+  },
+  "items": [
+    {
+      "questionId": "legacy-aboudy-0279",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "كلمة moon تبدأ بصوت m. استمع إلى الصوت الأول في الكلمة.",
+      "proposedValue": "كلمة ship تبدأ بالصوت المركب /sh/؛ اختر الكلمة التي تبدأ بهذا الصوت.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0280",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "كلمة sock تبدأ بصوت s. لاحظ صوت الحرف في البداية.",
+      "proposedValue": "كلمة cheese تبدأ بالصوت /ch/ الذي يُمثَّل بالحرفين ch.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0281",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "كلمة pig تبدأ بصوت p. أغلق الشفتين ثم أطلق الصوت.",
+      "proposedValue": "كلمة thumb تبدأ بالصوت /th/ الذي يُمثَّل بالحرفين th.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0282",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "كلمتا fish وfan تبدآن بالصوت نفسه وهو f.",
+      "proposedValue": "كلمتا phone وphoto تبدآن بالصوت /f/ رغم أن الصوت في photo مكتوب بالحرفين ph.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0283",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "رتّب الحروف M ثم A ثم P لتكوين كلمة map.",
+      "proposedValue": "رتّب الأحرف S وH وI وP لتكوين كلمة SHIP.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0284",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "ادمج أصوات الحروف P وI وG لتكوين كلمة pig.",
+      "proposedValue": "رتّب الأحرف T وR وA وI وN لتكوين كلمة TRAIN.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0285",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "ادمج الأصوات S وU وN لتكوين كلمة sun.",
+      "proposedValue": "كلمة SMILE تعني الابتسام، وهو عكس العبوس (frown).",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0286",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "رتّب أربعة أحرف لتكوين كلمة nest.",
+      "proposedValue": "القلب عضو يضخ الدم في الجسم، والكلمة الإنجليزية المطلوبة هي HEART.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0287",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "إطار العشرة فيه ثماني خانات ممتلئة؛ احسب الخانات الفارغة لإكمال عشرة.",
+      "proposedValue": "عدّ جميع النقاط في المصفوفة صفاً بعد صف، ثم اختر العدد الكلي.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0288",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "هناك صفّان وفي كل صف ثلاث نقاط؛ اجمع المجموعتين.",
+      "proposedValue": "اطرح الأصداف الموجودة في الدلو من العدد الكلي: 16 − 9 = 7 أصداف خارج الدلو.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0289",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "عشرة واحدة وخمس وحدات تساوي خمسة عشر.",
+      "proposedValue": "عشرة واحدة تساوي 10، وثماني وحدات تساوي 8؛ إذن 10 + 8 = 18.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0290",
+      "sourceBatch": "LEGACY-24",
+      "field": "legacyData.explanationAr",
+      "originalValue": "ابدأ من ستة وتحرك خطوة واحدة إلى الأمام.",
+      "proposedValue": "ابدأ من الصفر حتى نهاية الخط عند 6؛ طول الخط هو 6 سنتيمترات.",
+      "rationale": "The current Arabic explanation is duplicated from an Ali item and contradicts Aboudy's actual prompt/answer. Replace it with a learner-specific explanation.",
+      "changeType": "STALE_ARABIC_FEEDBACK_REPLACEMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    }
+  ]
+}

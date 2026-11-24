@@ -427,5 +427,13 @@ for (const cover of personalCoverManifest.covers) {
   assert.equal(crypto.createHash("sha256").update(payload).digest("hex"), cover.sha256);
 }
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 24 pending legacy correction proposals (12 initial + 12 second-pass), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references, plus seven private book covers with checksum verification.");
+
+const legacyArabicPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-arabic-explanation-patch-v0.3.json"), "utf8"));
+assert.equal(legacyArabicPatch.items.length, 12);
+assert.equal(legacyArabicPatch.summary.staleArabicExplanations, 12);
+assert.equal(legacyArabicPatch.summary.productionApproved, 0);
+assert.equal(new Set(legacyArabicPatch.items.map(item => item.questionId)).size, 12);
+assert.ok(legacyArabicPatch.items.every(item => item.field === "legacyData.explanationAr" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
+
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 36 pending legacy correction proposals (12 initial + 12 second-pass + 12 stale Arabic explanations), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references, plus seven private book covers with checksum verification.");
 

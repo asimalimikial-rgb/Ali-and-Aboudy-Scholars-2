@@ -90,3 +90,11 @@ A deterministic scan found 69 multiple-choice items whose visible prompt contain
 - Standardised short-a notation to British English /æ/ for four true/false items (apple, ant, egg, at).
 - Corrected seven Arabic helper strings: the H _ T gap, four CVC blending items (CAT/DOG/PIG/SUN), and two sentence-to-picture tasks.
 - All proposals remain pending technical QA and are not applied to the source bank or runtime pack.
+
+
+## Legacy Arabic explanation audit — 24 November 2026
+
+- A full scan of the 68 Arabic `explanationAr` entries found 12 repeated explanation strings pairing Ali's content with different Aboudy tasks.
+- The mismatched records are `legacy-aboudy-0279` through `legacy-aboudy-0290`; examples include a /sh/ item carrying an /m/ explanation, TRAIN carrying PIG feedback, and a shells subtraction problem carrying a dots-array explanation.
+- Added `content/staging/legacy-question-bank-arabic-explanation-patch-v0.3.json` with 12 learner-specific replacements.
+- All replacements remain `REVISED_PENDING_TECHNICAL_QA`; the source legacy bank has not been modified.
