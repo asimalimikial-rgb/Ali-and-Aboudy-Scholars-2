@@ -9,9 +9,17 @@ The app uses a shared learning engine while keeping each learner's subjects, act
 
 ## Project status
 
-Active source-development phase. Product name, curriculum mappings, and package/application identifiers remain subject to final review where noted.
+Active source-development phase. Product name and package/application identifiers remain subject to final review where noted.
 
-**Build policy:** APK and Debug APK production, APK artifact uploads, and releases are intentionally disabled during this phase. CI is limited to source validation, JVM unit tests, and checked-in Room schema drift checks. Emulator instrumentation remains in source but is not executed during the no-APK phase because it builds and installs test APKs.
+**Build policy:** Release APK production, publication, and main-branch merging remain disabled. CI validates source, JVM tests, debug compilation and checked-in Room schema exports; no release is produced.
+
+### Latest execution update — 24 November 2026
+
+- Confirmed seven-book scope is recorded in `content/catalog/seven-book-catalog.json`; SMILE Starter 2 is excluded. The full coverage plan is `docs/seven-book-coverage-plan-v0.2.md`.
+- Current content packs contain 282 English activities: 108 KG2 and 174 Grade 2. Only Macmillan Science Level 2 currently has runtime book/unit/lesson mapping (62 activities across two units and nine lessons); the other book hierarchies and mappings remain open.
+- Verified offline media: 1,692 English OGG clips for 282 activities at speed 0.70; 282 question illustrations (245 SVG and 37 PNG); 374 option illustrations. Manifest paths and hashes are unique, and audio metadata is complete. Physical-device playback and visual accessibility checks remain open.
+- The 616-item legacy question bank has a first structural/pedagogy audit. 496 objective candidates pass the initial options/answer structure gate; 120 need their own interaction types. Five exact duplicate pairs, one overlap with the current pilot, and two drawing tasks requiring rubrics were identified. See `docs/legacy-question-bank-pedagogy-audit-v0.1.md` and `content/staging/legacy-question-bank-review-batch-01.json`.
+- The latest catalog/staging-content validation workflow passed. Android CI is running against the latest branch head; do not treat it as green until it completes.
 
 ## Principles
 
@@ -116,9 +124,9 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 
 ### Remaining integration gates
 
-- Two source-backed schema-v3 pilot packs are loaded through the activity-navigation flow. A versioned pack catalog/manifest, expanded curriculum coverage, and richer skill-level progress visualization remain open.
+- Two bundled packs are loaded through the activity-navigation flow: KG2 schema v3 and Grade 2 schema v4. A seven-book catalog artifact is now recorded, but runtime book navigation, the remaining book/unit/lesson hierarchies, expanded curriculum coverage, and richer skill-level progress visualization remain open.
 - App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
-- Fifty-two distinct offline prompt illustrations are now bundled: one per English activity across both learners. Eleven original option illustrations remain available as supplementary answer visuals. On-device visual/accessibility QA is still open.
+- 282 offline question illustrations and 374 option illustrations are now bundled. On-device visual scale, accessibility and semantic-fit QA are still open.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - The source/license register and per-pack source references are in place. The 32 Grade 2 science questions are original AAS2 wording based on topic-level curriculum mapping; the Macmillan source remains `REFERENCE_ONLY`, and no protected textbook text or artwork is bundled. Remaining book units and other subjects still require authoring.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
@@ -178,18 +186,18 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - Grade 2 Science Unit 1 is now integrated as a schema-v4 book → unit → lesson hierarchy: four lessons covering plants as living things, plant parts/foods, useful plants, and germination/growth.
 - The unit contains 32 original English single-choice activities (8 per lesson), with three unique options, one correct key, option-level rationales, misconception codes, difficulty, and assessment phases. Answer-key distribution is balanced: A=10, B=10, C=12. The set has no duplicate prompts or Arabic child text.
 - The Grade 2 pack now contains 174 English activities; KG2 contains 108. Arabic legacy records remain stored but are excluded from the learner runtime.
-- The legacy Visual Learning Engine v1.6.0 was extracted into `tools/visuals/` for build-time use only. GitHub Actions generated 282 distinct PNG prompt illustrations (SHA-256 uniqueness verified) and a manifest. The JavaScript engine itself is not packaged in the Android app.
+- The legacy Visual Learning Engine v1.9.0 is used at build time only. The question-art manifest records 282 distinct prompt illustrations (245 SVG and 37 PNG), each with a unique activity ID, path and SHA-256 hash. The JavaScript engine itself is not packaged in the Android app.
 - The Activity Renderer now displays local prompt illustrations and provides local audio buttons for question prompts, options, and post-answer feedback. One per-activity audio controller cancels previous playback before starting another clip.
 - Post-answer English feedback was normalized to short encouragement only; it no longer repeats hints or explanations after submission.
-- The English-only Supertonic 3 / sherpa-onnx generation workflow is configured to generate pre-recorded assets at speed 0.70 in GitHub Actions. The audio generation run is still in progress/pending; no generated audio count or runtime success is claimed until the manifest and files are verified.
+- The English-only Supertonic 3 / sherpa-onnx pipeline has generated and committed 1,692 OGG clips for 282 English activities at speed 0.70: 282 prompts, 846 options, 282 correct-feedback clips and 282 incorrect-feedback clips. The manifest verifies English language, speed, SHA-256, byte length and duration metadata for every clip. This verifies bundled assets, not physical-device playback.
 - No APK, release, artifact publication, main merge, signing, manifest permission, or Room schema change was performed.
 
 
 ## Offline media expansion — 23 November 2026
 
-- The extracted Scholars Visual Learning Engine v1.6.0 now generates one unique local PNG illustration for every English activity in the current packs: 108 KG2 and 174 Grade 2 activities (282 total). The generated manifest records per-activity paths and SHA-256 hashes; all 282 hashes are unique.
+- The build-time Visual Learning Engine now produces one local question illustration for every English activity: 108 KG2 and 174 Grade 2 (282 total). The manifest contains 245 SVG and 37 PNG assets, with unique per-activity paths and SHA-256 hashes.
 - The English offline speech pipeline is configured to use Supertonic 3 through sherpa-onnx 2.0.1 in GitHub Actions only. English speech generation is pinned to speed 0.70; OGG clips, SHA-256 metadata, and per-question prompt/option/feedback paths are generated into app assets. Neither the model weights nor the TTS runtime is packaged in Android.
-- The speech-generation workflow is still running for the current 282-activity content revision. Do not treat the audio library as complete until the manifest and all referenced OGG files are committed and the asset-integrity test passes.
+- Speech generation is complete for the current 282-activity revision: 1,692 OGG files are committed and the manifest records complete metadata. The Android renderer still requires physical-device playback verification.
 - The renderer now uses a single offline audio controller per activity, prevents clips from overlapping, and keeps the stop control available while a clip is preparing.
 - Android device playback, visual scale/accessibility review, and full curriculum expansion remain open. No APK or release is claimed by this source-only work.
 
@@ -199,7 +207,7 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - The legacy bank contains 816 records: 616 legacy curriculum/game records and 200 explicitly tagged `new-authored` records.
 - The 200 original-authored records have been migrated into the new packs: 100 for Ali KG2 and 100 for Aboudy Grade 2, with eight new unit-level skills added to each pathway. Exact duplicate prompt checks against the current 52-item pilot returned zero matches; every imported answer was verified against its options.
 - Aboudy's original Science Unit 2 adds 30 further reviewed candidate activities. The current packs therefore contain 282 English activities (108 KG2 + 174 Grade 2), plus 10 retained Arabic historical records that are not shown in child sessions.
-- The remaining 616 legacy records are not bulk-copied into the new runtime. Their item-level source, rights, activity-type, and curriculum mappings must be reviewed before migration; protected textbook expression is not redistributed.
+- The remaining 616 legacy records are not bulk-copied into the new runtime. Their item-level question quality, answer correctness, difficulty, activity type, and seven-book/unit/lesson mappings must be reviewed before migration.
 - The 200 migrated records remain marked `REFERENCE_ONLY` pending the project-owner's item-level redistribution review. Do not treat this as public-release rights clearance.
 
 
