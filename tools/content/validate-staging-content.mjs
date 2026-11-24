@@ -292,9 +292,9 @@ for (const lesson of scienceDraft.lessons) {
 }
 
 const stagedScience = [
-  ["content/staging/science-g2-unit-03-senses-draft-v0.1.json", "SCI-G2-U03", 40, 5, /^aas2-g2-sci-u03-\\d{3}$/],
-  ["content/staging/science-g2-unit-04-materials-draft-v0.1.json", "SCI-G2-U04", 20, 4, /^aas2-g2-sci-u04-\\d{3}$/],
-  ["content/staging/science-g2-unit-05-night-sky-draft-v0.1.json", "SCI-G2-U05", 12, 3, /^aas2-g2-sci-u05-\\d{3}$/]
+  ["content/staging/science-g2-unit-03-senses-draft-v0.1.json", "SCI-G2-U03", 40, 5, /^aas2-g2-sci-u03-\d{3}$/],
+  ["content/staging/science-g2-unit-04-materials-draft-v0.1.json", "SCI-G2-U04", 20, 4, /^aas2-g2-sci-u04-\d{3}$/],
+  ["content/staging/science-g2-unit-05-night-sky-draft-v0.1.json", "SCI-G2-U05", 12, 3, /^aas2-g2-sci-u05-\d{3}$/]
 ];
 const stagedScienceIds = new Set();
 const stagedSciencePrompts = new Set();
@@ -310,7 +310,7 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
     assert.match(activity.activityId, idPattern);
     assert.ok(!stagedScienceIds.has(activity.activityId));
     stagedScienceIds.add(activity.activityId);
-    const prompt = activity.prompt.trim().toLowerCase().replace(/\\s+/g, " ");
+    const prompt = activity.prompt.trim().toLowerCase().replace(/\s+/g, " ");
     assert.ok(!stagedSciencePrompts.has(prompt));
     stagedSciencePrompts.add(prompt);
     assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
@@ -331,9 +331,9 @@ const scienceArtManifest = JSON.parse(fs.readFileSync(path.join(process.cwd(), "
 assert.equal(scienceArtManifest.files.length, 3);
 for (const file of scienceArtManifest.files) {
   const svg = fs.readFileSync(path.join(process.cwd(), file.path), "utf8");
-  assert.match(svg, /<svg[\\s>]/);
+  assert.match(svg, /<svg[\s>]/);
   assert.match(svg, /viewBox=/);
-  assert.match(svg, /<\\/svg>/);
+  assert.match(svg, /<\/svg>/);
 }
 console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
 
