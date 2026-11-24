@@ -71,3 +71,13 @@ No legacy record is production-approved. The staging correction patch must pass 
 ## Listening target-leak scan
 
 A deterministic scan found 69 multiple-choice items whose visible prompt contains the exact target answer. These are letter, word and number listening tasks. The target must be stored as a separate audio stimulus and the visible prompt must be neutral. Their IDs are listed in `content/staging/legacy-question-bank-renderer-requirements-v0.1.json`; they are not approved for listening assessment until the presentation is corrected.
+
+
+## Additional listening assessment repair — 24 November 2026
+
+- Re-read the original 616 legacy records and cross-checked the renderer-requirements register.
+- Confirmed 69 listening multiple-choice items expose their target in the visible prompt: 25 letters, 34 words and 10 numerals.
+- Added `content/staging/legacy-question-bank-listening-target-leak-patch-v0.1.json` with neutral visible prompts and separate hidden audio stimuli.
+- The target must be played as audio and must not be rendered as text. All 69 require regenerated audio and renderer support that is not yet implemented.
+- All remain `REVISED_PENDING_AUDIO_AND_RENDERER_QA`; none is production-approved or runtime-integrated.
+- Manual scan of legacy batches 01–05 confirmed the previously recorded phoneme/CVC findings and listening-prompt issue. Structural and answer-key checks do not replace a complete pedagogical review of all 616 records.

@@ -385,5 +385,24 @@ if (generatedScienceAudio.length > 0) {
   }
 }
 
+
+const listeningLeakPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-listening-target-leak-patch-v0.1.json"), "utf8"));
+assert.equal(listeningLeakPatch.items.length, 69);
+assert.deepEqual(listeningLeakPatch.summary, { total: 69, letters: 25, words: 34, numbers: 10, productionApproved: 0 });
+const listeningIds = new Set();
+for (const item of listeningLeakPatch.items) {
+  assert.ok(!listeningIds.has(item.questionId));
+  listeningIds.add(item.questionId);
+  assert.ok(["letter", "word", "number"].includes(item.targetKind));
+  assert.equal(item.answer, item.audioStimulus);
+  assert.ok(item.options.includes(item.answer));
+  const escapedTarget = String(item.audioStimulus).replace(/[.*+?^\${}()|[\]\\]/g, "\\console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");");
+  assert.ok(!new RegExp("(^|[^a-z0-9])" + escapedTarget + "([^a-z0-9]|$)", "i").test(item.proposedPrompt));
+  assert.equal(item.rendererSupportRequired, "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT");
+  assert.equal(item.reviewStatus, "REVISED_PENDING_AUDIO_AND_RENDERER_QA");
+  assert.equal(item.productionApproved, false);
+  assert.equal(item.runtimeIntegrated, false);
+}
+
 console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
 
