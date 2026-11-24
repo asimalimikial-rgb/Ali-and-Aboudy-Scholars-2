@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -3148,7 +3148,7 @@
       "skillId": "aas2-aboudy-reading-comprehension",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "What is the main idea of this story?",
+      "prompt": "Read the story: Ben saw a kitten near the road. It was cold and alone. He took it to a safe place and asked his mother to help. They gave it food and made a warm bed. What is the main idea of the story?",
       "options": [
         {
           "optionId": "a",
