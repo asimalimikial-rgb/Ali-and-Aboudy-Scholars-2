@@ -85,7 +85,6 @@ jobs:
 
       - name: Upload installable debug APK
         id: upload-debug-apk
-        continue-on-error: true
         uses: actions/upload-artifact@v6
         continue-on-error: true
         with:
