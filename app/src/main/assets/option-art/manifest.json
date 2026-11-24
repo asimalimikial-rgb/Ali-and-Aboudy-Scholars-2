@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 375,
+  "count": 376,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -2978,12 +2978,11 @@
       ]
     },
     {
-      "path": "option-art/e8fa77221d9bdf30215d2846.svg",
-      "bytes": 1406,
-      "sha256": "6b0009e5ec71d16556f61f5edb411b97252bd987d4da959d23fa40a7e8a552f2",
+      "path": "option-art/7f6503e36a79c6a129f8e85c.svg",
+      "bytes": 1180,
+      "sha256": "caa8a6a98157248df096efc715cd7318494ed99f96e164a1d577927a6a90e1d5",
       "labels": [
-        "Plants do not need sunlight",
-        "Roots make sunlight"
+        "Plants do not need sunlight"
       ]
     },
     {
@@ -2992,6 +2991,14 @@
       "sha256": "2c7475dd3a93038c123c992e35cb8b4807a73fc64992f1ec13549bdc5a5be1ca",
       "labels": [
         "Plants can grow without water"
+      ]
+    },
+    {
+      "path": "option-art/e8fa77221d9bdf30215d2846.svg",
+      "bytes": 1406,
+      "sha256": "6b0009e5ec71d16556f61f5edb411b97252bd987d4da959d23fa40a7e8a552f2",
+      "labels": [
+        "Roots make sunlight"
       ]
     },
     {
