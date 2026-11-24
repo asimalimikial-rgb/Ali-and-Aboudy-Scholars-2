@@ -43,3 +43,8 @@ This original AAS2 unit follows the scope-level sequence for Macmillan Science L
 - Item `aas2-g2-sci-u03-039` originally asked which two senses can help notice an orange. That wording admitted several valid pairs (for example sight and smell, touch and smell, or smell and taste), so the intended key was not uniquely determined.
 - Revised the prompt to ask specifically about noticing the orange's smell and taste; retained the keyed pair `Smell and taste` and updated option rationales to explain why the other pairs do not meet both requested functions.
 - The item remains a staging draft. Its prompt audio is marked for regeneration; transcript/acoustic QA and SVG rendering review remain pending. No runtime content was changed.
+
+
+## Audio regeneration update — 24 November 2026
+
+The revised prompt for `aas2-g2-sci-u03-039` now has a regenerated prompt clip in the 432-file staging audio batch. The item remains pending transcript verification, native-speaker pronunciation/accent review, acoustic playback QA and Android playback validation.

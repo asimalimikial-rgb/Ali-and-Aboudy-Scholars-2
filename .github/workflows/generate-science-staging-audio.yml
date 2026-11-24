@@ -9,6 +9,7 @@ on:
       - "content/staging/science-g2-unit-04-materials-draft-v0.1.json"
       - "content/staging/science-g2-unit-05-night-sky-draft-v0.1.json"
       - "tools/audio/generate-science-staging-speech.py"
+      - "tools/audio/check-science-staging-speech.py"
       - ".github/workflows/generate-science-staging-audio.yml"
   workflow_dispatch:
 
@@ -31,12 +32,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check whether staging speech is already current
+        id: speech-check
+        run: python tools/audio/check-science-staging-speech.py
+
       - name: Install pinned speech dependencies
+        if: steps.speech-check.outputs.needs_generation == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
           python -m pip install --disable-pip-version-check sherpa-onnx==2.0.1 soundfile numpy
       - name: Download and verify pinned Supertonic 3 model
+        if: steps.speech-check.outputs.needs_generation == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -51,6 +58,7 @@ jobs:
           for file in duration_predictor.int8.onnx text_encoder.int8.onnx vector_estimator.int8.onnx vocoder.int8.onnx tts.json unicode_indexer.bin voice.bin; do test -s "$MODEL_PATH/$file"; done
           echo "MODEL_PATH=$MODEL_PATH" >> "$GITHUB_ENV"
       - name: Generate and verify staging-only Science speech
+        if: steps.speech-check.outputs.needs_generation == 'true'
         run: python tools/audio/generate-science-staging-speech.py --model-dir "$MODEL_PATH"
       - name: Commit staging audio and references
         shell: bash
@@ -58,15 +66,27 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.speech-check.outputs.needs_generation }}" != "true" ]; then
+            echo "Staging Science audio manifest, paths and file hashes already match all source text; skipping regeneration."
+            exit 0
+          fi
           git add content/staging/science-g2-unit-03-senses-draft-v0.1.json
           git add content/staging/science-g2-unit-04-materials-draft-v0.1.json
           git add content/staging/science-g2-unit-05-night-sky-draft-v0.1.json
           git add content/staging/media/science-g2/speech
           if git diff --cached --quiet; then
-            echo "Staging Science audio is already current."
-          else
-            git commit -m "audio: generate offline speech for Science Units 3–5 staging"
+            echo "Generation completed without changes; no commit needed."
+            exit 0
+          fi
+          git commit -m "audio: generate offline speech for Science Units 3–5 staging"
+          for attempt in 1 2 3; do
             git fetch origin "${GITHUB_REF_NAME}"
             git rebase "origin/${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push race detected; retrying rebase and push (attempt ${attempt}/3)."
+            sleep 5
+          done
+          echo "Unable to push generated audio after three safe retries."
+          exit 1

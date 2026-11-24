@@ -1959,7 +1959,7 @@
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/fca3132c00d080c9809cd5feb145ef69dda5f7abe7e9d0275126a01b1d94951b.ogg",
       "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5313bda9055227167c8a4b77794088bb22172447b0c13c5c2c40c47e04c619dd.ogg",
-      "audioRegenerationNote": "Prompt changed to remove multiple plausible sense pairs; regenerate prompt audio before any listening QA."
+      "audioRegenerationNote": "Prompt audio was regenerated in the 432-file Science U03–U05 staging batch; transcript and playback QA remain pending."
     },
     {
       "activityId": "aas2-g2-sci-u03-040",
