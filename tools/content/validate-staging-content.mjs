@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
+import crypto from "node:crypto";
 
 const catalog = JSON.parse(fs.readFileSync("content/catalog/seven-book-catalog.json", "utf8"));
 const patch = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-batch-01.json", "utf8"));
@@ -322,7 +323,7 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
     assert.ok(optionIds.includes(activity.correctOptionId));
     assert.deepEqual(Object.keys(activity.optionRationales).sort(), [...optionIds].sort());
     assert.ok(activity.feedbackCorrect && activity.feedbackIncorrect);
-    assert.equal(activity.audioStatus, "PENDING_STAGING_GENERATION");
+    assert.ok(["PENDING_STAGING_GENERATION", "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA"].includes(activity.audioStatus));
   }
   stagedScienceCount += draft.activities.length;
 }
@@ -335,5 +336,54 @@ for (const file of scienceArtManifest.files) {
   assert.match(svg, /viewBox=/);
   assert.match(svg, /<\/svg>/);
 }
+
+const scienceAudioManifestPath = path.join(process.cwd(), "content/staging/media/science-g2/speech/manifest.json");
+const scienceDraftFiles = stagedScience.map(([relativePath]) => relativePath);
+const allStagedScienceActivities = scienceDraftFiles.flatMap(relativePath =>
+  JSON.parse(fs.readFileSync(path.join(process.cwd(), relativePath), "utf8")).activities
+);
+const generatedScienceAudio = allStagedScienceActivities.filter(activity =>
+  activity.audioStatus === "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA"
+);
+if (generatedScienceAudio.length > 0) {
+  assert.ok(fs.existsSync(scienceAudioManifestPath), "Generated science audio manifest is missing.");
+  const audioManifest = JSON.parse(fs.readFileSync(scienceAudioManifestPath, "utf8"));
+  assert.equal(audioManifest.scope, "STAGING_ONLY_NOT_RUNTIME_INTEGRATED");
+  assert.equal(audioManifest.settings.language, "en");
+  assert.equal(audioManifest.settings.speed, 0.70);
+  assert.equal(audioManifest.sourceEnglishActivityCount, 72);
+  assert.equal(audioManifest.count, 432);
+  const audioFilesByPath = new Map(audioManifest.files.map(item => [item.path, item]));
+  for (const activity of generatedScienceAudio) {
+    const mapping = audioManifest.activityPaths[activity.activityId];
+    assert.ok(mapping, "Science audio mapping is missing: " + activity.activityId);
+    const roles = [
+      ["prompt", activity.promptAudioAssetPath, activity.prompt],
+      ["feedbackCorrect", activity.feedbackCorrectAudioAssetPath, activity.feedbackCorrect],
+      ["feedbackIncorrect", activity.feedbackIncorrectAudioAssetPath, activity.feedbackIncorrect]
+    ];
+    for (const [role, assetPath, expectedText] of roles) {
+      assert.equal(mapping[role], assetPath, "Science audio path mismatch: " + activity.activityId + "/" + role);
+      const entry = audioFilesByPath.get(assetPath);
+      assert.ok(entry, "Science audio manifest entry missing: " + assetPath);
+      const payload = fs.readFileSync(path.join(process.cwd(), assetPath));
+      assert.equal(payload.length, entry.bytes);
+      assert.equal(crypto.createHash("sha256").update(payload).digest("hex"), entry.sha256);
+      assert.equal(entry.text, expectedText);
+    }
+    assert.deepEqual(Object.keys(activity.optionAudioAssetPaths).sort(), activity.options.map(option => option.optionId).sort());
+    for (const option of activity.options) {
+      const assetPath = activity.optionAudioAssetPaths[option.optionId];
+      assert.equal(mapping.options[option.optionId], assetPath);
+      const entry = audioFilesByPath.get(assetPath);
+      assert.ok(entry, "Science option audio missing: " + assetPath);
+      const payload = fs.readFileSync(path.join(process.cwd(), assetPath));
+      assert.equal(payload.length, entry.bytes);
+      assert.equal(crypto.createHash("sha256").update(payload).digest("hex"), entry.sha256);
+      assert.equal(entry.text, option.text);
+    }
+  }
+}
+
 console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
 
