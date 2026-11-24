@@ -192,7 +192,7 @@ A reviewer may return an item to an earlier state with a reason. Only APPROVED c
 
 ## 8. Acceptance criteria for this specification
 
-- Learning language and UI locale are separate concepts; child-activity support aids remain deferred.
+- Learning language and UI locale are separate concepts; optional hints/help are explicitly authored in English only and recorded as supported attempts.
 - v3 can be read without changing existing pack files.
 - Each activity type has a typed payload and explicit renderer capability.
 - Source/rights metadata is traceable from skill/activity to canonical source IDs.
