@@ -86,7 +86,143 @@
         "unit-level sequence",
         "review of the reading item that requires an original passage"
       ],
-      "nextAction": "Create the book/unit/lesson hierarchy and attach reviewed English activities."
+      "nextAction": "Review the 35 existing English activities against the 12-unit scope; map only exact matches and retain unrelated skills as supplementary or revise them.",
+      "scopeSource": {
+        "productPage": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples",
+        "scopeAndSequence": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
+        "verifiedAt": "2026-11-24"
+      },
+      "officialScopeSequence": [
+        {
+          "unit": 1,
+          "title": "At the castle",
+          "focus": [
+            "action verbs",
+            "present continuous",
+            "a_e magic-e",
+            "sequencing"
+          ]
+        },
+        {
+          "unit": 2,
+          "title": "In Biffo's garden",
+          "focus": [
+            "playground equipment",
+            "this/that",
+            "these/those",
+            "i_e magic-e",
+            "verbs + -ing"
+          ]
+        },
+        {
+          "unit": 3,
+          "title": "Pirate Jack",
+          "focus": [
+            "sports and hobbies",
+            "like/likes",
+            "yes/no questions",
+            "o_e/u_e/ue",
+            "listening for gist"
+          ]
+        },
+        {
+          "unit": 4,
+          "title": "A fantastic shop",
+          "focus": [
+            "clothes",
+            "do/does questions",
+            "cl/fl/bl/pl blends",
+            "adjective-noun order"
+          ]
+        },
+        {
+          "unit": 5,
+          "title": "Pirate Jack is on TV",
+          "focus": [
+            "time phrases",
+            "daily routines",
+            "telling time",
+            "br/cr/gr/dr/tr blends",
+            "sequencing"
+          ]
+        },
+        {
+          "unit": 6,
+          "title": "Who is the winner?",
+          "focus": [
+            "body parts",
+            "his/her",
+            "whose",
+            "sl/sm/sn/sp/st/sw blends",
+            "contractions"
+          ]
+        },
+        {
+          "unit": 7,
+          "title": "A trip in a balloon",
+          "focus": [
+            "food and drink",
+            "there is/are",
+            "frequency adverbs",
+            "months and weather",
+            "nd/nk/nt endings"
+          ]
+        },
+        {
+          "unit": 8,
+          "title": "Look at the animals!",
+          "focus": [
+            "animals",
+            "was/were",
+            "ld/lk/lp/lt endings",
+            "conjunction but"
+          ]
+        },
+        {
+          "unit": 9,
+          "title": "Look! The sea!",
+          "focus": [
+            "sea creatures",
+            "prepositions",
+            "there was/were",
+            "long ee",
+            "personal pronouns"
+          ]
+        },
+        {
+          "unit": 10,
+          "title": "The island",
+          "focus": [
+            "beach vocabulary",
+            "object pronouns",
+            "imperatives",
+            "long oo",
+            "conjunction or"
+          ]
+        },
+        {
+          "unit": 11,
+          "title": "The boat",
+          "focus": [
+            "regular past verbs",
+            "first/next/then",
+            "ai sound",
+            "diary writing"
+          ]
+        },
+        {
+          "unit": 12,
+          "title": "Welcome home!",
+          "focus": [
+            "food and drink",
+            "movement prepositions",
+            "past tense",
+            "ea sound",
+            "comma in a list"
+          ]
+        }
+      ],
+      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; ACTIVITY_MAPPING_PENDING"
     },
     {
       "sequence": 4,
