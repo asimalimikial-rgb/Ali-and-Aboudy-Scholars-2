@@ -9,7 +9,10 @@
     "items": 12,
     "promptCorrections": 5,
     "arabicHelperCorrections": 7,
-    "productionApproved": 0
+    "productionApproved": 0,
+    "audioRegenerationRequired": 12,
+    "additionalPhonemePromptCorrections": 4,
+    "resolvedCrossPatchConflicts": 1
   },
   "items": [
     {
@@ -18,11 +21,18 @@
       "field": "prompt",
       "originalValue": "Does “bus” begin with the /s/ sound?",
       "proposedValue": "Does “bus” begin with the /b/ sound?",
-      "rationale": "Bus begins with /b/, not /s/.",
+      "rationale": "Bus begins with /b/, not /s/. This later proposal also changes the prompt to /b/, so the correct key is TRUE; it supersedes the earlier answer-only FALSE proposal.",
       "changeType": "PHONEME_OR_ANSWER_CLARITY",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio"
+      ],
+      "proposedAnswer": true,
+      "proposedLegacyDataAnswer": true,
+      "supersedesPatch": "legacy-question-bank-correction-patch-v0.1.json#legacy-ali-0073"
     },
     {
       "questionId": "legacy-ali-0076",
@@ -34,7 +44,13 @@
       "changeType": "PHONEME_OR_ANSWER_CLARITY",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio"
+      ],
+      "proposedAnswer": true,
+      "proposedLegacyDataAnswer": true
     },
     {
       "questionId": "legacy-ali-0077",
@@ -46,7 +62,13 @@
       "changeType": "PHONEME_OR_ANSWER_CLARITY",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio"
+      ],
+      "proposedAnswer": true,
+      "proposedLegacyDataAnswer": true
     },
     {
       "questionId": "legacy-ali-0078",
@@ -58,7 +80,13 @@
       "changeType": "PHONEME_OR_ANSWER_CLARITY",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio"
+      ],
+      "proposedAnswer": false,
+      "proposedLegacyDataAnswer": false
     },
     {
       "questionId": "legacy-ali-0079",
@@ -70,19 +98,29 @@
       "changeType": "PHONEME_OR_ANSWER_CLARITY",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio"
+      ],
+      "proposedAnswer": true,
+      "proposedLegacyDataAnswer": true
     },
     {
       "questionId": "legacy-ali-0009",
       "sourceBatch": "LEGACY-01",
       "field": "arabicHelper",
       "originalValue": "اقرأ الجملة كاملة، ثم اختر الكلمة التي تكمل معناها وتناسب السياق.",
-      "proposedValue": "انطق H وT، ثم جرّب صوت العلة في الوسط لتكوين كلمة مألوفة مثل HAT.",
+      "proposedValue": "انطق صوت /h/ وصوت /t/، ثم أضف صوت /æ/ بينهما لتكوين كلمة HAT.",
       "rationale": "The item is a phoneme/letter gap (H _ T), not a sentence-context gap.",
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "arabicHelperAudio"
+      ]
     },
     {
       "questionId": "legacy-ali-0112",
@@ -94,7 +132,19 @@
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio",
+        "arabicHelperAudio"
+      ],
+      "additionalChanges": [
+        {
+          "field": "prompt",
+          "originalValue": "Blend the sounds: c + a + t",
+          "proposedValue": "Blend the phonemes: /k/ - /æ/ - /t/"
+        }
+      ]
     },
     {
       "questionId": "legacy-ali-0113",
@@ -106,7 +156,19 @@
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio",
+        "arabicHelperAudio"
+      ],
+      "additionalChanges": [
+        {
+          "field": "prompt",
+          "originalValue": "Blend the sounds: d + o + g",
+          "proposedValue": "Blend the phonemes: /d/ - /ɒ/ - /g/"
+        }
+      ]
     },
     {
       "questionId": "legacy-ali-0114",
@@ -118,7 +180,19 @@
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio",
+        "arabicHelperAudio"
+      ],
+      "additionalChanges": [
+        {
+          "field": "prompt",
+          "originalValue": "Blend the sounds: p + i + g",
+          "proposedValue": "Blend the phonemes: /p/ - /ɪ/ - /g/"
+        }
+      ]
     },
     {
       "questionId": "legacy-ali-0115",
@@ -130,19 +204,35 @@
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "promptAudio",
+        "arabicHelperAudio"
+      ],
+      "additionalChanges": [
+        {
+          "field": "prompt",
+          "originalValue": "Blend the sounds: s + u + n",
+          "proposedValue": "Blend the phonemes: /s/ - /ʌ/ - /n/"
+        }
+      ]
     },
     {
       "questionId": "legacy-ali-0124",
       "sourceBatch": "LEGACY-05",
       "field": "arabicHelper",
       "originalValue": "اقرأ كلمة big بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
-      "proposedValue": "اقرأ الجملة كاملة، ثم اختر الصورة التي تطابق الاسم المذكور فيها.",
+      "proposedValue": "اقرأ الجملة كاملة، ثم اختر الصورة التي تطابق الحيوان المذكور فيها.",
       "rationale": "The activity asks the learner to match a full sentence to an image.",
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "arabicHelperAudio"
+      ]
     },
     {
       "questionId": "legacy-ali-0125",
@@ -154,8 +244,13 @@
       "changeType": "ARABIC_HELPER_ALIGNMENT",
       "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
       "productionApproved": false,
-      "runtimeIntegrated": false
+      "runtimeIntegrated": false,
+      "audioRegenerationRequired": true,
+      "mediaRegenerationScope": [
+        "arabicHelperAudio"
+      ]
     }
   ],
-  "validationNote": "Structural validation only; corrections remain staging proposals and require human technical/pedagogical approval before source-bank application."
+  "validationNote": "Structural validation only; corrections remain staging proposals and require human technical/pedagogical approval before source-bank application.",
+  "resolutionNote": "This second-pass patch supersedes the earlier answer-only proposal for legacy-ali-0073: the corrected prompt asks whether BUS begins with /b/, so both answer fields must be true. Text changes require regenerated prompt/helper audio before any migration."
 }
