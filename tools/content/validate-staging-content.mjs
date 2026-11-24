@@ -505,6 +505,14 @@ assert.equal(legacyMathHelperPatch.summary.runtimeIntegrated, 0);
 assert.equal(new Set(legacyMathHelperPatch.items.map(item => item.questionId)).size, 25);
 assert.ok(legacyMathHelperPatch.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
 
+const legacyFinalHelperPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-helper-alignment-batch-23-25-v0.1.json"), "utf8"));
+assert.equal(legacyFinalHelperPatch.items.length, 30);
+assert.equal(legacyFinalHelperPatch.summary.arabicHelperCorrections, 30);
+assert.equal(legacyFinalHelperPatch.summary.productionApproved, 0);
+assert.equal(legacyFinalHelperPatch.summary.runtimeIntegrated, 0);
+assert.equal(new Set(legacyFinalHelperPatch.items.map(item => item.questionId)).size, 30);
+assert.ok(legacyFinalHelperPatch.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
+
 const legacyBatch20to22Patch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-localisation-and-science-batch-20-22-v0.1.json"), "utf8"));
 assert.equal(legacyBatch20to22Patch.items.length, 18);
 assert.equal(legacyBatch20to22Patch.summary.helperCorrections, 11);
