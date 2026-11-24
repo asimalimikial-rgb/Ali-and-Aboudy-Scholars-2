@@ -413,5 +413,19 @@ assert.equal(legacyQualityPatch.summary.productionApproved, 0);
 assert.equal(new Set(legacyQualityPatch.items.map(item => item.questionId)).size, 12);
 assert.ok(legacyQualityPatch.items.every(item => item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 24 pending legacy correction proposals (12 initial + 12 second-pass), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references.");
+
+const personalCoverManifest = JSON.parse(fs.readFileSync(path.join(process.cwd(), "app/src/main/assets/book-covers/manifest.json"), "utf8"));
+assert.equal(personalCoverManifest.count, 7);
+assert.equal(personalCoverManifest.covers.length, 7);
+assert.equal(personalCoverManifest.distribution, "PRIVATE_PERSONAL_USE_ONLY");
+assert.equal(personalCoverManifest.publicRedistributionApproved, false);
+for (const cover of personalCoverManifest.covers) {
+  assert.ok(["ali", "aboudy"].includes(cover.learner));
+  assert.ok(cover.personalUseOnly);
+  const payload = fs.readFileSync(path.join(process.cwd(), "app/src/main/assets", cover.assetPath));
+  assert.equal(payload.length, cover.bytes);
+  assert.equal(crypto.createHash("sha256").update(payload).digest("hex"), cover.sha256);
+}
+
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 24 pending legacy correction proposals (12 initial + 12 second-pass), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, and all current media references, plus seven private book covers with checksum verification.");
 
