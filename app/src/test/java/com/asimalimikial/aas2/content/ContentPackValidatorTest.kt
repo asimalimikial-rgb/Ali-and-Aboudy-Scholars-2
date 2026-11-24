@@ -77,6 +77,25 @@ class ContentPackValidatorTest {
         assertTrue(result.errors.joinToString(), result.isValid)
     }
 
+    @Test fun arabicScriptIsRejectedFromEnglishPromptsOptionsAndRationales() {
+        val activity = validActivity().copy(
+            prompt = "كم تفاحة ترى؟",
+            options = listOf(
+                AnswerOption("two", "2"),
+                AnswerOption("three", "ثلاثة"),
+                AnswerOption("four", "4")
+            ),
+            optionRationales = mapOf(
+                "two" to "Two apples",
+                "three" to "إجابة صحيحة",
+                "four" to "Four apples"
+            )
+        )
+        val result = ContentPackValidator.validate(validPack(activities = listOf(activity)))
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("Arabic script in English learner content") })
+    }
+
     @Test fun arabicActivityIsAcceptedForRtlRendering() {
         val arabicActivity = validActivity().copy(
             language = "ar",
