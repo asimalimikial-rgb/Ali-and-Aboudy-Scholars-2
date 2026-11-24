@@ -54,3 +54,8 @@ The seven book candidate distribution currently documented is 65 + 35 + 35 + 34 
 A book is not complete because its title appears in the catalog or because a few activities are attached to it. Completion requires a coherent unit/lesson sequence, mapped skills, enough varied original activities for the intended learning outcomes, validated answer keys and distractors, complete local media references, and successful technical/content QA.
 
 No book is marked complete in this update. The catalog and hierarchy work is an integration step, not a claim of full textbook coverage.
+
+
+## Correction — Mathematics 2A/2B item-level mapping — 24 November 2026
+
+The earlier broad-cluster split of 34 candidates for 2A and six for 2B is superseded. After inspecting the Grade 2 pack's 40 individual Mathematics activities against the publisher digital contents listings, the candidate allocation is 31 for 2A and nine for 2B. The detailed map is `content/staging/macmillan-mathematics-level2-activity-map-review-v0.1.json`; corrected totals are in `docs/seven-book-coverage-plan-v0.3.md`. No activity is runtime-mapped or approved by this correction.

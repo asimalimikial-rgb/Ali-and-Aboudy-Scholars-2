@@ -80,3 +80,8 @@ The 2A/2B groupings are AAS2 skill clusters. Publisher unit numbers/titles are n
 | **Current English activity total** | **282** |
 
 Only the 62 Science activities currently have runtime book/unit/lesson mappings. All other groups above are planning candidates, not completed textbook coverage. The next implementation step is to review and map these groupings item-by-item, then add the approved hierarchy to the content packs and app.
+
+
+## Correction — 24 November 2026
+
+The former 34/6 Mathematics 2A/2B split was a broad-skill estimate. Publisher-origin contents listings expose 2A Units 1–12 and 2B Units 13–24. Item-level candidate review now assigns 31 of the 40 Mathematics activities to 2A and nine to 2B. See `docs/macmillan-mathematics-level2-unit-map-review-v0.1.md` and `content/staging/macmillan-mathematics-level2-activity-map-review-v0.1.json`. All 40 remain pending pedagogy review and none has a runtime unit ID.

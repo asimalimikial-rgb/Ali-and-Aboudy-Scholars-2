@@ -238,21 +238,42 @@
       "learner": "aboudy",
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
-      "isbn": "9781380000637",
-      "currentAuthoredActivities": 34,
+      "isbn": "9781035130382",
+      "currentAuthoredActivities": 31,
       "runtimeMappedActivities": 0,
       "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
       "plannedCoverage": [
-        "place value",
-        "addition and subtraction",
-        "multiplication",
-        "fractions and measurement"
+        "Numbers to 999",
+        "Addition to 99",
+        "Subtraction within 99",
+        "Multiplication",
+        "Fractions",
+        "Time"
       ],
       "openCoverage": [
-        "verified unit sequence",
-        "more varied practice and transfer activities"
+        "Unit 1 Numbers to 100",
+        "Unit 7 Number facts",
+        "Unit 9 Equations and functions",
+        "remaining review/transfer coverage",
+        "item-level pedagogy and difficulty calibration"
       ],
-      "nextAction": "Create 2A units and lessons from the verified scope and map the 34 candidate activities."
+      "nextAction": "Review the 31 candidate mappings and calibrate items before creating the 2A runtime hierarchy.",
+      "scopeEvidence": {
+        "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629",
+        "catalogueUrl": "https://online.flippingbook.com/view/887627778/44-45/",
+        "unitCount": 12,
+        "evidenceType": "Publisher-origin digital contents listing plus catalogue ISBN record",
+        "verifiedAt": "2026-11-24",
+        "familyEditionMatched": false
+      },
+      "candidateMappedUnits": [
+        "MM2A-U02",
+        "MM2A-U03",
+        "MM2A-U05",
+        "MM2A-U06",
+        "MM2A-U10",
+        "MM2A-U11"
+      ]
     },
     {
       "sequence": 5,
@@ -263,16 +284,37 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9781380000613",
-      "currentAuthoredActivities": 6,
+      "currentAuthoredActivities": 9,
       "runtimeMappedActivities": 0,
       "status": "LIMITED_CONTENT_NOT_INTEGRATED",
       "plannedCoverage": [
-        "measure and apply"
+        "Addition and subtraction to 999",
+        "Money",
+        "Measuring length",
+        "Measures problems"
       ],
       "openCoverage": [
-        "remaining unit and skill coverage"
+        "Unit 13 Numbers and number patterns",
+        "Units 17–19 geometry and area",
+        "Unit 23 Handling data",
+        "remaining review/transfer coverage",
+        "item-level pedagogy and difficulty calibration"
       ],
-      "nextAction": "Create the 2B hierarchy and expand beyond the six existing candidate activities."
+      "nextAction": "Review the nine candidate mappings and calibrate items before creating the 2B runtime hierarchy.",
+      "scopeEvidence": {
+        "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649",
+        "productUrl": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples",
+        "unitCount": 12,
+        "evidenceType": "Publisher-origin digital contents listing plus official Macmillan product ISBN",
+        "verifiedAt": "2026-11-24",
+        "familyEditionMatched": false
+      },
+      "candidateMappedUnits": [
+        "MM2B-U14",
+        "MM2B-U15",
+        "MM2B-U21",
+        "MM2B-U22"
+      ]
     },
     {
       "sequence": 6,

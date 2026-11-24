@@ -6,6 +6,7 @@ const catalog = JSON.parse(fs.readFileSync("content/catalog/seven-book-catalog.j
 const patch = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-batch-01.json", "utf8"));
 const reviewQueue = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-queue-v0.1.json", "utf8"));
 const englishWorldQueue = JSON.parse(fs.readFileSync("content/staging/english-world-level2-activity-map-review-v0.1.json", "utf8"));
+const mathematicsQueue = JSON.parse(fs.readFileSync("content/staging/macmillan-mathematics-level2-activity-map-review-v0.1.json", "utf8"));
 const assetRoot = "app/src/main/assets";
 const packs = [
   JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-kg2-foundation.json"), "utf8")),
@@ -99,6 +100,28 @@ assert.ok(englishWorldQueue.records.every(item =>
 ), "English World candidates must remain pending until unit mapping is reviewed.");
 const grade2Pack = packs[1];
 assert.equal(grade2Pack.version, "0.4.4");
+const mathActivities = grade2Pack.activities.filter(item => item.activityId.startsWith("new-aboudy-maths-"));
+assert.equal(mathActivities.length, 40);
+assert.equal(mathematicsQueue.packVersion, grade2Pack.version);
+assert.equal(mathematicsQueue.summary.total, 40);
+assert.equal(mathematicsQueue.summary.math2A, 31);
+assert.equal(mathematicsQueue.summary.math2B, 9);
+assert.equal(mathematicsQueue.summary.candidateAlignment, 40);
+assert.equal(mathematicsQueue.summary.runtimeMapped, 0);
+assert.equal(mathematicsQueue.records.length, 40);
+assert.equal(new Set(mathematicsQueue.records.map(item => item.activityId)).size, 40);
+assert.equal(mathematicsQueue.records.filter(item => item.bookPart === "2A").length, 31);
+assert.equal(mathematicsQueue.records.filter(item => item.bookPart === "2B").length, 9);
+assert.ok(mathematicsQueue.records.every(item => item.alignmentStatus === "CANDIDATE_ALIGNMENT" && item.reviewStatus === "PENDING_PEDAGOGY_REVIEW" && item.runtimeUnitId === null));
+for (const mapping of mathematicsQueue.records) {
+  const activity = mathActivities.find(item => item.activityId === mapping.activityId);
+  assert.ok(activity, "Missing Mathematics activity: " + mapping.activityId);
+  assert.equal(activity.prompt, mapping.prompt, "Stale Mathematics prompt: " + mapping.activityId);
+  assert.equal(activity.skillId, mapping.skillId, "Stale Mathematics skill: " + mapping.activityId);
+}
+assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2a").isbn, "9781035130382");
+assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2a").currentAuthoredActivities, 31);
+assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2b").currentAuthoredActivities, 9);
 const capitalizationItem = grade2Pack.activities.find(item => item.activityId === "new-aboudy-english-001");
 assert.equal(capitalizationItem.correctOptionId, "b");
 assert.equal(capitalizationItem.options.find(option => option.optionId === "b").text, "I visit Grandma on Monday.");
@@ -212,4 +235,4 @@ assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.inclu
   "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog, 12-unit English World scope and 35-item mapping queue, 616-item legacy review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 373 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog, 12-unit English World scope and 35-item mapping queue, 40-item Mathematics 2A/2B candidate map, 616-item legacy review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 373 option illustrations, and all 282 activity-to-media references.");
