@@ -1917,7 +1917,7 @@
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which two senses can help you notice an orange?",
+      "prompt": "Which two senses help you notice the smell and taste of an orange?",
       "options": [
         {
           "optionId": "a",
@@ -1934,9 +1934,9 @@
       ],
       "correctOptionId": "c",
       "optionRationales": {
-        "a": "Hearing is not the main sense for noticing an orange's smell or flavour.",
-        "b": "Sight can identify its appearance, but this pair omits smell and taste.",
-        "c": "Smell and taste can both help us notice an orange."
+        "a": "Hearing and touch do not let you both smell and taste the orange.",
+        "b": "Sight helps you see an orange, but hearing does not detect its smell or taste.",
+        "c": "Smell detects its odour and taste detects its flavour."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M39",
       "assessmentPhase": "transfer",
@@ -1944,11 +1944,11 @@
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or familiar food example; do not require tasting.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "reviewStatus": "REVISED_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
       "runtimeStatus": "NOT_INTEGRATED",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
-      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
+      "audioStatus": "REGENERATION_REQUIRED_AFTER_PROMPT_REVISION",
       "feedbackCorrect": "Well done! You chose the best answer.",
       "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
       "promptAudioAssetPath": "content/staging/media/science-g2/speech/51cfb7a7361cba931da91f84334fa0099de849f49c59ca22bf18bce7cfc1adbb.ogg",
@@ -1958,7 +1958,8 @@
         "c": "content/staging/media/science-g2/speech/0dd2d6b234c1199f0b4ac7bdc5a7258f29071cc3b06284742c3f24d106b82598.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/fca3132c00d080c9809cd5feb145ef69dda5f7abe7e9d0275126a01b1d94951b.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5313bda9055227167c8a4b77794088bb22172447b0c13c5c2c40c47e04c619dd.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5313bda9055227167c8a4b77794088bb22172447b0c13c5c2c40c47e04c619dd.ogg",
+      "audioRegenerationNote": "Prompt changed to remove multiple plausible sense pairs; regenerate prompt audio before any listening QA."
     },
     {
       "activityId": "aas2-g2-sci-u03-040",
