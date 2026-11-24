@@ -271,7 +271,12 @@ const sciencePrompts = new Set();
 for (const activity of scienceDraft.activities) {
   assert.match(activity.activityId, /^aas2-g2-sci-u03-\d{3}$/);
   assert.equal(activity.activityType, "SINGLE_CHOICE");
-  assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+  if (activity.activityId === "aas2-g2-sci-u03-039") {
+    assert.equal(activity.reviewStatus, "REVISED_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+    assert.equal(activity.prompt, "Which two senses help you notice the smell and taste of an orange?");
+  } else {
+    assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+  }
   assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
   assert.equal(activity.assetStatus, "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA");
   assert.equal(activity.options.length, 3);
@@ -314,7 +319,12 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
     const prompt = activity.prompt.trim().toLowerCase().replace(/\s+/g, " ");
     assert.ok(!stagedSciencePrompts.has(prompt));
     stagedSciencePrompts.add(prompt);
-    assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+    if (activity.activityId === "aas2-g2-sci-u03-039") {
+      assert.equal(activity.reviewStatus, "REVISED_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+      assert.equal(activity.prompt, "Which two senses help you notice the smell and taste of an orange?");
+    } else {
+      assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+    }
     assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
     assert.equal(activity.options.length, 3);
     const optionIds = activity.options.map(option => option.optionId);
@@ -323,7 +333,7 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
     assert.ok(optionIds.includes(activity.correctOptionId));
     assert.deepEqual(Object.keys(activity.optionRationales).sort(), [...optionIds].sort());
     assert.ok(activity.feedbackCorrect && activity.feedbackIncorrect);
-    assert.ok(["PENDING_STAGING_GENERATION", "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA"].includes(activity.audioStatus));
+    assert.ok(["PENDING_STAGING_GENERATION", "REGENERATION_REQUIRED_AFTER_PROMPT_REVISION", "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA"].includes(activity.audioStatus));
   }
   stagedScienceCount += draft.activities.length;
 }
