@@ -5,9 +5,27 @@ on:
     branches:
       - main
       - "foundation/**"
+    paths:
+      - "app/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle.properties"
+      - "gradle/**"
+      - "gradlew"
+      - "gradlew.bat"
+      - ".github/workflows/android-ci.yml"
   pull_request:
     branches:
       - main
+    paths:
+      - "app/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle.properties"
+      - "gradle/**"
+      - "gradlew"
+      - "gradlew.bat"
+      - ".github/workflows/android-ci.yml"
   workflow_dispatch:
 
 concurrency:
@@ -15,7 +33,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   verify-and-test:
@@ -66,6 +84,8 @@ jobs:
           echo "SHA-256: $(sha256sum "$APK" | awk '{print $1}')" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload installable debug APK
+        id: upload-debug-apk
+        continue-on-error: true
         uses: actions/upload-artifact@v6
         continue-on-error: true
         with:
@@ -104,5 +124,56 @@ jobs:
           disable-animations: true
           script: gradle :app:connectedDebugAndroidTest
 
-      # Instrumentation now runs on an API 35 emulator. Physical-device
-      # acceptance on the family's Android handset remains a separate QA gate.
+      # If GitHub artifact storage is full, keep CI tests running and store
+      # the APK on a private orphan branch. This does not touch main or publish a Release.
+      - name: Publish APK to a private delivery branch when artifact upload is unavailable
+        if: ${{ always() && steps.upload-debug-apk.outcome == 'failure' && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/foundation/') }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          APK_PATH="app/build/outputs/apk/debug/app-debug.apk"
+          test -s "$APK_PATH"
+          APK_BYTES="$(stat -c '%s' "$APK_PATH")"
+          if [ "$APK_BYTES" -ge 95000000 ]; then
+            echo "APK exceeds the safe GitHub single-file limit: $APK_BYTES bytes."
+            exit 1
+          fi
+          DELIVERY_BRANCH="delivery/apk-debug-${GITHUB_RUN_NUMBER}-${GITHUB_SHA:0:8}"
+          DELIVERY_DIR="$RUNNER_TEMP/aas2-apk-delivery"
+          mkdir -p "$DELIVERY_DIR"
+          cp "$APK_PATH" "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-v0.1.0-debug.apk"
+          (
+            cd "$DELIVERY_DIR"
+            git init -b "$DELIVERY_BRANCH"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            sha256sum *.apk > SHA256SUMS.txt
+            cat > README.txt <<EOF
+Ali & Aboudy Scholars 2
+Build type: Debug (not a Release)
+versionName: 0.1.0
+versionCode: 1
+applicationId: com.asimalikial.aas2
+Source commit: ${GITHUB_SHA}
+Android CI run: ${GITHUB_RUN_ID}
+APK bytes: ${APK_BYTES}
+EOF
+            git add .
+            git commit -m "Deliver private debug APK for device testing"
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            git push origin "HEAD:refs/heads/${DELIVERY_BRANCH}"
+          )
+          APK_SHA="$(sha256sum "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-v0.1.0-debug.apk" | awk '{print $1}')"
+          DOWNLOAD_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${DELIVERY_BRANCH}/Ali-Aboudy-Scholars-2-v0.1.0-debug.apk"
+          {
+            echo "### Private Debug APK delivery"
+            echo "- Branch: \`${DELIVERY_BRANCH}\`"
+            echo "- APK size: ${APK_BYTES} bytes"
+            echo "- SHA-256: \`${APK_SHA}\`"
+            echo "- Download URL: ${DOWNLOAD_URL}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # Instrumentation runs on an API 35 emulator. Physical-device acceptance
+      # on the family's Android handset remains a separate QA gate.
