@@ -1,0 +1,72 @@
+name: Generate staging-only Science Units 3–5 audio
+
+on:
+  push:
+    branches:
+      - "foundation/**"
+    paths:
+      - "content/staging/science-g2-unit-03-senses-draft-v0.1.json"
+      - "content/staging/science-g2-unit-04-materials-draft-v0.1.json"
+      - "content/staging/science-g2-unit-05-night-sky-draft-v0.1.json"
+      - "tools/audio/generate-science-staging-speech.py"
+      - ".github/workflows/generate-science-staging-audio.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aas2-science-staging-audio-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pinned speech dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check sherpa-onnx==2.0.1 soundfile numpy
+      - name: Download and verify pinned Supertonic 3 model
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE="$RUNNER_TEMP/supertonic3.tar.bz2"
+          MODEL_DIR="$RUNNER_TEMP/supertonic3"
+          mkdir -p "$MODEL_DIR"
+          curl --fail --location --retry 3 --retry-delay 2 "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2" -o "$ARCHIVE"
+          echo "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427  $ARCHIVE" | sha256sum --check -
+          tar -xjf "$ARCHIVE" -C "$MODEL_DIR"
+          MODEL_PATH="$(find "$MODEL_DIR" -type f -name tts.json -printf '%h\n' | head -n 1)"
+          test -n "$MODEL_PATH"
+          for file in duration_predictor.int8.onnx text_encoder.int8.onnx vector_estimator.int8.onnx vocoder.int8.onnx tts.json unicode_indexer.bin voice.bin; do test -s "$MODEL_PATH/$file"; done
+          echo "MODEL_PATH=$MODEL_PATH" >> "$GITHUB_ENV"
+      - name: Generate and verify staging-only Science speech
+        run: python tools/audio/generate-science-staging-speech.py --model-dir "$MODEL_PATH"
+      - name: Commit staging audio and references
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/staging/science-g2-unit-03-senses-draft-v0.1.json
+          git add content/staging/science-g2-unit-04-materials-draft-v0.1.json
+          git add content/staging/science-g2-unit-05-night-sky-draft-v0.1.json
+          git add content/staging/media/science-g2/speech
+          if git diff --cached --quiet; then
+            echo "Staging Science audio is already current."
+          else
+            git commit -m "audio: generate offline speech for Science Units 3–5 staging"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
