@@ -19,6 +19,12 @@ assert.match(waterAndSun, /aria-label="sun"/);
 assert.match(waterAndSun, /aria-label="water"/);
 assert.doesNotMatch(waterAndSun, /aria-label="planet"/);
 
+const plantNegation = visuals.renderOption(
+  { prompt: "Which statement about plants is correct?", type: "mc_text" },
+  "Plants do not need sunlight"
+);
+assert.match(plantNegation, /data-option-visual-kind="negation"/);
+
 const moonDaylight = visuals.renderOption(
   { prompt: "Which statement is correct?", type: "mc_text" },
   "The Moon gives Earth daylight"
