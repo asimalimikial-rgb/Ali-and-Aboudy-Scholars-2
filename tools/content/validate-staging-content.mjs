@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 
 const catalog = JSON.parse(fs.readFileSync("content/catalog/seven-book-catalog.json", "utf8"));
 const patch = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-batch-01.json", "utf8"));
+const reviewQueue = JSON.parse(fs.readFileSync("content/staging/legacy-question-bank-review-queue-v0.1.json", "utf8"));
 const assetRoot = "app/src/main/assets";
 const packs = [
   JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-kg2-foundation.json"), "utf8")),
@@ -56,6 +57,22 @@ for (const item of openResponse) {
 }
 assert.match(patch.reviewPolicy.arabicHelper, /Do not expose/i,
   "Legacy Arabic helper fields must not be exposed in the child runtime.");
+
+assert.equal(reviewQueue.summary.total, 616);
+assert.equal(reviewQueue.records.length, 616);
+assert.equal(reviewQueue.summary.ali, 301);
+assert.equal(reviewQueue.summary.aboudy, 315);
+assert.equal(reviewQueue.summary.objectiveCandidates, 496);
+assert.equal(reviewQueue.summary.customInteractions, 120);
+assert.equal(reviewQueue.summary.exactDuplicateGroups, 5);
+assert.equal(reviewQueue.summary.currentPackOverlaps, 1);
+assert.equal(reviewQueue.summary.openResponseRubrics, 2);
+assert.equal(new Set(reviewQueue.records.map(item => item.questionId)).size, 616,
+  "Every legacy question must have a unique review-queue ID.");
+assert.ok(reviewQueue.records.every(item => item.bookId && item.unitId && item.reviewStatus !== "APPROVED"),
+  "Every legacy question must retain its book/unit context and remain unapproved until review is complete.");
+assert.ok(reviewQueue.records.every(item => Object.values(item.reviewChecks).every(value => value === false)),
+  "Review checks must start unchecked; do not pre-approve legacy content.");
 
 // Verify all generated media against manifests and the actual checked-in files.
 const audio = JSON.parse(fs.readFileSync(path.join(assetRoot, "speech/manifest.json"), "utf8"));
@@ -134,4 +151,4 @@ assert.equal(englishActivityCount, 282);
 assert.equal(seenActivityIds.size, 282);
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog, legacy review patch, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog, 616-item review queue, legacy review patch, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
