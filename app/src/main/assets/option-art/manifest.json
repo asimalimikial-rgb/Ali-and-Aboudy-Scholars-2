@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 374,
+  "count": 373,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -133,10 +133,7 @@
       "labels": [
         "The children are playing.",
         "Playing the children are.",
-        "Are the children playing the.",
-        "The children are playing.",
-        "The Children are playing.",
-        "the children are playing."
+        "Are the children playing the."
       ]
     },
     {
@@ -779,11 +776,11 @@
       ]
     },
     {
-      "path": "option-art/e1a2e4f9d1d7e38fc43c4fc8.svg",
-      "bytes": 1049,
-      "sha256": "ac832adf1fe3cf27bbe90df088f9963b730f2d6ef64eba44d55a851eb0c095d2",
+      "path": "option-art/1a35d36e39deb672f898df74.svg",
+      "bytes": 753,
+      "sha256": "23d2ff083852e605e24a1e35dda429005d7dae14260ae3f1a335db34a8c6ba01",
       "labels": [
-        "train"
+        "cake"
       ]
     },
     {
@@ -792,14 +789,6 @@
       "sha256": "8ed635b483acde662589072364d5ece0d4ddcbbb23c06cd38c7a8481c0d5ddb3",
       "labels": [
         "cat"
-      ]
-    },
-    {
-      "path": "option-art/2e338239ff52a248e44b08ea.svg",
-      "bytes": 739,
-      "sha256": "b1d769adf2090b3bb36874973bb212d0bb32d192ce3f887cce7046c7a481ac35",
-      "labels": [
-        "blue"
       ]
     },
     {

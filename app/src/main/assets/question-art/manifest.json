@@ -4,7 +4,7 @@
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
   "questionCount": 282,
-  "optionImageCount": 374,
+  "optionImageCount": 373,
   "formats": {
     "svg": 245,
     "png": 37
@@ -1038,23 +1038,17 @@
       "activityId": "new-aboudy-english-001",
       "path": "question-art/new-aboudy-english-001.png",
       "format": "png",
-      "bytes": 13857,
-      "sha256": "dab37b0eed7c9efcf35d81fa11dba97b79a2846bac145e725d6fc67ede13591c",
+      "bytes": 15363,
+      "sha256": "805502b9acc3f738c2aed126d073050f0bd54b870b7d2ff99d58057dbc0db728",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
-      "matchedPromptKinds": [
-        "letter"
-      ],
-      "optionImagePaths": [
-        "option-art/70b46912bd9cdc429586398d.svg",
-        "option-art/70b46912bd9cdc429586398d.svg",
-        "option-art/70b46912bd9cdc429586398d.svg"
-      ],
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
       "optionLabels": [
-        "The children are playing.",
-        "The Children are playing.",
-        "the children are playing."
+        "I visit Grandma on monday.",
+        "I visit Grandma on Monday.",
+        "I visit Grandma on mondAy."
       ]
     },
     {
@@ -1416,8 +1410,8 @@
       "activityId": "new-aboudy-english-020",
       "path": "question-art/new-aboudy-english-020.png",
       "format": "png",
-      "bytes": 12190,
-      "sha256": "2e83297ffae3ab9d63640f293b1887eceffc4ef8d96d3ce2a055c3b5ad28ff3a",
+      "bytes": 12728,
+      "sha256": "75fda5b18bdbd19a24dbfc0be88cf9c0b6bcaa4299c880f97b708f22bd9e9ced",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1426,12 +1420,12 @@
       ],
       "optionImagePaths": [
         "option-art/c22d98771bde7d98fb70bd29.svg",
-        "option-art/e1a2e4f9d1d7e38fc43c4fc8.svg",
+        "option-art/1a35d36e39deb672f898df74.svg",
         "option-art/3944d7f96b178c4f6940cd42.svg"
       ],
       "optionLabels": [
         "map",
-        "train",
+        "cake",
         "cat"
       ]
     },
@@ -1473,18 +1467,16 @@
       "activityId": "new-aboudy-english-023",
       "path": "question-art/new-aboudy-english-023.png",
       "format": "png",
-      "bytes": 7825,
-      "sha256": "977a1765895a71551df8feeebfe87dbcae369067d7f21702c89c1a1157499376",
+      "bytes": 6705,
+      "sha256": "76617f252d61b7dc2cf72847bb8485e6af7bca0bb258ef0e99c27bf19416cc7c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
       "matchedPromptKinds": [],
-      "optionImagePaths": [
-        "option-art/2e338239ff52a248e44b08ea.svg"
-      ],
+      "optionImagePaths": [],
       "optionLabels": [
-        "under",
-        "blue",
+        "and",
+        "but",
         "because"
       ]
     },

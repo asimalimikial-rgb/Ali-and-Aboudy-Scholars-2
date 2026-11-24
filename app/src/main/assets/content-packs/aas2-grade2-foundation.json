@@ -3184,15 +3184,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "map"
+          "text": "map",
+          "imageAssetPath": "option-art/c22d98771bde7d98fb70bd29.svg"
         },
         {
           "optionId": "b",
-          "text": "cake"
+          "text": "cake",
+          "imageAssetPath": "option-art/1a35d36e39deb672f898df74.svg"
         },
         {
           "optionId": "c",
-          "text": "cat"
+          "text": "cat",
+          "imageAssetPath": "option-art/3944d7f96b178c4f6940cd42.svg"
         }
       ],
       "correctOptionId": "b",
