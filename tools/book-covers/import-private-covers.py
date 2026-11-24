@@ -152,7 +152,7 @@ def normalise_image(data: bytes, target: Path) -> dict:
     with Image.open(io.BytesIO(data)) as image:
         image.verify()
     with Image.open(io.BytesIO(data)) as image:
-        if image.width < 240 or image.height < 240:
+        if image.width < 400 or image.height < 400:
             raise ValueError(f"Image resolution is too small: {image.width}x{image.height}")
         source_dimensions = [image.width, image.height]
         image.thumbnail(MAX_SIZE, Image.Resampling.LANCZOS)
