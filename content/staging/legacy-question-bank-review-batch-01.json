@@ -21,8 +21,22 @@
       "changes": {
         "prompt": "One bird sits on a branch. One more joins it. How many birds are there now?",
         "legacyDataPatch": {
-          "title": "One bird sits on a branch. One more joins it. How many birds are there now?"
-        }
+          "title": "One bird sits on a branch. One more joins it. How many birds are there now?",
+          "options": [
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "answer": "2"
+        },
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2"
       },
       "rationale": "Removes an exact duplicate of legacy-ali-0147 while preserving the same add-to-5 objective and answer."
     },
@@ -32,8 +46,22 @@
       "changes": {
         "prompt": "Ali has 2 balls. He gets 1 more. How many balls does he have now?",
         "legacyDataPatch": {
-          "title": "Ali has 2 balls. He gets 1 more. How many balls does he have now?"
-        }
+          "title": "Ali has 2 balls. He gets 1 more. How many balls does he have now?",
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "answer": "3"
+        },
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": "3"
       },
       "rationale": "Turns a repeated bare equation into a short concrete joining situation appropriate to KG2."
     },
@@ -43,8 +71,22 @@
       "changes": {
         "prompt": "Sara has 2 apples. She adds 2 more. How many apples does she have now?",
         "legacyDataPatch": {
-          "title": "Sara has 2 apples. She adds 2 more. How many apples does she have now?"
-        }
+          "title": "Sara has 2 apples. She adds 2 more. How many apples does she have now?",
+          "options": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "answer": "4"
+        },
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": "4"
       },
       "rationale": "Removes an exact duplicate of legacy-ali-0149 and gives the learner a concrete addition context."
     },
