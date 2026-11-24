@@ -92,6 +92,7 @@ data class ActivityDefinition(
     val optionAudioAssetPaths: Map<String, String> = emptyMap(),
     val feedbackCorrectAudioAssetPath: String? = null,
     val feedbackIncorrectAudioAssetPath: String? = null,
+    /** Progressive English-only support; empty defaults preserve older bundled packs. */
     val hintSequence: List<String> = emptyList(),
     val helpSteps: List<String> = emptyList(),
     val hintImageAssetPath: String? = null,
