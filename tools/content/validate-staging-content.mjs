@@ -268,7 +268,7 @@ assert.equal(scienceDraft.releaseGate.runtimeIntegrated, false);
 const scienceIds = new Set();
 const sciencePrompts = new Set();
 for (const activity of scienceDraft.activities) {
-  assert.match(activity.activityId, /^aas2-g2-sci-u03-\\d{3}$/);
+  assert.match(activity.activityId, /^aas2-g2-sci-u03-\d{3}$/);
   assert.equal(activity.activityType, "SINGLE_CHOICE");
   assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
   assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
@@ -283,7 +283,7 @@ for (const activity of scienceDraft.activities) {
   assert.ok(activity.prompt.trim().length > 10);
   assert.ok(!scienceIds.has(activity.activityId), "Duplicate Science Unit 3 ID: " + activity.activityId);
   scienceIds.add(activity.activityId);
-  const normalizedPrompt = activity.prompt.trim().toLowerCase().replace(/\\s+/g, " ");
+  const normalizedPrompt = activity.prompt.trim().toLowerCase().replace(/\s+/g, " ");
   assert.ok(!sciencePrompts.has(normalizedPrompt), "Duplicate Science Unit 3 prompt: " + activity.activityId);
   sciencePrompts.add(normalizedPrompt);
 }
