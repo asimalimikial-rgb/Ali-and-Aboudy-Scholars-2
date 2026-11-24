@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -350,13 +350,13 @@
       "feedbackCorrectAudioAssetPath": "speech/6efba0a77d419f03b23c308166aa384a85dda57278a64cde7297528e8fdae262.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/6774180c0f4aeadc4faf455da8a4ecf3179c92d3182f1e66d5842ae098ece05a.ogg",
       "hintSequence": [
-        "Think about what a plant needs from nature.",
-        "Which choices help a real plant stay alive and grow?"
+        "Look for things a living plant can use from its surroundings.",
+        "A plant cannot play with toys or wear shoes."
       ],
       "helpSteps": [
-        "Plants take in water through their roots.",
-        "Sunlight helps a plant make the food it needs.",
-        "Ignore things that are toys or objects people wear."
+        "Plants are living things that need resources to grow.",
+        "Think about what roots take in and what leaves use from the sky.",
+        "Compare each pair with those needs."
       ]
     },
     {
@@ -584,13 +584,13 @@
       "feedbackCorrectAudioAssetPath": "speech/3b26527da20cb877d23f14d47cf8453ea6839bda5eb1e6822c6dd05fcc9750f5.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/e6514aad2d31a5546b8c0fbd88f2f5f33e25acee8a8acd908fe822691f1cd4b4.ogg",
       "hintSequence": [
-        "A thirsty plant needs something it can take in through its roots.",
-        "Think of what people pour onto soil to water a plant."
+        "Think about what a thirsty plant needs from its soil.",
+        "Roots take in what a plant needs from the ground."
       ],
       "helpSteps": [
-        "Plants absorb water through their roots.",
-        "Water helps the plant stay firm and grow.",
-        "A toy or shoe cannot water a plant."
+        "A plant takes in useful resources through its roots.",
+        "Think about which choice can be absorbed by roots.",
+        "A toy and a shoe are not things a plant can drink."
       ]
     },
     {

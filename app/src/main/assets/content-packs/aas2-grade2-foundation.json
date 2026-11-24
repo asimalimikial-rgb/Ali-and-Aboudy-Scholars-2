@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -686,13 +686,13 @@
       "feedbackCorrectAudioAssetPath": "speech/67659c38b726d55f7cdf07a5b86f530a286fa692c56c480e69e1f90075e62786.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/dd0bbc63c3bdcc358716def57a147c683e9c80ea7ce1695eb90eaa1df2105ca6.ogg",
       "hintSequence": [
-        "Think about where a fish can swim and breathe.",
-        "A fish needs a water habitat."
+        "Think about the conditions a fish needs to live.",
+        "Look for a place with water where a fish can swim."
       ],
       "helpSteps": [
-        "A habitat is a place where an animal gets what it needs.",
-        "Fish live in water, not in hot dry places.",
-        "Choose the place with a suitable water environment."
+        "A habitat provides food, water and shelter.",
+        "Fish use gills to take oxygen from water.",
+        "Choose the place that provides a suitable water environment."
       ]
     },
     {
@@ -757,13 +757,13 @@
       "feedbackCorrectAudioAssetPath": "speech/f693758a48320db81f39dc1437caf407aedb8a86ed6662cb8253261dbd11a8bf.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/ad339eff2ab506d7f4aaf30df1e9104e3c5d9a94ec81279b123d6196312d4ba2.ogg",
       "hintSequence": [
-        "Use the animal in the sentence to guide your choice.",
-        "A camel is adapted to live in a very dry place."
+        "The camel is adapted to a very dry environment.",
+        "Think of a region that gets very little rain."
       ],
       "helpSteps": [
-        "Read the whole sentence before choosing.",
-        "Think about the kind of environment where a camel can live.",
-        "The missing word names that environment."
+        "Read the sentence and picture the camel's surroundings.",
+        "A very dry region with little rain has a special name.",
+        "Check which option names that kind of place."
       ]
     },
     {
