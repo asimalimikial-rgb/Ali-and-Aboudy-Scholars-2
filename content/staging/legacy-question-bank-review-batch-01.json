@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "AAS2-LEGACY-REVIEW-PATCH-0.1",
+  "source": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "file": "content/question-bank/legacy-question-bank.json",
+    "reviewedLegacyCount": 616
+  },
+  "reviewPolicy": {
+    "target": "Notion AAS2 content contract",
+    "learningLanguage": "en",
+    "arabicHelper": "Do not expose in child runtime; current content specification defers Arabic helper/support text.",
+    "objectiveItems": "Deterministic answer key; 3–4 distinct options; exactly one correct option.",
+    "customInteractions": "Keep their original interaction intent; do not force-convert to single choice.",
+    "status": "Revised items remain pending technical validation and full content-pack integration."
+  },
+  "patches": [
+    {
+      "id": "legacy-ali-0235",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "prompt": "One bird sits on a branch. One more joins it. How many birds are there now?",
+        "legacyDataPatch": {
+          "title": "One bird sits on a branch. One more joins it. How many birds are there now?"
+        }
+      },
+      "rationale": "Removes an exact duplicate of legacy-ali-0147 while preserving the same add-to-5 objective and answer."
+    },
+    {
+      "id": "legacy-ali-0236",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "prompt": "Ali has 2 balls. He gets 1 more. How many balls does he have now?",
+        "legacyDataPatch": {
+          "title": "Ali has 2 balls. He gets 1 more. How many balls does he have now?"
+        }
+      },
+      "rationale": "Turns a repeated bare equation into a short concrete joining situation appropriate to KG2."
+    },
+    {
+      "id": "legacy-ali-0238",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "prompt": "Sara has 2 apples. She adds 2 more. How many apples does she have now?",
+        "legacyDataPatch": {
+          "title": "Sara has 2 apples. She adds 2 more. How many apples does she have now?"
+        }
+      },
+      "rationale": "Removes an exact duplicate of legacy-ali-0149 and gives the learner a concrete addition context."
+    },
+    {
+      "id": "legacy-aboudy-0082",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "prompt": "Yesterday, Sara ___ her homework.",
+        "options": [
+          "finish",
+          "finishes",
+          "finished",
+          "finishing"
+        ],
+        "answer": "finished",
+        "legacyDataPatch": {
+          "title": "Yesterday, Sara ___ her homework.",
+          "options": [
+            "finish",
+            "finishes",
+            "finished",
+            "finishing"
+          ],
+          "answer": "finished"
+        }
+      },
+      "rationale": "Replaces an exact duplicate past-tense item with a new subject and verb while retaining the same grammar objective."
+    },
+    {
+      "id": "legacy-aboudy-0089",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "prompt": "What did Ben do when the fox came near?",
+        "options": [
+          "He ran away.",
+          "He thumped his foot.",
+          "He climbed a tree.",
+          "He called the other rabbits."
+        ],
+        "answer": "He thumped his foot.",
+        "legacyDataPatch": {
+          "title": "What did Ben do when the fox came near?",
+          "options": [
+            "He ran away.",
+            "He thumped his foot.",
+            "He climbed a tree.",
+            "He called the other rabbits."
+          ],
+          "answer": "He thumped his foot."
+        }
+      },
+      "rationale": "Replaces a repeated literal-recall question with a distinct event-recall question grounded in the same story."
+    },
+    {
+      "id": "legacy-ali-0299",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "answerKind": "OPEN_RESPONSE_RUBRIC",
+        "answer": "",
+        "responseRubric": {
+          "criteria": [
+            "The child draws one recognisable favourite object, place, animal, or activity.",
+            "The drawing includes at least two relevant visual details.",
+            "The child can name or briefly describe what was drawn."
+          ],
+          "scoring": "Descriptive evidence only; do not mark against one fixed picture or penalise drawing style."
+        }
+      },
+      "rationale": "A creative drawing prompt has no single correct answer; assessment must use observable criteria rather than an empty objective answer."
+    },
+    {
+      "id": "legacy-aboudy-0313",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "changes": {
+        "answerKind": "OPEN_RESPONSE_RUBRIC",
+        "answer": "",
+        "responseRubric": {
+          "criteria": [
+            "The drawing represents a recognisable event or setting from a story the child knows.",
+            "The scene includes at least one character and one relevant action or detail.",
+            "The child can briefly retell or explain the chosen scene."
+          ],
+          "scoring": "Assess story representation and explanation, not artistic skill or a single model answer."
+        }
+      },
+      "rationale": "Converts an open-ended drawing task into an assessable comprehension response without inventing a fixed answer."
+    }
+  ],
+  "notChangedYet": [
+    "All other legacy items remain pending item-level review; this patch does not approve the full 616-question bank.",
+    "Difficulty remains legacy-unrated until age, prerequisite, cognitive demand and curriculum fit are reviewed.",
+    "Audio references must be regenerated from final approved English text during migration; legacy audioIds are not assumed to match revised text."
+  ]
+}
