@@ -1,0 +1,36 @@
+name: Content validation
+
+on:
+  push:
+    branches:
+      - foundation/slice-0-android
+    paths:
+      - "content/catalog/**"
+      - "content/staging/**"
+      - "tools/content/**"
+      - ".github/workflows/content-validation.yml"
+  pull_request:
+    paths:
+      - "content/catalog/**"
+      - "content/staging/**"
+      - "tools/content/**"
+      - ".github/workflows/content-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-content:
+    name: Validate seven-book catalog and reviewed staging content
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate catalog and review patch
+        run: node tools/content/validate-staging-content.mjs
