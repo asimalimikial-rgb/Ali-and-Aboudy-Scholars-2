@@ -139,7 +139,7 @@ def download(url: str) -> bytes:
     with urlopen(request, timeout=45) as response:
         data = response.read()
         content_type = response.headers.get("Content-Type", "").lower()
-    if len(data) < 2_000:
+    if len(data) < 500:
         raise ValueError(f"Image response is too small ({len(data)} bytes), content-type={content_type}")
     return data
 
