@@ -1,0 +1,5 @@
+Personal-use textbook cover assets for the private Ali & Aboudy Scholars 2 app.
+These images are included only to help the two children recognize their own learning books.
+Book covers remain the property of their respective publishers and rights holders.
+Do not publish this repository, APK, or cover files publicly or redistribute them.
+Images were resized without cropping or content alteration for offline display.

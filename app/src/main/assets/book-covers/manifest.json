@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "project": "Ali & Aboudy Scholars 2",
+  "purpose": "Private, offline bookshelf display for the user's two children.",
+  "distribution": "PRIVATE_PERSONAL_USE_ONLY",
+  "publicRedistributionApproved": false,
+  "processedWithoutCropping": true,
+  "maxDimensions": [
+    960,
+    1280
+  ],
+  "count": 7,
+  "covers": [
+    {
+      "coverId": "hop-skip-jump-senior-kg",
+      "learner": "ali",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit",
+      "isbn": "9789356660113",
+      "file": "hop-skip-jump-senior-kg.jpg",
+      "assetPath": "book-covers/hop-skip-jump-senior-kg.jpg",
+      "sourceImageUrl": "https://shantistationers.com/cdn/shop/files/WhatsAppImage2026-03-14at1.20.07PM_1.jpg?v=1773481170&width=897",
+      "sourceProductUrl": "https://shantistationers.com/products/hop-skip-and-jump-senior-kg-comprehensive-educational-kit",
+      "note": "Complete-kit product photograph. This is a kit image, not one individual component cover.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 130735,
+      "sha256": "fdf79605ee1a18bf40cb7430174c446427344401833eb11339b2b190bb4c79d3",
+      "sourceDimensions": [
+        897,
+        896
+      ]
+    },
+    {
+      "coverId": "maths-xpress-senior-kg",
+      "learner": "ali",
+      "title": "Maths Xpress — Senior KG",
+      "isbn": "9789356664975",
+      "file": "maths-xpress-senior-kg.jpg",
+      "assetPath": "book-covers/maths-xpress-senior-kg.jpg",
+      "sourceImageUrl": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/maths_ukg.jpg",
+      "sourceProductUrl": "https://raajkart.com/macmillan-maths-xpress-for-senior-kg-revised.html",
+      "note": "Seller product image for the Senior KG / UKG book.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 1996,
+      "sha256": "f923b3967a0c7a0296a874908a50c2891848731e6d3d544bf2bbb703af043e7d",
+      "sourceDimensions": [
+        262,
+        262
+      ]
+    },
+    {
+      "coverId": "english-world-level-2",
+      "learner": "aboudy",
+      "title": "English World — Level 2 Pupil's Book Pack",
+      "isbn": "9781035117154",
+      "file": "english-world-level-2.jpg",
+      "assetPath": "book-covers/english-world-level-2.jpg",
+      "sourceImageUrl": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lvcpzgszfvgpc5",
+      "sourceProductUrl": "https://shopee.co.th/DKTODAY-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD-ENGLISH-WORLD-2-PUPIL%27S-BOOK-PACK-i.204155689.29900078366",
+      "note": "Candidate cover from the Level 2 Pupil's Book Pack product listing; exact physical copy still to be compared.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 148108,
+      "sha256": "5d551390ed58e5be6dd27e1582f9dc49e7e4565a83ad0ffe0d14f7343271d9bc",
+      "sourceDimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "coverId": "macmillan-mathematics-2a",
+      "learner": "aboudy",
+      "title": "Macmillan Mathematics — Level 2A",
+      "isbn": "9781035130382",
+      "file": "macmillan-mathematics-2a.jpg",
+      "assetPath": "book-covers/macmillan-mathematics-2a.jpg",
+      "sourceImageUrl": "https://cdn.dc5.ro/img-prod/3815428032-0.jpeg",
+      "sourceProductUrl": "https://carturesti.ro/carte/macmillan-mathematics-level-2a-pupil-s-book-with-ebook-3815428032",
+      "note": "Product image is matched to the current 2A Pupil's Book with eBook Pack listing.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 163794,
+      "sha256": "fb20760b0a8ffe13b1c182d4cf9b16b2b223fb4555b00a873337c4bb5a32a088",
+      "sourceDimensions": [
+        2551,
+        3260
+      ]
+    },
+    {
+      "coverId": "macmillan-mathematics-2b",
+      "learner": "aboudy",
+      "title": "Macmillan Mathematics — Level 2B",
+      "isbn": "9781380000613",
+      "file": "macmillan-mathematics-2b.jpg",
+      "assetPath": "book-covers/macmillan-mathematics-2b.jpg",
+      "sourceImageUrl": "https://static.deltabook.ru/iblock/995/9956a35ccbbc7afd7c5a021b4e48e932.jpg",
+      "sourceProductUrl": "https://deltabook.ru/product/63616",
+      "note": "Product image visibly identifies the 2B learner book.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 166759,
+      "sha256": "083754729aaa9f71737967c7591ee11ff0a313fa76200ec41cb08d820e797460",
+      "sourceDimensions": [
+        2583,
+        3325
+      ]
+    },
+    {
+      "coverId": "macmillan-science-level-2",
+      "learner": "aboudy",
+      "title": "Macmillan Science — Level 2 Pupil's Book and eBook Pack",
+      "isbn": "9781035130740",
+      "file": "macmillan-science-level-2.jpg",
+      "assetPath": "book-covers/macmillan-science-level-2.jpg",
+      "sourceImageUrl": "https://media.zid.store/c3c80b9f-f176-496c-9f27-04187e1270f9/346678d1-ab4c-4fc1-a76d-c63a6de33877.jpg",
+      "sourceProductUrl": "https://rushd.sa/products/macmillan-science-level-2-students-book-ebook-pack",
+      "note": "Seller image from the current Pupil's Book and eBook Pack listing; compare with the household copy.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 82872,
+      "sha256": "59720fe5fe82a17f101e6d54dbc3f1bf6e56c50715c7080a99feeedfa25a51fa",
+      "sourceDimensions": [
+        567,
+        766
+      ]
+    },
+    {
+      "coverId": "maths-xpress-book-2",
+      "learner": "aboudy",
+      "title": "Maths Xpress — Book 2",
+      "isbn": "9789356664999",
+      "file": "maths-xpress-book-2.jpg",
+      "assetPath": "book-covers/maths-xpress-book-2.jpg",
+      "sourceImageUrl": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/macmillan_maths_xpress_class_2.jpg",
+      "sourceProductUrl": "https://raajkart.com/macmillan-maths-xpress-for-class-2-2.html",
+      "note": "Class 2 product image; keep distinct from Macmillan Mathematics 2B.",
+      "format": "JPEG",
+      "personalUseOnly": true,
+      "bytes": 107095,
+      "sha256": "9dc41c96cfb79741c6b1363f3792413ea2ae2f586622d32e4ce12326d1176fb4",
+      "sourceDimensions": [
+        700,
+        872
+      ]
+    }
+  ],
+  "failedFallbackSources": []
+}
