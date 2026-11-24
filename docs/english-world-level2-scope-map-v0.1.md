@@ -25,13 +25,13 @@ The publisher's official scope-and-sequence lists 12 units. The table below is a
 
 ## AAS2 mapping status
 
-The Grade 2 pack currently has 35 English World candidate activities: 30 grammar/word-study items and 5 reading-comprehension items. They are not yet mapped to these 12 units.
+The Grade 2 pack currently has 35 English activities: 29 grammar/word-study items and 6 reading-comprehension items. The item-level review queue is `content/staging/english-world-level2-activity-map-review-v0.1.json`: 12 are candidate unit alignments, 3 need rewriting to match a listed unit outcome, and 20 remain supplementary/unmapped. None is yet mapped in the Android runtime.
 
 Initial alignment observations:
 
 - Direct candidates include action verbs (Unit 1), contractions (Unit 6), past-tense verbs (Units 8/11/12), and commas in lists (Unit 12).
 - Several existing items test broader grammar or vocabulary not explicitly listed in this Level 2 sequence. Keep them as supplementary only if the AAS2 learning outcome justifies them; do not assign a textbook unit merely to fill a field.
-- The current main-idea activity `new-aboudy-english-019` had no story stimulus. Its prompt has now been revised to include a short, self-contained original story before the question. The new prompt requires fresh local audio and illustration generation.
+- The current main-idea activity `new-aboudy-english-019` had no story stimulus. Its prompt was revised to include a short, self-contained original story; the offline audio and illustration workflows regenerated the corresponding assets and updated the pack references.
 - The remaining reading items embed their short stimulus in the prompt. Their reading skill, inference demand, and vocabulary load still need item-level review.
 
 ## Next mapping gate
