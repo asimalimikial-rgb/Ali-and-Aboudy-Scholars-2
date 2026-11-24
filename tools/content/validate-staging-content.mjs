@@ -124,8 +124,8 @@ for (const mapping of mathematicsQueue.records) {
 assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2a").isbn, "9781035130382");
 assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2a").currentAuthoredActivities, 31);
 assert.equal(catalog.books.find(book => book.bookId === "macmillan-mathematics-level-2b").currentAuthoredActivities, 9);
-assert.equal(legacyCorrectionPatch.patchItems.length, 9);
-assert.equal(new Set(legacyCorrectionPatch.patchItems.map(item => item.questionId)).size, 9);
+assert.equal(legacyCorrectionPatch.patchItems.length, 12);
+assert.equal(new Set(legacyCorrectionPatch.patchItems.map(item => item.questionId)).size, 12);
 assert.ok(legacyCorrectionPatch.patchItems.every(item => item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false));
 const busFix = legacyCorrectionPatch.patchItems.find(item => item.questionId === "legacy-ali-0073");
 assert.equal(busFix.changes.answer, false);
