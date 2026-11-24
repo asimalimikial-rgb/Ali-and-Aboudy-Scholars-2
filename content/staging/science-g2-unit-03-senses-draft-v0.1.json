@@ -1948,10 +1948,10 @@
       "runtimeStatus": "NOT_INTEGRATED",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
-      "audioStatus": "REGENERATION_REQUIRED_AFTER_PROMPT_REVISION",
+      "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
       "feedbackCorrect": "Well done! You chose the best answer.",
       "feedbackIncorrect": "Nice try. Think about what you have learned, then try again.",
-      "promptAudioAssetPath": "content/staging/media/science-g2/speech/51cfb7a7361cba931da91f84334fa0099de849f49c59ca22bf18bce7cfc1adbb.ogg",
+      "promptAudioAssetPath": "content/staging/media/science-g2/speech/94530059645fabd48e98b5922ae07b99797af888b5ebf105310a70b62cb1a8f5.ogg",
       "optionAudioAssetPaths": {
         "a": "content/staging/media/science-g2/speech/4f757c338394b3cb2c848d132030d4a5ec249f1d59e9ff62b87dd46ef9dcfd66.ogg",
         "b": "content/staging/media/science-g2/speech/ceb6820a0c0b5b7c61ccd7c6e1d58696a231a970b202f07ea57fdf6e47381959.ogg",
