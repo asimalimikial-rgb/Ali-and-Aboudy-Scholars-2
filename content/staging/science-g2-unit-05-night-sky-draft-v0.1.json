@@ -63,16 +63,16 @@
       "prompt": "Which object is Earth's natural satellite?",
       "options": [
         {
-          "optionId": "a",
-          "text": "The Moon"
-        },
-        {
           "optionId": "b",
           "text": "A cloud"
         },
         {
           "optionId": "c",
           "text": "A mountain"
+        },
+        {
+          "optionId": "a",
+          "text": "The Moon"
         }
       ],
       "correctOptionId": "a",
@@ -163,12 +163,12 @@
       "prompt": "Why can we see the Moon shining in the night sky?",
       "options": [
         {
-          "optionId": "a",
-          "text": "It reflects light from the Sun"
-        },
-        {
           "optionId": "b",
           "text": "It is a giant lamp"
+        },
+        {
+          "optionId": "a",
+          "text": "It reflects light from the Sun"
         },
         {
           "optionId": "c",
@@ -213,16 +213,16 @@
       "prompt": "Can the Moon sometimes be seen during the daytime?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Yes"
-        },
-        {
           "optionId": "b",
           "text": "No, never"
         },
         {
           "optionId": "c",
           "text": "Only during a storm"
+        },
+        {
+          "optionId": "a",
+          "text": "Yes"
         }
       ],
       "correctOptionId": "a",
@@ -263,12 +263,12 @@
       "prompt": "What is a crater on the Moon?",
       "options": [
         {
-          "optionId": "a",
-          "text": "A round hollow or dent on its surface"
-        },
-        {
           "optionId": "b",
           "text": "A river full of water"
+        },
+        {
+          "optionId": "a",
+          "text": "A round hollow or dent on its surface"
         },
         {
           "optionId": "c",
@@ -363,16 +363,16 @@
       "prompt": "Which model could show how a crater forms?",
       "options": [
         {
-          "optionId": "a",
-          "text": "An adult drops a small ball into soft modelling dough"
-        },
-        {
           "optionId": "b",
           "text": "A child touches a hot pan"
         },
         {
           "optionId": "c",
           "text": "A cup of unknown liquid"
+        },
+        {
+          "optionId": "a",
+          "text": "An adult drops a small ball into soft modelling dough"
         }
       ],
       "correctOptionId": "a",
@@ -413,12 +413,12 @@
       "prompt": "What shape is a simple impact crater often like?",
       "options": [
         {
-          "optionId": "a",
-          "text": "A round bowl-shaped hollow"
-        },
-        {
           "optionId": "b",
           "text": "A long straight river"
+        },
+        {
+          "optionId": "a",
+          "text": "A round bowl-shaped hollow"
         },
         {
           "optionId": "c",
@@ -513,12 +513,12 @@
       "prompt": "Do stars in a constellation have to be close together in space?",
       "options": [
         {
-          "optionId": "a",
-          "text": "No, they can be very far apart"
-        },
-        {
           "optionId": "b",
           "text": "Yes, they touch each other"
+        },
+        {
+          "optionId": "a",
+          "text": "No, they can be very far apart"
         },
         {
           "optionId": "c",
@@ -613,16 +613,16 @@
       "prompt": "What should you do if clouds hide the stars?",
       "options": [
         {
-          "optionId": "a",
-          "text": "Record that the sky was cloudy"
-        },
-        {
           "optionId": "b",
           "text": "Climb a tree to get closer"
         },
         {
           "optionId": "c",
           "text": "Look at the Sun through a telescope"
+        },
+        {
+          "optionId": "a",
+          "text": "Record that the sky was cloudy"
         }
       ],
       "correctOptionId": "a",
