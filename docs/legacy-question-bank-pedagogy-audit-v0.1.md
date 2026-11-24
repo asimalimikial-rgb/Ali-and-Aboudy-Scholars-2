@@ -38,7 +38,7 @@ One additional legacy item overlaps the current AAS2 pilot pack:
 
 - `legacy-ali-0289` — “Which shape has three sides?” duplicates `kg2-shape-01-en`.
 
-The first review patch revises the second item in each of the five exact duplicate pairs and gives the overlapping shape item a separate exclusion/replacement decision before migration. It does not delete or alter the source bank.
+The first review patch revises the second item in each of the five exact duplicate pairs. The overlapping shape item is separately flagged for exclusion or replacement during migration; it is not part of patch batch 01. No source-bank record is deleted or altered.
 
 Four option sets contain case-only contrasts (for example `i` / `I` and `emma` / `Emma`). These are meaningful where capitalization is the assessed skill and must not be collapsed by case-insensitive deduplication.
 
