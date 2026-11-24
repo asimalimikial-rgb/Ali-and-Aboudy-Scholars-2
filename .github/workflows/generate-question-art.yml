@@ -29,6 +29,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "22"
+      - name: Validate semantic option artwork
+        run: node tools/visuals/visual-engine.test.mjs
       - name: Install pinned SVG renderer
         run: npm install --no-save @resvg/resvg-js@2.6.2
       - name: Generate and verify one illustration per activity
