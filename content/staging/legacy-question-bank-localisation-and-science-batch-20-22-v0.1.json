@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "patchId": "legacy-question-bank-localisation-and-science-batch-20-22-v0.1",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "file": "content/question-bank/legacy-question-bank.json"
+  },
+  "scope": "LEGACY-20 through LEGACY-22; 75 Aboudy Grade 2 records inspected.",
+  "summary": {
+    "items": 18,
+    "helperCorrections": 11,
+    "scienceAndLanguageCorrections": 4,
+    "currencyLocalisations": 3,
+    "productionApproved": 0,
+    "runtimeIntegrated": 0,
+    "currentChildRuntimeExposure": false,
+    "englishAudioRegenerationRequired": 7,
+    "futureArabicHelperAudioRegenerationRequired": 11
+  },
+  "items": [
+    {
+      "questionId": "legacy-aboudy-0175",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-20",
+      "field": "arabicHelper",
+      "originalValue": "حدّد العدد الأكبر والجزء الذي نطرحه، ثم احسب الفرق مع مراجعة الاستلاف إن لزم.",
+      "proposedValue": "ابدأ بعدد الطيور على الشجرة، ثم اطرح الطيور التي طارت بعيداً.",
+      "rationale": "The take-away helper belongs to LEGACY-20, not batches 17–19.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0197",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-20",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال between، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "قسّم العدد إلى مجموعات متساوية بحسب عدد الأشخاص، ثم حدّد نصيب كل واحد.",
+      "rationale": "These are equal-sharing division items; replace generic number/shape guidance with fair-sharing language.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0198",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-20",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال between، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "قسّم العدد إلى مجموعات متساوية بحسب عدد الأشخاص، ثم حدّد نصيب كل واحد.",
+      "rationale": "These are equal-sharing division items; replace generic number/shape guidance with fair-sharing language.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0199",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-20",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال between، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "قسّم العدد إلى مجموعات متساوية بحسب عدد الأشخاص، ثم حدّد نصيب كل واحد.",
+      "rationale": "These are equal-sharing division items; replace generic number/shape guidance with fair-sharing language.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0200",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال half، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "النصف يعني تقسيم الكمية إلى مجموعتين متساويتين.",
+      "rationale": "These are halves items; the helper should explain two equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0201",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال half، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "النصف يعني تقسيم الكمية إلى مجموعتين متساويتين.",
+      "rationale": "These are halves items; the helper should explain two equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0202",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال half، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "النصف يعني تقسيم الكمية إلى مجموعتين متساويتين.",
+      "rationale": "These are halves items; the helper should explain two equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0203",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال quarter، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "الربع يعني تقسيم الكمية إلى أربع مجموعات متساوية.",
+      "rationale": "These are quarters items; the helper should explain four equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0204",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال quarter، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "الربع يعني تقسيم الكمية إلى أربع مجموعات متساوية.",
+      "rationale": "These are quarters items; the helper should explain four equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0205",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "field": "arabicHelper",
+      "originalValue": "حدّد الأعداد أو الأشكال المهمة في سؤال quarter، ثم اختر طريقة تمثيل تساعدك على الحل.",
+      "proposedValue": "الربع يعني تقسيم الكمية إلى أربع مجموعات متساوية.",
+      "rationale": "These are quarters items; the helper should explain four equal parts.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0225",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-22",
+      "field": "arabicHelper",
+      "originalValue": "تذكّر كيف تؤثر حركة الهواء في الأجسام، مثل الطائرة الورقية.",
+      "proposedValue": "تذكّر المواد التي تُستخدم لصنع النوافذ، ثم قارنها بالخشب والورق والقماش.",
+      "rationale": "The current helper refers to wind and kites, unrelated to window materials.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequiredForFutureArabicHelperPlayback": true
+    },
+    {
+      "questionId": "legacy-aboudy-0206",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "💰 + 💰 + 💰 = ?",
+          "proposedValue": "🪙 + 🪙 + 🪙 = ?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "💰 + 💰 + 💰 = ?",
+          "proposedValue": "🪙 + 🪙 + 🪙 = ?"
+        },
+        {
+          "field": "options",
+          "originalValue": [
+            "1p",
+            "2p",
+            "3p",
+            "4p"
+          ],
+          "proposedValue": [
+            "1 piastre",
+            "2 piastres",
+            "3 piastres",
+            "4 piastres"
+          ]
+        },
+        {
+          "field": "legacyData.options",
+          "originalValue": [
+            "1p",
+            "2p",
+            "3p",
+            "4p"
+          ],
+          "proposedValue": [
+            "1 piastre",
+            "2 piastres",
+            "3 piastres",
+            "4 piastres"
+          ]
+        },
+        {
+          "field": "answer",
+          "originalValue": "3p",
+          "proposedValue": "3 piastres"
+        },
+        {
+          "field": "legacyData.answer",
+          "originalValue": "3p",
+          "proposedValue": "3 piastres"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "اجمع قيمة القطع النقدية؛ عدّ كل رمز مرة واحدة، ثم عبّر عن المجموع بوحدة القرش.",
+          "proposedValue": "عدّ القطع النقدية، ثم اجمع قيمها بوحدة القرش."
+        }
+      ],
+      "rationale": "Replace British pence notation with Sudanese piastres and use coin imagery; the amounts and arithmetic remain unchanged.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0207",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "5p + 5p = ?",
+          "proposedValue": "5 piastres + 5 piastres = ?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "5p + 5p = ?",
+          "proposedValue": "5 piastres + 5 piastres = ?"
+        },
+        {
+          "field": "options",
+          "originalValue": [
+            "5p",
+            "10p",
+            "15p",
+            "20p"
+          ],
+          "proposedValue": [
+            "5 piastres",
+            "10 piastres",
+            "15 piastres",
+            "20 piastres"
+          ]
+        },
+        {
+          "field": "legacyData.options",
+          "originalValue": [
+            "5p",
+            "10p",
+            "15p",
+            "20p"
+          ],
+          "proposedValue": [
+            "5 piastres",
+            "10 piastres",
+            "15 piastres",
+            "20 piastres"
+          ]
+        },
+        {
+          "field": "answer",
+          "originalValue": "10p",
+          "proposedValue": "10 piastres"
+        },
+        {
+          "field": "legacyData.answer",
+          "originalValue": "10p",
+          "proposedValue": "10 piastres"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "اجمع قيم القطع النقدية مع إبقاء وحدة القرش نفسها في الناتج.",
+          "proposedValue": "اجمع قيم القطع النقدية، وأبقِ وحدة القرش في الناتج."
+        }
+      ],
+      "rationale": "Replace British pence notation with Sudanese piastres and use coin imagery; the amounts and arithmetic remain unchanged.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0208",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "10p + 5p = ?",
+          "proposedValue": "10 piastres + 5 piastres = ?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "10p + 5p = ?",
+          "proposedValue": "10 piastres + 5 piastres = ?"
+        },
+        {
+          "field": "options",
+          "originalValue": [
+            "10p",
+            "15p",
+            "20p",
+            "25p"
+          ],
+          "proposedValue": [
+            "10 piastres",
+            "15 piastres",
+            "20 piastres",
+            "25 piastres"
+          ]
+        },
+        {
+          "field": "legacyData.options",
+          "originalValue": [
+            "10p",
+            "15p",
+            "20p",
+            "25p"
+          ],
+          "proposedValue": [
+            "10 piastres",
+            "15 piastres",
+            "20 piastres",
+            "25 piastres"
+          ]
+        },
+        {
+          "field": "answer",
+          "originalValue": "15p",
+          "proposedValue": "15 piastres"
+        },
+        {
+          "field": "legacyData.answer",
+          "originalValue": "15p",
+          "proposedValue": "15 piastres"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "اجمع قيم القطع النقدية مع إبقاء وحدة القرش نفسها في الناتج.",
+          "proposedValue": "اجمع قيم القطع النقدية، وأبقِ وحدة القرش في الناتج."
+        }
+      ],
+      "rationale": "Replace British pence notation with Sudanese piastres and use coin imagery; the amounts and arithmetic remain unchanged.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0221",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-21",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "What helps seeds grow?",
+          "proposedValue": "Which things help a seed start to grow?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "What helps seeds grow?",
+          "proposedValue": "Which things help a seed start to grow?"
+        },
+        {
+          "field": "options",
+          "originalValue": [
+            "warmth and water",
+            "cold and dark",
+            "only wind",
+            "only sand"
+          ],
+          "proposedValue": [
+            "water, air and suitable warmth",
+            "cold, dry soil",
+            "only wind",
+            "only sand"
+          ]
+        },
+        {
+          "field": "legacyData.options",
+          "originalValue": [
+            "warmth and water",
+            "cold and dark",
+            "only wind",
+            "only sand"
+          ],
+          "proposedValue": [
+            "water, air and suitable warmth",
+            "cold, dry soil",
+            "only wind",
+            "only sand"
+          ]
+        },
+        {
+          "field": "answer",
+          "originalValue": "warmth and water",
+          "proposedValue": "water, air and suitable warmth"
+        },
+        {
+          "field": "legacyData.answer",
+          "originalValue": "warmth and water",
+          "proposedValue": "water, air and suitable warmth"
+        },
+        {
+          "field": "arabicHelper",
+          "originalValue": "تذكّر كيف تبدأ حياة نبات جديد، وما الذي يمكن أن تنمو منه النبتة.",
+          "proposedValue": "تحتاج البذرة إلى الماء والهواء ودرجة حرارة مناسبة لتبدأ الإنبات."
+        }
+      ],
+      "rationale": "Seeds need water, oxygen and a suitable temperature for germination; the original key omitted air.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0231",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-22",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Which has fur and feeds milk?",
+          "proposedValue": "Which group of animals has fur and feeds milk to its young?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Which has fur and feeds milk?",
+          "proposedValue": "Which group of animals has fur and feeds milk to its young?"
+        }
+      ],
+      "rationale": "Correct the grammar and clarify that mammals feed milk to their young.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0242",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-22",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "What shines brightly in the sky?",
+          "proposedValue": "Which object gives us light during the day?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "What shines brightly in the sky?",
+          "proposedValue": "Which object gives us light during the day?"
+        }
+      ],
+      "rationale": "The original prompt is ambiguous because the moon and stars also shine; specify daytime light.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    },
+    {
+      "questionId": "legacy-aboudy-0244",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "sourceBatch": "LEGACY-22",
+      "changes": [
+        {
+          "field": "prompt",
+          "originalValue": "Which season is cold with snow?",
+          "proposedValue": "Which season is usually the coldest?"
+        },
+        {
+          "field": "legacyData.title",
+          "originalValue": "Which season is cold with snow?",
+          "proposedValue": "Which season is usually the coldest?"
+        }
+      ],
+      "rationale": "Localise the seasonal question without assuming snowfall in Sudan.",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false,
+      "currentChildRuntimeExposure": false,
+      "audioRegenerationRequired": true
+    }
+  ],
+  "openIssues": [
+    {
+      "questionId": "legacy-aboudy-0209",
+      "issue": "Clock face is represented only by a Unicode clock emoji; verify that the Android font renders the intended hand position consistently or replace with a controlled SVG."
+    },
+    {
+      "questionId": "legacy-aboudy-0210",
+      "issue": "Clock face is represented only by a Unicode clock emoji; verify the displayed time on Android."
+    },
+    {
+      "questionId": "legacy-aboudy-0211",
+      "issue": "Clock face is represented only by a Unicode clock emoji; verify the displayed time on Android."
+    }
+  ]
+}

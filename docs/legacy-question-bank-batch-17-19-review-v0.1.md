@@ -2,7 +2,7 @@
 
 **Review date:** 24 November 2026  
 **Source snapshot:** `asimalimikial-rgb/Ali-andd-aboudy-scholars` at commit `bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8`  
-**Scope:** 75 Aboudy Grade 2 records, `legacy-aboudy-0100`–`0175`.
+**Scope:** 75 Aboudy Grade 2 records, `legacy-aboudy-0100`–`0174`.
 
 ## Answer-key review
 
@@ -15,7 +15,7 @@ The inspected sequence covers place value, skip counting, even/odd, addition and
 
 ## Staged helper corrections
 
-Patch: `content/staging/legacy-question-bank-maths-helper-alignment-batch-17-19-v0.1.json` (26 proposals).
+Patch: `content/staging/legacy-question-bank-maths-helper-alignment-batch-17-19-v0.1.json` (25 proposals).
 - `0100`: align with comparing hundreds, then tens and ones.
 - `0105`: explain the ones-digit rule for even numbers.
 - `0126`–`0130`: align helpers with minutes/hour, hours/day, half past, quarter past and days/week.
