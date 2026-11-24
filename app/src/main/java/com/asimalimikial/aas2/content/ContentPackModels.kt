@@ -97,6 +97,7 @@ data class ActivityDefinition(
     /** Short, sequential English teaching steps; empty for activities without authored help. */
     val helpSteps: List<String> = emptyList(),
     /** Optional visual aids must be bundled locally and match the English support text. */
+    // Keep these fields optional so legacy schema 3/4 activities deserialize without migration.
     val hintImageAssetPath: String? = null,
     val helpImageAssetPath: String? = null
 )
