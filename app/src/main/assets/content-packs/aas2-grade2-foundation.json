@@ -2535,11 +2535,11 @@
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
       "promptImageAssetPath": "question-art/new-aboudy-english-001.png",
-      "promptAudioAssetPath": "speech/d133fe96b2b51be44bac687c10000b23237bab28679017995d339f2085410085.ogg",
+      "promptAudioAssetPath": "speech/795c629268ea7051077dab23249605239c2b4190bd1ed29f7e18693128d4302e.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/ebe2ec85df9f395238fa2efe4ce9d5fcb68613daa12792a24b6927477b5459d7.ogg",
         "b": "speech/598db3973dc73850346e49730cea41cd90ecb5e657bd99504a4f2c0743797ab0.ogg",
-        "c": "speech/1eadcb64e0d49527d500b42ba121c895e284439b42fd648ce025661ba7750a76.ogg"
+        "c": "speech/dee77e902638abcd68d3a5c40ffe168aa583185b8f344af79828ae605a0bee28.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bb9d363731beaf859da71c7b5116f7c0e7ea81fa6a00c6750a445b946cee5bed.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/e2795abf68b42a38456c1069b0841afce0c027dd1d80a5dcaf3ce16e6af737db.ogg"
