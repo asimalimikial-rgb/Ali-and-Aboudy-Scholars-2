@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -2515,25 +2515,22 @@
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Choose the sentence with correct capital letters.",
+      "prompt": "Choose the sentence with the day of the week written correctly.",
       "options": [
         {
           "optionId": "a",
-          "text": "The children are playing.",
-          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
+          "text": "I visit Grandma on monday."
         },
         {
           "optionId": "b",
-          "text": "The Children are playing.",
-          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
+          "text": "I visit Grandma on Monday."
         },
         {
           "optionId": "c",
-          "text": "the children are playing.",
-          "imageAssetPath": "option-art/70b46912bd9cdc429586398d.svg"
+          "text": "I visit Grandma on mondAy."
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Excellent work!",
       "feedbackIncorrect": "Good try! Keep going!",
       "difficulty": 2,
@@ -3183,22 +3180,19 @@
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word has the long a sound?",
+      "prompt": "Which word has the long a sound in a_e?",
       "options": [
         {
           "optionId": "a",
-          "text": "map",
-          "imageAssetPath": "option-art/c22d98771bde7d98fb70bd29.svg"
+          "text": "map"
         },
         {
           "optionId": "b",
-          "text": "train",
-          "imageAssetPath": "option-art/e1a2e4f9d1d7e38fc43c4fc8.svg"
+          "text": "cake"
         },
         {
           "optionId": "c",
-          "text": "cat",
-          "imageAssetPath": "option-art/3944d7f96b178c4f6940cd42.svg"
+          "text": "cat"
         }
       ],
       "correctOptionId": "b",
@@ -3288,23 +3282,22 @@
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word joins ideas to explain a reason?",
+      "prompt": "Choose the word that joins two ideas that contrast: The monster looks scary, ___ it is friendly.",
       "options": [
         {
           "optionId": "a",
-          "text": "under"
+          "text": "and"
         },
         {
           "optionId": "b",
-          "text": "blue",
-          "imageAssetPath": "option-art/2e338239ff52a248e44b08ea.svg"
+          "text": "but"
         },
         {
           "optionId": "c",
           "text": "because"
         }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "feedbackCorrect": "You're amazing!",
       "feedbackIncorrect": "You can do it!",
       "difficulty": 2,
