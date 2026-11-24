@@ -81,3 +81,12 @@ A deterministic scan found 69 multiple-choice items whose visible prompt contain
 - The target must be played as audio and must not be rendered as text. All 69 require regenerated audio and renderer support that is not yet implemented.
 - All remain `REVISED_PENDING_AUDIO_AND_RENDERER_QA`; none is production-approved or runtime-integrated.
 - Manual scan of legacy batches 01–05 confirmed the previously recorded phoneme/CVC findings and listening-prompt issue. Structural and answer-key checks do not replace a complete pedagogical review of all 616 records.
+
+
+## Legacy batches 01–05: second-pass language and phoneme corrections — 24 November 2026
+
+- Added `content/staging/legacy-question-bank-quality-patch-v0.2.json` with 12 additional proposals.
+- Corrected the false phonics statement for BUS (/b/, not /s/).
+- Standardised short-a notation to British English /æ/ for four true/false items (apple, ant, egg, at).
+- Corrected seven Arabic helper strings: the H _ T gap, four CVC blending items (CAT/DOG/PIG/SUN), and two sentence-to-picture tasks.
+- All proposals remain pending technical QA and are not applied to the source bank or runtime pack.

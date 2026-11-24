@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "AAS2-LEGACY-QUALITY-PATCH-0.2",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8",
+    "legacyQuestionCount": 616
+  },
+  "summary": {
+    "items": 12,
+    "promptCorrections": 5,
+    "arabicHelperCorrections": 7,
+    "productionApproved": 0
+  },
+  "items": [
+    {
+      "questionId": "legacy-ali-0073",
+      "sourceBatch": "LEGACY-03",
+      "field": "prompt",
+      "originalValue": "Does “bus” begin with the /s/ sound?",
+      "proposedValue": "Does “bus” begin with the /b/ sound?",
+      "rationale": "Bus begins with /b/, not /s/.",
+      "changeType": "PHONEME_OR_ANSWER_CLARITY",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0076",
+      "sourceBatch": "LEGACY-04",
+      "field": "prompt",
+      "originalValue": "Does “apple” begin with the /a/ sound?",
+      "proposedValue": "Does “apple” begin with the /æ/ sound?",
+      "rationale": "Use British English short-vowel notation /æ/ to avoid accent-dependent /a/ notation.",
+      "changeType": "PHONEME_OR_ANSWER_CLARITY",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0077",
+      "sourceBatch": "LEGACY-04",
+      "field": "prompt",
+      "originalValue": "Does “ant” begin with the /a/ sound?",
+      "proposedValue": "Does “ant” begin with the /æ/ sound?",
+      "rationale": "Use British English short-vowel notation /æ/.",
+      "changeType": "PHONEME_OR_ANSWER_CLARITY",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0078",
+      "sourceBatch": "LEGACY-04",
+      "field": "prompt",
+      "originalValue": "Does “egg” begin with the /a/ sound?",
+      "proposedValue": "Does “egg” begin with the /æ/ sound?",
+      "rationale": "Use British English short-vowel notation /æ/; egg begins with a different vowel sound.",
+      "changeType": "PHONEME_OR_ANSWER_CLARITY",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0079",
+      "sourceBatch": "LEGACY-04",
+      "field": "prompt",
+      "originalValue": "Does “at” begin with the /a/ sound?",
+      "proposedValue": "Does “at” begin with the /æ/ sound?",
+      "rationale": "Use British English short-vowel notation /æ/.",
+      "changeType": "PHONEME_OR_ANSWER_CLARITY",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0009",
+      "sourceBatch": "LEGACY-01",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ الجملة كاملة، ثم اختر الكلمة التي تكمل معناها وتناسب السياق.",
+      "proposedValue": "انطق H وT، ثم جرّب صوت العلة في الوسط لتكوين كلمة مألوفة مثل HAT.",
+      "rationale": "The item is a phoneme/letter gap (H _ T), not a sentence-context gap.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0112",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة sounds بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "انطق الأصوات /k/ و/æ/ و/t/ منفصلة، ثم ادمجها لتكوين كلمة CAT.",
+      "rationale": "Replace stale helper text with the actual phoneme-blending strategy.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0113",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة sounds بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "انطق الأصوات /d/ و/ɒ/ و/g/ منفصلة، ثم ادمجها لتكوين كلمة DOG.",
+      "rationale": "Use the British English short-o sound for DOG.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0114",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة sounds بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "انطق الأصوات /p/ و/ɪ/ و/g/ منفصلة، ثم ادمجها لتكوين كلمة PIG.",
+      "rationale": "Replace stale helper text with the actual phoneme-blending strategy.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0115",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة sounds بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "انطق الأصوات /s/ و/ʌ/ و/n/ منفصلة، ثم ادمجها لتكوين كلمة SUN.",
+      "rationale": "Use the British English STRUT vowel /ʌ/.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0124",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة big بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "اقرأ الجملة كاملة، ثم اختر الصورة التي تطابق الاسم المذكور فيها.",
+      "rationale": "The activity asks the learner to match a full sentence to an image.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0125",
+      "sourceBatch": "LEGACY-05",
+      "field": "arabicHelper",
+      "originalValue": "اقرأ كلمة ball بتركيز، وحدّد هل السؤال عن صوتها أم معناها أم طريقة كتابتها.",
+      "proposedValue": "ركّز على كلمة red في الجملة، ثم اختر الدائرة التي تمثل اللون الأحمر.",
+      "rationale": "The target visual is the colour red, not the noun ball.",
+      "changeType": "ARABIC_HELPER_ALIGNMENT",
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    }
+  ]
+}

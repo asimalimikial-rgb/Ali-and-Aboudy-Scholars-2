@@ -404,5 +404,14 @@ for (const item of listeningLeakPatch.items) {
   assert.equal(item.runtimeIntegrated, false);
 }
 
+
+const legacyQualityPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-quality-patch-v0.2.json"), "utf8"));
+assert.equal(legacyQualityPatch.items.length, 12);
+assert.equal(legacyQualityPatch.summary.promptCorrections, 5);
+assert.equal(legacyQualityPatch.summary.arabicHelperCorrections, 7);
+assert.equal(legacyQualityPatch.summary.productionApproved, 0);
+assert.equal(new Set(legacyQualityPatch.items.map(item => item.questionId)).size, 12);
+assert.ok(legacyQualityPatch.items.every(item => item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && !item.runtimeIntegrated));
+
 console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
 
