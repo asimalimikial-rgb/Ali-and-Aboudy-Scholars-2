@@ -134,6 +134,9 @@ for (const file of optionArt.files) {
   assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid option-art metadata: " + file.path);
 }
 
+const audioFileByName = new Map(audio.files.map(file => [file.file, file]));
+const questionArtByActivity = new Map(questionArt.files.map(file => [file.activityId, file]));
+const optionArtPaths = new Set(optionArt.files.map(file => file.path));
 let englishActivityCount = 0;
 const seenActivityIds = new Set();
 for (const pack of packs) {
@@ -142,16 +145,33 @@ for (const pack of packs) {
     englishActivityCount += 1;
     assert.ok(!seenActivityIds.has(activity.activityId), "Duplicate English activity ID: " + activity.activityId);
     seenActivityIds.add(activity.activityId);
-    assert.ok(audio.activities[activity.activityId], "Missing audio manifest mapping: " + activity.activityId);
+    const audioMap = audio.activities[activity.activityId];
+    assert.ok(audioMap, "Missing audio manifest mapping: " + activity.activityId);
+    const imageEntry = questionArtByActivity.get(activity.activityId);
+    assert.ok(imageEntry, "Missing question-art manifest entry: " + activity.activityId);
+    assert.equal(imageEntry.path, activity.promptImageAssetPath, "Prompt image manifest/path mismatch: " + activity.activityId);
     assert.ok(fs.existsSync(path.join(assetRoot, activity.promptImageAssetPath)), "Missing prompt image reference: " + activity.activityId);
     assert.ok(fs.existsSync(path.join(assetRoot, activity.promptAudioAssetPath)), "Missing prompt audio reference: " + activity.activityId);
+    assert.equal(audioMap.prompt, path.basename(activity.promptAudioAssetPath), "Prompt audio manifest/path mismatch: " + activity.activityId);
+    assert.equal(audioFileByName.get(audioMap.prompt)?.text, activity.prompt, "Prompt audio text is stale: " + activity.activityId);
     assert.ok(fs.existsSync(path.join(assetRoot, activity.feedbackCorrectAudioAssetPath)), "Missing correct-feedback audio: " + activity.activityId);
     assert.ok(fs.existsSync(path.join(assetRoot, activity.feedbackIncorrectAudioAssetPath)), "Missing incorrect-feedback audio: " + activity.activityId);
+    assert.equal(audioMap.feedbackCorrect, path.basename(activity.feedbackCorrectAudioAssetPath), "Correct-feedback audio mismatch: " + activity.activityId);
+    assert.equal(audioMap.feedbackIncorrect, path.basename(activity.feedbackIncorrectAudioAssetPath), "Incorrect-feedback audio mismatch: " + activity.activityId);
+    assert.equal(audioFileByName.get(audioMap.feedbackCorrect)?.text, activity.feedbackCorrect, "Correct-feedback audio text is stale: " + activity.activityId);
+    assert.equal(audioFileByName.get(audioMap.feedbackIncorrect)?.text, activity.feedbackIncorrect, "Incorrect-feedback audio text is stale: " + activity.activityId);
     const optionIds = activity.options.map(option => option.optionId);
     assert.deepEqual(Object.keys(activity.optionAudioAssetPaths).sort(), [...optionIds].sort(),
       "Every option must have exactly one audio reference: " + activity.activityId);
-    for (const assetPath of Object.values(activity.optionAudioAssetPaths)) {
+    for (const option of activity.options) {
+      const assetPath = activity.optionAudioAssetPaths[option.optionId];
+      const manifestFile = audioMap.options[option.optionId];
       assert.ok(fs.existsSync(path.join(assetRoot, assetPath)), "Missing option audio reference: " + activity.activityId);
+      assert.equal(manifestFile, path.basename(assetPath), "Option audio manifest/path mismatch: " + activity.activityId + "/" + option.optionId);
+      assert.equal(audioFileByName.get(manifestFile)?.text, option.text, "Option audio text is stale: " + activity.activityId + "/" + option.optionId);
+      if (option.imageAssetPath) {
+        assert.ok(optionArtPaths.has(option.imageAssetPath), "Option image is missing from the option-art manifest: " + option.imageAssetPath);
+      }
     }
   }
 }
@@ -165,4 +185,4 @@ assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.inclu
   "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog and English World 12-unit scope, 616-item review queue (468 single-choice, 28 specialized option interactions, 120 custom), reading-stimulus checks, 1,692 OGG files, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
+console.log("PASS: seven-book catalog and English World 12-unit scope, 616-item review queue, reading-stimulus checks, 1,692 OGG files with exact prompt/option/feedback text mapping, 282 question illustrations, 374 option illustrations, and all 282 activity-to-media references.");
