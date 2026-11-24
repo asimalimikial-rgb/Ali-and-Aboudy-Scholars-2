@@ -71,3 +71,25 @@ A parser must preserve each payload type and validate required fields. Missing o
 - The first patch batch is staging-only and pending technical QA.
 - This audit does not approve source text, difficulty, curriculum mapping, media pronunciation, or activity renderer.
 - Do not convert specialized or custom items to generic SINGLE_CHOICE to increase counts.
+
+
+## 6. Structured stimulus requirements discovered in multiple-choice records
+
+The 468 strict multiple-choice records are not all plain text-only items. A source scan found:
+- 19 multiple-choice records with a passage in `legacyData.story`.
+- 15 multiple-choice records with a structured visual in `legacyData.visual` (array, ten-frame, place-value, ruler or bar model).
+- These 34 items remain multiple-choice response types, but require the passage or visual stimulus to be rendered before the options. The detailed ID inventory is `content/staging/legacy-question-bank-renderer-requirements-v0.1.json`.
+
+## 7. Item-level corrections staged — batches 03–25
+
+The staging patch `content/staging/legacy-question-bank-correction-patch-v0.1.json` contains nine proposed corrections:
+- Correct the `bus` /s/ true/false answer from true to false.
+- Align “red ball” wording with the colored-circle options.
+- Localize the 15-cent money task to 15 piastres.
+- Repair two incomplete sentence-order targets.
+- Correct the plant-food misconception (soil provides water/minerals; plants make food).
+- Include air with water and warmth in the seed-germination answer.
+- Clarify the daytime Sun question.
+- Attach the missing Sami passage to its follow-up question.
+
+All nine patch items remain `REVISED_PENDING_TECHNICAL_QA`; any text/audio-affecting change requires regeneration and validation. The five open issue groups above remain unpatched. No source-bank item is changed or production-approved.

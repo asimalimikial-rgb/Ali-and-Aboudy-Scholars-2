@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": "AAS2-LEGACY-RENDERER-REQUIREMENTS-0.1",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8"
+  },
+  "counts": {
+    "legacyRecords": 616,
+    "strictMultipleChoice": 468,
+    "specializedOptionBearing": 28,
+    "customNoOption": 120,
+    "storyBearingMultipleChoice": 19,
+    "visualBearingMultipleChoice": 15,
+    "structuredStimulusMultipleChoice": 34
+  },
+  "specialized": [
+    {
+      "questionId": "legacy-ali-0007",
+      "activityType": "phonics",
+      "requiredRenderer": "phonics-blend",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0009",
+      "activityType": "fill_gap",
+      "requiredRenderer": "inline-gap",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0014",
+      "activityType": "number_line",
+      "requiredRenderer": "number-line",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0245",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0247",
+      "activityType": "fill_gap",
+      "requiredRenderer": "inline-gap",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0250",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0260",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0263",
+      "activityType": "number_line",
+      "requiredRenderer": "number-line",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0282",
+      "activityType": "number_line",
+      "requiredRenderer": "number-line",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0002",
+      "activityType": "fill_gap",
+      "requiredRenderer": "inline-gap",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0004",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0007",
+      "activityType": "place_value",
+      "requiredRenderer": "place-value-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0010",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0011",
+      "activityType": "graph",
+      "requiredRenderer": "graph-reading",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0249",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0250",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0253",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0256",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0259",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0260",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0263",
+      "activityType": "comprehension",
+      "requiredRenderer": "reading-passage",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0266",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0269",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0272",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0276",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0288",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0296",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0299",
+      "activityType": "word_problem",
+      "requiredRenderer": "word-problem-model",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    }
+  ],
+  "custom": [
+    {
+      "questionId": "legacy-ali-0002",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0004",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0005",
+      "activityType": "tracing",
+      "requiredRenderer": "trace-or-draw",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0006",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0010",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0012",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0013",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0015",
+      "activityType": "compare",
+      "requiredRenderer": "compare-groups",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0017",
+      "activityType": "tracing",
+      "requiredRenderer": "trace-or-draw",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0018",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0072",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0073",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0074",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0075",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0076",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0077",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0078",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0079",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0080",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0081",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0082",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0083",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0084",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0085",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0086",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0087",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0088",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0089",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0090",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0091",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0092",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0093",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0094",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0095",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0127",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0128",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0129",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0130",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0131",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0132",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0133",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0134",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0135",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0136",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0170",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0171",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0172",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0173",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0174",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0175",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0176",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0177",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0178",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0179",
+      "activityType": "count",
+      "requiredRenderer": "tap-count",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0243",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0244",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0246",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0249",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0252",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0255",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0259",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0264",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0268",
+      "activityType": "compare",
+      "requiredRenderer": "compare-groups",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0270",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0275",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0276",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0277",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0278",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0283",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0284",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0288",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0293",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0299",
+      "activityType": "tracing",
+      "requiredRenderer": "trace-or-draw",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0003",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0005",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0008",
+      "activityType": "clock",
+      "requiredRenderer": "clock-face",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0009",
+      "activityType": "money",
+      "requiredRenderer": "coin-selection",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0066",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0067",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0068",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0069",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0070",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0071",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0072",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0073",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0074",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0075",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0076",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0077",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0085",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0086",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0087",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0088",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0093",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0094",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0095",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0212",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0213",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0214",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0215",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0216",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0217",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0252",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0254",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0257",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0258",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0262",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0268",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0273",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0277",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0283",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0284",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0285",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0286",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0291",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0292",
+      "activityType": "match_pairs",
+      "requiredRenderer": "match-pairs",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0297",
+      "activityType": "build_sentence",
+      "requiredRenderer": "sentence-order",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0303",
+      "activityType": "spelling",
+      "requiredRenderer": "word-builder",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0306",
+      "activityType": "true_false",
+      "requiredRenderer": "true-false",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0313",
+      "activityType": "tracing",
+      "requiredRenderer": "trace-or-draw",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    }
+  ],
+  "storyBearingMultipleChoice": [
+    {
+      "questionId": "legacy-aboudy-0045",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0046",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0047",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0048",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0049",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0050",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0051",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0052",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0053",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0054",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0055",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0056",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0057",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0058",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0059",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0089",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0090",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0091",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0092",
+      "activityType": "mc_text",
+      "stimulusType": "reading-passage",
+      "requiredRenderer": "story-plus-question-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    }
+  ],
+  "visualBearingMultipleChoice": [
+    {
+      "questionId": "legacy-ali-0256",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ten-frame",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0257",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ten-frame",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0261",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "place-value",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0266",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ruler",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0279",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ten-frame",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0280",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "array",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0281",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "place-value",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0264",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "array",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0265",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "array",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0270",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "bar-model",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0274",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ruler",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0287",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "array",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0289",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "place-value",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0290",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "ruler",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-aboudy-0300",
+      "activityType": "mc_text",
+      "stimulusType": "structured-visual",
+      "visualKind": "array",
+      "requiredRenderer": "visual-stimulus-multiple-choice",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    }
+  ],
+  "globalDisposition": "REQUIREMENTS_ONLY_NOT_RUNTIME_INTEGRATED"
+}

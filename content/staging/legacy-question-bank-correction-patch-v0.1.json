@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "AAS2-LEGACY-CORRECTION-PATCH-0.1",
+  "sourceSnapshot": {
+    "repository": "asimalimikial-rgb/Ali-andd-aboudy-scholars",
+    "commit": "bc9f397e29dba711f53aebe19ed5fa5a2ea5f4f8"
+  },
+  "status": "STAGING_ONLY_PENDING_TECHNICAL_QA",
+  "summary": {
+    "patchItems": 9,
+    "answerKeyCorrections": 1,
+    "scienceCorrections": 3,
+    "promptOrPresentationCorrections": 2,
+    "sentenceRepairs": 2,
+    "readingStimulusRepairs": 1,
+    "productionApproved": 0
+  },
+  "patchItems": [
+    {
+      "questionId": "legacy-ali-0073",
+      "sourceBatch": "LEGACY-03",
+      "changeType": "ANSWER_KEY_CORRECTION",
+      "changes": {
+        "answer": false,
+        "legacyDataAnswer": false
+      },
+      "rationale": "The initial phoneme in bus is /b/, not /s/; the existing true key is incorrect.",
+      "mediaRegenerationRequired": false,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-ali-0125",
+      "sourceBatch": "LEGACY-05",
+      "changeType": "PROMPT_VISUAL_ALIGNMENT",
+      "changes": {
+        "prompt": "Read and match: I see a red circle.",
+        "legacyDataTitle": "Read and match: I see a red circle.",
+        "arabicHelper": "اقرأ كلمة circle بتركيز، ثم اختر الشكل الذي يحمل اللون نفسه."
+      },
+      "rationale": "The current written sentence says red ball while the options are colored circle symbols.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0009",
+      "sourceBatch": "LEGACY-13",
+      "changeType": "CURRENCY_LOCALIZATION",
+      "changes": {
+        "prompt": "Select coins to make 15 piastres.",
+        "legacyDataTitle": "Select coins to make 15 piastres.",
+        "arabicHelper": "اجمع قيم القطع النقدية حتى تصل إلى خمسة عشر قرشاً."
+      },
+      "rationale": "The source uses cents; replace with piastres for the Sudanese learning context while preserving coin values 10 + 5 = 15.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0093",
+      "sourceBatch": "LEGACY-16",
+      "changeType": "INCOMPLETE_SENTENCE_REPAIR",
+      "changes": {
+        "answer": [
+          "My",
+          "name",
+          "is",
+          "Sam."
+        ],
+        "legacyDataWords": [
+          "My",
+          "name",
+          "is",
+          "Sam."
+        ],
+        "legacyDataTarget": [
+          "My",
+          "name",
+          "is",
+          "Sam."
+        ]
+      },
+      "rationale": "The current target “My name is” is a sentence fragment; add a neutral example name and terminal punctuation.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0094",
+      "sourceBatch": "LEGACY-16",
+      "changeType": "INCOMPLETE_SENTENCE_REPAIR",
+      "changes": {
+        "answer": [
+          "I",
+          "am",
+          "very",
+          "happy",
+          "today."
+        ],
+        "legacyDataWords": [
+          "I",
+          "am",
+          "very",
+          "happy",
+          "today."
+        ],
+        "legacyDataTarget": [
+          "I",
+          "am",
+          "very",
+          "happy",
+          "today."
+        ]
+      },
+      "rationale": "The current target “I am years old” is missing an age value; replace it with a complete age-neutral sentence.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0220",
+      "sourceBatch": "LEGACY-21",
+      "changeType": "SCIENCE_CONCEPT_CORRECTION",
+      "changes": {
+        "prompt": "Where do plants get water and minerals?",
+        "legacyDataTitle": "Where do plants get water and minerals?"
+      },
+      "rationale": "Plants make their own food through photosynthesis; soil supplies water and mineral nutrients, not food.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0221",
+      "sourceBatch": "LEGACY-21",
+      "changeType": "SCIENCE_COMPLETENESS_CORRECTION",
+      "changes": {
+        "options": [
+          "water, air and warmth",
+          "cold and dark",
+          "only wind",
+          "only sand"
+        ],
+        "answer": "water, air and warmth",
+        "legacyDataOptions": [
+          "water, air and warmth",
+          "cold and dark",
+          "only wind",
+          "only sand"
+        ],
+        "legacyDataAnswer": "water, air and warmth"
+      },
+      "rationale": "Seed germination requires water, oxygen and a suitable temperature; the current answer omits air.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0242",
+      "sourceBatch": "LEGACY-22",
+      "changeType": "AMBIGUOUS_SCIENCE_PROMPT",
+      "changes": {
+        "prompt": "Which object is our main source of light during the day?",
+        "legacyDataTitle": "Which object is our main source of light during the day?"
+      },
+      "rationale": "The original wording could also describe the Moon or stars; the revised prompt makes the intended daytime source unique.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    },
+    {
+      "questionId": "legacy-aboudy-0315",
+      "sourceBatch": "LEGACY-25",
+      "changeType": "MISSING_READING_STIMULUS",
+      "changes": {
+        "legacyDataStory": "Sami heard thunder and saw dark clouds. He took an umbrella before leaving."
+      },
+      "rationale": "This follow-up comprehension question depends on the passage embedded in the preceding item; store the passage with this item or group both under one shared stimulus.",
+      "mediaRegenerationRequired": true,
+      "reviewStatus": "REVISED_PENDING_TECHNICAL_QA",
+      "productionApproved": false
+    }
+  ],
+  "openIssues": [
+    {
+      "questionIds": [
+        "legacy-ali-0112",
+        "legacy-ali-0113",
+        "legacy-ali-0114",
+        "legacy-ali-0115"
+      ],
+      "issue": "Grapheme letters are labelled as spoken sounds in blending prompts; helper template also refers to the literal word “sounds”.",
+      "requiredAction": "Rewrite as phoneme-level stimuli with a checked English accent model and separate phoneme audio; do not guess IPA/phoneme audio."
+    },
+    {
+      "questionIds": [
+        "legacy-ali-0219",
+        "legacy-ali-0220",
+        "legacy-ali-0221"
+      ],
+      "issue": "Preposition prompts lack a scene/visual to establish the spatial relationship.",
+      "requiredAction": "Add a clear visual scene or rewrite each item so the relation is unambiguous."
+    },
+    {
+      "questionIds": [
+        "legacy-ali-0222"
+      ],
+      "issue": "“You write with your right hand” assumes all learners are right-handed.",
+      "requiredAction": "Convert to a non-graded self-report or replace with an inclusive, observable scenario."
+    },
+    {
+      "questionIds": [
+        "legacy-ali-0225"
+      ],
+      "issue": "Snake/worm/ant length comparison has no fixed measurements or illustrations.",
+      "requiredAction": "Add measured lengths or a clear scale illustration."
+    },
+    {
+      "questionIds": [
+        "legacy-aboudy-0283",
+        "legacy-aboudy-0284",
+        "legacy-aboudy-0285",
+        "legacy-aboudy-0286",
+        "legacy-aboudy-0288"
+      ],
+      "issue": "Arabic explanationAr payloads refer to other questions or unrelated content.",
+      "requiredAction": "Discard or regenerate after item review; never expose these stale explanations to children."
+    }
+  ]
+}
