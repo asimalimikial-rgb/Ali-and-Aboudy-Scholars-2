@@ -156,5 +156,6 @@
       "productionApproved": false,
       "runtimeIntegrated": false
     }
-  ]
+  ],
+  "validationNote": "Structural validation only; corrections remain staging proposals and require human technical/pedagogical approval before source-bank application."
 }
