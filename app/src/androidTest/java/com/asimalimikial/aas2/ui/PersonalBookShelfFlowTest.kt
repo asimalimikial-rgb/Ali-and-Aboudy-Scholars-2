@@ -6,6 +6,7 @@ import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.asimalimikial.aas2.MainActivity
@@ -30,8 +31,12 @@ class PersonalBookShelfFlowTest {
         composeRule.onNodeWithText("Ali's Books").assertIsDisplayed()
         assertTrue(composeRule.onAllNodesWithText("Aboudy's Books").fetchSemanticsNodes().isEmpty())
         waitForContentDescription("Hop, Skip and Jump — Senior KG Complete Kit")
-        composeRule.onNodeWithContentDescription("Hop, Skip and Jump — Senior KG Complete Kit").assertIsDisplayed()
-        composeRule.onNodeWithContentDescription("Maths Xpress — Senior KG").assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("Hop, Skip and Jump — Senior KG Complete Kit")
+            .performScrollTo()
+            .assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("Maths Xpress — Senior KG")
+            .performScrollTo()
+            .assertIsDisplayed()
 
         composeRule.onNodeWithText("Back to learning space").performClick()
         waitForText("Switch learner")
@@ -46,8 +51,12 @@ class PersonalBookShelfFlowTest {
         composeRule.onNodeWithText("Aboudy's Books").assertIsDisplayed()
         assertTrue(composeRule.onAllNodesWithText("Ali's Books").fetchSemanticsNodes().isEmpty())
         waitForContentDescription("English World — Level 2 Pupil's Book Pack")
-        composeRule.onNodeWithContentDescription("English World — Level 2 Pupil's Book Pack").assertIsDisplayed()
-        composeRule.onNodeWithContentDescription("Macmillan Mathematics — Level 2A").assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("English World — Level 2 Pupil's Book Pack")
+            .performScrollTo()
+            .assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("Macmillan Mathematics — Level 2A")
+            .performScrollTo()
+            .assertIsDisplayed()
     }
 
     private fun waitForText(text: String) {
