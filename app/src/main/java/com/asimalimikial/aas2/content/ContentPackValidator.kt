@@ -128,6 +128,13 @@ object ContentPackValidator {
                 if (activity.skillId !in knownSkillIds) add("Activity at index $index references an unknown skillId")
                 if (activity.activityType !in supportedActivityTypes) add("Activity at index $index has an unsupported activityType")
                 if (activity.language !in supportedLanguages) add("Activity at index $index has an unsupported language")
+                if (activity.language == "en") {
+                    val learnerText = listOf(activity.prompt, activity.feedbackCorrect, activity.feedbackIncorrect) +
+                        activity.options.map { it.text } + activity.optionRationales.values
+                    if (learnerText.any(::containsArabicScript)) {
+                        add("Activity at index $index contains Arabic script in English learner content")
+                    }
+                }
                 if (activity.prompt.isBlank()) add("Activity at index $index has an empty prompt")
                 if (activity.feedbackCorrect.isBlank()) add("Activity at index $index has empty correct feedback")
                 if (activity.feedbackIncorrect.isBlank()) add("Activity at index $index has empty incorrect feedback")
@@ -197,6 +204,25 @@ object ContentPackValidator {
 
     private fun isSafeImageAssetPath(path: String): Boolean =
         isSafeAssetPath(path) && (path.endsWith(".png", ignoreCase = true) || path.endsWith(".svg", ignoreCase = true))
+
+    private fun containsArabicScript(value: String): Boolean {
+        var index = 0
+        while (index < value.length) {
+            val codePoint = Character.codePointAt(value, index)
+            if (
+                codePoint in 0x0600..0x06FF ||
+                codePoint in 0x0750..0x077F ||
+                codePoint in 0x0870..0x089F ||
+                codePoint in 0x08A0..0x08FF ||
+                codePoint in 0xFB50..0xFDFF ||
+                codePoint in 0xFE70..0xFEFC ||
+                codePoint in 0x10EC0..0x10EFF ||
+                codePoint in 0x1EE00..0x1EEFF
+            ) return true
+            index += Character.charCount(codePoint)
+        }
+        return false
+    }
 
     private fun isSafeAssetPath(path: String): Boolean =
         path.isNotBlank() &&
