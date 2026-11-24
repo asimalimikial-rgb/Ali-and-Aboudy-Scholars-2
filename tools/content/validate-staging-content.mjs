@@ -338,6 +338,15 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
   stagedScienceCount += draft.activities.length;
 }
 assert.equal(stagedScienceCount, 72);
+const keyPositionCounts = draft => Object.fromEntries(["a", "b", "c"].map((position, index) => [
+  position,
+  draft.activities.filter(activity => activity.options.findIndex(option => option.optionId === activity.correctOptionId) === index).length
+]));
+assert.deepEqual(keyPositionCounts(scienceDraft), { a: 13, b: 14, c: 13 });
+const scienceUnit04 = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-unit-04-materials-draft-v0.1.json"), "utf8"));
+const scienceUnit05 = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-unit-05-night-sky-draft-v0.1.json"), "utf8"));
+assert.deepEqual(keyPositionCounts(scienceUnit04), { a: 7, b: 7, c: 6 });
+assert.deepEqual(keyPositionCounts(scienceUnit05), { a: 4, b: 4, c: 4 });
 const scienceArtManifest = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/media/science-g2/illustrations/manifest.json"), "utf8"));
 assert.equal(scienceArtManifest.files.length, 3);
 for (const file of scienceArtManifest.files) {
