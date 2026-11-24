@@ -98,3 +98,23 @@ A deterministic scan found 69 multiple-choice items whose visible prompt contain
 - The mismatched records are `legacy-aboudy-0279` through `legacy-aboudy-0290`; examples include a /sh/ item carrying an /m/ explanation, TRAIN carrying PIG feedback, and a shells subtraction problem carrying a dots-array explanation.
 - Added `content/staging/legacy-question-bank-arabic-explanation-patch-v0.3.json` with 12 learner-specific replacements.
 - All replacements remain `REVISED_PENDING_TECHNICAL_QA`; the source legacy bank has not been modified.
+
+
+## Listening target-leak correction — two picture prompts found in batches 11–13
+
+A second scan of all visible `Listen` prompts found two additional items missed by the original 69-item list:
+- `legacy-ali-0295`: the visible prompt prints “fish” while the learner is asked to choose the fish picture.
+- `legacy-ali-0296`: the visible prompt prints “tree” while the learner is asked to choose the tree picture.
+
+Both are now added to the listening target-leak patch as `picture-word` items. The revised inventory is 71 items: 25 letters, 34 words, 10 numbers and 2 picture-listening targets. The target word must remain a separate audio stimulus; the visible prompt is neutral. Both still require regenerated audio and a renderer capable of playing hidden prompt audio.
+
+## Batch 11–13 helper alignment review
+
+A first-pass review covered 75 records: Ali KG2 `legacy-ali-0251`–`0301` and Aboudy Grade 2 `legacy-aboudy-0001`–`0024`. Eleven Arabic helper mismatches were staged in `content/staging/legacy-question-bank-helper-alignment-batch-11-13-v0.1.json`:
+- Four Word Builder helpers incorrectly analyse the English token “for” instead of guiding the spelling task (`0275`–`0278`).
+- The two-row dots item (`0280`) carries place-value guidance instead of array/counting guidance.
+- Picture Detective and Daily Story items (`0291`, `0292`, `0300`, `0301`) carry generic word-sound/meaning helpers instead of category or story-comprehension guidance.
+- Aboudy weekday-capitalisation item `0005` has a pronunciation helper unrelated to the assessed skill.
+- Aboudy place-value item `0007` helper omits the hundreds place.
+
+Other important limits retained: `legacy-aboudy-0004` stores its actual comprehension question separately from its generic title; the reading-passage renderer must show both story and question. Specialized types (ten-frame, number line, place value, ruler, compare, spelling, true/false, clock, money, graph and word problem) remain blocked until typed renderers exist. All helper changes remain staging-only and the old source repository is untouched.

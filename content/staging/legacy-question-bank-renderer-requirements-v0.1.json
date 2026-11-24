@@ -12,8 +12,8 @@
     "storyBearingMultipleChoice": 19,
     "visualBearingMultipleChoice": 15,
     "structuredStimulusMultipleChoice": 34,
-    "targetRevealMultipleChoice": 69,
-    "totalUniqueRendererRequirements": 251
+    "targetRevealMultipleChoice": 71,
+    "totalUniqueRendererRequirements": 253
   },
   "specialized": [
     {
@@ -1827,6 +1827,20 @@
     {
       "questionId": "legacy-ali-0146",
       "targetKind": "number",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0295",
+      "targetKind": "picture-word",
+      "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
+      "reviewStatus": "PENDING",
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0296",
+      "targetKind": "picture-word",
       "requiredPresentation": "NEUTRAL_VISIBLE_INSTRUCTION_PLUS_SEPARATE_AUDIO_STIMULUS",
       "reviewStatus": "PENDING",
       "runtimeIntegrated": false

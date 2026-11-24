@@ -406,15 +406,20 @@ if (generatedScienceAudio.length > 0) {
 
 
 const listeningLeakPatch = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-listening-target-leak-patch-v0.1.json"), "utf8"));
-assert.equal(listeningLeakPatch.items.length, 69);
-assert.deepEqual(listeningLeakPatch.summary, { total: 69, letters: 25, words: 34, numbers: 10, productionApproved: 0 });
+assert.equal(listeningLeakPatch.items.length, 71);
+assert.deepEqual(listeningLeakPatch.summary, { total: 71, letters: 25, words: 34, numbers: 10, pictureListening: 2, productionApproved: 0 });
 const listeningIds = new Set();
 for (const item of listeningLeakPatch.items) {
   assert.ok(!listeningIds.has(item.questionId));
   listeningIds.add(item.questionId);
-  assert.ok(["letter", "word", "number"].includes(item.targetKind));
-  assert.equal(item.answer, item.audioStimulus);
-  assert.ok(item.options.includes(item.answer));
+  assert.ok(["letter", "word", "number", "picture-word"].includes(item.targetKind));
+  if (item.targetKind === "picture-word") {
+    assert.ok(typeof item.audioStimulus === "string" && item.audioStimulus.length > 0);
+    assert.ok(item.options.includes(item.answer));
+  } else {
+    assert.equal(item.answer, item.audioStimulus);
+    assert.ok(item.options.includes(item.answer));
+  }
   const promptTokens = item.proposedPrompt.toLowerCase().split(/[^a-z0-9]+/);
   assert.ok(!promptTokens.includes(String(item.audioStimulus).toLowerCase()));
   assert.equal(item.rendererSupportRequired, "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT");
@@ -473,6 +478,14 @@ assert.equal(legacyHelperPatch.summary.runtimeIntegrated, 0);
 assert.equal(legacyHelperPatch.summary.currentChildRuntimeExposure, false);
 assert.equal(new Set(legacyHelperPatch.items.map(item => item.questionId)).size, 30);
 assert.ok(legacyHelperPatch.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
+
+const legacyHelperPatchBatch11to13 = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/legacy-question-bank-helper-alignment-batch-11-13-v0.1.json"), "utf8"));
+assert.equal(legacyHelperPatchBatch11to13.items.length, 11);
+assert.equal(legacyHelperPatchBatch11to13.summary.arabicHelperCorrections, 11);
+assert.equal(legacyHelperPatchBatch11to13.summary.productionApproved, 0);
+assert.equal(legacyHelperPatchBatch11to13.summary.runtimeIntegrated, 0);
+assert.equal(new Set(legacyHelperPatchBatch11to13.items.map(item => item.questionId)).size, 11);
+assert.ok(legacyHelperPatchBatch11to13.items.every(item => item.field === "arabicHelper" && item.originalValue !== item.proposedValue && item.reviewStatus === "REVISED_PENDING_TECHNICAL_QA" && item.productionApproved === false && item.runtimeIntegrated === false && item.currentChildRuntimeExposure === false));
 
 
 const scienceEnrichment = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/science-g2-enrichment-x01-mapping-v0.1.json"), "utf8"));

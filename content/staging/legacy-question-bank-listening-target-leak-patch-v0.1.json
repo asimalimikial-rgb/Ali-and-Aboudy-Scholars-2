@@ -7,10 +7,11 @@
   },
   "purpose": "Separate visible instructions from spoken target stimuli for listening assessments.",
   "summary": {
-    "total": 69,
+    "total": 71,
     "letters": 25,
     "words": 34,
     "numbers": 10,
+    "pictureListening": 2,
     "productionApproved": 0
   },
   "policy": {
@@ -1738,6 +1739,54 @@
       ],
       "answer": "10",
       "rationale": "The original visible prompt names the target and gives away the listening answer. Keep the target only in a separate audio stimulus and use a neutral visible instruction.",
+      "regenerateAudioRequired": true,
+      "rendererSupportRequired": "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT",
+      "reviewStatus": "REVISED_PENDING_AUDIO_AND_RENDERER_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0295",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-12",
+      "targetKind": "picture-word",
+      "changeType": "TARGET_LEAK_SEPARATION",
+      "originalPrompt": "Listen: “fish”. Which picture is correct?",
+      "proposedPrompt": "Listen, then choose the matching picture.",
+      "audioStimulus": "fish",
+      "audioStimulusRole": "SEPARATE_HIDDEN_PROMPT_AUDIO",
+      "options": [
+        "🐟",
+        "🐦",
+        "🐸"
+      ],
+      "answer": "🐟",
+      "rationale": "The visible prompt names the spoken word and directly reveals the fish picture. Keep the target only in a separate audio stimulus and render a neutral instruction.",
+      "regenerateAudioRequired": true,
+      "rendererSupportRequired": "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT",
+      "reviewStatus": "REVISED_PENDING_AUDIO_AND_RENDERER_QA",
+      "productionApproved": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "questionId": "legacy-ali-0296",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "sourceBatch": "LEGACY-12",
+      "targetKind": "picture-word",
+      "changeType": "TARGET_LEAK_SEPARATION",
+      "originalPrompt": "Listen: “tree”. Which picture is correct?",
+      "proposedPrompt": "Listen, then choose the matching picture.",
+      "audioStimulus": "tree",
+      "audioStimulusRole": "SEPARATE_HIDDEN_PROMPT_AUDIO",
+      "options": [
+        "🌳",
+        "🏠",
+        "🚗"
+      ],
+      "answer": "🌳",
+      "rationale": "The visible prompt names the spoken word and directly reveals the tree picture. Keep the target only in a separate audio stimulus and render a neutral instruction.",
       "regenerateAudioRequired": true,
       "rendererSupportRequired": "PLAY_SEPARATE_STIMULUS_AUDIO_WITHOUT_SHOWING_ITS_TEXT",
       "reviewStatus": "REVISED_PENDING_AUDIO_AND_RENDERER_QA",
