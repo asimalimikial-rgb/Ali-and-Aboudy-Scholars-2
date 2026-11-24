@@ -128,7 +128,7 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - App chrome and parent-facing labels follow Android device language through `values` and `values-ar`; child learning content is always selected in English and is never switched by device locale. Arabic child-activity support remains deferred.
 - 282 offline question illustrations and 374 option illustrations are now bundled. On-device visual scale, accessibility and semantic-fit QA are still open.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
-- The source/license register and per-pack source references are in place. The 32 Grade 2 science questions are original AAS2 wording based on topic-level curriculum mapping; the Macmillan source remains `REFERENCE_ONLY`, and no protected textbook text or artwork is bundled. Remaining book units and other subjects still require authoring.
+- Per-pack source references and curriculum mapping are in place for the existing content. The Grade 2 Science pack contains 62 original activities across Units 1–2; Units 3–5 and the remaining six book hierarchies/coverage areas still require authoring and integration.
 - Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
 
 ## Provisional technical identifiers
