@@ -6,7 +6,8 @@
   "unit": {
     "unitId": "SCI-G2-U03",
     "title": "Senses and Our Bodies",
-    "publisherTopicRange": "10-14"
+    "publisherTopicRange": "10-14",
+    "unitIllustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u03-senses.svg"
   },
   "sourceReference": {
     "referenceId": "MACMILLAN-SCIENCE-L2-SCOPE",
@@ -80,9 +81,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-002",
@@ -116,9 +122,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-003",
@@ -152,9 +163,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-004",
@@ -188,9 +204,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-005",
@@ -224,9 +245,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or a familiar food example; never require tasting.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-006",
@@ -260,9 +286,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-007",
@@ -296,9 +327,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-008",
@@ -332,9 +368,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use only a safe, room-temperature object; do not use hot liquids.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-009",
@@ -368,9 +409,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-010",
@@ -404,9 +450,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-011",
@@ -440,9 +491,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-012",
@@ -476,9 +532,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-013",
@@ -512,9 +573,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-014",
@@ -548,9 +614,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-015",
@@ -584,9 +655,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Keep all demonstrations at a safe volume.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-016",
@@ -620,9 +696,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-017",
@@ -656,9 +737,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-018",
@@ -692,9 +778,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-019",
@@ -728,9 +819,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-020",
@@ -764,9 +860,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-021",
@@ -800,9 +901,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never ask a child to look directly at the Sun.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-022",
@@ -836,9 +942,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-023",
@@ -872,9 +983,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-024",
@@ -908,9 +1024,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Do not place objects, liquids or fingers into the eye.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-025",
@@ -944,9 +1065,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-026",
@@ -980,9 +1106,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-027",
@@ -1016,9 +1147,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-028",
@@ -1052,9 +1188,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-029",
@@ -1088,9 +1229,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-030",
@@ -1124,9 +1270,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use only clean, familiar objects; do not touch unknown substances.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-031",
@@ -1160,9 +1311,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never ask children to touch unknown insects.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-032",
@@ -1196,9 +1352,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-033",
@@ -1232,9 +1393,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-034",
@@ -1268,9 +1434,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-035",
@@ -1304,9 +1475,14 @@
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or discussion; tasting is never required.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-036",
@@ -1340,9 +1516,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never taste unknown plants, berries or substances.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-037",
@@ -1376,9 +1557,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Do not approach smoke, flames or hot objects.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-038",
@@ -1412,9 +1598,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-039",
@@ -1448,9 +1639,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or familiar food example; do not require tasting.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     },
     {
       "activityId": "aas2-g2-sci-u03-040",
@@ -1484,9 +1680,14 @@
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Food examples must allow a no-taste alternative and adult help.",
-      "assetStatus": "NOT_GENERATED",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED"
+      "runtimeStatus": "NOT_INTEGRATED",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
     }
   ],
   "releaseGate": {

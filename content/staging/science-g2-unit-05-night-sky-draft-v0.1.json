@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "draftId": "science-g2-sci-g2-u05-v0.1",
+  "learnerPath": "GRADE_2",
+  "status": "DRAFT_PENDING_REVIEW",
+  "unit": {
+    "unitId": "SCI-G2-U05",
+    "title": "The Sky at Night",
+    "publisherTopicRange": "18",
+    "bookId": "macmillan-science-level2",
+    "unitIllustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg"
+  },
+  "sourceReference": {
+    "referenceId": "MACMILLAN-SCIENCE-L2-SCOPE",
+    "isbn": "9781035130740",
+    "rightsStatus": "REFERENCE_ONLY",
+    "usageBoundary": "Scope-level alignment only; all prompts, options, rationales and illustrations are original AAS2 work."
+  },
+  "skills": [
+    {
+      "skillId": "SCI-G2-SKY-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Observe the Moon and stars, describe craters and identify apparent star patterns.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2-SCOPE"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "SCI-G2-U05-L1",
+      "title": "The Moon and the Stars",
+      "skillIds": [
+        "SCI-G2-SKY-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U05-L2",
+      "title": "Moon Surface and Craters",
+      "skillIds": [
+        "SCI-G2-SKY-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U05-L3",
+      "title": "Star Patterns and Sky Observations",
+      "skillIds": [
+        "SCI-G2-SKY-01"
+      ]
+    }
+  ],
+  "activityCount": 12,
+  "activities": [
+    {
+      "activityId": "aas2-g2-sci-u05-001",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is Earth's natural satellite?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Moon"
+        },
+        {
+          "optionId": "b",
+          "text": "A cloud"
+        },
+        {
+          "optionId": "c",
+          "text": "A mountain"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "The Moon travels around Earth.",
+        "b": "Clouds are made of tiny water droplets or ice crystals.",
+        "c": "A mountain is part of Earth's surface."
+      },
+      "misconceptionCode": "SCI_G2_U05_L1_M01",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-002",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object makes its own light?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A star"
+        },
+        {
+          "optionId": "b",
+          "text": "The Moon"
+        },
+        {
+          "optionId": "c",
+          "text": "A mirror"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Stars produce their own light.",
+        "b": "The Moon reflects sunlight.",
+        "c": "A mirror reflects light from another source."
+      },
+      "misconceptionCode": "SCI_G2_U05_L1_M02",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-003",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why can we see the Moon shining in the night sky?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It reflects light from the Sun"
+        },
+        {
+          "optionId": "b",
+          "text": "It is a giant lamp"
+        },
+        {
+          "optionId": "c",
+          "text": "It is made of fire"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Sunlight reflects from the Moon toward Earth.",
+        "b": "The Moon is not a lamp.",
+        "c": "The Moon is not made of fire."
+      },
+      "misconceptionCode": "SCI_G2_U05_L1_M03",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-004",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Can the Moon sometimes be seen during the daytime?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Yes"
+        },
+        {
+          "optionId": "b",
+          "text": "No, never"
+        },
+        {
+          "optionId": "c",
+          "text": "Only during a storm"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "The Moon can be visible in daytime when it is above the horizon and bright enough.",
+        "b": "The Moon is not visible only at night.",
+        "c": "Storms do not determine whether the Moon can be seen."
+      },
+      "misconceptionCode": "SCI_G2_U05_L1_M04",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-005",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a crater on the Moon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A round hollow or dent on its surface"
+        },
+        {
+          "optionId": "b",
+          "text": "A river full of water"
+        },
+        {
+          "optionId": "c",
+          "text": "A tall green tree"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A crater is a hollow or bowl-shaped mark on the Moon's surface.",
+        "b": "The Moon has no flowing rivers like Earth.",
+        "c": "Trees do not grow on the Moon."
+      },
+      "misconceptionCode": "SCI_G2_U05_L2_M05",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-006",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How did many Moon craters form?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Space rocks hit the Moon's surface"
+        },
+        {
+          "optionId": "b",
+          "text": "Rain made deep puddles"
+        },
+        {
+          "optionId": "c",
+          "text": "Wind blew sand into circles"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Impacts by space rocks made many craters.",
+        "b": "Rain does not form the Moon's craters.",
+        "c": "Wind does not make impact craters."
+      },
+      "misconceptionCode": "SCI_G2_U05_L2_M06",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-007",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which model could show how a crater forms?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "An adult drops a small ball into soft modelling dough"
+        },
+        {
+          "optionId": "b",
+          "text": "A child touches a hot pan"
+        },
+        {
+          "optionId": "c",
+          "text": "A cup of unknown liquid"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A supervised model can show how an impact leaves a mark.",
+        "b": "Hot pans are dangerous and unrelated.",
+        "c": "Unknown liquids should not be handled."
+      },
+      "misconceptionCode": "SCI_G2_U05_L2_M07",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "An adult prepares and demonstrates the model; do not taste model materials.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-008",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What shape is a simple impact crater often like?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A round bowl-shaped hollow"
+        },
+        {
+          "optionId": "b",
+          "text": "A long straight river"
+        },
+        {
+          "optionId": "c",
+          "text": "A square tower"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Many impact craters are roughly circular and bowl-shaped.",
+        "b": "A crater is not a river.",
+        "c": "A crater is not a tower."
+      },
+      "misconceptionCode": "SCI_G2_U05_L2_M08",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-009",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a constellation?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A pattern of stars seen in the sky"
+        },
+        {
+          "optionId": "b",
+          "text": "Clouds inside a jar"
+        },
+        {
+          "optionId": "c",
+          "text": "A line drawn on the Moon"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A constellation is a pattern formed by stars as seen from Earth.",
+        "b": "Clouds are not constellations.",
+        "c": "A constellation is not a line on the Moon."
+      },
+      "misconceptionCode": "SCI_G2_U05_L3_M09",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-010",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Do stars in a constellation have to be close together in space?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "No, they can be very far apart"
+        },
+        {
+          "optionId": "b",
+          "text": "Yes, they touch each other"
+        },
+        {
+          "optionId": "c",
+          "text": "They are all on the Moon"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Stars that look close in a pattern can be at very different distances.",
+        "b": "The stars do not physically touch because of the pattern.",
+        "c": "Constellation stars are not on the Moon."
+      },
+      "misconceptionCode": "SCI_G2_U05_L3_M10",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-011",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can you compare the night sky on two evenings?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Record what you see on both evenings"
+        },
+        {
+          "optionId": "b",
+          "text": "Guess without looking"
+        },
+        {
+          "optionId": "c",
+          "text": "Change the names of the stars"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Recording observations on both evenings allows comparison.",
+        "b": "A guess is not an observation.",
+        "c": "Changing names does not compare the sky."
+      },
+      "misconceptionCode": "SCI_G2_U05_L3_M11",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-012",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What should you do if clouds hide the stars?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Record that the sky was cloudy"
+        },
+        {
+          "optionId": "b",
+          "text": "Climb a tree to get closer"
+        },
+        {
+          "optionId": "c",
+          "text": "Look at the Sun through a telescope"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Recording the actual observation is honest science.",
+        "b": "Climbing a tree is unsafe.",
+        "c": "Never look directly at the Sun, including through a telescope."
+      },
+      "misconceptionCode": "SCI_G2_U05_L3_M12",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Observe from a safe ground-level place with an adult.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    }
+  ],
+  "releaseGate": {
+    "runtimeIntegrated": false,
+    "mediaGenerated": false,
+    "independentScienceReview": false,
+    "pedagogyReview": false,
+    "languageReview": false,
+    "accessibilityReview": false,
+    "contentValidation": false,
+    "androidCi": false
+  }
+}

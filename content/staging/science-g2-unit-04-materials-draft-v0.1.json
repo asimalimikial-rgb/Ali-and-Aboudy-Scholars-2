@@ -1,0 +1,931 @@
+{
+  "schemaVersion": 1,
+  "draftId": "science-g2-sci-g2-u04-v0.1",
+  "learnerPath": "GRADE_2",
+  "status": "DRAFT_PENDING_REVIEW",
+  "unit": {
+    "unitId": "SCI-G2-U04",
+    "title": "Materials and Physical Properties",
+    "publisherTopicRange": "15–17",
+    "bookId": "macmillan-science-level2",
+    "unitIllustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg"
+  },
+  "sourceReference": {
+    "referenceId": "MACMILLAN-SCIENCE-L2-SCOPE",
+    "isbn": "9781035130740",
+    "rightsStatus": "REFERENCE_ONLY",
+    "usageBoundary": "Scope-level alignment only; all prompts, options, rationales and illustrations are original AAS2 work."
+  },
+  "skills": [
+    {
+      "skillId": "SCI-G2-MAT-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Predict and observe whether familiar objects float or sink.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2-SCOPE"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-MAT-02",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Compare liquid properties, capacity, dissolving and mixing.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2-SCOPE"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-MAT-03",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identify heat sources and choose safe actions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2-SCOPE"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "SCI-G2-U04-L1",
+      "title": "Floating and Sinking",
+      "skillIds": [
+        "SCI-G2-MAT-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L2",
+      "title": "Liquids and Containers",
+      "skillIds": [
+        "SCI-G2-MAT-02"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L3",
+      "title": "Dissolving and Mixing",
+      "skillIds": [
+        "SCI-G2-MAT-02"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L4",
+      "title": "Heat Sources and Safety",
+      "skillIds": [
+        "SCI-G2-MAT-03"
+      ]
+    }
+  ],
+  "activityCount": 20,
+  "activities": [
+    {
+      "activityId": "aas2-g2-sci-u04-001",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which familiar object is most likely to float on water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A dry leaf"
+        },
+        {
+          "optionId": "b",
+          "text": "A metal coin"
+        },
+        {
+          "optionId": "c",
+          "text": "A small stone"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A dry leaf usually floats.",
+        "b": "A metal coin usually sinks.",
+        "c": "A small stone usually sinks."
+      },
+      "misconceptionCode": "SCI_G2_U04_L1_M01",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-002",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What would a wooden block usually do when gently placed on water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Float"
+        },
+        {
+          "optionId": "b",
+          "text": "Dissolve"
+        },
+        {
+          "optionId": "c",
+          "text": "Turn into a liquid"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A wooden block usually floats.",
+        "b": "Wood does not dissolve just because it is placed in water.",
+        "c": "The block remains a solid."
+      },
+      "misconceptionCode": "SCI_G2_U04_L1_M02",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-003",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is most likely to sink?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A cork"
+        },
+        {
+          "optionId": "b",
+          "text": "A metal spoon"
+        },
+        {
+          "optionId": "c",
+          "text": "A dry leaf"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Cork usually floats.",
+        "b": "A metal spoon usually sinks.",
+        "c": "A dry leaf usually floats."
+      },
+      "misconceptionCode": "SCI_G2_U04_L1_M03",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-004",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can you find out whether a safe classroom object floats?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Place it gently in water and observe"
+        },
+        {
+          "optionId": "b",
+          "text": "Guess from its colour"
+        },
+        {
+          "optionId": "c",
+          "text": "Taste the object"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A careful water test gives observable evidence.",
+        "b": "Colour does not tell whether an object floats.",
+        "c": "Objects must never be tasted as a test."
+      },
+      "misconceptionCode": "SCI_G2_U04_L1_M04",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use adult-approved objects and room-temperature water.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-005",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A wide toy boat floats. What helps it stay on the water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Its shape helps it push water aside"
+        },
+        {
+          "optionId": "b",
+          "text": "It has no weight"
+        },
+        {
+          "optionId": "c",
+          "text": "It is made of water"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A boat's shape helps it push aside water and stay afloat.",
+        "b": "A boat still has weight.",
+        "c": "A boat is not made of water."
+      },
+      "misconceptionCode": "SCI_G2_U04_L1_M05",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-006",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What shape does water take when poured into a cup?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The shape of the cup"
+        },
+        {
+          "optionId": "b",
+          "text": "The shape of a wooden block"
+        },
+        {
+          "optionId": "c",
+          "text": "A shape that never changes"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A liquid takes the shape of its container.",
+        "b": "A wooden block does not set the water's shape.",
+        "c": "Water changes shape when poured into another container."
+      },
+      "misconceptionCode": "SCI_G2_U04_L2_M06",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-007",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You pour the same water into a tall jar without spilling. What changes?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The shape of the water"
+        },
+        {
+          "optionId": "b",
+          "text": "The amount of water"
+        },
+        {
+          "optionId": "c",
+          "text": "The water becomes solid"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "The water takes the shape of the tall jar.",
+        "b": "If none is added or spilled, the amount stays the same.",
+        "c": "Water remains a liquid."
+      },
+      "misconceptionCode": "SCI_G2_U04_L2_M07",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-008",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which one is a liquid?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Milk"
+        },
+        {
+          "optionId": "b",
+          "text": "A pencil"
+        },
+        {
+          "optionId": "c",
+          "text": "A stone"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Milk flows and takes the shape of its container.",
+        "b": "A pencil is a solid.",
+        "c": "A stone is a solid."
+      },
+      "misconceptionCode": "SCI_G2_U04_L2_M08",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-009",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool helps pour water into a narrow bottle?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A funnel"
+        },
+        {
+          "optionId": "b",
+          "text": "A ruler"
+        },
+        {
+          "optionId": "c",
+          "text": "A paintbrush"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A funnel guides liquid into a narrow opening.",
+        "b": "A ruler measures length.",
+        "c": "A paintbrush is not designed to guide water into a bottle."
+      },
+      "misconceptionCode": "SCI_G2_U04_L2_M09",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-010",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does the capacity of a cup tell you?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "How much it can hold"
+        },
+        {
+          "optionId": "b",
+          "text": "Its colour"
+        },
+        {
+          "optionId": "c",
+          "text": "How loud it is"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Capacity tells how much a container can hold.",
+        "b": "Colour describes appearance.",
+        "c": "Loudness describes sound."
+      },
+      "misconceptionCode": "SCI_G2_U04_L2_M10",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-011",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What happens when salt is stirred into water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It dissolves and spreads through the water"
+        },
+        {
+          "optionId": "b",
+          "text": "It turns into a stone"
+        },
+        {
+          "optionId": "c",
+          "text": "It floats forever as a lump"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Salt dissolves in water and spreads through it.",
+        "b": "Salt does not turn into a stone.",
+        "c": "Most salt grains are no longer visible after dissolving."
+      },
+      "misconceptionCode": "SCI_G2_U04_L3_M11",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-012",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which material does not dissolve easily in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sand"
+        },
+        {
+          "optionId": "b",
+          "text": "Sugar"
+        },
+        {
+          "optionId": "c",
+          "text": "Salt"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Sand does not dissolve in water.",
+        "b": "Sugar dissolves in water.",
+        "c": "Salt dissolves in water."
+      },
+      "misconceptionCode": "SCI_G2_U04_L3_M12",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-013",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "When sugar dissolves, is the sugar still in the water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Yes, it is spread through the water"
+        },
+        {
+          "optionId": "b",
+          "text": "No, it is destroyed"
+        },
+        {
+          "optionId": "c",
+          "text": "It changes into oil"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Dissolved sugar remains in the solution.",
+        "b": "Dissolving does not destroy sugar.",
+        "c": "Sugar does not turn water into oil."
+      },
+      "misconceptionCode": "SCI_G2_U04_L3_M13",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-014",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What usually happens when cooking oil and water are poured together?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "They form separate layers"
+        },
+        {
+          "optionId": "b",
+          "text": "The oil dissolves completely"
+        },
+        {
+          "optionId": "c",
+          "text": "They become a solid"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Oil and water usually form separate layers.",
+        "b": "Oil does not dissolve in water.",
+        "c": "The mixture remains liquid."
+      },
+      "misconceptionCode": "SCI_G2_U04_L3_M14",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-015",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action can help sugar dissolve faster in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stirring"
+        },
+        {
+          "optionId": "b",
+          "text": "Adding a stone"
+        },
+        {
+          "optionId": "c",
+          "text": "Covering the cup with sand"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Stirring helps sugar spread through the water faster.",
+        "b": "A stone does not help sugar dissolve.",
+        "c": "Sand does not help sugar dissolve."
+      },
+      "misconceptionCode": "SCI_G2_U04_L3_M15",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use room-temperature water; tasting is not required.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-016",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is a natural source of heat and light?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Sun"
+        },
+        {
+          "optionId": "b",
+          "text": "A wooden chair"
+        },
+        {
+          "optionId": "c",
+          "text": "A glass cup"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "The Sun provides natural heat and light.",
+        "b": "A chair is not a heat source.",
+        "c": "A glass cup is not a heat source."
+      },
+      "misconceptionCode": "SCI_G2_U04_L4_M16",
+      "assessmentPhase": "DIAGNOSTIC",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-017",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A cooking pot is on a hot stove. What should a child do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stay away and tell an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Touch the pot to test it"
+        },
+        {
+          "optionId": "c",
+          "text": "Move the pot alone"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Staying away and telling an adult is safe.",
+        "b": "Touching a hot pot can cause a burn.",
+        "c": "A child should not move a hot pot."
+      },
+      "misconceptionCode": "SCI_G2_U04_L4_M17",
+      "assessmentPhase": "GUIDED",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Never touch a hot stove, pot or flame.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-018",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can happen to an ice cube in a warm place?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It melts into liquid water"
+        },
+        {
+          "optionId": "b",
+          "text": "It becomes a stone"
+        },
+        {
+          "optionId": "c",
+          "text": "It grows into a plant"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Heat can make ice melt into liquid water.",
+        "b": "Ice does not become stone.",
+        "c": "Ice does not grow into a plant."
+      },
+      "misconceptionCode": "SCI_G2_U04_L4_M18",
+      "assessmentPhase": "INDEPENDENT",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-019",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You see smoke coming from a room. What is safest?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Move away and alert a trusted adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Go inside to investigate"
+        },
+        {
+          "optionId": "c",
+          "text": "Hide near the smoke"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Move away and alert an adult immediately.",
+        "b": "A child must not enter a smoky room.",
+        "c": "Staying near smoke is dangerous."
+      },
+      "misconceptionCode": "SCI_G2_U04_L4_M19",
+      "assessmentPhase": "TRANSFER",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Do not approach smoke, flames or electrical equipment.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-020",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A cup of hot water spills. What should a child do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Move away and tell an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Wipe it with bare hands"
+        },
+        {
+          "optionId": "c",
+          "text": "Play with the water"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Moving away and getting adult help prevents burns.",
+        "b": "Hot water can burn skin.",
+        "c": "Hot water is not safe to play with."
+      },
+      "misconceptionCode": "SCI_G2_U04_L4_M20",
+      "assessmentPhase": "RETRIEVAL",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Do not touch or clean spilled hot liquid.",
+      "illustrationAssetPath": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "audioStatus": "PENDING_STAGING_GENERATION",
+      "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
+      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "feedbackCorrect": "Well done! You chose the best answer.",
+      "feedbackIncorrect": "Nice try. Think about what you have learned, then try again."
+    }
+  ],
+  "releaseGate": {
+    "runtimeIntegrated": false,
+    "mediaGenerated": false,
+    "independentScienceReview": false,
+    "pedagogyReview": false,
+    "languageReview": false,
+    "accessibilityReview": false,
+    "contentValidation": false,
+    "androidCi": false
+  }
+}

@@ -74,3 +74,13 @@ No Units 3–5 activities are counted as authored or integrated by this planning
 - Safety notes cover sound exposure, eye safety, unknown insects/substances, tasting, smoke and possible food reactions.
 - Draft file: `content/staging/science-g2-unit-03-senses-draft-v0.1.json`; editorial summary: `docs/units/science-g2-unit-03-senses-v0.1.md`.
 - These are candidate items only. Science, pedagogy, language, accessibility and media reviews remain open; no runtime hierarchy, skill registry, audio or illustration assets have been changed.
+
+
+## Units 4–5 authoring progress — 24 November 2026
+
+- Unit 4: 20 original candidate items across four lessons (floating/sinking, liquids/containers, dissolving/mixing, heat sources/safety).
+- Unit 5: 12 original candidate items across three lessons (Moon/stars, craters, constellation patterns/observation).
+- Together with Unit 3, 72 original Science candidate activities are now staged.
+- Three original unit-level SVG illustrations are staged in `content/staging/media/science-g2/illustrations/`.
+- Every candidate item has one keyed answer, three unique options, option-level rationales, a misconception code, provisional difficulty and assessment phase. Safety notes are attached where relevant.
+- Audio generation is pending in a separate staging-only pipeline. No Unit 3–5 item is runtime-integrated or production-approved.

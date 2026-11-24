@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "STAGING_PENDING_VISUAL_QA",
+  "scope": "Private offline family app only",
+  "files": [
+    {
+      "file": "science-g2-u03-senses.svg",
+      "path": "content/staging/media/science-g2/illustrations/science-g2-u03-senses.svg",
+      "format": "SVG",
+      "authorship": "ORIGINAL_AAS2",
+      "reviewStatus": "PENDING_VISUAL_QA"
+    },
+    {
+      "file": "science-g2-u04-materials.svg",
+      "path": "content/staging/media/science-g2/illustrations/science-g2-u04-materials.svg",
+      "format": "SVG",
+      "authorship": "ORIGINAL_AAS2",
+      "reviewStatus": "PENDING_VISUAL_QA"
+    },
+    {
+      "file": "science-g2-u05-night-sky.svg",
+      "path": "content/staging/media/science-g2/illustrations/science-g2-u05-night-sky.svg",
+      "format": "SVG",
+      "authorship": "ORIGINAL_AAS2",
+      "reviewStatus": "PENDING_VISUAL_QA"
+    }
+  ]
+}

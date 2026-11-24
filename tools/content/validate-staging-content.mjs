@@ -290,4 +290,50 @@ for (const activity of scienceDraft.activities) {
 for (const lesson of scienceDraft.lessons) {
   assert.equal(scienceDraft.activities.filter(activity => activity.lessonId === lesson.lessonId).length, 8);
 }
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 40 staging-only Science Unit 3 items, and all current media references.");
+
+const stagedScience = [
+  ["content/staging/science-g2-unit-03-senses-draft-v0.1.json", "SCI-G2-U03", 40, 5, /^aas2-g2-sci-u03-\\d{3}$/],
+  ["content/staging/science-g2-unit-04-materials-draft-v0.1.json", "SCI-G2-U04", 20, 4, /^aas2-g2-sci-u04-\\d{3}$/],
+  ["content/staging/science-g2-unit-05-night-sky-draft-v0.1.json", "SCI-G2-U05", 12, 3, /^aas2-g2-sci-u05-\\d{3}$/]
+];
+const stagedScienceIds = new Set();
+const stagedSciencePrompts = new Set();
+let stagedScienceCount = 0;
+for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of stagedScience) {
+  const draft = JSON.parse(fs.readFileSync(path.join(process.cwd(), relativePath), "utf8"));
+  assert.equal(draft.unit.unitId, unitId);
+  assert.equal(draft.activities.length, expectedCount);
+  assert.equal(draft.lessons.length, expectedLessons);
+  assert.equal(draft.status, "DRAFT_PENDING_REVIEW");
+  assert.equal(draft.releaseGate.runtimeIntegrated, false);
+  for (const activity of draft.activities) {
+    assert.match(activity.activityId, idPattern);
+    assert.ok(!stagedScienceIds.has(activity.activityId));
+    stagedScienceIds.add(activity.activityId);
+    const prompt = activity.prompt.trim().toLowerCase().replace(/\\s+/g, " ");
+    assert.ok(!stagedSciencePrompts.has(prompt));
+    stagedSciencePrompts.add(prompt);
+    assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+    assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
+    assert.equal(activity.options.length, 3);
+    const optionIds = activity.options.map(option => option.optionId);
+    assert.equal(new Set(optionIds).size, 3);
+    assert.equal(new Set(activity.options.map(option => option.text.trim().toLowerCase())).size, 3);
+    assert.ok(optionIds.includes(activity.correctOptionId));
+    assert.deepEqual(Object.keys(activity.optionRationales).sort(), [...optionIds].sort());
+    assert.ok(activity.feedbackCorrect && activity.feedbackIncorrect);
+    assert.equal(activity.audioStatus, "PENDING_STAGING_GENERATION");
+  }
+  stagedScienceCount += draft.activities.length;
+}
+assert.equal(stagedScienceCount, 72);
+const scienceArtManifest = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/staging/media/science-g2/illustrations/manifest.json"), "utf8"));
+assert.equal(scienceArtManifest.files.length, 3);
+for (const file of scienceArtManifest.files) {
+  const svg = fs.readFileSync(path.join(process.cwd(), file.path), "utf8");
+  assert.match(svg, /<svg[\\s>]/);
+  assert.match(svg, /viewBox=/);
+  assert.match(svg, /<\\/svg>/);
+}
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, and all current media references.");
+
