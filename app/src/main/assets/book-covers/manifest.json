@@ -37,16 +37,16 @@
       "isbn": "9789356664975",
       "file": "maths-xpress-senior-kg.jpg",
       "assetPath": "book-covers/maths-xpress-senior-kg.jpg",
-      "sourceImageUrl": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/maths_ukg.jpg",
+      "sourceImageUrl": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/macmillan_maths_xpress_upper_kg.jpg",
       "sourceProductUrl": "https://raajkart.com/macmillan-maths-xpress-for-senior-kg-revised.html",
       "note": "Seller product image for the Senior KG / UKG book.",
       "format": "JPEG",
       "personalUseOnly": true,
-      "bytes": 1996,
-      "sha256": "f923b3967a0c7a0296a874908a50c2891848731e6d3d544bf2bbb703af043e7d",
+      "bytes": 107515,
+      "sha256": "c24ef66984b8060cba99d0d4c3685e9557c974c5fb252bd50da85c6a0f583dd7",
       "sourceDimensions": [
-        262,
-        262
+        700,
+        885
       ]
     },
     {
@@ -145,5 +145,11 @@
       ]
     }
   ],
-  "failedFallbackSources": []
+  "failedFallbackSources": [
+    {
+      "coverId": "maths-xpress-senior-kg",
+      "url": "https://raajkart.com/media/catalog/product/cache/378cf9a83101843e5b8b1271b991c285/m/a/maths_ukg.jpg",
+      "error": "Image resolution is too small: 262x262"
+    }
+  ]
 }
