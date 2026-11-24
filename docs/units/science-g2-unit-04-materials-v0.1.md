@@ -15,3 +15,9 @@ Original items assess observation, prediction, fair comparison, liquid propertie
 **Safety:** Use only adult-approved objects and room-temperature water. Children must never touch hot equipment, flames or spilled hot liquids. Heat demonstrations are adult-led and visual-only. Do not taste materials or mixtures.
 
 The unit illustration is staged as an original SVG. Audio generation, visual QA, scientific accuracy, Grade 2 language load, accessibility and answer-key review remain open.
+
+## First-pass assessment QA — 24 November 2026
+
+- A key-position scan found 19/20 answers at position A and one at B, creating a strong answer-position cue.
+- Reordered the three option objects without changing option IDs, text, answer keys, rationales, or option-audio mappings. The revised distribution is A=7, B=7, C=6.
+- This is still staging content; scientific/pedagogical sign-off, media QA and Android runtime integration remain open.
