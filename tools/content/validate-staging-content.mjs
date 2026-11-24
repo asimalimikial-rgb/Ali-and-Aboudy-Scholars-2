@@ -102,7 +102,7 @@ assert.ok(englishWorldQueue.records.every(item =>
   ["PENDING_PEDAGOGY_REVIEW", "REVISED_PENDING_PEDAGOGY_QA"].includes(item.reviewStatus) && item.runtimeUnitId === null
 ), "English World candidates must remain pending until unit mapping is reviewed.");
 const grade2Pack = packs[1];
-assert.equal(grade2Pack.version, "0.4.4");
+assert.equal(grade2Pack.version, "0.4.6");
 const mathActivities = grade2Pack.activities.filter(item => item.activityId.startsWith("new-aboudy-maths-"));
 assert.equal(mathActivities.length, 40);
 assert.equal(mathematicsQueue.packVersion, grade2Pack.version);
