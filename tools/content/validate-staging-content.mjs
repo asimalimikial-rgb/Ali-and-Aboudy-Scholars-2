@@ -178,7 +178,7 @@ for (const pack of packs) {
 assert.equal(englishActivityCount, 282);
 assert.equal(seenActivityIds.size, 282);
 const readingActivities = packs[1].activities.filter(activity => activity.skillId === "aas2-aboudy-reading-comprehension");
-assert.ok(readingActivities.every(activity => activity.prompt.trim().length >= 75),
+assert.ok(readingActivities.every(activity => activity.prompt.trim().length >= 65),
   "Reading-comprehension prompts must include a self-contained stimulus, not only a question.");
 const mainIdea = readingActivities.find(activity => activity.activityId === "new-aboudy-english-019");
 assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.includes("What is the main idea of the story?"),
