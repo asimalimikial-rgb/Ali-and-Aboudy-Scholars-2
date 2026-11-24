@@ -22,7 +22,7 @@
   },
   "sourceEnglishActivityCount": 282,
   "count": 1692,
-  "totalBytes": 25630162,
+  "totalBytes": 25713495,
   "activities": {
     "g2-place-01-en": {
       "prompt": "fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
@@ -645,7 +645,7 @@
       "feedbackIncorrect": "af18225bdaec72ffb8b268dac7cfcdeda681531a5e095cb6d47e91aec14c8f65.ogg"
     },
     "new-aboudy-english-019": {
-      "prompt": "d329250628654fb89ed36970d34ec0f5aa6906b8a15a1b838f740ad55afadded.ogg",
+      "prompt": "37cce7c34d7ff9adc31bccb563accbcfd3dd440dd670a7176dc2033228651737.ogg",
       "options": {
         "a": "f012b6a5f175e240f942b8dcb1f0f4d2b335f944d6365e6b503edd69fbae59ad.ogg",
         "b": "3b48a8d1ef0f3fb39a08ef94548904a1939908fe1b690d90487d5402254a9cd8.ogg",
@@ -9433,6 +9433,24 @@
       "durationMs": 3403,
       "sampleRate": 44100,
       "peak": 0.3100435137748718
+    },
+    {
+      "key": "37cce7c34d7ff9adc31bccb563accbcfd3dd440dd670a7176dc2033228651737",
+      "file": "37cce7c34d7ff9adc31bccb563accbcfd3dd440dd670a7176dc2033228651737.ogg",
+      "text": "Read the story: Ben saw a kitten near the road. It was cold and alone. He took it to a safe place and asked his mother to help. They gave it food and made a warm bed. What is the main idea of the story?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "new-aboudy-english-019",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "cc45c9e5557b88b5e2dd19c01f527073e012522229b45131ffed6f355d1407d0",
+      "bytes": 103112,
+      "durationMs": 21017,
+      "sampleRate": 44100,
+      "peak": 0.4389210343360901
     },
     {
       "key": "37d155febf8efb9daf186c0996cb508940cefa946204132aa4f7122331b96659",
@@ -28009,24 +28027,6 @@
       "durationMs": 2129,
       "sampleRate": 44100,
       "peak": 0.2761906683444977
-    },
-    {
-      "key": "d329250628654fb89ed36970d34ec0f5aa6906b8a15a1b838f740ad55afadded",
-      "file": "d329250628654fb89ed36970d34ec0f5aa6906b8a15a1b838f740ad55afadded.ogg",
-      "text": "What is the main idea of this story?",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "new-aboudy-english-019",
-      "role": "prompt",
-      "optionId": null,
-      "sha256": "5edd9a3343a2db9049153571750ff4f9b00847998d073ad3733668d18062dde4",
-      "bytes": 19779,
-      "durationMs": 3647,
-      "sampleRate": 44100,
-      "peak": 0.2666705250740051
     },
     {
       "key": "d334b8edce4a4056e388b78c875abab20f6ab6c233dc615460c9930c25122a33",
