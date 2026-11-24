@@ -65,3 +65,12 @@ For every activity, record one primary skill, observable outcome, prompt languag
 A unit is not complete until each lesson has an explicit learning intention and observable outcome; original explanations, examples, visual models and activities are authored; scientific accuracy and age suitability are reviewed independently; English reading load is appropriate; answer keys and distractor rationales are checked; safety and accessibility are reviewed; media and offline fallbacks validate; Content Validation and Android CI pass; and the unit hierarchy is integrated in runtime and tested on Android.
 
 No Units 3–5 activities are counted as authored or integrated by this planning document.
+
+
+## Unit 3 authoring progress — 24 November 2026
+
+- Created a staging-only draft for SCI-G2-U03 with five lessons and 40 original English single-choice items (eight per lesson).
+- Each item includes three unique options, one answer key, option-level rationales, a misconception code, assessment phase and provisional difficulty.
+- Safety notes cover sound exposure, eye safety, unknown insects/substances, tasting, smoke and possible food reactions.
+- Draft file: `content/staging/science-g2-unit-03-senses-draft-v0.1.json`; editorial summary: `docs/units/science-g2-unit-03-senses-v0.1.md`.
+- These are candidate items only. Science, pedagogy, language, accessibility and media reviews remain open; no runtime hierarchy, skill registry, audio or illustration assets have been changed.

@@ -258,4 +258,36 @@ assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.inclu
   "The main-idea activity must include its story stimulus in the prompt.");
 assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 9 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, and all current media references.");
+const scienceDraftPath = path.join(process.cwd(), "content/staging/science-g2-unit-03-senses-draft-v0.1.json");
+const scienceDraft = JSON.parse(fs.readFileSync(scienceDraftPath, "utf8"));
+assert.equal(scienceDraft.unit.unitId, "SCI-G2-U03");
+assert.equal(scienceDraft.activities.length, 40);
+assert.equal(scienceDraft.lessons.length, 5);
+assert.equal(scienceDraft.status, "DRAFT_PENDING_REVIEW");
+assert.equal(scienceDraft.releaseGate.runtimeIntegrated, false);
+const scienceIds = new Set();
+const sciencePrompts = new Set();
+for (const activity of scienceDraft.activities) {
+  assert.match(activity.activityId, /^aas2-g2-sci-u03-\\d{3}$/);
+  assert.equal(activity.activityType, "SINGLE_CHOICE");
+  assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+  assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
+  assert.equal(activity.assetStatus, "NOT_GENERATED");
+  assert.equal(activity.options.length, 3);
+  const optionIds = activity.options.map(option => option.optionId);
+  const optionTexts = activity.options.map(option => option.text.trim().toLowerCase());
+  assert.equal(new Set(optionIds).size, 3);
+  assert.equal(new Set(optionTexts).size, 3);
+  assert.ok(optionIds.includes(activity.correctOptionId));
+  assert.deepEqual(Object.keys(activity.optionRationales).sort(), [...optionIds].sort());
+  assert.ok(activity.prompt.trim().length > 10);
+  assert.ok(!scienceIds.has(activity.activityId), "Duplicate Science Unit 3 ID: " + activity.activityId);
+  scienceIds.add(activity.activityId);
+  const normalizedPrompt = activity.prompt.trim().toLowerCase().replace(/\\s+/g, " ");
+  assert.ok(!sciencePrompts.has(normalizedPrompt), "Duplicate Science Unit 3 prompt: " + activity.activityId);
+  sciencePrompts.add(normalizedPrompt);
+}
+for (const lesson of scienceDraft.lessons) {
+  assert.equal(scienceDraft.activities.filter(activity => activity.lessonId === lesson.lessonId).length, 8);
+}
+console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 12 pending correction proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 40 staging-only Science Unit 3 items, and all current media references.");

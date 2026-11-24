@@ -1,0 +1,1502 @@
+{
+  "schemaVersion": 1,
+  "draftId": "science-g2-unit-03-senses-v0.1",
+  "learnerPath": "GRADE_2",
+  "status": "DRAFT_PENDING_REVIEW",
+  "unit": {
+    "unitId": "SCI-G2-U03",
+    "title": "Senses and Our Bodies",
+    "publisherTopicRange": "10-14"
+  },
+  "sourceReference": {
+    "referenceId": "MACMILLAN-SCIENCE-L2-SCOPE",
+    "isbn": "9781035130740",
+    "rightsStatus": "REFERENCE_ONLY",
+    "usageBoundary": "Scope-level curriculum alignment only. All AAS2 prompts and options are newly authored; no protected textbook expression or artwork is reproduced."
+  },
+  "lessons": [
+    {
+      "lessonId": "SCI-G2-U03-L01",
+      "title": "Five Senses and Sense Organs",
+      "skillId": "SCI-G2-SEN-01",
+      "objective": "Identify the five senses and connect each sense with the organ that supports it."
+    },
+    {
+      "lessonId": "SCI-G2-U03-L02",
+      "title": "Hearing and Making Sounds",
+      "skillId": "SCI-G2-SEN-02",
+      "objective": "Identify sound sources and distinguish loudness from pitch and safe listening."
+    },
+    {
+      "lessonId": "SCI-G2-U03-L03",
+      "title": "Seeing the World and Colour",
+      "skillId": "SCI-G2-SEN-03",
+      "objective": "Describe how eyes and light support sight and recognise simple colour relationships."
+    },
+    {
+      "lessonId": "SCI-G2-U03-L04",
+      "title": "Touch and Texture",
+      "skillId": "SCI-G2-SEN-04",
+      "objective": "Use touch vocabulary to compare familiar safe surfaces and recognise unsafe contact."
+    },
+    {
+      "lessonId": "SCI-G2-U03-L05",
+      "title": "Taste and Smell Safely",
+      "skillId": "SCI-G2-SEN-05",
+      "objective": "Distinguish taste from smell and choose safe actions around unfamiliar foods and substances."
+    }
+  ],
+  "activityCount": 40,
+  "activities": [
+    {
+      "activityId": "aas2-g2-sci-u03-001",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice a ringing bell?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sight"
+        },
+        {
+          "optionId": "b",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "c",
+          "text": "Taste"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Sight helps you notice the bell's appearance, not its sound.",
+        "b": "Hearing detects the bell's sound.",
+        "c": "Taste is not used to hear sounds."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M01",
+      "assessmentPhase": "diagnostic",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-002",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body organs help you see the colours of a picture?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Eyes"
+        },
+        {
+          "optionId": "b",
+          "text": "Ears"
+        },
+        {
+          "optionId": "c",
+          "text": "Hands"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Eyes receive light and help us see colours.",
+        "b": "Ears help us hear sounds.",
+        "c": "Hands help us touch and feel surfaces."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M02",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-003",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which organ helps you notice the smell of a flower?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Tongue"
+        },
+        {
+          "optionId": "b",
+          "text": "Skin"
+        },
+        {
+          "optionId": "c",
+          "text": "Nose"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "The tongue helps us taste.",
+        "b": "Skin helps us feel touch and texture.",
+        "c": "The nose detects smells."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M03",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-004",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which organ helps you feel whether a clean cloth is rough or smooth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Eyes"
+        },
+        {
+          "optionId": "b",
+          "text": "Skin"
+        },
+        {
+          "optionId": "c",
+          "text": "Ears"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Eyes can see a surface but do not feel its texture.",
+        "b": "Skin helps us feel texture by touch.",
+        "c": "Ears detect sound."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M04",
+      "assessmentPhase": "independent",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-005",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice that a lemon tastes sour?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "b",
+          "text": "Sight"
+        },
+        {
+          "optionId": "c",
+          "text": "Taste"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Hearing detects sounds.",
+        "b": "Sight detects light, shape and colour.",
+        "c": "Taste helps us notice flavours such as sourness."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M05",
+      "assessmentPhase": "transfer",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use a picture or a familiar food example; never require tasting.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-006",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which pair is matched correctly?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ears — hearing"
+        },
+        {
+          "optionId": "b",
+          "text": "Eyes — smelling"
+        },
+        {
+          "optionId": "c",
+          "text": "Nose — touching"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Ears are the organs used for hearing.",
+        "b": "Eyes support sight, not smelling.",
+        "c": "The nose detects smells, not touch."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M06",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-007",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You hear thunder and see a flash of lightning. Which two senses are you using?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Taste and touch"
+        },
+        {
+          "optionId": "b",
+          "text": "Smell and taste"
+        },
+        {
+          "optionId": "c",
+          "text": "Hearing and sight"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Taste and touch do not detect thunder or lightning.",
+        "b": "Smell and taste are not used to hear or see the storm.",
+        "c": "Hearing notices thunder and sight notices the flash."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M07",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-008",
+      "lessonId": "SCI-G2-U03-L01",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice that a safe cup of water feels cool when you hold it?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Smell"
+        },
+        {
+          "optionId": "b",
+          "text": "Touch"
+        },
+        {
+          "optionId": "c",
+          "text": "Hearing"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Smell detects odours.",
+        "b": "Touch helps notice whether an object feels cool or warm.",
+        "c": "Hearing detects sounds."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L1_M08",
+      "assessmentPhase": "retrieval",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use only a safe, room-temperature object; do not use hot liquids.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-009",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What happens when you pluck a stretched rubber band and hear a sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The band becomes silent forever"
+        },
+        {
+          "optionId": "b",
+          "text": "The band vibrates"
+        },
+        {
+          "optionId": "c",
+          "text": "The band changes into liquid"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Plucking does not make the band permanently silent.",
+        "b": "A vibrating band can make a sound.",
+        "c": "The band does not turn into a liquid."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M09",
+      "assessmentPhase": "diagnostic",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-010",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sound is usually the loudest when heard from nearby?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A drum being beaten"
+        },
+        {
+          "optionId": "b",
+          "text": "A person whispering"
+        },
+        {
+          "optionId": "c",
+          "text": "Leaves moving gently"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A nearby drumbeat is usually louder than a whisper or rustling leaves.",
+        "b": "A whisper is a quiet sound.",
+        "c": "Gentle rustling is usually quiet."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M10",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-011",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sound is usually higher-pitched?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A large low drum"
+        },
+        {
+          "optionId": "b",
+          "text": "Distant thunder"
+        },
+        {
+          "optionId": "c",
+          "text": "A small bird chirping"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "A large drum often makes a lower-pitched sound.",
+        "b": "Thunder is usually low-pitched.",
+        "c": "A small bird's chirp is usually high-pitched."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M11",
+      "assessmentPhase": "guided",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-012",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which part of a guitar makes sound when it is plucked?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The painted picture on the guitar"
+        },
+        {
+          "optionId": "b",
+          "text": "A vibrating string"
+        },
+        {
+          "optionId": "c",
+          "text": "The guitar case sitting still"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "A picture does not vibrate to make the guitar's note.",
+        "b": "A plucked string vibrates and produces sound.",
+        "c": "A case sitting still does not make the note."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M12",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-013",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sound is usually lower-pitched?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A deep drumbeat"
+        },
+        {
+          "optionId": "b",
+          "text": "A small bird chirp"
+        },
+        {
+          "optionId": "c",
+          "text": "A whistle"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A deep drumbeat is usually lower-pitched.",
+        "b": "A bird chirp is often high-pitched.",
+        "c": "A whistle is usually high-pitched."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M13",
+      "assessmentPhase": "independent",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-014",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What usually happens to a sound when you move farther away from its source?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It becomes a different colour"
+        },
+        {
+          "optionId": "b",
+          "text": "It turns into a smell"
+        },
+        {
+          "optionId": "c",
+          "text": "It sounds quieter"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Sound does not have a colour that changes with distance.",
+        "b": "Sound does not turn into a smell.",
+        "c": "The sound usually seems quieter as distance increases."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M14",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-015",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A sound is painfully loud nearby. What is the safest action?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Move closer to listen carefully"
+        },
+        {
+          "optionId": "b",
+          "text": "Move away and tell an adult"
+        },
+        {
+          "optionId": "c",
+          "text": "Turn the sound up more"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Moving closer can increase the risk of hearing harm.",
+        "b": "Moving away and telling an adult is the safer choice.",
+        "c": "Turning the sound up makes it louder."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M15",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Keep all demonstrations at a safe volume.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-016",
+      "lessonId": "SCI-G2-U03-L02",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about pitch and loudness is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A sound can be high-pitched and quiet"
+        },
+        {
+          "optionId": "b",
+          "text": "Every high-pitched sound is loud"
+        },
+        {
+          "optionId": "c",
+          "text": "Loudness and pitch mean exactly the same thing"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Pitch describes how high or low a sound is; loudness describes how strong it seems.",
+        "b": "A high-pitched sound can be quiet or loud.",
+        "c": "Pitch and loudness describe different features of sound."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L2_M16",
+      "assessmentPhase": "retrieval",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-017",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What helps your eyes see an object?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Darkness entering your ears"
+        },
+        {
+          "optionId": "b",
+          "text": "Light reaching your eyes"
+        },
+        {
+          "optionId": "c",
+          "text": "A smell reaching your tongue"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Ears do not make sight happen.",
+        "b": "We see when light from or reflected by objects reaches the eyes.",
+        "c": "Smell and taste do not allow us to see an object."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M17",
+      "assessmentPhase": "diagnostic",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-018",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What colour is a ripe banana usually?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Yellow"
+        },
+        {
+          "optionId": "b",
+          "text": "Blue"
+        },
+        {
+          "optionId": "c",
+          "text": "Purple"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "A ripe banana is usually yellow.",
+        "b": "Blue is not the usual colour of a ripe banana.",
+        "c": "Purple is not the usual colour of a ripe banana."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M18",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-019",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What colour do red and yellow paints usually make when mixed?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Blue"
+        },
+        {
+          "optionId": "b",
+          "text": "Green"
+        },
+        {
+          "optionId": "c",
+          "text": "Orange"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Red and yellow paint do not make blue.",
+        "b": "Blue and yellow paint can make green, but red and yellow make orange.",
+        "c": "Red and yellow paint usually make orange."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M19",
+      "assessmentPhase": "guided",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-020",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What colour do blue and yellow paints usually make when mixed?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Purple"
+        },
+        {
+          "optionId": "b",
+          "text": "Green"
+        },
+        {
+          "optionId": "c",
+          "text": "Red"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Blue and yellow paint usually make green, not purple.",
+        "b": "Blue and yellow paint usually make green.",
+        "c": "Red is not the usual result of mixing blue and yellow paint."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M20",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-021",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action protects your eyes when the Sun is bright?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Never look directly at the Sun"
+        },
+        {
+          "optionId": "b",
+          "text": "Look straight at the Sun for a long time"
+        },
+        {
+          "optionId": "c",
+          "text": "Use a magnifying glass to look at the Sun"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Never look directly at the Sun; use safe shade and adult guidance.",
+        "b": "Looking directly at the Sun can seriously harm the eyes.",
+        "c": "A magnifying glass makes looking at the Sun even more dangerous."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M21",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Never ask a child to look directly at the Sun.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-022",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why do people blink their eyes?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "To make sounds"
+        },
+        {
+          "optionId": "b",
+          "text": "To taste food"
+        },
+        {
+          "optionId": "c",
+          "text": "To spread tears and help protect the eyes"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Blinking does not make sounds.",
+        "b": "Taste is not the purpose of blinking.",
+        "c": "Blinking spreads tears and helps protect the surface of the eye."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M22",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-023",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which material lets light pass through so you can see clearly through it?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A thick wooden board"
+        },
+        {
+          "optionId": "b",
+          "text": "Clear glass"
+        },
+        {
+          "optionId": "c",
+          "text": "A closed book"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "A thick wooden board blocks light.",
+        "b": "Clear glass lets much of the light pass through.",
+        "c": "A closed book blocks light."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M23",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-024",
+      "lessonId": "SCI-G2-U03-L03",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Dust gets near your eye. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rub the eye hard"
+        },
+        {
+          "optionId": "b",
+          "text": "Put a sharp object near the eye"
+        },
+        {
+          "optionId": "c",
+          "text": "Blink gently and tell an adult if it still feels uncomfortable"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Rubbing hard may scratch or irritate the eye.",
+        "b": "Sharp objects must never be placed near an eye.",
+        "c": "Gentle blinking and adult help are safer than rubbing or using objects."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L3_M24",
+      "assessmentPhase": "retrieval",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Do not place objects, liquids or fingers into the eye.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-025",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word best describes the surface of sandpaper?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Soft"
+        },
+        {
+          "optionId": "b",
+          "text": "Rough"
+        },
+        {
+          "optionId": "c",
+          "text": "Wet"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Sandpaper is not usually soft.",
+        "b": "Sandpaper has a rough surface.",
+        "c": "Wet describes whether something has water on it, not its texture."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M25",
+      "assessmentPhase": "diagnostic",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-026",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which familiar material usually feels soft?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A metal spoon"
+        },
+        {
+          "optionId": "b",
+          "text": "A stone"
+        },
+        {
+          "optionId": "c",
+          "text": "Cotton wool"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "A metal spoon is usually hard and smooth.",
+        "b": "A stone is usually hard.",
+        "c": "Cotton wool usually feels soft."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M26",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-027",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice that a table feels smooth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Touch"
+        },
+        {
+          "optionId": "b",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "c",
+          "text": "Smell"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Touch helps us feel surface texture.",
+        "b": "Hearing detects sounds.",
+        "c": "Smell detects odours."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M27",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-028",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is most likely to feel rough?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A polished glass marble"
+        },
+        {
+          "optionId": "b",
+          "text": "A piece of coarse sandpaper"
+        },
+        {
+          "optionId": "c",
+          "text": "A smooth plastic ruler"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "A polished glass marble is usually smooth.",
+        "b": "Coarse sandpaper is rough.",
+        "c": "A smooth plastic ruler is usually smooth."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M28",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-029",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes a clean, polished glass surface?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Loud"
+        },
+        {
+          "optionId": "b",
+          "text": "Sour"
+        },
+        {
+          "optionId": "c",
+          "text": "Smooth"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Loud describes sound.",
+        "b": "Sour describes taste.",
+        "c": "Smooth describes a surface with little roughness."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M29",
+      "assessmentPhase": "independent",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-030",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can you compare the textures of two safe classroom objects?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Gently feel their clean surfaces"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste both objects"
+        },
+        {
+          "optionId": "c",
+          "text": "Smell them with your eyes closed"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Gently touching familiar, safe objects is an appropriate way to compare texture.",
+        "b": "Objects should not be tasted as a texture test.",
+        "c": "Smell does not tell you whether a surface is rough or smooth."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M30",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use only clean, familiar objects; do not touch unknown substances.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-031",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You see an unfamiliar insect on a rough wall. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pick it up to feel its body"
+        },
+        {
+          "optionId": "b",
+          "text": "Do not touch it; tell an adult"
+        },
+        {
+          "optionId": "c",
+          "text": "Rub it against your skin"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Picking up an unfamiliar insect may be unsafe.",
+        "b": "Keeping a safe distance and telling an adult is the safest action.",
+        "c": "Rubbing an unknown insect on skin is unsafe."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M31",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Never ask children to touch unknown insects.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-032",
+      "lessonId": "SCI-G2-U03-L04",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes texture rather than temperature?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rough"
+        },
+        {
+          "optionId": "b",
+          "text": "Warm"
+        },
+        {
+          "optionId": "c",
+          "text": "Cold"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Rough describes how a surface feels.",
+        "b": "Warm describes temperature.",
+        "c": "Cold describes temperature."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L4_M32",
+      "assessmentPhase": "retrieval",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-033",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which organ helps you notice the smell of fresh bread?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ears"
+        },
+        {
+          "optionId": "b",
+          "text": "Nose"
+        },
+        {
+          "optionId": "c",
+          "text": "Eyes"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Ears detect sound.",
+        "b": "The nose detects smells.",
+        "c": "Eyes help us see."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M33",
+      "assessmentPhase": "diagnostic",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-034",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body part helps you notice the taste of a familiar food?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Elbow"
+        },
+        {
+          "optionId": "b",
+          "text": "Knee"
+        },
+        {
+          "optionId": "c",
+          "text": "Tongue"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "The elbow is not a taste organ.",
+        "b": "The knee is not a taste organ.",
+        "c": "The tongue helps us notice tastes."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M34",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-035",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word best describes the taste of a lemon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sour"
+        },
+        {
+          "optionId": "b",
+          "text": "Salty"
+        },
+        {
+          "optionId": "c",
+          "text": "Bitter"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Lemon is commonly described as sour.",
+        "b": "Salty is not the usual description of lemon taste.",
+        "c": "Bitter is not the usual description of lemon taste."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M35",
+      "assessmentPhase": "guided",
+      "difficulty": 1,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use a picture or discussion; tasting is never required.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-036",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You find an unfamiliar berry outdoors. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Taste a little to identify it"
+        },
+        {
+          "optionId": "b",
+          "text": "Smell it closely and then eat it"
+        },
+        {
+          "optionId": "c",
+          "text": "Do not eat it; ask a trusted adult"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Unknown berries may be poisonous; do not taste them.",
+        "b": "Smelling does not prove that a berry is safe to eat.",
+        "c": "Not eating an unknown berry and asking an adult is safest."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M36",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Never taste unknown plants, berries or substances.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-037",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You smell smoke where there should be no smoke. What is the safest action?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Move away and tell an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Search alone for the source"
+        },
+        {
+          "optionId": "c",
+          "text": "Touch nearby objects to see if they are hot"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Moving away and alerting an adult is the safest response.",
+        "b": "A child should not search alone for a possible fire.",
+        "c": "Touching unknown objects may cause burns."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M37",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Do not approach smoke, flames or hot objects.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-038",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can smelling food help you notice?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Its exact weight"
+        },
+        {
+          "optionId": "b",
+          "text": "Its odour"
+        },
+        {
+          "optionId": "c",
+          "text": "Whether it is definitely safe to eat"
+        }
+      ],
+      "correctOptionId": "b",
+      "optionRationales": {
+        "a": "Smell does not tell you the exact weight.",
+        "b": "Smell helps us notice an odour.",
+        "c": "A pleasant smell does not prove food is safe or free from allergens."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M38",
+      "assessmentPhase": "independent",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": null,
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-039",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which two senses can help you notice an orange?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hearing and touch only"
+        },
+        {
+          "optionId": "b",
+          "text": "Sight and hearing only"
+        },
+        {
+          "optionId": "c",
+          "text": "Smell and taste"
+        }
+      ],
+      "correctOptionId": "c",
+      "optionRationales": {
+        "a": "Hearing is not the main sense for noticing an orange's smell or flavour.",
+        "b": "Sight can identify its appearance, but this pair omits smell and taste.",
+        "c": "Smell and taste can both help us notice an orange."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M39",
+      "assessmentPhase": "transfer",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Use a picture or familiar food example; do not require tasting.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-040",
+      "lessonId": "SCI-G2-U03-L05",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A new food makes your mouth itchy. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stop eating and tell an adult immediately"
+        },
+        {
+          "optionId": "b",
+          "text": "Eat more to check what happens"
+        },
+        {
+          "optionId": "c",
+          "text": "Ignore it and keep eating"
+        }
+      ],
+      "correctOptionId": "a",
+      "optionRationales": {
+        "a": "Stopping and telling an adult is the safe response to a possible reaction.",
+        "b": "Eating more could make a reaction worse.",
+        "c": "Ignoring a possible reaction is unsafe."
+      },
+      "misconceptionCode": "SCI_G2_SEN_L5_M40",
+      "assessmentPhase": "retrieval",
+      "difficulty": 2,
+      "difficultyStatus": "PROVISIONAL",
+      "safetyNote": "Food examples must allow a no-taste alternative and adult help.",
+      "assetStatus": "NOT_GENERATED",
+      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
+      "runtimeStatus": "NOT_INTEGRATED"
+    }
+  ],
+  "releaseGate": {
+    "runtimeIntegrated": false,
+    "mediaGenerated": false,
+    "independentScienceReview": false,
+    "pedagogyReview": false,
+    "languageReview": false,
+    "accessibilityReview": false,
+    "contentValidation": false,
+    "androidCi": false
+  }
+}
