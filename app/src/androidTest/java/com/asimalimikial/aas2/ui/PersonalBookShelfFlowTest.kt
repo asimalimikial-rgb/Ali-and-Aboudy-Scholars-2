@@ -1,14 +1,15 @@
 package com.asimalimikial.aas2.ui
 
-import androidx.compose.ui.test.assertDoesNotExist
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.asimalimikial.aas2.MainActivity
+import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -27,7 +28,7 @@ class PersonalBookShelfFlowTest {
 
         waitForText("Ali's Books")
         composeRule.onNodeWithText("Ali's Books").assertIsDisplayed()
-        composeRule.onNodeWithText("Aboudy's Books").assertDoesNotExist()
+        assertTrue(composeRule.onAllNodesWithText("Aboudy's Books").fetchSemanticsNodes().isEmpty())
         waitForContentDescription("Hop, Skip and Jump — Senior KG Complete Kit")
         composeRule.onNodeWithContentDescription("Hop, Skip and Jump — Senior KG Complete Kit").assertIsDisplayed()
         composeRule.onNodeWithContentDescription("Maths Xpress — Senior KG").assertIsDisplayed()
@@ -43,7 +44,7 @@ class PersonalBookShelfFlowTest {
 
         waitForText("Aboudy's Books")
         composeRule.onNodeWithText("Aboudy's Books").assertIsDisplayed()
-        composeRule.onNodeWithText("Ali's Books").assertDoesNotExist()
+        assertTrue(composeRule.onAllNodesWithText("Ali's Books").fetchSemanticsNodes().isEmpty())
         waitForContentDescription("English World — Level 2 Pupil's Book Pack")
         composeRule.onNodeWithContentDescription("English World — Level 2 Pupil's Book Pack").assertIsDisplayed()
         composeRule.onNodeWithContentDescription("Macmillan Mathematics — Level 2A").assertIsDisplayed()
