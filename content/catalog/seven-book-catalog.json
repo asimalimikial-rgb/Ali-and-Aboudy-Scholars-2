@@ -1,0 +1,206 @@
+{
+  "catalogVersion": "0.1.0",
+  "updatedAt": "2026-11-24",
+  "project": "Ali & Aboudy Scholars 2",
+  "learnerPaths": {
+    "ali": {
+      "grade": "KG2",
+      "ageRange": "5-6"
+    },
+    "aboudy": {
+      "grade": "Grade 2",
+      "ageRange": "7-8"
+    }
+  },
+  "books": [
+    {
+      "sequence": 1,
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit",
+      "publisher": "Macmillan Education",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "subject": "English & Early Literacy / Cross-curricular awareness",
+      "isbn": "9789356660113",
+      "currentAuthoredActivities": 65,
+      "runtimeMappedActivities": 0,
+      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "plannedCoverage": [
+        "initial sounds",
+        "rhyming",
+        "everyday vocabulary",
+        "My World Discovery"
+      ],
+      "openCoverage": [
+        "handwriting",
+        "stories",
+        "rhymes and songs",
+        "art and craft",
+        "SEL/STEM/creative coding",
+        "remaining literacy and numeracy sequence"
+      ],
+      "nextAction": "Create the KG2 book/unit/lesson hierarchy and reconcile the 65 authored activities plus the eight pilot activities."
+    },
+    {
+      "sequence": 2,
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Maths Xpress — Senior KG",
+      "publisher": "Macmillan Education",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "subject": "Mathematics",
+      "isbn": "9789356664975",
+      "currentAuthoredActivities": 35,
+      "runtimeMappedActivities": 0,
+      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "plannedCoverage": [
+        "counting pictures",
+        "number patterns",
+        "adding and taking away",
+        "shapes"
+      ],
+      "openCoverage": [
+        "unit-level sequence",
+        "further numeracy and measurement coverage"
+      ],
+      "nextAction": "Create the KG2 mathematics hierarchy and map the 35 authored activities plus relevant pilot activities."
+    },
+    {
+      "sequence": 3,
+      "bookId": "english-world-level-2",
+      "title": "Macmillan English World — Level 2 Pupil's Book Pack",
+      "publisher": "Macmillan Education",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "subject": "English",
+      "isbn": "9781035117154",
+      "currentAuthoredActivities": 35,
+      "runtimeMappedActivities": 0,
+      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "plannedCoverage": [
+        "grammar and word study",
+        "reading comprehension"
+      ],
+      "openCoverage": [
+        "additional reading passages",
+        "unit-level sequence",
+        "review of the reading item that requires an original passage"
+      ],
+      "nextAction": "Create the book/unit/lesson hierarchy and attach reviewed English activities."
+    },
+    {
+      "sequence": 4,
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Macmillan Mathematics — Level 2A",
+      "publisher": "Macmillan Education",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "subject": "Mathematics",
+      "isbn": "9781380000637",
+      "currentAuthoredActivities": 34,
+      "runtimeMappedActivities": 0,
+      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "plannedCoverage": [
+        "place value",
+        "addition and subtraction",
+        "multiplication",
+        "fractions and measurement"
+      ],
+      "openCoverage": [
+        "verified unit sequence",
+        "more varied practice and transfer activities"
+      ],
+      "nextAction": "Create 2A units and lessons from the verified scope and map the 34 candidate activities."
+    },
+    {
+      "sequence": 5,
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Macmillan Mathematics — Level 2B",
+      "publisher": "Macmillan Education",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "subject": "Mathematics",
+      "isbn": "9781380000613",
+      "currentAuthoredActivities": 6,
+      "runtimeMappedActivities": 0,
+      "status": "LIMITED_CONTENT_NOT_INTEGRATED",
+      "plannedCoverage": [
+        "measure and apply"
+      ],
+      "openCoverage": [
+        "remaining unit and skill coverage"
+      ],
+      "nextAction": "Create the 2B hierarchy and expand beyond the six existing candidate activities."
+    },
+    {
+      "sequence": 6,
+      "bookId": "macmillan-science-level-2",
+      "title": "Macmillan Science — Level 2 Pupil's Book and eBook Pack",
+      "publisher": "Macmillan Education",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "subject": "Science",
+      "isbn": "9781035130740",
+      "currentAuthoredActivities": 62,
+      "runtimeMappedActivities": 62,
+      "status": "PARTIALLY_INTEGRATED",
+      "integratedUnits": [
+        {
+          "unitId": "SCI-G2-U01",
+          "title": "Plant Life and Plant Uses",
+          "lessons": 4,
+          "activities": 32
+        },
+        {
+          "unitId": "SCI-G2-U02",
+          "title": "Animals and Survival",
+          "lessons": 5,
+          "activities": 30
+        }
+      ],
+      "openCoverage": [
+        "Unit 3 — Senses and Our Bodies",
+        "Unit 4 — Materials and Physical Properties",
+        "Unit 5 — The Sky at Night"
+      ],
+      "nextAction": "Complete the independent review of Units 1–2 and author Units 3–5."
+    },
+    {
+      "sequence": 7,
+      "bookId": "maths-xpress-book-2",
+      "title": "Maths Xpress — Book 2",
+      "publisher": "Macmillan Education",
+      "learner": "aboudy",
+      "learnerPath": "GRADE_2",
+      "subject": "Mathematics",
+      "isbn": "9789356664999",
+      "currentAuthoredActivities": 0,
+      "runtimeMappedActivities": 0,
+      "status": "CATALOG_ONLY_SCOPE_NOT_YET_MAPPED",
+      "plannedCoverage": [],
+      "openCoverage": [
+        "confirm the exact Book 2 contents and sequence before naming units or authoring aligned activities"
+      ],
+      "nextAction": "Inspect the official contents/scope and establish the unit map before authoring."
+    }
+  ],
+  "unassignedCurrentActivities": {
+    "broadScienceEnrichment": 25,
+    "earlierPilotActivities": 20,
+    "rule": "Do not count these as mapped textbook coverage until each activity has a reviewed skill and book/unit/lesson destination."
+  },
+  "excludedFromSevenBookScope": [
+    {
+      "title": "SMILE Starter 2",
+      "status": "EXCLUDED_BY_CURRENT_PROJECT_DECISION",
+      "note": "Not one of the seven selected books; do not add it to the seven-book catalog or let it displace the selected books."
+    }
+  ],
+  "integrationState": {
+    "androidRuntimeCatalogLoading": "NOT_IMPLEMENTED",
+    "grade2ScienceHierarchy": "INTEGRATED",
+    "kg2Hierarchy": "NOT_INTEGRATED",
+    "otherBookHierarchies": "NOT_INTEGRATED",
+    "completeSevenBookCoverage": "NOT_COMPLETE"
+  }
+}
