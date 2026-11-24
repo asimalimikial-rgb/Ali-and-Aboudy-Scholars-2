@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -2515,7 +2515,7 @@
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Choose the sentence with the day of the week written correctly.",
+      "prompt": "Choose the sentence with all capital letters used correctly.",
       "options": [
         {
           "optionId": "a",
@@ -2527,7 +2527,7 @@
         },
         {
           "optionId": "c",
-          "text": "I visit Grandma on mondAy."
+          "text": "i visit Grandma on Tuesday."
         }
       ],
       "correctOptionId": "b",
