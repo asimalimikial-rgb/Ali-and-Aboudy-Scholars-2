@@ -84,3 +84,5 @@ jobs:
           git push origin "HEAD:refs/heads/${BRANCH}"
           echo "Download: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH}/Ali-Aboudy-Scholars-2-debug.apk" >> "$GITHUB_STEP_SUMMARY"
           echo "SHA-256: ${APK_SHA}" >> "$GITHUB_STEP_SUMMARY"
+
+# Workflow activation commit: execute on the next foundation branch push.
