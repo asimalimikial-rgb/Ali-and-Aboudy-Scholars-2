@@ -34,7 +34,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   verify-and-test:
@@ -115,68 +115,3 @@ jobs:
 
       # Instrumentation runs on an API 35 emulator. Physical-device acceptance
       # on the family's Android handset remains a separate QA gate.
-
-
-      # Deliver the already-built debug APK without consuming Actions artifact storage.
-      # This runs only for pushes to the foundation branch; PR validation remains read-only.
-      - name: Publish installable debug APK on a delivery branch
-        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/foundation/') }}
-        shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          APK="app/build/outputs/apk/debug/app-debug.apk"
-          test -s "$APK"
-          APK_BYTES="$(stat -c '%s' "$APK")"
-          if [ "$APK_BYTES" -ge 95000000 ]; then
-            echo "APK exceeds the safe GitHub single-file limit: $APK_BYTES bytes."
-            exit 1
-          fi
-          APK_SHA="$(sha256sum "$APK" | awk '{print $1}')"
-          DELIVERY_BRANCH="delivery/apk-debug-ci-${GITHUB_RUN_NUMBER}-${GITHUB_SHA:0:8}"
-          DELIVERY_DIR="$RUNNER_TEMP/aas2-apk-delivery"
-          mkdir -p "$DELIVERY_DIR"
-          cp "$APK" "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-debug.apk"
-          (
-            cd "$DELIVERY_DIR"
-            git init -b "$DELIVERY_BRANCH"
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            sha256sum *.apk > SHA256SUMS.txt
-            cat > README.txt <<EOF
-Ali & Aboudy Scholars 2
-Build type: Debug APK for device testing (not a signed production release)
-versionName: 0.1.0
-versionCode: 1
-applicationId: com.asimalimikial.aas2
-Source branch: ${GITHUB_REF_NAME}
-Source commit: ${GITHUB_SHA}
-Android CI run: ${GITHUB_RUN_ID}
-APK bytes: ${APK_BYTES}
-SHA-256: ${APK_SHA}
-Validation: JVM unit tests, debug APK compile, Room schema checks and API 35 instrumentation tests
-EOF
-            git add .
-            git commit -m "Deliver validated AAS2 debug APK"
-            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-            git push origin "HEAD:refs/heads/${DELIVERY_BRANCH}"
-          )
-          echo "APK download URL: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${DELIVERY_BRANCH}/Ali-Aboudy-Scholars-2-debug.apk" >> "$GITHUB_STEP_SUMMARY"
-          echo "APK SHA-256: ${APK_SHA}" >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Keep only the two newest APK delivery branches
-        if: ${{ success() && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/foundation/') }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          mapfile -t OLD_BRANCHES < <(
-            gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/branches?per_page=100" \
-              | jq -r '[.[][]? | .name | select(startswith("delivery/apk-debug-ci-")) | {name: ., run: ((capture("delivery/apk-debug-ci-(?<run>[0-9]+)-").run) | tonumber)}] | sort_by(.run) | reverse | .[2:] | .[].name'
-          )
-          for branch in "${OLD_BRANCHES[@]}"; do
-            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${branch}"
-            echo "Removed older APK delivery branch: ${branch}"
-          done
