@@ -1,15 +1,27 @@
 # Ali & Aboudy Scholars 2
 
-An independent, offline-first Android learning app for two separate learner pathways:
+An independent, offline-first Android learning app with two learner pathways:
 
-- **Ali** — KG2
-- **Aboudy** — Grade 2
+- **Ali — KG2**
+- **Aboudy — Grade 2**
 
-The app uses a shared learning engine while keeping each learner's subjects, activities, attempts, progress, and recommendations isolated.
+## Web experience
 
-## Project status
+The repository now includes a responsive website and browser-based learning preview in the `docs/` directory.
 
-Early foundation stage. Product name, curriculum mappings, and package/application identifiers remain subject to final review where noted in the project decision log.
+- Landing page + learner information: open `docs/index.html`.
+- Browser learning app: select Ali or Aboudy, choose a subject, and practise.
+- 282 English-only single-choice activities are included in the web preview (108 KG2 and 174 Grade 2).
+- Learner progress is stored separately in the browser's local storage on the current device.
+- A service worker caches the site and question bank for offline use after the first successful visit.
+- No account, analytics, or cloud progress sync is used.
+- Child-facing content and controls are English-only.
+
+**Web preview status:** This is a separate early web preview, not a full feature-equivalent port of the Android application. It currently supports single-choice practice, feedback, local progress, and offline caching. It does not yet include the Android app's media assets, audio, adaptive engine, parent controls, or complete guided-help experience.
+
+### Hosting
+
+The site is prepared for static hosting from the repository's `docs/` directory. The repository is private; GitHub Pages availability depends on the account plan and repository Pages settings. No public hosting or deployment is claimed until a hosting provider confirms it.
 
 ## Latest installable testing build
 
@@ -17,7 +29,7 @@ Early foundation stage. Product name, curriculum mappings, and package/applicati
 <summary>APK 0.1.0 (versionCode 1) — Debug / device testing</summary>
 
 - **[Download AAS2 Debug APK](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/blob/delivery/apk-debug-2-c8cd0f54/Ali-Aboudy-Scholars-2-debug.apk?raw=1)**
-- Build workflow: [AAS2 APK delivery — run #2](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/45623331882)
+- Build workflow: [AAS2 APK delivery — run #2](https://github.com/asimalimikial/Ali-and-Aboudy-Scholars-2/actions/runs/45623331882)
 - Source branch: `foundation/slice-0-android`
 - Source commit: `c8cd0f54ec35201178783714e6f8a13cd84da261`
 - Package ID: `com.asimalimikial.aas2`
@@ -27,6 +39,10 @@ Early foundation stage. Product name, curriculum mappings, and package/applicati
 **Important:** This is a debug build for testing, not a production-signed release. The repository is private, so GitHub sign-in with repository access is required to download it. A formal GitHub Release has not yet been published.
 
 </details>
+
+## Android project status
+
+The Android implementation remains on its existing development branches. Draft PR #1 is not merged: its own acceptance gates require automated tests, API 35 emulator checks, completion/review of the remaining hints and illustrations, media QA, and physical-device testing. The web-only work in this update does not bypass those gates.
 
 ## Principles
 
@@ -40,7 +56,3 @@ Early foundation stage. Product name, curriculum mappings, and package/applicati
 ## Repository boundary
 
 This repository is **AAS2-NEW** only. It is independent of the legacy repository `Ali-andd-aboudy-scholars`. Do not copy, merge, move, or modify legacy project files as part of this work.
-
-## Build
-
-Build and test instructions will be added with the first verified Android foundation commit.

@@ -1,0 +1,10 @@
+{
+  "name": "Ali & Aboudy Scholars",
+  "short_name": "AAS Scholars",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#102c46",
+  "description": "An offline-ready learning space for KG2 and Grade 2.",
+  "icons": []
+}
