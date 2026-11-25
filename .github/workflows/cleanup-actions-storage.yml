@@ -1,0 +1,37 @@
+name: Cleanup AAS2 Actions artifact storage
+
+on:
+  push:
+    branches:
+      - "foundation/**"
+    paths:
+      - ".github/workflows/cleanup-actions-storage.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cleanup:
+    name: Delete obsolete AAS2 debug APK artifacts
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Delete previous AAS2 debug APK artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t ARTIFACT_IDS < <(
+            gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
+              | jq -r '[.[] | .artifacts[]?] | .[] | select(.name | startswith("Ali-Aboudy-Scholars-2-debug-")) | .id'
+          )
+          echo "Found ${#ARTIFACT_IDS[@]} obsolete AAS2 debug APK artifacts."
+          for artifact_id in "${ARTIFACT_IDS[@]}"; do
+            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
+            echo "Deleted artifact ID ${artifact_id}"
+          done
+          echo "AAS2 debug APK artifact cleanup completed."
+          echo "Deleted artifacts: ${#ARTIFACT_IDS[@]}" >> "$GITHUB_STEP_SUMMARY"
