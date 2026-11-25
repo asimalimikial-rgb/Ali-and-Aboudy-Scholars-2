@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: aas2-debug-apk-${{ github.ref }}
@@ -27,6 +28,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      - name: Remove older project APK artifacts (keep latest two)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t OLD_ARTIFACT_IDS < <(
+            gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
+              | jq -r '[.[] | .artifacts[]] | map(select(.name | startswith("Ali-Aboudy-Scholars-2-debug-"))) | sort_by(.created_at) | reverse | .[2:][] | .id'
+          )
+          for artifact_id in "${OLD_ARTIFACT_IDS[@]}"; do
+            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
+            echo "Deleted older project APK artifact: ${artifact_id}"
+          done
+          echo "Kept the two newest project APK artifacts."
+
       - name: Checkout source
         uses: actions/checkout@v4
 
@@ -70,5 +87,5 @@ jobs:
             app/build/outputs/apk/debug/app-debug.apk
             app-debug.sha256
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 1
           compression-level: 0
