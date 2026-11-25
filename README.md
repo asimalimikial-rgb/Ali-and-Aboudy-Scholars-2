@@ -7,19 +7,15 @@ An independent, offline-first Android learning app with two learner pathways:
 
 ## Web experience
 
-The repository includes a responsive, child-first web learning experience in the `docs/` directory.
+The repository includes a child-first, book-led learning experience in `docs/`.
 
-- **[Open the live website](https://aas2-web.vercel.app)** — public Vercel production deployment.
-- Main interface: `docs/index.html` and `docs/styles.css`.
-- Child-first navigation: choose Ali or Aboudy, tap a subject icon, then open a learning collection and its activities.
-- The current web data groups activities by subject and skill ID; official textbook-to-unit mapping is not yet complete in the web data, so skill collections are not presented as verified textbook chapters.
-- 282 English-only single-choice activities are included in the web preview (108 KG2 and 174 Grade 2).
-- Learner progress is stored separately in the browser's local storage on the current device.
-- A service worker caches the site and question bank for offline use after the first successful visit.
-- No account, analytics, or cloud progress sync is used.
-- Child-facing content and controls are English-only.
-
-**Web status:** The web experience has a dedicated child-first navigation flow and retains single-choice practice, positive feedback, separate local progress, and offline caching. It is still not feature-equivalent to Android: media assets, audio, adaptive learning, parent controls, and the complete guided-help experience are not yet ported.
+- **[Open the live website](https://aas2-web.vercel.app)** — Vercel production deployment.
+- Navigation: learner → subject → personal bookshelf → book units / learning collections → illustrated activities.
+- The web library is generated from the Android KG2 and Grade 2 content packs (v0.2.4 and v0.4.4): 282 English activities, 108 for Ali and 174 for Aboudy.
+- Original generated question and answer illustrations are included for the activity bank. The web app provides skill-level clues, answer feedback, and separate local progress.
+- Seven book records and publisher scope sequences are shown with evidence-aware status labels. Only Macmillan Science Units 1–2 currently open into mapped lesson groups; the other publisher sequences are not falsely presented as approved app lessons.
+- Copyrighted textbook cover images are personal-use-only and are not copied into the public Vercel site. The public bookshelf uses original typographic book artwork.
+- Child-facing content is English-only. Visited content and images are cached for offline use after the first successful load.
 
 ### Hosting and deployment
 
