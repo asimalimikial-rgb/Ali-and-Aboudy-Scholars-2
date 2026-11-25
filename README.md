@@ -7,9 +7,10 @@ An independent, offline-first Android learning app with two learner pathways:
 
 ## Web experience
 
-The repository now includes a responsive website and browser-based learning preview in the `docs/` directory.
+The repository includes a responsive website and browser-based learning preview in the `docs/` directory.
 
-- Landing page + learner information: open `docs/index.html`.
+- **[Open the live website](https://aas2-web.vercel.app)** — public Vercel production deployment.
+- Landing page source: `docs/index.html`.
 - Browser learning app: select Ali or Aboudy, choose a subject, and practise.
 - 282 English-only single-choice activities are included in the web preview (108 KG2 and 174 Grade 2).
 - Learner progress is stored separately in the browser's local storage on the current device.
@@ -19,9 +20,15 @@ The repository now includes a responsive website and browser-based learning prev
 
 **Web preview status:** This is a separate early web preview, not a full feature-equivalent port of the Android application. It currently supports single-choice practice, feedback, local progress, and offline caching. It does not yet include the Android app's media assets, audio, adaptive engine, parent controls, or complete guided-help experience.
 
-### Hosting
+### Hosting and deployment
 
-The site is prepared for static hosting from the repository's `docs/` directory. The repository is private; GitHub Pages availability depends on the account plan and repository Pages settings. No public hosting or deployment is claimed until a hosting provider confirms it.
+- Provider: Vercel.
+- Project: `aas2-web`.
+- Production URL: https://aas2-web.vercel.app
+- Source: `main` branch, repository directory `docs/`.
+- Verified production deployment commit: `6178caa4130dd3a57dcbd978fb241fb55d4a039d`.
+- Deployment status at publication: `READY`.
+- The Vercel project is connected to this GitHub repository; subsequent commits to the configured production branch can trigger deployments.
 
 ## Latest installable testing build
 
