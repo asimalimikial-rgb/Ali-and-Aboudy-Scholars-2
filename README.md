@@ -7,18 +7,19 @@ An independent, offline-first Android learning app with two learner pathways:
 
 ## Web experience
 
-The repository includes a responsive website and browser-based learning preview in the `docs/` directory.
+The repository includes a responsive, child-first web learning experience in the `docs/` directory.
 
 - **[Open the live website](https://aas2-web.vercel.app)** — public Vercel production deployment.
-- Landing page source: `docs/index.html`.
-- Browser learning app: select Ali or Aboudy, choose a subject, and practise.
+- Main interface: `docs/index.html` and `docs/styles.css`.
+- Child-first navigation: choose Ali or Aboudy, tap a subject icon, then open a learning collection and its activities.
+- The current web data groups activities by subject and skill ID; official textbook-to-unit mapping is not yet complete in the web data, so skill collections are not presented as verified textbook chapters.
 - 282 English-only single-choice activities are included in the web preview (108 KG2 and 174 Grade 2).
 - Learner progress is stored separately in the browser's local storage on the current device.
 - A service worker caches the site and question bank for offline use after the first successful visit.
 - No account, analytics, or cloud progress sync is used.
 - Child-facing content and controls are English-only.
 
-**Web preview status:** This is a separate early web preview, not a full feature-equivalent port of the Android application. It currently supports single-choice practice, feedback, local progress, and offline caching. It does not yet include the Android app's media assets, audio, adaptive engine, parent controls, or complete guided-help experience.
+**Web status:** The web experience has a dedicated child-first navigation flow and retains single-choice practice, positive feedback, separate local progress, and offline caching. It is still not feature-equivalent to Android: media assets, audio, adaptive learning, parent controls, and the complete guided-help experience are not yet ported.
 
 ### Hosting and deployment
 
