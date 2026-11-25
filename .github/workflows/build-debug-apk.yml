@@ -135,8 +135,8 @@ EOF
           DOWNLOAD_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${DELIVERY_BRANCH}/Ali-Aboudy-Scholars-2-debug.apk"
           {
             echo "### Debug APK delivery"
-            echo "- Branch: `\${DELIVERY_BRANCH}`"
+            echo "- Branch: ${DELIVERY_BRANCH}"
             echo "- APK size: ${APK_BYTES} bytes"
-            echo "- SHA-256: `\${APK_SHA}`"
+            echo "- SHA-256: ${APK_SHA}"
             echo "- Download URL: ${DOWNLOAD_URL}"
           } >> "$GITHUB_STEP_SUMMARY"
