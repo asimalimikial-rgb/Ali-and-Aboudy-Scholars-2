@@ -91,7 +91,15 @@ data class ActivityDefinition(
     val promptAudioAssetPath: String? = null,
     val optionAudioAssetPaths: Map<String, String> = emptyMap(),
     val feedbackCorrectAudioAssetPath: String? = null,
-    val feedbackIncorrectAudioAssetPath: String? = null
+    val feedbackIncorrectAudioAssetPath: String? = null,
+    /** Progressive English-only support; empty defaults preserve older bundled packs. */
+    val hintSequence: List<String> = emptyList(),
+    /** Short, sequential English teaching steps; empty for activities without authored help. */
+    val helpSteps: List<String> = emptyList(),
+    /** Optional visual aids must be bundled locally and match the English support text. */
+    // Keep these fields optional so legacy schema 3/4 activities deserialize without migration.
+    val hintImageAssetPath: String? = null,
+    val helpImageAssetPath: String? = null
 )
 
 @Serializable

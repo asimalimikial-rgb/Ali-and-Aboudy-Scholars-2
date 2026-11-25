@@ -40,6 +40,7 @@ fun ActivitySession(
         activityId = activity.activityId
     )
     var evaluation by remember(sessionKey) { mutableStateOf<ActivityEvaluationResult?>(null) }
+    var usedHint by remember(sessionKey) { mutableStateOf(false) }
     var isSubmitting by remember(sessionKey) { mutableStateOf(false) }
     var submissionError by remember(sessionKey) { mutableStateOf<String?>(null) }
 
@@ -51,6 +52,7 @@ fun ActivitySession(
             evaluation = evaluation,
             isSubmitting = isSubmitting,
             submissionError = submissionError,
+            onSupportUsed = { usedHint = true },
             modifier = modifier,
             onRetry = {
                 if (!isSubmitting) {
@@ -68,7 +70,8 @@ fun ActivitySession(
                                 learnerId = learnerId,
                                 contentPack = contentPack,
                                 activityId = activity.activityId,
-                                selectedOptionId = selectedOptionId
+                                selectedOptionId = selectedOptionId,
+                                usedHint = usedHint
                             )
                         } catch (cancelled: CancellationException) {
                             throw cancelled

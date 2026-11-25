@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -206,7 +206,16 @@
         "c": "speech/f5db527930efb69a8c41665bf2b89d94443de4e75dee9e366dc07551b325903e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8a101a8cdd698f7dd2f8980bd501db5ca7240d55ba97bdcd7477d0c49cb1721b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0b205a0ea24df347fb878c79ab34db9136ac8e9ea702399ca29de49d053dd001.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0b205a0ea24df347fb878c79ab34db9136ac8e9ea702399ca29de49d053dd001.ogg",
+      "hintSequence": [
+        "Touch each mango in the picture and count it once.",
+        "Move from left to right so you do not count a mango twice."
+      ],
+      "helpSteps": [
+        "Point to one mango at a time.",
+        "Say one number for each mango you touch.",
+        "Stop when every mango has been counted once."
+      ]
     },
     {
       "activityId": "kg2-count-01-ar",
@@ -268,7 +277,16 @@
         "c": "speech/1b92dd0dc551afb09520c1896c1fb04b25f2a5244e2b90aa470a50ddc3eda4e8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ae3936654f903145d7997bea37341a717512b2aaa76cc0366540789c1186cf19.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7395555752de27f04519ccf45b13745d7952935fd203a6f9fff77939f8ca199a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7395555752de27f04519ccf45b13745d7952935fd203a6f9fff77939f8ca199a.ogg",
+      "hintSequence": [
+        "Look for straight sides, not curved edges.",
+        "Count the straight sides around each shape."
+      ],
+      "helpSteps": [
+        "A side is a straight line that makes part of a shape.",
+        "Trace around the shape with your finger.",
+        "Count each straight side once."
+      ]
     },
     {
       "activityId": "kg2-shape-01-ar",
@@ -330,7 +348,16 @@
         "c": "speech/95cad7c8b88c11266ec2326d002aedda629f4d69e73458fd501a4cdfce1fc526.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/6efba0a77d419f03b23c308166aa384a85dda57278a64cde7297528e8fdae262.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6774180c0f4aeadc4faf455da8a4ecf3179c92d3182f1e66d5842ae098ece05a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6774180c0f4aeadc4faf455da8a4ecf3179c92d3182f1e66d5842ae098ece05a.ogg",
+      "hintSequence": [
+        "Look for things a living plant can use from its surroundings.",
+        "A plant cannot play with toys or wear shoes."
+      ],
+      "helpSteps": [
+        "Plants are living things that need resources to grow.",
+        "Think about what roots take in and what leaves use from the sky.",
+        "Compare each pair with those needs."
+      ]
     },
     {
       "activityId": "kg2-plant-01-ar",
@@ -392,7 +419,16 @@
         "c": "speech/84d39d7f0b32b3624193d45537f4a0dafa54bc3206d6d21a75a7dec95e2db338.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/56a04c3e29af152501b1ac2165cfba735006777059ba117e62806b3925056298.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7980cdfedecd9045955a8fe46a6bdd225401823afdb818414356567855bae99a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7980cdfedecd9045955a8fe46a6bdd225401823afdb818414356567855bae99a.ogg",
+      "hintSequence": [
+        "Say each word slowly and listen to its very first sound.",
+        "The target sound is the soft hissing sound made by a snake."
+      ],
+      "helpSteps": [
+        "Listen to the beginning of each word, not the ending.",
+        "Stretch the first sound before saying the rest of the word.",
+        "Choose the word that starts with the target sound."
+      ]
     },
     {
       "activityId": "kg2-sound-01-ar",
@@ -454,7 +490,16 @@
         "c": "speech/0f2fde1fc92b595aba559997e686d24cd1097a54144c734de8d768aed0aaac66.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/07e18065f40ce6307d2c89155c470f1a02b4840ec92ba4260839df0a61ddf458.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/dc79f68bf1a51669b4ce8a50a161d317d03f266989708c2f77f1be579bd2dacd.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/dc79f68bf1a51669b4ce8a50a161d317d03f266989708c2f77f1be579bd2dacd.ogg",
+      "hintSequence": [
+        "Point to each star one time.",
+        "Count in order from the first star to the last."
+      ],
+      "helpSteps": [
+        "Start with the star on the left.",
+        "Say the next number as you point to each new star.",
+        "Do not count the same star again."
+      ]
     },
     {
       "activityId": "kg2-shape-02-en",
@@ -491,7 +536,16 @@
         "c": "speech/55a873f60a470a765b59a4ed8f024206fad16399a5714d5211f2b3407d359c5c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5bf1813292d01f16ae0170420f854dc9ed92ed2f659396234b6d3f8759c48906.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0dedcfd1cb6926d2574938c87cd50ecfff3313dd844202c4a035b88c927c7443.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0dedcfd1cb6926d2574938c87cd50ecfff3313dd844202c4a035b88c927c7443.ogg",
+      "hintSequence": [
+        "Look for four straight sides.",
+        "Check whether all four sides are the same length."
+      ],
+      "helpSteps": [
+        "Count the sides first.",
+        "Compare the length of each side.",
+        "Choose the shape where every side matches."
+      ]
     },
     {
       "activityId": "kg2-plant-02-en",
@@ -528,7 +582,16 @@
         "c": "speech/ef2c1976f21d6492243d9b864a0a56dec612f25b1db95b3257b0c3e56e0a7ec8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/3b26527da20cb877d23f14d47cf8453ea6839bda5eb1e6822c6dd05fcc9750f5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e6514aad2d31a5546b8c0fbd88f2f5f33e25acee8a8acd908fe822691f1cd4b4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e6514aad2d31a5546b8c0fbd88f2f5f33e25acee8a8acd908fe822691f1cd4b4.ogg",
+      "hintSequence": [
+        "Think about what a thirsty plant needs from its soil.",
+        "Roots take in what a plant needs from the ground."
+      ],
+      "helpSteps": [
+        "A plant takes in useful resources through its roots.",
+        "Think about which choice can be absorbed by roots.",
+        "A toy and a shoe are not things a plant can drink."
+      ]
     },
     {
       "activityId": "kg2-sound-02-en",
@@ -565,7 +628,16 @@
         "c": "speech/5aed70cbaee0dbc3e0a4cf36692d869c72bbe7e6aa4264efaf7054c0a76a81cf.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c08ee7c276ef85919d41349204cb5626d637db698ef129c4c7eab206a895ea8c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/28cca8f6ea2eff8cfa6bc6ea655aa4580cc9b477d237b390d2b6aa83a7ecead4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/28cca8f6ea2eff8cfa6bc6ea655aa4580cc9b477d237b390d2b6aa83a7ecead4.ogg",
+      "hintSequence": [
+        "Say each word slowly and listen to its first sound.",
+        "The target sound is a humming sound made with your lips together."
+      ],
+      "helpSteps": [
+        "Listen to the first sound, not the letter name.",
+        "Try making the sound quietly with your lips closed.",
+        "Find the word that begins with that sound."
+      ]
     },
     {
       "activityId": "new-ali-english-001",

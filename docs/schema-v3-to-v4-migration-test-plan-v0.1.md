@@ -166,7 +166,7 @@ Create fixtures:
 - `valid-v4-single-choice-en.json`;
 - Add valid English hint/help fixtures, plus invalid Arabic, blank, excessive-step, unsafe-image, and answer-revealing cases.
 - `invalid-v4-unknown-skill.json`;
-- No support-aid field is accepted by the MVP schema; future extension tests are deferred.
+- Optional English-only `hintSequence` and `helpSteps` are accepted with empty defaults; Arabic text, excessive steps, blank text and unsafe visual paths are rejected.
 - `invalid-v4-unsafe-media-path.json`;
 - `invalid-v4-multiple-correct-options.json`;
 - `invalid-v4-unsupported-type.json`;

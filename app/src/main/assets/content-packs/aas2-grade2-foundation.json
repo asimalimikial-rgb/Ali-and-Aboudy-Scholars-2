@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.4",
+  "version": "0.4.6",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -473,7 +473,16 @@
         "c": "speech/b07a23f5069f62c5a02dca760dcd79cf253cac15658da7e1b82ffdc4e4851fd0.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f53583f10b259d6d57db64a4584880b6521c950ba09ae8a6a7972c591e2decb6.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a42fdd417b2348eeb266edf9b43872010c94e8eac9ec77a5a16e69d71354791d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a42fdd417b2348eeb266edf9b43872010c94e8eac9ec77a5a16e69d71354791d.ogg",
+      "hintSequence": [
+        "Look at the position of the 7, not only the digit itself.",
+        "The 7 is in the tens place."
+      ],
+      "helpSteps": [
+        "The hundreds, tens and ones places have different values.",
+        "A digit in the tens place counts groups of ten.",
+        "Use seven groups of ten to work out the value."
+      ]
     },
     {
       "activityId": "g2-place-01-ar",
@@ -535,7 +544,16 @@
         "c": "speech/2952a40bbb218a236af281993a084c1c088fd063ab4abab9604da218a9a8eaa4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/e6e5c9d2e7eb66348e265bfe5dedecea02c78105ed77262bf21a2b08664d9839.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e582a4ad7680d603f00c2ee740c00e01c6ea9d70253af198bc10c4de595a725d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e582a4ad7680d603f00c2ee740c00e01c6ea9d70253af198bc10c4de595a725d.ogg",
+      "hintSequence": [
+        "Break 13 into 10 and 3.",
+        "Add the tens first, then add the remaining ones."
+      ],
+      "helpSteps": [
+        "Start with 26 and add 10.",
+        "Now add the remaining 3.",
+        "Combine the two additions to find the total."
+      ]
     },
     {
       "activityId": "g2-add-01-ar",
@@ -596,7 +614,16 @@
         "c": "speech/2d573719ae6ee7e107e31ed8b9094ab936cc881c0ae2e8201d77b8fdb9f25278.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/2358c4a851f7d1357377c5485542db17ef77e04e25439dc072712144cdecb120.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0d8680569ac7387ca924c9aa269dcd3ced1be0dc226903d0ac1ced42d6b73cb9.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0d8680569ac7387ca924c9aa269dcd3ced1be0dc226903d0ac1ced42d6b73cb9.ogg",
+      "hintSequence": [
+        "Both measurements use the same unit: centimetres.",
+        "Compare the numbers 14 and 20."
+      ],
+      "helpSteps": [
+        "When units are the same, compare the numbers.",
+        "The greater number represents the longer length.",
+        "Check which measurement is greater."
+      ]
     },
     {
       "activityId": "g2-measure-01-ar",
@@ -657,7 +684,16 @@
         "c": "speech/854bcf7581a61a450d8d2db568842386c2b3153ac5d400e813097ebad419d9b9.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/67659c38b726d55f7cdf07a5b86f530a286fa692c56c480e69e1f90075e62786.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/dd0bbc63c3bdcc358716def57a147c683e9c80ea7ce1695eb90eaa1df2105ca6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/dd0bbc63c3bdcc358716def57a147c683e9c80ea7ce1695eb90eaa1df2105ca6.ogg",
+      "hintSequence": [
+        "Think about the conditions a fish needs to live.",
+        "Look for a place with water where a fish can swim."
+      ],
+      "helpSteps": [
+        "A habitat provides food, water and shelter.",
+        "Fish use gills to take oxygen from water.",
+        "Choose the place that provides a suitable water environment."
+      ]
     },
     {
       "activityId": "g2-habitat-01-ar",
@@ -719,7 +755,16 @@
         "c": "speech/786b13f4e660da9d0c261fac2e96f2a252f488d940cf333e82dfeed35a0d8965.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f693758a48320db81f39dc1437caf407aedb8a86ed6662cb8253261dbd11a8bf.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ad339eff2ab506d7f4aaf30df1e9104e3c5d9a94ec81279b123d6196312d4ba2.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ad339eff2ab506d7f4aaf30df1e9104e3c5d9a94ec81279b123d6196312d4ba2.ogg",
+      "hintSequence": [
+        "The camel is adapted to a very dry environment.",
+        "Think of a region that gets very little rain."
+      ],
+      "helpSteps": [
+        "Read the sentence and picture the camel's surroundings.",
+        "A very dry region with little rain has a special name.",
+        "Check which option names that kind of place."
+      ]
     },
     {
       "activityId": "g2-vocab-01-ar",
@@ -781,7 +826,16 @@
         "c": "speech/6a7f509d8612a60794095bdfb2d6c1021d7f02f7c302fd36a14f06583acdf0c6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b88636df86b42a19fd16459cc4f8e1ff5bfec35c3bbaf5e32c2d8724413da76a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/06c1c13611bcaaab6e6cecfdfdc66679653606418962f6250d8cbf0af912986d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/06c1c13611bcaaab6e6cecfdfdc66679653606418962f6250d8cbf0af912986d.ogg",
+      "hintSequence": [
+        "Find who the sentence is about first.",
+        "Then look for the action."
+      ],
+      "helpSteps": [
+        "A sentence often begins with the person or thing doing the action.",
+        "Place the action after the subject.",
+        "Read the sentence aloud to check the word order."
+      ]
     },
     {
       "activityId": "g2-sentence-01-ar",
@@ -843,7 +897,16 @@
         "c": "speech/94e8d9e7ad76e59e301677f61d22a22ee74d858f1c7e38ddfa652e85afea5a8d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/cf783f2de1df2402b72178284aab6dc9ff2c3c6316b6062d02ecd8df0ba1cf1f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5e250cc3d0714670486611163615710dd6f497a3ea4f9b278775d3abfff49b0c.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5e250cc3d0714670486611163615710dd6f497a3ea4f9b278775d3abfff49b0c.ogg",
+      "hintSequence": [
+        "Find the place of the 6 in 361.",
+        "A digit in the tens place represents groups of ten."
+      ],
+      "helpSteps": [
+        "Read the number from left to right: hundreds, tens, ones.",
+        "The 6 is in the middle place.",
+        "Work out the value of six tens."
+      ]
     },
     {
       "activityId": "g2-add-02-en",
@@ -880,7 +943,16 @@
         "c": "speech/14ac0ffccea8a38edeeefce9e25936c1a792438cd65a4854275726faf3e1c3f3.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/fea4ba8369cff730c96c35d564ca36692a32197ddeec1abe72a89a820397b989.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ef2fbefb8be7d96b5728d5ccdf1d158548c3fcad053743837d61ccb90569d09c.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ef2fbefb8be7d96b5728d5ccdf1d158548c3fcad053743837d61ccb90569d09c.ogg",
+      "hintSequence": [
+        "Add the tens first, then add the ones.",
+        "You can split 34 and 25 into tens and ones."
+      ],
+      "helpSteps": [
+        "Combine 30 and 20.",
+        "Combine 4 and 5.",
+        "Add the two partial totals together."
+      ]
     },
     {
       "activityId": "g2-measure-02-en",

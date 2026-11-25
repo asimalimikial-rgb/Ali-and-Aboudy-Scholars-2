@@ -1,0 +1,112 @@
+name: Android review build
+
+on:
+  push:
+    branches:
+      - "foundation/**"
+    paths:
+      - "app/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle/**"
+      - ".github/workflows/android-ci-review.yml"
+  pull_request:
+    branches:
+      - "foundation/**"
+    paths:
+      - "app/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle/**"
+      - ".github/workflows/android-ci-review.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aas2-review-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: JVM tests and installable Debug APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platform-tools
+      - name: Install Android SDK packages
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          gradle-version: "8.11.1"
+      - name: Run JVM unit tests
+        run: gradle :app:testDebugUnitTest
+      - name: Build installable Debug APK
+        run: gradle :app:assembleDebug
+      - name: Calculate SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK=app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          sha256sum "$APK" | tee app-debug.sha256
+      - name: Upload Debug APK artifact
+        id: upload-debug-apk
+        uses: actions/upload-artifact@v6
+        continue-on-error: true
+        with:
+          name: aas2-review-debug-${{ github.run_number }}-${{ github.sha }}
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+      - name: Enable KVM for Android emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Run API 35 Android instrumentation tests
+        uses: ReactiveCircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_7_pro
+          emulator-boot-timeout: 600
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          script: gradle :app:connectedDebugAndroidTest
+      - name: Private branch delivery if artifact quota is full
+        if: ${{ always() && steps.upload-debug-apk.outcome == 'failure' && github.event_name == 'push' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          APK=app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          SIZE="$(stat -c '%s' "$APK")"
+          test "$SIZE" -lt 95000000
+          BRANCH="delivery/review-debug-${GITHUB_RUN_NUMBER}-${GITHUB_SHA:0:8}"
+          mkdir -p "$RUNNER_TEMP/aas2-review-delivery"
+          cp "$APK" "$RUNNER_TEMP/aas2-review-delivery/Ali-Aboudy-Scholars-2-debug.apk"
+          cd "$RUNNER_TEMP/aas2-review-delivery"
+          git init -b "$BRANCH"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          sha256sum *.apk > SHA256SUMS.txt
+          git add .
+          git commit -m "Deliver private review Debug APK"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin "HEAD:refs/heads/${BRANCH}"

@@ -16,6 +16,24 @@ const packs = [
   JSON.parse(fs.readFileSync(path.join(assetRoot, "content-packs/aas2-grade2-foundation.json"), "utf8"))
 ];
 
+const arabicScript = /[\u0600-\u06FF\u0750-\u077F\u0870-\u089F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFC\u{10EC0}-\u{10EFF}\u{1EE00}-\u{1EEFF}]/u;
+const hasArabicScript = value => arabicScript.test(String(value ?? ""));
+for (const pack of packs) {
+  for (const activity of pack.activities.filter(item => item.language === "en")) {
+    const learnerText = [
+      activity.prompt,
+      activity.feedbackCorrect,
+      activity.feedbackIncorrect,
+      ...activity.options.map(option => option.text),
+      ...Object.values(activity.optionRationales || {}),
+      ...(activity.hintSequence || []),
+      ...(activity.helpSteps || [])
+    ];
+    assert.ok(learnerText.every(text => !hasArabicScript(text)),
+      "Arabic script is forbidden in English learner content: " + activity.activityId);
+  }
+}
+
 assert.equal(catalog.books.length, 7, "The selected book catalog must contain exactly seven books.");
 const bookIds = catalog.books.map(book => book.bookId);
 assert.equal(new Set(bookIds).size, 7, "Book IDs must be unique.");
@@ -102,7 +120,7 @@ assert.ok(englishWorldQueue.records.every(item =>
   ["PENDING_PEDAGOGY_REVIEW", "REVISED_PENDING_PEDAGOGY_QA"].includes(item.reviewStatus) && item.runtimeUnitId === null
 ), "English World candidates must remain pending until unit mapping is reviewed.");
 const grade2Pack = packs[1];
-assert.equal(grade2Pack.version, "0.4.4");
+assert.equal(grade2Pack.version, "0.4.6");
 const mathActivities = grade2Pack.activities.filter(item => item.activityId.startsWith("new-aboudy-maths-"));
 assert.equal(mathActivities.length, 40);
 assert.equal(mathematicsQueue.packVersion, grade2Pack.version);
@@ -176,6 +194,9 @@ assert.ok(audio.files.every(file =>
 for (const file of audio.files) {
   assert.ok(fs.existsSync(path.join(assetRoot, "speech", file.file)), "Missing OGG file: " + file.file);
 }
+for (const file of audio.files) {
+  assert.ok(!hasArabicScript(file.text), "Arabic script is forbidden in English speech: " + file.file);
+}
 const audioRoles = audio.files.reduce((counts, file) => {
   counts[file.role] = (counts[file.role] || 0) + 1;
   return counts;
@@ -199,13 +220,18 @@ for (const file of questionArt.files) {
   assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid question-art metadata: " + file.path);
 }
 
-assert.equal(optionArt.count, 373);
-assert.equal(optionArt.files.length, 373);
+assert.equal(optionArt.count, 378);
+assert.equal(optionArt.files.length, 378);
 assert.ok(unique(optionArt.files.map(file => file.path)), "Option-art paths must be unique.");
 assert.ok(unique(optionArt.files.map(file => file.sha256)), "Option-art hashes must be unique.");
 for (const file of optionArt.files) {
   assert.ok(fs.existsSync(path.join(assetRoot, file.path)), "Missing option illustration: " + file.path);
   assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid option-art metadata: " + file.path);
+}
+for (const file of [...questionArt.files, ...optionArt.files]) {
+  if (!file.path.endsWith(".svg")) continue;
+  const svg = fs.readFileSync(path.join(assetRoot, file.path), "utf8");
+  assert.ok(!hasArabicScript(svg), "Arabic script is forbidden in English SVG artwork: " + file.path);
 }
 
 const audioFileByName = new Map(audio.files.map(file => [file.file, file]));
