@@ -28,21 +28,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - name: Remove older project APK artifacts (keep latest two)
+      - name: Purge previous AAS2 debug APK artifacts before building
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          mapfile -t OLD_ARTIFACT_IDS < <(
+          mapfile -t ARTIFACT_IDS < <(
             gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
-              | jq -r '[.[] | .artifacts[]] | map(select(.name | startswith("Ali-Aboudy-Scholars-2-debug-"))) | sort_by(.created_at) | reverse | .[2:][] | .id'
+              | jq -r '[.[] | .artifacts[]?] | .[] | select(.name | startswith("Ali-Aboudy-Scholars-2-debug-")) | .id'
           )
-          for artifact_id in "${OLD_ARTIFACT_IDS[@]}"; do
+          echo "Found ${#ARTIFACT_IDS[@]} previous AAS2 debug APK artifacts."
+          for artifact_id in "${ARTIFACT_IDS[@]}"; do
             gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
-            echo "Deleted older project APK artifact: ${artifact_id}"
+            echo "Deleted AAS2 debug APK artifact: ${artifact_id}"
           done
-          echo "Kept the two newest project APK artifacts."
+          echo "Previous AAS2 debug APK artifacts purged; only this run may upload a new APK."
 
       - name: Checkout source
         uses: actions/checkout@v4
