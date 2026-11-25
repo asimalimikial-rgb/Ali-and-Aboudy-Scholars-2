@@ -1,4 +1,4 @@
-name: Build installable debug APK
+name: Build and deliver AAS2 debug APK
 
 on:
   push:
@@ -16,37 +16,21 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: aas2-debug-apk-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build and deliver installable debug APK
+  build-and-deliver:
+    name: Build, verify and publish installable debug APK
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
-      - name: Keep the two newest AAS2 debug APK artifacts
-        env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          mapfile -t ARTIFACT_IDS < <(
-            gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
-              | jq -r '[.[] | .artifacts[]? | select(.name | startswith("Ali-Aboudy-Scholars-2-debug-"))] | sort_by(.created_at) | reverse | .[2:] | .[].id'
-          )
-          echo "Found ${#ARTIFACT_IDS[@]} older AAS2 debug APK artifacts to remove."
-          for artifact_id in "${ARTIFACT_IDS[@]}"; do
-            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
-            echo "Deleted older AAS2 debug APK artifact: ${artifact_id}"
-          done
-          echo "The two newest previous AAS2 debug APK artifacts were preserved."
-
       - name: Checkout source
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -68,49 +52,38 @@ jobs:
           gradle-version: "8.11.1"
 
       - name: Build installable debug APK
-        run: gradle :app:assembleDebug
+        run: gradle --no-daemon :app:assembleDebug
 
       - name: Verify APK and calculate checksum
+        id: verify
         shell: bash
         run: |
           set -euo pipefail
-          APK=app/build/outputs/apk/debug/app-debug.apk
+          APK="app/build/outputs/apk/debug/app-debug.apk"
           test -s "$APK"
-          sha256sum "$APK" | tee app-debug.sha256
-          echo "APK size: $(stat -c '%s' "$APK") bytes" >> "$GITHUB_STEP_SUMMARY"
-          echo "SHA-256: $(sha256sum "$APK" | awk '{print $1}')" >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Upload installable APK
-        id: upload-debug-apk
-        uses: actions/upload-artifact@v4
-        continue-on-error: true
-        with:
-          name: Ali-Aboudy-Scholars-2-debug-${{ github.run_number }}-${{ github.sha }}
-          path: |
-            app/build/outputs/apk/debug/app-debug.apk
-            app-debug.sha256
-          if-no-files-found: error
-          retention-days: 1
-          compression-level: 0
-
-      - name: Deliver APK through a dedicated branch if artifact storage is unavailable
-        if: ${{ always() && steps.upload-debug-apk.outcome == 'failure' && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/foundation/') }}
-        shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          APK_PATH="app/build/outputs/apk/debug/app-debug.apk"
-          test -s "$APK_PATH"
-          APK_BYTES="$(stat -c '%s' "$APK_PATH")"
+          APK_BYTES="$(stat -c '%s' "$APK")"
           if [ "$APK_BYTES" -ge 95000000 ]; then
             echo "APK exceeds the safe GitHub single-file limit: $APK_BYTES bytes."
             exit 1
           fi
+          APK_SHA="$(sha256sum "$APK" | awk '{print $1}')"
+          echo "apk_bytes=$APK_BYTES" >> "$GITHUB_OUTPUT"
+          echo "apk_sha=$APK_SHA" >> "$GITHUB_OUTPUT"
+          echo "APK size: $APK_BYTES bytes" >> "$GITHUB_STEP_SUMMARY"
+          echo "SHA-256: $APK_SHA" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish APK on a dedicated delivery branch (no Actions artifact)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APK_BYTES: ${{ steps.verify.outputs.apk_bytes }}
+          APK_SHA: ${{ steps.verify.outputs.apk_sha }}
+        run: |
+          set -euo pipefail
           DELIVERY_BRANCH="delivery/apk-debug-${GITHUB_RUN_NUMBER}-${GITHUB_SHA:0:8}"
           DELIVERY_DIR="$RUNNER_TEMP/aas2-apk-delivery"
           mkdir -p "$DELIVERY_DIR"
-          cp "$APK_PATH" "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-debug.apk"
+          cp app/build/outputs/apk/debug/app-debug.apk "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-debug.apk"
           (
             cd "$DELIVERY_DIR"
             git init -b "$DELIVERY_BRANCH"
@@ -119,25 +92,42 @@ jobs:
             sha256sum *.apk > SHA256SUMS.txt
             cat > README.txt <<EOF
 Ali & Aboudy Scholars 2
-Build type: Debug (not a Release)
+Build type: Debug APK for device testing (not a signed production release)
 versionName: 0.1.0
 versionCode: 1
-applicationId: com.asimalikial.aas2
+applicationId: com.asimalimikial.aas2
+Source branch: ${GITHUB_REF_NAME}
 Source commit: ${GITHUB_SHA}
-Android CI run: ${GITHUB_RUN_ID}
+Workflow run: ${GITHUB_RUN_ID}
 APK bytes: ${APK_BYTES}
+SHA-256: ${APK_SHA}
 EOF
             git add .
-            git commit -m "Deliver debug APK for device testing"
+            git commit -m "Deliver verified AAS2 debug APK"
             git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
             git push origin "HEAD:refs/heads/${DELIVERY_BRANCH}"
           )
-          APK_SHA="$(sha256sum "$DELIVERY_DIR/Ali-Aboudy-Scholars-2-debug.apk" | awk '{print $1}')"
           DOWNLOAD_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${DELIVERY_BRANCH}/Ali-Aboudy-Scholars-2-debug.apk"
           {
-            echo "### Debug APK delivery"
-            echo "- Branch: ${DELIVERY_BRANCH}"
+            echo "### APK delivery"
+            echo "- Delivery branch: ${DELIVERY_BRANCH}"
             echo "- APK size: ${APK_BYTES} bytes"
             echo "- SHA-256: ${APK_SHA}"
             echo "- Download URL: ${DOWNLOAD_URL}"
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep only the two newest APK delivery branches
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t OLD_BRANCHES < <(
+            gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/branches?per_page=100" \
+              | jq -r '[.[][]? | .name | select(startswith("delivery/apk-debug-")) | {name: ., run: ((capture("delivery/apk-debug-(?<run>[0-9]+)-").run) | tonumber)}] | sort_by(.run) | reverse | .[2:] | .[].name'
+          )
+          for branch in "${OLD_BRANCHES[@]}"; do
+            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${branch}"
+            echo "Removed older APK delivery branch: ${branch}"
+          done
