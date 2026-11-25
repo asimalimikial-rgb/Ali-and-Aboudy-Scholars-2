@@ -23,8 +23,8 @@ The repository includes a child-first, book-led learning experience in `docs/`.
 - Project: `aas2-web`.
 - Production URL: https://aas2-web.vercel.app
 - Source: `main` branch, repository directory `docs/`.
-- Verified production deployment commit: `6178caa4130dd3a57dcbd978fb241fb55d4a039d`.
-- Deployment status at publication: `READY`.
+- Latest verified production update: PR #5 merged to `main` on 2026-11-25; Vercel deployment status: `READY`.
+- The stable production alias `https://aas2-web.vercel.app` was checked after the merge and served the new learner-first experience.
 - The Vercel project is connected to this GitHub repository; subsequent commits to the configured production branch can trigger deployments.
 
 ## Latest installable testing build
