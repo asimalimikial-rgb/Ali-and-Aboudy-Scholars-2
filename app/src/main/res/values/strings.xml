@@ -60,6 +60,15 @@
     <string name="parent_dashboard_description">A private, read-only view of this learner’s progress on this device.</string>
     <string name="parent_dashboard_overview">Learning overview</string>
     <string name="parent_dashboard_attempt_summary">%1$d attempts · %2$d correct · %3$d%% accuracy</string>
+    <string name="parent_dashboard_activities_started">Activities tried: %1$d / %2$d</string>
+    <string name="parent_dashboard_lessons_started">Lessons started: %1$d / %2$d</string>
+    <string name="parent_dashboard_skills_practised">Skills practised: %1$d / %2$d</string>
+    <string name="parent_dashboard_recent_week">Last 7 days: %1$d attempts · %2$d correct</string>
+    <string name="parent_skill_detailed_summary">%1$d attempts · %2$d correct · %3$d incorrect · %4$d%% accuracy</string>
+    <string name="parent_mastery_not_started">Not started</string>
+    <string name="parent_mastery_practising">Practising</string>
+    <string name="parent_mastery_developing">Developing</string>
+    <string name="parent_mastery_mastered">Mastered (provisional)</string>
     <string name="parent_dashboard_no_skills">No skill records are available in this learning pack.</string>
     <string name="parent_skill_not_assessed">Not assessed yet</string>
     <string name="parent_skill_attempt_summary">%1$d attempts · %2$d correct · %3$d%% accuracy</string>
