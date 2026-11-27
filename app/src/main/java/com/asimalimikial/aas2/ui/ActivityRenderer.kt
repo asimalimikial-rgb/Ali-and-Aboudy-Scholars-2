@@ -238,6 +238,7 @@ private fun AudioClipButton(
     modifier: Modifier = Modifier
 ) {
     val isActive = controller.activeAssetPath == assetPath
+    val hasError = controller.failedAssetPath == assetPath
     val buttonLabel = when {
         isActive && controller.isLoading -> stringResource(R.string.audio_loading)
         isActive && controller.isPlaying -> stringResource(R.string.audio_stop)
@@ -250,7 +251,7 @@ private fun AudioClipButton(
     ) {
         Text(buttonLabel)
     }
-    if (isActive && controller.hasError) {
+    if (hasError) {
         Text(
             stringResource(R.string.audio_error),
             style = MaterialTheme.typography.bodySmall,
