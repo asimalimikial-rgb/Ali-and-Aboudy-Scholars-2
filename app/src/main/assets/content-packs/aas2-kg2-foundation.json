@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -47,6 +47,24 @@
       "attribution": "Original AAS2-authored educational content migrated from the legacy project.",
       "usageRights": "REFERENCE_ONLY",
       "verifiedAt": "2026-11-23"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-HOP-SKIP-JUMP",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit (ISBN 9789356660113)",
+      "publisher": "Macmillan Education",
+      "url": "https://macmillaneducation.in/hop-skip-and-jump/",
+      "license": "Copyrighted publisher material; curriculum reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-MATHS-XPRESS-SKG",
+      "title": "Maths Xpress — Senior KG (ISBN 9789356664975)",
+      "publisher": "Macmillan Education",
+      "url": "https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf",
+      "license": "Copyrighted publisher material; catalogue reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
     }
   ],
   "skills": [
@@ -167,6 +185,107 @@
       "sourceReferenceIds": [
         "AAS2-ORIGINAL-AUTHORED",
         "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-listening-comprehension",
+      "learnerPath": "KG2",
+      "domain": "Language and Communication",
+      "observableOutcome": "Follows a short spoken instruction and identifies a directly stated detail in a familiar context.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-story-sequencing",
+      "learnerPath": "KG2",
+      "domain": "English",
+      "observableOutcome": "Orders a short familiar story or event sequence using pictures and simple language.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-observe-predict",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Observes a familiar living thing or object and makes a simple prediction linked to visible evidence.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5",
+        "NOAA-WHOI-E20-003"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-handwriting-readiness",
+      "learnerPath": "KG2",
+      "domain": "Fine Motor Development",
+      "observableOutcome": "Uses controlled marks and early letter-like forms with age-appropriate pencil and hand control.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-creative-expression",
+      "learnerPath": "KG2",
+      "domain": "Creative Arts",
+      "observableOutcome": "Represents an idea using a simple, guided art or construction activity.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-cooperation-turn-taking",
+      "learnerPath": "KG2",
+      "domain": "Social Emotional Learning",
+      "observableOutcome": "Practises taking turns, sharing materials and cooperating during a familiar activity.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-self-regulation",
+      "learnerPath": "KG2",
+      "domain": "Social Emotional Learning",
+      "observableOutcome": "Uses a simple strategy to pause, listen, and return to a learning task after a challenge.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-measure-compare",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Compares two familiar objects by a visible attribute such as length, height or size.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-weather-observation",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Describes a simple observable feature of daily weather.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-environment-care",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Identifies a safe, age-appropriate action that helps care for a familiar environment.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
       ]
     }
   ],
@@ -4249,6 +4368,314 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/5b5972a4214e816b9954c733c1048ce2c138f353c03b18f9550450300163476c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/8de4828d64b9ad9029dd99d265763765208f33a4a84179a1df95fad5f62477ba.ogg"
+    }
+  ],
+  "books": [
+    {
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit",
+      "subject": "English & Literacy",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "MACMILLAN-HOP-SKIP-JUMP"
+      ]
+    },
+    {
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Maths Xpress — Senior KG",
+      "subject": "Mathematics",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-SKG"
+      ]
+    },
+    {
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "AAS2 My World Discovery — KG2 Companion Book",
+      "subject": "Discovery",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5",
+        "NOAA-WHOI-E20-003"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "unitId": "HSJ-KG2-U01",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Early Language and Literacy",
+      "sequence": 1,
+      "lessonIds": [
+        "HSJ-KG2-U01-L01",
+        "HSJ-KG2-U01-L02",
+        "HSJ-KG2-U01-L03"
+      ]
+    },
+    {
+      "unitId": "HSJ-KG2-U02",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Phonics and Sound Awareness",
+      "sequence": 2,
+      "lessonIds": [
+        "HSJ-KG2-U02-L01",
+        "HSJ-KG2-U02-L02"
+      ]
+    },
+    {
+      "unitId": "HSJ-KG2-U03",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Creative and Social Learning",
+      "sequence": 3,
+      "lessonIds": [
+        "HSJ-KG2-U03-L01",
+        "HSJ-KG2-U03-L02",
+        "HSJ-KG2-U03-L03",
+        "HSJ-KG2-U03-L04"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U01",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Counting and Number Sense",
+      "sequence": 1,
+      "lessonIds": [
+        "MXSKG-U01-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U02",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Patterns and Relationships",
+      "sequence": 2,
+      "lessonIds": [
+        "MXSKG-U02-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U03",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Shapes and Space",
+      "sequence": 3,
+      "lessonIds": [
+        "MXSKG-U03-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U04",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Joining and Taking Away",
+      "sequence": 4,
+      "lessonIds": [
+        "MXSKG-U04-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U05",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Measurement and Comparison",
+      "sequence": 5,
+      "lessonIds": [
+        "MXSKG-U05-L01"
+      ]
+    },
+    {
+      "unitId": "MWD-KG2-U01",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "Living Things Around Us",
+      "sequence": 1,
+      "lessonIds": [
+        "MWD-KG2-U01-L01",
+        "MWD-KG2-U01-L02",
+        "MWD-KG2-U01-L03"
+      ]
+    },
+    {
+      "unitId": "MWD-KG2-U02",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "Our Environment",
+      "sequence": 2,
+      "lessonIds": [
+        "MWD-KG2-U02-L01",
+        "MWD-KG2-U02-L02"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "HSJ-KG2-U01-L01",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Everyday Vocabulary",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-everyday-vocabulary"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U01-L02",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Listening and Understanding",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-listening-comprehension"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U01-L03",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Stories and Sequencing",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-story-sequencing"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U02-L01",
+      "unitId": "HSJ-KG2-U02",
+      "title": "Initial Sounds",
+      "sequence": 1,
+      "skillIds": [
+        "initial-sounds",
+        "aas2-ali-initial-sounds"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U02-L02",
+      "unitId": "HSJ-KG2-U02",
+      "title": "Rhyming Words",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-rhyming-words"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L01",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Handwriting Readiness",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-handwriting-readiness"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L02",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Creative Expression",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-creative-expression"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L03",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Cooperation and Turn-Taking",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-cooperation-turn-taking"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L04",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Self-Regulation and Learning Routines",
+      "sequence": 4,
+      "skillIds": [
+        "aas2-ali-self-regulation"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U01-L01",
+      "unitId": "MXSKG-U01",
+      "title": "Counting Objects",
+      "sequence": 1,
+      "skillIds": [
+        "counting-to-five",
+        "aas2-ali-counting-pictures"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U02-L01",
+      "unitId": "MXSKG-U02",
+      "title": "Number Patterns",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-number-patterns"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U03-L01",
+      "unitId": "MXSKG-U03",
+      "title": "Recognising Common Shapes",
+      "sequence": 1,
+      "skillIds": [
+        "common-shapes",
+        "aas2-ali-shapes"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U04-L01",
+      "unitId": "MXSKG-U04",
+      "title": "Early Addition and Subtraction",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-adding-and-taking-away"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U05-L01",
+      "unitId": "MXSKG-U05",
+      "title": "Comparing Length and Size",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-measure-compare"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L01",
+      "unitId": "MWD-KG2-U01",
+      "title": "Plants and Their Needs",
+      "sequence": 1,
+      "skillIds": [
+        "plant-needs"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L02",
+      "unitId": "MWD-KG2-U01",
+      "title": "Discovering Our World",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-my-world-discovery"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L03",
+      "unitId": "MWD-KG2-U01",
+      "title": "Observe and Predict",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-observe-predict"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U02-L01",
+      "unitId": "MWD-KG2-U02",
+      "title": "Weather Observation",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-weather-observation"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U02-L02",
+      "unitId": "MWD-KG2-U02",
+      "title": "Caring for Our Environment",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-environment-care"
+      ]
     }
   ]
 }
