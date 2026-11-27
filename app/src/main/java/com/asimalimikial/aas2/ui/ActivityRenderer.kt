@@ -48,6 +48,7 @@ import androidx.compose.ui.unit.dp
 import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
+import com.asimalimikial.aas2.learning.QuestionAttemptPolicy
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
@@ -58,6 +59,9 @@ fun ActivityRenderer(
     evaluation: ActivityEvaluationResult?,
     onSubmitAnswer: (String) -> Unit,
     onRetry: () -> Unit,
+    attemptCount: Int,
+    hasNextActivity: Boolean,
+    onNextActivity: () -> Unit,
     modifier: Modifier = Modifier,
     isSubmitting: Boolean = false,
     submissionError: String? = null
@@ -77,16 +81,19 @@ fun ActivityRenderer(
     }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
-    LaunchedEffect(activity.activityId, currentEvaluation) {
+    val isFinalIncorrect = currentEvaluation?.let {
+        !it.isCorrect && QuestionAttemptPolicy.needsReview(attemptCount, it.isCorrect)
+    } == true
+    LaunchedEffect(activity.activityId, currentEvaluation, attemptCount) {
         if (currentEvaluation == null) {
             activity.promptAudioAssetPath?.let { audioController.play(it) }
         } else {
             // Stop the question clip even when this activity has no feedback recording.
             audioController.stop()
-            val encouragementAudio = if (currentEvaluation.isCorrect) {
-                activity.feedbackCorrectAudioAssetPath
-            } else {
-                activity.feedbackIncorrectAudioAssetPath
+            val encouragementAudio = when {
+                currentEvaluation.isCorrect -> activity.feedbackCorrectAudioAssetPath
+                !isFinalIncorrect -> activity.feedbackIncorrectAudioAssetPath
+                else -> null
             }
             encouragementAudio?.let { audioController.play(it) }
         }
@@ -198,20 +205,47 @@ fun ActivityRenderer(
                     }
                 } else {
                     Text(
-                        currentEvaluation.feedback,
+                        if (isFinalIncorrect) stringResource(R.string.activity_final_incorrect_feedback)
+                        else currentEvaluation.feedback,
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (currentEvaluation.isCorrect) MaterialTheme.colorScheme.primary
                         else MaterialTheme.colorScheme.onSurfaceVariant
                     )
-                    val feedbackAudio = if (currentEvaluation.isCorrect) {
-                        activity.feedbackCorrectAudioAssetPath
-                    } else {
-                        activity.feedbackIncorrectAudioAssetPath
+                    val feedbackAudio = when {
+                        currentEvaluation.isCorrect -> activity.feedbackCorrectAudioAssetPath
+                        !isFinalIncorrect -> activity.feedbackIncorrectAudioAssetPath
+                        else -> null
                     }
                     feedbackAudio?.let { path ->
                         AudioClipButton(audioController, path, stringResource(R.string.audio_listen_feedback))
                     }
-                    if (!currentEvaluation.isCorrect) {
+                    if (isFinalIncorrect) {
+                        val correctAnswer = activity.options.firstOrNull {
+                            it.optionId == activity.correctOptionId
+                        }?.text.orEmpty()
+                        Text(
+                            stringResource(R.string.activity_correct_answer, correctAnswer),
+                            style = MaterialTheme.typography.titleMedium,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    if (currentEvaluation.isCorrect || isFinalIncorrect) {
+                        Button(
+                            modifier = Modifier.fillMaxWidth().height(58.dp),
+                            shape = RoundedCornerShape(18.dp),
+                            onClick = {
+                                audioController.stop()
+                                onNextActivity()
+                            }
+                        ) {
+                            Text(
+                                stringResource(
+                                    if (hasNextActivity) R.string.activity_next_question
+                                    else R.string.activity_finish_lesson
+                                )
+                            )
+                        }
+                    } else {
                         OutlinedButton(
                             modifier = Modifier.fillMaxWidth(),
                             onClick = {
