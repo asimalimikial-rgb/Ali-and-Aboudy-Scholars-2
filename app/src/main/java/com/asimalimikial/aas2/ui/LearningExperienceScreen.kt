@@ -56,15 +56,16 @@ fun LearningExperienceScreen(
     val packId = remember(learnerPathway) {
         ContentPackSelectionPolicy.packIdForPathway(learnerPathway)
     }
-    val attempts by learningAttemptDao.observeForLearner(learnerId).collectAsState(initial = emptyList())
+    val attemptsFlow = remember(learnerId) { learningAttemptDao.observeForLearner(learnerId) }
+    val attempts by attemptsFlow.collectAsState(initial = emptyList())
     var contentPack by remember(packId) { mutableStateOf<ContentPack?>(null) }
     var isLoading by remember(packId) { mutableStateOf(true) }
     var loadError by remember(packId) { mutableStateOf(false) }
-    var selectedDomain by remember(packId) { mutableStateOf<String?>(null) }
-    var selectedBookId by remember(packId) { mutableStateOf<String?>(null) }
-    var selectedUnitId by remember(packId) { mutableStateOf<String?>(null) }
-    var selectedLessonId by remember(packId) { mutableStateOf<String?>(null) }
-    var selectedActivityId by remember(packId) { mutableStateOf<String?>(null) }
+    var selectedDomain by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+    var selectedBookId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+    var selectedUnitId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+    var selectedLessonId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+    var selectedActivityId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
 
     LaunchedEffect(packId) {
         if (packId == null) {
