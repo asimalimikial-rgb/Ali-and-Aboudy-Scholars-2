@@ -113,4 +113,15 @@
     <string name="child_learning_coach_title">مرشد التعلّم الذكي</string>
     <string name="child_learning_coach_recommendation">المجال المقترح التالي هو: %1$s.</string>
     <string name="child_learning_coach_start">ابدأ التعلّم المقترح</string>
+    <string name="child_home_eyebrow">عالم التعلّم الخاص بك</string>
+    <string name="child_home_ready_title">هل أنت مستعد لمغامرة اليوم؟</string>
+    <string name="child_home_progress_title">انظر كم تقدّمت يا %1$s!</string>
+    <string name="child_home_ready_body">اختر مادة واكتشف شيئاً جديداً.</string>
+    <string name="child_home_progress_body">كل نشاط هو خطوة جديدة في رحلة تعلّمك.</string>
+    <string name="child_stat_activities">أنشطة جُرّبت</string>
+    <string name="child_stat_correct">إجابات صحيحة</string>
+    <string name="child_stat_accuracy">الدقة</string>
+    <string name="child_keep_growing_title">واصل التقدّم</string>
+    <string name="child_keep_growing_first">جرّب نشاطك الأول. كل رحلة عظيمة تبدأ بخطوة.</string>
+    <string name="child_keep_growing_progress">جرّبت %1$d أنشطة. واصل الاستكشاف بالسرعة التي تناسبك.</string>
 </resources>
