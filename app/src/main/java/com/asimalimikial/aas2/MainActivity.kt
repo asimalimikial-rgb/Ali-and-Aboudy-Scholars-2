@@ -45,6 +45,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
@@ -251,7 +252,7 @@ class MainActivity : ComponentActivity() {
             localizedContext.getString(R.string.parent_gate_description)
         )
         if (credentialIntent == null) {
-            showParentGateSetupRequired()
+            showParentGateSetupRequired(localizedContext)
             return
         }
 
@@ -259,10 +260,10 @@ class MainActivity : ComponentActivity() {
         parentGateLauncher.launch(credentialIntent)
     }
 
-    private fun showParentGateSetupRequired() {
-        AlertDialog.Builder(this)
-            .setTitle(R.string.parent_gate_setup_title)
-            .setMessage(R.string.parent_gate_setup_message)
+    private fun showParentGateSetupRequired(localizedContext: Context) {
+        AlertDialog.Builder(localizedContext)
+            .setTitle(localizedContext.getString(R.string.parent_gate_setup_title))
+            .setMessage(localizedContext.getString(R.string.parent_gate_setup_message))
             .setPositiveButton(android.R.string.ok, null)
             .show()
     }
