@@ -233,6 +233,7 @@ class MainActivity : ComponentActivity() {
                             },
                             onSwitchLearner = {
                                 showLearningExperience = false
+                                selectedLearningArea = null
                                 showParentDashboard = false
                                 showParentSettings = false
                                 lifecycleScope.launch {
