@@ -120,4 +120,15 @@
     <string name="child_learning_coach_title">Smart Learning Coach</string>
     <string name="child_learning_coach_recommendation">Your next suggested area is %1$s.</string>
     <string name="child_learning_coach_start">Start recommended learning</string>
+    <string name="child_home_eyebrow">YOUR LEARNING WORLD</string>
+    <string name="child_home_ready_title">Ready for today’s adventure?</string>
+    <string name="child_home_progress_title">Look how far you have come, %1$s!</string>
+    <string name="child_home_ready_body">Choose a subject and discover something new.</string>
+    <string name="child_home_progress_body">Every activity is another step in your learning journey.</string>
+    <string name="child_stat_activities">Activities tried</string>
+    <string name="child_stat_correct">Correct answers</string>
+    <string name="child_stat_accuracy">Accuracy</string>
+    <string name="child_keep_growing_title">Keep growing</string>
+    <string name="child_keep_growing_first">Try your first activity. Every great journey starts with one step.</string>
+    <string name="child_keep_growing_progress">You have tried %1$d activities. Keep exploring at your own pace.</string>
 </resources>
