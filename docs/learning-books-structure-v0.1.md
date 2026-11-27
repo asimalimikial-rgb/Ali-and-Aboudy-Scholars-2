@@ -47,7 +47,7 @@
 - Official publisher Scope and Sequence: https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf
 - The 12 official unit titles are retained: At the castle; In Biffo's garden; Pirate Jack; A fantastic shop; Pirate Jack is on TV; Who is the winner?; A trip in a balloon; Look at the animals!; Look! The sea!; The island; The boat; Welcome home!
 - Lesson names are original AAS2 outcome groupings derived from the verified scope, not copied pupil-book lessons.
-- Current broad English questions are grouped under their existing skill outcomes; item-level unit alignment remains pending review.
+- Current broad English questions remain in the separate subject-level Additional Practice section until item-level unit alignment is reviewed. Unit lessons have explicit AAS2 learning outcomes; no broad question is guessed into a publisher unit.
 
 ### Macmillan Mathematics — Level 2A
 - ISBN: 9781035130382.
