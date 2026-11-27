@@ -34,6 +34,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.selected
@@ -59,14 +62,22 @@ fun ActivityRenderer(
 ) {
     val context = LocalContext.current
     val audioController = remember(activity.activityId) { OfflineAudioController(context) }
-    androidx.compose.runtime.DisposableEffect(audioController) {
-        onDispose { audioController.release() }
+    val lifecycleOwner = LocalLifecycleOwner.current
+    androidx.compose.runtime.DisposableEffect(audioController, lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_STOP) audioController.stop()
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+            audioController.release()
+        }
     }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     LaunchedEffect(activity.activityId, currentEvaluation) {
         if (currentEvaluation == null) {
-            activity.promptAudioAssetPath?.let { audioController.toggle(it) }
+            activity.promptAudioAssetPath?.let { audioController.play(it) }
         } else {
             // Stop the question clip even when this activity has no feedback recording.
             audioController.stop()
@@ -75,7 +86,7 @@ fun ActivityRenderer(
             } else {
                 activity.feedbackIncorrectAudioAssetPath
             }
-            encouragementAudio?.let { audioController.toggle(it) }
+            encouragementAudio?.let { audioController.play(it) }
         }
     }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
