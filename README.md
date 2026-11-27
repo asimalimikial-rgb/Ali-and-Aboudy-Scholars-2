@@ -1,6 +1,6 @@
 # Ali & Aboudy Scholars 2
 
-An independent, offline-first Android learning app for two separate learner pathways:
+An independent, offline-first learning product with a native Android app and companion web experience for two separate learner pathways:
 
 - **Ali** — KG2
 - **Aboudy** — Grade 2
@@ -9,11 +9,22 @@ The app uses a shared learning engine while keeping each learner's subjects, act
 
 ## Project status
 
-Active product-development phase. The Android Learning World UX slice has been merged into `foundation/slice-0-android`; the `main` and foundation branches still have separate histories and are not wholesale merged.
+Active product-development phase. `main` is the canonical branch and contains the Android app, restored learning website, launcher/PWA icon, and shared content assets. `foundation/slice-0-android` is retained as a working/history branch and is not the primary branch.
 
 **Build policy:** Debug pre-releases for personal device testing are allowed only after Android CI validation. Production signing and production releases remain disabled.
 
-### Latest Android pre-release — 27 November 2026
+### Current main build — 27 November 2026
+
+- **Canonical source:** `main`, commit `fd53a120b709dbeb0e1600d08ef15be1cb1c86bc`.
+- **Production learning website:** [https://aas2-web.vercel.app](https://aas2-web.vercel.app) — Vercel Production deployment is READY; the home page and Ali → English → sample activity flow were verified on a mobile viewport.
+- **Android launcher icon:** added at `app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp` and linked through `AndroidManifest.xml`. The same artwork is registered in the web app manifest at `docs/assets/aas2-icon-192.webp`.
+- **Latest installable debug APK:** [Download Ali & Aboudy Scholars 2 APK](https://raw.githubusercontent.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/delivery/apk-debug-45-fd53a120/Ali-Aboudy-Scholars-2-debug.apk).
+- **APK size:** 40,774,973 bytes; **versionName:** 0.1.0; **versionCode:** 1; **applicationId:** `com.asimalimikial.aas2`.
+- **SHA-256:** `ee14897e049f4c36adc299344f58ddd2b25b2e34464ef193f0f51ae0e72014da`.
+- **Build workflow:** [#45](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46015651195) — APK assembly, verification, artifact upload, and delivery-branch publication succeeded.
+- This is a **debug APK for personal device testing**, not a production-signed release. Production signing remains disabled.
+
+### Previous Android pre-release (historical) — 27 November 2026
 
 - **GitHub Release:** [v0.1.0-preview.457.1](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/releases/tag/v0.1.0-preview.457.1)
 - **APK asset:** `Ali-Aboudy-Scholars-2-v0.1.0-preview.457.1.apk` (40,767,819 bytes; about 38.9 MiB).
@@ -32,7 +43,7 @@ Active product-development phase. The Android Learning World UX slice has been m
 - Twelve proposed legacy corrections are staged in `content/staging/legacy-question-bank-correction-patch-v0.1.json`; all remain `REVISED_PENDING_TECHNICAL_QA` and none is production-approved. The legacy source repository remains untouched.
 - The official English World Level 2 12-unit scope is recorded in `docs/english-world-level2-scope-map-v0.1.md`. Its 35 current activities include 15 candidate alignments and 20 supplementary/unmapped items; none is yet runtime-mapped. Mathematics 2A/2B has 40 candidate mappings (31/9), also pending pedagogy review.
 - Android CI #329 passed on commit `f99e648`. A stale content-validator count (9 versus 12 staged correction records) was corrected in commit `eedc485`; Content Validation #17 and Android CI #330 were started for that commit. Later documentation commits add the cover index and this README update; their workflow results must be checked separately before declaring the branch green.
-- `main`, signing configuration, APKs and Releases remain unchanged. No APK or Release has been produced or published.
+- This historical record predates the current `main` build above. Signing configuration and production-release policy remain unchanged; the current debug APK is published separately for device testing.
 
 ## Principles
 
@@ -47,9 +58,9 @@ Active product-development phase. The Android Learning World UX slice has been m
 
 This repository is **AAS2-NEW** only. It is independent of the legacy repository `Ali-andd-aboudy-scholars`. Do not copy, merge, move, or modify legacy project files as part of this work.
 
-## Current foundation
+## Android implementation
 
-The active development branch is `foundation/slice-0-android`.
+The canonical source branch is `main`. The `foundation/slice-0-android` branch remains preserved as a working/history branch.
 
 - Kotlin + Jetpack Compose
 - Room database for separate learner profiles and learner-scoped learning-attempt records (schema v2)
@@ -95,6 +106,6 @@ Requirements: JDK 17, Android SDK Platform 35, and Gradle 8.11.1.
 gradle :app:testDebugUnitTest
 ```
 
-The GitHub Actions PR workflow runs JVM unit tests, compiles the debug app and Android test APKs, verifies Room schema v1/v2, and runs instrumentation tests on an API 35 emulator. On pushes to `foundation/slice-0-android`, CI repeats JVM/build/schema checks, uploads the verified APK as a one-day temporary artifact, then publishes that exact APK with a SHA-256 file as a GitHub pre-release. Emulator instrumentation is run in PR validation; merge pushes reuse that successful PR gate for unchanged application source. Superseded runs on the same branch are cancelled automatically.
+The GitHub Actions PR workflow runs JVM unit tests, compiles the debug app and Android test APKs, verifies Room schema v1/v2, and runs instrumentation tests on an API 35 emulator. The dedicated APK delivery workflow runs on pushes to `main` and `foundation/**`, builds an installable Debug APK, verifies its size and SHA-256, uploads a seven-day Actions artifact, and publishes a direct-download copy on a dedicated delivery branch. The current delivery is recorded above. Instrumentation status must be checked separately from APK assembly; passing APK assembly does not imply that every emulator test passed.
 
 ## Slice 0 verification and stage gates
