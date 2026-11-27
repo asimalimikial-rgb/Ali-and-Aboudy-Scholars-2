@@ -4,8 +4,9 @@ import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.data.LearningAttemptEntity
 
 /**
- * A question needs review when the learner's latest scored response for it was incorrect.
- * This is derived from the existing attempt history; no Room schema migration is required.
+ * A question needs review after two consecutive incorrect scored responses.
+ * A later correct response clears it. Status is derived from local attempt history,
+ * so no Room schema migration or additional child data is required.
  */
 object ReviewQueueCalculator {
     fun activitiesNeedingReview(
@@ -14,22 +15,20 @@ object ReviewQueueCalculator {
         activities: List<ActivityDefinition>,
         attempts: List<LearningAttemptEntity>
     ): List<ActivityDefinition> {
-        val latestAttemptByActivity = attempts.asSequence()
+        val reviewIds = attempts.asSequence()
             .filter {
                 it.learnerId == learnerId &&
                     it.contentPackId == contentPackId &&
                     it.isCorrect != null
             }
             .groupBy { it.activityId }
-            .mapValues { (_, rows) ->
-                rows.maxWithOrNull(
+            .filterValues { rows ->
+                val lastTwo = rows.sortedWith(
                     compareBy<LearningAttemptEntity> { it.createdAtEpochMillis }
                         .thenBy { it.attemptId }
-                )
+                ).takeLast(2)
+                lastTwo.size == 2 && lastTwo.all { it.isCorrect == false }
             }
-
-        val reviewIds = latestAttemptByActivity
-            .filterValues { it?.isCorrect == false }
             .keys
 
         return activities.filter { it.activityId in reviewIds }
