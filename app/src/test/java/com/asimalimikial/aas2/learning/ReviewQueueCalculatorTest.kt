@@ -43,12 +43,13 @@ class ReviewQueueCalculatorTest {
         val result = ReviewQueueCalculator.activitiesNeedingReview(
             learnerId = "ali",
             contentPackId = "kg2-pack",
-            activities = listOf(activity("q1"), activity("q2")),
+            activities = listOf(activity("q1"), activity("q2"), activity("q3")),
             attempts = listOf(
                 attempt("q1-first", "q1", false, 100),
                 attempt("q1-second", "q1", false, 200),
                 attempt("q2-first", "q2", false, 100),
-                attempt("q2-second", "q2", true, 200)
+                attempt("q2-second", "q2", true, 200),
+                attempt("q3-only", "q3", false, 100)
             )
         )
 
