@@ -13,9 +13,9 @@ self.addEventListener("install", event => {
         const library = await response.json();
         const paths = new Set();
         for (const activity of Array.isArray(library.activities) ? library.activities : []) {
-          if (typeof activity.image === "string" && activity.image.trim()) paths.add("./assets/" + activity.image.replace(/^\\/+/, ""));
+          if (typeof activity.image === "string" && activity.image.trim()) paths.add("./assets/" + activity.image.replace(/^\/+/, ""));
           for (const option of Array.isArray(activity.options) ? activity.options : []) {
-            if (typeof option.image === "string" && option.image.trim()) paths.add("./assets/" + option.image.replace(/^\\/+/, ""));
+            if (typeof option.image === "string" && option.image.trim()) paths.add("./assets/" + option.image.replace(/^\/+/, ""));
           }
         }
         await Promise.allSettled([...paths].map(async path => {
