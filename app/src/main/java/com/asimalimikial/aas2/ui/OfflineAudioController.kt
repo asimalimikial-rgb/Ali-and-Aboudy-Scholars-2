@@ -34,6 +34,8 @@ class OfflineAudioController(context: Context) {
         private set
     var hasError by mutableStateOf(false)
         private set
+    var failedAssetPath by mutableStateOf<String?>(null)
+        private set
 
     fun toggle(assetPath: String) {
         if (activeAssetPath == assetPath && (isLoading || isPlaying)) stop() else play(assetPath)
@@ -43,6 +45,7 @@ class OfflineAudioController(context: Context) {
         playJob?.cancel()
         stopInternal()
         hasError = false
+        failedAssetPath = null
         isLoading = true
         isPlaying = false
         activeAssetPath = assetPath
@@ -88,6 +91,7 @@ class OfflineAudioController(context: Context) {
                         isLoading = false
                         isPlaying = false
                         hasError = true
+                        failedAssetPath = assetPath
                     }
                     runCatching { failed.release() }
                     true
@@ -104,6 +108,7 @@ class OfflineAudioController(context: Context) {
                 isLoading = false
                 isPlaying = false
                 hasError = true
+                failedAssetPath = assetPath
                 activeAssetPath = null
             }
         }
@@ -117,6 +122,7 @@ class OfflineAudioController(context: Context) {
         isPlaying = false
         activeAssetPath = null
         hasError = false
+        failedAssetPath = null
     }
 
     fun release() {
