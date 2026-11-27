@@ -64,6 +64,7 @@ import kotlinx.coroutines.launch
 import com.asimalimikial.aas2.content.AndroidAssetContentPackTextSource
 import com.asimalimikial.aas2.content.AssetContentPackRepository
 import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
+import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
@@ -345,16 +346,19 @@ private fun LearnerHome(
     val soft = if (isAli) Color(0xFFFFF0EA) else Color(0xFFEDF4FF)
     val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
     var availableSubjects by remember(profile.learnerId) { mutableStateOf<List<Pair<String, Int>>>(emptyList()) }
+    var loadedPack by remember(profile.learnerId) { mutableStateOf<ContentPack?>(null) }
     var isLoadingSubjects by remember(profile.learnerId) { mutableStateOf(true) }
     LaunchedEffect(profile.learnerId, profile.pathway) {
         isLoadingSubjects = true
         val packId = ContentPackSelectionPolicy.packIdForPathway(profile.pathway)
         if (packId == null) {
+            loadedPack = null
             availableSubjects = emptyList()
             isLoadingSubjects = false
         } else {
             try {
                 val pack = contentPackRepository.load(packId)
+                loadedPack = pack
                 val skillById = pack.skills.associateBy { it.skillId }
                 availableSubjects = ContentPackSelectionPolicy.englishActivities(pack)
                     .groupBy { activity ->
@@ -375,6 +379,16 @@ private fun LearnerHome(
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
     }
     val accuracy = practiceSummary.accuracyPercent
+    val recommendedLearningArea = remember(loadedPack, attempts, profile.pathway) {
+        val pack = loadedPack
+        if (pack == null) null else {
+            val activities = ContentPackSelectionPolicy.englishActivities(pack)
+            val practicedIds = attempts.filter { it.contentPackId == pack.packId }.map { it.activityId }.toSet()
+            val nextActivity = ContentPackSelectionPolicy.nextActivity(activities, practicedIds)
+            val skill = nextActivity?.let { item -> pack.skills.firstOrNull { it.skillId == item.skillId } }
+            skill?.domain?.let { ContentPackSelectionPolicy.subjectForDomain(it, profile.pathway) }
+        }
+    }
     Column(
         modifier = Modifier.fillMaxSize()
             .background(Brush.verticalGradient(listOf(soft, Color(0xFFF8FAFD), Color.White)))
@@ -462,6 +476,21 @@ private fun LearnerHome(
                             Text(stringResource(R.string.available_activity_count, activityCount), style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
                         }
                         Text("›", style = MaterialTheme.typography.headlineMedium, color = accent)
+                    }
+                }
+            }
+        }
+        if (recommendedLearningArea != null) {
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFFEAF6F2))) {
+                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(stringResource(R.string.child_learning_coach_title), style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold, color = Color(0xFF285B4D))
+                    Text(stringResource(R.string.child_learning_coach_recommendation, recommendedLearningArea),
+                        style = MaterialTheme.typography.bodyMedium, color = Color(0xFF496E62))
+                    Button(modifier = Modifier.fillMaxWidth(), onClick = { onOpenLearningArea(recommendedLearningArea) },
+                        shape = RoundedCornerShape(16.dp), colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF35AFA5))) {
+                        Text(stringResource(R.string.child_learning_coach_start), fontWeight = FontWeight.Bold)
                     }
                 }
             }
