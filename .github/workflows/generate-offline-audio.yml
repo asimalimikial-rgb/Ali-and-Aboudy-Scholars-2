@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "foundation/**"
+      - "feature/two-attempt-question-flow"
     paths:
       - "app/src/main/assets/content-packs/**"
       - "tools/audio/generate-offline-speech.py"
