@@ -93,7 +93,7 @@ private fun PersonalBookCoverCard(cover: PersonalBookCover) {
                     BitmapFactory.decodeStream(input, null, BitmapFactory.Options().apply { inSampleSize = 2 })
                 }
             }.fold(
-                onSuccess = { bitmap -> bitmap?.let(CoverState::Ready) ?: CoverState.Error },
+                onSuccess = { bitmap -> bitmap?.let { CoverState.Ready(it) } ?: CoverState.Error },
                 onFailure = { CoverState.Error }
             )
         }
