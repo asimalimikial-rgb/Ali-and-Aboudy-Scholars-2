@@ -111,6 +111,6 @@
     <string name="child_mascot_message">كل اكتشاف صغير يساعدك على التقدم.</string>
     <string name="child_sibling_cheer">علي وعبودي يتعلمان معاً؛ شجّعوا بعضكم.</string>
     <string name="child_learning_coach_title">مرشد التعلّم الذكي</string>
-    <string name="child_learning_coach_recommendation">المجال التالي الذي لم تتدرّب عليه بعد هو: %1$s.</string>
+    <string name="child_learning_coach_recommendation">المجال المقترح التالي هو: %1$s.</string>
     <string name="child_learning_coach_start">ابدأ التعلّم المقترح</string>
 </resources>
