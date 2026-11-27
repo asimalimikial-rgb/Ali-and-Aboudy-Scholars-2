@@ -14,6 +14,7 @@ import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.ActivityRetryPolicy
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 
@@ -27,6 +28,8 @@ fun ActivitySession(
     contentPack: ContentPack,
     activity: ActivityDefinition,
     submissionService: ActivitySubmissionService,
+    hasNextActivity: Boolean,
+    onNextActivity: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val scope = rememberCoroutineScope()
@@ -42,6 +45,7 @@ fun ActivitySession(
     var evaluation by remember(sessionKey) { mutableStateOf<ActivityEvaluationResult?>(null) }
     var isSubmitting by remember(sessionKey) { mutableStateOf(false) }
     var submissionError by remember(sessionKey) { mutableStateOf<String?>(null) }
+    var incorrectAttempts by remember(sessionKey) { mutableStateOf(0) }
 
     // Recreate the renderer subtree when the learner, pack version, or activity changes.
     // This resets renderer-local state such as the selected answer between sessions.
@@ -51,6 +55,9 @@ fun ActivitySession(
             evaluation = evaluation,
             isSubmitting = isSubmitting,
             submissionError = submissionError,
+            canRetry = ActivityRetryPolicy.canRetry(incorrectAttempts),
+            hasNextActivity = hasNextActivity,
+            onNextActivity = onNextActivity,
             modifier = modifier,
             onRetry = {
                 if (!isSubmitting) {
@@ -64,12 +71,14 @@ fun ActivitySession(
                     submissionError = null
                     scope.launch {
                         try {
-                            evaluation = submissionService.submit(
+                            val result = submissionService.submit(
                                 learnerId = learnerId,
                                 contentPack = contentPack,
                                 activityId = activity.activityId,
                                 selectedOptionId = selectedOptionId
                             )
+                            evaluation = result
+                            if (!result.isCorrect) incorrectAttempts += 1
                         } catch (cancelled: CancellationException) {
                             throw cancelled
                         } catch (_: Exception) {
