@@ -48,6 +48,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
@@ -331,6 +333,7 @@ private fun LearnerHome(
 ) {
     val displayName = localizedLearnerName(profile)
     val displayPathway = localizedPathway(profile.pathway)
+    val switchLearnerLabel = stringResource(R.string.switch_learner)
     val isAli = profile.learnerId == "ali"
     val accent = if (isAli) Color(0xFFE87968) else Color(0xFF4D88CF)
     val soft = if (isAli) Color(0xFFFFF0EA) else Color(0xFFEDF4FF)
@@ -381,7 +384,11 @@ private fun LearnerHome(
                     fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
                 Text(displayPathway, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF77859A))
             }
-            OutlinedButton(onClick = onSwitchLearner, shape = RoundedCornerShape(16.dp)) { Text(stringResource(R.string.switch_learner)) }
+            OutlinedButton(
+                modifier = Modifier.semantics { contentDescription = switchLearnerLabel },
+                onClick = onSwitchLearner,
+                shape = RoundedCornerShape(16.dp)
+            ) { Text("⇄") }
         }
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
