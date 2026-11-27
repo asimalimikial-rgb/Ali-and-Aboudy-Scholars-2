@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "AAS2-KG2-GUIDED-PRACTICE-0.1",
+  "learnerPath": "KG2",
+  "bookId": "hop-skip-jump-senior-kg",
+  "status": "STAGING_ONLY_CUSTOM_INTERACTION_REQUIRED",
+  "summary": {
+    "guidedActivities": 4,
+    "scoredQuestions": 0,
+    "runtimeIntegrated": 0
+  },
+  "policy": "These are authentic fine-motor, creative, social and self-regulation experiences. Do not convert them into multiple-choice questions or scored tests. Runtime integration requires a dedicated guided-task renderer and parent/teacher observation model.",
+  "records": [
+    {
+      "activityId": "aas2-kg2-guided-handwriting-readiness",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L01",
+      "skillId": "aas2-ali-handwriting-readiness",
+      "title": "Make careful lines and shapes",
+      "instructions": [
+        "Sit comfortably and hold the pencil gently with an adult's help.",
+        "Trace a short straight line, a curved line and a circle.",
+        "Draw one shape of your choice."
+      ],
+      "observableCriteria": [
+        "Uses a comfortable grip with support as needed",
+        "Makes controlled marks",
+        "Attempts a recognisable line or shape"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer."
+    },
+    {
+      "activityId": "aas2-kg2-guided-creative-expression",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L02",
+      "skillId": "aas2-ali-creative-expression",
+      "title": "Create a picture of a place you know",
+      "instructions": [
+        "Choose a familiar place such as a garden or home.",
+        "Draw at least two things you can see there.",
+        "Tell an adult one thing about your picture."
+      ],
+      "observableCriteria": [
+        "Chooses materials safely",
+        "Represents an idea using marks or shapes",
+        "Communicates one idea about the work"
+      ],
+      "assessment": "Adult observation; accept varied creative responses."
+    },
+    {
+      "activityId": "aas2-kg2-guided-cooperation",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L03",
+      "skillId": "aas2-ali-cooperation-turn-taking",
+      "title": "Build together and take turns",
+      "instructions": [
+        "Choose blocks or safe building pieces with an adult.",
+        "Take turns adding one piece at a time.",
+        "Describe how you worked together."
+      ],
+      "observableCriteria": [
+        "Waits for a turn with support",
+        "Shares materials safely",
+        "Responds to a partner's contribution"
+      ],
+      "assessment": "Adult observation; do not compare siblings or score speed."
+    },
+    {
+      "activityId": "aas2-kg2-guided-self-regulation",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L04",
+      "skillId": "aas2-ali-self-regulation",
+      "title": "Pause, breathe and try again",
+      "instructions": [
+        "When a task feels difficult, pause your hands.",
+        "Take one slow breath with an adult.",
+        "Listen to the next small step and try again."
+      ],
+      "observableCriteria": [
+        "Pauses when prompted",
+        "Attempts a calming breath",
+        "Returns to the task with support"
+      ],
+      "assessment": "Adult observation; supportive practice, never a penalty."
+    }
+  ]
+}
