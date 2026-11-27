@@ -45,9 +45,9 @@ class BundledContentPackAssetsTest {
     fun grade2PackLoadsBookUnitLessonAndExpandedEnglishScienceContent() = runBlocking<Unit> {
         val pack = repository.load("aas2-grade2-foundation")
         assertEquals("GRADE_2", pack.learnerPath)
-        assertEquals("0.4.5", pack.version)
+        assertEquals("0.4.6", pack.version)
         assertEquals(4, pack.schemaVersion)
-        assertEquals(84, pack.skills.size)
+        assertEquals(88, pack.skills.size)
         assertEquals(180, pack.activities.size)
         assertEquals(174, pack.activities.count { it.language == "en" })
         assertEquals(6, pack.activities.count { it.language == "ar" })
