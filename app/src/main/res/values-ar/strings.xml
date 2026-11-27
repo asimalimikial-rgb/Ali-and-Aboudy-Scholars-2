@@ -89,4 +89,12 @@
     <string name="audio_error">تعذّر تشغيل الصوت.</string>
     <string name="unit_number_title">الوحدة %1$d: %2$s</string>
     <string name="lesson_number_title">الدرس %1$d: %2$s</string>
+    <string name="activity_final_incorrect_feedback">محاولة جيدة! لنتعرّف على الإجابة الصحيحة.</string>
+    <string name="activity_correct_answer">الإجابة الصحيحة: %1$s</string>
+    <string name="activity_next_question">السؤال التالي ←</string>
+    <string name="activity_finish_lesson">إنهاء الدرس</string>
+    <string name="activity_sequence_progress">السؤال %1$d من %2$d</string>
+    <string name="parent_review_title">أسئلة تحتاج إلى مراجعة (%1$d)</string>
+    <string name="parent_review_correct_answer">الإجابة الصحيحة: %1$s</string>
+    <string name="parent_review_empty">لا توجد أسئلة تحتاج إلى مراجعة حالياً.</string>
 </resources>
