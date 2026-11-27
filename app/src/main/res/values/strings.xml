@@ -118,6 +118,6 @@
     <string name="child_mascot_message">Every little discovery helps you grow.</string>
     <string name="child_sibling_cheer">Ali and Aboudy are learning together. Cheer each other on!</string>
     <string name="child_learning_coach_title">Smart Learning Coach</string>
-    <string name="child_learning_coach_recommendation">Your next unpractised area is %1$s.</string>
+    <string name="child_learning_coach_recommendation">Your next suggested area is %1$s.</string>
     <string name="child_learning_coach_start">Start recommended learning</string>
 </resources>
