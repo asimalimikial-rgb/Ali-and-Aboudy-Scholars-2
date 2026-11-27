@@ -1,6 +1,11 @@
 package com.asimalimikial.aas2.ui
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -71,28 +76,32 @@ fun ParentSettingsScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(Brush.verticalGradient(listOf(Color(0xFFF0F5FB), Color(0xFFF9FAFC), Color.White)))
             .verticalScroll(rememberScrollState())
-            .padding(20.dp),
+            .padding(horizontal = 18.dp, vertical = 18.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
+        Card(
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(24.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B))
+        ) {
+            Column(modifier = Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text("PARENT CONTROL CENTRE", style = MaterialTheme.typography.labelLarge, color = Color(0xFFD5E5F3))
+                Text(stringResource(R.string.parent_settings_title), style = MaterialTheme.typography.headlineSmall, color = Color.White)
+                Text(stringResource(R.string.parent_settings_description), style = MaterialTheme.typography.bodySmall, color = Color(0xFFD5E5F3))
+            }
+        }
         OutlinedButton(
             modifier = Modifier.fillMaxWidth(),
-            onClick = onBack
+            onClick = onBack,
+            shape = RoundedCornerShape(16.dp)
         ) {
             Text(stringResource(R.string.back_to_parent_dashboard))
         }
 
-        Text(
-            stringResource(R.string.parent_settings_title),
-            style = MaterialTheme.typography.headlineMedium
-        )
-        Text(
-            stringResource(R.string.parent_settings_description),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
-
-        Card(modifier = Modifier.fillMaxWidth()) {
+         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White)) {
             Column(
                 modifier = Modifier.padding(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
