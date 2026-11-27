@@ -26,10 +26,14 @@ assert.ok(catalog.books.every(book => Number.isInteger(book.currentAuthoredActiv
 assert.ok(!catalog.books.some(book => /SMILE/i.test(book.title)),
   "SMILE must remain outside the seven-book scope.");
 assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 221,
-  "The seven-book authored activity subtotal must remain 237.");
+  "The seven-book authored activity subtotal must reconcile to 221.");
 assert.equal(catalog.unassignedCurrentActivities.broadScienceEnrichment, 25);
-assert.equal(catalog.unassignedCurrentActivities.earlierPilotActivities, 20);
-assert.equal(221 + 41 + 25 + 19, 306, "Mapped candidates plus unassigned content must reconcile to 282.");
+assert.equal(catalog.unassignedCurrentActivities.earlierPilotActivities, 19);
+assert.equal(catalog.companionLearningPaths.length, 1);
+assert.equal(catalog.companionLearningPaths[0].pathId, "aas2-my-world-discovery-kg2");
+assert.equal(catalog.companionLearningPaths[0].currentAuthoredActivities, 41);
+assert.equal(catalog.companionLearningPaths[0].runtimeMappedActivities, 16);
+assert.equal(221 + 41 + 25 + 19, 306, "Seven books, the My World companion path, and unassigned items must reconcile to 306.");
 const science = catalog.books.find(book => book.bookId === "macmillan-science-level-2");
 assert.ok(science, "Macmillan Science Level 2 must be present.");
 assert.equal(science.runtimeMappedActivities, 62);
@@ -185,10 +189,10 @@ const audioRoles = audio.files.reduce((counts, file) => {
   return counts;
 }, {});
 assert.deepEqual(audioRoles, {
-  "feedback-correct": 282,
-  "feedback-incorrect": 282,
-  option: 846,
-  prompt: 282
+  "feedback-correct": 306,
+  "feedback-incorrect": 306,
+  option: 918,
+  prompt: 306
 });
 
 assert.equal(questionArt.questionCount, 306);
