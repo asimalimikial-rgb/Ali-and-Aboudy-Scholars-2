@@ -52,6 +52,7 @@ fun LearningExperienceScreen(
     contentPackRepository: ContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     submissionService: ActivitySubmissionService,
+    initialDomain: String? = null,
     onExit: () -> Unit
 ) {
     val packId = remember(learnerPathway) {
@@ -67,6 +68,18 @@ fun LearningExperienceScreen(
     var selectedUnitId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
     var selectedLessonId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
     var selectedActivityId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+
+    LaunchedEffect(initialDomain, contentPack) {
+        selectedDomain = initialDomain
+        selectedBookId = if (initialDomain == null || contentPack == null) null else {
+            contentPack?.books.orEmpty().filter { book ->
+                ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == initialDomain
+            }.singleOrNull()?.bookId
+        }
+        selectedUnitId = null
+        selectedLessonId = null
+        selectedActivityId = null
+    }
 
     LaunchedEffect(packId) {
         if (packId == null) {
