@@ -44,6 +44,7 @@ import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.learning.LearnerProgressCalculator
 import com.asimalimikial.aas2.learning.MasteryLevel
+import com.asimalimikial.aas2.learning.ReviewQueueCalculator
 import kotlinx.coroutines.CancellationException
 
 /** Read-only parent view of one learner's locally stored progress. */
@@ -123,6 +124,15 @@ fun ParentDashboardScreen(
         packAttempts.filter { it.createdAtEpochMillis >= cutoff }
     }
     val recentCorrect = remember(recentAttempts) { recentAttempts.count { it.isCorrect == true } }
+    val reviewActivities = remember(loadedPack, packAttempts, profile.learnerId, packId) {
+        if (loadedPack == null || packId == null) emptyList() else
+            ReviewQueueCalculator.activitiesNeedingReview(
+                learnerId = profile.learnerId,
+                contentPackId = packId,
+                activities = ContentPackSelectionPolicy.englishActivities(loadedPack),
+                attempts = packAttempts
+            )
+    }
 
     BackHandler(onBack = onExit)
 
@@ -233,6 +243,34 @@ fun ParentDashboardScreen(
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
+                    }
+                }
+
+                if (reviewActivities.isNotEmpty()) {
+                    Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color.White)) {
+                        Column(
+                            modifier = Modifier.padding(18.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Text(
+                                stringResource(R.string.parent_review_title, reviewActivities.size),
+                                style = MaterialTheme.typography.titleLarge
+                            )
+                            reviewActivities.forEach { activity ->
+                                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                    Text(activity.prompt, style = MaterialTheme.typography.titleMedium)
+                                    val correctAnswer = activity.options.firstOrNull {
+                                        it.optionId == activity.correctOptionId
+                                    }?.text.orEmpty()
+                                    Text(
+                                        stringResource(R.string.parent_review_correct_answer, correctAnswer),
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.primary
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
 
