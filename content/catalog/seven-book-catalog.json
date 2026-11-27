@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.1.0",
-  "updatedAt": "2026-11-24",
+  "catalogVersion": "0.2.0",
+  "updatedAt": "2026-11-28",
   "project": "Ali & Aboudy Scholars 2",
   "learnerPaths": {
     "ali": {
@@ -22,24 +22,21 @@
       "learnerPath": "KG2",
       "subject": "English & Early Literacy / Cross-curricular awareness",
       "isbn": "9789356660113",
-      "currentAuthoredActivities": 65,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 46,
+      "runtimeMappedActivities": 46,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH",
       "plannedCoverage": [
         "initial sounds",
         "rhyming",
-        "everyday vocabulary",
-        "My World Discovery"
+        "everyday vocabulary"
       ],
       "openCoverage": [
-        "handwriting",
-        "stories",
-        "rhymes and songs",
+        "handwriting and fine-motor practice",
         "art and craft",
-        "SEL/STEM/creative coding",
-        "remaining literacy and numeracy sequence"
+        "songs and rhymes",
+        "social-emotional learning and creative play"
       ],
-      "nextAction": "Create the KG2 book/unit/lesson hierarchy and reconcile the 65 authored activities plus the eight pilot activities."
+      "nextAction": "Review and integrate the four non-scored guided-practice cards through a dedicated renderer; then extend remaining literacy scope."
     },
     {
       "sequence": 2,
@@ -50,9 +47,9 @@
       "learnerPath": "KG2",
       "subject": "Mathematics",
       "isbn": "9789356664975",
-      "currentAuthoredActivities": 35,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 38,
+      "runtimeMappedActivities": 38,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH",
       "plannedCoverage": [
         "counting pictures",
         "number patterns",
@@ -60,10 +57,10 @@
         "shapes"
       ],
       "openCoverage": [
-        "unit-level sequence",
-        "further numeracy and measurement coverage"
+        "review and consolidation tasks",
+        "additional age-appropriate measurement practice"
       ],
-      "nextAction": "Create the KG2 mathematics hierarchy and map the 35 authored activities plus relevant pilot activities."
+      "nextAction": "Complete visual/audio QA and verify all five units in the learner flow."
     },
     {
       "sequence": 3,
@@ -370,8 +367,8 @@
   ],
   "unassignedCurrentActivities": {
     "broadScienceEnrichment": 25,
-    "earlierPilotActivities": 20,
-    "rule": "Do not count these as mapped textbook coverage until each activity has a reviewed skill and book/unit/lesson destination."
+    "earlierPilotActivities": 19,
+    "rule": "Do not count these as mapped textbook coverage until each activity has a reviewed skill and book/unit/lesson destination. The 25 broad Science enrichment activities remain supplementary; the My World Discovery companion path is tracked separately."
   },
   "excludedFromSevenBookScope": [
     {
@@ -383,8 +380,36 @@
   "integrationState": {
     "androidRuntimeCatalogLoading": "NOT_IMPLEMENTED",
     "grade2ScienceHierarchy": "INTEGRATED",
-    "kg2Hierarchy": "NOT_INTEGRATED",
+    "kg2Hierarchy": "INTEGRATED_IN_FEATURE_BRANCH_PENDING_MEDIA_QA_AND_PR_MERGE",
     "otherBookHierarchies": "NOT_INTEGRATED",
-    "completeSevenBookCoverage": "NOT_COMPLETE"
-  }
+    "completeSevenBookCoverage": "NOT_COMPLETE",
+    "myWorldDiscoveryCompanionPath": "INTEGRATED_IN_FEATURE_BRANCH"
+  },
+  "companionLearningPaths": [
+    {
+      "pathId": "aas2-my-world-discovery-kg2",
+      "title": "AAS2 My World Discovery — KG2 Companion Path",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "subject": "Discovery / Early Science",
+      "scopeStatus": "ORIGINAL_AAS2_COMPANION_SCOPE_NOT_A_MACMILLAN_TEXTBOOK",
+      "currentAuthoredActivities": 41,
+      "runtimeMappedActivities": 16,
+      "additionalPracticeActivities": 25,
+      "unitCount": 2,
+      "lessonCount": 5,
+      "integratedLessonIds": [
+        "MWD-KG2-U01-L01",
+        "MWD-KG2-U01-L02",
+        "MWD-KG2-U01-L03",
+        "MWD-KG2-U02-L01",
+        "MWD-KG2-U02-L02"
+      ],
+      "openCoverage": [
+        "adult-guided outdoor observation and recording",
+        "additional practical investigations and visual sequencing"
+      ],
+      "note": "The 25 broad legacy discovery items remain Additional Practice until item-level lesson alignment is established. The 16 lesson-mapped items comprise 15 new authored activities and one existing English pilot activity."
+    }
+  ]
 }
