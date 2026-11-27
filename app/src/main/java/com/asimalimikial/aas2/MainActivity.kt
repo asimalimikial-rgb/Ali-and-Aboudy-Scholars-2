@@ -380,6 +380,14 @@ private fun LearnerHome(
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
     }
     val accuracy = practiceSummary.accuracyPercent
+    val activitiesTried = remember(loadedPack, attempts) {
+        val currentPackId = loadedPack?.packId
+        if (currentPackId == null) 0 else attempts
+            .filter { it.contentPackId == currentPackId && it.isCorrect != null }
+            .map { it.activityId }
+            .toSet()
+            .size
+    }
     val recommendedLearningArea = remember(loadedPack, attempts, profile.pathway) {
         val pack = loadedPack
         if (pack == null) null else {
@@ -400,7 +408,7 @@ private fun LearnerHome(
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween) {
             Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                Text("YOUR LEARNING WORLD", color = accent, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black)
+                Text(stringResource(R.string.child_home_eyebrow), color = accent, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black)
                 Text(stringResource(R.string.welcome_name, displayName), style = MaterialTheme.typography.headlineMedium,
                     fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
                 Text(displayPathway, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF77859A))
@@ -415,11 +423,16 @@ private fun LearnerHome(
             colors = CardDefaults.cardColors(containerColor = Color(0xFF397CC7)),
             elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)) {
             Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text(if (practiceSummary.scoredAttempts == 0) "Ready for today's adventure?" else "Look how far you have come, $displayName!",
-                    style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold)
-                Text(if (practiceSummary.scoredAttempts == 0) "Choose a subject and discover something new."
-                    else "Every activity is another step in your learning journey.",
-                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2))
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_home_ready_title)
+                    else stringResource(R.string.child_home_progress_title, displayName),
+                    style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold
+                )
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_home_ready_body)
+                    else stringResource(R.string.child_home_progress_body),
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2)
+                )
                 Button(modifier = Modifier.fillMaxWidth().height(60.dp), onClick = onStartLearning,
                     shape = RoundedCornerShape(18.dp), colors = ButtonDefaults.buttonColors(containerColor = accent)) {
                     Text(stringResource(R.string.start_learning), fontWeight = FontWeight.Black, style = MaterialTheme.typography.titleMedium)
@@ -440,9 +453,11 @@ private fun LearnerHome(
             }
         }
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            listOf(Triple(practiceSummary.scoredAttempts.toString(), "Activities", "📚"),
-                Triple(practiceSummary.correctAnswers.toString(), "Correct", "⭐"),
-                Triple(if (practiceSummary.scoredAttempts == 0) "—" else "$accuracy%", "Accuracy", "🎯")).forEach { item ->
+            listOf(
+                Triple(activitiesTried.toString(), stringResource(R.string.child_stat_activities), "📚"),
+                Triple(practiceSummary.correctAnswers.toString(), stringResource(R.string.child_stat_correct), "✓"),
+                Triple(if (practiceSummary.scoredAttempts == 0) "—" else "$accuracy%", stringResource(R.string.child_stat_accuracy), "🎯")
+            ).forEach { item ->
                 Card(modifier = Modifier.weight(1f), shape = RoundedCornerShape(20.dp),
                     colors = CardDefaults.cardColors(containerColor = Color.White)) {
                     Column(modifier = Modifier.fillMaxWidth().padding(vertical = 13.dp, horizontal = 7.dp),
@@ -499,10 +514,12 @@ private fun LearnerHome(
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF7E5))) {
             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
-                Text("🌱  Keep growing", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF80602B))
-                Text(if (practiceSummary.scoredAttempts == 0) "Try your first activity. Every great journey starts with one step."
-                    else "You have completed " + practiceSummary.scoredAttempts + " activities. Keep exploring at your own pace.",
-                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFF8A744B))
+                Text(stringResource(R.string.child_keep_growing_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF80602B))
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_keep_growing_first)
+                    else stringResource(R.string.child_keep_growing_progress, activitiesTried),
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFF8A744B)
+                )
             }
         }
         OutlinedButton(modifier = Modifier.fillMaxWidth().height(54.dp), onClick = onOpenParentDashboard,
