@@ -1,6 +1,11 @@
 package com.asimalimikial.aas2.ui
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -128,13 +133,48 @@ fun LearningExperienceScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(
+                Brush.verticalGradient(
+                    listOf(
+                        if (learnerPathway == "KG2") Color(0xFFFFF4EC) else Color(0xFFEDF4FF),
+                        Color(0xFFF8FAFD),
+                        Color.White
+                    )
+                )
+            )
             .verticalScroll(rememberScrollState())
-            .padding(20.dp),
+            .padding(horizontal = 18.dp, vertical = 18.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
+        Card(
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(24.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
+            elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        ) {
+            Column(modifier = Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text("🗺️  YOUR LEARNING WORLD", style = MaterialTheme.typography.labelLarge,
+                    color = Color(0xFFD7E8F6))
+                Text(
+                    when {
+                        selectedActivity != null -> "One question at a time"
+                        selectedLesson != null -> selectedLesson.title
+                        selectedUnit != null -> selectedUnit.title
+                        selectedBook != null -> selectedBook.title
+                        selectedDomain != null -> selectedDomain
+                        else -> if (learnerPathway == "KG2") "Ali's adventure map" else "Aboudy's discovery map"
+                    },
+                    style = MaterialTheme.typography.titleLarge,
+                    color = Color.White
+                )
+                Text("Explore • Practise • Discover", style = MaterialTheme.typography.bodySmall,
+                    color = Color(0xFFD7E8F6))
+            }
+        }
         OutlinedButton(
             modifier = Modifier.fillMaxWidth(),
-            onClick = { navigateBack() }
+            onClick = { navigateBack() },
+            shape = RoundedCornerShape(16.dp)
         ) {
             Text(
                 stringResource(
