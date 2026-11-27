@@ -160,7 +160,7 @@ fun LearningExperienceScreen(
                 Text(
                     when {
                         selectedActivity != null -> "One question at a time"
-                        selectedLesson != null -> selectedLesson.title
+                        selectedLesson != null -> selectedLesson.title ?: "Lesson"
                         selectedUnit != null -> selectedUnit.title
                         selectedBook != null -> selectedBook.title
                         selectedDomain != null -> selectedDomain
