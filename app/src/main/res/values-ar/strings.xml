@@ -29,6 +29,7 @@
     <string name="back_to_learning_space">العودة إلى مساحة التعلم</string>
     <string name="no_activities_available">لا توجد أنشطة متاحة في هذا المجال حالياً.</string>
     <string name="lesson_activities_in_preparation">أنشطة هذا الدرس قيد الإعداد. يمكنك استخدام الأنشطة الإضافية في هذه المادة حالياً.</string>
+    <string name="book_activities_in_preparation">أنشطة هذا الكتاب قيد الإعداد، لكن فصوله ودروسه متاحة الآن.</string>
     <string name="choose_learning_area">اختر مجالاً للتعلم</string>
     <string name="choose_activity">اختر نشاطاً</string>
     <string name="back_to_learning_areas">العودة إلى مجالات التعلم</string>
