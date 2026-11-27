@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_title">Ali &amp; Aboudy Scholars</string>
+    <string name="app_title">Ali &amp; Aboudy Scholar</string>
     <string name="choose_learner">Choose a learner</string>
     <string name="learner_separation_note">Each learner has a separate profile and learning history.</string>
     <string name="preparing_profiles">Preparing learner profiles…</string>

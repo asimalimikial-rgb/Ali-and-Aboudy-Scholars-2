@@ -30,6 +30,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.asimalimikial.aas2.R
@@ -53,7 +54,7 @@ fun ParentDashboardScreen(
     onOpenSettings: () -> Unit,
     onExit: () -> Unit
 ) {
-    val lifecycleOwner = LocalLifecycleOwner.current
+    val lifecycleOwner = ProcessLifecycleOwner.get()
     val currentOnExit by rememberUpdatedState(onExit)
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
@@ -66,12 +67,16 @@ fun ParentDashboardScreen(
     val packId = remember(profile.pathway) {
         ContentPackSelectionPolicy.packIdForPathway(profile.pathway)
     }
-    val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
+    val attemptsFlow = remember(profile.learnerId) { learningAttemptDao.observeForLearner(profile.learnerId) }
+    val attempts by attemptsFlow.collectAsState(initial = emptyList())
     var contentPack by remember(profile.learnerId) { mutableStateOf<ContentPack?>(null) }
     var isLoading by remember(profile.learnerId) { mutableStateOf(true) }
     var loadError by remember(profile.learnerId) { mutableStateOf(false) }
 
     LaunchedEffect(packId) {
+        isLoading = true
+        loadError = false
+        contentPack = null
         if (packId == null) {
             loadError = true
             isLoading = false

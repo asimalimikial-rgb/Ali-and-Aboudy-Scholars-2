@@ -3,17 +3,20 @@ name: Content validation
 on:
   push:
     branches:
+      - main
       - foundation/slice-0-android
     paths:
       - "content/catalog/**"
       - "content/staging/**"
       - "tools/content/**"
+      - "docs/**"
       - ".github/workflows/content-validation.yml"
   pull_request:
     paths:
       - "content/catalog/**"
       - "content/staging/**"
       - "tools/content/**"
+      - "docs/**"
       - ".github/workflows/content-validation.yml"
   workflow_dispatch:
 
@@ -32,5 +35,9 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "22"
-      - name: Validate catalog and review patch
+      - name: Validate catalog, review patch and media checksums
         run: node tools/content/validate-staging-content.mjs
+      - name: Check web application JavaScript syntax
+        run: |
+          node --check docs/app.js
+          node --check docs/sw.js

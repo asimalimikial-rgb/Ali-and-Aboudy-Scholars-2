@@ -3,21 +3,26 @@ package com.asimalimikial.aas2.ui
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Card
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.produceState
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
@@ -40,6 +45,12 @@ private data class PersonalBookCover(
     val title: String,
     val assetPath: String
 )
+
+private sealed interface CoverState {
+    data object Loading : CoverState
+    data class Ready(val bitmap: Bitmap) : CoverState
+    data object Error : CoverState
+}
 
 /** Shows the learner's real study-book covers locally; no network request is made. */
 @Composable
@@ -64,9 +75,7 @@ internal fun PersonalBookShelf(learnerPathway: String) {
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     ownBooks.forEach { cover ->
-                        key(cover.coverId) {
-                            PersonalBookCoverCard(cover)
-                        }
+                        key(cover.coverId) { PersonalBookCoverCard(cover) }
                     }
                 }
             }
@@ -77,25 +86,42 @@ internal fun PersonalBookShelf(learnerPathway: String) {
 @Composable
 private fun PersonalBookCoverCard(cover: PersonalBookCover) {
     val context = LocalContext.current
-    val bitmap by produceState<Bitmap?>(initialValue = null, key1 = cover.assetPath) {
+    val state by produceState<CoverState>(initialValue = CoverState.Loading, key1 = cover.assetPath) {
         value = withContext(Dispatchers.IO) {
             runCatching {
                 context.assets.open(cover.assetPath).use { input ->
                     BitmapFactory.decodeStream(input, null, BitmapFactory.Options().apply { inSampleSize = 2 })
                 }
-            }.getOrNull()
+            }.fold(
+                onSuccess = { bitmap -> bitmap?.let { CoverState.Ready(it) } ?: CoverState.Error },
+                onFailure = { CoverState.Error }
+            )
         }
     }
     Card(modifier = Modifier.width(132.dp)) {
         Column(modifier = Modifier.width(132.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            bitmap?.let {
-                Image(
-                    bitmap = it.asImageBitmap(),
+            when (val coverState = state) {
+                CoverState.Loading -> Box(
+                    modifier = Modifier.fillMaxWidth().height(156.dp)
+                        .background(MaterialTheme.colorScheme.surfaceVariant),
+                    contentAlignment = Alignment.Center
+                ) {
+                    CircularProgressIndicator(modifier = Modifier.size(20.dp), strokeWidth = 2.dp)
+                }
+                is CoverState.Ready -> Image(
+                    bitmap = coverState.bitmap.asImageBitmap(),
                     contentDescription = cover.title,
                     modifier = Modifier.fillMaxWidth().height(156.dp),
                     contentScale = ContentScale.Fit
                 )
-            } ?: Text("Cover unavailable", modifier = Modifier.height(156.dp))
+                CoverState.Error -> Box(
+                    modifier = Modifier.fillMaxWidth().height(156.dp)
+                        .background(MaterialTheme.colorScheme.surfaceVariant),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text("Cover unavailable", style = MaterialTheme.typography.labelSmall)
+                }
+            }
             Text(
                 cover.title,
                 modifier = Modifier.fillMaxWidth(),

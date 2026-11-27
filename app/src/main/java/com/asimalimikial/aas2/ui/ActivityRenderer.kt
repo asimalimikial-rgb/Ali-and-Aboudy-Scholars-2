@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Button
@@ -34,6 +36,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.selected
@@ -59,14 +64,22 @@ fun ActivityRenderer(
 ) {
     val context = LocalContext.current
     val audioController = remember(activity.activityId) { OfflineAudioController(context) }
-    androidx.compose.runtime.DisposableEffect(audioController) {
-        onDispose { audioController.release() }
+    val lifecycleOwner = LocalLifecycleOwner.current
+    androidx.compose.runtime.DisposableEffect(audioController, lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_STOP) audioController.stop()
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+            audioController.release()
+        }
     }
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     LaunchedEffect(activity.activityId, currentEvaluation) {
         if (currentEvaluation == null) {
-            activity.promptAudioAssetPath?.let { audioController.toggle(it) }
+            activity.promptAudioAssetPath?.let { audioController.play(it) }
         } else {
             // Stop the question clip even when this activity has no feedback recording.
             audioController.stop()
@@ -75,7 +88,7 @@ fun ActivityRenderer(
             } else {
                 activity.feedbackIncorrectAudioAssetPath
             }
-            encouragementAudio?.let { audioController.toggle(it) }
+            encouragementAudio?.let { audioController.play(it) }
         }
     }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
@@ -125,7 +138,8 @@ fun ActivityRenderer(
                         OutlinedButton(
                             modifier = Modifier
                                 .weight(1f)
-                                .height(72.dp)
+                                .heightIn(min = 72.dp)
+                                .wrapContentHeight()
                                 .semantics { selected = isSelected },
                             shape = RoundedCornerShape(18.dp),
                             enabled = canChangeAnswer,
@@ -227,6 +241,7 @@ private fun AudioClipButton(
     modifier: Modifier = Modifier
 ) {
     val isActive = controller.activeAssetPath == assetPath
+    val hasError = controller.failedAssetPath == assetPath
     val buttonLabel = when {
         isActive && controller.isLoading -> stringResource(R.string.audio_loading)
         isActive && controller.isPlaying -> stringResource(R.string.audio_stop)
@@ -239,7 +254,7 @@ private fun AudioClipButton(
     ) {
         Text(buttonLabel)
     }
-    if (isActive && controller.hasError) {
+    if (hasError) {
         Text(
             stringResource(R.string.audio_error),
             style = MaterialTheme.typography.bodySmall,
@@ -288,9 +303,10 @@ private fun OptionImage(
         }
     }
 
-    bitmap?.let { decoded ->
+    val imageBitmap = remember(bitmap) { bitmap?.asImageBitmap() }
+    imageBitmap?.let { decoded ->
         Image(
-            bitmap = decoded.asImageBitmap(),
+            bitmap = decoded,
             contentDescription = contentDescription,
             modifier = Modifier
                 .fillMaxWidth()

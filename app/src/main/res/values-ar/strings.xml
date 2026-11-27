@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_title">علماء علي وعبودي</string>
+    <string name="app_title">علي وعبودي Scholar</string>
     <string name="choose_learner">اختر المتعلم</string>
     <string name="learner_separation_note">لكل طفل ملف تعلّم وسجل إنجازات مستقل.</string>
     <string name="preparing_profiles">جارٍ تجهيز ملفات المتعلمين…</string>

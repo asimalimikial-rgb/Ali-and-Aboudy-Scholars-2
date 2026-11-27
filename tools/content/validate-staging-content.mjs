@@ -174,7 +174,11 @@ assert.ok(audio.files.every(file =>
   file.durationMs >= 100 && /^[a-f0-9]{64}$/.test(file.sha256)
 ), "Every audio manifest entry must have valid English/speed/hash/size/duration metadata.");
 for (const file of audio.files) {
-  assert.ok(fs.existsSync(path.join(assetRoot, "speech", file.file)), "Missing OGG file: " + file.file);
+  const assetPath = path.join(assetRoot, "speech", file.file);
+  assert.ok(fs.existsSync(assetPath), "Missing OGG file: " + file.file);
+  const bytes = fs.readFileSync(assetPath);
+  assert.equal(bytes.length, file.bytes, "Audio byte count mismatch: " + file.file);
+  assert.equal(crypto.createHash("sha256").update(bytes).digest("hex"), file.sha256, "Audio checksum mismatch: " + file.file);
 }
 const audioRoles = audio.files.reduce((counts, file) => {
   counts[file.role] = (counts[file.role] || 0) + 1;
@@ -195,17 +199,22 @@ assert.ok(unique(questionArt.files.map(file => file.activityId)), "Question-art 
 assert.ok(unique(questionArt.files.map(file => file.path)), "Question-art paths must be unique.");
 assert.ok(unique(questionArt.files.map(file => file.sha256)), "Question-art hashes must be unique.");
 for (const file of questionArt.files) {
-  assert.ok(fs.existsSync(path.join(assetRoot, file.path)), "Missing question illustration: " + file.path);
-  assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid question-art metadata: " + file.path);
+  const assetPath = path.join(assetRoot, file.path);
+  assert.ok(fs.existsSync(assetPath), "Missing question illustration: " + file.path);
+  const bytes = fs.readFileSync(assetPath);
+  assert.equal(bytes.length, file.bytes, "Question-art byte count mismatch: " + file.path);
+  assert.equal(crypto.createHash("sha256").update(bytes).digest("hex"), file.sha256, "Question-art checksum mismatch: " + file.path);
 }
 
-assert.equal(optionArt.count, 373);
-assert.equal(optionArt.files.length, 373);
+assert.equal(optionArt.count, optionArt.files.length, "Option-art manifest count must match its file entries.");
 assert.ok(unique(optionArt.files.map(file => file.path)), "Option-art paths must be unique.");
 assert.ok(unique(optionArt.files.map(file => file.sha256)), "Option-art hashes must be unique.");
 for (const file of optionArt.files) {
-  assert.ok(fs.existsSync(path.join(assetRoot, file.path)), "Missing option illustration: " + file.path);
-  assert.ok(file.bytes > 0 && /^[a-f0-9]{64}$/.test(file.sha256), "Invalid option-art metadata: " + file.path);
+  const assetPath = path.join(assetRoot, file.path);
+  assert.ok(fs.existsSync(assetPath), "Missing option illustration: " + file.path);
+  const bytes = fs.readFileSync(assetPath);
+  assert.equal(bytes.length, file.bytes, "Option-art byte count mismatch: " + file.path);
+  assert.equal(crypto.createHash("sha256").update(bytes).digest("hex"), file.sha256, "Option-art checksum mismatch: " + file.path);
 }
 
 const audioFileByName = new Map(audio.files.map(file => [file.file, file]));
