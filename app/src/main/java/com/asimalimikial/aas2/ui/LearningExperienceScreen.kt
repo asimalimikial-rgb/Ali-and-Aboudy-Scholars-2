@@ -142,6 +142,23 @@ fun LearningExperienceScreen(
                 (activity.bookId == null && activity.skillId in lessonSkillIds)
         }
     }
+
+    val selectedBookSkillIds = remember(loadedPack, selectedBookId) {
+        val unitIds = loadedPack?.units.orEmpty()
+            .filter { it.bookId == selectedBookId }
+            .map { it.unitId }
+            .toSet()
+        loadedPack?.lessons.orEmpty()
+            .filter { it.unitId in unitIds }
+            .flatMap { it.skillIds }
+            .toSet()
+    }
+    val selectedBookActivities = remember(activities, selectedBookId, selectedBookSkillIds) {
+        activities.filter { activity ->
+            activity.bookId == selectedBookId ||
+                (activity.bookId == null && activity.skillId in selectedBookSkillIds)
+        }
+    }
     val selectedActivitySequence = remember(
         lessonActivities,
         selectedDomainUnassignedActivities,
@@ -330,6 +347,29 @@ fun LearningExperienceScreen(
                         activityCount = unitItems.size,
                         onClick = { selectedUnitId = unit.unitId }
                     )
+                }
+                if (bookUnits.isEmpty() ||
+                    (selectedBookActivities.isEmpty() && selectedDomainUnassignedActivities.isEmpty())
+                ) {
+                    Text(
+                        stringResource(R.string.book_activities_in_preparation),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                if (selectedDomainUnassignedActivities.isNotEmpty()) {
+                    Text(
+                        stringResource(R.string.additional_practice),
+                        style = MaterialTheme.typography.titleMedium
+                    )
+                    selectedDomainUnassignedActivities.forEachIndexed { index, activity ->
+                        ActivityCatalogueCard(
+                            index = index + 1,
+                            activity = activity,
+                            isPractised = activity.activityId in practicedActivityIds,
+                            onClick = { selectedActivityId = activity.activityId }
+                        )
+                    }
                 }
             }
 
