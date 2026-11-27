@@ -1,6 +1,7 @@
 package com.asimalimikial.aas2
 
 import android.app.Activity
+import android.content.Context
 import android.app.AlertDialog
 import android.app.KeyguardManager
 import android.content.Intent
@@ -26,6 +27,9 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -120,9 +124,9 @@ class MainActivity : ComponentActivity() {
                 initial = ParentAppLanguagePolicy.SYSTEM
             )
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
-            var showLearningExperience by remember { mutableStateOf(false) }
-            var showParentDashboard by remember { mutableStateOf(false) }
-            var showParentSettings by remember { mutableStateOf(false) }
+            var showLearningExperience by rememberSaveable { mutableStateOf(false) }
+            var showParentDashboard by rememberSaveable { mutableStateOf(false) }
+            var showParentSettings by rememberSaveable { mutableStateOf(false) }
             val parentSurfaceActive = showParentDashboard || showParentSettings
             val appLocale = remember(parentAppLanguage, parentSurfaceActive) {
                 ParentAppLanguagePolicy.localeForActiveScreen(parentSurfaceActive, parentAppLanguage)
@@ -139,10 +143,15 @@ class MainActivity : ComponentActivity() {
                 baseContext.createConfigurationContext(localizedConfiguration)
             }
 
+            var previousLearnerId by rememberSaveable { mutableStateOf<String?>(null) }
             LaunchedEffect(selectedProfile?.learnerId) {
-                showLearningExperience = false
-                showParentDashboard = false
-                showParentSettings = false
+                val currentLearnerId = selectedProfile?.learnerId
+                if (previousLearnerId != null && currentLearnerId != previousLearnerId) {
+                    showLearningExperience = false
+                    showParentDashboard = false
+                    showParentSettings = false
+                }
+                if (currentLearnerId != null) previousLearnerId = currentLearnerId
             }
 
             LaunchedEffect(selectedLearnerId, profiles) {
@@ -161,7 +170,7 @@ class MainActivity : ComponentActivity() {
                 }
             ) {
                 MaterialTheme {
-                    Surface(modifier = Modifier.fillMaxSize()) {
+                    Surface(modifier = Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
                     if (selectedProfile == null) {
                         LearnerProfileSelection(
                             profiles = LearnerSelectionPolicy.activeProfiles(profiles),
@@ -211,7 +220,7 @@ class MainActivity : ComponentActivity() {
                             learningAttemptDao = database.learningAttemptDao(),
                             onStartLearning = { showLearningExperience = true },
                             onOpenParentDashboard = {
-                                requestParentGate { showParentDashboard = true }
+                                requestParentGate(localizedContext) { showParentDashboard = true }
                             },
                             onSwitchLearner = {
                                 showLearningExperience = false
@@ -230,16 +239,16 @@ class MainActivity : ComponentActivity() {
     }
 
     @Suppress("DEPRECATION")
-    private fun requestParentGate(onAuthorized: () -> Unit) {
+    private fun requestParentGate(localizedContext: Context, onAuthorized: () -> Unit) {
         val keyguardManager = getSystemService(KeyguardManager::class.java)
         if (keyguardManager == null || !keyguardManager.isDeviceSecure) {
-            showParentGateSetupRequired()
+            showParentGateSetupRequired(localizedContext)
             return
         }
 
         val credentialIntent = keyguardManager.createConfirmDeviceCredentialIntent(
-            getString(R.string.parent_gate_title),
-            getString(R.string.parent_gate_description)
+            localizedContext.getString(R.string.parent_gate_title),
+            localizedContext.getString(R.string.parent_gate_description)
         )
         if (credentialIntent == null) {
             showParentGateSetupRequired()
@@ -276,7 +285,7 @@ private fun LearnerProfileSelection(
             .padding(horizontal = 22.dp, vertical = 30.dp),
         verticalArrangement = Arrangement.spacedBy(18.dp)
     ) {
-        Text("ALI & ABOUDY SCHOLARS", color = Color(0xFF71829A), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.ExtraBold)
+        Text("ALI & ABOUDY SCHOLAR", color = Color(0xFF71829A), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.ExtraBold)
         Text(stringResource(R.string.app_title), style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
         Text(stringResource(R.string.choose_learner), style = MaterialTheme.typography.titleLarge, color = Color(0xFF52647C), fontWeight = FontWeight.Bold)
         Text(stringResource(R.string.learner_separation_note), style = MaterialTheme.typography.bodyMedium, color = Color(0xFF78869A))
@@ -371,7 +380,7 @@ private fun LearnerHome(
                     fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
                 Text(displayPathway, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF77859A))
             }
-            OutlinedButton(onClick = onSwitchLearner, shape = RoundedCornerShape(16.dp)) { Text("⇄") }
+            OutlinedButton(onClick = onSwitchLearner, shape = RoundedCornerShape(16.dp)) { Text(stringResource(R.string.switch_learner)) }
         }
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
