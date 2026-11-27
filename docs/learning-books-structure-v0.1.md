@@ -23,7 +23,7 @@
   1. Early Language and Literacy — Everyday Vocabulary; Listening and Understanding; Stories and Sequencing.
   2. Phonics and Sound Awareness — Initial Sounds; Rhyming Words.
   3. Creative and Social Learning — Handwriting Readiness; Creative Expression; Cooperation and Turn-Taking; Self-Regulation and Learning Routines.
-- Existing English questions are surfaced under the lesson matching their reviewed skill. Other lesson activities remain to be authored/reviewed.
+- The 65 current authored questions remain in the separate subject-level Additional Practice section. Runtime-mapped activities: 0 until item-level alignment and pedagogy QA are approved.
 
 ### Maths Xpress — Senior KG
 - ISBN: 9789356664975.
@@ -47,23 +47,23 @@
 - Official publisher Scope and Sequence: https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf
 - The 12 official unit titles are retained: At the castle; In Biffo's garden; Pirate Jack; A fantastic shop; Pirate Jack is on TV; Who is the winner?; A trip in a balloon; Look at the animals!; Look! The sea!; The island; The boat; Welcome home!
 - Lesson names are original AAS2 outcome groupings derived from the verified scope, not copied pupil-book lessons.
-- Current broad English questions remain in the separate subject-level Additional Practice section until item-level unit alignment is reviewed. Unit lessons have explicit AAS2 learning outcomes; no broad question is guessed into a publisher unit.
+- The 35 current authored English questions remain in the separate subject-level Additional Practice section until item-level unit alignment is reviewed. Runtime-mapped activities: 0; no broad question is guessed into a publisher unit.
 
 ### Macmillan Mathematics — Level 2A
 - ISBN: 9781035130382.
 - Publisher-origin contents listing: https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629
 - The verified 12-unit sequence is represented: Numbers to 100; Numbers to 999; Addition to 99; Assess and review; Subtraction within 99; Multiplication; Number facts; Assess and review; Equations and functions; Fractions; Time; Assess and review.
-- Existing skills are grouped into lesson outcomes. Candidate activity-to-unit alignments remain pending item-level pedagogy review.
+- The 31 candidate Mathematics 2A activities remain in Additional Practice; runtime-mapped activities: 0 until item-level unit alignment and pedagogy QA are approved.
 
 ### Macmillan Mathematics — Level 2B
 - ISBN: 9781380000613.
 - Publisher-origin contents listing: https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649
 - The verified 12-unit sequence is represented: Numbers and number patterns; Addition and subtraction to 999; Money; Assess and review; Flat and solid shapes; Lines and shapes; Area of shapes; Assess and review; Measuring length; Measures problems; Handling data; Assess and review.
-- Candidate activity-to-unit alignments remain pending item-level pedagogy review.
+- The 9 candidate Mathematics 2B activities remain in Additional Practice; runtime-mapped activities: 0 until item-level unit alignment and pedagogy QA are approved.
 
 ### Macmillan Science — Level 2 Pupil's Book and eBook Pack
 - ISBN: 9781035130740.
-- The existing runtime hierarchy for Units 1–2 and their 9 lessons / 62 mapped activities is preserved.
+- The existing runtime hierarchy for Units 1–2 and their 9 lessons / 62 approved mapped activities is preserved. These are the only publisher-book activities currently runtime-mapped in the two learner packs.
 - Runtime outlines for Units 3–5 are now represented:
   - Unit 3 — Senses and Our Bodies: Five Senses and Sense Organs; Hearing and Making Sounds; Seeing the World and Colour; Touch and Texture; Taste and Smell Safely.
   - Unit 4 — Materials and Physical Properties: Floating and Sinking; Liquids and Containers; Dissolving and Mixing; Heat Sources and Safety.
@@ -74,7 +74,7 @@
 - ISBN: 9789356664999.
 - Product identity is listed in the publisher catalogue, but a publisher contents sequence was not verified.
 - The five runtime units are an explicitly provisional original AAS2 companion path, not publisher chapter titles: Numbers and Patterns; Addition and Subtraction; Multiplication and Equal Groups; Fractions and Measurement; Geometry and Data.
-- No activity is assigned to this book until its content is authored and reviewed.
+- No activity is assigned to this book until its content is authored and reviewed; runtime-mapped activities: 0.
 
 ## Learning values and child experience
 
