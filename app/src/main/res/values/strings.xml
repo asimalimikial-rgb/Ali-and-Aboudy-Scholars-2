@@ -110,4 +110,8 @@
     <string name="audio_error">Audio could not be played.</string>
     <string name="unit_number_title">Unit %1$d: %2$s</string>
     <string name="lesson_number_title">Lesson %1$d: %2$s</string>
+    <string name="activity_final_incorrect_feedback">Good effort! Let’s learn the correct answer.</string>
+    <string name="activity_correct_answer">Correct answer: %1$s</string>
+    <string name="parent_review_title">Questions to review (%1$d)</string>
+    <string name="parent_review_correct_answer">Correct answer: %1$s</string>
 </resources>
