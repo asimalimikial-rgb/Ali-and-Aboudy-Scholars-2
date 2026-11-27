@@ -120,44 +120,14 @@ fun LearningExperienceScreen(
             ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == selectedDomain
         }
     }
-    val domainBookSkillIds = remember(loadedPack, domainBooks) {
-        val unitIds = loadedPack?.units.orEmpty()
-            .filter { unit -> domainBooks.any { it.bookId == unit.bookId } }
-            .map { it.unitId }
-            .toSet()
-        loadedPack?.lessons.orEmpty()
-            .filter { it.unitId in unitIds }
-            .flatMap { it.skillIds }
-            .toSet()
+    val selectedDomainUnassignedActivities = remember(selectedDomainActivities) {
+        selectedDomainActivities.filter { it.bookId == null }
     }
-    val selectedDomainUnassignedActivities = remember(selectedDomainActivities, domainBookSkillIds) {
-        selectedDomainActivities.filter { activity ->
-            activity.bookId == null && activity.skillId !in domainBookSkillIds
-        }
+    val lessonActivities = remember(activities, selectedLessonId) {
+        activities.filter { it.lessonId == selectedLessonId }
     }
-    val lessonActivities = remember(activities, selectedLessonId, selectedLesson, selectedBookId) {
-        val lessonSkillIds = selectedLesson?.skillIds.orEmpty().toSet()
-        activities.filter { activity ->
-            activity.lessonId == selectedLessonId ||
-                (activity.bookId == null && activity.skillId in lessonSkillIds)
-        }
-    }
-
-    val selectedBookSkillIds = remember(loadedPack, selectedBookId) {
-        val unitIds = loadedPack?.units.orEmpty()
-            .filter { it.bookId == selectedBookId }
-            .map { it.unitId }
-            .toSet()
-        loadedPack?.lessons.orEmpty()
-            .filter { it.unitId in unitIds }
-            .flatMap { it.skillIds }
-            .toSet()
-    }
-    val selectedBookActivities = remember(activities, selectedBookId, selectedBookSkillIds) {
-        activities.filter { activity ->
-            activity.bookId == selectedBookId ||
-                (activity.bookId == null && activity.skillId in selectedBookSkillIds)
-        }
+    val selectedBookActivities = remember(activities, selectedBookId) {
+        activities.filter { it.bookId == selectedBookId }
     }
     val selectedActivitySequence = remember(
         lessonActivities,
@@ -314,11 +284,7 @@ fun LearningExperienceScreen(
             selectedUnit != null -> {
                 Text(stringResource(R.string.choose_lesson), style = MaterialTheme.typography.headlineSmall)
                 unitLessons.forEach { lesson ->
-                    val lessonSkillIds = lesson.skillIds.toSet()
-                    val lessonItems = activities.filter { activity ->
-                        activity.lessonId == lesson.lessonId ||
-                            (activity.bookId == null && activity.skillId in lessonSkillIds)
-                    }
+                    val lessonItems = activities.filter { it.lessonId == lesson.lessonId }
                     val practicedCount = lessonItems.count { it.activityId in practicedActivityIds }
                     LessonCard(
                         lesson = lesson,
@@ -332,14 +298,7 @@ fun LearningExperienceScreen(
             selectedBook != null -> {
                 Text(stringResource(R.string.choose_unit), style = MaterialTheme.typography.headlineSmall)
                 bookUnits.forEach { unit ->
-                    val unitSkillIds = loadedPack.lessons
-                        .filter { it.unitId == unit.unitId }
-                        .flatMap { it.skillIds }
-                        .toSet()
-                    val unitItems = activities.filter { activity ->
-                        activity.unitId == unit.unitId ||
-                            (activity.bookId == null && activity.skillId in unitSkillIds)
-                    }
+                    val unitItems = activities.filter { it.unitId == unit.unitId }
                     val practicedCount = unitItems.count { it.activityId in practicedActivityIds }
                     UnitCard(
                         unit = unit,
@@ -348,9 +307,7 @@ fun LearningExperienceScreen(
                         onClick = { selectedUnitId = unit.unitId }
                     )
                 }
-                if (bookUnits.isEmpty() ||
-                    (selectedBookActivities.isEmpty() && selectedDomainUnassignedActivities.isEmpty())
-                ) {
+                if (bookUnits.isEmpty() || selectedBookActivities.isEmpty()) {
                     Text(
                         stringResource(R.string.book_activities_in_preparation),
                         style = MaterialTheme.typography.bodyLarge,
@@ -376,15 +333,7 @@ fun LearningExperienceScreen(
             selectedDomain != null -> {
                 Text(stringResource(R.string.choose_activity), style = MaterialTheme.typography.headlineSmall)
                 domainBooks.forEach { book ->
-                    val unitIds = loadedPack.units.filter { it.bookId == book.bookId }.map { it.unitId }.toSet()
-                    val skillIds = loadedPack.lessons
-                        .filter { it.unitId in unitIds }
-                        .flatMap { it.skillIds }
-                        .toSet()
-                    val bookItems = activities.filter { activity ->
-                        activity.bookId == book.bookId ||
-                            (activity.bookId == null && activity.skillId in skillIds)
-                    }
+                    val bookItems = activities.filter { it.bookId == book.bookId }
                     val practicedCount = bookItems.count { it.activityId in practicedActivityIds }
                     BookCard(
                         book = book,
