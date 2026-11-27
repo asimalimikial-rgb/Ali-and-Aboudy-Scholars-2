@@ -228,6 +228,7 @@ function fallbackPromptFragments(activity, profile) {
   if (/gravity/.test(prompt)) return scene(["apple", "planet"]);
   if (/ramp|simple machine/.test(prompt)) return scene(["ramp", "pulley", "lever"]);
   if (/shadow/.test(prompt)) return scene(["sun", "person", "shadow"]);
+  if (/environment|playground|clean|rubbish|litter/.test(prompt)) return scene(["bin", "tree", "plant"]);
   if (/recycl/.test(prompt)) return scene(["paper", "bin"]);
   if (/water conservation|clean water/.test(prompt)) return scene(["tap", "water", "plant"]);
   if (/skeleton|rib cage/.test(prompt)) return scene(["rib_cage", "heart", "lungs"]);
