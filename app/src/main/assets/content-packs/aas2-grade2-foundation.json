@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -990,6 +990,46 @@
       "sourceReferenceIds": [
         "MACMILLAN-SCIENCE-L2",
         "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Identifies action verbs and uses present continuous forms in familiar descriptions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Identifies key details and sequences events from a short familiar story.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses familiar setting and everyday vocabulary in a simple spoken or written context.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Orders words to make a clear simple sentence.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
       ]
     }
   ],
@@ -8668,7 +8708,7 @@
       "title": "Action Verbs and Present Continuous",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-grammar-and-word-study"
+        "aas2-ew2-u01-action-verbs"
       ]
     },
     {
@@ -8677,7 +8717,7 @@
       "title": "Reading, Sequencing and Sentence Order",
       "sequence": 2,
       "skillIds": [
-        "aas2-aboudy-reading-comprehension"
+        "aas2-ew2-u01-reading-sequence"
       ]
     },
     {
@@ -8686,7 +8726,7 @@
       "title": "Everyday Vocabulary in Context",
       "sequence": 3,
       "skillIds": [
-        "english-context-vocabulary"
+        "aas2-ew2-u01-everyday-vocabulary"
       ]
     },
     {
@@ -8694,7 +8734,7 @@
       "unitId": "EW2-U01",
       "sequence": 4,
       "skillIds": [
-        "english-sentence-order"
+        "aas2-ew2-u01-sentence-order"
       ],
       "title": "Sentence Order and Writing"
     },
