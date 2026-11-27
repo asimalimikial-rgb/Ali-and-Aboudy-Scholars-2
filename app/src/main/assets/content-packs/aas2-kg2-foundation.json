@@ -4402,7 +4402,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/039742c26cd1d5b518b1bf80f70eff14d063daec3152f17cc9ec1da8c7f1a410.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cf8d6d7fac05b58695b98183cb9a2c3101f2e4e20ef795d9bb1c7dd6d9c99a2e.ogg",
+        "b": "speech/029b7f4e8ff0ac930d9e896dabf7f9b60fcd3d40dc033336306746586d2f41b3.ogg",
+        "c": "speech/5ed1a3cd505f2364e5af5e97a85f96ad284fd339c3e3cbfa1c1cd7ed8c732533.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/744ddce7b17ffca5c50b114175fff20afa13e0bd4a30ab1789df788d051d7f1b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/309ebcaca4bcb6e2183df3bbbea0fc67cc7057df18252e8b72e418997f5c3dc8.ogg"
     },
     {
       "activityId": "aas2-kg2-listening-comprehension-02",
@@ -4427,7 +4435,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/2d76e8dd821f16afcb9a76dc5e08264f7e8c0bf5a3e35f87ee153f3dbc5f301d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2b601e03bb47517246057ac7081f1316ea658d096dd6e712cdb7cb413fc298ab.ogg",
+        "b": "speech/dc61bb81c0690989c7424cce3d3d01c9552415af002ef1332bb930d4b178020f.ogg",
+        "c": "speech/cb19d136c03f5686c1dc38387ed96b89df681deae08ff448973cfb0281216021.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/472cec29fcd52785f7910ac00234b3baabf69b10eab301aaa38830cd79604e78.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/14e8bf2013c02a83177cd66b017c63d8fa7a73f74f1994cbe18a16a1dc6310a7.ogg"
     },
     {
       "activityId": "aas2-kg2-listening-comprehension-03",
@@ -4452,7 +4468,15 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/54b25bd46cc9122c61565d3991eb04027b726685a9b99de8975f07e9e722d795.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4329ad3685083fa1e957c685b2d3e17d5756cd622201a57d4edea30b4b2d6795.ogg",
+        "b": "speech/bee52cad9424302a8fc90ecd5cd4b83e13542fbdd01ba898e1c13a29e350e92e.ogg",
+        "c": "speech/2f2f06a611a8c96aa03b0708c5848a89ef64226260e6bb983423fa92aee25cfd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/616bb4c11ebc3c76be7c2bbf9cb65cca43cb7458132c73128c58064573568132.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2a6bc1af52f1b43efe717bf1996c62d18abea67cd48212cf28be75f91e10830e.ogg"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-01",
@@ -4477,7 +4501,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/e254d51885fc847e6bf2a48ea814231543080063e41376e6f6cb051b7cbee9f2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b639142c28a9d535246d42ca5b78f1503a97ce8867535d7b8e3fba919a38178f.ogg",
+        "b": "speech/c8f6ba8a568b2ebf20ef0b7d24064794b0d470836545e75ac1b5c33fa473139d.ogg",
+        "c": "speech/46802231226831033b637aeaab3660e230d66c01235b7660b792c0fd8bc851cd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f4896d9d48f38430b39cbe1f41ec7578dc9df418843af9c3c40456d2db0d8ce5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/12bde31e78f4c6236096100da2e3a5196530c3ae55d34b34c8ab7c252eccc4f9.ogg"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-02",
@@ -4502,7 +4534,15 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/75a08daae383afeb556a1b765088339f2907d6aadd5f65ed1f57e212f2920808.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/70e768c28c323346c559ef82875940002616ac6352b79c9dc747ee3ab1e0363f.ogg",
+        "b": "speech/dd1afaf673c214278c621bd948ad4c407b5b99674f6f866e6edcd6916393f936.ogg",
+        "c": "speech/f6719ff1c5a3055b948b34c73ef1dcc65bd8c00ca89f032fefb304c5f9d3bf02.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/102c6feb70b0d569abb3bd2b43dfb0f3854197987fdd64519419c2ff0b98e63b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/da6fa92b424a34f4c9d98ea346c4fe29b9dd4851495f6e72e9bf7354c4258789.ogg"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-03",
@@ -4527,7 +4567,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/f9eb2f8909d735115d8c32dc0b93a164d93c523f77785173e1d4ad37bbb28851.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/51c43b373501cbcd8e5d82911fc0edb1f1ceff9307fcf4cd7c8395d49333d8f2.ogg",
+        "b": "speech/e91c1ac2e24067fac187aaec17e8320b4ffb97753e90c19a3cb774912b6e8df8.ogg",
+        "c": "speech/bb6b067cff6deb5a0be47b25d1916ef5e24fc5ec6f84e1a15d8883a1563bf3f7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5ab864b8370d2ed148e3fbe25680dbe70bed4d4ba432b55d94020b6c1658c828.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5ce6f47fb0f9602a3de488e99200874bf404dfa0805a08654be6c27706119e01.ogg"
     },
     {
       "activityId": "aas2-kg2-measure-compare-01",
@@ -4552,7 +4600,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/98d459458ef0fcc62e2333902727a72dffb25002ddc21a80dd013420d5e55d4c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/06fbe2c85c6b585b22c1d11f9a20afb65138d295351c1b2d8f93f9a4edfd53b2.ogg",
+        "b": "speech/3b61902de506f3763aa6daf0c13f581618d405cf9be146293af74e2f36e674eb.ogg",
+        "c": "speech/f74b1e1af89970a1071d3a9f95594543fb0fc0bb00191977f3a1b2f9dc6aad30.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8e5fbd99e464ffbbfdd80be1a683d1e53faf1241795648d50831f29adeb80ecb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg"
     },
     {
       "activityId": "aas2-kg2-measure-compare-02",
@@ -4577,7 +4633,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/c9742d70546427974c2f16892c96e43b2169efc178d88a1668914379c531e68e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4cce34760c2b035db4a56cebe9507dc50e990836e58c0f83f7be7eeee6dc9c2c.ogg",
+        "b": "speech/5fff9d23b67833636dfd14de9631d77cdbaf13834eb07a64042742a965ec3028.ogg",
+        "c": "speech/f4528bf76659566890c475b5184224281238bf3fd7f6cb5f8303d69f5891e7f4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0a9bc9d279045ecc4f875c298908a574636180d3b0107ea1e84696e537aea734.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg"
     },
     {
       "activityId": "aas2-kg2-measure-compare-03",
@@ -4602,7 +4666,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/daf1684c12c610fb38e77d496097a6f208687dbfd05a3d76e10fdbd37bb74973.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/52344733fcc1450516b5bf629a4960067ffe334676038b33e23bf856b15b9678.ogg",
+        "b": "speech/39ed9c92b5c50492d8c29524aff276faec624c0e9ee8ea9ba9d40f674e009901.ogg",
+        "c": "speech/e650e787e26b32b53f8869e1df8a1067cd03344e90ef4d9968e344c427c608b6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7757c481dab1d0fc160b8cbd8e2fc6d16100e851a20383e061be2b494593435c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-01",
@@ -4627,7 +4699,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/bb7aeae0451b941f001c1e94a8bb9eba5e1109385ee03ca080b268c70fc2a0c1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a8c93c6514ebe32b884cb85edfe5ff31df8b951c619a09fc0a461e704826b401.ogg",
+        "b": "speech/bc9427a4fafdad66b582d01efe1cd446e536515df91c254c36ab1cd0949c0bb3.ogg",
+        "c": "speech/09f0236b9c5c93eeecd40bfbe00d9a4c0db6a946b262f52bfefb402c125a51ca.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/32ae7defcf8e3c06ad3c421687aa497038776381ce09e98411c3f04913ef5690.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e099d0774ccd3cb1195d3da6912994684d5ede38911f664593e9cf7ce4140713.ogg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-02",
@@ -4652,7 +4732,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/19be6f2afe3a532281ada5c73ca7f6c9baba88c8613e1bed297b0ac77ffdfc0a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f5d675d72b00db2b53a6b50469c2a57bd229af374b25c3cba5f81d46608d79f2.ogg",
+        "b": "speech/964791f888134f7586cbd80554c61da853b55a3cefa0ebc6148591de8684900f.ogg",
+        "c": "speech/3bb5f173b9352b63c0fd2159bc9c3119d45a26b3a463ea3cc71dbd71309a5f11.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d945aec9f7f97e6548097315ea5df3209eaaa1a9013ca74b5ca1e19ec9e4058c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7017786630e9f2380abe20dc9caf6a1e350baf9374556f9ef8d05b53c6c7c4f6.ogg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-03",
@@ -4677,7 +4765,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/b1248dbb687d067248d8f2abc00d6a4d29a08f50fb353a0273031b50ee2d6807.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2777a41893eb88d259edcba2dbb68fdcbbb252af0f4030041f6826dc3a9333ea.ogg",
+        "b": "speech/3013d361a6218b6110bd9a4aadf2482cd71c65097b8eb2c8fa2bb147b6fe72f7.ogg",
+        "c": "speech/b5ad30fe1b10e63882592d997ce5a29f1192ba3411542e57d9c8f6aaa289b932.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e25302d4ea607a75caa3eba7dcb20f0d4e994821a9bc0a69be578a24553a2dec.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4073fc598bb89de361ebf5de6220bb4a92624d95b95b7f11d4af4c78aac83deb.ogg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-01",
@@ -4702,7 +4798,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/81aee5a862db12bcb272077ad22af2829c4ad35f0f38b1959782b18dab077510.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/260627242e72342503c62bcf0abb32c33e28988580c39ac0fad26ea1a613734c.ogg",
+        "b": "speech/ce1a860c245a9da08c0d72c40c125cfd37af622fdc67cf87b1506030f589421d.ogg",
+        "c": "speech/91fff1ee8bcb16af869e99fc8d51c77fdb6decb5613b46bc2630a8fb4631520c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4a9c06c7e712478f68d37b5c972719ef79c45920f54928211c1f14075c552b93.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/91e9017bf110d7ed0c4efe1d0dc0deb9f7333aa4938973dd991a6b6028c167f8.ogg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-02",
@@ -4727,7 +4831,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/477c525a4f5c48898dcea4839d2d7c6656886c565d0c36a8b32db37b8a68ebc0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fc0dd6d41afa5e854ed0a9af3e515c34dbda5f1b66afc79cdac078683482a9c1.ogg",
+        "b": "speech/bbbc8d13e5df22cb596f2643e3ba827229469934c2967ec6018e1895fd573212.ogg",
+        "c": "speech/9a94badf9253a2b55e1bcd7128342dd2c9e8e8f75edad3592fed47a5e4ccf2b2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/dff618bbf32fce49784ed9def7b49bf6e3d883fca90221a923ffdf4ae90661eb.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5776295caf89235f702d643a51d2732161bf3ee148283b80bb67331383de9bde.ogg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-03",
@@ -4752,7 +4864,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/2c190ba6c06bdba49713b090101a6f3aa1342fe8fa2d9bb4c567ffc5b0e748e1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b1312aaed2dcef9c7e9808ec3e6604142cb9777314d438e62fd0c38a9e982c8f.ogg",
+        "b": "speech/77fde4981d0d87e075587af53b3dbd9e2ebe99e79cd7ae48dccc456d8b90f712.ogg",
+        "c": "speech/338d68744c38e3831c957f0dd7b6d313b167557d88f32ccf6ffd5557ce39a29a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/96f9c352004b209be33afc1ee13b4a4fe5d82291784cbaec929b379a27dd07bc.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8c0e9b542d0aa02f7aee3efb3299ba713ad84a4967e609486169a61711467188.ogg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-01",
@@ -4777,7 +4897,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/87cb3a904c83fa1707b3ec8543a094e92f9c6b99bc38b0f95e6eaa6597628f26.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8d7d835f3e114462d4517eef0efb61f0f7f67d9453b92dd5a060c7bf0d4808fa.ogg",
+        "b": "speech/0048953ff6669f32692d7ec8c7add357f4c56c8c44ef46d04b61beceeef3fc57.ogg",
+        "c": "speech/40850469fd41e5a7052242e665ddcb1b5639e8afbba7e7092747cf3019c641d9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/022c15c08c8eefcc56a5fde66b9a9b639e6262cc3cddf4fe0db405332af53694.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4facd1fdce282124c35fe42c5a84f7c48195de3d46b8cfbadf857ec5f48a0048.ogg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-02",
@@ -4802,7 +4930,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/5cc32032f8fc76e55de5b31d58df903e34da9bc505039d9f4ac8a873d6bc4ca4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/da1c2cc302d0066b8d5e10d9d9fbc78e56706573ce79da179328396e5b702ea2.ogg",
+        "b": "speech/fff1c830623914e77330cb372e0a7124e0b1023b7d27ef02a5f9dc546933a77b.ogg",
+        "c": "speech/393d58120f7b4160840bf4985fd85868288ae045365166cdb4afdebdef757478.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/faa0dc8149e4e517c8b1faacc0233d74ba773bbdf70de8dd2a2030a5f3ce3c22.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6e119977eb5c278eb4e8a942d02f4ae3ef65efb7746dcd8b71d21b71732e5690.ogg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-03",
@@ -4827,7 +4963,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/17080036815ea65d8e1fc0d7b385833fa370c6801cbf302a50914580ae2fb078.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/521e388f6be7a34919d214f059dae3ef108f6044da2022a64830c5b8fe08bc3e.ogg",
+        "b": "speech/6d40994bc294c418d0825c2d59c96b54b94eeaf108950f4718752de6b0265265.ogg",
+        "c": "speech/df344c58490d20e3a498de0c3d84e83361229c8d0c5aa86f4aaae0b904da4936.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6b45a96f97f9f9d1d7022989eafbc9b74b6c52ad9aea3799d36a35a337c1aba3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e8d9b538181ace49d8d0c4c618a4a8f87a301169bffdc8cb020f28e7bb41a820.ogg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-01",
@@ -4852,7 +4996,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/d0004cf201b9fd1e32648de6801d6dfd1212f024734075afb111fcfc8dd7f6b7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7e0b51b5a4fc774fc480e29be14f041fb08574da9ebccf91ecf92b78b2b3ead7.ogg",
+        "b": "speech/6e9383b1dc64378b062544444b15c250d51e326248d06bf55d64d054d9099449.ogg",
+        "c": "speech/8e8de65b9ec54b41fb61a7c8541963a55d3ef3f11a5a6f55aeaf80e740536504.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b05a216309d2a0fd57216dc9dd64e78935287ba806bc11de08984ed80a359445.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/50acb584d843017b0378aa235c77b2af0b871599b83ee04d25f44faa1dcc4ab2.ogg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-02",
@@ -4877,7 +5029,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/9dce7a3ac17cc8d4b2ac29e6d4fd295ebba5e61095b88170bc0ae9c73d2f411c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d6fdc46f2ee85a2337265309b668c9356063e561c8e0936820f5873bb6b86008.ogg",
+        "b": "speech/73a4787891aa81d9b3ea4783d203772b7340b0a0d6099c4c2c46e0ec95a3d54b.ogg",
+        "c": "speech/d6a2e1ddce0be18522061f18009d056cdd2ebb72ea317d6faa13ceaeea2b63d6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/62c8bb5781e058fa91f891757b8fede1916759dddc738606cecfd38428595e14.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b16f51dcfe27e502d27bf87c8da5daad168769f5be966c92abe33eacb5b80695.ogg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-03",
@@ -4902,7 +5062,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/a8cbe231c0f51a49f138f542e76541475a9fb33a800f99dca0e722e04b0ec7dd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/806cbadbfe5d6aa57df253e474999975a9580cece01b9b49262093d7c04bb764.ogg",
+        "b": "speech/cd1d4866189909faec08f58dc3cbb139c83df2115bebff9ae23aab039bce3487.ogg",
+        "c": "speech/4440e127228e67b5b4050a372ef23a9293da1cbffc050be855fa22634ae823a3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8b1c6e4def9d5500e64c67320684af1b51358ff1789bac199669904b3303adab.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5182b5c438e8a19e2cf6df0bafc61774595edba3f36917004a84aa9a1dce1988.ogg"
     },
     {
       "activityId": "aas2-kg2-environment-care-01",
@@ -4927,7 +5095,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/9dd897a1a4f3a842f99554ebdf6798181d25b976e1e053914d1baf3734085dad.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c9be4df47b4075bf87ca6fd9020be2c17129da519271c077105267a9c60be1a0.ogg",
+        "b": "speech/a211adf8ecf2c4dad32f1e7775b2b2f5e2d8aa75ac0d040435018ff03d97cdae.ogg",
+        "c": "speech/b76c4ddb03e9419b814e88b15961a37742ab814f3fae881ee192f4e7db8365b3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a1ed244bec6e46f8b9906fe1883973abe3c1c87bb1e0a464094d8deee0c7574a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/51f16889b2ba35eec51c3a61c88bfe279014aa63af8e4cd2922cc66152979bbf.ogg"
     },
     {
       "activityId": "aas2-kg2-environment-care-02",
@@ -4952,7 +5128,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/7dd340eaf4c1e88a23ffcbf29363eba803ae6bd33c96fe6a29ae59e25625b1b4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/39bda8e77efccc33e9cc808ba72f51f382f8d96c08442213146d33af51b86d9a.ogg",
+        "b": "speech/eb792f64f09215c44373f318b2ab11a2ead9b78ba5d9fc9acabc8e3018730303.ogg",
+        "c": "speech/ec4dc5393ba69c3c89f6961621a4d173b530e9cbe60b8822ab485ddad55fa200.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4c029e815be168edb9c5dee43b59161da36a8e102b0af0bf5c4bf588a9666b2e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ff2d2f651ee0766a619dfd01b5e7f51bf10a4fda2b6247315135ce8595d5959b.ogg"
     },
     {
       "activityId": "aas2-kg2-environment-care-03",
@@ -4977,7 +5161,15 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You noticed something important.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/0d83499301b603ccc85bc5c659a3156fdf99ed43a2671558150a4452bf4dac45.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5ff6e9840b5b5be4f3ab3c63a6cbe9326a4ee79d65d5072d34187d59e642db63.ogg",
+        "b": "speech/9ce9a8fafe2bcc3f61b80e180235a8dd0d98f5422d4c1445288d3bbca512446c.ogg",
+        "c": "speech/3ab6a503f987e586031fef62bd5fdef69293d3738680e12d7a1c9271e280ffac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b9d3b60bdb74871c54f5db09f7adc3332ef6f6134480b60e8f2d203651b08013.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg"
     }
   ],
   "books": [
