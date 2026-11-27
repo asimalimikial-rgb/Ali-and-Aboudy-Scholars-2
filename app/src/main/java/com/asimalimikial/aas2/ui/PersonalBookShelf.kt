@@ -16,6 +16,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.produceState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
@@ -57,11 +58,17 @@ internal fun PersonalBookShelf(learnerPathway: String) {
     if (ownBooks.isNotEmpty()) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(if (learner == "ali") "Ali's Books" else "Aboudy's Books", style = MaterialTheme.typography.titleLarge)
-            Row(
-                modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                ownBooks.forEach { cover -> PersonalBookCoverCard(cover) }
+            key(learner) {
+                Row(
+                    modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    ownBooks.forEach { cover ->
+                        key(cover.coverId) {
+                            PersonalBookCoverCard(cover)
+                        }
+                    }
+                }
             }
         }
     }
