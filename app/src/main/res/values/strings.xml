@@ -28,6 +28,7 @@
     <string name="back_to_activities">Back to activities</string>
     <string name="back_to_learning_space">Back to learning space</string>
     <string name="no_activities_available">No activities are available in this learning area yet.</string>
+    <string name="lesson_activities_in_preparation">Activities for this lesson are being prepared. Additional practice is available in this subject.</string>
     <string name="choose_learning_area">Choose a learning area</string>
     <string name="choose_activity">Choose an activity</string>
     <string name="back_to_learning_areas">Back to learning areas</string>
