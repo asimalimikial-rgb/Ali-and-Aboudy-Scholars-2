@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Button
@@ -136,7 +138,8 @@ fun ActivityRenderer(
                         OutlinedButton(
                             modifier = Modifier
                                 .weight(1f)
-                                .height(72.dp)
+                                .heightIn(min = 72.dp)
+                                .wrapContentHeight()
                                 .semantics { selected = isSelected },
                             shape = RoundedCornerShape(18.dp),
                             enabled = canChangeAnswer,
@@ -300,9 +303,10 @@ private fun OptionImage(
         }
     }
 
-    bitmap?.let { decoded ->
+    val imageBitmap = remember(bitmap) { bitmap?.asImageBitmap() }
+    imageBitmap?.let { decoded ->
         Image(
-            bitmap = decoded.asImageBitmap(),
+            bitmap = decoded,
             contentDescription = contentDescription,
             modifier = Modifier
                 .fillMaxWidth()
