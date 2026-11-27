@@ -8,6 +8,8 @@ assert.equal(file.summary.lessons, 12);
 assert.equal(file.summary.activities, 36);
 assert.equal(file.summary.runtimeMapped, 0);
 assert.equal(file.releaseGate, "STAGING_ONLY");
+assert.equal(file.status, "SUPERSEDED_REFERENCE_ONLY");
+assert.ok(file.records.every(item => item.reviewStatus === "SUPERSEDED_DUPLICATE_DO_NOT_INTEGRATE"));
 assert.equal(file.records.length, 36);
 assert.equal(new Set(file.records.map(x => x.activityId)).size, 36);
 const lessons = new Set(file.records.map(x => x.lessonId));
