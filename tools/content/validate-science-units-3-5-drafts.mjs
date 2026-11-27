@@ -16,7 +16,7 @@ const lessons = new Set(file.records.map(x => x.lessonId));
 assert.equal(lessons.size, 12);
 for (const item of file.records) {
   assert.equal(item.runtimeEligible, false);
-  assert.equal(item.reviewStatus, "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA");
+  assert.equal(item.reviewStatus, "SUPERSEDED_DUPLICATE_DO_NOT_INTEGRATE");
   assert.equal(item.mediaStatus, "NOT_GENERATED");
   assert.equal(item.options.length, 3);
   assert.equal(new Set(item.options.map(x => x.optionId)).size, 3);
