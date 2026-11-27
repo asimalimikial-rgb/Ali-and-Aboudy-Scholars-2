@@ -54,6 +54,15 @@
     <string name="parent_dashboard_description">عرض خاص للقراءة فقط يوضح تقدم المتعلم المحفوظ على هذا الجهاز.</string>
     <string name="parent_dashboard_overview">ملخص التعلم</string>
     <string name="parent_dashboard_attempt_summary">%1$d محاولة · %2$d صحيحة · دقة %3$d%%</string>
+    <string name="parent_dashboard_activities_started">الأنشطة التي جُرّبت: %1$d / %2$d</string>
+    <string name="parent_dashboard_lessons_started">الدروس التي بدأها الطفل: %1$d / %2$d</string>
+    <string name="parent_dashboard_skills_practised">المهارات التي تدرّب عليها: %1$d / %2$d</string>
+    <string name="parent_dashboard_recent_week">آخر 7 أيام: %1$d محاولة · %2$d صحيحة</string>
+    <string name="parent_skill_detailed_summary">%1$d محاولة · %2$d صحيحة · %3$d خاطئة · دقة %4$d%%</string>
+    <string name="parent_mastery_not_started">لم يبدأ بعد</string>
+    <string name="parent_mastery_practising">في مرحلة التدريب</string>
+    <string name="parent_mastery_developing">في طور التطور</string>
+    <string name="parent_mastery_mastered">متقن مبدئياً</string>
     <string name="parent_dashboard_no_skills">لا توجد سجلات مهارات في حزمة التعلم هذه.</string>
     <string name="parent_skill_not_assessed">لم يتم تقييمها بعد</string>
     <string name="parent_skill_attempt_summary">%1$d محاولة · %2$d صحيحة · دقة %3$d%%</string>
