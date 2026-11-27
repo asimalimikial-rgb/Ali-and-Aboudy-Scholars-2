@@ -119,6 +119,14 @@ fun LearningExperienceScreen(
         activities.filter { it.lessonId == selectedLessonId }
     }
 
+    val selectedActivitySequence = remember(lessonActivities, selectedDomainActivities, selectedLessonId) {
+        if (selectedLessonId != null) lessonActivities
+        else selectedDomainActivities.filter { it.bookId == null }
+    }
+    val selectedActivityPosition = selectedActivitySequence.indexOfFirst {
+        it.activityId == selectedActivityId
+    }
+
     fun navigateBack() {
         when {
             selectedActivityId != null -> selectedActivityId = null
@@ -217,11 +225,29 @@ fun LearningExperienceScreen(
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.primary
                 )
+                if (selectedActivityPosition >= 0) {
+                    Text(
+                        stringResource(
+                            R.string.activity_sequence_progress,
+                            selectedActivityPosition + 1,
+                            selectedActivitySequence.size
+                        ),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
                 ActivitySession(
                     learnerId = learnerId,
                     contentPack = loadedPack,
                     activity = selectedActivity,
                     submissionService = submissionService,
+                    hasNextActivity = selectedActivityPosition >= 0 &&
+                        selectedActivityPosition < selectedActivitySequence.lastIndex,
+                    onNextActivity = {
+                        selectedActivitySequence.getOrNull(selectedActivityPosition + 1)
+                            ?.let { next -> selectedActivityId = next.activityId }
+                            ?: run { selectedActivityId = null }
+                    },
                     modifier = Modifier.fillMaxWidth()
                 )
             }
