@@ -1,9 +1,7 @@
 name: AAS2 APK delivery
 
 on:
-  push:
-    branches:
-      - "foundation/**"
+  workflow_dispatch:
 
 permissions:
   contents: write
