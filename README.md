@@ -13,14 +13,19 @@ Active product-development phase. `main` is the canonical branch and contains th
 
 **Build policy:** Debug pre-releases for personal device testing are allowed only after Android CI validation. Production signing and production releases remain disabled.
 
-### Current Android source and release policy
+### Latest Android preview release — 27 November 2026
 
-- **Canonical source:** `main`. The latest reviewed changes are merged only after Android CI and content/PWA validation pass.
+- **Canonical source:** `main`, commit [`e131343`](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/commit/e131343b0cee968938ce5c4e458e3c600b6ebf7d).
 - **Production learning website:** [https://aas2-web.vercel.app](https://aas2-web.vercel.app).
-- **Android launcher icon:** `app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp`; the matching PWA icon is `docs/assets/aas2-icon-192.webp`.
+- **App name:** Ali & Aboudy Scholar.
 - **Application ID:** `com.asimalimikial.aas2`.
-- **App version for the next preview:** `0.1.1` (versionCode `2`).
-- **Release policy:** an installable debug preview is published only after the Android CI workflow passes. Production signing remains disabled; this is not a production-signed release.
+- **Version:** `0.1.1` (versionCode `2`), tag `v0.1.1-preview.1`.
+- **[Download Ali-Aboudy-Scholar-0.1.1-preview.1.apk](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/releases/download/v0.1.1-preview.1/Ali-Aboudy-Scholar-0.1.1-preview.1.apk)**.
+- **[Download SHA-256 checksum](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/releases/download/v0.1.1-preview.1/Ali-Aboudy-Scholar-0.1.1-preview.1.apk.sha256)**.
+- **APK size:** 40,791,344 bytes.
+- **SHA-256:** `102b56070a71c1b7bda3679b785608df2a9fd666286d4f65f2e3456107655b98`.
+- **[GitHub Release](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/releases/tag/v0.1.1-preview.1)** · **[Android CI #466](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46028598464)** · **[Release workflow #1](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46029253803)**.
+- This is an installable **debug pre-release for personal device testing**, not a production-signed release. Production signing configuration is unchanged.
 
 ### Previous Android pre-release (historical) — 27 November 2026
 
