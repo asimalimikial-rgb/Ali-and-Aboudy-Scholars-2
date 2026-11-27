@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: aas2-question-art-${{ github.ref }}
-  cancel-in-progress: true
+  group: aas2-generated-assets-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   generate:
