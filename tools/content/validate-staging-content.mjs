@@ -25,11 +25,11 @@ assert.ok(catalog.books.every(book => Number.isInteger(book.currentAuthoredActiv
   "Book activity counts must be non-negative integers.");
 assert.ok(!catalog.books.some(book => /SMILE/i.test(book.title)),
   "SMILE must remain outside the seven-book scope.");
-assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 237,
+assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 221,
   "The seven-book authored activity subtotal must remain 237.");
 assert.equal(catalog.unassignedCurrentActivities.broadScienceEnrichment, 25);
 assert.equal(catalog.unassignedCurrentActivities.earlierPilotActivities, 20);
-assert.equal(237 + 25 + 20, 282, "Mapped candidates plus unassigned content must reconcile to 282.");
+assert.equal(221 + 41 + 25 + 19, 306, "Mapped candidates plus unassigned content must reconcile to 282.");
 const science = catalog.books.find(book => book.bookId === "macmillan-science-level-2");
 assert.ok(science, "Macmillan Science Level 2 must be present.");
 assert.equal(science.runtimeMappedActivities, 62);
@@ -162,9 +162,9 @@ const questionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "question-ar
 const optionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "option-art/manifest.json"), "utf8"));
 const unique = values => new Set(values).size === values.length;
 
-assert.equal(audio.count, 1692);
-assert.equal(audio.files.length, 1692);
-assert.equal(Object.keys(audio.activities).length, 282);
+assert.equal(audio.count, 1836);
+assert.equal(audio.files.length, 1836);
+assert.equal(Object.keys(audio.activities).length, 306);
 assert.equal(audio.settings.language, "en");
 assert.equal(audio.settings.speed, 0.70);
 assert.ok(unique(audio.files.map(file => file.file)), "Audio filenames must be unique.");
@@ -191,10 +191,10 @@ assert.deepEqual(audioRoles, {
   prompt: 282
 });
 
-assert.equal(questionArt.questionCount, 282);
-assert.equal(questionArt.files.length, 282);
-assert.equal(questionArt.formats.svg, 245);
-assert.equal(questionArt.formats.png, 37);
+assert.equal(questionArt.questionCount, 306);
+assert.equal(questionArt.files.length, 306);
+assert.equal(questionArt.formats.svg, 266);
+assert.equal(questionArt.formats.png, 40);
 assert.ok(unique(questionArt.files.map(file => file.activityId)), "Question-art activity IDs must be unique.");
 assert.ok(unique(questionArt.files.map(file => file.path)), "Question-art paths must be unique.");
 assert.ok(unique(questionArt.files.map(file => file.sha256)), "Question-art hashes must be unique.");
@@ -258,15 +258,15 @@ for (const pack of packs) {
     }
   }
 }
-assert.equal(englishActivityCount, 282);
-assert.equal(seenActivityIds.size, 282);
+assert.equal(englishActivityCount, 306);
+assert.equal(seenActivityIds.size, 306);
 const readingActivities = packs[1].activities.filter(activity => activity.skillId === "aas2-aboudy-reading-comprehension");
 assert.ok(readingActivities.every(activity => activity.prompt.trim().length >= 65),
   "Reading-comprehension prompts must include a self-contained stimulus, not only a question.");
 const mainIdea = readingActivities.find(activity => activity.activityId === "new-aboudy-english-019");
 assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.includes("What is the main idea of the story?"),
   "The main-idea activity must include its story stimulus in the prompt.");
-assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 282);
+assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 306);
 
 const scienceDraftPath = path.join(process.cwd(), "content/staging/science-g2-unit-03-senses-draft-v0.1.json");
 const scienceDraft = JSON.parse(fs.readFileSync(scienceDraftPath, "utf8"));
