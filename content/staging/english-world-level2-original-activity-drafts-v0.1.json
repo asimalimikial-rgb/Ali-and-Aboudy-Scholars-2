@@ -6,9 +6,9 @@
   "copyrightPolicy": "Original AAS2-authored prompts; publisher unit names are used only as scope labels. No textbook text, stories, exercises or illustrations are reproduced.",
   "summary": {
     "units": 12,
-    "lessons": 24,
+    "lessons": 26,
     "activities": 52,
-    "activitiesPerLesson": 2,
+    "activitiesPerLesson": "2 per lesson",
     "runtimeMapped": 0
   },
   "releaseGate": "STAGING_ONLY",
