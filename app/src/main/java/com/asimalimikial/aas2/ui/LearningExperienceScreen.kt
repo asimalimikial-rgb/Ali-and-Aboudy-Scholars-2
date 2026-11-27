@@ -163,7 +163,7 @@ fun LearningExperienceScreen(
                         selectedLesson != null -> selectedLesson.title?.takeIf { it.isNotBlank() } ?: "Lesson"
                         selectedUnit != null -> selectedUnit.title?.takeIf { it.isNotBlank() } ?: "Unit"
                         selectedBook != null -> selectedBook.title?.takeIf { it.isNotBlank() } ?: "Book"
-                        selectedDomain != null -> selectedDomain.takeIf { it.isNotBlank() } ?: "Learning"
+                        selectedDomain != null -> selectedDomain?.takeIf { it.isNotBlank() } ?: "Learning"
                         else -> if (learnerPathway == "KG2") "Ali's adventure map" else "Aboudy's discovery map"
                     },
                     style = MaterialTheme.typography.titleLarge,
