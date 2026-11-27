@@ -1,0 +1,1432 @@
+{
+  "schemaVersion": "AAS2-SCIENCE-L2-ORIGINAL-DRAFTS-0.1",
+  "title": "Original AAS2 activity drafts for Science Level 2 Units 3–5",
+  "learnerPath": "GRADE_2",
+  "bookId": "macmillan-science-level2",
+  "copyrightPolicy": "Original AAS2-authored prompts; no publisher wording, pages, illustrations or exercises reproduced.",
+  "sourceScope": "Macmillan Science Level 2 official scope reference already recorded in the pack; this file is original supplementary practice, not a reproduction of the textbook.",
+  "summary": {
+    "units": 3,
+    "lessons": 12,
+    "activities": 36,
+    "activitiesPerLesson": 3,
+    "runtimeMapped": 0
+  },
+  "releaseGate": "STAGING_ONLY",
+  "requiredChecks": [
+    "science accuracy",
+    "age suitability",
+    "safety",
+    "answer-key verification",
+    "visual asset generation and review",
+    "English audio generation and review",
+    "offline asset integrity",
+    "duplicate detection"
+  ],
+  "records": [
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l1-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L1",
+      "lessonTitle": "Five Senses and Sense Organs",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you hear a bell?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste"
+        },
+        {
+          "optionId": "c",
+          "text": "Smell"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l1-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L1",
+      "lessonTitle": "Five Senses and Sense Organs",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body part helps you see colours?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Eyes"
+        },
+        {
+          "optionId": "b",
+          "text": "Ears"
+        },
+        {
+          "optionId": "c",
+          "text": "Tongue"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l1-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L1",
+      "lessonTitle": "Five Senses and Sense Organs",
+      "skillId": "SCI-G2-SEN-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice a soft blanket?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Touch"
+        },
+        {
+          "optionId": "b",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "c",
+          "text": "Sight"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l2-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L2",
+      "lessonTitle": "Hearing and Making Sounds",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What makes a drum sound when you tap it?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It vibrates"
+        },
+        {
+          "optionId": "b",
+          "text": "It melts"
+        },
+        {
+          "optionId": "c",
+          "text": "It grows"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l2-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L2",
+      "lessonTitle": "Hearing and Making Sounds",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action can make a sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Clapping hands"
+        },
+        {
+          "optionId": "b",
+          "text": "Looking at a star"
+        },
+        {
+          "optionId": "c",
+          "text": "Smelling a flower"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l2-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L2",
+      "lessonTitle": "Hearing and Making Sounds",
+      "skillId": "SCI-G2-SEN-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can you protect your ears from a very loud sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Move away and tell an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Stand closer"
+        },
+        {
+          "optionId": "c",
+          "text": "Shout louder"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l3-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L3",
+      "lessonTitle": "Seeing the World and Colour",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice a red kite?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sight"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste"
+        },
+        {
+          "optionId": "c",
+          "text": "Touch"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l3-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L3",
+      "lessonTitle": "Seeing the World and Colour",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is usually transparent?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A clear glass window"
+        },
+        {
+          "optionId": "b",
+          "text": "A wooden door"
+        },
+        {
+          "optionId": "c",
+          "text": "A brick"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l3-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L3",
+      "lessonTitle": "Seeing the World and Colour",
+      "skillId": "SCI-G2-SEN-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What should you never do to protect your eyes?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Look directly at the Sun"
+        },
+        {
+          "optionId": "b",
+          "text": "Read in good light"
+        },
+        {
+          "optionId": "c",
+          "text": "Keep sharp objects away"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l4-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L4",
+      "lessonTitle": "Touch and Texture",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes sandpaper?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rough"
+        },
+        {
+          "optionId": "b",
+          "text": "Smooth"
+        },
+        {
+          "optionId": "c",
+          "text": "Liquid"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l4-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L4",
+      "lessonTitle": "Touch and Texture",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object usually feels soft?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A cotton ball"
+        },
+        {
+          "optionId": "b",
+          "text": "A stone"
+        },
+        {
+          "optionId": "c",
+          "text": "A metal spoon"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l4-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L4",
+      "lessonTitle": "Touch and Texture",
+      "skillId": "SCI-G2-SEN-04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you tell that water is cool?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Touch"
+        },
+        {
+          "optionId": "b",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "c",
+          "text": "Sight only"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l5-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L5",
+      "lessonTitle": "Taste and Smell Safely",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body part helps you taste food?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Tongue"
+        },
+        {
+          "optionId": "b",
+          "text": "Elbow"
+        },
+        {
+          "optionId": "c",
+          "text": "Knee"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l5-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L5",
+      "lessonTitle": "Taste and Smell Safely",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the safe rule for tasting an unknown substance?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Never taste it; ask an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Taste a little"
+        },
+        {
+          "optionId": "c",
+          "text": "Smell it closely first"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u03-l5-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U03",
+      "lessonId": "SCI-G2-U03-L5",
+      "lessonTitle": "Taste and Smell Safely",
+      "skillId": "SCI-G2-SEN-05",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sense helps you notice the smell of a flower?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Smell"
+        },
+        {
+          "optionId": "b",
+          "text": "Hearing"
+        },
+        {
+          "optionId": "c",
+          "text": "Touch"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l1-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "lessonTitle": "Floating and Sinking",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is most likely to float in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A dry cork"
+        },
+        {
+          "optionId": "b",
+          "text": "A metal key"
+        },
+        {
+          "optionId": "c",
+          "text": "A stone"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l1-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "lessonTitle": "Floating and Sinking",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What should you do before testing objects in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ask an adult and use a safe shallow tray"
+        },
+        {
+          "optionId": "b",
+          "text": "Use a deep pool alone"
+        },
+        {
+          "optionId": "c",
+          "text": "Taste the water"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l1-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L1",
+      "lessonTitle": "Floating and Sinking",
+      "skillId": "SCI-G2-MAT-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "An object sinks when it…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Goes down in the water"
+        },
+        {
+          "optionId": "b",
+          "text": "Stays on top"
+        },
+        {
+          "optionId": "c",
+          "text": "Turns into air"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l2-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "lessonTitle": "Liquids and Containers",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which container can hold water without leaking?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A sound, waterproof bottle"
+        },
+        {
+          "optionId": "b",
+          "text": "A basket with holes"
+        },
+        {
+          "optionId": "c",
+          "text": "A paper napkin"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l2-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "lessonTitle": "Liquids and Containers",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What happens when you pour water into a wide bowl?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It takes the bowl's shape"
+        },
+        {
+          "optionId": "b",
+          "text": "It keeps a fixed shape"
+        },
+        {
+          "optionId": "c",
+          "text": "It becomes a solid"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l2-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L2",
+      "lessonTitle": "Liquids and Containers",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool is suitable for comparing how much liquid containers hold?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A measuring jug"
+        },
+        {
+          "optionId": "b",
+          "text": "A ruler for length"
+        },
+        {
+          "optionId": "c",
+          "text": "A thermometer"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l3-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "lessonTitle": "Dissolving and Mixing",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What happens when sugar is stirred into water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It dissolves"
+        },
+        {
+          "optionId": "b",
+          "text": "It becomes sand"
+        },
+        {
+          "optionId": "c",
+          "text": "It turns into oil"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l3-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "lessonTitle": "Dissolving and Mixing",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which material does not dissolve easily in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Small stones"
+        },
+        {
+          "optionId": "b",
+          "text": "Sugar"
+        },
+        {
+          "optionId": "c",
+          "text": "Salt"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l3-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L3",
+      "lessonTitle": "Dissolving and Mixing",
+      "skillId": "SCI-G2-MAT-02",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can you make sugar dissolve faster in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stir the mixture"
+        },
+        {
+          "optionId": "b",
+          "text": "Leave the sugar dry"
+        },
+        {
+          "optionId": "c",
+          "text": "Add more stones"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l4-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "lessonTitle": "Heat Sources and Safety",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is a source of heat?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Sun"
+        },
+        {
+          "optionId": "b",
+          "text": "A shadow"
+        },
+        {
+          "optionId": "c",
+          "text": "A mirror"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l4-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "lessonTitle": "Heat Sources and Safety",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the safest action near a hot cooker?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Keep away and tell an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Touch the hot surface"
+        },
+        {
+          "optionId": "c",
+          "text": "Play beside it"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u04-l4-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U04",
+      "lessonId": "SCI-G2-U04-L4",
+      "lessonTitle": "Heat Sources and Safety",
+      "skillId": "SCI-G2-MAT-03",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which item helps an adult handle a hot oven tray safely?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "An oven mitt"
+        },
+        {
+          "optionId": "b",
+          "text": "A paper tissue"
+        },
+        {
+          "optionId": "c",
+          "text": "A wet hand"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l1-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "lessonTitle": "The Moon and the Stars",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can we see in the night sky?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The Moon and stars"
+        },
+        {
+          "optionId": "b",
+          "text": "Fish in trees"
+        },
+        {
+          "optionId": "c",
+          "text": "Flowers underground"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l1-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "lessonTitle": "The Moon and the Stars",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Does the Moon make its own light like a star?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "No, it reflects sunlight"
+        },
+        {
+          "optionId": "b",
+          "text": "Yes, it is a star"
+        },
+        {
+          "optionId": "c",
+          "text": "It is a lamp"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l1-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L1",
+      "lessonTitle": "The Moon and the Stars",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why can the Moon look bright at night?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sunlight reflects from it"
+        },
+        {
+          "optionId": "b",
+          "text": "It burns like a fire"
+        },
+        {
+          "optionId": "c",
+          "text": "It is made of glass"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l2-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "lessonTitle": "Moon Surface and Craters",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What are many round holes on the Moon's surface called?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Craters"
+        },
+        {
+          "optionId": "b",
+          "text": "Rivers"
+        },
+        {
+          "optionId": "c",
+          "text": "Forests"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l2-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "lessonTitle": "Moon Surface and Craters",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can make a crater on the Moon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A space rock hitting its surface"
+        },
+        {
+          "optionId": "b",
+          "text": "Rain falling"
+        },
+        {
+          "optionId": "c",
+          "text": "Wind blowing leaves"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l2-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L2",
+      "lessonTitle": "Moon Surface and Craters",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which statement about the Moon is correct?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Its surface has rocks and dust"
+        },
+        {
+          "optionId": "b",
+          "text": "It is covered with oceans"
+        },
+        {
+          "optionId": "c",
+          "text": "It has green forests"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l3-01",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "lessonTitle": "Star Patterns and Sky Observations",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a group of stars that looks like a pattern called?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A constellation"
+        },
+        {
+          "optionId": "b",
+          "text": "A cloud"
+        },
+        {
+          "optionId": "c",
+          "text": "A rainbow"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l3-02",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "lessonTitle": "Star Patterns and Sky Observations",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is a safe way to observe the night sky?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Look at night with an adult"
+        },
+        {
+          "optionId": "b",
+          "text": "Look at the Sun through binoculars"
+        },
+        {
+          "optionId": "c",
+          "text": "Climb onto a roof alone"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 1,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    },
+    {
+      "activityId": "aas2-sci-sci-g2-u05-l3-03",
+      "bookId": "macmillan-science-level2",
+      "unitId": "SCI-G2-U05",
+      "lessonId": "SCI-G2-U05-L3",
+      "lessonTitle": "Star Patterns and Sky Observations",
+      "skillId": "SCI-G2-SKY-01",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Why do stars look tiny from Earth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "They are very far away"
+        },
+        {
+          "optionId": "b",
+          "text": "They are all tiny lamps"
+        },
+        {
+          "optionId": "c",
+          "text": "They are inside clouds"
+        }
+      ],
+      "correctOptionId": "a",
+      "difficulty": 2,
+      "feedbackCorrect": "Well done! You used your science thinking.",
+      "feedbackIncorrect": "Good try. Think about what you have learned and try once more.",
+      "reviewStatus": "PENDING_SCIENCE_PEDAGOGY_MEDIA_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "safetyReview": "PENDING",
+      "mediaStatus": "NOT_GENERATED",
+      "runtimeEligible": false
+    }
+  ]
+}
