@@ -14,6 +14,7 @@ import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivityEvaluationResult
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.QuestionAttemptPolicy
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 
@@ -27,6 +28,8 @@ fun ActivitySession(
     contentPack: ContentPack,
     activity: ActivityDefinition,
     submissionService: ActivitySubmissionService,
+    hasNextActivity: Boolean,
+    onNextActivity: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val scope = rememberCoroutineScope()
@@ -40,6 +43,7 @@ fun ActivitySession(
         activityId = activity.activityId
     )
     var evaluation by remember(sessionKey) { mutableStateOf<ActivityEvaluationResult?>(null) }
+    var attemptCount by remember(sessionKey) { mutableStateOf(0) }
     var isSubmitting by remember(sessionKey) { mutableStateOf(false) }
     var submissionError by remember(sessionKey) { mutableStateOf<String?>(null) }
 
@@ -49,11 +53,14 @@ fun ActivitySession(
         ActivityRenderer(
             activity = activity,
             evaluation = evaluation,
+            attemptCount = attemptCount,
+            hasNextActivity = hasNextActivity,
+            onNextActivity = onNextActivity,
             isSubmitting = isSubmitting,
             submissionError = submissionError,
             modifier = modifier,
             onRetry = {
-                if (!isSubmitting) {
+                if (!isSubmitting && QuestionAttemptPolicy.canRetry(attemptCount)) {
                     evaluation = null
                     submissionError = null
                 }
@@ -64,12 +71,14 @@ fun ActivitySession(
                     submissionError = null
                     scope.launch {
                         try {
-                            evaluation = submissionService.submit(
+                            val result = submissionService.submit(
                                 learnerId = learnerId,
                                 contentPack = contentPack,
                                 activityId = activity.activityId,
                                 selectedOptionId = selectedOptionId
                             )
+                            attemptCount = (attemptCount + 1).coerceAtMost(QuestionAttemptPolicy.MAX_ATTEMPTS)
+                            evaluation = result
                         } catch (cancelled: CancellationException) {
                             throw cancelled
                         } catch (_: Exception) {
