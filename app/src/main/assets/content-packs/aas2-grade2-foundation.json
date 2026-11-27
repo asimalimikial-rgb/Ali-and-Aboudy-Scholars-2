@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -102,6 +102,42 @@
       "attribution": "Original AAS2-authored educational content migrated from the legacy project.",
       "usageRights": "REFERENCE_ONLY",
       "verifiedAt": "2026-11-23"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-ENGLISH-WORLD-L2",
+      "title": "Macmillan English World Level 2 — Official Scope and Sequence",
+      "publisher": "Macmillan Education",
+      "url": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
+      "license": "Copyrighted course material; official scope reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-MATH-L2A-9781035130382",
+      "title": "Macmillan Mathematics Level 2A — 12-unit digital contents listing (ISBN 9781035130382)",
+      "publisher": "Macmillan Education / BlinkLearning",
+      "url": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629",
+      "license": "Copyrighted textbook; contents reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-MATH-L2B",
+      "title": "Macmillan Mathematics Level 2B — 12-unit digital contents listing (ISBN 9781380000613)",
+      "publisher": "Macmillan Education / BlinkLearning",
+      "url": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649",
+      "license": "Copyrighted textbook; contents reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-MATHS-XPRESS-BOOK2",
+      "title": "Maths Xpress — Book 2 (ISBN 9789356664999)",
+      "publisher": "Macmillan Education",
+      "url": "https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf",
+      "license": "Copyrighted publisher material; catalogue reference only; no reproduction or redistribution. Unit sequence not verified.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
     }
   ],
   "skills": [
@@ -431,6 +467,526 @@
       "learnerPath": "GRADE_2",
       "domain": "Science",
       "observableOutcome": "Explains how an observable body feature can help an animal in a stated habitat.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses familiar playground vocabulary in a short spoken or written context.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Selects demonstratives and present progressive forms for familiar situations.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses sports and hobbies vocabulary with like and likes.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Forms simple yes/no questions and recognises selected long-vowel patterns.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses clothing vocabulary and do/does questions in familiar exchanges.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u04-blends-description",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Reads selected consonant blends and orders adjectives before nouns.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u05-routines-time",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Describes daily routines and reads familiar time expressions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses consonant blends and sequence words to order events.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Names body parts and uses his, her and whose accurately.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Recognises selected consonant blends and common contractions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u07-food-weather",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses food, drink, month and weather vocabulary.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses there is/are and simple frequency adverbs in context.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses animal vocabulary and was/were in simple descriptions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u08-endings-time",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Recognises selected word endings and reads half-past times.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Names familiar sea creatures and uses common prepositions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u09-past-ee",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses there was/were and recognises the long ee sound.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses beach vocabulary and follows or gives simple imperatives.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses object pronouns and recognises the long oo sound.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses regular past-tense verbs and sequence words.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Recognises the ai sound and organises a short diary entry.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u12-food-movement",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses food vocabulary and movement prepositions.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-ew2-u12-past-lists",
+      "learnerPath": "GRADE_2",
+      "domain": "English Language",
+      "observableOutcome": "Uses past-tense forms and commas in a simple list.",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2a-review-u04",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reviews number representations and early addition using Grade 2 strategies.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2a-number-facts",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Uses number bonds and known facts to calculate efficiently.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2a-review-u08",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reviews subtraction and multiplication concepts with simple problems.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2a-equations-functions",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Completes simple equations and describes a one-step number function.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2a-review-u12",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Selects an appropriate strategy across familiar Level 2A mathematics topics.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-number-patterns",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognises and continues number patterns using a stated rule.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-add-sub-999",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Solves addition and subtraction problems with numbers to 999.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-money",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Uses familiar money values to solve simple purchasing and change problems.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-review-u16",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reviews number, calculation and money strategies.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Identifies common flat and solid shapes by observable properties.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-lines-shapes",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Describes lines and shapes using simple geometric vocabulary.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-area",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Compares areas using equal informal units.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-review-u20",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reviews shape and area concepts.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-measures-problems",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Uses measurement information to solve a practical problem.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-aboudy-data-handling",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Sorts, records and interprets simple categorical data.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mm2b-review-u24",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reviews measurement and data handling.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mx2-numbers-patterns",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognises place value and continues simple number patterns.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mx2-add-sub",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Chooses a suitable strategy for addition and subtraction problems.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mx2-multiplication",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Represents multiplication with equal groups and repeated addition.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mx2-fractions-measure",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognises equal parts and uses familiar measurement units.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "aas2-mx2-geometry-data",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Describes simple shapes and interprets a small data display.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2",
+        "CCSS-G2-MATH"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SEN-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies the five senses and the body parts used for sensing.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SEN-02",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Explains how hearing helps people notice and distinguish familiar sounds.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SEN-03",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Uses sight to observe familiar objects, shapes and colours safely.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SEN-04",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Describes touch as a way to notice safe, observable texture differences.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SEN-05",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Recognises that taste and smell are senses and follows safe food rules.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-MAT-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Predicts and observes whether familiar safe objects float or sink.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-MAT-02",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Describes simple liquid, container, mixing and dissolving observations.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-MAT-03",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Identifies safe choices around heat sources without handling hot equipment.",
+      "sourceReferenceIds": [
+        "MACMILLAN-SCIENCE-L2",
+        "NGSS-G2-2013"
+      ]
+    },
+    {
+      "skillId": "SCI-G2-SKY-01",
+      "learnerPath": "GRADE_2",
+      "domain": "Science",
+      "observableOutcome": "Describes the Moon, stars and visible patterns in the night sky safely.",
       "sourceReferenceIds": [
         "MACMILLAN-SCIENCE-L2",
         "NGSS-G2-2013"
@@ -7517,11 +8073,47 @@
   "books": [
     {
       "bookId": "macmillan-science-level2",
-      "title": "Macmillan Science Level 2",
+      "title": "Macmillan Science — Level 2 Pupil's Book and eBook Pack",
       "subject": "Science",
       "learnerPath": "GRADE_2",
       "sourceReferenceIds": [
         "MACMILLAN-SCIENCE-L2"
+      ]
+    },
+    {
+      "bookId": "english-world-level-2",
+      "title": "Macmillan English World — Level 2 Pupil's Book Pack",
+      "subject": "English",
+      "learnerPath": "GRADE_2",
+      "sourceReferenceIds": [
+        "MACMILLAN-ENGLISH-WORLD-L2"
+      ]
+    },
+    {
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Macmillan Mathematics — Level 2A",
+      "subject": "Mathematics",
+      "learnerPath": "GRADE_2",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382"
+      ]
+    },
+    {
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Macmillan Mathematics — Level 2B",
+      "subject": "Mathematics",
+      "learnerPath": "GRADE_2",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B"
+      ]
+    },
+    {
+      "bookId": "maths-xpress-book-2",
+      "title": "Maths Xpress — Book 2",
+      "subject": "Mathematics",
+      "learnerPath": "GRADE_2",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-BOOK2"
       ]
     }
   ],
@@ -7549,6 +8141,425 @@
         "SCI-G2-U02-L3",
         "SCI-G2-U02-L4",
         "SCI-G2-U02-L5"
+      ]
+    },
+    {
+      "unitId": "EW2-U01",
+      "bookId": "english-world-level-2",
+      "title": "At the castle",
+      "sequence": 1,
+      "lessonIds": [
+        "EW2-U01-L01",
+        "EW2-U01-L02",
+        "EW2-U01-L03",
+        "EW2-U01-L04"
+      ]
+    },
+    {
+      "unitId": "EW2-U02",
+      "bookId": "english-world-level-2",
+      "title": "In Biffo's garden",
+      "sequence": 2,
+      "lessonIds": [
+        "EW2-U02-L01",
+        "EW2-U02-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U03",
+      "bookId": "english-world-level-2",
+      "title": "Pirate Jack",
+      "sequence": 3,
+      "lessonIds": [
+        "EW2-U03-L01",
+        "EW2-U03-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U04",
+      "bookId": "english-world-level-2",
+      "title": "A fantastic shop",
+      "sequence": 4,
+      "lessonIds": [
+        "EW2-U04-L01",
+        "EW2-U04-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U05",
+      "bookId": "english-world-level-2",
+      "title": "Pirate Jack is on TV",
+      "sequence": 5,
+      "lessonIds": [
+        "EW2-U05-L01",
+        "EW2-U05-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U06",
+      "bookId": "english-world-level-2",
+      "title": "Who is the winner?",
+      "sequence": 6,
+      "lessonIds": [
+        "EW2-U06-L01",
+        "EW2-U06-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U07",
+      "bookId": "english-world-level-2",
+      "title": "A trip in a balloon",
+      "sequence": 7,
+      "lessonIds": [
+        "EW2-U07-L01",
+        "EW2-U07-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U08",
+      "bookId": "english-world-level-2",
+      "title": "Look at the animals!",
+      "sequence": 8,
+      "lessonIds": [
+        "EW2-U08-L01",
+        "EW2-U08-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U09",
+      "bookId": "english-world-level-2",
+      "title": "Look! The sea!",
+      "sequence": 9,
+      "lessonIds": [
+        "EW2-U09-L01",
+        "EW2-U09-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U10",
+      "bookId": "english-world-level-2",
+      "title": "The island",
+      "sequence": 10,
+      "lessonIds": [
+        "EW2-U10-L01",
+        "EW2-U10-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U11",
+      "bookId": "english-world-level-2",
+      "title": "The boat",
+      "sequence": 11,
+      "lessonIds": [
+        "EW2-U11-L01",
+        "EW2-U11-L02"
+      ]
+    },
+    {
+      "unitId": "EW2-U12",
+      "bookId": "english-world-level-2",
+      "title": "Welcome home!",
+      "sequence": 12,
+      "lessonIds": [
+        "EW2-U12-L01",
+        "EW2-U12-L02"
+      ]
+    },
+    {
+      "unitId": "MM2A-U01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Numbers to 100",
+      "sequence": 1,
+      "lessonIds": [
+        "MM2A-U01-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Numbers to 999",
+      "sequence": 2,
+      "lessonIds": [
+        "MM2A-U02-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U03",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Addition to 99",
+      "sequence": 3,
+      "lessonIds": [
+        "MM2A-U03-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U04",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Assess and review",
+      "sequence": 4,
+      "lessonIds": [
+        "MM2A-U04-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U05",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Subtraction within 99",
+      "sequence": 5,
+      "lessonIds": [
+        "MM2A-U05-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U06",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Multiplication",
+      "sequence": 6,
+      "lessonIds": [
+        "MM2A-U06-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U07",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Number facts",
+      "sequence": 7,
+      "lessonIds": [
+        "MM2A-U07-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U08",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Assess and review",
+      "sequence": 8,
+      "lessonIds": [
+        "MM2A-U08-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U09",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Equations and functions",
+      "sequence": 9,
+      "lessonIds": [
+        "MM2A-U09-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U10",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Fractions",
+      "sequence": 10,
+      "lessonIds": [
+        "MM2A-U10-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U11",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Time",
+      "sequence": 11,
+      "lessonIds": [
+        "MM2A-U11-L01"
+      ]
+    },
+    {
+      "unitId": "MM2A-U12",
+      "bookId": "macmillan-mathematics-level-2a",
+      "title": "Assess and review",
+      "sequence": 12,
+      "lessonIds": [
+        "MM2A-U12-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U13",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Numbers and number patterns",
+      "sequence": 1,
+      "lessonIds": [
+        "MM2B-U13-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U14",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Addition and subtraction to 999",
+      "sequence": 2,
+      "lessonIds": [
+        "MM2B-U14-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U15",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Money",
+      "sequence": 3,
+      "lessonIds": [
+        "MM2B-U15-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U16",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Assess and review",
+      "sequence": 4,
+      "lessonIds": [
+        "MM2B-U16-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U17",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Flat and solid shapes",
+      "sequence": 5,
+      "lessonIds": [
+        "MM2B-U17-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U18",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Lines and shapes",
+      "sequence": 6,
+      "lessonIds": [
+        "MM2B-U18-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U19",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Area of shapes",
+      "sequence": 7,
+      "lessonIds": [
+        "MM2B-U19-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U20",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Assess and review",
+      "sequence": 8,
+      "lessonIds": [
+        "MM2B-U20-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U21",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Measuring length",
+      "sequence": 9,
+      "lessonIds": [
+        "MM2B-U21-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U22",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Measures problems",
+      "sequence": 10,
+      "lessonIds": [
+        "MM2B-U22-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U23",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Handling data",
+      "sequence": 11,
+      "lessonIds": [
+        "MM2B-U23-L01"
+      ]
+    },
+    {
+      "unitId": "MM2B-U24",
+      "bookId": "macmillan-mathematics-level-2b",
+      "title": "Assess and review",
+      "sequence": 12,
+      "lessonIds": [
+        "MM2B-U24-L01"
+      ]
+    },
+    {
+      "unitId": "MX2-G2-U01",
+      "bookId": "maths-xpress-book-2",
+      "title": "Numbers and Patterns",
+      "sequence": 1,
+      "lessonIds": [
+        "MX2-G2-U01-L01"
+      ]
+    },
+    {
+      "unitId": "MX2-G2-U02",
+      "bookId": "maths-xpress-book-2",
+      "title": "Addition and Subtraction",
+      "sequence": 2,
+      "lessonIds": [
+        "MX2-G2-U02-L01"
+      ]
+    },
+    {
+      "unitId": "MX2-G2-U03",
+      "bookId": "maths-xpress-book-2",
+      "title": "Multiplication and Equal Groups",
+      "sequence": 3,
+      "lessonIds": [
+        "MX2-G2-U03-L01"
+      ]
+    },
+    {
+      "unitId": "MX2-G2-U04",
+      "bookId": "maths-xpress-book-2",
+      "title": "Fractions and Measurement",
+      "sequence": 4,
+      "lessonIds": [
+        "MX2-G2-U04-L01"
+      ]
+    },
+    {
+      "unitId": "MX2-G2-U05",
+      "bookId": "maths-xpress-book-2",
+      "title": "Geometry and Data",
+      "sequence": 5,
+      "lessonIds": [
+        "MX2-G2-U05-L01"
+      ]
+    },
+    {
+      "unitId": "SCI-G2-U03",
+      "bookId": "macmillan-science-level2",
+      "title": "Senses and Our Bodies",
+      "sequence": 3,
+      "lessonIds": [
+        "SCI-G2-U03-L1",
+        "SCI-G2-U03-L2",
+        "SCI-G2-U03-L3",
+        "SCI-G2-U03-L4",
+        "SCI-G2-U03-L5"
+      ]
+    },
+    {
+      "unitId": "SCI-G2-U04",
+      "bookId": "macmillan-science-level2",
+      "title": "Materials and Physical Properties",
+      "sequence": 4,
+      "lessonIds": [
+        "SCI-G2-U04-L1",
+        "SCI-G2-U04-L2",
+        "SCI-G2-U04-L3",
+        "SCI-G2-U04-L4"
+      ]
+    },
+    {
+      "unitId": "SCI-G2-U05",
+      "bookId": "macmillan-science-level2",
+      "title": "The Sky at Night",
+      "sequence": 5,
+      "lessonIds": [
+        "SCI-G2-U05-L1",
+        "SCI-G2-U05-L2",
+        "SCI-G2-U05-L3"
       ]
     }
   ],
@@ -7649,6 +8660,608 @@
         "SCI-G2-AN-06",
         "SCI-G2-ENQ-08",
         "SCI-G2-ENQ-09"
+      ]
+    },
+    {
+      "lessonId": "EW2-U01-L01",
+      "unitId": "EW2-U01",
+      "title": "Action Verbs and Present Continuous",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-grammar-and-word-study"
+      ]
+    },
+    {
+      "lessonId": "EW2-U01-L02",
+      "unitId": "EW2-U01",
+      "title": "Reading, Sequencing and Sentence Order",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-aboudy-reading-comprehension"
+      ]
+    },
+    {
+      "lessonId": "EW2-U01-L03",
+      "unitId": "EW2-U01",
+      "title": "Everyday Vocabulary in Context",
+      "sequence": 3,
+      "skillIds": [
+        "english-context-vocabulary"
+      ]
+    },
+    {
+      "lessonId": "EW2-U01-L04",
+      "unitId": "EW2-U01",
+      "sequence": 4,
+      "skillIds": [
+        "english-sentence-order"
+      ]
+    },
+    {
+      "lessonId": "EW2-U02-L01",
+      "unitId": "EW2-U02",
+      "title": "Playground Vocabulary",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u02-playground-vocabulary"
+      ]
+    },
+    {
+      "lessonId": "EW2-U02-L02",
+      "unitId": "EW2-U02",
+      "title": "This, That, These and Those",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u02-demonstratives-ing"
+      ]
+    },
+    {
+      "lessonId": "EW2-U03-L01",
+      "unitId": "EW2-U03",
+      "title": "Sports, Hobbies and Like/Likes",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u03-hobbies-like-likes"
+      ]
+    },
+    {
+      "lessonId": "EW2-U03-L02",
+      "unitId": "EW2-U03",
+      "title": "Yes/No Questions and Long Vowel Patterns",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u03-questions-phonics"
+      ]
+    },
+    {
+      "lessonId": "EW2-U04-L01",
+      "unitId": "EW2-U04",
+      "title": "Clothes and Do/Does Questions",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u04-clothes-questions"
+      ]
+    },
+    {
+      "lessonId": "EW2-U04-L02",
+      "unitId": "EW2-U04",
+      "title": "Consonant Blends and Describing Words",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u04-blends-description"
+      ]
+    },
+    {
+      "lessonId": "EW2-U05-L01",
+      "unitId": "EW2-U05",
+      "title": "Daily Routines and Time",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u05-routines-time"
+      ]
+    },
+    {
+      "lessonId": "EW2-U05-L02",
+      "unitId": "EW2-U05",
+      "title": "Consonant Blends and Sequencing",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u05-blends-sequencing"
+      ]
+    },
+    {
+      "lessonId": "EW2-U06-L01",
+      "unitId": "EW2-U06",
+      "title": "Body Parts and Possessive Pronouns",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u06-body-pronouns"
+      ]
+    },
+    {
+      "lessonId": "EW2-U06-L02",
+      "unitId": "EW2-U06",
+      "title": "Consonant Blends and Contractions",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u06-blends-contractions"
+      ]
+    },
+    {
+      "lessonId": "EW2-U07-L01",
+      "unitId": "EW2-U07",
+      "title": "Food, Months and Weather",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u07-food-weather"
+      ]
+    },
+    {
+      "lessonId": "EW2-U07-L02",
+      "unitId": "EW2-U07",
+      "title": "There Is/Are and Frequency Words",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u07-frequency-language"
+      ]
+    },
+    {
+      "lessonId": "EW2-U08-L01",
+      "unitId": "EW2-U08",
+      "title": "Animals and Was/Were",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u08-animals-was-were"
+      ]
+    },
+    {
+      "lessonId": "EW2-U08-L02",
+      "unitId": "EW2-U08",
+      "title": "Word Endings and Half-Past Time",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u08-endings-time"
+      ]
+    },
+    {
+      "lessonId": "EW2-U09-L01",
+      "unitId": "EW2-U09",
+      "title": "Sea Creatures and Prepositions",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u09-sea-prepositions"
+      ]
+    },
+    {
+      "lessonId": "EW2-U09-L02",
+      "unitId": "EW2-U09",
+      "title": "There Was/Were and the Long Ee Sound",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u09-past-ee"
+      ]
+    },
+    {
+      "lessonId": "EW2-U10-L01",
+      "unitId": "EW2-U10",
+      "title": "Beach Vocabulary and Imperatives",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u10-beach-imperatives"
+      ]
+    },
+    {
+      "lessonId": "EW2-U10-L02",
+      "unitId": "EW2-U10",
+      "title": "Object Pronouns and the Long Oo Sound",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u10-pronouns-oo"
+      ]
+    },
+    {
+      "lessonId": "EW2-U11-L01",
+      "unitId": "EW2-U11",
+      "title": "Regular Past Verbs and Sequencing",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u11-past-sequencing"
+      ]
+    },
+    {
+      "lessonId": "EW2-U11-L02",
+      "unitId": "EW2-U11",
+      "title": "The Ai Sound and Diary Writing",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u11-ai-diary"
+      ]
+    },
+    {
+      "lessonId": "EW2-U12-L01",
+      "unitId": "EW2-U12",
+      "title": "Food, Movement and Prepositions",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ew2-u12-food-movement"
+      ]
+    },
+    {
+      "lessonId": "EW2-U12-L02",
+      "unitId": "EW2-U12",
+      "title": "Past Tense and Commas in a List",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ew2-u12-past-lists"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U01-L01",
+      "unitId": "MM2A-U01",
+      "title": "Numbers to 100",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-place-value"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U02-L01",
+      "unitId": "MM2A-U02",
+      "title": "Numbers to 999",
+      "sequence": 1,
+      "skillIds": [
+        "place-value-to-1000"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U03-L01",
+      "unitId": "MM2A-U03",
+      "title": "Addition to 99",
+      "sequence": 1,
+      "skillIds": [
+        "addition-within-100"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U04-L01",
+      "unitId": "MM2A-U04",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2a-review-u04"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U05-L01",
+      "unitId": "MM2A-U05",
+      "title": "Subtraction within 99",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-addition-and-subtraction"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U06-L01",
+      "unitId": "MM2A-U06",
+      "title": "Multiplication",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-multiplication"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U07-L01",
+      "unitId": "MM2A-U07",
+      "title": "Number facts",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2a-number-facts"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U08-L01",
+      "unitId": "MM2A-U08",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2a-review-u08"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U09-L01",
+      "unitId": "MM2A-U09",
+      "title": "Equations and functions",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2a-equations-functions"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U10-L01",
+      "unitId": "MM2A-U10",
+      "title": "Fractions",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-fractions-and-measure"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U11-L01",
+      "unitId": "MM2A-U11",
+      "title": "Time",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-measure-and-apply"
+      ]
+    },
+    {
+      "lessonId": "MM2A-U12-L01",
+      "unitId": "MM2A-U12",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2a-review-u12"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U13-L01",
+      "unitId": "MM2B-U13",
+      "title": "Numbers and number patterns",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-number-patterns"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U14-L01",
+      "unitId": "MM2B-U14",
+      "title": "Addition and subtraction to 999",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-add-sub-999"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U15-L01",
+      "unitId": "MM2B-U15",
+      "title": "Money",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-money"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U16-L01",
+      "unitId": "MM2B-U16",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-review-u16"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U17-L01",
+      "unitId": "MM2B-U17",
+      "title": "Flat and solid shapes",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-flat-solid-shapes"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U18-L01",
+      "unitId": "MM2B-U18",
+      "title": "Lines and shapes",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-lines-shapes"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U19-L01",
+      "unitId": "MM2B-U19",
+      "title": "Area of shapes",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-area"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U20-L01",
+      "unitId": "MM2B-U20",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-review-u20"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U21-L01",
+      "unitId": "MM2B-U21",
+      "title": "Measuring length",
+      "sequence": 1,
+      "skillIds": [
+        "measure-length-centimeters"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U22-L01",
+      "unitId": "MM2B-U22",
+      "title": "Measures problems",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-measures-problems"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U23-L01",
+      "unitId": "MM2B-U23",
+      "title": "Handling data",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-aboudy-data-handling"
+      ]
+    },
+    {
+      "lessonId": "MM2B-U24-L01",
+      "unitId": "MM2B-U24",
+      "title": "Assess and review",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mm2b-review-u24"
+      ]
+    },
+    {
+      "lessonId": "MX2-G2-U01-L01",
+      "unitId": "MX2-G2-U01",
+      "title": "Numbers and Patterns",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mx2-numbers-patterns"
+      ]
+    },
+    {
+      "lessonId": "MX2-G2-U02-L01",
+      "unitId": "MX2-G2-U02",
+      "title": "Addition and Subtraction",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mx2-add-sub"
+      ]
+    },
+    {
+      "lessonId": "MX2-G2-U03-L01",
+      "unitId": "MX2-G2-U03",
+      "title": "Multiplication and Equal Groups",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mx2-multiplication"
+      ]
+    },
+    {
+      "lessonId": "MX2-G2-U04-L01",
+      "unitId": "MX2-G2-U04",
+      "title": "Fractions and Measurement",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mx2-fractions-measure"
+      ]
+    },
+    {
+      "lessonId": "MX2-G2-U05-L01",
+      "unitId": "MX2-G2-U05",
+      "title": "Geometry and Data",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-mx2-geometry-data"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U03-L1",
+      "unitId": "SCI-G2-U03",
+      "title": "Five Senses and Sense Organs",
+      "sequence": 1,
+      "skillIds": [
+        "SCI-G2-SEN-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U03-L2",
+      "unitId": "SCI-G2-U03",
+      "title": "Hearing and Making Sounds",
+      "sequence": 2,
+      "skillIds": [
+        "SCI-G2-SEN-02"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U03-L3",
+      "unitId": "SCI-G2-U03",
+      "title": "Seeing the World and Colour",
+      "sequence": 3,
+      "skillIds": [
+        "SCI-G2-SEN-03"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U03-L4",
+      "unitId": "SCI-G2-U03",
+      "title": "Touch and Texture",
+      "sequence": 4,
+      "skillIds": [
+        "SCI-G2-SEN-04"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U03-L5",
+      "unitId": "SCI-G2-U03",
+      "title": "Taste and Smell Safely",
+      "sequence": 5,
+      "skillIds": [
+        "SCI-G2-SEN-05"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L1",
+      "unitId": "SCI-G2-U04",
+      "title": "Floating and Sinking",
+      "sequence": 1,
+      "skillIds": [
+        "SCI-G2-MAT-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L2",
+      "unitId": "SCI-G2-U04",
+      "title": "Liquids and Containers",
+      "sequence": 2,
+      "skillIds": [
+        "SCI-G2-MAT-02"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L3",
+      "unitId": "SCI-G2-U04",
+      "title": "Dissolving and Mixing",
+      "sequence": 3,
+      "skillIds": [
+        "SCI-G2-MAT-02"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U04-L4",
+      "unitId": "SCI-G2-U04",
+      "title": "Heat Sources and Safety",
+      "sequence": 4,
+      "skillIds": [
+        "SCI-G2-MAT-03"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U05-L1",
+      "unitId": "SCI-G2-U05",
+      "title": "The Moon and the Stars",
+      "sequence": 1,
+      "skillIds": [
+        "SCI-G2-SKY-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U05-L2",
+      "unitId": "SCI-G2-U05",
+      "title": "Moon Surface and Craters",
+      "sequence": 2,
+      "skillIds": [
+        "SCI-G2-SKY-01"
+      ]
+    },
+    {
+      "lessonId": "SCI-G2-U05-L3",
+      "unitId": "SCI-G2-U05",
+      "title": "Star Patterns and Sky Observations",
+      "sequence": 3,
+      "skillIds": [
+        "SCI-G2-SKY-01"
       ]
     }
   ]
