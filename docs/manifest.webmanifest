@@ -1,0 +1,10 @@
+{
+  "name": "Ali & Aboudy Scholars",
+  "short_name": "AAS Scholars",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fc",
+  "theme_color": "#253d5b",
+  "description": "A personal, offline-first learning world for Ali and Aboudy.",
+  "icons": []
+}
