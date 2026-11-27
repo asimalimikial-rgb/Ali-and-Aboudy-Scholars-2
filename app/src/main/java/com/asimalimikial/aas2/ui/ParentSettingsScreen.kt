@@ -38,6 +38,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.asimalimikial.aas2.R
@@ -53,7 +54,7 @@ fun ParentSettingsScreen(
     onBack: () -> Unit,
     onLeaveForeground: () -> Unit
 ) {
-    val lifecycleOwner = LocalLifecycleOwner.current
+    val lifecycleOwner = ProcessLifecycleOwner.get()
     val currentOnLeaveForeground by rememberUpdatedState(onLeaveForeground)
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
