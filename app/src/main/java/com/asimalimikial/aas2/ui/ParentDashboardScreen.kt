@@ -136,20 +136,6 @@ fun ParentDashboardScreen(
             Text(stringResource(R.string.parent_settings_button))
         }
 
-        Text(
-            stringResource(R.string.parent_dashboard_title),
-            style = MaterialTheme.typography.headlineMedium
-        )
-        Text(
-            stringResource(R.string.parent_dashboard_learner, learnerName, pathwayLabel),
-            style = MaterialTheme.typography.titleMedium
-        )
-        Text(
-            stringResource(R.string.parent_dashboard_description),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
-
         when {
             isLoading -> Text(
                 stringResource(R.string.loading_content_pack),
@@ -163,7 +149,8 @@ fun ParentDashboardScreen(
             )
 
             else -> {
-                Card(modifier = Modifier.fillMaxWidth()) {
+                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                    colors = CardDefaults.cardColors(containerColor = Color.White)) {
                     Column(
                         modifier = Modifier.padding(18.dp),
                         verticalArrangement = Arrangement.spacedBy(6.dp)
