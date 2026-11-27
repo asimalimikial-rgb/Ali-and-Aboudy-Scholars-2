@@ -6,6 +6,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CardDefaults
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.Alignment
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -338,17 +340,38 @@ private fun LearningDomainCard(
     activityCount: Int,
     onClick: () -> Unit
 ) {
-    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
-        Column(
-            modifier = Modifier.padding(18.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp)
+    val icon = when {
+        domain.contains("English", true) || domain.contains("Language", true) -> "📖"
+        domain.contains("Math", true) || domain.contains("Numeracy", true) -> "🔢"
+        domain.contains("Science", true) || domain.contains("Discovery", true) -> "🔬"
+        else -> "🌍"
+    }
+    val tint = when (icon) {
+        "📖" -> Color(0xFFFFF0EA)
+        "🔢" -> Color(0xFFEAF6F2)
+        "🔬" -> Color(0xFFEDF3FF)
+        else -> Color(0xFFFFF7E5)
+    }
+    Card(
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(24.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 3.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(17.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(14.dp)
         ) {
-            Text(domain, style = MaterialTheme.typography.titleLarge)
-            Text(
-                stringResource(R.string.learning_area_progress, practicedCount, activityCount),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            Card(shape = RoundedCornerShape(18.dp), colors = CardDefaults.cardColors(containerColor = tint)) {
+                Text(icon, modifier = Modifier.padding(13.dp), style = MaterialTheme.typography.headlineMedium)
+            }
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(domain, style = MaterialTheme.typography.titleLarge, color = Color(0xFF263D5B))
+                Text(stringResource(R.string.learning_area_progress, practicedCount, activityCount),
+                    style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
+            }
+            Text("›", style = MaterialTheme.typography.headlineLarge, color = Color(0xFF7891AC))
         }
     }
 }
@@ -360,14 +383,18 @@ private fun BookCard(
     activityCount: Int,
     onClick: () -> Unit
 ) {
-    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
-        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(book.title, style = MaterialTheme.typography.titleLarge)
-            Text(
-                stringResource(R.string.learning_area_progress, practicedCount, activityCount),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
+        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(13.dp)) {
+            Text("📚", style = MaterialTheme.typography.headlineMedium)
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(book.title, style = MaterialTheme.typography.titleMedium, color = Color(0xFF263D5B))
+                Text(stringResource(R.string.learning_area_progress, practicedCount, activityCount),
+                    style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
+            }
+            Text("›", style = MaterialTheme.typography.headlineMedium, color = Color(0xFF7891AC))
         }
     }
 }
@@ -379,14 +406,19 @@ private fun UnitCard(
     activityCount: Int,
     onClick: () -> Unit
 ) {
-    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
-        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(stringResource(R.string.unit_number_title, unit.sequence, unit.title), style = MaterialTheme.typography.titleLarge)
-            Text(
-                stringResource(R.string.learning_area_progress, practicedCount, activityCount),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
+        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(13.dp)) {
+            Text("🗺️", style = MaterialTheme.typography.headlineMedium)
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(stringResource(R.string.unit_number_title, unit.sequence, unit.title),
+                    style = MaterialTheme.typography.titleMedium, color = Color(0xFF263D5B))
+                Text(stringResource(R.string.learning_area_progress, practicedCount, activityCount),
+                    style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
+            }
+            Text("›", style = MaterialTheme.typography.headlineMedium, color = Color(0xFF7891AC))
         }
     }
 }
@@ -398,14 +430,19 @@ private fun LessonCard(
     activityCount: Int,
     onClick: () -> Unit
 ) {
-    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
-        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(stringResource(R.string.lesson_number_title, lesson.sequence, lesson.title), style = MaterialTheme.typography.titleLarge)
-            Text(
-                stringResource(R.string.learning_area_progress, practicedCount, activityCount),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
+        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(13.dp)) {
+            Text("✨", style = MaterialTheme.typography.headlineMedium)
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(stringResource(R.string.lesson_number_title, lesson.sequence, lesson.title),
+                    style = MaterialTheme.typography.titleMedium, color = Color(0xFF263D5B))
+                Text(stringResource(R.string.learning_area_progress, practicedCount, activityCount),
+                    style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
+            }
+            Text("›", style = MaterialTheme.typography.headlineMedium, color = Color(0xFF7891AC))
         }
     }
 }
@@ -417,29 +454,26 @@ private fun ActivityCatalogueCard(
     isPractised: Boolean,
     onClick: () -> Unit
 ) {
-    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
-        Column(
-            modifier = Modifier.padding(18.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            Text(
-                stringResource(R.string.activity_number, index),
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.primary
-            )
-            Text(
-                activity.prompt,
-                style = MaterialTheme.typography.titleMedium,
-                maxLines = 3,
-                overflow = TextOverflow.Ellipsis
-            )
-            if (isPractised) {
-                Text(
-                    stringResource(R.string.activity_practised),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.secondary
-                )
+    Card(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
+        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(13.dp)) {
+            Card(shape = RoundedCornerShape(15.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF3D8))) {
+                Text(index.toString(), modifier = Modifier.padding(horizontal = 15.dp, vertical = 11.dp),
+                    style = MaterialTheme.typography.titleLarge, color = Color(0xFF946B22))
             }
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(activity.prompt, style = MaterialTheme.typography.titleMedium,
+                    color = Color(0xFF263D5B), maxLines = 3, overflow = TextOverflow.Ellipsis)
+                if (isPractised) {
+                    Text(stringResource(R.string.activity_practised), style = MaterialTheme.typography.labelMedium,
+                        color = Color(0xFF398A6A))
+                } else {
+                    Text("Tap to start", style = MaterialTheme.typography.labelMedium, color = Color(0xFF8290A2))
+                }
+            }
+            Text("▶", style = MaterialTheme.typography.titleLarge, color = Color(0xFF7891AC))
         }
     }
 }
