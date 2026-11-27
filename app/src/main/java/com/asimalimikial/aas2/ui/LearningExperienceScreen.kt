@@ -135,16 +135,6 @@ fun LearningExperienceScreen(
             activity.bookId == null && activity.skillId !in domainBookSkillIds
         }
     }
-    val selectedBookSkillIds = remember(loadedPack, selectedBookId) {
-        val unitIds = loadedPack?.units.orEmpty()
-            .filter { it.bookId == selectedBookId }
-            .map { it.unitId }
-            .toSet()
-        loadedPack?.lessons.orEmpty()
-            .filter { it.unitId in unitIds }
-            .flatMap { it.skillIds }
-            .toSet()
-    }
     val lessonActivities = remember(activities, selectedLessonId, selectedLesson, selectedBookId) {
         val lessonSkillIds = selectedLesson?.skillIds.orEmpty().toSet()
         activities.filter { activity ->
@@ -152,13 +142,6 @@ fun LearningExperienceScreen(
                 (activity.bookId == null && activity.skillId in lessonSkillIds)
         }
     }
-    val bookActivities = remember(activities, selectedBook, selectedBookSkillIds) {
-        activities.filter { activity ->
-            activity.bookId == selectedBook?.bookId ||
-                (activity.bookId == null && activity.skillId in selectedBookSkillIds)
-        }
-    }
-
     val selectedActivitySequence = remember(
         lessonActivities,
         selectedDomainUnassignedActivities,
