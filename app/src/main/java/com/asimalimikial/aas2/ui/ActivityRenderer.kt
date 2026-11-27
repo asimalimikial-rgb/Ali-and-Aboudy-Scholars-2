@@ -5,6 +5,9 @@ import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import com.caverock.androidsvg.SVG
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -62,7 +65,18 @@ fun ActivityRenderer(
     var selectedOptionId by remember(activity.activityId, activity.options) { mutableStateOf<String?>(null) }
     val currentEvaluation = evaluation?.takeIf { it.activityId == activity.activityId }
     LaunchedEffect(activity.activityId, currentEvaluation) {
-        audioController.stop()
+        if (currentEvaluation == null) {
+            activity.promptAudioAssetPath?.let { audioController.toggle(it) }
+        } else {
+            // Stop the question clip even when this activity has no feedback recording.
+            audioController.stop()
+            val encouragementAudio = if (currentEvaluation.isCorrect) {
+                activity.feedbackCorrectAudioAssetPath
+            } else {
+                activity.feedbackIncorrectAudioAssetPath
+            }
+            encouragementAudio?.let { audioController.toggle(it) }
+        }
     }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
     val canChangeAnswer = currentEvaluation == null && !isSubmitting
@@ -74,18 +88,33 @@ fun ActivityRenderer(
     )
 
     CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
-        Card(modifier = modifier.fillMaxWidth()) {
+        Card(
+            modifier = modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(28.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFFFFFFFF)),
+            elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)
+        ) {
             Column(
                 modifier = Modifier.padding(20.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+                verticalArrangement = Arrangement.spacedBy(14.dp)
             ) {
                 activity.promptAudioAssetPath?.let { path ->
-                    AudioClipButton(audioController, path, stringResource(R.string.audio_listen_question))
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.End
+                    ) {
+                        AudioClipButton(audioController, path, stringResource(R.string.audio_listen_question))
+                    }
                 }
                 activity.promptImageAssetPath?.let { path ->
                     OptionImage(assetPath = path, contentDescription = activity.prompt)
                 }
-                Text(activity.prompt, style = MaterialTheme.typography.titleLarge)
+                Text(
+                    activity.prompt,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                    style = MaterialTheme.typography.headlineSmall,
+                    color = Color(0xFF263D5B)
+                )
                 activity.options.forEach { option ->
                     val isSelected = selectedOptionId == option.optionId
                     Row(
@@ -96,19 +125,21 @@ fun ActivityRenderer(
                         OutlinedButton(
                             modifier = Modifier
                                 .weight(1f)
+                                .height(72.dp)
                                 .semantics { selected = isSelected },
+                            shape = RoundedCornerShape(18.dp),
                             enabled = canChangeAnswer,
                             onClick = { audioController.stop(); selectedOptionId = option.optionId },
                             colors = ButtonDefaults.outlinedButtonColors(
                                 containerColor = if (isSelected) {
-                                    MaterialTheme.colorScheme.secondaryContainer
+                                    Color(0xFFE7F6EF)
                                 } else {
-                                    MaterialTheme.colorScheme.surface
+                                    Color(0xFFFAFBFD)
                                 },
                                 contentColor = if (isSelected) {
-                                    MaterialTheme.colorScheme.onSecondaryContainer
+                                    Color(0xFF27684D)
                                 } else {
-                                    MaterialTheme.colorScheme.primary
+                                    Color(0xFF344963)
                                 }
                             )
                         ) {
@@ -137,7 +168,8 @@ fun ActivityRenderer(
                 }
                 if (currentEvaluation == null) {
                     Button(
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier.fillMaxWidth().height(58.dp),
+                        shape = RoundedCornerShape(18.dp),
                         enabled = selectedOptionId != null && !isSubmitting,
                         onClick = { selectedOptionId?.let { answerId -> audioController.stop(); onSubmitAnswer(answerId) } }
                     ) {

@@ -12,10 +12,22 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
@@ -258,32 +270,43 @@ private fun LearnerProfileSelection(
     onSelect: (LearnerProfileEntity) -> Unit
 ) {
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
+        modifier = Modifier.fillMaxSize()
+            .background(Brush.verticalGradient(listOf(Color(0xFFFFF4EC), Color(0xFFF4F7FF), Color(0xFFEAF5F2))))
+            .verticalScroll(androidx.compose.foundation.rememberScrollState())
+            .padding(horizontal = 22.dp, vertical = 30.dp),
+        verticalArrangement = Arrangement.spacedBy(18.dp)
     ) {
-        Text(stringResource(R.string.app_title), style = MaterialTheme.typography.headlineMedium)
-        Text(stringResource(R.string.choose_learner), style = MaterialTheme.typography.titleMedium)
-        Text(
-            stringResource(R.string.learner_separation_note),
-            style = MaterialTheme.typography.bodyMedium
-        )
-
+        Text("ALI & ABOUDY SCHOLARS", color = Color(0xFF71829A), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.ExtraBold)
+        Text(stringResource(R.string.app_title), style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
+        Text(stringResource(R.string.choose_learner), style = MaterialTheme.typography.titleLarge, color = Color(0xFF52647C), fontWeight = FontWeight.Bold)
+        Text(stringResource(R.string.learner_separation_note), style = MaterialTheme.typography.bodyMedium, color = Color(0xFF78869A))
         when {
-            isLoading -> Text(stringResource(R.string.preparing_profiles), style = MaterialTheme.typography.bodyMedium)
-            profiles.isEmpty() -> Text(stringResource(R.string.no_active_profiles), style = MaterialTheme.typography.bodyMedium)
+            isLoading -> Text(stringResource(R.string.preparing_profiles), style = MaterialTheme.typography.bodyLarge)
+            profiles.isEmpty() -> Text(stringResource(R.string.no_active_profiles), style = MaterialTheme.typography.bodyLarge)
             else -> profiles.forEach { profile ->
+                val isAli = profile.learnerId == "ali"
                 val displayName = localizedLearnerName(profile)
                 val displayPathway = localizedPathway(profile.pathway)
-                Button(
-                    modifier = Modifier.fillMaxWidth(),
-                    onClick = { onSelect(profile) }
-                ) {
-                    Text(stringResource(R.string.learner_label, displayName, displayPathway))
+                val accent = if (isAli) Color(0xFFE87968) else Color(0xFF4D88CF)
+                val tint = if (isAli) Color(0xFFFFF0EA) else Color(0xFFEDF4FF)
+                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
+                    colors = CardDefaults.cardColors(containerColor = tint),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)) {
+                    Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(if (isAli) "🌳" else "🚀", style = MaterialTheme.typography.displayMedium)
+                        Text(displayName, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Black, color = accent)
+                        Text(displayPathway, style = MaterialTheme.typography.titleMedium, color = Color(0xFF52647C))
+                        Text(if (isAli) "Letters, sounds, numbers and little discoveries." else "Reading, reasoning, science and bigger discoveries.",
+                            style = MaterialTheme.typography.bodyMedium, color = Color(0xFF6F7D90))
+                        Button(modifier = Modifier.fillMaxWidth().height(58.dp), onClick = { onSelect(profile) },
+                            shape = RoundedCornerShape(18.dp), colors = ButtonDefaults.buttonColors(containerColor = accent)) {
+                            Text(stringResource(R.string.learner_label, displayName, displayPathway), fontWeight = FontWeight.ExtraBold)
+                        }
+                    }
                 }
             }
         }
+        Text("A personal learning journey for each child", color = Color(0xFF8793A4), style = MaterialTheme.typography.labelMedium)
     }
 }
 
@@ -298,6 +321,9 @@ private fun LearnerHome(
 ) {
     val displayName = localizedLearnerName(profile)
     val displayPathway = localizedPathway(profile.pathway)
+    val isAli = profile.learnerId == "ali"
+    val accent = if (isAli) Color(0xFFE87968) else Color(0xFF4D88CF)
+    val soft = if (isAli) Color(0xFFFFF0EA) else Color(0xFFEDF4FF)
     val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
     var availableSubjects by remember(profile.learnerId) { mutableStateOf<List<Pair<String, Int>>>(emptyList()) }
     var isLoadingSubjects by remember(profile.learnerId) { mutableStateOf(true) }
@@ -329,124 +355,95 @@ private fun LearnerHome(
     val practiceSummary = remember(profile.learnerId, attempts) {
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
     }
-
+    val accuracy = practiceSummary.accuracyPercent
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
+        modifier = Modifier.fillMaxSize()
+            .background(Brush.verticalGradient(listOf(soft, Color(0xFFF8FAFD), Color.White)))
+            .verticalScroll(androidx.compose.foundation.rememberScrollState())
+            .padding(horizontal = 18.dp, vertical = 18.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        Text(
-            stringResource(R.string.welcome_name, displayName),
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold
-        )
-        Text(
-            stringResource(R.string.learning_pathway, displayPathway),
-            style = MaterialTheme.typography.titleMedium
-        )
-
-        Card(modifier = Modifier.fillMaxWidth()) {
-            Column(
-                modifier = Modifier.padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                Text(stringResource(R.string.learning_space_title), style = MaterialTheme.typography.titleLarge)
-                Text(
-                    stringResource(R.string.learning_space_description),
-                    style = MaterialTheme.typography.bodyMedium
-                )
+        Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween) {
+            Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
+                Text("YOUR LEARNING WORLD", color = accent, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black)
+                Text(stringResource(R.string.welcome_name, displayName), style = MaterialTheme.typography.headlineMedium,
+                    fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
+                Text(displayPathway, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF77859A))
             }
+            OutlinedButton(onClick = onSwitchLearner, shape = RoundedCornerShape(16.dp)) { Text("⇄") }
         }
-
-        Card(modifier = Modifier.fillMaxWidth()) {
-            Column(
-                modifier = Modifier.padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                Text(
-                    stringResource(R.string.practice_summary_title),
-                    style = MaterialTheme.typography.titleLarge
-                )
-                if (practiceSummary.scoredAttempts == 0) {
-                    Text(
-                        stringResource(R.string.practice_summary_empty),
-                        style = MaterialTheme.typography.bodyMedium
-                    )
-                } else {
-                    Text(
-                        stringResource(R.string.practice_summary_scored_attempts, practiceSummary.scoredAttempts),
-                        style = MaterialTheme.typography.bodyMedium
-                    )
-                    Text(
-                        stringResource(R.string.practice_summary_correct_answers, practiceSummary.correctAnswers),
-                        style = MaterialTheme.typography.bodyMedium
-                    )
-                    Text(
-                        stringResource(R.string.practice_summary_accuracy, practiceSummary.accuracyPercent),
-                        style = MaterialTheme.typography.bodyMedium
-                    )
-                    Text(
-                        stringResource(
-                            R.string.practice_summary_hint_breakdown,
-                            practiceSummary.independentCorrectAnswers,
-                            practiceSummary.hintedCorrectAnswers
-                        ),
-                        style = MaterialTheme.typography.bodySmall
-                    )
+        Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
+            elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)) {
+            Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text(if (isAli) "🌟" else "🚀", style = MaterialTheme.typography.displaySmall)
+                Text(if (practiceSummary.scoredAttempts == 0) "Your adventure is ready!" else "Look how far you have come!",
+                    style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold)
+                Text(if (practiceSummary.scoredAttempts == 0) "Choose a world and start collecting discoveries."
+                    else "Every activity is another step in your learning journey.",
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2))
+                Button(modifier = Modifier.fillMaxWidth().height(60.dp), onClick = onStartLearning,
+                    shape = RoundedCornerShape(18.dp), colors = ButtonDefaults.buttonColors(containerColor = accent)) {
+                    Text(stringResource(R.string.start_learning), fontWeight = FontWeight.Black, style = MaterialTheme.typography.titleMedium)
                 }
             }
         }
-
-        Button(
-            modifier = Modifier.fillMaxWidth(),
-            onClick = onStartLearning
-        ) {
-            Text(stringResource(R.string.start_learning))
-        }
-
-        Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge)
-        when {
-            isLoadingSubjects -> Text(
-                stringResource(R.string.loading_learning_areas),
-                style = MaterialTheme.typography.bodyMedium
-            )
-            availableSubjects.isEmpty() -> Text(
-                stringResource(R.string.no_learning_areas),
-                style = MaterialTheme.typography.bodyMedium
-            )
-            else -> availableSubjects.forEach { (subject, activityCount) ->
-                Card(modifier = Modifier.fillMaxWidth()) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(4.dp)
-                    ) {
-                        Text(subject, style = MaterialTheme.typography.titleMedium)
-                        Text(
-                            stringResource(R.string.available_activity_count, activityCount),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
-                        )
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            listOf(Triple(practiceSummary.scoredAttempts.toString(), "Activities", "📚"),
+                Triple(practiceSummary.correctAnswers.toString(), "Correct", "⭐"),
+                Triple(if (practiceSummary.scoredAttempts == 0) "—" else "$accuracy%", "Accuracy", "🎯")).forEach { item ->
+                Card(modifier = Modifier.weight(1f), shape = RoundedCornerShape(20.dp),
+                    colors = CardDefaults.cardColors(containerColor = Color.White)) {
+                    Column(modifier = Modifier.fillMaxWidth().padding(vertical = 13.dp, horizontal = 7.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(3.dp)) {
+                        Text(item.third, style = MaterialTheme.typography.titleLarge)
+                        Text(item.first, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Black, color = accent)
+                        Text(item.second, style = MaterialTheme.typography.labelSmall, color = Color(0xFF8491A2))
                     }
                 }
             }
         }
-
-        OutlinedButton(
-            modifier = Modifier.fillMaxWidth(),
-            onClick = onOpenParentDashboard
-        ) {
-            Text(stringResource(R.string.open_parent_dashboard))
+        Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
+        when {
+            isLoadingSubjects -> Text(stringResource(R.string.loading_learning_areas), style = MaterialTheme.typography.bodyMedium)
+            availableSubjects.isEmpty() -> Text(stringResource(R.string.no_learning_areas), style = MaterialTheme.typography.bodyMedium)
+            else -> availableSubjects.forEachIndexed { index, (subject, activityCount) ->
+                val icon = when {
+                    subject.contains("English", ignoreCase = true) || subject.contains("Language", ignoreCase = true) -> "📖"
+                    subject.contains("Math", ignoreCase = true) || subject.contains("Numeracy", ignoreCase = true) -> "🔢"
+                    subject.contains("Science", ignoreCase = true) || subject.contains("Discovery", ignoreCase = true) -> "🔬"
+                    else -> listOf("🧩", "🎨", "🌱")[index % 3]
+                }
+                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                    colors = CardDefaults.cardColors(containerColor = Color.White),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
+                    Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                        Text(icon, style = MaterialTheme.typography.headlineMedium)
+                        Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
+                            Text(subject, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF314763))
+                            Text(stringResource(R.string.available_activity_count, activityCount), style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
+                        }
+                        Text("›", style = MaterialTheme.typography.headlineMedium, color = accent)
+                    }
+                }
+            }
         }
-
-        OutlinedButton(
-            modifier = Modifier.fillMaxWidth(),
-            onClick = onSwitchLearner
-        ) {
-            Text(stringResource(R.string.switch_learner))
+        Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF7E5))) {
+            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text("🌱  Keep growing", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF80602B))
+                Text(if (practiceSummary.scoredAttempts == 0) "Try your first activity. Every great journey starts with one step."
+                    else "You have completed " + practiceSummary.scoredAttempts + " activities. Keep exploring at your own pace.",
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFF8A744B))
+            }
         }
+        OutlinedButton(modifier = Modifier.fillMaxWidth().height(54.dp), onClick = onOpenParentDashboard,
+            shape = RoundedCornerShape(17.dp)) { Text(stringResource(R.string.open_parent_dashboard), fontWeight = FontWeight.Bold) }
+        OutlinedButton(modifier = Modifier.fillMaxWidth().height(50.dp), onClick = onSwitchLearner,
+            shape = RoundedCornerShape(17.dp)) { Text(stringResource(R.string.switch_learner)) }
     }
 }
 
