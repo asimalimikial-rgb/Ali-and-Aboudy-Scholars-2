@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -286,6 +286,16 @@
       "sourceReferenceIds": [
         "QCAA-QKLG-2024",
         "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-discovering-world",
+      "learnerPath": "KG2",
+      "domain": "Discovery",
+      "observableOutcome": "Identifies familiar living and non-living things and describes one visible feature of the world around them.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "AAS2-ORIGINAL-AUTHORED"
       ]
     }
   ],
@@ -4368,6 +4378,606 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/5b5972a4214e816b9954c733c1048ce2c138f353c03b18f9550450300163476c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/8de4828d64b9ad9029dd99d265763765208f33a4a84179a1df95fad5f62477ba.ogg"
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-01",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Touch your nose. What should you touch?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Your nose"
+        },
+        {
+          "optionId": "b",
+          "text": "Your knee"
+        },
+        {
+          "optionId": "c",
+          "text": "Your elbow"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-02",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Clap two times. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Clap two times"
+        },
+        {
+          "optionId": "b",
+          "text": "Jump three times"
+        },
+        {
+          "optionId": "c",
+          "text": "Wave one hand"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-03",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Put the book on the table. Where is the book?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Under the chair"
+        },
+        {
+          "optionId": "b",
+          "text": "On the table"
+        },
+        {
+          "optionId": "c",
+          "text": "In the bag"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-01",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A seed is planted, watered and grows. What happens first?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The seed is planted"
+        },
+        {
+          "optionId": "b",
+          "text": "The plant has flowers"
+        },
+        {
+          "optionId": "c",
+          "text": "The plant grows tall"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-02",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A child wakes up, brushes teeth and eats breakfast. What happens after waking up?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Goes to sleep"
+        },
+        {
+          "optionId": "b",
+          "text": "Brushes teeth"
+        },
+        {
+          "optionId": "c",
+          "text": "Eats dinner"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-03",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A caterpillar changes into a butterfly. Which comes before the butterfly?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A caterpillar"
+        },
+        {
+          "optionId": "b",
+          "text": "A bird"
+        },
+        {
+          "optionId": "c",
+          "text": "An egg carton"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-01",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is longer? A 12 cm pencil or an 8 cm crayon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same length"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-02",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is taller?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A 20 cm block tower"
+        },
+        {
+          "optionId": "b",
+          "text": "A 10 cm block tower"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same height"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-03",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is heavier?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A full water bottle"
+        },
+        {
+          "optionId": "b",
+          "text": "An empty bottle"
+        },
+        {
+          "optionId": "c",
+          "text": "They weigh the same"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-01",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does a young plant need to keep growing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water and light"
+        },
+        {
+          "optionId": "b",
+          "text": "Plastic toys"
+        },
+        {
+          "optionId": "c",
+          "text": "A warm coat"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-02",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Where do many plants take in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Through their roots"
+        },
+        {
+          "optionId": "b",
+          "text": "Through their flowers"
+        },
+        {
+          "optionId": "c",
+          "text": "Through their fruit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-03",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What may happen if a plant gets no water for a long time?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It may wilt"
+        },
+        {
+          "optionId": "b",
+          "text": "It will turn into a stone"
+        },
+        {
+          "optionId": "c",
+          "text": "It will make more water"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-01",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which one is a living thing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A tree"
+        },
+        {
+          "optionId": "b",
+          "text": "A stone"
+        },
+        {
+          "optionId": "c",
+          "text": "A plastic cup"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-02",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which feature can you observe on a bird?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It has feathers"
+        },
+        {
+          "optionId": "b",
+          "text": "It is made of metal"
+        },
+        {
+          "optionId": "c",
+          "text": "It has wheels"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-03",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which place is a habitat for a fish?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A pond"
+        },
+        {
+          "optionId": "b",
+          "text": "A dry cupboard"
+        },
+        {
+          "optionId": "c",
+          "text": "A bookshelf"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-01",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A plant near a window bends towards the light. What might it be doing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Growing towards the light"
+        },
+        {
+          "optionId": "b",
+          "text": "Looking for a toy"
+        },
+        {
+          "optionId": "c",
+          "text": "Trying to walk"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-02",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "You see dark clouds gathering. What might happen next?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It may rain"
+        },
+        {
+          "optionId": "b",
+          "text": "The Sun will become a star"
+        },
+        {
+          "optionId": "c",
+          "text": "The clouds will turn into rocks"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-03",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A puddle becomes smaller on a sunny day. What may have happened to the water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Some water evaporated"
+        },
+        {
+          "optionId": "b",
+          "text": "The water became soil"
+        },
+        {
+          "optionId": "c",
+          "text": "The puddle grew deeper"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-01",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool can show how hot or cold the air is?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Thermometer"
+        },
+        {
+          "optionId": "b",
+          "text": "Ruler"
+        },
+        {
+          "optionId": "c",
+          "text": "Paintbrush"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-02",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can you observe on a windy day?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Leaves moving"
+        },
+        {
+          "optionId": "b",
+          "text": "The ground becoming a star"
+        },
+        {
+          "optionId": "c",
+          "text": "The Moon melting"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-03",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which clothing may help on a rainy day?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Raincoat"
+        },
+        {
+          "optionId": "b",
+          "text": "Swimsuit for a pool"
+        },
+        {
+          "optionId": "c",
+          "text": "Wool hat only"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-01",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action helps keep a playground clean?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Put rubbish in a bin"
+        },
+        {
+          "optionId": "b",
+          "text": "Drop wrappers on the ground"
+        },
+        {
+          "optionId": "c",
+          "text": "Break young plants"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-02",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can we save water when brushing teeth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Turn off the tap while brushing"
+        },
+        {
+          "optionId": "b",
+          "text": "Leave the tap running"
+        },
+        {
+          "optionId": "c",
+          "text": "Fill the sink and walk away"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-03",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action helps care for a plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water it when needed"
+        },
+        {
+          "optionId": "b",
+          "text": "Pull out its roots"
+        },
+        {
+          "optionId": "c",
+          "text": "Cover it with plastic"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You noticed something important.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2
     }
   ],
   "books": [
@@ -4647,7 +5257,7 @@
       "title": "Discovering Our World",
       "sequence": 2,
       "skillIds": [
-        "aas2-ali-my-world-discovery"
+        "aas2-ali-discovering-world"
       ]
     },
     {
