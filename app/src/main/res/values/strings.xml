@@ -114,4 +114,7 @@
     <string name="activity_correct_answer">Correct answer: %1$s</string>
     <string name="parent_review_title">Questions to review (%1$d)</string>
     <string name="parent_review_correct_answer">Correct answer: %1$s</string>
+    <string name="choose_subject">Choose a subject</string>
+    <string name="child_mascot_message">Every little discovery helps you grow.</string>
+    <string name="child_sibling_cheer">Ali and Aboudy are learning together. Cheer each other on!</string>
 </resources>
