@@ -51,6 +51,9 @@
     <string name="activity_saving_answer_ar">جارٍ حفظ الإجابة…</string>
     <string name="activity_save_error_en">Your answer could not be saved. Please try again.</string>
     <string name="activity_try_again">Try again</string>
+    <string name="activity_next_question">Next question →</string>
+    <string name="activity_finish_lesson">Finish lesson</string>
+    <string name="activity_sequence_progress">Question %1$d of %2$d</string>
     <string name="open_parent_dashboard">Parent dashboard</string>
     <string name="parent_dashboard_title">Parent dashboard</string>
     <string name="parent_dashboard_learner">%1$s · %2$s</string>

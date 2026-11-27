@@ -58,6 +58,8 @@ fun ActivityRenderer(
     evaluation: ActivityEvaluationResult?,
     onSubmitAnswer: (String) -> Unit,
     onRetry: () -> Unit,
+    hasNextActivity: Boolean,
+    onNextActivity: () -> Unit,
     modifier: Modifier = Modifier,
     isSubmitting: Boolean = false,
     submissionError: String? = null
@@ -221,6 +223,22 @@ fun ActivityRenderer(
                             }
                         ) {
                             Text(stringResource(R.string.activity_try_again))
+                        }
+                    } else {
+                        Button(
+                            modifier = Modifier.fillMaxWidth().height(58.dp),
+                            shape = RoundedCornerShape(18.dp),
+                            onClick = {
+                                audioController.stop()
+                                onNextActivity()
+                            }
+                        ) {
+                            Text(
+                                stringResource(
+                                    if (hasNextActivity) R.string.activity_next_question
+                                    else R.string.activity_finish_lesson
+                                )
+                            )
                         }
                     }
                 }
