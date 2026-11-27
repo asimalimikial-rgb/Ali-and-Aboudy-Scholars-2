@@ -1,4 +1,4 @@
-# Ali & Aboudy Scholars 2
+# Ali & Aboudy Scholar 2
 
 An independent, offline-first learning product with a native Android app and companion web experience for two separate learner pathways:
 
@@ -13,16 +13,14 @@ Active product-development phase. `main` is the canonical branch and contains th
 
 **Build policy:** Debug pre-releases for personal device testing are allowed only after Android CI validation. Production signing and production releases remain disabled.
 
-### Current main build — 27 November 2026
+### Current Android source and release policy
 
-- **Canonical source:** `main`, commit `fd53a120b709dbeb0e1600d08ef15be1cb1c86bc`.
-- **Production learning website:** [https://aas2-web.vercel.app](https://aas2-web.vercel.app) — Vercel Production deployment is READY; the home page and Ali → English → sample activity flow were verified on a mobile viewport.
-- **Android launcher icon:** added at `app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp` and linked through `AndroidManifest.xml`. The same artwork is registered in the web app manifest at `docs/assets/aas2-icon-192.webp`.
-- **Latest installable debug APK:** [Download Ali & Aboudy Scholars 2 APK](https://raw.githubusercontent.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/delivery/apk-debug-45-fd53a120/Ali-Aboudy-Scholars-2-debug.apk).
-- **APK size:** 40,774,973 bytes; **versionName:** 0.1.0; **versionCode:** 1; **applicationId:** `com.asimalimikial.aas2`.
-- **SHA-256:** `ee14897e049f4c36adc299344f58ddd2b25b2e34464ef193f0f51ae0e72014da`.
-- **Build workflow:** [#45](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46015651195) — APK assembly, verification, artifact upload, and delivery-branch publication succeeded.
-- This is a **debug APK for personal device testing**, not a production-signed release. Production signing remains disabled.
+- **Canonical source:** `main`. The latest reviewed changes are merged only after Android CI and content/PWA validation pass.
+- **Production learning website:** [https://aas2-web.vercel.app](https://aas2-web.vercel.app).
+- **Android launcher icon:** `app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp`; the matching PWA icon is `docs/assets/aas2-icon-192.webp`.
+- **Application ID:** `com.asimalimikial.aas2`.
+- **App version for the next preview:** `0.1.1` (versionCode `2`).
+- **Release policy:** an installable debug preview is published only after the Android CI workflow passes. Production signing remains disabled; this is not a production-signed release.
 
 ### Previous Android pre-release (historical) — 27 November 2026
 
@@ -38,7 +36,7 @@ Active product-development phase. `main` is the canonical branch and contains th
 
 - The seven-book catalog is in `content/catalog/seven-book-catalog.json`; SMILE remains outside scope. The current coverage plan is `docs/seven-book-coverage-plan-v0.3.md`. Seven cover references and their ISBN/source notes are indexed in `docs/reference-book-covers-v0.1.md`; these are remote, reference-only images and are not bundled in the APK.
 - Current content packs contain 282 English activities: 108 KG2 and 174 Grade 2. Only Macmillan Science Level 2 currently has runtime book/unit/lesson mapping (62 activities across two units and nine lessons); other book hierarchies and mappings remain open.
-- Verified offline media: 1,692 English OGG clips for 282 activities at speed 0.70; 282 question illustrations (245 SVG and 37 PNG); 373 option illustrations. Manifest paths and hashes are unique. Physical-device audio playback and visual accessibility checks remain open.
+- Verified offline media: 1,692 English OGG clips for 282 activities at speed 0.70; 282 question illustrations (245 SVG and 37 PNG); 378 option illustrations. All generated media are checked against file sizes and SHA-256 values by content validation. Manifest paths and hashes are unique. Physical-device audio playback and visual accessibility checks remain open.
 - The 616-item legacy bank has 468 strict single-choice candidates, 28 specialized option-bearing interactions and 120 custom no-option interactions. The renderer audit records 182 items requiring specialized interactions or structured stimuli, plus 69 listening prompts that reveal their target visually and must remain blocked from listening-assessment use until corrected.
 - Twelve proposed legacy corrections are staged in `content/staging/legacy-question-bank-correction-patch-v0.1.json`; all remain `REVISED_PENDING_TECHNICAL_QA` and none is production-approved. The legacy source repository remains untouched.
 - The official English World Level 2 12-unit scope is recorded in `docs/english-world-level2-scope-map-v0.1.md`. Its 35 current activities include 15 candidate alignments and 20 supplementary/unmapped items; none is yet runtime-mapped. Mathematics 2A/2B has 40 candidate mappings (31/9), also pending pedagogy review.
@@ -106,6 +104,6 @@ Requirements: JDK 17, Android SDK Platform 35, and Gradle 8.11.1.
 gradle :app:testDebugUnitTest
 ```
 
-The GitHub Actions PR workflow runs JVM unit tests, compiles the debug app and Android test APKs, verifies Room schema v1/v2, and runs instrumentation tests on an API 35 emulator. The dedicated APK delivery workflow runs on pushes to `main` and `foundation/**`, builds an installable Debug APK, verifies its size and SHA-256, uploads a seven-day Actions artifact, and publishes a direct-download copy on a dedicated delivery branch. The current delivery is recorded above. Instrumentation status must be checked separately from APK assembly; passing APK assembly does not imply that every emulator test passed.
+The GitHub Actions PR workflow runs JVM unit tests, compiles the debug app and Android test APKs, verifies Room schema v1/v2, and runs instrumentation tests on an API 35 emulator. Content validation also checks media checksums and JavaScript syntax for the offline website and Service Worker. The CI-gated preview-release workflow builds an installable Debug APK from the exact commit that passed Android CI, calculates SHA-256, and publishes the APK plus checksum as a GitHub pre-release. Production signing configuration is not modified. Instrumentation status must be checked separately from APK assembly; passing APK assembly does not imply that every emulator test passed.
 
 ## Slice 0 verification and stage gates
