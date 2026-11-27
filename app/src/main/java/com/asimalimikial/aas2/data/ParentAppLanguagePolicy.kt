@@ -28,6 +28,14 @@ object ParentAppLanguagePolicy {
         systemLocale: Locale = Locale.getDefault()
     ): Locale = if (parentSurfaceActive) localeFor(preference, systemLocale) else systemLocale
 
-    fun isRightToLeft(locale: Locale): Boolean =
-        TextUtils.getLayoutDirectionFromLocale(locale) == View.LAYOUT_DIRECTION_RTL
+    fun isRightToLeft(locale: Locale): Boolean {
+        val androidDirection = TextUtils.getLayoutDirectionFromLocale(locale)
+        if (androidDirection == View.LAYOUT_DIRECTION_RTL) return true
+        // Keep JVM unit tests deterministic when Android framework stubs return LTR defaults.
+        return locale.script.equals("Arab", ignoreCase = true) ||
+            locale.script.equals("Hebr", ignoreCase = true) ||
+            locale.language in RTL_LANGUAGE_CODES
+    }
+
+    private val RTL_LANGUAGE_CODES = setOf("ar", "fa", "he", "iw", "ur", "ps", "sd", "ug", "yi")
 }
