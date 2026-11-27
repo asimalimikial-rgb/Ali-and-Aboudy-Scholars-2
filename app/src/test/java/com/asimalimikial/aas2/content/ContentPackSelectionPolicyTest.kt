@@ -70,6 +70,7 @@ class ContentPackSelectionPolicyTest {
         assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Early Numeracy", "KG2"))
         assertEquals("Mathematics", ContentPackSelectionPolicy.subjectForDomain("Mathematics", "KG2"))
         assertEquals("English & Literacy", ContentPackSelectionPolicy.subjectForDomain("Language and Communication", "KG2"))
+        assertEquals("English & Literacy", ContentPackSelectionPolicy.subjectForDomain("English", "KG2"))
         assertEquals("Discovery", ContentPackSelectionPolicy.subjectForDomain("Science and Discovery", "KG2"))
     }
 
