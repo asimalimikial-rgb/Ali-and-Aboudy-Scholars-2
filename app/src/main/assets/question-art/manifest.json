@@ -3,11 +3,11 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
-  "questionCount": 282,
-  "optionImageCount": 378,
+  "questionCount": 306,
+  "optionImageCount": 420,
   "formats": {
-    "svg": 245,
-    "png": 37
+    "svg": 266,
+    "png": 40
   },
   "files": [
     {
@@ -129,8 +129,8 @@
       "activityId": "g2-sentence-01-en",
       "path": "question-art/g2-sentence-01-en.png",
       "format": "png",
-      "bytes": 13805,
-      "sha256": "e87299a727fe04ae394d7701c71b5077b088763e50c44201d58b337d6373f305",
+      "bytes": 13152,
+      "sha256": "b2b86a911b8683b9347dde260d76babcccfe4ed321cd2697272e7624b7bb8a43",
       "engineVersion": "1.9.0",
       "skillId": "english-sentence-order",
       "visualProfile": "english-grammar",
@@ -1038,8 +1038,8 @@
       "activityId": "new-aboudy-english-001",
       "path": "question-art/new-aboudy-english-001.png",
       "format": "png",
-      "bytes": 14898,
-      "sha256": "753303f71b52e8ed6ae2396ad6ed98f984abe35908025924a81104008e93dd8f",
+      "bytes": 14205,
+      "sha256": "17750e5927ef15049b60af75daf73f691571c676cbbd237069c4dba430fc217c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1057,8 +1057,8 @@
       "activityId": "new-aboudy-english-002",
       "path": "question-art/new-aboudy-english-002.png",
       "format": "png",
-      "bytes": 12439,
-      "sha256": "1008182971ff296541f69cfcc68351f779db9286cf6c7a77e7faff90a5095939",
+      "bytes": 12421,
+      "sha256": "605afbb5ae02b76f5fbc83a8fe4cb0c0046aaf3a05b75b263cff06fd4af6a0c5",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1080,8 +1080,8 @@
       "activityId": "new-aboudy-english-003",
       "path": "question-art/new-aboudy-english-003.png",
       "format": "png",
-      "bytes": 10976,
-      "sha256": "af065877af37b93718f54a90080587d09357b7c581b4f4730e8e952c1ce36e49",
+      "bytes": 10951,
+      "sha256": "43d7d63da715970e4e8622a6c01bcbbc5cfcef821a3910476493cac49f696d6d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1101,8 +1101,8 @@
       "activityId": "new-aboudy-english-004",
       "path": "question-art/new-aboudy-english-004.png",
       "format": "png",
-      "bytes": 13859,
-      "sha256": "c811b743e4daa94763e43930ce7132a7452f90992d3439d120f0f773b105fdc8",
+      "bytes": 13464,
+      "sha256": "52a97f43a6c5861ebaa9f5ff54e5f8296f6a0eb7bd8971b10cfc48dbf3c34040",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1141,8 +1141,8 @@
       "activityId": "new-aboudy-english-006",
       "path": "question-art/new-aboudy-english-006.png",
       "format": "png",
-      "bytes": 8521,
-      "sha256": "dec84dd7b4aa70bcae43edf60f5add882ce0c14e0c82e21aae8e696ca24d6a0f",
+      "bytes": 8452,
+      "sha256": "c4085d7986d685ce10bb9a854809031c0c11c0ce5a7f25e60460a78bf6bf3589",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1158,8 +1158,8 @@
       "activityId": "new-aboudy-english-007",
       "path": "question-art/new-aboudy-english-007.png",
       "format": "png",
-      "bytes": 7160,
-      "sha256": "15cd33179264232070459cc9e66b33a64ae47bdf4152dcd0c9c36352ede98636",
+      "bytes": 7669,
+      "sha256": "09a6e6f147e0ad944ab7abf6d3968ec58bae5ee181c1728f8fa76c7d5bca5b9a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1211,8 +1211,8 @@
       "activityId": "new-aboudy-english-010",
       "path": "question-art/new-aboudy-english-010.png",
       "format": "png",
-      "bytes": 7179,
-      "sha256": "9dc085c186c0e4664f8bf76afbb4436bf7c2887069ba83428df3f34410fcf8ac",
+      "bytes": 7690,
+      "sha256": "2599935217bebccc2726ab300fd6d317b43110fd01dc220cc59a088978f3061e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1228,8 +1228,8 @@
       "activityId": "new-aboudy-english-011",
       "path": "question-art/new-aboudy-english-011.png",
       "format": "png",
-      "bytes": 6525,
-      "sha256": "3a01f75535024ff9c6db835364a665324a60394e3150ead1d931850e407dc450",
+      "bytes": 6520,
+      "sha256": "8a3d4a15fce031224d01d19d12286f6352fdefaae2868336935d30abffca2641",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1270,8 +1270,8 @@
       "activityId": "new-aboudy-english-013",
       "path": "question-art/new-aboudy-english-013.png",
       "format": "png",
-      "bytes": 10979,
-      "sha256": "5063469dc4bfb0c1b3b5636bcc57ebf9495ef283fa32adc0202e14988473e721",
+      "bytes": 10962,
+      "sha256": "706ba40b8da5a98c4d831e21f402f04f2921b9018ead94ac8b48ee66564006ac",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1313,8 +1313,8 @@
       "activityId": "new-aboudy-english-015",
       "path": "question-art/new-aboudy-english-015.png",
       "format": "png",
-      "bytes": 6826,
-      "sha256": "1e7358426dee4ee7d12b3a28d035b39ddef3bfa2db4704ae6c816b7c58b74355",
+      "bytes": 6893,
+      "sha256": "33aaf877f631b8c85a878b6a31b507d96768d47f2547a445f741014af0e19be9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1330,8 +1330,8 @@
       "activityId": "new-aboudy-english-016",
       "path": "question-art/new-aboudy-english-016.png",
       "format": "png",
-      "bytes": 8500,
-      "sha256": "f6b6c510a70f1f01c45166f77c1209cf6c627082184ab6ed9ad23e2bcb9c4aed",
+      "bytes": 8427,
+      "sha256": "89344689d520b9cdbdedacfc960ed7cde4bd222fc57cfd7725587486ebf08614",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1347,8 +1347,8 @@
       "activityId": "new-aboudy-english-017",
       "path": "question-art/new-aboudy-english-017.png",
       "format": "png",
-      "bytes": 6497,
-      "sha256": "44a2d6adb9e46c9c70312744eaa5c1859c8819f87550e4dcb71ab6359a4d8e39",
+      "bytes": 6493,
+      "sha256": "90ac233559bf7b380865ff695b1e703171ee0c54c77b6b1d3430e75fde2b31fb",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1364,8 +1364,8 @@
       "activityId": "new-aboudy-english-018",
       "path": "question-art/new-aboudy-english-018.png",
       "format": "png",
-      "bytes": 7762,
-      "sha256": "f765949f662dac6ff2f3d1861063b9cdc6aafd1ab9eda51d515ec2ff1626dcab",
+      "bytes": 7839,
+      "sha256": "22ce0ada89a4e7b0e962647f8ceeebeb81651fac42860b235b4d2174a12983d3",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1412,8 +1412,8 @@
       "activityId": "new-aboudy-english-020",
       "path": "question-art/new-aboudy-english-020.png",
       "format": "png",
-      "bytes": 12728,
-      "sha256": "75fda5b18bdbd19a24dbfc0be88cf9c0b6bcaa4299c880f97b708f22bd9e9ced",
+      "bytes": 12539,
+      "sha256": "2272f3d66c03be72b6bc86af960ce3456fb9dda29026583e82ecd500de4aa8c4",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1452,8 +1452,8 @@
       "activityId": "new-aboudy-english-022",
       "path": "question-art/new-aboudy-english-022.png",
       "format": "png",
-      "bytes": 6920,
-      "sha256": "e2a01595403669493cc592739841031318e51227ad01db7fae2a10ebad317ff2",
+      "bytes": 6903,
+      "sha256": "95405aa0fcebdf83a1719a2c0c8f95176b7411132e5fbe008453994123cdf86f",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1539,8 +1539,8 @@
       "activityId": "new-aboudy-english-027",
       "path": "question-art/new-aboudy-english-027.png",
       "format": "png",
-      "bytes": 7350,
-      "sha256": "5b5818a4d059a56797e5e4d8142e3c2bdf1d7a406cd180de00a43a6d6e415b6e",
+      "bytes": 7307,
+      "sha256": "a4fe4147eb151bdbf3fa9c712b0c218964c76ae31acbd92aeadf66aa5b09f932",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -6279,6 +6279,548 @@
         "Ice melts into liquid water",
         "Ice changes into stone",
         "Ice changes into sand"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-01",
+      "path": "question-art/aas2-kg2-listening-comprehension-01.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "80f0bb56460a2ec12290d98f6d4b8a780643f4932692883748321788c83df639",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "nose",
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/10eb08432f601c1bf6fde321.svg"
+      ],
+      "optionLabels": [
+        "Your nose",
+        "Your knee",
+        "Your elbow"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-02",
+      "path": "question-art/aas2-kg2-listening-comprehension-02.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "7adca92b23c212af024e75380f4f0ad924cca70bfa0a963cc58de75fe3326df1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/fb35b39583185daa7d8e048b.svg",
+        "option-art/ad8fa08aad86c617b6651c37.svg"
+      ],
+      "optionLabels": [
+        "Clap two times",
+        "Jump three times",
+        "Wave one hand"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-03",
+      "path": "question-art/aas2-kg2-listening-comprehension-03.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "b18ed6799113783056d73584a49e6bb46c17411465bcd2f50cf9b5469987abeb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "book",
+        "table"
+      ],
+      "optionImagePaths": [
+        "option-art/80d9288f2a088b3f8013a811.svg",
+        "option-art/a8b591f1791c5c39d97fbc31.svg"
+      ],
+      "optionLabels": [
+        "Under the chair",
+        "On the table",
+        "In the bag"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-01",
+      "path": "question-art/aas2-kg2-story-sequencing-01.png",
+      "format": "png",
+      "bytes": 9010,
+      "sha256": "734abf86346ff68e9a294250b82491bb3a84ce08dd5664e1c90e937d425cc5ca",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "seed"
+      ],
+      "optionImagePaths": [
+        "option-art/edb31366d4a9ed6c2449770d.svg",
+        "option-art/90ff728260b86dbd180d9a93.svg",
+        "option-art/9281e0f4bb6106301c8bb98b.svg"
+      ],
+      "optionLabels": [
+        "The seed is planted",
+        "The plant has flowers",
+        "The plant grows tall"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-02",
+      "path": "question-art/aas2-kg2-story-sequencing-02.png",
+      "format": "png",
+      "bytes": 9961,
+      "sha256": "dc33a867c8cfcfe1e0dbcfe68f36a28d13941c52a003749b65fc98ace4330b71",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "tooth",
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/ab818d7d74b87f1aeaa908e5.svg"
+      ],
+      "optionLabels": [
+        "Goes to sleep",
+        "Brushes teeth",
+        "Eats dinner"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-03",
+      "path": "question-art/aas2-kg2-story-sequencing-03.png",
+      "format": "png",
+      "bytes": 9961,
+      "sha256": "7d3b16665103e6e3acdce1b2409a54e36ff648ced07accccd62a4e3639b7415e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "caterpillar",
+        "butterfly"
+      ],
+      "optionImagePaths": [
+        "option-art/a585eb2be9783e3cba768fda.svg",
+        "option-art/db9a19e8579f439187ebda4f.svg",
+        "option-art/52cf8797f61e85acbae3fc54.svg"
+      ],
+      "optionLabels": [
+        "A caterpillar",
+        "A bird",
+        "An egg carton"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-01",
+      "path": "question-art/aas2-kg2-measure-compare-01.svg",
+      "format": "svg",
+      "bytes": 1240,
+      "sha256": "26e21331cce009a7359df363c0f1387613f8dc400443e8d8fec444171123b970",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [
+        "option-art/2f741174bb04b42bd219a595.svg"
+      ],
+      "optionLabels": [
+        "The pencil",
+        "The crayon",
+        "They are the same length"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-02",
+      "path": "question-art/aas2-kg2-measure-compare-02.svg",
+      "format": "svg",
+      "bytes": 790,
+      "sha256": "83b04b76d261b7837b1e3bbd2f0349e6a020985e1b1964d5aa122dc9231d9f66",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg"
+      ],
+      "optionLabels": [
+        "A 20 cm block tower",
+        "A 10 cm block tower",
+        "They are the same height"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-03",
+      "path": "question-art/aas2-kg2-measure-compare-03.svg",
+      "format": "svg",
+      "bytes": 790,
+      "sha256": "ac05456ea5b4605648a53c0e7e0a9d9618435e22eb159c7e82823425888517f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "weight"
+      ],
+      "optionImagePaths": [
+        "option-art/e8892520910e40d8b5c4c755.svg"
+      ],
+      "optionLabels": [
+        "A full water bottle",
+        "An empty bottle",
+        "They weigh the same"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-01",
+      "path": "question-art/aas2-kg2-plant-needs-01.svg",
+      "format": "svg",
+      "bytes": 877,
+      "sha256": "66626efdfce2e82d338cf521b80ce9cb9d3179faa9124725c32ac3e26ca069b1",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant"
+      ],
+      "optionImagePaths": [
+        "option-art/1022e86e35c6d0fc5a88e4b1.svg",
+        "option-art/15a59599fdf32f3b741129ef.svg",
+        "option-art/417172e1752a189a521a593a.svg"
+      ],
+      "optionLabels": [
+        "Water and light",
+        "Plastic toys",
+        "A warm coat"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-02",
+      "path": "question-art/aas2-kg2-plant-needs-02.svg",
+      "format": "svg",
+      "bytes": 1272,
+      "sha256": "07bfb1fb4edeb7eb52e5e7cdd53595275e628d2be6cb567b297c66695e5071bb",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant",
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/ff3855c84b2fc901e736b892.svg",
+        "option-art/0005f9d6422fd3aa4b4496ea.svg"
+      ],
+      "optionLabels": [
+        "Through their roots",
+        "Through their flowers",
+        "Through their fruit"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-03",
+      "path": "question-art/aas2-kg2-plant-needs-03.svg",
+      "format": "svg",
+      "bytes": 2146,
+      "sha256": "68f456ec76edc754fd0ca35490d9738964e6322cccd234594a74c4fda0d1dfd4",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant",
+        "water",
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It may wilt",
+        "It will turn into a stone",
+        "It will make more water"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-01",
+      "path": "question-art/aas2-kg2-discovering-world-01.svg",
+      "format": "svg",
+      "bytes": 1966,
+      "sha256": "176715f519ccbc1b8d67f08b41319b34065e7ad2c9fc0be7c8ed71e2b202e424",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/c4b536312a8856ca8c6fb3b1.svg",
+        "option-art/51c1de5f99a9e411d3cf2e51.svg",
+        "option-art/bec00c67b9ea85ce7576252d.svg"
+      ],
+      "optionLabels": [
+        "A tree",
+        "A stone",
+        "A plastic cup"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-02",
+      "path": "question-art/aas2-kg2-discovering-world-02.svg",
+      "format": "svg",
+      "bytes": 1437,
+      "sha256": "4422362aadf9f343d41ceb33cb8bab14443d34456ed69b002843d0cfa36e8338",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/86e2e22c78ec719732076618.svg"
+      ],
+      "optionLabels": [
+        "It has feathers",
+        "It is made of metal",
+        "It has wheels"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-03",
+      "path": "question-art/aas2-kg2-discovering-world-03.svg",
+      "format": "svg",
+      "bytes": 862,
+      "sha256": "f7e61170dd0d9f70253a00142991d81c78257236d34f11a6cadaf09cab9c14a8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "habitat",
+        "fish"
+      ],
+      "optionImagePaths": [
+        "option-art/238154590d28fc7e0a7edd57.svg",
+        "option-art/cf7e8ba44b42f53ce0b46e6c.svg"
+      ],
+      "optionLabels": [
+        "A pond",
+        "A dry cupboard",
+        "A bookshelf"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-01",
+      "path": "question-art/aas2-kg2-observe-predict-01.svg",
+      "format": "svg",
+      "bytes": 1797,
+      "sha256": "d8e203cec43510225645ebece605f94b9d581ef4561cc66c9606d82efb180c57",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "sun",
+        "plant",
+        "window"
+      ],
+      "optionImagePaths": [
+        "option-art/3e0241e10aeffe9543e8ba66.svg",
+        "option-art/cc792740405f4f18f7868af8.svg"
+      ],
+      "optionLabels": [
+        "Growing towards the light",
+        "Looking for a toy",
+        "Trying to walk"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-02",
+      "path": "question-art/aas2-kg2-observe-predict-02.svg",
+      "format": "svg",
+      "bytes": 845,
+      "sha256": "e7bbcf79e5cb67ba2ed8b1cc9c1701578fd668b43e38eb5d34a2b3f604326048",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "cloud",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg",
+        "option-art/8f11a8530461f1fd349bdd10.svg",
+        "option-art/fc609fb92a94b787bb0bc80a.svg"
+      ],
+      "optionLabels": [
+        "It may rain",
+        "The Sun will become a star",
+        "The clouds will turn into rocks"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-03",
+      "path": "question-art/aas2-kg2-observe-predict-03.svg",
+      "format": "svg",
+      "bytes": 1299,
+      "sha256": "8440b06f009961c2b6acc90ed4bbf6b5021f677df8c242f3fde10b1727475d9b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "sun",
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/990885beeb877403cb8e6d24.svg",
+        "option-art/334344a415b429ded81155e6.svg"
+      ],
+      "optionLabels": [
+        "Some water evaporated",
+        "The water became soil",
+        "The puddle grew deeper"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-01",
+      "path": "question-art/aas2-kg2-weather-observation-01.svg",
+      "format": "svg",
+      "bytes": 2102,
+      "sha256": "9631e0822a7031f25cdf7c1e6a790edfb26c447ba28f6d17c486ae6f5e7f7c79",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "cold",
+        "wind",
+        "tin",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/945f5268551840c2cf9f32b2.svg",
+        "option-art/eef8d400ec274d881cd0fb27.svg"
+      ],
+      "optionLabels": [
+        "Thermometer",
+        "Ruler",
+        "Paintbrush"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-02",
+      "path": "question-art/aas2-kg2-weather-observation-02.svg",
+      "format": "svg",
+      "bytes": 1183,
+      "sha256": "035d2001dcaaa80d1d7e5e7bea235accbfb8029943ef5c636761ff65bda17231",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "wind",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/a8f794a1b05ba0e2e4bf9078.svg",
+        "option-art/3129a75966c9240fdca2c6a0.svg",
+        "option-art/6521cfb26797634e0d508fcc.svg"
+      ],
+      "optionLabels": [
+        "Leaves moving",
+        "The ground becoming a star",
+        "The Moon melting"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-03",
+      "path": "question-art/aas2-kg2-weather-observation-03.svg",
+      "format": "svg",
+      "bytes": 834,
+      "sha256": "a34f8aeade6e69fcae9e56c2940bb5ddc146e890c743e279e41eef47b710a7dd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "rain"
+      ],
+      "optionImagePaths": [
+        "option-art/40bea7dc325655ed3fa53e1a.svg",
+        "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
+      ],
+      "optionLabels": [
+        "Raincoat",
+        "Swimsuit for a pool",
+        "Wool hat only"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-01",
+      "path": "question-art/aas2-kg2-environment-care-01.svg",
+      "format": "svg",
+      "bytes": 1750,
+      "sha256": "6aa8b13df82c12f4b93f484f0ae87aa945a74e655cc11c37e230340e3c52985d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/4d74507c2a181a2af32fac75.svg",
+        "option-art/31d8013f08d7902d4de84b88.svg"
+      ],
+      "optionLabels": [
+        "Put rubbish in a bin",
+        "Drop wrappers on the ground",
+        "Break young plants"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-02",
+      "path": "question-art/aas2-kg2-environment-care-02.svg",
+      "format": "svg",
+      "bytes": 1632,
+      "sha256": "2c096083e39870d9d595ed9bc70001f6f1d7503a99220dbeb26d7a52be2284c2",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "tooth",
+        "water",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/dc3ee810ed2365e41295be07.svg",
+        "option-art/bc34a1d8b042fe169b447b61.svg"
+      ],
+      "optionLabels": [
+        "Turn off the tap while brushing",
+        "Leave the tap running",
+        "Fill the sink and walk away"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-03",
+      "path": "question-art/aas2-kg2-environment-care-03.svg",
+      "format": "svg",
+      "bytes": 892,
+      "sha256": "821e405ed763dcb02d96e0f2088608020fb8850635d6d70b6858f9d840d291f9",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "plant"
+      ],
+      "optionImagePaths": [
+        "option-art/990885beeb877403cb8e6d24.svg",
+        "option-art/9f18da59ec4a403673777c04.svg",
+        "option-art/0b4467d4b4102b5a27c7d114.svg"
+      ],
+      "optionLabels": [
+        "Water it when needed",
+        "Pull out its roots",
+        "Cover it with plastic"
       ]
     }
   ]

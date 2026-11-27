@@ -4388,7 +4388,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Your nose"
+          "text": "Your nose",
+          "imageAssetPath": "option-art/10eb08432f601c1bf6fde321.svg"
         },
         {
           "optionId": "b",
@@ -4410,7 +4411,8 @@
         "c": "speech/5ed1a3cd505f2364e5af5e97a85f96ad284fd339c3e3cbfa1c1cd7ed8c732533.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/744ddce7b17ffca5c50b114175fff20afa13e0bd4a30ab1789df788d051d7f1b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/309ebcaca4bcb6e2183df3bbbea0fc67cc7057df18252e8b72e418997f5c3dc8.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/309ebcaca4bcb6e2183df3bbbea0fc67cc7057df18252e8b72e418997f5c3dc8.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-01.svg"
     },
     {
       "activityId": "aas2-kg2-listening-comprehension-02",
@@ -4425,11 +4427,13 @@
         },
         {
           "optionId": "b",
-          "text": "Jump three times"
+          "text": "Jump three times",
+          "imageAssetPath": "option-art/fb35b39583185daa7d8e048b.svg"
         },
         {
           "optionId": "c",
-          "text": "Wave one hand"
+          "text": "Wave one hand",
+          "imageAssetPath": "option-art/ad8fa08aad86c617b6651c37.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4443,7 +4447,8 @@
         "c": "speech/cb19d136c03f5686c1dc38387ed96b89df681deae08ff448973cfb0281216021.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/472cec29fcd52785f7910ac00234b3baabf69b10eab301aaa38830cd79604e78.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/14e8bf2013c02a83177cd66b017c63d8fa7a73f74f1994cbe18a16a1dc6310a7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/14e8bf2013c02a83177cd66b017c63d8fa7a73f74f1994cbe18a16a1dc6310a7.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-02.svg"
     },
     {
       "activityId": "aas2-kg2-listening-comprehension-03",
@@ -4454,11 +4459,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Under the chair"
+          "text": "Under the chair",
+          "imageAssetPath": "option-art/80d9288f2a088b3f8013a811.svg"
         },
         {
           "optionId": "b",
-          "text": "On the table"
+          "text": "On the table",
+          "imageAssetPath": "option-art/a8b591f1791c5c39d97fbc31.svg"
         },
         {
           "optionId": "c",
@@ -4476,7 +4483,8 @@
         "c": "speech/2f2f06a611a8c96aa03b0708c5848a89ef64226260e6bb983423fa92aee25cfd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/616bb4c11ebc3c76be7c2bbf9cb65cca43cb7458132c73128c58064573568132.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2a6bc1af52f1b43efe717bf1996c62d18abea67cd48212cf28be75f91e10830e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2a6bc1af52f1b43efe717bf1996c62d18abea67cd48212cf28be75f91e10830e.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-03.svg"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-01",
@@ -4487,15 +4495,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The seed is planted"
+          "text": "The seed is planted",
+          "imageAssetPath": "option-art/edb31366d4a9ed6c2449770d.svg"
         },
         {
           "optionId": "b",
-          "text": "The plant has flowers"
+          "text": "The plant has flowers",
+          "imageAssetPath": "option-art/90ff728260b86dbd180d9a93.svg"
         },
         {
           "optionId": "c",
-          "text": "The plant grows tall"
+          "text": "The plant grows tall",
+          "imageAssetPath": "option-art/9281e0f4bb6106301c8bb98b.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4509,7 +4520,8 @@
         "c": "speech/46802231226831033b637aeaab3660e230d66c01235b7660b792c0fd8bc851cd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f4896d9d48f38430b39cbe1f41ec7578dc9df418843af9c3c40456d2db0d8ce5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/12bde31e78f4c6236096100da2e3a5196530c3ae55d34b34c8ab7c252eccc4f9.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/12bde31e78f4c6236096100da2e3a5196530c3ae55d34b34c8ab7c252eccc4f9.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-01.png"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-02",
@@ -4524,7 +4536,8 @@
         },
         {
           "optionId": "b",
-          "text": "Brushes teeth"
+          "text": "Brushes teeth",
+          "imageAssetPath": "option-art/ab818d7d74b87f1aeaa908e5.svg"
         },
         {
           "optionId": "c",
@@ -4542,7 +4555,8 @@
         "c": "speech/f6719ff1c5a3055b948b34c73ef1dcc65bd8c00ca89f032fefb304c5f9d3bf02.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/102c6feb70b0d569abb3bd2b43dfb0f3854197987fdd64519419c2ff0b98e63b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/da6fa92b424a34f4c9d98ea346c4fe29b9dd4851495f6e72e9bf7354c4258789.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/da6fa92b424a34f4c9d98ea346c4fe29b9dd4851495f6e72e9bf7354c4258789.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-02.png"
     },
     {
       "activityId": "aas2-kg2-story-sequencing-03",
@@ -4553,15 +4567,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A caterpillar"
+          "text": "A caterpillar",
+          "imageAssetPath": "option-art/a585eb2be9783e3cba768fda.svg"
         },
         {
           "optionId": "b",
-          "text": "A bird"
+          "text": "A bird",
+          "imageAssetPath": "option-art/db9a19e8579f439187ebda4f.svg"
         },
         {
           "optionId": "c",
-          "text": "An egg carton"
+          "text": "An egg carton",
+          "imageAssetPath": "option-art/52cf8797f61e85acbae3fc54.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4575,7 +4592,8 @@
         "c": "speech/bb6b067cff6deb5a0be47b25d1916ef5e24fc5ec6f84e1a15d8883a1563bf3f7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5ab864b8370d2ed148e3fbe25680dbe70bed4d4ba432b55d94020b6c1658c828.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5ce6f47fb0f9602a3de488e99200874bf404dfa0805a08654be6c27706119e01.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5ce6f47fb0f9602a3de488e99200874bf404dfa0805a08654be6c27706119e01.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-03.png"
     },
     {
       "activityId": "aas2-kg2-measure-compare-01",
@@ -4586,7 +4604,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The pencil"
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
         },
         {
           "optionId": "b",
@@ -4608,7 +4627,8 @@
         "c": "speech/f74b1e1af89970a1071d3a9f95594543fb0fc0bb00191977f3a1b2f9dc6aad30.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8e5fbd99e464ffbbfdd80be1a683d1e53faf1241795648d50831f29adeb80ecb.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-01.svg"
     },
     {
       "activityId": "aas2-kg2-measure-compare-02",
@@ -4619,11 +4639,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A 20 cm block tower"
+          "text": "A 20 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
         },
         {
           "optionId": "b",
-          "text": "A 10 cm block tower"
+          "text": "A 10 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
         },
         {
           "optionId": "c",
@@ -4641,7 +4663,8 @@
         "c": "speech/f4528bf76659566890c475b5184224281238bf3fd7f6cb5f8303d69f5891e7f4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/0a9bc9d279045ecc4f875c298908a574636180d3b0107ea1e84696e537aea734.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-02.svg"
     },
     {
       "activityId": "aas2-kg2-measure-compare-03",
@@ -4652,7 +4675,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A full water bottle"
+          "text": "A full water bottle",
+          "imageAssetPath": "option-art/e8892520910e40d8b5c4c755.svg"
         },
         {
           "optionId": "b",
@@ -4674,7 +4698,8 @@
         "c": "speech/e650e787e26b32b53f8869e1df8a1067cd03344e90ef4d9968e344c427c608b6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7757c481dab1d0fc160b8cbd8e2fc6d16100e851a20383e061be2b494593435c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-03.svg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-01",
@@ -4685,15 +4710,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Water and light"
+          "text": "Water and light",
+          "imageAssetPath": "option-art/1022e86e35c6d0fc5a88e4b1.svg"
         },
         {
           "optionId": "b",
-          "text": "Plastic toys"
+          "text": "Plastic toys",
+          "imageAssetPath": "option-art/15a59599fdf32f3b741129ef.svg"
         },
         {
           "optionId": "c",
-          "text": "A warm coat"
+          "text": "A warm coat",
+          "imageAssetPath": "option-art/417172e1752a189a521a593a.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4707,7 +4735,8 @@
         "c": "speech/09f0236b9c5c93eeecd40bfbe00d9a4c0db6a946b262f52bfefb402c125a51ca.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/32ae7defcf8e3c06ad3c421687aa497038776381ce09e98411c3f04913ef5690.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e099d0774ccd3cb1195d3da6912994684d5ede38911f664593e9cf7ce4140713.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e099d0774ccd3cb1195d3da6912994684d5ede38911f664593e9cf7ce4140713.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-01.svg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-02",
@@ -4718,11 +4747,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Through their roots"
+          "text": "Through their roots",
+          "imageAssetPath": "option-art/ff3855c84b2fc901e736b892.svg"
         },
         {
           "optionId": "b",
-          "text": "Through their flowers"
+          "text": "Through their flowers",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
         },
         {
           "optionId": "c",
@@ -4740,7 +4771,8 @@
         "c": "speech/3bb5f173b9352b63c0fd2159bc9c3119d45a26b3a463ea3cc71dbd71309a5f11.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d945aec9f7f97e6548097315ea5df3209eaaa1a9013ca74b5ca1e19ec9e4058c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7017786630e9f2380abe20dc9caf6a1e350baf9374556f9ef8d05b53c6c7c4f6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7017786630e9f2380abe20dc9caf6a1e350baf9374556f9ef8d05b53c6c7c4f6.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-02.svg"
     },
     {
       "activityId": "aas2-kg2-plant-needs-03",
@@ -4755,11 +4787,13 @@
         },
         {
           "optionId": "b",
-          "text": "It will turn into a stone"
+          "text": "It will turn into a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "c",
-          "text": "It will make more water"
+          "text": "It will make more water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4773,7 +4807,8 @@
         "c": "speech/b5ad30fe1b10e63882592d997ce5a29f1192ba3411542e57d9c8f6aaa289b932.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/e25302d4ea607a75caa3eba7dcb20f0d4e994821a9bc0a69be578a24553a2dec.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4073fc598bb89de361ebf5de6220bb4a92624d95b95b7f11d4af4c78aac83deb.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4073fc598bb89de361ebf5de6220bb4a92624d95b95b7f11d4af4c78aac83deb.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-03.svg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-01",
@@ -4784,15 +4819,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A tree"
+          "text": "A tree",
+          "imageAssetPath": "option-art/c4b536312a8856ca8c6fb3b1.svg"
         },
         {
           "optionId": "b",
-          "text": "A stone"
+          "text": "A stone",
+          "imageAssetPath": "option-art/51c1de5f99a9e411d3cf2e51.svg"
         },
         {
           "optionId": "c",
-          "text": "A plastic cup"
+          "text": "A plastic cup",
+          "imageAssetPath": "option-art/bec00c67b9ea85ce7576252d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4806,7 +4844,8 @@
         "c": "speech/91fff1ee8bcb16af869e99fc8d51c77fdb6decb5613b46bc2630a8fb4631520c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4a9c06c7e712478f68d37b5c972719ef79c45920f54928211c1f14075c552b93.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/91e9017bf110d7ed0c4efe1d0dc0deb9f7333aa4938973dd991a6b6028c167f8.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/91e9017bf110d7ed0c4efe1d0dc0deb9f7333aa4938973dd991a6b6028c167f8.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-01.svg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-02",
@@ -4821,7 +4860,8 @@
         },
         {
           "optionId": "b",
-          "text": "It is made of metal"
+          "text": "It is made of metal",
+          "imageAssetPath": "option-art/86e2e22c78ec719732076618.svg"
         },
         {
           "optionId": "c",
@@ -4839,7 +4879,8 @@
         "c": "speech/9a94badf9253a2b55e1bcd7128342dd2c9e8e8f75edad3592fed47a5e4ccf2b2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/dff618bbf32fce49784ed9def7b49bf6e3d883fca90221a923ffdf4ae90661eb.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5776295caf89235f702d643a51d2732161bf3ee148283b80bb67331383de9bde.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5776295caf89235f702d643a51d2732161bf3ee148283b80bb67331383de9bde.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-02.svg"
     },
     {
       "activityId": "aas2-kg2-discovering-world-03",
@@ -4850,11 +4891,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A pond"
+          "text": "A pond",
+          "imageAssetPath": "option-art/238154590d28fc7e0a7edd57.svg"
         },
         {
           "optionId": "b",
-          "text": "A dry cupboard"
+          "text": "A dry cupboard",
+          "imageAssetPath": "option-art/cf7e8ba44b42f53ce0b46e6c.svg"
         },
         {
           "optionId": "c",
@@ -4872,7 +4915,8 @@
         "c": "speech/338d68744c38e3831c957f0dd7b6d313b167557d88f32ccf6ffd5557ce39a29a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/96f9c352004b209be33afc1ee13b4a4fe5d82291784cbaec929b379a27dd07bc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8c0e9b542d0aa02f7aee3efb3299ba713ad84a4967e609486169a61711467188.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8c0e9b542d0aa02f7aee3efb3299ba713ad84a4967e609486169a61711467188.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-03.svg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-01",
@@ -4883,11 +4927,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Growing towards the light"
+          "text": "Growing towards the light",
+          "imageAssetPath": "option-art/3e0241e10aeffe9543e8ba66.svg"
         },
         {
           "optionId": "b",
-          "text": "Looking for a toy"
+          "text": "Looking for a toy",
+          "imageAssetPath": "option-art/cc792740405f4f18f7868af8.svg"
         },
         {
           "optionId": "c",
@@ -4905,7 +4951,8 @@
         "c": "speech/40850469fd41e5a7052242e665ddcb1b5639e8afbba7e7092747cf3019c641d9.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/022c15c08c8eefcc56a5fde66b9a9b639e6262cc3cddf4fe0db405332af53694.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4facd1fdce282124c35fe42c5a84f7c48195de3d46b8cfbadf857ec5f48a0048.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4facd1fdce282124c35fe42c5a84f7c48195de3d46b8cfbadf857ec5f48a0048.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-01.svg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-02",
@@ -4916,15 +4963,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It may rain"
+          "text": "It may rain",
+          "imageAssetPath": "option-art/27f64048ba98d26075ee323b.svg"
         },
         {
           "optionId": "b",
-          "text": "The Sun will become a star"
+          "text": "The Sun will become a star",
+          "imageAssetPath": "option-art/8f11a8530461f1fd349bdd10.svg"
         },
         {
           "optionId": "c",
-          "text": "The clouds will turn into rocks"
+          "text": "The clouds will turn into rocks",
+          "imageAssetPath": "option-art/fc609fb92a94b787bb0bc80a.svg"
         }
       ],
       "correctOptionId": "a",
@@ -4938,7 +4988,8 @@
         "c": "speech/393d58120f7b4160840bf4985fd85868288ae045365166cdb4afdebdef757478.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/faa0dc8149e4e517c8b1faacc0233d74ba773bbdf70de8dd2a2030a5f3ce3c22.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6e119977eb5c278eb4e8a942d02f4ae3ef65efb7746dcd8b71d21b71732e5690.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6e119977eb5c278eb4e8a942d02f4ae3ef65efb7746dcd8b71d21b71732e5690.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-02.svg"
     },
     {
       "activityId": "aas2-kg2-observe-predict-03",
@@ -4949,11 +5000,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Some water evaporated"
+          "text": "Some water evaporated",
+          "imageAssetPath": "option-art/990885beeb877403cb8e6d24.svg"
         },
         {
           "optionId": "b",
-          "text": "The water became soil"
+          "text": "The water became soil",
+          "imageAssetPath": "option-art/334344a415b429ded81155e6.svg"
         },
         {
           "optionId": "c",
@@ -4971,7 +5024,8 @@
         "c": "speech/df344c58490d20e3a498de0c3d84e83361229c8d0c5aa86f4aaae0b904da4936.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/6b45a96f97f9f9d1d7022989eafbc9b74b6c52ad9aea3799d36a35a337c1aba3.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e8d9b538181ace49d8d0c4c618a4a8f87a301169bffdc8cb020f28e7bb41a820.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e8d9b538181ace49d8d0c4c618a4a8f87a301169bffdc8cb020f28e7bb41a820.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-03.svg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-01",
@@ -4982,11 +5036,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Thermometer"
+          "text": "Thermometer",
+          "imageAssetPath": "option-art/945f5268551840c2cf9f32b2.svg"
         },
         {
           "optionId": "b",
-          "text": "Ruler"
+          "text": "Ruler",
+          "imageAssetPath": "option-art/eef8d400ec274d881cd0fb27.svg"
         },
         {
           "optionId": "c",
@@ -5004,7 +5060,8 @@
         "c": "speech/8e8de65b9ec54b41fb61a7c8541963a55d3ef3f11a5a6f55aeaf80e740536504.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b05a216309d2a0fd57216dc9dd64e78935287ba806bc11de08984ed80a359445.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/50acb584d843017b0378aa235c77b2af0b871599b83ee04d25f44faa1dcc4ab2.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/50acb584d843017b0378aa235c77b2af0b871599b83ee04d25f44faa1dcc4ab2.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-01.svg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-02",
@@ -5015,15 +5072,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Leaves moving"
+          "text": "Leaves moving",
+          "imageAssetPath": "option-art/a8f794a1b05ba0e2e4bf9078.svg"
         },
         {
           "optionId": "b",
-          "text": "The ground becoming a star"
+          "text": "The ground becoming a star",
+          "imageAssetPath": "option-art/3129a75966c9240fdca2c6a0.svg"
         },
         {
           "optionId": "c",
-          "text": "The Moon melting"
+          "text": "The Moon melting",
+          "imageAssetPath": "option-art/6521cfb26797634e0d508fcc.svg"
         }
       ],
       "correctOptionId": "a",
@@ -5037,7 +5097,8 @@
         "c": "speech/d6a2e1ddce0be18522061f18009d056cdd2ebb72ea317d6faa13ceaeea2b63d6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/62c8bb5781e058fa91f891757b8fede1916759dddc738606cecfd38428595e14.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b16f51dcfe27e502d27bf87c8da5daad168769f5be966c92abe33eacb5b80695.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b16f51dcfe27e502d27bf87c8da5daad168769f5be966c92abe33eacb5b80695.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-02.svg"
     },
     {
       "activityId": "aas2-kg2-weather-observation-03",
@@ -5048,7 +5109,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Raincoat"
+          "text": "Raincoat",
+          "imageAssetPath": "option-art/40bea7dc325655ed3fa53e1a.svg"
         },
         {
           "optionId": "b",
@@ -5056,7 +5118,8 @@
         },
         {
           "optionId": "c",
-          "text": "Wool hat only"
+          "text": "Wool hat only",
+          "imageAssetPath": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -5070,7 +5133,8 @@
         "c": "speech/4440e127228e67b5b4050a372ef23a9293da1cbffc050be855fa22634ae823a3.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8b1c6e4def9d5500e64c67320684af1b51358ff1789bac199669904b3303adab.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5182b5c438e8a19e2cf6df0bafc61774595edba3f36917004a84aa9a1dce1988.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5182b5c438e8a19e2cf6df0bafc61774595edba3f36917004a84aa9a1dce1988.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-03.svg"
     },
     {
       "activityId": "aas2-kg2-environment-care-01",
@@ -5081,7 +5145,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Put rubbish in a bin"
+          "text": "Put rubbish in a bin",
+          "imageAssetPath": "option-art/4d74507c2a181a2af32fac75.svg"
         },
         {
           "optionId": "b",
@@ -5089,7 +5154,8 @@
         },
         {
           "optionId": "c",
-          "text": "Break young plants"
+          "text": "Break young plants",
+          "imageAssetPath": "option-art/31d8013f08d7902d4de84b88.svg"
         }
       ],
       "correctOptionId": "a",
@@ -5103,7 +5169,8 @@
         "c": "speech/b76c4ddb03e9419b814e88b15961a37742ab814f3fae881ee192f4e7db8365b3.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a1ed244bec6e46f8b9906fe1883973abe3c1c87bb1e0a464094d8deee0c7574a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/51f16889b2ba35eec51c3a61c88bfe279014aa63af8e4cd2922cc66152979bbf.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/51f16889b2ba35eec51c3a61c88bfe279014aa63af8e4cd2922cc66152979bbf.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-01.svg"
     },
     {
       "activityId": "aas2-kg2-environment-care-02",
@@ -5114,11 +5181,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Turn off the tap while brushing"
+          "text": "Turn off the tap while brushing",
+          "imageAssetPath": "option-art/dc3ee810ed2365e41295be07.svg"
         },
         {
           "optionId": "b",
-          "text": "Leave the tap running"
+          "text": "Leave the tap running",
+          "imageAssetPath": "option-art/bc34a1d8b042fe169b447b61.svg"
         },
         {
           "optionId": "c",
@@ -5136,7 +5205,8 @@
         "c": "speech/ec4dc5393ba69c3c89f6961621a4d173b530e9cbe60b8822ab485ddad55fa200.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4c029e815be168edb9c5dee43b59161da36a8e102b0af0bf5c4bf588a9666b2e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ff2d2f651ee0766a619dfd01b5e7f51bf10a4fda2b6247315135ce8595d5959b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ff2d2f651ee0766a619dfd01b5e7f51bf10a4fda2b6247315135ce8595d5959b.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-02.svg"
     },
     {
       "activityId": "aas2-kg2-environment-care-03",
@@ -5147,15 +5217,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Water it when needed"
+          "text": "Water it when needed",
+          "imageAssetPath": "option-art/990885beeb877403cb8e6d24.svg"
         },
         {
           "optionId": "b",
-          "text": "Pull out its roots"
+          "text": "Pull out its roots",
+          "imageAssetPath": "option-art/9f18da59ec4a403673777c04.svg"
         },
         {
           "optionId": "c",
-          "text": "Cover it with plastic"
+          "text": "Cover it with plastic",
+          "imageAssetPath": "option-art/0b4467d4b4102b5a27c7d114.svg"
         }
       ],
       "correctOptionId": "a",
@@ -5169,7 +5242,8 @@
         "c": "speech/3ab6a503f987e586031fef62bd5fdef69293d3738680e12d7a1c9271e280ffac.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b9d3b60bdb74871c54f5db09f7adc3332ef6f6134480b60e8f2d203651b08013.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-03.svg"
     }
   ],
   "books": [

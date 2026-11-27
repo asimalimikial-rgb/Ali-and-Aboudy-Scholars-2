@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 378,
+  "count": 420,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -71,6 +71,7 @@
       "bytes": 845,
       "sha256": "87b6410245e1af9aab07c40edba5fb5a3318fbdeb4c53a70ecdeaf80d73eefa9",
       "labels": [
+        "The pencil",
         "The pencil"
       ]
     },
@@ -364,7 +365,8 @@
         "Freezing changes water into steam",
         "Dirty water is always safe to drink",
         "They help it push against water when swimming",
-        "Water"
+        "Water",
+        "It will make more water"
       ]
     },
     {
@@ -419,7 +421,8 @@
         "Flowers",
         "A flower opening",
         "A flower",
-        "It turns the flower into an animal"
+        "It turns the flower into an animal",
+        "Through their flowers"
       ]
     },
     {
@@ -433,7 +436,8 @@
         "The root",
         "It is the root of the plant",
         "Roots",
-        "It gives the plant its roots"
+        "It gives the plant its roots",
+        "Through their roots"
       ]
     },
     {
@@ -483,7 +487,8 @@
       "labels": [
         "A rock",
         "A rock is non-living",
-        "A chick hatches from a stone"
+        "A chick hatches from a stone",
+        "It will turn into a stone"
       ]
     },
     {
@@ -2366,7 +2371,8 @@
       "bytes": 1311,
       "sha256": "bd2b7d3bdaf59e2e597c0f201152f3f8030b0ec7d6ee3978e2b61cfb0bce3243",
       "labels": [
-        "Water and sunlight"
+        "Water and sunlight",
+        "Water and light"
       ]
     },
     {
@@ -3344,6 +3350,344 @@
       "sha256": "164e439db5e75d87e45dde9d8779d2dba140c73e7b393deda768f526fd10c154",
       "labels": [
         "Ice changes into sand"
+      ]
+    },
+    {
+      "path": "option-art/10eb08432f601c1bf6fde321.svg",
+      "bytes": 739,
+      "sha256": "7d778cde16f3ddc23c6553067b308f72ff8a9f5c1e90595a0f7184b41945d4f6",
+      "labels": [
+        "Your nose"
+      ]
+    },
+    {
+      "path": "option-art/fb35b39583185daa7d8e048b.svg",
+      "bytes": 1081,
+      "sha256": "8f31cc87d96799c436ac00c31eb854b7101dbf9581222c8cef13e181dec7e97b",
+      "labels": [
+        "Jump three times"
+      ]
+    },
+    {
+      "path": "option-art/ad8fa08aad86c617b6651c37.svg",
+      "bytes": 813,
+      "sha256": "7f032d6719f4f350a370f5177f7e74ddf8f7a7be6570756a803ce4dd37d04a0d",
+      "labels": [
+        "Wave one hand"
+      ]
+    },
+    {
+      "path": "option-art/80d9288f2a088b3f8013a811.svg",
+      "bytes": 842,
+      "sha256": "8ea253c673ce31726e769518e05a1917012ee7a96d7f9efca5c0828c1352b1fd",
+      "labels": [
+        "Under the chair"
+      ]
+    },
+    {
+      "path": "option-art/a8b591f1791c5c39d97fbc31.svg",
+      "bytes": 788,
+      "sha256": "21748f73454ea55c5e435ac3b83237b27b3473513f1e203fa571cac01b3232a3",
+      "labels": [
+        "On the table"
+      ]
+    },
+    {
+      "path": "option-art/edb31366d4a9ed6c2449770d.svg",
+      "bytes": 925,
+      "sha256": "3bc450fc67daa466a4ba01d92c07b639bc0914626ef22a923a72c485de29df9d",
+      "labels": [
+        "The seed is planted"
+      ]
+    },
+    {
+      "path": "option-art/90ff728260b86dbd180d9a93.svg",
+      "bytes": 1611,
+      "sha256": "03409ffbb104fd04ffd3090b39bb0483729a355a09cc3f0d0eb2f06a8fdd6bf6",
+      "labels": [
+        "The plant has flowers"
+      ]
+    },
+    {
+      "path": "option-art/9281e0f4bb6106301c8bb98b.svg",
+      "bytes": 901,
+      "sha256": "148ac21c20d1eef425265c68cce2a45b9e81a22bf8fc74dc4e2938de153775e1",
+      "labels": [
+        "The plant grows tall"
+      ]
+    },
+    {
+      "path": "option-art/ab818d7d74b87f1aeaa908e5.svg",
+      "bytes": 808,
+      "sha256": "52205b39b858829339f7a86e19f53bf9bc9c21f07756997a366a8d33f7dbd1d9",
+      "labels": [
+        "Brushes teeth"
+      ]
+    },
+    {
+      "path": "option-art/a585eb2be9783e3cba768fda.svg",
+      "bytes": 943,
+      "sha256": "7f98699a177383e394ec7d947ff7adc2ddb348cc53b69133b9ca581509bc45fa",
+      "labels": [
+        "A caterpillar"
+      ]
+    },
+    {
+      "path": "option-art/db9a19e8579f439187ebda4f.svg",
+      "bytes": 1005,
+      "sha256": "f3753ab30e63f1adaf4af04a64714480259d30daa035c8d25bd336cdd7ca49ca",
+      "labels": [
+        "A bird"
+      ]
+    },
+    {
+      "path": "option-art/52cf8797f61e85acbae3fc54.svg",
+      "bytes": 820,
+      "sha256": "765d0bba660a6f4a8a816b1fb787b78edb4d37d04aaf7f38fa4831411e1491fb",
+      "labels": [
+        "An egg carton"
+      ]
+    },
+    {
+      "path": "option-art/23a72b9a6cef9e2f7330e961.svg",
+      "bytes": 854,
+      "sha256": "efc624957af60fa68a3c8a31c6104d459bba3335c5a1e724efe508b141c407ce",
+      "labels": [
+        "A 20 cm block tower",
+        "A 10 cm block tower"
+      ]
+    },
+    {
+      "path": "option-art/e8892520910e40d8b5c4c755.svg",
+      "bytes": 806,
+      "sha256": "c15a99a28eb5c143369b9bcb259cea7b58b1310ab6a5a1be76fc330f5fca899d",
+      "labels": [
+        "A full water bottle"
+      ]
+    },
+    {
+      "path": "option-art/15a59599fdf32f3b741129ef.svg",
+      "bytes": 1324,
+      "sha256": "b2f1e0715e5b93884645b1c88f00f6fb41e3249272d64af852c9f431d6b78701",
+      "labels": [
+        "Plastic toys"
+      ]
+    },
+    {
+      "path": "option-art/417172e1752a189a521a593a.svg",
+      "bytes": 824,
+      "sha256": "d83c1474b9598c60ea3660b0b18b99bbedfa09094d2d7bf250e470e071ba75c9",
+      "labels": [
+        "A warm coat"
+      ]
+    },
+    {
+      "path": "option-art/c4b536312a8856ca8c6fb3b1.svg",
+      "bytes": 918,
+      "sha256": "742c0312c2c5d9deaa4a06044432aa73b9ba5faa8633a9a95d3a34242322a5fa",
+      "labels": [
+        "A tree"
+      ]
+    },
+    {
+      "path": "option-art/51c1de5f99a9e411d3cf2e51.svg",
+      "bytes": 802,
+      "sha256": "9361d4a0cf77ca36b9c9e56fc6015921d8f069b0b970faef315c261748f4489d",
+      "labels": [
+        "A stone"
+      ]
+    },
+    {
+      "path": "option-art/bec00c67b9ea85ce7576252d.svg",
+      "bytes": 1114,
+      "sha256": "0eb43856c06dcd3f34bf282a73ae2394caf9b7e1bf200849076dbc00a6d33bc5",
+      "labels": [
+        "A plastic cup"
+      ]
+    },
+    {
+      "path": "option-art/86e2e22c78ec719732076618.svg",
+      "bytes": 820,
+      "sha256": "7d11581747670c39c1e79706fddf4e828d18afdcd3cb61b996b7000bdd7e575d",
+      "labels": [
+        "It is made of metal"
+      ]
+    },
+    {
+      "path": "option-art/238154590d28fc7e0a7edd57.svg",
+      "bytes": 985,
+      "sha256": "9ee0ef09e412d080023a6d8e9cb5ce00ac49e9ce8772598199320a50c203c276",
+      "labels": [
+        "A pond"
+      ]
+    },
+    {
+      "path": "option-art/cf7e8ba44b42f53ce0b46e6c.svg",
+      "bytes": 939,
+      "sha256": "bceea952be69b7e55861dd986a8ce41a91bebabf4522d28a42b5a46be6e62562",
+      "labels": [
+        "A dry cupboard"
+      ]
+    },
+    {
+      "path": "option-art/3e0241e10aeffe9543e8ba66.svg",
+      "bytes": 916,
+      "sha256": "fda93105a13a7184e3928df81fef3b3a9ddc2907952921e0b5e9dff3bf823e39",
+      "labels": [
+        "Growing towards the light"
+      ]
+    },
+    {
+      "path": "option-art/cc792740405f4f18f7868af8.svg",
+      "bytes": 1037,
+      "sha256": "58c03b9617353dc1141ffb4ffb8333a633fec7178a119ffe04070fc7b447aade",
+      "labels": [
+        "Looking for a toy"
+      ]
+    },
+    {
+      "path": "option-art/27f64048ba98d26075ee323b.svg",
+      "bytes": 834,
+      "sha256": "e4e4f410da8dd876e47db505b5b05c68086f78e3a3c414add8bcda6436c7197c",
+      "labels": [
+        "It may rain"
+      ]
+    },
+    {
+      "path": "option-art/8f11a8530461f1fd349bdd10.svg",
+      "bytes": 1333,
+      "sha256": "1f63d167446008db52beaacc137b01dea7fd1d832c3da14dddd023e84c6fa7db",
+      "labels": [
+        "The Sun will become a star"
+      ]
+    },
+    {
+      "path": "option-art/fc609fb92a94b787bb0bc80a.svg",
+      "bytes": 1213,
+      "sha256": "18c0051663ffb5d7024c6ce3918f4e49518183e5524935bbc9353026a4e8267d",
+      "labels": [
+        "The clouds will turn into rocks"
+      ]
+    },
+    {
+      "path": "option-art/990885beeb877403cb8e6d24.svg",
+      "bytes": 806,
+      "sha256": "8b05d5ea650d67858129102bd5a02b4570925abe36c471f4eac9f387b59e3918",
+      "labels": [
+        "Some water evaporated",
+        "Water it when needed"
+      ]
+    },
+    {
+      "path": "option-art/334344a415b429ded81155e6.svg",
+      "bytes": 1306,
+      "sha256": "f087e70574e954ab14a576c18eb724cd1ce2bbd603a344e4e34cd7d873cc0233",
+      "labels": [
+        "The water became soil"
+      ]
+    },
+    {
+      "path": "option-art/945f5268551840c2cf9f32b2.svg",
+      "bytes": 971,
+      "sha256": "312110940a027ac707b87292fedd0e5961a11011c028892c428cfa3b40ac7a25",
+      "labels": [
+        "Thermometer"
+      ]
+    },
+    {
+      "path": "option-art/eef8d400ec274d881cd0fb27.svg",
+      "bytes": 920,
+      "sha256": "eb8df909d97a3ec941036005876c9a4e113158c19861dcc3ae9db292eef7667b",
+      "labels": [
+        "Ruler"
+      ]
+    },
+    {
+      "path": "option-art/a8f794a1b05ba0e2e4bf9078.svg",
+      "bytes": 787,
+      "sha256": "effe0269794f19f3d13a4af6686619eb9c4321a7d7fa56cf4948c97552109871",
+      "labels": [
+        "Leaves moving"
+      ]
+    },
+    {
+      "path": "option-art/3129a75966c9240fdca2c6a0.svg",
+      "bytes": 828,
+      "sha256": "1180a7e268d19461a051c18c5a9155ab2ca838140c31d5399953d20356bacbae",
+      "labels": [
+        "The ground becoming a star"
+      ]
+    },
+    {
+      "path": "option-art/6521cfb26797634e0d508fcc.svg",
+      "bytes": 1173,
+      "sha256": "9f2dc0b9002f9b9df46d6a56fb1b367cb53582291cd31a4063a26d25b13a7dc2",
+      "labels": [
+        "The Moon melting"
+      ]
+    },
+    {
+      "path": "option-art/40bea7dc325655ed3fa53e1a.svg",
+      "bytes": 1259,
+      "sha256": "5a38b27857a1c2c8f71f4ccc5d150b85f4df1190bc08b47af1cefe5f22109b8a",
+      "labels": [
+        "Raincoat"
+      ]
+    },
+    {
+      "path": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg",
+      "bytes": 786,
+      "sha256": "1d0ecaf9d6637dc67854e85b08b3730ad41d9ad194490140a9e525efadbe8a8b",
+      "labels": [
+        "Wool hat only"
+      ]
+    },
+    {
+      "path": "option-art/4d74507c2a181a2af32fac75.svg",
+      "bytes": 762,
+      "sha256": "5a3b77e2fc5ab955bae5d6160382d5378eabaab9dfaa584b15ecc29b893fba06",
+      "labels": [
+        "Put rubbish in a bin"
+      ]
+    },
+    {
+      "path": "option-art/31d8013f08d7902d4de84b88.svg",
+      "bytes": 901,
+      "sha256": "4bd575b436ae96a51353966401b8363c8fe3eed7ce41d3c8e471a7d8bf6ac482",
+      "labels": [
+        "Break young plants"
+      ]
+    },
+    {
+      "path": "option-art/dc3ee810ed2365e41295be07.svg",
+      "bytes": 823,
+      "sha256": "3d3a09894a6b977d7f3d3e3b11c9da888f299960875e08516c7c86fe5975e54b",
+      "labels": [
+        "Turn off the tap while brushing"
+      ]
+    },
+    {
+      "path": "option-art/bc34a1d8b042fe169b447b61.svg",
+      "bytes": 1276,
+      "sha256": "ca0d3f4ad803f188c6d21ab67ea85ed3a366eb1a6b902bd8daf141da68fbab85",
+      "labels": [
+        "Leave the tap running"
+      ]
+    },
+    {
+      "path": "option-art/9f18da59ec4a403673777c04.svg",
+      "bytes": 1420,
+      "sha256": "46ed2748a177715a112cf7abb2be885adfc16b4a3ca1936411aef2bc25c4235f",
+      "labels": [
+        "Pull out its roots"
+      ]
+    },
+    {
+      "path": "option-art/0b4467d4b4102b5a27c7d114.svg",
+      "bytes": 698,
+      "sha256": "900bdb07d54d6b6d36336b987536cb86a292ee6b1f98373d56fd7cd4eb35d847",
+      "labels": [
+        "Cover it with plastic"
       ]
     }
   ]
