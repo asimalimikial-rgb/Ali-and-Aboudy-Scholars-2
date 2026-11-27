@@ -9,11 +9,21 @@ The app uses a shared learning engine while keeping each learner's subjects, act
 
 ## Project status
 
-Active source-development phase. Product name and package/application identifiers remain subject to final review where noted.
+Active product-development phase. The Android Learning World UX slice has been merged into `foundation/slice-0-android`; the `main` and foundation branches still have separate histories and are not wholesale merged.
 
-**Build policy:** Release APK production, publication, and main-branch merging remain disabled. CI validates source, JVM tests, debug compilation and checked-in Room schema exports; no release is produced.
+**Build policy:** Debug pre-releases for personal device testing are allowed only after Android CI validation. Production signing and production releases remain disabled.
 
-### Latest execution update — 24 November 2026
+### Latest Android pre-release — 27 November 2026
+
+- **GitHub Release:** [v0.1.0-preview.457.1](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/releases/tag/v0.1.0-preview.457.1)
+- **APK asset:** `Ali-Aboudy-Scholars-2-v0.1.0-preview.457.1.apk` (40,767,819 bytes; about 38.9 MiB).
+- **App version:** 0.1.0 (versionCode 1); **package ID:** `com.asimalimikial.aas2`.
+- **SHA-256:** `e76731a8ac5f2edb8e862cdba845f587a4d029a8e7655b89dab02108aa83867a`.
+- **Release source:** `foundation/slice-0-android`, commit `a4a5dc216eb7afee1b4b379e3ce7281e0abe92ca`.
+- Android CI [#457](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46013091450) passed JVM tests, Debug/AndroidTest compilation, Room schema v1/v2 verification and temporary APK artifact handoff. API 35 emulator instrumentation passed in PR validation [#450](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/46008491095).
+- This is a **debug pre-release for personal device testing**, not a production-signed release. Physical-device acceptance and visual/audio QA on the target handset remain open. The repository is public, but access to private resources, if any, may still require GitHub sign-in.
+
+### Historical execution update — 24 November 2026
 
 - The seven-book catalog is in `content/catalog/seven-book-catalog.json`; SMILE remains outside scope. The current coverage plan is `docs/seven-book-coverage-plan-v0.3.md`. Seven cover references and their ISBN/source notes are indexed in `docs/reference-book-covers-v0.1.md`; these are remote, reference-only images and are not bundled in the APK.
 - Current content packs contain 282 English activities: 108 KG2 and 174 Grade 2. Only Macmillan Science Level 2 currently has runtime book/unit/lesson mapping (62 activities across two units and nine lessons); other book hierarchies and mappings remain open.
@@ -53,7 +63,7 @@ The active development branch is `foundation/slice-0-android`.
 - Versioned serializable content packs (schema v3), with an offline asset repository that validates safe pack IDs, declared identity, JSON format, and pack integrity before returning a pack
 - Skill definitions, structured single-choice activities, and source-reference metadata
 - Validation for learner-path consistency, unique IDs, activity-to-skill and skill-to-source references, answer-option integrity, source HTTPS/license/usage metadata, safe image paths, feedback, language, and difficulty
-- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, accessible optional offline raster illustrations, localized answer labels, and localized save-error feedback
+- Reusable single-choice Activity Renderer with Arabic RTL and English LTR layout direction, accessible optional offline raster illustrations, localized answer labels, and localized save-error feedback; supplied question audio starts automatically, supplied correct/incorrect feedback audio plays after evaluation, and the question clip is stopped before feedback.
 - Pure Kotlin Evaluation Engine with activity-contract checks, invalid-option rejection, and content-provided feedback
 - Activity Submission Service that validates learner/profile and content-pack pathway pairing, evaluates the answer, and writes a learner-scoped attempt snapshot to Room (content-pack ID/version, selected option ID, correctness, hint use, feedback text, and timestamp)
 - Compose Activity Session wrapper connecting the renderer to the submission service, preventing duplicate in-flight submissions and showing success feedback only after persistence succeeds
@@ -64,7 +74,7 @@ The active development branch is `foundation/slice-0-android`.
 - Explicit learner-and-skill DAO query paths for progress reads
 - JVM unit tests for learner-selection policy, content validation and provenance, offline content-pack loading and failure handling, Arabic activity acceptance, answer evaluation, submission persistence via fake DAOs, additive Room migration SQL, learner isolation, streaks, and mastery thresholds
 - Room schema versions 1 and 2 checked into source; CI verifies both generated exports, with an additive 1→2 migration that preserves legacy attempts
-- Room foreign-key isolation tests retained in source, pending later emulator validation
+- Room foreign-key isolation tests retained in source; Android instrumentation tests passed on the API 35 emulator in CI #450.
 - Parent language policy JVM tests cover supported settings, fallback to system locale, RTL selection and isolation from learner-facing screens
 
 ## Important implementation boundaries
@@ -85,7 +95,7 @@ Requirements: JDK 17, Android SDK Platform 35, and Gradle 8.11.1.
 gradle :app:testDebugUnitTest
 ```
 
-The GitHub Actions workflow runs JVM unit tests and verifies that the generated Room schema matches the checked-in schema. It does **not** run emulator instrumentation, assemble an APK, or upload APK artifacts during the current source-development phase. Superseded runs on the same branch are cancelled automatically.
+The GitHub Actions PR workflow runs JVM unit tests, compiles the debug app and Android test APKs, verifies Room schema v1/v2, and runs instrumentation tests on an API 35 emulator. On pushes to `foundation/slice-0-android`, CI repeats JVM/build/schema checks, uploads the verified APK as a one-day temporary artifact, then publishes that exact APK with a SHA-256 file as a GitHub pre-release. Emulator instrumentation is run in PR validation; merge pushes reuse that successful PR gate for unchanged application source. Superseded runs on the same branch are cancelled automatically.
 
 ## Slice 0 verification and stage gates
 
@@ -132,11 +142,11 @@ The GitHub Actions workflow runs JVM unit tests and verifies that the generated 
 - 282 offline question illustrations and 374 option illustrations are now bundled. On-device visual scale, accessibility and semantic-fit QA are still open.
 - Mastery bands are deterministic provisional rules, not educationally calibrated thresholds.
 - Per-pack source references and curriculum mapping are in place for the existing content. The Grade 2 Science pack contains 62 original activities across Units 1–2; Units 3–5 and the remaining six book hierarchies/coverage areas still require authoring and integration.
-- Room foreign-key and DAO isolation instrumentation tests remain in source but are intentionally not executed during the no-Test-APK phase.
+- Room foreign-key and DAO isolation instrumentation tests remain in source; the API 35 emulator suite passed in CI #450. Physical-device validation is still open.
 
 ## Provisional technical identifiers
 
-The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. No APK or release should be produced from this development phase.
+The initial Android namespace and application ID are `com.asimalimikial.aas2`. Treat this as provisional until the product identity and release/application-ID decision is finalized. Debug pre-releases are permitted for personal testing only; production-signed releases remain blocked until product identity, signing and physical-device acceptance are finalized.
 
 
 ## Curriculum priority update — 18 November 2026
@@ -173,10 +183,10 @@ These are evidence-graded planning documents. They do not authorize Android runt
 - See [Implementation Slice 01](docs/implementation-slice-01-v0.1.md) for scope, acceptance coverage, test evidence, and remaining work.
 - See [Foundation Pilot Content QA v0.2](docs/units/foundation-pilot-content-qa-v0.2.md) for the expanded 8-item KG2 / 12-item Grade 2 English pilot review.
 - See [Original Offline Media Asset Register v0.1](docs/media-asset-register-v0.1.md) for the six KG2 PNGs, rights notes, integrity checks, and remaining media QA.
-- The current CI workflow compiles Kotlin and runs JVM tests, then checks Room schema v1/v2. It intentionally does not assemble or upload an APK and does not run emulator/device instrumentation.
+- Current CI builds and validates the APK, checks Room schema v1/v2, and runs API 35 emulator instrumentation on PRs. A successful push to `foundation/slice-0-android` publishes the verified APK as a debug pre-release; physical-device testing remains a separate acceptance gate.
 
 
-### Latest source validation — 23 November 2026
+### Historical source validation — 23 November 2026
 
 - [GitHub Actions #179](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/actions/runs/45190733050) passed on commit `fa0afce974a823f17269d87fb184bf68536e872f`.
 - The run passed JVM unit tests and checked-in Room schema v1/v2 verification. It did not build an APK or run Android instrumentation.
