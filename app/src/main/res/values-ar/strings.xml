@@ -45,6 +45,9 @@
     <string name="practice_summary_accuracy">نسبة الإجابات الصحيحة: %1$d%%</string>
     <string name="practice_summary_hint_breakdown">صحيحة دون تلميح: %1$d · مع تلميح: %2$d</string>
     <string name="activity_try_again">حاول مرة أخرى</string>
+    <string name="activity_next_question">السؤال التالي ←</string>
+    <string name="activity_finish_lesson">إنهاء الدرس</string>
+    <string name="activity_sequence_progress">السؤال %1$d من %2$d</string>
     <string name="open_parent_dashboard">لوحة ولي الأمر</string>
     <string name="parent_dashboard_title">لوحة ولي الأمر</string>
     <string name="parent_dashboard_learner">%1$s · %2$s</string>
