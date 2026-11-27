@@ -68,7 +68,12 @@ fun ActivityRenderer(
         if (currentEvaluation == null) {
             activity.promptAudioAssetPath?.let { audioController.toggle(it) }
         } else {
-            audioController.stop()
+            val encouragementAudio = if (currentEvaluation.isCorrect) {
+                activity.feedbackCorrectAudioAssetPath
+            } else {
+                activity.feedbackIncorrectAudioAssetPath
+            }
+            encouragementAudio?.let { audioController.toggle(it) }
         }
     }
     val layoutDirection = if (activity.language == "ar") LayoutDirection.Rtl else LayoutDirection.Ltr
