@@ -68,6 +68,8 @@ fun ActivityRenderer(
         if (currentEvaluation == null) {
             activity.promptAudioAssetPath?.let { audioController.toggle(it) }
         } else {
+            // Stop the question clip even when this activity has no feedback recording.
+            audioController.stop()
             val encouragementAudio = if (currentEvaluation.isCorrect) {
                 activity.feedbackCorrectAudioAssetPath
             } else {
