@@ -27,6 +27,8 @@ fun ActivitySession(
     contentPack: ContentPack,
     activity: ActivityDefinition,
     submissionService: ActivitySubmissionService,
+    hasNextActivity: Boolean,
+    onNextActivity: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val scope = rememberCoroutineScope()
@@ -58,6 +60,8 @@ fun ActivitySession(
                     submissionError = null
                 }
             },
+            hasNextActivity = hasNextActivity,
+            onNextActivity = onNextActivity,
             onSubmitAnswer = { selectedOptionId ->
                 if (!isSubmitting && evaluation == null) {
                     isSubmitting = true
