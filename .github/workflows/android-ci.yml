@@ -184,11 +184,11 @@ jobs:
           This is a **debug pre-release for personal device testing**, not a production-signed release.
 
           - App version: ${VERSION_NAME} (${VERSION_CODE})
-          - Package ID: `com.asimalimikial.aas2`
-          - Source branch: `foundation/slice-0-android`
-          - Source commit: `${GITHUB_SHA}`
+          - Package ID: com.asimalimikial.aas2
+          - Source branch: foundation/slice-0-android
+          - Source commit: ${GITHUB_SHA}
           - APK size: ${APK_BYTES} bytes
-          - SHA-256: `${APK_SHA}`
+          - SHA-256: ${APK_SHA}
 
           Automated gates passed before publication: JVM unit tests, debug and Android test APK compilation, Room schema verification, and Android instrumentation tests on an API 35 emulator.
 
