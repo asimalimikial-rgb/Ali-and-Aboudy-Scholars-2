@@ -14,6 +14,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CardDefaults
@@ -128,6 +129,7 @@ class MainActivity : ComponentActivity() {
             )
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
             var showLearningExperience by rememberSaveable { mutableStateOf(false) }
+            var selectedLearningArea by rememberSaveable { mutableStateOf<String?>(null) }
             var showParentDashboard by rememberSaveable { mutableStateOf(false) }
             var showParentSettings by rememberSaveable { mutableStateOf(false) }
             val parentSurfaceActive = showParentDashboard || showParentSettings
@@ -151,6 +153,7 @@ class MainActivity : ComponentActivity() {
                 val currentLearnerId = selectedProfile?.learnerId
                 if (previousLearnerId != null && currentLearnerId != previousLearnerId) {
                     showLearningExperience = false
+                    selectedLearningArea = null
                     showParentDashboard = false
                     showParentSettings = false
                 }
@@ -214,14 +217,16 @@ class MainActivity : ComponentActivity() {
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
                             submissionService = submissionService,
-                            onExit = { showLearningExperience = false }
+                            initialDomain = selectedLearningArea,
+                            onExit = { showLearningExperience = false; selectedLearningArea = null }
                         )
                     } else {
                         LearnerHome(
                             profile = selectedProfile,
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
-                            onStartLearning = { showLearningExperience = true },
+                            onStartLearning = { selectedLearningArea = null; showLearningExperience = true },
+                            onOpenLearningArea = { subject -> selectedLearningArea = subject; showLearningExperience = true },
                             onOpenParentDashboard = {
                                 requestParentGate(localizedContext) { showParentDashboard = true }
                             },
@@ -328,6 +333,7 @@ private fun LearnerHome(
     contentPackRepository: AssetContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     onStartLearning: () -> Unit,
+    onOpenLearningArea: (String) -> Unit,
     onOpenParentDashboard: () -> Unit,
     onSwitchLearner: () -> Unit
 ) {
@@ -391,18 +397,30 @@ private fun LearnerHome(
             ) { Text("⇄") }
         }
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
-            colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF397CC7)),
             elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)) {
             Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text(if (isAli) "🌟" else "🚀", style = MaterialTheme.typography.displaySmall)
-                Text(if (practiceSummary.scoredAttempts == 0) "Your adventure is ready!" else "Look how far you have come!",
+                Text(if (practiceSummary.scoredAttempts == 0) "Ready for today's adventure?" else "Look how far you have come, $displayName!",
                     style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold)
-                Text(if (practiceSummary.scoredAttempts == 0) "Choose a world and start collecting discoveries."
+                Text(if (practiceSummary.scoredAttempts == 0) "Choose a subject and discover something new."
                     else "Every activity is another step in your learning journey.",
                     style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2))
                 Button(modifier = Modifier.fillMaxWidth().height(60.dp), onClick = onStartLearning,
                     shape = RoundedCornerShape(18.dp), colors = ButtonDefaults.buttonColors(containerColor = accent)) {
                     Text(stringResource(R.string.start_learning), fontWeight = FontWeight.Black, style = MaterialTheme.typography.titleMedium)
+                }
+            }
+        }
+        Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+            colors = CardDefaults.cardColors(containerColor = soft)) {
+            Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                Text(if (isAli) "🌳" else "🚀", style = MaterialTheme.typography.displaySmall)
+                Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                    Text(stringResource(R.string.child_mascot_message), style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold, color = Color(0xFF314763))
+                    Text(stringResource(R.string.child_sibling_cheer), style = MaterialTheme.typography.bodySmall,
+                        color = Color(0xFF718096))
                 }
             }
         }
@@ -421,7 +439,7 @@ private fun LearnerHome(
                 }
             }
         }
-        Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge,
+        Text(stringResource(R.string.choose_subject), style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
         when {
             isLoadingSubjects -> Text(stringResource(R.string.loading_learning_areas), style = MaterialTheme.typography.bodyMedium)
@@ -433,7 +451,7 @@ private fun LearnerHome(
                     subject.contains("Science", ignoreCase = true) || subject.contains("Discovery", ignoreCase = true) -> "🔬"
                     else -> listOf("🧩", "🎨", "🌱")[index % 3]
                 }
-                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                Card(modifier = Modifier.fillMaxWidth().clickable { onOpenLearningArea(subject) }, shape = RoundedCornerShape(22.dp),
                     colors = CardDefaults.cardColors(containerColor = Color.White),
                     elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
                     Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
