@@ -107,4 +107,7 @@
     <string name="activity_correct_answer">الإجابة الصحيحة: %1$s</string>
     <string name="parent_review_title">أسئلة تحتاج إلى مراجعة (%1$d)</string>
     <string name="parent_review_correct_answer">الإجابة الصحيحة: %1$s</string>
+    <string name="choose_subject">اختر المادة</string>
+    <string name="child_mascot_message">كل اكتشاف صغير يساعدك على التقدم.</string>
+    <string name="child_sibling_cheer">علي وعبودي يتعلمان معاً؛ شجّعوا بعضكم.</string>
 </resources>
