@@ -39,6 +39,11 @@ class BundledContentPackAssetsTest {
         assertEquals(100, pack.activities.count { it.activityId.startsWith("new-ali-") })
         assertTrue(pack.activities.single { it.activityId == "kg2-count-02-en" }.prompt.contains("★ ★ ★ ★"))
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
+        assertEquals(3, pack.books.size)
+        assertEquals(10, pack.units.size)
+        assertEquals(19, pack.lessons.size)
+        assertTrue(pack.lessons.all { it.title.isNotBlank() && it.skillIds.isNotEmpty() })
+        assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
     }
 
     @Test
