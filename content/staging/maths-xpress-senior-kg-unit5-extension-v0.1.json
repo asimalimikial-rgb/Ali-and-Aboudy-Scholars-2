@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA",
+  "status": "INTEGRATED_PENDING_PEDAGOGY_QA",
   "bookId": "maths-xpress-senior-kg",
   "unitId": "MXSKG-U05",
   "lessonId": "MXSKG-U05-L01",
@@ -14,7 +14,7 @@
   "reviewGates": [
     "Answer-key and age-suitability review",
     "Difficulty progression and transfer review",
-    "Offline image/audio generation and checksum validation"
+    "On-device visual/audio playback QA"
   ],
   "records": [
     {
@@ -50,7 +50,7 @@
         "b": "Compare the two measurements and check which quantity is greater.",
         "c": "Compare the two measurements and check which quantity is greater."
       },
-      "mediaStatus": "EXISTING_MEDIA_VERIFIED"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     },
     {
       "activityId": "aas2-kg2-measure-compare-02",
@@ -86,7 +86,7 @@
         "b": "Compare the two measurements and check which quantity is greater.",
         "c": "Compare the two measurements and check which quantity is greater."
       },
-      "mediaStatus": "EXISTING_MEDIA_VERIFIED"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     },
     {
       "activityId": "aas2-kg2-measure-compare-03",
@@ -121,7 +121,7 @@
         "b": "Compare the two measurements and check which quantity is greater.",
         "c": "Compare the two measurements and check which quantity is greater."
       },
-      "mediaStatus": "EXISTING_MEDIA_VERIFIED"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-004",
@@ -155,7 +155,7 @@
         "b": "Five is two more than three.",
         "c": "Three is the length of the shorter object, not the difference."
       },
-      "mediaStatus": "ASSET_GENERATION_PENDING"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-005",
@@ -189,7 +189,7 @@
         "b": "Six cups is more than four cups.",
         "c": "The two amounts are not equal."
       },
-      "mediaStatus": "ASSET_GENERATION_PENDING"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-006",
@@ -223,7 +223,7 @@
         "b": "Five cubes is the shortest measurement.",
         "c": "Ten cubes is the longest measurement."
       },
-      "mediaStatus": "ASSET_GENERATION_PENDING"
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
     }
   ]
 }
