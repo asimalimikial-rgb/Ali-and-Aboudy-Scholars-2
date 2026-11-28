@@ -8192,7 +8192,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-001.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l01-002",
@@ -8203,21 +8204,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "is playing"
+          "text": "is playing",
+          "imageAssetPath": "option-art/6b731f33ee51dfcb6498f5b1.svg"
         },
         {
           "optionId": "b",
-          "text": "are playing"
+          "text": "are playing",
+          "imageAssetPath": "option-art/6b731f33ee51dfcb6498f5b1.svg"
         },
         {
           "optionId": "c",
-          "text": "am playing"
+          "text": "am playing",
+          "imageAssetPath": "option-art/3fa04242b95a3269e6c6e2b4.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-002.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-003",
@@ -8228,11 +8233,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Put the sandwich on a plate."
+          "text": "Put the sandwich on a plate.",
+          "imageAssetPath": "option-art/7fb1175ebf1c85a5e5f4af76.svg"
         },
         {
           "optionId": "b",
-          "text": "Spread the filling on the bread."
+          "text": "Spread the filling on the bread.",
+          "imageAssetPath": "option-art/129ed878942f43085cf9cac5.svg"
         },
         {
           "optionId": "c",
@@ -8242,7 +8249,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-003.png"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-004",
@@ -8257,7 +8265,8 @@
         },
         {
           "optionId": "b",
-          "text": "Blue"
+          "text": "Blue",
+          "imageAssetPath": "option-art/b04c74f27df5604dcb91ad3f.svg"
         },
         {
           "optionId": "c",
@@ -8267,7 +8276,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-004.png"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-005",
@@ -8292,7 +8302,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-005.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-006",
@@ -8303,11 +8314,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Farmer"
+          "text": "Farmer",
+          "imageAssetPath": "option-art/b98a464e78aa16f9bfa215ee.svg"
         },
         {
           "optionId": "b",
-          "text": "Teacher"
+          "text": "Teacher",
+          "imageAssetPath": "option-art/391261d85e662a7101987461.svg"
         },
         {
           "optionId": "c",
@@ -8317,7 +8330,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-006.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-007",
@@ -8342,7 +8356,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-007.png"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-008",
@@ -8367,7 +8382,8 @@
       "correctOptionId": "c",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-008.png"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-009",
@@ -8378,7 +8394,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Playground"
+          "text": "Playground",
+          "imageAssetPath": "option-art/5cec0c6870220881e8acdaf5.svg"
         },
         {
           "optionId": "b",
@@ -8392,7 +8409,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-009.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-010",
@@ -8403,7 +8421,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "playground"
+          "text": "playground",
+          "imageAssetPath": "option-art/5cec0c6870220881e8acdaf5.svg"
         },
         {
           "optionId": "b",
@@ -8417,7 +8436,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-010.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-011",
@@ -8442,7 +8462,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-011.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-012",
@@ -8467,7 +8488,8 @@
       "correctOptionId": "c",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-012.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-013",
@@ -8492,7 +8514,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-013.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-014",
@@ -8511,13 +8534,15 @@
         },
         {
           "optionId": "c",
-          "text": "Breaking toys"
+          "text": "Breaking toys",
+          "imageAssetPath": "option-art/cc792740405f4f18f7868af8.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-014.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-015",
@@ -8528,21 +8553,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Do you play football?"
+          "text": "Do you play football?",
+          "imageAssetPath": "option-art/048077d906ba401f145da753.svg"
         },
         {
           "optionId": "b",
-          "text": "You do play football?"
+          "text": "You do play football?",
+          "imageAssetPath": "option-art/048077d906ba401f145da753.svg"
         },
         {
           "optionId": "c",
-          "text": "Play you football do?"
+          "text": "Play you football do?",
+          "imageAssetPath": "option-art/048077d906ba401f145da753.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-015.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-016",
@@ -8553,21 +8582,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "hop"
+          "text": "hop",
+          "imageAssetPath": "option-art/48090f7b1d51440af3bc35c6.svg"
         },
         {
           "optionId": "b",
-          "text": "home"
+          "text": "home",
+          "imageAssetPath": "option-art/9fb95665ebb3cb86d865e27d.svg"
         },
         {
           "optionId": "c",
-          "text": "hot"
+          "text": "hot",
+          "imageAssetPath": "option-art/2fd142064d0ad93ba870aff2.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-016.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-017",
@@ -8592,7 +8625,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-017.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-018",
@@ -8607,17 +8641,20 @@
         },
         {
           "optionId": "b",
-          "text": "Shoes"
+          "text": "Shoes",
+          "imageAssetPath": "option-art/6391873f34ec52edbd71766b.svg"
         },
         {
           "optionId": "c",
-          "text": "Hat"
+          "text": "Hat",
+          "imageAssetPath": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-018.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-019",
@@ -8636,13 +8673,15 @@
         },
         {
           "optionId": "c",
-          "text": "green"
+          "text": "green",
+          "imageAssetPath": "option-art/75e116150dbe8fdb61b0ea19.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-019.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-020",
@@ -8657,7 +8696,8 @@
         },
         {
           "optionId": "b",
-          "text": "coat"
+          "text": "coat",
+          "imageAssetPath": "option-art/ba92c33bd65561646de4942d.svg"
         },
         {
           "optionId": "c",
@@ -8667,7 +8707,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-020.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-021",
@@ -8682,7 +8723,8 @@
         },
         {
           "optionId": "b",
-          "text": "Go to bed"
+          "text": "Go to bed",
+          "imageAssetPath": "option-art/9fedc619e73a2f2186c3d648.svg"
         },
         {
           "optionId": "c",
@@ -8692,7 +8734,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-021.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-022",
@@ -8703,21 +8746,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7:15"
+          "text": "7:15",
+          "imageAssetPath": "option-art/b78cd9ad0de21916b67f7775.svg"
         },
         {
           "optionId": "b",
-          "text": "7:30"
+          "text": "7:30",
+          "imageAssetPath": "option-art/eadb3840c26dd7e3d96428e2.svg"
         },
         {
           "optionId": "c",
-          "text": "8:30"
+          "text": "8:30",
+          "imageAssetPath": "option-art/128259dd52f8c77c3a873bfd.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-022.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-023",
@@ -8728,7 +8775,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "rain"
+          "text": "rain",
+          "imageAssetPath": "option-art/27f64048ba98d26075ee323b.svg"
         },
         {
           "optionId": "b",
@@ -8736,13 +8784,15 @@
         },
         {
           "optionId": "c",
-          "text": "train"
+          "text": "train",
+          "imageAssetPath": "option-art/6227124c4fd034cf9e96437e.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-023.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-024",
@@ -8767,7 +8817,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-024.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-025",
@@ -8792,7 +8843,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-025.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-026",
@@ -8817,7 +8869,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-026.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-027",
@@ -8842,7 +8895,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-027.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-028",
@@ -8853,21 +8907,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "sun"
+          "text": "sun",
+          "imageAssetPath": "option-art/3e0241e10aeffe9543e8ba66.svg"
         },
         {
           "optionId": "b",
-          "text": "star"
+          "text": "star",
+          "imageAssetPath": "option-art/3129a75966c9240fdca2c6a0.svg"
         },
         {
           "optionId": "c",
-          "text": "run"
+          "text": "run",
+          "imageAssetPath": "option-art/bc34a1d8b042fe169b447b61.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-028.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-029",
@@ -8886,13 +8944,15 @@
         },
         {
           "optionId": "c",
-          "text": "Carrot"
+          "text": "Carrot",
+          "imageAssetPath": "option-art/e78cf7585e85489a64546841.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-029.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-030",
@@ -8903,7 +8963,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Rainy"
+          "text": "Rainy",
+          "imageAssetPath": "option-art/27f64048ba98d26075ee323b.svg"
         },
         {
           "optionId": "b",
@@ -8917,7 +8978,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-030.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-031",
@@ -8936,13 +8998,15 @@
         },
         {
           "optionId": "c",
-          "text": "am"
+          "text": "am",
+          "imageAssetPath": "option-art/ef76dc8dd37591c81fc2ae23.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-031.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-032",
@@ -8967,7 +9031,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-032.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-033",
@@ -8992,7 +9057,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-033.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-034",
@@ -9007,7 +9073,8 @@
         },
         {
           "optionId": "b",
-          "text": "Butterfly"
+          "text": "Butterfly",
+          "imageAssetPath": "option-art/39f92ee8d2deaa426b84e17d.svg"
         },
         {
           "optionId": "c",
@@ -9017,7 +9084,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-034.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-035",
@@ -9032,17 +9100,20 @@
         },
         {
           "optionId": "b",
-          "text": "cold"
+          "text": "cold",
+          "imageAssetPath": "option-art/7f9174197e9f930761f71347.svg"
         },
         {
           "optionId": "c",
-          "text": "can"
+          "text": "can",
+          "imageAssetPath": "option-art/c19b1428b8ff24274d4594a5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-035.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-036",
@@ -9053,21 +9124,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8:15"
+          "text": "8:15",
+          "imageAssetPath": "option-art/60cdbeeb93dc34c68011211c.svg"
         },
         {
           "optionId": "b",
-          "text": "8:30"
+          "text": "8:30",
+          "imageAssetPath": "option-art/128259dd52f8c77c3a873bfd.svg"
         },
         {
           "optionId": "c",
-          "text": "9:30"
+          "text": "9:30",
+          "imageAssetPath": "option-art/537c055effd1a8bc6baaeddf.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-036.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-037",
@@ -9092,7 +9167,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-037.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-038",
@@ -9107,17 +9183,20 @@
         },
         {
           "optionId": "b",
-          "text": "Camel"
+          "text": "Camel",
+          "imageAssetPath": "option-art/4fc6d8c79f3dba9b29d458d0.svg"
         },
         {
           "optionId": "c",
-          "text": "Hen"
+          "text": "Hen",
+          "imageAssetPath": "option-art/1bbc5017d3f5a3ca00decc22.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-038.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-039",
@@ -9142,7 +9221,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-039.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-040",
@@ -9153,7 +9233,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "tree"
+          "text": "tree",
+          "imageAssetPath": "option-art/c4b536312a8856ca8c6fb3b1.svg"
         },
         {
           "optionId": "b",
@@ -9161,13 +9242,15 @@
         },
         {
           "optionId": "c",
-          "text": "train"
+          "text": "train",
+          "imageAssetPath": "option-art/6227124c4fd034cf9e96437e.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-040.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-041",
@@ -9182,17 +9265,20 @@
         },
         {
           "optionId": "b",
-          "text": "Run into deep water."
+          "text": "Run into deep water.",
+          "imageAssetPath": "option-art/bc34a1d8b042fe169b447b61.svg"
         },
         {
           "optionId": "c",
-          "text": "Touch a hot fire."
+          "text": "Touch a hot fire.",
+          "imageAssetPath": "option-art/d6a99776e057b35a8fda5699.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-041.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-042",
@@ -9217,7 +9303,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-042.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-043",
@@ -9232,7 +9319,8 @@
         },
         {
           "optionId": "b",
-          "text": "he"
+          "text": "he",
+          "imageAssetPath": "option-art/88f140aac6ddf3eec801c843.svg"
         },
         {
           "optionId": "c",
@@ -9242,7 +9330,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-043.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-044",
@@ -9253,7 +9342,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "moon"
+          "text": "moon",
+          "imageAssetPath": "option-art/f0b3a05fbd91524908dd23be.svg"
         },
         {
           "optionId": "b",
@@ -9267,7 +9357,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-044.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-045",
@@ -9292,7 +9383,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-045.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-046",
@@ -9307,17 +9399,20 @@
         },
         {
           "optionId": "b",
-          "text": "Green"
+          "text": "Green",
+          "imageAssetPath": "option-art/75e116150dbe8fdb61b0ea19.svg"
         },
         {
           "optionId": "c",
-          "text": "Quickly"
+          "text": "Quickly",
+          "imageAssetPath": "option-art/c5396ed7894ad926dce76202.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-046.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-047",
@@ -9328,11 +9423,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "train"
+          "text": "train",
+          "imageAssetPath": "option-art/6227124c4fd034cf9e96437e.svg"
         },
         {
           "optionId": "b",
-          "text": "tree"
+          "text": "tree",
+          "imageAssetPath": "option-art/c4b536312a8856ca8c6fb3b1.svg"
         },
         {
           "optionId": "c",
@@ -9342,7 +9439,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-047.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-048",
@@ -9357,7 +9455,8 @@
         },
         {
           "optionId": "b",
-          "text": "only numbers"
+          "text": "only numbers",
+          "imageAssetPath": "option-art/5b1ef6df7a752cd09610d556.svg"
         },
         {
           "optionId": "c",
@@ -9367,7 +9466,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-048.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-049",
@@ -9382,17 +9482,20 @@
         },
         {
           "optionId": "b",
-          "text": "plate"
+          "text": "plate",
+          "imageAssetPath": "option-art/f505bba2ed270ea253f42291.svg"
         },
         {
           "optionId": "c",
-          "text": "spoon"
+          "text": "spoon",
+          "imageAssetPath": "option-art/cb151e69655d912910be00f8.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-049.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-050",
@@ -9417,7 +9520,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-050.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-051",
@@ -9428,21 +9532,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "We played and walked."
+          "text": "We played and walked.",
+          "imageAssetPath": "option-art/6b731f33ee51dfcb6498f5b1.svg"
         },
         {
           "optionId": "b",
-          "text": "We play and walk yesterday."
+          "text": "We play and walk yesterday.",
+          "imageAssetPath": "option-art/6b731f33ee51dfcb6498f5b1.svg"
         },
         {
           "optionId": "c",
-          "text": "We playing yesterday."
+          "text": "We playing yesterday.",
+          "imageAssetPath": "option-art/6b731f33ee51dfcb6498f5b1.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-051.svg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-052",
@@ -9453,21 +9561,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "I packed a hat, a book and a ball."
+          "text": "I packed a hat, a book and a ball.",
+          "imageAssetPath": "option-art/9db300e11a685177d7654614.svg"
         },
         {
           "optionId": "b",
-          "text": "I packed a hat a book and a ball"
+          "text": "I packed a hat a book and a ball",
+          "imageAssetPath": "option-art/9db300e11a685177d7654614.svg"
         },
         {
           "optionId": "c",
-          "text": "I packed, a hat a book and a ball."
+          "text": "I packed, a hat a book and a ball.",
+          "imageAssetPath": "option-art/9db300e11a685177d7654614.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-052.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u01-01",
@@ -9478,21 +9590,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "47"
+          "text": "47",
+          "imageAssetPath": "option-art/e3494b86d6880ed2a92c3bf7.svg"
         },
         {
           "optionId": "b",
-          "text": "56"
+          "text": "56",
+          "imageAssetPath": "option-art/a654143e5eae0c6ebfe6eb35.svg"
         },
         {
           "optionId": "c",
-          "text": "66"
+          "text": "66",
+          "imageAssetPath": "option-art/ec34c2753d83955053e339c5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u01-02",
@@ -9503,21 +9619,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "79"
+          "text": "79",
+          "imageAssetPath": "option-art/e6f2a702961c56d432c55844.svg"
         },
         {
           "optionId": "b",
-          "text": "77"
+          "text": "77",
+          "imageAssetPath": "option-art/6c2fd1fb24b327e92837c60e.svg"
         },
         {
           "optionId": "c",
-          "text": "81"
+          "text": "81",
+          "imageAssetPath": "option-art/4532330f964001b8b281892a.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-01",
@@ -9528,21 +9648,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "b",
-          "text": "80"
+          "text": "80",
+          "imageAssetPath": "option-art/ce4c69cef55ed3129ceb7cd4.svg"
         },
         {
           "optionId": "c",
-          "text": "800"
+          "text": "800",
+          "imageAssetPath": "option-art/f1035810d50cb373d68e765a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-02",
@@ -9553,21 +9677,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "642"
+          "text": "642",
+          "imageAssetPath": "option-art/83a96e67e01f6b65ba0bf1a2.svg"
         },
         {
           "optionId": "b",
-          "text": "624"
+          "text": "624",
+          "imageAssetPath": "option-art/80b8c9bd529f76c745836cd0.svg"
         },
         {
           "optionId": "c",
-          "text": "264"
+          "text": "264",
+          "imageAssetPath": "option-art/7484dbb16bb72566d9e32f28.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-01",
@@ -9578,21 +9706,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "52"
+          "text": "52",
+          "imageAssetPath": "option-art/7dd19fb44a1a293e9dd977e5.svg"
         },
         {
           "optionId": "b",
-          "text": "62"
+          "text": "62",
+          "imageAssetPath": "option-art/16bd591fce1129e0c5e1b1ff.svg"
         },
         {
           "optionId": "c",
-          "text": "72"
+          "text": "72",
+          "imageAssetPath": "option-art/0fe53c1b605e5a73629159c5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-02",
@@ -9603,21 +9735,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "52"
+          "text": "52",
+          "imageAssetPath": "option-art/7dd19fb44a1a293e9dd977e5.svg"
         },
         {
           "optionId": "b",
-          "text": "62"
+          "text": "62",
+          "imageAssetPath": "option-art/16bd591fce1129e0c5e1b1ff.svg"
         },
         {
           "optionId": "c",
-          "text": "72"
+          "text": "72",
+          "imageAssetPath": "option-art/0fe53c1b605e5a73629159c5.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-01",
@@ -9628,21 +9764,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "68"
+          "text": "68",
+          "imageAssetPath": "option-art/01bda78ae50535436aff6485.svg"
         },
         {
           "optionId": "b",
-          "text": "58"
+          "text": "58",
+          "imageAssetPath": "option-art/76d67df0004bddfcdcb4ba28.svg"
         },
         {
           "optionId": "c",
-          "text": "78"
+          "text": "78",
+          "imageAssetPath": "option-art/b745280443e34db9c99628a7.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-02",
@@ -9653,21 +9793,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         },
         {
           "optionId": "b",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         },
         {
           "optionId": "c",
-          "text": "55"
+          "text": "55",
+          "imageAssetPath": "option-art/2e58321f4e4d361882080e30.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-01",
@@ -9678,21 +9822,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "35"
+          "text": "35",
+          "imageAssetPath": "option-art/65d8a7134f8037725a91b30a.svg"
         },
         {
           "optionId": "b",
-          "text": "45"
+          "text": "45",
+          "imageAssetPath": "option-art/dc8cbc78d3fefde92b04d31c.svg"
         },
         {
           "optionId": "c",
-          "text": "41"
+          "text": "41",
+          "imageAssetPath": "option-art/926291735d7e01a96469b295.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-02",
@@ -9703,21 +9851,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "33"
+          "text": "33",
+          "imageAssetPath": "option-art/e15020fa5a9bac007667e31c.svg"
         },
         {
           "optionId": "b",
-          "text": "43"
+          "text": "43",
+          "imageAssetPath": "option-art/2ec1b48bada5f99dfe23b17e.svg"
         },
         {
           "optionId": "c",
-          "text": "31"
+          "text": "31",
+          "imageAssetPath": "option-art/8668f15154b9aa0231334f51.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-01",
@@ -9728,21 +9880,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "b",
-          "text": "12"
+          "text": "12",
+          "imageAssetPath": "option-art/72fded42dc6bc101654031c2.svg"
         },
         {
           "optionId": "c",
-          "text": "14"
+          "text": "14",
+          "imageAssetPath": "option-art/c8247504c59b64003eddfff7.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-02",
@@ -9753,21 +9909,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "20"
+          "text": "20",
+          "imageAssetPath": "option-art/4aaeff2018427c50d772bbc5.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "25"
+          "text": "25",
+          "imageAssetPath": "option-art/2afb04a4f54d86c56c21d9a8.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-01",
@@ -9778,21 +9938,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "b",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-02",
@@ -9817,7 +9981,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-01",
@@ -9828,21 +9993,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "18"
+          "text": "18",
+          "imageAssetPath": "option-art/b0cafed603c9e61657b62318.svg"
         },
         {
           "optionId": "b",
-          "text": "16"
+          "text": "16",
+          "imageAssetPath": "option-art/92084e1d7e4136b3e2a49dae.svg"
         },
         {
           "optionId": "c",
-          "text": "21"
+          "text": "21",
+          "imageAssetPath": "option-art/8512b391fe382fa302df97fe.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-02",
@@ -9853,11 +10022,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "49"
+          "text": "49",
+          "imageAssetPath": "option-art/94a16d4d5f694e4d417f5d23.svg"
         },
         {
           "optionId": "b",
-          "text": "94"
+          "text": "94",
+          "imageAssetPath": "option-art/87834cddb248efc814d87976.svg"
         },
         {
           "optionId": "c",
@@ -9867,7 +10038,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-01",
@@ -9878,21 +10050,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         },
         {
           "optionId": "b",
-          "text": "9"
+          "text": "9",
+          "imageAssetPath": "option-art/f15f2b9f3addd38907647ea1.svg"
         },
         {
           "optionId": "c",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-02",
@@ -9903,21 +10079,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "12"
+          "text": "12",
+          "imageAssetPath": "option-art/72fded42dc6bc101654031c2.svg"
         },
         {
           "optionId": "b",
-          "text": "13"
+          "text": "13",
+          "imageAssetPath": "option-art/096adc943478e6f518404add.svg"
         },
         {
           "optionId": "c",
-          "text": "14"
+          "text": "14",
+          "imageAssetPath": "option-art/c8247504c59b64003eddfff7.svg"
         }
       ],
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-01",
@@ -9942,7 +10122,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-02",
@@ -9967,7 +10148,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-01",
@@ -9978,21 +10160,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3:15"
+          "text": "3:15",
+          "imageAssetPath": "option-art/cc0b5f295a9d9be49f2cdab3.svg"
         },
         {
           "optionId": "b",
-          "text": "3:30"
+          "text": "3:30",
+          "imageAssetPath": "option-art/3897d7fc0e8e60b2ebe17a49.svg"
         },
         {
           "optionId": "c",
-          "text": "4:00"
+          "text": "4:00",
+          "imageAssetPath": "option-art/9ea61aef2384f15a2b3c757f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-02",
@@ -10003,21 +10189,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "30"
+          "text": "30",
+          "imageAssetPath": "option-art/7802499ced013e88b3a2245d.svg"
         },
         {
           "optionId": "b",
-          "text": "60"
+          "text": "60",
+          "imageAssetPath": "option-art/07eac41fdba944cd3eb179c6.svg"
         },
         {
           "optionId": "c",
-          "text": "100"
+          "text": "100",
+          "imageAssetPath": "option-art/ebd3fdf8830dd67a7ae746a4.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-02.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-01",
@@ -10028,21 +10218,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         },
         {
           "optionId": "b",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "c",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-01.svg"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-02",
@@ -10053,21 +10247,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "6:45"
+          "text": "6:45",
+          "imageAssetPath": "option-art/fa202f21948fa57c73ae4f95.svg"
         },
         {
           "optionId": "b",
-          "text": "7:00"
+          "text": "7:00",
+          "imageAssetPath": "option-art/703f30ab13b49bbee813bd86.svg"
         },
         {
           "optionId": "c",
-          "text": "6:15"
+          "text": "6:15",
+          "imageAssetPath": "option-art/3383d02c4ff1a90e6f8e41bb.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-01",
@@ -10078,21 +10276,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "145"
+          "text": "145",
+          "imageAssetPath": "option-art/79c8b2526d4edfd6ba073217.svg"
         },
         {
           "optionId": "b",
-          "text": "150"
+          "text": "150",
+          "imageAssetPath": "option-art/52ba441906c24c22adf47df2.svg"
         },
         {
           "optionId": "c",
-          "text": "160"
+          "text": "160",
+          "imageAssetPath": "option-art/850d54e41ff54e779faf8d61.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-02",
@@ -10103,21 +10305,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "357"
+          "text": "357",
+          "imageAssetPath": "option-art/2281bfe89aa96ac51b10a445.svg"
         },
         {
           "optionId": "b",
-          "text": "456"
+          "text": "456",
+          "imageAssetPath": "option-art/717af2bdc91cec3d218c3025.svg"
         },
         {
           "optionId": "c",
-          "text": "3560"
+          "text": "3560",
+          "imageAssetPath": "option-art/c457e7f963482e00a9477d84.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-01",
@@ -10128,21 +10334,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "367"
+          "text": "367",
+          "imageAssetPath": "option-art/76275cd02d9836da4e9bfe34.svg"
         },
         {
           "optionId": "b",
-          "text": "377"
+          "text": "377",
+          "imageAssetPath": "option-art/ac8c32506b784623a3197fea.svg"
         },
         {
           "optionId": "c",
-          "text": "357"
+          "text": "357",
+          "imageAssetPath": "option-art/2281bfe89aa96ac51b10a445.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-02",
@@ -10153,21 +10363,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "345"
+          "text": "345",
+          "imageAssetPath": "option-art/928582ffd9ee8d7b9837ff3b.svg"
         },
         {
           "optionId": "b",
-          "text": "355"
+          "text": "355",
+          "imageAssetPath": "option-art/9333070610caa5e945a92d84.svg"
         },
         {
           "optionId": "c",
-          "text": "365"
+          "text": "365",
+          "imageAssetPath": "option-art/0577b30ec68157af4614cb4b.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-01",
@@ -10178,21 +10392,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "15 pounds"
+          "text": "15 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "b",
-          "text": "20 pounds"
+          "text": "20 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "c",
-          "text": "25 pounds"
+          "text": "25 pounds",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-02",
@@ -10203,21 +10421,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-01",
@@ -10228,11 +10450,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "75 piasters"
+          "text": "75 piasters",
+          "imageAssetPath": "option-art/e80db82dd1bec3d12d4315e4.svg"
         },
         {
           "optionId": "b",
-          "text": "1 pound"
+          "text": "1 pound",
+          "imageAssetPath": "option-art/6e700ec6657db8ee8e980a43.svg"
         },
         {
           "optionId": "c",
@@ -10242,7 +10466,8 @@
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-02",
@@ -10253,21 +10478,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "470"
+          "text": "470",
+          "imageAssetPath": "option-art/2d76a22e7938703bf97b1bba.svg"
         },
         {
           "optionId": "b",
-          "text": "460"
+          "text": "460",
+          "imageAssetPath": "option-art/8712bf9463ddf498da6c95eb.svg"
         },
         {
           "optionId": "c",
-          "text": "480"
+          "text": "480",
+          "imageAssetPath": "option-art/78e54f240dc352ddc8030dc5.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-01",
@@ -10292,7 +10521,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-02",
@@ -10303,21 +10533,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hexagon"
+          "text": "Hexagon",
+          "imageAssetPath": "option-art/52777fd524716b9358968015.svg"
         },
         {
           "optionId": "b",
-          "text": "Pentagon"
+          "text": "Pentagon",
+          "imageAssetPath": "option-art/ae9a9394fa2a4b45f2f56e88.svg"
         },
         {
           "optionId": "c",
-          "text": "Triangle"
+          "text": "Triangle",
+          "imageAssetPath": "option-art/904c7e6df02768488545861f.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-01",
@@ -10342,7 +10576,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-02",
@@ -10353,21 +10588,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "c",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-01",
@@ -10378,21 +10617,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "c",
-          "text": "7"
+          "text": "7",
+          "imageAssetPath": "option-art/fdd07ba426088e4bac1112ea.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-02",
@@ -10403,7 +10646,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Square units"
+          "text": "Square units",
+          "imageAssetPath": "option-art/d6f343b4b91e2bd4e03555c0.svg"
         },
         {
           "optionId": "b",
@@ -10411,13 +10655,15 @@
         },
         {
           "optionId": "c",
-          "text": "Kilograms"
+          "text": "Kilograms",
+          "imageAssetPath": "option-art/9934a083b143ed22f66bc7ef.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-01",
@@ -10428,21 +10674,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "4"
+          "text": "4",
+          "imageAssetPath": "option-art/035e85b936868efbd2a1250e.svg"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-02",
@@ -10453,21 +10703,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Circle"
+          "text": "Circle",
+          "imageAssetPath": "option-art/b2ce063f903c8b8a32095fab.svg"
         },
         {
           "optionId": "b",
-          "text": "Square"
+          "text": "Square",
+          "imageAssetPath": "option-art/d6f343b4b91e2bd4e03555c0.svg"
         },
         {
           "optionId": "c",
-          "text": "Triangle"
+          "text": "Triangle",
+          "imageAssetPath": "option-art/904c7e6df02768488545861f.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-01",
@@ -10478,11 +10732,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Ruler"
+          "text": "Ruler",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
         },
         {
           "optionId": "b",
-          "text": "Clock"
+          "text": "Clock",
+          "imageAssetPath": "option-art/510aa73f219cda0f22fd40a2.svg"
         },
         {
           "optionId": "c",
@@ -10492,7 +10748,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-02",
@@ -10517,7 +10774,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-01",
@@ -10542,7 +10800,8 @@
       "correctOptionId": "c",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-02",
@@ -10553,11 +10812,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "2 kg"
+          "text": "2 kg",
+          "imageAssetPath": "option-art/9934a083b143ed22f66bc7ef.svg"
         },
         {
           "optionId": "b",
-          "text": "900 g"
+          "text": "900 g",
+          "imageAssetPath": "option-art/dd37d28b0c3b41468ba4b39d.svg"
         },
         {
           "optionId": "c",
@@ -10567,7 +10828,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-01",
@@ -10578,21 +10840,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "13"
+          "text": "13",
+          "imageAssetPath": "option-art/096adc943478e6f518404add.svg"
         },
         {
           "optionId": "c",
-          "text": "2"
+          "text": "2",
+          "imageAssetPath": "option-art/57fb05258ce112c4f5ece7f9.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-02",
@@ -10607,17 +10873,20 @@
         },
         {
           "optionId": "b",
-          "text": "Clock face"
+          "text": "Clock face",
+          "imageAssetPath": "option-art/510aa73f219cda0f22fd40a2.svg"
         },
         {
           "optionId": "c",
-          "text": "Number line"
+          "text": "Number line",
+          "imageAssetPath": "option-art/4237e30db61da3add7a68650.svg"
         }
       ],
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-02.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-01",
@@ -10642,7 +10911,8 @@
       "correctOptionId": "a",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 1
+      "difficulty": 1,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-01.svg"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-02",
@@ -10653,21 +10923,25 @@
       "options": [
         {
           "optionId": "a",
-          "text": "3"
+          "text": "3",
+          "imageAssetPath": "option-art/a3a610226d3e689275623dc8.svg"
         },
         {
           "optionId": "b",
-          "text": "15"
+          "text": "15",
+          "imageAssetPath": "option-art/8e50bf3e4e60f6a6bfea32c5.svg"
         },
         {
           "optionId": "c",
-          "text": "16"
+          "text": "16",
+          "imageAssetPath": "option-art/92084e1d7e4136b3e2a49dae.svg"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
-      "difficulty": 2
+      "difficulty": 2,
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-02.svg"
     }
   ],
   "books": [

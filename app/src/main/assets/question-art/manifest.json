@@ -3,11 +3,11 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
-  "questionCount": 306,
-  "optionImageCount": 420,
+  "questionCount": 406,
+  "optionImageCount": 496,
   "formats": {
-    "svg": 266,
-    "png": 40
+    "svg": 362,
+    "png": 44
   },
   "files": [
     {
@@ -3876,6 +3876,2090 @@
         "A large tank of water",
         "Air for breathing",
         "Fat that can be used for energy"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-001",
+      "path": "question-art/aas2-ew2-ew2-u01-l01-001.svg",
+      "format": "svg",
+      "bytes": 1044,
+      "sha256": "1b6a837ba452b8008bd931af9cb684b08c484b0f01a6da7106eccdf70d91dba3",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The knight is riding a horse.",
+        "The knight are riding a horse.",
+        "The knight riding a horse."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-002",
+      "path": "question-art/aas2-ew2-ew2-u01-l01-002.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "3589e816dcfeedaa075f97b74c3a92683b67f405858401bf3b1bd86c96e40ef7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/3fa04242b95a3269e6c6e2b4.svg"
+      ],
+      "optionLabels": [
+        "is playing",
+        "are playing",
+        "am playing"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-003",
+      "path": "question-art/aas2-ew2-ew2-u01-l02-003.png",
+      "format": "png",
+      "bytes": 9894,
+      "sha256": "e44464be0656587faeeeaceae11427a0e01e72ede5cf305127917e1acd71ee36",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/7fb1175ebf1c85a5e5f4af76.svg",
+        "option-art/129ed878942f43085cf9cac5.svg"
+      ],
+      "optionLabels": [
+        "Put the sandwich on a plate.",
+        "Spread the filling on the bread.",
+        "Eat the sandwich."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-004",
+      "path": "question-art/aas2-ew2-ew2-u01-l02-004.png",
+      "format": "png",
+      "bytes": 9929,
+      "sha256": "aa6fe97670ccd80e6b969ba8e282ba9092dbc0f7ba8f869b80e04cb7afaecbee",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b04c74f27df5604dcb91ad3f.svg"
+      ],
+      "optionLabels": [
+        "Next",
+        "Blue",
+        "Under"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-005",
+      "path": "question-art/aas2-ew2-ew2-u01-l03-005.svg",
+      "format": "svg",
+      "bytes": 1238,
+      "sha256": "cee8e17c32c81c952d47b56a43f4b8379f32f0aff8095da514b7edefb1e9a2df",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "book",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "A library",
+        "A bakery",
+        "A garage"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-006",
+      "path": "question-art/aas2-ew2-ew2-u01-l03-006.svg",
+      "format": "svg",
+      "bytes": 889,
+      "sha256": "38e10b72c3ebfb215522037c20967851591d1a60236565b0539ded801689f97d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/b98a464e78aa16f9bfa215ee.svg",
+        "option-art/391261d85e662a7101987461.svg"
+      ],
+      "optionLabels": [
+        "Farmer",
+        "Teacher",
+        "Pilot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-007",
+      "path": "question-art/aas2-ew2-ew2-u01-l04-007.png",
+      "format": "png",
+      "bytes": 12069,
+      "sha256": "8da3ef4cf99af931a63293586fcfbcead3c9506d6ea41c31a8542902cae9ddf1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "visualProfile": "english-grammar",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The castle is tall.",
+        "Tall the castle is.",
+        "Is tall the castle."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-008",
+      "path": "question-art/aas2-ew2-ew2-u01-l04-008.png",
+      "format": "png",
+      "bytes": 13754,
+      "sha256": "ce052b1153b25b48543b26605a92578e7001dbfa6a6aef43d2cfed30b6e671fa",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "visualProfile": "english-grammar",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "?",
+        "!",
+        " ."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-009",
+      "path": "question-art/aas2-ew2-ew2-u02-l01-009.svg",
+      "format": "svg",
+      "bytes": 847,
+      "sha256": "6f8f0a0bd5ef8c0a697afd9539488dbf33ca228082e3e0dd72db48fa4567e20b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/5cec0c6870220881e8acdaf5.svg"
+      ],
+      "optionLabels": [
+        "Playground",
+        "Kitchen",
+        "Bedroom"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-010",
+      "path": "question-art/aas2-ew2-ew2-u02-l01-010.svg",
+      "format": "svg",
+      "bytes": 913,
+      "sha256": "6c90107e7eef5e57525e5b7d0dd6463b3d802cb807c10a4517bac1d231fe26d6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/5cec0c6870220881e8acdaf5.svg"
+      ],
+      "optionLabels": [
+        "playground",
+        "bathroom",
+        "library"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-011",
+      "path": "question-art/aas2-ew2-ew2-u02-l02-011.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "9c80455ffb84d7bbc18c1cffdfa0101c443d9827f1d7ccfb02a7b7ed685cdd1a",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "flower",
+        "yellow"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Those",
+        "These",
+        "That"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-012",
+      "path": "question-art/aas2-ew2-ew2-u02-l02-012.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "1084668c5444ffb37a6fc4ca8197caba7d54e11bb5536cbd569ab89199c562fd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "blue"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "This",
+        "These",
+        "That"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-013",
+      "path": "question-art/aas2-ew2-ew2-u03-l01-013.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "f15b0ca53f3ded3807c125e4dd8c9bda88b7f6c0fe7801531ec246e48ad23552",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "like",
+        "likes",
+        "liking"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-014",
+      "path": "question-art/aas2-ew2-ew2-u03-l01-014.svg",
+      "format": "svg",
+      "bytes": 906,
+      "sha256": "43581d8ac91f616e9af323c7e4518aafe3b3dad94e201cbc5e846f6d88406b27",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/cc792740405f4f18f7868af8.svg"
+      ],
+      "optionLabels": [
+        "Collecting stamps",
+        "Sleeping in class",
+        "Breaking toys"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-015",
+      "path": "question-art/aas2-ew2-ew2-u03-l02-015.svg",
+      "format": "svg",
+      "bytes": 963,
+      "sha256": "3bd89a5f01740be05d63ca6b17f3624e9cac7e38309f40b8a11f426db22fb54f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "visualProfile": "phonics",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/048077d906ba401f145da753.svg",
+        "option-art/048077d906ba401f145da753.svg",
+        "option-art/048077d906ba401f145da753.svg"
+      ],
+      "optionLabels": [
+        "Do you play football?",
+        "You do play football?",
+        "Play you football do?"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-016",
+      "path": "question-art/aas2-ew2-ew2-u03-l02-016.svg",
+      "format": "svg",
+      "bytes": 965,
+      "sha256": "98be696f3a850573132f28b3dec094f369935a5fbe9b468e04fa8192193e17f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "visualProfile": "phonics",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/48090f7b1d51440af3bc35c6.svg",
+        "option-art/9fb95665ebb3cb86d865e27d.svg",
+        "option-art/2fd142064d0ad93ba870aff2.svg"
+      ],
+      "optionLabels": [
+        "hop",
+        "home",
+        "hot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-017",
+      "path": "question-art/aas2-ew2-ew2-u04-l01-017.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "6edf0a3eb22b169b366176a537ea8b803d0bd01b87d8df1c9c1aa3421ab61422",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person",
+        "blue"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-018",
+      "path": "question-art/aas2-ew2-ew2-u04-l01-018.svg",
+      "format": "svg",
+      "bytes": 1052,
+      "sha256": "80603c5213d67ce4461747bb315516a24b932599de1f7262ac78a48aa4678196",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/6391873f34ec52edbd71766b.svg",
+        "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
+      ],
+      "optionLabels": [
+        "Gloves",
+        "Shoes",
+        "Hat"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-019",
+      "path": "question-art/aas2-ew2-ew2-u04-l02-019.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "74bf2018071be713cc5f0598d20b76e69317e8a1bd5fe6bae0b212da9f767620",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/75e116150dbe8fdb61b0ea19.svg"
+      ],
+      "optionLabels": [
+        "queen",
+        "clean",
+        "green"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-020",
+      "path": "question-art/aas2-ew2-ew2-u04-l02-020.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "30d662f8dc3f7f4abe9c57af54d7db5c66bd2a3d6a616abafce564939c9a642b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "coat"
+      ],
+      "optionImagePaths": [
+        "option-art/ba92c33bd65561646de4942d.svg"
+      ],
+      "optionLabels": [
+        "warm",
+        "coat",
+        "wear"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-021",
+      "path": "question-art/aas2-ew2-ew2-u05-l01-021.svg",
+      "format": "svg",
+      "bytes": 1062,
+      "sha256": "01eee2a5575c1c3fc3631b00fe4f2f075589a8f74d6103fb81720787e42d41f0",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9fedc619e73a2f2186c3d648.svg"
+      ],
+      "optionLabels": [
+        "Wake up",
+        "Go to bed",
+        "Eat dinner at midnight"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-022",
+      "path": "question-art/aas2-ew2-ew2-u05-l01-022.svg",
+      "format": "svg",
+      "bytes": 828,
+      "sha256": "89fc1d67666d37c8280a3c4293a77f503224506757273ff8f5edab6d3015b83e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/b78cd9ad0de21916b67f7775.svg",
+        "option-art/eadb3840c26dd7e3d96428e2.svg",
+        "option-art/128259dd52f8c77c3a873bfd.svg"
+      ],
+      "optionLabels": [
+        "7:15",
+        "7:30",
+        "8:30"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-023",
+      "path": "question-art/aas2-ew2-ew2-u05-l02-023.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "b6c1f89d17b1a7adfc6f0b9706a3940c4153777802ff502d162a445a1d9515b1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg",
+        "option-art/6227124c4fd034cf9e96437e.svg"
+      ],
+      "optionLabels": [
+        "rain",
+        "chain",
+        "train"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-024",
+      "path": "question-art/aas2-ew2-ew2-u05-l02-024.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "b1888c1da682206aa7a448ebd04441e04f30baeca1a8ff4a97086bd1735a82ec",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "hand"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "before",
+        "then",
+        "yesterday"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-025",
+      "path": "question-art/aas2-ew2-ew2-u06-l01-025.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "d6dfdcc5987162ad1148bcddaab2bbf852551785fedc3be07e2c6f1204a8f042",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "His",
+        "Her",
+        "Their"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-026",
+      "path": "question-art/aas2-ew2-ew2-u06-l01-026.svg",
+      "format": "svg",
+      "bytes": 1056,
+      "sha256": "c1a827774ceccf2859557d37bc6f9d00eac02fc791568aed7742a82509316265",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Elbow",
+        "Ankle",
+        "Chin"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-027",
+      "path": "question-art/aas2-ew2-ew2-u06-l02-027.svg",
+      "format": "svg",
+      "bytes": 922,
+      "sha256": "b0feb228a72db60dc6ef7bc58892888ecca59bc4ad9759eb65a2065619cef3fa",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "doesn't",
+        "don't",
+        "didn't"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-028",
+      "path": "question-art/aas2-ew2-ew2-u06-l02-028.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "b49b3439ef7018d788050685b533540d780d625ed9f020d9ffda47c4589bca60",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/3e0241e10aeffe9543e8ba66.svg",
+        "option-art/3129a75966c9240fdca2c6a0.svg",
+        "option-art/bc34a1d8b042fe169b447b61.svg"
+      ],
+      "optionLabels": [
+        "sun",
+        "star",
+        "run"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-029",
+      "path": "question-art/aas2-ew2-ew2-u07-l01-029.svg",
+      "format": "svg",
+      "bytes": 1357,
+      "sha256": "2320bde3a66ac9e7eb748e96fc106f275a5a6dff0a1404758fc8c3251b222a2f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "milk",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/e78cf7585e85489a64546841.svg"
+      ],
+      "optionLabels": [
+        "Yoghurt",
+        "Rice",
+        "Carrot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-030",
+      "path": "question-art/aas2-ew2-ew2-u07-l01-030.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "696e0276de7560cecb15edddf584b585bd7bf326578bc06ad14c2cfc040e0c03",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "rain"
+      ],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg"
+      ],
+      "optionLabels": [
+        "Rainy",
+        "Dusty",
+        "Dry"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-031",
+      "path": "question-art/aas2-ew2-ew2-u07-l02-031.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "0cfe3267ed0b181eee223c895a64b9d5d8084711476a8d7a2627ccba8a770f46",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "tree"
+      ],
+      "optionImagePaths": [
+        "option-art/ef76dc8dd37591c81fc2ae23.svg"
+      ],
+      "optionLabels": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-032",
+      "path": "question-art/aas2-ew2-ew2-u07-l02-032.svg",
+      "format": "svg",
+      "bytes": 1263,
+      "sha256": "5ff431545f112467db6948cafb534b1aeecd1aad50978bc72be061902ac2edee",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Never",
+        "Always",
+        "Sometimes"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-033",
+      "path": "question-art/aas2-ew2-ew2-u08-l01-033.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "6a73abdd72ba9197e18d7c1055f4ee53e02154ea98a2b03c3388a1ee4068f5b0",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "dog"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "was",
+        "were",
+        "is"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-034",
+      "path": "question-art/aas2-ew2-ew2-u08-l01-034.svg",
+      "format": "svg",
+      "bytes": 2391,
+      "sha256": "ba4b63133ffed8460ea4e8293be07e9603d8afc7beee85eda43b967e9291b984",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "mammal"
+      ],
+      "optionImagePaths": [
+        "option-art/39f92ee8d2deaa426b84e17d.svg"
+      ],
+      "optionLabels": [
+        "Dolphin",
+        "Butterfly",
+        "Lizard"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-035",
+      "path": "question-art/aas2-ew2-ew2-u08-l02-035.svg",
+      "format": "svg",
+      "bytes": 891,
+      "sha256": "b487c0c25c253de2c06f709457cfcda113ed549d74a64d950c9296f702375618",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "letter"
+      ],
+      "optionImagePaths": [
+        "option-art/7f9174197e9f930761f71347.svg",
+        "option-art/c19b1428b8ff24274d4594a5.svg"
+      ],
+      "optionLabels": [
+        "cot",
+        "cold",
+        "can"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-036",
+      "path": "question-art/aas2-ew2-ew2-u08-l02-036.svg",
+      "format": "svg",
+      "bytes": 828,
+      "sha256": "5bb1c19865a731cad8b86dfb9af4dc27f726aa56cf2445ad88b28b1abd48748e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/60cdbeeb93dc34c68011211c.svg",
+        "option-art/128259dd52f8c77c3a873bfd.svg",
+        "option-art/537c055effd1a8bc6baaeddf.svg"
+      ],
+      "optionLabels": [
+        "8:15",
+        "8:30",
+        "9:30"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-037",
+      "path": "question-art/aas2-ew2-ew2-u09-l01-037.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "a2e52c2aca3368f5c176ccc12b59e2c7751a157acf26973420ead3c4d68309f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "fish",
+        "water"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "in",
+        "on",
+        "between"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-038",
+      "path": "question-art/aas2-ew2-ew2-u09-l01-038.svg",
+      "format": "svg",
+      "bytes": 836,
+      "sha256": "13b10fa21661d2f9e8048bfd697ba72c6434041b401460cbdf4a5cfc06e19565",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/4fc6d8c79f3dba9b29d458d0.svg",
+        "option-art/1bbc5017d3f5a3ca00decc22.svg"
+      ],
+      "optionLabels": [
+        "Dolphin",
+        "Camel",
+        "Hen"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-039",
+      "path": "question-art/aas2-ew2-ew2-u09-l02-039.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "04eeda74bb6bf798f6322b9bf94cb329a0445f5052abd1b7876a61ff27ca3958",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "shell"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "was",
+        "were",
+        "are"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-040",
+      "path": "question-art/aas2-ew2-ew2-u09-l02-040.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "b0e9321f6b24ebe12d8020b40b402ab77dba98eb462b65731010569b5f38897d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/c4b536312a8856ca8c6fb3b1.svg",
+        "option-art/6227124c4fd034cf9e96437e.svg"
+      ],
+      "optionLabels": [
+        "tree",
+        "trap",
+        "train"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-041",
+      "path": "question-art/aas2-ew2-ew2-u10-l01-041.svg",
+      "format": "svg",
+      "bytes": 924,
+      "sha256": "94ec20aad602a025f7050518133c65106034a4ba6e31e8af72901bc2b41f1930",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/bc34a1d8b042fe169b447b61.svg",
+        "option-art/d6a99776e057b35a8fda5699.svg"
+      ],
+      "optionLabels": [
+        "Stay with your adult.",
+        "Run into deep water.",
+        "Touch a hot fire."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-042",
+      "path": "question-art/aas2-ew2-ew2-u10-l01-042.svg",
+      "format": "svg",
+      "bytes": 861,
+      "sha256": "9f20cbd3c761858f6693e0ab9fd2dac5efea9023ac5d06672f64c103ae26fbda",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Please close the gate.",
+        "Do you close the gate?",
+        "The gate is closed yesterday."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-043",
+      "path": "question-art/aas2-ew2-ew2-u10-l02-043.svg",
+      "format": "svg",
+      "bytes": 836,
+      "sha256": "27c6c0bfc3efbb894f7356b0a2b309b307b3b80152ba030a92d7fb20c2ac6aab",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/88f140aac6ddf3eec801c843.svg"
+      ],
+      "optionLabels": [
+        "him",
+        "he",
+        "his"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-044",
+      "path": "question-art/aas2-ew2-ew2-u10-l02-044.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "cae9a5c439414fdf8e06cfbd204680a99c4f46c11e327dab71278c70260b8def",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/f0b3a05fbd91524908dd23be.svg"
+      ],
+      "optionLabels": [
+        "moon",
+        "man",
+        "men"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-045",
+      "path": "question-art/aas2-ew2-ew2-u11-l01-045.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "016c0fdbf48ffc080949196e57f44023db8eaaaedaf7afa6f5af67fb32ef120d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "visited",
+        "visits",
+        "visiting"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-046",
+      "path": "question-art/aas2-ew2-ew2-u11-l01-046.svg",
+      "format": "svg",
+      "bytes": 1053,
+      "sha256": "d989264a3caa0ed234f04745d910d3b5d504f86406efde0a9634585fe271ac97",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/75e116150dbe8fdb61b0ea19.svg",
+        "option-art/c5396ed7894ad926dce76202.svg"
+      ],
+      "optionLabels": [
+        "After",
+        "Green",
+        "Quickly"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-047",
+      "path": "question-art/aas2-ew2-ew2-u11-l02-047.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "870d744c91b1fe4190d335b9e62a5fceb73d2d9e0a3977c797c6eb933eeb6a3f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/6227124c4fd034cf9e96437e.svg",
+        "option-art/c4b536312a8856ca8c6fb3b1.svg"
+      ],
+      "optionLabels": [
+        "train",
+        "tree",
+        "truck"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-048",
+      "path": "question-art/aas2-ew2-ew2-u11-l02-048.svg",
+      "format": "svg",
+      "bytes": 1046,
+      "sha256": "7c3fe7def3cf615f931896c0afddf0cc7e474d26018dfdf10a96d81c76924f05",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/5b1ef6df7a752cd09610d556.svg"
+      ],
+      "optionLabels": [
+        "your day and experiences",
+        "only numbers",
+        "weather instruments"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-049",
+      "path": "question-art/aas2-ew2-ew2-u12-l01-049.svg",
+      "format": "svg",
+      "bytes": 1042,
+      "sha256": "1af28f3367b2c0afb1e1423cf3b64c3776134d987453b5aa92b92650276254ec",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/f505bba2ed270ea253f42291.svg",
+        "option-art/cb151e69655d912910be00f8.svg"
+      ],
+      "optionLabels": [
+        "crawl",
+        "plate",
+        "spoon"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-050",
+      "path": "question-art/aas2-ew2-ew2-u12-l01-050.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "69a53cb64545e1ea10eacd4bda657dba19cb5e13fdccd9259997697421ac3803",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "cat"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "over",
+        "because",
+        "yesterday"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-051",
+      "path": "question-art/aas2-ew2-ew2-u12-l02-051.svg",
+      "format": "svg",
+      "bytes": 1049,
+      "sha256": "d736fe2ea316500e9819da429d98474a2a10b2beeed4f3e185d90ecf76f67476",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg"
+      ],
+      "optionLabels": [
+        "We played and walked.",
+        "We play and walk yesterday.",
+        "We playing yesterday."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-052",
+      "path": "question-art/aas2-ew2-ew2-u12-l02-052.svg",
+      "format": "svg",
+      "bytes": 861,
+      "sha256": "ffadca97d8a5b776487a53dc2cd70d202c338ad0e9018be23e508d273dd2a8b8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9db300e11a685177d7654614.svg",
+        "option-art/9db300e11a685177d7654614.svg",
+        "option-art/9db300e11a685177d7654614.svg"
+      ],
+      "optionLabels": [
+        "I packed a hat, a book and a ball.",
+        "I packed a hat a book and a ball",
+        "I packed, a hat a book and a ball."
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-01",
+      "path": "question-art/aas2-2a-mm2a-u01-01.svg",
+      "format": "svg",
+      "bytes": 1284,
+      "sha256": "35319f530615cf29e1b0b9f8d89d4918c3122f5b5cb8551b5e3eaf37355385f1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/e3494b86d6880ed2a92c3bf7.svg",
+        "option-art/a654143e5eae0c6ebfe6eb35.svg",
+        "option-art/ec34c2753d83955053e339c5.svg"
+      ],
+      "optionLabels": [
+        "47",
+        "56",
+        "66"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-02",
+      "path": "question-art/aas2-2a-mm2a-u01-02.svg",
+      "format": "svg",
+      "bytes": 1418,
+      "sha256": "3ead1fdd6e1f1d36e989183fd9f49ba97556ee5d97cb697400c66e63c483ecef",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/e6f2a702961c56d432c55844.svg",
+        "option-art/6c2fd1fb24b327e92837c60e.svg",
+        "option-art/4532330f964001b8b281892a.svg"
+      ],
+      "optionLabels": [
+        "79",
+        "77",
+        "81"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-01",
+      "path": "question-art/aas2-2a-mm2a-u02-01.svg",
+      "format": "svg",
+      "bytes": 1856,
+      "sha256": "ce3c3a4445d21a65f74b7275188d3f23b129598b273b2f2fcaca9809c9809528",
+      "engineVersion": "1.9.0",
+      "skillId": "place-value-to-1000",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/f76aac969985617d1d444e9a.svg",
+        "option-art/ce4c69cef55ed3129ceb7cd4.svg",
+        "option-art/f1035810d50cb373d68e765a.svg"
+      ],
+      "optionLabels": [
+        "8",
+        "80",
+        "800"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-02",
+      "path": "question-art/aas2-2a-mm2a-u02-02.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "b04d3c43ae1cc96988c7cafdbc3ed716275c6946e4f587d3ce7192383a0da783",
+      "engineVersion": "1.9.0",
+      "skillId": "place-value-to-1000",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/83a96e67e01f6b65ba0bf1a2.svg",
+        "option-art/80b8c9bd529f76c745836cd0.svg",
+        "option-art/7484dbb16bb72566d9e32f28.svg"
+      ],
+      "optionLabels": [
+        "642",
+        "624",
+        "264"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-01",
+      "path": "question-art/aas2-2a-mm2a-u03-01.svg",
+      "format": "svg",
+      "bytes": 693,
+      "sha256": "4f65954866981ba05cf588ab596d5aa612b13b28889d7bd967422469e062d24c",
+      "engineVersion": "1.9.0",
+      "skillId": "addition-within-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg",
+        "option-art/0fe53c1b605e5a73629159c5.svg"
+      ],
+      "optionLabels": [
+        "52",
+        "62",
+        "72"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-02",
+      "path": "question-art/aas2-2a-mm2a-u03-02.svg",
+      "format": "svg",
+      "bytes": 1284,
+      "sha256": "bd063f77c94010b08ad7add024dc22db6fa656cc73052a20ac31933c81cee1c6",
+      "engineVersion": "1.9.0",
+      "skillId": "addition-within-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil",
+        "red",
+        "blue"
+      ],
+      "optionImagePaths": [
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg",
+        "option-art/0fe53c1b605e5a73629159c5.svg"
+      ],
+      "optionLabels": [
+        "52",
+        "62",
+        "72"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-01",
+      "path": "question-art/aas2-2a-mm2a-u04-01.svg",
+      "format": "svg",
+      "bytes": 1350,
+      "sha256": "5870c69422748bc0ad7bd27f7154ae4dd348c2affc707b4451827563f8cf910f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u04",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/01bda78ae50535436aff6485.svg",
+        "option-art/76d67df0004bddfcdcb4ba28.svg",
+        "option-art/b745280443e34db9c99628a7.svg"
+      ],
+      "optionLabels": [
+        "68",
+        "58",
+        "78"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-02",
+      "path": "question-art/aas2-2a-mm2a-u04-02.svg",
+      "format": "svg",
+      "bytes": 1350,
+      "sha256": "37324580052c00d2cebecbc21f01cf0235d3af83b3c014983a38b9ac2c6db461",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u04",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/65d8a7134f8037725a91b30a.svg",
+        "option-art/dc8cbc78d3fefde92b04d31c.svg",
+        "option-art/2e58321f4e4d361882080e30.svg"
+      ],
+      "optionLabels": [
+        "35",
+        "45",
+        "55"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-01",
+      "path": "question-art/aas2-2a-mm2a-u05-01.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "aefa6a435b48dc51100c8be9e42228b346e45eb789ad0fe9e821f851f9cdd956",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/65d8a7134f8037725a91b30a.svg",
+        "option-art/dc8cbc78d3fefde92b04d31c.svg",
+        "option-art/926291735d7e01a96469b295.svg"
+      ],
+      "optionLabels": [
+        "35",
+        "45",
+        "41"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-02",
+      "path": "question-art/aas2-2a-mm2a-u05-02.svg",
+      "format": "svg",
+      "bytes": 1417,
+      "sha256": "68b76f491732b320f9d18025e0ae0ac63f5eeae7c48b868c5b6dc792d3f96430",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "bird"
+      ],
+      "optionImagePaths": [
+        "option-art/e15020fa5a9bac007667e31c.svg",
+        "option-art/2ec1b48bada5f99dfe23b17e.svg",
+        "option-art/8668f15154b9aa0231334f51.svg"
+      ],
+      "optionLabels": [
+        "33",
+        "43",
+        "31"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-01",
+      "path": "question-art/aas2-2a-mm2a-u06-01.svg",
+      "format": "svg",
+      "bytes": 1006,
+      "sha256": "917b07ebc6012b73669b7e0509354011894fea2decf37be6904d814d11d545f1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "orange"
+      ],
+      "optionImagePaths": [
+        "option-art/fdd07ba426088e4bac1112ea.svg",
+        "option-art/72fded42dc6bc101654031c2.svg",
+        "option-art/c8247504c59b64003eddfff7.svg"
+      ],
+      "optionLabels": [
+        "7",
+        "12",
+        "14"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-02",
+      "path": "question-art/aas2-2a-mm2a-u06-02.svg",
+      "format": "svg",
+      "bytes": 914,
+      "sha256": "e8ff240dcba6f060478bc709c0d3b22f6b42be2d525de87b093eefc23c0f30cb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "group"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/f15f2b9f3addd38907647ea1.svg",
+        "option-art/2afb04a4f54d86c56c21d9a8.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "9",
+        "25"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-01",
+      "path": "question-art/aas2-2a-mm2a-u07-01.svg",
+      "format": "svg",
+      "bytes": 1201,
+      "sha256": "bfb976678a5474d1f1eb93b40f69779095fca0bc031442bcee10ed55f290a26c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-number-facts",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/fdd07ba426088e4bac1112ea.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-02",
+      "path": "question-art/aas2-2a-mm2a-u07-02.svg",
+      "format": "svg",
+      "bytes": 1485,
+      "sha256": "13c60c5c740e7fbc4cbea397ecf3c652e21c8ee4707c56e4ccd8e06b0b83844d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-number-facts",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "9 + 10",
+        "12 + 8",
+        "13 + 6"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-01",
+      "path": "question-art/aas2-2a-mm2a-u08-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "8a7550243dc08e010f28427c0a2e6b104ca8fe2109b426d5c8e3db12f8b86988",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u08",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b0cafed603c9e61657b62318.svg",
+        "option-art/92084e1d7e4136b3e2a49dae.svg",
+        "option-art/8512b391fe382fa302df97fe.svg"
+      ],
+      "optionLabels": [
+        "18",
+        "16",
+        "21"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-02",
+      "path": "question-art/aas2-2a-mm2a-u08-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "fc10199dc6d58dd27ebc06da5149faf10fff72be4978c4801f27c7f6f309bb46",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u08",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/94a16d4d5f694e4d417f5d23.svg",
+        "option-art/87834cddb248efc814d87976.svg"
+      ],
+      "optionLabels": [
+        "49",
+        "94",
+        "Both are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-01",
+      "path": "question-art/aas2-2a-mm2a-u09-01.svg",
+      "format": "svg",
+      "bytes": 941,
+      "sha256": "78d57b2912e1f644c38e8dd5a1126fe84fbb4b7d25718309e01ba49f6abd668c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-equations-functions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/f76aac969985617d1d444e9a.svg",
+        "option-art/f15f2b9f3addd38907647ea1.svg",
+        "option-art/2d8b6c68e461048da6de4591.svg"
+      ],
+      "optionLabels": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-02",
+      "path": "question-art/aas2-2a-mm2a-u09-02.svg",
+      "format": "svg",
+      "bytes": 691,
+      "sha256": "3719a16d01c80b23a43b7ec7cb18c7a62f8542f08b04bd9f7a1cd77ad58585ab",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-equations-functions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/72fded42dc6bc101654031c2.svg",
+        "option-art/096adc943478e6f518404add.svg",
+        "option-art/c8247504c59b64003eddfff7.svg"
+      ],
+      "optionLabels": [
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-01",
+      "path": "question-art/aas2-2a-mm2a-u10-01.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "2e55f92aea7b1ec5f856b71b5da46ec41666590d151237c7939a5067659e520a",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-fractions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "one half",
+        "one third",
+        "one quarter"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-02",
+      "path": "question-art/aas2-2a-mm2a-u10-02.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "4ed2293bc48381b17b498ef668af652eef76c5ccf3f35b088110beb295921b7d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-fractions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "1/2",
+        "1/4",
+        "4/1"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-01",
+      "path": "question-art/aas2-2a-mm2a-u11-01.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "8d2a43be482dab2f93f4599591f39e3b2c9916b27cde3172b53a0b0183b5f38c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-time",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/cc0b5f295a9d9be49f2cdab3.svg",
+        "option-art/3897d7fc0e8e60b2ebe17a49.svg",
+        "option-art/9ea61aef2384f15a2b3c757f.svg"
+      ],
+      "optionLabels": [
+        "3:15",
+        "3:30",
+        "4:00"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-02",
+      "path": "question-art/aas2-2a-mm2a-u11-02.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "cdac7a1ffe9e802889f3281fe91a3a0d48827dcadb24f5aed4095cd5d0a02aef",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-time",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/7802499ced013e88b3a2245d.svg",
+        "option-art/07eac41fdba944cd3eb179c6.svg",
+        "option-art/ebd3fdf8830dd67a7ae746a4.svg"
+      ],
+      "optionLabels": [
+        "30",
+        "60",
+        "100"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-01",
+      "path": "question-art/aas2-2a-mm2a-u12-01.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "ca49c109319b7467273fc4070d7ff7ee92bdf45599b21dacd6d0f747dde45cbf",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u12",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/57fb05258ce112c4f5ece7f9.svg",
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg"
+      ],
+      "optionLabels": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-02",
+      "path": "question-art/aas2-2a-mm2a-u12-02.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "698c188225709cc151169999900dd63fe4798f6d881bc829775d47f7a93d88a7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u12",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/fa202f21948fa57c73ae4f95.svg",
+        "option-art/703f30ab13b49bbee813bd86.svg",
+        "option-art/3383d02c4ff1a90e6f8e41bb.svg"
+      ],
+      "optionLabels": [
+        "6:45",
+        "7:00",
+        "6:15"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-01",
+      "path": "question-art/aas2-2b-mm2b-u13-01.svg",
+      "format": "svg",
+      "bytes": 1595,
+      "sha256": "3bf0b2434988e372a1b225f87712569c5de6174dc43b98afa0ad9861a9b573b3",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-number-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/79c8b2526d4edfd6ba073217.svg",
+        "option-art/52ba441906c24c22adf47df2.svg",
+        "option-art/850d54e41ff54e779faf8d61.svg"
+      ],
+      "optionLabels": [
+        "145",
+        "150",
+        "160"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-02",
+      "path": "question-art/aas2-2b-mm2b-u13-02.svg",
+      "format": "svg",
+      "bytes": 1660,
+      "sha256": "46af5d0316f873ba2eeb41c72acbe78a6dcecfc009f1a3bfd3d3c9f822e33c73",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-number-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/2281bfe89aa96ac51b10a445.svg",
+        "option-art/717af2bdc91cec3d218c3025.svg",
+        "option-art/c457e7f963482e00a9477d84.svg"
+      ],
+      "optionLabels": [
+        "357",
+        "456",
+        "3560"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-01",
+      "path": "question-art/aas2-2b-mm2b-u14-01.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "df2ea8a887647a8aee3b7035f903d83cbcb0d6fb9bdc3152d4ec663ff09085dd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/76275cd02d9836da4e9bfe34.svg",
+        "option-art/ac8c32506b784623a3197fea.svg",
+        "option-art/2281bfe89aa96ac51b10a445.svg"
+      ],
+      "optionLabels": [
+        "367",
+        "377",
+        "357"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-02",
+      "path": "question-art/aas2-2b-mm2b-u14-02.svg",
+      "format": "svg",
+      "bytes": 697,
+      "sha256": "2e5c46049114f0d1dded9d8e5c5ac968152beba0660def8834f374f40cf2cf83",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/928582ffd9ee8d7b9837ff3b.svg",
+        "option-art/9333070610caa5e945a92d84.svg",
+        "option-art/0577b30ec68157af4614cb4b.svg"
+      ],
+      "optionLabels": [
+        "345",
+        "355",
+        "365"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-01",
+      "path": "question-art/aas2-2b-mm2b-u15-01.svg",
+      "format": "svg",
+      "bytes": 853,
+      "sha256": "ad557bf78ccd927a477b5c0e65e383290fb334029c59e8592fd7d22328b7480b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-money",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "toy",
+        "pound"
+      ],
+      "optionImagePaths": [
+        "option-art/6e700ec6657db8ee8e980a43.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg"
+      ],
+      "optionLabels": [
+        "15 pounds",
+        "20 pounds",
+        "25 pounds"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-02",
+      "path": "question-art/aas2-2b-mm2b-u15-02.svg",
+      "format": "svg",
+      "bytes": 853,
+      "sha256": "d4f32f0abd1dd8884815d4fd470b61eceee6408fb6d4fc4ae5affe905289b526",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-money",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "coin",
+        "pound"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/aa789315be34e6ca89fe3b86.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-01",
+      "path": "question-art/aas2-2b-mm2b-u16-01.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "ff587670f990f889fa8b61573e8e0b7108123d1bfeb22b8547fc10463da28732",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u16",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/e80db82dd1bec3d12d4315e4.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg"
+      ],
+      "optionLabels": [
+        "75 piasters",
+        "1 pound",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-02",
+      "path": "question-art/aas2-2b-mm2b-u16-02.svg",
+      "format": "svg",
+      "bytes": 1790,
+      "sha256": "26265dd165bd967ff6d515ea784cf6be23bfb5dccb5ac544d788df539d2a3141",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u16",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/2d76a22e7938703bf97b1bba.svg",
+        "option-art/8712bf9463ddf498da6c95eb.svg",
+        "option-art/78e54f240dc352ddc8030dc5.svg"
+      ],
+      "optionLabels": [
+        "470",
+        "460",
+        "480"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-01",
+      "path": "question-art/aas2-2b-mm2b-u17-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "bb64316f65f7011bcfe94b7a23649793d2a2d1ea0636cd5de14bc5f82105c5e8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "solid",
+        "shape",
+        "square"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Cube",
+        "Sphere",
+        "Cone"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-02",
+      "path": "question-art/aas2-2b-mm2b-u17-02.svg",
+      "format": "svg",
+      "bytes": 785,
+      "sha256": "76719c293464518d00d6b1d95270cec3a9f3a0955c2250cc4ba3d0a8271413bf",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/52777fd524716b9358968015.svg",
+        "option-art/ae9a9394fa2a4b45f2f56e88.svg",
+        "option-art/904c7e6df02768488545861f.svg"
+      ],
+      "optionLabels": [
+        "Hexagon",
+        "Pentagon",
+        "Triangle"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-01",
+      "path": "question-art/aas2-2b-mm2b-u18-01.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "6d5315194572cc321e8367d22c5d0ad88762a38d155fde8624dda33bf6331742",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Straight line",
+        "Curved line",
+        "Zigzag line"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-02",
+      "path": "question-art/aas2-2b-mm2b-u18-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "f6e9ba35fc8634b3d85064138d84e860f81398ea9c18efa3be1ec0f4c1206d6b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "rectangle"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/aa789315be34e6ca89fe3b86.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-01",
+      "path": "question-art/aas2-2b-mm2b-u19-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "5db5df09573a77518bb64b6fe0758a9aed15f4f43ddfdfe040c054ba1e5e066d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-area",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape",
+        "square"
+      ],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/fdd07ba426088e4bac1112ea.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-02",
+      "path": "question-art/aas2-2b-mm2b-u19-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "6534ac03bed007de8ed86cdcac969ac0e93c1d8b7bb93eb886e2d45842c0d305",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-area",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape",
+        "paper",
+        "ruler",
+        "small"
+      ],
+      "optionImagePaths": [
+        "option-art/d6f343b4b91e2bd4e03555c0.svg",
+        "option-art/9934a083b143ed22f66bc7ef.svg"
+      ],
+      "optionLabels": [
+        "Square units",
+        "Litres",
+        "Kilograms"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-01",
+      "path": "question-art/aas2-2b-mm2b-u20-01.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "365a06a2243e504ae66c68ac986b14c2b7a6d3e4a25b32c6d2741a71da2fc071",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u20",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "4",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-02",
+      "path": "question-art/aas2-2b-mm2b-u20-02.svg",
+      "format": "svg",
+      "bytes": 785,
+      "sha256": "3a25f6a78a4cf0663ba3ae323e1f974e28b5c551ce269d98d5b4260fdf057e40",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u20",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/b2ce063f903c8b8a32095fab.svg",
+        "option-art/d6f343b4b91e2bd4e03555c0.svg",
+        "option-art/904c7e6df02768488545861f.svg"
+      ],
+      "optionLabels": [
+        "Circle",
+        "Square",
+        "Triangle"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-01",
+      "path": "question-art/aas2-2b-mm2b-u21-01.svg",
+      "format": "svg",
+      "bytes": 884,
+      "sha256": "b5db59b9577537a457f352f27defb873c0179e645df4b4f87e0bb50f88fcb99a",
+      "engineVersion": "1.9.0",
+      "skillId": "measure-length-centimeters",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [
+        "option-art/91be412a35ac469b94000b65.svg",
+        "option-art/510aa73f219cda0f22fd40a2.svg"
+      ],
+      "optionLabels": [
+        "Ruler",
+        "Clock",
+        "Scales"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-02",
+      "path": "question-art/aas2-2b-mm2b-u21-02.svg",
+      "format": "svg",
+      "bytes": 1417,
+      "sha256": "34b90daf9b66d3b053ff87154997c806b4a2dc94d26636194682946f1b1c49e3",
+      "engineVersion": "1.9.0",
+      "skillId": "measure-length-centimeters",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "ribbon"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "15 cm",
+        "55 cm",
+        "10 cm"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-01",
+      "path": "question-art/aas2-2b-mm2b-u22-01.svg",
+      "format": "svg",
+      "bytes": 876,
+      "sha256": "0d000eecf9b159597a7d811b040945254b039a4364940a52a03a22371b60fe56",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-measures-problems",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "jug"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "100 mL",
+        "500 mL",
+        "1000 mL"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-02",
+      "path": "question-art/aas2-2b-mm2b-u22-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "2341ae75251414015bb4accab44abbfb4d909d08fe5f7440fb57de781e3fca5b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-measures-problems",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "weight"
+      ],
+      "optionImagePaths": [
+        "option-art/9934a083b143ed22f66bc7ef.svg",
+        "option-art/dd37d28b0c3b41468ba4b39d.svg"
+      ],
+      "optionLabels": [
+        "2 kg",
+        "900 g",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-01",
+      "path": "question-art/aas2-2b-mm2b-u23-01.svg",
+      "format": "svg",
+      "bytes": 1201,
+      "sha256": "094fb116e6852d2eceb95c4b87aa9fc54a7a63cf64970f78f5ab30930353477e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "apple",
+        "banana"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/096adc943478e6f518404add.svg",
+        "option-art/57fb05258ce112c4f5ece7f9.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "13",
+        "2"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-02",
+      "path": "question-art/aas2-2b-mm2b-u23-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "c0d0aa5e5b1285b270add240974fbe1cac7d451e9421b1aa243b4c824ea17525",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/510aa73f219cda0f22fd40a2.svg",
+        "option-art/4237e30db61da3add7a68650.svg"
+      ],
+      "optionLabels": [
+        "Pictograph",
+        "Clock face",
+        "Number line"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-01",
+      "path": "question-art/aas2-2b-mm2b-u24-01.svg",
+      "format": "svg",
+      "bytes": 884,
+      "sha256": "b6936d51ea0a69733dc9f1bcb715003d5f3c8a8e5047a9fbdf1448043d6bf00c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u24",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "20 cm",
+        "4 cm",
+        "18 cm"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-02",
+      "path": "question-art/aas2-2b-mm2b-u24-02.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "afec52a42364d1fb57da142fa8b7612e35bf08f593c5b070ee82105892e898a4",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u24",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "cat",
+        "dog"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/8e50bf3e4e60f6a6bfea32c5.svg",
+        "option-art/92084e1d7e4136b3e2a49dae.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "15",
+        "16"
       ]
     },
     {

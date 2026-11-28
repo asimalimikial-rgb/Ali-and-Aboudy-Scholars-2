@@ -2,13 +2,16 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 420,
+  "count": 496,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
       "bytes": 977,
       "sha256": "013f2e3a18eb6201806e41fa18717532aa36527641724c15a8985a79250aa56d",
       "labels": [
+        "7",
+        "7",
+        "7",
         "7",
         "7",
         "7",
@@ -82,6 +85,7 @@
       "labels": [
         "The ruler",
         "Centimetres",
+        "Ruler",
         "Ruler"
       ]
     },
@@ -150,6 +154,9 @@
         "6",
         "6",
         "6",
+        "6",
+        "6",
+        "6",
         "6"
       ]
     },
@@ -158,6 +165,7 @@
       "bytes": 1588,
       "sha256": "cc26b7055343d6897de73ff266a1b9ce911589c452b8df4668dd3d2a2fa94eff",
       "labels": [
+        "60",
         "60",
         "60",
         "60"
@@ -177,6 +185,7 @@
       "bytes": 1588,
       "sha256": "e7a502c4e414e9947b7a2f53ac0b5f562a781337772f647a759bb4d08d7529ad",
       "labels": [
+        "58",
         "58"
       ]
     },
@@ -955,6 +964,11 @@
         "3",
         "3",
         "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
         "3"
       ]
     },
@@ -963,6 +977,7 @@
       "bytes": 1521,
       "sha256": "1c9a2494b1637a187fb58fe8e749ec4821d544fc9b1057339f0cfd2fe993903e",
       "labels": [
+        "30",
         "30",
         "30",
         "30"
@@ -981,6 +996,9 @@
       "bytes": 1107,
       "sha256": "fb9bfe73cade86a78677056545f6cc6ba72c19741fba78327e5af87f985a4daa",
       "labels": [
+        "5",
+        "5",
+        "5",
         "5",
         "5",
         "5",
@@ -1026,6 +1044,10 @@
         "4",
         "4",
         "4",
+        "4",
+        "4",
+        "4",
+        "4",
         "4"
       ]
     },
@@ -1058,6 +1080,8 @@
         "9",
         "9",
         "9",
+        "9",
+        "9",
         "9"
       ]
     },
@@ -1082,6 +1106,8 @@
         "2",
         "2",
         "2",
+        "2",
+        "2",
         "2"
       ]
     },
@@ -1099,6 +1125,7 @@
       "sha256": "caa12a9439e0f7556d08f49d2d359057f7a81f822f0fb6cb3c3eff55369a797d",
       "labels": [
         "20",
+        "20",
         "20"
       ]
     },
@@ -1114,6 +1141,10 @@
         "8",
         "8",
         "8",
+        "8",
+        "8",
+        "8",
+        "8",
         "8"
       ]
     },
@@ -1122,6 +1153,7 @@
       "bytes": 2021,
       "sha256": "295c4cef78c5b80e40cde5e6ca33c1e40c738462c94f0ca3b3baf86fdf7b5bb3",
       "labels": [
+        "800",
         "800"
       ]
     },
@@ -1131,6 +1163,7 @@
       "sha256": "f70d2dba8fecf5f76aab93cb3412996690aa0f5bc056fc4bb137ed850d0d9bf7",
       "labels": [
         "80",
+        "80",
         "80"
       ]
     },
@@ -1139,6 +1172,7 @@
       "bytes": 1696,
       "sha256": "b3bf8c357932f7eef8dbb028d47b930b3eaafdbd027a9fd6e47f6739f151a7fc",
       "labels": [
+        "100",
         "100",
         "100",
         "100"
@@ -1161,6 +1195,7 @@
       "bytes": 1320,
       "sha256": "1d3ada3f5318b8f6d8f8279c558d36e0827ce92bfbcefc44175812fd02ac84a8",
       "labels": [
+        "10",
         "10",
         "10",
         "10",
@@ -1205,6 +1240,8 @@
         "45",
         "45",
         "45",
+        "45",
+        "45",
         "45"
       ]
     },
@@ -1221,6 +1258,7 @@
       "bytes": 1453,
       "sha256": "ede8db4f0e983d0a40db12cdddbc6d3e986000b6845c5375114a30876be12818",
       "labels": [
+        "55",
         "55",
         "55"
       ]
@@ -1256,6 +1294,7 @@
       "bytes": 1520,
       "sha256": "87556da6ef9bdc871ff55b2d1229ad190ab9fd612d39bf2d0a266a69da3273bf",
       "labels": [
+        "56",
         "56"
       ]
     },
@@ -1273,6 +1312,7 @@
       "sha256": "fffe0170dddc19df6a70f1e3610bbf7c07551a5c90ae964717d93f3bcd3e4f04",
       "labels": [
         "25",
+        "25",
         "25"
       ]
     },
@@ -1281,6 +1321,8 @@
       "bytes": 1453,
       "sha256": "1c83ffef862c7dc3dfe9a40657909a0beeea1326869b9dd39fcc3f78d1d78c74",
       "labels": [
+        "35",
+        "35",
         "35",
         "35",
         "35",
@@ -1340,6 +1382,7 @@
       "bytes": 1186,
       "sha256": "50dd3d2a9d3b4c69ee6d6b4a642afa35bee4b931407c36865f3118074a7a1bc2",
       "labels": [
+        "77",
         "77"
       ]
     },
@@ -1364,6 +1407,8 @@
       "bytes": 1252,
       "sha256": "44a476480a96db1adde28b07413073a3dcbb7594c3e5e8daaf5aae275f66eb8f",
       "labels": [
+        "12",
+        "12",
         "12"
       ]
     },
@@ -1372,6 +1417,8 @@
       "bytes": 1186,
       "sha256": "c577dd5ad59de63893a531ac440d95414e393670bacb61fdd9cf377e93876b2e",
       "labels": [
+        "14",
+        "14",
         "14"
       ]
     },
@@ -1380,6 +1427,8 @@
       "bytes": 1319,
       "sha256": "4da0000c1d2ea3654956f5bdc40a800eec689f8bf62539ca67ef44574821ac1f",
       "labels": [
+        "16",
+        "16",
         "16"
       ]
     },
@@ -1388,6 +1437,7 @@
       "bytes": 1253,
       "sha256": "192625494f0ac71601f5e0f8fd3461ea2dedbc3b25334d734d89f39a4b6e1094",
       "labels": [
+        "21",
         "21",
         "21"
       ]
@@ -1440,6 +1490,7 @@
       "bytes": 1387,
       "sha256": "c64fea31d5369e358ff8d73a9ca8d17635d55d5c617f76b4928c615c551d6b65",
       "labels": [
+        "18",
         "18"
       ]
     },
@@ -1472,6 +1523,7 @@
       "bytes": 1252,
       "sha256": "ceb0d6716f5507d0d1e86603d4a4bef24c2bad1d65ded36d912c2031d0e25376",
       "labels": [
+        "15",
         "15"
       ]
     },
@@ -1485,7 +1537,11 @@
         "20 pounds",
         "200 pounds",
         "2 pounds",
-        "20 pounds"
+        "20 pounds",
+        "15 pounds",
+        "20 pounds",
+        "25 pounds",
+        "1 pound"
       ]
     },
     {
@@ -1494,7 +1550,9 @@
       "sha256": "4ab43c63fa35793bfb464f83863a82f1e80ebd073107b8d3ea7352d577b30bf0",
       "labels": [
         "Kilograms",
-        "1 kilogram"
+        "1 kilogram",
+        "Kilograms",
+        "2 kg"
       ]
     },
     {
@@ -1502,7 +1560,8 @@
       "bytes": 1024,
       "sha256": "a09c1e2fae5979cc360f3adc34660012295887ccd008cc388062aa65b5e7b16e",
       "labels": [
-        "500 grams"
+        "500 grams",
+        "900 g"
       ]
     },
     {
@@ -1518,7 +1577,9 @@
       "bytes": 849,
       "sha256": "b69bcf8613a7758f4f3b9f833b2b7835aba387bad08184b2325f535b24128875",
       "labels": [
-        "Clock"
+        "Clock",
+        "Clock",
+        "Clock face"
       ]
     },
     {
@@ -1526,6 +1587,7 @@
       "bytes": 847,
       "sha256": "204940a63f8ca8c9200c4db1d84b1d5ab1a270800ae365c7d5eb690000fe50ef",
       "labels": [
+        "3:30",
         "3:30"
       ]
     },
@@ -2115,7 +2177,8 @@
       "sha256": "d51d52512694174f85df0ddf5d65964bd06c7ace96849693436b8edfbbd866e1",
       "labels": [
         "A butterfly",
-        "A butterfly"
+        "A butterfly",
+        "Butterfly"
       ]
     },
     {
@@ -2340,21 +2403,705 @@
       ]
     },
     {
-      "path": "option-art/b2ce063f903c8b8a32095fab.svg",
-      "bytes": 685,
-      "sha256": "34125fbb4a18afa7d662cab6b6499873b6ac0255d7636e84b0327466c8f7dbbb",
+      "path": "option-art/6b731f33ee51dfcb6498f5b1.svg",
+      "bytes": 1381,
+      "sha256": "6ae1a4a61454ec5c2b9c4a136784dd8117a8d8c79770bca2393a5a882f65479a",
       "labels": [
-        "Circle",
-        "Circle"
+        "is playing",
+        "are playing",
+        "We played and walked.",
+        "We play and walk yesterday.",
+        "We playing yesterday."
       ]
     },
     {
-      "path": "option-art/d6f343b4b91e2bd4e03555c0.svg",
-      "bytes": 704,
-      "sha256": "cb37dfcafebf54236e7af33957b9cc1af26ef0ac8c09c5e09516ad7f1add840e",
+      "path": "option-art/3fa04242b95a3269e6c6e2b4.svg",
+      "bytes": 859,
+      "sha256": "452a34e7d3c28f107caa2b0fbb8c770c76f01e06040dd65e305b6cdcee18f427",
       "labels": [
-        "Square",
-        "Square"
+        "am playing"
+      ]
+    },
+    {
+      "path": "option-art/7fb1175ebf1c85a5e5f4af76.svg",
+      "bytes": 780,
+      "sha256": "c74bc0850ad449397f304c323df9bd4cb006b53794e9d85129ba2bf0991c07fc",
+      "labels": [
+        "Put the sandwich on a plate."
+      ]
+    },
+    {
+      "path": "option-art/129ed878942f43085cf9cac5.svg",
+      "bytes": 846,
+      "sha256": "ff66e105ddc1fa03a97c2e6626ce87c74c5eff1efe48ac91e9f65a291ab4ef71",
+      "labels": [
+        "Spread the filling on the bread."
+      ]
+    },
+    {
+      "path": "option-art/b04c74f27df5604dcb91ad3f.svg",
+      "bytes": 739,
+      "sha256": "e8d687bb2cbafaf8d40a2adc8ae122c4e82651d449ef3b8d81b6bded090b0d08",
+      "labels": [
+        "Blue"
+      ]
+    },
+    {
+      "path": "option-art/b98a464e78aa16f9bfa215ee.svg",
+      "bytes": 839,
+      "sha256": "0f7703bdf3fa8998de06d23363d2d36b50eaf13c0e209567dedf6cb3c7ac903d",
+      "labels": [
+        "Farmer",
+        "farm"
+      ]
+    },
+    {
+      "path": "option-art/391261d85e662a7101987461.svg",
+      "bytes": 912,
+      "sha256": "ad41b3e880ff328742128c12f98ae6f5195cf1550e5adb6614227c324d69f747",
+      "labels": [
+        "Teacher"
+      ]
+    },
+    {
+      "path": "option-art/5cec0c6870220881e8acdaf5.svg",
+      "bytes": 1381,
+      "sha256": "07ddb74db2aef44d6fc8023b373a84ade4129f2d58f5219dd2ca15befe9dd696",
+      "labels": [
+        "Playground",
+        "playground"
+      ]
+    },
+    {
+      "path": "option-art/cc792740405f4f18f7868af8.svg",
+      "bytes": 1037,
+      "sha256": "58c03b9617353dc1141ffb4ffb8333a633fec7178a119ffe04070fc7b447aade",
+      "labels": [
+        "Breaking toys",
+        "Looking for a toy"
+      ]
+    },
+    {
+      "path": "option-art/048077d906ba401f145da753.svg",
+      "bytes": 1381,
+      "sha256": "c49cad1d6b90307ca69228bd5fba5b630b9c555d5d4b07a64f9c77abe3f87b40",
+      "labels": [
+        "Do you play football?",
+        "You do play football?",
+        "Play you football do?"
+      ]
+    },
+    {
+      "path": "option-art/48090f7b1d51440af3bc35c6.svg",
+      "bytes": 1081,
+      "sha256": "0b272f21a39dafddeb12bd04065f29d12250e54740235a21875abf752d2a1fd6",
+      "labels": [
+        "hop",
+        "hop"
+      ]
+    },
+    {
+      "path": "option-art/9fb95665ebb3cb86d865e27d.svg",
+      "bytes": 1083,
+      "sha256": "a7bb094ec894fecf97842ad517894c553ddff40c995ecc09f21dbcb31c38d877",
+      "labels": [
+        "home"
+      ]
+    },
+    {
+      "path": "option-art/2fd142064d0ad93ba870aff2.svg",
+      "bytes": 971,
+      "sha256": "a3d0875058ba2b1cbfceb9058364b8e6fc4154d5163b17957861e1d94c428e26",
+      "labels": [
+        "hot"
+      ]
+    },
+    {
+      "path": "option-art/6391873f34ec52edbd71766b.svg",
+      "bytes": 780,
+      "sha256": "059c5ff1a85355988111c7cb1654d9dde12bc855c72778baa2c512624b587bb3",
+      "labels": [
+        "Shoes"
+      ]
+    },
+    {
+      "path": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg",
+      "bytes": 786,
+      "sha256": "1d0ecaf9d6637dc67854e85b08b3730ad41d9ad194490140a9e525efadbe8a8b",
+      "labels": [
+        "Hat",
+        "Wool hat only"
+      ]
+    },
+    {
+      "path": "option-art/75e116150dbe8fdb61b0ea19.svg",
+      "bytes": 742,
+      "sha256": "469580191a7f8e5114eae2a83daba3f28263b9fc834e20fec66640c40a0f61e7",
+      "labels": [
+        "green",
+        "Green"
+      ]
+    },
+    {
+      "path": "option-art/ba92c33bd65561646de4942d.svg",
+      "bytes": 824,
+      "sha256": "9f8d64f1820c19151e8c4521249a5847c9c820ac7e2b3cbc93d900ee1f56ab5f",
+      "labels": [
+        "coat"
+      ]
+    },
+    {
+      "path": "option-art/9fedc619e73a2f2186c3d648.svg",
+      "bytes": 859,
+      "sha256": "84b35369c679ec614f7d9310fe0d80a02c5d530c2ef1ced757f45bf77fc0dfb6",
+      "labels": [
+        "Go to bed"
+      ]
+    },
+    {
+      "path": "option-art/b78cd9ad0de21916b67f7775.svg",
+      "bytes": 847,
+      "sha256": "7cbd3656fc87e2d8075a90c775451dc64b76285188749cb8d855749ec47f8a09",
+      "labels": [
+        "7:15"
+      ]
+    },
+    {
+      "path": "option-art/eadb3840c26dd7e3d96428e2.svg",
+      "bytes": 847,
+      "sha256": "e6f414a050872cdf8b3a0a93896290e28886688d8fe0dcca5a414f8cf3d07dc2",
+      "labels": [
+        "7:30"
+      ]
+    },
+    {
+      "path": "option-art/128259dd52f8c77c3a873bfd.svg",
+      "bytes": 847,
+      "sha256": "773bd7bd0ccacebbe64496d97f8929d57e69997aa448a767b19d247a2eb99604",
+      "labels": [
+        "8:30",
+        "8:30"
+      ]
+    },
+    {
+      "path": "option-art/27f64048ba98d26075ee323b.svg",
+      "bytes": 834,
+      "sha256": "e4e4f410da8dd876e47db505b5b05c68086f78e3a3c414add8bcda6436c7197c",
+      "labels": [
+        "rain",
+        "Rainy",
+        "It may rain"
+      ]
+    },
+    {
+      "path": "option-art/6227124c4fd034cf9e96437e.svg",
+      "bytes": 1049,
+      "sha256": "6e8fa3abc70ebf9347d4e35c147e348a376569e278cf7cdd497f81c7017cd307",
+      "labels": [
+        "train",
+        "train",
+        "train"
+      ]
+    },
+    {
+      "path": "option-art/3e0241e10aeffe9543e8ba66.svg",
+      "bytes": 916,
+      "sha256": "fda93105a13a7184e3928df81fef3b3a9ddc2907952921e0b5e9dff3bf823e39",
+      "labels": [
+        "sun",
+        "Growing towards the light"
+      ]
+    },
+    {
+      "path": "option-art/3129a75966c9240fdca2c6a0.svg",
+      "bytes": 828,
+      "sha256": "1180a7e268d19461a051c18c5a9155ab2ca838140c31d5399953d20356bacbae",
+      "labels": [
+        "star",
+        "The ground becoming a star"
+      ]
+    },
+    {
+      "path": "option-art/bc34a1d8b042fe169b447b61.svg",
+      "bytes": 1276,
+      "sha256": "ca0d3f4ad803f188c6d21ab67ea85ed3a366eb1a6b902bd8daf141da68fbab85",
+      "labels": [
+        "run",
+        "Run into deep water.",
+        "Leave the tap running"
+      ]
+    },
+    {
+      "path": "option-art/e78cf7585e85489a64546841.svg",
+      "bytes": 904,
+      "sha256": "c2b5b81ac472bebfe1ee9c97e139d4af540681d9bbca1b3cd92fb53f3b30e886",
+      "labels": [
+        "Carrot"
+      ]
+    },
+    {
+      "path": "option-art/ef76dc8dd37591c81fc2ae23.svg",
+      "bytes": 843,
+      "sha256": "86d5d70684c53329bf1e5a4980c779d1fa6c3d4fff9b750e04450a5669767669",
+      "labels": [
+        "am"
+      ]
+    },
+    {
+      "path": "option-art/7f9174197e9f930761f71347.svg",
+      "bytes": 1329,
+      "sha256": "1d90bd7da1ace8f005655b4596831a4dd68568cabc4c8e923847f9c28b57dc89",
+      "labels": [
+        "cold"
+      ]
+    },
+    {
+      "path": "option-art/c19b1428b8ff24274d4594a5.svg",
+      "bytes": 849,
+      "sha256": "03531de312f4ef0bb6a68869aa86ffd8bec108c170db34cdf96748c3060c2e6c",
+      "labels": [
+        "can"
+      ]
+    },
+    {
+      "path": "option-art/60cdbeeb93dc34c68011211c.svg",
+      "bytes": 847,
+      "sha256": "7eeddda42018a3a8507558b52f594e7f4f6d84069f4b34ccef7afcee14de9f49",
+      "labels": [
+        "8:15"
+      ]
+    },
+    {
+      "path": "option-art/537c055effd1a8bc6baaeddf.svg",
+      "bytes": 847,
+      "sha256": "3fd02dc0feaee0e7ef0b539e9add3a57d12e0be989c26d6bbf9191db013a579c",
+      "labels": [
+        "9:30"
+      ]
+    },
+    {
+      "path": "option-art/4fc6d8c79f3dba9b29d458d0.svg",
+      "bytes": 896,
+      "sha256": "c3c303e5b53de0d048366cc1768266db1a336c184833c53c15d70f62d79d410e",
+      "labels": [
+        "Camel"
+      ]
+    },
+    {
+      "path": "option-art/1bbc5017d3f5a3ca00decc22.svg",
+      "bytes": 1005,
+      "sha256": "2655a372a5b3ce4c649e6c7562db151e9279a2e3a1e86b4371758ba49f0e75f1",
+      "labels": [
+        "Hen"
+      ]
+    },
+    {
+      "path": "option-art/c4b536312a8856ca8c6fb3b1.svg",
+      "bytes": 918,
+      "sha256": "742c0312c2c5d9deaa4a06044432aa73b9ba5faa8633a9a95d3a34242322a5fa",
+      "labels": [
+        "tree",
+        "tree",
+        "A tree"
+      ]
+    },
+    {
+      "path": "option-art/d6a99776e057b35a8fda5699.svg",
+      "bytes": 1356,
+      "sha256": "865c51b9ed56374de00de7ce258e8a24302f974eb612c38a5b7115aebf6bca74",
+      "labels": [
+        "Touch a hot fire."
+      ]
+    },
+    {
+      "path": "option-art/88f140aac6ddf3eec801c843.svg",
+      "bytes": 910,
+      "sha256": "e7af857af66a16cd72b481a252a08374340f86f02fedee2b1720030e4c1ff045",
+      "labels": [
+        "he"
+      ]
+    },
+    {
+      "path": "option-art/f0b3a05fbd91524908dd23be.svg",
+      "bytes": 806,
+      "sha256": "ce5f1f19d91a92196ddeff9223df1e9fa34eb9000606fdc1cbefd1cf45824678",
+      "labels": [
+        "moon"
+      ]
+    },
+    {
+      "path": "option-art/c5396ed7894ad926dce76202.svg",
+      "bytes": 1244,
+      "sha256": "f7666ed0429e146093841370c1ed442c2220bd0a07936fa6d75606b3b7adad22",
+      "labels": [
+        "Quickly"
+      ]
+    },
+    {
+      "path": "option-art/5b1ef6df7a752cd09610d556.svg",
+      "bytes": 802,
+      "sha256": "64c69fc2c0eed2d5820d7e172366b4a6b8f716b7c32c0e95684b7963515a5085",
+      "labels": [
+        "only numbers"
+      ]
+    },
+    {
+      "path": "option-art/f505bba2ed270ea253f42291.svg",
+      "bytes": 780,
+      "sha256": "3c13e557064556811032b7743c0efaac69ca1fa3ff6433c66de076596f80c561",
+      "labels": [
+        "plate"
+      ]
+    },
+    {
+      "path": "option-art/cb151e69655d912910be00f8.svg",
+      "bytes": 770,
+      "sha256": "e38016da1496500c1ea3e2760552174f2627d1ae80c0dc7de0923df8993063c5",
+      "labels": [
+        "spoon"
+      ]
+    },
+    {
+      "path": "option-art/9db300e11a685177d7654614.svg",
+      "bytes": 1667,
+      "sha256": "f9652459edf6ec0e6c75f395a29ddd6cb27b150cff150b9bd9199f1aa0d90f65",
+      "labels": [
+        "I packed a hat, a book and a ball.",
+        "I packed a hat a book and a ball",
+        "I packed, a hat a book and a ball."
+      ]
+    },
+    {
+      "path": "option-art/e3494b86d6880ed2a92c3bf7.svg",
+      "bytes": 1253,
+      "sha256": "166f275026c4008c893b6c1093a90dfd763c4e6e5d03a21086aa5e58e4498e43",
+      "labels": [
+        "47"
+      ]
+    },
+    {
+      "path": "option-art/ec34c2753d83955053e339c5.svg",
+      "bytes": 1587,
+      "sha256": "289de4d8f792ecce1b548b29221a0fb7d2b52b9fb9b0ce3a2b657bce1db54710",
+      "labels": [
+        "66"
+      ]
+    },
+    {
+      "path": "option-art/e6f2a702961c56d432c55844.svg",
+      "bytes": 1387,
+      "sha256": "3d575279a293589184c39d5e8fbf097e94e5d17e01fcb4e86f37a138f2fc47ea",
+      "labels": [
+        "79"
+      ]
+    },
+    {
+      "path": "option-art/4532330f964001b8b281892a.svg",
+      "bytes": 1387,
+      "sha256": "bb8f858811445c681de1f03422a642f46466ac63f16ae2195c56321cb4975992",
+      "labels": [
+        "81"
+      ]
+    },
+    {
+      "path": "option-art/83a96e67e01f6b65ba0bf1a2.svg",
+      "bytes": 1761,
+      "sha256": "a0d23ea2a2d6ef97774fee7b8e267cd32e96a58eebab1f4b6b7d4751a0d68b5a",
+      "labels": [
+        "642"
+      ]
+    },
+    {
+      "path": "option-art/80b8c9bd529f76c745836cd0.svg",
+      "bytes": 1760,
+      "sha256": "9634bf8e0bee6a0cb396e97937d20392608a670beb768ffd88d59123f834d967",
+      "labels": [
+        "624"
+      ]
+    },
+    {
+      "path": "option-art/7484dbb16bb72566d9e32f28.svg",
+      "bytes": 1760,
+      "sha256": "21787fa5c42790b9c98b1fc5d2b618ce176acfcbc222c9a9792cb396c995a2c0",
+      "labels": [
+        "264"
+      ]
+    },
+    {
+      "path": "option-art/7dd19fb44a1a293e9dd977e5.svg",
+      "bytes": 1453,
+      "sha256": "32efb80b01c4ea6b72f295849464d891ff7da63466d9a98f814f43a7ee5ad779",
+      "labels": [
+        "52",
+        "52"
+      ]
+    },
+    {
+      "path": "option-art/16bd591fce1129e0c5e1b1ff.svg",
+      "bytes": 1520,
+      "sha256": "238c5de270b4654ba81a72c69532c8452b258042cc7462ba0dc8eb189fb6b6df",
+      "labels": [
+        "62",
+        "62"
+      ]
+    },
+    {
+      "path": "option-art/0fe53c1b605e5a73629159c5.svg",
+      "bytes": 1319,
+      "sha256": "132a7a72de55d65015d6af62fa0664b20781bc26299c882a3aef65f9b9adec1b",
+      "labels": [
+        "72",
+        "72"
+      ]
+    },
+    {
+      "path": "option-art/01bda78ae50535436aff6485.svg",
+      "bytes": 1655,
+      "sha256": "3721b046aa6a0c2faeaf968f4494b326ec9fb6cc55bfcd59dc7b8cf666dccb59",
+      "labels": [
+        "68"
+      ]
+    },
+    {
+      "path": "option-art/b745280443e34db9c99628a7.svg",
+      "bytes": 1454,
+      "sha256": "7b997d3b7eeeda7aa521839df3ea3f20da0f7f2b761f276b3c76f99cb631588c",
+      "labels": [
+        "78"
+      ]
+    },
+    {
+      "path": "option-art/926291735d7e01a96469b295.svg",
+      "bytes": 1186,
+      "sha256": "9ba30f55d5fd3195c1d9c349b2e5f93e5b71e2e28962f3a6b13a0653c083128c",
+      "labels": [
+        "41"
+      ]
+    },
+    {
+      "path": "option-art/e15020fa5a9bac007667e31c.svg",
+      "bytes": 1454,
+      "sha256": "aaf3561b2c07f688ec92c7433461c29138a638ac1d203fdd368b5a40aa3797c3",
+      "labels": [
+        "33"
+      ]
+    },
+    {
+      "path": "option-art/2ec1b48bada5f99dfe23b17e.svg",
+      "bytes": 1387,
+      "sha256": "c94818a0fe6c1b0b5775dd38913aa5f933832b9dcafbaa28e5fcc513e7b24495",
+      "labels": [
+        "43"
+      ]
+    },
+    {
+      "path": "option-art/8668f15154b9aa0231334f51.svg",
+      "bytes": 1253,
+      "sha256": "2fee2301fd13e62c0f01ead1e7f269ff25d75d9d3c37ce66c30f7eb53a12e320",
+      "labels": [
+        "31"
+      ]
+    },
+    {
+      "path": "option-art/94a16d4d5f694e4d417f5d23.svg",
+      "bytes": 1454,
+      "sha256": "f7deb9b2aa588058344ae37ff33a682477150e5553771fc3a2d51139aec8d309",
+      "labels": [
+        "49"
+      ]
+    },
+    {
+      "path": "option-art/87834cddb248efc814d87976.svg",
+      "bytes": 1454,
+      "sha256": "b404ad8bfae1e578428decfa47abc920106de2179999fc8365f8c3b3e65b5f37",
+      "labels": [
+        "94"
+      ]
+    },
+    {
+      "path": "option-art/096adc943478e6f518404add.svg",
+      "bytes": 1253,
+      "sha256": "00646f22162f4b0c46119e8681d1f37249594560583e0430502f6a88514654bf",
+      "labels": [
+        "13",
+        "13"
+      ]
+    },
+    {
+      "path": "option-art/cc0b5f295a9d9be49f2cdab3.svg",
+      "bytes": 847,
+      "sha256": "50452310b02c8e97580e06c862fcf8452d36e9fefc075f05045fda200d361a86",
+      "labels": [
+        "3:15"
+      ]
+    },
+    {
+      "path": "option-art/9ea61aef2384f15a2b3c757f.svg",
+      "bytes": 847,
+      "sha256": "7804aba3ad2cc80a31ca7cd00a2696d229f13d8d4f00786de9dd80739812b7f8",
+      "labels": [
+        "4:00"
+      ]
+    },
+    {
+      "path": "option-art/fa202f21948fa57c73ae4f95.svg",
+      "bytes": 847,
+      "sha256": "70aff80d09cde15b6a028cc18621873632883f00980a720707298af08f13c3d0",
+      "labels": [
+        "6:45"
+      ]
+    },
+    {
+      "path": "option-art/703f30ab13b49bbee813bd86.svg",
+      "bytes": 847,
+      "sha256": "d9b27539bbb30d455e5b3d8096cb5432fc37b27dd4f0953325c387906a0f1c4f",
+      "labels": [
+        "7:00"
+      ]
+    },
+    {
+      "path": "option-art/3383d02c4ff1a90e6f8e41bb.svg",
+      "bytes": 847,
+      "sha256": "b44411dea88de5457d09a873a9b3fd87f6c389d59b5d3a62a1f2aa15cfcd8361",
+      "labels": [
+        "6:15"
+      ]
+    },
+    {
+      "path": "option-art/79c8b2526d4edfd6ba073217.svg",
+      "bytes": 1501,
+      "sha256": "864e7507ba8d0c3ba3b5c6cb39d4efda2b8a4e656684487a61c90ab476f4323e",
+      "labels": [
+        "145"
+      ]
+    },
+    {
+      "path": "option-art/52ba441906c24c22adf47df2.svg",
+      "bytes": 1631,
+      "sha256": "128758875a4883a7e83c968eba26f8fce2e047a057a44f920f47dc8020891d1b",
+      "labels": [
+        "150"
+      ]
+    },
+    {
+      "path": "option-art/850d54e41ff54e779faf8d61.svg",
+      "bytes": 1696,
+      "sha256": "3253125e80bc794de3ebc817734bc70f9eee6cd05512ea3b3e061a8aad3cb051",
+      "labels": [
+        "160"
+      ]
+    },
+    {
+      "path": "option-art/2281bfe89aa96ac51b10a445.svg",
+      "bytes": 1630,
+      "sha256": "1efcaf1cd1edce63a3cf3b4ef22b031d43ea641057b5e6cef756b252d0800c6a",
+      "labels": [
+        "357",
+        "357"
+      ]
+    },
+    {
+      "path": "option-art/717af2bdc91cec3d218c3025.svg",
+      "bytes": 1761,
+      "sha256": "797400b74fc64a1beed3a03372e9b474e7ae2972c1b14529b14272b469230626",
+      "labels": [
+        "456"
+      ]
+    },
+    {
+      "path": "option-art/c457e7f963482e00a9477d84.svg",
+      "bytes": 1584,
+      "sha256": "b8a2f6d2a65e4386c42c33b5ee64984fd02c448ae7ab65e4177cc1b079770b7d",
+      "labels": [
+        "3560"
+      ]
+    },
+    {
+      "path": "option-art/76275cd02d9836da4e9bfe34.svg",
+      "bytes": 1695,
+      "sha256": "7ba5fe00146d44d3b897a50c6bdf04286327a710fe6450f27aebec457a94dfda",
+      "labels": [
+        "367"
+      ]
+    },
+    {
+      "path": "option-art/ac8c32506b784623a3197fea.svg",
+      "bytes": 1500,
+      "sha256": "fe07afab4cbadd5deb58b9a54d3eb34d59c710d7dc0301c2f607a73e0914590c",
+      "labels": [
+        "377"
+      ]
+    },
+    {
+      "path": "option-art/928582ffd9ee8d7b9837ff3b.svg",
+      "bytes": 1696,
+      "sha256": "e2a6143e56dc8868cd47155f5eda689e6f72a74709eebbf1272759d933b4e054",
+      "labels": [
+        "345"
+      ]
+    },
+    {
+      "path": "option-art/9333070610caa5e945a92d84.svg",
+      "bytes": 1761,
+      "sha256": "2f6a4b59f1979529b1aaa11adf47cbe1d4fd130646327e3db55ee35fec9d8705",
+      "labels": [
+        "355"
+      ]
+    },
+    {
+      "path": "option-art/0577b30ec68157af4614cb4b.svg",
+      "bytes": 1826,
+      "sha256": "f639bb6348d7931c343efb914fb7c790f0718b825225be00c40cc5dc058c5ec8",
+      "labels": [
+        "365"
+      ]
+    },
+    {
+      "path": "option-art/e80db82dd1bec3d12d4315e4.svg",
+      "bytes": 865,
+      "sha256": "27f5cb5ea5431e1055ee797f58b2e15218f874b20b3a65edf8cc8d2c2c370e78",
+      "labels": [
+        "75 piasters"
+      ]
+    },
+    {
+      "path": "option-art/2d76a22e7938703bf97b1bba.svg",
+      "bytes": 1631,
+      "sha256": "db1e835f134e7fcf36371d6beff71a48c866ccec50aa04b8b74e9c13e0fd75cc",
+      "labels": [
+        "470"
+      ]
+    },
+    {
+      "path": "option-art/8712bf9463ddf498da6c95eb.svg",
+      "bytes": 1826,
+      "sha256": "6a4ac31fd60b4124ac514f134b13eb860762a48ad27bd1516ba6cfcba1540f18",
+      "labels": [
+        "460"
+      ]
+    },
+    {
+      "path": "option-art/78e54f240dc352ddc8030dc5.svg",
+      "bytes": 1891,
+      "sha256": "e5137b846c14b5f884f12cd38670136e28c14eac2976d53e7db5951725f81be9",
+      "labels": [
+        "480"
+      ]
+    },
+    {
+      "path": "option-art/52777fd524716b9358968015.svg",
+      "bytes": 710,
+      "sha256": "a5bb989503369d52e4cd4d3bc94288768c50abc03d462a3a547e1a5ae66dc7b6",
+      "labels": [
+        "Hexagon"
+      ]
+    },
+    {
+      "path": "option-art/ae9a9394fa2a4b45f2f56e88.svg",
+      "bytes": 708,
+      "sha256": "b96e9c9febba495e43b63ab0bc5675af0fd40b2711c63d542f4102a37a085128",
+      "labels": [
+        "Pentagon"
       ]
     },
     {
@@ -2363,7 +3110,38 @@
       "sha256": "d7dc31b45a1591db455522d6b0b4f4cfb900f03512e4a262c9a7a6ba249ba0b4",
       "labels": [
         "Triangle",
+        "Triangle",
+        "Triangle",
         "Triangle"
+      ]
+    },
+    {
+      "path": "option-art/d6f343b4b91e2bd4e03555c0.svg",
+      "bytes": 704,
+      "sha256": "cb37dfcafebf54236e7af33957b9cc1af26ef0ac8c09c5e09516ad7f1add840e",
+      "labels": [
+        "Square units",
+        "Square",
+        "Square",
+        "Square"
+      ]
+    },
+    {
+      "path": "option-art/b2ce063f903c8b8a32095fab.svg",
+      "bytes": 685,
+      "sha256": "34125fbb4a18afa7d662cab6b6499873b6ac0255d7636e84b0327466c8f7dbbb",
+      "labels": [
+        "Circle",
+        "Circle",
+        "Circle"
+      ]
+    },
+    {
+      "path": "option-art/4237e30db61da3add7a68650.svg",
+      "bytes": 802,
+      "sha256": "414913f52e4fb0dacc47c148d600b49da20576401c60e75a5aada8f0b6e80160",
+      "labels": [
+        "Number line"
       ]
     },
     {
@@ -2654,14 +3432,6 @@
       ]
     },
     {
-      "path": "option-art/48090f7b1d51440af3bc35c6.svg",
-      "bytes": 1081,
-      "sha256": "0b272f21a39dafddeb12bd04065f29d12250e54740235a21875abf752d2a1fd6",
-      "labels": [
-        "hop"
-      ]
-    },
-    {
       "path": "option-art/9f1970ee75dfdde320eacde4.svg",
       "bytes": 849,
       "sha256": "1102ed18f7e405472725b6e2ba64a5d1f0d574d113db3d950bed7c36d5ea5737",
@@ -2781,14 +3551,6 @@
       "sha256": "068d391a8d0acc6ee753f02687725a945af3e34d646869b1027ac128d60e7faa",
       "labels": [
         "hot"
-      ]
-    },
-    {
-      "path": "option-art/b98a464e78aa16f9bfa215ee.svg",
-      "bytes": 839,
-      "sha256": "0f7703bdf3fa8998de06d23363d2d36b50eaf13c0e209567dedf6cb3c7ac903d",
-      "labels": [
-        "farm"
       ]
     },
     {
@@ -3482,14 +4244,6 @@
       ]
     },
     {
-      "path": "option-art/c4b536312a8856ca8c6fb3b1.svg",
-      "bytes": 918,
-      "sha256": "742c0312c2c5d9deaa4a06044432aa73b9ba5faa8633a9a95d3a34242322a5fa",
-      "labels": [
-        "A tree"
-      ]
-    },
-    {
       "path": "option-art/51c1de5f99a9e411d3cf2e51.svg",
       "bytes": 802,
       "sha256": "9361d4a0cf77ca36b9c9e56fc6015921d8f069b0b970faef315c261748f4489d",
@@ -3527,30 +4281,6 @@
       "sha256": "bceea952be69b7e55861dd986a8ce41a91bebabf4522d28a42b5a46be6e62562",
       "labels": [
         "A dry cupboard"
-      ]
-    },
-    {
-      "path": "option-art/3e0241e10aeffe9543e8ba66.svg",
-      "bytes": 916,
-      "sha256": "fda93105a13a7184e3928df81fef3b3a9ddc2907952921e0b5e9dff3bf823e39",
-      "labels": [
-        "Growing towards the light"
-      ]
-    },
-    {
-      "path": "option-art/cc792740405f4f18f7868af8.svg",
-      "bytes": 1037,
-      "sha256": "58c03b9617353dc1141ffb4ffb8333a633fec7178a119ffe04070fc7b447aade",
-      "labels": [
-        "Looking for a toy"
-      ]
-    },
-    {
-      "path": "option-art/27f64048ba98d26075ee323b.svg",
-      "bytes": 834,
-      "sha256": "e4e4f410da8dd876e47db505b5b05c68086f78e3a3c414add8bcda6436c7197c",
-      "labels": [
-        "It may rain"
       ]
     },
     {
@@ -3611,14 +4341,6 @@
       ]
     },
     {
-      "path": "option-art/3129a75966c9240fdca2c6a0.svg",
-      "bytes": 828,
-      "sha256": "1180a7e268d19461a051c18c5a9155ab2ca838140c31d5399953d20356bacbae",
-      "labels": [
-        "The ground becoming a star"
-      ]
-    },
-    {
       "path": "option-art/6521cfb26797634e0d508fcc.svg",
       "bytes": 1173,
       "sha256": "9f2dc0b9002f9b9df46d6a56fb1b367cb53582291cd31a4063a26d25b13a7dc2",
@@ -3632,14 +4354,6 @@
       "sha256": "5a38b27857a1c2c8f71f4ccc5d150b85f4df1190bc08b47af1cefe5f22109b8a",
       "labels": [
         "Raincoat"
-      ]
-    },
-    {
-      "path": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg",
-      "bytes": 786,
-      "sha256": "1d0ecaf9d6637dc67854e85b08b3730ad41d9ad194490140a9e525efadbe8a8b",
-      "labels": [
-        "Wool hat only"
       ]
     },
     {
@@ -3664,14 +4378,6 @@
       "sha256": "3d3a09894a6b977d7f3d3e3b11c9da888f299960875e08516c7c86fe5975e54b",
       "labels": [
         "Turn off the tap while brushing"
-      ]
-    },
-    {
-      "path": "option-art/bc34a1d8b042fe169b447b61.svg",
-      "bytes": 1276,
-      "sha256": "ca0d3f4ad803f188c6d21ab67ea85ed3a366eb1a6b902bd8daf141da68fbab85",
-      "labels": [
-        "Leave the tap running"
       ]
     },
     {
