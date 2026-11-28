@@ -38,7 +38,7 @@ object ContentPackSelectionPolicy {
         return when (canonicalLearnerPath(learnerPathway)) {
             "KG2" -> when (domain.trim()) {
                 "Early Numeracy", "Mathematics" -> "Mathematics"
-                "Language and Communication" -> "English & Literacy"
+                "Language and Communication", "English" -> "English & Literacy"
                 "Science and Discovery" -> "Discovery"
                 else -> domain
             }

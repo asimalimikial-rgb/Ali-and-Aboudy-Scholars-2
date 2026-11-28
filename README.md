@@ -9,6 +9,19 @@ The app uses a shared learning engine while keeping each learner's subjects, act
 
 ## Project status
 
+### Current learning-content and feature snapshot — 28 November 2026
+
+- **Working branch:** `feature/two-attempt-question-flow`; integration is tracked in [PR #11](https://github.com/asimalimikial-rgb/Ali-and-Aboudy-Scholars-2/pull/11). This is a preview candidate; it is not yet the canonical `main` build.
+- **Learning scope:** seven core books plus the original AAS2 My World Discovery companion path; 56 units and 95 lessons across Ali/KG2 and Aboudy/Grade 2.
+- **Scored question bank:** 506 activities (496 English and 10 Arabic): 139 KG2 and 367 Grade 2.
+- **Lesson mapping:** 249 Grade 2 activities mapped across English World, Mathematics 2A/2B, Maths Xpress Book 2 and Science Level 2; three additional KG2 measurement activities are mapped to Maths Xpress Senior KG Unit 5.
+- **Science:** 134 activities across five Grade 2 units and 21 lessons. Science Units 3–5 are integrated but remain subject to independent science and pedagogy review.
+- **Non-scored guided activities:** eight tasks (six in Hop, Skip and Jump; two in My World Discovery). Completion and optional adult observations are stored per learner and do not affect question accuracy or the scored review queue.
+- **Offline English media:** 2,976 OGG clips for 496 English activities at 70% playback speed; 496 question illustrations (452 SVG and 44 PNG). Media manifests and file hashes are checked by the validation workflow.
+- **Learning flow:** two attempts per scored question; after two incorrect answers the correct answer is shown. The Parent Dashboard tracks questions needing review independently for each learner.
+- **Preview website:** [Vercel branch preview](https://aas2-web-git-feature-two-attempt-question-flow-mikial.vercel.app). The production domain remains on the last merged `main` deployment until PR #11 is merged.
+- **Release gates:** content validation is automated; independent teacher review of lesson alignment and science content, plus physical-device acceptance of Android audio/visual behaviour, remain required before a production release. Debug preview builds are for testing only.
+
 Active product-development phase. `main` is the canonical branch and contains the Android app, restored learning website, launcher/PWA icon, and shared content assets. `foundation/slice-0-android` is retained as a working/history branch and is not the primary branch.
 
 **Build policy:** Debug pre-releases for personal device testing are allowed only after Android CI validation. Production signing and production releases remain disabled.

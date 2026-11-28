@@ -1,0 +1,2384 @@
+{
+  "schemaVersion": "AAS2-MATHS-BOOKS-ORIGINAL-DRAFTS-0.1",
+  "title": "Original AAS2 mathematics companion activity drafts",
+  "learnerPath": "GRADE_2",
+  "books": [
+    "macmillan-mathematics-level-2a",
+    "macmillan-mathematics-level-2b",
+    "maths-xpress-book-2"
+  ],
+  "copyrightPolicy": "Original AAS2-authored maths prompts. Verified publisher unit titles are used only for Macmillan Mathematics 2A/2B. Maths Xpress Book 2 uses an explicitly labelled AAS2 companion path; its unit titles are not claimed to be publisher chapter titles. No textbook wording or exercises are reproduced.",
+  "summary": {
+    "books": 3,
+    "units": 29,
+    "activities": 63,
+    "runtimeMapped": 63,
+    "bookCounts": {
+      "macmillan-mathematics-level-2a": 24,
+      "macmillan-mathematics-level-2b": 24,
+      "maths-xpress-book-2": 15
+    },
+    "stagingOnlyBookCount": 0
+  },
+  "releaseGate": "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA",
+  "requiredChecks": [
+    "recalculate every answer key",
+    "check number range and prerequisite sequence",
+    "review word-problem clarity and cultural context",
+    "audio and visual media QA",
+    "offline integrity",
+    "duplicate and near-duplicate detection"
+  ],
+  "records": [
+    {
+      "activityId": "aas2-2a-mm2a-u01-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U01",
+      "unitTitle": "Numbers to 100",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 10 more than 46?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "47"
+        },
+        {
+          "optionId": "b",
+          "text": "56"
+        },
+        {
+          "optionId": "c",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U01-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U01",
+      "unitTitle": "Numbers to 100",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is between 78 and 80?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "79"
+        },
+        {
+          "optionId": "b",
+          "text": "77"
+        },
+        {
+          "optionId": "c",
+          "text": "81"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U01-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U02",
+      "unitTitle": "Numbers to 999",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 583, what is the value of 8?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "80"
+        },
+        {
+          "optionId": "c",
+          "text": "800"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U02-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U02",
+      "unitTitle": "Numbers to 999",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number has 6 hundreds, 2 tens and 4 ones?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "642"
+        },
+        {
+          "optionId": "b",
+          "text": "624"
+        },
+        {
+          "optionId": "c",
+          "text": "264"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U02-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U03",
+      "unitTitle": "Addition to 99",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Add 38 + 24.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "52"
+        },
+        {
+          "optionId": "b",
+          "text": "62"
+        },
+        {
+          "optionId": "c",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U03-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U03",
+      "unitTitle": "Addition to 99",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A shop has 27 red pencils and 35 blue pencils. How many pencils are there?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "52"
+        },
+        {
+          "optionId": "b",
+          "text": "62"
+        },
+        {
+          "optionId": "c",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U03-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U04",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 45 + 23?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "68"
+        },
+        {
+          "optionId": "b",
+          "text": "58"
+        },
+        {
+          "optionId": "c",
+          "text": "78"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U04-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U04",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 76 - 31?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "35"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "55"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U04-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U05",
+      "unitTitle": "Subtraction within 99",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Subtract 63 - 28.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "35"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "41"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U05-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U05",
+      "unitTitle": "Subtraction within 99",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 52 birds. 19 fly away. How many remain?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "33"
+        },
+        {
+          "optionId": "b",
+          "text": "43"
+        },
+        {
+          "optionId": "c",
+          "text": "31"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U05-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U06",
+      "unitTitle": "Multiplication",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 4 bags with 3 oranges in each. How many oranges?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "12"
+        },
+        {
+          "optionId": "c",
+          "text": "14"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U06-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U06",
+      "unitTitle": "Multiplication",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 5 groups of 4?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U06-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U07",
+      "unitTitle": "Number facts",
+      "skillId": "aas2-mm2a-number-facts",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number makes 8 + __ = 15?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6"
+        },
+        {
+          "optionId": "b",
+          "text": "7"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U07-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U07",
+      "unitTitle": "Number facts",
+      "skillId": "aas2-mm2a-number-facts",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which addition makes 20?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9 + 10"
+        },
+        {
+          "optionId": "b",
+          "text": "12 + 8"
+        },
+        {
+          "optionId": "c",
+          "text": "13 + 6"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U07-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U08",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u08",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 6 × 3?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "18"
+        },
+        {
+          "optionId": "b",
+          "text": "16"
+        },
+        {
+          "optionId": "c",
+          "text": "21"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U08-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U08",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u08",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is greater: 94 or 49?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "49"
+        },
+        {
+          "optionId": "b",
+          "text": "94"
+        },
+        {
+          "optionId": "c",
+          "text": "Both are equal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U08-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U09",
+      "unitTitle": "Equations and functions",
+      "skillId": "aas2-mm2a-equations-functions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Find the missing number: __ + 7 = 16.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U09-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U09",
+      "unitTitle": "Equations and functions",
+      "skillId": "aas2-mm2a-equations-functions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A rule adds 3. What comes after 5, 8, 11?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "12"
+        },
+        {
+          "optionId": "b",
+          "text": "13"
+        },
+        {
+          "optionId": "c",
+          "text": "14"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U09-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U10",
+      "unitTitle": "Fractions",
+      "skillId": "aas2-math-mm2a-fractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pizza is cut into 2 equal parts. One part is…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "one half"
+        },
+        {
+          "optionId": "b",
+          "text": "one third"
+        },
+        {
+          "optionId": "c",
+          "text": "one quarter"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U10-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U10",
+      "unitTitle": "Fractions",
+      "skillId": "aas2-math-mm2a-fractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which fraction shows 1 part out of 4 equal parts?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1/2"
+        },
+        {
+          "optionId": "b",
+          "text": "1/4"
+        },
+        {
+          "optionId": "c",
+          "text": "4/1"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U10-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U11",
+      "unitTitle": "Time",
+      "skillId": "aas2-math-mm2a-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is 30 minutes after 3:00?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3:15"
+        },
+        {
+          "optionId": "b",
+          "text": "3:30"
+        },
+        {
+          "optionId": "c",
+          "text": "4:00"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U11-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U11",
+      "unitTitle": "Time",
+      "skillId": "aas2-math-mm2a-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many minutes are in one hour?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "30"
+        },
+        {
+          "optionId": "b",
+          "text": "60"
+        },
+        {
+          "optionId": "c",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U11-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-01",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U12",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u12",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is one quarter of 12?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2"
+        },
+        {
+          "optionId": "b",
+          "text": "3"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U12-L01"
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-02",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U12",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2a-review-u12",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is 15 minutes after 6:30?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6:45"
+        },
+        {
+          "optionId": "b",
+          "text": "7:00"
+        },
+        {
+          "optionId": "c",
+          "text": "6:15"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U12-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U13",
+      "unitTitle": "Numbers and number patterns",
+      "skillId": "aas2-mm2b-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Continue: 120, 130, 140, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "145"
+        },
+        {
+          "optionId": "b",
+          "text": "150"
+        },
+        {
+          "optionId": "c",
+          "text": "160"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U13-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U13",
+      "unitTitle": "Numbers and number patterns",
+      "skillId": "aas2-mm2b-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is 100 more than 356?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "357"
+        },
+        {
+          "optionId": "b",
+          "text": "456"
+        },
+        {
+          "optionId": "c",
+          "text": "3560"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U13-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U14",
+      "unitTitle": "Addition and subtraction to 999",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 245 + 132.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "367"
+        },
+        {
+          "optionId": "b",
+          "text": "377"
+        },
+        {
+          "optionId": "c",
+          "text": "357"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U14-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U14",
+      "unitTitle": "Addition and subtraction to 999",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 600 - 245.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "345"
+        },
+        {
+          "optionId": "b",
+          "text": "355"
+        },
+        {
+          "optionId": "c",
+          "text": "365"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U14-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U15",
+      "unitTitle": "Money",
+      "skillId": "aas2-mm2b-money",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A toy costs 35 pounds. You pay 50 pounds. What is the change?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "15 pounds"
+        },
+        {
+          "optionId": "b",
+          "text": "20 pounds"
+        },
+        {
+          "optionId": "c",
+          "text": "25 pounds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U15-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U15",
+      "unitTitle": "Money",
+      "skillId": "aas2-mm2b-money",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many 5-pound coins make 20 pounds?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U15-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U16",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u16",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which amount is greater: 1 Sudanese pound or 75 piasters?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "75 piasters"
+        },
+        {
+          "optionId": "b",
+          "text": "1 pound"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U16-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U16",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u16",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 320 + 150?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "470"
+        },
+        {
+          "optionId": "b",
+          "text": "460"
+        },
+        {
+          "optionId": "c",
+          "text": "480"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U16-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U17",
+      "unitTitle": "Flat and solid shapes",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which solid shape has 6 square faces?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Cube"
+        },
+        {
+          "optionId": "b",
+          "text": "Sphere"
+        },
+        {
+          "optionId": "c",
+          "text": "Cone"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U17-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U17",
+      "unitTitle": "Flat and solid shapes",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which flat shape has 5 sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hexagon"
+        },
+        {
+          "optionId": "b",
+          "text": "Pentagon"
+        },
+        {
+          "optionId": "c",
+          "text": "Triangle"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U17-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U18",
+      "unitTitle": "Lines and shapes",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which line never bends?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Straight line"
+        },
+        {
+          "optionId": "b",
+          "text": "Curved line"
+        },
+        {
+          "optionId": "c",
+          "text": "Zigzag line"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U18-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U18",
+      "unitTitle": "Lines and shapes",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many corners does a rectangle have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U18-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U19",
+      "unitTitle": "Area of shapes",
+      "skillId": "aas2-mm2b-area",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A shape covers 6 equal square tiles. What is its area in square tiles?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U19-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U19",
+      "unitTitle": "Area of shapes",
+      "skillId": "aas2-mm2b-area",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which unit is suitable for measuring the area of a small shape on grid paper?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Square units"
+        },
+        {
+          "optionId": "b",
+          "text": "Litres"
+        },
+        {
+          "optionId": "c",
+          "text": "Kilograms"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U19-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U20",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u20",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many faces does a cube have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U20-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U20",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u20",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which shape has no straight sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Circle"
+        },
+        {
+          "optionId": "b",
+          "text": "Square"
+        },
+        {
+          "optionId": "c",
+          "text": "Triangle"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U20-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U21",
+      "unitTitle": "Measuring length",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool measures the length of a pencil?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ruler"
+        },
+        {
+          "optionId": "b",
+          "text": "Clock"
+        },
+        {
+          "optionId": "c",
+          "text": "Scales"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U21-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U21",
+      "unitTitle": "Measuring length",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A ribbon is 35 cm long. Another is 20 cm long. How much longer is the first?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "15 cm"
+        },
+        {
+          "optionId": "b",
+          "text": "55 cm"
+        },
+        {
+          "optionId": "c",
+          "text": "10 cm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U21-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U22",
+      "unitTitle": "Measures problems",
+      "skillId": "aas2-mm2b-measures-problems",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A jug holds 1 litre. How many millilitres is that?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "100 mL"
+        },
+        {
+          "optionId": "b",
+          "text": "500 mL"
+        },
+        {
+          "optionId": "c",
+          "text": "1000 mL"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U22-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U22",
+      "unitTitle": "Measures problems",
+      "skillId": "aas2-mm2b-measures-problems",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is heavier: 2 kg or 900 g?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2 kg"
+        },
+        {
+          "optionId": "b",
+          "text": "900 g"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U22-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U23",
+      "unitTitle": "Handling data",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A chart shows 8 pupils like apples and 5 like bananas. How many more like apples?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "13"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U23-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U23",
+      "unitTitle": "Handling data",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which chart uses pictures to show data?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pictograph"
+        },
+        {
+          "optionId": "b",
+          "text": "Clock face"
+        },
+        {
+          "optionId": "c",
+          "text": "Number line"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U23-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-01",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U24",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u24",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pencil is 12 cm and a crayon is 8 cm. What is their total length if placed end to end?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20 cm"
+        },
+        {
+          "optionId": "b",
+          "text": "4 cm"
+        },
+        {
+          "optionId": "c",
+          "text": "18 cm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U24-L01"
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-02",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U24",
+      "unitTitle": "Assess and review",
+      "skillId": "aas2-mm2b-review-u24",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pictograph shows 6 votes for cats and 9 for dogs. How many votes altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "15"
+        },
+        {
+          "optionId": "c",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U24-L01"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-01",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "unitTitle": "Numbers and Patterns",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What number comes next: 34, 36, 38, __?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "39"
+        },
+        {
+          "optionId": "b",
+          "text": "40"
+        },
+        {
+          "optionId": "c",
+          "text": "42"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-02",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "unitTitle": "Numbers and Patterns",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the value of 5 in 254?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "50"
+        },
+        {
+          "optionId": "c",
+          "text": "500"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-03",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "unitTitle": "Numbers and Patterns",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is odd?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "28"
+        },
+        {
+          "optionId": "b",
+          "text": "36"
+        },
+        {
+          "optionId": "c",
+          "text": "41"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-01",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "unitTitle": "Addition and Subtraction",
+      "skillId": "aas2-mx2-add-sub",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 47 + 26.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "63"
+        },
+        {
+          "optionId": "b",
+          "text": "73"
+        },
+        {
+          "optionId": "c",
+          "text": "83"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-02",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "unitTitle": "Addition and Subtraction",
+      "skillId": "aas2-mx2-add-sub",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 81 - 37.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "44"
+        },
+        {
+          "optionId": "b",
+          "text": "54"
+        },
+        {
+          "optionId": "c",
+          "text": "34"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-03",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "unitTitle": "Addition and Subtraction",
+      "skillId": "aas2-mx2-add-sub",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A class has 28 girls and 24 boys. How many pupils?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "42"
+        },
+        {
+          "optionId": "b",
+          "text": "52"
+        },
+        {
+          "optionId": "c",
+          "text": "62"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-01",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "unitTitle": "Multiplication and Equal Groups",
+      "skillId": "aas2-mx2-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 6 plates with 4 biscuits each. How many biscuits?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20"
+        },
+        {
+          "optionId": "b",
+          "text": "24"
+        },
+        {
+          "optionId": "c",
+          "text": "28"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-02",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "unitTitle": "Multiplication and Equal Groups",
+      "skillId": "aas2-mx2-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 3 × 9?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "18"
+        },
+        {
+          "optionId": "b",
+          "text": "27"
+        },
+        {
+          "optionId": "c",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-03",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "unitTitle": "Multiplication and Equal Groups",
+      "skillId": "aas2-mx2-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which repeated addition equals 4 × 5?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4 + 5"
+        },
+        {
+          "optionId": "b",
+          "text": "5 + 5 + 5 + 5"
+        },
+        {
+          "optionId": "c",
+          "text": "4 + 4 + 4"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-01",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "unitTitle": "Fractions and Measurement",
+      "skillId": "aas2-mx2-fractions-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A whole is split into 4 equal parts. What is one part?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1/2"
+        },
+        {
+          "optionId": "b",
+          "text": "1/3"
+        },
+        {
+          "optionId": "c",
+          "text": "1/4"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-02",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "unitTitle": "Fractions and Measurement",
+      "skillId": "aas2-mx2-fractions-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many centimetres are in 2 metres?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20"
+        },
+        {
+          "optionId": "b",
+          "text": "200"
+        },
+        {
+          "optionId": "c",
+          "text": "2000"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-03",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "unitTitle": "Fractions and Measurement",
+      "skillId": "aas2-mx2-fractions-measure",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is longer?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "75 cm"
+        },
+        {
+          "optionId": "b",
+          "text": "1 m"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-01",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "unitTitle": "Geometry and Data",
+      "skillId": "aas2-mx2-geometry-data",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which solid shape can roll easily?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Sphere"
+        },
+        {
+          "optionId": "b",
+          "text": "Cube"
+        },
+        {
+          "optionId": "c",
+          "text": "Cuboid"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-02",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "unitTitle": "Geometry and Data",
+      "skillId": "aas2-mx2-geometry-data",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A chart shows 4 red cars and 7 blue cars. How many cars?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "10"
+        },
+        {
+          "optionId": "b",
+          "text": "11"
+        },
+        {
+          "optionId": "c",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 2,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-03",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "unitTitle": "Geometry and Data",
+      "skillId": "aas2-mx2-geometry-data",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many sides does a hexagon have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Great work! Keep thinking.",
+      "feedbackIncorrect": "Good effort. Try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "AAS2-ORIGINAL-AUTHORED",
+        "IM-K12-MATH-2019-2021"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+    }
+  ],
+  "packVersion": "0.4.8",
+  "companionPathOnlyBookIds": [
+    "maths-xpress-book-2"
+  ]
+}

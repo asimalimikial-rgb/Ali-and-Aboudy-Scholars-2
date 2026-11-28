@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "status": "INTEGRATED_PENDING_PEDAGOGY_QA",
+  "bookId": "maths-xpress-senior-kg",
+  "unitId": "MXSKG-U05",
+  "lessonId": "MXSKG-U05-L01",
+  "scopeNote": "AAS2-authored measurement and comparison practice mapped to the existing Senior KG Unit 5 lesson. This mapping is an AAS2 learning path and is not a claim about the publisher's exact table of contents.",
+  "summary": {
+    "records": 6,
+    "runtimeIntegrated": 6,
+    "originalNewActivities": 3,
+    "previousActivitiesMapped": 3
+  },
+  "reviewGates": [
+    "Answer-key and age-suitability review",
+    "Difficulty progression and transfer review",
+    "On-device visual/audio playback QA"
+  ],
+  "records": [
+    {
+      "activityId": "aas2-kg2-measure-compare-01",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "Which object is longer? A 12 cm pencil or an 8 cm crayon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same length"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-02",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "Which is taller: a 20 cm block tower or a 10 cm block tower?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A 20 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "A 10 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same height"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-03",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "Which is heavier: a full water bottle or an empty bottle?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A full water bottle",
+          "imageAssetPath": "option-art/e8892520910e40d8b5c4c755.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "An empty bottle"
+        },
+        {
+          "optionId": "c",
+          "text": "They weigh the same"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "A ribbon is 5 blocks long. A string is 3 blocks long. How many blocks longer is the ribbon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1 block"
+        },
+        {
+          "optionId": "b",
+          "text": "2 blocks"
+        },
+        {
+          "optionId": "c",
+          "text": "3 blocks"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! That's 2 blocks more.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 1,
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_MXSKG_LENGTH_DIFFERENCE",
+      "optionRationales": {
+        "a": "One block is not the difference between five and three.",
+        "b": "Five is two more than three.",
+        "c": "Three is the length of the shorter object, not the difference."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "Jug A holds 4 cups. Jug B holds 6 cups. Which jug holds more?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Jug A"
+        },
+        {
+          "optionId": "b",
+          "text": "Jug B"
+        },
+        {
+          "optionId": "c",
+          "text": "They hold the same amount"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! Jug B holds more.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 2,
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_MXSKG_CAPACITY_COMPARE",
+      "optionRationales": {
+        "a": "Four cups is fewer than six cups.",
+        "b": "Six cups is more than four cups.",
+        "c": "The two amounts are not equal."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "skillId": "aas2-ali-measure-compare",
+      "prompt": "A pencil is 8 cubes long. A crayon is 5 cubes long. A ruler is 10 cubes long. Which is the shortest?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "The ruler"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! The crayon is shortest.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 2,
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "MIS_MXSKG_ORDER_LENGTHS",
+      "optionRationales": {
+        "a": "Eight cubes is longer than five cubes.",
+        "b": "Five cubes is the shortest measurement.",
+        "c": "Ten cubes is the longest measurement."
+      },
+      "mediaStatus": "GENERATED_AND_HASH_VERIFIED"
+    }
+  ]
+}

@@ -2,13 +2,16 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 378,
+  "count": 550,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
       "bytes": 977,
       "sha256": "013f2e3a18eb6201806e41fa18717532aa36527641724c15a8985a79250aa56d",
       "labels": [
+        "7",
+        "7",
+        "7",
         "7",
         "7",
         "7",
@@ -45,6 +48,7 @@
       "bytes": 1521,
       "sha256": "956aed5f61076c776945a2c44e6adaf6ab2ed626fed334c88805c7d536c223dc",
       "labels": [
+        "39",
         "39"
       ]
     },
@@ -63,6 +67,7 @@
       "labels": [
         "40",
         "40",
+        "40",
         "40"
       ]
     },
@@ -71,6 +76,8 @@
       "bytes": 845,
       "sha256": "87b6410245e1af9aab07c40edba5fb5a3318fbdeb4c53a70ecdeaf80d73eefa9",
       "labels": [
+        "The pencil",
+        "The pencil",
         "The pencil"
       ]
     },
@@ -81,7 +88,9 @@
       "labels": [
         "The ruler",
         "Centimetres",
-        "Ruler"
+        "Ruler",
+        "Ruler",
+        "The ruler"
       ]
     },
     {
@@ -149,6 +158,10 @@
         "6",
         "6",
         "6",
+        "6",
+        "6",
+        "6",
+        "6",
         "6"
       ]
     },
@@ -157,6 +170,7 @@
       "bytes": 1588,
       "sha256": "cc26b7055343d6897de73ff266a1b9ce911589c452b8df4668dd3d2a2fa94eff",
       "labels": [
+        "60",
         "60",
         "60",
         "60"
@@ -176,6 +190,7 @@
       "bytes": 1588,
       "sha256": "e7a502c4e414e9947b7a2f53ac0b5f562a781337772f647a759bb4d08d7529ad",
       "labels": [
+        "58",
         "58"
       ]
     },
@@ -274,7 +289,9 @@
       "bytes": 742,
       "sha256": "f6e713a102f45f2c96afe6f0a7ee700a25b298a276c529cbcece99bc270855ca",
       "labels": [
-        "Someone paints it green"
+        "Someone paints it green",
+        "Green",
+        "Green"
       ]
     },
     {
@@ -285,7 +302,10 @@
         "It grows new leaves",
         "Leaves",
         "Lettuce leaves",
-        "A leaf falling"
+        "A leaf falling",
+        "Leaves moving gently",
+        "A dry leaf",
+        "A dry leaf"
       ]
     },
     {
@@ -321,7 +341,8 @@
       "bytes": 920,
       "sha256": "0df19351f80495b328f2fa7e6861483731504c2212ec9d29788368e068f8da6c",
       "labels": [
-        "Measure their heights in the same way"
+        "Measure their heights in the same way",
+        "A ruler"
       ]
     },
     {
@@ -334,7 +355,8 @@
         "It is the fruit of the plant",
         "It is a modified underground stem (tuber)",
         "It still has a plant source",
-        "Both are plants"
+        "Both are plants",
+        "It grows into a plant"
       ]
     },
     {
@@ -351,6 +373,7 @@
       "sha256": "9fca2df1cbee53bfc4b61f61ff8fb2c21165ad128ecccc482395c8a87bf8ce8f",
       "labels": [
         "Music played every day",
+        "Play with the water",
         "Hot stoves are safe to play beside"
       ]
     },
@@ -364,7 +387,15 @@
         "Freezing changes water into steam",
         "Dirty water is always safe to drink",
         "They help it push against water when swimming",
-        "Water"
+        "Place it gently in water and observe",
+        "It is made of water",
+        "The amount of water",
+        "It dissolves and spreads through the water",
+        "Yes, it is spread through the water",
+        "It melts into liquid water",
+        "A river full of water",
+        "Water",
+        "It will make more water"
       ]
     },
     {
@@ -419,7 +450,8 @@
         "Flowers",
         "A flower opening",
         "A flower",
-        "It turns the flower into an animal"
+        "It turns the flower into an animal",
+        "Through their flowers"
       ]
     },
     {
@@ -433,7 +465,8 @@
         "The root",
         "It is the root of the plant",
         "Roots",
-        "It gives the plant its roots"
+        "It gives the plant its roots",
+        "Through their roots"
       ]
     },
     {
@@ -482,8 +515,14 @@
       "sha256": "9cfe2df993bc80815204913177fd9988d9997f70f1dcc1c52650cd030c17cb67",
       "labels": [
         "A rock",
+        "A stone",
+        "A stone",
+        "It turns into a stone",
+        "Adding a stone",
+        "It becomes a stone",
         "A rock is non-living",
-        "A chick hatches from a stone"
+        "A chick hatches from a stone",
+        "It will turn into a stone"
       ]
     },
     {
@@ -501,6 +540,10 @@
       "labels": [
         "Metal and glass",
         "Glass cup and iron nail",
+        "Use a magnifying glass to look at the Sun",
+        "Clear glass",
+        "A polished glass marble",
+        "A glass cup",
         "A wooden chair is made from glass",
         "Clear glass makes its own light",
         "Clear glass blocks all light",
@@ -588,6 +631,9 @@
       "sha256": "9dffd70a60d71f7ee8b8174968c2446d6d8cd22eeb89f20e3c9c69c6c21b1ccf",
       "labels": [
         "Bright light, soil and fertiliser only",
+        "A star",
+        "A pattern of stars seen in the sky",
+        "Change the names of the stars",
         "Stars make daytime bright"
       ]
     },
@@ -596,7 +642,11 @@
       "bytes": 801,
       "sha256": "d81812367a9a0f799d14ea47f2f852a30d65b5a31a411fe5a98b910d65183515",
       "labels": [
-        "Loud sounds"
+        "Loud sounds",
+        "Turn the sound up more",
+        "Every high-pitched sound is loud",
+        "Loud",
+        "How loud it is"
       ]
     },
     {
@@ -614,6 +664,10 @@
       "labels": [
         "Light",
         "The Sun is a natural source of light",
+        "Never look directly at the Sun",
+        "The Sun",
+        "It reflects light from the Sun",
+        "Look at the Sun through a telescope",
         "Animals only need sunlight"
       ]
     },
@@ -950,6 +1004,11 @@
         "3",
         "3",
         "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
         "3"
       ]
     },
@@ -958,6 +1017,7 @@
       "bytes": 1521,
       "sha256": "1c9a2494b1637a187fb58fe8e749ec4821d544fc9b1057339f0cfd2fe993903e",
       "labels": [
+        "30",
         "30",
         "30",
         "30"
@@ -986,6 +1046,11 @@
         "5",
         "5",
         "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
         "5"
       ]
     },
@@ -994,6 +1059,7 @@
       "bytes": 1891,
       "sha256": "4864be27d3733963fb0263037adb3faa9f4bd36c24519943876cc68d7076fc94",
       "labels": [
+        "500",
         "500"
       ]
     },
@@ -1002,6 +1068,7 @@
       "bytes": 1521,
       "sha256": "180dc07f7d66d8070d2c0cfbd5dbf198586d0bc8bf1d8db68e3ac1b02af8a670",
       "labels": [
+        "50",
         "50"
       ]
     },
@@ -1010,6 +1077,10 @@
       "bytes": 1042,
       "sha256": "641f1ba1ac534ddb31ab8908f6bfafeb691fb069cf19883cb590f12ddd90152c",
       "labels": [
+        "4",
+        "4",
+        "4",
+        "4",
         "4",
         "4",
         "4",
@@ -1053,6 +1124,8 @@
         "9",
         "9",
         "9",
+        "9",
+        "9",
         "9"
       ]
     },
@@ -1077,6 +1150,8 @@
         "2",
         "2",
         "2",
+        "2",
+        "2",
         "2"
       ]
     },
@@ -1085,6 +1160,7 @@
       "bytes": 1891,
       "sha256": "8b12b511bf90a5d10b58cd3d5352f49eae4d03f02476b16630d21a68442e469d",
       "labels": [
+        "200",
         "200"
       ]
     },
@@ -1093,6 +1169,9 @@
       "bytes": 1521,
       "sha256": "caa12a9439e0f7556d08f49d2d359057f7a81f822f0fb6cb3c3eff55369a797d",
       "labels": [
+        "20",
+        "20",
+        "20",
         "20",
         "20"
       ]
@@ -1109,6 +1188,11 @@
         "8",
         "8",
         "8",
+        "8",
+        "8",
+        "8",
+        "8",
+        "8",
         "8"
       ]
     },
@@ -1117,6 +1201,7 @@
       "bytes": 2021,
       "sha256": "295c4cef78c5b80e40cde5e6ca33c1e40c738462c94f0ca3b3baf86fdf7b5bb3",
       "labels": [
+        "800",
         "800"
       ]
     },
@@ -1126,6 +1211,7 @@
       "sha256": "f70d2dba8fecf5f76aab93cb3412996690aa0f5bc056fc4bb137ed850d0d9bf7",
       "labels": [
         "80",
+        "80",
         "80"
       ]
     },
@@ -1134,6 +1220,7 @@
       "bytes": 1696,
       "sha256": "b3bf8c357932f7eef8dbb028d47b930b3eaafdbd027a9fd6e47f6739f151a7fc",
       "labels": [
+        "100",
         "100",
         "100",
         "100"
@@ -1163,6 +1250,8 @@
         "10",
         "10",
         "10",
+        "10",
+        "10",
         "10"
       ]
     },
@@ -1171,6 +1260,7 @@
       "bytes": 1521,
       "sha256": "2105f2fbcbbdde6bf48b67318c1ca172f0fd26829677eedccadbf83165d5fd59",
       "labels": [
+        "63",
         "63"
       ]
     },
@@ -1189,6 +1279,7 @@
       "labels": [
         "73",
         "73",
+        "73",
         "73"
       ]
     },
@@ -1197,6 +1288,8 @@
       "bytes": 1386,
       "sha256": "6c6ad21f773ba485b9ecabfc41425ee1e56b2b8b744862e8818327244a09baa5",
       "labels": [
+        "45",
+        "45",
         "45",
         "45",
         "45",
@@ -1217,6 +1310,7 @@
       "sha256": "ede8db4f0e983d0a40db12cdddbc6d3e986000b6845c5375114a30876be12818",
       "labels": [
         "55",
+        "55",
         "55"
       ]
     },
@@ -1225,6 +1319,7 @@
       "bytes": 1588,
       "sha256": "20a5eb6f0c2ee3d8abc704408657ec9503231cbd47f57232ecfebe0d0e6398ff",
       "labels": [
+        "83",
         "83",
         "83"
       ]
@@ -1243,6 +1338,8 @@
       "bytes": 1520,
       "sha256": "b134d6fd6203cbc7f0ad181490f9eebca22ce0802161ab6f486342ec2d802714",
       "labels": [
+        "36",
+        "36",
         "36"
       ]
     },
@@ -1251,6 +1348,7 @@
       "bytes": 1520,
       "sha256": "87556da6ef9bdc871ff55b2d1229ad190ab9fd612d39bf2d0a266a69da3273bf",
       "labels": [
+        "56",
         "56"
       ]
     },
@@ -1268,6 +1366,7 @@
       "sha256": "fffe0170dddc19df6a70f1e3610bbf7c07551a5c90ae964717d93f3bcd3e4f04",
       "labels": [
         "25",
+        "25",
         "25"
       ]
     },
@@ -1276,6 +1375,8 @@
       "bytes": 1453,
       "sha256": "1c83ffef862c7dc3dfe9a40657909a0beeea1326869b9dd39fcc3f78d1d78c74",
       "labels": [
+        "35",
+        "35",
         "35",
         "35",
         "35",
@@ -1335,6 +1436,7 @@
       "bytes": 1186,
       "sha256": "50dd3d2a9d3b4c69ee6d6b4a642afa35bee4b931407c36865f3118074a7a1bc2",
       "labels": [
+        "77",
         "77"
       ]
     },
@@ -1359,6 +1461,9 @@
       "bytes": 1252,
       "sha256": "44a476480a96db1adde28b07413073a3dcbb7594c3e5e8daaf5aae275f66eb8f",
       "labels": [
+        "12",
+        "12",
+        "12",
         "12"
       ]
     },
@@ -1367,6 +1472,8 @@
       "bytes": 1186,
       "sha256": "c577dd5ad59de63893a531ac440d95414e393670bacb61fdd9cf377e93876b2e",
       "labels": [
+        "14",
+        "14",
         "14"
       ]
     },
@@ -1375,6 +1482,8 @@
       "bytes": 1319,
       "sha256": "4da0000c1d2ea3654956f5bdc40a800eec689f8bf62539ca67ef44574821ac1f",
       "labels": [
+        "16",
+        "16",
         "16"
       ]
     },
@@ -1384,6 +1493,7 @@
       "sha256": "192625494f0ac71601f5e0f8fd3461ea2dedbc3b25334d734d89f39a4b6e1094",
       "labels": [
         "21",
+        "21",
         "21"
       ]
     },
@@ -1392,6 +1502,7 @@
       "bytes": 1320,
       "sha256": "80bcda8b8d02d3ecf381e476a147870c9bae8773ca80a44351c4fb6821fb0a1c",
       "labels": [
+        "27",
         "27"
       ]
     },
@@ -1403,6 +1514,7 @@
         "24",
         "24",
         "24",
+        "24",
         "24"
       ]
     },
@@ -1411,6 +1523,8 @@
       "bytes": 1588,
       "sha256": "3f5366d3ba8a87ac6fa128d2c335631ac932ae5499e629cf37decaaf1783132e",
       "labels": [
+        "28",
+        "28",
         "28"
       ]
     },
@@ -1435,6 +1549,8 @@
       "bytes": 1387,
       "sha256": "c64fea31d5369e358ff8d73a9ca8d17635d55d5c617f76b4928c615c551d6b65",
       "labels": [
+        "18",
+        "18",
         "18"
       ]
     },
@@ -1467,6 +1583,7 @@
       "bytes": 1252,
       "sha256": "ceb0d6716f5507d0d1e86603d4a4bef24c2bad1d65ded36d912c2031d0e25376",
       "labels": [
+        "15",
         "15"
       ]
     },
@@ -1480,7 +1597,11 @@
         "20 pounds",
         "200 pounds",
         "2 pounds",
-        "20 pounds"
+        "20 pounds",
+        "15 pounds",
+        "20 pounds",
+        "25 pounds",
+        "1 pound"
       ]
     },
     {
@@ -1489,7 +1610,9 @@
       "sha256": "4ab43c63fa35793bfb464f83863a82f1e80ebd073107b8d3ea7352d577b30bf0",
       "labels": [
         "Kilograms",
-        "1 kilogram"
+        "1 kilogram",
+        "Kilograms",
+        "2 kg"
       ]
     },
     {
@@ -1497,7 +1620,8 @@
       "bytes": 1024,
       "sha256": "a09c1e2fae5979cc360f3adc34660012295887ccd008cc388062aa65b5e7b16e",
       "labels": [
-        "500 grams"
+        "500 grams",
+        "900 g"
       ]
     },
     {
@@ -1505,7 +1629,8 @@
       "bytes": 1938,
       "sha256": "82cd5b87d43f2f632dcab9860e940f861dd9a445b2f3cec529f322dfa8520258",
       "labels": [
-        "1000"
+        "1000",
+        "2000"
       ]
     },
     {
@@ -1513,7 +1638,9 @@
       "bytes": 849,
       "sha256": "b69bcf8613a7758f4f3b9f833b2b7835aba387bad08184b2325f535b24128875",
       "labels": [
-        "Clock"
+        "Clock",
+        "Clock",
+        "Clock face"
       ]
     },
     {
@@ -1521,6 +1648,7 @@
       "bytes": 847,
       "sha256": "204940a63f8ca8c9200c4db1d84b1d5ab1a270800ae365c7d5eb690000fe50ef",
       "labels": [
+        "3:30",
         "3:30"
       ]
     },
@@ -1714,7 +1842,8 @@
       "bytes": 854,
       "sha256": "0ec617a809e4152c45d4d0c1e6dd8578475ffe8a7efd2d28ab3285e12633e106",
       "labels": [
-        "Solids always flow like liquids"
+        "Solids always flow like liquids",
+        "They become a solid"
       ]
     },
     {
@@ -2024,7 +2153,13 @@
       "bytes": 851,
       "sha256": "63a3fcec60c3207ab50db9f45729140139ca1af207e7f6167e34a7e521c4efc1",
       "labels": [
-        "It has a painted eye"
+        "It has a painted eye",
+        "Eyes",
+        "Eyes",
+        "To spread tears and help protect the eyes",
+        "Rub the eye hard",
+        "Put a sharp object near the eye",
+        "Eyes"
       ]
     },
     {
@@ -2049,7 +2184,8 @@
       "bytes": 918,
       "sha256": "39626deb7a4cd600deddefd1becf4816af226c96e7e4165301b127364877ffd5",
       "labels": [
-        "A tree branch"
+        "A tree branch",
+        "Climb a tree to get closer"
       ]
     },
     {
@@ -2065,7 +2201,8 @@
       "bytes": 859,
       "sha256": "dcf5da9c41afe58bcc451305da2bb87e28a09c53fa1817076da13f08137f1a93",
       "labels": [
-        "Some young animals change in shape as they grow"
+        "Some young animals change in shape as they grow",
+        "A shape that never changes"
       ]
     },
     {
@@ -2110,7 +2247,8 @@
       "sha256": "d51d52512694174f85df0ddf5d65964bd06c7ace96849693436b8edfbbd866e1",
       "labels": [
         "A butterfly",
-        "A butterfly"
+        "A butterfly",
+        "Butterfly"
       ]
     },
     {
@@ -2307,7 +2445,10 @@
       "bytes": 918,
       "sha256": "1d4bed71afa84c540ff1cc883219d52e5645661ea67b30f07cc7d8a537a6e48a",
       "labels": [
-        "Colour never affects how visible an animal is"
+        "Colour never affects how visible an animal is",
+        "It becomes a different colour",
+        "Guess from its colour",
+        "Its colour"
       ]
     },
     {
@@ -2331,25 +2472,714 @@
       "bytes": 849,
       "sha256": "a438395ec6adafa5086fd5c99163414abe85341ad1f4e53518276301cffe8119",
       "labels": [
-        "Fat that can be used for energy"
+        "Fat that can be used for energy",
+        "How much it can hold",
+        "No, they can be very far apart"
       ]
     },
     {
-      "path": "option-art/b2ce063f903c8b8a32095fab.svg",
-      "bytes": 685,
-      "sha256": "34125fbb4a18afa7d662cab6b6499873b6ac0255d7636e84b0327466c8f7dbbb",
+      "path": "option-art/6b731f33ee51dfcb6498f5b1.svg",
+      "bytes": 1381,
+      "sha256": "6ae1a4a61454ec5c2b9c4a136784dd8117a8d8c79770bca2393a5a882f65479a",
       "labels": [
-        "Circle",
-        "Circle"
+        "is playing",
+        "are playing",
+        "We played and walked.",
+        "We play and walk yesterday.",
+        "We playing yesterday."
       ]
     },
     {
-      "path": "option-art/d6f343b4b91e2bd4e03555c0.svg",
-      "bytes": 704,
-      "sha256": "cb37dfcafebf54236e7af33957b9cc1af26ef0ac8c09c5e09516ad7f1add840e",
+      "path": "option-art/3fa04242b95a3269e6c6e2b4.svg",
+      "bytes": 859,
+      "sha256": "452a34e7d3c28f107caa2b0fbb8c770c76f01e06040dd65e305b6cdcee18f427",
       "labels": [
-        "Square",
-        "Square"
+        "am playing"
+      ]
+    },
+    {
+      "path": "option-art/7fb1175ebf1c85a5e5f4af76.svg",
+      "bytes": 780,
+      "sha256": "c74bc0850ad449397f304c323df9bd4cb006b53794e9d85129ba2bf0991c07fc",
+      "labels": [
+        "Put the sandwich on a plate."
+      ]
+    },
+    {
+      "path": "option-art/129ed878942f43085cf9cac5.svg",
+      "bytes": 846,
+      "sha256": "ff66e105ddc1fa03a97c2e6626ce87c74c5eff1efe48ac91e9f65a291ab4ef71",
+      "labels": [
+        "Spread the filling on the bread."
+      ]
+    },
+    {
+      "path": "option-art/b04c74f27df5604dcb91ad3f.svg",
+      "bytes": 739,
+      "sha256": "e8d687bb2cbafaf8d40a2adc8ae122c4e82651d449ef3b8d81b6bded090b0d08",
+      "labels": [
+        "Blue"
+      ]
+    },
+    {
+      "path": "option-art/b98a464e78aa16f9bfa215ee.svg",
+      "bytes": 839,
+      "sha256": "0f7703bdf3fa8998de06d23363d2d36b50eaf13c0e209567dedf6cb3c7ac903d",
+      "labels": [
+        "Farmer",
+        "farm"
+      ]
+    },
+    {
+      "path": "option-art/391261d85e662a7101987461.svg",
+      "bytes": 912,
+      "sha256": "ad41b3e880ff328742128c12f98ae6f5195cf1550e5adb6614227c324d69f747",
+      "labels": [
+        "Teacher"
+      ]
+    },
+    {
+      "path": "option-art/5cec0c6870220881e8acdaf5.svg",
+      "bytes": 1381,
+      "sha256": "07ddb74db2aef44d6fc8023b373a84ade4129f2d58f5219dd2ca15befe9dd696",
+      "labels": [
+        "Playground",
+        "playground"
+      ]
+    },
+    {
+      "path": "option-art/cc792740405f4f18f7868af8.svg",
+      "bytes": 1037,
+      "sha256": "58c03b9617353dc1141ffb4ffb8333a633fec7178a119ffe04070fc7b447aade",
+      "labels": [
+        "Breaking toys",
+        "Looking for a toy"
+      ]
+    },
+    {
+      "path": "option-art/048077d906ba401f145da753.svg",
+      "bytes": 1381,
+      "sha256": "c49cad1d6b90307ca69228bd5fba5b630b9c555d5d4b07a64f9c77abe3f87b40",
+      "labels": [
+        "Do you play football?",
+        "You do play football?",
+        "Play you football do?"
+      ]
+    },
+    {
+      "path": "option-art/48090f7b1d51440af3bc35c6.svg",
+      "bytes": 1081,
+      "sha256": "0b272f21a39dafddeb12bd04065f29d12250e54740235a21875abf752d2a1fd6",
+      "labels": [
+        "hop",
+        "hop"
+      ]
+    },
+    {
+      "path": "option-art/9fb95665ebb3cb86d865e27d.svg",
+      "bytes": 1083,
+      "sha256": "a7bb094ec894fecf97842ad517894c553ddff40c995ecc09f21dbcb31c38d877",
+      "labels": [
+        "home"
+      ]
+    },
+    {
+      "path": "option-art/2fd142064d0ad93ba870aff2.svg",
+      "bytes": 971,
+      "sha256": "a3d0875058ba2b1cbfceb9058364b8e6fc4154d5163b17957861e1d94c428e26",
+      "labels": [
+        "hot"
+      ]
+    },
+    {
+      "path": "option-art/6391873f34ec52edbd71766b.svg",
+      "bytes": 780,
+      "sha256": "059c5ff1a85355988111c7cb1654d9dde12bc855c72778baa2c512624b587bb3",
+      "labels": [
+        "Shoes"
+      ]
+    },
+    {
+      "path": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg",
+      "bytes": 786,
+      "sha256": "1d0ecaf9d6637dc67854e85b08b3730ad41d9ad194490140a9e525efadbe8a8b",
+      "labels": [
+        "Hat",
+        "Wool hat only"
+      ]
+    },
+    {
+      "path": "option-art/75e116150dbe8fdb61b0ea19.svg",
+      "bytes": 742,
+      "sha256": "469580191a7f8e5114eae2a83daba3f28263b9fc834e20fec66640c40a0f61e7",
+      "labels": [
+        "green",
+        "Green"
+      ]
+    },
+    {
+      "path": "option-art/ba92c33bd65561646de4942d.svg",
+      "bytes": 824,
+      "sha256": "9f8d64f1820c19151e8c4521249a5847c9c820ac7e2b3cbc93d900ee1f56ab5f",
+      "labels": [
+        "coat"
+      ]
+    },
+    {
+      "path": "option-art/9fedc619e73a2f2186c3d648.svg",
+      "bytes": 859,
+      "sha256": "84b35369c679ec614f7d9310fe0d80a02c5d530c2ef1ced757f45bf77fc0dfb6",
+      "labels": [
+        "Go to bed"
+      ]
+    },
+    {
+      "path": "option-art/b78cd9ad0de21916b67f7775.svg",
+      "bytes": 847,
+      "sha256": "7cbd3656fc87e2d8075a90c775451dc64b76285188749cb8d855749ec47f8a09",
+      "labels": [
+        "7:15"
+      ]
+    },
+    {
+      "path": "option-art/eadb3840c26dd7e3d96428e2.svg",
+      "bytes": 847,
+      "sha256": "e6f414a050872cdf8b3a0a93896290e28886688d8fe0dcca5a414f8cf3d07dc2",
+      "labels": [
+        "7:30"
+      ]
+    },
+    {
+      "path": "option-art/128259dd52f8c77c3a873bfd.svg",
+      "bytes": 847,
+      "sha256": "773bd7bd0ccacebbe64496d97f8929d57e69997aa448a767b19d247a2eb99604",
+      "labels": [
+        "8:30",
+        "8:30"
+      ]
+    },
+    {
+      "path": "option-art/27f64048ba98d26075ee323b.svg",
+      "bytes": 834,
+      "sha256": "e4e4f410da8dd876e47db505b5b05c68086f78e3a3c414add8bcda6436c7197c",
+      "labels": [
+        "rain",
+        "Rainy",
+        "It may rain"
+      ]
+    },
+    {
+      "path": "option-art/6227124c4fd034cf9e96437e.svg",
+      "bytes": 1049,
+      "sha256": "6e8fa3abc70ebf9347d4e35c147e348a376569e278cf7cdd497f81c7017cd307",
+      "labels": [
+        "train",
+        "train",
+        "train"
+      ]
+    },
+    {
+      "path": "option-art/3e0241e10aeffe9543e8ba66.svg",
+      "bytes": 916,
+      "sha256": "fda93105a13a7184e3928df81fef3b3a9ddc2907952921e0b5e9dff3bf823e39",
+      "labels": [
+        "sun",
+        "Growing towards the light"
+      ]
+    },
+    {
+      "path": "option-art/3129a75966c9240fdca2c6a0.svg",
+      "bytes": 828,
+      "sha256": "1180a7e268d19461a051c18c5a9155ab2ca838140c31d5399953d20356bacbae",
+      "labels": [
+        "star",
+        "The ground becoming a star"
+      ]
+    },
+    {
+      "path": "option-art/bc34a1d8b042fe169b447b61.svg",
+      "bytes": 1276,
+      "sha256": "ca0d3f4ad803f188c6d21ab67ea85ed3a366eb1a6b902bd8daf141da68fbab85",
+      "labels": [
+        "run",
+        "Run into deep water.",
+        "Leave the tap running"
+      ]
+    },
+    {
+      "path": "option-art/e78cf7585e85489a64546841.svg",
+      "bytes": 904,
+      "sha256": "c2b5b81ac472bebfe1ee9c97e139d4af540681d9bbca1b3cd92fb53f3b30e886",
+      "labels": [
+        "Carrot"
+      ]
+    },
+    {
+      "path": "option-art/ef76dc8dd37591c81fc2ae23.svg",
+      "bytes": 843,
+      "sha256": "86d5d70684c53329bf1e5a4980c779d1fa6c3d4fff9b750e04450a5669767669",
+      "labels": [
+        "am"
+      ]
+    },
+    {
+      "path": "option-art/7f9174197e9f930761f71347.svg",
+      "bytes": 1329,
+      "sha256": "1d90bd7da1ace8f005655b4596831a4dd68568cabc4c8e923847f9c28b57dc89",
+      "labels": [
+        "cold"
+      ]
+    },
+    {
+      "path": "option-art/c19b1428b8ff24274d4594a5.svg",
+      "bytes": 849,
+      "sha256": "03531de312f4ef0bb6a68869aa86ffd8bec108c170db34cdf96748c3060c2e6c",
+      "labels": [
+        "can"
+      ]
+    },
+    {
+      "path": "option-art/60cdbeeb93dc34c68011211c.svg",
+      "bytes": 847,
+      "sha256": "7eeddda42018a3a8507558b52f594e7f4f6d84069f4b34ccef7afcee14de9f49",
+      "labels": [
+        "8:15"
+      ]
+    },
+    {
+      "path": "option-art/537c055effd1a8bc6baaeddf.svg",
+      "bytes": 847,
+      "sha256": "3fd02dc0feaee0e7ef0b539e9add3a57d12e0be989c26d6bbf9191db013a579c",
+      "labels": [
+        "9:30"
+      ]
+    },
+    {
+      "path": "option-art/4fc6d8c79f3dba9b29d458d0.svg",
+      "bytes": 896,
+      "sha256": "c3c303e5b53de0d048366cc1768266db1a336c184833c53c15d70f62d79d410e",
+      "labels": [
+        "Camel"
+      ]
+    },
+    {
+      "path": "option-art/1bbc5017d3f5a3ca00decc22.svg",
+      "bytes": 1005,
+      "sha256": "2655a372a5b3ce4c649e6c7562db151e9279a2e3a1e86b4371758ba49f0e75f1",
+      "labels": [
+        "Hen"
+      ]
+    },
+    {
+      "path": "option-art/c4b536312a8856ca8c6fb3b1.svg",
+      "bytes": 918,
+      "sha256": "742c0312c2c5d9deaa4a06044432aa73b9ba5faa8633a9a95d3a34242322a5fa",
+      "labels": [
+        "tree",
+        "tree",
+        "A tree"
+      ]
+    },
+    {
+      "path": "option-art/d6a99776e057b35a8fda5699.svg",
+      "bytes": 1356,
+      "sha256": "865c51b9ed56374de00de7ce258e8a24302f974eb612c38a5b7115aebf6bca74",
+      "labels": [
+        "Touch a hot fire."
+      ]
+    },
+    {
+      "path": "option-art/88f140aac6ddf3eec801c843.svg",
+      "bytes": 910,
+      "sha256": "e7af857af66a16cd72b481a252a08374340f86f02fedee2b1720030e4c1ff045",
+      "labels": [
+        "he"
+      ]
+    },
+    {
+      "path": "option-art/f0b3a05fbd91524908dd23be.svg",
+      "bytes": 806,
+      "sha256": "ce5f1f19d91a92196ddeff9223df1e9fa34eb9000606fdc1cbefd1cf45824678",
+      "labels": [
+        "moon"
+      ]
+    },
+    {
+      "path": "option-art/c5396ed7894ad926dce76202.svg",
+      "bytes": 1244,
+      "sha256": "f7666ed0429e146093841370c1ed442c2220bd0a07936fa6d75606b3b7adad22",
+      "labels": [
+        "Quickly"
+      ]
+    },
+    {
+      "path": "option-art/5b1ef6df7a752cd09610d556.svg",
+      "bytes": 802,
+      "sha256": "64c69fc2c0eed2d5820d7e172366b4a6b8f716b7c32c0e95684b7963515a5085",
+      "labels": [
+        "only numbers"
+      ]
+    },
+    {
+      "path": "option-art/f505bba2ed270ea253f42291.svg",
+      "bytes": 780,
+      "sha256": "3c13e557064556811032b7743c0efaac69ca1fa3ff6433c66de076596f80c561",
+      "labels": [
+        "plate"
+      ]
+    },
+    {
+      "path": "option-art/cb151e69655d912910be00f8.svg",
+      "bytes": 770,
+      "sha256": "e38016da1496500c1ea3e2760552174f2627d1ae80c0dc7de0923df8993063c5",
+      "labels": [
+        "spoon"
+      ]
+    },
+    {
+      "path": "option-art/9db300e11a685177d7654614.svg",
+      "bytes": 1667,
+      "sha256": "f9652459edf6ec0e6c75f395a29ddd6cb27b150cff150b9bd9199f1aa0d90f65",
+      "labels": [
+        "I packed a hat, a book and a ball.",
+        "I packed a hat a book and a ball",
+        "I packed, a hat a book and a ball."
+      ]
+    },
+    {
+      "path": "option-art/e3494b86d6880ed2a92c3bf7.svg",
+      "bytes": 1253,
+      "sha256": "166f275026c4008c893b6c1093a90dfd763c4e6e5d03a21086aa5e58e4498e43",
+      "labels": [
+        "47"
+      ]
+    },
+    {
+      "path": "option-art/ec34c2753d83955053e339c5.svg",
+      "bytes": 1587,
+      "sha256": "289de4d8f792ecce1b548b29221a0fb7d2b52b9fb9b0ce3a2b657bce1db54710",
+      "labels": [
+        "66"
+      ]
+    },
+    {
+      "path": "option-art/e6f2a702961c56d432c55844.svg",
+      "bytes": 1387,
+      "sha256": "3d575279a293589184c39d5e8fbf097e94e5d17e01fcb4e86f37a138f2fc47ea",
+      "labels": [
+        "79"
+      ]
+    },
+    {
+      "path": "option-art/4532330f964001b8b281892a.svg",
+      "bytes": 1387,
+      "sha256": "bb8f858811445c681de1f03422a642f46466ac63f16ae2195c56321cb4975992",
+      "labels": [
+        "81"
+      ]
+    },
+    {
+      "path": "option-art/83a96e67e01f6b65ba0bf1a2.svg",
+      "bytes": 1761,
+      "sha256": "a0d23ea2a2d6ef97774fee7b8e267cd32e96a58eebab1f4b6b7d4751a0d68b5a",
+      "labels": [
+        "642"
+      ]
+    },
+    {
+      "path": "option-art/80b8c9bd529f76c745836cd0.svg",
+      "bytes": 1760,
+      "sha256": "9634bf8e0bee6a0cb396e97937d20392608a670beb768ffd88d59123f834d967",
+      "labels": [
+        "624"
+      ]
+    },
+    {
+      "path": "option-art/7484dbb16bb72566d9e32f28.svg",
+      "bytes": 1760,
+      "sha256": "21787fa5c42790b9c98b1fc5d2b618ce176acfcbc222c9a9792cb396c995a2c0",
+      "labels": [
+        "264"
+      ]
+    },
+    {
+      "path": "option-art/7dd19fb44a1a293e9dd977e5.svg",
+      "bytes": 1453,
+      "sha256": "32efb80b01c4ea6b72f295849464d891ff7da63466d9a98f814f43a7ee5ad779",
+      "labels": [
+        "52",
+        "52",
+        "52"
+      ]
+    },
+    {
+      "path": "option-art/16bd591fce1129e0c5e1b1ff.svg",
+      "bytes": 1520,
+      "sha256": "238c5de270b4654ba81a72c69532c8452b258042cc7462ba0dc8eb189fb6b6df",
+      "labels": [
+        "62",
+        "62",
+        "62"
+      ]
+    },
+    {
+      "path": "option-art/0fe53c1b605e5a73629159c5.svg",
+      "bytes": 1319,
+      "sha256": "132a7a72de55d65015d6af62fa0664b20781bc26299c882a3aef65f9b9adec1b",
+      "labels": [
+        "72",
+        "72"
+      ]
+    },
+    {
+      "path": "option-art/01bda78ae50535436aff6485.svg",
+      "bytes": 1655,
+      "sha256": "3721b046aa6a0c2faeaf968f4494b326ec9fb6cc55bfcd59dc7b8cf666dccb59",
+      "labels": [
+        "68"
+      ]
+    },
+    {
+      "path": "option-art/b745280443e34db9c99628a7.svg",
+      "bytes": 1454,
+      "sha256": "7b997d3b7eeeda7aa521839df3ea3f20da0f7f2b761f276b3c76f99cb631588c",
+      "labels": [
+        "78"
+      ]
+    },
+    {
+      "path": "option-art/926291735d7e01a96469b295.svg",
+      "bytes": 1186,
+      "sha256": "9ba30f55d5fd3195c1d9c349b2e5f93e5b71e2e28962f3a6b13a0653c083128c",
+      "labels": [
+        "41",
+        "41"
+      ]
+    },
+    {
+      "path": "option-art/e15020fa5a9bac007667e31c.svg",
+      "bytes": 1454,
+      "sha256": "aaf3561b2c07f688ec92c7433461c29138a638ac1d203fdd368b5a40aa3797c3",
+      "labels": [
+        "33"
+      ]
+    },
+    {
+      "path": "option-art/2ec1b48bada5f99dfe23b17e.svg",
+      "bytes": 1387,
+      "sha256": "c94818a0fe6c1b0b5775dd38913aa5f933832b9dcafbaa28e5fcc513e7b24495",
+      "labels": [
+        "43"
+      ]
+    },
+    {
+      "path": "option-art/8668f15154b9aa0231334f51.svg",
+      "bytes": 1253,
+      "sha256": "2fee2301fd13e62c0f01ead1e7f269ff25d75d9d3c37ce66c30f7eb53a12e320",
+      "labels": [
+        "31"
+      ]
+    },
+    {
+      "path": "option-art/94a16d4d5f694e4d417f5d23.svg",
+      "bytes": 1454,
+      "sha256": "f7deb9b2aa588058344ae37ff33a682477150e5553771fc3a2d51139aec8d309",
+      "labels": [
+        "49"
+      ]
+    },
+    {
+      "path": "option-art/87834cddb248efc814d87976.svg",
+      "bytes": 1454,
+      "sha256": "b404ad8bfae1e578428decfa47abc920106de2179999fc8365f8c3b3e65b5f37",
+      "labels": [
+        "94"
+      ]
+    },
+    {
+      "path": "option-art/096adc943478e6f518404add.svg",
+      "bytes": 1253,
+      "sha256": "00646f22162f4b0c46119e8681d1f37249594560583e0430502f6a88514654bf",
+      "labels": [
+        "13",
+        "13"
+      ]
+    },
+    {
+      "path": "option-art/cc0b5f295a9d9be49f2cdab3.svg",
+      "bytes": 847,
+      "sha256": "50452310b02c8e97580e06c862fcf8452d36e9fefc075f05045fda200d361a86",
+      "labels": [
+        "3:15"
+      ]
+    },
+    {
+      "path": "option-art/9ea61aef2384f15a2b3c757f.svg",
+      "bytes": 847,
+      "sha256": "7804aba3ad2cc80a31ca7cd00a2696d229f13d8d4f00786de9dd80739812b7f8",
+      "labels": [
+        "4:00"
+      ]
+    },
+    {
+      "path": "option-art/fa202f21948fa57c73ae4f95.svg",
+      "bytes": 847,
+      "sha256": "70aff80d09cde15b6a028cc18621873632883f00980a720707298af08f13c3d0",
+      "labels": [
+        "6:45"
+      ]
+    },
+    {
+      "path": "option-art/703f30ab13b49bbee813bd86.svg",
+      "bytes": 847,
+      "sha256": "d9b27539bbb30d455e5b3d8096cb5432fc37b27dd4f0953325c387906a0f1c4f",
+      "labels": [
+        "7:00"
+      ]
+    },
+    {
+      "path": "option-art/3383d02c4ff1a90e6f8e41bb.svg",
+      "bytes": 847,
+      "sha256": "b44411dea88de5457d09a873a9b3fd87f6c389d59b5d3a62a1f2aa15cfcd8361",
+      "labels": [
+        "6:15"
+      ]
+    },
+    {
+      "path": "option-art/79c8b2526d4edfd6ba073217.svg",
+      "bytes": 1501,
+      "sha256": "864e7507ba8d0c3ba3b5c6cb39d4efda2b8a4e656684487a61c90ab476f4323e",
+      "labels": [
+        "145"
+      ]
+    },
+    {
+      "path": "option-art/52ba441906c24c22adf47df2.svg",
+      "bytes": 1631,
+      "sha256": "128758875a4883a7e83c968eba26f8fce2e047a057a44f920f47dc8020891d1b",
+      "labels": [
+        "150"
+      ]
+    },
+    {
+      "path": "option-art/850d54e41ff54e779faf8d61.svg",
+      "bytes": 1696,
+      "sha256": "3253125e80bc794de3ebc817734bc70f9eee6cd05512ea3b3e061a8aad3cb051",
+      "labels": [
+        "160"
+      ]
+    },
+    {
+      "path": "option-art/2281bfe89aa96ac51b10a445.svg",
+      "bytes": 1630,
+      "sha256": "1efcaf1cd1edce63a3cf3b4ef22b031d43ea641057b5e6cef756b252d0800c6a",
+      "labels": [
+        "357",
+        "357"
+      ]
+    },
+    {
+      "path": "option-art/717af2bdc91cec3d218c3025.svg",
+      "bytes": 1761,
+      "sha256": "797400b74fc64a1beed3a03372e9b474e7ae2972c1b14529b14272b469230626",
+      "labels": [
+        "456"
+      ]
+    },
+    {
+      "path": "option-art/c457e7f963482e00a9477d84.svg",
+      "bytes": 1584,
+      "sha256": "b8a2f6d2a65e4386c42c33b5ee64984fd02c448ae7ab65e4177cc1b079770b7d",
+      "labels": [
+        "3560"
+      ]
+    },
+    {
+      "path": "option-art/76275cd02d9836da4e9bfe34.svg",
+      "bytes": 1695,
+      "sha256": "7ba5fe00146d44d3b897a50c6bdf04286327a710fe6450f27aebec457a94dfda",
+      "labels": [
+        "367"
+      ]
+    },
+    {
+      "path": "option-art/ac8c32506b784623a3197fea.svg",
+      "bytes": 1500,
+      "sha256": "fe07afab4cbadd5deb58b9a54d3eb34d59c710d7dc0301c2f607a73e0914590c",
+      "labels": [
+        "377"
+      ]
+    },
+    {
+      "path": "option-art/928582ffd9ee8d7b9837ff3b.svg",
+      "bytes": 1696,
+      "sha256": "e2a6143e56dc8868cd47155f5eda689e6f72a74709eebbf1272759d933b4e054",
+      "labels": [
+        "345"
+      ]
+    },
+    {
+      "path": "option-art/9333070610caa5e945a92d84.svg",
+      "bytes": 1761,
+      "sha256": "2f6a4b59f1979529b1aaa11adf47cbe1d4fd130646327e3db55ee35fec9d8705",
+      "labels": [
+        "355"
+      ]
+    },
+    {
+      "path": "option-art/0577b30ec68157af4614cb4b.svg",
+      "bytes": 1826,
+      "sha256": "f639bb6348d7931c343efb914fb7c790f0718b825225be00c40cc5dc058c5ec8",
+      "labels": [
+        "365"
+      ]
+    },
+    {
+      "path": "option-art/e80db82dd1bec3d12d4315e4.svg",
+      "bytes": 865,
+      "sha256": "27f5cb5ea5431e1055ee797f58b2e15218f874b20b3a65edf8cc8d2c2c370e78",
+      "labels": [
+        "75 piasters"
+      ]
+    },
+    {
+      "path": "option-art/2d76a22e7938703bf97b1bba.svg",
+      "bytes": 1631,
+      "sha256": "db1e835f134e7fcf36371d6beff71a48c866ccec50aa04b8b74e9c13e0fd75cc",
+      "labels": [
+        "470"
+      ]
+    },
+    {
+      "path": "option-art/8712bf9463ddf498da6c95eb.svg",
+      "bytes": 1826,
+      "sha256": "6a4ac31fd60b4124ac514f134b13eb860762a48ad27bd1516ba6cfcba1540f18",
+      "labels": [
+        "460"
+      ]
+    },
+    {
+      "path": "option-art/78e54f240dc352ddc8030dc5.svg",
+      "bytes": 1891,
+      "sha256": "e5137b846c14b5f884f12cd38670136e28c14eac2976d53e7db5951725f81be9",
+      "labels": [
+        "480"
+      ]
+    },
+    {
+      "path": "option-art/52777fd524716b9358968015.svg",
+      "bytes": 710,
+      "sha256": "a5bb989503369d52e4cd4d3bc94288768c50abc03d462a3a547e1a5ae66dc7b6",
+      "labels": [
+        "Hexagon"
+      ]
+    },
+    {
+      "path": "option-art/ae9a9394fa2a4b45f2f56e88.svg",
+      "bytes": 708,
+      "sha256": "b96e9c9febba495e43b63ab0bc5675af0fd40b2711c63d542f4102a37a085128",
+      "labels": [
+        "Pentagon"
       ]
     },
     {
@@ -2358,7 +3188,572 @@
       "sha256": "d7dc31b45a1591db455522d6b0b4f4cfb900f03512e4a262c9a7a6ba249ba0b4",
       "labels": [
         "Triangle",
+        "Triangle",
+        "Triangle",
         "Triangle"
+      ]
+    },
+    {
+      "path": "option-art/d6f343b4b91e2bd4e03555c0.svg",
+      "bytes": 704,
+      "sha256": "cb37dfcafebf54236e7af33957b9cc1af26ef0ac8c09c5e09516ad7f1add840e",
+      "labels": [
+        "Square units",
+        "Square",
+        "Square",
+        "Square"
+      ]
+    },
+    {
+      "path": "option-art/b2ce063f903c8b8a32095fab.svg",
+      "bytes": 685,
+      "sha256": "34125fbb4a18afa7d662cab6b6499873b6ac0255d7636e84b0327466c8f7dbbb",
+      "labels": [
+        "Circle",
+        "Circle",
+        "Circle"
+      ]
+    },
+    {
+      "path": "option-art/4237e30db61da3add7a68650.svg",
+      "bytes": 802,
+      "sha256": "414913f52e4fb0dacc47c148d600b49da20576401c60e75a5aada8f0b6e80160",
+      "labels": [
+        "Number line"
+      ]
+    },
+    {
+      "path": "option-art/4e4caba1e1c26bf9a3aa45aa.svg",
+      "bytes": 1386,
+      "sha256": "fb960f4c03e38e61d288bef8e592a94b8021f37a15a3022b8a37a6dae79f171b",
+      "labels": [
+        "42",
+        "42"
+      ]
+    },
+    {
+      "path": "option-art/69b33dacc2f07309e50dc131.svg",
+      "bytes": 1320,
+      "sha256": "fc36ebf644ee432ae604fb593012dc18beeacd198f13cc56ad8f272439e9624c",
+      "labels": [
+        "44"
+      ]
+    },
+    {
+      "path": "option-art/0127e3b6b1f0e0a9f22a3e58.svg",
+      "bytes": 1387,
+      "sha256": "c15b4d26f62bf7b6b760384fefd3fc218466b2cbfe1d2e8b7a7fcf6b54cdc0e0",
+      "labels": [
+        "54"
+      ]
+    },
+    {
+      "path": "option-art/60f1d415eb0922c59f13b713.svg",
+      "bytes": 1387,
+      "sha256": "c6767dbcb6989ed48a22c7d75b66be358c2f8d02ca9a8ae92d8791586010ad8d",
+      "labels": [
+        "34"
+      ]
+    },
+    {
+      "path": "option-art/e02c7acbc9ed3e533583b5d4.svg",
+      "bytes": 1052,
+      "sha256": "6cabc09aa898b5328b4a7248b96aca7c94f2739f00d9714fdba559fa50a73e6b",
+      "labels": [
+        "11",
+        "11",
+        "11",
+        "11"
+      ]
+    },
+    {
+      "path": "option-art/57be323a333ab8abda2eff6c.svg",
+      "bytes": 857,
+      "sha256": "5d68d07de8a517327de8fc55017706308127dde5cd9d81b0d02d4abcb5dca5c1",
+      "labels": [
+        "Sight",
+        "Sight",
+        "Record what you see on both evenings"
+      ]
+    },
+    {
+      "path": "option-art/0e774e547efecaa61c8c3d26.svg",
+      "bytes": 867,
+      "sha256": "882aad5f27d8c8686c244ec15b3b86f9202ff485b0ef9528046ba237ae34abed",
+      "labels": [
+        "Hearing",
+        "Ears",
+        "Ears",
+        "Hearing",
+        "Ears — hearing",
+        "Hearing",
+        "Darkness entering your ears",
+        "Hearing",
+        "Ears",
+        "Ears help us hear sounds"
+      ]
+    },
+    {
+      "path": "option-art/fdc33f85e039cff6626a0878.svg",
+      "bytes": 757,
+      "sha256": "0e4801bbdbffc9912d10c5d3f70fcc4f86d87edb8dcb375dee0fca1e8015298d",
+      "labels": [
+        "Taste",
+        "Tongue",
+        "Taste",
+        "Taste both objects",
+        "Tongue",
+        "Taste the object"
+      ]
+    },
+    {
+      "path": "option-art/5d4090c2aa97e77aa429715a.svg",
+      "bytes": 813,
+      "sha256": "2c5bb0b281bf4e9bd2acc6ef5eb547399a9aa027e5f5a05376cbd5ab998b444e",
+      "labels": [
+        "Hands",
+        "Wipe it with bare hands"
+      ]
+    },
+    {
+      "path": "option-art/87643db174f62bf81ea50a5d.svg",
+      "bytes": 739,
+      "sha256": "91e1695de272910ea3ef6ca7544daca28c2e3280fe46c4b30cbe10cff869b6c1",
+      "labels": [
+        "Nose",
+        "Nose — touching",
+        "Nose"
+      ]
+    },
+    {
+      "path": "option-art/3aceee1f56f779daf57a6e78.svg",
+      "bytes": 1325,
+      "sha256": "b4538ed0006f7cdaeb305e4de0da5ab8723258e1134b1c466769aee67b79a7c0",
+      "labels": [
+        "Eyes — smelling",
+        "Smell them with your eyes closed"
+      ]
+    },
+    {
+      "path": "option-art/1c21c83ac1773fcbe6c17749.svg",
+      "bytes": 1142,
+      "sha256": "e0c9584e041b575c0892bcbac51a45c54a612fe51e047f36999ba1a279771877",
+      "labels": [
+        "Taste and touch"
+      ]
+    },
+    {
+      "path": "option-art/b20f55b52e0f333e64466555.svg",
+      "bytes": 1231,
+      "sha256": "2279ecfb27e8fdb9836f99e5dbcc7dd53b0ae342c1f045101b3f31d2071578c3",
+      "labels": [
+        "Smell and taste",
+        "A smell reaching your tongue",
+        "Smell and taste"
+      ]
+    },
+    {
+      "path": "option-art/a623fcc943ceccb59d4815ef.svg",
+      "bytes": 1313,
+      "sha256": "319bd15caa2e3bc9e8f60c6280ebbd8394d03376a493786ec2e630c491b259d1",
+      "labels": [
+        "Hearing and sight",
+        "Sight and hearing only"
+      ]
+    },
+    {
+      "path": "option-art/b82f7933fb9194e5f01fa921.svg",
+      "bytes": 885,
+      "sha256": "945c4e7b15548439306887a6edad171db34ade651490dadd2b1f85607b738e49",
+      "labels": [
+        "Smell",
+        "It turns into a smell",
+        "Smell",
+        "Smell it closely and then eat it",
+        "Feet help us smell"
+      ]
+    },
+    {
+      "path": "option-art/4a0abb7d13dda4ea99861e9c.svg",
+      "bytes": 796,
+      "sha256": "8683b68302bfe279a33b4eaa5b95683d7aff246d60e81f7fe6c0c71898ea5426",
+      "labels": [
+        "Touch",
+        "Touch",
+        "Gently feel their clean surfaces",
+        "Pick it up to feel its body",
+        "Do not touch it; tell an adult",
+        "Touch the pot to test it",
+        "Yes, they touch each other"
+      ]
+    },
+    {
+      "path": "option-art/edeaa51944e51ccc8f473188.svg",
+      "bytes": 910,
+      "sha256": "611172d561873408f1030c2ce63f303858e0a1ad769a0489ffad4533335e53fd",
+      "labels": [
+        "A person whispering"
+      ]
+    },
+    {
+      "path": "option-art/2d988878a5ab322a283698b4.svg",
+      "bytes": 787,
+      "sha256": "7d5047a3353ede42e6a87640c5aa332880ffd7d6918c84ca81df7a71dbf13f63",
+      "labels": [
+        "A large low drum"
+      ]
+    },
+    {
+      "path": "option-art/3402f11b3dbce34b5d9aaa4b.svg",
+      "bytes": 806,
+      "sha256": "5c06a77ca2331f3ff5af79f8614a325b99117e5c8798aac626c3241b24809d36",
+      "labels": [
+        "A small bird chirping"
+      ]
+    },
+    {
+      "path": "option-art/ced598f92a7f6d1d3dfa0a17.svg",
+      "bytes": 800,
+      "sha256": "ae320a1aafbe96c187cb15be3f65447d60dafbecb37ddb3d314a87f8c1fe3586",
+      "labels": [
+        "A small bird chirp"
+      ]
+    },
+    {
+      "path": "option-art/ef8980b5978352559f6535fe.svg",
+      "bytes": 1239,
+      "sha256": "c13e1068141d75eff88f3ba5632d1f8a5575cc4cbbc38e90fa2d589b7a2db6d1",
+      "labels": [
+        "A sound can be high-pitched and quiet"
+      ]
+    },
+    {
+      "path": "option-art/be5673505f2c61efc023dc4e.svg",
+      "bytes": 1356,
+      "sha256": "6806061a14f6af23df0c6257291cc0fba60c3533d850d211866028ca4e775060",
+      "labels": [
+        "Light reaching your eyes"
+      ]
+    },
+    {
+      "path": "option-art/b8a34fd1afa94d9b9f7998b2.svg",
+      "bytes": 745,
+      "sha256": "5ddb2ce1878b9ee2a20591d2cc5b8405bd2a1f69545d88f60a036e9b3f920994",
+      "labels": [
+        "Yellow"
+      ]
+    },
+    {
+      "path": "option-art/c834632a884b9c2bf45fe580.svg",
+      "bytes": 739,
+      "sha256": "1eb45134e79696716ffee4bf14f9699663a569bef660db016d1f32fbf3f4e854",
+      "labels": [
+        "Blue",
+        "Blue"
+      ]
+    },
+    {
+      "path": "option-art/2f625dcc85a24ae332fac8ea.svg",
+      "bytes": 745,
+      "sha256": "e4ff65f0ce2c8f06f8b2a7152fadf461685cf7920e20abb6c568a249556914ba",
+      "labels": [
+        "Purple",
+        "Purple"
+      ]
+    },
+    {
+      "path": "option-art/63185c3fde762869f2d2939a.svg",
+      "bytes": 930,
+      "sha256": "0194ef75a9461e17060560e9bc61aff44ab64c02edf775a78393ee66a939cbb2",
+      "labels": [
+        "Orange"
+      ]
+    },
+    {
+      "path": "option-art/a64cc75bed8936c4980ea757.svg",
+      "bytes": 736,
+      "sha256": "865bc840c65f7262cecdabe5ae5ce47790c0b37ddd20e2fa2a7651faf7c4ee65",
+      "labels": [
+        "Red"
+      ]
+    },
+    {
+      "path": "option-art/57c992232db998af44361c79.svg",
+      "bytes": 1789,
+      "sha256": "69f64207d9972737c2fe8500226e24d35254aa3a24b2378649abbe48f32ccf6d",
+      "labels": [
+        "Look straight at the Sun for a long time"
+      ]
+    },
+    {
+      "path": "option-art/20221c62a0090fcfe241a87a.svg",
+      "bytes": 1267,
+      "sha256": "c1ac01c77ea1e614cf562ae3f4e0841125a0d749e6f67d0217abc3a2c32a5a97",
+      "labels": [
+        "To taste food",
+        "The tongue helps us taste food",
+        "Skin helps us taste food"
+      ]
+    },
+    {
+      "path": "option-art/c932248ca851916870d18adc.svg",
+      "bytes": 1285,
+      "sha256": "3787f689eb4e0deca90ad402724c54e7b744c0417c76a894fe8b05f6ca45a6ba",
+      "labels": [
+        "A thick wooden board"
+      ]
+    },
+    {
+      "path": "option-art/48e5a12c2af6ff0b293f5dea.svg",
+      "bytes": 821,
+      "sha256": "e10506e13f1c1141519eadd9ce0ad574aa542e32307de296cb5f1c0bd7b2badc",
+      "labels": [
+        "A closed book"
+      ]
+    },
+    {
+      "path": "option-art/9f70113ab272986583199f06.svg",
+      "bytes": 1179,
+      "sha256": "9bc989c42222b79d57c6a380021dbf16f7c9925f6933604d8775c41ba071f902",
+      "labels": [
+        "A metal spoon",
+        "A metal spoon"
+      ]
+    },
+    {
+      "path": "option-art/ad91984a03885476b07595cf.svg",
+      "bytes": 950,
+      "sha256": "1c97d45ae6a75bb30e09b0d1a6954b7a24cf6ae0bd02557178716f8e9772b912",
+      "labels": [
+        "Cotton wool"
+      ]
+    },
+    {
+      "path": "option-art/48a9211a0a0226f2629ee82e.svg",
+      "bytes": 1207,
+      "sha256": "3a2c4a67b8eb6379fb7d6c59ae64c8c0bcb3ff5f4c85f2fd96384371c5bbabe5",
+      "labels": [
+        "A smooth plastic ruler"
+      ]
+    },
+    {
+      "path": "option-art/2d7afab679934faab89b4c0d.svg",
+      "bytes": 1329,
+      "sha256": "4ad92f8bcaa95c31fa4bdf4dd287ddd9425d571e2795b2355efd1a73ca54d69a",
+      "labels": [
+        "Cold"
+      ]
+    },
+    {
+      "path": "option-art/8ec91790d8005d48e50c7e74.svg",
+      "bytes": 822,
+      "sha256": "a5f24415ab0128f10cdfee57736d9fc1a285ebbada672b009b819f738c7e9aad",
+      "labels": [
+        "Taste a little to identify it"
+      ]
+    },
+    {
+      "path": "option-art/5e58a902c7953a20c81243eb.svg",
+      "bytes": 1802,
+      "sha256": "57380d4ae5eeddd19e6635d69810f61f2a015ae1bb6815288f7d445751fb5072",
+      "labels": [
+        "Touch nearby objects to see if they are hot"
+      ]
+    },
+    {
+      "path": "option-art/932dfd8f109de275d2f469c9.svg",
+      "bytes": 1030,
+      "sha256": "5952bfc8882b6a7ae7e923b475282d4589a9598a54892f464a4c2e3490e51124",
+      "labels": [
+        "Its exact weight",
+        "It has no weight"
+      ]
+    },
+    {
+      "path": "option-art/fb2660609eca94f7b607e375.svg",
+      "bytes": 1252,
+      "sha256": "ca5df9f3d43d24114bd70f9f519712d9ca2320a51932f12dbf3c7ea150ce20c6",
+      "labels": [
+        "Hearing and touch only"
+      ]
+    },
+    {
+      "path": "option-art/8d931f6ca0ba07a84f3ec8ac.svg",
+      "bytes": 1298,
+      "sha256": "2a048476939793fe96a591599b98c723bd29e977042c732df6a7cbdd8242444c",
+      "labels": [
+        "A metal coin"
+      ]
+    },
+    {
+      "path": "option-art/4883506061c585420562ee5a.svg",
+      "bytes": 790,
+      "sha256": "a92fbe0034489e80487039870e254c109ee18c181d3fa697605d75ae97862d7a",
+      "labels": [
+        "A small stone"
+      ]
+    },
+    {
+      "path": "option-art/720341f6793664e07009cb53.svg",
+      "bytes": 1178,
+      "sha256": "9a7dc6203fc57cad10b1b5d3da4fae2fc745f85bc46a432401b6e5340cb076d7",
+      "labels": [
+        "A cork",
+        "A cork can float on water",
+        "A cork dissolves in water",
+        "A cork always sinks in water"
+      ]
+    },
+    {
+      "path": "option-art/c407581180b525c50e97df29.svg",
+      "bytes": 1254,
+      "sha256": "5fbe978098ca6c275d0fc0a2e07cb32a07dac5a978def9597e485b456caa31e5",
+      "labels": [
+        "Its shape helps it push water aside",
+        "The shape of the water"
+      ]
+    },
+    {
+      "path": "option-art/9ab32b895a985999ae4634f6.svg",
+      "bytes": 1275,
+      "sha256": "e516f9075523ddcace363df7f78616ec47831955d3b7ffb0b009a82596a62b60",
+      "labels": [
+        "The shape of the cup"
+      ]
+    },
+    {
+      "path": "option-art/2db1c570cc2ede345dfc86fe.svg",
+      "bytes": 1809,
+      "sha256": "9cd1101a83e9786c4fecf98b5af95e8b2be27f18355b3aec9102765a415e77a7",
+      "labels": [
+        "The shape of a wooden block"
+      ]
+    },
+    {
+      "path": "option-art/a1bed5e37dfdf4e94722e28d.svg",
+      "bytes": 1249,
+      "sha256": "f1ea06f21cd894c8d410bcfd240c546bd0d59863f73eb1022d3d01126b64846c",
+      "labels": [
+        "The water becomes solid"
+      ]
+    },
+    {
+      "path": "option-art/b8b719cb904704fe6805da07.svg",
+      "bytes": 845,
+      "sha256": "f2ee2cc24bd2148329f456a0a43ea7693bdc3e876d4e467c5ee53d2abdb826d7",
+      "labels": [
+        "A pencil"
+      ]
+    },
+    {
+      "path": "option-art/d528aa7ac7b48f91fabf0c11.svg",
+      "bytes": 868,
+      "sha256": "1ba4ac76ed4474064c6d70e91a324b4a02ea61bffabed2449eb5181298b5652b",
+      "labels": [
+        "Milk"
+      ]
+    },
+    {
+      "path": "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg",
+      "bytes": 827,
+      "sha256": "b7d311018349247401638a48a60167c4840dad2fcb20eb0c41c675e8195fab81",
+      "labels": [
+        "Covering the cup with sand",
+        "A cup of unknown liquid"
+      ]
+    },
+    {
+      "path": "option-art/a9433a3b49bdc7d8ff408079.svg",
+      "bytes": 1716,
+      "sha256": "a8fc92d4d15413c00aa26ceeda0825377c70092cdac206d94107d39b511d0d2e",
+      "labels": [
+        "A wooden chair",
+        "A wooden chair is made from wood"
+      ]
+    },
+    {
+      "path": "option-art/4ee3a97ab2bc411903c00463.svg",
+      "bytes": 822,
+      "sha256": "d37fae786777c2c2f64ad846f5eda72456d04f8fe15f0e2b16484a11c1026d82",
+      "labels": [
+        "A cloud",
+        "Clouds inside a jar",
+        "Dark clouds are made of smoke"
+      ]
+    },
+    {
+      "path": "option-art/725fd1e948742e4d04fc7763.svg",
+      "bytes": 806,
+      "sha256": "fc933c009632b28850195b7c11a105912c4dccd287e28904651eea914e9d14ec",
+      "labels": [
+        "The Moon",
+        "The Moon",
+        "A line drawn on the Moon",
+        "They are all on the Moon"
+      ]
+    },
+    {
+      "path": "option-art/b61f05b85c12c519f4c36fb9.svg",
+      "bytes": 855,
+      "sha256": "2b8907b9887d986b691cc28d2bcab57744b1aea80fcb43df8f2fa6464760f500",
+      "labels": [
+        "A mirror"
+      ]
+    },
+    {
+      "path": "option-art/67a63b12598e38f8a054a55a.svg",
+      "bytes": 1249,
+      "sha256": "4a59bb2470f9e5ebaad0852dbe632220eb7fc336fe13db520af91dbaf68cea56",
+      "labels": [
+        "A tall green tree"
+      ]
+    },
+    {
+      "path": "option-art/e481c4a4ab4ac7b22393938d.svg",
+      "bytes": 1756,
+      "sha256": "ca63b0fa36f75b1c9fa2ec3b7c988cde0e5a13c8970d1e44fb84e3a939304540",
+      "labels": [
+        "Space rocks hit the Moon's surface"
+      ]
+    },
+    {
+      "path": "option-art/966bd07f3f505e3e00234bef.svg",
+      "bytes": 834,
+      "sha256": "226f0acc03988ac3dc01505f06ac5822dedec107d90befe74d97bf4fb8c3c1bf",
+      "labels": [
+        "Rain made deep puddles"
+      ]
+    },
+    {
+      "path": "option-art/01bad04e86303c07c30d4b3b.svg",
+      "bytes": 1019,
+      "sha256": "8a4179e829ec2aff8a9823829bf4d873a463fb697d103dd7f79d762d6a18fb93",
+      "labels": [
+        "Wind blew sand into circles"
+      ]
+    },
+    {
+      "path": "option-art/7f538b350ae2ca3c43e04667.svg",
+      "bytes": 1897,
+      "sha256": "7fa24dbe44f153243b12f7183b57ced0dfadf702e3d6a403ee01794eda6f0ead",
+      "labels": [
+        "A child touches a hot pan"
+      ]
+    },
+    {
+      "path": "option-art/bd70a5c6dfc3eae0867afdd2.svg",
+      "bytes": 870,
+      "sha256": "af20b4f9d3260455c036760c5435e0c8fe63da613613ca1249e0d3839862d7e9",
+      "labels": [
+        "An adult drops a small ball into soft modelling dough"
+      ]
+    },
+    {
+      "path": "option-art/4b47e7a9a14d39beb7ced252.svg",
+      "bytes": 704,
+      "sha256": "6390193cabdecd8f451782bdde4babe5e4a18f20736195ce90a2040e064bad8b",
+      "labels": [
+        "A square tower"
       ]
     },
     {
@@ -2366,7 +3761,8 @@
       "bytes": 1311,
       "sha256": "bd2b7d3bdaf59e2e597c0f201152f3f8030b0ec7d6ee3978e2b61cfb0bce3243",
       "labels": [
-        "Water and sunlight"
+        "Water and sunlight",
+        "Water and light"
       ]
     },
     {
@@ -2648,14 +4044,6 @@
       ]
     },
     {
-      "path": "option-art/48090f7b1d51440af3bc35c6.svg",
-      "bytes": 1081,
-      "sha256": "0b272f21a39dafddeb12bd04065f29d12250e54740235a21875abf752d2a1fd6",
-      "labels": [
-        "hop"
-      ]
-    },
-    {
       "path": "option-art/9f1970ee75dfdde320eacde4.svg",
       "bytes": 849,
       "sha256": "1102ed18f7e405472725b6e2ba64a5d1f0d574d113db3d950bed7c36d5ea5737",
@@ -2778,14 +4166,6 @@
       ]
     },
     {
-      "path": "option-art/b98a464e78aa16f9bfa215ee.svg",
-      "bytes": 839,
-      "sha256": "0f7703bdf3fa8998de06d23363d2d36b50eaf13c0e209567dedf6cb3c7ac903d",
-      "labels": [
-        "farm"
-      ]
-    },
-    {
       "path": "option-art/44afe55cce5b1ac83ec6e849.svg",
       "bytes": 882,
       "sha256": "12fbad6f45b747dd53c903fa2aba1dd85e9f322f953bfef7f821f1529aa2dea6",
@@ -2871,16 +4251,6 @@
       "sha256": "710d43da6ca03d36317c69cf01f64c8b1edaa1309bc6cebf60bb9602e0ddc45f",
       "labels": [
         "colour"
-      ]
-    },
-    {
-      "path": "option-art/e02c7acbc9ed3e533583b5d4.svg",
-      "bytes": 1052,
-      "sha256": "6cabc09aa898b5328b4a7248b96aca7c94f2739f00d9714fdba559fa50a73e6b",
-      "labels": [
-        "11",
-        "11",
-        "11"
       ]
     },
     {
@@ -3099,27 +4469,11 @@
       ]
     },
     {
-      "path": "option-art/0e774e547efecaa61c8c3d26.svg",
-      "bytes": 867,
-      "sha256": "882aad5f27d8c8686c244ec15b3b86f9202ff485b0ef9528046ba237ae34abed",
-      "labels": [
-        "Ears help us hear sounds"
-      ]
-    },
-    {
       "path": "option-art/3d751aa216c249e3f465ae53.svg",
       "bytes": 1307,
       "sha256": "ec54464857a750586f949467f374ebd40c1aab56108a1af2a35050931ce380aa",
       "labels": [
         "Eyes help us hear sounds"
-      ]
-    },
-    {
-      "path": "option-art/b82f7933fb9194e5f01fa921.svg",
-      "bytes": 885,
-      "sha256": "945c4e7b15548439306887a6edad171db34ade651490dadd2b1f85607b738e49",
-      "labels": [
-        "Feet help us smell"
       ]
     },
     {
@@ -3136,15 +4490,6 @@
       "sha256": "462bc2b215ab77786732ff37c97eaa66a108cd88c20dfdd34694176a03041fbb",
       "labels": [
         "The nose helps us smell"
-      ]
-    },
-    {
-      "path": "option-art/20221c62a0090fcfe241a87a.svg",
-      "bytes": 1267,
-      "sha256": "c1ac01c77ea1e614cf562ae3f4e0841125a0d749e6f67d0217abc3a2c32a5a97",
-      "labels": [
-        "The tongue helps us taste food",
-        "Skin helps us taste food"
       ]
     },
     {
@@ -3169,14 +4514,6 @@
       "sha256": "60509fed25466eeb7275c266639a60268926fb05d4257bcaa0269565c7f3532c",
       "labels": [
         "Dark clouds can be a sign of rain"
-      ]
-    },
-    {
-      "path": "option-art/4ee3a97ab2bc411903c00463.svg",
-      "bytes": 822,
-      "sha256": "d37fae786777c2c2f64ad846f5eda72456d04f8fe15f0e2b16484a11c1026d82",
-      "labels": [
-        "Dark clouds are made of smoke"
       ]
     },
     {
@@ -3236,14 +4573,6 @@
       "sha256": "e370d288137d6ccafa702b9b071712c0ddf10bce9bb8def6cc1394fa64ac9d6e",
       "labels": [
         "A wooden chair is made from water"
-      ]
-    },
-    {
-      "path": "option-art/a9433a3b49bdc7d8ff408079.svg",
-      "bytes": 1716,
-      "sha256": "a8fc92d4d15413c00aa26ceeda0825377c70092cdac206d94107d39b511d0d2e",
-      "labels": [
-        "A wooden chair is made from wood"
       ]
     },
     {
@@ -3321,16 +4650,6 @@
       ]
     },
     {
-      "path": "option-art/720341f6793664e07009cb53.svg",
-      "bytes": 1178,
-      "sha256": "9a7dc6203fc57cad10b1b5d3da4fae2fc745f85bc46a432401b6e5340cb076d7",
-      "labels": [
-        "A cork can float on water",
-        "A cork dissolves in water",
-        "A cork always sinks in water"
-      ]
-    },
-    {
       "path": "option-art/c0078da69a2e2960a81b444e.svg",
       "bytes": 1157,
       "sha256": "3eff40e20d72abb78dbe045146b2207eaaf61495910aee099482a685d64e21bb",
@@ -3344,6 +4663,300 @@
       "sha256": "164e439db5e75d87e45dde9d8779d2dba140c73e7b393deda768f526fd10c154",
       "labels": [
         "Ice changes into sand"
+      ]
+    },
+    {
+      "path": "option-art/10eb08432f601c1bf6fde321.svg",
+      "bytes": 739,
+      "sha256": "7d778cde16f3ddc23c6553067b308f72ff8a9f5c1e90595a0f7184b41945d4f6",
+      "labels": [
+        "Your nose"
+      ]
+    },
+    {
+      "path": "option-art/fb35b39583185daa7d8e048b.svg",
+      "bytes": 1081,
+      "sha256": "8f31cc87d96799c436ac00c31eb854b7101dbf9581222c8cef13e181dec7e97b",
+      "labels": [
+        "Jump three times"
+      ]
+    },
+    {
+      "path": "option-art/ad8fa08aad86c617b6651c37.svg",
+      "bytes": 813,
+      "sha256": "7f032d6719f4f350a370f5177f7e74ddf8f7a7be6570756a803ce4dd37d04a0d",
+      "labels": [
+        "Wave one hand"
+      ]
+    },
+    {
+      "path": "option-art/80d9288f2a088b3f8013a811.svg",
+      "bytes": 842,
+      "sha256": "8ea253c673ce31726e769518e05a1917012ee7a96d7f9efca5c0828c1352b1fd",
+      "labels": [
+        "Under the chair"
+      ]
+    },
+    {
+      "path": "option-art/a8b591f1791c5c39d97fbc31.svg",
+      "bytes": 788,
+      "sha256": "21748f73454ea55c5e435ac3b83237b27b3473513f1e203fa571cac01b3232a3",
+      "labels": [
+        "On the table"
+      ]
+    },
+    {
+      "path": "option-art/edb31366d4a9ed6c2449770d.svg",
+      "bytes": 925,
+      "sha256": "3bc450fc67daa466a4ba01d92c07b639bc0914626ef22a923a72c485de29df9d",
+      "labels": [
+        "The seed is planted"
+      ]
+    },
+    {
+      "path": "option-art/90ff728260b86dbd180d9a93.svg",
+      "bytes": 1611,
+      "sha256": "03409ffbb104fd04ffd3090b39bb0483729a355a09cc3f0d0eb2f06a8fdd6bf6",
+      "labels": [
+        "The plant has flowers"
+      ]
+    },
+    {
+      "path": "option-art/9281e0f4bb6106301c8bb98b.svg",
+      "bytes": 901,
+      "sha256": "148ac21c20d1eef425265c68cce2a45b9e81a22bf8fc74dc4e2938de153775e1",
+      "labels": [
+        "The plant grows tall"
+      ]
+    },
+    {
+      "path": "option-art/ab818d7d74b87f1aeaa908e5.svg",
+      "bytes": 808,
+      "sha256": "52205b39b858829339f7a86e19f53bf9bc9c21f07756997a366a8d33f7dbd1d9",
+      "labels": [
+        "Brushes teeth"
+      ]
+    },
+    {
+      "path": "option-art/a585eb2be9783e3cba768fda.svg",
+      "bytes": 943,
+      "sha256": "7f98699a177383e394ec7d947ff7adc2ddb348cc53b69133b9ca581509bc45fa",
+      "labels": [
+        "A caterpillar"
+      ]
+    },
+    {
+      "path": "option-art/db9a19e8579f439187ebda4f.svg",
+      "bytes": 1005,
+      "sha256": "f3753ab30e63f1adaf4af04a64714480259d30daa035c8d25bd336cdd7ca49ca",
+      "labels": [
+        "A bird"
+      ]
+    },
+    {
+      "path": "option-art/52cf8797f61e85acbae3fc54.svg",
+      "bytes": 820,
+      "sha256": "765d0bba660a6f4a8a816b1fb787b78edb4d37d04aaf7f38fa4831411e1491fb",
+      "labels": [
+        "An egg carton"
+      ]
+    },
+    {
+      "path": "option-art/23a72b9a6cef9e2f7330e961.svg",
+      "bytes": 854,
+      "sha256": "efc624957af60fa68a3c8a31c6104d459bba3335c5a1e724efe508b141c407ce",
+      "labels": [
+        "A 20 cm block tower",
+        "A 10 cm block tower",
+        "1 block",
+        "2 blocks",
+        "3 blocks"
+      ]
+    },
+    {
+      "path": "option-art/e8892520910e40d8b5c4c755.svg",
+      "bytes": 806,
+      "sha256": "c15a99a28eb5c143369b9bcb259cea7b58b1310ab6a5a1be76fc330f5fca899d",
+      "labels": [
+        "A full water bottle"
+      ]
+    },
+    {
+      "path": "option-art/15a59599fdf32f3b741129ef.svg",
+      "bytes": 1324,
+      "sha256": "b2f1e0715e5b93884645b1c88f00f6fb41e3249272d64af852c9f431d6b78701",
+      "labels": [
+        "Plastic toys"
+      ]
+    },
+    {
+      "path": "option-art/417172e1752a189a521a593a.svg",
+      "bytes": 824,
+      "sha256": "d83c1474b9598c60ea3660b0b18b99bbedfa09094d2d7bf250e470e071ba75c9",
+      "labels": [
+        "A warm coat"
+      ]
+    },
+    {
+      "path": "option-art/51c1de5f99a9e411d3cf2e51.svg",
+      "bytes": 802,
+      "sha256": "9361d4a0cf77ca36b9c9e56fc6015921d8f069b0b970faef315c261748f4489d",
+      "labels": [
+        "A stone"
+      ]
+    },
+    {
+      "path": "option-art/bec00c67b9ea85ce7576252d.svg",
+      "bytes": 1114,
+      "sha256": "0eb43856c06dcd3f34bf282a73ae2394caf9b7e1bf200849076dbc00a6d33bc5",
+      "labels": [
+        "A plastic cup"
+      ]
+    },
+    {
+      "path": "option-art/86e2e22c78ec719732076618.svg",
+      "bytes": 820,
+      "sha256": "7d11581747670c39c1e79706fddf4e828d18afdcd3cb61b996b7000bdd7e575d",
+      "labels": [
+        "It is made of metal"
+      ]
+    },
+    {
+      "path": "option-art/238154590d28fc7e0a7edd57.svg",
+      "bytes": 985,
+      "sha256": "9ee0ef09e412d080023a6d8e9cb5ce00ac49e9ce8772598199320a50c203c276",
+      "labels": [
+        "A pond"
+      ]
+    },
+    {
+      "path": "option-art/cf7e8ba44b42f53ce0b46e6c.svg",
+      "bytes": 939,
+      "sha256": "bceea952be69b7e55861dd986a8ce41a91bebabf4522d28a42b5a46be6e62562",
+      "labels": [
+        "A dry cupboard"
+      ]
+    },
+    {
+      "path": "option-art/880bfea2889b76bf3d4ff7c1.svg",
+      "bytes": 745,
+      "sha256": "6df89922226b2e0507e16068a1ac4e7c5803f076e653a771cd84597cab5dce79",
+      "labels": [
+        "Some water goes into the air."
+      ]
+    },
+    {
+      "path": "option-art/fc609fb92a94b787bb0bc80a.svg",
+      "bytes": 1213,
+      "sha256": "18c0051663ffb5d7024c6ce3918f4e49518183e5524935bbc9353026a4e8267d",
+      "labels": [
+        "The clouds will turn into rocks"
+      ]
+    },
+    {
+      "path": "option-art/990885beeb877403cb8e6d24.svg",
+      "bytes": 806,
+      "sha256": "8b05d5ea650d67858129102bd5a02b4570925abe36c471f4eac9f387b59e3918",
+      "labels": [
+        "Some water evaporated",
+        "Water it when needed"
+      ]
+    },
+    {
+      "path": "option-art/334344a415b429ded81155e6.svg",
+      "bytes": 1306,
+      "sha256": "f087e70574e954ab14a576c18eb724cd1ce2bbd603a344e4e34cd7d873cc0233",
+      "labels": [
+        "The water became soil"
+      ]
+    },
+    {
+      "path": "option-art/945f5268551840c2cf9f32b2.svg",
+      "bytes": 971,
+      "sha256": "312110940a027ac707b87292fedd0e5961a11011c028892c428cfa3b40ac7a25",
+      "labels": [
+        "Thermometer"
+      ]
+    },
+    {
+      "path": "option-art/eef8d400ec274d881cd0fb27.svg",
+      "bytes": 920,
+      "sha256": "eb8df909d97a3ec941036005876c9a4e113158c19861dcc3ae9db292eef7667b",
+      "labels": [
+        "Ruler"
+      ]
+    },
+    {
+      "path": "option-art/a8f794a1b05ba0e2e4bf9078.svg",
+      "bytes": 787,
+      "sha256": "effe0269794f19f3d13a4af6686619eb9c4321a7d7fa56cf4948c97552109871",
+      "labels": [
+        "Leaves moving"
+      ]
+    },
+    {
+      "path": "option-art/6521cfb26797634e0d508fcc.svg",
+      "bytes": 1173,
+      "sha256": "9f2dc0b9002f9b9df46d6a56fb1b367cb53582291cd31a4063a26d25b13a7dc2",
+      "labels": [
+        "The Moon melting"
+      ]
+    },
+    {
+      "path": "option-art/40bea7dc325655ed3fa53e1a.svg",
+      "bytes": 1259,
+      "sha256": "5a38b27857a1c2c8f71f4ccc5d150b85f4df1190bc08b47af1cefe5f22109b8a",
+      "labels": [
+        "Raincoat"
+      ]
+    },
+    {
+      "path": "option-art/4d74507c2a181a2af32fac75.svg",
+      "bytes": 762,
+      "sha256": "5a3b77e2fc5ab955bae5d6160382d5378eabaab9dfaa584b15ecc29b893fba06",
+      "labels": [
+        "Put rubbish in a bin"
+      ]
+    },
+    {
+      "path": "option-art/31d8013f08d7902d4de84b88.svg",
+      "bytes": 901,
+      "sha256": "4bd575b436ae96a51353966401b8363c8fe3eed7ce41d3c8e471a7d8bf6ac482",
+      "labels": [
+        "Break young plants"
+      ]
+    },
+    {
+      "path": "option-art/dc3ee810ed2365e41295be07.svg",
+      "bytes": 823,
+      "sha256": "3d3a09894a6b977d7f3d3e3b11c9da888f299960875e08516c7c86fe5975e54b",
+      "labels": [
+        "Turn off the tap while brushing"
+      ]
+    },
+    {
+      "path": "option-art/9f18da59ec4a403673777c04.svg",
+      "bytes": 1420,
+      "sha256": "46ed2748a177715a112cf7abb2be885adfc16b4a3ca1936411aef2bc25c4235f",
+      "labels": [
+        "Pull out its roots"
+      ]
+    },
+    {
+      "path": "option-art/0b4467d4b4102b5a27c7d114.svg",
+      "bytes": 698,
+      "sha256": "900bdb07d54d6b6d36336b987536cb86a292ee6b1f98373d56fd7cd4eb35d847",
+      "labels": [
+        "Cover it with plastic"
+      ]
+    },
+    {
+      "path": "option-art/cfa30200bbca065b60932813.svg",
+      "bytes": 844,
+      "sha256": "716dad61dd68db8e6228dbefb489246bd85ef7742196135ed4bed22822daf024",
+      "labels": [
+        "Jug A",
+        "Jug B"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "draftId": "science-g2-unit-03-senses-v0.1",
   "learnerPath": "GRADE_2",
-  "status": "DRAFT_PENDING_REVIEW",
+  "status": "INTEGRATED_PENDING_INDEPENDENT_QA",
   "unit": {
     "unitId": "SCI-G2-U03",
     "title": "Senses and Our Bodies",
@@ -17,31 +17,31 @@
   },
   "lessons": [
     {
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "title": "Five Senses and Sense Organs",
       "skillId": "SCI-G2-SEN-01",
       "objective": "Identify the five senses and connect each sense with the organ that supports it."
     },
     {
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "title": "Hearing and Making Sounds",
       "skillId": "SCI-G2-SEN-02",
       "objective": "Identify sound sources and distinguish loudness from pitch and safe listening."
     },
     {
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "title": "Seeing the World and Colour",
       "skillId": "SCI-G2-SEN-03",
       "objective": "Describe how eyes and light support sight and recognise simple colour relationships."
     },
     {
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "title": "Touch and Texture",
       "skillId": "SCI-G2-SEN-04",
       "objective": "Use touch vocabulary to compare familiar safe surfaces and recognise unsafe contact."
     },
     {
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "title": "Taste and Smell Safely",
       "skillId": "SCI-G2-SEN-05",
       "objective": "Distinguish taste from smell and choose safe actions around unfamiliar foods and substances."
@@ -51,7 +51,7 @@
   "activities": [
     {
       "activityId": "aas2-g2-sci-u03-001",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -77,13 +77,13 @@
         "c": "Taste is not used to hear sounds."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M01",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -96,11 +96,15 @@
         "c": "content/staging/media/science-g2/speech/c17193dc045b1f8eeafd2ed093d8d77967f11f75822655fdb5c1e7a8d84b307e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/fb5f50d3a35eb31fabf5cc7f6c6ac29852f429330af1cecf067b7bb5b1f30cf5.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/2c1006392bd6cdae88dcee98fd0ede463f5d6311fc9f459d6fe8f1d8c0b6ec4b.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/2c1006392bd6cdae88dcee98fd0ede463f5d6311fc9f459d6fe8f1d8c0b6ec4b.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-002",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -126,13 +130,13 @@
         "c": "Hands help us touch and feel surfaces."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M02",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -145,11 +149,15 @@
         "c": "content/staging/media/science-g2/speech/d943141ad61078b0edfcc16e2aa9bcf5d695ffd03e505c2ba6b9572960defd6e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/003ec24d540c9038abe4da460e04aa91b8cb90adfd9e8d2f3e35f3e77180150c.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/ff470caa697436bac997ab96f66be6ad54f1a5b55f5c912c9825b5cfdbf4001e.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/ff470caa697436bac997ab96f66be6ad54f1a5b55f5c912c9825b5cfdbf4001e.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-003",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -175,13 +183,13 @@
         "c": "The nose detects smells."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M03",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -194,11 +202,15 @@
         "c": "content/staging/media/science-g2/speech/824bce7134254863380c4628df6896fa906bec855e752b1e9fc2a70b0adfc9b2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/2c89aea74c096ae8719b20af754ffebba9e5f7d9e706519548b98365bf028b4b.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/f74fe79e23ca7a19c2e3bceb66cd0fdc0c6feab329d69f4ad00d7c09e5690e14.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/f74fe79e23ca7a19c2e3bceb66cd0fdc0c6feab329d69f4ad00d7c09e5690e14.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-004",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -224,13 +236,13 @@
         "c": "Ears detect sound."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M04",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -243,11 +255,15 @@
         "c": "content/staging/media/science-g2/speech/51e3b72303ec9e5fee97a3d282a08993d239186ac344135c29707b3348fe21b7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/b46ee3e96263f7bf7305ba68b76245985df19132cfa1a21e87b1f02e7ae6233c.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/1aa5e26bbc5b70f77b6a7c0d91256f4bc67abb6a766d31e1db30f24f1aa159c7.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/1aa5e26bbc5b70f77b6a7c0d91256f4bc67abb6a766d31e1db30f24f1aa159c7.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-005",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -273,13 +289,13 @@
         "c": "Taste helps us notice flavours such as sourness."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M05",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or a familiar food example; never require tasting.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -292,11 +308,15 @@
         "c": "content/staging/media/science-g2/speech/4c30c7d2b859dca4310f8be5ee2730c56c3539e9fb1d66a23ba3891028248e08.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/ea7bbe47eb285a32e8ff2dc28daf85548e25806a1d8deb05cfaafb1ef7cad37f.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/a09df2b7b350dd7e24c20ac6538ae2b083da11707b4e7dc97de02d0e16f685cc.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/a09df2b7b350dd7e24c20ac6538ae2b083da11707b4e7dc97de02d0e16f685cc.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-006",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -322,13 +342,13 @@
         "c": "The nose detects smells, not touch."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M06",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -341,11 +361,15 @@
         "c": "content/staging/media/science-g2/speech/7ba13774b8e0c5a4f82ddb45a94b07fec360df88ed98858019674b328933649e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/c1075447642753e566f9f03f8d3cdba34632a3fb80387de94506fd5505531a3f.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/50d5f2e548225c3b1b0e7d37b527daa91219abfd703133d5f9b1d60ee28a8a36.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/50d5f2e548225c3b1b0e7d37b527daa91219abfd703133d5f9b1d60ee28a8a36.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-007",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -371,13 +395,13 @@
         "c": "Hearing notices thunder and sight notices the flash."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M07",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -390,11 +414,15 @@
         "c": "content/staging/media/science-g2/speech/dc6c5e7e28f8c90bbf5c5fb277a47e39f8be8189b104afa8eb685e9cf2ad800d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/c3b880f0ebc4380cae3ca2faa4d1c4a74bc5b447d54672049dfeb28cb3934ed7.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/684e50020aa355c7ca9efe961e4121c9240411aad0c8a1e1f5e394a2a9d00856.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/684e50020aa355c7ca9efe961e4121c9240411aad0c8a1e1f5e394a2a9d00856.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-008",
-      "lessonId": "SCI-G2-U03-L01",
+      "lessonId": "SCI-G2-U03-L1",
       "skillId": "SCI-G2-SEN-01",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -420,13 +448,13 @@
         "c": "Hearing detects sounds."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M08",
-      "assessmentPhase": "retrieval",
+      "assessmentPhase": "DELAYED_REVIEW",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use only a safe, room-temperature object; do not use hot liquids.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -439,11 +467,16 @@
         "c": "content/staging/media/science-g2/speech/625d52014fde2ef700f1fe9aab049c7e63f6e2936461bf6f74baab44f309d1c7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/a2c545f1e7b8a7f58a41aef2a29c1b0553450533e157d60354b76a643a67d372.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/14617bb9b719e0c1244b03dd8ec5db8dd1703ec2a8a873082bdd7b8a1102ca04.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/14617bb9b719e0c1244b03dd8ec5db8dd1703ec2a8a873082bdd7b8a1102ca04.ogg",
+      "originalAssessmentPhase": "RETRIEVAL",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-009",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -469,13 +502,13 @@
         "c": "The band does not turn into a liquid."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M09",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -488,11 +521,15 @@
         "c": "content/staging/media/science-g2/speech/cc2e505b546a2d65ed9da52d680b8d036adb7fb44edffeb7ba613106cdd87c6d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/852e58244add432c949d38e15e06850eae73c2892e7f02181de25c185566e878.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/089c1b8bfa062f28d564eee5ccde9c056110080881b58f116e22f81a7ecf0f76.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/089c1b8bfa062f28d564eee5ccde9c056110080881b58f116e22f81a7ecf0f76.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-010",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -518,13 +555,13 @@
         "c": "Gentle rustling is usually quiet."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M10",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -537,11 +574,15 @@
         "c": "content/staging/media/science-g2/speech/3bbe39300d7a448b34280fbe2f2e63c0875385812d20a933a904be09da185bbc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/2e8452664a81d1cb6c214b4978a1e3812ce81e828463e82d9242a6b45bc1cf9a.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/e34d2c64107bc83b17f3cff651a03e6b5c875810287041aa2425dd7563393a27.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/e34d2c64107bc83b17f3cff651a03e6b5c875810287041aa2425dd7563393a27.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-011",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -567,13 +608,13 @@
         "c": "A small bird's chirp is usually high-pitched."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M11",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -586,11 +627,15 @@
         "c": "content/staging/media/science-g2/speech/c7d96fe3e1d6a91c25d4bbff93218ba124f865ae070114bc24a51230788d6b5c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/61547e2df184505fcaa517a4a6c6b616e335496545fb0454bd39a6e2f2c27138.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/a683a6b6a4264d8d121294eaacdd5450e912eb60d1c21467d5dfc78b5ba1906c.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/a683a6b6a4264d8d121294eaacdd5450e912eb60d1c21467d5dfc78b5ba1906c.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-012",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -616,13 +661,13 @@
         "c": "A case sitting still does not make the note."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M12",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -635,11 +680,15 @@
         "c": "content/staging/media/science-g2/speech/c28ee85c02eca3284ba271999d6b06d65e5c1f157104638e5f02dab29ce65d74.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/82853d87b3620586239d481d9edc3531b37ed8a5b7409ff21e0be2c1ab057671.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/78010a4a0bf72803fdc3656366848baeac6067a684389835c02ea1dd29e624d8.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/78010a4a0bf72803fdc3656366848baeac6067a684389835c02ea1dd29e624d8.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-013",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -665,13 +714,13 @@
         "c": "A whistle is usually high-pitched."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M13",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -684,11 +733,15 @@
         "c": "content/staging/media/science-g2/speech/b7ab8b940e4f940d0241bfa3d7d5d3a792cd19b16c704a3bea31e4f36337153c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/eeb9d72f424c39215197691e4d436b5ede4839241c052a0f8b53d0774e3a2743.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/40a3ff6dce2a84f939f410c7071d26ad4c19e1a0aad83045e8c5ac69b0ff1afc.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/40a3ff6dce2a84f939f410c7071d26ad4c19e1a0aad83045e8c5ac69b0ff1afc.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-014",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -714,13 +767,13 @@
         "c": "The sound usually seems quieter as distance increases."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M14",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -733,11 +786,15 @@
         "c": "content/staging/media/science-g2/speech/6573b3ac5da9abe235f9544d793820ad3541d90b8b34c877c3e347b523655ebe.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/c9c00f2e6ec46f0746954e5313144497522d47dd93b8e61fc62d98c27b20c0b6.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/3b450aca06a64ca882dc4f1364b9527ff6aa6d889addd8135d525b15331aa722.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/3b450aca06a64ca882dc4f1364b9527ff6aa6d889addd8135d525b15331aa722.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-015",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -763,13 +820,13 @@
         "c": "Turning the sound up makes it louder."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M15",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Keep all demonstrations at a safe volume.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -782,11 +839,15 @@
         "c": "content/staging/media/science-g2/speech/5ce1baec917bde3b61a3f5c541b4290f99df036eef8f3b954ee2bb4550695233.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/ce7966bc7a333e06156f62e9988523b6ce9d7896b3d55805351a25d2af5a8e6f.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/60a31b55ab9235bf73757bf61a580155e5efacda8d96dfc883ca5f41031785e1.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/60a31b55ab9235bf73757bf61a580155e5efacda8d96dfc883ca5f41031785e1.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-016",
-      "lessonId": "SCI-G2-U03-L02",
+      "lessonId": "SCI-G2-U03-L2",
       "skillId": "SCI-G2-SEN-02",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -812,13 +873,13 @@
         "c": "Pitch and loudness describe different features of sound."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M16",
-      "assessmentPhase": "retrieval",
+      "assessmentPhase": "DELAYED_REVIEW",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -831,11 +892,16 @@
         "c": "content/staging/media/science-g2/speech/918e64b114eb2670a5f6afb9e70d305b8f678e39278d0d12a3763b2671e4e00f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/d060627bcfeaf2c2deb562668c02b3e2431f057407c9db7740df7ec4d8ec5c20.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/1ba32e9e1739993a8bfd3a531cd56389ff98bb54bef22e8020cd3ca6951946a0.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/1ba32e9e1739993a8bfd3a531cd56389ff98bb54bef22e8020cd3ca6951946a0.ogg",
+      "originalAssessmentPhase": "RETRIEVAL",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-017",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -861,13 +927,13 @@
         "c": "Smell and taste do not allow us to see an object."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M17",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -880,11 +946,15 @@
         "c": "content/staging/media/science-g2/speech/eb5729d51a3de1b33d9b5ae01a4f2a1411a8ef464df66f09fce0d98574738ddc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/423f927dbbda4233a85f90df3dd4947870241eca1c98d045b01a27ddfcb33f28.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/f5af5222471f7c57ad6c49f3df3a4575872eb3ea206ba92234f353171201e16e.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/f5af5222471f7c57ad6c49f3df3a4575872eb3ea206ba92234f353171201e16e.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-018",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -910,13 +980,13 @@
         "c": "Purple is not the usual colour of a ripe banana."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M18",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -929,11 +999,15 @@
         "c": "content/staging/media/science-g2/speech/3fe4dbaf43efaaaa4e68d72ab99b87eb19651057b707273194da2da13367559a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/7193f76639b58f81fec9f68070bbb3ec63c564be01c6799eae9553b04a9b040a.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/18b884c915f865c7e75503e4a9c4d03b4ec3544c830dcd0845583024122fa8aa.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/18b884c915f865c7e75503e4a9c4d03b4ec3544c830dcd0845583024122fa8aa.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-019",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -959,13 +1033,13 @@
         "c": "Red and yellow paint usually make orange."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M19",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -978,11 +1052,15 @@
         "c": "content/staging/media/science-g2/speech/ce2d7e29c213728de81b6591416a375f61334b0f4b5a71633fd68b575bd024ea.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/ebf7c12c3ea0d89f53e6aea234c740a7f43aea836199071606dae154c0157a42.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/4e4739d2dd1883808b9602bce8358ab23d62f119085f364c0cc545f9c64f720d.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/4e4739d2dd1883808b9602bce8358ab23d62f119085f364c0cc545f9c64f720d.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-020",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1008,13 +1086,13 @@
         "c": "Red is not the usual result of mixing blue and yellow paint."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M20",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1027,11 +1105,15 @@
         "c": "content/staging/media/science-g2/speech/badcc2ed79b9a64276c1eb777bf6ededa870ee6be0419cd8a7dc5dc4db3e6afd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/c52ebdc290ba3080e59d82bcc60b0ada2b4ae08dd4f7575ddd5fba9446887a69.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5febb2883aa1d81114cc90d51e1578cdf20c6a0277085f69411bb5e5a3d6c8ec.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5febb2883aa1d81114cc90d51e1578cdf20c6a0277085f69411bb5e5a3d6c8ec.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-021",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1057,13 +1139,13 @@
         "c": "A magnifying glass makes looking at the Sun even more dangerous."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M21",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never ask a child to look directly at the Sun.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1076,11 +1158,15 @@
         "c": "content/staging/media/science-g2/speech/3c49e9a85f44c7f73b5f9f82a55aec4664afd0c65e73b5462d39c2ac34ac3349.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/bf310205cc32086286537931faea627335e9d355f147a5bad44ca616e9915cb0.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/bba09fa397553fb04423d5f2bdea9b6950e19b476f3e3a217fde686a7eba471d.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/bba09fa397553fb04423d5f2bdea9b6950e19b476f3e3a217fde686a7eba471d.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-022",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1106,13 +1192,13 @@
         "c": "Blinking spreads tears and helps protect the surface of the eye."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M22",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1125,11 +1211,15 @@
         "c": "content/staging/media/science-g2/speech/2cd1a8eb3bcad1dd41458318593730cc55f1d66d8eb7b3aea12c1d92c72d99f3.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/231758b21fb6e47d021d5f40006afeaff06d75cf0340b37d4fd09dcc624c87c4.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c83eb9241b1b99172bce945538eaed0df18c1fe9d950ae65aa72b2c659090e6e.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c83eb9241b1b99172bce945538eaed0df18c1fe9d950ae65aa72b2c659090e6e.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-023",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1155,13 +1245,13 @@
         "c": "A closed book blocks light."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M23",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1174,11 +1264,15 @@
         "c": "content/staging/media/science-g2/speech/cdbf8a1be1bdce7077acd3fe07b2c35288158363f907fc599b163b343a9bdd8e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/f4ac788abe376c1c74c486e1167351a9d116beb2aaf0e60dbcf2a26f62e679d7.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/14d2739cd8fca1b45c0e819a87fecd473fad3534bfda590369a267e675d56c72.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/14d2739cd8fca1b45c0e819a87fecd473fad3534bfda590369a267e675d56c72.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-024",
-      "lessonId": "SCI-G2-U03-L03",
+      "lessonId": "SCI-G2-U03-L3",
       "skillId": "SCI-G2-SEN-03",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1204,13 +1298,13 @@
         "c": "Gentle blinking and adult help are safer than rubbing or using objects."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M24",
-      "assessmentPhase": "retrieval",
+      "assessmentPhase": "DELAYED_REVIEW",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Do not place objects, liquids or fingers into the eye.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1223,11 +1317,16 @@
         "c": "content/staging/media/science-g2/speech/7e6b69b7ca3eba0dc344b63a62efae58976df39f4cad622802a24e676818a377.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/e6958ece006efb778522b36a54569e295863069f39b451d754c67b1a30ea07cd.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8b26e81fa27a5a3440dbc160a83080296fff1bc6ec3883ef3588e0e10bbf96a0.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8b26e81fa27a5a3440dbc160a83080296fff1bc6ec3883ef3588e0e10bbf96a0.ogg",
+      "originalAssessmentPhase": "RETRIEVAL",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-025",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1253,13 +1352,13 @@
         "c": "Wet describes whether something has water on it, not its texture."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M25",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1272,11 +1371,15 @@
         "c": "content/staging/media/science-g2/speech/92f9a2287d83b40531c39bf80e7a55d02f1a4afa68a91acfeb7bc1523a825b18.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/f784b0c5091f45749557039ae5a7f2858ff072a6948ad02c364d086af099d290.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/64205b855caa80aeb3741447a49e13ae384bc79ac9bb045a7510a172c739092c.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/64205b855caa80aeb3741447a49e13ae384bc79ac9bb045a7510a172c739092c.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-026",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1302,13 +1405,13 @@
         "c": "Cotton wool usually feels soft."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M26",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1321,11 +1424,15 @@
         "c": "content/staging/media/science-g2/speech/358858539223a20f71b719eced4d1a58fed0fab667d8520781f513a2d234348d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/67ee75ac37af7bcd33808bfac164250c185edc175aa8c4f62a78fccc190086ae.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/40da6b6b86f058134ca6f09b5427bbead7357087371614786d221f4553d5c385.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/40da6b6b86f058134ca6f09b5427bbead7357087371614786d221f4553d5c385.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-027",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1351,13 +1458,13 @@
         "c": "Smell detects odours."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M27",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1370,11 +1477,15 @@
         "c": "content/staging/media/science-g2/speech/3817ff9d1ecc18240b6ba1fd65ec732a76beed050964b88cf8c89d96ba21a251.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/b4b9d96280e8483dc2ad7b4666a54c1a5429684f318e88a15ae35b836b902f67.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/ec83f321da8814500db68cbce12c3144a3dffd48063834bbd0efb9a3cf307bb0.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/ec83f321da8814500db68cbce12c3144a3dffd48063834bbd0efb9a3cf307bb0.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-028",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1400,13 +1511,13 @@
         "c": "A smooth plastic ruler is usually smooth."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M28",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1419,11 +1530,15 @@
         "c": "content/staging/media/science-g2/speech/d62fee7448565bf1cdd77f1dd2a336f202a2f6d0b05c1c3cd443426dd36d6529.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/f0df2131f1995290d7667efdd037b4ea4da516ba049cd89c6329ac762770d67a.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/4eeb3cb43e551d2e20aa98f9d2b865795cbc6328aa7ae4e7ce47b272489859eb.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/4eeb3cb43e551d2e20aa98f9d2b865795cbc6328aa7ae4e7ce47b272489859eb.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-029",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1449,13 +1564,13 @@
         "c": "Smooth describes a surface with little roughness."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M29",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1468,11 +1583,15 @@
         "c": "content/staging/media/science-g2/speech/a8d4aad01f8fd37f951f031583d1a83be3eae7ca5e3a16996528339c21f491d8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/9f04ad624cef45d29cee71c099f563c6e0e1abbd2550dd2a0202b668a3de688b.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/0d00476d63c1d4a013b28b037a23f5d5b5245a4a767714199c50c3aea41daf98.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/0d00476d63c1d4a013b28b037a23f5d5b5245a4a767714199c50c3aea41daf98.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-030",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1498,13 +1617,13 @@
         "c": "Smell does not tell you whether a surface is rough or smooth."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M30",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use only clean, familiar objects; do not touch unknown substances.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1517,11 +1636,15 @@
         "c": "content/staging/media/science-g2/speech/bb2d50597c781da206473364a16c2f9dcda6718906ba1b4aa2b11e1a9d8c8fcc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/17fddc34a3282f3ac97f03558586ec066f7834e81f4a7cb182a2ff99babbd366.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/afff2ccc1e4e84b5f6b48950ac2a4cc77cc6f661b5ccaa002ac7ff27f9d8afb7.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/afff2ccc1e4e84b5f6b48950ac2a4cc77cc6f661b5ccaa002ac7ff27f9d8afb7.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-031",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1547,13 +1670,13 @@
         "c": "Rubbing an unknown insect on skin is unsafe."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M31",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never ask children to touch unknown insects.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1566,11 +1689,15 @@
         "c": "content/staging/media/science-g2/speech/d18fa63f7b1cec63cd16608573cad9c51c8949c4c0b15d41d47dc669fdb7ac92.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/91b551c3f5e631509dcf8d58ddeefec2978b11f2a4eaa7aa3853233212470a5b.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8b9a31697a013d66d428ba569b1f5554c904b5b080a2771d3ad7f6e02d6176ac.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8b9a31697a013d66d428ba569b1f5554c904b5b080a2771d3ad7f6e02d6176ac.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-032",
-      "lessonId": "SCI-G2-U03-L04",
+      "lessonId": "SCI-G2-U03-L4",
       "skillId": "SCI-G2-SEN-04",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1596,13 +1723,13 @@
         "c": "Cold describes temperature."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M32",
-      "assessmentPhase": "retrieval",
+      "assessmentPhase": "DELAYED_REVIEW",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1615,11 +1742,16 @@
         "c": "content/staging/media/science-g2/speech/38c706190d7623ef099692a8223dd88a0721af08150da41fb4b164bbc10ec78d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/632cc622344f26fd945e406f1888193c14ba1b81b1aab6807c963546cdabca55.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c75cd57532fc6e5d14b6176af70b3996179a0b6ea24b36b8f918abab2ad73f02.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c75cd57532fc6e5d14b6176af70b3996179a0b6ea24b36b8f918abab2ad73f02.ogg",
+      "originalAssessmentPhase": "RETRIEVAL",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-033",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1645,13 +1777,13 @@
         "c": "Eyes help us see."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M33",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1664,11 +1796,15 @@
         "c": "content/staging/media/science-g2/speech/7ab16e44e7f24a4c7efe63b48ac2a2c099e578a7cf2dd88f073cd1b8a1a44d26.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/665fc76f03560e597f4d52852bdfb5b55ce1ae5caa6b80358261d3024f6ffc8f.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/731dbaa5690a6679020586bc228642a3c37da8ed80f19efa55d062b3fcb8b00d.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/731dbaa5690a6679020586bc228642a3c37da8ed80f19efa55d062b3fcb8b00d.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-034",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1694,13 +1830,13 @@
         "c": "The tongue helps us notice tastes."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M34",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1713,11 +1849,15 @@
         "c": "content/staging/media/science-g2/speech/84916437119f1754965675268ae282ba0d87280799a2cf539cbaab763b130a97.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/6a3fa11a7cca2a63dd9833a315ada1ce7cb4a5d2e57ee42bc97688edcbc0dc21.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/111cad60b173ffee0b0b39d0976bd4feef165582a06cf0fd682b6a73dbcf7121.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/111cad60b173ffee0b0b39d0976bd4feef165582a06cf0fd682b6a73dbcf7121.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-035",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1743,13 +1883,13 @@
         "c": "Bitter is not the usual description of lemon taste."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M35",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or discussion; tasting is never required.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1762,11 +1902,15 @@
         "c": "content/staging/media/science-g2/speech/8973108441064a71c2dd18af3b8f3dca7e32ebcc31df760e262b4f97d51aa7db.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/e95ef9948407fc53e441c1b2bea38e9dd46ac80e8a920cb76ff8a618dea97923.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c61cdfb61d084ae1a215308b198c6d41c7eda68af5c2efd7abbcf2a69d5711a0.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/c61cdfb61d084ae1a215308b198c6d41c7eda68af5c2efd7abbcf2a69d5711a0.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-036",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1792,13 +1936,13 @@
         "c": "Not eating an unknown berry and asking an adult is safest."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M36",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Never taste unknown plants, berries or substances.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1811,11 +1955,15 @@
         "c": "content/staging/media/science-g2/speech/5682bcee1afdc03cb45810039f105c51ecbe1f7296f4ea7f09e4779c6b62d4f6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/0db5eff743f544e0274fbb4769b15542fef133889eb30d7d47df525e053812e6.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/6601de44992ff2c823ccb7f76d310768b477b76a75f26e097be299a797c8afa6.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/6601de44992ff2c823ccb7f76d310768b477b76a75f26e097be299a797c8afa6.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-037",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1841,13 +1989,13 @@
         "c": "Touching unknown objects may cause burns."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M37",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Do not approach smoke, flames or hot objects.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1860,11 +2008,15 @@
         "c": "content/staging/media/science-g2/speech/fea6c3ad0ac2cab1ea750cfbd0ce543137e485b2fc10614ea74d351c03ec9845.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/938b5a08e651203190307a94d1e6c41cb16db0fc35dc007ad95f6f5931094a0e.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/61c61d205ed3c68769ab5876efe76042446177b74e127b6fc1d04b302aa2e07e.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/61c61d205ed3c68769ab5876efe76042446177b74e127b6fc1d04b302aa2e07e.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-038",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1890,13 +2042,13 @@
         "c": "A pleasant smell does not prove food is safe or free from allergens."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M38",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": null,
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1909,11 +2061,15 @@
         "c": "content/staging/media/science-g2/speech/dc006f26aa83db24089423805023425b0d0bdb5fcdb176433b6740408008c90c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/f45e5d05dd1228f1bf8085dcce46357d1bd9f90090f8c21810180078424fd747.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8fe79e9a3de2a003f2fe997ee33480b46ed6aa648631f520074ec9698d472d97.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/8fe79e9a3de2a003f2fe997ee33480b46ed6aa648631f520074ec9698d472d97.ogg",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-039",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1939,13 +2095,13 @@
         "c": "Smell detects its odour and taste detects its flavour."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M39",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Use a picture or familiar food example; do not require tasting.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
       "reviewStatus": "REVISED_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -1959,11 +2115,15 @@
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/fca3132c00d080c9809cd5feb145ef69dda5f7abe7e9d0275126a01b1d94951b.ogg",
       "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/5313bda9055227167c8a4b77794088bb22172447b0c13c5c2c40c47e04c619dd.ogg",
-      "audioRegenerationNote": "Prompt audio was regenerated in the 432-file Science U03–U05 staging batch; transcript and playback QA remain pending."
+      "audioRegenerationNote": "Prompt audio was regenerated in the 432-file Science U03–U05 staging batch; transcript and playback QA remain pending.",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     },
     {
       "activityId": "aas2-g2-sci-u03-040",
-      "lessonId": "SCI-G2-U03-L05",
+      "lessonId": "SCI-G2-U03-L5",
       "skillId": "SCI-G2-SEN-05",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
@@ -1989,13 +2149,13 @@
         "c": "Ignoring a possible reaction is unsafe."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M40",
-      "assessmentPhase": "retrieval",
+      "assessmentPhase": "DELAYED_REVIEW",
       "difficulty": 2,
       "difficultyStatus": "PROVISIONAL",
       "safetyNote": "Food examples must allow a no-taste alternative and adult help.",
       "assetStatus": "STAGED_ORIGINAL_SVG_PENDING_RENDER_QA",
-      "reviewStatus": "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW",
-      "runtimeStatus": "NOT_INTEGRATED",
+      "reviewStatus": "INTEGRATED_PENDING_INDEPENDENT_QA",
+      "runtimeStatus": "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA",
       "bookId": "macmillan-science-level2",
       "unitId": "SCI-G2-U03",
       "audioStatus": "STAGED_GENERATED_PENDING_TRANSCRIPT_AND_PLAYBACK_QA",
@@ -2008,12 +2168,17 @@
         "c": "content/staging/media/science-g2/speech/98dc464b13400ea12fe6c321aff3be6978da80abeb02ecca12dc6c886eb5c82a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "content/staging/media/science-g2/speech/58e1b1cc8b9259fd81d2ffa3fc4022a5d8df1b336403715fe2becf056f53de33.ogg",
-      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/0d036c0b07134f3524b49559eca468e76ff4dba97195c5a76752a4b4487aeed3.ogg"
+      "feedbackIncorrectAudioAssetPath": "content/staging/media/science-g2/speech/0d036c0b07134f3524b49559eca468e76ff4dba97195c5a76752a4b4487aeed3.ogg",
+      "originalAssessmentPhase": "RETRIEVAL",
+      "runtimeAssetStatus": "PENDING_RUNTIME_RENDER",
+      "runtimeAudioStatus": "PENDING_RUNTIME_AUDIO",
+      "runtimeFeedbackCorrect": "Well done!",
+      "runtimeFeedbackIncorrect": "Nice try. Keep going!"
     }
   ],
   "releaseGate": {
-    "runtimeIntegrated": false,
-    "mediaGenerated": true,
+    "runtimeIntegrated": true,
+    "mediaGenerated": false,
     "independentScienceReview": false,
     "pedagogyReview": false,
     "languageReview": false,
@@ -2021,5 +2186,9 @@
     "contentValidation": false,
     "androidCi": false
   },
-  "audioManifestPath": "content/staging/media/science-g2/speech/manifest.json"
+  "audioManifestPath": "content/staging/media/science-g2/speech/manifest.json",
+  "summary": {
+    "runtimeMapped": 40
+  },
+  "packVersion": "0.4.8"
 }

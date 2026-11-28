@@ -71,18 +71,18 @@ jobs:
           BRANCH="delivery/apk-debug-${GITHUB_RUN_NUMBER}-${GITHUB_SHA:0:8}"
           DIR="$RUNNER_TEMP/aas2-delivery"
           mkdir -p "$DIR"
-          cp app/build/outputs/apk/debug/app-debug.apk "$DIR/Ali-Aboudy-Scholars-2-debug.apk"
+          cp app/build/outputs/apk/debug/app-debug.apk "$DIR/Ali-Aboudy-Scholars-2-v0.2.0-debug.apk"
           cd "$DIR"
           git init -b "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           sha256sum *.apk > SHA256SUMS.txt
-          printf '%s\n' "Ali & Aboudy Scholars 2" "Debug APK for device testing; not a production-signed release." "Version: 0.1.0 (1)" "Application ID: com.asimalimikial.aas2" "Source branch: ${GITHUB_REF_NAME}" "Source commit: ${GITHUB_SHA}" "Workflow run: ${GITHUB_RUN_ID}" "APK bytes: ${APK_BYTES}" "SHA-256: ${APK_SHA}" > README.txt
+          printf '%s\n' "Ali & Aboudy Scholars 2" "Debug APK for device testing; not a production-signed release." "Version: 0.2.0 (3)" "Application ID: com.asimalimikial.aas2" "Source branch: ${GITHUB_REF_NAME}" "Source commit: ${GITHUB_SHA}" "Workflow run: ${GITHUB_RUN_ID}" "APK bytes: ${APK_BYTES}" "SHA-256: ${APK_SHA}" > README.txt
           git add .
           git commit -m "Deliver AAS2 debug APK"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin "HEAD:refs/heads/${BRANCH}"
-          echo "Download: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH}/Ali-Aboudy-Scholars-2-debug.apk" >> "$GITHUB_STEP_SUMMARY"
+          echo "Download: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH}/Ali-Aboudy-Scholars-2-v0.2.0-debug.apk" >> "$GITHUB_STEP_SUMMARY"
           echo "SHA-256: ${APK_SHA}" >> "$GITHUB_STEP_SUMMARY"
 
 # Workflow activation commit: execute on the next foundation branch push.

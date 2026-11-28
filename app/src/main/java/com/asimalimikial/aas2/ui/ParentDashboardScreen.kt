@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -15,6 +16,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -41,6 +43,8 @@ import com.asimalimikial.aas2.data.LearnerProfileEntity
 import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.learning.LearnerProgressCalculator
+import com.asimalimikial.aas2.learning.MasteryLevel
+import com.asimalimikial.aas2.learning.ReviewQueueCalculator
 import kotlinx.coroutines.CancellationException
 
 /** Read-only parent view of one learner's locally stored progress. */
@@ -103,6 +107,43 @@ fun ParentDashboardScreen(
     }
     val summary = remember(profile.learnerId, attempts) {
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
+    }
+
+    val packActivities = remember(loadedPack) { loadedPack?.activities.orEmpty() }
+    val packActivityById = remember(packActivities) { packActivities.associateBy { it.activityId } }
+    val packAttempts = remember(attempts, packId) {
+        attempts.filter { it.contentPackId == packId && it.isCorrect != null }
+    }
+    val attemptedActivityIds = remember(packAttempts) { packAttempts.map { it.activityId }.toSet() }
+    val startedLessonIds = remember(packActivityById, attemptedActivityIds) {
+        attemptedActivityIds.mapNotNull { packActivityById[it]?.lessonId }.toSet()
+    }
+    val practicedSkillIds = remember(packAttempts) { packAttempts.map { it.skillId }.toSet() }
+    val recentAttempts = remember(packAttempts) {
+        val cutoff = System.currentTimeMillis() - 7L * 24L * 60L * 60L * 1000L
+        packAttempts.filter { it.createdAtEpochMillis >= cutoff }
+    }
+    val recentCorrect = remember(recentAttempts) { recentAttempts.count { it.isCorrect == true } }
+    val reviewActivities = remember(loadedPack, packAttempts, profile.learnerId, packId) {
+        if (loadedPack == null || packId == null) emptyList() else
+            ReviewQueueCalculator.activitiesNeedingReview(
+                learnerId = profile.learnerId,
+                contentPackId = packId,
+                activities = ContentPackSelectionPolicy.englishActivities(loadedPack),
+                attempts = packAttempts
+            )
+    }
+
+    val guidedTasks = remember(loadedPack) { loadedPack?.guidedTasks.orEmpty() }
+    val guidedTaskIds = remember(guidedTasks) { guidedTasks.map { it.activityId }.toSet() }
+    val guidedTaskAttempts = remember(attempts, packId, guidedTaskIds) {
+        attempts.filter { it.contentPackId == packId && it.activityId in guidedTaskIds && it.isCorrect == null }
+    }
+    val completedGuidedTaskIds = remember(guidedTaskAttempts) {
+        guidedTaskAttempts.map { it.activityId }.toSet()
+    }
+    val latestGuidedTaskObservations = remember(guidedTaskAttempts) {
+        guidedTaskAttempts.groupBy { it.activityId }.mapValues { (_, entries) -> entries.last().feedbackText }
     }
 
     BackHandler(onBack = onExit)
@@ -173,6 +214,104 @@ fun ParentDashboardScreen(
                             ),
                             style = MaterialTheme.typography.bodyMedium
                         )
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    stringResource(
+                                        R.string.parent_dashboard_activities_started,
+                                        attemptedActivityIds.size,
+                                        packActivities.size
+                                    ),
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                            }
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    stringResource(
+                                        R.string.parent_dashboard_lessons_started,
+                                        startedLessonIds.size,
+                                        loadedPack.lessons.size
+                                    ),
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                            }
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    stringResource(
+                                        R.string.parent_dashboard_skills_practised,
+                                        practicedSkillIds.size,
+                                        loadedPack.skills.size
+                                    ),
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                            }
+                        }
+                        Text(
+                            stringResource(
+                                R.string.parent_dashboard_recent_week,
+                                recentAttempts.size,
+                                recentCorrect
+                            ),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+
+                if (guidedTasks.isNotEmpty()) {
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(22.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color.White)
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(18.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Text(
+                                stringResource(
+                                    R.string.parent_guided_tasks_completed,
+                                    completedGuidedTaskIds.size,
+                                    guidedTasks.size
+                                ),
+                                style = MaterialTheme.typography.titleMedium
+                            )
+                            guidedTasks.filter { it.activityId in completedGuidedTaskIds }.forEach { task ->
+                                Text(task.title, style = MaterialTheme.typography.bodyMedium)
+                                latestGuidedTaskObservations[task.activityId]?.takeIf { it.isNotBlank() }?.let { note ->
+                                    Text(note, style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (reviewActivities.isNotEmpty()) {
+                    Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color.White)) {
+                        Column(
+                            modifier = Modifier.padding(18.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Text(
+                                stringResource(R.string.parent_review_title, reviewActivities.size),
+                                style = MaterialTheme.typography.titleLarge
+                            )
+                            reviewActivities.forEach { activity ->
+                                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                    Text(activity.prompt, style = MaterialTheme.typography.titleMedium)
+                                    val correctAnswer = activity.options.firstOrNull {
+                                        it.optionId == activity.correctOptionId
+                                    }?.text.orEmpty()
+                                    Text(
+                                        stringResource(R.string.parent_review_correct_answer, correctAnswer),
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.primary
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -196,18 +335,29 @@ fun ParentDashboardScreen(
                                     skill.observableOutcome,
                                     style = MaterialTheme.typography.titleMedium
                                 )
-                                if (progress.scoredAttempts == 0) {
-                                    Text(
-                                        stringResource(R.string.parent_skill_not_assessed),
-                                        style = MaterialTheme.typography.bodySmall,
-                                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                                Text(
+                                    stringResource(
+                                        when (progress.masteryLevel) {
+                                            MasteryLevel.NOT_STARTED -> R.string.parent_mastery_not_started
+                                            MasteryLevel.PRACTICING -> R.string.parent_mastery_practising
+                                            MasteryLevel.DEVELOPING -> R.string.parent_mastery_developing
+                                            MasteryLevel.MASTERED -> R.string.parent_mastery_mastered
+                                        }
+                                    ),
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = MaterialTheme.colorScheme.primary
+                                )
+                                if (progress.scoredAttempts > 0) {
+                                    LinearProgressIndicator(
+                                        progress = { progress.accuracyPercent / 100f },
+                                        modifier = Modifier.fillMaxWidth()
                                     )
-                                } else {
                                     Text(
                                         stringResource(
-                                            R.string.parent_skill_attempt_summary,
+                                            R.string.parent_skill_detailed_summary,
                                             progress.scoredAttempts,
                                             progress.correctAttempts,
+                                            progress.incorrectAttempts,
                                             progress.accuracyPercent
                                         ),
                                         style = MaterialTheme.typography.bodySmall,

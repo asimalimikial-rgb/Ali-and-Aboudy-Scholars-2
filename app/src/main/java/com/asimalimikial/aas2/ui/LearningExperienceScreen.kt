@@ -36,12 +36,14 @@ import com.asimalimikial.aas2.R
 import com.asimalimikial.aas2.content.ActivityDefinition
 import com.asimalimikial.aas2.content.BookDefinition
 import com.asimalimikial.aas2.content.ContentPack
+import com.asimalimikial.aas2.content.GuidedTaskDefinition
 import com.asimalimikial.aas2.content.ContentPackRepository
 import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
 import com.asimalimikial.aas2.content.LessonDefinition
 import com.asimalimikial.aas2.content.UnitDefinition
 import com.asimalimikial.aas2.data.LearningAttemptDao
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.GuidedTaskCompletionService
 import kotlinx.coroutines.CancellationException
 
 /** Loads the learner's offline pack and presents a subject → book → unit → lesson catalogue. */
@@ -52,6 +54,8 @@ fun LearningExperienceScreen(
     contentPackRepository: ContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     submissionService: ActivitySubmissionService,
+    guidedTaskCompletionService: GuidedTaskCompletionService,
+    initialDomain: String? = null,
     onExit: () -> Unit
 ) {
     val packId = remember(learnerPathway) {
@@ -67,6 +71,20 @@ fun LearningExperienceScreen(
     var selectedUnitId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
     var selectedLessonId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
     var selectedActivityId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+    var selectedGuidedTaskId by rememberSaveable(packId) { mutableStateOf<String?>(null) }
+
+    LaunchedEffect(initialDomain, contentPack) {
+        selectedDomain = initialDomain
+        selectedBookId = if (initialDomain == null || contentPack == null) null else {
+            contentPack?.books.orEmpty().filter { book ->
+                ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == initialDomain
+            }.singleOrNull()?.bookId
+        }
+        selectedUnitId = null
+        selectedLessonId = null
+        selectedActivityId = null
+        selectedGuidedTaskId = null
+    }
 
     LaunchedEffect(packId) {
         if (packId == null) {
@@ -105,6 +123,18 @@ fun LearningExperienceScreen(
             .toSet()
     }
     val selectedActivity = activities.singleOrNull { it.activityId == selectedActivityId }
+    val guidedTasks = loadedPack?.guidedTasks.orEmpty()
+    val selectedGuidedTask = guidedTasks.singleOrNull { it.activityId == selectedGuidedTaskId }
+    val guidedTaskIds = remember(guidedTasks) { guidedTasks.map { it.activityId }.toSet() }
+    val guidedTaskCompletionAttempts = remember(attempts, packId, guidedTaskIds) {
+        attempts.filter { it.contentPackId == packId && it.activityId in guidedTaskIds && it.isCorrect == null }
+    }
+    val completedGuidedTaskIds = remember(guidedTaskCompletionAttempts) {
+        guidedTaskCompletionAttempts.map { it.activityId }.toSet()
+    }
+    val latestGuidedTaskObservations = remember(guidedTaskCompletionAttempts) {
+        guidedTaskCompletionAttempts.groupBy { it.activityId }.mapValues { (_, entries) -> entries.last().feedbackText }
+    }
     val selectedDomainActivities = selectedDomain?.let(activitiesByDomain::get).orEmpty()
     val selectedBook = loadedPack?.books?.singleOrNull { it.bookId == selectedBookId }
     val selectedUnit = loadedPack?.units?.singleOrNull { it.unitId == selectedUnitId }
@@ -115,12 +145,38 @@ fun LearningExperienceScreen(
     val unitLessons = remember(loadedPack, selectedUnitId) {
         loadedPack?.lessons.orEmpty().filter { it.unitId == selectedUnitId }.sortedBy { it.sequence }
     }
+    val domainBooks = remember(loadedPack, selectedDomain, learnerPathway) {
+        loadedPack?.books.orEmpty().filter { book ->
+            ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == selectedDomain
+        }
+    }
+    val selectedDomainUnassignedActivities = remember(selectedDomainActivities) {
+        selectedDomainActivities.filter { it.bookId == null }
+    }
     val lessonActivities = remember(activities, selectedLessonId) {
         activities.filter { it.lessonId == selectedLessonId }
+    }
+    val selectedBookActivities = remember(activities, selectedBookId) {
+        activities.filter { it.bookId == selectedBookId }
+    }
+    val selectedBookGuidedTasks = remember(guidedTasks, selectedBookId) {
+        guidedTasks.filter { it.bookId == selectedBookId }
+    }
+    val selectedActivitySequence = remember(
+        lessonActivities,
+        selectedDomainUnassignedActivities,
+        selectedLessonId
+    ) {
+        if (selectedLessonId != null) lessonActivities
+        else selectedDomainUnassignedActivities
+    }
+    val selectedActivityPosition = selectedActivitySequence.indexOfFirst {
+        it.activityId == selectedActivityId
     }
 
     fun navigateBack() {
         when {
+            selectedGuidedTaskId != null -> selectedGuidedTaskId = null
             selectedActivityId != null -> selectedActivityId = null
             selectedLessonId != null -> selectedLessonId = null
             selectedUnitId != null -> selectedUnitId = null
@@ -194,10 +250,6 @@ fun LearningExperienceScreen(
             )
         }
 
-        if (!isLoading && !loadError && loadedPack != null && selectedDomain == null && selectedBookId == null && selectedUnitId == null && selectedLessonId == null && selectedActivityId == null) {
-            PersonalBookShelf(learnerPathway = learnerPathway)
-        }
-
         when {
             isLoading -> {
                 Text(stringResource(R.string.loading_content_pack), style = MaterialTheme.typography.bodyLarge)
@@ -211,17 +263,53 @@ fun LearningExperienceScreen(
                 )
             }
 
+            selectedGuidedTask != null -> {
+                Text(
+                    selectedDomain.orEmpty(),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary
+                )
+                GuidedTaskRenderer(
+                    learnerId = learnerId,
+                    contentPack = loadedPack,
+                    task = selectedGuidedTask,
+                    completionService = guidedTaskCompletionService,
+                    isCompleted = selectedGuidedTask.activityId in completedGuidedTaskIds,
+                    existingObservation = latestGuidedTaskObservations[selectedGuidedTask.activityId],
+                    onCompleted = {},
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
+
             selectedActivity != null -> {
                 Text(
                     selectedDomain.orEmpty(),
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.primary
                 )
+                if (selectedActivityPosition >= 0) {
+                    Text(
+                        stringResource(
+                            R.string.activity_sequence_progress,
+                            selectedActivityPosition + 1,
+                            selectedActivitySequence.size
+                        ),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
                 ActivitySession(
                     learnerId = learnerId,
                     contentPack = loadedPack,
                     activity = selectedActivity,
                     submissionService = submissionService,
+                    hasNextActivity = selectedActivityPosition >= 0 &&
+                        selectedActivityPosition < selectedActivitySequence.lastIndex,
+                    onNextActivity = {
+                        selectedActivitySequence.getOrNull(selectedActivityPosition + 1)
+                            ?.let { next -> selectedActivityId = next.activityId }
+                            ?: run { selectedActivityId = null }
+                    },
                     modifier = Modifier.fillMaxWidth()
                 )
             }
@@ -233,25 +321,38 @@ fun LearningExperienceScreen(
                         index = index + 1,
                         activity = activity,
                         isPractised = activity.activityId in practicedActivityIds,
-                        onClick = { selectedActivityId = activity.activityId }
+                        onClick = { selectedGuidedTaskId = null; selectedActivityId = activity.activityId }
                     )
                 }
-                if (lessonActivities.isEmpty()) {
-                    Text(stringResource(R.string.no_activities_available), style = MaterialTheme.typography.bodyLarge)
+                val lessonGuidedTasks = guidedTasks.filter { it.lessonId == selectedLessonId }
+                lessonGuidedTasks.forEachIndexed { index, task ->
+                    GuidedTaskCatalogueCard(
+                        index = lessonActivities.size + index + 1,
+                        task = task,
+                        isCompleted = task.activityId in completedGuidedTaskIds,
+                        onClick = { selectedActivityId = null; selectedGuidedTaskId = task.activityId }
+                    )
+                }
+                if (lessonActivities.isEmpty() && lessonGuidedTasks.isEmpty()) {
+                    Text(
+                        stringResource(R.string.lesson_activities_in_preparation),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                 }
             }
 
             selectedUnit != null -> {
                 Text(stringResource(R.string.choose_lesson), style = MaterialTheme.typography.headlineSmall)
                 unitLessons.forEach { lesson ->
-                    val lessonActivitiesCount = activities.count { it.lessonId == lesson.lessonId }
-                    val practicedCount = activities.count {
-                        it.lessonId == lesson.lessonId && it.activityId in practicedActivityIds
-                    }
+                    val lessonItems = activities.filter { it.lessonId == lesson.lessonId }
+                    val lessonTasks = guidedTasks.filter { it.lessonId == lesson.lessonId }
+                    val practicedCount = lessonItems.count { it.activityId in practicedActivityIds } +
+                        lessonTasks.count { it.activityId in completedGuidedTaskIds }
                     LessonCard(
                         lesson = lesson,
                         practicedCount = practicedCount,
-                        activityCount = lessonActivitiesCount,
+                        activityCount = lessonItems.size + lessonTasks.size,
                         onClick = { selectedLessonId = lesson.lessonId }
                     )
                 }
@@ -260,37 +361,55 @@ fun LearningExperienceScreen(
             selectedBook != null -> {
                 Text(stringResource(R.string.choose_unit), style = MaterialTheme.typography.headlineSmall)
                 bookUnits.forEach { unit ->
-                    val unitActivityCount = activities.count { it.unitId == unit.unitId }
-                    val practicedCount = activities.count {
-                        it.unitId == unit.unitId && it.activityId in practicedActivityIds
-                    }
+                    val unitItems = activities.filter { it.unitId == unit.unitId }
+                    val unitTasks = guidedTasks.filter { it.unitId == unit.unitId }
+                    val practicedCount = unitItems.count { it.activityId in practicedActivityIds } +
+                        unitTasks.count { it.activityId in completedGuidedTaskIds }
                     UnitCard(
                         unit = unit,
                         practicedCount = practicedCount,
-                        activityCount = unitActivityCount,
+                        activityCount = unitItems.size + unitTasks.size,
                         onClick = { selectedUnitId = unit.unitId }
                     )
+                }
+                if (bookUnits.isEmpty() || (selectedBookActivities.isEmpty() && selectedBookGuidedTasks.isEmpty())) {
+                    Text(
+                        stringResource(R.string.book_activities_in_preparation),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                if (selectedDomainUnassignedActivities.isNotEmpty()) {
+                    Text(
+                        stringResource(R.string.additional_practice),
+                        style = MaterialTheme.typography.titleMedium
+                    )
+                    selectedDomainUnassignedActivities.forEachIndexed { index, activity ->
+                        ActivityCatalogueCard(
+                            index = index + 1,
+                            activity = activity,
+                            isPractised = activity.activityId in practicedActivityIds,
+                            onClick = { selectedActivityId = activity.activityId }
+                        )
+                    }
                 }
             }
 
             selectedDomain != null -> {
                 Text(stringResource(R.string.choose_activity), style = MaterialTheme.typography.headlineSmall)
-                val domainBooks = loadedPack.books.filter { book ->
-                    ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == selectedDomain
-                }
                 domainBooks.forEach { book ->
-                    val bookActivityCount = activities.count { it.bookId == book.bookId }
-                    val practicedCount = activities.count {
-                        it.bookId == book.bookId && it.activityId in practicedActivityIds
-                    }
+                    val bookItems = activities.filter { it.bookId == book.bookId }
+                    val bookTasks = guidedTasks.filter { it.bookId == book.bookId }
+                    val practicedCount = bookItems.count { it.activityId in practicedActivityIds } +
+                        bookTasks.count { it.activityId in completedGuidedTaskIds }
                     BookCard(
                         book = book,
                         practicedCount = practicedCount,
-                        activityCount = bookActivityCount,
+                        activityCount = bookItems.size + bookTasks.size,
                         onClick = { selectedBookId = book.bookId }
                     )
                 }
-                val unassignedActivities = selectedDomainActivities.filter { it.bookId == null }
+                val unassignedActivities = selectedDomainUnassignedActivities
                 if (unassignedActivities.isNotEmpty()) {
                     Text(
                         stringResource(R.string.additional_practice),
@@ -310,21 +429,31 @@ fun LearningExperienceScreen(
                 }
             }
 
-            activities.isEmpty() -> {
+            activities.isEmpty() && guidedTasks.isEmpty() -> {
                 Text(stringResource(R.string.no_activities_available), style = MaterialTheme.typography.bodyLarge)
             }
 
             else -> {
                 Text(stringResource(R.string.choose_learning_area), style = MaterialTheme.typography.headlineSmall)
                 activitiesByDomain.forEach { (domain, domainActivities) ->
-                    val practicedCount = domainActivities.count { it.activityId in practicedActivityIds }
+                    val domainTasks = guidedTasks.filter { task ->
+                        ContentPackSelectionPolicy.subjectForDomain(
+                            skillById[task.skillId]?.domain ?: "General practice",
+                            learnerPathway
+                        ) == domain
+                    }
+                    val practicedCount = domainActivities.count { it.activityId in practicedActivityIds } +
+                        domainTasks.count { it.activityId in completedGuidedTaskIds }
                     LearningDomainCard(
                         domain = domain,
                         practicedCount = practicedCount,
-                        activityCount = domainActivities.size,
+                        activityCount = domainActivities.size + domainTasks.size,
                         onClick = {
+                            val matchingBooks = loadedPack.books.filter { book ->
+                                ContentPackSelectionPolicy.subjectForDomain(book.subject, learnerPathway) == domain
+                            }
                             selectedDomain = domain
-                            selectedBookId = null
+                            selectedBookId = matchingBooks.singleOrNull()?.bookId
                             selectedUnitId = null
                             selectedLessonId = null
                         }
@@ -445,6 +574,42 @@ private fun LessonCard(
                     style = MaterialTheme.typography.bodySmall, color = Color(0xFF8290A2))
             }
             Text("›", style = MaterialTheme.typography.headlineMedium, color = Color(0xFF7891AC))
+        }
+    }
+}
+
+@Composable
+private fun GuidedTaskCatalogueCard(
+    index: Int,
+    task: GuidedTaskDefinition,
+    isCompleted: Boolean,
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(22.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(13.dp)
+        ) {
+            Card(shape = RoundedCornerShape(15.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFFEAF6F2))) {
+                Text(index.toString(), modifier = Modifier.padding(horizontal = 15.dp, vertical = 11.dp),
+                    style = MaterialTheme.typography.titleLarge, color = Color(0xFF398A6A))
+            }
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(task.title, style = MaterialTheme.typography.titleMedium,
+                    color = Color(0xFF263D5B), maxLines = 3, overflow = TextOverflow.Ellipsis)
+                Text(
+                    stringResource(if (isCompleted) R.string.guided_task_completed else R.string.guided_task_badge),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = if (isCompleted) Color(0xFF398A6A) else Color(0xFF8290A2)
+                )
+            }
+            Text("✎", style = MaterialTheme.typography.titleLarge, color = Color(0xFF7891AC))
         }
     }
 }

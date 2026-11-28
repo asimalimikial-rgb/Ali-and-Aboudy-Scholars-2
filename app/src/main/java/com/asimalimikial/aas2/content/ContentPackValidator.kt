@@ -198,7 +198,37 @@ object ContentPackValidator {
                     ) add("Activity at index $index must have one nonblank rationale for each option")
                 }
             }
+        val guidedTaskIds = pack.guidedTasks.map { it.activityId }
+        if (guidedTaskIds.any(String::isBlank)) add("guided task activityId must not be blank")
+        if (guidedTaskIds.size != guidedTaskIds.toSet().size) add("guided task activityId values must be unique")
+        if (guidedTaskIds.any { it in activityIds }) add("guided task IDs must not collide with scored activity IDs")
+        val guidedBookIds = pack.books.map { it.bookId }.toSet()
+        val guidedUnitIds = pack.units.map { it.unitId }.toSet()
+        val guidedLessonIds = pack.lessons.map { it.lessonId }.toSet()
+        pack.guidedTasks.forEachIndexed { index, task ->
+            if (task.title.isBlank()) add("Guided task at index $index has an empty title")
+            if (task.visualCue != null && task.visualCue.isBlank()) add("Guided task at index $index has a blank visualCue")
+            if (task.instructions.isEmpty() || task.instructions.any(String::isBlank)) {
+                add("Guided task at index $index must contain nonblank instructions")
+            }
+            if (task.observableCriteria.isEmpty() || task.observableCriteria.any(String::isBlank)) {
+                add("Guided task at index $index must contain observable criteria")
+            }
+            if (task.assessment.isBlank()) add("Guided task at index $index has no assessment guidance")
+            if (task.skillId !in knownSkillIds) add("Guided task at index $index references an unknown skillId")
+            if (task.bookId !in guidedBookIds) add("Guided task at index $index references an unknown bookId")
+            val unit = pack.units.singleOrNull { it.unitId == task.unitId }
+            val lesson = pack.lessons.singleOrNull { it.lessonId == task.lessonId }
+            if (task.unitId !in guidedUnitIds || unit == null) add("Guided task at index $index references an unknown unitId")
+            if (task.lessonId !in guidedLessonIds || lesson == null) add("Guided task at index $index references an unknown lessonId")
+            if (unit != null && unit.bookId != task.bookId) add("Guided task at index $index bookId does not match its unit")
+            if (lesson != null && lesson.unitId != task.unitId) add("Guided task at index $index unitId does not match its lesson")
+            if (lesson != null && task.skillId !in lesson.skillIds) {
+                add("Guided task at index $index skillId is not assigned to its lesson")
+            }
         }
+        }
+
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
 

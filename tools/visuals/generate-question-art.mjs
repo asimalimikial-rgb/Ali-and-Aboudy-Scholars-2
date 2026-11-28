@@ -49,7 +49,7 @@ function visualProfile(activity) {
   if (/vocabulary|context-vocabulary/.test(skill)) {
     return { type: "mc_text", skill: "vocabulary", textFirst: false };
   }
-  if (/math|count|shape|place-value|addition|subtraction|multiplication|measure|fraction|number-pattern/.test(skill)) {
+  if (/math|mm2a|mm2b|mx2|count|shape|place-value|addition|subtraction|multiplication|measure|fraction|number-pattern/.test(skill)) {
     return { type: "mc_text", skill: "math", textFirst: false };
   }
   if (/science|plant|animal|habitat|living-world|my-world-discovery|matter|earth|SCI-G2/i.test(skill)) {
@@ -189,14 +189,30 @@ function phonicsPromptSvg(activity) {
     const kind = visuals.kindOf(rhyme[1]);
     return kind !== "generic" && visuals.hasSpecificVisual(kind) ? visuals.svg(kind, rhyme[1]) : wordCardSvg(rhyme[1]);
   }
-  const phoneme = prompt.match(/\/([a-z])\//i);
-  const letter = (phoneme?.[1] || "A").toUpperCase();
-  return '<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#fffaf0" stroke="#d7aa50" stroke-width="2"/><circle cx="80" cy="56" r="34" fill="#fff0c8" stroke="#d7aa50" stroke-width="3"/><text x="80" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#815b1e">' + letter + '</text><path d="M23 43q-12 13 0 26m114-26q12 13 0 26M13 35q-18 21 0 42m134-42q18 21 0 42" fill="none" stroke="#5d9fbd" stroke-width="3" stroke-linecap="round"/></svg>';
+  const phoneme = prompt.match(/\/([a-z]{1,2})\//i);
+  const pattern = prompt.match(/\b([a-z]_[a-z])\b/i);
+  const letter = (phoneme?.[1] || pattern?.[1] || "A").toUpperCase();
+  return '<svg xmlns="http://www.w3.org/2000/svg" width="160" height="112" viewBox="0 0 160 112"><rect x="3" y="3" width="154" height="106" rx="15" fill="#fffaf0" stroke="#d7aa50" stroke-width="2"/><circle cx="80" cy="56" r="34" fill="#fff0c8" stroke="#d7aa50" stroke-width="3"/><text x="80" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="' + (letter.length > 1 ? 32 : 48) + '" font-weight="800" fill="#815b1e">' + letter + '</text><path d="M23 43q-12 13 0 26m114-26q12 13 0 26M13 35q-18 21 0 42m134-42q18 21 0 42" fill="none" stroke="#5d9fbd" stroke-width="3" stroke-linecap="round"/></svg>';
 }
 
 function fallbackPromptFragments(activity, profile) {
   const prompt = String(activity.prompt || "").toLowerCase();
   const scene = kinds => kinds.map(kind => visuals.svg(kind, kind));
+  if (profile.skill === "science") {
+    if (/moon|crater|constellation|star|night sky/.test(prompt)) return scene(["moon", "star", "cloud"]);
+    if (/float|sink/.test(prompt)) return scene(["boat", "water", "wood"]);
+    if (/capacity|funnel|liquid|dissolv|salt|sugar|oil/.test(prompt)) return scene(["cup", "water", "glass", "spoon"]);
+    if (/hot|stove|smoke|ice|melt/.test(prompt)) return scene(["stove", "sun", "ice"]);
+    if (/sound|hearing|hear|pitch|loud|vibrat/.test(prompt)) return scene(["ear", "eye", "nose"]);
+    if (/smell|nose/.test(prompt)) return scene(["nose", "flower", "lemon"]);
+    if (/taste|tongue|lemon/.test(prompt)) return scene(["lemon", "apple", "person"]);
+    if (/touch|texture|rough|smooth|skin/.test(prompt)) return scene(["wood", "glass", "cotton"]);
+    return [wordCardSvg(activity.prompt)];
+  }
+
+  if (/blend|long [a-z] sound|magic-e|phonics/.test(prompt)) return [phonicsPromptSvg(activity)];
+  if (/ends with the letters/.test(prompt)) return [wordCardSvg("ld")];
+  if (/half past|what time/.test(prompt)) return [visuals.svg("clock", "clock")];
   if (/potato/.test(prompt)) return scene(["potato", "plant", "soil"]);
   if (/cotton/.test(prompt)) return scene(["cotton", "plant", "shirt"]);
   if (/bean/.test(prompt)) return scene(["bean", "seed", "plant"]);
@@ -228,6 +244,7 @@ function fallbackPromptFragments(activity, profile) {
   if (/gravity/.test(prompt)) return scene(["apple", "planet"]);
   if (/ramp|simple machine/.test(prompt)) return scene(["ramp", "pulley", "lever"]);
   if (/shadow/.test(prompt)) return scene(["sun", "person", "shadow"]);
+  if (/environment|playground|clean|rubbish|litter/.test(prompt)) return scene(["bin", "tree", "plant"]);
   if (/recycl/.test(prompt)) return scene(["paper", "bin"]);
   if (/water conservation|clean water/.test(prompt)) return scene(["tap", "water", "plant"]);
   if (/skeleton|rib cage/.test(prompt)) return scene(["rib_cage", "heart", "lungs"]);
@@ -237,6 +254,9 @@ function fallbackPromptFragments(activity, profile) {
   if (promptKinds.length) return scene(promptKinds.slice(0, 4));
   if (profile.skill === "vocabulary") return [wordCardSvg(activity.prompt)];
   if (profile.skill === "reading") return [readingPromptSvg()];
+  if (profile.skill === "math") return [mathPromptSvg(activity)];
+  if (profile.skill === "english") return [wordCardSvg(activity.prompt)];
+  if (profile.skill === "phonics") return [phonicsPromptSvg(activity)];
   return [];
 }
 function optionVisualFragments(question, option) {

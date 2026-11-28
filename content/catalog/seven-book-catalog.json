@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "0.1.0",
-  "updatedAt": "2026-11-24",
+  "catalogVersion": "0.2.2",
+  "updatedAt": "2026-11-28",
   "project": "Ali & Aboudy Scholars 2",
   "learnerPaths": {
     "ali": {
@@ -22,24 +22,19 @@
       "learnerPath": "KG2",
       "subject": "English & Early Literacy / Cross-curricular awareness",
       "isbn": "9789356660113",
-      "currentAuthoredActivities": 65,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 46,
+      "runtimeMappedActivities": 46,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH",
       "plannedCoverage": [
         "initial sounds",
         "rhyming",
-        "everyday vocabulary",
-        "My World Discovery"
+        "everyday vocabulary"
       ],
       "openCoverage": [
-        "handwriting",
-        "stories",
-        "rhymes and songs",
-        "art and craft",
-        "SEL/STEM/creative coding",
-        "remaining literacy and numeracy sequence"
+        "additional literacy and fine-motor progression beyond the six guided activities"
       ],
-      "nextAction": "Create the KG2 book/unit/lesson hierarchy and reconcile the 65 authored activities plus the eight pilot activities."
+      "nextAction": "Six non-scored guided tasks are integrated across handwriting, rhyme/song, art/craft, creative expression, cooperation and self-regulation; review remaining kit resources and adult observations.",
+      "guidedTasks": 6
     },
     {
       "sequence": 2,
@@ -50,9 +45,9 @@
       "learnerPath": "KG2",
       "subject": "Mathematics",
       "isbn": "9789356664975",
-      "currentAuthoredActivities": 35,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 41,
+      "runtimeMappedActivities": 41,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH",
       "plannedCoverage": [
         "counting pictures",
         "number patterns",
@@ -60,10 +55,11 @@
         "shapes"
       ],
       "openCoverage": [
-        "unit-level sequence",
-        "further numeracy and measurement coverage"
+        "review and consolidation tasks",
+        "visual/audio QA and difficulty progression"
       ],
-      "nextAction": "Create the KG2 mathematics hierarchy and map the 35 authored activities plus relevant pilot activities."
+      "nextAction": "Six measurement/comparison activities are mapped to Unit 5; complete final visual/audio playback and pedagogical QA across all five units.",
+      "guidedTasks": 0
     },
     {
       "sequence": 3,
@@ -74,9 +70,9 @@
       "learnerPath": "GRADE_2",
       "subject": "English",
       "isbn": "9781035117154",
-      "currentAuthoredActivities": 35,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 87,
+      "runtimeMappedActivities": 52,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "grammar and word study",
         "reading comprehension"
@@ -86,7 +82,7 @@
         "unit-level sequence",
         "review of the reading item that requires an original passage"
       ],
-      "nextAction": "Complete pedagogy review for the 15 candidate activities; map approved items to unit/lesson IDs in the Android pack, and retain 20 broader items as supplementary or revise them against a unit outcome.",
+      "nextAction": "Complete pedagogy, language and media QA for 52 original items; retain 35 legacy candidates as Additional Practice.",
       "scopeSource": {
         "productPage": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples",
         "scopeAndSequence": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
@@ -228,7 +224,7 @@
           ]
         }
       ],
-      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; 15 CANDIDATE ALIGNMENTS; 20 SUPPLEMENTARY; RUNTIME_MAPPING_PENDING"
+      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; 52 ORIGINAL AAS2 ITEMS MAPPED TO 26 LESSONS; 35 LEGACY ITEMS RETAINED AS ADDITIONAL PRACTICE; PEDAGOGY QA PENDING"
     },
     {
       "sequence": 4,
@@ -239,9 +235,9 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9781035130382",
-      "currentAuthoredActivities": 31,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 55,
+      "runtimeMappedActivities": 24,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "Numbers to 999",
         "Addition to 99",
@@ -251,13 +247,10 @@
         "Time"
       ],
       "openCoverage": [
-        "Unit 1 Numbers to 100",
-        "Unit 7 Number facts",
-        "Unit 9 Equations and functions",
-        "remaining review/transfer coverage",
-        "item-level pedagogy and difficulty calibration"
+        "item-level pedagogy review and difficulty calibration",
+        "additional transfer/review only where item-level QA identifies a genuine gap"
       ],
-      "nextAction": "Review the 31 candidate mappings and calibrate items before creating the 2A runtime hierarchy.",
+      "nextAction": "24 original activities are mapped across all 12 units; complete calculation, progression and media QA, while keeping 31 legacy candidates in Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629",
         "catalogueUrl": "https://online.flippingbook.com/view/887627778/44-45/",
@@ -267,12 +260,18 @@
         "familyEditionMatched": false
       },
       "candidateMappedUnits": [
+        "MM2A-U01",
         "MM2A-U02",
         "MM2A-U03",
+        "MM2A-U04",
         "MM2A-U05",
         "MM2A-U06",
+        "MM2A-U07",
+        "MM2A-U08",
+        "MM2A-U09",
         "MM2A-U10",
-        "MM2A-U11"
+        "MM2A-U11",
+        "MM2A-U12"
       ]
     },
     {
@@ -284,9 +283,9 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9781380000613",
-      "currentAuthoredActivities": 9,
-      "runtimeMappedActivities": 0,
-      "status": "LIMITED_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 33,
+      "runtimeMappedActivities": 24,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "Addition and subtraction to 999",
         "Money",
@@ -294,13 +293,10 @@
         "Measures problems"
       ],
       "openCoverage": [
-        "Unit 13 Numbers and number patterns",
-        "Units 17–19 geometry and area",
-        "Unit 23 Handling data",
-        "remaining review/transfer coverage",
-        "item-level pedagogy and difficulty calibration"
+        "item-level pedagogy review and difficulty calibration",
+        "additional transfer/review only where item-level QA identifies a genuine gap"
       ],
-      "nextAction": "Review the nine candidate mappings and calibrate items before creating the 2B runtime hierarchy.",
+      "nextAction": "24 original activities are mapped across all 12 units; complete calculation, measurement and media QA, while keeping nine legacy candidates in Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649",
         "productUrl": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples",
@@ -310,24 +306,32 @@
         "familyEditionMatched": false
       },
       "candidateMappedUnits": [
+        "MM2B-U13",
         "MM2B-U14",
         "MM2B-U15",
+        "MM2B-U16",
+        "MM2B-U17",
+        "MM2B-U18",
+        "MM2B-U19",
+        "MM2B-U20",
         "MM2B-U21",
-        "MM2B-U22"
+        "MM2B-U22",
+        "MM2B-U23",
+        "MM2B-U24"
       ]
     },
     {
       "sequence": 6,
-      "bookId": "macmillan-science-level-2",
+      "bookId": "macmillan-science-level2",
       "title": "Macmillan Science — Level 2 Pupil's Book and eBook Pack",
       "publisher": "Macmillan Education",
       "learner": "aboudy",
       "learnerPath": "GRADE_2",
       "subject": "Science",
       "isbn": "9781035130740",
-      "currentAuthoredActivities": 62,
-      "runtimeMappedActivities": 62,
-      "status": "PARTIALLY_INTEGRATED",
+      "currentAuthoredActivities": 134,
+      "runtimeMappedActivities": 134,
+      "status": "PARTIALLY_INTEGRATED_PENDING_INDEPENDENT_QA",
       "integratedUnits": [
         {
           "unitId": "SCI-G2-U01",
@@ -340,14 +344,30 @@
           "title": "Animals and Survival",
           "lessons": 5,
           "activities": 30
+        },
+        {
+          "unitId": "SCI-G2-U03",
+          "title": "Senses and Our Bodies",
+          "lessons": 5,
+          "activities": 40
+        },
+        {
+          "unitId": "SCI-G2-U04",
+          "title": "Materials and Physical Properties",
+          "lessons": 4,
+          "activities": 20
+        },
+        {
+          "unitId": "SCI-G2-U05",
+          "title": "The Sky at Night",
+          "lessons": 3,
+          "activities": 12
         }
       ],
       "openCoverage": [
-        "Unit 3 — Senses and Our Bodies",
-        "Unit 4 — Materials and Physical Properties",
-        "Unit 5 — The Sky at Night"
+        "Independent science pedagogy, language, accessibility and final media playback QA remain pending."
       ],
-      "nextAction": "Complete the independent review of Units 1–2 and author Units 3–5."
+      "nextAction": "Complete independent science and teacher review, then verify visual/audio playback and child-facing clarity across all five units."
     },
     {
       "sequence": 7,
@@ -358,20 +378,56 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9789356664999",
-      "currentAuthoredActivities": 0,
-      "runtimeMappedActivities": 0,
-      "status": "CATALOG_ONLY_SCOPE_NOT_YET_MAPPED",
-      "plannedCoverage": [],
-      "openCoverage": [
-        "confirm the exact Book 2 contents and sequence before naming units or authoring aligned activities"
+      "currentAuthoredActivities": 15,
+      "runtimeMappedActivities": 15,
+      "status": "AAS2_COMPANION_PATH_MAPPED_PENDING_QA",
+      "plannedCoverage": [
+        {
+          "unitId": "MX2-G2-U01",
+          "title": "Numbers and Patterns",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U02",
+          "title": "Addition and Subtraction",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U03",
+          "title": "Multiplication and Equal Groups",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U04",
+          "title": "Fractions and Measurement",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U05",
+          "title": "Geometry and Data",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        }
       ],
-      "nextAction": "Inspect the official contents/scope and establish the unit map before authoring."
+      "openCoverage": [
+        "Exact publisher unit titles and sequence are not verified; the five units are AAS2 companion paths only."
+      ],
+      "nextAction": "Complete answer-key, progression, pedagogy and offline-media QA; preserve the companion-path disclaimer."
     }
   ],
   "unassignedCurrentActivities": {
     "broadScienceEnrichment": 25,
-    "earlierPilotActivities": 20,
-    "rule": "Do not count these as mapped textbook coverage until each activity has a reviewed skill and book/unit/lesson destination."
+    "earlierPilotActivities": 19,
+    "rule": "Do not count these as mapped textbook coverage until each activity has a reviewed skill and book/unit/lesson destination. The 25 broad Science enrichment activities remain supplementary; the My World Discovery companion path is tracked separately."
   },
   "excludedFromSevenBookScope": [
     {
@@ -383,8 +439,36 @@
   "integrationState": {
     "androidRuntimeCatalogLoading": "NOT_IMPLEMENTED",
     "grade2ScienceHierarchy": "INTEGRATED",
-    "kg2Hierarchy": "NOT_INTEGRATED",
-    "otherBookHierarchies": "NOT_INTEGRATED",
-    "completeSevenBookCoverage": "NOT_COMPLETE"
-  }
+    "kg2Hierarchy": "INTEGRATED_IN_FEATURE_BRANCH_PENDING_MEDIA_QA_AND_PR_MERGE",
+    "otherBookHierarchies": "GRADE_2_BOOKS_MAPPED_PENDING_FINAL_QA",
+    "completeSevenBookCoverage": "NOT_COMPLETE",
+    "myWorldDiscoveryCompanionPath": "INTEGRATED_IN_FEATURE_BRANCH"
+  },
+  "companionLearningPaths": [
+    {
+      "pathId": "aas2-my-world-discovery-kg2",
+      "title": "AAS2 My World Discovery — KG2 Companion Path",
+      "learner": "ali",
+      "learnerPath": "KG2",
+      "subject": "Discovery / Early Science",
+      "scopeStatus": "ORIGINAL_AAS2_COMPANION_SCOPE_NOT_A_MACMILLAN_TEXTBOOK",
+      "currentAuthoredActivities": 41,
+      "runtimeMappedActivities": 16,
+      "additionalPracticeActivities": 25,
+      "unitCount": 2,
+      "lessonCount": 5,
+      "integratedLessonIds": [
+        "MWD-KG2-U01-L01",
+        "MWD-KG2-U01-L02",
+        "MWD-KG2-U01-L03",
+        "MWD-KG2-U02-L01",
+        "MWD-KG2-U02-L02"
+      ],
+      "openCoverage": [
+        "additional practical investigations and environmental recording beyond the two guided field tasks"
+      ],
+      "note": "The 25 broad legacy discovery items remain Additional Practice until item-level lesson alignment is established. Two original adult-guided activities now cover safe outdoor observation and visual sequencing. The 16 scored lesson-mapped items comprise 15 new authored activities and one existing English pilot activity.",
+      "guidedTasks": 2
+    }
+  ]
 }

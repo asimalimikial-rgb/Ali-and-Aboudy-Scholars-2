@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -47,6 +47,24 @@
       "attribution": "Original AAS2-authored educational content migrated from the legacy project.",
       "usageRights": "REFERENCE_ONLY",
       "verifiedAt": "2026-11-23"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-HOP-SKIP-JUMP",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit (ISBN 9789356660113)",
+      "publisher": "Macmillan Education",
+      "url": "https://macmillaneducation.in/hop-skip-and-jump/",
+      "license": "Copyrighted publisher material; curriculum reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
+    },
+    {
+      "sourceReferenceId": "MACMILLAN-MATHS-XPRESS-SKG",
+      "title": "Maths Xpress — Senior KG (ISBN 9789356664975)",
+      "publisher": "Macmillan Education",
+      "url": "https://macmillaneducation.in/wp-content/uploads/2025/04/MacEd-2025-1.pdf",
+      "license": "Copyrighted publisher material; catalogue reference only; no reproduction or redistribution.",
+      "usageRights": "REFERENCE_ONLY",
+      "verifiedAt": "2026-11-24"
     }
   ],
   "skills": [
@@ -167,6 +185,117 @@
       "sourceReferenceIds": [
         "AAS2-ORIGINAL-AUTHORED",
         "QCAA-QKLG-2024"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-listening-comprehension",
+      "learnerPath": "KG2",
+      "domain": "Language and Communication",
+      "observableOutcome": "Follows a short spoken instruction and identifies a directly stated detail in a familiar context.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-story-sequencing",
+      "learnerPath": "KG2",
+      "domain": "English",
+      "observableOutcome": "Orders a short familiar story or event sequence using pictures and simple language.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-observe-predict",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Observes a familiar living thing or object and makes a simple prediction linked to visible evidence.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5",
+        "NOAA-WHOI-E20-003"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-handwriting-readiness",
+      "learnerPath": "KG2",
+      "domain": "Fine Motor Development",
+      "observableOutcome": "Uses controlled marks and early letter-like forms with age-appropriate pencil and hand control.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-creative-expression",
+      "learnerPath": "KG2",
+      "domain": "Creative Arts",
+      "observableOutcome": "Represents an idea using a simple, guided art or construction activity.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-cooperation-turn-taking",
+      "learnerPath": "KG2",
+      "domain": "Social Emotional Learning",
+      "observableOutcome": "Practises taking turns, sharing materials and cooperating during a familiar activity.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-self-regulation",
+      "learnerPath": "KG2",
+      "domain": "Social Emotional Learning",
+      "observableOutcome": "Uses a simple strategy to pause, listen, and return to a learning task after a challenge.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-measure-compare",
+      "learnerPath": "KG2",
+      "domain": "Mathematics",
+      "observableOutcome": "Compares two familiar objects by a visible attribute such as length, height or size.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-weather-observation",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Describes a simple observable feature of daily weather.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-environment-care",
+      "learnerPath": "KG2",
+      "domain": "Science and Discovery",
+      "observableOutcome": "Identifies a safe, age-appropriate action that helps care for a familiar environment.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5"
+      ]
+    },
+    {
+      "skillId": "aas2-ali-discovering-world",
+      "learnerPath": "KG2",
+      "domain": "Discovery",
+      "observableOutcome": "Identifies familiar living and non-living things and describes one visible feature of the world around them.",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "AAS2-ORIGINAL-AUTHORED"
       ]
     }
   ],
@@ -4249,6 +4378,1506 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/5b5972a4214e816b9954c733c1048ce2c138f353c03b18f9550450300163476c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/8de4828d64b9ad9029dd99d265763765208f33a4a84179a1df95fad5f62477ba.ogg"
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-01",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Touch your nose. What should you touch?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Your nose",
+          "imageAssetPath": "option-art/10eb08432f601c1bf6fde321.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Your knee"
+        },
+        {
+          "optionId": "c",
+          "text": "Your elbow"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/039742c26cd1d5b518b1bf80f70eff14d063daec3152f17cc9ec1da8c7f1a410.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/cf8d6d7fac05b58695b98183cb9a2c3101f2e4e20ef795d9bb1c7dd6d9c99a2e.ogg",
+        "b": "speech/029b7f4e8ff0ac930d9e896dabf7f9b60fcd3d40dc033336306746586d2f41b3.ogg",
+        "c": "speech/5ed1a3cd505f2364e5af5e97a85f96ad284fd339c3e3cbfa1c1cd7ed8c732533.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2f0e4189bc149c5ac142a6015d3601523f229d916b341dccbe611a8d37b8d11f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/309ebcaca4bcb6e2183df3bbbea0fc67cc7057df18252e8b72e418997f5c3dc8.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-02",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Clap two times. What should you do?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Clap two times"
+        },
+        {
+          "optionId": "b",
+          "text": "Jump three times",
+          "imageAssetPath": "option-art/fb35b39583185daa7d8e048b.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Wave one hand",
+          "imageAssetPath": "option-art/ad8fa08aad86c617b6651c37.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/2d76e8dd821f16afcb9a76dc5e08264f7e8c0bf5a3e35f87ee153f3dbc5f301d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2b601e03bb47517246057ac7081f1316ea658d096dd6e712cdb7cb413fc298ab.ogg",
+        "b": "speech/dc61bb81c0690989c7424cce3d3d01c9552415af002ef1332bb930d4b178020f.ogg",
+        "c": "speech/cb19d136c03f5686c1dc38387ed96b89df681deae08ff448973cfb0281216021.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a7cd07f039c870d27bd527942ff1fa6a202e269eb07299aa4cdd819545a6d897.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/14e8bf2013c02a83177cd66b017c63d8fa7a73f74f1994cbe18a16a1dc6310a7.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-03",
+      "skillId": "aas2-ali-listening-comprehension",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Listen: Put the book on the table. Where is the book?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Under the chair",
+          "imageAssetPath": "option-art/80d9288f2a088b3f8013a811.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "On the table",
+          "imageAssetPath": "option-art/a8b591f1791c5c39d97fbc31.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "In the bag"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/54b25bd46cc9122c61565d3991eb04027b726685a9b99de8975f07e9e722d795.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4329ad3685083fa1e957c685b2d3e17d5756cd622201a57d4edea30b4b2d6795.ogg",
+        "b": "speech/bee52cad9424302a8fc90ecd5cd4b83e13542fbdd01ba898e1c13a29e350e92e.ogg",
+        "c": "speech/2f2f06a611a8c96aa03b0708c5848a89ef64226260e6bb983423fa92aee25cfd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7cf2d961007376f3411abead6c0043146b29c307887180c32911f9d2476b8c9c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2a6bc1af52f1b43efe717bf1996c62d18abea67cd48212cf28be75f91e10830e.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-01",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A seed is planted, watered and grows. What happens first?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The seed is planted",
+          "imageAssetPath": "option-art/edb31366d4a9ed6c2449770d.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The plant has flowers",
+          "imageAssetPath": "option-art/90ff728260b86dbd180d9a93.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "The plant grows tall",
+          "imageAssetPath": "option-art/9281e0f4bb6106301c8bb98b.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/e254d51885fc847e6bf2a48ea814231543080063e41376e6f6cb051b7cbee9f2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b639142c28a9d535246d42ca5b78f1503a97ce8867535d7b8e3fba919a38178f.ogg",
+        "b": "speech/c8f6ba8a568b2ebf20ef0b7d24064794b0d470836545e75ac1b5c33fa473139d.ogg",
+        "c": "speech/46802231226831033b637aeaab3660e230d66c01235b7660b792c0fd8bc851cd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/27fadce0a7e58d368342c4d57a26af4da8b9e9f2c07223d7bc58665da3e74775.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/12bde31e78f4c6236096100da2e3a5196530c3ae55d34b34c8ab7c252eccc4f9.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-01.png"
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-02",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A child wakes up, brushes teeth and eats breakfast. What happens after waking up?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Goes to sleep"
+        },
+        {
+          "optionId": "b",
+          "text": "Brushes teeth",
+          "imageAssetPath": "option-art/ab818d7d74b87f1aeaa908e5.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Eats dinner"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/75a08daae383afeb556a1b765088339f2907d6aadd5f65ed1f57e212f2920808.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/70e768c28c323346c559ef82875940002616ac6352b79c9dc747ee3ab1e0363f.ogg",
+        "b": "speech/dd1afaf673c214278c621bd948ad4c407b5b99674f6f866e6edcd6916393f936.ogg",
+        "c": "speech/f6719ff1c5a3055b948b34c73ef1dcc65bd8c00ca89f032fefb304c5f9d3bf02.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/57b1ed7bccf85968e60c5b65f7fec7c4e2161772b2d46f93bf9f7c4da077f46f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/da6fa92b424a34f4c9d98ea346c4fe29b9dd4851495f6e72e9bf7354c4258789.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-02.png"
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-03",
+      "skillId": "aas2-ali-story-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A caterpillar changes into a butterfly. Which comes before the butterfly?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A caterpillar",
+          "imageAssetPath": "option-art/a585eb2be9783e3cba768fda.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "A bird",
+          "imageAssetPath": "option-art/db9a19e8579f439187ebda4f.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "An egg carton",
+          "imageAssetPath": "option-art/52cf8797f61e85acbae3fc54.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/f9eb2f8909d735115d8c32dc0b93a164d93c523f77785173e1d4ad37bbb28851.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/51c43b373501cbcd8e5d82911fc0edb1f1ceff9307fcf4cd7c8395d49333d8f2.ogg",
+        "b": "speech/e91c1ac2e24067fac187aaec17e8320b4ffb97753e90c19a3cb774912b6e8df8.ogg",
+        "c": "speech/bb6b067cff6deb5a0be47b25d1916ef5e24fc5ec6f84e1a15d8883a1563bf3f7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8ba76b546e75cc1ef52f1cbd1d9d2bf37b9b45ccab91c5af3ec38ba10036f3df.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5ce6f47fb0f9602a3de488e99200874bf404dfa0805a08654be6c27706119e01.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-03.png"
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-01",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which object is longer? A 12 cm pencil or an 8 cm crayon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same length"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/98d459458ef0fcc62e2333902727a72dffb25002ddc21a80dd013420d5e55d4c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/06fbe2c85c6b585b22c1d11f9a20afb65138d295351c1b2d8f93f9a4edfd53b2.ogg",
+        "b": "speech/3b61902de506f3763aa6daf0c13f581618d405cf9be146293af74e2f36e674eb.ogg",
+        "c": "speech/f74b1e1af89970a1071d3a9f95594543fb0fc0bb00191977f3a1b2f9dc6aad30.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/28eb689fbb268edb7f98d4c98c27b4d59dfbba5942379ebc5bdf933657fdc70f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-01.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-02",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is taller: a 20 cm block tower or a 10 cm block tower?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A 20 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "A 10 cm block tower",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "They are the same height"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/8c27a602bd7cb2bf530135b4d6a84643a6147d9a8857969efc7e05c2c603b67d.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4cce34760c2b035db4a56cebe9507dc50e990836e58c0f83f7be7eeee6dc9c2c.ogg",
+        "b": "speech/5fff9d23b67833636dfd14de9631d77cdbaf13834eb07a64042742a965ec3028.ogg",
+        "c": "speech/f4528bf76659566890c475b5184224281238bf3fd7f6cb5f8303d69f5891e7f4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0fc720b476398634e0f27ee74f5298c6d4e52208e3eed9285a7c92cf13d07d17.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-02.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-03",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is heavier: a full water bottle or an empty bottle?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A full water bottle",
+          "imageAssetPath": "option-art/e8892520910e40d8b5c4c755.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "An empty bottle"
+        },
+        {
+          "optionId": "c",
+          "text": "They weigh the same"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/92c7722430e20c5f568ee596d14daa5b3a5a9cd43ab85ea1ca7775f385201564.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/52344733fcc1450516b5bf629a4960067ffe334676038b33e23bf856b15b9678.ogg",
+        "b": "speech/39ed9c92b5c50492d8c29524aff276faec624c0e9ee8ea9ba9d40f674e009901.ogg",
+        "c": "speech/e650e787e26b32b53f8869e1df8a1067cd03344e90ef4d9968e344c427c608b6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5612a6bf6ceecd99667d24dc5e1c6628ae21634c9c2c194d4e1bdd7e5fb75b44.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-03.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-01",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What does a young plant need to keep growing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water and light",
+          "imageAssetPath": "option-art/1022e86e35c6d0fc5a88e4b1.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Plastic toys",
+          "imageAssetPath": "option-art/15a59599fdf32f3b741129ef.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "A warm coat",
+          "imageAssetPath": "option-art/417172e1752a189a521a593a.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/bb7aeae0451b941f001c1e94a8bb9eba5e1109385ee03ca080b268c70fc2a0c1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a8c93c6514ebe32b884cb85edfe5ff31df8b951c619a09fc0a461e704826b401.ogg",
+        "b": "speech/bc9427a4fafdad66b582d01efe1cd446e536515df91c254c36ab1cd0949c0bb3.ogg",
+        "c": "speech/09f0236b9c5c93eeecd40bfbe00d9a4c0db6a946b262f52bfefb402c125a51ca.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5686bafbdd1897c5e6503756912a45abf7174deeb3f6316a3fe77a4562f068ec.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e099d0774ccd3cb1195d3da6912994684d5ede38911f664593e9cf7ce4140713.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-02",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Where do many plants take in water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Through their roots",
+          "imageAssetPath": "option-art/ff3855c84b2fc901e736b892.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Through their flowers",
+          "imageAssetPath": "option-art/0005f9d6422fd3aa4b4496ea.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Through their fruit"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/19be6f2afe3a532281ada5c73ca7f6c9baba88c8613e1bed297b0ac77ffdfc0a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f5d675d72b00db2b53a6b50469c2a57bd229af374b25c3cba5f81d46608d79f2.ogg",
+        "b": "speech/964791f888134f7586cbd80554c61da853b55a3cefa0ebc6148591de8684900f.ogg",
+        "c": "speech/3bb5f173b9352b63c0fd2159bc9c3119d45a26b3a463ea3cc71dbd71309a5f11.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b1bc04ee8e8979e1c905ea46784787fd623e3bf70f8f7133ec7aa45fe28047a6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7017786630e9f2380abe20dc9caf6a1e350baf9374556f9ef8d05b53c6c7c4f6.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-03",
+      "skillId": "plant-needs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What may happen if a plant gets no water for a long time?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It may wilt"
+        },
+        {
+          "optionId": "b",
+          "text": "It will turn into a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "It will make more water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/b1248dbb687d067248d8f2abc00d6a4d29a08f50fb353a0273031b50ee2d6807.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/2777a41893eb88d259edcba2dbb68fdcbbb252af0f4030041f6826dc3a9333ea.ogg",
+        "b": "speech/3013d361a6218b6110bd9a4aadf2482cd71c65097b8eb2c8fa2bb147b6fe72f7.ogg",
+        "c": "speech/b5ad30fe1b10e63882592d997ce5a29f1192ba3411542e57d9c8f6aaa289b932.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b916ae2b8ad28b561ecd9b40a03e6f931f6082c9332d6bee76d349a44500a449.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4073fc598bb89de361ebf5de6220bb4a92624d95b95b7f11d4af4c78aac83deb.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-01",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which one is a living thing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A tree",
+          "imageAssetPath": "option-art/c4b536312a8856ca8c6fb3b1.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "A stone",
+          "imageAssetPath": "option-art/51c1de5f99a9e411d3cf2e51.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "A plastic cup",
+          "imageAssetPath": "option-art/bec00c67b9ea85ce7576252d.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/81aee5a862db12bcb272077ad22af2829c4ad35f0f38b1959782b18dab077510.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/260627242e72342503c62bcf0abb32c33e28988580c39ac0fad26ea1a613734c.ogg",
+        "b": "speech/ce1a860c245a9da08c0d72c40c125cfd37af622fdc67cf87b1506030f589421d.ogg",
+        "c": "speech/91fff1ee8bcb16af869e99fc8d51c77fdb6decb5613b46bc2630a8fb4631520c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/663c908b0c06d61a9a9c22fc9425471b245defd5b1777cfa4a62322931c74e07.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/91e9017bf110d7ed0c4efe1d0dc0deb9f7333aa4938973dd991a6b6028c167f8.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-02",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which feature can you observe on a bird?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It has feathers"
+        },
+        {
+          "optionId": "b",
+          "text": "It is made of metal",
+          "imageAssetPath": "option-art/86e2e22c78ec719732076618.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "It has wheels"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/477c525a4f5c48898dcea4839d2d7c6656886c565d0c36a8b32db37b8a68ebc0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fc0dd6d41afa5e854ed0a9af3e515c34dbda5f1b66afc79cdac078683482a9c1.ogg",
+        "b": "speech/bbbc8d13e5df22cb596f2643e3ba827229469934c2967ec6018e1895fd573212.ogg",
+        "c": "speech/9a94badf9253a2b55e1bcd7128342dd2c9e8e8f75edad3592fed47a5e4ccf2b2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/394d2e38681e49e315d588d191f5fd3feac06abd2324b4af691e09dcdaf763c2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5776295caf89235f702d643a51d2732161bf3ee148283b80bb67331383de9bde.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-03",
+      "skillId": "aas2-ali-discovering-world",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which place is a habitat for a fish?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A pond",
+          "imageAssetPath": "option-art/238154590d28fc7e0a7edd57.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "A dry cupboard",
+          "imageAssetPath": "option-art/cf7e8ba44b42f53ce0b46e6c.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "A bookshelf"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/2c190ba6c06bdba49713b090101a6f3aa1342fe8fa2d9bb4c567ffc5b0e748e1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b1312aaed2dcef9c7e9808ec3e6604142cb9777314d438e62fd0c38a9e982c8f.ogg",
+        "b": "speech/77fde4981d0d87e075587af53b3dbd9e2ebe99e79cd7ae48dccc456d8b90f712.ogg",
+        "c": "speech/338d68744c38e3831c957f0dd7b6d313b167557d88f32ccf6ffd5557ce39a29a.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/63c2412ac0861377a4af70dca7f5a7e6a09e43faa46d8bd7f3740e0c8c6fa869.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8c0e9b542d0aa02f7aee3efb3299ba713ad84a4967e609486169a61711467188.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-01",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A plant near a window bends towards the light. What might it be doing?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Growing towards the light",
+          "imageAssetPath": "option-art/3e0241e10aeffe9543e8ba66.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Looking for a toy",
+          "imageAssetPath": "option-art/cc792740405f4f18f7868af8.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Trying to walk"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/87cb3a904c83fa1707b3ec8543a094e92f9c6b99bc38b0f95e6eaa6597628f26.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8d7d835f3e114462d4517eef0efb61f0f7f67d9453b92dd5a060c7bf0d4808fa.ogg",
+        "b": "speech/0048953ff6669f32692d7ec8c7add357f4c56c8c44ef46d04b61beceeef3fc57.ogg",
+        "c": "speech/40850469fd41e5a7052242e665ddcb1b5639e8afbba7e7092747cf3019c641d9.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ab77e34857ec062bbbb3392e2a64fb78f480f4420e7ddbb9dfe0ead3f4ab0885.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4facd1fdce282124c35fe42c5a84f7c48195de3d46b8cfbadf857ec5f48a0048.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-02",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "After the sun warms a puddle, what may happen to some of the water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "It may rain",
+          "imageAssetPath": "option-art/27f64048ba98d26075ee323b.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Some water goes into the air.",
+          "imageAssetPath": "option-art/880bfea2889b76bf3d4ff7c1.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "The clouds will turn into rocks",
+          "imageAssetPath": "option-art/fc609fb92a94b787bb0bc80a.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/1e8145851789814d074e5f5e905da87548d5d46aaf268bde6bed171becffdaa7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/da1c2cc302d0066b8d5e10d9d9fbc78e56706573ce79da179328396e5b702ea2.ogg",
+        "b": "speech/39d4f997c47e1eea8eb132a3c0aa90fd3b4bc63102db2a6c697bf1eedf0e693a.ogg",
+        "c": "speech/393d58120f7b4160840bf4985fd85868288ae045365166cdb4afdebdef757478.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/457da98c17fb270a594970d698e08b5e32383391d4f04c91e1cf92650dae69d7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6e119977eb5c278eb4e8a942d02f4ae3ef65efb7746dcd8b71d21b71732e5690.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-03",
+      "skillId": "aas2-ali-observe-predict",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A puddle becomes smaller on a sunny day. What may have happened to the water?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Some water evaporated",
+          "imageAssetPath": "option-art/990885beeb877403cb8e6d24.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The water became soil",
+          "imageAssetPath": "option-art/334344a415b429ded81155e6.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "The puddle grew deeper"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/17080036815ea65d8e1fc0d7b385833fa370c6801cbf302a50914580ae2fb078.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/521e388f6be7a34919d214f059dae3ef108f6044da2022a64830c5b8fe08bc3e.ogg",
+        "b": "speech/6d40994bc294c418d0825c2d59c96b54b94eeaf108950f4718752de6b0265265.ogg",
+        "c": "speech/df344c58490d20e3a498de0c3d84e83361229c8d0c5aa86f4aaae0b904da4936.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c7fc3339bf7f2aeec80de997bbcf33db6aefdf3aaf59d4e0d2acad2ea2cc6aa6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e8d9b538181ace49d8d0c4c618a4a8f87a301169bffdc8cb020f28e7bb41a820.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-01",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool can show how hot or cold the air is?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Thermometer",
+          "imageAssetPath": "option-art/945f5268551840c2cf9f32b2.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Ruler",
+          "imageAssetPath": "option-art/eef8d400ec274d881cd0fb27.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Paintbrush"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/d0004cf201b9fd1e32648de6801d6dfd1212f024734075afb111fcfc8dd7f6b7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7e0b51b5a4fc774fc480e29be14f041fb08574da9ebccf91ecf92b78b2b3ead7.ogg",
+        "b": "speech/6e9383b1dc64378b062544444b15c250d51e326248d06bf55d64d054d9099449.ogg",
+        "c": "speech/8e8de65b9ec54b41fb61a7c8541963a55d3ef3f11a5a6f55aeaf80e740536504.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d8b0157d671477de3ded217a5f77b111d7029c4c87d4ae2558ad2720bd8cc653.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/50acb584d843017b0378aa235c77b2af0b871599b83ee04d25f44faa1dcc4ab2.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-02",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What can you observe on a windy day?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Leaves moving",
+          "imageAssetPath": "option-art/a8f794a1b05ba0e2e4bf9078.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The ground becoming a star",
+          "imageAssetPath": "option-art/3129a75966c9240fdca2c6a0.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "The Moon melting",
+          "imageAssetPath": "option-art/6521cfb26797634e0d508fcc.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/9dce7a3ac17cc8d4b2ac29e6d4fd295ebba5e61095b88170bc0ae9c73d2f411c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d6fdc46f2ee85a2337265309b668c9356063e561c8e0936820f5873bb6b86008.ogg",
+        "b": "speech/73a4787891aa81d9b3ea4783d203772b7340b0a0d6099c4c2c46e0ec95a3d54b.ogg",
+        "c": "speech/d6a2e1ddce0be18522061f18009d056cdd2ebb72ea317d6faa13ceaeea2b63d6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a6ddeff7a6502a96c50d22ca812badd175358726ef8ac6af90834faab2e68d9d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b16f51dcfe27e502d27bf87c8da5daad168769f5be966c92abe33eacb5b80695.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-03",
+      "skillId": "aas2-ali-weather-observation",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which clothing may help on a rainy day?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Raincoat",
+          "imageAssetPath": "option-art/40bea7dc325655ed3fa53e1a.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Swimsuit for a pool"
+        },
+        {
+          "optionId": "c",
+          "text": "Wool hat only",
+          "imageAssetPath": "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/a8cbe231c0f51a49f138f542e76541475a9fb33a800f99dca0e722e04b0ec7dd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/806cbadbfe5d6aa57df253e474999975a9580cece01b9b49262093d7c04bb764.ogg",
+        "b": "speech/cd1d4866189909faec08f58dc3cbb139c83df2115bebff9ae23aab039bce3487.ogg",
+        "c": "speech/4440e127228e67b5b4050a372ef23a9293da1cbffc050be855fa22634ae823a3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/49a76d187d503ab9bdf9976dcbc024e873385ed461e1e3526927edafc076566c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5182b5c438e8a19e2cf6df0bafc61774595edba3f36917004a84aa9a1dce1988.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-01",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action helps keep a playground clean?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Put rubbish in a bin",
+          "imageAssetPath": "option-art/4d74507c2a181a2af32fac75.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Drop wrappers on the ground"
+        },
+        {
+          "optionId": "c",
+          "text": "Break young plants",
+          "imageAssetPath": "option-art/31d8013f08d7902d4de84b88.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/9dd897a1a4f3a842f99554ebdf6798181d25b976e1e053914d1baf3734085dad.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c9be4df47b4075bf87ca6fd9020be2c17129da519271c077105267a9c60be1a0.ogg",
+        "b": "speech/a211adf8ecf2c4dad32f1e7775b2b2f5e2d8aa75ac0d040435018ff03d97cdae.ogg",
+        "c": "speech/b76c4ddb03e9419b814e88b15961a37742ab814f3fae881ee192f4e7db8365b3.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/47fb47183966b188798aaa877dd46b8546ba65ba720cb9d7bb64a479b96282c7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/51f16889b2ba35eec51c3a61c88bfe279014aa63af8e4cd2922cc66152979bbf.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-01.svg"
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-02",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How can we save water when brushing teeth?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Turn off the tap while brushing",
+          "imageAssetPath": "option-art/dc3ee810ed2365e41295be07.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Leave the tap running",
+          "imageAssetPath": "option-art/bc34a1d8b042fe169b447b61.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Fill the sink and walk away"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 1,
+      "promptAudioAssetPath": "speech/7dd340eaf4c1e88a23ffcbf29363eba803ae6bd33c96fe6a29ae59e25625b1b4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/39bda8e77efccc33e9cc808ba72f51f382f8d96c08442213146d33af51b86d9a.ogg",
+        "b": "speech/eb792f64f09215c44373f318b2ab11a2ead9b78ba5d9fc9acabc8e3018730303.ogg",
+        "c": "speech/ec4dc5393ba69c3c89f6961621a4d173b530e9cbe60b8822ab485ddad55fa200.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/544d92d96ca037e6b63b2e228c15efd98e32ae61c5fc1869c4a93425bfc11204.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ff2d2f651ee0766a619dfd01b5e7f51bf10a4fda2b6247315135ce8595d5959b.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-02.svg"
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-03",
+      "skillId": "aas2-ali-environment-care",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which action helps care for a plant?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Water it when needed",
+          "imageAssetPath": "option-art/990885beeb877403cb8e6d24.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Pull out its roots",
+          "imageAssetPath": "option-art/9f18da59ec4a403673777c04.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "Cover it with plastic",
+          "imageAssetPath": "option-art/0b4467d4b4102b5a27c7d114.svg"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great noticing.",
+      "feedbackIncorrect": "Good try. Think carefully and try once more.",
+      "difficulty": 2,
+      "promptAudioAssetPath": "speech/0d83499301b603ccc85bc5c659a3156fdf99ed43a2671558150a4452bf4dac45.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5ff6e9840b5b5be4f3ab3c63a6cbe9326a4ee79d65d5072d34187d59e642db63.ogg",
+        "b": "speech/9ce9a8fafe2bcc3f61b80e180235a8dd0d98f5422d4c1445288d3bbca512446c.ogg",
+        "c": "speech/3ab6a503f987e586031fef62bd5fdef69293d3738680e12d7a1c9271e280ffac.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d00dab155c677634cbea56ca5ac18af29ff5046f0fa924c882ad1da1107b7962.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-environment-care-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A ribbon is 5 blocks long. A string is 3 blocks long. How many blocks longer is the ribbon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1 block",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "2 blocks",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "3 blocks",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! That's 2 blocks more.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 1,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_MXSKG_LENGTH_DIFFERENCE",
+      "optionRationales": {
+        "a": "One block is not the difference between five and three.",
+        "b": "Five is two more than three.",
+        "c": "Three is the length of the shorter object, not the difference."
+      },
+      "promptAudioAssetPath": "speech/62c3ae3bc5cab44cc8b483595ea607d02172ddb0cac3d07a042fd8ae536fcb0e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c49ea9b6f2c3678d9aa3ff69eb602f6316a0feaf912c9e0ff11628dca75bf90d.ogg",
+        "b": "speech/e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e.ogg",
+        "c": "speech/bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e1b83e450bf64536e16b8c89eea722b9b27712e7bbb09d3c54e1c2159a773ca8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1a8c11ed2edc2412e138ae2ef0f193792583e8718d9d87af1048099bc53dc257.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-004.svg"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Jug A holds 4 cups. Jug B holds 6 cups. Which jug holds more?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Jug A",
+          "imageAssetPath": "option-art/cfa30200bbca065b60932813.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "Jug B",
+          "imageAssetPath": "option-art/cfa30200bbca065b60932813.svg"
+        },
+        {
+          "optionId": "c",
+          "text": "They hold the same amount"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! Jug B holds more.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 2,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_MXSKG_CAPACITY_COMPARE",
+      "optionRationales": {
+        "a": "Four cups is fewer than six cups.",
+        "b": "Six cups is more than four cups.",
+        "c": "The two amounts are not equal."
+      },
+      "promptAudioAssetPath": "speech/b6e2de9902cdf3aa80ad9b63a452910339688ea09ebe7cdb3c594b93ce9ce807.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fa1892e590f239577e098101a7b5c9cdaa875d436f3a1e669d0ab41b8745eee5.ogg",
+        "b": "speech/1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6.ogg",
+        "c": "speech/8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/77eaef537d8fe4aaf80e37fbfd89ecfd033c5e282f26ad5d92dc902b4c7654a5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/801ba7b518723898e2d5cdf814b067264843e0efee7c518d77acedbc6ddbe846.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-005.svg"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pencil is 8 cubes long. A crayon is 5 cubes long. A ruler is 10 cubes long. Which is the shortest?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "The ruler",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! The crayon is shortest.",
+      "feedbackIncorrect": "Good try! Have another look.",
+      "difficulty": 2,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "MIS_MXSKG_ORDER_LENGTHS",
+      "optionRationales": {
+        "a": "Eight cubes is longer than five cubes.",
+        "b": "Five cubes is the shortest measurement.",
+        "c": "Ten cubes is the longest measurement."
+      },
+      "promptAudioAssetPath": "speech/08367a8ce29c08e58d7a438caba5560eb47b0048b02ba901d6690310f23f1fd9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/69cc3b88232b323df249a1fcd5ff2a18e09acd493a2a92d1d26c24fc60904022.ogg",
+        "b": "speech/9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8.ogg",
+        "c": "speech/453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e8f830a1a9e1d826e57f2ad2156405dea1f7c087a0afcfb70665142e7ca9a591.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2de33ab3ca9346ff8cc9f9fce9745744152510cb60fc73f318d75c7da9a2d41b.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-006.svg"
+    }
+  ],
+  "books": [
+    {
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Hop, Skip and Jump — Senior KG Complete Kit",
+      "subject": "English & Literacy",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "MACMILLAN-HOP-SKIP-JUMP"
+      ]
+    },
+    {
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Maths Xpress — Senior KG",
+      "subject": "Mathematics",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATHS-XPRESS-SKG"
+      ]
+    },
+    {
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "AAS2 My World Discovery — KG2 Companion Book",
+      "subject": "Discovery",
+      "learnerPath": "KG2",
+      "sourceReferenceIds": [
+        "QCAA-QKLG-2024",
+        "HS-ELOF-BIRTH5",
+        "NOAA-WHOI-E20-003"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "unitId": "HSJ-KG2-U01",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Early Language and Literacy",
+      "sequence": 1,
+      "lessonIds": [
+        "HSJ-KG2-U01-L01",
+        "HSJ-KG2-U01-L02",
+        "HSJ-KG2-U01-L03"
+      ]
+    },
+    {
+      "unitId": "HSJ-KG2-U02",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Phonics and Sound Awareness",
+      "sequence": 2,
+      "lessonIds": [
+        "HSJ-KG2-U02-L01",
+        "HSJ-KG2-U02-L02"
+      ]
+    },
+    {
+      "unitId": "HSJ-KG2-U03",
+      "bookId": "hop-skip-jump-senior-kg",
+      "title": "Creative and Social Learning",
+      "sequence": 3,
+      "lessonIds": [
+        "HSJ-KG2-U03-L01",
+        "HSJ-KG2-U03-L02",
+        "HSJ-KG2-U03-L03",
+        "HSJ-KG2-U03-L04"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U01",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Counting and Number Sense",
+      "sequence": 1,
+      "lessonIds": [
+        "MXSKG-U01-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U02",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Patterns and Relationships",
+      "sequence": 2,
+      "lessonIds": [
+        "MXSKG-U02-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U03",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Shapes and Space",
+      "sequence": 3,
+      "lessonIds": [
+        "MXSKG-U03-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U04",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Joining and Taking Away",
+      "sequence": 4,
+      "lessonIds": [
+        "MXSKG-U04-L01"
+      ]
+    },
+    {
+      "unitId": "MXSKG-U05",
+      "bookId": "maths-xpress-senior-kg",
+      "title": "Measurement and Comparison",
+      "sequence": 5,
+      "lessonIds": [
+        "MXSKG-U05-L01"
+      ]
+    },
+    {
+      "unitId": "MWD-KG2-U01",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "Living Things Around Us",
+      "sequence": 1,
+      "lessonIds": [
+        "MWD-KG2-U01-L01",
+        "MWD-KG2-U01-L02",
+        "MWD-KG2-U01-L03"
+      ]
+    },
+    {
+      "unitId": "MWD-KG2-U02",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "title": "Our Environment",
+      "sequence": 2,
+      "lessonIds": [
+        "MWD-KG2-U02-L01",
+        "MWD-KG2-U02-L02"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "HSJ-KG2-U01-L01",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Everyday Vocabulary",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-everyday-vocabulary"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U01-L02",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Listening and Understanding",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-listening-comprehension"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U01-L03",
+      "unitId": "HSJ-KG2-U01",
+      "title": "Stories and Sequencing",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-story-sequencing"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U02-L01",
+      "unitId": "HSJ-KG2-U02",
+      "title": "Initial Sounds",
+      "sequence": 1,
+      "skillIds": [
+        "initial-sounds",
+        "aas2-ali-initial-sounds"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U02-L02",
+      "unitId": "HSJ-KG2-U02",
+      "title": "Rhyming Words",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-rhyming-words"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L01",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Handwriting Readiness",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-handwriting-readiness"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L02",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Creative Expression",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-creative-expression"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L03",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Cooperation and Turn-Taking",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-cooperation-turn-taking"
+      ]
+    },
+    {
+      "lessonId": "HSJ-KG2-U03-L04",
+      "unitId": "HSJ-KG2-U03",
+      "title": "Self-Regulation and Learning Routines",
+      "sequence": 4,
+      "skillIds": [
+        "aas2-ali-self-regulation"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U01-L01",
+      "unitId": "MXSKG-U01",
+      "title": "Counting Objects",
+      "sequence": 1,
+      "skillIds": [
+        "counting-to-five",
+        "aas2-ali-counting-pictures"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U02-L01",
+      "unitId": "MXSKG-U02",
+      "title": "Number Patterns",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-number-patterns"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U03-L01",
+      "unitId": "MXSKG-U03",
+      "title": "Recognising Common Shapes",
+      "sequence": 1,
+      "skillIds": [
+        "common-shapes",
+        "aas2-ali-shapes"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U04-L01",
+      "unitId": "MXSKG-U04",
+      "title": "Early Addition and Subtraction",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-adding-and-taking-away"
+      ]
+    },
+    {
+      "lessonId": "MXSKG-U05-L01",
+      "unitId": "MXSKG-U05",
+      "title": "Comparing Length and Size",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-measure-compare"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L01",
+      "unitId": "MWD-KG2-U01",
+      "title": "Plants and Their Needs",
+      "sequence": 1,
+      "skillIds": [
+        "plant-needs"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L02",
+      "unitId": "MWD-KG2-U01",
+      "title": "Discovering Our World",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-discovering-world"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U01-L03",
+      "unitId": "MWD-KG2-U01",
+      "title": "Observe and Predict",
+      "sequence": 3,
+      "skillIds": [
+        "aas2-ali-observe-predict"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U02-L01",
+      "unitId": "MWD-KG2-U02",
+      "title": "Weather Observation",
+      "sequence": 1,
+      "skillIds": [
+        "aas2-ali-weather-observation"
+      ]
+    },
+    {
+      "lessonId": "MWD-KG2-U02-L02",
+      "unitId": "MWD-KG2-U02",
+      "title": "Caring for Our Environment",
+      "sequence": 2,
+      "skillIds": [
+        "aas2-ali-environment-care"
+      ]
+    }
+  ],
+  "guidedTasks": [
+    {
+      "activityId": "aas2-kg2-guided-handwriting-readiness",
+      "skillId": "aas2-ali-handwriting-readiness",
+      "title": "Make careful lines and shapes",
+      "instructions": [
+        "Sit comfortably and hold the pencil gently with an adult's help.",
+        "Trace a short straight line, a curved line and a circle.",
+        "Draw one shape of your choice."
+      ],
+      "observableCriteria": [
+        "Uses a comfortable grip with support as needed",
+        "Makes controlled marks",
+        "Attempts a recognisable line or shape"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L01"
+    },
+    {
+      "activityId": "aas2-kg2-guided-creative-expression",
+      "skillId": "aas2-ali-creative-expression",
+      "title": "Create a picture of a place you know",
+      "instructions": [
+        "Choose a familiar place such as a garden or home.",
+        "Draw at least two things you can see there.",
+        "Tell an adult one thing about your picture."
+      ],
+      "observableCriteria": [
+        "Chooses materials safely",
+        "Represents an idea using marks or shapes",
+        "Communicates one idea about the work"
+      ],
+      "assessment": "Adult observation; accept varied creative responses.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L02"
+    },
+    {
+      "activityId": "aas2-kg2-guided-cooperation",
+      "skillId": "aas2-ali-cooperation-turn-taking",
+      "title": "Build together and take turns",
+      "instructions": [
+        "Choose blocks or safe building pieces with an adult.",
+        "Take turns adding one piece at a time.",
+        "Describe how you worked together."
+      ],
+      "observableCriteria": [
+        "Waits for a turn with support",
+        "Shares materials safely",
+        "Responds to a partner's contribution"
+      ],
+      "assessment": "Adult observation; do not compare siblings or score speed.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L03"
+    },
+    {
+      "activityId": "aas2-kg2-guided-self-regulation",
+      "skillId": "aas2-ali-self-regulation",
+      "title": "Pause, breathe and try again",
+      "instructions": [
+        "When a task feels difficult, pause your hands.",
+        "Take one slow breath with an adult.",
+        "Listen to the next small step and try again."
+      ],
+      "observableCriteria": [
+        "Pauses when prompted",
+        "Attempts a calming breath",
+        "Returns to the task with support"
+      ],
+      "assessment": "Adult observation; supportive practice, never a penalty.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L04"
+    },
+    {
+      "activityId": "aas2-kg2-mwd-guided-plant-observation",
+      "skillId": "aas2-ali-observe-predict",
+      "title": "Observe a plant safely",
+      "instructions": [
+        "With an adult, choose a plant you can see from a safe place. Do not pick, taste or touch unknown plants.",
+        "Look at a leaf, stem or flower and notice its colour or shape.",
+        "Draw what you see or tell the adult one thing you noticed."
+      ],
+      "observableCriteria": [
+        "Observes the plant safely without damaging it",
+        "Describes one visible feature such as colour or shape",
+        "Records the observation through a drawing or spoken description"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer. Never taste or handle an unknown plant.",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "unitId": "MWD-KG2-U01",
+      "lessonId": "MWD-KG2-U01-L03"
+    },
+    {
+      "activityId": "aas2-kg2-mwd-guided-visual-sequence",
+      "skillId": "aas2-ali-discovering-world",
+      "title": "Put plant growth pictures in order",
+      "visualCue": "Seed  →  Sprout  →  Young plant",
+      "instructions": [
+        "Ask an adult to show three picture cards: a seed, a sprout and a young plant.",
+        "Arrange the cards in the order they happen: first, next and last.",
+        "Tell the adult one thing that changes as the plant grows."
+      ],
+      "observableCriteria": [
+        "Places the three growth stages in a sensible order",
+        "Uses first, next and last to describe the sequence",
+        "Describes one simple change as the plant grows"
+      ],
+      "assessment": "Adult observation; accept spoken, drawn or arranged-card responses without scoring.",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "unitId": "MWD-KG2-U01",
+      "lessonId": "MWD-KG2-U01-L02"
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-rhyme-song",
+      "skillId": "aas2-ali-rhyming-words",
+      "title": "Make a rhyme and clap the beat",
+      "visualCue": "Cat  ↔  Mat     ·     Bee  ↔  Tree",
+      "instructions": [
+        "Ask an adult to say the words cat and mat, then bee and tree.",
+        "Say each pair aloud and listen for the same ending sound.",
+        "Clap the beat for each word and think of one more rhyming pair with the adult."
+      ],
+      "observableCriteria": [
+        "Recognises that each pair shares an ending sound",
+        "Joins in saying or clapping the words",
+        "Attempts an original rhyming pair with support"
+      ],
+      "assessment": "Adult observation; accept spoken, repeated or gestured participation. Do not score pronunciation.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U02",
+      "lessonId": "HSJ-KG2-U02-L02"
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-art-craft",
+      "skillId": "aas2-ali-creative-expression",
+      "title": "Create a picture with shapes",
+      "visualCue": "Draw  →  Colour  →  Tell",
+      "instructions": [
+        "With an adult, choose paper, crayons and safe pre-cut shapes.",
+        "Make a picture using at least two shapes or colours. Ask an adult for help with any cutting or glue.",
+        "Tell the adult what your picture shows and why you chose the shapes."
+      ],
+      "observableCriteria": [
+        "Uses materials safely with age-appropriate support",
+        "Combines shapes or colours to represent an idea",
+        "Describes one part of the picture in their own words"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer. An adult handles cutting tools.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L02"
     }
   ]
 }

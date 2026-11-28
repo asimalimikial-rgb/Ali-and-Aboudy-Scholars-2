@@ -1,0 +1,1951 @@
+{
+  "schemaVersion": "AAS2-ENGLISH-WORLD-L2-ORIGINAL-DRAFTS-0.1",
+  "title": "Original AAS2 English World Level 2 companion activity drafts",
+  "learnerPath": "GRADE_2",
+  "bookId": "english-world-level-2",
+  "copyrightPolicy": "Original AAS2-authored prompts; publisher unit names are used only as scope labels. No textbook text, stories, exercises or illustrations are reproduced.",
+  "summary": {
+    "units": 12,
+    "lessons": 26,
+    "activities": 52,
+    "activitiesPerLesson": "2 per lesson",
+    "runtimeMapped": 52
+  },
+  "releaseGate": "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA",
+  "requiredChecks": [
+    "unit and scope alignment",
+    "grammar and answer-key review",
+    "age and reading-level review",
+    "audio generation and listening QA",
+    "visual generation and accessibility review",
+    "offline asset integrity",
+    "duplicate detection"
+  ],
+  "records": [
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-001",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L01",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The knight is riding a horse."
+        },
+        {
+          "optionId": "b",
+          "text": "The knight are riding a horse."
+        },
+        {
+          "optionId": "c",
+          "text": "The knight riding a horse."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-002",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L01",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: The children ___ in the garden.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "is playing"
+        },
+        {
+          "optionId": "b",
+          "text": "are playing"
+        },
+        {
+          "optionId": "c",
+          "text": "am playing"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-003",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L02",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Read: Ali puts bread on a plate. Next, he spreads the filling. Then, he closes the sandwich. What does Ali do after putting the bread on the plate?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Put the sandwich on a plate."
+        },
+        {
+          "optionId": "b",
+          "text": "Spread the filling on the bread."
+        },
+        {
+          "optionId": "c",
+          "text": "Eat the sandwich."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-004",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L02",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word shows the next event?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Next"
+        },
+        {
+          "optionId": "b",
+          "text": "Blue"
+        },
+        {
+          "optionId": "c",
+          "text": "Under"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-005",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L03",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Where can you borrow a book?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A library"
+        },
+        {
+          "optionId": "b",
+          "text": "A bakery"
+        },
+        {
+          "optionId": "c",
+          "text": "A garage"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-006",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L03",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word names a person who teaches pupils?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Farmer"
+        },
+        {
+          "optionId": "b",
+          "text": "Teacher"
+        },
+        {
+          "optionId": "c",
+          "text": "Pilot"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-007",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L04",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The castle is tall."
+        },
+        {
+          "optionId": "b",
+          "text": "Tall the castle is."
+        },
+        {
+          "optionId": "c",
+          "text": "Is tall the castle."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-008",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L04",
+      "unitTitle": "At the castle",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which mark ends this sentence: The king is kind",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "?"
+        },
+        {
+          "optionId": "b",
+          "text": "!"
+        },
+        {
+          "optionId": "c",
+          "text": "."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-009",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L01",
+      "unitTitle": "In Biffo's garden",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word names a place where children play?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Playground"
+        },
+        {
+          "optionId": "b",
+          "text": "Kitchen"
+        },
+        {
+          "optionId": "c",
+          "text": "Bedroom"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-010",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L01",
+      "unitTitle": "In Biffo's garden",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A swing is found in a…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "playground"
+        },
+        {
+          "optionId": "b",
+          "text": "bathroom"
+        },
+        {
+          "optionId": "c",
+          "text": "library"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-011",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L02",
+      "unitTitle": "In Biffo's garden",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct word: ___ flowers here are yellow.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Those"
+        },
+        {
+          "optionId": "b",
+          "text": "These"
+        },
+        {
+          "optionId": "c",
+          "text": "That"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-012",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L02",
+      "unitTitle": "In Biffo's garden",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Look at the bird far away. ___ bird is blue.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "This"
+        },
+        {
+          "optionId": "b",
+          "text": "These"
+        },
+        {
+          "optionId": "c",
+          "text": "That"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-013",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L01",
+      "unitTitle": "Pirate Jack",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: She ___ swimming.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "like"
+        },
+        {
+          "optionId": "b",
+          "text": "likes"
+        },
+        {
+          "optionId": "c",
+          "text": "liking"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-014",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L01",
+      "unitTitle": "Pirate Jack",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is a hobby?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Collecting stamps"
+        },
+        {
+          "optionId": "b",
+          "text": "Sleeping in class"
+        },
+        {
+          "optionId": "c",
+          "text": "Breaking toys"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-015",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L02",
+      "unitTitle": "Pirate Jack",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct question.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Do you play football?"
+        },
+        {
+          "optionId": "b",
+          "text": "You do play football?"
+        },
+        {
+          "optionId": "c",
+          "text": "Play you football do?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-016",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L02",
+      "unitTitle": "Pirate Jack",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long o sound in o_e?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hop"
+        },
+        {
+          "optionId": "b",
+          "text": "home"
+        },
+        {
+          "optionId": "c",
+          "text": "hot"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-017",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L01",
+      "unitTitle": "A fantastic shop",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: ___ he wear a blue shirt?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Do"
+        },
+        {
+          "optionId": "b",
+          "text": "Does"
+        },
+        {
+          "optionId": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-018",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L01",
+      "unitTitle": "A fantastic shop",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which item do you wear on your feet?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Gloves"
+        },
+        {
+          "optionId": "b",
+          "text": "Shoes"
+        },
+        {
+          "optionId": "c",
+          "text": "Hat"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-019",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L02",
+      "unitTitle": "A fantastic shop",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /cl/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "queen"
+        },
+        {
+          "optionId": "b",
+          "text": "clean"
+        },
+        {
+          "optionId": "c",
+          "text": "green"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-020",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L02",
+      "unitTitle": "A fantastic shop",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the describing word: a ___ coat.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "warm"
+        },
+        {
+          "optionId": "b",
+          "text": "coat"
+        },
+        {
+          "optionId": "c",
+          "text": "wear"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-021",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L01",
+      "unitTitle": "Pirate Jack is on TV",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which activity usually happens in the morning?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Wake up"
+        },
+        {
+          "optionId": "b",
+          "text": "Go to bed"
+        },
+        {
+          "optionId": "c",
+          "text": "Eat dinner at midnight"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-022",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L01",
+      "unitTitle": "Pirate Jack is on TV",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is half past seven?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7:15"
+        },
+        {
+          "optionId": "b",
+          "text": "7:30"
+        },
+        {
+          "optionId": "c",
+          "text": "8:30"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-023",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L02",
+      "unitTitle": "Pirate Jack is on TV",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /tr/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rain"
+        },
+        {
+          "optionId": "b",
+          "text": "chain"
+        },
+        {
+          "optionId": "c",
+          "text": "train"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-024",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L02",
+      "unitTitle": "Pirate Jack is on TV",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the best order: first wash hands, ___ eat.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "before"
+        },
+        {
+          "optionId": "b",
+          "text": "then"
+        },
+        {
+          "optionId": "c",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-025",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L01",
+      "unitTitle": "Who is the winner?",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: This is my sister. ___ name is Lina.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "His"
+        },
+        {
+          "optionId": "b",
+          "text": "Her"
+        },
+        {
+          "optionId": "c",
+          "text": "Their"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-026",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L01",
+      "unitTitle": "Who is the winner?",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body part helps you bend your arm?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Elbow"
+        },
+        {
+          "optionId": "b",
+          "text": "Ankle"
+        },
+        {
+          "optionId": "c",
+          "text": "Chin"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-027",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L02",
+      "unitTitle": "Who is the winner?",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the contraction for does not.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "doesn't"
+        },
+        {
+          "optionId": "b",
+          "text": "don't"
+        },
+        {
+          "optionId": "c",
+          "text": "didn't"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-028",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L02",
+      "unitTitle": "Who is the winner?",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /st/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sun"
+        },
+        {
+          "optionId": "b",
+          "text": "star"
+        },
+        {
+          "optionId": "c",
+          "text": "run"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-029",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L01",
+      "unitTitle": "A trip in a balloon",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which food is made from milk?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Yoghurt"
+        },
+        {
+          "optionId": "b",
+          "text": "Rice"
+        },
+        {
+          "optionId": "c",
+          "text": "Carrot"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-030",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L01",
+      "unitTitle": "A trip in a balloon",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes the weather when rain falls?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rainy"
+        },
+        {
+          "optionId": "b",
+          "text": "Dusty"
+        },
+        {
+          "optionId": "c",
+          "text": "Dry"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-031",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L02",
+      "unitTitle": "A trip in a balloon",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: There ___ two birds in the tree.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "is"
+        },
+        {
+          "optionId": "b",
+          "text": "are"
+        },
+        {
+          "optionId": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-032",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L02",
+      "unitTitle": "A trip in a balloon",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word means 'every time'?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Never"
+        },
+        {
+          "optionId": "b",
+          "text": "Always"
+        },
+        {
+          "optionId": "c",
+          "text": "Sometimes"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-033",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L01",
+      "unitTitle": "Look at the animals!",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Yesterday, the puppies ___ playful.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "was"
+        },
+        {
+          "optionId": "b",
+          "text": "were"
+        },
+        {
+          "optionId": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-034",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L01",
+      "unitTitle": "Look at the animals!",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal is a mammal?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Dolphin"
+        },
+        {
+          "optionId": "b",
+          "text": "Butterfly"
+        },
+        {
+          "optionId": "c",
+          "text": "Lizard"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-035",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L02",
+      "unitTitle": "Look at the animals!",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word ends with the letters ld?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "cot"
+        },
+        {
+          "optionId": "b",
+          "text": "cold"
+        },
+        {
+          "optionId": "c",
+          "text": "can"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-036",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L02",
+      "unitTitle": "Look at the animals!",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is half past eight?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8:15"
+        },
+        {
+          "optionId": "b",
+          "text": "8:30"
+        },
+        {
+          "optionId": "c",
+          "text": "9:30"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-037",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L01",
+      "unitTitle": "Look! The sea!",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "The fish swims ___ the water.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "in"
+        },
+        {
+          "optionId": "b",
+          "text": "on"
+        },
+        {
+          "optionId": "c",
+          "text": "between"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-038",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L01",
+      "unitTitle": "Look! The sea!",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal lives in the sea?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Dolphin"
+        },
+        {
+          "optionId": "b",
+          "text": "Camel"
+        },
+        {
+          "optionId": "c",
+          "text": "Hen"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-039",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L02",
+      "unitTitle": "Look! The sea!",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: There ___ a shell on the beach yesterday.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "was"
+        },
+        {
+          "optionId": "b",
+          "text": "were"
+        },
+        {
+          "optionId": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-040",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L02",
+      "unitTitle": "Look! The sea!",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long ee sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "tree"
+        },
+        {
+          "optionId": "b",
+          "text": "trap"
+        },
+        {
+          "optionId": "c",
+          "text": "train"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-041",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L01",
+      "unitTitle": "The island",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence gives a safe instruction?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stay with your adult."
+        },
+        {
+          "optionId": "b",
+          "text": "Run into deep water."
+        },
+        {
+          "optionId": "c",
+          "text": "Touch a hot fire."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-042",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L01",
+      "unitTitle": "The island",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct command.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Please close the gate."
+        },
+        {
+          "optionId": "b",
+          "text": "Do you close the gate?"
+        },
+        {
+          "optionId": "c",
+          "text": "The gate is closed yesterday."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-043",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L02",
+      "unitTitle": "The island",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: I can see Ali. I can see ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "him"
+        },
+        {
+          "optionId": "b",
+          "text": "he"
+        },
+        {
+          "optionId": "c",
+          "text": "his"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-044",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L02",
+      "unitTitle": "The island",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long oo sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "moon"
+        },
+        {
+          "optionId": "b",
+          "text": "man"
+        },
+        {
+          "optionId": "c",
+          "text": "men"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-045",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L01",
+      "unitTitle": "The boat",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the past tense of visit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "visited"
+        },
+        {
+          "optionId": "b",
+          "text": "visits"
+        },
+        {
+          "optionId": "c",
+          "text": "visiting"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-046",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L01",
+      "unitTitle": "The boat",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word helps put events in order?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "After"
+        },
+        {
+          "optionId": "b",
+          "text": "Green"
+        },
+        {
+          "optionId": "c",
+          "text": "Quickly"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-047",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L02",
+      "unitTitle": "The boat",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the ai sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "train"
+        },
+        {
+          "optionId": "b",
+          "text": "tree"
+        },
+        {
+          "optionId": "c",
+          "text": "truck"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-048",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L02",
+      "unitTitle": "The boat",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A diary usually tells about…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "your day and experiences"
+        },
+        {
+          "optionId": "b",
+          "text": "only numbers"
+        },
+        {
+          "optionId": "c",
+          "text": "weather instruments"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-049",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L01",
+      "unitTitle": "Welcome home!",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which verb shows movement?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "crawl"
+        },
+        {
+          "optionId": "b",
+          "text": "plate"
+        },
+        {
+          "optionId": "c",
+          "text": "spoon"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-050",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L01",
+      "unitTitle": "Welcome home!",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "The cat jumped ___ the box.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "over"
+        },
+        {
+          "optionId": "b",
+          "text": "because"
+        },
+        {
+          "optionId": "c",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-051",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L02",
+      "unitTitle": "Welcome home!",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct past sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "We played and walked."
+        },
+        {
+          "optionId": "b",
+          "text": "We play and walk yesterday."
+        },
+        {
+          "optionId": "c",
+          "text": "We playing yesterday."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-052",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L02",
+      "unitTitle": "Welcome home!",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence uses commas in a list?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "I packed a hat, a book and a ball."
+        },
+        {
+          "optionId": "b",
+          "text": "I packed a hat a book and a ball"
+        },
+        {
+          "optionId": "c",
+          "text": "I packed, a hat a book and a ball."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! Great English.",
+      "feedbackIncorrect": "Good try. Read it again and try once more.",
+      "difficulty": 1,
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
+      "sourceType": "ORIGINAL_AAS2_AUTHORED",
+      "sourceReferences": [
+        "MACMILLAN-ENGLISH-WORLD-L2",
+        "AAS2-ORIGINAL-AUTHORED"
+      ],
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
+    }
+  ],
+  "packVersion": "0.4.8"
+}

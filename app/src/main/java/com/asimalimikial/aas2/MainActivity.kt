@@ -14,6 +14,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CardDefaults
@@ -63,7 +64,9 @@ import kotlinx.coroutines.launch
 import com.asimalimikial.aas2.content.AndroidAssetContentPackTextSource
 import com.asimalimikial.aas2.content.AssetContentPackRepository
 import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
+import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.GuidedTaskCompletionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
 import com.asimalimikial.aas2.ui.ParentDashboardScreen
@@ -102,6 +105,10 @@ class MainActivity : ComponentActivity() {
             learnerProfileDao = profileDao,
             learningAttemptDao = database.learningAttemptDao()
         )
+        val guidedTaskCompletionService = GuidedTaskCompletionService(
+            learnerProfileDao = profileDao,
+            learningAttemptDao = database.learningAttemptDao()
+        )
 
         lifecycleScope.launch {
             profileDao.insertDefaultsIfMissing(
@@ -128,6 +135,7 @@ class MainActivity : ComponentActivity() {
             )
             val selectedProfile = LearnerSelectionPolicy.selectedProfile(selectedLearnerId, profiles)
             var showLearningExperience by rememberSaveable { mutableStateOf(false) }
+            var selectedLearningArea by rememberSaveable { mutableStateOf<String?>(null) }
             var showParentDashboard by rememberSaveable { mutableStateOf(false) }
             var showParentSettings by rememberSaveable { mutableStateOf(false) }
             val parentSurfaceActive = showParentDashboard || showParentSettings
@@ -151,6 +159,7 @@ class MainActivity : ComponentActivity() {
                 val currentLearnerId = selectedProfile?.learnerId
                 if (previousLearnerId != null && currentLearnerId != previousLearnerId) {
                     showLearningExperience = false
+                    selectedLearningArea = null
                     showParentDashboard = false
                     showParentSettings = false
                 }
@@ -214,19 +223,23 @@ class MainActivity : ComponentActivity() {
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
                             submissionService = submissionService,
-                            onExit = { showLearningExperience = false }
+                            guidedTaskCompletionService = guidedTaskCompletionService,
+                            initialDomain = selectedLearningArea,
+                            onExit = { showLearningExperience = false; selectedLearningArea = null }
                         )
                     } else {
                         LearnerHome(
                             profile = selectedProfile,
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
-                            onStartLearning = { showLearningExperience = true },
+                            onStartLearning = { selectedLearningArea = null; showLearningExperience = true },
+                            onOpenLearningArea = { subject -> selectedLearningArea = subject; showLearningExperience = true },
                             onOpenParentDashboard = {
                                 requestParentGate(localizedContext) { showParentDashboard = true }
                             },
                             onSwitchLearner = {
                                 showLearningExperience = false
+                                selectedLearningArea = null
                                 showParentDashboard = false
                                 showParentSettings = false
                                 lifecycleScope.launch {
@@ -328,6 +341,7 @@ private fun LearnerHome(
     contentPackRepository: AssetContentPackRepository,
     learningAttemptDao: LearningAttemptDao,
     onStartLearning: () -> Unit,
+    onOpenLearningArea: (String) -> Unit,
     onOpenParentDashboard: () -> Unit,
     onSwitchLearner: () -> Unit
 ) {
@@ -339,16 +353,19 @@ private fun LearnerHome(
     val soft = if (isAli) Color(0xFFFFF0EA) else Color(0xFFEDF4FF)
     val attempts by learningAttemptDao.observeForLearner(profile.learnerId).collectAsState(initial = emptyList())
     var availableSubjects by remember(profile.learnerId) { mutableStateOf<List<Pair<String, Int>>>(emptyList()) }
+    var loadedPack by remember(profile.learnerId) { mutableStateOf<ContentPack?>(null) }
     var isLoadingSubjects by remember(profile.learnerId) { mutableStateOf(true) }
     LaunchedEffect(profile.learnerId, profile.pathway) {
         isLoadingSubjects = true
         val packId = ContentPackSelectionPolicy.packIdForPathway(profile.pathway)
         if (packId == null) {
+            loadedPack = null
             availableSubjects = emptyList()
             isLoadingSubjects = false
         } else {
             try {
                 val pack = contentPackRepository.load(packId)
+                loadedPack = pack
                 val skillById = pack.skills.associateBy { it.skillId }
                 availableSubjects = ContentPackSelectionPolicy.englishActivities(pack)
                     .groupBy { activity ->
@@ -369,6 +386,24 @@ private fun LearnerHome(
         LearnerPracticeSummaryCalculator.summarize(profile.learnerId, attempts)
     }
     val accuracy = practiceSummary.accuracyPercent
+    val activitiesTried = remember(loadedPack, attempts) {
+        val currentPackId = loadedPack?.packId
+        if (currentPackId == null) 0 else attempts
+            .filter { it.contentPackId == currentPackId && it.isCorrect != null }
+            .map { it.activityId }
+            .toSet()
+            .size
+    }
+    val recommendedLearningArea = remember(loadedPack, attempts, profile.pathway) {
+        val pack = loadedPack
+        if (pack == null) null else {
+            val activities = ContentPackSelectionPolicy.englishActivities(pack)
+            val practicedIds = attempts.filter { it.contentPackId == pack.packId }.map { it.activityId }.toSet()
+            val nextActivity = ContentPackSelectionPolicy.nextActivity(activities, practicedIds)
+            val skill = nextActivity?.let { item -> pack.skills.firstOrNull { it.skillId == item.skillId } }
+            skill?.domain?.let { ContentPackSelectionPolicy.subjectForDomain(it, profile.pathway) }
+        }
+    }
     Column(
         modifier = Modifier.fillMaxSize()
             .background(Brush.verticalGradient(listOf(soft, Color(0xFFF8FAFD), Color.White)))
@@ -379,7 +414,7 @@ private fun LearnerHome(
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween) {
             Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                Text("YOUR LEARNING WORLD", color = accent, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black)
+                Text(stringResource(R.string.child_home_eyebrow), color = accent, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black)
                 Text(stringResource(R.string.welcome_name, displayName), style = MaterialTheme.typography.headlineMedium,
                     fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
                 Text(displayPathway, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF77859A))
@@ -391,25 +426,44 @@ private fun LearnerHome(
             ) { Text("⇄") }
         }
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(28.dp),
-            colors = CardDefaults.cardColors(containerColor = Color(0xFF263D5B)),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF397CC7)),
             elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)) {
             Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text(if (isAli) "🌟" else "🚀", style = MaterialTheme.typography.displaySmall)
-                Text(if (practiceSummary.scoredAttempts == 0) "Your adventure is ready!" else "Look how far you have come!",
-                    style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold)
-                Text(if (practiceSummary.scoredAttempts == 0) "Choose a world and start collecting discoveries."
-                    else "Every activity is another step in your learning journey.",
-                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2))
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_home_ready_title)
+                    else stringResource(R.string.child_home_progress_title, displayName),
+                    style = MaterialTheme.typography.titleLarge, color = Color.White, fontWeight = FontWeight.ExtraBold
+                )
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_home_ready_body)
+                    else stringResource(R.string.child_home_progress_body),
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFFDCE7F2)
+                )
                 Button(modifier = Modifier.fillMaxWidth().height(60.dp), onClick = onStartLearning,
                     shape = RoundedCornerShape(18.dp), colors = ButtonDefaults.buttonColors(containerColor = accent)) {
                     Text(stringResource(R.string.start_learning), fontWeight = FontWeight.Black, style = MaterialTheme.typography.titleMedium)
                 }
             }
         }
+        Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+            colors = CardDefaults.cardColors(containerColor = soft)) {
+            Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                Text(if (isAli) "🌳" else "🚀", style = MaterialTheme.typography.displaySmall)
+                Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                    Text(stringResource(R.string.child_mascot_message), style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold, color = Color(0xFF314763))
+                    Text(stringResource(R.string.child_sibling_cheer), style = MaterialTheme.typography.bodySmall,
+                        color = Color(0xFF718096))
+                }
+            }
+        }
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            listOf(Triple(practiceSummary.scoredAttempts.toString(), "Activities", "📚"),
-                Triple(practiceSummary.correctAnswers.toString(), "Correct", "⭐"),
-                Triple(if (practiceSummary.scoredAttempts == 0) "—" else "$accuracy%", "Accuracy", "🎯")).forEach { item ->
+            listOf(
+                Triple(activitiesTried.toString(), stringResource(R.string.child_stat_activities), "📚"),
+                Triple(practiceSummary.correctAnswers.toString(), stringResource(R.string.child_stat_correct), "✓"),
+                Triple(if (practiceSummary.scoredAttempts == 0) "—" else "$accuracy%", stringResource(R.string.child_stat_accuracy), "🎯")
+            ).forEach { item ->
                 Card(modifier = Modifier.weight(1f), shape = RoundedCornerShape(20.dp),
                     colors = CardDefaults.cardColors(containerColor = Color.White)) {
                     Column(modifier = Modifier.fillMaxWidth().padding(vertical = 13.dp, horizontal = 7.dp),
@@ -421,7 +475,7 @@ private fun LearnerHome(
                 }
             }
         }
-        Text(stringResource(R.string.learning_areas), style = MaterialTheme.typography.titleLarge,
+        Text(stringResource(R.string.choose_subject), style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Black, color = Color(0xFF263D5B))
         when {
             isLoadingSubjects -> Text(stringResource(R.string.loading_learning_areas), style = MaterialTheme.typography.bodyMedium)
@@ -433,7 +487,7 @@ private fun LearnerHome(
                     subject.contains("Science", ignoreCase = true) || subject.contains("Discovery", ignoreCase = true) -> "🔬"
                     else -> listOf("🧩", "🎨", "🌱")[index % 3]
                 }
-                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                Card(modifier = Modifier.fillMaxWidth().clickable { onOpenLearningArea(subject) }, shape = RoundedCornerShape(22.dp),
                     colors = CardDefaults.cardColors(containerColor = Color.White),
                     elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)) {
                     Row(modifier = Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically,
@@ -448,13 +502,30 @@ private fun LearnerHome(
                 }
             }
         }
+        if (recommendedLearningArea != null) {
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFFEAF6F2))) {
+                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(stringResource(R.string.child_learning_coach_title), style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold, color = Color(0xFF285B4D))
+                    Text(stringResource(R.string.child_learning_coach_recommendation, recommendedLearningArea),
+                        style = MaterialTheme.typography.bodyMedium, color = Color(0xFF496E62))
+                    Button(modifier = Modifier.fillMaxWidth(), onClick = { onOpenLearningArea(recommendedLearningArea) },
+                        shape = RoundedCornerShape(16.dp), colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF35AFA5))) {
+                        Text(stringResource(R.string.child_learning_coach_start), fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+        }
         Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(22.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF7E5))) {
             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
-                Text("🌱  Keep growing", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF80602B))
-                Text(if (practiceSummary.scoredAttempts == 0) "Try your first activity. Every great journey starts with one step."
-                    else "You have completed " + practiceSummary.scoredAttempts + " activities. Keep exploring at your own pace.",
-                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFF8A744B))
+                Text(stringResource(R.string.child_keep_growing_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF80602B))
+                Text(
+                    if (activitiesTried == 0) stringResource(R.string.child_keep_growing_first)
+                    else stringResource(R.string.child_keep_growing_progress, activitiesTried),
+                    style = MaterialTheme.typography.bodyMedium, color = Color(0xFF8A744B)
+                )
             }
         }
         OutlinedButton(modifier = Modifier.fillMaxWidth().height(54.dp), onClick = onOpenParentDashboard,

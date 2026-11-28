@@ -3,11 +3,11 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
-  "questionCount": 282,
-  "optionImageCount": 378,
+  "questionCount": 496,
+  "optionImageCount": 550,
   "formats": {
-    "svg": 245,
-    "png": 37
+    "svg": 452,
+    "png": 44
   },
   "files": [
     {
@@ -283,8 +283,8 @@
       "activityId": "sci-g2-u01-l1-q01-en",
       "path": "question-art/sci-g2-u01-l1-q01-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "8d2b9d3c3ded495395c6f42ca905bca0d99a0791ec919eae1daac18b1ac90434",
+      "bytes": 1032,
+      "sha256": "fc4f72bf413bfd6eeb1988b333368b2dcd54356892e908b95f23c26465e8d521",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -306,8 +306,8 @@
       "activityId": "sci-g2-u01-l1-q02-en",
       "path": "question-art/sci-g2-u01-l1-q02-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "739e86027c57a3d7538172f6641bc05a9525f0a086dec30bf8e7661ea45e3754",
+      "bytes": 1184,
+      "sha256": "2be9b776a8cca5a3c3d3bafbd5eb8f66a2e2e567fee6fe42c68179946ec23eec",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -329,8 +329,8 @@
       "activityId": "sci-g2-u01-l1-q03-en",
       "path": "question-art/sci-g2-u01-l1-q03-en.svg",
       "format": "svg",
-      "bytes": 1704,
-      "sha256": "97deb50e2589cbdbcaa3d51987b30e2a52d8904709d582a4ac7cef078dff2e69",
+      "bytes": 1044,
+      "sha256": "7126c9656d907ec8bc8d931f8224807eaf6fedd8b2734f0e37c366ae98131885",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -354,8 +354,8 @@
       "activityId": "sci-g2-u01-l1-q04-en",
       "path": "question-art/sci-g2-u01-l1-q04-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "d20c2e44da5c872376f2609763796a8c60204455faf9c48d842f8b01c3d5f91f",
+      "bytes": 1196,
+      "sha256": "0791bea400a9992826443492962ecd57e14ce9d35192628cb2eee19cf57508b6",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science",
@@ -376,8 +376,8 @@
       "activityId": "sci-g2-u01-l1-q05-en",
       "path": "question-art/sci-g2-u01-l1-q05-en.svg",
       "format": "svg",
-      "bytes": 1199,
-      "sha256": "ab05f6cd76613acb231661afb94b0e2596225ff15d4595e7af8931c61d0a2662",
+      "bytes": 1190,
+      "sha256": "b09e609115372cc0ff3cbb0390cfc45f2f7c166a60fdaf48e476bdee46a19574",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -421,8 +421,8 @@
       "activityId": "sci-g2-u01-l1-q07-en",
       "path": "question-art/sci-g2-u01-l1-q07-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "3229dd7f2cc3834f673fc319e0721dfa275ffb1363cefe01e3abcb588cdaa811",
+      "bytes": 1045,
+      "sha256": "a6add8468bae8c7e91ad236d40548e1c0a4e631ad91a31343c892ab0ed29beb4",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science",
@@ -444,8 +444,8 @@
       "activityId": "sci-g2-u01-l1-q08-en",
       "path": "question-art/sci-g2-u01-l1-q08-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "2152e2e734b484ceb800091aed3b66f64ec7837b3378df8bebafec3ccc8bfc69",
+      "bytes": 1044,
+      "sha256": "db6fd8812c690fca9083892cf1e43a9824ed3ee08a8e9d49a7a8555ca0f34e64",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science",
@@ -465,8 +465,8 @@
       "activityId": "sci-g2-u01-l2-q01-en",
       "path": "question-art/sci-g2-u01-l2-q01-en.svg",
       "format": "svg",
-      "bytes": 1763,
-      "sha256": "f999d940b457f83a7ed174584ce8ac7a74bd7b32985fe63500af4ca1c8a94030",
+      "bytes": 1990,
+      "sha256": "3e9eafd43a585e744910367df6d1f66f2ec04159c821f92c85e53d5603b03b0c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -489,8 +489,8 @@
       "activityId": "sci-g2-u01-l2-q02-en",
       "path": "question-art/sci-g2-u01-l2-q02-en.svg",
       "format": "svg",
-      "bytes": 1954,
-      "sha256": "e5966f34a79f2b205ba27f49e3bb2ce163471d57ce3f06309412fcb16ab89834",
+      "bytes": 1181,
+      "sha256": "2e770990acb56a9f10003c5b01586bc41101c26d492eb020220b3b8476ce529f",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -513,8 +513,8 @@
       "activityId": "sci-g2-u01-l2-q03-en",
       "path": "question-art/sci-g2-u01-l2-q03-en.svg",
       "format": "svg",
-      "bytes": 2215,
-      "sha256": "ff6f7bd130ac83dccd26b7e3f424eaff0c19bef34dacf17b5913aaf628c7dc50",
+      "bytes": 1194,
+      "sha256": "66dc8fe7ad1c730815d0c19763d15d3741d5aacb948f91eabc604250a3347a84",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -539,8 +539,8 @@
       "activityId": "sci-g2-u01-l2-q04-en",
       "path": "question-art/sci-g2-u01-l2-q04-en.svg",
       "format": "svg",
-      "bytes": 1370,
-      "sha256": "8cbbac5f5bd96d8ebd25ae0969c099a58d822b2b033e24248e703c75cdae463d",
+      "bytes": 1049,
+      "sha256": "cf1e0ed486b3c2b8f28becbd941a8b172225b86304a838d14137eb856b031da8",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -587,8 +587,8 @@
       "activityId": "sci-g2-u01-l2-q06-en",
       "path": "question-art/sci-g2-u01-l2-q06-en.svg",
       "format": "svg",
-      "bytes": 1578,
-      "sha256": "b34289ef76d84535c8e150096630207d02580b1896480da04ecf0a9107573737",
+      "bytes": 1183,
+      "sha256": "8125b8a991b7048728258ab1d1bb7c8bfba7f0ddbdb04db0102b05d6b929bfd6",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -610,8 +610,8 @@
       "activityId": "sci-g2-u01-l2-q07-en",
       "path": "question-art/sci-g2-u01-l2-q07-en.svg",
       "format": "svg",
-      "bytes": 1824,
-      "sha256": "0ba87e26edabeb28109ab47278a864d5e0956688f03112699b194c4d4873a3f5",
+      "bytes": 1046,
+      "sha256": "f9b2f74b64c62515805b741f2157a3489a20b1fbd7a4d899f378ea8aeb63cd09",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -654,8 +654,8 @@
       "activityId": "sci-g2-u01-l3-q01-en",
       "path": "question-art/sci-g2-u01-l3-q01-en.svg",
       "format": "svg",
-      "bytes": 1712,
-      "sha256": "cb76dd17dc4fbf6d09afd16b01b668cbaca299d4b2eb8abe9e3af22830e4e44d",
+      "bytes": 1194,
+      "sha256": "20136a4aedf4a6ef646610e23ba0d05778f263913df263ae16dadca15fb07107",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -676,8 +676,8 @@
       "activityId": "sci-g2-u01-l3-q02-en",
       "path": "question-art/sci-g2-u01-l3-q02-en.svg",
       "format": "svg",
-      "bytes": 1883,
-      "sha256": "c4ca77322860a0e785fdef38b33e5274124b7b2de050bc0d92b06a98daa1ed84",
+      "bytes": 1183,
+      "sha256": "75ebaeafccf23adc6901fd7b90c6f3de69f0f7c9c4fe8f7596970348ec89b679",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -699,8 +699,8 @@
       "activityId": "sci-g2-u01-l3-q03-en",
       "path": "question-art/sci-g2-u01-l3-q03-en.svg",
       "format": "svg",
-      "bytes": 1382,
-      "sha256": "cc06913dcfb0d2ce7ba1f01f90ad587c3dd1d87da608d1cab3cd3c8ba995a36c",
+      "bytes": 1990,
+      "sha256": "6d0ec0125644b5e3648e2e0b739dfa28eaea8f24e78c4bc66c1ae06228b33d88",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -723,8 +723,8 @@
       "activityId": "sci-g2-u01-l3-q04-en",
       "path": "question-art/sci-g2-u01-l3-q04-en.svg",
       "format": "svg",
-      "bytes": 1822,
-      "sha256": "c1c12d476f9af341ee22961fd5e3b34121f865994f9ce9f8ac049962d8406895",
+      "bytes": 1190,
+      "sha256": "94d3ae7c8f04fb4dd220611cdebe794c9544cb4dca48ad9272b3daeb313bb917",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -747,8 +747,8 @@
       "activityId": "sci-g2-u01-l3-q05-en",
       "path": "question-art/sci-g2-u01-l3-q05-en.svg",
       "format": "svg",
-      "bytes": 1892,
-      "sha256": "106d8aa41c414a0c0efdf955caf1d0d29df7d0a15f40a1a00c4c02650da4263c",
+      "bytes": 1042,
+      "sha256": "84644694e27abe94f2008fabb06a57cb65771d92d23311a228576148c172597a",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -772,8 +772,8 @@
       "activityId": "sci-g2-u01-l3-q06-en",
       "path": "question-art/sci-g2-u01-l3-q06-en.svg",
       "format": "svg",
-      "bytes": 1306,
-      "sha256": "ea8fcbd2cfe00552857f7646774aa56b7d4228e08cf6b6f245b45cc71a8072b7",
+      "bytes": 1190,
+      "sha256": "3a44591c951ce71711d7619a20e3791c7652f5a21e9be682ad1753fd89f64a67",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -796,8 +796,8 @@
       "activityId": "sci-g2-u01-l3-q07-en",
       "path": "question-art/sci-g2-u01-l3-q07-en.svg",
       "format": "svg",
-      "bytes": 1112,
-      "sha256": "fb1407a07dfccd1b3a37a60fe0348fa9cc923951e3de829bda740c8f7c2682ce",
+      "bytes": 1194,
+      "sha256": "9140cd9d18e1a1c5f92a5bc59b1834fe6394f3822714a4087920e6593893efc8",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -819,8 +819,8 @@
       "activityId": "sci-g2-u01-l3-q08-en",
       "path": "question-art/sci-g2-u01-l3-q08-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "ab06ddf2b7baf15f9d8e9a12409db2c3e387fbca53d11508f1ac05cc2fcb7c57",
+      "bytes": 1046,
+      "sha256": "90db48676bc9d9ba96390c0003cc2d3e80921d64bd99745effcbde0555f33e21",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -841,8 +841,8 @@
       "activityId": "sci-g2-u01-l4-q01-en",
       "path": "question-art/sci-g2-u01-l4-q01-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "860e10f16eb8d82741af6de75b2e724f2e1b72a830cc52fddcd861c75f641a37",
+      "bytes": 1031,
+      "sha256": "30a2991192660344449568d75443320bc9be723a1715ad2f35c82e72e908be86",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -938,8 +938,8 @@
       "activityId": "sci-g2-u01-l4-q05-en",
       "path": "question-art/sci-g2-u01-l4-q05-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "bcf2d16b0245ed27ba881480016773818fe295b0817d02c84f40139d70210929",
+      "bytes": 1200,
+      "sha256": "d9d4ff115af1007e39bb4806f0ec81e648b640f5f869695772c212984c6e5e03",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-07",
       "visualProfile": "science",
@@ -963,8 +963,8 @@
       "activityId": "sci-g2-u01-l4-q06-en",
       "path": "question-art/sci-g2-u01-l4-q06-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "a9831d5c8dc6c2012329c71068739d1f8b78cda3918ae1bf1567a4d91ea2df36",
+      "bytes": 1185,
+      "sha256": "aa352dabbcd1b05d0125038e7d54b7fd4ffa5a57630e0c93cd56989859a44812",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -1011,8 +1011,8 @@
       "activityId": "sci-g2-u01-l4-q08-en",
       "path": "question-art/sci-g2-u01-l4-q08-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "d2a7042fbe40a98bae65b72dc3ca440d4dd181ea1bf25f01495ccf97dfdac9ec",
+      "bytes": 1990,
+      "sha256": "a6a52508331600b9c1987a5dd4d4a30773347b4c7ee30332061b412e93b92c8a",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -2628,8 +2628,8 @@
       "activityId": "new-aboudy-science-001",
       "path": "question-art/new-aboudy-science-001.svg",
       "format": "svg",
-      "bytes": 874,
-      "sha256": "dcac22fe6404e2308bf98a8569cd06fea9c1580f990beef1cbae5033ba8919c8",
+      "bytes": 1202,
+      "sha256": "461888f56cd7e620c8de9ce9c181b5b3150440ec2fa606f75282500159dd3aff",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2651,8 +2651,8 @@
       "activityId": "new-aboudy-science-002",
       "path": "question-art/new-aboudy-science-002.svg",
       "format": "svg",
-      "bytes": 2232,
-      "sha256": "beab639eec95ccdb5cdbe9ec2d955cac5390e7b540e34f1658f23216eb020e0b",
+      "bytes": 1206,
+      "sha256": "086094c3970d429c4f4bff775378719fc2ff017b2d8e3de3c94a4f58fc3adecd",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2675,8 +2675,8 @@
       "activityId": "new-aboudy-science-003",
       "path": "question-art/new-aboudy-science-003.svg",
       "format": "svg",
-      "bytes": 2109,
-      "sha256": "202850fe3fbf68765aec1be7de3bbeb47cbf64a95b2fc522e165dbae4cb3e8dd",
+      "bytes": 1748,
+      "sha256": "86345e3fadfae31ac3a70ab8c4203cc46208d3ff1fbae8f7b46bea472dabace2",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2698,8 +2698,8 @@
       "activityId": "new-aboudy-science-004",
       "path": "question-art/new-aboudy-science-004.svg",
       "format": "svg",
-      "bytes": 2366,
-      "sha256": "30272baf7883dd788fffdf4e07903b4383ee921710cfb0a329cdecac59a3ee9f",
+      "bytes": 1200,
+      "sha256": "44d43fe398ef7411967953fa72cce799c6c1eb83197e953c956093d55511e392",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2722,8 +2722,8 @@
       "activityId": "new-aboudy-science-005",
       "path": "question-art/new-aboudy-science-005.svg",
       "format": "svg",
-      "bytes": 2526,
-      "sha256": "d6982c5f84887c175d139143a82a0894260114319c5da10f0817718e689e4165",
+      "bytes": 1197,
+      "sha256": "c2ccaec6936d397add34cf571a5a652b46f9eebfcd7ad4c0181d1ff2b9e553d0",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2746,8 +2746,8 @@
       "activityId": "new-aboudy-science-006",
       "path": "question-art/new-aboudy-science-006.svg",
       "format": "svg",
-      "bytes": 2145,
-      "sha256": "e2ce87f8dc2daa18be3c680c59db36bb1cfe0ee76f485eb54df052ef6f3608af",
+      "bytes": 1196,
+      "sha256": "6bb8b698201749ac2018a63292911bc17e39a010101794ad5ac1ddd5795d075f",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2769,8 +2769,8 @@
       "activityId": "new-aboudy-science-007",
       "path": "question-art/new-aboudy-science-007.svg",
       "format": "svg",
-      "bytes": 1224,
-      "sha256": "d7e2e219bb100c071741317b2a8c608aa62560ff5bb53e4936775adae8266896",
+      "bytes": 1197,
+      "sha256": "d2a1903aac8aa2a2cb3e09701f6136551e4057cb6c3cf84baa511cb011e9813e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2791,8 +2791,8 @@
       "activityId": "new-aboudy-science-008",
       "path": "question-art/new-aboudy-science-008.svg",
       "format": "svg",
-      "bytes": 2139,
-      "sha256": "12fc111bc9defa94570a31c54c4c9a9b4e2f730c33606cdccbd9f0354e1aab6c",
+      "bytes": 1195,
+      "sha256": "c85efa4b0bf967d6ff357babaac0a732fc8c03567e6c47eb55e5881590686658",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2814,8 +2814,8 @@
       "activityId": "new-aboudy-science-009",
       "path": "question-art/new-aboudy-science-009.svg",
       "format": "svg",
-      "bytes": 819,
-      "sha256": "c2500a27562c348d0227a5348d62cf1f923b7d3c50c9448ace5bc2f32e08bd04",
+      "bytes": 1195,
+      "sha256": "ad2521a1ea4e22802101897785e3cd4f2a1a88ef5648bf67cee223603b37d858",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2837,8 +2837,8 @@
       "activityId": "new-aboudy-science-010",
       "path": "question-art/new-aboudy-science-010.svg",
       "format": "svg",
-      "bytes": 1611,
-      "sha256": "088ff2ee3530cd9328ea5881a81ceb270414f4693102a5efdeadfa6aedda8509",
+      "bytes": 1193,
+      "sha256": "42d0e4ad828d9b1b4a2dfa3a3b9ad1949e54e153623cad861f9e899cc0d859bf",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2860,8 +2860,8 @@
       "activityId": "new-aboudy-science-011",
       "path": "question-art/new-aboudy-science-011.svg",
       "format": "svg",
-      "bytes": 1573,
-      "sha256": "e19617135f7f42e58767188277ff649d001b01a0cbe396c5f4b0dc9d4f3e3244",
+      "bytes": 1192,
+      "sha256": "c795512e22c69679ccd4b62e02a8052f49db3830823c81192fadfe0f81d00075",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2883,8 +2883,8 @@
       "activityId": "new-aboudy-science-012",
       "path": "question-art/new-aboudy-science-012.svg",
       "format": "svg",
-      "bytes": 1134,
-      "sha256": "5707fcd2524fce8c39f0db6b8694cd52a7fa1424922ca4a8e015efc60cc4e2f5",
+      "bytes": 1194,
+      "sha256": "c391fa98b846f153c09fb59d4ed8b60653b618fc659544d57c71b46b2dda31fe",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2904,8 +2904,8 @@
       "activityId": "new-aboudy-science-013",
       "path": "question-art/new-aboudy-science-013.svg",
       "format": "svg",
-      "bytes": 1447,
-      "sha256": "969cb5cf8fc8d381e03d3f1d669a23865af7cf39b993d9df73902eb4447877be",
+      "bytes": 1201,
+      "sha256": "5999a79d11ccfec3920f6fb4b0e55d69440067083ef5d8fceb5bb21ff22f229e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2927,8 +2927,8 @@
       "activityId": "new-aboudy-science-014",
       "path": "question-art/new-aboudy-science-014.svg",
       "format": "svg",
-      "bytes": 1530,
-      "sha256": "35263862b5277b55f648b2b70a4943f9b93814c16eeb33640c941c9f2d7faef7",
+      "bytes": 1193,
+      "sha256": "58161a7c11ec6777765f9645c663a21c15b103b2a06e4893c88f20c7ae4eb0d9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2950,8 +2950,8 @@
       "activityId": "new-aboudy-science-015",
       "path": "question-art/new-aboudy-science-015.svg",
       "format": "svg",
-      "bytes": 1547,
-      "sha256": "09f42730d60823bb800abf96d4fdb5f45a75c060f01999f4b394e1733d3f6921",
+      "bytes": 1191,
+      "sha256": "f2ee96b05362a957ec72b1d572102e212d34da2f006e094a930f52b17121e924",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2973,8 +2973,8 @@
       "activityId": "new-aboudy-science-016",
       "path": "question-art/new-aboudy-science-016.svg",
       "format": "svg",
-      "bytes": 1800,
-      "sha256": "739dc2129a73ff307d36bad89138acb5ee54ed53a2aad80b65e8c08c97901d17",
+      "bytes": 1200,
+      "sha256": "152689c7eb935e20a01d503019608364604281fcb4ad9dc61ce93d963a29606d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2996,8 +2996,8 @@
       "activityId": "new-aboudy-science-017",
       "path": "question-art/new-aboudy-science-017.svg",
       "format": "svg",
-      "bytes": 889,
-      "sha256": "1030d01cbb78b89beef9b60ece905d90db43b76ff6ebf5435687f224414246fb",
+      "bytes": 1199,
+      "sha256": "f64c36088d82b52ae116ffd41b2d5005495e44cf946aa97400a7e771d7dd5767",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3019,8 +3019,8 @@
       "activityId": "new-aboudy-science-018",
       "path": "question-art/new-aboudy-science-018.svg",
       "format": "svg",
-      "bytes": 2119,
-      "sha256": "c04ab6746e47814e05e95349ca87891a003b156fd9493c10155dde072bf1ef88",
+      "bytes": 1197,
+      "sha256": "2f79d235ac69cfba21ec3aa82c362b09660561a362bf17473afdd93476c7049a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3043,8 +3043,8 @@
       "activityId": "new-aboudy-science-019",
       "path": "question-art/new-aboudy-science-019.svg",
       "format": "svg",
-      "bytes": 1102,
-      "sha256": "791a29dc0f85d46d2d0bc68e090a4e3877f4ece3e4de7e1c5d78b15fb3c9e9fa",
+      "bytes": 1195,
+      "sha256": "d3126885365312bcee7ac22e7e77e654433ef9a0fd80a1a779816acd22bc97fa",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3066,8 +3066,8 @@
       "activityId": "new-aboudy-science-020",
       "path": "question-art/new-aboudy-science-020.svg",
       "format": "svg",
-      "bytes": 1681,
-      "sha256": "613fb94cfffff5ed382418a131028d976c505bd8e498d1f7e00a2fa8ab3688f5",
+      "bytes": 1204,
+      "sha256": "bb019477460e7b83351bace0a546b8c0dfb3aa62f1396386c2c8309bda9c9753",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3089,8 +3089,8 @@
       "activityId": "new-aboudy-science-021",
       "path": "question-art/new-aboudy-science-021.svg",
       "format": "svg",
-      "bytes": 1690,
-      "sha256": "64391af9ce5596e25b56dc1cafb04d0b6523fd4db55e3b5c40c797b105b1e12e",
+      "bytes": 1194,
+      "sha256": "d7a0f556935a37f8fb2030b38fcbc3d7ca9313e984edd3f810df24905071e5f6",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3112,8 +3112,8 @@
       "activityId": "new-aboudy-science-022",
       "path": "question-art/new-aboudy-science-022.svg",
       "format": "svg",
-      "bytes": 1547,
-      "sha256": "3a3eefaef05ade81dd1deef076832ea831ed4c6fb61efa6864432b60c1d9615a",
+      "bytes": 1201,
+      "sha256": "47bd399c3e901bcd02d23b1285f016d79cc3792cd5e1f48102036a7572700cd0",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3135,8 +3135,8 @@
       "activityId": "new-aboudy-science-023",
       "path": "question-art/new-aboudy-science-023.svg",
       "format": "svg",
-      "bytes": 1969,
-      "sha256": "d260c3a0c0b6128f11e200e08e1b9cba79ae8902017a95f7b4b69c12e51e73f5",
+      "bytes": 1193,
+      "sha256": "ad5e9c3f1b0b428ca0c77b7b21cdfe406c97cec974bb5c6739c8225accd0f559",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3158,8 +3158,8 @@
       "activityId": "new-aboudy-science-024",
       "path": "question-art/new-aboudy-science-024.svg",
       "format": "svg",
-      "bytes": 900,
-      "sha256": "abcd1c57d232a72c5d1fe54e0fb2200af9ba67eac072663238e9681231d6f904",
+      "bytes": 1193,
+      "sha256": "6e79468393b0b92a23c613e3409221558f044311f2dc01aa1c39b56a6a278de3",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3181,8 +3181,8 @@
       "activityId": "new-aboudy-science-025",
       "path": "question-art/new-aboudy-science-025.svg",
       "format": "svg",
-      "bytes": 944,
-      "sha256": "32048031751525b8ec804db182c835da30680152771e7213b9b4977f1e0be2c8",
+      "bytes": 1197,
+      "sha256": "67db85451e6b1efab9759a53ebbf33c9c976eae72f032b71839e316a2d6a6df1",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3204,8 +3204,8 @@
       "activityId": "sci-g2-u02-l1-q01-en",
       "path": "question-art/sci-g2-u02-l1-q01-en.svg",
       "format": "svg",
-      "bytes": 1939,
-      "sha256": "c59f90b4b4534f29388b0c7e33cfd410b7cdbdab5a23e85e82fc97c05b12bb31",
+      "bytes": 1033,
+      "sha256": "738fb4d74b5bbda1d1ec7038ca66039e355f55d502ebca419aadbdd6616493f2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science",
@@ -3225,8 +3225,8 @@
       "activityId": "sci-g2-u02-l1-q02-en",
       "path": "question-art/sci-g2-u02-l1-q02-en.svg",
       "format": "svg",
-      "bytes": 1939,
-      "sha256": "d1b012fe437efc27e3c1fbf937f2cafde0ffc11cd586d7060b839a6e2802f60e",
+      "bytes": 1047,
+      "sha256": "fdf0b36e06cc017c76310079a3a6c2013a3627bc2952af2a254538986f204cbe",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science",
@@ -3246,8 +3246,8 @@
       "activityId": "sci-g2-u02-l1-q03-en",
       "path": "question-art/sci-g2-u02-l1-q03-en.svg",
       "format": "svg",
-      "bytes": 1103,
-      "sha256": "04af05917227dd1eda9f1a474dbfb06bcf5d70014efbd544f4adaf706a78c0c6",
+      "bytes": 1031,
+      "sha256": "2de03cb032c140112dfe0d3d2cb40c8d1eac3f1554bc99868cdc88c084872715",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3267,8 +3267,8 @@
       "activityId": "sci-g2-u02-l1-q04-en",
       "path": "question-art/sci-g2-u02-l1-q04-en.svg",
       "format": "svg",
-      "bytes": 2360,
-      "sha256": "ef8d89195c1aa4fa17c74ef73c3930bea687832d5725f44e799187ae75cd0468",
+      "bytes": 1189,
+      "sha256": "30742dc83bd36555e05245d844306571309f3f671025598b4a35441cbffecd56",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science",
@@ -3292,8 +3292,8 @@
       "activityId": "sci-g2-u02-l1-q05-en",
       "path": "question-art/sci-g2-u02-l1-q05-en.svg",
       "format": "svg",
-      "bytes": 1376,
-      "sha256": "b7c1e733cb5dbb98b316e82d3ed521db8c1155502bef5093e247ca80f2ab31ef",
+      "bytes": 1180,
+      "sha256": "942aaf44404457cb7807ca766c469f1b1929864502151ae0001df5b284dcf446",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3315,8 +3315,8 @@
       "activityId": "sci-g2-u02-l1-q06-en",
       "path": "question-art/sci-g2-u02-l1-q06-en.svg",
       "format": "svg",
-      "bytes": 2360,
-      "sha256": "b7473cb3564a7dbb4d8a6e8480b201a3ef240df56ab3f7bb361fd2ebc1670de5",
+      "bytes": 1041,
+      "sha256": "a2973cc872432655715285266129a3bfd7e564cbf3e00b8e9760c9fbe976f13d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science",
@@ -3337,8 +3337,8 @@
       "activityId": "sci-g2-u02-l2-q01-en",
       "path": "question-art/sci-g2-u02-l2-q01-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "0001f63f0de29f9c2110948594f0aa585f39e2659e4ed57c52c9933ea98538be",
+      "bytes": 1032,
+      "sha256": "99817628b28f392d41374a571fb98256a8997fe8babbb6d172fcdb86d229341d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3359,8 +3359,8 @@
       "activityId": "sci-g2-u02-l2-q02-en",
       "path": "question-art/sci-g2-u02-l2-q02-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "8363484004b049440d2a07d882cc67e213e9c66ab9738c1e75071eb1e0f24da1",
+      "bytes": 1033,
+      "sha256": "bb0eb46ace5f751aed1688fcb1da262210ed71477f4c86c429649c88b5ef91d2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3380,8 +3380,8 @@
       "activityId": "sci-g2-u02-l2-q03-en",
       "path": "question-art/sci-g2-u02-l2-q03-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "4001dcc7bf310b457cd59b8f5a86a10df830973bcd5694e4252766209af82795",
+      "bytes": 1036,
+      "sha256": "2fe77c17e3f7d84cd47a51bf6d0c151e43ef9aeb727df5e008905d08645ff832",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3403,8 +3403,8 @@
       "activityId": "sci-g2-u02-l2-q04-en",
       "path": "question-art/sci-g2-u02-l2-q04-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "c0996fdf172ed62dbda5883c8dd8f1faa3ca14a99f4e9d22451400c66693a3f2",
+      "bytes": 1177,
+      "sha256": "054fc989dc02b0447fda2006711bf5d5b0184463d1f18b426603b93cd3c1759d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-05",
       "visualProfile": "science",
@@ -3423,8 +3423,8 @@
       "activityId": "sci-g2-u02-l2-q05-en",
       "path": "question-art/sci-g2-u02-l2-q05-en.svg",
       "format": "svg",
-      "bytes": 1345,
-      "sha256": "e898096487e618b9fd12357000431aaf70bc120bf4a611eb046601b57e5e79e5",
+      "bytes": 1194,
+      "sha256": "5f3c2457241143c2c956e55347f4263cd30f2be31c7114177d5b554e0e513db5",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3449,8 +3449,8 @@
       "activityId": "sci-g2-u02-l2-q06-en",
       "path": "question-art/sci-g2-u02-l2-q06-en.svg",
       "format": "svg",
-      "bytes": 1545,
-      "sha256": "ebefe4bf2c3f0f30700a12da31868cbdd48a7b10dcfa340a18dbedf8e3969fa7",
+      "bytes": 1199,
+      "sha256": "997ac5dbb378f21f539d4d76916c036f9dcf48a5ef8ab9ed2e5fa3d8642f3256",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3474,8 +3474,8 @@
       "activityId": "sci-g2-u02-l3-q01-en",
       "path": "question-art/sci-g2-u02-l3-q01-en.svg",
       "format": "svg",
-      "bytes": 1517,
-      "sha256": "48b6c322533e2fb15fe4f0cf03188bb5e0fbc6f3d0ebdd71db7916681a49e049",
+      "bytes": 1044,
+      "sha256": "cb408aa5a9c9872250f14d55875b4d8caff898836138b06e89a257d595a02acf",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3494,8 +3494,8 @@
       "activityId": "sci-g2-u02-l3-q02-en",
       "path": "question-art/sci-g2-u02-l3-q02-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "0cf5e6f50737bf0a11e77b8795da00e32ab06082c503fca293994dbd4702addc",
+      "bytes": 1046,
+      "sha256": "0b6dacda4819eed4b3e897a24c96855a33281f36750cf198fe9615a9922e283c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3515,8 +3515,8 @@
       "activityId": "sci-g2-u02-l3-q03-en",
       "path": "question-art/sci-g2-u02-l3-q03-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "3d003bb7613c0f0da681bfec3c8e4d12218bc0dfbf5ecf304ef0ca756ca84891",
+      "bytes": 1030,
+      "sha256": "3625fd1a0815c56fd96f5ed617c73e8d49d859f97583cb93366ae30e69b5fa57",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3537,8 +3537,8 @@
       "activityId": "sci-g2-u02-l3-q04-en",
       "path": "question-art/sci-g2-u02-l3-q04-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "a55604059a671e1bbe66e59876b975f8bb67acd07b33260ef146f8126d556973",
+      "bytes": 1178,
+      "sha256": "6c57eb13bd46de8cd42fb4609d3b5875b48d44b124b3cc2ce4dc1d49a3972492",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3586,8 +3586,8 @@
       "activityId": "sci-g2-u02-l3-q06-en",
       "path": "question-art/sci-g2-u02-l3-q06-en.svg",
       "format": "svg",
-      "bytes": 1597,
-      "sha256": "29589bdd263f08c7b6066bc93044c16a5717e0bc3d91968783424915db3d139a",
+      "bytes": 1192,
+      "sha256": "d72696243c9d14aeab7c81925392cb507c4abb0d227d5e054d12ce9c6402ae89",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science",
@@ -3609,8 +3609,8 @@
       "activityId": "sci-g2-u02-l4-q01-en",
       "path": "question-art/sci-g2-u02-l4-q01-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "d789482871b6c0c8415751a78b2f52b04b8d123bd5ad311e148701bac6391b2c",
+      "bytes": 1032,
+      "sha256": "2c2bb487b9db31c6fb5048f5f1772a3923628ffd2bf8aa74bf2ed93fabc321ce",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3628,8 +3628,8 @@
       "activityId": "sci-g2-u02-l4-q02-en",
       "path": "question-art/sci-g2-u02-l4-q02-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "1b807946185c8a90f1ba57d43c56571f988e3b711af31872f41e88c0e3070b33",
+      "bytes": 1197,
+      "sha256": "0aae215e65789296ab25a460656b00942b3b84cfd0f9bfa21081aff7a67fcac2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3652,8 +3652,8 @@
       "activityId": "sci-g2-u02-l4-q03-en",
       "path": "question-art/sci-g2-u02-l4-q03-en.svg",
       "format": "svg",
-      "bytes": 1010,
-      "sha256": "05c46583d5beede5408993302dfe492e74dda74eb3bc336bbebde253b2adc771",
+      "bytes": 1038,
+      "sha256": "7cf7594bf2630497d6aac9413bee967a66e2ce69e55db06f3b2cc019ba582a6c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3675,8 +3675,8 @@
       "activityId": "sci-g2-u02-l4-q04-en",
       "path": "question-art/sci-g2-u02-l4-q04-en.svg",
       "format": "svg",
-      "bytes": 1381,
-      "sha256": "5506c8d5b124af3b3dcab908fbeae3345048fb01ff898a5eda60e391293694b4",
+      "bytes": 1036,
+      "sha256": "cc490d8d528f4ee6d8aa32d90e2ef23dd97743ec752332adcce213a3eb4f9c85",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3698,8 +3698,8 @@
       "activityId": "sci-g2-u02-l4-q05-en",
       "path": "question-art/sci-g2-u02-l4-q05-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "fccbe34301db008e731d75e30e316116e76c9b7d944bc0cd00c891c53e06290c",
+      "bytes": 1189,
+      "sha256": "135fb3d7e0c912fceee3c29fcf8102e60e85e7d5111f89275042d0dd5e0213b1",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3723,8 +3723,8 @@
       "activityId": "sci-g2-u02-l4-q06-en",
       "path": "question-art/sci-g2-u02-l4-q06-en.svg",
       "format": "svg",
-      "bytes": 911,
-      "sha256": "0d4b0cc8c78a4965798acc42bf60479f223124b10152c862073fdeb605a712f7",
+      "bytes": 1182,
+      "sha256": "64e7d323749d6402296a5e4795278d093ed9767a09e01436be980b6ac6f8282b",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-06",
       "visualProfile": "science",
@@ -3742,8 +3742,8 @@
       "activityId": "sci-g2-u02-l5-q01-en",
       "path": "question-art/sci-g2-u02-l5-q01-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "71676422771a0991d726df18aed96a3251dae62d7dd716f0f07a829e59860675",
+      "bytes": 896,
+      "sha256": "47dc78a92c25269e4210d20be86122eba82881a37f97756607e91f06e678743e",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3764,8 +3764,8 @@
       "activityId": "sci-g2-u02-l5-q02-en",
       "path": "question-art/sci-g2-u02-l5-q02-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "6c83879fa092932c153c33a38526538da95fd9f557a4fa3b55339832cfa53c2c",
+      "bytes": 1193,
+      "sha256": "601da2177ce01ccc51884f6d6d1db8b3011d6048cce0c0d5be0b490e30ce9639",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3789,8 +3789,8 @@
       "activityId": "sci-g2-u02-l5-q03-en",
       "path": "question-art/sci-g2-u02-l5-q03-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "7abefceda2f733f5e3377b21a493aee19536a110545ac63bcdab9f09c70a0eb9",
+      "bytes": 1043,
+      "sha256": "c1c66f390a09e3b77c73b06f16c3a3d153a3f5a0f071d7c0304a972147f48738",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3837,8 +3837,8 @@
       "activityId": "sci-g2-u02-l5-q05-en",
       "path": "question-art/sci-g2-u02-l5-q05-en.svg",
       "format": "svg",
-      "bytes": 972,
-      "sha256": "da471bb83eeb4db6414d3b879f745080a053bb29e7f71da7ef627a73c1f8b3ea",
+      "bytes": 1045,
+      "sha256": "f72d48e53c8a6e16a38252a0c2947f11e22a4f10103ada7772f5993b75bf1531",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3859,8 +3859,8 @@
       "activityId": "sci-g2-u02-l5-q06-en",
       "path": "question-art/sci-g2-u02-l5-q06-en.svg",
       "format": "svg",
-      "bytes": 863,
-      "sha256": "678ae666bdab7ef0f86f922e96667bdb8b4dce9be8e4937fa83a465d39fb2cf0",
+      "bytes": 1042,
+      "sha256": "6b75cf0430cf89bc9251bd572f5a2a7d6b457a3fee01ec36a33a4a881c55004d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3876,6 +3876,4026 @@
         "A large tank of water",
         "Air for breathing",
         "Fat that can be used for energy"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-001",
+      "path": "question-art/aas2-ew2-ew2-u01-l01-001.svg",
+      "format": "svg",
+      "bytes": 1044,
+      "sha256": "1b6a837ba452b8008bd931af9cb684b08c484b0f01a6da7106eccdf70d91dba3",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The knight is riding a horse.",
+        "The knight are riding a horse.",
+        "The knight riding a horse."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-002",
+      "path": "question-art/aas2-ew2-ew2-u01-l01-002.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "3589e816dcfeedaa075f97b74c3a92683b67f405858401bf3b1bd86c96e40ef7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/3fa04242b95a3269e6c6e2b4.svg"
+      ],
+      "optionLabels": [
+        "is playing",
+        "are playing",
+        "am playing"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-003",
+      "path": "question-art/aas2-ew2-ew2-u01-l02-003.png",
+      "format": "png",
+      "bytes": 9894,
+      "sha256": "e44464be0656587faeeeaceae11427a0e01e72ede5cf305127917e1acd71ee36",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "plate",
+        "bread",
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/7fb1175ebf1c85a5e5f4af76.svg",
+        "option-art/129ed878942f43085cf9cac5.svg"
+      ],
+      "optionLabels": [
+        "Put the sandwich on a plate.",
+        "Spread the filling on the bread.",
+        "Eat the sandwich."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-004",
+      "path": "question-art/aas2-ew2-ew2-u01-l02-004.png",
+      "format": "png",
+      "bytes": 9929,
+      "sha256": "aa6fe97670ccd80e6b969ba8e282ba9092dbc0f7ba8f869b80e04cb7afaecbee",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b04c74f27df5604dcb91ad3f.svg"
+      ],
+      "optionLabels": [
+        "Next",
+        "Blue",
+        "Under"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-005",
+      "path": "question-art/aas2-ew2-ew2-u01-l03-005.svg",
+      "format": "svg",
+      "bytes": 1238,
+      "sha256": "cee8e17c32c81c952d47b56a43f4b8379f32f0aff8095da514b7edefb1e9a2df",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "book",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "A library",
+        "A bakery",
+        "A garage"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-006",
+      "path": "question-art/aas2-ew2-ew2-u01-l03-006.svg",
+      "format": "svg",
+      "bytes": 889,
+      "sha256": "38e10b72c3ebfb215522037c20967851591d1a60236565b0539ded801689f97d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/b98a464e78aa16f9bfa215ee.svg",
+        "option-art/391261d85e662a7101987461.svg"
+      ],
+      "optionLabels": [
+        "Farmer",
+        "Teacher",
+        "Pilot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-007",
+      "path": "question-art/aas2-ew2-ew2-u01-l04-007.png",
+      "format": "png",
+      "bytes": 12069,
+      "sha256": "8da3ef4cf99af931a63293586fcfbcead3c9506d6ea41c31a8542902cae9ddf1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "visualProfile": "english-grammar",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The castle is tall.",
+        "Tall the castle is.",
+        "Is tall the castle."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-008",
+      "path": "question-art/aas2-ew2-ew2-u01-l04-008.png",
+      "format": "png",
+      "bytes": 13754,
+      "sha256": "ce052b1153b25b48543b26605a92578e7001dbfa6a6aef43d2cfed30b6e671fa",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "visualProfile": "english-grammar",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "?",
+        "!",
+        "."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-009",
+      "path": "question-art/aas2-ew2-ew2-u02-l01-009.svg",
+      "format": "svg",
+      "bytes": 847,
+      "sha256": "6f8f0a0bd5ef8c0a697afd9539488dbf33ca228082e3e0dd72db48fa4567e20b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/5cec0c6870220881e8acdaf5.svg"
+      ],
+      "optionLabels": [
+        "Playground",
+        "Kitchen",
+        "Bedroom"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-010",
+      "path": "question-art/aas2-ew2-ew2-u02-l01-010.svg",
+      "format": "svg",
+      "bytes": 913,
+      "sha256": "6c90107e7eef5e57525e5b7d0dd6463b3d802cb807c10a4517bac1d231fe26d6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "visualProfile": "vocabulary",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/5cec0c6870220881e8acdaf5.svg"
+      ],
+      "optionLabels": [
+        "playground",
+        "bathroom",
+        "library"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-011",
+      "path": "question-art/aas2-ew2-ew2-u02-l02-011.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "9c80455ffb84d7bbc18c1cffdfa0101c443d9827f1d7ccfb02a7b7ed685cdd1a",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "flower",
+        "yellow"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Those",
+        "These",
+        "That"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-012",
+      "path": "question-art/aas2-ew2-ew2-u02-l02-012.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "1084668c5444ffb37a6fc4ca8197caba7d54e11bb5536cbd569ab89199c562fd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "blue"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "This",
+        "These",
+        "That"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-013",
+      "path": "question-art/aas2-ew2-ew2-u03-l01-013.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "f15b0ca53f3ded3807c125e4dd8c9bda88b7f6c0fe7801531ec246e48ad23552",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "like",
+        "likes",
+        "liking"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-014",
+      "path": "question-art/aas2-ew2-ew2-u03-l01-014.svg",
+      "format": "svg",
+      "bytes": 906,
+      "sha256": "43581d8ac91f616e9af323c7e4518aafe3b3dad94e201cbc5e846f6d88406b27",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/cc792740405f4f18f7868af8.svg"
+      ],
+      "optionLabels": [
+        "Collecting stamps",
+        "Sleeping in class",
+        "Breaking toys"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-015",
+      "path": "question-art/aas2-ew2-ew2-u03-l02-015.svg",
+      "format": "svg",
+      "bytes": 963,
+      "sha256": "3bd89a5f01740be05d63ca6b17f3624e9cac7e38309f40b8a11f426db22fb54f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "visualProfile": "phonics",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/048077d906ba401f145da753.svg",
+        "option-art/048077d906ba401f145da753.svg",
+        "option-art/048077d906ba401f145da753.svg"
+      ],
+      "optionLabels": [
+        "Do you play football?",
+        "You do play football?",
+        "Play you football do?"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-016",
+      "path": "question-art/aas2-ew2-ew2-u03-l02-016.svg",
+      "format": "svg",
+      "bytes": 965,
+      "sha256": "98be696f3a850573132f28b3dec094f369935a5fbe9b468e04fa8192193e17f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "visualProfile": "phonics",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/48090f7b1d51440af3bc35c6.svg",
+        "option-art/9fb95665ebb3cb86d865e27d.svg",
+        "option-art/2fd142064d0ad93ba870aff2.svg"
+      ],
+      "optionLabels": [
+        "hop",
+        "home",
+        "hot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-017",
+      "path": "question-art/aas2-ew2-ew2-u04-l01-017.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "6edf0a3eb22b169b366176a537ea8b803d0bd01b87d8df1c9c1aa3421ab61422",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "person",
+        "blue"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-018",
+      "path": "question-art/aas2-ew2-ew2-u04-l01-018.svg",
+      "format": "svg",
+      "bytes": 1052,
+      "sha256": "80603c5213d67ce4461747bb315516a24b932599de1f7262ac78a48aa4678196",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/6391873f34ec52edbd71766b.svg",
+        "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
+      ],
+      "optionLabels": [
+        "Gloves",
+        "Shoes",
+        "Hat"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-019",
+      "path": "question-art/aas2-ew2-ew2-u04-l02-019.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "74bf2018071be713cc5f0598d20b76e69317e8a1bd5fe6bae0b212da9f767620",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/75e116150dbe8fdb61b0ea19.svg"
+      ],
+      "optionLabels": [
+        "queen",
+        "clean",
+        "green"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-020",
+      "path": "question-art/aas2-ew2-ew2-u04-l02-020.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "30d662f8dc3f7f4abe9c57af54d7db5c66bd2a3d6a616abafce564939c9a642b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "coat"
+      ],
+      "optionImagePaths": [
+        "option-art/ba92c33bd65561646de4942d.svg"
+      ],
+      "optionLabels": [
+        "warm",
+        "coat",
+        "wear"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-021",
+      "path": "question-art/aas2-ew2-ew2-u05-l01-021.svg",
+      "format": "svg",
+      "bytes": 1062,
+      "sha256": "01eee2a5575c1c3fc3631b00fe4f2f075589a8f74d6103fb81720787e42d41f0",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9fedc619e73a2f2186c3d648.svg"
+      ],
+      "optionLabels": [
+        "Wake up",
+        "Go to bed",
+        "Eat dinner at midnight"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-022",
+      "path": "question-art/aas2-ew2-ew2-u05-l01-022.svg",
+      "format": "svg",
+      "bytes": 828,
+      "sha256": "89fc1d67666d37c8280a3c4293a77f503224506757273ff8f5edab6d3015b83e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/b78cd9ad0de21916b67f7775.svg",
+        "option-art/eadb3840c26dd7e3d96428e2.svg",
+        "option-art/128259dd52f8c77c3a873bfd.svg"
+      ],
+      "optionLabels": [
+        "7:15",
+        "7:30",
+        "8:30"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-023",
+      "path": "question-art/aas2-ew2-ew2-u05-l02-023.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "b6c1f89d17b1a7adfc6f0b9706a3940c4153777802ff502d162a445a1d9515b1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg",
+        "option-art/6227124c4fd034cf9e96437e.svg"
+      ],
+      "optionLabels": [
+        "rain",
+        "chain",
+        "train"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-024",
+      "path": "question-art/aas2-ew2-ew2-u05-l02-024.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "b1888c1da682206aa7a448ebd04441e04f30baeca1a8ff4a97086bd1735a82ec",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "hand"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "before",
+        "then",
+        "yesterday"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-025",
+      "path": "question-art/aas2-ew2-ew2-u06-l01-025.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "d6dfdcc5987162ad1148bcddaab2bbf852551785fedc3be07e2c6f1204a8f042",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "His",
+        "Her",
+        "Their"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-026",
+      "path": "question-art/aas2-ew2-ew2-u06-l01-026.svg",
+      "format": "svg",
+      "bytes": 1056,
+      "sha256": "c1a827774ceccf2859557d37bc6f9d00eac02fc791568aed7742a82509316265",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Elbow",
+        "Ankle",
+        "Chin"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-027",
+      "path": "question-art/aas2-ew2-ew2-u06-l02-027.svg",
+      "format": "svg",
+      "bytes": 922,
+      "sha256": "b0feb228a72db60dc6ef7bc58892888ecca59bc4ad9759eb65a2065619cef3fa",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "doesn't",
+        "don't",
+        "didn't"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-028",
+      "path": "question-art/aas2-ew2-ew2-u06-l02-028.svg",
+      "format": "svg",
+      "bytes": 964,
+      "sha256": "b49b3439ef7018d788050685b533540d780d625ed9f020d9ffda47c4589bca60",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/3e0241e10aeffe9543e8ba66.svg",
+        "option-art/3129a75966c9240fdca2c6a0.svg",
+        "option-art/bc34a1d8b042fe169b447b61.svg"
+      ],
+      "optionLabels": [
+        "sun",
+        "star",
+        "run"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-029",
+      "path": "question-art/aas2-ew2-ew2-u07-l01-029.svg",
+      "format": "svg",
+      "bytes": 1357,
+      "sha256": "2320bde3a66ac9e7eb748e96fc106f275a5a6dff0a1404758fc8c3251b222a2f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "milk",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/e78cf7585e85489a64546841.svg"
+      ],
+      "optionLabels": [
+        "Yoghurt",
+        "Rice",
+        "Carrot"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-030",
+      "path": "question-art/aas2-ew2-ew2-u07-l01-030.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "696e0276de7560cecb15edddf584b585bd7bf326578bc06ad14c2cfc040e0c03",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "rain"
+      ],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg"
+      ],
+      "optionLabels": [
+        "Rainy",
+        "Dusty",
+        "Dry"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-031",
+      "path": "question-art/aas2-ew2-ew2-u07-l02-031.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "0cfe3267ed0b181eee223c895a64b9d5d8084711476a8d7a2627ccba8a770f46",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "tree"
+      ],
+      "optionImagePaths": [
+        "option-art/ef76dc8dd37591c81fc2ae23.svg"
+      ],
+      "optionLabels": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-032",
+      "path": "question-art/aas2-ew2-ew2-u07-l02-032.svg",
+      "format": "svg",
+      "bytes": 1263,
+      "sha256": "5ff431545f112467db6948cafb534b1aeecd1aad50978bc72be061902ac2edee",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Never",
+        "Always",
+        "Sometimes"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-033",
+      "path": "question-art/aas2-ew2-ew2-u08-l01-033.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "6a73abdd72ba9197e18d7c1055f4ee53e02154ea98a2b03c3388a1ee4068f5b0",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "dog"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "was",
+        "were",
+        "is"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-034",
+      "path": "question-art/aas2-ew2-ew2-u08-l01-034.svg",
+      "format": "svg",
+      "bytes": 1041,
+      "sha256": "baa2b4c5da48b32f3a31da90bdfb39e52544f51f7d3697c25ef527de8a2fd96a",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "mammal"
+      ],
+      "optionImagePaths": [
+        "option-art/39f92ee8d2deaa426b84e17d.svg"
+      ],
+      "optionLabels": [
+        "Dolphin",
+        "Butterfly",
+        "Lizard"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-035",
+      "path": "question-art/aas2-ew2-ew2-u08-l02-035.svg",
+      "format": "svg",
+      "bytes": 891,
+      "sha256": "b487c0c25c253de2c06f709457cfcda113ed549d74a64d950c9296f702375618",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "letter"
+      ],
+      "optionImagePaths": [
+        "option-art/7f9174197e9f930761f71347.svg",
+        "option-art/c19b1428b8ff24274d4594a5.svg"
+      ],
+      "optionLabels": [
+        "cot",
+        "cold",
+        "can"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-036",
+      "path": "question-art/aas2-ew2-ew2-u08-l02-036.svg",
+      "format": "svg",
+      "bytes": 828,
+      "sha256": "5bb1c19865a731cad8b86dfb9af4dc27f726aa56cf2445ad88b28b1abd48748e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/60cdbeeb93dc34c68011211c.svg",
+        "option-art/128259dd52f8c77c3a873bfd.svg",
+        "option-art/537c055effd1a8bc6baaeddf.svg"
+      ],
+      "optionLabels": [
+        "8:15",
+        "8:30",
+        "9:30"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-037",
+      "path": "question-art/aas2-ew2-ew2-u09-l01-037.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "a2e52c2aca3368f5c176ccc12b59e2c7751a157acf26973420ead3c4d68309f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "fish",
+        "water"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "in",
+        "on",
+        "between"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-038",
+      "path": "question-art/aas2-ew2-ew2-u09-l01-038.svg",
+      "format": "svg",
+      "bytes": 836,
+      "sha256": "13b10fa21661d2f9e8048bfd697ba72c6434041b401460cbdf4a5cfc06e19565",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/4fc6d8c79f3dba9b29d458d0.svg",
+        "option-art/1bbc5017d3f5a3ca00decc22.svg"
+      ],
+      "optionLabels": [
+        "Dolphin",
+        "Camel",
+        "Hen"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-039",
+      "path": "question-art/aas2-ew2-ew2-u09-l02-039.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "04eeda74bb6bf798f6322b9bf94cb329a0445f5052abd1b7876a61ff27ca3958",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "shell"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "was",
+        "were",
+        "are"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-040",
+      "path": "question-art/aas2-ew2-ew2-u09-l02-040.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "b0e9321f6b24ebe12d8020b40b402ab77dba98eb462b65731010569b5f38897d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/c4b536312a8856ca8c6fb3b1.svg",
+        "option-art/6227124c4fd034cf9e96437e.svg"
+      ],
+      "optionLabels": [
+        "tree",
+        "trap",
+        "train"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-041",
+      "path": "question-art/aas2-ew2-ew2-u10-l01-041.svg",
+      "format": "svg",
+      "bytes": 924,
+      "sha256": "94ec20aad602a025f7050518133c65106034a4ba6e31e8af72901bc2b41f1930",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/bc34a1d8b042fe169b447b61.svg",
+        "option-art/d6a99776e057b35a8fda5699.svg"
+      ],
+      "optionLabels": [
+        "Stay with your adult.",
+        "Run into deep water.",
+        "Touch a hot fire."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-042",
+      "path": "question-art/aas2-ew2-ew2-u10-l01-042.svg",
+      "format": "svg",
+      "bytes": 861,
+      "sha256": "9f20cbd3c761858f6693e0ab9fd2dac5efea9023ac5d06672f64c103ae26fbda",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Please close the gate.",
+        "Do you close the gate?",
+        "The gate is closed yesterday."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-043",
+      "path": "question-art/aas2-ew2-ew2-u10-l02-043.svg",
+      "format": "svg",
+      "bytes": 836,
+      "sha256": "27c6c0bfc3efbb894f7356b0a2b309b307b3b80152ba030a92d7fb20c2ac6aab",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/88f140aac6ddf3eec801c843.svg"
+      ],
+      "optionLabels": [
+        "him",
+        "he",
+        "his"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-044",
+      "path": "question-art/aas2-ew2-ew2-u10-l02-044.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "cae9a5c439414fdf8e06cfbd204680a99c4f46c11e327dab71278c70260b8def",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/f0b3a05fbd91524908dd23be.svg"
+      ],
+      "optionLabels": [
+        "moon",
+        "man",
+        "men"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-045",
+      "path": "question-art/aas2-ew2-ew2-u11-l01-045.svg",
+      "format": "svg",
+      "bytes": 946,
+      "sha256": "016c0fdbf48ffc080949196e57f44023db8eaaaedaf7afa6f5af67fb32ef120d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "visited",
+        "visits",
+        "visiting"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-046",
+      "path": "question-art/aas2-ew2-ew2-u11-l01-046.svg",
+      "format": "svg",
+      "bytes": 1053,
+      "sha256": "d989264a3caa0ed234f04745d910d3b5d504f86406efde0a9634585fe271ac97",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/75e116150dbe8fdb61b0ea19.svg",
+        "option-art/c5396ed7894ad926dce76202.svg"
+      ],
+      "optionLabels": [
+        "After",
+        "Green",
+        "Quickly"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-047",
+      "path": "question-art/aas2-ew2-ew2-u11-l02-047.svg",
+      "format": "svg",
+      "bytes": 780,
+      "sha256": "870d744c91b1fe4190d335b9e62a5fceb73d2d9e0a3977c797c6eb933eeb6a3f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/6227124c4fd034cf9e96437e.svg",
+        "option-art/c4b536312a8856ca8c6fb3b1.svg"
+      ],
+      "optionLabels": [
+        "train",
+        "tree",
+        "truck"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-048",
+      "path": "question-art/aas2-ew2-ew2-u11-l02-048.svg",
+      "format": "svg",
+      "bytes": 1046,
+      "sha256": "7c3fe7def3cf615f931896c0afddf0cc7e474d26018dfdf10a96d81c76924f05",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/5b1ef6df7a752cd09610d556.svg"
+      ],
+      "optionLabels": [
+        "your day and experiences",
+        "only numbers",
+        "weather instruments"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-049",
+      "path": "question-art/aas2-ew2-ew2-u12-l01-049.svg",
+      "format": "svg",
+      "bytes": 1042,
+      "sha256": "1af28f3367b2c0afb1e1423cf3b64c3776134d987453b5aa92b92650276254ec",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/f505bba2ed270ea253f42291.svg",
+        "option-art/cb151e69655d912910be00f8.svg"
+      ],
+      "optionLabels": [
+        "crawl",
+        "plate",
+        "spoon"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-050",
+      "path": "question-art/aas2-ew2-ew2-u12-l01-050.svg",
+      "format": "svg",
+      "bytes": 859,
+      "sha256": "69a53cb64545e1ea10eacd4bda657dba19cb5e13fdccd9259997697421ac3803",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "cat"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "over",
+        "because",
+        "yesterday"
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-051",
+      "path": "question-art/aas2-ew2-ew2-u12-l02-051.svg",
+      "format": "svg",
+      "bytes": 1049,
+      "sha256": "d736fe2ea316500e9819da429d98474a2a10b2beeed4f3e185d90ecf76f67476",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg",
+        "option-art/6b731f33ee51dfcb6498f5b1.svg"
+      ],
+      "optionLabels": [
+        "We played and walked.",
+        "We play and walk yesterday.",
+        "We playing yesterday."
+      ]
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-052",
+      "path": "question-art/aas2-ew2-ew2-u12-l02-052.svg",
+      "format": "svg",
+      "bytes": 861,
+      "sha256": "ffadca97d8a5b776487a53dc2cd70d202c338ad0e9018be23e508d273dd2a8b8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9db300e11a685177d7654614.svg",
+        "option-art/9db300e11a685177d7654614.svg",
+        "option-art/9db300e11a685177d7654614.svg"
+      ],
+      "optionLabels": [
+        "I packed a hat, a book and a ball.",
+        "I packed a hat a book and a ball",
+        "I packed, a hat a book and a ball."
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-01",
+      "path": "question-art/aas2-2a-mm2a-u01-01.svg",
+      "format": "svg",
+      "bytes": 1284,
+      "sha256": "35319f530615cf29e1b0b9f8d89d4918c3122f5b5cb8551b5e3eaf37355385f1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/e3494b86d6880ed2a92c3bf7.svg",
+        "option-art/a654143e5eae0c6ebfe6eb35.svg",
+        "option-art/ec34c2753d83955053e339c5.svg"
+      ],
+      "optionLabels": [
+        "47",
+        "56",
+        "66"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-02",
+      "path": "question-art/aas2-2a-mm2a-u01-02.svg",
+      "format": "svg",
+      "bytes": 1418,
+      "sha256": "3ead1fdd6e1f1d36e989183fd9f49ba97556ee5d97cb697400c66e63c483ecef",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/e6f2a702961c56d432c55844.svg",
+        "option-art/6c2fd1fb24b327e92837c60e.svg",
+        "option-art/4532330f964001b8b281892a.svg"
+      ],
+      "optionLabels": [
+        "79",
+        "77",
+        "81"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-01",
+      "path": "question-art/aas2-2a-mm2a-u02-01.svg",
+      "format": "svg",
+      "bytes": 1856,
+      "sha256": "ce3c3a4445d21a65f74b7275188d3f23b129598b273b2f2fcaca9809c9809528",
+      "engineVersion": "1.9.0",
+      "skillId": "place-value-to-1000",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/f76aac969985617d1d444e9a.svg",
+        "option-art/ce4c69cef55ed3129ceb7cd4.svg",
+        "option-art/f1035810d50cb373d68e765a.svg"
+      ],
+      "optionLabels": [
+        "8",
+        "80",
+        "800"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-02",
+      "path": "question-art/aas2-2a-mm2a-u02-02.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "b04d3c43ae1cc96988c7cafdbc3ed716275c6946e4f587d3ce7192383a0da783",
+      "engineVersion": "1.9.0",
+      "skillId": "place-value-to-1000",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/83a96e67e01f6b65ba0bf1a2.svg",
+        "option-art/80b8c9bd529f76c745836cd0.svg",
+        "option-art/7484dbb16bb72566d9e32f28.svg"
+      ],
+      "optionLabels": [
+        "642",
+        "624",
+        "264"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-01",
+      "path": "question-art/aas2-2a-mm2a-u03-01.svg",
+      "format": "svg",
+      "bytes": 693,
+      "sha256": "4f65954866981ba05cf588ab596d5aa612b13b28889d7bd967422469e062d24c",
+      "engineVersion": "1.9.0",
+      "skillId": "addition-within-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg",
+        "option-art/0fe53c1b605e5a73629159c5.svg"
+      ],
+      "optionLabels": [
+        "52",
+        "62",
+        "72"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-02",
+      "path": "question-art/aas2-2a-mm2a-u03-02.svg",
+      "format": "svg",
+      "bytes": 1284,
+      "sha256": "bd063f77c94010b08ad7add024dc22db6fa656cc73052a20ac31933c81cee1c6",
+      "engineVersion": "1.9.0",
+      "skillId": "addition-within-100",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil",
+        "red",
+        "blue"
+      ],
+      "optionImagePaths": [
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg",
+        "option-art/0fe53c1b605e5a73629159c5.svg"
+      ],
+      "optionLabels": [
+        "52",
+        "62",
+        "72"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-01",
+      "path": "question-art/aas2-2a-mm2a-u04-01.svg",
+      "format": "svg",
+      "bytes": 1350,
+      "sha256": "5870c69422748bc0ad7bd27f7154ae4dd348c2affc707b4451827563f8cf910f",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u04",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/01bda78ae50535436aff6485.svg",
+        "option-art/76d67df0004bddfcdcb4ba28.svg",
+        "option-art/b745280443e34db9c99628a7.svg"
+      ],
+      "optionLabels": [
+        "68",
+        "58",
+        "78"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-02",
+      "path": "question-art/aas2-2a-mm2a-u04-02.svg",
+      "format": "svg",
+      "bytes": 1350,
+      "sha256": "37324580052c00d2cebecbc21f01cf0235d3af83b3c014983a38b9ac2c6db461",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u04",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/65d8a7134f8037725a91b30a.svg",
+        "option-art/dc8cbc78d3fefde92b04d31c.svg",
+        "option-art/2e58321f4e4d361882080e30.svg"
+      ],
+      "optionLabels": [
+        "35",
+        "45",
+        "55"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-01",
+      "path": "question-art/aas2-2a-mm2a-u05-01.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "aefa6a435b48dc51100c8be9e42228b346e45eb789ad0fe9e821f851f9cdd956",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/65d8a7134f8037725a91b30a.svg",
+        "option-art/dc8cbc78d3fefde92b04d31c.svg",
+        "option-art/926291735d7e01a96469b295.svg"
+      ],
+      "optionLabels": [
+        "35",
+        "45",
+        "41"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-02",
+      "path": "question-art/aas2-2a-mm2a-u05-02.svg",
+      "format": "svg",
+      "bytes": 1417,
+      "sha256": "68b76f491732b320f9d18025e0ae0ac63f5eeae7c48b868c5b6dc792d3f96430",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "bird"
+      ],
+      "optionImagePaths": [
+        "option-art/e15020fa5a9bac007667e31c.svg",
+        "option-art/2ec1b48bada5f99dfe23b17e.svg",
+        "option-art/8668f15154b9aa0231334f51.svg"
+      ],
+      "optionLabels": [
+        "33",
+        "43",
+        "31"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-01",
+      "path": "question-art/aas2-2a-mm2a-u06-01.svg",
+      "format": "svg",
+      "bytes": 1006,
+      "sha256": "917b07ebc6012b73669b7e0509354011894fea2decf37be6904d814d11d545f1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "orange"
+      ],
+      "optionImagePaths": [
+        "option-art/fdd07ba426088e4bac1112ea.svg",
+        "option-art/72fded42dc6bc101654031c2.svg",
+        "option-art/c8247504c59b64003eddfff7.svg"
+      ],
+      "optionLabels": [
+        "7",
+        "12",
+        "14"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-02",
+      "path": "question-art/aas2-2a-mm2a-u06-02.svg",
+      "format": "svg",
+      "bytes": 914,
+      "sha256": "e8ff240dcba6f060478bc709c0d3b22f6b42be2d525de87b093eefc23c0f30cb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "group"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/f15f2b9f3addd38907647ea1.svg",
+        "option-art/2afb04a4f54d86c56c21d9a8.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "9",
+        "25"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-01",
+      "path": "question-art/aas2-2a-mm2a-u07-01.svg",
+      "format": "svg",
+      "bytes": 1201,
+      "sha256": "bfb976678a5474d1f1eb93b40f69779095fca0bc031442bcee10ed55f290a26c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-number-facts",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/fdd07ba426088e4bac1112ea.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-02",
+      "path": "question-art/aas2-2a-mm2a-u07-02.svg",
+      "format": "svg",
+      "bytes": 1485,
+      "sha256": "13c60c5c740e7fbc4cbea397ecf3c652e21c8ee4707c56e4ccd8e06b0b83844d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-number-facts",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "9 + 10",
+        "12 + 8",
+        "13 + 6"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-01",
+      "path": "question-art/aas2-2a-mm2a-u08-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "8a7550243dc08e010f28427c0a2e6b104ca8fe2109b426d5c8e3db12f8b86988",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u08",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b0cafed603c9e61657b62318.svg",
+        "option-art/92084e1d7e4136b3e2a49dae.svg",
+        "option-art/8512b391fe382fa302df97fe.svg"
+      ],
+      "optionLabels": [
+        "18",
+        "16",
+        "21"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-02",
+      "path": "question-art/aas2-2a-mm2a-u08-02.svg",
+      "format": "svg",
+      "bytes": 1418,
+      "sha256": "2974f6742c8b8e4582e2ef4af5e19fa38dc525580a8cf118c4c4afee31eae36c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u08",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/94a16d4d5f694e4d417f5d23.svg",
+        "option-art/87834cddb248efc814d87976.svg"
+      ],
+      "optionLabels": [
+        "49",
+        "94",
+        "Both are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-01",
+      "path": "question-art/aas2-2a-mm2a-u09-01.svg",
+      "format": "svg",
+      "bytes": 941,
+      "sha256": "78d57b2912e1f644c38e8dd5a1126fe84fbb4b7d25718309e01ba49f6abd668c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-equations-functions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/f76aac969985617d1d444e9a.svg",
+        "option-art/f15f2b9f3addd38907647ea1.svg",
+        "option-art/2d8b6c68e461048da6de4591.svg"
+      ],
+      "optionLabels": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-02",
+      "path": "question-art/aas2-2a-mm2a-u09-02.svg",
+      "format": "svg",
+      "bytes": 691,
+      "sha256": "3719a16d01c80b23a43b7ec7cb18c7a62f8542f08b04bd9f7a1cd77ad58585ab",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-equations-functions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/72fded42dc6bc101654031c2.svg",
+        "option-art/096adc943478e6f518404add.svg",
+        "option-art/c8247504c59b64003eddfff7.svg"
+      ],
+      "optionLabels": [
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-01",
+      "path": "question-art/aas2-2a-mm2a-u10-01.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "2e55f92aea7b1ec5f856b71b5da46ec41666590d151237c7939a5067659e520a",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-fractions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "one half",
+        "one third",
+        "one quarter"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-02",
+      "path": "question-art/aas2-2a-mm2a-u10-02.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "4ed2293bc48381b17b498ef668af652eef76c5ccf3f35b088110beb295921b7d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-fractions",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "1/2",
+        "1/4",
+        "4/1"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-01",
+      "path": "question-art/aas2-2a-mm2a-u11-01.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "8d2a43be482dab2f93f4599591f39e3b2c9916b27cde3172b53a0b0183b5f38c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-time",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/cc0b5f295a9d9be49f2cdab3.svg",
+        "option-art/3897d7fc0e8e60b2ebe17a49.svg",
+        "option-art/9ea61aef2384f15a2b3c757f.svg"
+      ],
+      "optionLabels": [
+        "3:15",
+        "3:30",
+        "4:00"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-02",
+      "path": "question-art/aas2-2a-mm2a-u11-02.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "cdac7a1ffe9e802889f3281fe91a3a0d48827dcadb24f5aed4095cd5d0a02aef",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2a-time",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/7802499ced013e88b3a2245d.svg",
+        "option-art/07eac41fdba944cd3eb179c6.svg",
+        "option-art/ebd3fdf8830dd67a7ae746a4.svg"
+      ],
+      "optionLabels": [
+        "30",
+        "60",
+        "100"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-01",
+      "path": "question-art/aas2-2a-mm2a-u12-01.svg",
+      "format": "svg",
+      "bytes": 797,
+      "sha256": "ca49c109319b7467273fc4070d7ff7ee92bdf45599b21dacd6d0f747dde45cbf",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u12",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/57fb05258ce112c4f5ece7f9.svg",
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg"
+      ],
+      "optionLabels": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-02",
+      "path": "question-art/aas2-2a-mm2a-u12-02.svg",
+      "format": "svg",
+      "bytes": 813,
+      "sha256": "698c188225709cc151169999900dd63fe4798f6d881bc829775d47f7a93d88a7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2a-review-u12",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/fa202f21948fa57c73ae4f95.svg",
+        "option-art/703f30ab13b49bbee813bd86.svg",
+        "option-art/3383d02c4ff1a90e6f8e41bb.svg"
+      ],
+      "optionLabels": [
+        "6:45",
+        "7:00",
+        "6:15"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-01",
+      "path": "question-art/aas2-2b-mm2b-u13-01.svg",
+      "format": "svg",
+      "bytes": 1595,
+      "sha256": "3bf0b2434988e372a1b225f87712569c5de6174dc43b98afa0ad9861a9b573b3",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-number-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/79c8b2526d4edfd6ba073217.svg",
+        "option-art/52ba441906c24c22adf47df2.svg",
+        "option-art/850d54e41ff54e779faf8d61.svg"
+      ],
+      "optionLabels": [
+        "145",
+        "150",
+        "160"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-02",
+      "path": "question-art/aas2-2b-mm2b-u13-02.svg",
+      "format": "svg",
+      "bytes": 1660,
+      "sha256": "46af5d0316f873ba2eeb41c72acbe78a6dcecfc009f1a3bfd3d3c9f822e33c73",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-number-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/2281bfe89aa96ac51b10a445.svg",
+        "option-art/717af2bdc91cec3d218c3025.svg",
+        "option-art/c457e7f963482e00a9477d84.svg"
+      ],
+      "optionLabels": [
+        "357",
+        "456",
+        "3560"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-01",
+      "path": "question-art/aas2-2b-mm2b-u14-01.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "df2ea8a887647a8aee3b7035f903d83cbcb0d6fb9bdc3152d4ec663ff09085dd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/76275cd02d9836da4e9bfe34.svg",
+        "option-art/ac8c32506b784623a3197fea.svg",
+        "option-art/2281bfe89aa96ac51b10a445.svg"
+      ],
+      "optionLabels": [
+        "367",
+        "377",
+        "357"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-02",
+      "path": "question-art/aas2-2b-mm2b-u14-02.svg",
+      "format": "svg",
+      "bytes": 697,
+      "sha256": "2e5c46049114f0d1dded9d8e5c5ac968152beba0660def8834f374f40cf2cf83",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/928582ffd9ee8d7b9837ff3b.svg",
+        "option-art/9333070610caa5e945a92d84.svg",
+        "option-art/0577b30ec68157af4614cb4b.svg"
+      ],
+      "optionLabels": [
+        "345",
+        "355",
+        "365"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-01",
+      "path": "question-art/aas2-2b-mm2b-u15-01.svg",
+      "format": "svg",
+      "bytes": 853,
+      "sha256": "ad557bf78ccd927a477b5c0e65e383290fb334029c59e8592fd7d22328b7480b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-money",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "toy",
+        "pound"
+      ],
+      "optionImagePaths": [
+        "option-art/6e700ec6657db8ee8e980a43.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg"
+      ],
+      "optionLabels": [
+        "15 pounds",
+        "20 pounds",
+        "25 pounds"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-02",
+      "path": "question-art/aas2-2b-mm2b-u15-02.svg",
+      "format": "svg",
+      "bytes": 853,
+      "sha256": "d4f32f0abd1dd8884815d4fd470b61eceee6408fb6d4fc4ae5affe905289b526",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-money",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "coin",
+        "pound"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/aa789315be34e6ca89fe3b86.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-01",
+      "path": "question-art/aas2-2b-mm2b-u16-01.svg",
+      "format": "svg",
+      "bytes": 853,
+      "sha256": "07cb7443bc69c08929498f46aa539a24ddeb0e7586321a15f2ef0ba697a95bae",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u16",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "piaster",
+        "pound"
+      ],
+      "optionImagePaths": [
+        "option-art/e80db82dd1bec3d12d4315e4.svg",
+        "option-art/6e700ec6657db8ee8e980a43.svg"
+      ],
+      "optionLabels": [
+        "75 piasters",
+        "1 pound",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-02",
+      "path": "question-art/aas2-2b-mm2b-u16-02.svg",
+      "format": "svg",
+      "bytes": 1790,
+      "sha256": "26265dd165bd967ff6d515ea784cf6be23bfb5dccb5ac544d788df539d2a3141",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u16",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/2d76a22e7938703bf97b1bba.svg",
+        "option-art/8712bf9463ddf498da6c95eb.svg",
+        "option-art/78e54f240dc352ddc8030dc5.svg"
+      ],
+      "optionLabels": [
+        "470",
+        "460",
+        "480"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-01",
+      "path": "question-art/aas2-2b-mm2b-u17-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "bb64316f65f7011bcfe94b7a23649793d2a2d1ea0636cd5de14bc5f82105c5e8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "solid",
+        "shape",
+        "square"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Cube",
+        "Sphere",
+        "Cone"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-02",
+      "path": "question-art/aas2-2b-mm2b-u17-02.svg",
+      "format": "svg",
+      "bytes": 785,
+      "sha256": "76719c293464518d00d6b1d95270cec3a9f3a0955c2250cc4ba3d0a8271413bf",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/52777fd524716b9358968015.svg",
+        "option-art/ae9a9394fa2a4b45f2f56e88.svg",
+        "option-art/904c7e6df02768488545861f.svg"
+      ],
+      "optionLabels": [
+        "Hexagon",
+        "Pentagon",
+        "Triangle"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-01",
+      "path": "question-art/aas2-2b-mm2b-u18-01.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "6d5315194572cc321e8367d22c5d0ad88762a38d155fde8624dda33bf6331742",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Straight line",
+        "Curved line",
+        "Zigzag line"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-02",
+      "path": "question-art/aas2-2b-mm2b-u18-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "f6e9ba35fc8634b3d85064138d84e860f81398ea9c18efa3be1ec0f4c1206d6b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "rectangle"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/aa789315be34e6ca89fe3b86.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-01",
+      "path": "question-art/aas2-2b-mm2b-u19-01.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "5db5df09573a77518bb64b6fe0758a9aed15f4f43ddfdfe040c054ba1e5e066d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-area",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape",
+        "square"
+      ],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/fdd07ba426088e4bac1112ea.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-02",
+      "path": "question-art/aas2-2b-mm2b-u19-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "6534ac03bed007de8ed86cdcac969ac0e93c1d8b7bb93eb886e2d45842c0d305",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-area",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape",
+        "paper",
+        "ruler",
+        "small"
+      ],
+      "optionImagePaths": [
+        "option-art/d6f343b4b91e2bd4e03555c0.svg",
+        "option-art/9934a083b143ed22f66bc7ef.svg"
+      ],
+      "optionLabels": [
+        "Square units",
+        "Litres",
+        "Kilograms"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-01",
+      "path": "question-art/aas2-2b-mm2b-u20-01.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "365a06a2243e504ae66c68ac986b14c2b7a6d3e4a25b32c6d2741a71da2fc071",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u20",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/035e85b936868efbd2a1250e.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "4",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-02",
+      "path": "question-art/aas2-2b-mm2b-u20-02.svg",
+      "format": "svg",
+      "bytes": 785,
+      "sha256": "3a25f6a78a4cf0663ba3ae323e1f974e28b5c551ce269d98d5b4260fdf057e40",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u20",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/b2ce063f903c8b8a32095fab.svg",
+        "option-art/d6f343b4b91e2bd4e03555c0.svg",
+        "option-art/904c7e6df02768488545861f.svg"
+      ],
+      "optionLabels": [
+        "Circle",
+        "Square",
+        "Triangle"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-01",
+      "path": "question-art/aas2-2b-mm2b-u21-01.svg",
+      "format": "svg",
+      "bytes": 884,
+      "sha256": "b5db59b9577537a457f352f27defb873c0179e645df4b4f87e0bb50f88fcb99a",
+      "engineVersion": "1.9.0",
+      "skillId": "measure-length-centimeters",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [
+        "option-art/91be412a35ac469b94000b65.svg",
+        "option-art/510aa73f219cda0f22fd40a2.svg"
+      ],
+      "optionLabels": [
+        "Ruler",
+        "Clock",
+        "Scales"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-02",
+      "path": "question-art/aas2-2b-mm2b-u21-02.svg",
+      "format": "svg",
+      "bytes": 1417,
+      "sha256": "34b90daf9b66d3b053ff87154997c806b4a2dc94d26636194682946f1b1c49e3",
+      "engineVersion": "1.9.0",
+      "skillId": "measure-length-centimeters",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "ribbon"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "15 cm",
+        "55 cm",
+        "10 cm"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-01",
+      "path": "question-art/aas2-2b-mm2b-u22-01.svg",
+      "format": "svg",
+      "bytes": 876,
+      "sha256": "0d000eecf9b159597a7d811b040945254b039a4364940a52a03a22371b60fe56",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-measures-problems",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "jug"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "100 mL",
+        "500 mL",
+        "1000 mL"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-02",
+      "path": "question-art/aas2-2b-mm2b-u22-02.svg",
+      "format": "svg",
+      "bytes": 1071,
+      "sha256": "8750bdc0bc4174803f0d7335c0a7287af835c2c5023660e176d3d43909a4cacf",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-measures-problems",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "weight",
+        "kilogram",
+        "gram"
+      ],
+      "optionImagePaths": [
+        "option-art/9934a083b143ed22f66bc7ef.svg",
+        "option-art/dd37d28b0c3b41468ba4b39d.svg"
+      ],
+      "optionLabels": [
+        "2 kg",
+        "900 g",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-01",
+      "path": "question-art/aas2-2b-mm2b-u23-01.svg",
+      "format": "svg",
+      "bytes": 1201,
+      "sha256": "094fb116e6852d2eceb95c4b87aa9fc54a7a63cf64970f78f5ab30930353477e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "apple",
+        "banana"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/096adc943478e6f518404add.svg",
+        "option-art/57fb05258ce112c4f5ece7f9.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "13",
+        "2"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-02",
+      "path": "question-art/aas2-2b-mm2b-u23-02.svg",
+      "format": "svg",
+      "bytes": 766,
+      "sha256": "c0d0aa5e5b1285b270add240974fbe1cac7d451e9421b1aa243b4c824ea17525",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/510aa73f219cda0f22fd40a2.svg",
+        "option-art/4237e30db61da3add7a68650.svg"
+      ],
+      "optionLabels": [
+        "Pictograph",
+        "Clock face",
+        "Number line"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-01",
+      "path": "question-art/aas2-2b-mm2b-u24-01.svg",
+      "format": "svg",
+      "bytes": 884,
+      "sha256": "b6936d51ea0a69733dc9f1bcb715003d5f3c8a8e5047a9fbdf1448043d6bf00c",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u24",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "20 cm",
+        "4 cm",
+        "18 cm"
+      ]
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-02",
+      "path": "question-art/aas2-2b-mm2b-u24-02.svg",
+      "format": "svg",
+      "bytes": 1136,
+      "sha256": "afec52a42364d1fb57da142fa8b7612e35bf08f593c5b070ee82105892e898a4",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mm2b-review-u24",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "cat",
+        "dog"
+      ],
+      "optionImagePaths": [
+        "option-art/a3a610226d3e689275623dc8.svg",
+        "option-art/8e50bf3e4e60f6a6bfea32c5.svg",
+        "option-art/92084e1d7e4136b3e2a49dae.svg"
+      ],
+      "optionLabels": [
+        "3",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-01.svg",
+      "format": "svg",
+      "bytes": 1372,
+      "sha256": "30269fa0dcebae5a3990758cdce6ad758cfcfd66744e1ec1a2e28f40a1c7fe77",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/a4cc43f4cddc9df33a07ae97.svg",
+        "option-art/857dfbaef0b6d41248d8d562.svg",
+        "option-art/4e4caba1e1c26bf9a3aa45aa.svg"
+      ],
+      "optionLabels": [
+        "39",
+        "40",
+        "42"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-02.svg",
+      "format": "svg",
+      "bytes": 1092,
+      "sha256": "258b24fb5edf81f623ff5ba6dd356a905e03cce24d908b135384707ea0374384",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/6bbc67cb2d8db0d293489346.svg",
+        "option-art/39bd5a2229a616f21d921453.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "50",
+        "500"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-03.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "baceaac04ce437bc80fa9d7fab566b10b469a2152d9ab6ba7014174bfbe48ebe",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/7c15fba42f8354bf7431b938.svg",
+        "option-art/b0f6866d9f143d02bb7af599.svg",
+        "option-art/926291735d7e01a96469b295.svg"
+      ],
+      "optionLabels": [
+        "28",
+        "36",
+        "41"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-01.svg",
+      "format": "svg",
+      "bytes": 714,
+      "sha256": "c2e2db6bf665ff56c602ff60662511fc4b5d1a8b1444f8775a4fe288710933df",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/171616cfc8bc337a5e4837b9.svg",
+        "option-art/00e226ecd9d2d27e30c4661d.svg",
+        "option-art/69fdb839338dbf9a000238b5.svg"
+      ],
+      "optionLabels": [
+        "63",
+        "73",
+        "83"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-02.svg",
+      "format": "svg",
+      "bytes": 716,
+      "sha256": "1b4afe146306dab0f0739057b032abe4b7e3577394700692d02aa26fb7c24239",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/69b33dacc2f07309e50dc131.svg",
+        "option-art/0127e3b6b1f0e0a9f22a3e58.svg",
+        "option-art/60f1d415eb0922c59f13b713.svg"
+      ],
+      "optionLabels": [
+        "44",
+        "54",
+        "34"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-03.svg",
+      "format": "svg",
+      "bytes": 1573,
+      "sha256": "3e1fd2e77a5ccc21479a2260556b829f14704e5772b52994567f65301408bdba",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/4e4caba1e1c26bf9a3aa45aa.svg",
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg"
+      ],
+      "optionLabels": [
+        "42",
+        "52",
+        "62"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-01.svg",
+      "format": "svg",
+      "bytes": 1157,
+      "sha256": "0c922a02aed82efc7b2a9f619fa4b4ad3b8b3532b93e3d10e58610afddd5974b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "plate"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/67183ea18c1aed9d277bcc1b.svg",
+        "option-art/7c15fba42f8354bf7431b938.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "24",
+        "28"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-02.svg",
+      "format": "svg",
+      "bytes": 1092,
+      "sha256": "f8da14e1607e9d747203626f0735bcc6c33a49fea34f88ac85aa91f7bc33a5d7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b0cafed603c9e61657b62318.svg",
+        "option-art/a3eae9411e990ab5b059ee1e.svg",
+        "option-art/b0f6866d9f143d02bb7af599.svg"
+      ],
+      "optionLabels": [
+        "18",
+        "27",
+        "36"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-03.svg",
+      "format": "svg",
+      "bytes": 712,
+      "sha256": "244cb8f4a153ad3b9f53231799613c050440eb1b789536d41dad0868e69d3530",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "4 + 5",
+        "5 + 5 + 5 + 5",
+        "4 + 4 + 4"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-01.svg",
+      "format": "svg",
+      "bytes": 818,
+      "sha256": "694d988f74c4231c7bf89997121035ba6d055a75d2e034cf8f3eb62e0641e38b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "1/2",
+        "1/3",
+        "1/4"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-02.svg",
+      "format": "svg",
+      "bytes": 834,
+      "sha256": "e4645a7f677f69e14c307fd474372a1dbdf77318e44ff91b63d3885af4d1d615",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "ruler"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/c18850700b251c0ee4457189.svg",
+        "option-art/05b8c011776b2c6ca9cc8fd4.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "200",
+        "2000"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-03.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "e3d0f7f98bc5c57e0b3312cb26312317af441509bffba13089fa9abfdf7af7d5",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "75 cm",
+        "1 m",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-01.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "a74b706e384b02e06d0101f083c61080a5d540e9e145b863d8180715a3c179ca",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "solid",
+        "shape",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sphere",
+        "Cube",
+        "Cuboid"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-02.svg",
+      "format": "svg",
+      "bytes": 1027,
+      "sha256": "5ef37ac1151360f3c59d2f4c08b06e9331bb67b1e3fb8c191e29c9697328c360",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "car",
+        "red",
+        "blue"
+      ],
+      "optionImagePaths": [
+        "option-art/2d8b6c68e461048da6de4591.svg",
+        "option-art/e02c7acbc9ed3e533583b5d4.svg",
+        "option-art/72fded42dc6bc101654031c2.svg"
+      ],
+      "optionLabels": [
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-03.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "e9a04708cd4f8bb39f320082fc2e376926ae6f3c6dfaa9daac14951998522276",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "hexagon"
+      ],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-001",
+      "path": "question-art/aas2-g2-sci-u03-001.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "63fed7b592f59095f51ac30255d3b4dcb1494f143c6b7c80e41e4a19be63b490",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Sight",
+        "Hearing",
+        "Taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-002",
+      "path": "question-art/aas2-g2-sci-u03-002.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "195c19e4d25aefa383d1acff3917431f6d37441279d891d2662d3877318dbb50",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sight",
+        "color"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/5d4090c2aa97e77aa429715a.svg"
+      ],
+      "optionLabels": [
+        "Eyes",
+        "Ears",
+        "Hands"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-003",
+      "path": "question-art/aas2-g2-sci-u03-003.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "586e641b72008301eb947e3a395642ec2a2faf42e235ea253f37385c3627e691",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "flower",
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg"
+      ],
+      "optionLabels": [
+        "Tongue",
+        "Skin",
+        "Nose"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-004",
+      "path": "question-art/aas2-g2-sci-u03-004.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "190a3eb602a19f7cbbd8ab73d195c38f01b4b2f110cea2b99517fbc653feccd4",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg"
+      ],
+      "optionLabels": [
+        "Eyes",
+        "Skin",
+        "Ears"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-005",
+      "path": "question-art/aas2-g2-sci-u03-005.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "f82e898550e562a05303f7d4af3e4ee11cd60e00f5f19ffc47fd403b01954129",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "lemon"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Hearing",
+        "Sight",
+        "Taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-006",
+      "path": "question-art/aas2-g2-sci-u03-006.svg",
+      "format": "svg",
+      "bytes": 1033,
+      "sha256": "714095b1d1f4e8fd83c5ae0aca809f28378b4676f7fb5b72da24cdf319d2af60",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/3aceee1f56f779daf57a6e78.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg"
+      ],
+      "optionLabels": [
+        "Ears — hearing",
+        "Eyes — smelling",
+        "Nose — touching"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-007",
+      "path": "question-art/aas2-g2-sci-u03-007.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "926b0884706f961d25e71051ed185b0fd541b1987fa27a16c10d2245eb743459",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "ear",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/1c21c83ac1773fcbe6c17749.svg",
+        "option-art/b20f55b52e0f333e64466555.svg",
+        "option-art/a623fcc943ceccb59d4815ef.svg"
+      ],
+      "optionLabels": [
+        "Taste and touch",
+        "Smell and taste",
+        "Hearing and sight"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-008",
+      "path": "question-art/aas2-g2-sci-u03-008.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "3fd6e4972749c8e9f80ab6d3a57fac690d5ca0c1c6ab2f87e76059a4a06f3cf2",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup"
+      ],
+      "optionImagePaths": [
+        "option-art/b82f7933fb9194e5f01fa921.svg",
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg"
+      ],
+      "optionLabels": [
+        "Smell",
+        "Touch",
+        "Hearing"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-009",
+      "path": "question-art/aas2-g2-sci-u03-009.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "6ef5353a0af1c56c094e04c58d0f990ecab653310b88bd43fede6a669c11fc16",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "ear",
+        "loud"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The band becomes silent forever",
+        "The band vibrates",
+        "The band changes into liquid"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-010",
+      "path": "question-art/aas2-g2-sci-u03-010.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "794b08ff7533994e239831169bbe686e42ca919f1e7f8d08ef999146eea46819",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/edeaa51944e51ccc8f473188.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg"
+      ],
+      "optionLabels": [
+        "A drum being beaten",
+        "A person whispering",
+        "Leaves moving gently"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-011",
+      "path": "question-art/aas2-g2-sci-u03-011.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "e396e7ff1b6b53cf1e1f6c928808e2761f204cfb79b8be9b8cacc94b90b4390b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/2d988878a5ab322a283698b4.svg",
+        "option-art/3402f11b3dbce34b5d9aaa4b.svg"
+      ],
+      "optionLabels": [
+        "A large low drum",
+        "Distant thunder",
+        "A small bird chirping"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-012",
+      "path": "question-art/aas2-g2-sci-u03-012.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "3b62e7935f976d0969abef899f19072df57e3d180bb9d576c49d2a4db917ca6f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The painted picture on the guitar",
+        "A vibrating string",
+        "The guitar case sitting still"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-013",
+      "path": "question-art/aas2-g2-sci-u03-013.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "681a0c3dd16e40d0449e6040fe0183d2c244987edb1c4eaf62349155799e8090",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/ced598f92a7f6d1d3dfa0a17.svg"
+      ],
+      "optionLabels": [
+        "A deep drumbeat",
+        "A small bird chirp",
+        "A whistle"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-014",
+      "path": "question-art/aas2-g2-sci-u03-014.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "50c14a1fa2c4ade82a5a33d97c4176d3f8b55bc681834cffccbd0819e8b5964f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "It becomes a different colour",
+        "It turns into a smell",
+        "It sounds quieter"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-015",
+      "path": "question-art/aas2-g2-sci-u03-015.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "fcbdcf141ba0fe664b06d5125e84315e7ce409c07d069b5d0d7fb4e6ec5fdd7a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "Move closer to listen carefully",
+        "Move away and tell an adult",
+        "Turn the sound up more"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-016",
+      "path": "question-art/aas2-g2-sci-u03-016.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "96c9b2f923c6a977a904f17b9f2be5d57d6bb6c6b13cecc7ea527c8724f49b51",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/ef8980b5978352559f6535fe.svg",
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "A sound can be high-pitched and quiet",
+        "Every high-pitched sound is loud",
+        "Loudness and pitch mean exactly the same thing"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-017",
+      "path": "question-art/aas2-g2-sci-u03-017.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "411687a05e717c552e5061ce99e6a805c05d95621e811411be32af05d50655a1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/be5673505f2c61efc023dc4e.svg",
+        "option-art/b20f55b52e0f333e64466555.svg"
+      ],
+      "optionLabels": [
+        "Darkness entering your ears",
+        "Light reaching your eyes",
+        "A smell reaching your tongue"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-018",
+      "path": "question-art/aas2-g2-sci-u03-018.svg",
+      "format": "svg",
+      "bytes": 1038,
+      "sha256": "60b6a213c709d1e04c40db485b6b1c770c98f2baab5a6289f9cbfe2e350480c4",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "banana",
+        "color"
+      ],
+      "optionImagePaths": [
+        "option-art/b8a34fd1afa94d9b9f7998b2.svg",
+        "option-art/c834632a884b9c2bf45fe580.svg",
+        "option-art/2f625dcc85a24ae332fac8ea.svg"
+      ],
+      "optionLabels": [
+        "Yellow",
+        "Blue",
+        "Purple"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-019",
+      "path": "question-art/aas2-g2-sci-u03-019.svg",
+      "format": "svg",
+      "bytes": 1189,
+      "sha256": "c3c66d03a1beaffcc5d7e0317fd87b2f6594a67d204d09c10009b8eb748f8cb9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "color",
+        "red",
+        "yellow"
+      ],
+      "optionImagePaths": [
+        "option-art/c834632a884b9c2bf45fe580.svg",
+        "option-art/6950ca2b6ea8fd31523c18fe.svg",
+        "option-art/63185c3fde762869f2d2939a.svg"
+      ],
+      "optionLabels": [
+        "Blue",
+        "Green",
+        "Orange"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-020",
+      "path": "question-art/aas2-g2-sci-u03-020.svg",
+      "format": "svg",
+      "bytes": 1190,
+      "sha256": "1a6b8a12f2a3cd69c07ca7ecc8d271065a4a641fa82296d17470ee66fce5c552",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "color",
+        "blue",
+        "yellow"
+      ],
+      "optionImagePaths": [
+        "option-art/2f625dcc85a24ae332fac8ea.svg",
+        "option-art/6950ca2b6ea8fd31523c18fe.svg",
+        "option-art/a64cc75bed8936c4980ea757.svg"
+      ],
+      "optionLabels": [
+        "Purple",
+        "Green",
+        "Red"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-021",
+      "path": "question-art/aas2-g2-sci-u03-021.svg",
+      "format": "svg",
+      "bytes": 1183,
+      "sha256": "f8dc68089022d676cce847186da217875b1165020bfcd1570b1e805416f985c1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun",
+        "eye"
+      ],
+      "optionImagePaths": [
+        "option-art/166c2d9db1727cef91a8cbf6.svg",
+        "option-art/57c992232db998af44361c79.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg"
+      ],
+      "optionLabels": [
+        "Never look directly at the Sun",
+        "Look straight at the Sun for a long time",
+        "Use a magnifying glass to look at the Sun"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-022",
+      "path": "question-art/aas2-g2-sci-u03-022.svg",
+      "format": "svg",
+      "bytes": 1032,
+      "sha256": "61ea9b36250645654b8b1ee6077e0b45e1cca69d6e5b4b96dcac21ed664fbe88",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye",
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/20221c62a0090fcfe241a87a.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "To make sounds",
+        "To taste food",
+        "To spread tears and help protect the eyes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-023",
+      "path": "question-art/aas2-g2-sci-u03-023.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "fa23392877049c07ced65f9fe5ccae3adeaa4849b970157bee56f0bba1bd688a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material",
+        "sun",
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/c932248ca851916870d18adc.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg",
+        "option-art/48e5a12c2af6ff0b293f5dea.svg"
+      ],
+      "optionLabels": [
+        "A thick wooden board",
+        "Clear glass",
+        "A closed book"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-024",
+      "path": "question-art/aas2-g2-sci-u03-024.svg",
+      "format": "svg",
+      "bytes": 1172,
+      "sha256": "064cba5fec1b8c6d5254a6abb871a7ab5b7a2555a86f61ab8f19ec7efe26a33b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "Rub the eye hard",
+        "Put a sharp object near the eye",
+        "Blink gently and tell an adult if it still feels uncomfortable"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-025",
+      "path": "question-art/aas2-g2-sci-u03-025.svg",
+      "format": "svg",
+      "bytes": 1179,
+      "sha256": "4651bc25802231dd875a8945c635d625dea9bbbe0729a429f730d0bfafd0bd7c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Soft",
+        "Rough",
+        "Wet"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-026",
+      "path": "question-art/aas2-g2-sci-u03-026.svg",
+      "format": "svg",
+      "bytes": 1044,
+      "sha256": "359efa6d47c4fb08eb09b77fa256f00f71fdaf04546fea7169991eeb52cb538d",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material"
+      ],
+      "optionImagePaths": [
+        "option-art/9f70113ab272986583199f06.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/ad91984a03885476b07595cf.svg"
+      ],
+      "optionLabels": [
+        "A metal spoon",
+        "A stone",
+        "Cotton wool"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-027",
+      "path": "question-art/aas2-g2-sci-u03-027.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "a777c7be88cad57275ec9deb63d7f9dd807975222d3f3063b04e0f21977df0e7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "table"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "Touch",
+        "Hearing",
+        "Smell"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-028",
+      "path": "question-art/aas2-g2-sci-u03-028.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "0eb4e5c429f5b49597478fa2e62575a5889d748a6bca824800177dbec7538a48",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/459631dd81eb2b1403ee2d9e.svg",
+        "option-art/48a9211a0a0226f2629ee82e.svg"
+      ],
+      "optionLabels": [
+        "A polished glass marble",
+        "A piece of coarse sandpaper",
+        "A smooth plastic ruler"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-029",
+      "path": "question-art/aas2-g2-sci-u03-029.svg",
+      "format": "svg",
+      "bytes": 1181,
+      "sha256": "a45e39632cf49a6e6394d0d6b24f18036634dbb4e49c4dd875717bbf8db1ee0b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "glass"
+      ],
+      "optionImagePaths": [
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "Loud",
+        "Sour",
+        "Smooth"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-030",
+      "path": "question-art/aas2-g2-sci-u03-030.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "637b2a36c4785d95df5cb6bfe75f27388c7f467d7a6b85a69613a817fbde1b35",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "school",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/3aceee1f56f779daf57a6e78.svg"
+      ],
+      "optionLabels": [
+        "Gently feel their clean surfaces",
+        "Taste both objects",
+        "Smell them with your eyes closed"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-031",
+      "path": "question-art/aas2-g2-sci-u03-031.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "7216108075eb6f8d0da086dc4be6f37f01c47247ca6b54e0604e783af393b068",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "insect",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/4a0abb7d13dda4ea99861e9c.svg"
+      ],
+      "optionLabels": [
+        "Pick it up to feel its body",
+        "Do not touch it; tell an adult",
+        "Rub it against your skin"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-032",
+      "path": "question-art/aas2-g2-sci-u03-032.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "932665caa6713578b473a93ee60b8bd89dd76e183e80eb1a2f3c75db9452db07",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/2d7afab679934faab89b4c0d.svg"
+      ],
+      "optionLabels": [
+        "Rough",
+        "Warm",
+        "Cold"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-033",
+      "path": "question-art/aas2-g2-sci-u03-033.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "2dd63f15d5c0323cf75b00ec17ce6c1acd20e29722df48dbd2fdd5e11d5deed9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "bread",
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "Ears",
+        "Nose",
+        "Eyes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-034",
+      "path": "question-art/aas2-g2-sci-u03-034.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "9adc27c476b41673ca97326b44cc662dd07b122e519982a6a93a7c7b4e37e766",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "taste",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Elbow",
+        "Knee",
+        "Tongue"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-035",
+      "path": "question-art/aas2-g2-sci-u03-035.svg",
+      "format": "svg",
+      "bytes": 1906,
+      "sha256": "0837c1cda3f49b049d623775ccc97711e3a1e0bd93c0b71425720c27981e97c5",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "lemon",
+        "taste"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sour",
+        "Salty",
+        "Bitter"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-036",
+      "path": "question-art/aas2-g2-sci-u03-036.svg",
+      "format": "svg",
+      "bytes": 1186,
+      "sha256": "536564df25efae72ac4f33e5fc12db1e2f97a6ac25cd7f9b1516174334ddef35",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/8ec91790d8005d48e50c7e74.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "Taste a little to identify it",
+        "Smell it closely and then eat it",
+        "Do not eat it; ask a trusted adult"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-037",
+      "path": "question-art/aas2-g2-sci-u03-037.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "880cfa82ae063f7e1bfd3ba78c7c9f1c47362e7d8cef5788b00face8403ff34c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/5e58a902c7953a20c81243eb.svg"
+      ],
+      "optionLabels": [
+        "Move away and tell an adult",
+        "Search alone for the source",
+        "Touch nearby objects to see if they are hot"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-038",
+      "path": "question-art/aas2-g2-sci-u03-038.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "c80db3688b3d45af6765adc72489b82540b770b0f09dca675acd05133c3f1f0c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin",
+        "smell",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/932dfd8f109de275d2f469c9.svg"
+      ],
+      "optionLabels": [
+        "Its exact weight",
+        "Its odour",
+        "Whether it is definitely safe to eat"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-039",
+      "path": "question-art/aas2-g2-sci-u03-039.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "a82dc93e599011e0003f942fd4d3b708456890ad9d2a9ab4a7bb78b15c06ed4d",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "orange",
+        "smell",
+        "taste"
+      ],
+      "optionImagePaths": [
+        "option-art/fb2660609eca94f7b607e375.svg",
+        "option-art/a623fcc943ceccb59d4815ef.svg",
+        "option-art/b20f55b52e0f333e64466555.svg"
+      ],
+      "optionLabels": [
+        "Hearing and touch only",
+        "Sight and hearing only",
+        "Smell and taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-040",
+      "path": "question-art/aas2-g2-sci-u03-040.svg",
+      "format": "svg",
+      "bytes": 1182,
+      "sha256": "8615d408ad8f078fa8c69101433ee609d2c579fa4454465d9929465062255781",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "food"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Stop eating and tell an adult immediately",
+        "Eat more to check what happens",
+        "Ignore it and keep eating"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-001",
+      "path": "question-art/aas2-g2-sci-u04-001.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ee700db92b3d1ced60de1475b74ab43d6fb8fb7d385958c89670d02d9c43d3c1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/8d931f6ca0ba07a84f3ec8ac.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg",
+        "option-art/4883506061c585420562ee5a.svg"
+      ],
+      "optionLabels": [
+        "A metal coin",
+        "A dry leaf",
+        "A small stone"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-002",
+      "path": "question-art/aas2-g2-sci-u04-002.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "ee861589bcf1075ba95551fde228e22c3e3b7cf9f2adfc72ac810d0599c5047f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tree",
+        "water",
+        "block",
+        "wood"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Dissolve",
+        "Turn into a liquid",
+        "Float"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-003",
+      "path": "question-art/aas2-g2-sci-u04-003.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ce14e54f4e9572b906df4ec282bd1071f531746753e7755f3ff8af6fd7c3e6b6",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9f70113ab272986583199f06.svg",
+        "option-art/720341f6793664e07009cb53.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg"
+      ],
+      "optionLabels": [
+        "A metal spoon",
+        "A cork",
+        "A dry leaf"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-004",
+      "path": "question-art/aas2-g2-sci-u04-004.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ded7458d3413f0938286d680b93c438ae8279dc8e054f17a19c89677077af894",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "school",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "Guess from its colour",
+        "Taste the object",
+        "Place it gently in water and observe"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-005",
+      "path": "question-art/aas2-g2-sci-u04-005.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "540b736a04bc1032b698474c5ab6592597b98289995364b4bdc7838df4ae31bb",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "boat",
+        "toy"
+      ],
+      "optionImagePaths": [
+        "option-art/932dfd8f109de275d2f469c9.svg",
+        "option-art/c407581180b525c50e97df29.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It has no weight",
+        "Its shape helps it push water aside",
+        "It is made of water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-006",
+      "path": "question-art/aas2-g2-sci-u04-006.svg",
+      "format": "svg",
+      "bytes": 1178,
+      "sha256": "972cd618e7e3079b83b3b794c87bed7dd5b33ebb6b60cb11fddf76ec2dd16ae3",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup",
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/9ab32b895a985999ae4634f6.svg",
+        "option-art/2db1c570cc2ede345dfc86fe.svg",
+        "option-art/716eba40d37c6f3ee8e278f4.svg"
+      ],
+      "optionLabels": [
+        "The shape of the cup",
+        "The shape of a wooden block",
+        "A shape that never changes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-007",
+      "path": "question-art/aas2-g2-sci-u04-007.svg",
+      "format": "svg",
+      "bytes": 1199,
+      "sha256": "4a8a850805fa8da5632d31110d9ccfd0492b93a04feb64645f14ac2f6743a38a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/a1bed5e37dfdf4e94722e28d.svg",
+        "option-art/c407581180b525c50e97df29.svg"
+      ],
+      "optionLabels": [
+        "The amount of water",
+        "The water becomes solid",
+        "The shape of the water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-008",
+      "path": "question-art/aas2-g2-sci-u04-008.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "64a5b54babd2202dc44d3d892eb6c506aaef295f92992d3eb6567ddcd92a11aa",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b8b719cb904704fe6805da07.svg",
+        "option-art/d528aa7ac7b48f91fabf0c11.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg"
+      ],
+      "optionLabels": [
+        "A pencil",
+        "Milk",
+        "A stone"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-009",
+      "path": "question-art/aas2-g2-sci-u04-009.svg",
+      "format": "svg",
+      "bytes": 1177,
+      "sha256": "1493702b5d9f03d38b9aa95af35108d0a4aba42b12eab2963d8a716ef7d5fbf7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/cd5636b886166db4eb3b073b.svg"
+      ],
+      "optionLabels": [
+        "A funnel",
+        "A ruler",
+        "A paintbrush"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-010",
+      "path": "question-art/aas2-g2-sci-u04-010.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "afe2c5c94440cddcbf846fcf9bf5bf8d6a4ba1fd250cb5df70cf91e194cf879b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "cup"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/e6419c2e8d332a0cfd84953c.svg",
+        "option-art/d5d4b267960243b0b6294825.svg"
+      ],
+      "optionLabels": [
+        "Its colour",
+        "How loud it is",
+        "How much it can hold"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-011",
+      "path": "question-art/aas2-g2-sci-u04-011.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "0d3a05e8185d4ffa98dd095a257d01f9047e04a7fce78eac0e6ad726c61703cf",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It turns into a stone",
+        "It dissolves and spreads through the water",
+        "It floats forever as a lump"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-012",
+      "path": "question-art/aas2-g2-sci-u04-012.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "8896ab5aeea88f05beecfa194e63c93e663007900c203c450a4e543acdc42937",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material",
+        "water"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sand",
+        "Sugar",
+        "Salt"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-013",
+      "path": "question-art/aas2-g2-sci-u04-013.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "9d3bd27a46e9a011f48ac161b691f0cea25eb541a964c05c8ba3b256463fa4f1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "No, it is destroyed",
+        "Yes, it is spread through the water",
+        "It changes into oil"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-014",
+      "path": "question-art/aas2-g2-sci-u04-014.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "a77af038221c957ff38df5d6fb634c0d2c02eafb0353b42bb12f4351245b33b9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/89debe8febb01d7241ace4fb.svg"
+      ],
+      "optionLabels": [
+        "The oil dissolves completely",
+        "They become a solid",
+        "They form separate layers"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-015",
+      "path": "question-art/aas2-g2-sci-u04-015.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "bd28a85688ca2d26882c5b058c71601de4b59e19bf1889700f7465573a8bc9fe",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg"
+      ],
+      "optionLabels": [
+        "Stirring",
+        "Adding a stone",
+        "Covering the cup with sand"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-016",
+      "path": "question-art/aas2-g2-sci-u04-016.svg",
+      "format": "svg",
+      "bytes": 1172,
+      "sha256": "31908a5125442099da3db9d355fe298f82fc854e74c85043c497deeae06cd491",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun"
+      ],
+      "optionImagePaths": [
+        "option-art/a9433a3b49bdc7d8ff408079.svg",
+        "option-art/166c2d9db1727cef91a8cbf6.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg"
+      ],
+      "optionLabels": [
+        "A wooden chair",
+        "The Sun",
+        "A glass cup"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-017",
+      "path": "question-art/aas2-g2-sci-u04-017.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "1e97eb37e94cfe0b2b9d24cb11c7c6afd0c3a82e18d16a748451dbf030c33e87",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "stove",
+        "person",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg"
+      ],
+      "optionLabels": [
+        "Touch the pot to test it",
+        "Move the pot alone",
+        "Stay away and tell an adult"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-018",
+      "path": "question-art/aas2-g2-sci-u04-018.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "97ad224c584fcb8f235dd0b33a9353f1a54c9c96a00cece2e1bed587af472070",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin",
+        "ice"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/dd39a0e4eedf704c1054b2c5.svg"
+      ],
+      "optionLabels": [
+        "It melts into liquid water",
+        "It becomes a stone",
+        "It grows into a plant"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-019",
+      "path": "question-art/aas2-g2-sci-u04-019.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "3b80c40d8919a53373126d1871d42efb558b1f27d6da4bd8f3ec70c6fd161b02",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sight"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Go inside to investigate",
+        "Move away and alert a trusted adult",
+        "Hide near the smoke"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-020",
+      "path": "question-art/aas2-g2-sci-u04-020.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "2d1710a1fd756ea544cbdfb88052496954e885a10d6e346b06948fedcf19ca88",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup",
+        "person",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/5d4090c2aa97e77aa429715a.svg",
+        "option-art/6f3b1767afde5d74de45bdf8.svg"
+      ],
+      "optionLabels": [
+        "Move away and tell an adult",
+        "Wipe it with bare hands",
+        "Play with the water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-001",
+      "path": "question-art/aas2-g2-sci-u05-001.svg",
+      "format": "svg",
+      "bytes": 1048,
+      "sha256": "111bc1b2c9ea3b8fe57dc15ef0ade4822b9edc5e0027a75af7b600177dfa1781",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "planet"
+      ],
+      "optionImagePaths": [
+        "option-art/4ee3a97ab2bc411903c00463.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "A cloud",
+        "A mountain",
+        "The Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-002",
+      "path": "question-art/aas2-g2-sci-u05-002.svg",
+      "format": "svg",
+      "bytes": 1034,
+      "sha256": "c76a5a586ae9d9d19f84210d25baf95f33ca2b7559655bd492d795ec89064735",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun"
+      ],
+      "optionImagePaths": [
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg",
+        "option-art/b61f05b85c12c519f4c36fb9.svg"
+      ],
+      "optionLabels": [
+        "A star",
+        "The Moon",
+        "A mirror"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-003",
+      "path": "question-art/aas2-g2-sci-u05-003.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "9f46ad2417b09aaf4eb9d6f32d9267fd885cffa81f0dc14b4fdf27649790317c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon",
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/166c2d9db1727cef91a8cbf6.svg"
+      ],
+      "optionLabels": [
+        "It is a giant lamp",
+        "It reflects light from the Sun",
+        "It is made of fire"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-004",
+      "path": "question-art/aas2-g2-sci-u05-004.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "472706d68ce88c3557a9fa5edcc686530d548d46ebdb0bc11e17a9b1e1f3fb46",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "No, never",
+        "Only during a storm",
+        "Yes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-005",
+      "path": "question-art/aas2-g2-sci-u05-005.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "9a0871339f98b70d71170d1cec2895a60c983cfcc2a38bf3cb460a9d07b81c75",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/67a63b12598e38f8a054a55a.svg"
+      ],
+      "optionLabels": [
+        "A river full of water",
+        "A round hollow or dent on its surface",
+        "A tall green tree"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-006",
+      "path": "question-art/aas2-g2-sci-u05-006.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "51d300a937ff86e6b1eb92188cdd47ff815fcf2715ec1408c10eb0db9707ddb3",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon"
+      ],
+      "optionImagePaths": [
+        "option-art/e481c4a4ab4ac7b22393938d.svg",
+        "option-art/966bd07f3f505e3e00234bef.svg",
+        "option-art/01bad04e86303c07c30d4b3b.svg"
+      ],
+      "optionLabels": [
+        "Space rocks hit the Moon's surface",
+        "Rain made deep puddles",
+        "Wind blew sand into circles"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-007",
+      "path": "question-art/aas2-g2-sci-u05-007.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "a4585080edf376d1eb7212210c5eac6896beeb4accb36ffb00ed909fa924b24f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/7f538b350ae2ca3c43e04667.svg",
+        "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg",
+        "option-art/bd70a5c6dfc3eae0867afdd2.svg"
+      ],
+      "optionLabels": [
+        "A child touches a hot pan",
+        "A cup of unknown liquid",
+        "An adult drops a small ball into soft modelling dough"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-008",
+      "path": "question-art/aas2-g2-sci-u05-008.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "ab1104decc1143e4fff6ec8f72ad0f5bbea97236acb82b2c9e5dff6def2264ed",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/4b47e7a9a14d39beb7ced252.svg"
+      ],
+      "optionLabels": [
+        "A long straight river",
+        "A round bowl-shaped hollow",
+        "A square tower"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-009",
+      "path": "question-art/aas2-g2-sci-u05-009.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "810b31d75acc880cac083ce2817b964d0548918e2513cf4b5c0f39f46254d454",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg",
+        "option-art/4ee3a97ab2bc411903c00463.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "A pattern of stars seen in the sky",
+        "Clouds inside a jar",
+        "A line drawn on the Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-010",
+      "path": "question-art/aas2-g2-sci-u05-010.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "36b5c2b1b8b7ea834cee47f5a32b2eae391f04c6e7eb0bd950351eca7688512e",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "star",
+        "rocket"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/d5d4b267960243b0b6294825.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "Yes, they touch each other",
+        "No, they can be very far apart",
+        "They are all on the Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-011",
+      "path": "question-art/aas2-g2-sci-u05-011.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "0781353e67e53107654b64375adaadeddec4d51031027893d4f6efa099b69566",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
+      ],
+      "optionLabels": [
+        "Record what you see on both evenings",
+        "Guess without looking",
+        "Change the names of the stars"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-012",
+      "path": "question-art/aas2-g2-sci-u05-012.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "094bf7f7e5785c993692f1bc5a768a730819f3a649a31cbbdec3fd45a892c8c7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "star",
+        "cloud"
+      ],
+      "optionImagePaths": [
+        "option-art/f6c72881c6974d4d7c5f83ff.svg",
+        "option-art/166c2d9db1727cef91a8cbf6.svg"
+      ],
+      "optionLabels": [
+        "Climb a tree to get closer",
+        "Look at the Sun through a telescope",
+        "Record that the sky was cloudy"
       ]
     },
     {
@@ -3929,8 +7949,8 @@
       "activityId": "kg2-plant-01-en",
       "path": "question-art/kg2-plant-01-en.svg",
       "format": "svg",
-      "bytes": 853,
-      "sha256": "b401fc0dd32fe13b617e942537cd4595ea650f83d6af83c457a04aa84060478f",
+      "bytes": 1019,
+      "sha256": "24ce2a34a11de46fdf2561afc11e02fa6116cfa7a2b7ddd98f9ecce449d05f2f",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -4021,8 +8041,8 @@
       "activityId": "kg2-plant-02-en",
       "path": "question-art/kg2-plant-02-en.svg",
       "format": "svg",
-      "bytes": 853,
-      "sha256": "946b2309f759cdb5a916a15211a4595d924b44026d11bc295d62fce46819f402",
+      "bytes": 1026,
+      "sha256": "af5177eeff1c7a35c2bbb59d1b28dc31cc8a0b8652d5a198084de5f97d796ae3",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -5713,8 +9733,8 @@
       "activityId": "new-ali-science-001",
       "path": "question-art/new-ali-science-001.svg",
       "format": "svg",
-      "bytes": 865,
-      "sha256": "500ddbf3bc71ffa95115c7528a51e0337486b816a1121abbf401c07255869351",
+      "bytes": 1041,
+      "sha256": "f0758135b0c33be4f3d0f68114a483cd0b4c8a3a2290aa704d5703c9c8e9d557",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5736,8 +9756,8 @@
       "activityId": "new-ali-science-002",
       "path": "question-art/new-ali-science-002.svg",
       "format": "svg",
-      "bytes": 1384,
-      "sha256": "2951d5f321ad9e1d3e31530f6882e21154daec2d0b8078f10ca5f5bd64eb1368",
+      "bytes": 1040,
+      "sha256": "7db9f49659774403304b836fc4d395556cc76ea4034a9a137d8b68d544edd19c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5783,8 +9803,8 @@
       "activityId": "new-ali-science-004",
       "path": "question-art/new-ali-science-004.svg",
       "format": "svg",
-      "bytes": 2376,
-      "sha256": "fe0ea2d79a6a18398f5928b62b818c3da02d2f87f2a9698152b49250691db55e",
+      "bytes": 1042,
+      "sha256": "762bb70896ae9b9180668f18bebceb9d5a0668a1e79b47985f3f5009606fbd75",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5806,8 +9826,8 @@
       "activityId": "new-ali-science-005",
       "path": "question-art/new-ali-science-005.svg",
       "format": "svg",
-      "bytes": 1756,
-      "sha256": "335c8787aea919064711233e1006cef6badea4efba5a470353e44ed737db24d4",
+      "bytes": 1176,
+      "sha256": "b4702c6a16da8d4c5d54a85073d4f39938281e81d9948894d8806aa9110e4724",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5829,8 +9849,8 @@
       "activityId": "new-ali-science-006",
       "path": "question-art/new-ali-science-006.svg",
       "format": "svg",
-      "bytes": 969,
-      "sha256": "e76d1ed98addfccfef16cef1d629be0dae3d7d45a951437e01a2eb233be0afb1",
+      "bytes": 1040,
+      "sha256": "f5efd49461c29474bd935438f3495777df7f02ee1f7496ffebd09295b16f4ae9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5852,8 +9872,8 @@
       "activityId": "new-ali-science-007",
       "path": "question-art/new-ali-science-007.svg",
       "format": "svg",
-      "bytes": 831,
-      "sha256": "f490ed11ca8b559bf7630720c4f2d1bf5f0edd378f7cb968790e372481bc8de9",
+      "bytes": 1599,
+      "sha256": "5606b622479c8c78229f8fadfa2d28c478063ddeabbd46549722585a58d012e8",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5875,8 +9895,8 @@
       "activityId": "new-ali-science-008",
       "path": "question-art/new-ali-science-008.svg",
       "format": "svg",
-      "bytes": 849,
-      "sha256": "af1c00c5d66d1ef0fe026a4c993c6b908eb2713f96ff8076ba15df8509b226d8",
+      "bytes": 1815,
+      "sha256": "f66c809be3157d06a3512a8225678fc3e0664c9ba8f31e1c6f6953c3c1be83fe",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5898,8 +9918,8 @@
       "activityId": "new-ali-science-009",
       "path": "question-art/new-ali-science-009.svg",
       "format": "svg",
-      "bytes": 721,
-      "sha256": "0b9e953a775999fc498f55b2e0e80c627d89634a012f3fa51b4431b105aa2d09",
+      "bytes": 1906,
+      "sha256": "d54efe371a2df861aa566757675c3091197ec08a36ca344e46895925430be7d5",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5921,8 +9941,8 @@
       "activityId": "new-ali-science-010",
       "path": "question-art/new-ali-science-010.svg",
       "format": "svg",
-      "bytes": 1602,
-      "sha256": "6c5aaf7c83a4113d1aef5a9be0532a3edfa80ebdc4af428c29c35df0c778729f",
+      "bytes": 1042,
+      "sha256": "bad2405060de43b357353645375214341f0eca43251ffb5fe166b71ed7f97a63",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5944,8 +9964,8 @@
       "activityId": "new-ali-science-011",
       "path": "question-art/new-ali-science-011.svg",
       "format": "svg",
-      "bytes": 786,
-      "sha256": "4c59c3eb9e8bbacd53ec6558755a985ff21a96e33d2b717c5c431532b3eb347c",
+      "bytes": 1599,
+      "sha256": "05dd324606546b42cc07618a21e0c5673edf710ea074b783432ad9beb945dff7",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5967,8 +9987,8 @@
       "activityId": "new-ali-science-012",
       "path": "question-art/new-ali-science-012.svg",
       "format": "svg",
-      "bytes": 709,
-      "sha256": "b7185c6946b32fc3674d18776d9f024565dedb181200235cf12248eff041ec77",
+      "bytes": 1039,
+      "sha256": "4a0e6935ba5e944e9ab5991135ba15d6865a06c8a71f8eb1cab4c0619a06fcb8",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -5990,8 +10010,8 @@
       "activityId": "new-ali-science-013",
       "path": "question-art/new-ali-science-013.svg",
       "format": "svg",
-      "bytes": 880,
-      "sha256": "effd327453552ae92e8cb0ff192a6cc78716913d98046e8a721900d12562c918",
+      "bytes": 1043,
+      "sha256": "4d2a43da009836725a5fcc2cae3bb6f678df2f10f47c2755e144a36563004f14",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6013,8 +10033,8 @@
       "activityId": "new-ali-science-014",
       "path": "question-art/new-ali-science-014.svg",
       "format": "svg",
-      "bytes": 798,
-      "sha256": "508b0a87c475b2a4965fb35109426e94970bfbacab39de8983a94d392a829fb1",
+      "bytes": 1039,
+      "sha256": "25826864a189f73c2aabb2aa2f9a46517ac0939a9230d2eeb749ee8d44457cea",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6059,8 +10079,8 @@
       "activityId": "new-ali-science-016",
       "path": "question-art/new-ali-science-016.svg",
       "format": "svg",
-      "bytes": 1880,
-      "sha256": "2df832c3660cb6ba090bc78eefae846ff42c0d1228d5dc840a5bff426a95a45c",
+      "bytes": 1044,
+      "sha256": "6a6b7407a7e070b7c1f9dfd191341ff8fe69a732d578dbf360a7f622a4a39aa2",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6082,8 +10102,8 @@
       "activityId": "new-ali-science-017",
       "path": "question-art/new-ali-science-017.svg",
       "format": "svg",
-      "bytes": 816,
-      "sha256": "2c25b2a1cda89388f2f05c6f38ca5fb9446cb07db3cd473f19d5c8f510986513",
+      "bytes": 1040,
+      "sha256": "6484e4b78d4bcafd893edeef47171ba8976eb063b8da9c2f58721df01b745193",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6105,8 +10125,8 @@
       "activityId": "new-ali-science-018",
       "path": "question-art/new-ali-science-018.svg",
       "format": "svg",
-      "bytes": 1549,
-      "sha256": "f2ad57141309a6aa417b38659149801190dbe7848863e1df052f85d6db7cfb4d",
+      "bytes": 1042,
+      "sha256": "178a00b715f363701f7fa2d697222d3c2cba91c4f64f72d02afb3dc52d131f12",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6126,8 +10146,8 @@
       "activityId": "new-ali-science-019",
       "path": "question-art/new-ali-science-019.svg",
       "format": "svg",
-      "bytes": 1936,
-      "sha256": "47ec108841886fa4c8db9c70b7f056860277761c9bbcce218c30dd676f2c62ef",
+      "bytes": 1175,
+      "sha256": "d4b660ce99f21b3140395705066a095575f359be5e100aabf670944234324a2a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6147,8 +10167,8 @@
       "activityId": "new-ali-science-020",
       "path": "question-art/new-ali-science-020.svg",
       "format": "svg",
-      "bytes": 2105,
-      "sha256": "721824179875d134abe9a02acb9613b98ad66c327209f444f6190250810c58f8",
+      "bytes": 1174,
+      "sha256": "e4c0641c8f8fe60c72ac266de05f0bcfca3daadf20d0a1ff7483630402428ac6",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6170,8 +10190,8 @@
       "activityId": "new-ali-science-021",
       "path": "question-art/new-ali-science-021.svg",
       "format": "svg",
-      "bytes": 2223,
-      "sha256": "4f2198fba761feb893c19c538a1b2af0a088206a7189c920b2e0aa8932297b21",
+      "bytes": 1046,
+      "sha256": "882fbb8f920c57ca315d7465d501315e5653bd797e09bdf6e20312aec7fcb80c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6193,8 +10213,8 @@
       "activityId": "new-ali-science-022",
       "path": "question-art/new-ali-science-022.svg",
       "format": "svg",
-      "bytes": 1997,
-      "sha256": "843af1f2af6a670f1307de81d0bf782322b7930437077fe207c3cdb4a47f750e",
+      "bytes": 1045,
+      "sha256": "5e3df5551317ef3e2c97d659e26a9fddaafc06549db158335d99ef4ff796c6cc",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6216,8 +10236,8 @@
       "activityId": "new-ali-science-023",
       "path": "question-art/new-ali-science-023.svg",
       "format": "svg",
-      "bytes": 1741,
-      "sha256": "3aaf65e80f8ecdbc01c718316884baf9e59586abc7644f9cf12c779ca1417c5b",
+      "bytes": 1041,
+      "sha256": "4811fe5ac9863456a4ef6d81b3a055bee72c5bcdb2c2bcf75d30decc635e2e5d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6239,8 +10259,8 @@
       "activityId": "new-ali-science-024",
       "path": "question-art/new-ali-science-024.svg",
       "format": "svg",
-      "bytes": 2045,
-      "sha256": "c2ccaa660ee30bd68d256aeaa1b4d88618dd30df9c09260ab1b74b23fe5be562",
+      "bytes": 1650,
+      "sha256": "432dddc60c600b38cc548e565d1933cbc895dc6bc6e5046352fe0907ca35bfda",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6262,8 +10282,8 @@
       "activityId": "new-ali-science-025",
       "path": "question-art/new-ali-science-025.svg",
       "format": "svg",
-      "bytes": 1630,
-      "sha256": "8be2f402a188c58bcc9791e23706dd83e9b60e13a0d6ed4f229d1a98172b8ee2",
+      "bytes": 1739,
+      "sha256": "2afec535b574e5d60f1063f83923e86c251ed92ec238b953bcea6ba0c93ca881",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -6279,6 +10299,621 @@
         "Ice melts into liquid water",
         "Ice changes into stone",
         "Ice changes into sand"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-01",
+      "path": "question-art/aas2-kg2-listening-comprehension-01.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "80f0bb56460a2ec12290d98f6d4b8a780643f4932692883748321788c83df639",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "nose",
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/10eb08432f601c1bf6fde321.svg"
+      ],
+      "optionLabels": [
+        "Your nose",
+        "Your knee",
+        "Your elbow"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-02",
+      "path": "question-art/aas2-kg2-listening-comprehension-02.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "7adca92b23c212af024e75380f4f0ad924cca70bfa0a963cc58de75fe3326df1",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/fb35b39583185daa7d8e048b.svg",
+        "option-art/ad8fa08aad86c617b6651c37.svg"
+      ],
+      "optionLabels": [
+        "Clap two times",
+        "Jump three times",
+        "Wave one hand"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-listening-comprehension-03",
+      "path": "question-art/aas2-kg2-listening-comprehension-03.svg",
+      "format": "svg",
+      "bytes": 894,
+      "sha256": "b18ed6799113783056d73584a49e6bb46c17411465bcd2f50cf9b5469987abeb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-listening-comprehension",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "book",
+        "table"
+      ],
+      "optionImagePaths": [
+        "option-art/80d9288f2a088b3f8013a811.svg",
+        "option-art/a8b591f1791c5c39d97fbc31.svg"
+      ],
+      "optionLabels": [
+        "Under the chair",
+        "On the table",
+        "In the bag"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-01",
+      "path": "question-art/aas2-kg2-story-sequencing-01.png",
+      "format": "png",
+      "bytes": 9010,
+      "sha256": "734abf86346ff68e9a294250b82491bb3a84ce08dd5664e1c90e937d425cc5ca",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "seed"
+      ],
+      "optionImagePaths": [
+        "option-art/edb31366d4a9ed6c2449770d.svg",
+        "option-art/90ff728260b86dbd180d9a93.svg",
+        "option-art/9281e0f4bb6106301c8bb98b.svg"
+      ],
+      "optionLabels": [
+        "The seed is planted",
+        "The plant has flowers",
+        "The plant grows tall"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-02",
+      "path": "question-art/aas2-kg2-story-sequencing-02.png",
+      "format": "png",
+      "bytes": 9961,
+      "sha256": "dc33a867c8cfcfe1e0dbcfe68f36a28d13941c52a003749b65fc98ace4330b71",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "tooth",
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/ab818d7d74b87f1aeaa908e5.svg"
+      ],
+      "optionLabels": [
+        "Goes to sleep",
+        "Brushes teeth",
+        "Eats dinner"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-story-sequencing-03",
+      "path": "question-art/aas2-kg2-story-sequencing-03.png",
+      "format": "png",
+      "bytes": 9961,
+      "sha256": "7d3b16665103e6e3acdce1b2409a54e36ff648ced07accccd62a4e3639b7415e",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-story-sequencing",
+      "visualProfile": "reading",
+      "matchedPromptKinds": [
+        "caterpillar",
+        "butterfly"
+      ],
+      "optionImagePaths": [
+        "option-art/a585eb2be9783e3cba768fda.svg",
+        "option-art/db9a19e8579f439187ebda4f.svg",
+        "option-art/52cf8797f61e85acbae3fc54.svg"
+      ],
+      "optionLabels": [
+        "A caterpillar",
+        "A bird",
+        "An egg carton"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-01",
+      "path": "question-art/aas2-kg2-measure-compare-01.svg",
+      "format": "svg",
+      "bytes": 1240,
+      "sha256": "26e21331cce009a7359df363c0f1387613f8dc400443e8d8fec444171123b970",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil"
+      ],
+      "optionImagePaths": [
+        "option-art/2f741174bb04b42bd219a595.svg"
+      ],
+      "optionLabels": [
+        "The pencil",
+        "The crayon",
+        "They are the same length"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-02",
+      "path": "question-art/aas2-kg2-measure-compare-02.svg",
+      "format": "svg",
+      "bytes": 1509,
+      "sha256": "6670a180e9450f53dd84516a9b3ce80136ca6c46cec7be15f0ec8299b5bb9c29",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "block"
+      ],
+      "optionImagePaths": [
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg"
+      ],
+      "optionLabels": [
+        "A 20 cm block tower",
+        "A 10 cm block tower",
+        "They are the same height"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-measure-compare-03",
+      "path": "question-art/aas2-kg2-measure-compare-03.svg",
+      "format": "svg",
+      "bytes": 790,
+      "sha256": "ac05456ea5b4605648a53c0e7e0a9d9618435e22eb159c7e82823425888517f6",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "water",
+        "weight"
+      ],
+      "optionImagePaths": [
+        "option-art/e8892520910e40d8b5c4c755.svg"
+      ],
+      "optionLabels": [
+        "A full water bottle",
+        "An empty bottle",
+        "They weigh the same"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-01",
+      "path": "question-art/aas2-kg2-plant-needs-01.svg",
+      "format": "svg",
+      "bytes": 1058,
+      "sha256": "0c8fee901f1ba3d53546624b0aac3b4d7107a9cfb162544fa985f8792b0cbf22",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant"
+      ],
+      "optionImagePaths": [
+        "option-art/1022e86e35c6d0fc5a88e4b1.svg",
+        "option-art/15a59599fdf32f3b741129ef.svg",
+        "option-art/417172e1752a189a521a593a.svg"
+      ],
+      "optionLabels": [
+        "Water and light",
+        "Plastic toys",
+        "A warm coat"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-02",
+      "path": "question-art/aas2-kg2-plant-needs-02.svg",
+      "format": "svg",
+      "bytes": 1048,
+      "sha256": "53f14ae8eed7a0b305da9e4f82c62a4410bb39d144ee3052e3313bf0dfbb8fa5",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant",
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/ff3855c84b2fc901e736b892.svg",
+        "option-art/0005f9d6422fd3aa4b4496ea.svg"
+      ],
+      "optionLabels": [
+        "Through their roots",
+        "Through their flowers",
+        "Through their fruit"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-plant-needs-03",
+      "path": "question-art/aas2-kg2-plant-needs-03.svg",
+      "format": "svg",
+      "bytes": 1197,
+      "sha256": "1a56105186176b4d5c95e42860a578e2b16165a69582ec2b8b35b0d2ccd6c992",
+      "engineVersion": "1.9.0",
+      "skillId": "plant-needs",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "plant",
+        "water",
+        "clock",
+        "time"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It may wilt",
+        "It will turn into a stone",
+        "It will make more water"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-01",
+      "path": "question-art/aas2-kg2-discovering-world-01.svg",
+      "format": "svg",
+      "bytes": 1966,
+      "sha256": "176715f519ccbc1b8d67f08b41319b34065e7ad2c9fc0be7c8ed71e2b202e424",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/c4b536312a8856ca8c6fb3b1.svg",
+        "option-art/51c1de5f99a9e411d3cf2e51.svg",
+        "option-art/bec00c67b9ea85ce7576252d.svg"
+      ],
+      "optionLabels": [
+        "A tree",
+        "A stone",
+        "A plastic cup"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-02",
+      "path": "question-art/aas2-kg2-discovering-world-02.svg",
+      "format": "svg",
+      "bytes": 1437,
+      "sha256": "4422362aadf9f343d41ceb33cb8bab14443d34456ed69b002843d0cfa36e8338",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "bird",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/86e2e22c78ec719732076618.svg"
+      ],
+      "optionLabels": [
+        "It has feathers",
+        "It is made of metal",
+        "It has wheels"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-discovering-world-03",
+      "path": "question-art/aas2-kg2-discovering-world-03.svg",
+      "format": "svg",
+      "bytes": 862,
+      "sha256": "f7e61170dd0d9f70253a00142991d81c78257236d34f11a6cadaf09cab9c14a8",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-discovering-world",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "habitat",
+        "fish"
+      ],
+      "optionImagePaths": [
+        "option-art/238154590d28fc7e0a7edd57.svg",
+        "option-art/cf7e8ba44b42f53ce0b46e6c.svg"
+      ],
+      "optionLabels": [
+        "A pond",
+        "A dry cupboard",
+        "A bookshelf"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-01",
+      "path": "question-art/aas2-kg2-observe-predict-01.svg",
+      "format": "svg",
+      "bytes": 1797,
+      "sha256": "d8e203cec43510225645ebece605f94b9d581ef4561cc66c9606d82efb180c57",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "sun",
+        "plant",
+        "window"
+      ],
+      "optionImagePaths": [
+        "option-art/3e0241e10aeffe9543e8ba66.svg",
+        "option-art/cc792740405f4f18f7868af8.svg"
+      ],
+      "optionLabels": [
+        "Growing towards the light",
+        "Looking for a toy",
+        "Trying to walk"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-02",
+      "path": "question-art/aas2-kg2-observe-predict-02.svg",
+      "format": "svg",
+      "bytes": 1299,
+      "sha256": "f96ffc11be0b1408f314cca2f9a0986a64173dd33675d87e977b7f576b22a819",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "sun",
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/27f64048ba98d26075ee323b.svg",
+        "option-art/880bfea2889b76bf3d4ff7c1.svg",
+        "option-art/fc609fb92a94b787bb0bc80a.svg"
+      ],
+      "optionLabels": [
+        "It may rain",
+        "Some water goes into the air.",
+        "The clouds will turn into rocks"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-observe-predict-03",
+      "path": "question-art/aas2-kg2-observe-predict-03.svg",
+      "format": "svg",
+      "bytes": 1299,
+      "sha256": "8440b06f009961c2b6acc90ed4bbf6b5021f677df8c242f3fde10b1727475d9b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-observe-predict",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "sun",
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/990885beeb877403cb8e6d24.svg",
+        "option-art/334344a415b429ded81155e6.svg"
+      ],
+      "optionLabels": [
+        "Some water evaporated",
+        "The water became soil",
+        "The puddle grew deeper"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-01",
+      "path": "question-art/aas2-kg2-weather-observation-01.svg",
+      "format": "svg",
+      "bytes": 2102,
+      "sha256": "9631e0822a7031f25cdf7c1e6a790edfb26c447ba28f6d17c486ae6f5e7f7c79",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "cold",
+        "wind",
+        "tin",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/945f5268551840c2cf9f32b2.svg",
+        "option-art/eef8d400ec274d881cd0fb27.svg"
+      ],
+      "optionLabels": [
+        "Thermometer",
+        "Ruler",
+        "Paintbrush"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-02",
+      "path": "question-art/aas2-kg2-weather-observation-02.svg",
+      "format": "svg",
+      "bytes": 1183,
+      "sha256": "035d2001dcaaa80d1d7e5e7bea235accbfb8029943ef5c636761ff65bda17231",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "wind",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/a8f794a1b05ba0e2e4bf9078.svg",
+        "option-art/3129a75966c9240fdca2c6a0.svg",
+        "option-art/6521cfb26797634e0d508fcc.svg"
+      ],
+      "optionLabels": [
+        "Leaves moving",
+        "The ground becoming a star",
+        "The Moon melting"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-weather-observation-03",
+      "path": "question-art/aas2-kg2-weather-observation-03.svg",
+      "format": "svg",
+      "bytes": 834,
+      "sha256": "a34f8aeade6e69fcae9e56c2940bb5ddc146e890c743e279e41eef47b710a7dd",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-weather-observation",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "rain"
+      ],
+      "optionImagePaths": [
+        "option-art/40bea7dc325655ed3fa53e1a.svg",
+        "option-art/4bc8e0d24f0a58cdf2b4a08d.svg"
+      ],
+      "optionLabels": [
+        "Raincoat",
+        "Swimsuit for a pool",
+        "Wool hat only"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-01",
+      "path": "question-art/aas2-kg2-environment-care-01.svg",
+      "format": "svg",
+      "bytes": 1750,
+      "sha256": "6aa8b13df82c12f4b93f484f0ae87aa945a74e655cc11c37e230340e3c52985d",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/4d74507c2a181a2af32fac75.svg",
+        "option-art/31d8013f08d7902d4de84b88.svg"
+      ],
+      "optionLabels": [
+        "Put rubbish in a bin",
+        "Drop wrappers on the ground",
+        "Break young plants"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-02",
+      "path": "question-art/aas2-kg2-environment-care-02.svg",
+      "format": "svg",
+      "bytes": 1632,
+      "sha256": "2c096083e39870d9d595ed9bc70001f6f1d7503a99220dbeb26d7a52be2284c2",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "tooth",
+        "water",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/dc3ee810ed2365e41295be07.svg",
+        "option-art/bc34a1d8b042fe169b447b61.svg"
+      ],
+      "optionLabels": [
+        "Turn off the tap while brushing",
+        "Leave the tap running",
+        "Fill the sink and walk away"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-environment-care-03",
+      "path": "question-art/aas2-kg2-environment-care-03.svg",
+      "format": "svg",
+      "bytes": 892,
+      "sha256": "821e405ed763dcb02d96e0f2088608020fb8850635d6d70b6858f9d840d291f9",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-environment-care",
+      "visualProfile": "english",
+      "matchedPromptKinds": [
+        "plant"
+      ],
+      "optionImagePaths": [
+        "option-art/990885beeb877403cb8e6d24.svg",
+        "option-art/9f18da59ec4a403673777c04.svg",
+        "option-art/0b4467d4b4102b5a27c7d114.svg"
+      ],
+      "optionLabels": [
+        "Water it when needed",
+        "Pull out its roots",
+        "Cover it with plastic"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "path": "question-art/aas2-kg2-mxskg-u05-004.svg",
+      "format": "svg",
+      "bytes": 1080,
+      "sha256": "8e1382dcd96a3bb950794d145acd1dea524859f8c2913b6343bf574cbdf68565",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "block",
+        "ribbon"
+      ],
+      "optionImagePaths": [
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg"
+      ],
+      "optionLabels": [
+        "1 block",
+        "2 blocks",
+        "3 blocks"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "path": "question-art/aas2-kg2-mxskg-u05-005.svg",
+      "format": "svg",
+      "bytes": 1015,
+      "sha256": "cb446849acea5342e862359c95e5c6fd55eec04aff54239ce00c08fda7300991",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "cup",
+        "jug"
+      ],
+      "optionImagePaths": [
+        "option-art/cfa30200bbca065b60932813.svg",
+        "option-art/cfa30200bbca065b60932813.svg"
+      ],
+      "optionLabels": [
+        "Jug A",
+        "Jug B",
+        "They hold the same amount"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "path": "question-art/aas2-kg2-mxskg-u05-006.svg",
+      "format": "svg",
+      "bytes": 893,
+      "sha256": "23203110f5df500db897f1d9fa2a928475a1f0a0b4267c18a30495c1aba326bb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil",
+        "ruler"
+      ],
+      "optionImagePaths": [
+        "option-art/2f741174bb04b42bd219a595.svg",
+        "option-art/91be412a35ac469b94000b65.svg"
+      ],
+      "optionLabels": [
+        "The pencil",
+        "The crayon",
+        "The ruler"
       ]
     }
   ]
