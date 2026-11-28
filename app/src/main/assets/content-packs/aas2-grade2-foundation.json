@@ -8201,7 +8201,17 @@
         "c": "speech/8d72a1f7ce7db43d6637e51b5c7488b43c35ebe78e76297fe204a91c174c9d98.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/41409cf918f7885f94faa9b9ad120f86b4b5bf70d1d8661ea51d1bba4001599d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ecb6227231de0a495fa145ced0bb6cea84dc7af391b51132e2151672e0006c75.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ecb6227231de0a495fa145ced0bb6cea84dc7af391b51132e2151672e0006c75.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_ACTION_VERBS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l01-002",
@@ -8238,7 +8248,17 @@
         "c": "speech/7535d5e95cb220e8f92bf24e74a199c477792660e2fbc78394654ece68bbdd1d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/703eec07a6d00818de350567fbbab5cd9c386cd81bc5a31b27e151582d9ce128.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6429c5bab1a637d01cfeb3cc4695f46c1e24175ec9ffffcf1fefacd705f6d4d2.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6429c5bab1a637d01cfeb3cc4695f46c1e24175ec9ffffcf1fefacd705f6d4d2.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_ACTION_VERBS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-003",
@@ -8274,7 +8294,17 @@
         "c": "speech/0e6a44cb2ba8a9e1ad4ef917a7a13679d97af58e7e8121a11055d65726775589.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7a078bb0e94ab306cc8eaee3a9670994d128f7678449aced14614892bc8c06ef.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3714c6c4e8a619b1ca12d8d31f6747b2f600b45f549967d6442e70e74c2017a6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3714c6c4e8a619b1ca12d8d31f6747b2f600b45f549967d6442e70e74c2017a6.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_READING_SEQUENCE",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-004",
@@ -8309,7 +8339,17 @@
         "c": "speech/f9f71846f7f7af3a99f420cef400ccf66c6a1156bc3e4f6ffe8b872f7a607621.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5bee7756fd005a8f6b7e572e88859cc35d3f19c6840622cb1743a97a7c310e77.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b04b0c86c115dcd8d94f2e9dc82cc4d1f4f2b32587258eb324f1113a03f62c55.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b04b0c86c115dcd8d94f2e9dc82cc4d1f4f2b32587258eb324f1113a03f62c55.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_READING_SEQUENCE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-005",
@@ -8343,7 +8383,17 @@
         "c": "speech/158c022f8dce816d7f77435d6079bfcf9b143be3d9a2e1db19346c29a7c857e6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d313bbc90aeeeb140d544aa94760a88c186c22236bb3a82300271e1e81ede4b8.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/01f4f57f9c09fa58e1c32621745fa470412c218144b93babbb18078d0831562f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/01f4f57f9c09fa58e1c32621745fa470412c218144b93babbb18078d0831562f.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L03",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_EVERYDAY_VOCABULARY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-006",
@@ -8379,7 +8429,17 @@
         "c": "speech/b546b85975cc9fddd622bb4495bb5e75a4563c6c25689df951e41e357068de0e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/6fc714344cad38e785796c16591171b269370539dc2e230d04647c94fa5502e9.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/16ea44236741de1f819ce81717cbc75a29db6d4192739df84f14d480e1c804c3.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/16ea44236741de1f819ce81717cbc75a29db6d4192739df84f14d480e1c804c3.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L03",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_EVERYDAY_VOCABULARY",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-007",
@@ -8413,7 +8473,17 @@
         "c": "speech/7dc104ccf385a8945f12773c4774f3aa12a2e027e0bbee5b7d0145943f1e484e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/2de281aa93e1827c948952e198a5a65971a71e52a8cc26fe9e0ccfec43b72844.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/442e0670f781bf49c106d1c8dff77f1b60e9ad1606bbf2d4d22272b7844e8c1c.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/442e0670f781bf49c106d1c8dff77f1b60e9ad1606bbf2d4d22272b7844e8c1c.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L04",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_SENTENCE_ORDER",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-008",
@@ -8447,7 +8517,17 @@
         "c": "speech/32c4d6800f0eb0acddfbff262f7d8aace1e7ef901e3769d9a52bee0d33133c58.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/802a33bf8d2c22dc6b1554bc37517daa24a87cc6c9e04707e8a4cca9cacfdae1.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/369f8e4e6c622e9b1af6ee84b33c4ff59912afdac506a9f320d8cc8aa57c5268.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/369f8e4e6c622e9b1af6ee84b33c4ff59912afdac506a9f320d8cc8aa57c5268.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U01",
+      "lessonId": "EW2-U01-L04",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U01_SENTENCE_ORDER",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-009",
@@ -8482,7 +8562,17 @@
         "c": "speech/0b77f67ca104cab09cd5033586eab69e80bf274dccc58c6c264bcbb049297d7e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9f3b5a536f9d9a88bfae83eeb74483492971f5dc8332245929489cfe91a29047.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8b466e5a7913849bebd6886e2f84d8b830308e215576eaa19d783ff3cb3753f7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8b466e5a7913849bebd6886e2f84d8b830308e215576eaa19d783ff3cb3753f7.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U02_PLAYGROUND_VOCABULARY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-010",
@@ -8517,7 +8607,17 @@
         "c": "speech/94ee6733362d42b272c47a3dabe25c17e5b8556a306fce0dc8d5517aec88d096.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/0d6f7e0115ed9adfc21ea22b690758c4ac705e0281975012ff762a914c28f65e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0058fe19c51c5181ea7405de8cc10fd6ab12d1f880d8b4b2846f84abba6ea901.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0058fe19c51c5181ea7405de8cc10fd6ab12d1f880d8b4b2846f84abba6ea901.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U02_PLAYGROUND_VOCABULARY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-011",
@@ -8551,7 +8651,17 @@
         "c": "speech/19333405468f797564ace6cfc421b916fb0f38d183ae4ea3f71b1189b29336d4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/11d0c67d4506ca8b4fac0cf5596ba6302511b3efe76c1f8f28f85bc485b5b347.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/22af9a6e3848b005a86d27afc72eca678c9aac051dc3b015dad43bcd2284f526.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/22af9a6e3848b005a86d27afc72eca678c9aac051dc3b015dad43bcd2284f526.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U02_DEMONSTRATIVES_ING",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-012",
@@ -8585,7 +8695,17 @@
         "c": "speech/c20318d93f34ef0b84bbdfbc17ef4b57b792df0b9c9772432419ac5e9c1b0cc5.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1cc040b7e4c1f0fb35f84a662abdf00c5d0e4a417c9c66d559f5e5c00d75617a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7ca1712e3df08e2f7d12c8424a5e31b01f44770151a695ef7e007ecc3d2fcc7a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7ca1712e3df08e2f7d12c8424a5e31b01f44770151a695ef7e007ecc3d2fcc7a.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U02",
+      "lessonId": "EW2-U02-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U02_DEMONSTRATIVES_ING",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-013",
@@ -8619,7 +8739,17 @@
         "c": "speech/9b45b0648e4d6588a2ee029b82c0e8668fc0527822eb84c63d50857038f12dd6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/cfb64b8567823c860b57701f207de4244d1dd4ec25b35466b5d7983dba8571f4.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3794831472d6810216476f7ba9544cb4e50bb8dd2220aae4a35d4ca7a681120d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3794831472d6810216476f7ba9544cb4e50bb8dd2220aae4a35d4ca7a681120d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U03_HOBBIES_LIKE_LIKES",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-014",
@@ -8654,7 +8784,17 @@
         "c": "speech/901b938417ebea643ec7d45826381800d3368f3527994233f713bc30e9c8225d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/0856754009cbbce0c3511db3c5b9beb52124628ce811487cc0854f624e22e734.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1147bb520e5d19e811f49bcc2389e1bab17056e5b4ccae9913aaea374be0c0e4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1147bb520e5d19e811f49bcc2389e1bab17056e5b4ccae9913aaea374be0c0e4.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U03_HOBBIES_LIKE_LIKES",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-015",
@@ -8691,7 +8831,17 @@
         "c": "speech/8212f11950351a0121b6d0837274ab55a5d68722a66652a5f9113ca3d42a310e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/27ec4abdf2dc013fc5231ab6e46d11d59226d68f493199952a239c1dc783734e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/81d8624697316b51decb0cdafb370d57852285f3f5c1378fdf3c82fc2b5f5ff0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/81d8624697316b51decb0cdafb370d57852285f3f5c1378fdf3c82fc2b5f5ff0.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U03_QUESTIONS_PHONICS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-016",
@@ -8728,7 +8878,17 @@
         "c": "speech/72ca5da4ccc1243dfdce094fb075a3e2ce2f3f63074bb60c31df0918b6d92f2f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/79024176caf10033527b20e3eed52536b5a145ca2a7cfa4fd550922f7b4cbb15.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/62140289f9bdfa3e908d35d1160a8e0846e96e81c29a4986b91cad0b646dd5f8.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/62140289f9bdfa3e908d35d1160a8e0846e96e81c29a4986b91cad0b646dd5f8.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U03",
+      "lessonId": "EW2-U03-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U03_QUESTIONS_PHONICS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-017",
@@ -8762,7 +8922,17 @@
         "c": "speech/f3b85453fce295e5e61b2fcd375bd134a6610ab9824eebddbb4a0a022a73edb7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/aa400d5a5d69c3ac7f47654597f524374d1d7674031f783de62f3f0994086997.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4c61ea8dd6396ae120b6051616675098e021e284d555e3947f5c390599f19d8d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4c61ea8dd6396ae120b6051616675098e021e284d555e3947f5c390599f19d8d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U04_CLOTHES_QUESTIONS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-018",
@@ -8798,7 +8968,17 @@
         "c": "speech/74667f85846779cc80f7fff1203b62acda54a7deed97266c6c429577c13b59f6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/42a5a8d1eab82aa25bbe7cdc6dafdb2cb358f58cd3e6d492ccbe892cb6ea4082.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2640425db26981f6a6ce5eaf7202be10a6027e3adee029a3bbdc0fdce9e1787a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2640425db26981f6a6ce5eaf7202be10a6027e3adee029a3bbdc0fdce9e1787a.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U04_CLOTHES_QUESTIONS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-019",
@@ -8833,7 +9013,17 @@
         "c": "speech/812d1dfb36b0d49e7fed31d5c6f4c5f072beb26450422af40ae88d4dc1956978.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/104bb656e74a8fd6ea970063252536a0620a8b0442d04ccc37c020afb5f4ceb8.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b0dcd58c35d62fb0e77b0458c87016acef01fe174fc7356772ed13b2440593e7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b0dcd58c35d62fb0e77b0458c87016acef01fe174fc7356772ed13b2440593e7.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U04_BLENDS_DESCRIPTION",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-020",
@@ -8868,7 +9058,17 @@
         "c": "speech/e6c659e009058e02822dcbefed7c4c99ed6018bc8547d5c8ca978bebce47ef18.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/368a22be223e616c3a51eb8b29716bac46b83631b7fc2ceae5b70271b1027abe.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2afd903ab423bb55b5dc0cddb0894bc201e8dc6769f9939a0d4fad8568d40778.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2afd903ab423bb55b5dc0cddb0894bc201e8dc6769f9939a0d4fad8568d40778.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U04",
+      "lessonId": "EW2-U04-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U04_BLENDS_DESCRIPTION",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-021",
@@ -8903,7 +9103,17 @@
         "c": "speech/ede8ed9cfd447dca96780d6a0cb06dd16ffcdfcbccd9d5950514551401e1641f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7748dcbf24162f9d84a68db3addc5ba960047d3dad382eb3eecf94eb1a16b8ba.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/736a91224fab5cde4782f9316a853923421ccc4a04dbe6801ed2ef9fe0b165cb.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/736a91224fab5cde4782f9316a853923421ccc4a04dbe6801ed2ef9fe0b165cb.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U05_ROUTINES_TIME",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-022",
@@ -8940,7 +9150,17 @@
         "c": "speech/241970b82da0491942601e4e037e43c6f4ff583f1b77951650726e845b9e58a5.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/81bfcea217f767dc17c11938a68e7c946cfb967625aa495a8d68b155ef3cda6f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ff8e103422ece6d7efa6d06d5d33ba2a8a89fd76976365b75dcc0f53eb4a5b7d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ff8e103422ece6d7efa6d06d5d33ba2a8a89fd76976365b75dcc0f53eb4a5b7d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U05_ROUTINES_TIME",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-023",
@@ -8976,7 +9196,17 @@
         "c": "speech/79fa8e1d70be01117f9aefce787527b9c223968687b3d4ec0daaa6228f8b4119.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1094408e07768e880f346dbb062853237ab6dfd6a8ef7cc80fdaeddca742b3a8.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1b5ae97146e920ccd25b8938f26a5a51702b8740cf699af10e7897ab9b59ccb7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1b5ae97146e920ccd25b8938f26a5a51702b8740cf699af10e7897ab9b59ccb7.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U05_BLENDS_SEQUENCING",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-024",
@@ -9010,7 +9240,17 @@
         "c": "speech/c85493c607a6519b60a2d910d80ad69dc3f5458887162e9a95c73807c8a0c691.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ef2e8df5035a1604d6ccd8cdc28a5bde4db3a301811382662e95d54c8eee3c33.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6f8329460b73593a666fab45bae87e231208c2f044655fe3d5d4f1904e632535.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6f8329460b73593a666fab45bae87e231208c2f044655fe3d5d4f1904e632535.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U05",
+      "lessonId": "EW2-U05-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U05_BLENDS_SEQUENCING",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-025",
@@ -9044,7 +9284,17 @@
         "c": "speech/7908a726eee1b857f58bddc81a171377fe8651beed033f5084073173cff69a71.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5cbf0bb473cadf6b7860c8a90eca28849a863adcccb93465fdf4b6b867f6fe82.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a18acdaa0c2ef1bac360686c899f74e12b6b4be68badac8e38532e0db170c1b0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a18acdaa0c2ef1bac360686c899f74e12b6b4be68badac8e38532e0db170c1b0.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U06_BODY_PRONOUNS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-026",
@@ -9078,7 +9328,17 @@
         "c": "speech/16507c55ba82d7d030e3b556f4be8fbfc0ed23b37660adde5c6ce2f97eeba993.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/23a3ab3f9abd504d07b419dff4d22dec9d6130ade440b7eedf934b6f35f1210c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/70d50ec0a7cac4ceb75e5fc2aaa8775ca2601f2c503808f97a49448fdc6d466b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/70d50ec0a7cac4ceb75e5fc2aaa8775ca2601f2c503808f97a49448fdc6d466b.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U06_BODY_PRONOUNS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-027",
@@ -9112,7 +9372,17 @@
         "c": "speech/1cced4e14880a1166f538684caa3932641b0a5d49edd59861da1f8e767909a15.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8bcfad5105834b2af45c2ef8665edea137022875a8708ac6f1273db8df852350.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/c61eaaaa6b05982243af684be42b0ce69dd4fdb1dda49bcacbd9a154c17f557d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/c61eaaaa6b05982243af684be42b0ce69dd4fdb1dda49bcacbd9a154c17f557d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U06_BLENDS_CONTRACTIONS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-028",
@@ -9149,7 +9419,17 @@
         "c": "speech/c25d5686cb0f80a9b52bdebe272b5e1038f40de7a54bd5817c9b08f0ebf3f371.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9d074c79c1be5a352723c09468114429f33a96b669d42a2fa3fa0b5cecd0cde6.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/78c4297902bab639f8149cc62cdecaf61dd7046218c605120e596916ee093b10.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/78c4297902bab639f8149cc62cdecaf61dd7046218c605120e596916ee093b10.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U06",
+      "lessonId": "EW2-U06-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U06_BLENDS_CONTRACTIONS",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-029",
@@ -9184,7 +9464,17 @@
         "c": "speech/c60ff74b9aa92f32a711c234999ff1cd46eb09ca9bc722841969b37a3c7b8efe.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/322081ed4e47210cd665bfe2a9977430b7f993b1eb459fa25f158d8080cd267d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/943026b942b1584072affed2dbf21d33afd920f6642915f9665719d300b07f3d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/943026b942b1584072affed2dbf21d33afd920f6642915f9665719d300b07f3d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U07_FOOD_WEATHER",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-030",
@@ -9219,7 +9509,17 @@
         "c": "speech/8b5170da1f7a75d4b316f1e53c43e03ad5da07425d3f774eefd20acbad8fed30.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/135b4830f415e9b832109889e7942dd0cc75cf27e87d127a5ef6a1b8f25ade35.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5a01ad45ae406fb80b66e693fd702601f4b4ce62483acf2244d5c7966e832ab0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5a01ad45ae406fb80b66e693fd702601f4b4ce62483acf2244d5c7966e832ab0.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U07_FOOD_WEATHER",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-031",
@@ -9254,7 +9554,17 @@
         "c": "speech/efade3df197f72bf316265b35952315e42742f3afb8e4c7703ae235bad7acb14.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f82711c8b8cb23c21b36df5d484560f6a7201f6e5140c0cb0d94fb080135d2b7.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b315195d0a14030e0bbf77c3c16ced8be527ccaf9341df7d95b641ebe5f9b600.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b315195d0a14030e0bbf77c3c16ced8be527ccaf9341df7d95b641ebe5f9b600.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U07_FREQUENCY_LANGUAGE",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-032",
@@ -9288,7 +9598,17 @@
         "c": "speech/6df01cca9c346592e61fd559b2b8ba5c9f48160f4effa2a834b8ae048cfcbf32.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7dbcc90cf31254c182d9ee7ae26107a6a635af38aaf7d5130be82cb6b4185bd8.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2b8141d447e858b835bc925a4b31fccfb265fdaeab7a7936d696384015a2deef.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2b8141d447e858b835bc925a4b31fccfb265fdaeab7a7936d696384015a2deef.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U07",
+      "lessonId": "EW2-U07-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U07_FREQUENCY_LANGUAGE",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-033",
@@ -9322,7 +9642,17 @@
         "c": "speech/1fd07856ffaffcc5fb76014ba458745434bf35971e00c4a429b518f582d65b55.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/724e797d702b79cced6cc77b98bedc839a775578cb7bdaa3bab256d5d9249f1b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2ef57305a50b6bbd56570b184bad0b140e79136bf448d3eafb29c825284aae4d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2ef57305a50b6bbd56570b184bad0b140e79136bf448d3eafb29c825284aae4d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U08_ANIMALS_WAS_WERE",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-034",
@@ -9357,7 +9687,17 @@
         "c": "speech/e2c55eb5f41dc95794ba3c9646d553ae245b9462e0ebd541af7b353942ef5993.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/705ea4a0ac72c8885777174b395ec5dacc1aa353d45077b3d9b26f36a462c332.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/cc9124f60adf8039391fa8fa08a30a11628cb9423e8fd18aa9a9cd10ac8fdfdf.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/cc9124f60adf8039391fa8fa08a30a11628cb9423e8fd18aa9a9cd10ac8fdfdf.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U08_ANIMALS_WAS_WERE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-035",
@@ -9393,7 +9733,17 @@
         "c": "speech/32868a60a72fcb3cb84c145a89146ee3d654e1087ad0907a43ca03fad13eb385.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/23a2f488f2436d543a1f5c0e251f3f58980d4414091d948632ef0cdc88eb2b4f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1f83c3ec9a3e1803abe275f174a893368b92cff7d02093c48d2fab7edca1e7a2.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1f83c3ec9a3e1803abe275f174a893368b92cff7d02093c48d2fab7edca1e7a2.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U08_ENDINGS_TIME",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-036",
@@ -9430,7 +9780,17 @@
         "c": "speech/d800d68bd2d237b7ae093e6056b63c164c56a7d5443c3575b82c858cfdc6066d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7c82627e67b2a86aab5c6475048c36fc935f8d884c06be73ad083ba62770c4dc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f2a7832e16cc515df9a804b24bf3d9fcedd1625e0893bac6c150ffe557e995a7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f2a7832e16cc515df9a804b24bf3d9fcedd1625e0893bac6c150ffe557e995a7.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U08",
+      "lessonId": "EW2-U08-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U08_ENDINGS_TIME",
+      "optionRationales": {
+        "a": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-037",
@@ -9464,7 +9824,17 @@
         "c": "speech/1f7df3c95474cc4bb259d00f17719ade11e8a4591c74d4ad4b64ff0691f29c15.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c9c12042861ac8a5668e707aa053ba6c95f4a088c84253a52646044658b8e574.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d72e1b3e1200598133d830c3edd23f90fb9c751a6f951f954eeb03a7a5bd7876.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d72e1b3e1200598133d830c3edd23f90fb9c751a6f951f954eeb03a7a5bd7876.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U09_SEA_PREPOSITIONS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-038",
@@ -9500,7 +9870,17 @@
         "c": "speech/0a68dceb80b178c6c3ee47b6412d06af94891637a0d3bf5b5ecf2c09fb6e922b.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5042950213f6b0e53b582fa33e7bca93e604a0b06a7a937dc8be7d0ffce538ee.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a822f02ee3911741fd09bdf4dd45c9d3d3de07ab9cce7875d0046da97f31db4d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a822f02ee3911741fd09bdf4dd45c9d3d3de07ab9cce7875d0046da97f31db4d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U09_SEA_PREPOSITIONS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-039",
@@ -9534,7 +9914,17 @@
         "c": "speech/93075b850feff9b94bc8e85261d0aff962a757a3b34d481a73e853359847b8bb.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/51e25138f381b7fbc9de878ab00c5c0ce722bf860ec9393c8af1a338dfadef56.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/c641f0922c3d1b02a79d3a9adb67802419b36743607e8a1b7ebe663d2fddff31.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/c641f0922c3d1b02a79d3a9adb67802419b36743607e8a1b7ebe663d2fddff31.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U09_PAST_EE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-040",
@@ -9570,7 +9960,17 @@
         "c": "speech/cc84cd10cd4d540a3b34ae547ae7da97541405d0c468b9df70979b0bed9c8d9d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/10af9baf791f92bd143a2c45503fa4292eb01ad2a5c1967f3b943e8fd527fafa.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1b3d8c58278b4157db13fc77cbc93675036f74de2ee02caf20b88fb6d74dc671.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1b3d8c58278b4157db13fc77cbc93675036f74de2ee02caf20b88fb6d74dc671.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U09",
+      "lessonId": "EW2-U09-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U09_PAST_EE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-041",
@@ -9606,7 +10006,17 @@
         "c": "speech/66a7717fb6e54744b8ae8eaa1a9f06fe66d13f54776c7e8dfcf3ee52eb8376b4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/23b3623748ff583a3aa2b3a8cd4b84bafa9e52b8a71e3b8d7a774716b5029138.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5b75ad2f2b5813ba87df731ceb0d6124c3abe7e52ff32a147d8e2fd6a6902677.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5b75ad2f2b5813ba87df731ceb0d6124c3abe7e52ff32a147d8e2fd6a6902677.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U10_BEACH_IMPERATIVES",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-042",
@@ -9640,7 +10050,17 @@
         "c": "speech/9dd88f2804e68c9e3b69d3113654ae611d94949b60a02db82a4ccd52b2f2e4c8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/89ec61580f0dc82d89f09fe2b43a5513fdbe490040ae2d42e17660fb31b5bacc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/feabccc901cfbcf94fe6970901f2e92be6c4f6c0a4c1b9ffe716b4e4c10c69b4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/feabccc901cfbcf94fe6970901f2e92be6c4f6c0a4c1b9ffe716b4e4c10c69b4.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U10_BEACH_IMPERATIVES",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-043",
@@ -9675,7 +10095,17 @@
         "c": "speech/a5377cd3a37e57ed85e778d8b66239658320ad497388ac3b489c9d6fd705a30f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/39b0a46286656737e7e95804c35f9311d72552d3213c3c228c54390f28893675.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1015e4fe77cd21ad4ac3752fc524edb421bc6d1be409adc49aa840d9156f23a4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1015e4fe77cd21ad4ac3752fc524edb421bc6d1be409adc49aa840d9156f23a4.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U10_PRONOUNS_OO",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-044",
@@ -9710,7 +10140,17 @@
         "c": "speech/8f94aaf1821e5efecf8df73c13f956b3b1f3490c647ef88169face6986294238.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9e6c0e4e44c5ca0083cd1e41ef490a68ed55e50fc3ac0d52a6c99034c2ce9f0e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/105069b3e201faabd98a6a42dfdd83afca4579122abb39a569c144fc4af3813b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/105069b3e201faabd98a6a42dfdd83afca4579122abb39a569c144fc4af3813b.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U10",
+      "lessonId": "EW2-U10-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U10_PRONOUNS_OO",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-045",
@@ -9744,7 +10184,17 @@
         "c": "speech/fc418ffa8d195196282e7eb9a99f0c43cc5ecd334d2c32c88bb5cf2c87d6f410.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/cb0ee1fc715d86a30862712d5e471349eab79ccec9b4e57ec19170ccf300cb01.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3539a57db6a33732bf9f6b738c027cba6a8a45df42d6ca14558db8d88914cc6d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3539a57db6a33732bf9f6b738c027cba6a8a45df42d6ca14558db8d88914cc6d.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U11_PAST_SEQUENCING",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-046",
@@ -9780,7 +10230,17 @@
         "c": "speech/30c00116f80ebf68429cd32365fba56381bd67c48e479fe0e5f5bb28af486609.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1af6555f589342b5ba8e6d7d87592a72748e2cf9bb8c648421031a018ce6daa4.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/675756de4da2e7f489048a2aff030505d46d887e044dcb34d8020bd1be243b0f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/675756de4da2e7f489048a2aff030505d46d887e044dcb34d8020bd1be243b0f.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U11_PAST_SEQUENCING",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-047",
@@ -9816,7 +10276,17 @@
         "c": "speech/2d9863f39928e195d1c940d98e7e007fb8964811381aabb8c111aad1218a2f63.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/54a0a7563c829936f6bb17206cbb7605109a0daa7534ea199fe9ee2448dd1de5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/640a5090903a04a4aba7933bf0f6eeddaf1d3ded0b71fe595dd60ea7cf89be02.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/640a5090903a04a4aba7933bf0f6eeddaf1d3ded0b71fe595dd60ea7cf89be02.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U11_AI_DIARY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-048",
@@ -9851,7 +10321,17 @@
         "c": "speech/8620baf8d72d725a0a7eaa51d48773e8d52f241dda4f6c396c78f599a1bcd5aa.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9c16ed5cf43f186511108a8c48fc54cb0d737aed5b6e7f7b7bec1fcbb4b3ef0f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ea2d4a88eecbc9a49347a3075ca937fdda1a0993c7dc25ec01fb599cba256f19.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ea2d4a88eecbc9a49347a3075ca937fdda1a0993c7dc25ec01fb599cba256f19.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U11",
+      "lessonId": "EW2-U11-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U11_AI_DIARY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-049",
@@ -9887,7 +10367,17 @@
         "c": "speech/3dea1ddf9fd67c2feffad0013ab8f3368b740cc8480306d768f04a8eff60f829.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b842cec3ecfc3c6ece81ec92da3c31b44a1b83f06294dc41faad57bb6679c721.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0e980ba14fb417934a2b5f290e69c6ac20f6298f4ca070345c90567b42237ce6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0e980ba14fb417934a2b5f290e69c6ac20f6298f4ca070345c90567b42237ce6.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U12_FOOD_MOVEMENT",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-050",
@@ -9921,7 +10411,17 @@
         "c": "speech/ffee0072e3fbe1130d555bcc9a2ad912907f078d961a85133c52cdf2b48dda40.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/3dd1f022076d633928b73755a0b44f4f193d6639c3ef5375f4a89bfd0bc39af8.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2fd11116aebeb71f5acd17409a595339f896a2077440c90732469324162a8d09.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2fd11116aebeb71f5acd17409a595339f896a2077440c90732469324162a8d09.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U12_FOOD_MOVEMENT",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-051",
@@ -9958,7 +10458,17 @@
         "c": "speech/1f33577d674b3c5f5fd052da48ee139855e62a50cd2452b001b7a5325d3d09fa.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a5771c1f4b7298b09977fef780ebeceebd6ff417083ce65c131bf15bcb721a3c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0ffe950648800ba3c22b7b75ea647a5532b71eb5b1f94212dd5ddc401ad3f734.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0ffe950648800ba3c22b7b75ea647a5532b71eb5b1f94212dd5ddc401ad3f734.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U12_PAST_LISTS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-052",
@@ -9995,7 +10505,17 @@
         "c": "speech/b8c05e089ba9979855b99bc238d26f64b6f5b9fd0d2f9713626a7a2cc005d98d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f4d3b740b16c08f01e04fad7bc2a27fb9832bcf5e5451f3bb75be008e661a6c2.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/285dc146dc14667f5d7eec9c235ba91437c38282f550b33881676f87d6a522fe.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/285dc146dc14667f5d7eec9c235ba91437c38282f550b33881676f87d6a522fe.ogg",
+      "bookId": "english-world-level-2",
+      "unitId": "EW2-U12",
+      "lessonId": "EW2-U12-L02",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_EW2_U12_PAST_LISTS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Check the grammar, vocabulary, phonics or sequence clue again.",
+        "c": "Check the grammar, vocabulary, phonics or sequence clue again."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u01-01",
@@ -10032,7 +10552,17 @@
         "c": "speech/377686c98b49dfe9d87909e34120dc94f8284926b538ad817c7f5518768c7977.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/516d31ee411a1bad1b02b6530e2bb6afd78fd1ffc1dae912c33006a1295e7c70.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2c12f2f944e05e24b0d1809a357fbf04f4f40e906cf08096f6d2166cb9015c88.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2c12f2f944e05e24b0d1809a357fbf04f4f40e906cf08096f6d2166cb9015c88.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U01",
+      "lessonId": "MM2A-U01-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_NUMBERS_TO_100",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u01-02",
@@ -10069,7 +10599,17 @@
         "c": "speech/12ad9bdbc0c642f8b8ea9c6ca6adcf9382cc8e99541aadd7a7a2c8b23c4274a1.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f1f1b83570b673bfb9a75cbade7b01444df9a4417bd1eb2b4a91685a5c021f2f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3196f3d35b4cd4e8c08ec11c82fcd25c3c7faa3b77df70f0685404ba886c116a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3196f3d35b4cd4e8c08ec11c82fcd25c3c7faa3b77df70f0685404ba886c116a.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U01",
+      "lessonId": "MM2A-U01-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_NUMBERS_TO_100",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u02-01",
@@ -10106,7 +10646,17 @@
         "c": "speech/de9a18e03b37f959e32b01f79b376c297a24bb0ffadf95c0d17f436be7c1e940.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d79327cf8a866cf31d105cef9642b607b75ab7f303c49396752f2d10252fc0bc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/33d72eef6364732eb72ca805acecdb06355611ec8e91707c11acc86a69e6c97b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/33d72eef6364732eb72ca805acecdb06355611ec8e91707c11acc86a69e6c97b.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U02",
+      "lessonId": "MM2A-U02-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_PLACE_VALUE_TO_1000",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u02-02",
@@ -10143,7 +10693,17 @@
         "c": "speech/0441e323adbc9da26ebddee82282e794c441fd75b3dab13bac03c1b9c623ffdd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/113e99b3d8b0f9fdc0a37c770fdfb94af817c18296d843e7b3265d6ad69bafbe.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a88e255df3dbb54c53b19e03de02e6470981463b0be1a33d64bf435a7ddba2b7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a88e255df3dbb54c53b19e03de02e6470981463b0be1a33d64bf435a7ddba2b7.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U02",
+      "lessonId": "MM2A-U02-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_PLACE_VALUE_TO_1000",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u03-01",
@@ -10180,7 +10740,17 @@
         "c": "speech/bc1533af3a6a25ad1f5f4377503c3f9f02933a0e69cdcac4353a508b20fa0864.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/350e3306ed030367e3a893a84a24f1ad8a4603c671edd3536d07f783bab64158.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/aab3d4733e6406c5609c740ebc31a98969e1c206882118282cf905a6ef8ad3ad.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/aab3d4733e6406c5609c740ebc31a98969e1c206882118282cf905a6ef8ad3ad.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U03",
+      "lessonId": "MM2A-U03-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_ADDITION_WITHIN_100",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u03-02",
@@ -10217,7 +10787,17 @@
         "c": "speech/1db8b655698e02d6aad64a6cae5db4eede39483ccec2943850cad1e15654de61.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/dca8951c70312bd909381daac484c1e501b73088cb67f9c14bbe1a41f144011e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/fbeccaa1db018a3e5daf60d14725d4772808e16dcfb99a43531ae181b8128f6e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/fbeccaa1db018a3e5daf60d14725d4772808e16dcfb99a43531ae181b8128f6e.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U03",
+      "lessonId": "MM2A-U03-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_ADDITION_WITHIN_100",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u04-01",
@@ -10254,7 +10834,17 @@
         "c": "speech/8eb0a42d02810cc49111ab54fba386cb7f89df8ec4e4f0a9bb194856023f4705.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5b1e889de987e4c0c6f34f69f96af8a22cc7bebf9009bc02c8f0d8b35e1119a9.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4823113395e91c2319aeb84b666b6f0ed33893d6587365049f839d521529bc40.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4823113395e91c2319aeb84b666b6f0ed33893d6587365049f839d521529bc40.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U04",
+      "lessonId": "MM2A-U04-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U04",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u04-02",
@@ -10291,7 +10881,17 @@
         "c": "speech/f92f993a92c34de60f17480230d1fcdd3ebba1b4e34a2569b7df036f803f048d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/6bdc5d51abf81c116b3f6da0609c5af23fdd7aaf65ae4301bb14a096f0233e1f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/74a74749b362476da8f0f1cdb2284fc73ab046693610eea63f06a22a59e5a862.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/74a74749b362476da8f0f1cdb2284fc73ab046693610eea63f06a22a59e5a862.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U04",
+      "lessonId": "MM2A-U04-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U04",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u05-01",
@@ -10328,7 +10928,17 @@
         "c": "speech/047f420dc60f677bfef888f6e233055ca48e6d631f819eec36c4c3dc6c6bf73b.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/83c8ea0fd2f9c7e131489a95c6d4656a4f850892b976aed858d49f8e006a30d1.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/42be15353b291e3e3794b56a195beb15578428ce451aec6440935a741e330686.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/42be15353b291e3e3794b56a195beb15578428ce451aec6440935a741e330686.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U05",
+      "lessonId": "MM2A-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_SUBTRACTION_WITHIN_99",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u05-02",
@@ -10365,7 +10975,17 @@
         "c": "speech/e0afb902b9ea9a31fd72412f5f56da6d57f6807c2db47f204901685fffdee564.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/721391e7f518a6385a6c6a3b0e5f8146d606b14b95cc0fb2c7cee9acfef21f56.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/464d4541f39e3cb50b05035a6f394903eb1bb75f6027fcea57e9f08f10d2ac8b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/464d4541f39e3cb50b05035a6f394903eb1bb75f6027fcea57e9f08f10d2ac8b.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U05",
+      "lessonId": "MM2A-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_SUBTRACTION_WITHIN_99",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u06-01",
@@ -10402,7 +11022,17 @@
         "c": "speech/b39b4c02faa2e29a470d5baf8661c32f4b7c3952768c3c7ef1d604167b3d6352.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d9fc9fd33c398f5dcf5a148987b4832a2daa5af086ecbff1ef5dbbb5cbe29068.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/69e5f65573eb657ba392b1c8adf26a69b3c6736511de241a802a37459f5f1b7b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/69e5f65573eb657ba392b1c8adf26a69b3c6736511de241a802a37459f5f1b7b.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U06",
+      "lessonId": "MM2A-U06-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_MULTIPLICATION",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u06-02",
@@ -10439,7 +11069,17 @@
         "c": "speech/22ba829f8530a6f0ec3f824f80d02d11e086f4b5977acfcb85d7e37b48b1b042.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/08dbd5184b65bad738c6d40cdab1d42aa993f68f0aedf863d23bbdfbf4020448.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1f9ac5b4f7295cd7a80f0a0b11b2a51cc5836f3bf58b5203d52903590c324c90.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1f9ac5b4f7295cd7a80f0a0b11b2a51cc5836f3bf58b5203d52903590c324c90.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U06",
+      "lessonId": "MM2A-U06-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_MULTIPLICATION",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u07-01",
@@ -10476,7 +11116,17 @@
         "c": "speech/df5ca4c2fd12542f8c1110e8f052db247d01a9c3936083ddda720fedcec617cd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ae8b4f6e80fb833528570d4bd4cbdda9930e5dd0ec235419522ad817f352a8d5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/930e6b306042e54de334a5b77f59846f48690abc37e80cd7eb5ad28995dc24ac.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/930e6b306042e54de334a5b77f59846f48690abc37e80cd7eb5ad28995dc24ac.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U07",
+      "lessonId": "MM2A-U07-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2A_NUMBER_FACTS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u07-02",
@@ -10510,7 +11160,17 @@
         "c": "speech/68abb6136acfb919cf5807a76e82b6fddd9a93926551046ada825f44a673a54e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4ffbe6d967490372d40afce7b8114da78bbfc1d6744df239f0622f81d17fb070.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/75be6a9d979977f31a4fc4999dabe530b004207164dff0fde9143535ebe54298.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/75be6a9d979977f31a4fc4999dabe530b004207164dff0fde9143535ebe54298.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U07",
+      "lessonId": "MM2A-U07-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2A_NUMBER_FACTS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u08-01",
@@ -10547,7 +11207,17 @@
         "c": "speech/cd472601229705684f1f0e07e9323046f585c754fc3b61fbb3838844a003af2d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a9be3e27b391b01d4d8fd2d3f37ec01b327012bed7ba659b7f9e4675a2bed6c5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/27b0c6da27acf73cdfd324e3c346635775874951e4b97392311773b4c94b7d64.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/27b0c6da27acf73cdfd324e3c346635775874951e4b97392311773b4c94b7d64.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U08",
+      "lessonId": "MM2A-U08-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U08",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u08-02",
@@ -10583,7 +11253,17 @@
         "c": "speech/8cd1c60036a8a93920e9d50b2ea33e9ea7af330d7ca29bb096d2476a848a6927.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7299b568eaea6278db0527d1e8a74bcc822fd56e523f2e3886ddc4f3e5cdff2b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5032437328a5bd13e8799d6118374942f595e3ea8cfa42abbfedf7bbacfa5790.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5032437328a5bd13e8799d6118374942f595e3ea8cfa42abbfedf7bbacfa5790.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U08",
+      "lessonId": "MM2A-U08-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U08",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u09-01",
@@ -10620,7 +11300,17 @@
         "c": "speech/58b01088326e0efc888eaa943ea20336260ca06fc3b90bad0c4b799ee0210da2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f07ad5ff26e8b0c588edfe88d2f3ff6da84202aa1d54f6cfbf690893367bbb68.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/30f68c328d7f44f2895da8532d4a9c768b625299b21812583ca9ee423cd39d19.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/30f68c328d7f44f2895da8532d4a9c768b625299b21812583ca9ee423cd39d19.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U09",
+      "lessonId": "MM2A-U09-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2A_EQUATIONS_FUNCTIONS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u09-02",
@@ -10657,7 +11347,17 @@
         "c": "speech/c44df5c3a32875a315cbcf52c577d3dde4ce6bac3eb5c6c5e306a58d07841177.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/90578055c3953c723b61a6d47ef756123183101c91baa4f47251c80b1fda06d4.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/42cd56157e3a2b3732436d19f869aef7122e7527252cd72dd32135e5e608cff5.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/42cd56157e3a2b3732436d19f869aef7122e7527252cd72dd32135e5e608cff5.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U09",
+      "lessonId": "MM2A-U09-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2A_EQUATIONS_FUNCTIONS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u10-01",
@@ -10691,7 +11391,17 @@
         "c": "speech/591fe43815e46e94e5c85fccdb18321d1005f18f7fa0920686e3a290209066dd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8906a5491004fee380373c768b036a43ded74191f0b701dfbc586c2eaa100a1c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/25cfea0741cb18010bd46bfff8c32b9e39a3984765922cce6927c9271d0fabcc.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/25cfea0741cb18010bd46bfff8c32b9e39a3984765922cce6927c9271d0fabcc.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U10",
+      "lessonId": "MM2A-U10-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_FRACTIONS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u10-02",
@@ -10725,7 +11435,17 @@
         "c": "speech/ecc604a5b47d220cfaa837c279c80c405061cc36b1b03d1f9b88154364489fd2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1e492e55bd96b794361d3a07c9431ae85e9eb2294512934799db206b2cf26b6c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/353b12b05cd0748a42d96055cd66b97397667bbcbeb9f84c403bdda8931936f0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/353b12b05cd0748a42d96055cd66b97397667bbcbeb9f84c403bdda8931936f0.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U10",
+      "lessonId": "MM2A-U10-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_FRACTIONS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u11-01",
@@ -10762,7 +11482,17 @@
         "c": "speech/5e6893702c6f4597d231a255c5d2e5336804a5a5febb31b4ec1a1a6168d0d156.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/47956cca7d9ee57fcd322a8d794b874a81d1bc78653c3cfd10e31cb2ae5da675.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a1f9e28634f3b1f16ce0c518f60d8febb9acd76e4f5ff68140040a168041ee43.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a1f9e28634f3b1f16ce0c518f60d8febb9acd76e4f5ff68140040a168041ee43.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U11",
+      "lessonId": "MM2A-U11-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_TIME",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u11-02",
@@ -10799,7 +11529,17 @@
         "c": "speech/cb6cd39f6d8b0d0ffaa7225490897a027a82a185a29f4f4ea440fe449fbd7bb1.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f5bea638b260d004e561a4a85e7ebaa72b71ce46e9d591e080085866662bddff.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7b96120a12576bf9e4763e9b3c2d6efdc8846dda9437f8475c1703d5a66abe7e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7b96120a12576bf9e4763e9b3c2d6efdc8846dda9437f8475c1703d5a66abe7e.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U11",
+      "lessonId": "MM2A-U11-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2A_TIME",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u12-01",
@@ -10836,7 +11576,17 @@
         "c": "speech/0e04638aeb816529af5322d8bd22192f553d0813733e25c5c97615d08f440c29.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/217d4c440743ccfb86bdcc2ed25072f3eaa9a8f5415a836ebff412738cc5cf23.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a9e87698c986b3370e67752891dc0be62e2b16d8d435618988dcdd79c63716a7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a9e87698c986b3370e67752891dc0be62e2b16d8d435618988dcdd79c63716a7.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U12",
+      "lessonId": "MM2A-U12-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U12",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2a-mm2a-u12-02",
@@ -10873,7 +11623,17 @@
         "c": "speech/7dd63d3a1e04007923d4af6dd426b9b3bdbd3a2b6d937df21f1622d4b3c14a2b.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8436cd6ec0a51ba6b965e9bc1a35bb27c60a5da8a2615206ac68c9913b24047e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/941de019a4bdc86e6422053d91ddd2206cefd68d40784aeac5eff8001cf22d3d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/941de019a4bdc86e6422053d91ddd2206cefd68d40784aeac5eff8001cf22d3d.ogg",
+      "bookId": "macmillan-mathematics-level-2a",
+      "unitId": "MM2A-U12",
+      "lessonId": "MM2A-U12-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2A_REVIEW_U12",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u13-01",
@@ -10910,7 +11670,17 @@
         "c": "speech/eb754585cef8cc2fd688949e91996fc4dc1ab8614fae3483395077927566efa1.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f09bc316bfcacb492eaed19da7253c009a0c90e28dfa8acb79b5c8ea03972d98.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/92a06c175ee48183f3d617363f0a28d7751ca119cd5eca57d2ef0b3166fd505b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/92a06c175ee48183f3d617363f0a28d7751ca119cd5eca57d2ef0b3166fd505b.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U13",
+      "lessonId": "MM2B-U13-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_NUMBER_PATTERNS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u13-02",
@@ -10947,7 +11717,17 @@
         "c": "speech/fb0cd9dc0c37b5b751ad00587317a3a8f85aa78c653e72c6cf32fdc154a1b2cf.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/37fd2a48750d357c00810751eb8fb05a0ad6f70cdf2bc27898d1b205f25d9b87.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b7d3f2e582b27f753b5daf89af2ec20d07e63d6bf2674aa64a20b882ea0c5716.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b7d3f2e582b27f753b5daf89af2ec20d07e63d6bf2674aa64a20b882ea0c5716.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U13",
+      "lessonId": "MM2B-U13-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_NUMBER_PATTERNS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u14-01",
@@ -10984,7 +11764,17 @@
         "c": "speech/e1f793c03f0cf95186d6ef7bdde675d4f580d448863e417cdd20a365f3eb277e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b720cc8770e429a5937c1deb17388693dca3102ec424f9b7d948a39cebe0394a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0fcd5de4d803908a3864c6ba9a33260bd01ac2c14b0d3463f7792ecded6d5f5f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0fcd5de4d803908a3864c6ba9a33260bd01ac2c14b0d3463f7792ecded6d5f5f.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U14",
+      "lessonId": "MM2B-U14-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_ADD_SUB_999",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u14-02",
@@ -11021,7 +11811,17 @@
         "c": "speech/3b206f4050630a4a4e41ba3f39edee000dd6b61568e45571c441e12a5c2c0278.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b37425b791d80c148a39e3d36c275bee306ed8bbf49213fa9e571a6aec039cfc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b3ff63fcd97f8f98e5eb4040386b83ff2e018fffdcafb2a5192ef15ca1467003.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b3ff63fcd97f8f98e5eb4040386b83ff2e018fffdcafb2a5192ef15ca1467003.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U14",
+      "lessonId": "MM2B-U14-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_ADD_SUB_999",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u15-01",
@@ -11058,7 +11858,17 @@
         "c": "speech/9a395356490135348d26bb9bc2b01b7f8dea0636cdbc00c82916686e53db2bee.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ed9a38dddb98ad3accf0cea405f35b991b86b1819ccd63a50999cc20a3130293.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/03572fc0650ec9ccc471f252ed2065b8b1c484e1d2925e60eb79bb9ed8c7ce04.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/03572fc0650ec9ccc471f252ed2065b8b1c484e1d2925e60eb79bb9ed8c7ce04.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U15",
+      "lessonId": "MM2B-U15-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_MONEY",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u15-02",
@@ -11095,7 +11905,17 @@
         "c": "speech/3a6b8543c9b2e9a557c4d1c4419cc49126521fba12c90dac46ac92eb0296dc74.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a61dccf9293e3291077f1d2b3d8676cf804dfaf531fe19873d85a4f5a337d494.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8520096904997e0e4ad5ab1c75db54788df184e498923b1bcc875a6c7e94589d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8520096904997e0e4ad5ab1c75db54788df184e498923b1bcc875a6c7e94589d.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U15",
+      "lessonId": "MM2B-U15-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_MONEY",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u16-01",
@@ -11131,7 +11951,17 @@
         "c": "speech/cf89824e7b0f6e29598fd49acc7dd5141460b36fd84499ff983ca00ba177c5f0.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1b643bbcecca01ee4a7f72cf48dbb05d3af7ec01b69104c2fccdd0a9228a81eb.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/26fa83de4c422b29e932be9897aa09138a031ad73a89379174237260b014cd47.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/26fa83de4c422b29e932be9897aa09138a031ad73a89379174237260b014cd47.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U16",
+      "lessonId": "MM2B-U16-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U16",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u16-02",
@@ -11168,7 +11998,17 @@
         "c": "speech/99c13e09cb51bea23b9cfea61a78d831649a70f85c2e2bb0eca1fbc702494d17.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/2c10d224fefec261ef8547731828b130a896a6ff4d2f224902bb7bc8e2d93a4a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7241f3013880824f28798651424c2ce0552885172e198487c9d120012b8888db.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7241f3013880824f28798651424c2ce0552885172e198487c9d120012b8888db.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U16",
+      "lessonId": "MM2B-U16-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U16",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u17-01",
@@ -11202,7 +12042,17 @@
         "c": "speech/080f7e07cf03eeebb9f050bcbbc42ab1158b14905a1f435f0c4aae7d669d0fb6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/79ff844d4f4e4d72ac50ae474dbe83ade530353ef54e16b7aefeabcecb0f4d10.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5ea5a811f6252408d92f2cfdffe0c60c2a2314251c0e5e886c9fa718628abe7f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5ea5a811f6252408d92f2cfdffe0c60c2a2314251c0e5e886c9fa718628abe7f.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U17",
+      "lessonId": "MM2B-U17-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_FLAT_SOLID_SHAPES",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u17-02",
@@ -11239,7 +12089,17 @@
         "c": "speech/545c399e5c884353bc315117142e3b87ecf181e0ca49221f98a04def20b9ce49.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/581ae88eec9dfe58b2ba9d17600e1339f82051ff5e817786e292ec617f6d4a70.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0c6fd33e6ab2758d9e82da5e6e0511828fa699176876dd3741501cd9cf9beb94.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0c6fd33e6ab2758d9e82da5e6e0511828fa699176876dd3741501cd9cf9beb94.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U17",
+      "lessonId": "MM2B-U17-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_FLAT_SOLID_SHAPES",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u18-01",
@@ -11273,7 +12133,17 @@
         "c": "speech/10b2b02e64c58d545bb49b7020eefbb07d025596d974486d2f82386ecbc0f1a4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/09d776e1314dfea3aa71ac5aa02c10ca8260cb05470851f4d800e33ba8c1f6ff.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5b4096b69d1bcf306c7d37ea5f4650562e2769a1193ac15a27d38d0c5901b938.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5b4096b69d1bcf306c7d37ea5f4650562e2769a1193ac15a27d38d0c5901b938.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U18",
+      "lessonId": "MM2B-U18-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_LINES_SHAPES",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u18-02",
@@ -11310,7 +12180,17 @@
         "c": "speech/6b0c00770ad6b4273c2de6914254de46ee697ee5ed61b7074d8747d467768f38.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/abfa1dd9531bd3528ad6ffa29bedba75cfd183aaec1ab3207a7f955bb7fae1ec.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/be536c85b31c8e84f7886ae6f06dcb24f8beb39d5e929cccb620c73b05919b9e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/be536c85b31c8e84f7886ae6f06dcb24f8beb39d5e929cccb620c73b05919b9e.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U18",
+      "lessonId": "MM2B-U18-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_LINES_SHAPES",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u19-01",
@@ -11347,7 +12227,17 @@
         "c": "speech/e53f3d631126140d07c0c81738464f7b9c5ccabcb9395ee1d4c2f91ee749932f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9b14cc11145aa4f775ad9fe748d01d0a0f7b224d4b3e81a40b292bce76f0d4b7.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7c4cd193f19f4936d3bfa54c08ae99e9dbeb2dda11a3505e0aac42f59cb15934.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7c4cd193f19f4936d3bfa54c08ae99e9dbeb2dda11a3505e0aac42f59cb15934.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U19",
+      "lessonId": "MM2B-U19-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_AREA",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u19-02",
@@ -11383,7 +12273,17 @@
         "c": "speech/69f676fbf479ed7ec7072a44ace4a51c6fdeaddb94d193e9a4ffe87442c2f513.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/82c5cebe1e2193acfabc04bab787b8999a4f01ed3a30bc75c96dbc6520d10eaa.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a3cd70b5485b4581fc7aefffff3f65c60d710b77dc2d8483c7d1ad6ff012e5e7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a3cd70b5485b4581fc7aefffff3f65c60d710b77dc2d8483c7d1ad6ff012e5e7.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U19",
+      "lessonId": "MM2B-U19-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_AREA",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u20-01",
@@ -11420,7 +12320,17 @@
         "c": "speech/9a43e30a23878d2cef17b1f5f31e39b6060ab062217a6a1620ffc195e76481f6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/69c9e6d1e9904197f3e992a51992e6ca0731ed7c36c6023e88bb977c98f85835.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/007f14357194792ef3d42a5b120a8f64c1b43af95acf2df27a30ef59c65913aa.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/007f14357194792ef3d42a5b120a8f64c1b43af95acf2df27a30ef59c65913aa.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U20",
+      "lessonId": "MM2B-U20-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U20",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u20-02",
@@ -11457,7 +12367,17 @@
         "c": "speech/0259cfe24daa70862606750d4ab8fe242b8a222de3d8b05af02203f8ed24322f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ada55147d47cee97ec057b967174342ab3bf21f20ddb6c994cae3dabf66acf91.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/48185e8ac253e52e4539a209f5b65af9db677083e799df894a5367a557a5dd53.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/48185e8ac253e52e4539a209f5b65af9db677083e799df894a5367a557a5dd53.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U20",
+      "lessonId": "MM2B-U20-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U20",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u21-01",
@@ -11493,7 +12413,17 @@
         "c": "speech/7341418f513870406a58ded7935465c23cca1edf14892aa6c00e806e1f8b9a9d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9eac15555a13cc7240e1216101c90f5e9f856759dcdd8db356b1354a5adb9a2a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/02bb6969fa1a558eca0eac84b579b981e509009aa288c2d0ed44991cac603db6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/02bb6969fa1a558eca0eac84b579b981e509009aa288c2d0ed44991cac603db6.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U21",
+      "lessonId": "MM2B-U21-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_MEASURE_LENGTH_CENTIMETERS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u21-02",
@@ -11527,7 +12457,17 @@
         "c": "speech/f0c967593b522b1dae14d0d94de66eba8e2577187c0767c8ff7f46f7e744ea39.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4e59ffd99161fb24ae739a3fb4aa1fe86332dec2316a633df280f7fedc22c682.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f4bc8e73211146f2d21776e2ef7f3be1dc8f599f65f65b43072445cb394c9479.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f4bc8e73211146f2d21776e2ef7f3be1dc8f599f65f65b43072445cb394c9479.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U21",
+      "lessonId": "MM2B-U21-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_MEASURE_LENGTH_CENTIMETERS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u22-01",
@@ -11561,7 +12501,17 @@
         "c": "speech/634059816dbd0eb5c5f75c6af6a6a639a4bfc93ad52212035262a41df349fcc8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1e94eeedb2486b954b9526652d903636ea02230195a66569a41c48e759c1d5fb.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e71224dc638c8f69d65240389ea8b6d0d339d2fb18772266b5c5ce04f98aca43.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e71224dc638c8f69d65240389ea8b6d0d339d2fb18772266b5c5ce04f98aca43.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U22",
+      "lessonId": "MM2B-U22-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_MEASURES_PROBLEMS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u22-02",
@@ -11597,7 +12547,17 @@
         "c": "speech/40802490fb4d84f3d289571a20970c843e2b88f03005ffe48118ab6de46f4a86.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/571d37384dda60120c6529a050f166fe91e1c1973e675d053c23a195c8866620.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/32c301c6d459a109d541ac2d124b0366a41cc3449200ff9a605d41628798ea04.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/32c301c6d459a109d541ac2d124b0366a41cc3449200ff9a605d41628798ea04.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U22",
+      "lessonId": "MM2B-U22-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_MEASURES_PROBLEMS",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u23-01",
@@ -11634,7 +12594,17 @@
         "c": "speech/53b2ec3c5453fd782bbe16fd2f94a9fc4f7c85bf7cd998c74a73a0f842a54990.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c46b2f77b2b08de4aa9a8a9af69e7b35f97e09a8ac580a84ddd474fe487993f6.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/525ddff36f7fc01ad1e74ba60ce8d30a87d4924d4af89016fd2cf847d94eea1d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/525ddff36f7fc01ad1e74ba60ce8d30a87d4924d4af89016fd2cf847d94eea1d.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U23",
+      "lessonId": "MM2B-U23-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2B_DATA_HANDLING",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u23-02",
@@ -11670,7 +12640,17 @@
         "c": "speech/b409117424e9fe27df922e834b2aefa8a6ba669e2c132fc27319e719b794a092.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f00cda63f0199fb8d63e5a5ac54c8bceb00abe7856c46482505247e5424ca887.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7fba3626bc79be3c4cba756081b65a2ee2c0208e24774441598d441ea8de399d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7fba3626bc79be3c4cba756081b65a2ee2c0208e24774441598d441ea8de399d.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U23",
+      "lessonId": "MM2B-U23-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MATH_MM2B_DATA_HANDLING",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u24-01",
@@ -11704,7 +12684,17 @@
         "c": "speech/d88fb1ad06df5a9388b3e980c62d8085845657684cb734cdf8a32983001717ab.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/74ff654e8d7874d540590394bf74a5a1ce84ba9e49116b4bac414080f4736d4c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/dfb01390b6b45bbe4eb9d7354be1303bb205f14c52f362e76caa923d89765edf.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/dfb01390b6b45bbe4eb9d7354be1303bb205f14c52f362e76caa923d89765edf.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U24",
+      "lessonId": "MM2B-U24-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U24",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-2b-mm2b-u24-02",
@@ -11741,7 +12731,17 @@
         "c": "speech/cc3248dc9370856625bd3f759cd56aeb3c5095cfed2b35d005b45e0fb8d1dd0c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/53974e52c41a119c5964ff013f6afa00b7808d4977cf3549dfc688e01513df20.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2577c7bf24aa7e9a64558724787a912edde415f62f9ef1eaa2f85fe62035ac29.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2577c7bf24aa7e9a64558724787a912edde415f62f9ef1eaa2f85fe62035ac29.ogg",
+      "bookId": "macmillan-mathematics-level-2b",
+      "unitId": "MM2B-U24",
+      "lessonId": "MM2B-U24-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MM2B_REVIEW_U24",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-01",
@@ -11778,7 +12778,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/83441aaba48657a73ad059cf368769c60ac4765a2949d438f9ed498bb6788744.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/1dabb9c838ec3ebd4006f03ff04c21d75f00a66770545a027c25f9834f9a2942.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-01.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-01.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "lessonId": "MX2-G2-U01-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_NUMBERS_PATTERNS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-02",
@@ -11815,7 +12825,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/b92224a61780668893124a746093cb0292fc8a2a305a49451d6040ce3716f54a.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/c762d223a57a95e2f9a05f594ef7474c8f969523f0d5e89ff5b171f39ca5369e.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-02.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-02.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "lessonId": "MX2-G2-U01-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MX2_NUMBERS_PATTERNS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-03",
@@ -11852,7 +12872,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/25c271e2f68d71a6ba114b72f3cc5f8d836df6669520855fa35ac3137ea8aef2.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/fd23c0007c8f7d62e4efeffab8677fefba5f3f06382331efa6e4398a8eaef6b6.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-03.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-03.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U01",
+      "lessonId": "MX2-G2-U01-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_NUMBERS_PATTERNS",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-01",
@@ -11889,7 +12919,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/0baaff4dcf3af6df58051efc041d34d3c677c790591cb3ec6bb9d6b129a299ec.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/f5a1ebf97467c7b03f277add3141214d69b3c245105e8f01a67288d3cb73974a.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-01.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-01.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "lessonId": "MX2-G2-U02-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_ADD_SUB",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-02",
@@ -11926,7 +12966,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/65c5d6bbfef29b4b8bb942ab1f6d3034cffaaac3966c6436cab7a32182bc588a.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/da7a20fa64c806d3e553512e7980d539736674b3d5af6e956bf65579af12a662.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-02.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-02.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "lessonId": "MX2-G2-U02-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MX2_ADD_SUB",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-03",
@@ -11963,7 +13013,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/56f4366f18e0c67bfa97d23444733949380b3cc40380c5111cb0c75610214bfc.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/0cee36f075aaa040eeda12e28d168aab18fb066887b69dd5302a3012f5bbc0fe.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-03.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-03.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U02",
+      "lessonId": "MX2-G2-U02-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_ADD_SUB",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-01",
@@ -12000,7 +13060,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/55bd06fdc421ca322b65af77d649fb5645fcb2f61ad994b140e2e61abb801b20.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/092a093e40313136cc9c36128953c8e54ce31e9419ae81d8587fe15cfa3600b5.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-01.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-01.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "lessonId": "MX2-G2-U03-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_MULTIPLICATION",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-02",
@@ -12037,7 +13107,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/7591899bfa97623fc40bd1764ddbe04d7a74a4498f4876b31e01524ed659c72a.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/86103f2c35db4f99404db57a2165823b9155151dd5fb53f548ec3adb2f1f9ab0.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-02.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-02.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "lessonId": "MX2-G2-U03-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MX2_MULTIPLICATION",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-03",
@@ -12071,7 +13151,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/bf8d8aef5ecc00b8e4107fa460fbfaf653e251261a9b31d0ce8e0b484def33ee.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/99a0db4ba75b4556e1608e358f6b2c0b5c46bf3c68e14c23456aa0fce2eceb93.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-03.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-03.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U03",
+      "lessonId": "MX2-G2-U03-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_MULTIPLICATION",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-01",
@@ -12105,7 +13195,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/45a9e020a5f4f7c19f8cb91db76bee552d1011641c39fcf08806b2fc56c4cddd.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/6f09f72f3ac84b3ea3d45061265477aa363fb12a4d5d0a6c7a4f70cf3f390aca.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-01.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-01.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "lessonId": "MX2-G2-U04-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_FRACTIONS_MEASURE",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Correct: this choice matches the question's clue and lesson objective."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-02",
@@ -12142,7 +13242,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/359ddbba793cfc02d14723c1d1f6ca2dba735a5d17278b7acf57a0752e76761d.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/063e9bde63aaa6aa168c01ebea5a8b4b00420ea7cee71f80651580ec8b46f443.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-02.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-02.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "lessonId": "MX2-G2-U04-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MX2_FRACTIONS_MEASURE",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-03",
@@ -12176,7 +13286,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/9ad8927fe9fd6b3add34020ba0503d6e5cea4a9d63116422bd1d39ee93907dd5.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/96ed515b9deabbbb428003b5f2df913581bae78250b96503f0c5b6837a7124a7.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-03.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-03.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U04",
+      "lessonId": "MX2-G2-U04-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_FRACTIONS_MEASURE",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-01",
@@ -12210,7 +13330,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/7b7f7cf2e0d529ec614e50e8463e9b1167e9a200741ce5e78491cd35741db16d.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/6f70c5e4b2736cd3680ab2869efa12eb5cf91479a330e8c4a8a21c44122dbcf7.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-01.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-01.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "lessonId": "MX2-G2-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_GEOMETRY_DATA",
+      "optionRationales": {
+        "a": "Correct: this choice matches the question's clue and lesson objective.",
+        "b": "Recheck the calculation, place value, measurement unit or shape property.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-02",
@@ -12247,7 +13377,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/394d279b239a6acc23ca10423444ee22cb5cd930d5faf72a31f4758f4e8e0b6c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/bc16a291c2c6acaf608d2aa13b10bb7b2d0abbd80522c991ef193d704330111f.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-02.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-02.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "lessonId": "MX2-G2-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_MX2_GEOMETRY_DATA",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-03",
@@ -12284,7 +13424,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/13bcc4edec76b8131577a401792109148a9465564d5fbf971aa900ae59ce4ee2.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/cf6cc28aae6ab26624972d5c8c2b6242a74dac21c5c9848ec800e4fc07b10445.ogg",
-      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-03.svg"
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-03.svg",
+      "bookId": "maths-xpress-book-2",
+      "unitId": "MX2-G2-U05",
+      "lessonId": "MX2-G2-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_MX2_GEOMETRY_DATA",
+      "optionRationales": {
+        "a": "Recheck the calculation, place value, measurement unit or shape property.",
+        "b": "Correct: this choice matches the question's clue and lesson objective.",
+        "c": "Recheck the calculation, place value, measurement unit or shape property."
+      }
     },
     {
       "activityId": "aas2-g2-sci-u03-001",
