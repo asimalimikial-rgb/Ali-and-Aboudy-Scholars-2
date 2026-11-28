@@ -112,7 +112,7 @@ assert.ok(englishWorldQueue.records.every(item =>
 const grade2Pack = packs[1];
 const kg2Pack = packs[0];
 const mxskgExtension = JSON.parse(fs.readFileSync("content/staging/maths-xpress-senior-kg-unit5-extension-v0.1.json", "utf8"));
-assert.equal(mxskgExtension.status, "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA");
+assert.equal(mxskgExtension.status, "INTEGRATED_PENDING_PEDAGOGY_QA");
 assert.equal(mxskgExtension.summary.records, 6);
 assert.equal(mxskgExtension.summary.runtimeIntegrated, 6);
 assert.equal(mxskgExtension.summary.originalNewActivities, 3);
