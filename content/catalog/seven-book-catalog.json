@@ -249,13 +249,10 @@
         "Time"
       ],
       "openCoverage": [
-        "Unit 1 Numbers to 100",
-        "Unit 7 Number facts",
-        "Unit 9 Equations and functions",
-        "remaining review/transfer coverage",
-        "item-level pedagogy and difficulty calibration"
+        "item-level pedagogy review and difficulty calibration",
+        "additional transfer/review only where item-level QA identifies a genuine gap"
       ],
-      "nextAction": "Complete calculation, progression and media QA for 24 original lesson-mapped items; retain 31 legacy candidates as Additional Practice.",
+      "nextAction": "24 original activities are mapped across all 12 units; complete calculation, progression and media QA, while keeping 31 legacy candidates in Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629",
         "catalogueUrl": "https://online.flippingbook.com/view/887627778/44-45/",
@@ -265,12 +262,18 @@
         "familyEditionMatched": false
       },
       "candidateMappedUnits": [
+        "MM2A-U01",
         "MM2A-U02",
         "MM2A-U03",
+        "MM2A-U04",
         "MM2A-U05",
         "MM2A-U06",
+        "MM2A-U07",
+        "MM2A-U08",
+        "MM2A-U09",
         "MM2A-U10",
-        "MM2A-U11"
+        "MM2A-U11",
+        "MM2A-U12"
       ]
     },
     {
@@ -292,13 +295,10 @@
         "Measures problems"
       ],
       "openCoverage": [
-        "Unit 13 Numbers and number patterns",
-        "Units 17–19 geometry and area",
-        "Unit 23 Handling data",
-        "remaining review/transfer coverage",
-        "item-level pedagogy and difficulty calibration"
+        "item-level pedagogy review and difficulty calibration",
+        "additional transfer/review only where item-level QA identifies a genuine gap"
       ],
-      "nextAction": "Complete calculation, measurement and media QA for 24 original lesson-mapped items; retain nine legacy candidates as Additional Practice.",
+      "nextAction": "24 original activities are mapped across all 12 units; complete calculation, measurement and media QA, while keeping nine legacy candidates in Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649",
         "productUrl": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples",
@@ -308,10 +308,18 @@
         "familyEditionMatched": false
       },
       "candidateMappedUnits": [
+        "MM2B-U13",
         "MM2B-U14",
         "MM2B-U15",
+        "MM2B-U16",
+        "MM2B-U17",
+        "MM2B-U18",
+        "MM2B-U19",
+        "MM2B-U20",
         "MM2B-U21",
-        "MM2B-U22"
+        "MM2B-U22",
+        "MM2B-U23",
+        "MM2B-U24"
       ]
     },
     {
