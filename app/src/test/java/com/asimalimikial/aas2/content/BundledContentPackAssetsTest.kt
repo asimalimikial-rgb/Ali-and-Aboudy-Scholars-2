@@ -72,7 +72,7 @@ class BundledContentPackAssetsTest {
         val lessonSizes = scienceActivities.groupBy { it.lessonId }.values.map { it.size }
         assertEquals(9, lessonSizes.count { it == 8 })
         assertEquals(5, lessonSizes.count { it == 6 })
-        assertTrue(scienceActivities.all { it.assessmentPhase in setOf("DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER") })
+        assertTrue(scienceActivities.all { it.assessmentPhase in setOf("DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER", "DELAYED_REVIEW") })
         assertTrue(scienceActivities.all { it.optionRationales.size == 3 })
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
         val measureActivity = pack.activities.single { it.activityId == "g2-measure-02-en" }
