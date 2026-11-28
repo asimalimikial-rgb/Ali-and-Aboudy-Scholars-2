@@ -40,6 +40,7 @@ jobs:
       - name: Validate new book-completion draft sets
         run: |
           node tools/content/validate-kg2-book-coverage.mjs
+          node tools/content/validate-grade2-book-coverage.mjs
           node tools/content/validate-kg2-guided-practice.mjs
           node tools/content/validate-science-units-3-5-drafts.mjs
           node tools/content/validate-english-world-drafts.mjs

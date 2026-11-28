@@ -1,6 +1,6 @@
 {
   "packId": "aas2-grade2-foundation",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "schemaVersion": 4,
   "learnerPath": "GRADE_2",
   "sourceReferences": [
@@ -1030,6 +1030,66 @@
       "sourceReferenceIds": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "CCSS-G2-ELA"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reads, compares and represents two-digit numbers up to 100.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "AAS2-ORIGINAL-AUTHORED"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Subtracts two-digit numbers within 99 and solves simple subtraction problems.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "AAS2-ORIGINAL-AUTHORED"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2a-multiplication",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Represents multiplication as equal groups and finds simple products.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "AAS2-ORIGINAL-AUTHORED"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2a-fractions",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Recognises halves and quarters as equal parts of a whole.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "AAS2-ORIGINAL-AUTHORED"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2a-time",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reads simple clock times and uses hours and minutes in everyday contexts.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2A-9781035130382",
+        "AAS2-ORIGINAL-AUTHORED"
+      ]
+    },
+    {
+      "skillId": "aas2-math-mm2b-data-handling",
+      "learnerPath": "GRADE_2",
+      "domain": "Mathematics",
+      "observableOutcome": "Reads simple pictographs and compares quantities in a data display.",
+      "sourceReferenceIds": [
+        "MACMILLAN-MATH-L2B",
+        "AAS2-ORIGINAL-AUTHORED"
       ]
     }
   ],
@@ -8108,6 +8168,2506 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/bcaefa6ef980bd727579bda7ca0f502fe8e872233fc135201d2dbab2f966721f.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/06b6fecfa7865c543f261fac6a059ec74863c678a19ff9fda61006adcf9b2933.ogg"
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-001",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The knight is riding a horse."
+        },
+        {
+          "optionId": "b",
+          "text": "The knight are riding a horse."
+        },
+        {
+          "optionId": "c",
+          "text": "The knight riding a horse."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l01-002",
+      "skillId": "aas2-ew2-u01-action-verbs",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: The children ___ in the garden.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "is playing"
+        },
+        {
+          "optionId": "b",
+          "text": "are playing"
+        },
+        {
+          "optionId": "c",
+          "text": "am playing"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-003",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What should come first when making a sandwich?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Put the sandwich on a plate."
+        },
+        {
+          "optionId": "b",
+          "text": "Spread the filling on the bread."
+        },
+        {
+          "optionId": "c",
+          "text": "Eat the sandwich."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l02-004",
+      "skillId": "aas2-ew2-u01-reading-sequence",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word shows the next event?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Next"
+        },
+        {
+          "optionId": "b",
+          "text": "Blue"
+        },
+        {
+          "optionId": "c",
+          "text": "Under"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-005",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Where can you borrow a book?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "A library"
+        },
+        {
+          "optionId": "b",
+          "text": "A bakery"
+        },
+        {
+          "optionId": "c",
+          "text": "A garage"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l03-006",
+      "skillId": "aas2-ew2-u01-everyday-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word names a person who teaches pupils?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Farmer"
+        },
+        {
+          "optionId": "b",
+          "text": "Teacher"
+        },
+        {
+          "optionId": "c",
+          "text": "Pilot"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-007",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The castle is tall."
+        },
+        {
+          "optionId": "b",
+          "text": "Tall the castle is."
+        },
+        {
+          "optionId": "c",
+          "text": "Is tall the castle."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u01-l04-008",
+      "skillId": "aas2-ew2-u01-sentence-order",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which mark ends this sentence: The king is kind",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "?"
+        },
+        {
+          "optionId": "b",
+          "text": "!"
+        },
+        {
+          "optionId": "c",
+          "text": " ."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-009",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word names a place where children play?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Playground"
+        },
+        {
+          "optionId": "b",
+          "text": "Kitchen"
+        },
+        {
+          "optionId": "c",
+          "text": "Bedroom"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l01-010",
+      "skillId": "aas2-ew2-u02-playground-vocabulary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A swing is found in a…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "playground"
+        },
+        {
+          "optionId": "b",
+          "text": "bathroom"
+        },
+        {
+          "optionId": "c",
+          "text": "library"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-011",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct word: ___ flowers here are yellow.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Those"
+        },
+        {
+          "optionId": "b",
+          "text": "These"
+        },
+        {
+          "optionId": "c",
+          "text": "That"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u02-l02-012",
+      "skillId": "aas2-ew2-u02-demonstratives-ing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Look at the bird far away. ___ bird is blue.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "This"
+        },
+        {
+          "optionId": "b",
+          "text": "These"
+        },
+        {
+          "optionId": "c",
+          "text": "That"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-013",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: She ___ swimming.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "like"
+        },
+        {
+          "optionId": "b",
+          "text": "likes"
+        },
+        {
+          "optionId": "c",
+          "text": "liking"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l01-014",
+      "skillId": "aas2-ew2-u03-hobbies-like-likes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is a hobby?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Collecting stamps"
+        },
+        {
+          "optionId": "b",
+          "text": "Sleeping in class"
+        },
+        {
+          "optionId": "c",
+          "text": "Breaking toys"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-015",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct question.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Do you play football?"
+        },
+        {
+          "optionId": "b",
+          "text": "You do play football?"
+        },
+        {
+          "optionId": "c",
+          "text": "Play you football do?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u03-l02-016",
+      "skillId": "aas2-ew2-u03-questions-phonics",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long o sound in o_e?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "hop"
+        },
+        {
+          "optionId": "b",
+          "text": "home"
+        },
+        {
+          "optionId": "c",
+          "text": "hot"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-017",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: ___ he wear a blue shirt?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Do"
+        },
+        {
+          "optionId": "b",
+          "text": "Does"
+        },
+        {
+          "optionId": "c",
+          "text": "Are"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l01-018",
+      "skillId": "aas2-ew2-u04-clothes-questions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which item do you wear on your feet?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Gloves"
+        },
+        {
+          "optionId": "b",
+          "text": "Shoes"
+        },
+        {
+          "optionId": "c",
+          "text": "Hat"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-019",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /cl/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "queen"
+        },
+        {
+          "optionId": "b",
+          "text": "clean"
+        },
+        {
+          "optionId": "c",
+          "text": "green"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u04-l02-020",
+      "skillId": "aas2-ew2-u04-blends-description",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the describing word: a ___ coat.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "warm"
+        },
+        {
+          "optionId": "b",
+          "text": "coat"
+        },
+        {
+          "optionId": "c",
+          "text": "wear"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-021",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which activity usually happens in the morning?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Wake up"
+        },
+        {
+          "optionId": "b",
+          "text": "Go to bed"
+        },
+        {
+          "optionId": "c",
+          "text": "Eat dinner at midnight"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l01-022",
+      "skillId": "aas2-ew2-u05-routines-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is half past seven?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7:15"
+        },
+        {
+          "optionId": "b",
+          "text": "7:30"
+        },
+        {
+          "optionId": "c",
+          "text": "8:30"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-023",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /tr/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "rain"
+        },
+        {
+          "optionId": "b",
+          "text": "chain"
+        },
+        {
+          "optionId": "c",
+          "text": "train"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u05-l02-024",
+      "skillId": "aas2-ew2-u05-blends-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the best order: first wash hands, ___ eat.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "before"
+        },
+        {
+          "optionId": "b",
+          "text": "then"
+        },
+        {
+          "optionId": "c",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-025",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: This is my sister. ___ name is Lina.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "His"
+        },
+        {
+          "optionId": "b",
+          "text": "Her"
+        },
+        {
+          "optionId": "c",
+          "text": "Their"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l01-026",
+      "skillId": "aas2-ew2-u06-body-pronouns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which body part helps you bend your arm?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Elbow"
+        },
+        {
+          "optionId": "b",
+          "text": "Ankle"
+        },
+        {
+          "optionId": "c",
+          "text": "Chin"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-027",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the contraction for does not.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "doesn't"
+        },
+        {
+          "optionId": "b",
+          "text": "don't"
+        },
+        {
+          "optionId": "c",
+          "text": "didn't"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u06-l02-028",
+      "skillId": "aas2-ew2-u06-blends-contractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word begins with the blend /st/?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "sun"
+        },
+        {
+          "optionId": "b",
+          "text": "star"
+        },
+        {
+          "optionId": "c",
+          "text": "run"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-029",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which food is made from milk?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Yoghurt"
+        },
+        {
+          "optionId": "b",
+          "text": "Rice"
+        },
+        {
+          "optionId": "c",
+          "text": "Carrot"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l01-030",
+      "skillId": "aas2-ew2-u07-food-weather",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word describes the weather when rain falls?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Rainy"
+        },
+        {
+          "optionId": "b",
+          "text": "Dusty"
+        },
+        {
+          "optionId": "c",
+          "text": "Dry"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-031",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: There ___ two birds in the tree.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "is"
+        },
+        {
+          "optionId": "b",
+          "text": "are"
+        },
+        {
+          "optionId": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u07-l02-032",
+      "skillId": "aas2-ew2-u07-frequency-language",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word means 'every time'?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Never"
+        },
+        {
+          "optionId": "b",
+          "text": "Always"
+        },
+        {
+          "optionId": "c",
+          "text": "Sometimes"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-033",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Yesterday, the puppies ___ playful.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "was"
+        },
+        {
+          "optionId": "b",
+          "text": "were"
+        },
+        {
+          "optionId": "c",
+          "text": "is"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l01-034",
+      "skillId": "aas2-ew2-u08-animals-was-were",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal is a mammal?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Dolphin"
+        },
+        {
+          "optionId": "b",
+          "text": "Butterfly"
+        },
+        {
+          "optionId": "c",
+          "text": "Lizard"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-035",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word ends with the letters ld?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "cot"
+        },
+        {
+          "optionId": "b",
+          "text": "cold"
+        },
+        {
+          "optionId": "c",
+          "text": "can"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u08-l02-036",
+      "skillId": "aas2-ew2-u08-endings-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is half past eight?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8:15"
+        },
+        {
+          "optionId": "b",
+          "text": "8:30"
+        },
+        {
+          "optionId": "c",
+          "text": "9:30"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-037",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "The fish swims ___ the water.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "in"
+        },
+        {
+          "optionId": "b",
+          "text": "on"
+        },
+        {
+          "optionId": "c",
+          "text": "between"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l01-038",
+      "skillId": "aas2-ew2-u09-sea-prepositions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which animal lives in the sea?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Dolphin"
+        },
+        {
+          "optionId": "b",
+          "text": "Camel"
+        },
+        {
+          "optionId": "c",
+          "text": "Hen"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-039",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: There ___ a shell on the beach yesterday.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "was"
+        },
+        {
+          "optionId": "b",
+          "text": "were"
+        },
+        {
+          "optionId": "c",
+          "text": "are"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u09-l02-040",
+      "skillId": "aas2-ew2-u09-past-ee",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long ee sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "tree"
+        },
+        {
+          "optionId": "b",
+          "text": "trap"
+        },
+        {
+          "optionId": "c",
+          "text": "train"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-041",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence gives a safe instruction?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Stay with your adult."
+        },
+        {
+          "optionId": "b",
+          "text": "Run into deep water."
+        },
+        {
+          "optionId": "c",
+          "text": "Touch a hot fire."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l01-042",
+      "skillId": "aas2-ew2-u10-beach-imperatives",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct command.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Please close the gate."
+        },
+        {
+          "optionId": "b",
+          "text": "Do you close the gate?"
+        },
+        {
+          "optionId": "c",
+          "text": "The gate is closed yesterday."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-043",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Complete: I can see Ali. I can see ___.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "him"
+        },
+        {
+          "optionId": "b",
+          "text": "he"
+        },
+        {
+          "optionId": "c",
+          "text": "his"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u10-l02-044",
+      "skillId": "aas2-ew2-u10-pronouns-oo",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the long oo sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "moon"
+        },
+        {
+          "optionId": "b",
+          "text": "man"
+        },
+        {
+          "optionId": "c",
+          "text": "men"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-045",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is the past tense of visit?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "visited"
+        },
+        {
+          "optionId": "b",
+          "text": "visits"
+        },
+        {
+          "optionId": "c",
+          "text": "visiting"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l01-046",
+      "skillId": "aas2-ew2-u11-past-sequencing",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word helps put events in order?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "After"
+        },
+        {
+          "optionId": "b",
+          "text": "Green"
+        },
+        {
+          "optionId": "c",
+          "text": "Quickly"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-047",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which word has the ai sound?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "train"
+        },
+        {
+          "optionId": "b",
+          "text": "tree"
+        },
+        {
+          "optionId": "c",
+          "text": "truck"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u11-l02-048",
+      "skillId": "aas2-ew2-u11-ai-diary",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A diary usually tells about…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "your day and experiences"
+        },
+        {
+          "optionId": "b",
+          "text": "only numbers"
+        },
+        {
+          "optionId": "c",
+          "text": "weather instruments"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-049",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which verb shows movement?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "crawl"
+        },
+        {
+          "optionId": "b",
+          "text": "plate"
+        },
+        {
+          "optionId": "c",
+          "text": "spoon"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l01-050",
+      "skillId": "aas2-ew2-u12-food-movement",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "The cat jumped ___ the box.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "over"
+        },
+        {
+          "optionId": "b",
+          "text": "because"
+        },
+        {
+          "optionId": "c",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-051",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Choose the correct past sentence.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "We played and walked."
+        },
+        {
+          "optionId": "b",
+          "text": "We play and walk yesterday."
+        },
+        {
+          "optionId": "c",
+          "text": "We playing yesterday."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-ew2-ew2-u12-l02-052",
+      "skillId": "aas2-ew2-u12-past-lists",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which sentence uses commas in a list?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "I packed a hat, a book and a ball."
+        },
+        {
+          "optionId": "b",
+          "text": "I packed a hat a book and a ball"
+        },
+        {
+          "optionId": "c",
+          "text": "I packed, a hat a book and a ball."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Well done! You used your English skills.",
+      "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-01",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 10 more than 46?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "47"
+        },
+        {
+          "optionId": "b",
+          "text": "56"
+        },
+        {
+          "optionId": "c",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u01-02",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is between 78 and 80?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "79"
+        },
+        {
+          "optionId": "b",
+          "text": "77"
+        },
+        {
+          "optionId": "c",
+          "text": "81"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-01",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "In 583, what is the value of 8?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "80"
+        },
+        {
+          "optionId": "c",
+          "text": "800"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u02-02",
+      "skillId": "place-value-to-1000",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number has 6 hundreds, 2 tens and 4 ones?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "642"
+        },
+        {
+          "optionId": "b",
+          "text": "624"
+        },
+        {
+          "optionId": "c",
+          "text": "264"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-01",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Add 38 + 24.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "52"
+        },
+        {
+          "optionId": "b",
+          "text": "62"
+        },
+        {
+          "optionId": "c",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u03-02",
+      "skillId": "addition-within-100",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A shop has 27 red pencils and 35 blue pencils. How many pencils are there?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "52"
+        },
+        {
+          "optionId": "b",
+          "text": "62"
+        },
+        {
+          "optionId": "c",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-01",
+      "skillId": "aas2-mm2a-review-u04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 45 + 23?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "68"
+        },
+        {
+          "optionId": "b",
+          "text": "58"
+        },
+        {
+          "optionId": "c",
+          "text": "78"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u04-02",
+      "skillId": "aas2-mm2a-review-u04",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 76 - 31?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "35"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "55"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-01",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Subtract 63 - 28.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "35"
+        },
+        {
+          "optionId": "b",
+          "text": "45"
+        },
+        {
+          "optionId": "c",
+          "text": "41"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u05-02",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 52 birds. 19 fly away. How many remain?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "33"
+        },
+        {
+          "optionId": "b",
+          "text": "43"
+        },
+        {
+          "optionId": "c",
+          "text": "31"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-01",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "There are 4 bags with 3 oranges in each. How many oranges?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "7"
+        },
+        {
+          "optionId": "b",
+          "text": "12"
+        },
+        {
+          "optionId": "c",
+          "text": "14"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u06-02",
+      "skillId": "aas2-math-mm2a-multiplication",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 5 groups of 4?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-01",
+      "skillId": "aas2-mm2a-number-facts",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number makes 8 + __ = 15?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6"
+        },
+        {
+          "optionId": "b",
+          "text": "7"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u07-02",
+      "skillId": "aas2-mm2a-number-facts",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which addition makes 20?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "9 + 10"
+        },
+        {
+          "optionId": "b",
+          "text": "12 + 8"
+        },
+        {
+          "optionId": "c",
+          "text": "13 + 6"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-01",
+      "skillId": "aas2-mm2a-review-u08",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 6 × 3?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "18"
+        },
+        {
+          "optionId": "b",
+          "text": "16"
+        },
+        {
+          "optionId": "c",
+          "text": "21"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u08-02",
+      "skillId": "aas2-mm2a-review-u08",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is greater?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "49"
+        },
+        {
+          "optionId": "b",
+          "text": "94"
+        },
+        {
+          "optionId": "c",
+          "text": "Both are equal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-01",
+      "skillId": "aas2-mm2a-equations-functions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Find the missing number: __ + 7 = 16.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "8"
+        },
+        {
+          "optionId": "b",
+          "text": "9"
+        },
+        {
+          "optionId": "c",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u09-02",
+      "skillId": "aas2-mm2a-equations-functions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A rule adds 3. What comes after 5, 8, 11?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "12"
+        },
+        {
+          "optionId": "b",
+          "text": "13"
+        },
+        {
+          "optionId": "c",
+          "text": "14"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-01",
+      "skillId": "aas2-math-mm2a-fractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pizza is cut into 2 equal parts. One part is…",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "one half"
+        },
+        {
+          "optionId": "b",
+          "text": "one third"
+        },
+        {
+          "optionId": "c",
+          "text": "one quarter"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u10-02",
+      "skillId": "aas2-math-mm2a-fractions",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which fraction shows 1 part out of 4 equal parts?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1/2"
+        },
+        {
+          "optionId": "b",
+          "text": "1/4"
+        },
+        {
+          "optionId": "c",
+          "text": "4/1"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-01",
+      "skillId": "aas2-math-mm2a-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is 30 minutes after 3:00?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3:15"
+        },
+        {
+          "optionId": "b",
+          "text": "3:30"
+        },
+        {
+          "optionId": "c",
+          "text": "4:00"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u11-02",
+      "skillId": "aas2-math-mm2a-time",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many minutes are in one hour?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "30"
+        },
+        {
+          "optionId": "b",
+          "text": "60"
+        },
+        {
+          "optionId": "c",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-01",
+      "skillId": "aas2-mm2a-review-u12",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is one quarter of 12?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2"
+        },
+        {
+          "optionId": "b",
+          "text": "3"
+        },
+        {
+          "optionId": "c",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2a-mm2a-u12-02",
+      "skillId": "aas2-mm2a-review-u12",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What time is 15 minutes after 6:30?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "6:45"
+        },
+        {
+          "optionId": "b",
+          "text": "7:00"
+        },
+        {
+          "optionId": "c",
+          "text": "6:15"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-01",
+      "skillId": "aas2-mm2b-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Continue: 120, 130, 140, __.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "145"
+        },
+        {
+          "optionId": "b",
+          "text": "150"
+        },
+        {
+          "optionId": "c",
+          "text": "160"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u13-02",
+      "skillId": "aas2-mm2b-number-patterns",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which number is 100 more than 356?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "357"
+        },
+        {
+          "optionId": "b",
+          "text": "456"
+        },
+        {
+          "optionId": "c",
+          "text": "3560"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-01",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 245 + 132.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "367"
+        },
+        {
+          "optionId": "b",
+          "text": "377"
+        },
+        {
+          "optionId": "c",
+          "text": "357"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u14-02",
+      "skillId": "aas2-mm2b-add-sub-999",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Calculate 600 - 245.",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "345"
+        },
+        {
+          "optionId": "b",
+          "text": "355"
+        },
+        {
+          "optionId": "c",
+          "text": "365"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-01",
+      "skillId": "aas2-mm2b-money",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A toy costs 35 pounds. You pay 50 pounds. What is the change?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "15 pounds"
+        },
+        {
+          "optionId": "b",
+          "text": "20 pounds"
+        },
+        {
+          "optionId": "c",
+          "text": "25 pounds"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u15-02",
+      "skillId": "aas2-mm2b-money",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many 5-pound coins make 20 pounds?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-01",
+      "skillId": "aas2-mm2b-review-u16",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is the larger amount?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "75 piasters"
+        },
+        {
+          "optionId": "b",
+          "text": "1 pound"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u16-02",
+      "skillId": "aas2-mm2b-review-u16",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "What is 320 + 150?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "470"
+        },
+        {
+          "optionId": "b",
+          "text": "460"
+        },
+        {
+          "optionId": "c",
+          "text": "480"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-01",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which solid shape has 6 square faces?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Cube"
+        },
+        {
+          "optionId": "b",
+          "text": "Sphere"
+        },
+        {
+          "optionId": "c",
+          "text": "Cone"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u17-02",
+      "skillId": "aas2-mm2b-flat-solid-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which flat shape has 5 sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Hexagon"
+        },
+        {
+          "optionId": "b",
+          "text": "Pentagon"
+        },
+        {
+          "optionId": "c",
+          "text": "Triangle"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-01",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which line never bends?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Straight line"
+        },
+        {
+          "optionId": "b",
+          "text": "Curved line"
+        },
+        {
+          "optionId": "c",
+          "text": "Zigzag line"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u18-02",
+      "skillId": "aas2-mm2b-lines-shapes",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many corners does a rectangle have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "4"
+        },
+        {
+          "optionId": "c",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-01",
+      "skillId": "aas2-mm2b-area",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A shape covers 6 equal square tiles. What is its area in square tiles?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "5"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u19-02",
+      "skillId": "aas2-mm2b-area",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which unit is suitable for measuring the area of a small shape on grid paper?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Square units"
+        },
+        {
+          "optionId": "b",
+          "text": "Litres"
+        },
+        {
+          "optionId": "c",
+          "text": "Kilograms"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-01",
+      "skillId": "aas2-mm2b-review-u20",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "How many faces does a cube have?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "4"
+        },
+        {
+          "optionId": "b",
+          "text": "6"
+        },
+        {
+          "optionId": "c",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u20-02",
+      "skillId": "aas2-mm2b-review-u20",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which shape has no straight sides?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Circle"
+        },
+        {
+          "optionId": "b",
+          "text": "Square"
+        },
+        {
+          "optionId": "c",
+          "text": "Triangle"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-01",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which tool measures the length of a pencil?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Ruler"
+        },
+        {
+          "optionId": "b",
+          "text": "Clock"
+        },
+        {
+          "optionId": "c",
+          "text": "Scales"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u21-02",
+      "skillId": "measure-length-centimeters",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A ribbon is 35 cm long. Another is 20 cm long. How much longer is the first?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "15 cm"
+        },
+        {
+          "optionId": "b",
+          "text": "55 cm"
+        },
+        {
+          "optionId": "c",
+          "text": "10 cm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-01",
+      "skillId": "aas2-mm2b-measures-problems",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A jug holds 1 litre. How many millilitres is that?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "100 mL"
+        },
+        {
+          "optionId": "b",
+          "text": "500 mL"
+        },
+        {
+          "optionId": "c",
+          "text": "1000 mL"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u22-02",
+      "skillId": "aas2-mm2b-measures-problems",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which is heavier?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "2 kg"
+        },
+        {
+          "optionId": "b",
+          "text": "900 g"
+        },
+        {
+          "optionId": "c",
+          "text": "They are equal"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-01",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A chart shows 8 pupils like apples and 5 like bananas. How many more like apples?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "13"
+        },
+        {
+          "optionId": "c",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u23-02",
+      "skillId": "aas2-math-mm2b-data-handling",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Which chart uses pictures to show data?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Pictograph"
+        },
+        {
+          "optionId": "b",
+          "text": "Clock face"
+        },
+        {
+          "optionId": "c",
+          "text": "Number line"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-01",
+      "skillId": "aas2-mm2b-review-u24",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pencil is 12 cm and a crayon is 8 cm. What is their total length if placed end to end?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "20 cm"
+        },
+        {
+          "optionId": "b",
+          "text": "4 cm"
+        },
+        {
+          "optionId": "c",
+          "text": "18 cm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 1
+    },
+    {
+      "activityId": "aas2-2b-mm2b-u24-02",
+      "skillId": "aas2-mm2b-review-u24",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pictograph shows 6 votes for cats and 9 for dogs. How many votes altogether?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "3"
+        },
+        {
+          "optionId": "b",
+          "text": "15"
+        },
+        {
+          "optionId": "c",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Excellent work! Show how you worked it out.",
+      "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
+      "difficulty": 2
     }
   ],
   "books": [
@@ -8942,7 +11502,7 @@
       "title": "Numbers to 100",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-place-value"
+        "aas2-math-mm2a-numbers-to-100"
       ]
     },
     {
@@ -8978,7 +11538,7 @@
       "title": "Subtraction within 99",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-addition-and-subtraction"
+        "aas2-math-mm2a-subtraction-within-99"
       ]
     },
     {
@@ -8987,7 +11547,7 @@
       "title": "Multiplication",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-multiplication"
+        "aas2-math-mm2a-multiplication"
       ]
     },
     {
@@ -9023,7 +11583,7 @@
       "title": "Fractions",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-fractions-and-measure"
+        "aas2-math-mm2a-fractions"
       ]
     },
     {
@@ -9032,7 +11592,7 @@
       "title": "Time",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-measure-and-apply"
+        "aas2-math-mm2a-time"
       ]
     },
     {
@@ -9140,7 +11700,7 @@
       "title": "Handling data",
       "sequence": 1,
       "skillIds": [
-        "aas2-aboudy-data-handling"
+        "aas2-math-mm2b-data-handling"
       ]
     },
     {

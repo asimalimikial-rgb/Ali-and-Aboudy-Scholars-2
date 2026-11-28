@@ -12,14 +12,15 @@
     "books": 3,
     "units": 29,
     "activities": 63,
-    "runtimeMapped": 0,
+    "runtimeMapped": 48,
     "bookCounts": {
       "macmillan-mathematics-level-2a": 24,
       "macmillan-mathematics-level-2b": 24,
       "maths-xpress-book-2": 15
-    }
+    },
+    "stagingOnlyBookCount": 1
   },
-  "releaseGate": "STAGING_ONLY",
+  "releaseGate": "PARTIAL_INTEGRATION_PENDING_PEDAGOGY_AND_MEDIA_QA",
   "requiredChecks": [
     "recalculate every answer key",
     "check number range and prerequisite sequence",
@@ -34,7 +35,7 @@
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U01",
       "unitTitle": "Numbers to 100",
-      "skillId": "aas2-aboudy-place-value",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "What is 10 more than 46?",
@@ -56,21 +57,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u01-02",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U01",
       "unitTitle": "Numbers to 100",
-      "skillId": "aas2-aboudy-place-value",
+      "skillId": "aas2-math-mm2a-numbers-to-100",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "Which number is between 78 and 80?",
@@ -92,14 +93,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u02-01",
@@ -128,14 +129,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u02-02",
@@ -164,14 +165,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u03-01",
@@ -200,14 +201,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u03-02",
@@ -236,14 +237,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u04-01",
@@ -272,14 +273,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u04-02",
@@ -308,21 +309,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u05-01",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U05",
       "unitTitle": "Subtraction within 99",
-      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "Subtract 63 - 28.",
@@ -344,21 +345,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u05-02",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U05",
       "unitTitle": "Subtraction within 99",
-      "skillId": "aas2-aboudy-addition-and-subtraction",
+      "skillId": "aas2-math-mm2a-subtraction-within-99",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "There are 52 birds. 19 fly away. How many remain?",
@@ -380,21 +381,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u06-01",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U06",
       "unitTitle": "Multiplication",
-      "skillId": "aas2-aboudy-multiplication",
+      "skillId": "aas2-math-mm2a-multiplication",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "There are 4 bags with 3 oranges in each. How many oranges?",
@@ -416,21 +417,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u06-02",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U06",
       "unitTitle": "Multiplication",
-      "skillId": "aas2-aboudy-multiplication",
+      "skillId": "aas2-math-mm2a-multiplication",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "What is 5 groups of 4?",
@@ -452,14 +453,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u07-01",
@@ -488,14 +489,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u07-02",
@@ -524,14 +525,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u08-01",
@@ -560,14 +561,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u08-02",
@@ -596,14 +597,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u09-01",
@@ -632,14 +633,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u09-02",
@@ -668,21 +669,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u10-01",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U10",
       "unitTitle": "Fractions",
-      "skillId": "aas2-aboudy-fractions-and-measure",
+      "skillId": "aas2-math-mm2a-fractions",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "A pizza is cut into 2 equal parts. One part is…",
@@ -704,21 +705,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u10-02",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U10",
       "unitTitle": "Fractions",
-      "skillId": "aas2-aboudy-fractions-and-measure",
+      "skillId": "aas2-math-mm2a-fractions",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "Which fraction shows 1 part out of 4 equal parts?",
@@ -740,21 +741,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u11-01",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U11",
       "unitTitle": "Time",
-      "skillId": "aas2-aboudy-measure-and-apply",
+      "skillId": "aas2-math-mm2a-time",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "What time is 30 minutes after 3:00?",
@@ -776,21 +777,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u11-02",
       "bookId": "macmillan-mathematics-level-2a",
       "unitId": "MM2A-U11",
       "unitTitle": "Time",
-      "skillId": "aas2-aboudy-measure-and-apply",
+      "skillId": "aas2-math-mm2a-time",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "How many minutes are in one hour?",
@@ -812,14 +813,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u12-01",
@@ -848,14 +849,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2a-mm2a-u12-02",
@@ -884,14 +885,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u13-01",
@@ -920,14 +921,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u13-02",
@@ -956,14 +957,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u14-01",
@@ -992,14 +993,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u14-02",
@@ -1028,14 +1029,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u15-01",
@@ -1064,14 +1065,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u15-02",
@@ -1100,14 +1101,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u16-01",
@@ -1136,14 +1137,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u16-02",
@@ -1172,14 +1173,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u17-01",
@@ -1208,14 +1209,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u17-02",
@@ -1244,14 +1245,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u18-01",
@@ -1280,14 +1281,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u18-02",
@@ -1316,14 +1317,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u19-01",
@@ -1352,14 +1353,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u19-02",
@@ -1388,14 +1389,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u20-01",
@@ -1424,14 +1425,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u20-02",
@@ -1460,14 +1461,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u21-01",
@@ -1496,14 +1497,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u21-02",
@@ -1532,14 +1533,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u22-01",
@@ -1568,14 +1569,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u22-02",
@@ -1604,21 +1605,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u23-01",
       "bookId": "macmillan-mathematics-level-2b",
       "unitId": "MM2B-U23",
       "unitTitle": "Handling data",
-      "skillId": "aas2-aboudy-data-handling",
+      "skillId": "aas2-math-mm2b-data-handling",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "A chart shows 8 pupils like apples and 5 like bananas. How many more like apples?",
@@ -1640,21 +1641,21 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u23-02",
       "bookId": "macmillan-mathematics-level-2b",
       "unitId": "MM2B-U23",
       "unitTitle": "Handling data",
-      "skillId": "aas2-aboudy-data-handling",
+      "skillId": "aas2-math-mm2b-data-handling",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
       "prompt": "Which chart uses pictures to show data?",
@@ -1676,14 +1677,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u24-01",
@@ -1712,14 +1713,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-2b-mm2b-u24-02",
@@ -1748,14 +1749,14 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-01",
@@ -1784,7 +1785,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -1820,7 +1821,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -1856,7 +1857,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -1892,7 +1893,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -1928,7 +1929,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -1964,7 +1965,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2000,7 +2001,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2036,7 +2037,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2072,7 +2073,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2108,7 +2109,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2144,7 +2145,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2180,7 +2181,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2216,7 +2217,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2252,7 +2253,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
@@ -2288,7 +2289,7 @@
       "feedbackCorrect": "Excellent work! Show how you worked it out.",
       "feedbackIncorrect": "Good effort. Try the calculation or look at the example again.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_MATHEMATICS_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",

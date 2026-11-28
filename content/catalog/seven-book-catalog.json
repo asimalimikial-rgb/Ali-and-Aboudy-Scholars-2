@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "0.2.0",
+  "catalogVersion": "0.2.1",
   "updatedAt": "2026-11-28",
   "project": "Ali & Aboudy Scholars 2",
   "learnerPaths": {
@@ -71,9 +71,9 @@
       "learnerPath": "GRADE_2",
       "subject": "English",
       "isbn": "9781035117154",
-      "currentAuthoredActivities": 35,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 87,
+      "runtimeMappedActivities": 52,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "grammar and word study",
         "reading comprehension"
@@ -83,7 +83,7 @@
         "unit-level sequence",
         "review of the reading item that requires an original passage"
       ],
-      "nextAction": "Complete pedagogy review for the 15 candidate activities; map approved items to unit/lesson IDs in the Android pack, and retain 20 broader items as supplementary or revise them against a unit outcome.",
+      "nextAction": "Complete pedagogy, language and media QA for 52 original items; retain 35 legacy candidates as Additional Practice.",
       "scopeSource": {
         "productPage": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/english-world/levels-samples",
         "scopeAndSequence": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
@@ -225,7 +225,7 @@
           ]
         }
       ],
-      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; 15 CANDIDATE ALIGNMENTS; 20 SUPPLEMENTARY; RUNTIME_MAPPING_PENDING"
+      "scopeStatus": "OFFICIAL_12_UNIT_SCOPE_VERIFIED; 52 ORIGINAL AAS2 ITEMS MAPPED TO 26 LESSONS; 35 LEGACY ITEMS RETAINED AS ADDITIONAL PRACTICE; PEDAGOGY QA PENDING"
     },
     {
       "sequence": 4,
@@ -236,9 +236,9 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9781035130382",
-      "currentAuthoredActivities": 31,
-      "runtimeMappedActivities": 0,
-      "status": "PARTIAL_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 55,
+      "runtimeMappedActivities": 24,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "Numbers to 999",
         "Addition to 99",
@@ -254,7 +254,7 @@
         "remaining review/transfer coverage",
         "item-level pedagogy and difficulty calibration"
       ],
-      "nextAction": "Review the 31 candidate mappings and calibrate items before creating the 2A runtime hierarchy.",
+      "nextAction": "Complete calculation, progression and media QA for 24 original lesson-mapped items; retain 31 legacy candidates as Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742629",
         "catalogueUrl": "https://online.flippingbook.com/view/887627778/44-45/",
@@ -281,9 +281,9 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9781380000613",
-      "currentAuthoredActivities": 9,
-      "runtimeMappedActivities": 0,
-      "status": "LIMITED_CONTENT_NOT_INTEGRATED",
+      "currentAuthoredActivities": 33,
+      "runtimeMappedActivities": 24,
+      "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
       "plannedCoverage": [
         "Addition and subtraction to 999",
         "Money",
@@ -297,7 +297,7 @@
         "remaining review/transfer coverage",
         "item-level pedagogy and difficulty calibration"
       ],
-      "nextAction": "Review the nine candidate mappings and calibrate items before creating the 2B runtime hierarchy.",
+      "nextAction": "Complete calculation, measurement and media QA for 24 original lesson-mapped items; retain nine legacy candidates as Additional Practice.",
       "scopeEvidence": {
         "contentsUrl": "https://www.blinklearning.com/coursePlayer/curso2.php?idcurso=742649",
         "productUrl": "https://www.macmillanenglish.com/us/catalogue/courses/young-learners/macmillan-mathematics/levels-samples",
@@ -381,7 +381,7 @@
     "androidRuntimeCatalogLoading": "NOT_IMPLEMENTED",
     "grade2ScienceHierarchy": "INTEGRATED",
     "kg2Hierarchy": "INTEGRATED_IN_FEATURE_BRANCH_PENDING_MEDIA_QA_AND_PR_MERGE",
-    "otherBookHierarchies": "NOT_INTEGRATED",
+    "otherBookHierarchies": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
     "completeSevenBookCoverage": "NOT_COMPLETE",
     "myWorldDiscoveryCompanionPath": "INTEGRATED_IN_FEATURE_BRANCH"
   },

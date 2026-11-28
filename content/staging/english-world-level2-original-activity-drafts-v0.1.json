@@ -9,9 +9,9 @@
     "lessons": 26,
     "activities": 52,
     "activitiesPerLesson": "2 per lesson",
-    "runtimeMapped": 0
+    "runtimeMapped": 52
   },
-  "releaseGate": "STAGING_ONLY",
+  "releaseGate": "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA",
   "requiredChecks": [
     "unit and scope alignment",
     "grammar and answer-key review",
@@ -50,14 +50,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l01-002",
@@ -87,14 +87,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-003",
@@ -124,14 +124,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-004",
@@ -161,14 +161,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-005",
@@ -198,14 +198,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-006",
@@ -235,14 +235,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-007",
@@ -272,14 +272,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-008",
@@ -309,14 +309,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-009",
@@ -346,14 +346,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-010",
@@ -383,14 +383,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-011",
@@ -420,14 +420,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-012",
@@ -457,14 +457,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-013",
@@ -494,14 +494,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-014",
@@ -531,14 +531,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-015",
@@ -568,14 +568,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-016",
@@ -586,33 +586,33 @@
       "skillId": "aas2-ew2-u03-questions-phonics",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word has the long a sound?",
+      "prompt": "Which word has the long o sound in o_e?",
       "options": [
         {
           "optionId": "a",
-          "text": "cap"
+          "text": "hop"
         },
         {
           "optionId": "b",
-          "text": "cake"
+          "text": "home"
         },
         {
           "optionId": "c",
-          "text": "cat"
+          "text": "hot"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-017",
@@ -642,14 +642,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-018",
@@ -679,14 +679,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-019",
@@ -697,33 +697,33 @@
       "skillId": "aas2-ew2-u04-blends-description",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word begins with the blend /st/?",
+      "prompt": "Which word begins with the blend /cl/?",
       "options": [
         {
           "optionId": "a",
-          "text": "stop"
+          "text": "queen"
         },
         {
           "optionId": "b",
-          "text": "top"
+          "text": "clean"
         },
         {
           "optionId": "c",
-          "text": "shop"
+          "text": "green"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-020",
@@ -753,14 +753,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-021",
@@ -790,14 +790,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-022",
@@ -827,14 +827,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-023",
@@ -845,33 +845,33 @@
       "skillId": "aas2-ew2-u05-blends-sequencing",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word begins with /pl/?",
+      "prompt": "Which word begins with the blend /tr/?",
       "options": [
         {
           "optionId": "a",
-          "text": "play"
+          "text": "rain"
         },
         {
           "optionId": "b",
-          "text": "lay"
+          "text": "chain"
         },
         {
           "optionId": "c",
-          "text": "say"
+          "text": "train"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-024",
@@ -901,14 +901,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-025",
@@ -938,14 +938,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-026",
@@ -975,14 +975,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-027",
@@ -1012,14 +1012,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-028",
@@ -1030,33 +1030,33 @@
       "skillId": "aas2-ew2-u06-blends-contractions",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which word begins with /tr/?",
+      "prompt": "Which word begins with the blend /st/?",
       "options": [
         {
           "optionId": "a",
-          "text": "train"
+          "text": "sun"
         },
         {
           "optionId": "b",
-          "text": "rain"
+          "text": "star"
         },
         {
           "optionId": "c",
-          "text": "chain"
+          "text": "run"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-029",
@@ -1086,14 +1086,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-030",
@@ -1123,14 +1123,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-031",
@@ -1160,14 +1160,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-032",
@@ -1197,14 +1197,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-033",
@@ -1234,14 +1234,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-034",
@@ -1271,14 +1271,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-035",
@@ -1289,33 +1289,33 @@
       "skillId": "aas2-ew2-u08-endings-time",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "What is the past form of jump?",
+      "prompt": "Which word ends with the letters ld?",
       "options": [
         {
           "optionId": "a",
-          "text": "jumped"
+          "text": "cot"
         },
         {
           "optionId": "b",
-          "text": "jumps"
+          "text": "cold"
         },
         {
           "optionId": "c",
-          "text": "jumping"
+          "text": "can"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-036",
@@ -1326,33 +1326,33 @@
       "skillId": "aas2-ew2-u08-endings-time",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "What time is half past four?",
+      "prompt": "What time is half past eight?",
       "options": [
         {
           "optionId": "a",
-          "text": "4:15"
+          "text": "8:15"
         },
         {
           "optionId": "b",
-          "text": "4:30"
+          "text": "8:30"
         },
         {
           "optionId": "c",
-          "text": "5:30"
+          "text": "9:30"
         }
       ],
       "correctOptionId": "b",
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-037",
@@ -1382,14 +1382,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-038",
@@ -1419,14 +1419,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-039",
@@ -1456,14 +1456,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-040",
@@ -1493,14 +1493,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-041",
@@ -1530,14 +1530,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-042",
@@ -1567,14 +1567,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-043",
@@ -1604,14 +1604,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-044",
@@ -1641,14 +1641,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-045",
@@ -1678,14 +1678,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-046",
@@ -1715,14 +1715,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-047",
@@ -1752,14 +1752,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-048",
@@ -1789,14 +1789,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-049",
@@ -1826,14 +1826,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-050",
@@ -1863,14 +1863,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-051",
@@ -1900,14 +1900,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-052",
@@ -1937,14 +1937,14 @@
       "feedbackCorrect": "Well done! You used your English skills.",
       "feedbackIncorrect": "Good try. Read the sentence again and try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_PEDAGOGY_MEDIA_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "MACMILLAN-ENGLISH-WORLD-L2",
         "AAS2-ORIGINAL-AUTHORED"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true
     }
   ]
 }

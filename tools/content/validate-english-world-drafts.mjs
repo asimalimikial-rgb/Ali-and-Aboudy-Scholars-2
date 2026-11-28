@@ -1,7 +1,7 @@
 import fs from "node:fs"; import assert from "node:assert/strict";
 const p=JSON.parse(fs.readFileSync("content/staging/english-world-level2-original-activity-drafts-v0.1.json","utf8"));
-assert.equal(p.bookId,"english-world-level-2"); assert.equal(p.summary.units,12); assert.equal(p.summary.lessons,26); assert.equal(p.summary.activities,52); assert.equal(p.records.length,52); assert.equal(p.summary.runtimeMapped,0); assert.equal(p.releaseGate,"STAGING_ONLY");
-assert.equal(new Set(p.records.map(x=>x.activityId)).size,52); assert.equal(new Set(p.records.map(x=>x.lessonId)).size,26);
-for(const l of new Set(p.records.map(x=>x.lessonId))) assert.equal(p.records.filter(x=>x.lessonId===l).length,2);
-for(const x of p.records){assert.equal(x.runtimeEligible,false);assert.equal(x.reviewStatus,"PENDING_PEDAGOGY_MEDIA_QA");assert.equal(x.options.length,3);assert.equal(new Set(x.options.map(o=>o.optionId)).size,3);assert.equal(x.options.filter(o=>o.optionId===x.correctOptionId).length,1);}
-console.log("English World Level 2 draft validation: PASS (52 original items; staging only).");
+assert.equal(p.bookId,"english-world-level-2");assert.equal(p.summary.units,12);assert.equal(p.summary.lessons,26);assert.equal(p.summary.activities,52);assert.equal(p.records.length,52);assert.equal(p.summary.runtimeMapped,52);assert.equal(p.releaseGate,"INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA");
+assert.equal(new Set(p.records.map(x=>x.activityId)).size,52);assert.equal(new Set(p.records.map(x=>x.lessonId)).size,26);
+for(const l of new Set(p.records.map(x=>x.lessonId)))assert.equal(p.records.filter(x=>x.lessonId===l).length,2);
+for(const x of p.records){assert.equal(x.runtimeEligible,true);assert.equal(x.reviewStatus,"INTEGRATED_PENDING_PEDAGOGY_QA");assert.equal(x.options.length,3);assert.equal(new Set(x.options.map(o=>o.optionId)).size,3);assert.equal(x.options.filter(o=>o.optionId===x.correctOptionId).length,1);}
+console.log("English World Level 2: PASS (52 original items mapped across all 26 lessons; QA pending).");

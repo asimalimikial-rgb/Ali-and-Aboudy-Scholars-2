@@ -25,15 +25,15 @@ assert.ok(catalog.books.every(book => Number.isInteger(book.currentAuthoredActiv
   "Book activity counts must be non-negative integers.");
 assert.ok(!catalog.books.some(book => /SMILE/i.test(book.title)),
   "SMILE must remain outside the seven-book scope.");
-assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 221,
-  "The seven-book authored activity subtotal must reconcile to 221.");
+assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 321,
+  "The seven-book authored activity subtotal must reconcile to 321.");
 assert.equal(catalog.unassignedCurrentActivities.broadScienceEnrichment, 25);
 assert.equal(catalog.unassignedCurrentActivities.earlierPilotActivities, 19);
 assert.equal(catalog.companionLearningPaths.length, 1);
 assert.equal(catalog.companionLearningPaths[0].pathId, "aas2-my-world-discovery-kg2");
 assert.equal(catalog.companionLearningPaths[0].currentAuthoredActivities, 41);
 assert.equal(catalog.companionLearningPaths[0].runtimeMappedActivities, 16);
-assert.equal(221 + 41 + 25 + 19, 306, "Seven books, the My World companion path, and unassigned items must reconcile to 306.");
+assert.equal(321 + 41 + 25 + 19, 406, "Seven books, the My World companion path, and unassigned items must reconcile to 406.");
 const science = catalog.books.find(book => book.bookId === "macmillan-science-level-2");
 assert.ok(science, "Macmillan Science Level 2 must be present.");
 assert.equal(science.runtimeMappedActivities, 62);
@@ -92,7 +92,7 @@ assert.ok(reviewQueue.records.every(item => Object.values(item.reviewChecks).eve
   "Review checks must start unchecked; do not pre-approve legacy content.");
 
 assert.equal(englishWorldQueue.bookId, "english-world-level-2");
-assert.equal(englishWorldQueue.packVersion, "0.4.6");
+assert.equal(englishWorldQueue.packVersion, "0.4.7");
 assert.equal(englishWorldQueue.summary.total, 35);
 assert.equal(englishWorldQueue.summary.grammarAndWordStudy, 29);
 assert.equal(englishWorldQueue.summary.readingComprehension, 6);
@@ -106,7 +106,7 @@ assert.ok(englishWorldQueue.records.every(item =>
   ["PENDING_PEDAGOGY_REVIEW", "REVISED_PENDING_PEDAGOGY_QA"].includes(item.reviewStatus) && item.runtimeUnitId === null
 ), "English World candidates must remain pending until unit mapping is reviewed.");
 const grade2Pack = packs[1];
-assert.equal(grade2Pack.version, "0.4.6");
+assert.equal(grade2Pack.version, "0.4.7");
 const mathActivities = grade2Pack.activities.filter(item => item.activityId.startsWith("new-aboudy-maths-"));
 assert.equal(mathActivities.length, 40);
 assert.equal(mathematicsQueue.packVersion, grade2Pack.version);
@@ -166,9 +166,9 @@ const questionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "question-ar
 const optionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "option-art/manifest.json"), "utf8"));
 const unique = values => new Set(values).size === values.length;
 
-assert.equal(audio.count, 1836);
-assert.equal(audio.files.length, 1836);
-assert.equal(Object.keys(audio.activities).length, 306);
+assert.equal(audio.count, 2436);
+assert.equal(audio.files.length, 2436);
+assert.equal(Object.keys(audio.activities).length, 406);
 assert.equal(audio.settings.language, "en");
 assert.equal(audio.settings.speed, 0.70);
 assert.ok(unique(audio.files.map(file => file.file)), "Audio filenames must be unique.");
@@ -189,16 +189,16 @@ const audioRoles = audio.files.reduce((counts, file) => {
   return counts;
 }, {});
 assert.deepEqual(audioRoles, {
-  "feedback-correct": 306,
-  "feedback-incorrect": 306,
-  option: 918,
-  prompt: 306
+  "feedback-correct": 406,
+  "feedback-incorrect": 406,
+  option: 1218,
+  prompt: 406
 });
 
-assert.equal(questionArt.questionCount, 306);
-assert.equal(questionArt.files.length, 306);
-assert.equal(questionArt.formats.svg, 266);
-assert.equal(questionArt.formats.png, 40);
+assert.equal(questionArt.questionCount, 406);
+assert.equal(questionArt.files.length, 406);
+assert.equal(questionArt.formats.svg, 362);
+assert.equal(questionArt.formats.png, 44);
 assert.ok(unique(questionArt.files.map(file => file.activityId)), "Question-art activity IDs must be unique.");
 assert.ok(unique(questionArt.files.map(file => file.path)), "Question-art paths must be unique.");
 assert.ok(unique(questionArt.files.map(file => file.sha256)), "Question-art hashes must be unique.");
@@ -262,15 +262,15 @@ for (const pack of packs) {
     }
   }
 }
-assert.equal(englishActivityCount, 306);
-assert.equal(seenActivityIds.size, 306);
+assert.equal(englishActivityCount, 406);
+assert.equal(seenActivityIds.size, 406);
 const readingActivities = packs[1].activities.filter(activity => activity.skillId === "aas2-aboudy-reading-comprehension");
 assert.ok(readingActivities.every(activity => activity.prompt.trim().length >= 65),
   "Reading-comprehension prompts must include a self-contained stimulus, not only a question.");
 const mainIdea = readingActivities.find(activity => activity.activityId === "new-aboudy-english-019");
 assert.ok(mainIdea.prompt.startsWith("Read the story:") && mainIdea.prompt.includes("What is the main idea of the story?"),
   "The main-idea activity must include its story stimulus in the prompt.");
-assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 306);
+assert.equal(questionArt.files.filter(file => seenActivityIds.has(file.activityId)).length, 406);
 
 const scienceDraftPath = path.join(process.cwd(), "content/staging/science-g2-unit-03-senses-draft-v0.1.json");
 const scienceDraft = JSON.parse(fs.readFileSync(scienceDraftPath, "utf8"));
@@ -562,5 +562,5 @@ for (const item of scienceEnrichment.items) {
   assert.equal(item.mediaStatus.existingPromptAudio, true);
 }
 
-console.log("PASS: seven-book catalog, 12-unit English World scope, 40-item Mathematics map, 616-item legacy queue, 36 pending legacy correction proposals (12 initial + 12 second-pass + 12 stale Arabic explanations), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, 25 unmapped Science enrichment activities staged with rationales, and all current media references, plus seven private book covers with checksum verification.");
+console.log("PASS: seven-book catalog, 12-unit English World scope, 52 mapped English items, 48 mapped Mathematics 2A/2B items, 616-item legacy queue, 36 pending legacy correction proposals (12 initial + 12 second-pass + 12 stale Arabic explanations), 69 listening target-leak proposals, 28 specialized + 120 custom interactions, 34 structured-stimulus MC items, 72 staging-only Science Unit 3–5 items, 3 original unit illustrations, 432 staged English audio clips with SHA-256 checks, 25 unmapped Science enrichment activities staged with rationales, and all current media references for 406 runtime English activities, plus seven private book covers with checksum verification.");
 
