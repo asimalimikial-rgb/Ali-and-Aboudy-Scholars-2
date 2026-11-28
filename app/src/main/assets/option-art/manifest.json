@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
-  "count": 549,
+  "count": 550,
   "files": [
     {
       "path": "option-art/fdd07ba426088e4bac1112ea.svg",
@@ -77,6 +77,7 @@
       "sha256": "87b6410245e1af9aab07c40edba5fb5a3318fbdeb4c53a70ecdeaf80d73eefa9",
       "labels": [
         "The pencil",
+        "The pencil",
         "The pencil"
       ]
     },
@@ -88,7 +89,8 @@
         "The ruler",
         "Centimetres",
         "Ruler",
-        "Ruler"
+        "Ruler",
+        "The ruler"
       ]
     },
     {
@@ -4765,7 +4767,10 @@
       "sha256": "efc624957af60fa68a3c8a31c6104d459bba3335c5a1e724efe508b141c407ce",
       "labels": [
         "A 20 cm block tower",
-        "A 10 cm block tower"
+        "A 10 cm block tower",
+        "1 block",
+        "2 blocks",
+        "3 blocks"
       ]
     },
     {
@@ -4943,6 +4948,15 @@
       "sha256": "900bdb07d54d6b6d36336b987536cb86a292ee6b1f98373d56fd7cd4eb35d847",
       "labels": [
         "Cover it with plastic"
+      ]
+    },
+    {
+      "path": "option-art/cfa30200bbca065b60932813.svg",
+      "bytes": 844,
+      "sha256": "716dad61dd68db8e6228dbefb489246bd85ef7742196135ed4bed22822daf024",
+      "labels": [
+        "Jug A",
+        "Jug B"
       ]
     }
   ]

@@ -3,10 +3,10 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
-  "questionCount": 493,
-  "optionImageCount": 549,
+  "questionCount": 496,
+  "optionImageCount": 550,
   "formats": {
-    "svg": 449,
+    "svg": 452,
     "png": 44
   },
   "files": [
@@ -10844,6 +10844,76 @@
         "Water it when needed",
         "Pull out its roots",
         "Cover it with plastic"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "path": "question-art/aas2-kg2-mxskg-u05-004.svg",
+      "format": "svg",
+      "bytes": 1080,
+      "sha256": "8e1382dcd96a3bb950794d145acd1dea524859f8c2913b6343bf574cbdf68565",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "block",
+        "ribbon"
+      ],
+      "optionImagePaths": [
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg",
+        "option-art/23a72b9a6cef9e2f7330e961.svg"
+      ],
+      "optionLabels": [
+        "1 block",
+        "2 blocks",
+        "3 blocks"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "path": "question-art/aas2-kg2-mxskg-u05-005.svg",
+      "format": "svg",
+      "bytes": 1015,
+      "sha256": "cb446849acea5342e862359c95e5c6fd55eec04aff54239ce00c08fda7300991",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "cup",
+        "jug"
+      ],
+      "optionImagePaths": [
+        "option-art/cfa30200bbca065b60932813.svg",
+        "option-art/cfa30200bbca065b60932813.svg"
+      ],
+      "optionLabels": [
+        "Jug A",
+        "Jug B",
+        "They hold the same amount"
+      ]
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "path": "question-art/aas2-kg2-mxskg-u05-006.svg",
+      "format": "svg",
+      "bytes": 893,
+      "sha256": "23203110f5df500db897f1d9fa2a928475a1f0a0b4267c18a30495c1aba326bb",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-ali-measure-compare",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "pencil",
+        "ruler"
+      ],
+      "optionImagePaths": [
+        "option-art/2f741174bb04b42bd219a595.svg",
+        "option-art/91be412a35ac469b94000b65.svg"
+      ],
+      "optionLabels": [
+        "The pencil",
+        "The crayon",
+        "The ruler"
       ]
     }
   ]

@@ -5284,15 +5284,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "1 block"
+          "text": "1 block",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
         },
         {
           "optionId": "b",
-          "text": "2 blocks"
+          "text": "2 blocks",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
         },
         {
           "optionId": "c",
-          "text": "3 blocks"
+          "text": "3 blocks",
+          "imageAssetPath": "option-art/23a72b9a6cef9e2f7330e961.svg"
         }
       ],
       "correctOptionId": "b",
@@ -5316,7 +5319,8 @@
         "c": "speech/bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-004.svg"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-005",
@@ -5327,11 +5331,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Jug A"
+          "text": "Jug A",
+          "imageAssetPath": "option-art/cfa30200bbca065b60932813.svg"
         },
         {
           "optionId": "b",
-          "text": "Jug B"
+          "text": "Jug B",
+          "imageAssetPath": "option-art/cfa30200bbca065b60932813.svg"
         },
         {
           "optionId": "c",
@@ -5359,7 +5365,8 @@
         "c": "speech/8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-005.svg"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-006",
@@ -5370,7 +5377,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The pencil"
+          "text": "The pencil",
+          "imageAssetPath": "option-art/2f741174bb04b42bd219a595.svg"
         },
         {
           "optionId": "b",
@@ -5378,7 +5386,8 @@
         },
         {
           "optionId": "c",
-          "text": "The ruler"
+          "text": "The ruler",
+          "imageAssetPath": "option-art/91be412a35ac469b94000b65.svg"
         }
       ],
       "correctOptionId": "b",
@@ -5402,7 +5411,8 @@
         "c": "speech/453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg",
+      "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-006.svg"
     }
   ],
   "books": [
