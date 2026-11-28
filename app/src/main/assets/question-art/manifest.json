@@ -3,10 +3,10 @@
   "generator": "Scholars Visual Learning Engine",
   "engineVersion": "1.9.0",
   "outputFormat": "Mixed SVG and PNG",
-  "questionCount": 406,
-  "optionImageCount": 496,
+  "questionCount": 493,
+  "optionImageCount": 549,
   "formats": {
-    "svg": 362,
+    "svg": 449,
     "png": 44
   },
   "files": [
@@ -129,8 +129,8 @@
       "activityId": "g2-sentence-01-en",
       "path": "question-art/g2-sentence-01-en.png",
       "format": "png",
-      "bytes": 13805,
-      "sha256": "e87299a727fe04ae394d7701c71b5077b088763e50c44201d58b337d6373f305",
+      "bytes": 13152,
+      "sha256": "b2b86a911b8683b9347dde260d76babcccfe4ed321cd2697272e7624b7bb8a43",
       "engineVersion": "1.9.0",
       "skillId": "english-sentence-order",
       "visualProfile": "english-grammar",
@@ -283,8 +283,8 @@
       "activityId": "sci-g2-u01-l1-q01-en",
       "path": "question-art/sci-g2-u01-l1-q01-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "8d2b9d3c3ded495395c6f42ca905bca0d99a0791ec919eae1daac18b1ac90434",
+      "bytes": 1032,
+      "sha256": "fc4f72bf413bfd6eeb1988b333368b2dcd54356892e908b95f23c26465e8d521",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -306,8 +306,8 @@
       "activityId": "sci-g2-u01-l1-q02-en",
       "path": "question-art/sci-g2-u01-l1-q02-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "739e86027c57a3d7538172f6641bc05a9525f0a086dec30bf8e7661ea45e3754",
+      "bytes": 1184,
+      "sha256": "2be9b776a8cca5a3c3d3bafbd5eb8f66a2e2e567fee6fe42c68179946ec23eec",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -329,8 +329,8 @@
       "activityId": "sci-g2-u01-l1-q03-en",
       "path": "question-art/sci-g2-u01-l1-q03-en.svg",
       "format": "svg",
-      "bytes": 1704,
-      "sha256": "97deb50e2589cbdbcaa3d51987b30e2a52d8904709d582a4ac7cef078dff2e69",
+      "bytes": 1044,
+      "sha256": "7126c9656d907ec8bc8d931f8224807eaf6fedd8b2734f0e37c366ae98131885",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -354,8 +354,8 @@
       "activityId": "sci-g2-u01-l1-q04-en",
       "path": "question-art/sci-g2-u01-l1-q04-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "d20c2e44da5c872376f2609763796a8c60204455faf9c48d842f8b01c3d5f91f",
+      "bytes": 1196,
+      "sha256": "0791bea400a9992826443492962ecd57e14ce9d35192628cb2eee19cf57508b6",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science",
@@ -376,8 +376,8 @@
       "activityId": "sci-g2-u01-l1-q05-en",
       "path": "question-art/sci-g2-u01-l1-q05-en.svg",
       "format": "svg",
-      "bytes": 1199,
-      "sha256": "ab05f6cd76613acb231661afb94b0e2596225ff15d4595e7af8931c61d0a2662",
+      "bytes": 1190,
+      "sha256": "b09e609115372cc0ff3cbb0390cfc45f2f7c166a60fdaf48e476bdee46a19574",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-01",
       "visualProfile": "science",
@@ -421,8 +421,8 @@
       "activityId": "sci-g2-u01-l1-q07-en",
       "path": "question-art/sci-g2-u01-l1-q07-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "3229dd7f2cc3834f673fc319e0721dfa275ffb1363cefe01e3abcb588cdaa811",
+      "bytes": 1045,
+      "sha256": "a6add8468bae8c7e91ad236d40548e1c0a4e631ad91a31343c892ab0ed29beb4",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-04",
       "visualProfile": "science",
@@ -444,8 +444,8 @@
       "activityId": "sci-g2-u01-l1-q08-en",
       "path": "question-art/sci-g2-u01-l1-q08-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "2152e2e734b484ceb800091aed3b66f64ec7837b3378df8bebafec3ccc8bfc69",
+      "bytes": 1044,
+      "sha256": "db6fd8812c690fca9083892cf1e43a9824ed3ee08a8e9d49a7a8555ca0f34e64",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science",
@@ -465,8 +465,8 @@
       "activityId": "sci-g2-u01-l2-q01-en",
       "path": "question-art/sci-g2-u01-l2-q01-en.svg",
       "format": "svg",
-      "bytes": 1763,
-      "sha256": "f999d940b457f83a7ed174584ce8ac7a74bd7b32985fe63500af4ca1c8a94030",
+      "bytes": 1990,
+      "sha256": "3e9eafd43a585e744910367df6d1f66f2ec04159c821f92c85e53d5603b03b0c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -489,8 +489,8 @@
       "activityId": "sci-g2-u01-l2-q02-en",
       "path": "question-art/sci-g2-u01-l2-q02-en.svg",
       "format": "svg",
-      "bytes": 1954,
-      "sha256": "e5966f34a79f2b205ba27f49e3bb2ce163471d57ce3f06309412fcb16ab89834",
+      "bytes": 1181,
+      "sha256": "2e770990acb56a9f10003c5b01586bc41101c26d492eb020220b3b8476ce529f",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -513,8 +513,8 @@
       "activityId": "sci-g2-u01-l2-q03-en",
       "path": "question-art/sci-g2-u01-l2-q03-en.svg",
       "format": "svg",
-      "bytes": 2215,
-      "sha256": "ff6f7bd130ac83dccd26b7e3f424eaff0c19bef34dacf17b5913aaf628c7dc50",
+      "bytes": 1194,
+      "sha256": "66dc8fe7ad1c730815d0c19763d15d3741d5aacb948f91eabc604250a3347a84",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -539,8 +539,8 @@
       "activityId": "sci-g2-u01-l2-q04-en",
       "path": "question-art/sci-g2-u01-l2-q04-en.svg",
       "format": "svg",
-      "bytes": 1370,
-      "sha256": "8cbbac5f5bd96d8ebd25ae0969c099a58d822b2b033e24248e703c75cdae463d",
+      "bytes": 1049,
+      "sha256": "cf1e0ed486b3c2b8f28becbd941a8b172225b86304a838d14137eb856b031da8",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -587,8 +587,8 @@
       "activityId": "sci-g2-u01-l2-q06-en",
       "path": "question-art/sci-g2-u01-l2-q06-en.svg",
       "format": "svg",
-      "bytes": 1578,
-      "sha256": "b34289ef76d84535c8e150096630207d02580b1896480da04ecf0a9107573737",
+      "bytes": 1183,
+      "sha256": "8125b8a991b7048728258ab1d1bb7c8bfba7f0ddbdb04db0102b05d6b929bfd6",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -610,8 +610,8 @@
       "activityId": "sci-g2-u01-l2-q07-en",
       "path": "question-art/sci-g2-u01-l2-q07-en.svg",
       "format": "svg",
-      "bytes": 1824,
-      "sha256": "0ba87e26edabeb28109ab47278a864d5e0956688f03112699b194c4d4873a3f5",
+      "bytes": 1046,
+      "sha256": "f9b2f74b64c62515805b741f2157a3489a20b1fbd7a4d899f378ea8aeb63cd09",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-02",
       "visualProfile": "science",
@@ -654,8 +654,8 @@
       "activityId": "sci-g2-u01-l3-q01-en",
       "path": "question-art/sci-g2-u01-l3-q01-en.svg",
       "format": "svg",
-      "bytes": 1712,
-      "sha256": "cb76dd17dc4fbf6d09afd16b01b668cbaca299d4b2eb8abe9e3af22830e4e44d",
+      "bytes": 1194,
+      "sha256": "20136a4aedf4a6ef646610e23ba0d05778f263913df263ae16dadca15fb07107",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -676,8 +676,8 @@
       "activityId": "sci-g2-u01-l3-q02-en",
       "path": "question-art/sci-g2-u01-l3-q02-en.svg",
       "format": "svg",
-      "bytes": 1883,
-      "sha256": "c4ca77322860a0e785fdef38b33e5274124b7b2de050bc0d92b06a98daa1ed84",
+      "bytes": 1183,
+      "sha256": "75ebaeafccf23adc6901fd7b90c6f3de69f0f7c9c4fe8f7596970348ec89b679",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -699,8 +699,8 @@
       "activityId": "sci-g2-u01-l3-q03-en",
       "path": "question-art/sci-g2-u01-l3-q03-en.svg",
       "format": "svg",
-      "bytes": 1382,
-      "sha256": "cc06913dcfb0d2ce7ba1f01f90ad587c3dd1d87da608d1cab3cd3c8ba995a36c",
+      "bytes": 1990,
+      "sha256": "6d0ec0125644b5e3648e2e0b739dfa28eaea8f24e78c4bc66c1ae06228b33d88",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -723,8 +723,8 @@
       "activityId": "sci-g2-u01-l3-q04-en",
       "path": "question-art/sci-g2-u01-l3-q04-en.svg",
       "format": "svg",
-      "bytes": 1822,
-      "sha256": "c1c12d476f9af341ee22961fd5e3b34121f865994f9ce9f8ac049962d8406895",
+      "bytes": 1190,
+      "sha256": "94d3ae7c8f04fb4dd220611cdebe794c9544cb4dca48ad9272b3daeb313bb917",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -747,8 +747,8 @@
       "activityId": "sci-g2-u01-l3-q05-en",
       "path": "question-art/sci-g2-u01-l3-q05-en.svg",
       "format": "svg",
-      "bytes": 1892,
-      "sha256": "106d8aa41c414a0c0efdf955caf1d0d29df7d0a15f40a1a00c4c02650da4263c",
+      "bytes": 1042,
+      "sha256": "84644694e27abe94f2008fabb06a57cb65771d92d23311a228576148c172597a",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -772,8 +772,8 @@
       "activityId": "sci-g2-u01-l3-q06-en",
       "path": "question-art/sci-g2-u01-l3-q06-en.svg",
       "format": "svg",
-      "bytes": 1306,
-      "sha256": "ea8fcbd2cfe00552857f7646774aa56b7d4228e08cf6b6f245b45cc71a8072b7",
+      "bytes": 1190,
+      "sha256": "3a44591c951ce71711d7619a20e3791c7652f5a21e9be682ad1753fd89f64a67",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -796,8 +796,8 @@
       "activityId": "sci-g2-u01-l3-q07-en",
       "path": "question-art/sci-g2-u01-l3-q07-en.svg",
       "format": "svg",
-      "bytes": 1112,
-      "sha256": "fb1407a07dfccd1b3a37a60fe0348fa9cc923951e3de829bda740c8f7c2682ce",
+      "bytes": 1194,
+      "sha256": "9140cd9d18e1a1c5f92a5bc59b1834fe6394f3822714a4087920e6593893efc8",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -819,8 +819,8 @@
       "activityId": "sci-g2-u01-l3-q08-en",
       "path": "question-art/sci-g2-u01-l3-q08-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "ab06ddf2b7baf15f9d8e9a12409db2c3e387fbca53d11508f1ac05cc2fcb7c57",
+      "bytes": 1046,
+      "sha256": "90db48676bc9d9ba96390c0003cc2d3e80921d64bd99745effcbde0555f33e21",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-03",
       "visualProfile": "science",
@@ -841,8 +841,8 @@
       "activityId": "sci-g2-u01-l4-q01-en",
       "path": "question-art/sci-g2-u01-l4-q01-en.svg",
       "format": "svg",
-      "bytes": 868,
-      "sha256": "860e10f16eb8d82741af6de75b2e724f2e1b72a830cc52fddcd861c75f641a37",
+      "bytes": 1031,
+      "sha256": "30a2991192660344449568d75443320bc9be723a1715ad2f35c82e72e908be86",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -938,8 +938,8 @@
       "activityId": "sci-g2-u01-l4-q05-en",
       "path": "question-art/sci-g2-u01-l4-q05-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "bcf2d16b0245ed27ba881480016773818fe295b0817d02c84f40139d70210929",
+      "bytes": 1200,
+      "sha256": "d9d4ff115af1007e39bb4806f0ec81e648b640f5f869695772c212984c6e5e03",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-07",
       "visualProfile": "science",
@@ -963,8 +963,8 @@
       "activityId": "sci-g2-u01-l4-q06-en",
       "path": "question-art/sci-g2-u01-l4-q06-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "a9831d5c8dc6c2012329c71068739d1f8b78cda3918ae1bf1567a4d91ea2df36",
+      "bytes": 1185,
+      "sha256": "aa352dabbcd1b05d0125038e7d54b7fd4ffa5a57630e0c93cd56989859a44812",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -1011,8 +1011,8 @@
       "activityId": "sci-g2-u01-l4-q08-en",
       "path": "question-art/sci-g2-u01-l4-q08-en.svg",
       "format": "svg",
-      "bytes": 1795,
-      "sha256": "d2a7042fbe40a98bae65b72dc3ca440d4dd181ea1bf25f01495ccf97dfdac9ec",
+      "bytes": 1990,
+      "sha256": "a6a52508331600b9c1987a5dd4d4a30773347b4c7ee30332061b412e93b92c8a",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-PL-04",
       "visualProfile": "science",
@@ -1038,8 +1038,8 @@
       "activityId": "new-aboudy-english-001",
       "path": "question-art/new-aboudy-english-001.png",
       "format": "png",
-      "bytes": 14898,
-      "sha256": "753303f71b52e8ed6ae2396ad6ed98f984abe35908025924a81104008e93dd8f",
+      "bytes": 14205,
+      "sha256": "17750e5927ef15049b60af75daf73f691571c676cbbd237069c4dba430fc217c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1057,8 +1057,8 @@
       "activityId": "new-aboudy-english-002",
       "path": "question-art/new-aboudy-english-002.png",
       "format": "png",
-      "bytes": 12439,
-      "sha256": "1008182971ff296541f69cfcc68351f779db9286cf6c7a77e7faff90a5095939",
+      "bytes": 12421,
+      "sha256": "605afbb5ae02b76f5fbc83a8fe4cb0c0046aaf3a05b75b263cff06fd4af6a0c5",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1080,8 +1080,8 @@
       "activityId": "new-aboudy-english-003",
       "path": "question-art/new-aboudy-english-003.png",
       "format": "png",
-      "bytes": 10976,
-      "sha256": "af065877af37b93718f54a90080587d09357b7c581b4f4730e8e952c1ce36e49",
+      "bytes": 10951,
+      "sha256": "43d7d63da715970e4e8622a6c01bcbbc5cfcef821a3910476493cac49f696d6d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1101,8 +1101,8 @@
       "activityId": "new-aboudy-english-004",
       "path": "question-art/new-aboudy-english-004.png",
       "format": "png",
-      "bytes": 13859,
-      "sha256": "c811b743e4daa94763e43930ce7132a7452f90992d3439d120f0f773b105fdc8",
+      "bytes": 13464,
+      "sha256": "52a97f43a6c5861ebaa9f5ff54e5f8296f6a0eb7bd8971b10cfc48dbf3c34040",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1141,8 +1141,8 @@
       "activityId": "new-aboudy-english-006",
       "path": "question-art/new-aboudy-english-006.png",
       "format": "png",
-      "bytes": 8521,
-      "sha256": "dec84dd7b4aa70bcae43edf60f5add882ce0c14e0c82e21aae8e696ca24d6a0f",
+      "bytes": 8452,
+      "sha256": "c4085d7986d685ce10bb9a854809031c0c11c0ce5a7f25e60460a78bf6bf3589",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1158,8 +1158,8 @@
       "activityId": "new-aboudy-english-007",
       "path": "question-art/new-aboudy-english-007.png",
       "format": "png",
-      "bytes": 7160,
-      "sha256": "15cd33179264232070459cc9e66b33a64ae47bdf4152dcd0c9c36352ede98636",
+      "bytes": 7669,
+      "sha256": "09a6e6f147e0ad944ab7abf6d3968ec58bae5ee181c1728f8fa76c7d5bca5b9a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1211,8 +1211,8 @@
       "activityId": "new-aboudy-english-010",
       "path": "question-art/new-aboudy-english-010.png",
       "format": "png",
-      "bytes": 7179,
-      "sha256": "9dc085c186c0e4664f8bf76afbb4436bf7c2887069ba83428df3f34410fcf8ac",
+      "bytes": 7690,
+      "sha256": "2599935217bebccc2726ab300fd6d317b43110fd01dc220cc59a088978f3061e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1228,8 +1228,8 @@
       "activityId": "new-aboudy-english-011",
       "path": "question-art/new-aboudy-english-011.png",
       "format": "png",
-      "bytes": 6525,
-      "sha256": "3a01f75535024ff9c6db835364a665324a60394e3150ead1d931850e407dc450",
+      "bytes": 6520,
+      "sha256": "8a3d4a15fce031224d01d19d12286f6352fdefaae2868336935d30abffca2641",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1270,8 +1270,8 @@
       "activityId": "new-aboudy-english-013",
       "path": "question-art/new-aboudy-english-013.png",
       "format": "png",
-      "bytes": 10979,
-      "sha256": "5063469dc4bfb0c1b3b5636bcc57ebf9495ef283fa32adc0202e14988473e721",
+      "bytes": 10962,
+      "sha256": "706ba40b8da5a98c4d831e21f402f04f2921b9018ead94ac8b48ee66564006ac",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1313,8 +1313,8 @@
       "activityId": "new-aboudy-english-015",
       "path": "question-art/new-aboudy-english-015.png",
       "format": "png",
-      "bytes": 6826,
-      "sha256": "1e7358426dee4ee7d12b3a28d035b39ddef3bfa2db4704ae6c816b7c58b74355",
+      "bytes": 6893,
+      "sha256": "33aaf877f631b8c85a878b6a31b507d96768d47f2547a445f741014af0e19be9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1330,8 +1330,8 @@
       "activityId": "new-aboudy-english-016",
       "path": "question-art/new-aboudy-english-016.png",
       "format": "png",
-      "bytes": 8500,
-      "sha256": "f6b6c510a70f1f01c45166f77c1209cf6c627082184ab6ed9ad23e2bcb9c4aed",
+      "bytes": 8427,
+      "sha256": "89344689d520b9cdbdedacfc960ed7cde4bd222fc57cfd7725587486ebf08614",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1347,8 +1347,8 @@
       "activityId": "new-aboudy-english-017",
       "path": "question-art/new-aboudy-english-017.png",
       "format": "png",
-      "bytes": 6497,
-      "sha256": "44a2d6adb9e46c9c70312744eaa5c1859c8819f87550e4dcb71ab6359a4d8e39",
+      "bytes": 6493,
+      "sha256": "90ac233559bf7b380865ff695b1e703171ee0c54c77b6b1d3430e75fde2b31fb",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1364,8 +1364,8 @@
       "activityId": "new-aboudy-english-018",
       "path": "question-art/new-aboudy-english-018.png",
       "format": "png",
-      "bytes": 7762,
-      "sha256": "f765949f662dac6ff2f3d1861063b9cdc6aafd1ab9eda51d515ec2ff1626dcab",
+      "bytes": 7839,
+      "sha256": "22ce0ada89a4e7b0e962647f8ceeebeb81651fac42860b235b4d2174a12983d3",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1412,8 +1412,8 @@
       "activityId": "new-aboudy-english-020",
       "path": "question-art/new-aboudy-english-020.png",
       "format": "png",
-      "bytes": 12728,
-      "sha256": "75fda5b18bdbd19a24dbfc0be88cf9c0b6bcaa4299c880f97b708f22bd9e9ced",
+      "bytes": 12539,
+      "sha256": "2272f3d66c03be72b6bc86af960ce3456fb9dda29026583e82ecd500de4aa8c4",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1452,8 +1452,8 @@
       "activityId": "new-aboudy-english-022",
       "path": "question-art/new-aboudy-english-022.png",
       "format": "png",
-      "bytes": 6920,
-      "sha256": "e2a01595403669493cc592739841031318e51227ad01db7fae2a10ebad317ff2",
+      "bytes": 6903,
+      "sha256": "95405aa0fcebdf83a1719a2c0c8f95176b7411132e5fbe008453994123cdf86f",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -1539,8 +1539,8 @@
       "activityId": "new-aboudy-english-027",
       "path": "question-art/new-aboudy-english-027.png",
       "format": "png",
-      "bytes": 7350,
-      "sha256": "5b5818a4d059a56797e5e4d8142e3c2bdf1d7a406cd180de00a43a6d6e415b6e",
+      "bytes": 7307,
+      "sha256": "a4fe4147eb151bdbf3fa9c712b0c218964c76ae31acbd92aeadf66aa5b09f932",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-grammar-and-word-study",
       "visualProfile": "english-grammar",
@@ -2628,8 +2628,8 @@
       "activityId": "new-aboudy-science-001",
       "path": "question-art/new-aboudy-science-001.svg",
       "format": "svg",
-      "bytes": 874,
-      "sha256": "dcac22fe6404e2308bf98a8569cd06fea9c1580f990beef1cbae5033ba8919c8",
+      "bytes": 1202,
+      "sha256": "461888f56cd7e620c8de9ce9c181b5b3150440ec2fa606f75282500159dd3aff",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2651,8 +2651,8 @@
       "activityId": "new-aboudy-science-002",
       "path": "question-art/new-aboudy-science-002.svg",
       "format": "svg",
-      "bytes": 2232,
-      "sha256": "beab639eec95ccdb5cdbe9ec2d955cac5390e7b540e34f1658f23216eb020e0b",
+      "bytes": 1206,
+      "sha256": "086094c3970d429c4f4bff775378719fc2ff017b2d8e3de3c94a4f58fc3adecd",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2675,8 +2675,8 @@
       "activityId": "new-aboudy-science-003",
       "path": "question-art/new-aboudy-science-003.svg",
       "format": "svg",
-      "bytes": 2109,
-      "sha256": "202850fe3fbf68765aec1be7de3bbeb47cbf64a95b2fc522e165dbae4cb3e8dd",
+      "bytes": 1748,
+      "sha256": "86345e3fadfae31ac3a70ab8c4203cc46208d3ff1fbae8f7b46bea472dabace2",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2698,8 +2698,8 @@
       "activityId": "new-aboudy-science-004",
       "path": "question-art/new-aboudy-science-004.svg",
       "format": "svg",
-      "bytes": 2366,
-      "sha256": "30272baf7883dd788fffdf4e07903b4383ee921710cfb0a329cdecac59a3ee9f",
+      "bytes": 1200,
+      "sha256": "44d43fe398ef7411967953fa72cce799c6c1eb83197e953c956093d55511e392",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2722,8 +2722,8 @@
       "activityId": "new-aboudy-science-005",
       "path": "question-art/new-aboudy-science-005.svg",
       "format": "svg",
-      "bytes": 2526,
-      "sha256": "d6982c5f84887c175d139143a82a0894260114319c5da10f0817718e689e4165",
+      "bytes": 1197,
+      "sha256": "c2ccaec6936d397add34cf571a5a652b46f9eebfcd7ad4c0181d1ff2b9e553d0",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2746,8 +2746,8 @@
       "activityId": "new-aboudy-science-006",
       "path": "question-art/new-aboudy-science-006.svg",
       "format": "svg",
-      "bytes": 2145,
-      "sha256": "e2ce87f8dc2daa18be3c680c59db36bb1cfe0ee76f485eb54df052ef6f3608af",
+      "bytes": 1196,
+      "sha256": "6bb8b698201749ac2018a63292911bc17e39a010101794ad5ac1ddd5795d075f",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2769,8 +2769,8 @@
       "activityId": "new-aboudy-science-007",
       "path": "question-art/new-aboudy-science-007.svg",
       "format": "svg",
-      "bytes": 1224,
-      "sha256": "d7e2e219bb100c071741317b2a8c608aa62560ff5bb53e4936775adae8266896",
+      "bytes": 1197,
+      "sha256": "d2a1903aac8aa2a2cb3e09701f6136551e4057cb6c3cf84baa511cb011e9813e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2791,8 +2791,8 @@
       "activityId": "new-aboudy-science-008",
       "path": "question-art/new-aboudy-science-008.svg",
       "format": "svg",
-      "bytes": 2139,
-      "sha256": "12fc111bc9defa94570a31c54c4c9a9b4e2f730c33606cdccbd9f0354e1aab6c",
+      "bytes": 1195,
+      "sha256": "c85efa4b0bf967d6ff357babaac0a732fc8c03567e6c47eb55e5881590686658",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2814,8 +2814,8 @@
       "activityId": "new-aboudy-science-009",
       "path": "question-art/new-aboudy-science-009.svg",
       "format": "svg",
-      "bytes": 819,
-      "sha256": "c2500a27562c348d0227a5348d62cf1f923b7d3c50c9448ace5bc2f32e08bd04",
+      "bytes": 1195,
+      "sha256": "ad2521a1ea4e22802101897785e3cd4f2a1a88ef5648bf67cee223603b37d858",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2837,8 +2837,8 @@
       "activityId": "new-aboudy-science-010",
       "path": "question-art/new-aboudy-science-010.svg",
       "format": "svg",
-      "bytes": 1611,
-      "sha256": "088ff2ee3530cd9328ea5881a81ceb270414f4693102a5efdeadfa6aedda8509",
+      "bytes": 1193,
+      "sha256": "42d0e4ad828d9b1b4a2dfa3a3b9ad1949e54e153623cad861f9e899cc0d859bf",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2860,8 +2860,8 @@
       "activityId": "new-aboudy-science-011",
       "path": "question-art/new-aboudy-science-011.svg",
       "format": "svg",
-      "bytes": 1573,
-      "sha256": "e19617135f7f42e58767188277ff649d001b01a0cbe396c5f4b0dc9d4f3e3244",
+      "bytes": 1192,
+      "sha256": "c795512e22c69679ccd4b62e02a8052f49db3830823c81192fadfe0f81d00075",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2883,8 +2883,8 @@
       "activityId": "new-aboudy-science-012",
       "path": "question-art/new-aboudy-science-012.svg",
       "format": "svg",
-      "bytes": 1134,
-      "sha256": "5707fcd2524fce8c39f0db6b8694cd52a7fa1424922ca4a8e015efc60cc4e2f5",
+      "bytes": 1194,
+      "sha256": "c391fa98b846f153c09fb59d4ed8b60653b618fc659544d57c71b46b2dda31fe",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2904,8 +2904,8 @@
       "activityId": "new-aboudy-science-013",
       "path": "question-art/new-aboudy-science-013.svg",
       "format": "svg",
-      "bytes": 1447,
-      "sha256": "969cb5cf8fc8d381e03d3f1d669a23865af7cf39b993d9df73902eb4447877be",
+      "bytes": 1201,
+      "sha256": "5999a79d11ccfec3920f6fb4b0e55d69440067083ef5d8fceb5bb21ff22f229e",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2927,8 +2927,8 @@
       "activityId": "new-aboudy-science-014",
       "path": "question-art/new-aboudy-science-014.svg",
       "format": "svg",
-      "bytes": 1530,
-      "sha256": "35263862b5277b55f648b2b70a4943f9b93814c16eeb33640c941c9f2d7faef7",
+      "bytes": 1193,
+      "sha256": "58161a7c11ec6777765f9645c663a21c15b103b2a06e4893c88f20c7ae4eb0d9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2950,8 +2950,8 @@
       "activityId": "new-aboudy-science-015",
       "path": "question-art/new-aboudy-science-015.svg",
       "format": "svg",
-      "bytes": 1547,
-      "sha256": "09f42730d60823bb800abf96d4fdb5f45a75c060f01999f4b394e1733d3f6921",
+      "bytes": 1191,
+      "sha256": "f2ee96b05362a957ec72b1d572102e212d34da2f006e094a930f52b17121e924",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2973,8 +2973,8 @@
       "activityId": "new-aboudy-science-016",
       "path": "question-art/new-aboudy-science-016.svg",
       "format": "svg",
-      "bytes": 1800,
-      "sha256": "739dc2129a73ff307d36bad89138acb5ee54ed53a2aad80b65e8c08c97901d17",
+      "bytes": 1200,
+      "sha256": "152689c7eb935e20a01d503019608364604281fcb4ad9dc61ce93d963a29606d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -2996,8 +2996,8 @@
       "activityId": "new-aboudy-science-017",
       "path": "question-art/new-aboudy-science-017.svg",
       "format": "svg",
-      "bytes": 889,
-      "sha256": "1030d01cbb78b89beef9b60ece905d90db43b76ff6ebf5435687f224414246fb",
+      "bytes": 1199,
+      "sha256": "f64c36088d82b52ae116ffd41b2d5005495e44cf946aa97400a7e771d7dd5767",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3019,8 +3019,8 @@
       "activityId": "new-aboudy-science-018",
       "path": "question-art/new-aboudy-science-018.svg",
       "format": "svg",
-      "bytes": 2119,
-      "sha256": "c04ab6746e47814e05e95349ca87891a003b156fd9493c10155dde072bf1ef88",
+      "bytes": 1197,
+      "sha256": "2f79d235ac69cfba21ec3aa82c362b09660561a362bf17473afdd93476c7049a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3043,8 +3043,8 @@
       "activityId": "new-aboudy-science-019",
       "path": "question-art/new-aboudy-science-019.svg",
       "format": "svg",
-      "bytes": 1102,
-      "sha256": "791a29dc0f85d46d2d0bc68e090a4e3877f4ece3e4de7e1c5d78b15fb3c9e9fa",
+      "bytes": 1195,
+      "sha256": "d3126885365312bcee7ac22e7e77e654433ef9a0fd80a1a779816acd22bc97fa",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3066,8 +3066,8 @@
       "activityId": "new-aboudy-science-020",
       "path": "question-art/new-aboudy-science-020.svg",
       "format": "svg",
-      "bytes": 1681,
-      "sha256": "613fb94cfffff5ed382418a131028d976c505bd8e498d1f7e00a2fa8ab3688f5",
+      "bytes": 1204,
+      "sha256": "bb019477460e7b83351bace0a546b8c0dfb3aa62f1396386c2c8309bda9c9753",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3089,8 +3089,8 @@
       "activityId": "new-aboudy-science-021",
       "path": "question-art/new-aboudy-science-021.svg",
       "format": "svg",
-      "bytes": 1690,
-      "sha256": "64391af9ce5596e25b56dc1cafb04d0b6523fd4db55e3b5c40c797b105b1e12e",
+      "bytes": 1194,
+      "sha256": "d7a0f556935a37f8fb2030b38fcbc3d7ca9313e984edd3f810df24905071e5f6",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3112,8 +3112,8 @@
       "activityId": "new-aboudy-science-022",
       "path": "question-art/new-aboudy-science-022.svg",
       "format": "svg",
-      "bytes": 1547,
-      "sha256": "3a3eefaef05ade81dd1deef076832ea831ed4c6fb61efa6864432b60c1d9615a",
+      "bytes": 1201,
+      "sha256": "47bd399c3e901bcd02d23b1285f016d79cc3792cd5e1f48102036a7572700cd0",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3135,8 +3135,8 @@
       "activityId": "new-aboudy-science-023",
       "path": "question-art/new-aboudy-science-023.svg",
       "format": "svg",
-      "bytes": 1969,
-      "sha256": "d260c3a0c0b6128f11e200e08e1b9cba79ae8902017a95f7b4b69c12e51e73f5",
+      "bytes": 1193,
+      "sha256": "ad5e9c3f1b0b428ca0c77b7b21cdfe406c97cec974bb5c6739c8225accd0f559",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3158,8 +3158,8 @@
       "activityId": "new-aboudy-science-024",
       "path": "question-art/new-aboudy-science-024.svg",
       "format": "svg",
-      "bytes": 900,
-      "sha256": "abcd1c57d232a72c5d1fe54e0fb2200af9ba67eac072663238e9681231d6f904",
+      "bytes": 1193,
+      "sha256": "6e79468393b0b92a23c613e3409221558f044311f2dc01aa1c39b56a6a278de3",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3181,8 +3181,8 @@
       "activityId": "new-aboudy-science-025",
       "path": "question-art/new-aboudy-science-025.svg",
       "format": "svg",
-      "bytes": 944,
-      "sha256": "32048031751525b8ec804db182c835da30680152771e7213b9b4977f1e0be2c8",
+      "bytes": 1197,
+      "sha256": "67db85451e6b1efab9759a53ebbf33c9c976eae72f032b71839e316a2d6a6df1",
       "engineVersion": "1.9.0",
       "skillId": "aas2-aboudy-living-world-matter-and-earth",
       "visualProfile": "science",
@@ -3204,8 +3204,8 @@
       "activityId": "sci-g2-u02-l1-q01-en",
       "path": "question-art/sci-g2-u02-l1-q01-en.svg",
       "format": "svg",
-      "bytes": 1939,
-      "sha256": "c59f90b4b4534f29388b0c7e33cfd410b7cdbdab5a23e85e82fc97c05b12bb31",
+      "bytes": 1033,
+      "sha256": "738fb4d74b5bbda1d1ec7038ca66039e355f55d502ebca419aadbdd6616493f2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science",
@@ -3225,8 +3225,8 @@
       "activityId": "sci-g2-u02-l1-q02-en",
       "path": "question-art/sci-g2-u02-l1-q02-en.svg",
       "format": "svg",
-      "bytes": 1939,
-      "sha256": "d1b012fe437efc27e3c1fbf937f2cafde0ffc11cd586d7060b839a6e2802f60e",
+      "bytes": 1047,
+      "sha256": "fdf0b36e06cc017c76310079a3a6c2013a3627bc2952af2a254538986f204cbe",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-00",
       "visualProfile": "science",
@@ -3246,8 +3246,8 @@
       "activityId": "sci-g2-u02-l1-q03-en",
       "path": "question-art/sci-g2-u02-l1-q03-en.svg",
       "format": "svg",
-      "bytes": 1103,
-      "sha256": "04af05917227dd1eda9f1a474dbfb06bcf5d70014efbd544f4adaf706a78c0c6",
+      "bytes": 1031,
+      "sha256": "2de03cb032c140112dfe0d3d2cb40c8d1eac3f1554bc99868cdc88c084872715",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3267,8 +3267,8 @@
       "activityId": "sci-g2-u02-l1-q04-en",
       "path": "question-art/sci-g2-u02-l1-q04-en.svg",
       "format": "svg",
-      "bytes": 2360,
-      "sha256": "ef8d89195c1aa4fa17c74ef73c3930bea687832d5725f44e799187ae75cd0468",
+      "bytes": 1189,
+      "sha256": "30742dc83bd36555e05245d844306571309f3f671025598b4a35441cbffecd56",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science",
@@ -3292,8 +3292,8 @@
       "activityId": "sci-g2-u02-l1-q05-en",
       "path": "question-art/sci-g2-u02-l1-q05-en.svg",
       "format": "svg",
-      "bytes": 1376,
-      "sha256": "b7c1e733cb5dbb98b316e82d3ed521db8c1155502bef5093e247ca80f2ab31ef",
+      "bytes": 1180,
+      "sha256": "942aaf44404457cb7807ca766c469f1b1929864502151ae0001df5b284dcf446",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3315,8 +3315,8 @@
       "activityId": "sci-g2-u02-l1-q06-en",
       "path": "question-art/sci-g2-u02-l1-q06-en.svg",
       "format": "svg",
-      "bytes": 2360,
-      "sha256": "b7473cb3564a7dbb4d8a6e8480b201a3ef240df56ab3f7bb361fd2ebc1670de5",
+      "bytes": 1041,
+      "sha256": "a2973cc872432655715285266129a3bfd7e564cbf3e00b8e9760c9fbe976f13d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-06",
       "visualProfile": "science",
@@ -3337,8 +3337,8 @@
       "activityId": "sci-g2-u02-l2-q01-en",
       "path": "question-art/sci-g2-u02-l2-q01-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "0001f63f0de29f9c2110948594f0aa585f39e2659e4ed57c52c9933ea98538be",
+      "bytes": 1032,
+      "sha256": "99817628b28f392d41374a571fb98256a8997fe8babbb6d172fcdb86d229341d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3359,8 +3359,8 @@
       "activityId": "sci-g2-u02-l2-q02-en",
       "path": "question-art/sci-g2-u02-l2-q02-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "8363484004b049440d2a07d882cc67e213e9c66ab9738c1e75071eb1e0f24da1",
+      "bytes": 1033,
+      "sha256": "bb0eb46ace5f751aed1688fcb1da262210ed71477f4c86c429649c88b5ef91d2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3380,8 +3380,8 @@
       "activityId": "sci-g2-u02-l2-q03-en",
       "path": "question-art/sci-g2-u02-l2-q03-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "4001dcc7bf310b457cd59b8f5a86a10df830973bcd5694e4252766209af82795",
+      "bytes": 1036,
+      "sha256": "2fe77c17e3f7d84cd47a51bf6d0c151e43ef9aeb727df5e008905d08645ff832",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3403,8 +3403,8 @@
       "activityId": "sci-g2-u02-l2-q04-en",
       "path": "question-art/sci-g2-u02-l2-q04-en.svg",
       "format": "svg",
-      "bytes": 1933,
-      "sha256": "c0996fdf172ed62dbda5883c8dd8f1faa3ca14a99f4e9d22451400c66693a3f2",
+      "bytes": 1177,
+      "sha256": "054fc989dc02b0447fda2006711bf5d5b0184463d1f18b426603b93cd3c1759d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-05",
       "visualProfile": "science",
@@ -3423,8 +3423,8 @@
       "activityId": "sci-g2-u02-l2-q05-en",
       "path": "question-art/sci-g2-u02-l2-q05-en.svg",
       "format": "svg",
-      "bytes": 1345,
-      "sha256": "e898096487e618b9fd12357000431aaf70bc120bf4a611eb046601b57e5e79e5",
+      "bytes": 1194,
+      "sha256": "5f3c2457241143c2c956e55347f4263cd30f2be31c7114177d5b554e0e513db5",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3449,8 +3449,8 @@
       "activityId": "sci-g2-u02-l2-q06-en",
       "path": "question-art/sci-g2-u02-l2-q06-en.svg",
       "format": "svg",
-      "bytes": 1545,
-      "sha256": "ebefe4bf2c3f0f30700a12da31868cbdd48a7b10dcfa340a18dbedf8e3969fa7",
+      "bytes": 1199,
+      "sha256": "997ac5dbb378f21f539d4d76916c036f9dcf48a5ef8ab9ed2e5fa3d8642f3256",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-02",
       "visualProfile": "science",
@@ -3474,8 +3474,8 @@
       "activityId": "sci-g2-u02-l3-q01-en",
       "path": "question-art/sci-g2-u02-l3-q01-en.svg",
       "format": "svg",
-      "bytes": 1517,
-      "sha256": "48b6c322533e2fb15fe4f0cf03188bb5e0fbc6f3d0ebdd71db7916681a49e049",
+      "bytes": 1044,
+      "sha256": "cb408aa5a9c9872250f14d55875b4d8caff898836138b06e89a257d595a02acf",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3494,8 +3494,8 @@
       "activityId": "sci-g2-u02-l3-q02-en",
       "path": "question-art/sci-g2-u02-l3-q02-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "0cf5e6f50737bf0a11e77b8795da00e32ab06082c503fca293994dbd4702addc",
+      "bytes": 1046,
+      "sha256": "0b6dacda4819eed4b3e897a24c96855a33281f36750cf198fe9615a9922e283c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3515,8 +3515,8 @@
       "activityId": "sci-g2-u02-l3-q03-en",
       "path": "question-art/sci-g2-u02-l3-q03-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "3d003bb7613c0f0da681bfec3c8e4d12218bc0dfbf5ecf304ef0ca756ca84891",
+      "bytes": 1030,
+      "sha256": "3625fd1a0815c56fd96f5ed617c73e8d49d859f97583cb93366ae30e69b5fa57",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3537,8 +3537,8 @@
       "activityId": "sci-g2-u02-l3-q04-en",
       "path": "question-art/sci-g2-u02-l3-q04-en.svg",
       "format": "svg",
-      "bytes": 1088,
-      "sha256": "a55604059a671e1bbe66e59876b975f8bb67acd07b33260ef146f8126d556973",
+      "bytes": 1178,
+      "sha256": "6c57eb13bd46de8cd42fb4609d3b5875b48d44b124b3cc2ce4dc1d49a3972492",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-01",
       "visualProfile": "science",
@@ -3586,8 +3586,8 @@
       "activityId": "sci-g2-u02-l3-q06-en",
       "path": "question-art/sci-g2-u02-l3-q06-en.svg",
       "format": "svg",
-      "bytes": 1597,
-      "sha256": "29589bdd263f08c7b6066bc93044c16a5717e0bc3d91968783424915db3d139a",
+      "bytes": 1192,
+      "sha256": "d72696243c9d14aeab7c81925392cb507c4abb0d227d5e054d12ce9c6402ae89",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-09",
       "visualProfile": "science",
@@ -3609,8 +3609,8 @@
       "activityId": "sci-g2-u02-l4-q01-en",
       "path": "question-art/sci-g2-u02-l4-q01-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "d789482871b6c0c8415751a78b2f52b04b8d123bd5ad311e148701bac6391b2c",
+      "bytes": 1032,
+      "sha256": "2c2bb487b9db31c6fb5048f5f1772a3923628ffd2bf8aa74bf2ed93fabc321ce",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3628,8 +3628,8 @@
       "activityId": "sci-g2-u02-l4-q02-en",
       "path": "question-art/sci-g2-u02-l4-q02-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "1b807946185c8a90f1ba57d43c56571f988e3b711af31872f41e88c0e3070b33",
+      "bytes": 1197,
+      "sha256": "0aae215e65789296ab25a460656b00942b3b84cfd0f9bfa21081aff7a67fcac2",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3652,8 +3652,8 @@
       "activityId": "sci-g2-u02-l4-q03-en",
       "path": "question-art/sci-g2-u02-l4-q03-en.svg",
       "format": "svg",
-      "bytes": 1010,
-      "sha256": "05c46583d5beede5408993302dfe492e74dda74eb3bc336bbebde253b2adc771",
+      "bytes": 1038,
+      "sha256": "7cf7594bf2630497d6aac9413bee967a66e2ce69e55db06f3b2cc019ba582a6c",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3675,8 +3675,8 @@
       "activityId": "sci-g2-u02-l4-q04-en",
       "path": "question-art/sci-g2-u02-l4-q04-en.svg",
       "format": "svg",
-      "bytes": 1381,
-      "sha256": "5506c8d5b124af3b3dcab908fbeae3345048fb01ff898a5eda60e391293694b4",
+      "bytes": 1036,
+      "sha256": "cc490d8d528f4ee6d8aa32d90e2ef23dd97743ec752332adcce213a3eb4f9c85",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-05",
       "visualProfile": "science",
@@ -3698,8 +3698,8 @@
       "activityId": "sci-g2-u02-l4-q05-en",
       "path": "question-art/sci-g2-u02-l4-q05-en.svg",
       "format": "svg",
-      "bytes": 2226,
-      "sha256": "fccbe34301db008e731d75e30e316116e76c9b7d944bc0cd00c891c53e06290c",
+      "bytes": 1189,
+      "sha256": "135fb3d7e0c912fceee3c29fcf8102e60e85e7d5111f89275042d0dd5e0213b1",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-03",
       "visualProfile": "science",
@@ -3723,8 +3723,8 @@
       "activityId": "sci-g2-u02-l4-q06-en",
       "path": "question-art/sci-g2-u02-l4-q06-en.svg",
       "format": "svg",
-      "bytes": 911,
-      "sha256": "0d4b0cc8c78a4965798acc42bf60479f223124b10152c862073fdeb605a712f7",
+      "bytes": 1182,
+      "sha256": "64e7d323749d6402296a5e4795278d093ed9767a09e01436be980b6ac6f8282b",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-ENQ-06",
       "visualProfile": "science",
@@ -3742,8 +3742,8 @@
       "activityId": "sci-g2-u02-l5-q01-en",
       "path": "question-art/sci-g2-u02-l5-q01-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "71676422771a0991d726df18aed96a3251dae62d7dd716f0f07a829e59860675",
+      "bytes": 896,
+      "sha256": "47dc78a92c25269e4210d20be86122eba82881a37f97756607e91f06e678743e",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3764,8 +3764,8 @@
       "activityId": "sci-g2-u02-l5-q02-en",
       "path": "question-art/sci-g2-u02-l5-q02-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "6c83879fa092932c153c33a38526538da95fd9f557a4fa3b55339832cfa53c2c",
+      "bytes": 1193,
+      "sha256": "601da2177ce01ccc51884f6d6d1db8b3011d6048cce0c0d5be0b490e30ce9639",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3789,8 +3789,8 @@
       "activityId": "sci-g2-u02-l5-q03-en",
       "path": "question-art/sci-g2-u02-l5-q03-en.svg",
       "format": "svg",
-      "bytes": 2234,
-      "sha256": "7abefceda2f733f5e3377b21a493aee19536a110545ac63bcdab9f09c70a0eb9",
+      "bytes": 1043,
+      "sha256": "c1c66f390a09e3b77c73b06f16c3a3d153a3f5a0f071d7c0304a972147f48738",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3837,8 +3837,8 @@
       "activityId": "sci-g2-u02-l5-q05-en",
       "path": "question-art/sci-g2-u02-l5-q05-en.svg",
       "format": "svg",
-      "bytes": 972,
-      "sha256": "da471bb83eeb4db6414d3b879f745080a053bb29e7f71da7ef627a73c1f8b3ea",
+      "bytes": 1045,
+      "sha256": "f72d48e53c8a6e16a38252a0c2947f11e22a4f10103ada7772f5993b75bf1531",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -3859,8 +3859,8 @@
       "activityId": "sci-g2-u02-l5-q06-en",
       "path": "question-art/sci-g2-u02-l5-q06-en.svg",
       "format": "svg",
-      "bytes": 863,
-      "sha256": "678ae666bdab7ef0f86f922e96667bdb8b4dce9be8e4937fa83a465d39fb2cf0",
+      "bytes": 1042,
+      "sha256": "6b75cf0430cf89bc9251bd572f5a2a7d6b457a3fee01ec36a33a4a881c55004d",
       "engineVersion": "1.9.0",
       "skillId": "SCI-G2-AN-04",
       "visualProfile": "science",
@@ -4003,8 +4003,8 @@
       "activityId": "aas2-ew2-ew2-u01-l04-007",
       "path": "question-art/aas2-ew2-ew2-u01-l04-007.png",
       "format": "png",
-      "bytes": 12069,
-      "sha256": "8da3ef4cf99af931a63293586fcfbcead3c9506d6ea41c31a8542902cae9ddf1",
+      "bytes": 12023,
+      "sha256": "7f2c30451b0a9b40e7f6125135e1d0471b30e33bce57acca96b68d8b748b65f3",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ew2-u01-sentence-order",
       "visualProfile": "english-grammar",
@@ -4020,8 +4020,8 @@
       "activityId": "aas2-ew2-ew2-u01-l04-008",
       "path": "question-art/aas2-ew2-ew2-u01-l04-008.png",
       "format": "png",
-      "bytes": 13754,
-      "sha256": "ce052b1153b25b48543b26605a92578e7001dbfa6a6aef43d2cfed30b6e671fa",
+      "bytes": 13336,
+      "sha256": "f9cf845367102bd56769d805166332273c783a0b295d849991413dfab8be2961",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ew2-u01-sentence-order",
       "visualProfile": "english-grammar",
@@ -4537,8 +4537,8 @@
       "activityId": "aas2-ew2-ew2-u08-l01-034",
       "path": "question-art/aas2-ew2-ew2-u08-l01-034.svg",
       "format": "svg",
-      "bytes": 2391,
-      "sha256": "ba4b63133ffed8460ea4e8293be07e9603d8afc7beee85eda43b967e9291b984",
+      "bytes": 1041,
+      "sha256": "baa2b4c5da48b32f3a31da90bdfb39e52544f51f7d3697c25ef527de8a2fd96a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ew2-u08-animals-was-were",
       "visualProfile": "science",
@@ -5251,12 +5251,14 @@
       "activityId": "aas2-2a-mm2a-u08-02",
       "path": "question-art/aas2-2a-mm2a-u08-02.svg",
       "format": "svg",
-      "bytes": 766,
-      "sha256": "fc10199dc6d58dd27ebc06da5149faf10fff72be4978c4801f27c7f6f309bb46",
+      "bytes": 1418,
+      "sha256": "2974f6742c8b8e4582e2ef4af5e19fa38dc525580a8cf118c4c4afee31eae36c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-mm2a-review-u08",
       "visualProfile": "math",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "number"
+      ],
       "optionImagePaths": [
         "option-art/94a16d4d5f694e4d417f5d23.svg",
         "option-art/87834cddb248efc814d87976.svg"
@@ -5579,12 +5581,15 @@
       "activityId": "aas2-2b-mm2b-u16-01",
       "path": "question-art/aas2-2b-mm2b-u16-01.svg",
       "format": "svg",
-      "bytes": 766,
-      "sha256": "ff587670f990f889fa8b61573e8e0b7108123d1bfeb22b8547fc10463da28732",
+      "bytes": 853,
+      "sha256": "07cb7443bc69c08929498f46aa539a24ddeb0e7586321a15f2ef0ba697a95bae",
       "engineVersion": "1.9.0",
       "skillId": "aas2-mm2b-review-u16",
       "visualProfile": "math",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "piaster",
+        "pound"
+      ],
       "optionImagePaths": [
         "option-art/e80db82dd1bec3d12d4315e4.svg",
         "option-art/6e700ec6657db8ee8e980a43.svg"
@@ -5857,13 +5862,15 @@
       "activityId": "aas2-2b-mm2b-u22-02",
       "path": "question-art/aas2-2b-mm2b-u22-02.svg",
       "format": "svg",
-      "bytes": 766,
-      "sha256": "2341ae75251414015bb4accab44abbfb4d909d08fe5f7440fb57de781e3fca5b",
+      "bytes": 1071,
+      "sha256": "8750bdc0bc4174803f0d7335c0a7287af835c2c5023660e176d3d43909a4cacf",
       "engineVersion": "1.9.0",
       "skillId": "aas2-mm2b-measures-problems",
       "visualProfile": "math",
       "matchedPromptKinds": [
-        "weight"
+        "weight",
+        "kilogram",
+        "gram"
       ],
       "optionImagePaths": [
         "option-art/9934a083b143ed22f66bc7ef.svg",
@@ -5963,6 +5970,1931 @@
       ]
     },
     {
+      "activityId": "aas2-xpress2-mx2-g2-u01-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-01.svg",
+      "format": "svg",
+      "bytes": 1372,
+      "sha256": "30269fa0dcebae5a3990758cdce6ad758cfcfd66744e1ec1a2e28f40a1c7fe77",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/a4cc43f4cddc9df33a07ae97.svg",
+        "option-art/857dfbaef0b6d41248d8d562.svg",
+        "option-art/4e4caba1e1c26bf9a3aa45aa.svg"
+      ],
+      "optionLabels": [
+        "39",
+        "40",
+        "42"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-02.svg",
+      "format": "svg",
+      "bytes": 1092,
+      "sha256": "258b24fb5edf81f623ff5ba6dd356a905e03cce24d908b135384707ea0374384",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/6bbc67cb2d8db0d293489346.svg",
+        "option-art/39bd5a2229a616f21d921453.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "50",
+        "500"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u01-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u01-03.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "baceaac04ce437bc80fa9d7fab566b10b469a2152d9ab6ba7014174bfbe48ebe",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-numbers-patterns",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "number"
+      ],
+      "optionImagePaths": [
+        "option-art/7c15fba42f8354bf7431b938.svg",
+        "option-art/b0f6866d9f143d02bb7af599.svg",
+        "option-art/926291735d7e01a96469b295.svg"
+      ],
+      "optionLabels": [
+        "28",
+        "36",
+        "41"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-01.svg",
+      "format": "svg",
+      "bytes": 714,
+      "sha256": "c2e2db6bf665ff56c602ff60662511fc4b5d1a8b1444f8775a4fe288710933df",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/171616cfc8bc337a5e4837b9.svg",
+        "option-art/00e226ecd9d2d27e30c4661d.svg",
+        "option-art/69fdb839338dbf9a000238b5.svg"
+      ],
+      "optionLabels": [
+        "63",
+        "73",
+        "83"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-02.svg",
+      "format": "svg",
+      "bytes": 716,
+      "sha256": "1b4afe146306dab0f0739057b032abe4b7e3577394700692d02aa26fb7c24239",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/69b33dacc2f07309e50dc131.svg",
+        "option-art/0127e3b6b1f0e0a9f22a3e58.svg",
+        "option-art/60f1d415eb0922c59f13b713.svg"
+      ],
+      "optionLabels": [
+        "44",
+        "54",
+        "34"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u02-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u02-03.svg",
+      "format": "svg",
+      "bytes": 1573,
+      "sha256": "3e1fd2e77a5ccc21479a2260556b829f14704e5772b52994567f65301408bdba",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-add-sub",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/4e4caba1e1c26bf9a3aa45aa.svg",
+        "option-art/7dd19fb44a1a293e9dd977e5.svg",
+        "option-art/16bd591fce1129e0c5e1b1ff.svg"
+      ],
+      "optionLabels": [
+        "42",
+        "52",
+        "62"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-01.svg",
+      "format": "svg",
+      "bytes": 1157,
+      "sha256": "0c922a02aed82efc7b2a9f619fa4b4ad3b8b3532b93e3d10e58610afddd5974b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "plate"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/67183ea18c1aed9d277bcc1b.svg",
+        "option-art/7c15fba42f8354bf7431b938.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "24",
+        "28"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-02.svg",
+      "format": "svg",
+      "bytes": 1092,
+      "sha256": "f8da14e1607e9d747203626f0735bcc6c33a49fea34f88ac85aa91f7bc33a5d7",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b0cafed603c9e61657b62318.svg",
+        "option-art/a3eae9411e990ab5b059ee1e.svg",
+        "option-art/b0f6866d9f143d02bb7af599.svg"
+      ],
+      "optionLabels": [
+        "18",
+        "27",
+        "36"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u03-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u03-03.svg",
+      "format": "svg",
+      "bytes": 712,
+      "sha256": "244cb8f4a153ad3b9f53231799613c050440eb1b789536d41dad0868e69d3530",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-multiplication",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "4 + 5",
+        "5 + 5 + 5 + 5",
+        "4 + 4 + 4"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-01.svg",
+      "format": "svg",
+      "bytes": 818,
+      "sha256": "694d988f74c4231c7bf89997121035ba6d055a75d2e034cf8f3eb62e0641e38b",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "fraction"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "1/2",
+        "1/3",
+        "1/4"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-02.svg",
+      "format": "svg",
+      "bytes": 834,
+      "sha256": "e4645a7f677f69e14c307fd474372a1dbdf77318e44ff91b63d3885af4d1d615",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "ruler"
+      ],
+      "optionImagePaths": [
+        "option-art/4aaeff2018427c50d772bbc5.svg",
+        "option-art/c18850700b251c0ee4457189.svg",
+        "option-art/05b8c011776b2c6ca9cc8fd4.svg"
+      ],
+      "optionLabels": [
+        "20",
+        "200",
+        "2000"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u04-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u04-03.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "e3d0f7f98bc5c57e0b3312cb26312317af441509bffba13089fa9abfdf7af7d5",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-fractions-measure",
+      "visualProfile": "math",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "75 cm",
+        "1 m",
+        "They are equal"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-01",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-01.svg",
+      "format": "svg",
+      "bytes": 787,
+      "sha256": "a74b706e384b02e06d0101f083c61080a5d540e9e145b863d8180715a3c179ca",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "solid",
+        "shape",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sphere",
+        "Cube",
+        "Cuboid"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-02",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-02.svg",
+      "format": "svg",
+      "bytes": 1027,
+      "sha256": "5ef37ac1151360f3c59d2f4c08b06e9331bb67b1e3fb8c191e29c9697328c360",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "car",
+        "red",
+        "blue"
+      ],
+      "optionImagePaths": [
+        "option-art/2d8b6c68e461048da6de4591.svg",
+        "option-art/e02c7acbc9ed3e533583b5d4.svg",
+        "option-art/72fded42dc6bc101654031c2.svg"
+      ],
+      "optionLabels": [
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "activityId": "aas2-xpress2-mx2-g2-u05-03",
+      "path": "question-art/aas2-xpress2-mx2-g2-u05-03.svg",
+      "format": "svg",
+      "bytes": 695,
+      "sha256": "e9a04708cd4f8bb39f320082fc2e376926ae6f3c6dfaa9daac14951998522276",
+      "engineVersion": "1.9.0",
+      "skillId": "aas2-mx2-geometry-data",
+      "visualProfile": "math",
+      "matchedPromptKinds": [
+        "hexagon"
+      ],
+      "optionImagePaths": [
+        "option-art/aa789315be34e6ca89fe3b86.svg",
+        "option-art/ac7b2dabcbe71e66bb4c948f.svg",
+        "option-art/f76aac969985617d1d444e9a.svg"
+      ],
+      "optionLabels": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-001",
+      "path": "question-art/aas2-g2-sci-u03-001.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "63fed7b592f59095f51ac30255d3b4dcb1494f143c6b7c80e41e4a19be63b490",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Sight",
+        "Hearing",
+        "Taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-002",
+      "path": "question-art/aas2-g2-sci-u03-002.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "195c19e4d25aefa383d1acff3917431f6d37441279d891d2662d3877318dbb50",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sight",
+        "color"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/5d4090c2aa97e77aa429715a.svg"
+      ],
+      "optionLabels": [
+        "Eyes",
+        "Ears",
+        "Hands"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-003",
+      "path": "question-art/aas2-g2-sci-u03-003.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "586e641b72008301eb947e3a395642ec2a2faf42e235ea253f37385c3627e691",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "flower",
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg"
+      ],
+      "optionLabels": [
+        "Tongue",
+        "Skin",
+        "Nose"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-004",
+      "path": "question-art/aas2-g2-sci-u03-004.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "190a3eb602a19f7cbbd8ab73d195c38f01b4b2f110cea2b99517fbc653feccd4",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg"
+      ],
+      "optionLabels": [
+        "Eyes",
+        "Skin",
+        "Ears"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-005",
+      "path": "question-art/aas2-g2-sci-u03-005.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "f82e898550e562a05303f7d4af3e4ee11cd60e00f5f19ffc47fd403b01954129",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "lemon"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Hearing",
+        "Sight",
+        "Taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-006",
+      "path": "question-art/aas2-g2-sci-u03-006.svg",
+      "format": "svg",
+      "bytes": 1033,
+      "sha256": "714095b1d1f4e8fd83c5ae0aca809f28378b4676f7fb5b72da24cdf319d2af60",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/3aceee1f56f779daf57a6e78.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg"
+      ],
+      "optionLabels": [
+        "Ears — hearing",
+        "Eyes — smelling",
+        "Nose — touching"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-007",
+      "path": "question-art/aas2-g2-sci-u03-007.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "926b0884706f961d25e71051ed185b0fd541b1987fa27a16c10d2245eb743459",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "ear",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/1c21c83ac1773fcbe6c17749.svg",
+        "option-art/b20f55b52e0f333e64466555.svg",
+        "option-art/a623fcc943ceccb59d4815ef.svg"
+      ],
+      "optionLabels": [
+        "Taste and touch",
+        "Smell and taste",
+        "Hearing and sight"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-008",
+      "path": "question-art/aas2-g2-sci-u03-008.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "3fd6e4972749c8e9f80ab6d3a57fac690d5ca0c1c6ab2f87e76059a4a06f3cf2",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup"
+      ],
+      "optionImagePaths": [
+        "option-art/b82f7933fb9194e5f01fa921.svg",
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg"
+      ],
+      "optionLabels": [
+        "Smell",
+        "Touch",
+        "Hearing"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-009",
+      "path": "question-art/aas2-g2-sci-u03-009.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "6ef5353a0af1c56c094e04c58d0f990ecab653310b88bd43fede6a669c11fc16",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "ear",
+        "loud"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The band becomes silent forever",
+        "The band vibrates",
+        "The band changes into liquid"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-010",
+      "path": "question-art/aas2-g2-sci-u03-010.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "794b08ff7533994e239831169bbe686e42ca919f1e7f8d08ef999146eea46819",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/edeaa51944e51ccc8f473188.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg"
+      ],
+      "optionLabels": [
+        "A drum being beaten",
+        "A person whispering",
+        "Leaves moving gently"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-011",
+      "path": "question-art/aas2-g2-sci-u03-011.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "e396e7ff1b6b53cf1e1f6c928808e2761f204cfb79b8be9b8cacc94b90b4390b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/2d988878a5ab322a283698b4.svg",
+        "option-art/3402f11b3dbce34b5d9aaa4b.svg"
+      ],
+      "optionLabels": [
+        "A large low drum",
+        "Distant thunder",
+        "A small bird chirping"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-012",
+      "path": "question-art/aas2-g2-sci-u03-012.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "3b62e7935f976d0969abef899f19072df57e3d180bb9d576c49d2a4db917ca6f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "The painted picture on the guitar",
+        "A vibrating string",
+        "The guitar case sitting still"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-013",
+      "path": "question-art/aas2-g2-sci-u03-013.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "681a0c3dd16e40d0449e6040fe0183d2c244987edb1c4eaf62349155799e8090",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/ced598f92a7f6d1d3dfa0a17.svg"
+      ],
+      "optionLabels": [
+        "A deep drumbeat",
+        "A small bird chirp",
+        "A whistle"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-014",
+      "path": "question-art/aas2-g2-sci-u03-014.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "50c14a1fa2c4ade82a5a33d97c4176d3f8b55bc681834cffccbd0819e8b5964f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "It becomes a different colour",
+        "It turns into a smell",
+        "It sounds quieter"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-015",
+      "path": "question-art/aas2-g2-sci-u03-015.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "fcbdcf141ba0fe664b06d5125e84315e7ce409c07d069b5d0d7fb4e6ec5fdd7a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "loud"
+      ],
+      "optionImagePaths": [
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "Move closer to listen carefully",
+        "Move away and tell an adult",
+        "Turn the sound up more"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-016",
+      "path": "question-art/aas2-g2-sci-u03-016.svg",
+      "format": "svg",
+      "bytes": 1599,
+      "sha256": "96c9b2f923c6a977a904f17b9f2be5d57d6bb6c6b13cecc7ea527c8724f49b51",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/ef8980b5978352559f6535fe.svg",
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "A sound can be high-pitched and quiet",
+        "Every high-pitched sound is loud",
+        "Loudness and pitch mean exactly the same thing"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-017",
+      "path": "question-art/aas2-g2-sci-u03-017.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "411687a05e717c552e5061ce99e6a805c05d95621e811411be32af05d50655a1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/be5673505f2c61efc023dc4e.svg",
+        "option-art/b20f55b52e0f333e64466555.svg"
+      ],
+      "optionLabels": [
+        "Darkness entering your ears",
+        "Light reaching your eyes",
+        "A smell reaching your tongue"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-018",
+      "path": "question-art/aas2-g2-sci-u03-018.svg",
+      "format": "svg",
+      "bytes": 1038,
+      "sha256": "60b6a213c709d1e04c40db485b6b1c770c98f2baab5a6289f9cbfe2e350480c4",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "banana",
+        "color"
+      ],
+      "optionImagePaths": [
+        "option-art/b8a34fd1afa94d9b9f7998b2.svg",
+        "option-art/c834632a884b9c2bf45fe580.svg",
+        "option-art/2f625dcc85a24ae332fac8ea.svg"
+      ],
+      "optionLabels": [
+        "Yellow",
+        "Blue",
+        "Purple"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-019",
+      "path": "question-art/aas2-g2-sci-u03-019.svg",
+      "format": "svg",
+      "bytes": 1189,
+      "sha256": "c3c66d03a1beaffcc5d7e0317fd87b2f6594a67d204d09c10009b8eb748f8cb9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "color",
+        "red",
+        "yellow"
+      ],
+      "optionImagePaths": [
+        "option-art/c834632a884b9c2bf45fe580.svg",
+        "option-art/6950ca2b6ea8fd31523c18fe.svg",
+        "option-art/63185c3fde762869f2d2939a.svg"
+      ],
+      "optionLabels": [
+        "Blue",
+        "Green",
+        "Orange"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-020",
+      "path": "question-art/aas2-g2-sci-u03-020.svg",
+      "format": "svg",
+      "bytes": 1190,
+      "sha256": "1a6b8a12f2a3cd69c07ca7ecc8d271065a4a641fa82296d17470ee66fce5c552",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "color",
+        "blue",
+        "yellow"
+      ],
+      "optionImagePaths": [
+        "option-art/2f625dcc85a24ae332fac8ea.svg",
+        "option-art/6950ca2b6ea8fd31523c18fe.svg",
+        "option-art/a64cc75bed8936c4980ea757.svg"
+      ],
+      "optionLabels": [
+        "Purple",
+        "Green",
+        "Red"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-021",
+      "path": "question-art/aas2-g2-sci-u03-021.svg",
+      "format": "svg",
+      "bytes": 1183,
+      "sha256": "f8dc68089022d676cce847186da217875b1165020bfcd1570b1e805416f985c1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun",
+        "eye"
+      ],
+      "optionImagePaths": [
+        "option-art/166c2d9db1727cef91a8cbf6.svg",
+        "option-art/57c992232db998af44361c79.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg"
+      ],
+      "optionLabels": [
+        "Never look directly at the Sun",
+        "Look straight at the Sun for a long time",
+        "Use a magnifying glass to look at the Sun"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-022",
+      "path": "question-art/aas2-g2-sci-u03-022.svg",
+      "format": "svg",
+      "bytes": 1032,
+      "sha256": "61ea9b36250645654b8b1ee6077e0b45e1cca69d6e5b4b96dcac21ed664fbe88",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye",
+        "person"
+      ],
+      "optionImagePaths": [
+        "option-art/20221c62a0090fcfe241a87a.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "To make sounds",
+        "To taste food",
+        "To spread tears and help protect the eyes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-023",
+      "path": "question-art/aas2-g2-sci-u03-023.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "fa23392877049c07ced65f9fe5ccae3adeaa4849b970157bee56f0bba1bd688a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material",
+        "sun",
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/c932248ca851916870d18adc.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg",
+        "option-art/48e5a12c2af6ff0b293f5dea.svg"
+      ],
+      "optionLabels": [
+        "A thick wooden board",
+        "Clear glass",
+        "A closed book"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-024",
+      "path": "question-art/aas2-g2-sci-u03-024.svg",
+      "format": "svg",
+      "bytes": 1172,
+      "sha256": "064cba5fec1b8c6d5254a6abb871a7ab5b7a2555a86f61ab8f19ec7efe26a33b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "eye"
+      ],
+      "optionImagePaths": [
+        "option-art/d7172a7b775c6d6d08f37604.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "Rub the eye hard",
+        "Put a sharp object near the eye",
+        "Blink gently and tell an adult if it still feels uncomfortable"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-025",
+      "path": "question-art/aas2-g2-sci-u03-025.svg",
+      "format": "svg",
+      "bytes": 1179,
+      "sha256": "4651bc25802231dd875a8945c635d625dea9bbbe0729a429f730d0bfafd0bd7c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Soft",
+        "Rough",
+        "Wet"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-026",
+      "path": "question-art/aas2-g2-sci-u03-026.svg",
+      "format": "svg",
+      "bytes": 1044,
+      "sha256": "359efa6d47c4fb08eb09b77fa256f00f71fdaf04546fea7169991eeb52cb538d",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material"
+      ],
+      "optionImagePaths": [
+        "option-art/9f70113ab272986583199f06.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/ad91984a03885476b07595cf.svg"
+      ],
+      "optionLabels": [
+        "A metal spoon",
+        "A stone",
+        "Cotton wool"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-027",
+      "path": "question-art/aas2-g2-sci-u03-027.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "a777c7be88cad57275ec9deb63d7f9dd807975222d3f3063b04e0f21977df0e7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "table"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "Touch",
+        "Hearing",
+        "Smell"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-028",
+      "path": "question-art/aas2-g2-sci-u03-028.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "0eb4e5c429f5b49597478fa2e62575a5889d748a6bca824800177dbec7538a48",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "touch"
+      ],
+      "optionImagePaths": [
+        "option-art/459631dd81eb2b1403ee2d9e.svg",
+        "option-art/48a9211a0a0226f2629ee82e.svg"
+      ],
+      "optionLabels": [
+        "A polished glass marble",
+        "A piece of coarse sandpaper",
+        "A smooth plastic ruler"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-029",
+      "path": "question-art/aas2-g2-sci-u03-029.svg",
+      "format": "svg",
+      "bytes": 1181,
+      "sha256": "a45e39632cf49a6e6394d0d6b24f18036634dbb4e49c4dd875717bbf8db1ee0b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "glass"
+      ],
+      "optionImagePaths": [
+        "option-art/e6419c2e8d332a0cfd84953c.svg"
+      ],
+      "optionLabels": [
+        "Loud",
+        "Sour",
+        "Smooth"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-030",
+      "path": "question-art/aas2-g2-sci-u03-030.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "637b2a36c4785d95df5cb6bfe75f27388c7f467d7a6b85a69613a817fbde1b35",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "school",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/3aceee1f56f779daf57a6e78.svg"
+      ],
+      "optionLabels": [
+        "Gently feel their clean surfaces",
+        "Taste both objects",
+        "Smell them with your eyes closed"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-031",
+      "path": "question-art/aas2-g2-sci-u03-031.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "7216108075eb6f8d0da086dc4be6f37f01c47247ca6b54e0604e783af393b068",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "insect",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/4a0abb7d13dda4ea99861e9c.svg"
+      ],
+      "optionLabels": [
+        "Pick it up to feel its body",
+        "Do not touch it; tell an adult",
+        "Rub it against your skin"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-032",
+      "path": "question-art/aas2-g2-sci-u03-032.svg",
+      "format": "svg",
+      "bytes": 1722,
+      "sha256": "932665caa6713578b473a93ee60b8bd89dd76e183e80eb1a2f3c75db9452db07",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-04",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/2d7afab679934faab89b4c0d.svg"
+      ],
+      "optionLabels": [
+        "Rough",
+        "Warm",
+        "Cold"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-033",
+      "path": "question-art/aas2-g2-sci-u03-033.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "2dd63f15d5c0323cf75b00ec17ce6c1acd20e29722df48dbd2fdd5e11d5deed9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "bread",
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/0e774e547efecaa61c8c3d26.svg",
+        "option-art/87643db174f62bf81ea50a5d.svg",
+        "option-art/d7172a7b775c6d6d08f37604.svg"
+      ],
+      "optionLabels": [
+        "Ears",
+        "Nose",
+        "Eyes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-034",
+      "path": "question-art/aas2-g2-sci-u03-034.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "9adc27c476b41673ca97326b44cc662dd07b122e519982a6a93a7c7b4e37e766",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "taste",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/fdc33f85e039cff6626a0878.svg"
+      ],
+      "optionLabels": [
+        "Elbow",
+        "Knee",
+        "Tongue"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-035",
+      "path": "question-art/aas2-g2-sci-u03-035.svg",
+      "format": "svg",
+      "bytes": 1906,
+      "sha256": "0837c1cda3f49b049d623775ccc97711e3a1e0bd93c0b71425720c27981e97c5",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "lemon",
+        "taste"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sour",
+        "Salty",
+        "Bitter"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-036",
+      "path": "question-art/aas2-g2-sci-u03-036.svg",
+      "format": "svg",
+      "bytes": 1186,
+      "sha256": "536564df25efae72ac4f33e5fc12db1e2f97a6ac25cd7f9b1516174334ddef35",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/8ec91790d8005d48e50c7e74.svg",
+        "option-art/b82f7933fb9194e5f01fa921.svg"
+      ],
+      "optionLabels": [
+        "Taste a little to identify it",
+        "Smell it closely and then eat it",
+        "Do not eat it; ask a trusted adult"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-037",
+      "path": "question-art/aas2-g2-sci-u03-037.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "880cfa82ae063f7e1bfd3ba78c7c9f1c47362e7d8cef5788b00face8403ff34c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "smell"
+      ],
+      "optionImagePaths": [
+        "option-art/5e58a902c7953a20c81243eb.svg"
+      ],
+      "optionLabels": [
+        "Move away and tell an adult",
+        "Search alone for the source",
+        "Touch nearby objects to see if they are hot"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-038",
+      "path": "question-art/aas2-g2-sci-u03-038.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "c80db3688b3d45af6765adc72489b82540b770b0f09dca675acd05133c3f1f0c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin",
+        "smell",
+        "food"
+      ],
+      "optionImagePaths": [
+        "option-art/932dfd8f109de275d2f469c9.svg"
+      ],
+      "optionLabels": [
+        "Its exact weight",
+        "Its odour",
+        "Whether it is definitely safe to eat"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-039",
+      "path": "question-art/aas2-g2-sci-u03-039.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "a82dc93e599011e0003f942fd4d3b708456890ad9d2a9ab4a7bb78b15c06ed4d",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "orange",
+        "smell",
+        "taste"
+      ],
+      "optionImagePaths": [
+        "option-art/fb2660609eca94f7b607e375.svg",
+        "option-art/a623fcc943ceccb59d4815ef.svg",
+        "option-art/b20f55b52e0f333e64466555.svg"
+      ],
+      "optionLabels": [
+        "Hearing and touch only",
+        "Sight and hearing only",
+        "Smell and taste"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u03-040",
+      "path": "question-art/aas2-g2-sci-u03-040.svg",
+      "format": "svg",
+      "bytes": 1182,
+      "sha256": "8615d408ad8f078fa8c69101433ee609d2c579fa4454465d9929465062255781",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SEN-05",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "food"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Stop eating and tell an adult immediately",
+        "Eat more to check what happens",
+        "Ignore it and keep eating"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-001",
+      "path": "question-art/aas2-g2-sci-u04-001.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ee700db92b3d1ced60de1475b74ab43d6fb8fb7d385958c89670d02d9c43d3c1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/8d931f6ca0ba07a84f3ec8ac.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg",
+        "option-art/4883506061c585420562ee5a.svg"
+      ],
+      "optionLabels": [
+        "A metal coin",
+        "A dry leaf",
+        "A small stone"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-002",
+      "path": "question-art/aas2-g2-sci-u04-002.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "ee861589bcf1075ba95551fde228e22c3e3b7cf9f2adfc72ac810d0599c5047f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tree",
+        "water",
+        "block",
+        "wood"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Dissolve",
+        "Turn into a liquid",
+        "Float"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-003",
+      "path": "question-art/aas2-g2-sci-u04-003.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ce14e54f4e9572b906df4ec282bd1071f531746753e7755f3ff8af6fd7c3e6b6",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/9f70113ab272986583199f06.svg",
+        "option-art/720341f6793664e07009cb53.svg",
+        "option-art/013d0b6109c9ba7acac51b60.svg"
+      ],
+      "optionLabels": [
+        "A metal spoon",
+        "A cork",
+        "A dry leaf"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-004",
+      "path": "question-art/aas2-g2-sci-u04-004.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "ded7458d3413f0938286d680b93c438ae8279dc8e054f17a19c89677077af894",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "school",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/fdc33f85e039cff6626a0878.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "Guess from its colour",
+        "Taste the object",
+        "Place it gently in water and observe"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-005",
+      "path": "question-art/aas2-g2-sci-u04-005.svg",
+      "format": "svg",
+      "bytes": 1650,
+      "sha256": "540b736a04bc1032b698474c5ab6592597b98289995364b4bdc7838df4ae31bb",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "boat",
+        "toy"
+      ],
+      "optionImagePaths": [
+        "option-art/932dfd8f109de275d2f469c9.svg",
+        "option-art/c407581180b525c50e97df29.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It has no weight",
+        "Its shape helps it push water aside",
+        "It is made of water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-006",
+      "path": "question-art/aas2-g2-sci-u04-006.svg",
+      "format": "svg",
+      "bytes": 1178,
+      "sha256": "972cd618e7e3079b83b3b794c87bed7dd5b33ebb6b60cb11fddf76ec2dd16ae3",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup",
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/9ab32b895a985999ae4634f6.svg",
+        "option-art/2db1c570cc2ede345dfc86fe.svg",
+        "option-art/716eba40d37c6f3ee8e278f4.svg"
+      ],
+      "optionLabels": [
+        "The shape of the cup",
+        "The shape of a wooden block",
+        "A shape that never changes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-007",
+      "path": "question-art/aas2-g2-sci-u04-007.svg",
+      "format": "svg",
+      "bytes": 1199,
+      "sha256": "4a8a850805fa8da5632d31110d9ccfd0492b93a04feb64645f14ac2f6743a38a",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/a1bed5e37dfdf4e94722e28d.svg",
+        "option-art/c407581180b525c50e97df29.svg"
+      ],
+      "optionLabels": [
+        "The amount of water",
+        "The water becomes solid",
+        "The shape of the water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-008",
+      "path": "question-art/aas2-g2-sci-u04-008.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "64a5b54babd2202dc44d3d892eb6c506aaef295f92992d3eb6567ddcd92a11aa",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/b8b719cb904704fe6805da07.svg",
+        "option-art/d528aa7ac7b48f91fabf0c11.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg"
+      ],
+      "optionLabels": [
+        "A pencil",
+        "Milk",
+        "A stone"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-009",
+      "path": "question-art/aas2-g2-sci-u04-009.svg",
+      "format": "svg",
+      "bytes": 1177,
+      "sha256": "1493702b5d9f03d38b9aa95af35108d0a4aba42b12eab2963d8a716ef7d5fbf7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/cd5636b886166db4eb3b073b.svg"
+      ],
+      "optionLabels": [
+        "A funnel",
+        "A ruler",
+        "A paintbrush"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-010",
+      "path": "question-art/aas2-g2-sci-u04-010.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "afe2c5c94440cddcbf846fcf9bf5bf8d6a4ba1fd250cb5df70cf91e194cf879b",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "cup"
+      ],
+      "optionImagePaths": [
+        "option-art/0b21f501d84126d36f652eb2.svg",
+        "option-art/e6419c2e8d332a0cfd84953c.svg",
+        "option-art/d5d4b267960243b0b6294825.svg"
+      ],
+      "optionLabels": [
+        "Its colour",
+        "How loud it is",
+        "How much it can hold"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-011",
+      "path": "question-art/aas2-g2-sci-u04-011.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "0d3a05e8185d4ffa98dd095a257d01f9047e04a7fce78eac0e6ad726c61703cf",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "It turns into a stone",
+        "It dissolves and spreads through the water",
+        "It floats forever as a lump"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-012",
+      "path": "question-art/aas2-g2-sci-u04-012.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "8896ab5aeea88f05beecfa194e63c93e663007900c203c450a4e543acdc42937",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "material",
+        "water"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Sand",
+        "Sugar",
+        "Salt"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-013",
+      "path": "question-art/aas2-g2-sci-u04-013.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "9d3bd27a46e9a011f48ac161b691f0cea25eb541a964c05c8ba3b256463fa4f1",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg"
+      ],
+      "optionLabels": [
+        "No, it is destroyed",
+        "Yes, it is spread through the water",
+        "It changes into oil"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-014",
+      "path": "question-art/aas2-g2-sci-u04-014.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "a77af038221c957ff38df5d6fb634c0d2c02eafb0353b42bb12f4351245b33b9",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water"
+      ],
+      "optionImagePaths": [
+        "option-art/89debe8febb01d7241ace4fb.svg"
+      ],
+      "optionLabels": [
+        "The oil dissolves completely",
+        "They become a solid",
+        "They form separate layers"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-015",
+      "path": "question-art/aas2-g2-sci-u04-015.svg",
+      "format": "svg",
+      "bytes": 1987,
+      "sha256": "bd28a85688ca2d26882c5b058c71601de4b59e19bf1889700f7465573a8bc9fe",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-02",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg"
+      ],
+      "optionLabels": [
+        "Stirring",
+        "Adding a stone",
+        "Covering the cup with sand"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-016",
+      "path": "question-art/aas2-g2-sci-u04-016.svg",
+      "format": "svg",
+      "bytes": 1172,
+      "sha256": "31908a5125442099da3db9d355fe298f82fc854e74c85043c497deeae06cd491",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun"
+      ],
+      "optionImagePaths": [
+        "option-art/a9433a3b49bdc7d8ff408079.svg",
+        "option-art/166c2d9db1727cef91a8cbf6.svg",
+        "option-art/459631dd81eb2b1403ee2d9e.svg"
+      ],
+      "optionLabels": [
+        "A wooden chair",
+        "The Sun",
+        "A glass cup"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-017",
+      "path": "question-art/aas2-g2-sci-u04-017.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "1e97eb37e94cfe0b2b9d24cb11c7c6afd0c3a82e18d16a748451dbf030c33e87",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "stove",
+        "person",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg"
+      ],
+      "optionLabels": [
+        "Touch the pot to test it",
+        "Move the pot alone",
+        "Stay away and tell an adult"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-018",
+      "path": "question-art/aas2-g2-sci-u04-018.svg",
+      "format": "svg",
+      "bytes": 832,
+      "sha256": "97ad224c584fcb8f235dd0b33a9353f1a54c9c96a00cece2e1bed587af472070",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin",
+        "ice"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/28daedb8e83d9c13f9ed4103.svg",
+        "option-art/dd39a0e4eedf704c1054b2c5.svg"
+      ],
+      "optionLabels": [
+        "It melts into liquid water",
+        "It becomes a stone",
+        "It grows into a plant"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-019",
+      "path": "question-art/aas2-g2-sci-u04-019.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "3b80c40d8919a53373126d1871d42efb558b1f27d6da4bd8f3ec70c6fd161b02",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sight"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "Go inside to investigate",
+        "Move away and alert a trusted adult",
+        "Hide near the smoke"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u04-020",
+      "path": "question-art/aas2-g2-sci-u04-020.svg",
+      "format": "svg",
+      "bytes": 1739,
+      "sha256": "2d1710a1fd756ea544cbdfb88052496954e885a10d6e346b06948fedcf19ca88",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-MAT-03",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "water",
+        "cup",
+        "person",
+        "temperature"
+      ],
+      "optionImagePaths": [
+        "option-art/5d4090c2aa97e77aa429715a.svg",
+        "option-art/6f3b1767afde5d74de45bdf8.svg"
+      ],
+      "optionLabels": [
+        "Move away and tell an adult",
+        "Wipe it with bare hands",
+        "Play with the water"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-001",
+      "path": "question-art/aas2-g2-sci-u05-001.svg",
+      "format": "svg",
+      "bytes": 1048,
+      "sha256": "111bc1b2c9ea3b8fe57dc15ef0ade4822b9edc5e0027a75af7b600177dfa1781",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "planet"
+      ],
+      "optionImagePaths": [
+        "option-art/4ee3a97ab2bc411903c00463.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "A cloud",
+        "A mountain",
+        "The Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-002",
+      "path": "question-art/aas2-g2-sci-u05-002.svg",
+      "format": "svg",
+      "bytes": 1034,
+      "sha256": "c76a5a586ae9d9d19f84210d25baf95f33ca2b7559655bd492d795ec89064735",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "sun"
+      ],
+      "optionImagePaths": [
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg",
+        "option-art/b61f05b85c12c519f4c36fb9.svg"
+      ],
+      "optionLabels": [
+        "A star",
+        "The Moon",
+        "A mirror"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-003",
+      "path": "question-art/aas2-g2-sci-u05-003.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "9f46ad2417b09aaf4eb9d6f32d9267fd885cffa81f0dc14b4fdf27649790317c",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon",
+        "tin",
+        "sight"
+      ],
+      "optionImagePaths": [
+        "option-art/166c2d9db1727cef91a8cbf6.svg"
+      ],
+      "optionLabels": [
+        "It is a giant lamp",
+        "It reflects light from the Sun",
+        "It is made of fire"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-004",
+      "path": "question-art/aas2-g2-sci-u05-004.svg",
+      "format": "svg",
+      "bytes": 821,
+      "sha256": "472706d68ce88c3557a9fa5edcc686530d548d46ebdb0bc11e17a9b1e1f3fb46",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon",
+        "tin"
+      ],
+      "optionImagePaths": [],
+      "optionLabels": [
+        "No, never",
+        "Only during a storm",
+        "Yes"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-005",
+      "path": "question-art/aas2-g2-sci-u05-005.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "9a0871339f98b70d71170d1cec2895a60c983cfcc2a38bf3cb460a9d07b81c75",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon"
+      ],
+      "optionImagePaths": [
+        "option-art/41682f6c0ef020dd02428657.svg",
+        "option-art/67a63b12598e38f8a054a55a.svg"
+      ],
+      "optionLabels": [
+        "A river full of water",
+        "A round hollow or dent on its surface",
+        "A tall green tree"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-006",
+      "path": "question-art/aas2-g2-sci-u05-006.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "51d300a937ff86e6b1eb92188cdd47ff815fcf2715ec1408c10eb0db9707ddb3",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "moon"
+      ],
+      "optionImagePaths": [
+        "option-art/e481c4a4ab4ac7b22393938d.svg",
+        "option-art/966bd07f3f505e3e00234bef.svg",
+        "option-art/01bad04e86303c07c30d4b3b.svg"
+      ],
+      "optionLabels": [
+        "Space rocks hit the Moon's surface",
+        "Rain made deep puddles",
+        "Wind blew sand into circles"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-007",
+      "path": "question-art/aas2-g2-sci-u05-007.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "a4585080edf376d1eb7212210c5eac6896beeb4accb36ffb00ed909fa924b24f",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/7f538b350ae2ca3c43e04667.svg",
+        "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg",
+        "option-art/bd70a5c6dfc3eae0867afdd2.svg"
+      ],
+      "optionLabels": [
+        "A child touches a hot pan",
+        "A cup of unknown liquid",
+        "An adult drops a small ball into soft modelling dough"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-008",
+      "path": "question-art/aas2-g2-sci-u05-008.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "ab1104decc1143e4fff6ec8f72ad0f5bbea97236acb82b2c9e5dff6def2264ed",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "shape"
+      ],
+      "optionImagePaths": [
+        "option-art/4b47e7a9a14d39beb7ced252.svg"
+      ],
+      "optionLabels": [
+        "A long straight river",
+        "A round bowl-shaped hollow",
+        "A square tower"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-009",
+      "path": "question-art/aas2-g2-sci-u05-009.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "810b31d75acc880cac083ce2817b964d0548918e2513cf4b5c0f39f46254d454",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [],
+      "optionImagePaths": [
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg",
+        "option-art/4ee3a97ab2bc411903c00463.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "A pattern of stars seen in the sky",
+        "Clouds inside a jar",
+        "A line drawn on the Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-010",
+      "path": "question-art/aas2-g2-sci-u05-010.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "36b5c2b1b8b7ea834cee47f5a32b2eae391f04c6e7eb0bd950351eca7688512e",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "star",
+        "rocket"
+      ],
+      "optionImagePaths": [
+        "option-art/4a0abb7d13dda4ea99861e9c.svg",
+        "option-art/d5d4b267960243b0b6294825.svg",
+        "option-art/725fd1e948742e4d04fc7763.svg"
+      ],
+      "optionLabels": [
+        "Yes, they touch each other",
+        "No, they can be very far apart",
+        "They are all on the Moon"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-011",
+      "path": "question-art/aas2-g2-sci-u05-011.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "0781353e67e53107654b64375adaadeddec4d51031027893d4f6efa099b69566",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "tin"
+      ],
+      "optionImagePaths": [
+        "option-art/57be323a333ab8abda2eff6c.svg",
+        "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
+      ],
+      "optionLabels": [
+        "Record what you see on both evenings",
+        "Guess without looking",
+        "Change the names of the stars"
+      ]
+    },
+    {
+      "activityId": "aas2-g2-sci-u05-012",
+      "path": "question-art/aas2-g2-sci-u05-012.svg",
+      "format": "svg",
+      "bytes": 1598,
+      "sha256": "094bf7f7e5785c993692f1bc5a768a730819f3a649a31cbbdec3fd45a892c8c7",
+      "engineVersion": "1.9.0",
+      "skillId": "SCI-G2-SKY-01",
+      "visualProfile": "science",
+      "matchedPromptKinds": [
+        "star",
+        "cloud"
+      ],
+      "optionImagePaths": [
+        "option-art/f6c72881c6974d4d7c5f83ff.svg",
+        "option-art/166c2d9db1727cef91a8cbf6.svg"
+      ],
+      "optionLabels": [
+        "Climb a tree to get closer",
+        "Look at the Sun through a telescope",
+        "Record that the sky was cloudy"
+      ]
+    },
+    {
       "activityId": "kg2-count-01-en",
       "path": "question-art/kg2-count-01-en.svg",
       "format": "svg",
@@ -6013,8 +7945,8 @@
       "activityId": "kg2-plant-01-en",
       "path": "question-art/kg2-plant-01-en.svg",
       "format": "svg",
-      "bytes": 853,
-      "sha256": "b401fc0dd32fe13b617e942537cd4595ea650f83d6af83c457a04aa84060478f",
+      "bytes": 1019,
+      "sha256": "24ce2a34a11de46fdf2561afc11e02fa6116cfa7a2b7ddd98f9ecce449d05f2f",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -6105,8 +8037,8 @@
       "activityId": "kg2-plant-02-en",
       "path": "question-art/kg2-plant-02-en.svg",
       "format": "svg",
-      "bytes": 853,
-      "sha256": "946b2309f759cdb5a916a15211a4595d924b44026d11bc295d62fce46819f402",
+      "bytes": 1026,
+      "sha256": "af5177eeff1c7a35c2bbb59d1b28dc31cc8a0b8652d5a198084de5f97d796ae3",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -7797,8 +9729,8 @@
       "activityId": "new-ali-science-001",
       "path": "question-art/new-ali-science-001.svg",
       "format": "svg",
-      "bytes": 865,
-      "sha256": "500ddbf3bc71ffa95115c7528a51e0337486b816a1121abbf401c07255869351",
+      "bytes": 1041,
+      "sha256": "f0758135b0c33be4f3d0f68114a483cd0b4c8a3a2290aa704d5703c9c8e9d557",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7820,8 +9752,8 @@
       "activityId": "new-ali-science-002",
       "path": "question-art/new-ali-science-002.svg",
       "format": "svg",
-      "bytes": 1384,
-      "sha256": "2951d5f321ad9e1d3e31530f6882e21154daec2d0b8078f10ca5f5bd64eb1368",
+      "bytes": 1040,
+      "sha256": "7db9f49659774403304b836fc4d395556cc76ea4034a9a137d8b68d544edd19c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7867,8 +9799,8 @@
       "activityId": "new-ali-science-004",
       "path": "question-art/new-ali-science-004.svg",
       "format": "svg",
-      "bytes": 2376,
-      "sha256": "fe0ea2d79a6a18398f5928b62b818c3da02d2f87f2a9698152b49250691db55e",
+      "bytes": 1042,
+      "sha256": "762bb70896ae9b9180668f18bebceb9d5a0668a1e79b47985f3f5009606fbd75",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7890,8 +9822,8 @@
       "activityId": "new-ali-science-005",
       "path": "question-art/new-ali-science-005.svg",
       "format": "svg",
-      "bytes": 1756,
-      "sha256": "335c8787aea919064711233e1006cef6badea4efba5a470353e44ed737db24d4",
+      "bytes": 1176,
+      "sha256": "b4702c6a16da8d4c5d54a85073d4f39938281e81d9948894d8806aa9110e4724",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7913,8 +9845,8 @@
       "activityId": "new-ali-science-006",
       "path": "question-art/new-ali-science-006.svg",
       "format": "svg",
-      "bytes": 969,
-      "sha256": "e76d1ed98addfccfef16cef1d629be0dae3d7d45a951437e01a2eb233be0afb1",
+      "bytes": 1040,
+      "sha256": "f5efd49461c29474bd935438f3495777df7f02ee1f7496ffebd09295b16f4ae9",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7936,8 +9868,8 @@
       "activityId": "new-ali-science-007",
       "path": "question-art/new-ali-science-007.svg",
       "format": "svg",
-      "bytes": 831,
-      "sha256": "f490ed11ca8b559bf7630720c4f2d1bf5f0edd378f7cb968790e372481bc8de9",
+      "bytes": 1599,
+      "sha256": "5606b622479c8c78229f8fadfa2d28c478063ddeabbd46549722585a58d012e8",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7959,8 +9891,8 @@
       "activityId": "new-ali-science-008",
       "path": "question-art/new-ali-science-008.svg",
       "format": "svg",
-      "bytes": 849,
-      "sha256": "af1c00c5d66d1ef0fe026a4c993c6b908eb2713f96ff8076ba15df8509b226d8",
+      "bytes": 1815,
+      "sha256": "f66c809be3157d06a3512a8225678fc3e0664c9ba8f31e1c6f6953c3c1be83fe",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -7982,8 +9914,8 @@
       "activityId": "new-ali-science-009",
       "path": "question-art/new-ali-science-009.svg",
       "format": "svg",
-      "bytes": 721,
-      "sha256": "0b9e953a775999fc498f55b2e0e80c627d89634a012f3fa51b4431b105aa2d09",
+      "bytes": 1906,
+      "sha256": "d54efe371a2df861aa566757675c3091197ec08a36ca344e46895925430be7d5",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8005,8 +9937,8 @@
       "activityId": "new-ali-science-010",
       "path": "question-art/new-ali-science-010.svg",
       "format": "svg",
-      "bytes": 1602,
-      "sha256": "6c5aaf7c83a4113d1aef5a9be0532a3edfa80ebdc4af428c29c35df0c778729f",
+      "bytes": 1042,
+      "sha256": "bad2405060de43b357353645375214341f0eca43251ffb5fe166b71ed7f97a63",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8028,8 +9960,8 @@
       "activityId": "new-ali-science-011",
       "path": "question-art/new-ali-science-011.svg",
       "format": "svg",
-      "bytes": 786,
-      "sha256": "4c59c3eb9e8bbacd53ec6558755a985ff21a96e33d2b717c5c431532b3eb347c",
+      "bytes": 1599,
+      "sha256": "05dd324606546b42cc07618a21e0c5673edf710ea074b783432ad9beb945dff7",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8051,8 +9983,8 @@
       "activityId": "new-ali-science-012",
       "path": "question-art/new-ali-science-012.svg",
       "format": "svg",
-      "bytes": 709,
-      "sha256": "b7185c6946b32fc3674d18776d9f024565dedb181200235cf12248eff041ec77",
+      "bytes": 1039,
+      "sha256": "4a0e6935ba5e944e9ab5991135ba15d6865a06c8a71f8eb1cab4c0619a06fcb8",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8074,8 +10006,8 @@
       "activityId": "new-ali-science-013",
       "path": "question-art/new-ali-science-013.svg",
       "format": "svg",
-      "bytes": 880,
-      "sha256": "effd327453552ae92e8cb0ff192a6cc78716913d98046e8a721900d12562c918",
+      "bytes": 1043,
+      "sha256": "4d2a43da009836725a5fcc2cae3bb6f678df2f10f47c2755e144a36563004f14",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8097,8 +10029,8 @@
       "activityId": "new-ali-science-014",
       "path": "question-art/new-ali-science-014.svg",
       "format": "svg",
-      "bytes": 798,
-      "sha256": "508b0a87c475b2a4965fb35109426e94970bfbacab39de8983a94d392a829fb1",
+      "bytes": 1039,
+      "sha256": "25826864a189f73c2aabb2aa2f9a46517ac0939a9230d2eeb749ee8d44457cea",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8143,8 +10075,8 @@
       "activityId": "new-ali-science-016",
       "path": "question-art/new-ali-science-016.svg",
       "format": "svg",
-      "bytes": 1880,
-      "sha256": "2df832c3660cb6ba090bc78eefae846ff42c0d1228d5dc840a5bff426a95a45c",
+      "bytes": 1044,
+      "sha256": "6a6b7407a7e070b7c1f9dfd191341ff8fe69a732d578dbf360a7f622a4a39aa2",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8166,8 +10098,8 @@
       "activityId": "new-ali-science-017",
       "path": "question-art/new-ali-science-017.svg",
       "format": "svg",
-      "bytes": 816,
-      "sha256": "2c25b2a1cda89388f2f05c6f38ca5fb9446cb07db3cd473f19d5c8f510986513",
+      "bytes": 1040,
+      "sha256": "6484e4b78d4bcafd893edeef47171ba8976eb063b8da9c2f58721df01b745193",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8189,8 +10121,8 @@
       "activityId": "new-ali-science-018",
       "path": "question-art/new-ali-science-018.svg",
       "format": "svg",
-      "bytes": 1549,
-      "sha256": "f2ad57141309a6aa417b38659149801190dbe7848863e1df052f85d6db7cfb4d",
+      "bytes": 1042,
+      "sha256": "178a00b715f363701f7fa2d697222d3c2cba91c4f64f72d02afb3dc52d131f12",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8210,8 +10142,8 @@
       "activityId": "new-ali-science-019",
       "path": "question-art/new-ali-science-019.svg",
       "format": "svg",
-      "bytes": 1936,
-      "sha256": "47ec108841886fa4c8db9c70b7f056860277761c9bbcce218c30dd676f2c62ef",
+      "bytes": 1175,
+      "sha256": "d4b660ce99f21b3140395705066a095575f359be5e100aabf670944234324a2a",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8231,8 +10163,8 @@
       "activityId": "new-ali-science-020",
       "path": "question-art/new-ali-science-020.svg",
       "format": "svg",
-      "bytes": 2105,
-      "sha256": "721824179875d134abe9a02acb9613b98ad66c327209f444f6190250810c58f8",
+      "bytes": 1174,
+      "sha256": "e4c0641c8f8fe60c72ac266de05f0bcfca3daadf20d0a1ff7483630402428ac6",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8254,8 +10186,8 @@
       "activityId": "new-ali-science-021",
       "path": "question-art/new-ali-science-021.svg",
       "format": "svg",
-      "bytes": 2223,
-      "sha256": "4f2198fba761feb893c19c538a1b2af0a088206a7189c920b2e0aa8932297b21",
+      "bytes": 1046,
+      "sha256": "882fbb8f920c57ca315d7465d501315e5653bd797e09bdf6e20312aec7fcb80c",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8277,8 +10209,8 @@
       "activityId": "new-ali-science-022",
       "path": "question-art/new-ali-science-022.svg",
       "format": "svg",
-      "bytes": 1997,
-      "sha256": "843af1f2af6a670f1307de81d0bf782322b7930437077fe207c3cdb4a47f750e",
+      "bytes": 1045,
+      "sha256": "5e3df5551317ef3e2c97d659e26a9fddaafc06549db158335d99ef4ff796c6cc",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8300,8 +10232,8 @@
       "activityId": "new-ali-science-023",
       "path": "question-art/new-ali-science-023.svg",
       "format": "svg",
-      "bytes": 1741,
-      "sha256": "3aaf65e80f8ecdbc01c718316884baf9e59586abc7644f9cf12c779ca1417c5b",
+      "bytes": 1041,
+      "sha256": "4811fe5ac9863456a4ef6d81b3a055bee72c5bcdb2c2bcf75d30decc635e2e5d",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8323,8 +10255,8 @@
       "activityId": "new-ali-science-024",
       "path": "question-art/new-ali-science-024.svg",
       "format": "svg",
-      "bytes": 2045,
-      "sha256": "c2ccaa660ee30bd68d256aeaa1b4d88618dd30df9c09260ab1b74b23fe5be562",
+      "bytes": 1650,
+      "sha256": "432dddc60c600b38cc548e565d1933cbc895dc6bc6e5046352fe0907ca35bfda",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8346,8 +10278,8 @@
       "activityId": "new-ali-science-025",
       "path": "question-art/new-ali-science-025.svg",
       "format": "svg",
-      "bytes": 1630,
-      "sha256": "8be2f402a188c58bcc9791e23706dd83e9b60e13a0d6ed4f229d1a98172b8ee2",
+      "bytes": 1739,
+      "sha256": "2afec535b574e5d60f1063f83923e86c251ed92ec238b953bcea6ba0c93ca881",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-my-world-discovery",
       "visualProfile": "science",
@@ -8524,12 +10456,14 @@
       "activityId": "aas2-kg2-measure-compare-02",
       "path": "question-art/aas2-kg2-measure-compare-02.svg",
       "format": "svg",
-      "bytes": 790,
-      "sha256": "83b04b76d261b7837b1e3bbd2f0349e6a020985e1b1964d5aa122dc9231d9f66",
+      "bytes": 1509,
+      "sha256": "6670a180e9450f53dd84516a9b3ce80136ca6c46cec7be15f0ec8299b5bb9c29",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-measure-compare",
       "visualProfile": "math",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "block"
+      ],
       "optionImagePaths": [
         "option-art/23a72b9a6cef9e2f7330e961.svg",
         "option-art/23a72b9a6cef9e2f7330e961.svg"
@@ -8550,6 +10484,7 @@
       "skillId": "aas2-ali-measure-compare",
       "visualProfile": "math",
       "matchedPromptKinds": [
+        "water",
         "weight"
       ],
       "optionImagePaths": [
@@ -8565,8 +10500,8 @@
       "activityId": "aas2-kg2-plant-needs-01",
       "path": "question-art/aas2-kg2-plant-needs-01.svg",
       "format": "svg",
-      "bytes": 877,
-      "sha256": "66626efdfce2e82d338cf521b80ce9cb9d3179faa9124725c32ac3e26ca069b1",
+      "bytes": 1058,
+      "sha256": "0c8fee901f1ba3d53546624b0aac3b4d7107a9cfb162544fa985f8792b0cbf22",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -8588,8 +10523,8 @@
       "activityId": "aas2-kg2-plant-needs-02",
       "path": "question-art/aas2-kg2-plant-needs-02.svg",
       "format": "svg",
-      "bytes": 1272,
-      "sha256": "07bfb1fb4edeb7eb52e5e7cdd53595275e628d2be6cb567b297c66695e5071bb",
+      "bytes": 1048,
+      "sha256": "53f14ae8eed7a0b305da9e4f82c62a4410bb39d144ee3052e3313bf0dfbb8fa5",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -8611,8 +10546,8 @@
       "activityId": "aas2-kg2-plant-needs-03",
       "path": "question-art/aas2-kg2-plant-needs-03.svg",
       "format": "svg",
-      "bytes": 2146,
-      "sha256": "68f456ec76edc754fd0ca35490d9738964e6322cccd234594a74c4fda0d1dfd4",
+      "bytes": 1197,
+      "sha256": "1a56105186176b4d5c95e42860a578e2b16165a69582ec2b8b35b0d2ccd6c992",
       "engineVersion": "1.9.0",
       "skillId": "plant-needs",
       "visualProfile": "science",
@@ -8726,23 +10661,23 @@
       "activityId": "aas2-kg2-observe-predict-02",
       "path": "question-art/aas2-kg2-observe-predict-02.svg",
       "format": "svg",
-      "bytes": 845,
-      "sha256": "e7bbcf79e5cb67ba2ed8b1cc9c1701578fd668b43e38eb5d34a2b3f604326048",
+      "bytes": 1299,
+      "sha256": "f96ffc11be0b1408f314cca2f9a0986a64173dd33675d87e977b7f576b22a819",
       "engineVersion": "1.9.0",
       "skillId": "aas2-ali-observe-predict",
       "visualProfile": "english",
       "matchedPromptKinds": [
-        "cloud",
-        "sight"
+        "sun",
+        "water"
       ],
       "optionImagePaths": [
         "option-art/27f64048ba98d26075ee323b.svg",
-        "option-art/8f11a8530461f1fd349bdd10.svg",
+        "option-art/880bfea2889b76bf3d4ff7c1.svg",
         "option-art/fc609fb92a94b787bb0bc80a.svg"
       ],
       "optionLabels": [
         "It may rain",
-        "The Sun will become a star",
+        "Some water goes into the air.",
         "The clouds will turn into rocks"
       ]
     },

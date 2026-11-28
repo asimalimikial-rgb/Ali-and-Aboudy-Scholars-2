@@ -11752,15 +11752,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "39"
+          "text": "39",
+          "imageAssetPath": "option-art/a4cc43f4cddc9df33a07ae97.svg"
         },
         {
           "optionId": "b",
-          "text": "40"
+          "text": "40",
+          "imageAssetPath": "option-art/857dfbaef0b6d41248d8d562.svg"
         },
         {
           "optionId": "c",
-          "text": "42"
+          "text": "42",
+          "imageAssetPath": "option-art/4e4caba1e1c26bf9a3aa45aa.svg"
         }
       ],
       "correctOptionId": "b",
@@ -11774,7 +11777,8 @@
         "c": "speech/ebb4964b55a69019f14374d4789f9753a653c2cc4723c8d4fd51c4e93fc6017e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/83441aaba48657a73ad059cf368769c60ac4765a2949d438f9ed498bb6788744.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1dabb9c838ec3ebd4006f03ff04c21d75f00a66770545a027c25f9834f9a2942.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1dabb9c838ec3ebd4006f03ff04c21d75f00a66770545a027c25f9834f9a2942.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-01.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-02",
@@ -11785,15 +11789,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "50"
+          "text": "50",
+          "imageAssetPath": "option-art/6bbc67cb2d8db0d293489346.svg"
         },
         {
           "optionId": "c",
-          "text": "500"
+          "text": "500",
+          "imageAssetPath": "option-art/39bd5a2229a616f21d921453.svg"
         }
       ],
       "correctOptionId": "b",
@@ -11807,7 +11814,8 @@
         "c": "speech/0467992b3c9b9cbe05ff424be863c4469b17dfeb137f2660db2c94e69c8f538c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b92224a61780668893124a746093cb0292fc8a2a305a49451d6040ce3716f54a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/c762d223a57a95e2f9a05f594ef7474c8f969523f0d5e89ff5b171f39ca5369e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/c762d223a57a95e2f9a05f594ef7474c8f969523f0d5e89ff5b171f39ca5369e.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-02.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-03",
@@ -11818,15 +11826,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "28"
+          "text": "28",
+          "imageAssetPath": "option-art/7c15fba42f8354bf7431b938.svg"
         },
         {
           "optionId": "b",
-          "text": "36"
+          "text": "36",
+          "imageAssetPath": "option-art/b0f6866d9f143d02bb7af599.svg"
         },
         {
           "optionId": "c",
-          "text": "41"
+          "text": "41",
+          "imageAssetPath": "option-art/926291735d7e01a96469b295.svg"
         }
       ],
       "correctOptionId": "c",
@@ -11840,7 +11851,8 @@
         "c": "speech/9aca813d6cb6f5f83139885a944b06e937c8464cca1f6563d65eeb0a786691c2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/25c271e2f68d71a6ba114b72f3cc5f8d836df6669520855fa35ac3137ea8aef2.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/fd23c0007c8f7d62e4efeffab8677fefba5f3f06382331efa6e4398a8eaef6b6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/fd23c0007c8f7d62e4efeffab8677fefba5f3f06382331efa6e4398a8eaef6b6.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u01-03.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-01",
@@ -11851,15 +11863,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "63"
+          "text": "63",
+          "imageAssetPath": "option-art/171616cfc8bc337a5e4837b9.svg"
         },
         {
           "optionId": "b",
-          "text": "73"
+          "text": "73",
+          "imageAssetPath": "option-art/00e226ecd9d2d27e30c4661d.svg"
         },
         {
           "optionId": "c",
-          "text": "83"
+          "text": "83",
+          "imageAssetPath": "option-art/69fdb839338dbf9a000238b5.svg"
         }
       ],
       "correctOptionId": "b",
@@ -11873,7 +11888,8 @@
         "c": "speech/4b4e2d89afa1a300938b3a86b378238d60f3582907d22cd9faf9a914a14aa8f4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/0baaff4dcf3af6df58051efc041d34d3c677c790591cb3ec6bb9d6b129a299ec.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f5a1ebf97467c7b03f277add3141214d69b3c245105e8f01a67288d3cb73974a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f5a1ebf97467c7b03f277add3141214d69b3c245105e8f01a67288d3cb73974a.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-01.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-02",
@@ -11884,15 +11900,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "44"
+          "text": "44",
+          "imageAssetPath": "option-art/69b33dacc2f07309e50dc131.svg"
         },
         {
           "optionId": "b",
-          "text": "54"
+          "text": "54",
+          "imageAssetPath": "option-art/0127e3b6b1f0e0a9f22a3e58.svg"
         },
         {
           "optionId": "c",
-          "text": "34"
+          "text": "34",
+          "imageAssetPath": "option-art/60f1d415eb0922c59f13b713.svg"
         }
       ],
       "correctOptionId": "a",
@@ -11906,7 +11925,8 @@
         "c": "speech/5e27a36f9abdc38f0cb13a54a5a5eb6a7b2706c39c55df329a3d44377b2b5abc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/65c5d6bbfef29b4b8bb942ab1f6d3034cffaaac3966c6436cab7a32182bc588a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/da7a20fa64c806d3e553512e7980d539736674b3d5af6e956bf65579af12a662.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/da7a20fa64c806d3e553512e7980d539736674b3d5af6e956bf65579af12a662.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-02.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-03",
@@ -11917,15 +11937,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "42"
+          "text": "42",
+          "imageAssetPath": "option-art/4e4caba1e1c26bf9a3aa45aa.svg"
         },
         {
           "optionId": "b",
-          "text": "52"
+          "text": "52",
+          "imageAssetPath": "option-art/7dd19fb44a1a293e9dd977e5.svg"
         },
         {
           "optionId": "c",
-          "text": "62"
+          "text": "62",
+          "imageAssetPath": "option-art/16bd591fce1129e0c5e1b1ff.svg"
         }
       ],
       "correctOptionId": "b",
@@ -11939,7 +11962,8 @@
         "c": "speech/1888ed197c5b31f878b1ef53b6cfa561e41ff5f1f370ebbfee892d8fa6c2ae98.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/56f4366f18e0c67bfa97d23444733949380b3cc40380c5111cb0c75610214bfc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0cee36f075aaa040eeda12e28d168aab18fb066887b69dd5302a3012f5bbc0fe.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0cee36f075aaa040eeda12e28d168aab18fb066887b69dd5302a3012f5bbc0fe.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u02-03.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-01",
@@ -11950,15 +11974,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "20"
+          "text": "20",
+          "imageAssetPath": "option-art/4aaeff2018427c50d772bbc5.svg"
         },
         {
           "optionId": "b",
-          "text": "24"
+          "text": "24",
+          "imageAssetPath": "option-art/67183ea18c1aed9d277bcc1b.svg"
         },
         {
           "optionId": "c",
-          "text": "28"
+          "text": "28",
+          "imageAssetPath": "option-art/7c15fba42f8354bf7431b938.svg"
         }
       ],
       "correctOptionId": "b",
@@ -11972,7 +11999,8 @@
         "c": "speech/c48cedce8ffb07e861e1e841f414850773f380ebe77d031d03f4e35b577bac10.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/55bd06fdc421ca322b65af77d649fb5645fcb2f61ad994b140e2e61abb801b20.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/092a093e40313136cc9c36128953c8e54ce31e9419ae81d8587fe15cfa3600b5.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/092a093e40313136cc9c36128953c8e54ce31e9419ae81d8587fe15cfa3600b5.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-01.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-02",
@@ -11983,15 +12011,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "18"
+          "text": "18",
+          "imageAssetPath": "option-art/b0cafed603c9e61657b62318.svg"
         },
         {
           "optionId": "b",
-          "text": "27"
+          "text": "27",
+          "imageAssetPath": "option-art/a3eae9411e990ab5b059ee1e.svg"
         },
         {
           "optionId": "c",
-          "text": "36"
+          "text": "36",
+          "imageAssetPath": "option-art/b0f6866d9f143d02bb7af599.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12005,7 +12036,8 @@
         "c": "speech/0b5cff0f69c7e6398b5e9db276892af287d0c0116e50f0c5f2161341bcf3dd51.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7591899bfa97623fc40bd1764ddbe04d7a74a4498f4876b31e01524ed659c72a.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/86103f2c35db4f99404db57a2165823b9155151dd5fb53f548ec3adb2f1f9ab0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/86103f2c35db4f99404db57a2165823b9155151dd5fb53f548ec3adb2f1f9ab0.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-02.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-03",
@@ -12038,7 +12070,8 @@
         "c": "speech/1942c77d9b3c613bfe7b90b5e2e9a55905e5f39def0e20037098102901b6a771.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bf8d8aef5ecc00b8e4107fa460fbfaf653e251261a9b31d0ce8e0b484def33ee.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/99a0db4ba75b4556e1608e358f6b2c0b5c46bf3c68e14c23456aa0fce2eceb93.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/99a0db4ba75b4556e1608e358f6b2c0b5c46bf3c68e14c23456aa0fce2eceb93.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u03-03.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-01",
@@ -12071,7 +12104,8 @@
         "c": "speech/bde6918578494186506cadb441648992c1bed48cd183caf9d479d18fdea54df0.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/45a9e020a5f4f7c19f8cb91db76bee552d1011641c39fcf08806b2fc56c4cddd.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6f09f72f3ac84b3ea3d45061265477aa363fb12a4d5d0a6c7a4f70cf3f390aca.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6f09f72f3ac84b3ea3d45061265477aa363fb12a4d5d0a6c7a4f70cf3f390aca.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-01.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-02",
@@ -12082,15 +12116,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "20"
+          "text": "20",
+          "imageAssetPath": "option-art/4aaeff2018427c50d772bbc5.svg"
         },
         {
           "optionId": "b",
-          "text": "200"
+          "text": "200",
+          "imageAssetPath": "option-art/c18850700b251c0ee4457189.svg"
         },
         {
           "optionId": "c",
-          "text": "2000"
+          "text": "2000",
+          "imageAssetPath": "option-art/05b8c011776b2c6ca9cc8fd4.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12104,7 +12141,8 @@
         "c": "speech/7bb2d8be1f6d68728c2261bacaf053ca48664d32a6f975b058d14300bb89fb79.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/359ddbba793cfc02d14723c1d1f6ca2dba735a5d17278b7acf57a0752e76761d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/063e9bde63aaa6aa168c01ebea5a8b4b00420ea7cee71f80651580ec8b46f443.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/063e9bde63aaa6aa168c01ebea5a8b4b00420ea7cee71f80651580ec8b46f443.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-02.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-03",
@@ -12137,7 +12175,8 @@
         "c": "speech/6dffe6b9b28f9ed5c5b41d571a431737c0755d614a63a3f187743c6e5f404e5a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9ad8927fe9fd6b3add34020ba0503d6e5cea4a9d63116422bd1d39ee93907dd5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/96ed515b9deabbbb428003b5f2df913581bae78250b96503f0c5b6837a7124a7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/96ed515b9deabbbb428003b5f2df913581bae78250b96503f0c5b6837a7124a7.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u04-03.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-01",
@@ -12170,7 +12209,8 @@
         "c": "speech/0736a0e61094375ff8b3db8ad87f635975d31b5933e50cdcf840f2c1c8868b45.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7b7f7cf2e0d529ec614e50e8463e9b1167e9a200741ce5e78491cd35741db16d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6f70c5e4b2736cd3680ab2869efa12eb5cf91479a330e8c4a8a21c44122dbcf7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6f70c5e4b2736cd3680ab2869efa12eb5cf91479a330e8c4a8a21c44122dbcf7.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-01.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-02",
@@ -12181,15 +12221,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "10"
+          "text": "10",
+          "imageAssetPath": "option-art/2d8b6c68e461048da6de4591.svg"
         },
         {
           "optionId": "b",
-          "text": "11"
+          "text": "11",
+          "imageAssetPath": "option-art/e02c7acbc9ed3e533583b5d4.svg"
         },
         {
           "optionId": "c",
-          "text": "12"
+          "text": "12",
+          "imageAssetPath": "option-art/72fded42dc6bc101654031c2.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12203,7 +12246,8 @@
         "c": "speech/08a562db5d88770336db704e94c37554352574705992aef6759fc3e090e6a798.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/394d279b239a6acc23ca10423444ee22cb5cd930d5faf72a31f4758f4e8e0b6c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/bc16a291c2c6acaf608d2aa13b10bb7b2d0abbd80522c991ef193d704330111f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/bc16a291c2c6acaf608d2aa13b10bb7b2d0abbd80522c991ef193d704330111f.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-02.svg"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-03",
@@ -12214,15 +12258,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "5"
+          "text": "5",
+          "imageAssetPath": "option-art/aa789315be34e6ca89fe3b86.svg"
         },
         {
           "optionId": "b",
-          "text": "6"
+          "text": "6",
+          "imageAssetPath": "option-art/ac7b2dabcbe71e66bb4c948f.svg"
         },
         {
           "optionId": "c",
-          "text": "8"
+          "text": "8",
+          "imageAssetPath": "option-art/f76aac969985617d1d444e9a.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12236,7 +12283,8 @@
         "c": "speech/baba6a4e2647de5ff2c3565d0615051a14c542aad7a6cc549eafc4e2d19ea0d7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/13bcc4edec76b8131577a401792109148a9465564d5fbf971aa900ae59ce4ee2.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/cf6cc28aae6ab26624972d5c8c2b6242a74dac21c5c9848ec800e4fc07b10445.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/cf6cc28aae6ab26624972d5c8c2b6242a74dac21c5c9848ec800e4fc07b10445.ogg",
+      "promptImageAssetPath": "question-art/aas2-xpress2-mx2-g2-u05-03.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-001",
@@ -12250,15 +12298,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Sight"
+          "text": "Sight",
+          "imageAssetPath": "option-art/57be323a333ab8abda2eff6c.svg"
         },
         {
           "optionId": "b",
-          "text": "Hearing"
+          "text": "Hearing",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "c",
-          "text": "Taste"
+          "text": "Taste",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12279,7 +12330,8 @@
         "c": "speech/c17193dc045b1f8eeafd2ed093d8d77967f11f75822655fdb5c1e7a8d84b307e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d89c240a6b810c25796aac1deb39035dd4642f85c5a5d0b56d34bfbd70c2644b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ca1e278ae6f6f555e28b9a6e3890556f07f6d287b9dfab146251328c5c0adf80.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ca1e278ae6f6f555e28b9a6e3890556f07f6d287b9dfab146251328c5c0adf80.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-001.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-002",
@@ -12293,15 +12345,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Eyes"
+          "text": "Eyes",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         },
         {
           "optionId": "b",
-          "text": "Ears"
+          "text": "Ears",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "c",
-          "text": "Hands"
+          "text": "Hands",
+          "imageAssetPath": "option-art/5d4090c2aa97e77aa429715a.svg"
         }
       ],
       "correctOptionId": "a",
@@ -12322,7 +12377,8 @@
         "c": "speech/d943141ad61078b0edfcc16e2aa9bcf5d695ffd03e505c2ba6b9572960defd6e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d89d4de907f4fb6661ed0a90b6f6460f7443228745aef0c20a7fb79e1323189d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d961cee7dd76e484337c5537845c46c82ea84f36c09722d5de49e1c4ea169d47.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d961cee7dd76e484337c5537845c46c82ea84f36c09722d5de49e1c4ea169d47.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-002.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-003",
@@ -12336,7 +12392,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Tongue"
+          "text": "Tongue",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         },
         {
           "optionId": "b",
@@ -12344,7 +12401,8 @@
         },
         {
           "optionId": "c",
-          "text": "Nose"
+          "text": "Nose",
+          "imageAssetPath": "option-art/87643db174f62bf81ea50a5d.svg"
         }
       ],
       "correctOptionId": "c",
@@ -12365,7 +12423,8 @@
         "c": "speech/824bce7134254863380c4628df6896fa906bec855e752b1e9fc2a70b0adfc9b2.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7be84d84bddc0923e6ba4450b75c4f09323eefafde49e106fe751f0c6e25135b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/cce5091fa9c0a3610817bb5d63d0bc3a5e01e929c33697f7ef0c0540c1299684.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/cce5091fa9c0a3610817bb5d63d0bc3a5e01e929c33697f7ef0c0540c1299684.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-003.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-004",
@@ -12379,7 +12438,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Eyes"
+          "text": "Eyes",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         },
         {
           "optionId": "b",
@@ -12387,7 +12447,8 @@
         },
         {
           "optionId": "c",
-          "text": "Ears"
+          "text": "Ears",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12408,7 +12469,8 @@
         "c": "speech/51e3b72303ec9e5fee97a3d282a08993d239186ac344135c29707b3348fe21b7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d1ea1938d3fb8694c8cdde0954ebbc513587bd019ff68f72e59510a215001931.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/42c90e566a55daad0fed2b3182b5301806338fb85927b7916c33623474d9f377.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/42c90e566a55daad0fed2b3182b5301806338fb85927b7916c33623474d9f377.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-004.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-005",
@@ -12422,15 +12484,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hearing"
+          "text": "Hearing",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "b",
-          "text": "Sight"
+          "text": "Sight",
+          "imageAssetPath": "option-art/57be323a333ab8abda2eff6c.svg"
         },
         {
           "optionId": "c",
-          "text": "Taste"
+          "text": "Taste",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         }
       ],
       "correctOptionId": "c",
@@ -12451,7 +12516,8 @@
         "c": "speech/4c30c7d2b859dca4310f8be5ee2730c56c3539e9fb1d66a23ba3891028248e08.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b1d59fbd8a708d6f3c6a1bf57043098dabb7056e6e1ed5d125199a1fa432940f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/bfe99d5880a820aa3796306a49f50932e9ac35eb8d54da467f9965adf7010655.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/bfe99d5880a820aa3796306a49f50932e9ac35eb8d54da467f9965adf7010655.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-005.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-006",
@@ -12465,15 +12531,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Ears — hearing"
+          "text": "Ears — hearing",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "b",
-          "text": "Eyes — smelling"
+          "text": "Eyes — smelling",
+          "imageAssetPath": "option-art/3aceee1f56f779daf57a6e78.svg"
         },
         {
           "optionId": "c",
-          "text": "Nose — touching"
+          "text": "Nose — touching",
+          "imageAssetPath": "option-art/87643db174f62bf81ea50a5d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -12494,7 +12563,8 @@
         "c": "speech/7ba13774b8e0c5a4f82ddb45a94b07fec360df88ed98858019674b328933649e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/427db5aa72080b9bc35d873cca9aa6d84166348c169fb5a01e386b1e06ff501d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4a8bfaf49af70da62a5ce145e453e83b9dca86a6a27180801fea745163fcd0a4.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4a8bfaf49af70da62a5ce145e453e83b9dca86a6a27180801fea745163fcd0a4.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-006.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-007",
@@ -12508,15 +12578,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Taste and touch"
+          "text": "Taste and touch",
+          "imageAssetPath": "option-art/1c21c83ac1773fcbe6c17749.svg"
         },
         {
           "optionId": "b",
-          "text": "Smell and taste"
+          "text": "Smell and taste",
+          "imageAssetPath": "option-art/b20f55b52e0f333e64466555.svg"
         },
         {
           "optionId": "c",
-          "text": "Hearing and sight"
+          "text": "Hearing and sight",
+          "imageAssetPath": "option-art/a623fcc943ceccb59d4815ef.svg"
         }
       ],
       "correctOptionId": "c",
@@ -12537,7 +12610,8 @@
         "c": "speech/dc6c5e7e28f8c90bbf5c5fb277a47e39f8be8189b104afa8eb685e9cf2ad800d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/e8a0b410c1cb5ec0c6219221443b3b01f23e69a90735fa7bf4f3d7b01335326d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7cf149fdfaf166dc9f14aa52a5a8fb9c3a6c3a34774b9230d541a94280c8ee0b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7cf149fdfaf166dc9f14aa52a5a8fb9c3a6c3a34774b9230d541a94280c8ee0b.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-007.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-008",
@@ -12551,15 +12625,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Smell"
+          "text": "Smell",
+          "imageAssetPath": "option-art/b82f7933fb9194e5f01fa921.svg"
         },
         {
           "optionId": "b",
-          "text": "Touch"
+          "text": "Touch",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "c",
-          "text": "Hearing"
+          "text": "Hearing",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12580,7 +12657,8 @@
         "c": "speech/625d52014fde2ef700f1fe9aab049c7e63f6e2936461bf6f74baab44f309d1c7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7a745d6fdde8404f837586b941e2075a3ca24b76c9a60bd009a6c04cf0516b61.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/97f31847490c99a5e5fa746fbf03d400cea1f375f59559e723f0a01cc4cc5d0f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/97f31847490c99a5e5fa746fbf03d400cea1f375f59559e723f0a01cc4cc5d0f.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-008.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-009",
@@ -12623,7 +12701,8 @@
         "c": "speech/cc2e505b546a2d65ed9da52d680b8d036adb7fb44edffeb7ba613106cdd87c6d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/1a90b99374a40083d64cab5ce99afe2e0f6f64426503eece956141f5e44883d5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/42018fd4d80461d7959e027283ef3b249eb721d02c1b41dfa5b5658bc617c032.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/42018fd4d80461d7959e027283ef3b249eb721d02c1b41dfa5b5658bc617c032.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-009.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-010",
@@ -12641,11 +12720,13 @@
         },
         {
           "optionId": "b",
-          "text": "A person whispering"
+          "text": "A person whispering",
+          "imageAssetPath": "option-art/edeaa51944e51ccc8f473188.svg"
         },
         {
           "optionId": "c",
-          "text": "Leaves moving gently"
+          "text": "Leaves moving gently",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         }
       ],
       "correctOptionId": "a",
@@ -12666,7 +12747,8 @@
         "c": "speech/3bbe39300d7a448b34280fbe2f2e63c0875385812d20a933a904be09da185bbc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ad807b5f0e3c5f392341bd9c29c74630b5a356fc5f6c6d42f1b072d457286763.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4b2a0c0f77e2a3496b47d3bcb6b650f7a716cf4573a0b634ffaec9b6d0dd7bce.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4b2a0c0f77e2a3496b47d3bcb6b650f7a716cf4573a0b634ffaec9b6d0dd7bce.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-010.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-011",
@@ -12680,7 +12762,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A large low drum"
+          "text": "A large low drum",
+          "imageAssetPath": "option-art/2d988878a5ab322a283698b4.svg"
         },
         {
           "optionId": "b",
@@ -12688,7 +12771,8 @@
         },
         {
           "optionId": "c",
-          "text": "A small bird chirping"
+          "text": "A small bird chirping",
+          "imageAssetPath": "option-art/3402f11b3dbce34b5d9aaa4b.svg"
         }
       ],
       "correctOptionId": "c",
@@ -12709,7 +12793,8 @@
         "c": "speech/c7d96fe3e1d6a91c25d4bbff93218ba124f865ae070114bc24a51230788d6b5c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/fbef97cc3fdc3620d1685557126a8b42af64dfe19667eeea1bf6129c5f2346d3.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/c966308b13344887103dd5ea65025ded9b9544bdb07a6fb87077b9d3fb720fc1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/c966308b13344887103dd5ea65025ded9b9544bdb07a6fb87077b9d3fb720fc1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-011.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-012",
@@ -12752,7 +12837,8 @@
         "c": "speech/c28ee85c02eca3284ba271999d6b06d65e5c1f157104638e5f02dab29ce65d74.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4891cb16e760e53601326927c13ecbb58b0a7d3eadfc65491be08db09d64fd53.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ccacbd3964198ae8bd7554332fa6c52036e15caf1cc4b7dd972e22449de442b1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ccacbd3964198ae8bd7554332fa6c52036e15caf1cc4b7dd972e22449de442b1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-012.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-013",
@@ -12770,7 +12856,8 @@
         },
         {
           "optionId": "b",
-          "text": "A small bird chirp"
+          "text": "A small bird chirp",
+          "imageAssetPath": "option-art/ced598f92a7f6d1d3dfa0a17.svg"
         },
         {
           "optionId": "c",
@@ -12795,7 +12882,8 @@
         "c": "speech/b7ab8b940e4f940d0241bfa3d7d5d3a792cd19b16c704a3bea31e4f36337153c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4d5ad8079e487d447cb913fa08cc7ccc61dabaac8522acc6054c7d45e37f163f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8099a2862a19ca0a4273eaa9d236dbdca2a76bf3417c6e5eca207668df06b8fb.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8099a2862a19ca0a4273eaa9d236dbdca2a76bf3417c6e5eca207668df06b8fb.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-013.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-014",
@@ -12809,11 +12897,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It becomes a different colour"
+          "text": "It becomes a different colour",
+          "imageAssetPath": "option-art/0b21f501d84126d36f652eb2.svg"
         },
         {
           "optionId": "b",
-          "text": "It turns into a smell"
+          "text": "It turns into a smell",
+          "imageAssetPath": "option-art/b82f7933fb9194e5f01fa921.svg"
         },
         {
           "optionId": "c",
@@ -12838,7 +12928,8 @@
         "c": "speech/6573b3ac5da9abe235f9544d793820ad3541d90b8b34c877c3e347b523655ebe.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/12583032ed1f743ca3f3843a28ce458978e021f44e0015b70f99179ca8b8644d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/17cf4de0dc3310ce94217ef5fe3cf8c4619590d19098fdfbe615bf37f49c5cf1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/17cf4de0dc3310ce94217ef5fe3cf8c4619590d19098fdfbe615bf37f49c5cf1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-014.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-015",
@@ -12860,7 +12951,8 @@
         },
         {
           "optionId": "c",
-          "text": "Turn the sound up more"
+          "text": "Turn the sound up more",
+          "imageAssetPath": "option-art/e6419c2e8d332a0cfd84953c.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12881,7 +12973,8 @@
         "c": "speech/5ce1baec917bde3b61a3f5c541b4290f99df036eef8f3b954ee2bb4550695233.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/e75523df6c3f5d6087961fd7f7c7801b4cb5b72e0749716b962e83a006cb9797.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/9429e6c37f57d39285e1f5791def8532c7c6c33e1eefcb325586426c91629306.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/9429e6c37f57d39285e1f5791def8532c7c6c33e1eefcb325586426c91629306.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-015.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-016",
@@ -12895,11 +12988,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A sound can be high-pitched and quiet"
+          "text": "A sound can be high-pitched and quiet",
+          "imageAssetPath": "option-art/ef8980b5978352559f6535fe.svg"
         },
         {
           "optionId": "b",
-          "text": "Every high-pitched sound is loud"
+          "text": "Every high-pitched sound is loud",
+          "imageAssetPath": "option-art/e6419c2e8d332a0cfd84953c.svg"
         },
         {
           "optionId": "c",
@@ -12924,7 +13019,8 @@
         "c": "speech/918e64b114eb2670a5f6afb9e70d305b8f678e39278d0d12a3763b2671e4e00f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/66aa1ff42b5f8c14f4176d8801adc9e24a69520c2a4a1e04f6420003f413c6cc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e39ee5f1791d7599365ac5b7cbf140426997f1b225653d3861213474249fbbc1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e39ee5f1791d7599365ac5b7cbf140426997f1b225653d3861213474249fbbc1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-016.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-017",
@@ -12938,15 +13034,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Darkness entering your ears"
+          "text": "Darkness entering your ears",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "b",
-          "text": "Light reaching your eyes"
+          "text": "Light reaching your eyes",
+          "imageAssetPath": "option-art/be5673505f2c61efc023dc4e.svg"
         },
         {
           "optionId": "c",
-          "text": "A smell reaching your tongue"
+          "text": "A smell reaching your tongue",
+          "imageAssetPath": "option-art/b20f55b52e0f333e64466555.svg"
         }
       ],
       "correctOptionId": "b",
@@ -12967,7 +13066,8 @@
         "c": "speech/eb5729d51a3de1b33d9b5ae01a4f2a1411a8ef464df66f09fce0d98574738ddc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/241c3f4ad17c89452560950eead1ded76ae07088f2c1409da04619c96bb843c5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/65aa14ba3214509d1d5947ef9314e85363b63b01fad33ff0e8300946174f1997.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/65aa14ba3214509d1d5947ef9314e85363b63b01fad33ff0e8300946174f1997.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-017.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-018",
@@ -12981,15 +13081,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Yellow"
+          "text": "Yellow",
+          "imageAssetPath": "option-art/b8a34fd1afa94d9b9f7998b2.svg"
         },
         {
           "optionId": "b",
-          "text": "Blue"
+          "text": "Blue",
+          "imageAssetPath": "option-art/c834632a884b9c2bf45fe580.svg"
         },
         {
           "optionId": "c",
-          "text": "Purple"
+          "text": "Purple",
+          "imageAssetPath": "option-art/2f625dcc85a24ae332fac8ea.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13010,7 +13113,8 @@
         "c": "speech/3fe4dbaf43efaaaa4e68d72ab99b87eb19651057b707273194da2da13367559a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/800ba13da2f980565317481d6df84db4a7716d80adf6d79f4343106ed688801c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e58e2d3ac847d39701c3f7ec97a94cc29c68bfb5f47894eba143ca40fdef9052.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e58e2d3ac847d39701c3f7ec97a94cc29c68bfb5f47894eba143ca40fdef9052.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-018.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-019",
@@ -13024,15 +13128,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Blue"
+          "text": "Blue",
+          "imageAssetPath": "option-art/c834632a884b9c2bf45fe580.svg"
         },
         {
           "optionId": "b",
-          "text": "Green"
+          "text": "Green",
+          "imageAssetPath": "option-art/6950ca2b6ea8fd31523c18fe.svg"
         },
         {
           "optionId": "c",
-          "text": "Orange"
+          "text": "Orange",
+          "imageAssetPath": "option-art/63185c3fde762869f2d2939a.svg"
         }
       ],
       "correctOptionId": "c",
@@ -13053,7 +13160,8 @@
         "c": "speech/ce2d7e29c213728de81b6591416a375f61334b0f4b5a71633fd68b575bd024ea.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9772d4fe82562f27a1bf87ba949d133487b810efd3341c54fa070f8defe30eb0.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/27ccb6a57aa53a75065a26af77620fb19402f690dba5d6d9b5bd3f9b3bc6db0a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/27ccb6a57aa53a75065a26af77620fb19402f690dba5d6d9b5bd3f9b3bc6db0a.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-019.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-020",
@@ -13067,15 +13175,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Purple"
+          "text": "Purple",
+          "imageAssetPath": "option-art/2f625dcc85a24ae332fac8ea.svg"
         },
         {
           "optionId": "b",
-          "text": "Green"
+          "text": "Green",
+          "imageAssetPath": "option-art/6950ca2b6ea8fd31523c18fe.svg"
         },
         {
           "optionId": "c",
-          "text": "Red"
+          "text": "Red",
+          "imageAssetPath": "option-art/a64cc75bed8936c4980ea757.svg"
         }
       ],
       "correctOptionId": "b",
@@ -13096,7 +13207,8 @@
         "c": "speech/badcc2ed79b9a64276c1eb777bf6ededa870ee6be0419cd8a7dc5dc4db3e6afd.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7e1bc06bcfd01635be889a57f7b4b98b3c50139b79c3696ac35f140c4dc5c1c7.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/597c286244fb771fd177773edef9a0c7859f3d2e869fac12e6171d22a7e2f464.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/597c286244fb771fd177773edef9a0c7859f3d2e869fac12e6171d22a7e2f464.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-020.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-021",
@@ -13110,15 +13222,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Never look directly at the Sun"
+          "text": "Never look directly at the Sun",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         },
         {
           "optionId": "b",
-          "text": "Look straight at the Sun for a long time"
+          "text": "Look straight at the Sun for a long time",
+          "imageAssetPath": "option-art/57c992232db998af44361c79.svg"
         },
         {
           "optionId": "c",
-          "text": "Use a magnifying glass to look at the Sun"
+          "text": "Use a magnifying glass to look at the Sun",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13139,7 +13254,8 @@
         "c": "speech/3c49e9a85f44c7f73b5f9f82a55aec4664afd0c65e73b5462d39c2ac34ac3349.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/ea5778b26e574b6e329f3e78c3e24b547f8442bd1f82bb2d37166385c2c78c41.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/afec65452c997f0193f48365021f3319cbb1791ca9341749af15e997ebc8f9ed.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/afec65452c997f0193f48365021f3319cbb1791ca9341749af15e997ebc8f9ed.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-021.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-022",
@@ -13157,11 +13273,13 @@
         },
         {
           "optionId": "b",
-          "text": "To taste food"
+          "text": "To taste food",
+          "imageAssetPath": "option-art/20221c62a0090fcfe241a87a.svg"
         },
         {
           "optionId": "c",
-          "text": "To spread tears and help protect the eyes"
+          "text": "To spread tears and help protect the eyes",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         }
       ],
       "correctOptionId": "c",
@@ -13182,7 +13300,8 @@
         "c": "speech/2cd1a8eb3bcad1dd41458318593730cc55f1d66d8eb7b3aea12c1d92c72d99f3.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9f38119062eddc898872441854a4fe3389a71454f1128f8ed5abac1da6ee1c62.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/6b12978166edbca3b2bde1ffe2165a24b0485b9fc4847a0f49874c5e34822ec1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/6b12978166edbca3b2bde1ffe2165a24b0485b9fc4847a0f49874c5e34822ec1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-022.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-023",
@@ -13196,15 +13315,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A thick wooden board"
+          "text": "A thick wooden board",
+          "imageAssetPath": "option-art/c932248ca851916870d18adc.svg"
         },
         {
           "optionId": "b",
-          "text": "Clear glass"
+          "text": "Clear glass",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "c",
-          "text": "A closed book"
+          "text": "A closed book",
+          "imageAssetPath": "option-art/48e5a12c2af6ff0b293f5dea.svg"
         }
       ],
       "correctOptionId": "b",
@@ -13225,7 +13347,8 @@
         "c": "speech/cdbf8a1be1bdce7077acd3fe07b2c35288158363f907fc599b163b343a9bdd8e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/aa3da5dd38a1b2aad5d8a1d6f3580c8a200bb2df6b52be392fd2176bf7f05fe1.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/fd8c10769edaad7b5f00baca4dc34dfa65b4d81e16c470d5bc22982911bbe1ea.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/fd8c10769edaad7b5f00baca4dc34dfa65b4d81e16c470d5bc22982911bbe1ea.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-023.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-024",
@@ -13239,11 +13362,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Rub the eye hard"
+          "text": "Rub the eye hard",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         },
         {
           "optionId": "b",
-          "text": "Put a sharp object near the eye"
+          "text": "Put a sharp object near the eye",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         },
         {
           "optionId": "c",
@@ -13268,7 +13393,8 @@
         "c": "speech/7e6b69b7ca3eba0dc344b63a62efae58976df39f4cad622802a24e676818a377.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8414ac306a45c4b7b5cf037865cdb5f5cd9c375eb24c15c6f261ad3aa6a1187c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/abc42b6aff47dca0ecce0a6e5cff6944eedba34acfa5c82ad0f79115eb2c73f9.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/abc42b6aff47dca0ecce0a6e5cff6944eedba34acfa5c82ad0f79115eb2c73f9.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-024.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-025",
@@ -13311,7 +13437,8 @@
         "c": "speech/92f9a2287d83b40531c39bf80e7a55d02f1a4afa68a91acfeb7bc1523a825b18.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/cd62e1893c895b0810c1bd6d3fb68a22ecd3e7642fa7571025192a10d36a1ced.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d6d8b58e62e79336404e13ec2d76e6be48818edb7863bb415479db1410b49a0e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d6d8b58e62e79336404e13ec2d76e6be48818edb7863bb415479db1410b49a0e.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-025.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-026",
@@ -13325,15 +13452,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A metal spoon"
+          "text": "A metal spoon",
+          "imageAssetPath": "option-art/9f70113ab272986583199f06.svg"
         },
         {
           "optionId": "b",
-          "text": "A stone"
+          "text": "A stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "c",
-          "text": "Cotton wool"
+          "text": "Cotton wool",
+          "imageAssetPath": "option-art/ad91984a03885476b07595cf.svg"
         }
       ],
       "correctOptionId": "c",
@@ -13354,7 +13484,8 @@
         "c": "speech/358858539223a20f71b719eced4d1a58fed0fab667d8520781f513a2d234348d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/2ae63b3b001c84d911d37b488eb6f320a048261268301fd1b69c1ffee06e7128.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4c97cce5ad01152b7a4898b22e2b8fe4554a963d08697df2db843beb87c69008.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4c97cce5ad01152b7a4898b22e2b8fe4554a963d08697df2db843beb87c69008.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-026.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-027",
@@ -13368,15 +13499,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Touch"
+          "text": "Touch",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "b",
-          "text": "Hearing"
+          "text": "Hearing",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "c",
-          "text": "Smell"
+          "text": "Smell",
+          "imageAssetPath": "option-art/b82f7933fb9194e5f01fa921.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13397,7 +13531,8 @@
         "c": "speech/3817ff9d1ecc18240b6ba1fd65ec732a76beed050964b88cf8c89d96ba21a251.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5bd9760389d61d01cda9f636f7fafb1c287f83c70c9988048ceed746951e9cb3.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/5af4c490b4f510055526d20c0c7fc61b70a2ceb4abbee0b66e663064a30d6b10.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/5af4c490b4f510055526d20c0c7fc61b70a2ceb4abbee0b66e663064a30d6b10.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-027.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-028",
@@ -13411,7 +13546,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A polished glass marble"
+          "text": "A polished glass marble",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         },
         {
           "optionId": "b",
@@ -13419,7 +13555,8 @@
         },
         {
           "optionId": "c",
-          "text": "A smooth plastic ruler"
+          "text": "A smooth plastic ruler",
+          "imageAssetPath": "option-art/48a9211a0a0226f2629ee82e.svg"
         }
       ],
       "correctOptionId": "b",
@@ -13440,7 +13577,8 @@
         "c": "speech/d62fee7448565bf1cdd77f1dd2a336f202a2f6d0b05c1c3cd443426dd36d6529.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b5bf92460472f40c46c15d3209ba1439f6a616692001341af797d59e90a4e90b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4e64ab78676a26d475e8a1980bff2d12533e8f9bfdec68846da323235909dd04.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4e64ab78676a26d475e8a1980bff2d12533e8f9bfdec68846da323235909dd04.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-028.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-029",
@@ -13454,7 +13592,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Loud"
+          "text": "Loud",
+          "imageAssetPath": "option-art/e6419c2e8d332a0cfd84953c.svg"
         },
         {
           "optionId": "b",
@@ -13483,7 +13622,8 @@
         "c": "speech/a8d4aad01f8fd37f951f031583d1a83be3eae7ca5e3a16996528339c21f491d8.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bf9cd7ecb57f2bd06b3d4e84f0a85ba72a5bce156e93ec4585350f11a190f72e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/903554f6eee350d13dbc96747f339649067d3d47a10d2fd14f056628b6c216cf.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/903554f6eee350d13dbc96747f339649067d3d47a10d2fd14f056628b6c216cf.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-029.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-030",
@@ -13497,15 +13637,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Gently feel their clean surfaces"
+          "text": "Gently feel their clean surfaces",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "b",
-          "text": "Taste both objects"
+          "text": "Taste both objects",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         },
         {
           "optionId": "c",
-          "text": "Smell them with your eyes closed"
+          "text": "Smell them with your eyes closed",
+          "imageAssetPath": "option-art/3aceee1f56f779daf57a6e78.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13526,7 +13669,8 @@
         "c": "speech/bb2d50597c781da206473364a16c2f9dcda6718906ba1b4aa2b11e1a9d8c8fcc.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9c467c10d319bc660a210a81a6414c1fe456501082beea1ff16db2cda282996f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7052d6ce95f2454a278bcc8b67c60d7217062330100198a81161313a7d39c8fb.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7052d6ce95f2454a278bcc8b67c60d7217062330100198a81161313a7d39c8fb.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-030.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-031",
@@ -13540,11 +13684,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Pick it up to feel its body"
+          "text": "Pick it up to feel its body",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "b",
-          "text": "Do not touch it; tell an adult"
+          "text": "Do not touch it; tell an adult",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "c",
@@ -13569,7 +13715,8 @@
         "c": "speech/d18fa63f7b1cec63cd16608573cad9c51c8949c4c0b15d41d47dc669fdb7ac92.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4d90a6a79c18a0968ed7d4044c2844a22b9eea73ea6adea66ebe9c56e98f07ac.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b8b65f0239f7fd1a53114731a0add4add878823d5dfa59ca2a42b6730326cd76.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b8b65f0239f7fd1a53114731a0add4add878823d5dfa59ca2a42b6730326cd76.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-031.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-032",
@@ -13591,7 +13738,8 @@
         },
         {
           "optionId": "c",
-          "text": "Cold"
+          "text": "Cold",
+          "imageAssetPath": "option-art/2d7afab679934faab89b4c0d.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13612,7 +13760,8 @@
         "c": "speech/38c706190d7623ef099692a8223dd88a0721af08150da41fb4b164bbc10ec78d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/74584a8b630e70d9fea9828b93244a3c9e62bd186003c5635ab915ca018d2bac.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/95c8133b385e14243000299eaeecd7c1ba9868a16cb1a9ad129a6464e6437784.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/95c8133b385e14243000299eaeecd7c1ba9868a16cb1a9ad129a6464e6437784.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-032.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-033",
@@ -13626,15 +13775,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Ears"
+          "text": "Ears",
+          "imageAssetPath": "option-art/0e774e547efecaa61c8c3d26.svg"
         },
         {
           "optionId": "b",
-          "text": "Nose"
+          "text": "Nose",
+          "imageAssetPath": "option-art/87643db174f62bf81ea50a5d.svg"
         },
         {
           "optionId": "c",
-          "text": "Eyes"
+          "text": "Eyes",
+          "imageAssetPath": "option-art/d7172a7b775c6d6d08f37604.svg"
         }
       ],
       "correctOptionId": "b",
@@ -13655,7 +13807,8 @@
         "c": "speech/7ab16e44e7f24a4c7efe63b48ac2a2c099e578a7cf2dd88f073cd1b8a1a44d26.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/feb852233549291ae6237bb5bc142282ae398468862c060d9e9720ca1066bdce.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d1032ce3c9e0fbd603fb75e75209b8af735a796d328058d71e7e8a781e3cccc1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d1032ce3c9e0fbd603fb75e75209b8af735a796d328058d71e7e8a781e3cccc1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-033.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-034",
@@ -13677,7 +13830,8 @@
         },
         {
           "optionId": "c",
-          "text": "Tongue"
+          "text": "Tongue",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         }
       ],
       "correctOptionId": "c",
@@ -13698,7 +13852,8 @@
         "c": "speech/84916437119f1754965675268ae282ba0d87280799a2cf539cbaab763b130a97.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/3c276f502b5fbf2e7a3fc1e85c5b3879929690be9084da73647ad30ee8c1823e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3d785e41b5d1db3e8a81a423ebd3f0447d8a6b9eee9b4d8405c6ef859e987ed5.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3d785e41b5d1db3e8a81a423ebd3f0447d8a6b9eee9b4d8405c6ef859e987ed5.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-034.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-035",
@@ -13741,7 +13896,8 @@
         "c": "speech/8973108441064a71c2dd18af3b8f3dca7e32ebcc31df760e262b4f97d51aa7db.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bbbb1a4b31589a677b3e9e1d7279fa7f833d95e513b01c1ea9097af8de2a1a68.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/cf3de6807a020d6c3cb6d66e84fa9fa9f0ccf1796065dbf23074b4a257f926d1.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/cf3de6807a020d6c3cb6d66e84fa9fa9f0ccf1796065dbf23074b4a257f926d1.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-035.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-036",
@@ -13755,11 +13911,13 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Taste a little to identify it"
+          "text": "Taste a little to identify it",
+          "imageAssetPath": "option-art/8ec91790d8005d48e50c7e74.svg"
         },
         {
           "optionId": "b",
-          "text": "Smell it closely and then eat it"
+          "text": "Smell it closely and then eat it",
+          "imageAssetPath": "option-art/b82f7933fb9194e5f01fa921.svg"
         },
         {
           "optionId": "c",
@@ -13784,7 +13942,8 @@
         "c": "speech/5682bcee1afdc03cb45810039f105c51ecbe1f7296f4ea7f09e4779c6b62d4f6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/9c495152510702b45fa55097849f3cc306593feaf1d291bce3984cdb4e2386c4.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/dc913ba238f8a4e07771dfd36ee5b5b692c879264045e11169a6d651dcf6ff7a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/dc913ba238f8a4e07771dfd36ee5b5b692c879264045e11169a6d651dcf6ff7a.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-036.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-037",
@@ -13806,7 +13965,8 @@
         },
         {
           "optionId": "c",
-          "text": "Touch nearby objects to see if they are hot"
+          "text": "Touch nearby objects to see if they are hot",
+          "imageAssetPath": "option-art/5e58a902c7953a20c81243eb.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13827,7 +13987,8 @@
         "c": "speech/fea6c3ad0ac2cab1ea750cfbd0ce543137e485b2fc10614ea74d351c03ec9845.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/beb3723c1130066c3b6a2fed8cd3207e05fe111cb619dad35b9b49899ea14b3e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f1d4eacdb2cd24d4a6cf42fbe586b9e299ea3ebfae52bd88c432ff56e954cee6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f1d4eacdb2cd24d4a6cf42fbe586b9e299ea3ebfae52bd88c432ff56e954cee6.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-037.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-038",
@@ -13841,7 +14002,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Its exact weight"
+          "text": "Its exact weight",
+          "imageAssetPath": "option-art/932dfd8f109de275d2f469c9.svg"
         },
         {
           "optionId": "b",
@@ -13870,7 +14032,8 @@
         "c": "speech/dc006f26aa83db24089423805023425b0d0bdb5fcdb176433b6740408008c90c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/101ea9c1d9f56b02e0e34cd1d47eccfe36182c88e0e1fbf6b701a4801a053922.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/44601c46aa1b647075d164ff6a08e8216139221604ed1ecd700e2e7e82052b8c.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/44601c46aa1b647075d164ff6a08e8216139221604ed1ecd700e2e7e82052b8c.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-038.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-039",
@@ -13884,15 +14047,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Hearing and touch only"
+          "text": "Hearing and touch only",
+          "imageAssetPath": "option-art/fb2660609eca94f7b607e375.svg"
         },
         {
           "optionId": "b",
-          "text": "Sight and hearing only"
+          "text": "Sight and hearing only",
+          "imageAssetPath": "option-art/a623fcc943ceccb59d4815ef.svg"
         },
         {
           "optionId": "c",
-          "text": "Smell and taste"
+          "text": "Smell and taste",
+          "imageAssetPath": "option-art/b20f55b52e0f333e64466555.svg"
         }
       ],
       "correctOptionId": "c",
@@ -13913,7 +14079,8 @@
         "c": "speech/0dd2d6b234c1199f0b4ac7bdc5a7258f29071cc3b06284742c3f24d106b82598.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bb84ce100320c118d287903171b52547458a27f512ed59dcba1f29dbc39c94ea.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/55be1ab35322ddf2989a15bb7781e954d8c10ea58345de35721089d0bd357aeb.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/55be1ab35322ddf2989a15bb7781e954d8c10ea58345de35721089d0bd357aeb.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-039.svg"
     },
     {
       "activityId": "aas2-g2-sci-u03-040",
@@ -13956,7 +14123,8 @@
         "c": "speech/98dc464b13400ea12fe6c321aff3be6978da80abeb02ecca12dc6c886eb5c82a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a11aaaf2970bf18afecaf39caa8bbcc4ee51fac69ab3d3d2a194bb09c55f78f1.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/564ea79401e6b5f5405d0c021cf7ac5f2136a33fbb2325320e6b430db48d4f7e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/564ea79401e6b5f5405d0c021cf7ac5f2136a33fbb2325320e6b430db48d4f7e.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u03-040.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-001",
@@ -13970,15 +14138,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A metal coin"
+          "text": "A metal coin",
+          "imageAssetPath": "option-art/8d931f6ca0ba07a84f3ec8ac.svg"
         },
         {
           "optionId": "a",
-          "text": "A dry leaf"
+          "text": "A dry leaf",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         },
         {
           "optionId": "c",
-          "text": "A small stone"
+          "text": "A small stone",
+          "imageAssetPath": "option-art/4883506061c585420562ee5a.svg"
         }
       ],
       "correctOptionId": "a",
@@ -13999,7 +14170,8 @@
         "c": "speech/6bd1fae4df343468cfc5fc5872f1a3957791018d10eb7750c026c68bb1a568ba.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/910276c86427b6db4bddebedeb8d570d296ad7369c604cd491c90efc944516ba.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/773030cc31f20c49a93f568702297f6e2593f1678d312b627ffa3b37096410f0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/773030cc31f20c49a93f568702297f6e2593f1678d312b627ffa3b37096410f0.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-001.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-002",
@@ -14042,7 +14214,8 @@
         "a": "speech/7c8f89fd1993c777de67bed8504d706e9780cde1d0f16e34f2f73d7d03946af4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/99fb42f740455619e0eba40cf3a73c1a9997ead5fe85027cb98e575dbdbc991f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ab49fce1d613bda84cab5f76ad58389b307b0b3f60ab2457766ead4b1f1d3e09.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ab49fce1d613bda84cab5f76ad58389b307b0b3f60ab2457766ead4b1f1d3e09.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-002.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-003",
@@ -14056,15 +14229,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A metal spoon"
+          "text": "A metal spoon",
+          "imageAssetPath": "option-art/9f70113ab272986583199f06.svg"
         },
         {
           "optionId": "a",
-          "text": "A cork"
+          "text": "A cork",
+          "imageAssetPath": "option-art/720341f6793664e07009cb53.svg"
         },
         {
           "optionId": "c",
-          "text": "A dry leaf"
+          "text": "A dry leaf",
+          "imageAssetPath": "option-art/013d0b6109c9ba7acac51b60.svg"
         }
       ],
       "correctOptionId": "b",
@@ -14085,7 +14261,8 @@
         "c": "speech/0d4bdd7497d4dd1558b6e64739acf2784793ecaa7999d39422486cb7a330fd3d.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/196a50d1287a80cb55485df7dbbdfd06df6570b505fc96a59f31431197b5eb65.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0173eb8b9c361c0cd51a52de5fa5904ec336de0f50e167912fd0728282c71012.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0173eb8b9c361c0cd51a52de5fa5904ec336de0f50e167912fd0728282c71012.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-003.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-004",
@@ -14099,15 +14276,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "Guess from its colour"
+          "text": "Guess from its colour",
+          "imageAssetPath": "option-art/0b21f501d84126d36f652eb2.svg"
         },
         {
           "optionId": "c",
-          "text": "Taste the object"
+          "text": "Taste the object",
+          "imageAssetPath": "option-art/fdc33f85e039cff6626a0878.svg"
         },
         {
           "optionId": "a",
-          "text": "Place it gently in water and observe"
+          "text": "Place it gently in water and observe",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14128,7 +14308,8 @@
         "a": "speech/a6b13ba853676472e7534260ed742adaa565ac982b95fda43c5fb20999b40940.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/02076ba00001f1b7a11cf957c1c5773e364a0d33bd76b3c078fd33fd208880ed.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ab01a4d40af7c80e453ce2f23a82cab0e1b6258859ffb8b58efae9db4a94e363.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ab01a4d40af7c80e453ce2f23a82cab0e1b6258859ffb8b58efae9db4a94e363.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-004.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-005",
@@ -14142,15 +14323,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "It has no weight"
+          "text": "It has no weight",
+          "imageAssetPath": "option-art/932dfd8f109de275d2f469c9.svg"
         },
         {
           "optionId": "a",
-          "text": "Its shape helps it push water aside"
+          "text": "Its shape helps it push water aside",
+          "imageAssetPath": "option-art/c407581180b525c50e97df29.svg"
         },
         {
           "optionId": "c",
-          "text": "It is made of water"
+          "text": "It is made of water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14171,7 +14355,8 @@
         "c": "speech/285ee2e725d0ed3ce6d8bfa0488392d18a35d8fd0bc04898c7732337d20fbcb0.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/6ec874d6eed49efdd9ae7ab1a2824f6cbaeb9abf3089c2c62dbb4c4030db9e56.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8e3688a2cb3e96923901f27f8499f1b857ed21fe55237146f15bcd17ebea5bf7.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8e3688a2cb3e96923901f27f8499f1b857ed21fe55237146f15bcd17ebea5bf7.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-005.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-006",
@@ -14185,15 +14370,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "The shape of the cup"
+          "text": "The shape of the cup",
+          "imageAssetPath": "option-art/9ab32b895a985999ae4634f6.svg"
         },
         {
           "optionId": "b",
-          "text": "The shape of a wooden block"
+          "text": "The shape of a wooden block",
+          "imageAssetPath": "option-art/2db1c570cc2ede345dfc86fe.svg"
         },
         {
           "optionId": "c",
-          "text": "A shape that never changes"
+          "text": "A shape that never changes",
+          "imageAssetPath": "option-art/716eba40d37c6f3ee8e278f4.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14214,7 +14402,8 @@
         "c": "speech/b50d9dee01ec89420879f991cd11ad7d16aee002a184d0820d80b36a9de0029e.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/bc5fd9aaeeaa7e66bc9fc6b16b5cefb11ad77a42f95569a0c1a8682382711f2d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/eea012a5e54b5c38c8435556edbb4ce8b0eebf605f1e64433e1a6144a360c033.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/eea012a5e54b5c38c8435556edbb4ce8b0eebf605f1e64433e1a6144a360c033.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-006.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-007",
@@ -14228,15 +14417,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "The amount of water"
+          "text": "The amount of water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "c",
-          "text": "The water becomes solid"
+          "text": "The water becomes solid",
+          "imageAssetPath": "option-art/a1bed5e37dfdf4e94722e28d.svg"
         },
         {
           "optionId": "a",
-          "text": "The shape of the water"
+          "text": "The shape of the water",
+          "imageAssetPath": "option-art/c407581180b525c50e97df29.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14257,7 +14449,8 @@
         "a": "speech/50836fa0db532b63a9a1f0da3ef03a2924b4fc058f5ccbc6cfbba99d0c94e216.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c9938f14337341c54e42dac6347c7403906bdd262906e19bc36f0c5fa2692ec3.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/35ae86efd5485759b9b724491af7d6674940095ead942a3b45b6fd44b4dbb54b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/35ae86efd5485759b9b724491af7d6674940095ead942a3b45b6fd44b4dbb54b.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-007.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-008",
@@ -14271,15 +14464,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A pencil"
+          "text": "A pencil",
+          "imageAssetPath": "option-art/b8b719cb904704fe6805da07.svg"
         },
         {
           "optionId": "a",
-          "text": "Milk"
+          "text": "Milk",
+          "imageAssetPath": "option-art/d528aa7ac7b48f91fabf0c11.svg"
         },
         {
           "optionId": "c",
-          "text": "A stone"
+          "text": "A stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14300,7 +14496,8 @@
         "c": "speech/1c3fa46bfbf04969e5f30001afbef2f16f6135ce48aae7d8bce337e315dcab3c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/fd9f91f70124cc3a34af36c2522847ac2aa00776c67fc8cb7b75dfa4c69ed64f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b12cb3292df12b5f1b572bbd603e467f0acf1af608aa07e8ce8f0a4e959bbc7c.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b12cb3292df12b5f1b572bbd603e467f0acf1af608aa07e8ce8f0a4e959bbc7c.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-008.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-009",
@@ -14318,7 +14515,8 @@
         },
         {
           "optionId": "b",
-          "text": "A ruler"
+          "text": "A ruler",
+          "imageAssetPath": "option-art/cd5636b886166db4eb3b073b.svg"
         },
         {
           "optionId": "c",
@@ -14343,7 +14541,8 @@
         "c": "speech/437be2ce910086ffc46f5dfef739065835fee059b843cbe088c79e1db9a535a4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/2ffbb05e106f8116dec73b3c77b89d472129de766a21f546c74d8b1d1c65d944.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/d79b6a3b57cf02a52972812f50418471fd87c6cba5c9afa6af7518f25301533e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/d79b6a3b57cf02a52972812f50418471fd87c6cba5c9afa6af7518f25301533e.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-009.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-010",
@@ -14357,15 +14556,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "Its colour"
+          "text": "Its colour",
+          "imageAssetPath": "option-art/0b21f501d84126d36f652eb2.svg"
         },
         {
           "optionId": "c",
-          "text": "How loud it is"
+          "text": "How loud it is",
+          "imageAssetPath": "option-art/e6419c2e8d332a0cfd84953c.svg"
         },
         {
           "optionId": "a",
-          "text": "How much it can hold"
+          "text": "How much it can hold",
+          "imageAssetPath": "option-art/d5d4b267960243b0b6294825.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14386,7 +14588,8 @@
         "a": "speech/c416cf1e80ab069e46e55fe5cba5f0228f7c0d23df31249b134e241774178a99.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d496845a14cef87d7163b53f3fbcabcd056731e73a0b44322f81b158e573ae58.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a8306ed5085c47dfd2deba149247e2288a99cbd384503887a1310ad10e9a454f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a8306ed5085c47dfd2deba149247e2288a99cbd384503887a1310ad10e9a454f.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-010.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-011",
@@ -14400,11 +14603,13 @@
       "options": [
         {
           "optionId": "b",
-          "text": "It turns into a stone"
+          "text": "It turns into a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "a",
-          "text": "It dissolves and spreads through the water"
+          "text": "It dissolves and spreads through the water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "c",
@@ -14429,7 +14634,8 @@
         "c": "speech/48c06372a2232792adc5940522dd25fefb4bc11b9f05e03bb4e596a7e1c24362.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/67e844ea58dd6ed2f42995ba4ed3f5311b8632e1132beb7a91c5f4f9a54b9d14.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f87f0909747f1abac1452a360593dbf3da4aefd50b6ab3e740003f866bf691fc.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f87f0909747f1abac1452a360593dbf3da4aefd50b6ab3e740003f866bf691fc.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-011.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-012",
@@ -14472,7 +14678,8 @@
         "c": "speech/044d4da4aed58875d60e774ac7cd24fb3029b0beeaf8a8cefbfd8e269ee546f7.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a67ebc50a0103ae9c0b4c0e0aeba6a8823ea02c49c55d8077d9bd8a728b3c5bb.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/2bba26e3d49392ebffddb5f846195f90d86b1508ab533b6e96f27d01aa960607.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/2bba26e3d49392ebffddb5f846195f90d86b1508ab533b6e96f27d01aa960607.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-012.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-013",
@@ -14490,7 +14697,8 @@
         },
         {
           "optionId": "a",
-          "text": "Yes, it is spread through the water"
+          "text": "Yes, it is spread through the water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "c",
@@ -14515,7 +14723,8 @@
         "c": "speech/90a1013b2d8c6b0756461a6076d9d46cb91bfbf950f12761793033da4a7585db.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5a48eb49dbb0fcc70a3d46939b15f3394aece185243625006053e88d41c01cc5.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e683485b13968c74f7fc589ac8d56b6fe1177ef3ba7df04210614e80efee59c3.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e683485b13968c74f7fc589ac8d56b6fe1177ef3ba7df04210614e80efee59c3.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-013.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-014",
@@ -14533,7 +14742,8 @@
         },
         {
           "optionId": "c",
-          "text": "They become a solid"
+          "text": "They become a solid",
+          "imageAssetPath": "option-art/89debe8febb01d7241ace4fb.svg"
         },
         {
           "optionId": "a",
@@ -14558,7 +14768,8 @@
         "a": "speech/133bf230371a71927573898cbb180373d4805b33b781d2e0777a8a39a193f90c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5605f447f568ace96a7c5b10ed8968f55a08ec17489c89b80f78db9770106556.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/8930a87280c11694b2850b3984c0c433fdc7a2d5a76579af5e38e5fc80a3c90b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/8930a87280c11694b2850b3984c0c433fdc7a2d5a76579af5e38e5fc80a3c90b.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-014.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-015",
@@ -14576,11 +14787,13 @@
         },
         {
           "optionId": "b",
-          "text": "Adding a stone"
+          "text": "Adding a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "c",
-          "text": "Covering the cup with sand"
+          "text": "Covering the cup with sand",
+          "imageAssetPath": "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14601,7 +14814,8 @@
         "c": "speech/c0b094a1adfada0bb9731573e4ca1127746df9a925e97d925fe17e3ac21d4870.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/8735371fa4cb11eb5a1775a7e0c0ad1dba29fdb6ea0d3b5dd40300380a7edab0.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/22826fca6ef97a5cd14e02c4ded6201f7b3f822ac4224edb25af0cab5e61f58e.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/22826fca6ef97a5cd14e02c4ded6201f7b3f822ac4224edb25af0cab5e61f58e.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-015.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-016",
@@ -14615,15 +14829,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A wooden chair"
+          "text": "A wooden chair",
+          "imageAssetPath": "option-art/a9433a3b49bdc7d8ff408079.svg"
         },
         {
           "optionId": "a",
-          "text": "The Sun"
+          "text": "The Sun",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         },
         {
           "optionId": "c",
-          "text": "A glass cup"
+          "text": "A glass cup",
+          "imageAssetPath": "option-art/459631dd81eb2b1403ee2d9e.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14644,7 +14861,8 @@
         "c": "speech/80c21ea28b128cbd7da6fea42795015b6349116392c33218cbf3c2fac263fad1.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/714afed54417613785e0b7b26b44b8690c94c372d4d002f1090ec54ee9b8ac7b.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ee08fc4b7cff2ad3aeeff71ad61a977ac715fc0111eafcf0573f0d8d794165df.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/ee08fc4b7cff2ad3aeeff71ad61a977ac715fc0111eafcf0573f0d8d794165df.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-016.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-017",
@@ -14658,7 +14876,8 @@
       "options": [
         {
           "optionId": "b",
-          "text": "Touch the pot to test it"
+          "text": "Touch the pot to test it",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "c",
@@ -14687,7 +14906,8 @@
         "a": "speech/79b00fd3c4b7af99f93983946b306afe69b516d5468433441c4ff9da466fb10f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/d8fca7bbbadcd7931aa657cfc353e73c48b06d460138c4e02e5b3d3fad68b2cc.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4dd4b96bdb99d6a63a383d0dc4cde5b980ffea2d49a147e5531d7e25cee38205.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4dd4b96bdb99d6a63a383d0dc4cde5b980ffea2d49a147e5531d7e25cee38205.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-017.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-018",
@@ -14701,15 +14921,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "It melts into liquid water"
+          "text": "It melts into liquid water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "b",
-          "text": "It becomes a stone"
+          "text": "It becomes a stone",
+          "imageAssetPath": "option-art/28daedb8e83d9c13f9ed4103.svg"
         },
         {
           "optionId": "c",
-          "text": "It grows into a plant"
+          "text": "It grows into a plant",
+          "imageAssetPath": "option-art/dd39a0e4eedf704c1054b2c5.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14730,7 +14953,8 @@
         "c": "speech/4baa2d135f2605a8e598fa393c81095e1bfa1e74d5426857026b3353dabca1a4.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/406e4a30d89691710f7af1052353ddeba7d55cab637e94e8064ead6f3505c14c.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/1c6e4b0f248cc27c66ca5e75f6f25fdefe25481bb3289931863bd14c02def33b.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/1c6e4b0f248cc27c66ca5e75f6f25fdefe25481bb3289931863bd14c02def33b.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-018.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-019",
@@ -14773,7 +14997,8 @@
         "c": "speech/edde6c33d20e6da681b5e30a342271bf61c9ba79d4c10ebad02d51584df0739a.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/f42ce4d652ef045fbc7cb17f639599e94a8f64659cca4fe03a7621a20d816b06.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/b80e4100fa657ee62464a19723d212b0d623299e4aaa02a43906611e2df1d8b5.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/b80e4100fa657ee62464a19723d212b0d623299e4aaa02a43906611e2df1d8b5.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-019.svg"
     },
     {
       "activityId": "aas2-g2-sci-u04-020",
@@ -14791,11 +15016,13 @@
         },
         {
           "optionId": "b",
-          "text": "Wipe it with bare hands"
+          "text": "Wipe it with bare hands",
+          "imageAssetPath": "option-art/5d4090c2aa97e77aa429715a.svg"
         },
         {
           "optionId": "c",
-          "text": "Play with the water"
+          "text": "Play with the water",
+          "imageAssetPath": "option-art/6f3b1767afde5d74de45bdf8.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14816,7 +15043,8 @@
         "c": "speech/1830023ed7ed0522b74eb207fc154b5d70ac0f8e3235baea79537848f64107ec.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/a08d600f2d695cea7fefb3a995d4cb528a7958ae10220be353109445f0b403c0.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f8f5bd50b9a324b1bb9a80f7490edb0a85a62142e98c4f968714ff5d6a4f3875.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f8f5bd50b9a324b1bb9a80f7490edb0a85a62142e98c4f968714ff5d6a4f3875.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u04-020.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-001",
@@ -14830,7 +15058,8 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A cloud"
+          "text": "A cloud",
+          "imageAssetPath": "option-art/4ee3a97ab2bc411903c00463.svg"
         },
         {
           "optionId": "c",
@@ -14838,7 +15067,8 @@
         },
         {
           "optionId": "a",
-          "text": "The Moon"
+          "text": "The Moon",
+          "imageAssetPath": "option-art/725fd1e948742e4d04fc7763.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14859,7 +15089,8 @@
         "a": "speech/103681f6d0008c586cd394f4a9002666d466d8c1951b00e709abddb9bef5b455.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/42330f90562940f9513f4392be3773ba28cab39fc36bbb69818e57d3bcdb1417.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/4e18d7240370b19040a32d4ccaf794a13cbb51f33bfe8c04449f05d8fdbea7e2.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/4e18d7240370b19040a32d4ccaf794a13cbb51f33bfe8c04449f05d8fdbea7e2.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-001.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-002",
@@ -14873,15 +15104,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A star"
+          "text": "A star",
+          "imageAssetPath": "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
         },
         {
           "optionId": "b",
-          "text": "The Moon"
+          "text": "The Moon",
+          "imageAssetPath": "option-art/725fd1e948742e4d04fc7763.svg"
         },
         {
           "optionId": "c",
-          "text": "A mirror"
+          "text": "A mirror",
+          "imageAssetPath": "option-art/b61f05b85c12c519f4c36fb9.svg"
         }
       ],
       "correctOptionId": "a",
@@ -14902,7 +15136,8 @@
         "c": "speech/f063c9fb9aec309cf9c6222508d8f82f74ea1b3e908089e807b30e0792a696f6.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/77f0c2197a850c43e220b48bca14b2644bd19963be573e5594910c2827740176.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/3158e6babcc0e1deccc6e520eab5d9692e5ad04846b8a7e8c12cde29c195a399.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/3158e6babcc0e1deccc6e520eab5d9692e5ad04846b8a7e8c12cde29c195a399.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-002.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-003",
@@ -14920,7 +15155,8 @@
         },
         {
           "optionId": "a",
-          "text": "It reflects light from the Sun"
+          "text": "It reflects light from the Sun",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         },
         {
           "optionId": "c",
@@ -14945,7 +15181,8 @@
         "c": "speech/ec09588041cb6a65c16e593bdb785ae1216c43c50f5fac9efa0acaeb36be68e1.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c827de3d06a523fae60ad97ad815235d0027c0f9f4624d7ea9de8b4e04896247.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/7a6210d7718e2661955dea541bf169d763a71158fc9a26b2c0518aebb0150e1d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/7a6210d7718e2661955dea541bf169d763a71158fc9a26b2c0518aebb0150e1d.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-003.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-004",
@@ -14988,7 +15225,8 @@
         "a": "speech/955ba13dbd27e4437b5d0215ab1a3223b3fcadb98658aa58a13844c7c68a6c73.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/7551da0f80c7dd9434f84f3674cc4cfe41bdfa09d35004975faa7318a0c92bac.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/c0918e16f9c72e3e44b88e9e9499ec56dc72132de006a5fad81193d6692e236d.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/c0918e16f9c72e3e44b88e9e9499ec56dc72132de006a5fad81193d6692e236d.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-004.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-005",
@@ -15002,7 +15240,8 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A river full of water"
+          "text": "A river full of water",
+          "imageAssetPath": "option-art/41682f6c0ef020dd02428657.svg"
         },
         {
           "optionId": "a",
@@ -15010,7 +15249,8 @@
         },
         {
           "optionId": "c",
-          "text": "A tall green tree"
+          "text": "A tall green tree",
+          "imageAssetPath": "option-art/67a63b12598e38f8a054a55a.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15031,7 +15271,8 @@
         "c": "speech/e18a2da3355bebbe5fa86835dee807cc279de746405d00686331a3160ae56da9.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/5ecdaeca9cae751f18e74922011e3326dd8902afd05c47f19c0e54f8035c943e.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a7f6fe5f181d0de4368705a12e86700193070b367fd1e30926950076bf8f5674.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a7f6fe5f181d0de4368705a12e86700193070b367fd1e30926950076bf8f5674.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-005.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-006",
@@ -15045,15 +15286,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Space rocks hit the Moon's surface"
+          "text": "Space rocks hit the Moon's surface",
+          "imageAssetPath": "option-art/e481c4a4ab4ac7b22393938d.svg"
         },
         {
           "optionId": "b",
-          "text": "Rain made deep puddles"
+          "text": "Rain made deep puddles",
+          "imageAssetPath": "option-art/966bd07f3f505e3e00234bef.svg"
         },
         {
           "optionId": "c",
-          "text": "Wind blew sand into circles"
+          "text": "Wind blew sand into circles",
+          "imageAssetPath": "option-art/01bad04e86303c07c30d4b3b.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15074,7 +15318,8 @@
         "c": "speech/20723f0b203379ccb034cce970c4f2c75ddbd4019ab63b0edaf0a9ed266fd14f.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/c7d98ecd0b59b4698aaa470e5f81854396d76174b2b39be4c076d17baf38fa11.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/aafd398cb35d3ddd7ce3169e2376e95123aca5aaac3106f76aee36b13a693eca.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/aafd398cb35d3ddd7ce3169e2376e95123aca5aaac3106f76aee36b13a693eca.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-006.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-007",
@@ -15088,15 +15333,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "A child touches a hot pan"
+          "text": "A child touches a hot pan",
+          "imageAssetPath": "option-art/7f538b350ae2ca3c43e04667.svg"
         },
         {
           "optionId": "c",
-          "text": "A cup of unknown liquid"
+          "text": "A cup of unknown liquid",
+          "imageAssetPath": "option-art/d5ac0ab5f3d7a6e3554a4fa7.svg"
         },
         {
           "optionId": "a",
-          "text": "An adult drops a small ball into soft modelling dough"
+          "text": "An adult drops a small ball into soft modelling dough",
+          "imageAssetPath": "option-art/bd70a5c6dfc3eae0867afdd2.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15117,7 +15365,8 @@
         "a": "speech/eef0cb15eb8762571e91ef03b81660e9777b8b755e2c0e5e742d4b0ada5c071c.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/47dc2922c8a2d1623b9e9380db3716ab83786d4dd50047432d5749f309cf9a0d.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/e0275e6ba638524966442fd42f38bd93e6302c8dc92b0a9edc5b69967ca91f2f.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/e0275e6ba638524966442fd42f38bd93e6302c8dc92b0a9edc5b69967ca91f2f.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-007.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-008",
@@ -15139,7 +15388,8 @@
         },
         {
           "optionId": "c",
-          "text": "A square tower"
+          "text": "A square tower",
+          "imageAssetPath": "option-art/4b47e7a9a14d39beb7ced252.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15160,7 +15410,8 @@
         "c": "speech/f6ccedbd2ef4d4ea7c5a9ede1217074f8598d7fbc9d6a1993fec534d22daefef.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/3927957e9288b3a255b30d939d2aca10044952302efcf656e651a34a9778e442.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/f5f882202a2f937d2b73c612763c02594a7057c551a57400c1462e929ce41da6.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/f5f882202a2f937d2b73c612763c02594a7057c551a57400c1462e929ce41da6.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-008.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-009",
@@ -15174,15 +15425,18 @@
       "options": [
         {
           "optionId": "a",
-          "text": "A pattern of stars seen in the sky"
+          "text": "A pattern of stars seen in the sky",
+          "imageAssetPath": "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
         },
         {
           "optionId": "b",
-          "text": "Clouds inside a jar"
+          "text": "Clouds inside a jar",
+          "imageAssetPath": "option-art/4ee3a97ab2bc411903c00463.svg"
         },
         {
           "optionId": "c",
-          "text": "A line drawn on the Moon"
+          "text": "A line drawn on the Moon",
+          "imageAssetPath": "option-art/725fd1e948742e4d04fc7763.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15203,7 +15457,8 @@
         "c": "speech/44dba58f608b7e752972f1ae37eac7e8758825ff6a2072b56312754e55402139.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/aafcb8570c73749e4aa108f84c066e88c1ceffde4c5df71739816a8e26e64e95.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/0980194e5d736369a3173e925d42930dd637759231c8edbcf8adbb5ce6f7dbd0.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/0980194e5d736369a3173e925d42930dd637759231c8edbcf8adbb5ce6f7dbd0.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-009.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-010",
@@ -15217,15 +15472,18 @@
       "options": [
         {
           "optionId": "b",
-          "text": "Yes, they touch each other"
+          "text": "Yes, they touch each other",
+          "imageAssetPath": "option-art/4a0abb7d13dda4ea99861e9c.svg"
         },
         {
           "optionId": "a",
-          "text": "No, they can be very far apart"
+          "text": "No, they can be very far apart",
+          "imageAssetPath": "option-art/d5d4b267960243b0b6294825.svg"
         },
         {
           "optionId": "c",
-          "text": "They are all on the Moon"
+          "text": "They are all on the Moon",
+          "imageAssetPath": "option-art/725fd1e948742e4d04fc7763.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15246,7 +15504,8 @@
         "c": "speech/9579565600a65e20c5526556f86914bb0a20270ea7b9c70ec80c465dd8fa4b95.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/dec779dd76f3c3c053e9a81c7da786da8fd8117558e1df4423ef51826b42e311.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/84a69e52308ece3825de5d7da9d008e79f6491a934176305392faff931fc0ea8.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/84a69e52308ece3825de5d7da9d008e79f6491a934176305392faff931fc0ea8.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-010.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-011",
@@ -15260,7 +15519,8 @@
       "options": [
         {
           "optionId": "a",
-          "text": "Record what you see on both evenings"
+          "text": "Record what you see on both evenings",
+          "imageAssetPath": "option-art/57be323a333ab8abda2eff6c.svg"
         },
         {
           "optionId": "b",
@@ -15268,7 +15528,8 @@
         },
         {
           "optionId": "c",
-          "text": "Change the names of the stars"
+          "text": "Change the names of the stars",
+          "imageAssetPath": "option-art/ebc3d730f59dbd9a7cc2cde5.svg"
         }
       ],
       "correctOptionId": "a",
@@ -15289,7 +15550,8 @@
         "c": "speech/54a024951efa3911fe1658e5c7d533f18958e8d0d318029d9625342e3764f747.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/b5b2e9b10157222bccb15e6288cd78214ea6a62ac38656aa46696e21ef2a3913.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/32ac3f5e3b4f369f1196bd3f7f9ddbe8d1103836ce2319d10a581d3fb53fb3ad.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/32ac3f5e3b4f369f1196bd3f7f9ddbe8d1103836ce2319d10a581d3fb53fb3ad.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-011.svg"
     },
     {
       "activityId": "aas2-g2-sci-u05-012",
@@ -15303,11 +15565,13 @@
       "options": [
         {
           "optionId": "b",
-          "text": "Climb a tree to get closer"
+          "text": "Climb a tree to get closer",
+          "imageAssetPath": "option-art/f6c72881c6974d4d7c5f83ff.svg"
         },
         {
           "optionId": "c",
-          "text": "Look at the Sun through a telescope"
+          "text": "Look at the Sun through a telescope",
+          "imageAssetPath": "option-art/166c2d9db1727cef91a8cbf6.svg"
         },
         {
           "optionId": "a",
@@ -15332,7 +15596,8 @@
         "a": "speech/9030ce0b49fa953d257d4fe6210e48c4f43c3d3a081f87003182f23240d60e27.ogg"
       },
       "feedbackCorrectAudioAssetPath": "speech/4edadb201fb2267251bbebabfe23dcaf105727b5aabefa4abb12417999055c81.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/a7914f576f93342c2b6e0adda51d2b06713b64a25aebbf7d0c2b9c88503f5a3a.ogg"
+      "feedbackIncorrectAudioAssetPath": "speech/a7914f576f93342c2b6e0adda51d2b06713b64a25aebbf7d0c2b9c88503f5a3a.ogg",
+      "promptImageAssetPath": "question-art/aas2-g2-sci-u05-012.svg"
     }
   ],
   "books": [
