@@ -124,4 +124,14 @@
     <string name="child_keep_growing_title">واصل التقدّم</string>
     <string name="child_keep_growing_first">جرّب نشاطك الأول. كل رحلة عظيمة تبدأ بخطوة.</string>
     <string name="child_keep_growing_progress">جرّبت %1$d أنشطة. واصل الاستكشاف بالسرعة التي تناسبك.</string>
+    <string name="guided_task_badge">نشاط بإرشاد شخص بالغ · غير مُقيّم</string>
+    <string name="guided_task_instructions">الخطوات</string>
+    <string name="guided_task_observation_criteria">ما الذي يمكن ملاحظته</string>
+    <string name="guided_task_observation_title">ملاحظة ولي الأمر أو المعلم (اختيارية)</string>
+    <string name="guided_task_observation_hint">أضف ملاحظة قصيرة عمّا أنجزه الطفل.</string>
+    <string name="guided_task_mark_complete">تسجيل النشاط كمكتمل</string>
+    <string name="guided_task_completed">اكتمل النشاط · غير مُقيّم</string>
+    <string name="guided_task_saving">جارٍ الحفظ…</string>
+    <string name="guided_task_save_error">تعذر حفظ النشاط الإرشادي. حاول مرة أخرى.</string>
+    <string name="parent_guided_tasks_completed">الأنشطة الإرشادية المكتملة: %1$d / %2$d</string>
 </resources>
