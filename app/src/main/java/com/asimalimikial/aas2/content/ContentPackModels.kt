@@ -13,7 +13,8 @@ data class ContentPack(
     val sourceReferences: List<ContentSourceReference> = emptyList(),
     val books: List<BookDefinition> = emptyList(),
     val units: List<UnitDefinition> = emptyList(),
-    val lessons: List<LessonDefinition> = emptyList()
+    val lessons: List<LessonDefinition> = emptyList(),
+    val guidedTasks: List<GuidedTaskDefinition> = emptyList()
 )
 
 @Serializable
@@ -41,6 +42,19 @@ data class LessonDefinition(
     val title: String,
     val sequence: Int,
     val skillIds: List<String>
+)
+
+@Serializable
+data class GuidedTaskDefinition(
+    val activityId: String,
+    val skillId: String,
+    val title: String,
+    val instructions: List<String>,
+    val observableCriteria: List<String>,
+    val assessment: String,
+    val bookId: String,
+    val unitId: String,
+    val lessonId: String
 )
 
 @Serializable
