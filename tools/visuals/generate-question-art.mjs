@@ -196,6 +196,8 @@ function phonicsPromptSvg(activity) {
 }
 
 function fallbackPromptFragments(activity, profile) {
+  const prompt = String(activity.prompt || "").toLowerCase();
+  const scene = kinds => kinds.map(kind => visuals.svg(kind, kind));
   if (profile.skill === "science") {
     if (/moon|crater|constellation|star|night sky/.test(prompt)) return scene(["moon", "star", "cloud"]);
     if (/float|sink/.test(prompt)) return scene(["boat", "water", "wood"]);
@@ -208,8 +210,6 @@ function fallbackPromptFragments(activity, profile) {
     return [wordCardSvg(activity.prompt)];
   }
 
-  const prompt = String(activity.prompt || "").toLowerCase();
-  const scene = kinds => kinds.map(kind => visuals.svg(kind, kind));
   if (/blend|long [a-z] sound|magic-e|phonics/.test(prompt)) return [phonicsPromptSvg(activity)];
   if (/ends with the letters/.test(prompt)) return [wordCardSvg("ld")];
   if (/half past|what time/.test(prompt)) return [visuals.svg("clock", "clock")];
