@@ -28,7 +28,7 @@ class BundledContentPackAssetsTest {
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
         assertEquals("KG2", pack.learnerPath)
-        assertEquals("0.2.9", pack.version)
+        assertEquals("0.3.0", pack.version)
         assertEquals(23, pack.skills.size)
         assertEquals(139, pack.activities.size)
         assertEquals(135, pack.activities.count { it.language == "en" })
@@ -42,7 +42,7 @@ class BundledContentPackAssetsTest {
         assertEquals(3, pack.books.size)
         assertEquals(10, pack.units.size)
         assertEquals(19, pack.lessons.size)
-        assertEquals(6, pack.guidedTasks.size)
+        assertEquals(8, pack.guidedTasks.size)
         assertTrue(pack.guidedTasks.all { it.instructions.isNotEmpty() && it.observableCriteria.isNotEmpty() })
         assertTrue(pack.lessons.all { it.title.isNotBlank() && it.skillIds.isNotEmpty() })
         assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
