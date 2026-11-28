@@ -66,6 +66,9 @@ fun GuidedTaskRenderer(
                 color = MaterialTheme.colorScheme.primary
             )
             Text(task.title, style = MaterialTheme.typography.headlineSmall, color = Color(0xFF263D5B))
+            task.visualCue?.let { cue ->
+                Text(cue, style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.primary)
+            }
             Text(stringResource(R.string.guided_task_instructions), style = MaterialTheme.typography.titleMedium)
             task.instructions.forEachIndexed { index, instruction ->
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
