@@ -131,4 +131,14 @@
     <string name="child_keep_growing_title">Keep growing</string>
     <string name="child_keep_growing_first">Try your first activity. Every great journey starts with one step.</string>
     <string name="child_keep_growing_progress">You have tried %1$d activities. Keep exploring at your own pace.</string>
+    <string name="guided_task_badge">GUIDED ACTIVITY · NOT SCORED</string>
+    <string name="guided_task_instructions">What to do</string>
+    <string name="guided_task_observation_criteria">What an adult can observe</string>
+    <string name="guided_task_observation_title">Adult observation (optional)</string>
+    <string name="guided_task_observation_hint">Add a short note about what the child did.</string>
+    <string name="guided_task_mark_complete">Mark as completed</string>
+    <string name="guided_task_completed">Completed · not scored</string>
+    <string name="guided_task_saving">Saving…</string>
+    <string name="guided_task_save_error">Could not save this guided activity. Please try again.</string>
+    <string name="parent_guided_tasks_completed">Guided activities completed: %1$d / %2$d</string>
 </resources>
