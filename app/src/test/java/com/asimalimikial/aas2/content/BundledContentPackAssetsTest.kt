@@ -67,13 +67,21 @@ class BundledContentPackAssetsTest {
         assertEquals(5, pack.units.count { it.bookId == "maths-xpress-book-2" })
         assertEquals(5, pack.units.count { it.bookId == "macmillan-science-level2" })
         assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
-        val scienceActivities = pack.activities.filter { it.lessonId != null }
+        val lessonMappedActivities = pack.activities.filter { it.lessonId != null }
+        assertEquals(249, lessonMappedActivities.size)
+        assertEquals(52, lessonMappedActivities.count { it.bookId == "english-world-level-2" })
+        assertEquals(24, lessonMappedActivities.count { it.bookId == "macmillan-mathematics-level-2a" })
+        assertEquals(24, lessonMappedActivities.count { it.bookId == "macmillan-mathematics-level-2b" })
+        assertEquals(15, lessonMappedActivities.count { it.bookId == "maths-xpress-book-2" })
+        val scienceActivities = lessonMappedActivities.filter { it.bookId == "macmillan-science-level2" }
         assertEquals(134, scienceActivities.size)
         val lessonSizes = scienceActivities.groupBy { it.lessonId }.values.map { it.size }
         assertEquals(9, lessonSizes.count { it == 8 })
         assertEquals(5, lessonSizes.count { it == 6 })
         assertTrue(scienceActivities.all { it.assessmentPhase in setOf("DIAGNOSTIC", "GUIDED", "INDEPENDENT", "TRANSFER", "DELAYED_REVIEW") })
         assertTrue(scienceActivities.all { it.optionRationales.size == 3 })
+        assertTrue(lessonMappedActivities.all { it.optionRationales.size == 3 })
+        assertTrue(lessonMappedActivities.all { it.misconceptionCode?.isNotBlank() == true })
         assertTrue(pack.skills.all { it.sourceReferenceIds.isNotEmpty() })
         val measureActivity = pack.activities.single { it.activityId == "g2-measure-02-en" }
         assertTrue(measureActivity.prompt.contains("120 cm"))
