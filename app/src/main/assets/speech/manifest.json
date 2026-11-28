@@ -20,9 +20,9 @@
     "speed": 0.7,
     "threads": 2
   },
-  "sourceEnglishActivityCount": 493,
-  "count": 2958,
-  "totalBytes": 46953665,
+  "sourceEnglishActivityCount": 496,
+  "count": 2976,
+  "totalBytes": 47406231,
   "activities": {
     "g2-place-01-en": {
       "prompt": "fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
@@ -4953,6 +4953,36 @@
       },
       "feedbackCorrect": "d00dab155c677634cbea56ca5ac18af29ff5046f0fa924c882ad1da1107b7962.ogg",
       "feedbackIncorrect": "43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg"
+    },
+    "aas2-kg2-mxskg-u05-004": {
+      "prompt": "62c3ae3bc5cab44cc8b483595ea607d02172ddb0cac3d07a042fd8ae536fcb0e.ogg",
+      "options": {
+        "a": "c49ea9b6f2c3678d9aa3ff69eb602f6316a0feaf912c9e0ff11628dca75bf90d.ogg",
+        "b": "e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e.ogg",
+        "c": "bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg"
+      },
+      "feedbackCorrect": "dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee.ogg",
+      "feedbackIncorrect": "03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg"
+    },
+    "aas2-kg2-mxskg-u05-005": {
+      "prompt": "b6e2de9902cdf3aa80ad9b63a452910339688ea09ebe7cdb3c594b93ce9ce807.ogg",
+      "options": {
+        "a": "fa1892e590f239577e098101a7b5c9cdaa875d436f3a1e669d0ab41b8745eee5.ogg",
+        "b": "1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6.ogg",
+        "c": "8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg"
+      },
+      "feedbackCorrect": "ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f.ogg",
+      "feedbackIncorrect": "702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg"
+    },
+    "aas2-kg2-mxskg-u05-006": {
+      "prompt": "08367a8ce29c08e58d7a438caba5560eb47b0048b02ba901d6690310f23f1fd9.ogg",
+      "options": {
+        "a": "69cc3b88232b323df249a1fcd5ff2a18e09acd493a2a92d1d26c24fc60904022.ogg",
+        "b": "9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8.ogg",
+        "c": "453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg"
+      },
+      "feedbackCorrect": "22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92.ogg",
+      "feedbackIncorrect": "ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg"
     }
   },
   "files": [
@@ -5621,6 +5651,24 @@
       "durationMs": 2070,
       "sampleRate": 44100,
       "peak": 0.32854363322257996
+    },
+    {
+      "key": "03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763",
+      "file": "03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg",
+      "text": "Count on from 3 to 5 to find the difference.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "feedback-incorrect",
+      "optionId": null,
+      "sha256": "f0c774afd88518ef69be847e3e82b09643b1d1c5454800427047bdd4851515c6",
+      "bytes": 29332,
+      "durationMs": 5202,
+      "sampleRate": 44100,
+      "peak": 0.34991133213043213
     },
     {
       "key": "03c01efdb96d9b3eee2c8a1ebc8bd4ce16187f2d0a48422d77a3ba38bd28aa0b",
@@ -6683,6 +6731,24 @@
       "durationMs": 3126,
       "sampleRate": 44100,
       "peak": 0.2734956443309784
+    },
+    {
+      "key": "08367a8ce29c08e58d7a438caba5560eb47b0048b02ba901d6690310f23f1fd9",
+      "file": "08367a8ce29c08e58d7a438caba5560eb47b0048b02ba901d6690310f23f1fd9.ogg",
+      "text": "A pencil is 8 cubes long. A crayon is 5 cubes long. A ruler is 10 cubes long. Which is the shortest?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "e1596d1e8e171e266114b5a682852f3e510c7ac73e898383ce307aef53b659df",
+      "bytes": 66955,
+      "durationMs": 12370,
+      "sampleRate": 44100,
+      "peak": 0.4334389269351959
     },
     {
       "key": "0845f4b376e6b9834e0f877effea5eeb56ce24110991f125080f37db21c3b623",
@@ -11419,6 +11485,24 @@
       "peak": 0.23784787952899933
     },
     {
+      "key": "1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6",
+      "file": "1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6.ogg",
+      "text": "Jug B",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "88e857f8e069fd1b1fb3b68eeeb6c97c15b650520487e8bf60360bbb52264f9a",
+      "bytes": 9494,
+      "durationMs": 1933,
+      "sampleRate": 44100,
+      "peak": 0.3314380943775177
+    },
+    {
       "key": "1e94eeedb2486b954b9526652d903636ea02230195a66569a41c48e759c1d5fb",
       "file": "1e94eeedb2486b954b9526652d903636ea02230195a66569a41c48e759c1d5fb.ogg",
       "text": "Great work! Keep thinking.",
@@ -12407,6 +12491,24 @@
       "durationMs": 1933,
       "sampleRate": 44100,
       "peak": 0.43801766633987427
+    },
+    {
+      "key": "22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92",
+      "file": "22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92.ogg",
+      "text": "Correct! Five cubes is the smallest length.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "feedback-correct",
+      "optionId": null,
+      "sha256": "8a378b0afe7e5b2f3279cad98a93f8dc291a90d42170c8b93f73ca671960abcb",
+      "bytes": 29011,
+      "durationMs": 5408,
+      "sampleRate": 44100,
+      "peak": 0.38862156867980957
     },
     {
       "key": "230e9e3dbdece54468a871fac78521b7be66d9afd16c8d346d6c79db9f7370d4",
@@ -19177,6 +19279,24 @@
       "peak": 0.3381425142288208
     },
     {
+      "key": "453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438",
+      "file": "453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg",
+      "text": "The ruler",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "option",
+      "optionId": "c",
+      "sha256": "9282530aaf8b891169a974d58c3ff30d0338e4d63c1c8a11f8cece0b0aa33021",
+      "bytes": 9311,
+      "durationMs": 1978,
+      "sampleRate": 44100,
+      "peak": 0.2998813986778259
+    },
+    {
       "key": "454628de8d3a6764dadf1514bfb6d00ce7b6e72d3d87180df42a6189cda4b692",
       "file": "454628de8d3a6764dadf1514bfb6d00ce7b6e72d3d87180df42a6189cda4b692.ogg",
       "text": "Keep shining!",
@@ -25531,6 +25651,24 @@
       "peak": 0.3036580979824066
     },
     {
+      "key": "62c3ae3bc5cab44cc8b483595ea607d02172ddb0cac3d07a042fd8ae536fcb0e",
+      "file": "62c3ae3bc5cab44cc8b483595ea607d02172ddb0cac3d07a042fd8ae536fcb0e.ogg",
+      "text": "A ribbon is 5 blocks long. A string is 3 blocks long. How many blocks longer is the ribbon?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "a1dcbe5b5e67c807ec87d7f5d7c729c80853fa3e5cc65519c9b9fcc63f549a7e",
+      "bytes": 59266,
+      "durationMs": 10618,
+      "sampleRate": 44100,
+      "peak": 0.4164171814918518
+    },
+    {
       "key": "62d20f893c5a1e231626aea4016c4873b4d97d8b45cc917228b157df3022f9bd",
       "file": "62d20f893c5a1e231626aea4016c4873b4d97d8b45cc917228b157df3022f9bd.ogg",
       "text": "10",
@@ -27007,6 +27145,24 @@
       "peak": 0.34945783019065857
     },
     {
+      "key": "69cc3b88232b323df249a1fcd5ff2a18e09acd493a2a92d1d26c24fc60904022",
+      "file": "69cc3b88232b323df249a1fcd5ff2a18e09acd493a2a92d1d26c24fc60904022.ogg",
+      "text": "The pencil",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "option",
+      "optionId": "a",
+      "sha256": "cec0ad81226a0d9e6498b99696841e7aee383b6a5543614946788dbf2bf47866",
+      "bytes": 9853,
+      "durationMs": 2014,
+      "sampleRate": 44100,
+      "peak": 0.4637695550918579
+    },
+    {
       "key": "69e5f65573eb657ba392b1c8adf26a69b3c6736511de241a802a37459f5f1b7b",
       "file": "69e5f65573eb657ba392b1c8adf26a69b3c6736511de241a802a37459f5f1b7b.ogg",
       "text": "Good effort. Try once more.",
@@ -28013,6 +28169,24 @@
       "durationMs": 5673,
       "sampleRate": 44100,
       "peak": 0.34170079231262207
+    },
+    {
+      "key": "702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475",
+      "file": "702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg",
+      "text": "Compare the number of cups each jug holds.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "feedback-incorrect",
+      "optionId": null,
+      "sha256": "759e83d9d12ba3bc251038999851c6bf8a8eb76946e9746b35601c488d9eb6e1",
+      "bytes": 22748,
+      "durationMs": 4324,
+      "sampleRate": 44100,
+      "peak": 0.29994848370552063
     },
     {
       "key": "703eec07a6d00818de350567fbbab5cd9c386cd81bc5a31b27e151582d9ce128",
@@ -33991,6 +34165,24 @@
       "peak": 0.3901119828224182
     },
     {
+      "key": "8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f",
+      "file": "8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg",
+      "text": "They hold the same amount",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "option",
+      "optionId": "c",
+      "sha256": "68ac4f84b2bc3151f510a099ea3f0bd12b1584f5b5862e13935a0507735cbcef",
+      "bytes": 14149,
+      "durationMs": 2923,
+      "sampleRate": 44100,
+      "peak": 0.23777633905410767
+    },
+    {
       "key": "8b5d9ca25163d58582231a3470e67b318bf27c376d96eadfdb0d8fe80f90c8cd",
       "file": "8b5d9ca25163d58582231a3470e67b318bf27c376d96eadfdb0d8fe80f90c8cd.ogg",
       "text": "Take your time!",
@@ -36113,6 +36305,24 @@
       "durationMs": 3700,
       "sampleRate": 44100,
       "peak": 0.28241780400276184
+    },
+    {
+      "key": "9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8",
+      "file": "9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8.ogg",
+      "text": "The crayon",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "cd47cdf7a672ad206099bb6bf412bcc7bd65982595b66ddea3ee257199f57e56",
+      "bytes": 9317,
+      "durationMs": 2002,
+      "sampleRate": 44100,
+      "peak": 0.4586590826511383
     },
     {
       "key": "941de019a4bdc86e6422053d91ddd2206cefd68d40784aeac5eff8001cf22d3d",
@@ -43225,6 +43435,24 @@
       "peak": 0.26496073603630066
     },
     {
+      "key": "b6e2de9902cdf3aa80ad9b63a452910339688ea09ebe7cdb3c594b93ce9ce807",
+      "file": "b6e2de9902cdf3aa80ad9b63a452910339688ea09ebe7cdb3c594b93ce9ce807.ogg",
+      "text": "Jug A holds 4 cups. Jug B holds 6 cups. Which jug holds more?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "df03ed379c31b32601e510001d0a366d317812263d0fa44b57e578b3b8c24621",
+      "bytes": 44404,
+      "durationMs": 7976,
+      "sampleRate": 44100,
+      "peak": 0.35729238390922546
+    },
+    {
       "key": "b720cc8770e429a5937c1deb17388693dca3102ec424f9b7d948a39cebe0394a",
       "file": "b720cc8770e429a5937c1deb17388693dca3102ec424f9b7d948a39cebe0394a.ogg",
       "text": "Great work! Keep thinking.",
@@ -43817,6 +44045,24 @@
       "durationMs": 2722,
       "sampleRate": 44100,
       "peak": 0.37232378125190735
+    },
+    {
+      "key": "ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f",
+      "file": "ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f.ogg",
+      "text": "Correct! Six cups is more than four cups.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "feedback-correct",
+      "optionId": null,
+      "sha256": "c3e20d175bafc10bd006433f1d7d0a3821eb34ce1ac6dccfda43015133372ffb",
+      "bytes": 27923,
+      "durationMs": 5334,
+      "sampleRate": 44100,
+      "peak": 0.3590468466281891
     },
     {
       "key": "ba2476a2cef94897650fc60fbb547395a12b5b61f9f6891823c5db0e82d21818",
@@ -44627,6 +44873,24 @@
       "durationMs": 2768,
       "sampleRate": 44100,
       "peak": 0.26183241605758667
+    },
+    {
+      "key": "bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca",
+      "file": "bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg",
+      "text": "3 blocks",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "option",
+      "optionId": "c",
+      "sha256": "af9afe8969fc52c6e0a25377ead5525f507e94f08e7e39e7073baeb37f711f6c",
+      "bytes": 9329,
+      "durationMs": 2031,
+      "sampleRate": 44100,
+      "peak": 0.36865106225013733
     },
     {
       "key": "bdd60bbbfe73420f77e41cfa0c02000bbb9ec15fea00752e5f0d48945d4239ed",
@@ -45869,6 +46133,24 @@
       "durationMs": 1935,
       "sampleRate": 44100,
       "peak": 0.2764436602592468
+    },
+    {
+      "key": "c49ea9b6f2c3678d9aa3ff69eb602f6316a0feaf912c9e0ff11628dca75bf90d",
+      "file": "c49ea9b6f2c3678d9aa3ff69eb602f6316a0feaf912c9e0ff11628dca75bf90d.ogg",
+      "text": "1 block",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "option",
+      "optionId": "a",
+      "sha256": "b723541799ab5b6e8adf88881c7a40c43bfce770bbacfe5f7659bcfe47887e66",
+      "bytes": 9422,
+      "durationMs": 1972,
+      "sampleRate": 44100,
+      "peak": 0.4800995886325836
     },
     {
       "key": "c4c97884354d8eda04654a9dd2bd47e8f6ef2118bb1495e9c68c449294f3bc4a",
@@ -50893,6 +51175,24 @@
       "peak": 0.31831371784210205
     },
     {
+      "key": "dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee",
+      "file": "dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee.ogg",
+      "text": "Well done! Five blocks is two more than three blocks.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "feedback-correct",
+      "optionId": null,
+      "sha256": "d05618f879fc5a4fc4a1090152f3dabb3e28c972732c01744263976fbe0c6494",
+      "bytes": 36169,
+      "durationMs": 6652,
+      "sampleRate": 44100,
+      "peak": 0.4186095595359802
+    },
+    {
       "key": "dc913ba238f8a4e07771dfd36ee5b5b692c879264045e11169a6d651dcf6ff7a",
       "file": "dc913ba238f8a4e07771dfd36ee5b5b692c879264045e11169a6d651dcf6ff7a.ogg",
       "text": "Nice try. Keep going!",
@@ -53125,6 +53425,24 @@
       "peak": 0.2846314311027527
     },
     {
+      "key": "e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e",
+      "file": "e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e.ogg",
+      "text": "2 blocks",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "role": "option",
+      "optionId": "b",
+      "sha256": "343d663dc431674c9812920ba35c682f49332d1b4070c7bf3fad78d5f38a3649",
+      "bytes": 9218,
+      "durationMs": 2006,
+      "sampleRate": 44100,
+      "peak": 0.44880592823028564
+    },
+    {
       "key": "e7c3da9ab01b3d9be57c18707c15ce144a1d22c78b20ea474b9fbc315acbb0a4",
       "file": "e7c3da9ab01b3d9be57c18707c15ce144a1d22c78b20ea474b9fbc315acbb0a4.ogg",
       "text": "Great thinking!",
@@ -54797,6 +55115,24 @@
       "durationMs": 3458,
       "sampleRate": 44100,
       "peak": 0.27930790185928345
+    },
+    {
+      "key": "ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f",
+      "file": "ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg",
+      "text": "Compare 8 cubes, 5 cubes and 10 cubes. Choose the smallest length.",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "role": "feedback-incorrect",
+      "optionId": null,
+      "sha256": "e479d5485452a14af8036d36cb25c2dcee38ef77d4e0cc8fe15254baa4867386",
+      "bytes": 47219,
+      "durationMs": 8408,
+      "sampleRate": 44100,
+      "peak": 0.44963324069976807
     },
     {
       "key": "ef55d56221e61aebdb6162f86d9a5752cf9618ba0a40c2ed7bdbeb9e15df4569",
@@ -56903,6 +57239,24 @@
       "durationMs": 3403,
       "sampleRate": 44100,
       "peak": 0.30677759647369385
+    },
+    {
+      "key": "fa1892e590f239577e098101a7b5c9cdaa875d436f3a1e669d0ab41b8745eee5",
+      "file": "fa1892e590f239577e098101a7b5c9cdaa875d436f3a1e669d0ab41b8745eee5.ogg",
+      "text": "Jug A",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "role": "option",
+      "optionId": "a",
+      "sha256": "56dbd6cc82efe02487c76e764450349fbc9e7bd327ed9622e324cf84fce08d5a",
+      "bytes": 9446,
+      "durationMs": 1934,
+      "sampleRate": 44100,
+      "peak": 0.3132161498069763
     },
     {
       "key": "fa1eae7ef21c2fa5a85d20991edd5590cc6b7d7d9d583cf5fd1a9687600ae180",

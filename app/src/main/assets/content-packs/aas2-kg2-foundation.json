@@ -5308,7 +5308,15 @@
         "a": "One block is not the difference between five and three.",
         "b": "Five is two more than three.",
         "c": "Three is the length of the shorter object, not the difference."
-      }
+      },
+      "promptAudioAssetPath": "speech/62c3ae3bc5cab44cc8b483595ea607d02172ddb0cac3d07a042fd8ae536fcb0e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c49ea9b6f2c3678d9aa3ff69eb602f6316a0feaf912c9e0ff11628dca75bf90d.ogg",
+        "b": "speech/e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e.ogg",
+        "c": "speech/bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-005",
@@ -5343,7 +5351,15 @@
         "a": "Four cups is fewer than six cups.",
         "b": "Six cups is more than four cups.",
         "c": "The two amounts are not equal."
-      }
+      },
+      "promptAudioAssetPath": "speech/b6e2de9902cdf3aa80ad9b63a452910339688ea09ebe7cdb3c594b93ce9ce807.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fa1892e590f239577e098101a7b5c9cdaa875d436f3a1e669d0ab41b8745eee5.ogg",
+        "b": "speech/1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6.ogg",
+        "c": "speech/8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg"
     },
     {
       "activityId": "aas2-kg2-mxskg-u05-006",
@@ -5378,7 +5394,15 @@
         "a": "Eight cubes is longer than five cubes.",
         "b": "Five cubes is the shortest measurement.",
         "c": "Ten cubes is the longest measurement."
-      }
+      },
+      "promptAudioAssetPath": "speech/08367a8ce29c08e58d7a438caba5560eb47b0048b02ba901d6690310f23f1fd9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/69cc3b88232b323df249a1fcd5ff2a18e09acd493a2a92d1d26c24fc60904022.ogg",
+        "b": "speech/9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8.ogg",
+        "c": "speech/453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg"
     }
   ],
   "books": [
