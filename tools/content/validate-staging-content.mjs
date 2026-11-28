@@ -123,6 +123,10 @@ for (const record of mxskgExtension.records) {
   assert.ok(runtime, "Missing Maths Xpress Senior KG Unit 5 activity: " + record.activityId);
   assert.equal(runtime.lessonId, "MXSKG-U05-L01");
   assert.equal(runtime.skillId, record.skillId);
+  assert.equal(record.mediaStatus, "GENERATED_AND_HASH_VERIFIED");
+  assert.ok(runtime.promptImageAssetPath && runtime.promptAudioAssetPath);
+  assert.ok(runtime.feedbackCorrectAudioAssetPath && runtime.feedbackIncorrectAudioAssetPath);
+  assert.equal(Object.keys(runtime.optionAudioAssetPaths || {}).length, 3);
 }
 assert.equal(grade2Pack.version, "0.4.8");
 assert.equal(grade2Pack.activities.length, 367);
