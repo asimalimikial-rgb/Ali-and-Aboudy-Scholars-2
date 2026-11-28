@@ -207,6 +207,7 @@ object ContentPackValidator {
         val guidedLessonIds = pack.lessons.map { it.lessonId }.toSet()
         pack.guidedTasks.forEachIndexed { index, task ->
             if (task.title.isBlank()) add("Guided task at index $index has an empty title")
+            if (task.visualCue != null && task.visualCue.isBlank()) add("Guided task at index $index has a blank visualCue")
             if (task.instructions.isEmpty() || task.instructions.any(String::isBlank)) {
                 add("Guided task at index $index must contain nonblank instructions")
             }
