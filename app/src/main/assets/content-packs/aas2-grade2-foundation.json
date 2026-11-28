@@ -12319,7 +12319,7 @@
         "c": "Taste is not used to hear sounds."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M01",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12366,7 +12366,7 @@
         "c": "Hands help us touch and feel surfaces."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M02",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12412,7 +12412,7 @@
         "c": "The nose detects smells."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M03",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12458,7 +12458,7 @@
         "c": "Ears detect sound."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M04",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12505,7 +12505,7 @@
         "c": "Taste helps us notice flavours such as sourness."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M05",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12552,7 +12552,7 @@
         "c": "The nose detects smells, not touch."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M06",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12599,7 +12599,7 @@
         "c": "Hearing notices thunder and sight notices the flash."
       },
       "misconceptionCode": "SCI_G2_SEN_L1_M07",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12690,7 +12690,7 @@
         "c": "The band does not turn into a liquid."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M09",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12736,7 +12736,7 @@
         "c": "Gentle rustling is usually quiet."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M10",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12782,7 +12782,7 @@
         "c": "A small bird's chirp is usually high-pitched."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M11",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12826,7 +12826,7 @@
         "c": "A case sitting still does not make the note."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M12",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12871,7 +12871,7 @@
         "c": "A whistle is usually high-pitched."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M13",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12917,7 +12917,7 @@
         "c": "The sound usually seems quieter as distance increases."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M14",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -12962,7 +12962,7 @@
         "c": "Turning the sound up makes it louder."
       },
       "misconceptionCode": "SCI_G2_SEN_L2_M15",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13055,7 +13055,7 @@
         "c": "Smell and taste do not allow us to see an object."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M17",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13102,7 +13102,7 @@
         "c": "Purple is not the usual colour of a ripe banana."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M18",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13149,7 +13149,7 @@
         "c": "Red and yellow paint usually make orange."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M19",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13196,7 +13196,7 @@
         "c": "Red is not the usual result of mixing blue and yellow paint."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M20",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13243,7 +13243,7 @@
         "c": "A magnifying glass makes looking at the Sun even more dangerous."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M21",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13289,7 +13289,7 @@
         "c": "Blinking spreads tears and helps protect the surface of the eye."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M22",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13336,7 +13336,7 @@
         "c": "A closed book blocks light."
       },
       "misconceptionCode": "SCI_G2_SEN_L3_M23",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13426,7 +13426,7 @@
         "c": "Wet describes whether something has water on it, not its texture."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M25",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13473,7 +13473,7 @@
         "c": "Cotton wool usually feels soft."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M26",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13520,7 +13520,7 @@
         "c": "Smell detects odours."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M27",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13566,7 +13566,7 @@
         "c": "A smooth plastic ruler is usually smooth."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M28",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13611,7 +13611,7 @@
         "c": "Smooth describes a surface with little roughness."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M29",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13658,7 +13658,7 @@
         "c": "Smell does not tell you whether a surface is rough or smooth."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M30",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13704,7 +13704,7 @@
         "c": "Rubbing an unknown insect on skin is unsafe."
       },
       "misconceptionCode": "SCI_G2_SEN_L4_M31",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13796,7 +13796,7 @@
         "c": "Eyes help us see."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M33",
-      "assessmentPhase": "diagnostic",
+      "assessmentPhase": "DIAGNOSTIC",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13841,7 +13841,7 @@
         "c": "The tongue helps us notice tastes."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M34",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13885,7 +13885,7 @@
         "c": "Bitter is not the usual description of lemon taste."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M35",
-      "assessmentPhase": "guided",
+      "assessmentPhase": "GUIDED",
       "difficulty": 1,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13931,7 +13931,7 @@
         "c": "Not eating an unknown berry and asking an adult is safest."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M36",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -13976,7 +13976,7 @@
         "c": "Touching unknown objects may cause burns."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M37",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -14021,7 +14021,7 @@
         "c": "A pleasant smell does not prove food is safe or free from allergens."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M38",
-      "assessmentPhase": "independent",
+      "assessmentPhase": "INDEPENDENT",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
@@ -14068,7 +14068,7 @@
         "c": "Smell detects its odour and taste detects its flavour."
       },
       "misconceptionCode": "SCI_G2_SEN_L5_M39",
-      "assessmentPhase": "transfer",
+      "assessmentPhase": "TRANSFER",
       "difficulty": 2,
       "feedbackCorrect": "Well done!",
       "feedbackIncorrect": "Nice try. Keep going!",
