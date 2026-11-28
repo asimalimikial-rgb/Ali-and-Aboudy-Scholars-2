@@ -28,7 +28,7 @@ class BundledContentPackAssetsTest {
     fun kg2FoundationAssetLoadsAndContainsBothLanguages() = runBlocking<Unit> {
         val pack = repository.load("aas2-kg2-foundation")
         assertEquals("KG2", pack.learnerPath)
-        assertEquals("0.2.6", pack.version)
+        assertEquals("0.2.7", pack.version)
         assertEquals(23, pack.skills.size)
         assertEquals(136, pack.activities.size)
         assertEquals(132, pack.activities.count { it.language == "en" })
@@ -42,6 +42,8 @@ class BundledContentPackAssetsTest {
         assertEquals(3, pack.books.size)
         assertEquals(10, pack.units.size)
         assertEquals(19, pack.lessons.size)
+        assertEquals(4, pack.guidedTasks.size)
+        assertTrue(pack.guidedTasks.all { it.instructions.isNotEmpty() && it.observableCriteria.isNotEmpty() })
         assertTrue(pack.lessons.all { it.title.isNotBlank() && it.skillIds.isNotEmpty() })
         assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
     }
@@ -227,6 +229,55 @@ class BundledContentPackAssetsTest {
                 bytes.take(4).toByteArray().contentEquals("OggS".toByteArray(Charsets.US_ASCII))
             )
         }
+    }
+
+    @Test
+    fun guidedTasksAreValidatedAsNonScoredLessonActivities() {
+        val task = GuidedTaskDefinition(
+            activityId = "ali-guided-task-1",
+            skillId = "ali.math.counting.001",
+            title = "Count objects together",
+            instructions = listOf("Choose three safe objects.", "Count them with an adult."),
+            observableCriteria = listOf("Counts with support", "Uses one-to-one matching"),
+            assessment = "Adult observation; no fixed right/wrong answer.",
+            bookId = "book-1",
+            unitId = "unit-1",
+            lessonId = "lesson-1"
+        )
+        val pack = validPack().copy(
+            schemaVersion = 4,
+            books = listOf(BookDefinition("book-1", "Hop Skip and Jump", "Early Learning", "KG2", listOf("source-1"))),
+            units = listOf(UnitDefinition("unit-1", "book-1", "Unit 1", 1, listOf("lesson-1"))),
+            lessons = listOf(LessonDefinition("lesson-1", "unit-1", "Lesson 1", 1, listOf("ali.math.counting.001"))),
+            guidedTasks = listOf(task)
+        )
+        val result = ContentPackValidator.validate(pack)
+        assertTrue(result.errors.joinToString(), result.isValid)
+    }
+
+    @Test
+    fun guidedTasksRejectMissingAdultObservationCriteria() {
+        val task = GuidedTaskDefinition(
+            activityId = "ali-guided-task-1",
+            skillId = "ali.math.counting.001",
+            title = "Count objects together",
+            instructions = listOf("Choose three safe objects."),
+            observableCriteria = emptyList(),
+            assessment = "Adult observation; no scoring.",
+            bookId = "book-1",
+            unitId = "unit-1",
+            lessonId = "lesson-1"
+        )
+        val pack = validPack().copy(
+            schemaVersion = 4,
+            books = listOf(BookDefinition("book-1", "Hop Skip and Jump", "Early Learning", "KG2", listOf("source-1"))),
+            units = listOf(UnitDefinition("unit-1", "book-1", "Unit 1", 1, listOf("lesson-1"))),
+            lessons = listOf(LessonDefinition("lesson-1", "unit-1", "Lesson 1", 1, listOf("ali.math.counting.001"))),
+            guidedTasks = listOf(task)
+        )
+        val result = ContentPackValidator.validate(pack)
+        assertFalse(result.isValid)
+        assertTrue(result.errors.any { it.contains("observable criteria") })
     }
 
 }
