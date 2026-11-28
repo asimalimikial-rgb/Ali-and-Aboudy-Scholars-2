@@ -26,14 +26,17 @@ assert.ok(catalog.books.every(book => Number.isInteger(book.currentAuthoredActiv
 assert.ok(!catalog.books.some(book => /SMILE/i.test(book.title)),
   "SMILE must remain outside the seven-book scope.");
 assert.equal(catalog.books.reduce((sum, book) => sum + book.currentAuthoredActivities, 0), 411,
-  "The seven-book authored activity subtotal must reconcile to 321.");
+  "The seven-book authored activity subtotal must reconcile to 411.");
 assert.equal(catalog.unassignedCurrentActivities.broadScienceEnrichment, 25);
 assert.equal(catalog.unassignedCurrentActivities.earlierPilotActivities, 19);
 assert.equal(catalog.companionLearningPaths.length, 1);
 assert.equal(catalog.companionLearningPaths[0].pathId, "aas2-my-world-discovery-kg2");
 assert.equal(catalog.companionLearningPaths[0].currentAuthoredActivities, 41);
 assert.equal(catalog.companionLearningPaths[0].runtimeMappedActivities, 16);
-assert.equal(411 + 41 + 25 + 19, 496, "Seven books, the My World companion path, and unassigned items must reconcile to 406.");
+const mathsXpressSeniorKg = catalog.books.find(book => book.bookId === "maths-xpress-senior-kg");
+assert.equal(mathsXpressSeniorKg.currentAuthoredActivities, 41);
+assert.equal(mathsXpressSeniorKg.runtimeMappedActivities, 41);
+assert.equal(411 + 41 + 25 + 19, 496, "Seven books, the My World companion path, and unassigned items must reconcile to 496.");
 const science = catalog.books.find(book => book.bookId === "macmillan-science-level2");
 assert.ok(science, "Macmillan Science Level 2 must be present.");
 assert.equal(science.currentAuthoredActivities, 134);
@@ -107,6 +110,20 @@ assert.ok(englishWorldQueue.records.every(item =>
   ["PENDING_PEDAGOGY_REVIEW", "REVISED_PENDING_PEDAGOGY_QA"].includes(item.reviewStatus) && item.runtimeUnitId === null
 ), "English World candidates must remain pending until unit mapping is reviewed.");
 const grade2Pack = packs[1];
+const kg2Pack = packs[0];
+const mxskgExtension = JSON.parse(fs.readFileSync("content/staging/maths-xpress-senior-kg-unit5-extension-v0.1.json", "utf8"));
+assert.equal(mxskgExtension.status, "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA");
+assert.equal(mxskgExtension.summary.records, 6);
+assert.equal(mxskgExtension.summary.runtimeIntegrated, 6);
+assert.equal(mxskgExtension.summary.originalNewActivities, 3);
+const mxskgUnit5 = kg2Pack.activities.filter(item => item.bookId === "maths-xpress-senior-kg" && item.unitId === "MXSKG-U05");
+assert.equal(mxskgUnit5.length, 6);
+for (const record of mxskgExtension.records) {
+  const runtime = mxskgUnit5.find(item => item.activityId === record.activityId);
+  assert.ok(runtime, "Missing Maths Xpress Senior KG Unit 5 activity: " + record.activityId);
+  assert.equal(runtime.lessonId, "MXSKG-U05-L01");
+  assert.equal(runtime.skillId, record.skillId);
+}
 assert.equal(grade2Pack.version, "0.4.8");
 assert.equal(grade2Pack.activities.length, 367);
 assert.equal(grade2Pack.activities.filter(x => x.activityId.startsWith("aas2-xpress2-")).length, 15);
@@ -175,8 +192,8 @@ const questionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "question-ar
 const optionArt = JSON.parse(fs.readFileSync(path.join(assetRoot, "option-art/manifest.json"), "utf8"));
 const unique = values => new Set(values).size === values.length;
 
-assert.equal(audio.count, 2958);
-assert.equal(audio.files.length, 2958);
+assert.equal(audio.count, 2976);
+assert.equal(audio.files.length, 2976);
 assert.equal(Object.keys(audio.activities).length, 496);
 assert.equal(audio.settings.language, "en");
 assert.equal(audio.settings.speed, 0.70);
