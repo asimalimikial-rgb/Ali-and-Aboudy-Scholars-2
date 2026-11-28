@@ -2,13 +2,13 @@
   "schemaVersion": "AAS2-KG2-GUIDED-PRACTICE-0.1",
   "learnerPath": "KG2",
   "bookId": "hop-skip-jump-senior-kg",
-  "status": "STAGING_ONLY_CUSTOM_INTERACTION_REQUIRED",
+  "status": "INTEGRATED_NON_SCORED_PENDING_OBSERVATION_REVIEW",
   "summary": {
     "guidedActivities": 4,
     "scoredQuestions": 0,
-    "runtimeIntegrated": 0
+    "runtimeIntegrated": 4
   },
-  "policy": "These are authentic fine-motor, creative, social and self-regulation experiences. Do not convert them into multiple-choice questions or scored tests. Runtime integration requires a dedicated guided-task renderer and parent/teacher observation model.",
+  "policy": "These are original fine-motor, creative, social and self-regulation experiences integrated as non-scored guided tasks. They require adult observation; do not convert them into multiple-choice questions or scored tests. Each child's completion and optional adult note are stored separately.",
   "records": [
     {
       "activityId": "aas2-kg2-guided-handwriting-readiness",
