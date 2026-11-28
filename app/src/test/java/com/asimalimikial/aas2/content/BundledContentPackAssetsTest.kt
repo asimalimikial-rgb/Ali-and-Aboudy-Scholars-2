@@ -43,6 +43,9 @@ class BundledContentPackAssetsTest {
         assertEquals(10, pack.units.size)
         assertEquals(19, pack.lessons.size)
         assertEquals(8, pack.guidedTasks.size)
+        val seniorKgUnit5 = pack.activities.filter { it.bookId == "maths-xpress-senior-kg" && it.unitId == "MXSKG-U05" }
+        assertEquals(6, seniorKgUnit5.size)
+        assertTrue(seniorKgUnit5.all { it.lessonId == "MXSKG-U05-L01" })
         assertTrue(pack.guidedTasks.all { it.instructions.isNotEmpty() && it.observableCriteria.isNotEmpty() })
         assertTrue(pack.lessons.all { it.title.isNotBlank() && it.skillIds.isNotEmpty() })
         assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
@@ -70,12 +73,11 @@ class BundledContentPackAssetsTest {
         assertEquals(5, pack.units.count { it.bookId == "macmillan-science-level2" })
         assertTrue(ContentPackValidator.validate(pack).errors.joinToString(), ContentPackValidator.validate(pack).isValid)
         val lessonMappedActivities = pack.activities.filter { it.lessonId != null }
-        assertEquals(252, lessonMappedActivities.size)
+        assertEquals(249, lessonMappedActivities.size)
         assertEquals(52, lessonMappedActivities.count { it.bookId == "english-world-level-2" })
         assertEquals(24, lessonMappedActivities.count { it.bookId == "macmillan-mathematics-level-2a" })
         assertEquals(24, lessonMappedActivities.count { it.bookId == "macmillan-mathematics-level-2b" })
         assertEquals(15, lessonMappedActivities.count { it.bookId == "maths-xpress-book-2" })
-        assertEquals(6, lessonMappedActivities.count { it.bookId == "maths-xpress-senior-kg" && it.unitId == "MXSKG-U05" })
         val scienceActivities = lessonMappedActivities.filter { it.bookId == "macmillan-science-level2" }
         assertEquals(134, scienceActivities.size)
         val lessonSizes = scienceActivities.groupBy { it.lessonId }.values.map { it.size }
