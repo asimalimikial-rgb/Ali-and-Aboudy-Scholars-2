@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -4628,7 +4628,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/28eb689fbb268edb7f98d4c98c27b4d59dfbba5942379ebc5bdf933657fdc70f.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg",
-      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-01.svg"
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-01.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
     },
     {
       "activityId": "aas2-kg2-measure-compare-02",
@@ -4664,7 +4674,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/0fc720b476398634e0f27ee74f5298c6d4e52208e3eed9285a7c92cf13d07d17.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg",
-      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-02.svg"
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-02.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
     },
     {
       "activityId": "aas2-kg2-measure-compare-03",
@@ -4699,7 +4719,17 @@
       },
       "feedbackCorrectAudioAssetPath": "speech/5612a6bf6ceecd99667d24dc5e1c6628ae21634c9c2c194d4e1bdd7e5fb75b44.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg",
-      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-03.svg"
+      "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-03.svg",
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_AAS2_ALI_MEASURE_COMPARE",
+      "optionRationales": {
+        "a": "Correct: this choice matches the measurement comparison in the question.",
+        "b": "Compare the two measurements and check which quantity is greater.",
+        "c": "Compare the two measurements and check which quantity is greater."
+      }
     },
     {
       "activityId": "aas2-kg2-plant-needs-01",
@@ -5244,6 +5274,111 @@
       "feedbackCorrectAudioAssetPath": "speech/d00dab155c677634cbea56ca5ac18af29ff5046f0fa924c882ad1da1107b7962.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-environment-care-03.svg"
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-004",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A ribbon is 5 blocks long. A string is 3 blocks long. How many blocks longer is the ribbon?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "1 block"
+        },
+        {
+          "optionId": "b",
+          "text": "2 blocks"
+        },
+        {
+          "optionId": "c",
+          "text": "3 blocks"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Well done! Five blocks is two more than three blocks.",
+      "feedbackIncorrect": "Count on from 3 to 5 to find the difference.",
+      "difficulty": 1,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "GUIDED",
+      "misconceptionCode": "MIS_MXSKG_LENGTH_DIFFERENCE",
+      "optionRationales": {
+        "a": "One block is not the difference between five and three.",
+        "b": "Five is two more than three.",
+        "c": "Three is the length of the shorter object, not the difference."
+      }
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-005",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "Jug A holds 4 cups. Jug B holds 6 cups. Which jug holds more?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "Jug A"
+        },
+        {
+          "optionId": "b",
+          "text": "Jug B"
+        },
+        {
+          "optionId": "c",
+          "text": "They hold the same amount"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! Six cups is more than four cups.",
+      "feedbackIncorrect": "Compare the number of cups each jug holds.",
+      "difficulty": 2,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "INDEPENDENT",
+      "misconceptionCode": "MIS_MXSKG_CAPACITY_COMPARE",
+      "optionRationales": {
+        "a": "Four cups is fewer than six cups.",
+        "b": "Six cups is more than four cups.",
+        "c": "The two amounts are not equal."
+      }
+    },
+    {
+      "activityId": "aas2-kg2-mxskg-u05-006",
+      "skillId": "aas2-ali-measure-compare",
+      "activityType": "SINGLE_CHOICE",
+      "language": "en",
+      "prompt": "A pencil is 8 cubes long. A crayon is 5 cubes long. A ruler is 10 cubes long. Which is the shortest?",
+      "options": [
+        {
+          "optionId": "a",
+          "text": "The pencil"
+        },
+        {
+          "optionId": "b",
+          "text": "The crayon"
+        },
+        {
+          "optionId": "c",
+          "text": "The ruler"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Correct! Five cubes is the smallest length.",
+      "feedbackIncorrect": "Compare 8 cubes, 5 cubes and 10 cubes. Choose the smallest length.",
+      "difficulty": 2,
+      "bookId": "maths-xpress-senior-kg",
+      "unitId": "MXSKG-U05",
+      "lessonId": "MXSKG-U05-L01",
+      "assessmentPhase": "TRANSFER",
+      "misconceptionCode": "MIS_MXSKG_ORDER_LENGTHS",
+      "optionRationales": {
+        "a": "Eight cubes is longer than five cubes.",
+        "b": "Five cubes is the shortest measurement.",
+        "c": "Ten cubes is the longest measurement."
+      }
     }
   ],
   "books": [
