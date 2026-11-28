@@ -3927,7 +3927,11 @@
       "engineVersion": "1.9.0",
       "skillId": "aas2-ew2-u01-reading-sequence",
       "visualProfile": "reading",
-      "matchedPromptKinds": [],
+      "matchedPromptKinds": [
+        "plate",
+        "bread",
+        "person"
+      ],
       "optionImagePaths": [
         "option-art/7fb1175ebf1c85a5e5f4af76.svg",
         "option-art/129ed878942f43085cf9cac5.svg"
