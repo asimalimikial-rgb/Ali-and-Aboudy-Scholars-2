@@ -105,7 +105,7 @@
       "skillId": "aas2-ew2-u01-reading-sequence",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "What should come first when making a sandwich?",
+      "prompt": "Read: Ali puts bread on a plate. Next, he spreads the filling. Then, he closes the sandwich. What does Ali do after putting the bread on the plate?",
       "options": [
         {
           "optionId": "a",
