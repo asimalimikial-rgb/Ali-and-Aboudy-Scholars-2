@@ -31,12 +31,12 @@
         "everyday vocabulary"
       ],
       "openCoverage": [
-        "handwriting and fine-motor practice",
-        "art and craft",
         "songs and rhymes",
-        "social-emotional learning and creative play"
+        "art and craft beyond the four guided tasks",
+        "additional literacy and fine-motor progression"
       ],
-      "nextAction": "Review and integrate the four non-scored guided-practice cards through a dedicated renderer; then extend remaining literacy scope."
+      "nextAction": "Four non-scored guided tasks are integrated with learner-scoped adult observations; review remaining songs, rhymes and art/craft scope.",
+      "guidedTasks": 4
     },
     {
       "sequence": 2,
@@ -47,8 +47,8 @@
       "learnerPath": "KG2",
       "subject": "Mathematics",
       "isbn": "9789356664975",
-      "currentAuthoredActivities": 38,
-      "runtimeMappedActivities": 38,
+      "currentAuthoredActivities": 41,
+      "runtimeMappedActivities": 41,
       "status": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH",
       "plannedCoverage": [
         "counting pictures",
@@ -58,9 +58,10 @@
       ],
       "openCoverage": [
         "review and consolidation tasks",
-        "additional age-appropriate measurement practice"
+        "visual/audio QA and difficulty progression"
       ],
-      "nextAction": "Complete visual/audio QA and verify all five units in the learner flow."
+      "nextAction": "Six measurement/comparison activities are mapped to Unit 5; complete final visual/audio playback and pedagogical QA across all five units.",
+      "guidedTasks": 0
     },
     {
       "sequence": 3,
@@ -458,10 +459,10 @@
         "MWD-KG2-U02-L02"
       ],
       "openCoverage": [
-        "adult-guided outdoor observation and recording",
-        "additional practical investigations and visual sequencing"
+        "additional practical investigations and environmental recording beyond the two guided field tasks"
       ],
-      "note": "The 25 broad legacy discovery items remain Additional Practice until item-level lesson alignment is established. The 16 lesson-mapped items comprise 15 new authored activities and one existing English pilot activity."
+      "note": "The 25 broad legacy discovery items remain Additional Practice until item-level lesson alignment is established. Two original adult-guided activities now cover safe outdoor observation and visual sequencing. The 16 scored lesson-mapped items comprise 15 new authored activities and one existing English pilot activity.",
+      "guidedTasks": 2
     }
   ]
 }
