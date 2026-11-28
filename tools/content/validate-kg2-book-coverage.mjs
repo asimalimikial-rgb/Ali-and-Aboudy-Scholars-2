@@ -1,12 +1,12 @@
 import fs from "node:fs"; import assert from "node:assert/strict";
 const p=JSON.parse(fs.readFileSync("app/src/main/assets/content-packs/aas2-kg2-foundation.json","utf8"));
 const guided=JSON.parse(fs.readFileSync("content/staging/kg2-hop-skip-guided-practice-v0.1.json","utf8"));
-assert.equal(p.version,"0.2.7");assert.equal(p.learnerPath,"KG2");assert.equal(p.books.length,3);assert.equal(p.units.length,10);assert.equal(p.lessons.length,19);assert.equal(p.activities.length,136);
+assert.equal(p.version,"0.2.8");assert.equal(p.learnerPath,"KG2");assert.equal(p.books.length,3);assert.equal(p.units.length,10);assert.equal(p.lessons.length,19);assert.equal(p.activities.length,136);
 const expected={"aas2-ali-listening-comprehension":"HSJ-KG2-U01-L02","aas2-ali-story-sequencing":"HSJ-KG2-U01-L03","aas2-ali-measure-compare":"MXSKG-U05-L01","plant-needs":"MWD-KG2-U01-L01","aas2-ali-discovering-world":"MWD-KG2-U01-L02","aas2-ali-observe-predict":"MWD-KG2-U01-L03","aas2-ali-weather-observation":"MWD-KG2-U02-L01","aas2-ali-environment-care":"MWD-KG2-U02-L02"};
 for(const [skill,lessonId] of Object.entries(expected)){const lesson=p.lessons.find(x=>x.lessonId===lessonId);assert.ok(lesson,"missing lesson "+lessonId);assert.ok(lesson.skillIds.includes(skill),"lesson "+lessonId+" does not own "+skill);assert.equal(p.activities.filter(x=>x.skillId===skill&&x.language==="en"&&x.activityId.startsWith("aas2-kg2-")).length,3,"expected three original items for "+skill);}
 assert.ok(!p.lessons.find(x=>x.lessonId==="MWD-KG2-U01-L02").skillIds.includes("aas2-ali-my-world-discovery"),"Broad legacy discovery enrichment must remain in Additional Practice.");
 const added=p.activities.filter(x=>x.activityId.startsWith("aas2-kg2-"));assert.equal(added.length,24);assert.equal(new Set(p.activities.map(x=>x.activityId)).size,p.activities.length);
 for(const x of added){assert.equal(x.language,"en");assert.equal(x.activityType,"SINGLE_CHOICE");assert.equal(x.options.length,3);assert.equal(new Set(x.options.map(o=>o.optionId)).size,3);assert.equal(x.options.filter(o=>o.optionId===x.correctOptionId).length,1);}
-assert.equal(guided.records.length,4);assert.equal(guided.summary.runtimeIntegrated,4);assert.equal(p.guidedTasks.length,4);
+assert.equal(guided.records.length,6);assert.equal(guided.summary.runtimeIntegrated,6);assert.equal(p.guidedTasks.length,6);
 for(const task of guided.records){const runtime=p.guidedTasks.find(x=>x.activityId===task.activityId);assert.ok(runtime);assert.equal(runtime.bookId,task.bookId);assert.equal(runtime.unitId,task.unitId);assert.equal(runtime.lessonId,task.lessonId);assert.equal(runtime.skillId,task.skillId);}
-console.log("KG2 book coverage validation: PASS (24 original questions across 8 lessons; 4 guided tasks integrated as non-scored activities).");
+console.log("KG2 book coverage validation: PASS (24 original questions across 8 lessons; 6 guided tasks integrated as non-scored activities).");
