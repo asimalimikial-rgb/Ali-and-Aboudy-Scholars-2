@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -5630,6 +5630,45 @@
       "bookId": "hop-skip-jump-senior-kg",
       "unitId": "HSJ-KG2-U03",
       "lessonId": "HSJ-KG2-U03-L04"
+    },
+    {
+      "activityId": "aas2-kg2-mwd-guided-plant-observation",
+      "skillId": "aas2-ali-observe-predict",
+      "title": "Observe a plant safely",
+      "instructions": [
+        "With an adult, choose a plant you can see from a safe place. Do not pick, taste or touch unknown plants.",
+        "Look at a leaf, stem or flower and notice its colour or shape.",
+        "Draw what you see or tell the adult one thing you noticed."
+      ],
+      "observableCriteria": [
+        "Observes the plant safely without damaging it",
+        "Describes one visible feature such as colour or shape",
+        "Records the observation through a drawing or spoken description"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer. Never taste or handle an unknown plant.",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "unitId": "MWD-KG2-U01",
+      "lessonId": "MWD-KG2-U01-L03"
+    },
+    {
+      "activityId": "aas2-kg2-mwd-guided-visual-sequence",
+      "skillId": "aas2-ali-discovering-world",
+      "title": "Put plant growth pictures in order",
+      "visualCue": "Seed  →  Sprout  →  Young plant",
+      "instructions": [
+        "Ask an adult to show three picture cards: a seed, a sprout and a young plant.",
+        "Arrange the cards in the order they happen: first, next and last.",
+        "Tell the adult one thing that changes as the plant grows."
+      ],
+      "observableCriteria": [
+        "Places the three growth stages in a sensible order",
+        "Uses first, next and last to describe the sequence",
+        "Describes one simple change as the plant grows"
+      ],
+      "assessment": "Adult observation; accept spoken, drawn or arranged-card responses without scoring.",
+      "bookId": "aas2-my-world-discovery-kg2",
+      "unitId": "MWD-KG2-U01",
+      "lessonId": "MWD-KG2-U01-L02"
     }
   ]
 }
