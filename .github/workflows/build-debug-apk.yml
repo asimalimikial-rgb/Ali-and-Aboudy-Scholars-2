@@ -96,8 +96,8 @@ jobs:
           printf '%s\n' \
             "Ali & Aboudy Scholars 2" \
             "Build type: Debug APK for device testing (not a production-signed release)" \
-            "versionName: 0.1.0" \
-            "versionCode: 1" \
+            "versionName: 0.2.0" \
+            "versionCode: 3" \
             "applicationId: com.asimalimikial.aas2" \
             "Source branch: ${GITHUB_REF_NAME}" \
             "Source commit: ${GITHUB_SHA}" \
