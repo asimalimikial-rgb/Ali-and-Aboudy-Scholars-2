@@ -4,11 +4,11 @@
   "bookId": "hop-skip-jump-senior-kg",
   "status": "INTEGRATED_NON_SCORED_PENDING_OBSERVATION_REVIEW",
   "summary": {
-    "guidedActivities": 6,
+    "guidedActivities": 8,
     "scoredQuestions": 0,
-    "runtimeIntegrated": 6
+    "runtimeIntegrated": 8
   },
-  "policy": "These are original fine-motor, creative, social, self-regulation and discovery experiences integrated as non-scored guided tasks. They require adult observation; do not convert them into multiple-choice questions or scored tests. Each child's completion and optional adult note are stored separately.",
+  "policy": "These original handwriting, creative arts, rhyme/song, cooperation, self-regulation and discovery experiences are integrated as non-scored guided tasks. They require adult observation; do not convert them into multiple-choice questions or scored tests. Each child's completion and optional adult note are stored separately.",
   "records": [
     {
       "activityId": "aas2-kg2-guided-handwriting-readiness",
@@ -124,6 +124,46 @@
         "Describes one simple change as the plant grows"
       ],
       "assessment": "Adult observation; accept spoken, drawn or arranged-card responses without scoring."
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-rhyme-song",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U02",
+      "lessonId": "HSJ-KG2-U02-L02",
+      "skillId": "aas2-ali-rhyming-words",
+      "title": "Make a rhyme and clap the beat",
+      "visualCue": "Cat  ↔  Mat     ·     Bee  ↔  Tree",
+      "instructions": [
+        "Ask an adult to say the words cat and mat, then bee and tree.",
+        "Say each pair aloud and listen for the same ending sound.",
+        "Clap the beat for each word and think of one more rhyming pair with the adult."
+      ],
+      "observableCriteria": [
+        "Recognises that each pair shares an ending sound",
+        "Joins in saying or clapping the words",
+        "Attempts an original rhyming pair with support"
+      ],
+      "assessment": "Adult observation; accept spoken, repeated or gestured participation. Do not score pronunciation."
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-art-craft",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L02",
+      "skillId": "aas2-ali-creative-expression",
+      "title": "Create a picture with shapes",
+      "visualCue": "Draw  →  Colour  →  Tell",
+      "instructions": [
+        "With an adult, choose paper, crayons and safe pre-cut shapes.",
+        "Make a picture using at least two shapes or colours. Ask an adult for help with any cutting or glue.",
+        "Tell the adult what your picture shows and why you chose the shapes."
+      ],
+      "observableCriteria": [
+        "Uses materials safely with age-appropriate support",
+        "Combines shapes or colours to represent an idea",
+        "Describes one part of the picture in their own words"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer. An adult handles cutting tools."
     }
   ]
 }
