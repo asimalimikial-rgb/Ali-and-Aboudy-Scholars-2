@@ -2,7 +2,7 @@
   "schemaVersion": "AAS2-ENGLISH-WORLD-L2-MAP-REVIEW-0.1",
   "bookId": "english-world-level-2",
   "sourceScope": "https://www.macmillanenglish.com/api/fileadmin/user_upload/Catalogue/Samples/English_World/English_World_Level_2_Scope_and_Sequence.pdf",
-  "packVersion": "0.4.7",
+  "packVersion": "0.4.8",
   "summary": {
     "total": 35,
     "grammarAndWordStudy": 29,

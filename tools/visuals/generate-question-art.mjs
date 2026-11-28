@@ -49,7 +49,7 @@ function visualProfile(activity) {
   if (/vocabulary|context-vocabulary/.test(skill)) {
     return { type: "mc_text", skill: "vocabulary", textFirst: false };
   }
-  if (/math|mm2a|mm2b|count|shape|place-value|addition|subtraction|multiplication|measure|fraction|number-pattern/.test(skill)) {
+  if (/math|mm2a|mm2b|mx2|count|shape|place-value|addition|subtraction|multiplication|measure|fraction|number-pattern/.test(skill)) {
     return { type: "mc_text", skill: "math", textFirst: false };
   }
   if (/science|plant|animal|habitat|living-world|my-world-discovery|matter|earth|SCI-G2/i.test(skill)) {
@@ -196,6 +196,18 @@ function phonicsPromptSvg(activity) {
 }
 
 function fallbackPromptFragments(activity, profile) {
+  if (profile.skill === "science") {
+    if (/moon|crater|constellation|star|night sky/.test(prompt)) return scene(["moon", "star", "cloud"]);
+    if (/float|sink/.test(prompt)) return scene(["boat", "water", "wood"]);
+    if (/capacity|funnel|liquid|dissolv|salt|sugar|oil/.test(prompt)) return scene(["cup", "water", "glass", "spoon"]);
+    if (/hot|stove|smoke|ice|melt/.test(prompt)) return scene(["stove", "sun", "ice"]);
+    if (/sound|hearing|hear|pitch|loud|vibrat/.test(prompt)) return scene(["ear", "eye", "nose"]);
+    if (/smell|nose/.test(prompt)) return scene(["nose", "flower", "lemon"]);
+    if (/taste|tongue|lemon/.test(prompt)) return scene(["lemon", "apple", "person"]);
+    if (/touch|texture|rough|smooth|skin/.test(prompt)) return scene(["wood", "glass", "cotton"]);
+    return [wordCardSvg(activity.prompt)];
+  }
+
   const prompt = String(activity.prompt || "").toLowerCase();
   const scene = kinds => kinds.map(kind => visuals.svg(kind, kind));
   if (/blend|long [a-z] sound|magic-e|phonics/.test(prompt)) return [phonicsPromptSvg(activity)];

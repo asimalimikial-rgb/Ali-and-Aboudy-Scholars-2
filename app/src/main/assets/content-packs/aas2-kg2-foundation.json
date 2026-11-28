@@ -4635,7 +4635,7 @@
       "skillId": "aas2-ali-measure-compare",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which is taller?",
+      "prompt": "Which is taller: a 20 cm block tower or a 10 cm block tower?",
       "options": [
         {
           "optionId": "a",
@@ -4671,7 +4671,7 @@
       "skillId": "aas2-ali-measure-compare",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which is heavier?",
+      "prompt": "Which is heavier: a full water bottle or an empty bottle?",
       "options": [
         {
           "optionId": "a",
@@ -4959,7 +4959,7 @@
       "skillId": "aas2-ali-observe-predict",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "You see dark clouds gathering. What might happen next?",
+      "prompt": "After the sun warms a puddle, what may happen to some of the water?",
       "options": [
         {
           "optionId": "a",
@@ -4968,7 +4968,7 @@
         },
         {
           "optionId": "b",
-          "text": "The Sun will become a star",
+          "text": "Some water goes into the air.",
           "imageAssetPath": "option-art/8f11a8530461f1fd349bdd10.svg"
         },
         {

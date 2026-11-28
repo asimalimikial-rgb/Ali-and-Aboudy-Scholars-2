@@ -1946,5 +1946,6 @@
       "mediaStatus": "PENDING_ASSET_PIPELINE",
       "runtimeEligible": true
     }
-  ]
+  ],
+  "packVersion": "0.4.8"
 }

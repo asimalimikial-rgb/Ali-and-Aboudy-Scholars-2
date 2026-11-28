@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "0.2.1",
+  "catalogVersion": "0.2.2",
   "updatedAt": "2026-11-28",
   "project": "Ali & Aboudy Scholars 2",
   "learnerPaths": {
@@ -315,16 +315,16 @@
     },
     {
       "sequence": 6,
-      "bookId": "macmillan-science-level-2",
+      "bookId": "macmillan-science-level2",
       "title": "Macmillan Science — Level 2 Pupil's Book and eBook Pack",
       "publisher": "Macmillan Education",
       "learner": "aboudy",
       "learnerPath": "GRADE_2",
       "subject": "Science",
       "isbn": "9781035130740",
-      "currentAuthoredActivities": 62,
-      "runtimeMappedActivities": 62,
-      "status": "PARTIALLY_INTEGRATED",
+      "currentAuthoredActivities": 134,
+      "runtimeMappedActivities": 134,
+      "status": "PARTIALLY_INTEGRATED_PENDING_INDEPENDENT_QA",
       "integratedUnits": [
         {
           "unitId": "SCI-G2-U01",
@@ -337,14 +337,30 @@
           "title": "Animals and Survival",
           "lessons": 5,
           "activities": 30
+        },
+        {
+          "unitId": "SCI-G2-U03",
+          "title": "Senses and Our Bodies",
+          "lessons": 5,
+          "activities": 40
+        },
+        {
+          "unitId": "SCI-G2-U04",
+          "title": "Materials and Physical Properties",
+          "lessons": 4,
+          "activities": 20
+        },
+        {
+          "unitId": "SCI-G2-U05",
+          "title": "The Sky at Night",
+          "lessons": 3,
+          "activities": 12
         }
       ],
       "openCoverage": [
-        "Unit 3 — Senses and Our Bodies",
-        "Unit 4 — Materials and Physical Properties",
-        "Unit 5 — The Sky at Night"
+        "Independent science pedagogy, language, accessibility and final media playback QA remain pending."
       ],
-      "nextAction": "Complete the independent review of Units 1–2 and author Units 3–5."
+      "nextAction": "Complete independent science and teacher review, then verify visual/audio playback and child-facing clarity across all five units."
     },
     {
       "sequence": 7,
@@ -355,14 +371,50 @@
       "learnerPath": "GRADE_2",
       "subject": "Mathematics",
       "isbn": "9789356664999",
-      "currentAuthoredActivities": 0,
-      "runtimeMappedActivities": 0,
-      "status": "CATALOG_ONLY_SCOPE_NOT_YET_MAPPED",
-      "plannedCoverage": [],
-      "openCoverage": [
-        "confirm the exact Book 2 contents and sequence before naming units or authoring aligned activities"
+      "currentAuthoredActivities": 15,
+      "runtimeMappedActivities": 15,
+      "status": "AAS2_COMPANION_PATH_MAPPED_PENDING_QA",
+      "plannedCoverage": [
+        {
+          "unitId": "MX2-G2-U01",
+          "title": "Numbers and Patterns",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U02",
+          "title": "Addition and Subtraction",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U03",
+          "title": "Multiplication and Equal Groups",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U04",
+          "title": "Fractions and Measurement",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        },
+        {
+          "unitId": "MX2-G2-U05",
+          "title": "Geometry and Data",
+          "lessons": 1,
+          "activities": 3,
+          "mappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
+        }
       ],
-      "nextAction": "Inspect the official contents/scope and establish the unit map before authoring."
+      "openCoverage": [
+        "Exact publisher unit titles and sequence are not verified; the five units are AAS2 companion paths only."
+      ],
+      "nextAction": "Complete answer-key, progression, pedagogy and offline-media QA; preserve the companion-path disclaimer."
     }
   ],
   "unassignedCurrentActivities": {
@@ -381,7 +433,7 @@
     "androidRuntimeCatalogLoading": "NOT_IMPLEMENTED",
     "grade2ScienceHierarchy": "INTEGRATED",
     "kg2Hierarchy": "INTEGRATED_IN_FEATURE_BRANCH_PENDING_MEDIA_QA_AND_PR_MERGE",
-    "otherBookHierarchies": "PARTIALLY_INTEGRATED_IN_FEATURE_BRANCH_PENDING_QA",
+    "otherBookHierarchies": "GRADE_2_BOOKS_MAPPED_PENDING_FINAL_QA",
     "completeSevenBookCoverage": "NOT_COMPLETE",
     "myWorldDiscoveryCompanionPath": "INTEGRATED_IN_FEATURE_BRANCH"
   },

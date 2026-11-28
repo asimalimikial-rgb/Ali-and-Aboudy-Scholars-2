@@ -7,20 +7,20 @@
     "macmillan-mathematics-level-2b",
     "maths-xpress-book-2"
   ],
-  "copyrightPolicy": "Original AAS2-authored maths prompts; verified publisher unit titles are used only as scope labels. No textbook wording or exercises are reproduced.",
+  "copyrightPolicy": "Original AAS2-authored maths prompts. Verified publisher unit titles are used only for Macmillan Mathematics 2A/2B. Maths Xpress Book 2 uses an explicitly labelled AAS2 companion path; its unit titles are not claimed to be publisher chapter titles. No textbook wording or exercises are reproduced.",
   "summary": {
     "books": 3,
     "units": 29,
     "activities": 63,
-    "runtimeMapped": 48,
+    "runtimeMapped": 63,
     "bookCounts": {
       "macmillan-mathematics-level-2a": 24,
       "macmillan-mathematics-level-2b": 24,
       "maths-xpress-book-2": 15
     },
-    "stagingOnlyBookCount": 1
+    "stagingOnlyBookCount": 0
   },
-  "releaseGate": "PARTIAL_INTEGRATION_PENDING_PEDAGOGY_AND_MEDIA_QA",
+  "releaseGate": "INTEGRATED_PENDING_PEDAGOGY_AND_MEDIA_QA",
   "requiredChecks": [
     "recalculate every answer key",
     "check number range and prerequisite sequence",
@@ -64,7 +64,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U01-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u01-02",
@@ -100,7 +101,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U01-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-01",
@@ -136,7 +138,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U02-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-02",
@@ -172,7 +175,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U02-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-01",
@@ -208,7 +212,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U03-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-02",
@@ -244,7 +249,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U03-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-01",
@@ -280,7 +286,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U04-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-02",
@@ -316,7 +323,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U04-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-01",
@@ -352,7 +360,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U05-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-02",
@@ -388,7 +397,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U05-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-01",
@@ -424,7 +434,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U06-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-02",
@@ -460,7 +471,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U06-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-01",
@@ -496,7 +508,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U07-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-02",
@@ -532,7 +545,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U07-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-01",
@@ -568,7 +582,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U08-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-02",
@@ -578,7 +593,7 @@
       "skillId": "aas2-mm2a-review-u08",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which is greater?",
+      "prompt": "Which number is greater: 94 or 49?",
       "options": [
         {
           "optionId": "a",
@@ -604,7 +619,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U08-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-01",
@@ -640,7 +656,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U09-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-02",
@@ -676,7 +693,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U09-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-01",
@@ -712,7 +730,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U10-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-02",
@@ -748,7 +767,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U10-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-01",
@@ -784,7 +804,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U11-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-02",
@@ -820,7 +841,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U11-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-01",
@@ -856,7 +878,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U12-L01"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-02",
@@ -892,7 +915,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2A-U12-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-01",
@@ -928,7 +952,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U13-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-02",
@@ -964,7 +989,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U13-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-01",
@@ -1000,7 +1026,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U14-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-02",
@@ -1036,7 +1063,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U14-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-01",
@@ -1072,7 +1100,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U15-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-02",
@@ -1108,7 +1137,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U15-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-01",
@@ -1118,7 +1148,7 @@
       "skillId": "aas2-mm2b-review-u16",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which is the larger amount?",
+      "prompt": "Which amount is greater: 1 Sudanese pound or 75 piasters?",
       "options": [
         {
           "optionId": "a",
@@ -1144,7 +1174,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U16-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-02",
@@ -1180,7 +1211,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U16-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-01",
@@ -1216,7 +1248,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U17-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-02",
@@ -1252,7 +1285,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U17-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-01",
@@ -1288,7 +1322,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U18-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-02",
@@ -1324,7 +1359,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U18-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-01",
@@ -1360,7 +1396,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U19-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-02",
@@ -1396,7 +1433,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U19-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-01",
@@ -1432,7 +1470,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U20-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-02",
@@ -1468,7 +1507,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U20-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-01",
@@ -1504,7 +1544,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U21-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-02",
@@ -1540,7 +1581,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U21-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-01",
@@ -1576,7 +1618,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U22-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-02",
@@ -1586,7 +1629,7 @@
       "skillId": "aas2-mm2b-measures-problems",
       "activityType": "SINGLE_CHOICE",
       "language": "en",
-      "prompt": "Which is heavier?",
+      "prompt": "Which is heavier: 2 kg or 900 g?",
       "options": [
         {
           "optionId": "a",
@@ -1612,7 +1655,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U22-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-01",
@@ -1648,7 +1692,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U23-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-02",
@@ -1684,7 +1729,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U23-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-01",
@@ -1720,7 +1766,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U24-L01"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-02",
@@ -1756,7 +1803,8 @@
         "IM-K12-MATH-2019-2021"
       ],
       "mediaStatus": "PENDING_ASSET_PIPELINE",
-      "runtimeEligible": true
+      "runtimeEligible": true,
+      "lessonId": "MM2B-U24-L01"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-01",
@@ -1785,14 +1833,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-02",
@@ -1821,14 +1871,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u01-03",
@@ -1857,14 +1909,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U01-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-01",
@@ -1893,14 +1947,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-02",
@@ -1929,14 +1985,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u02-03",
@@ -1965,14 +2023,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U02-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-01",
@@ -2001,14 +2061,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-02",
@@ -2037,14 +2099,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u03-03",
@@ -2073,14 +2137,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U03-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-01",
@@ -2109,14 +2175,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-02",
@@ -2145,14 +2213,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u04-03",
@@ -2181,14 +2251,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U04-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-01",
@@ -2217,14 +2289,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-02",
@@ -2253,14 +2327,16 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     },
     {
       "activityId": "aas2-xpress2-mx2-g2-u05-03",
@@ -2289,14 +2365,20 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "reviewStatus": "PENDING_SCOPE_VERIFICATION_AND_PEDAGOGY_QA",
+      "reviewStatus": "INTEGRATED_PENDING_PEDAGOGY_QA",
       "sourceType": "ORIGINAL_AAS2_AUTHORED",
       "sourceReferences": [
         "AAS2-ORIGINAL-AUTHORED",
         "IM-K12-MATH-2019-2021"
       ],
-      "mediaStatus": "NOT_GENERATED",
-      "runtimeEligible": false
+      "mediaStatus": "PENDING_ASSET_PIPELINE",
+      "runtimeEligible": true,
+      "lessonId": "MX2-G2-U05-L01",
+      "scopeMappingType": "AAS2_COMPANION_PATH_NOT_PUBLISHER_TOC"
     }
+  ],
+  "packVersion": "0.4.8",
+  "companionPathOnlyBookIds": [
+    "maths-xpress-book-2"
   ]
 }
