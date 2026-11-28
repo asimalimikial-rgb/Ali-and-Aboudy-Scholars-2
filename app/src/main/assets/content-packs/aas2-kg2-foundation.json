@@ -5318,8 +5318,8 @@
         "b": "speech/e7b250865641bb59d23277c829d13ce9d563aeff2369dd774a5389f577933a6e.ogg",
         "c": "speech/bd971cfb6da679c077a8d0b9d2861bd88921c160406d1dff4f83b09f86e086ca.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/dc86d86cf0347b2e21c405a98969b7ae99f32714e897b97763857045694f82ee.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/03ba81bfd5ac27ba7899cfa1e8b01ed3dd3c362c28261d13a907177ec61c0763.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/e1b83e450bf64536e16b8c89eea722b9b27712e7bbb09d3c54e1c2159a773ca8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1a8c11ed2edc2412e138ae2ef0f193792583e8718d9d87af1048099bc53dc257.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-004.svg"
     },
     {
@@ -5364,8 +5364,8 @@
         "b": "speech/1e947a97ec881007ed84183f056810ddea8a8fce90688850e5be057c54d8e8c6.ogg",
         "c": "speech/8b5d4db22536c82a198d7fa635eacc56531885880bb89f419b61909d79221f2f.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/ba15a33937ba087696b01bd3a4a470276f28ca8fd5660d57374423096d7d4c3f.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/702229beb16627027a0327228eac44900e454648b0bed13d92879ef2ef806475.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/77eaef537d8fe4aaf80e37fbfd89ecfd033c5e282f26ad5d92dc902b4c7654a5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/801ba7b518723898e2d5cdf814b067264843e0efee7c518d77acedbc6ddbe846.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-005.svg"
     },
     {
@@ -5410,8 +5410,8 @@
         "b": "speech/9414345c14fdb23da038f1167053d47cee655f311ad44ec4a07ecc07bc9351e8.ogg",
         "c": "speech/453203ccf4406f0db61a2bae6acec77852d35ae8de7cefc594669e36f7868438.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/22cfee7dc9a3964933e95061c43d9149a8c3df424d22fb71e1a610fb45ee3b92.ogg",
-      "feedbackIncorrectAudioAssetPath": "speech/ef4157bcb25ee00a09eb7ebd8513c330ff2914e278e9b73e42185cb52103656f.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/e8f830a1a9e1d826e57f2ad2156405dea1f7c087a0afcfb70665142e7ca9a591.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2de33ab3ca9346ff8cc9f9fce9745744152510cb60fc73f318d75c7da9a2d41b.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-mxskg-u05-006.svg"
     }
   ],
