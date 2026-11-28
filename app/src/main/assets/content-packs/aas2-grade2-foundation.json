@@ -8193,7 +8193,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-001.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-001.svg",
+      "promptAudioAssetPath": "speech/46213a2cb365be5be658d31b40a7e185bb7e88e32e7659d49ddf3a1e87bea0f1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/841fcd4577babe37e1f5f83ec3efb211826ec6f5bb5996ef4e0768ceef28e632.ogg",
+        "b": "speech/ff86a330b0a50cea329c5202496c902cc1f6e634ef4d2b7439ac7a05a1258180.ogg",
+        "c": "speech/8d72a1f7ce7db43d6637e51b5c7488b43c35ebe78e76297fe204a91c174c9d98.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6fd64faefda3064f2109e1c0459465985642cf90af37a77b23f344c7575e2880.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/bc708b978505eb6ba3beaf5baf3550161a3caf5ab3c9dfee8d22b9b769dd2e01.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l01-002",
@@ -8222,7 +8230,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-002.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l01-002.svg",
+      "promptAudioAssetPath": "speech/5fe64af2c84c23e3ca056a9613c2d0fe6be6506155edbe8d6cdc2b9bfe5bbe00.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/52d66846b8506dbbd575b43fdac8374242f4abe831273da07ed2f7324e2a0118.ogg",
+        "b": "speech/875e51bfaacb077422bc8552a39a810b7e934725c16e1b5b053f4e3ac4d21e12.ogg",
+        "c": "speech/7535d5e95cb220e8f92bf24e74a199c477792660e2fbc78394654ece68bbdd1d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cf978af874ab03bb804938179ddba86e847b1774587d9abcffafbeb459b1f5f4.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/57aef90a8ca334d8713690ca1bd3b04f80a88abca3b0ea3a9e48125820c9c776.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-003",
@@ -8250,7 +8266,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-003.png"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-003.png",
+      "promptAudioAssetPath": "speech/641b92fc2241e3edeaa1de20a4ae0d2f5d67680df9ffbe044292ff77c587fd66.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/02fddeb57688104693a5144324e307d114170a1b18f0fa2cd7f36b8bb4775c10.ogg",
+        "b": "speech/193db1368e19f84d36b35eaece6830391c54ec61a3ee20988100d16f13063041.ogg",
+        "c": "speech/0e6a44cb2ba8a9e1ad4ef917a7a13679d97af58e7e8121a11055d65726775589.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/bbda56f4dd412fa70eafa1758f3b24d0a9af78946ad88e9a394a1dba520b9490.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ac72f5a3b8d7fdce5534cdc29200a265f38882c3e6b898875c625ee7d829c800.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l02-004",
@@ -8277,7 +8301,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-004.png"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-004.png",
+      "promptAudioAssetPath": "speech/643671a7b2548e4e260b7efa55085f5399c6c05b053c6e5f6c6808d0cbc50dd8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ee3d7612b9e04db67447ec0b7df4d03e214109c014a783149e3faa25f59a187f.ogg",
+        "b": "speech/39fa7af0fa966dd8c517861cff7b84816b523e07b1fd84e34896c5bd758364c4.ogg",
+        "c": "speech/f9f71846f7f7af3a99f420cef400ccf66c6a1156bc3e4f6ffe8b872f7a607621.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2374016aa196f56d9dcf0e0402f0cd51f01c474fa130e74d0ffde3f793a98a17.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/63ddbf7af6f9ea861c1a407ead302a2abd490b2c2284b1a465bda50bc8c842b1.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-005",
@@ -8303,7 +8335,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-005.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-005.svg",
+      "promptAudioAssetPath": "speech/8d9d913192a4c87b8c078e1d2ca09ed5ad9418f1fd2f4330c64213cd89f08922.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/754c6213ae8caa3eb778b637e7d8f390e1bb75ab6891bc7bca1dce7002be6100.ogg",
+        "b": "speech/09e3abb6316db930c491f8ff7884b893237582de2d797d6e7328fab8f9cfb9c9.ogg",
+        "c": "speech/158c022f8dce816d7f77435d6079bfcf9b143be3d9a2e1db19346c29a7c857e6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a917bf30e860323012bd2c71b25c500508a50d60fdc156d7001afb0258f699d8.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dc2e1280e70f2f7f88b8b9256ec893f96abea3a33683370a46043c49160e93f4.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l03-006",
@@ -8331,7 +8371,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-006.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l03-006.svg",
+      "promptAudioAssetPath": "speech/333842fed858991434ff4fad429ab1f6223bc343e8e3bc518d6502663ed7bf29.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b18207b93516f36eceb6f253b5bc30af5fce003ef4d7a0bac771d82070dc1df7.ogg",
+        "b": "speech/604172dd128488f1102d2e41cd2ddd3af1df4f12c959985bd424e8e6ef8cdf9f.ogg",
+        "c": "speech/b546b85975cc9fddd622bb4495bb5e75a4563c6c25689df951e41e357068de0e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/704fc899be69680203b9b8b41990f91d84d6a99429373f47211947bd7001d111.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8789a82dd5841fd2aa1c9efc82c01447afbd1729d46feac90b166f10fc3c1905.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-007",
@@ -8357,7 +8405,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-007.png"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-007.png",
+      "promptAudioAssetPath": "speech/29d1fe7d4ed03042058031a33c4fdb2dccc61dba2df2269ff8614adf568a330b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ce27ce3c1c94d0718386ffba35c76c717b6c30521bf103e06689d1b17399d768.ogg",
+        "b": "speech/2f3ee33935a1d4ab4e97c8d66e85b6cd22305b353e94690c55a7d546d4b5f6ef.ogg",
+        "c": "speech/7dc104ccf385a8945f12773c4774f3aa12a2e027e0bbee5b7d0145943f1e484e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/075570b25df2f79b39ba30483aad6d48e8c5f70ef3715722556fea16a169b1dc.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0ecdfb1ab1b081d092e69b9992b3d021465899bf23d5ed4ed88ed0f1753504cd.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u01-l04-008",
@@ -8383,7 +8439,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-008.png"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l04-008.png",
+      "promptAudioAssetPath": "speech/7cd85ed36302a6c3fa71e2c1c41d8b8eb50905ac299eb6687001b58fd1af9819.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8c19ee6ce25ae98fb945c8213a38a42ebd6c6ca9f00ce919afc9e72357491791.ogg",
+        "b": "speech/81cc132bce345337252d915a8a260253620c46c5e4ad7fc9140e898787f9e989.ogg",
+        "c": "speech/32c4d6800f0eb0acddfbff262f7d8aace1e7ef901e3769d9a52bee0d33133c58.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b9b690faf5b826075ca047145c6c3bd73fde6c5caceac202c5a1670fa584ae31.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/272c43a301218a1edec868c06f93b7e8d101a04087eccaa3f0dd1390da3c4f72.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-009",
@@ -8410,7 +8474,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-009.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-009.svg",
+      "promptAudioAssetPath": "speech/e46e6bacb443bd705ae3c3ea2fb79325e13ca1ce76b8ec6cdbdaf83e7015d106.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9eba3adee7bc307d5c538754f97fab633560129df88451c265640379f8b8dd81.ogg",
+        "b": "speech/b8f807e2d3ce9b35e5f8f3a64f78c95ea75a295601e7743818c1ce3a0aa01a7d.ogg",
+        "c": "speech/0b77f67ca104cab09cd5033586eab69e80bf274dccc58c6c264bcbb049297d7e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ddd236510e3c23096c4b09699f860435889db4ff573cad1d96770dbd9cbb0fa1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/c45d9412613bcb9d7cc75b3214a4af2d0d49c911b1ffc36465a9730c579c560e.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l01-010",
@@ -8437,7 +8509,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-010.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l01-010.svg",
+      "promptAudioAssetPath": "speech/30b128a6e829f3e082ba52ab803180feda1b740f63d3f8941702b8c169b6197f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e711882cfecda82cde36be6bc9b2ccf7652254c90479e3c713edd90cc8bf6293.ogg",
+        "b": "speech/0ce3767e7908de8d14d03098c6b0148aed3a5467bf2794f2b369adafc58def2f.ogg",
+        "c": "speech/94ee6733362d42b272c47a3dabe25c17e5b8556a306fce0dc8d5517aec88d096.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6230dbdef045d1dec0752f496acdbb093eb6d2d3a82ec3dd0d1c98f225e8f199.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/92dc47fc99e860e4a9006545247564fa62109ae914576c482d49da469b0287a3.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-011",
@@ -8463,7 +8543,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-011.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-011.svg",
+      "promptAudioAssetPath": "speech/d0e9b08a5cd8a23ac2fee3584215418ead4e5040799c00fce8a76300b6127fd2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/0676e9b639f097ee3be26f92a38009fc0b3ec7ba3487713f5fc7cee2f87bdb96.ogg",
+        "b": "speech/17e45a3dd401f3ebaf45aecd4ecd764207279ab588f4697d2b362267eab38657.ogg",
+        "c": "speech/19333405468f797564ace6cfc421b916fb0f38d183ae4ea3f71b1189b29336d4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/82844c28fa2060b66936ff61c6e6f33613cafacdf89bd36adff76c27623e2ea3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/77df015b0ef1c16bf2deaa974816e18cf0e10793cc618b46665250456328e96f.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u02-l02-012",
@@ -8489,7 +8577,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-012.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u02-l02-012.svg",
+      "promptAudioAssetPath": "speech/8143ea2c0f135a268b2b99a847777d9d57c2a303ff8fd802bd17feead8517231.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9cb5b000451cb9cd4aa48274b03334aa44ec1dc99ac153abacf6d39bad16dec3.ogg",
+        "b": "speech/d44438fe2973d2bb8434986a3f5c83556f1f7b5580d1a030285aefad4f860ac8.ogg",
+        "c": "speech/c20318d93f34ef0b84bbdfbc17ef4b57b792df0b9c9772432419ac5e9c1b0cc5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9dc845983d795f9b18dbcfd09adc375f900c7b9e0abe8dc267daadbb40dc1942.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/ec4ca14cbc0d932f6f129d2a9d368dc0960c8a4e4329704fe6f1e34f0768a563.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-013",
@@ -8515,7 +8611,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-013.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-013.svg",
+      "promptAudioAssetPath": "speech/66ffd26ba1105ba22f7e24983652a5f67926ea7823d841a989d476dc406f97ec.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e77dcc9578f13c1908187da31190b02f7fb0beb324ad2c9eb712022036c23ef4.ogg",
+        "b": "speech/5e44c0189f33c7c964add7c03f75b3eca4629936c95f49aacca3c1b655ab47e2.ogg",
+        "c": "speech/9b45b0648e4d6588a2ee029b82c0e8668fc0527822eb84c63d50857038f12dd6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9b9dd6d52048f64ab16de09733ec7b6ad65acc935c0ea88b909380a0b937c64b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f706aee0a02184dd2c7a923df97734ea412f354fac133ce38c4467e77d9fb359.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l01-014",
@@ -8542,7 +8646,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-014.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l01-014.svg",
+      "promptAudioAssetPath": "speech/26e2105130fa001372d2d6c7071edb6a2b5cbc4c92b515c2f98a0ce650982dfa.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/68d44b9fd93b48afe64342a776f741f78b2cdc3acd335f157b094f32f22490e6.ogg",
+        "b": "speech/8297f048b1845887804dd73ae4ca295036c4950b670bc70a86597453d6923bf8.ogg",
+        "c": "speech/901b938417ebea643ec7d45826381800d3368f3527994233f713bc30e9c8225d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6731c5d5b7011e0f9de4e97591145cb64bb1d6eb541188bf05486cf1121a430b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/52fc71e3a41c11f5eaa751c89a42b3ff6bfc1b70a8f6dc381c9e875dacda1b53.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-015",
@@ -8571,7 +8683,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-015.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-015.svg",
+      "promptAudioAssetPath": "speech/51ce60f289e15a994245df53a672390770f5f64a11802330624a41954d013fd3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/5cb263b0b29bae90d1a07347e4cddb078e45f2cfb63d972152b93f5280453a93.ogg",
+        "b": "speech/048c748c3a8f512b128d5d5d4913a2cf82de3383311f581500b28c843c75c366.ogg",
+        "c": "speech/8212f11950351a0121b6d0837274ab55a5d68722a66652a5f9113ca3d42a310e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d5169ad469ef42b2b612b502eabcd478a5328b1db28b195fceeb5431a67ae1f7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cfc6dcf426974497470ce81acbe457ea0f9965deb69cbd4e18791ebfa88bca9d.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u03-l02-016",
@@ -8600,7 +8720,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-016.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u03-l02-016.svg",
+      "promptAudioAssetPath": "speech/cd914cdf6ccb7a89ab980b98afb582f14e0c57472e09cb5ab179294cd32e91d3.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/de6ea86c86ad002cb6d98497677090b51ce2f91bf9827f4ef7ad45cf3ec6e1d2.ogg",
+        "b": "speech/4bf64b2da16a7289d8deb3813a64692a54baed8a54755d0f4be5efe33d0b4169.ogg",
+        "c": "speech/72ca5da4ccc1243dfdce094fb075a3e2ce2f3f63074bb60c31df0918b6d92f2f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cffda8411cf45be26971471b80c793edb7baedaf03a69c7fe107f63d997725a2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/011a84ef5a102fc1518c6538b8cd7cebbccc0cbc39073a940b33f2fc4044c2a2.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-017",
@@ -8626,7 +8754,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-017.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-017.svg",
+      "promptAudioAssetPath": "speech/83ca775080585346ded0716461e947fe218340bdb30bfaddb267015e4c66d27c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/0b09ca1fca684ed38d69710ef1d4b1341504b44e98a6659a2a2094379ea3a4e7.ogg",
+        "b": "speech/348941443cf9b1d0a68755b2b60c4406835e2e608e3a8b0eac0d265fafec6e62.ogg",
+        "c": "speech/f3b85453fce295e5e61b2fcd375bd134a6610ab9824eebddbb4a0a022a73edb7.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e26623dca79919b5485f9ea1888d9d7c1a560cf78ffc2a53b13997b44e336e2d.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8cc66b778647b6c8184481c69d799e7be16663a3d3f4bc7528cfc967b070f513.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l01-018",
@@ -8654,7 +8790,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-018.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l01-018.svg",
+      "promptAudioAssetPath": "speech/101429aca67372660d9002909a97f83e20fc6bbffa41bef61beb80aba32efc84.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d517b3d97bfc9ab05f856de90970be79e946f2a1f91626a2e89b4ba62a14155f.ogg",
+        "b": "speech/c1cd4faa6d9feb894c3ae9fc6deb728899e89d5fa713adb65c559b206d7eac7d.ogg",
+        "c": "speech/74667f85846779cc80f7fff1203b62acda54a7deed97266c6c429577c13b59f6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b5455b3852c2cfd7cd10211030576e8353dfe3fa9083504e922a77b0ac93fcd0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6e49e018068076cd26dfb1ad8b097c3e5f48d8a4255513b89716b3d5b9dedc7d.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-019",
@@ -8681,7 +8825,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-019.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-019.svg",
+      "promptAudioAssetPath": "speech/1d5c259530c038dc8bd5371bf9777ab0efd0090da5d128ddccfc233d427308d2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f57f7c354536adb9015eceb07fbd1550da35a1919ca4fa0a763972cbc17b36c6.ogg",
+        "b": "speech/8196d4a4da1ccfb2f2ba5af49717096a0990df9421f5b5601312d4011102e933.ogg",
+        "c": "speech/812d1dfb36b0d49e7fed31d5c6f4c5f072beb26450422af40ae88d4dc1956978.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6dae50dcb117af6d392a70f194b1498c23643dc3cd173999534ed94bb6e5d3d6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/493d0f5a988a585665b7a968958d3b05a8024bbade98cef1c69be6b3da375dd1.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u04-l02-020",
@@ -8708,7 +8860,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-020.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u04-l02-020.svg",
+      "promptAudioAssetPath": "speech/5c9f2f490d1ae73aa536919e1e9aac307ff9ba4a8da28abc3579979634954654.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4709368ec75f70c6a1436010f2ba5a13e6ce53d2c3e963dfc4a81e693961778d.ogg",
+        "b": "speech/fd6cda87762f904875c13c61535397640778a6b7e942f77a5df08a3902a0cb0c.ogg",
+        "c": "speech/e6c659e009058e02822dcbefed7c4c99ed6018bc8547d5c8ca978bebce47ef18.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/fa9278dafbf19330e62bd22f633f4a53b90ab8c31e8499728a7aaf8ee9736270.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5bb876ffe81e42bf6be3deada4f6ee488297eca3da526c95057df95f5e729060.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-021",
@@ -8735,7 +8895,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-021.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-021.svg",
+      "promptAudioAssetPath": "speech/a18792938156417c0b7be3cbef0c3ac25c3e5328f1a5ae991f369502d668ad21.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/915f9ab88d1aa14c942b0166ee5d1ae2b3b32e2f82e385c29a0daa55d6481b62.ogg",
+        "b": "speech/66ef4079533f2d1f7c3dfb84655e9d8e113446c8db2850fb219fcb07fe6946fc.ogg",
+        "c": "speech/ede8ed9cfd447dca96780d6a0cb06dd16ffcdfcbccd9d5950514551401e1641f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/31072b658db3e4002e613267c2bfcdefdcdbb17045d7c6e12ede41ff616f12f4.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1222b34be52e7839236d34049b28a744c1d05d614b5b1f9e07ea0a4f962e48fd.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l01-022",
@@ -8764,7 +8932,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-022.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l01-022.svg",
+      "promptAudioAssetPath": "speech/238ab17ed4b2178f4ea215df7e865db484bd605384014a2c5ba526a716afe535.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a2b7f94de226efa94053aff305cb157000571dd0aede008b3839cd1220e77b30.ogg",
+        "b": "speech/9ead7b29db2f177b1fa2043e007c814785873b35bd4737194595ba195a97d124.ogg",
+        "c": "speech/241970b82da0491942601e4e037e43c6f4ff583f1b77951650726e845b9e58a5.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3715ca18748b28b2bba6d45cb33fe3d01967a47381eddb60c90f743a776e529a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2a22265fecfce699a03353bf3b1facdc18d7ed33599509bd40675cf8828c26a7.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-023",
@@ -8792,7 +8968,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-023.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-023.svg",
+      "promptAudioAssetPath": "speech/ea8e6109917be7840ec9ed66aa595c569d72c8ea3715628d23827089cd8d2faf.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/419097b0e6ac25639b49a3573f2d1843a3e893ef688d5dacc8809aac62858e4a.ogg",
+        "b": "speech/f9fcad0e35c06c68b181c5b1cd0e1ff3d2a0c8902ecd2eaf1fa7191aced30423.ogg",
+        "c": "speech/79fa8e1d70be01117f9aefce787527b9c223968687b3d4ec0daaa6228f8b4119.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4706e573c0bcbe2949ca7ec75d52d66d66f893847f52e5eaa679d599f0ae8b50.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/94e2393b5e9ed8c35cc6b19cf532cf41639f56b4d5c11fd8f0b2a97e6e9b5300.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u05-l02-024",
@@ -8818,7 +9002,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-024.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u05-l02-024.svg",
+      "promptAudioAssetPath": "speech/7deb47a86a8e50a63a7812fbf257bf51d8779add8a7387a57a5c6c84cf611cb5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/577c3efedbec5119f7334c8fba67ffe5a8a7cec377a87913e9298195f61224e6.ogg",
+        "b": "speech/185986091ab7c700d451c95753e231191c5946bbe065d48e3be10deb9ccb0762.ogg",
+        "c": "speech/c85493c607a6519b60a2d910d80ad69dc3f5458887162e9a95c73807c8a0c691.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e89a656642501b70e46d9d7302dbb35e221ffae52af227c0dd2e1e1cf6ce7fae.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cf45ace60b6325e2a598bef859cefa2139b9870600f03097a4938cedd2a766bb.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-025",
@@ -8844,7 +9036,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-025.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-025.svg",
+      "promptAudioAssetPath": "speech/adda7ac36edad5aaad81617d29258e577cd772a80a00e7330399b5183a847551.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9f3267ac35ef30cfb6a86fa59c58eaaa2429d3f7fe4b0175abf40f5d46ae0dbb.ogg",
+        "b": "speech/9e0d209d3069344806dbff48207c0416b60511e7bad2844fa68769fcbc95bc3f.ogg",
+        "c": "speech/7908a726eee1b857f58bddc81a171377fe8651beed033f5084073173cff69a71.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/917a5a8f1dc81bd1db29f1133bfab2cadf3459d093d0216a9905127544144db1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3a1ff091a48f5bf1bef00c54429f41d913a63b91a9a699e7a373856c555f55bf.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l01-026",
@@ -8870,7 +9070,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-026.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l01-026.svg",
+      "promptAudioAssetPath": "speech/d15abc21311775ece341e79eeeb796659728a7978be6ce065a27260520ba1ed2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/8d472ac7a1bb7f71858804a35607fbb1ef84c63214e6d7905e2e4c575cacc655.ogg",
+        "b": "speech/932265983bf519aeb207651aae1c867fe430fffc1f489e5e1173f3abaa4492bd.ogg",
+        "c": "speech/16507c55ba82d7d030e3b556f4be8fbfc0ed23b37660adde5c6ce2f97eeba993.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/10a19f0d921c91d7732e9fbe4b71944a751e0cb186c178087423c0952c985801.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7ca06532366c7831f30a6cbfe100074797033807b35837d14c153c621225875a.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-027",
@@ -8896,7 +9104,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-027.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-027.svg",
+      "promptAudioAssetPath": "speech/de1ec145d34866b639c604c1850e45a614c10701d50410646130ef6fa403f72c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6d084656f265671816f7cfbff2a7bc852e2114f9a5a4a5d42945806e3e5fbbad.ogg",
+        "b": "speech/68c9870985ddda9ad4bad22abd1996456ff0d0cf11f84d0f92cfe05b2434ac00.ogg",
+        "c": "speech/1cced4e14880a1166f538684caa3932641b0a5d49edd59861da1f8e767909a15.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/95a43aa63ec3619adf6374ca84108b9e84a159c668de915e636ea23fd28a7f18.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d272cd16e99a628d3d8c265683cefae2897e7150f2d9c56f1b9abd602918c3cb.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u06-l02-028",
@@ -8925,7 +9141,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-028.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u06-l02-028.svg",
+      "promptAudioAssetPath": "speech/7d63c74789388137ece70b16dbcea1875951f7e613e0b317cdc69f82f5a46ade.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4d09a785ec941cc1530c60a9a52914c2dfb29321224e448ff9b6f2957f9ed992.ogg",
+        "b": "speech/163d3140b172d4eb8d65fad0a9d4a943650e57862ce83d3660f22a964df9d2bf.ogg",
+        "c": "speech/c25d5686cb0f80a9b52bdebe272b5e1038f40de7a54bd5817c9b08f0ebf3f371.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d8026036fa7080306b3aecf87daf6847a19f49a08903328b7cb14279dad60980.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5d438db7f251e3180d509f2942d832c4e98ed35842e21983554b6d1d7991f1ff.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-029",
@@ -8952,7 +9176,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-029.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-029.svg",
+      "promptAudioAssetPath": "speech/0821b537a02080d053196f1154bbb665b0742f2868cd65be61c528e05523e8fd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d490945708f9a647bab2daf5ab71531ea34970424c6d8275410714bea4e484a2.ogg",
+        "b": "speech/f718e5736e86c03606b61654e0a77a63cf3aa9e15ae7a5c374828d26d82a3329.ogg",
+        "c": "speech/c60ff74b9aa92f32a711c234999ff1cd46eb09ca9bc722841969b37a3c7b8efe.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/44937e4a8fbc426d65b22917e20869bbbfd8d96661f92bf4d4d5f90d2904ede6.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/72a621da471236a270b6ae098e82e5bed7123d9e2586bbf89e6b64e70e82ea72.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l01-030",
@@ -8979,7 +9211,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-030.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l01-030.svg",
+      "promptAudioAssetPath": "speech/1bc9da093f3f7de3de26b615600deba74921610cc6b3140786d6a0297f5a85b1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6069eca43226a8048d75c5053f01ffce1fa1e1a77f29561c35da6eaac8b56b95.ogg",
+        "b": "speech/011ff34a148df8678ffe6280d316ffc102d5df9b388002379c0c77f620a5d4cd.ogg",
+        "c": "speech/8b5170da1f7a75d4b316f1e53c43e03ad5da07425d3f774eefd20acbad8fed30.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9aed56569ea12e43bc6a25b560f154fb1196fb7f9413bac62cae1c67d9e51870.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3013735a3a65c98a7cdb15172bfc771ae1f915d23348745418f19dde7fb00a5a.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-031",
@@ -9006,7 +9246,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-031.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-031.svg",
+      "promptAudioAssetPath": "speech/2ae8e89c48871e76d28d3d1e96b48f4ab9a9b8d197114ca04d8cfa0617a28222.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ba2476a2cef94897650fc60fbb547395a12b5b61f9f6891823c5db0e82d21818.ogg",
+        "b": "speech/47eefa39cda32825dca3c4313aff8511d177a1157345b2d4e984b69a4545d59c.ogg",
+        "c": "speech/efade3df197f72bf316265b35952315e42742f3afb8e4c7703ae235bad7acb14.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/031f3b8fc333a0f46f0eedabb57f3a17b734c620145e013ec61fa5e9e7eeddfe.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/22e875b6e040a183fbdca7375351023d046e17dc65f55f0f04440a1f17858f12.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u07-l02-032",
@@ -9032,7 +9280,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-032.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u07-l02-032.svg",
+      "promptAudioAssetPath": "speech/0179c3a2435316525142f3b94f737f77a80a41e909e65e29777e2efd48497426.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/362240dd8ae1ef26009e402423a76cfed01c1f915289b4218c2cae39d9c633f0.ogg",
+        "b": "speech/98ee12962a2f7d1fd4d0f9578550039316179b95f349ff7ed708143b9109353a.ogg",
+        "c": "speech/6df01cca9c346592e61fd559b2b8ba5c9f48160f4effa2a834b8ae048cfcbf32.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/294448080d9004e5a7280caab1ad11477494c6d7108db9b07bf50c79b38335aa.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/51c65af42b486d0e78111814227646c8a3491589a9c25afe15ede1d9e8ac36db.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-033",
@@ -9058,7 +9314,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-033.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-033.svg",
+      "promptAudioAssetPath": "speech/3bdc2ab90ab87c81e9a69825736e40c03918de90fe69d13de7dbaa626b13fd05.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ddabd5e6d66961454db96981bcacccdeef85910c109624e7948569346d160860.ogg",
+        "b": "speech/729cc34ce32cfdc45872465dfb155b5f1723c0e46b1aa3a39b26696e595d31b1.ogg",
+        "c": "speech/1fd07856ffaffcc5fb76014ba458745434bf35971e00c4a429b518f582d65b55.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/605da66fa982773a6d636e31dfeef3a1a5e4f72481e0bb2bf35a716860c00200.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d367c3d0eda3f0d0caabaf2d7e44e3e3357cbe5ceeb9197f4c0f12f69d8050ef.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l01-034",
@@ -9085,7 +9349,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-034.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l01-034.svg",
+      "promptAudioAssetPath": "speech/f2c1657064034faecc3d3bbaa20e280005284f890cfebffac6491eb82a2ebafd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/780652c15ab90fb7a4c978d1053ce53b27eeb92d5ec73974547a32f2501a40ee.ogg",
+        "b": "speech/69628b01ffa7968a5d5de369d0ad6f2672906a93a9d153741caa403a312aa5bc.ogg",
+        "c": "speech/e2c55eb5f41dc95794ba3c9646d553ae245b9462e0ebd541af7b353942ef5993.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/606ee165a5d2c1cb58fb076126c0777bc9135c8f5bcd9df2a793be9c8c7fdd07.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/80578a413adf97c2402dd7d5a1fad82ad2a90c008c07dd5d6bb24e0dc14c0164.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-035",
@@ -9113,7 +9385,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-035.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-035.svg",
+      "promptAudioAssetPath": "speech/f19bc0b9ffa1caadc30dd62c675b0c639651ca76f7771f6a0282c12dbcf7bf56.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ffcf01ec97c70a758e18a391af29ce2db0eb42ef8de25bbc9f01f0df35ab9932.ogg",
+        "b": "speech/f63b5d819cfaddffd48b3d75c2aacef7e49a9466ffb29da34d50c0323ecb8971.ogg",
+        "c": "speech/32868a60a72fcb3cb84c145a89146ee3d654e1087ad0907a43ca03fad13eb385.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c64fbe115f108cca8ab6f0f15b66164d49a143d2a8cffcdb3e65d5139bc8f246.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/c80d8f833118b0dfec53fde26a7fc8e9675915edb59dd1a80c95bec493733eaf.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u08-l02-036",
@@ -9142,7 +9422,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-036.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u08-l02-036.svg",
+      "promptAudioAssetPath": "speech/37eded04aed8634840212941f6741d24a7e5fb6f6924d600fc1996d955d3f0e9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/747517b65346bbf787c5231537c3cbf0cc188533b16c8c036dafe1c1aac560c1.ogg",
+        "b": "speech/aaa4781c33f9a46ed168f0a7cc7c3d5834130741a294105914d39a606bd00830.ogg",
+        "c": "speech/d800d68bd2d237b7ae093e6056b63c164c56a7d5443c3575b82c858cfdc6066d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9b4c6c7be8887a14f6309bdd4c8ba83a177352a6cc9427102e09c1709d8fade5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d3e9406357c33525dde94fb78bcc00ac0aa7748c3a4a88f1dd233bc139ccffb1.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-037",
@@ -9168,7 +9456,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-037.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-037.svg",
+      "promptAudioAssetPath": "speech/517da4c63cb4a2eac3ce74f6de8005f6a33c7b789b95cfa8b59b9d8f9a599348.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/28c339e47894ae4c72a5548f0ab083fd39604a91b36b3711cc77c01e3aa64264.ogg",
+        "b": "speech/7ef9003dee425963c14c297f3b371807667a294a0118fc49519d6f289584b5b7.ogg",
+        "c": "speech/1f7df3c95474cc4bb259d00f17719ade11e8a4591c74d4ad4b64ff0691f29c15.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d5c840a66299c53283461722f90ada418829586b1e53a9027e6562ec5012a210.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7ab87aa0c6023531f1410745ab5b9d2c971d76bdb5616f9668ec326d8c4f2e7d.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l01-038",
@@ -9196,7 +9492,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-038.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l01-038.svg",
+      "promptAudioAssetPath": "speech/146cc72161f615ae014ed4f0b65b48108d155f425ec8f53bcdf380ce22eaa008.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/39f9f96a9935f3550781a354500daf9b1ac3a068c7d36b0c9fcb130c71a83181.ogg",
+        "b": "speech/fcd20dec75fc6a239851666ec07b12415d3a4aa599435ce7e4aefe3c13d59987.ogg",
+        "c": "speech/0a68dceb80b178c6c3ee47b6412d06af94891637a0d3bf5b5ecf2c09fb6e922b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a77ee9ec7ef6e5edf0c9eced80847576f4441528ed51a45f3ab553679f67406e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/55ff0521958b66608d396978cd15b79b7e87148b3670b0200c6dd9b88e288d9b.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-039",
@@ -9222,7 +9526,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-039.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-039.svg",
+      "promptAudioAssetPath": "speech/ecc5a0e9d2998c6a1619dfb261874e20d48566579b561cae7a34c03dcfd73da8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/7ad7e21a303e43eac48d4c9ae6ad0882145f92287cdd111715de2e09916d1b7f.ogg",
+        "b": "speech/dd852c7b1f1c63cc130fae4c7dbbdf594251a2bf0fca6336c21cf165892c7d47.ogg",
+        "c": "speech/93075b850feff9b94bc8e85261d0aff962a757a3b34d481a73e853359847b8bb.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ffef8c9be922efd2fae2dbf0e68e7350bdf90141dfe5dd5ae636e37de4119cd3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3c2fd599091fa9369ab3b4b80658194eddfc7e34e2ea67112d82e6de3a76c3a4.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u09-l02-040",
@@ -9250,7 +9562,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-040.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u09-l02-040.svg",
+      "promptAudioAssetPath": "speech/fec383a7eb620c73c6edf9def6faa171e1d1b16d3fbd32493413b12867e6c089.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d8a0a609d6e0f3e1b9de2190cd5551dc43ca3e8a59c359029a83fa49ac6421a6.ogg",
+        "b": "speech/56127ccf1223b48366b345269b07d6b0d6b399efe64cf1154a5182a5bc835f56.ogg",
+        "c": "speech/cc84cd10cd4d540a3b34ae547ae7da97541405d0c468b9df70979b0bed9c8d9d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/1e125a223764cd2c1a37bcd4193b5e40625ae48b3759a3fafd671767642b30a5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7d5f410dee30ee81c9750fdfb7f806c351e7f3d92ec77b7bd3a4a8a1f48eda28.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-041",
@@ -9278,7 +9598,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-041.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-041.svg",
+      "promptAudioAssetPath": "speech/47b05eb8ec3d82e70d2abe193e095b8a5bd0438a416602c94b1b8a5f736c1b41.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/dbd55398304b3f51a5fcad5ffe08b0e6b5a72abf1fcf1a00426b6691d6c7fa35.ogg",
+        "b": "speech/39cf7fd821346942d75f386532ffdd1e17db0e7749377c29619788c0d3fb51a7.ogg",
+        "c": "speech/66a7717fb6e54744b8ae8eaa1a9f06fe66d13f54776c7e8dfcf3ee52eb8376b4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/25525c52684845d50771b0eceff4c7c3a10d0743138cb6955d30b9cac06656f7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/453553de2a77cee89720ef7808fbdc484746e44e8f18f1470d76025959618ad9.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l01-042",
@@ -9304,7 +9632,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-042.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l01-042.svg",
+      "promptAudioAssetPath": "speech/62e9dd4ea5a0e2fd83f6b99b11dbf8f49664416cd5baa2fc97c390587941ec9f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/aa94738c2d1c51c49d7cadcc520ba5f6a30e45e7b5e4f74d84ebbafe505e7d04.ogg",
+        "b": "speech/fa2a343f544d51d8e41595e65503e6bbd140fe88523b49b98d7b1726004bc5b0.ogg",
+        "c": "speech/9dd88f2804e68c9e3b69d3113654ae611d94949b60a02db82a4ccd52b2f2e4c8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5bf1559c96ed1b1c657d8cb12af06d8ee84860b1963d08e4c60fe0a0e6a3efba.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/512aea867dace9730422d7b0003ec0bedc883942110a3cd7bb0417a52a5b3338.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-043",
@@ -9331,7 +9667,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-043.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-043.svg",
+      "promptAudioAssetPath": "speech/dbddf3d7c11e6b7188c090cbee37a9743343e77df5dd2dcef76a3649126e3c2c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ec615a9f5b899169b047125e7ddcb85b5fe19c15ca5c26a512b462b107ef35ab.ogg",
+        "b": "speech/2c56cbc25b1f1f886a4939462a0d26af59a63520fcaa2f87f4791a2bf9e6d355.ogg",
+        "c": "speech/a5377cd3a37e57ed85e778d8b66239658320ad497388ac3b489c9d6fd705a30f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d0d2dd1cd2a678f062842358351678edc201f2a3fc2b02b60baabf7883e65b14.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fbfd2be1b7c0370068dd75b9c83d56759c63cd81c80baf3be97a9e31f22a0598.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u10-l02-044",
@@ -9358,7 +9702,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-044.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u10-l02-044.svg",
+      "promptAudioAssetPath": "speech/0bd144084283dace0c04fd646ad60a1208f4d927b8c3e23b01ccb0f3e1265f52.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/66706ad3edd0d3ef1f36fe978645f62ce51a080c3128b65cbef183012b9c776a.ogg",
+        "b": "speech/b0c358707b5a0c36c3b3343836c17f386ea405e174a73077d2e71210ebfcbc9a.ogg",
+        "c": "speech/8f94aaf1821e5efecf8df73c13f956b3b1f3490c647ef88169face6986294238.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/58de833a1b0a7030b4c6b155ae41e81bdae4c1f5c12a77a8f806d1e63cb63fa2.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1b923d34ba0cf63a790079fe933bdeab12c64ee09ce63075af2dcc92d69dde96.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-045",
@@ -9384,7 +9736,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-045.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-045.svg",
+      "promptAudioAssetPath": "speech/9faee9f2ff5a743015add4dd1752493bd7eebd5bbb71973895645ef38284cc59.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/246d90d391916f8944b7b1351a3a4cd11e729b8e7edfd666d88c1212a762d6a8.ogg",
+        "b": "speech/8e63c2a8e25408ca10b9cc6a33faccb39f5ba825a3a836ec8e258dd0d7a12501.ogg",
+        "c": "speech/fc418ffa8d195196282e7eb9a99f0c43cc5ecd334d2c32c88bb5cf2c87d6f410.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8ef83e35c798f7d65fc9554c731784dd4c45954b09f298dedb2b505573637939.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e4270423792f9d1522cb027d1a726e14bcc73b5dfad8d0952f5291202ee8eff1.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l01-046",
@@ -9412,7 +9772,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-046.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l01-046.svg",
+      "promptAudioAssetPath": "speech/106553471e9512aee4f2b58e946ba1ed05880dfa201b6d9f7c9c39c9690e9b6e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b4b93444f99b790a90c899ed81fc85c20956adddaf6eb148b254dc7adebd0b06.ogg",
+        "b": "speech/92b97da334e09b411ec9f111f2d2ced8021f5edf453c36213c9b1016c4658969.ogg",
+        "c": "speech/30c00116f80ebf68429cd32365fba56381bd67c48e479fe0e5f5bb28af486609.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/c9c22e572f1120dd6f3bc86d0a2d070408e0df6a6b71001763bcf19e034370bf.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/2ec9fdb56454aa4de65bfe8eafa67946ef8e14a2dac4d52d6ad1df4a405dbc90.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-047",
@@ -9440,7 +9808,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-047.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-047.svg",
+      "promptAudioAssetPath": "speech/5078d0c549fa6abdaa851cfc1d9ff9a083bc2d973c92b2bcf8b7655b33deba5a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e8328a8f4956cd1c3f5dc9a2646dce742186e7b8eae5e229e595b586ae4187e1.ogg",
+        "b": "speech/86c2af036bb41b8b7d6ea40e4eec238c391d569c646c4b1b4f1a6e10d368d163.ogg",
+        "c": "speech/2d9863f39928e195d1c940d98e7e007fb8964811381aabb8c111aad1218a2f63.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4be11a6452d00d9ef3720a2cd60bc8e2b1fa758dd33d477974121547c8fc6f8c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cd3532e2f280942e92174d50a6a55114fa7ee687e5662a1f19ae39269b60cb78.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u11-l02-048",
@@ -9467,7 +9843,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-048.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u11-l02-048.svg",
+      "promptAudioAssetPath": "speech/60bdd92129fbdeef3563fad002dea0850e63f7d53b2f095fc738dca17bfa02b5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/bf743d1de8b193d189b2335ad336a9a59ddfbd9341555ad55c320d351c0016de.ogg",
+        "b": "speech/fccd81bf0f4ba83b0632b4dc5d1df98271058437abeca00285b3bd3e0bf5242e.ogg",
+        "c": "speech/8620baf8d72d725a0a7eaa51d48773e8d52f241dda4f6c396c78f599a1bcd5aa.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d4186f21bfc67dd40d6be3e37be5df058e805a125c0442ae1f2413b0fd2c7b08.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0285131e93f68ade1933cb0c3603f050e71fa27b27b64303a9cf557e47085046.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-049",
@@ -9495,7 +9879,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-049.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-049.svg",
+      "promptAudioAssetPath": "speech/09cbff4f68ad29c187d323eab038a7563932d512585dddd1361207417872c09f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/04881154ed621f1b17449441badd4fcc96230d20f04960385a68c4e42e4cb2fa.ogg",
+        "b": "speech/86285a9856a90593268cf675afee97890b193227a9933769f3365b92eae09d9e.ogg",
+        "c": "speech/3dea1ddf9fd67c2feffad0013ab8f3368b740cc8480306d768f04a8eff60f829.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ab99aac528f43a1ecb9f3347a61d72ae16b11af31c401a5a1b03c7c6ee2bfe71.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/6924c5b15ecde10d8b24b6a95319619c606fac4cdbdf70bb58b6a7005f6bd51f.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l01-050",
@@ -9521,7 +9913,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-050.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l01-050.svg",
+      "promptAudioAssetPath": "speech/1ff4486ca9e458b3617fa3f6c02228dea8ede4c4357b2abcfa804f4e5fb387a5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/360c210d9ac113633591e9d938f90cfea8cff32c72ec82499ca73f0901a374be.ogg",
+        "b": "speech/bef7622312764ece85a671c13476a559b609d90c2a27b46cb3b604e269964852.ogg",
+        "c": "speech/ffee0072e3fbe1130d555bcc9a2ad912907f078d961a85133c52cdf2b48dda40.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8b7a86987fa1d7adfce9830f53f219a4dbee73ea0e51ab1bc560a4c54b137bc9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5bc91b9bf9ad21318bb915119ba35700c2fddf714d24d3848653b360d8667009.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-051",
@@ -9550,7 +9950,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-051.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-051.svg",
+      "promptAudioAssetPath": "speech/3665fb2399855aa532450c030380863140898f00c565378f5179e87b97feb0e6.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/861afad8a32f351538058ec5a2098e4b4048770edfdd55e7cdbd7e326d078a64.ogg",
+        "b": "speech/5be86f6b6ed0247d0c860439d0a1f60b17e61a7b80a556a882011308114d8dcd.ogg",
+        "c": "speech/1f33577d674b3c5f5fd052da48ee139855e62a50cd2452b001b7a5325d3d09fa.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8f3b24eabf92977fbc65d8dd2cb26bb770859d72da1a8d9105d5919967d5d923.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e089846325e3a3644d3a3144524de34d3be991f1e99bc39f9d6d81ff01ffb8ff.ogg"
     },
     {
       "activityId": "aas2-ew2-ew2-u12-l02-052",
@@ -9579,7 +9987,15 @@
       "feedbackCorrect": "Well done! Great English.",
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-052.svg"
+      "promptImageAssetPath": "question-art/aas2-ew2-ew2-u12-l02-052.svg",
+      "promptAudioAssetPath": "speech/05f432599dad922ae94d811966d6b17366b19d6666ef6f5c2dd2fb7117794eb1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/385ac0fb114627e2f3c9f71ddae54ae453e5bd61703c4da17f9d6acc699f8322.ogg",
+        "b": "speech/a746e341415bbae9480650e7b9ba586af459efe30ba801a8af9b374b5a975999.ogg",
+        "c": "speech/b8c05e089ba9979855b99bc238d26f64b6f5b9fd0d2f9713626a7a2cc005d98d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/0fda93f2e7789f1c09bdc5a80ccc92333523c476975497559164eacc74c98346.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/42c27399c3fd16dbc5fe77fed2688f0cefdd0357e59f7593f01c662714ac2871.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u01-01",
@@ -9608,7 +10024,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-01.svg",
+      "promptAudioAssetPath": "speech/3bd143199d7d491d583f70f96e00c34bf3ccf8ba69e8d043805f9b6bf2045d23.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/ea9ce07c45984e4d8f75edd9e2fe3ed5d15c44debd78007de4c2d407051b93ae.ogg",
+        "b": "speech/649713b59de2cf2410d40879151eba876f0256158306e7825643a77571d64486.ogg",
+        "c": "speech/377686c98b49dfe9d87909e34120dc94f8284926b538ad817c7f5518768c7977.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9b77246d4ff336cab55a6235edd5dda1ab98f645e978da9d283ff6f587030b73.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e815f591eecc9532fd051ebd7d771ebd6806cd94a967344e8e105a7cc39e5897.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u01-02",
@@ -9637,7 +10061,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u01-02.svg",
+      "promptAudioAssetPath": "speech/433006b3023cc5f369f12110ae417e7d69bdcf8d0227ca03754e7f2a16d5d6a7.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/560c7310f8a02405ed309b984054af0ffd7db2d0538ceb80f5ff8a5a90a5cb5e.ogg",
+        "b": "speech/4bde0c2c6cddb56673fcd6818f350754528416d7485e5926c526d0e8000877e7.ogg",
+        "c": "speech/12ad9bdbc0c642f8b8ea9c6ca6adcf9382cc8e99541aadd7a7a2c8b23c4274a1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9326ee497f228f076df7f9ce425d551aa74b3192ca2007647d30996ac51c60d1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/7b586a7867cb04e421faace81e630a00471c181620111c265e4901029b853bbe.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-01",
@@ -9666,7 +10098,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-01.svg",
+      "promptAudioAssetPath": "speech/78e2d78247fd06535ea8a01d2afdb155a1205e543197591ef8236fd56efeee37.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e42fe030387cbc106275738d4a194f997bc6090585ef99fe61e06f918a15e858.ogg",
+        "b": "speech/da08747659d4636aa55b6487d4d6487a078744c36e082a249b613ebf40983397.ogg",
+        "c": "speech/de9a18e03b37f959e32b01f79b376c297a24bb0ffadf95c0d17f436be7c1e940.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cf1a67c61e5910f439ef322c5b5bd84ad5cb5e4c724bc6eeb3b5d56df0f01e19.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/66f8d734f66c81fc2c1ca995f2d616acd4918841675eff6e1a4389262f477a94.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u02-02",
@@ -9695,7 +10135,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u02-02.svg",
+      "promptAudioAssetPath": "speech/d011cc55d626c08ad0eaf5efd54f9515d839f531af0022a62df5fefef6ec51ae.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fb08a5ec77daa8bfe0c26dbe05f83ebc825f418af4e3dadc7d426358fccf486f.ogg",
+        "b": "speech/5efbb3f810e7f96a3b9d0e1c411413f9bc2f7904f2ac22a39a3a5b5c3ded3aea.ogg",
+        "c": "speech/0441e323adbc9da26ebddee82282e794c441fd75b3dab13bac03c1b9c623ffdd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/5f94d9104b023366da917734fdccd0864522c6f6a4316790aad43ebce78f4215.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d5c0a4281c63ad27e2da218bcd0c224e5ae1a16698254dd04eab45d8529c95fd.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-01",
@@ -9724,7 +10172,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-01.svg",
+      "promptAudioAssetPath": "speech/8ef09195c8ffb76581e78a7125b83b4437de665353e2b99df304ac17d95f86b5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/352c645fdcf67e56ceb17e57b56bc9c758632f29e5f01833d2582085b91c85f3.ogg",
+        "b": "speech/5e892695a24b9e6c5e828e4b3501c854e5b31221f4c59cd6929d594bfb9eb3cf.ogg",
+        "c": "speech/bc1533af3a6a25ad1f5f4377503c3f9f02933a0e69cdcac4353a508b20fa0864.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/f6e300c1e37a524472707bf16062ef669a33d60351c54ca75d53f762aa2219b1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/f766818a1101b55e8fe56249f2abe33d9bffb6fbbcd9bee72fc920b136ee6eb7.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u03-02",
@@ -9753,7 +10209,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u03-02.svg",
+      "promptAudioAssetPath": "speech/a1b87b3312dfc23ddfb5ed3351f9921dc6141f28844cd9f95b3850dc3cda4ada.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e3066255a7a096d8bb881791ef962ea3b17c68cd7aab70444655c36ba747add0.ogg",
+        "b": "speech/c2b45ee2d92ecfbb65d1592f8509eb5e1bf59a7e672a4c575105609ad9617865.ogg",
+        "c": "speech/1db8b655698e02d6aad64a6cae5db4eede39483ccec2943850cad1e15654de61.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4a8475a26b54524382101b5f93b5a806ef5e2859fa03ff5ee78e340424c67781.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3d96786b431475d5fe0fa760ac20ddb2826a4df5d421d839671f362ff51f0f7c.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-01",
@@ -9782,7 +10246,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-01.svg",
+      "promptAudioAssetPath": "speech/877a87ed7ed9f7d19a9adf32d8463a8fdef969f7a5ae26e2611dec943426d1fb.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/33d042e18e66cd9c10f71d0283ac3ae51ca23d5ae081fa465ef64516534c4e76.ogg",
+        "b": "speech/b8f91dd429ad7c491f7857647c691658197d37e485a68dbe71b885b1d116e643.ogg",
+        "c": "speech/8eb0a42d02810cc49111ab54fba386cb7f89df8ec4e4f0a9bb194856023f4705.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/25ce2b8ab6899ff39aee533c516d50465cc1d0996e08400f0fd86acb5d9f937f.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e024e0f155261051858028de8bbba98f88f845f9fd1846278211021a7f55dfe7.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u04-02",
@@ -9811,7 +10283,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u04-02.svg",
+      "promptAudioAssetPath": "speech/130cb4d1bc16c5713d7fea9736578be0202a7e3e7532a75d7c113a2e41a55775.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/81cea1ea12ec9d9785740af3ea250109898ebf793cfac20858dcc8337ad3b046.ogg",
+        "b": "speech/ab8a8b3c405048c8d5e536b2ce6930685926e87f28641c14b1190d7308e431ac.ogg",
+        "c": "speech/f92f993a92c34de60f17480230d1fcdd3ebba1b4e34a2569b7df036f803f048d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/36d14bf3d607e62f722af3632328b402a19f35389d96208b0a49763ccc3fc411.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/20c486ad2b2ddf64048def68c31ba0319fea9316449bb33e4b4ccef4052a053c.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-01",
@@ -9840,7 +10320,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-01.svg",
+      "promptAudioAssetPath": "speech/ec128ce801bf30b54159a1c4222281d935af332ef50f0ca63616f8cc4a8ec8c8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6d4d7d4410412595b9928f3b437aae411e4aebe5f3291685410b07b12cc7cd95.ogg",
+        "b": "speech/09a82b7f440f1f63f791ddf38e4da0311cfb7e52c9a20130e971aa80e74dbc5d.ogg",
+        "c": "speech/047f420dc60f677bfef888f6e233055ca48e6d631f819eec36c4c3dc6c6bf73b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/06729797ae4119f9875b185fb187df072c3d6dfd12493d7c0d074155bb1eb37b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/97a1f66cd999fb90cd7086e15c0775a97d2cb5c8e0b7764b95e13cb4c50467ef.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u05-02",
@@ -9869,7 +10357,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u05-02.svg",
+      "promptAudioAssetPath": "speech/467ccaa5cd9179bab1c40c3d6a2415dd0878f9754c8e14c2f8cf71888b6dade2.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/f748b8a899b0ab6710947c9c04c5fb74c8ca156ea6eafe6b0acf2f6623769d4d.ogg",
+        "b": "speech/ba5b5934febc1568253d0bee038f523d5e0fbbca8b41a5101bc36d1e7e1c374c.ogg",
+        "c": "speech/e0afb902b9ea9a31fd72412f5f56da6d57f6807c2db47f204901685fffdee564.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cd89359bf018a8b6844e3904baa74abe76352b8f9af7f12b5f5f2c61ba690927.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/0295ae4d85c09f5176c174b7e2466bf0fc150373ccee5c67834f689234bf3901.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-01",
@@ -9898,7 +10394,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-01.svg",
+      "promptAudioAssetPath": "speech/f27ec316bb26cce5fb55d8cee6b66dff2355d5c458991a195e53f13da9718733.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/55ba7b89ff493e111be35f6dba0cdbff734297c2399b6d4fbca966394b9e28ac.ogg",
+        "b": "speech/fa1eae7ef21c2fa5a85d20991edd5590cc6b7d7d9d583cf5fd1a9687600ae180.ogg",
+        "c": "speech/b39b4c02faa2e29a470d5baf8661c32f4b7c3952768c3c7ef1d604167b3d6352.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/437819ae5c6bc84e2e6235375db53ab6087e1102ec7be3999d9af224c1573614.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/de7723eeb0a7f2bd3a6a9de17d165d3bed1bb4dc5eb492e690c39bbc897081ac.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u06-02",
@@ -9927,7 +10431,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u06-02.svg",
+      "promptAudioAssetPath": "speech/25ee37fa7983d26a482964e50c31cd778fd28c95637abe767d7af12d1ac80853.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e6dd014eda092ed050757ac154705869f120b57385693a9011964a66f7034421.ogg",
+        "b": "speech/ed33fd0a2ba0d7581cbd4284c395ad7e809c237462e034e44d313bc08729d6fd.ogg",
+        "c": "speech/22ba829f8530a6f0ec3f824f80d02d11e086f4b5977acfcb85d7e37b48b1b042.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ed230a182a2c1ecd2fa7a4d6972a80ef27b7ce5cf4dd9df6c101966640b27001.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/fc585349764af77ed9a19c1cb95607b1b7b3ef198401edc3c03c6f4af3877d61.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-01",
@@ -9956,7 +10468,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-01.svg",
+      "promptAudioAssetPath": "speech/1533649beed3ea6fdda844555117588ab1c4f981b2c8cf75af5e27691217cc63.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/945a4564c434723c5beac83eac9131f3607cffffe6e2a00d5fbe46a1a230f477.ogg",
+        "b": "speech/9bbe7c9d51a38dae3c89c7cf52929481a3f66554cf9220a98b00e7849d95243b.ogg",
+        "c": "speech/df5ca4c2fd12542f8c1110e8f052db247d01a9c3936083ddda720fedcec617cd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4f59a77082edd5eff72271b67bb650f863c870ffe27f96e393898060ae0b6182.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/10826f9c9349f360a28a0051b396692a5d233affec9fcb98a8aca741b93658f8.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u07-02",
@@ -9982,7 +10502,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u07-02.svg",
+      "promptAudioAssetPath": "speech/3022ed60500d38fa8889a735d04be948bf4e3302cb32acd9fbda308127fea3d0.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/295101f137b25bbf71777261124554033b197f0e2bbfbc6d1bc4af95903e8c57.ogg",
+        "b": "speech/4a94ca9183f5b1bb8c9db740251c03361535d5350f631c9cfad95c274f81b488.ogg",
+        "c": "speech/68abb6136acfb919cf5807a76e82b6fddd9a93926551046ada825f44a673a54e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/915b31caa6abec0d4c874e9895e15e4e572fd09501bdf7053c10d98561a28164.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e760ce821176acc1c2430b3507adbb3445536fc1499d47a8456a80e82dbc70d6.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-01",
@@ -10011,7 +10539,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-01.svg",
+      "promptAudioAssetPath": "speech/115f06b44ead78ee40560b2e443059c89049f24ffce9b496f5ce25f3da1e70b8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b0e11c9537a463550984b86d2593edb0c5d997597ea6d1cce00c35a326d857e4.ogg",
+        "b": "speech/a5ccb54b56fc9ebeead7205ddc767d1ebfe610306843063b2d64b87ad3c3e715.ogg",
+        "c": "speech/cd472601229705684f1f0e07e9323046f585c754fc3b61fbb3838844a003af2d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ea6442a4c649b04ca365367c0ff5d5b41c00c909f4953c62f319e196eeb0ce67.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/68468e708c135b0a9624d9ffb500d5b2863c5f5f5326d70bb6a3651909dba98e.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u08-02",
@@ -10039,7 +10575,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u08-02.svg",
+      "promptAudioAssetPath": "speech/77a9cd3a276551ad3dd16692a7ab1a54d97ff796e0d1408acef973f407ca7e03.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b321205ddde63307689018c7431513c262c2fda400057a231d9a811fe4ca0b05.ogg",
+        "b": "speech/cae389dfdb2645e899955bd33572da1906907dd0e55aec8bbb0d3ffc17b85199.ogg",
+        "c": "speech/8cd1c60036a8a93920e9d50b2ea33e9ea7af330d7ca29bb096d2476a848a6927.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d2f308b902362d2fa36d416d2a465b90ef002ec808232409202db3fabcf4cac1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/9c42c61cee65b1463672a91f0130781a4e91a3caaf20628ff105c2d137538964.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-01",
@@ -10068,7 +10612,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-01.svg",
+      "promptAudioAssetPath": "speech/f13a05251017e4376a54c50f7c4bec3aa4d54a6ab7068208204671a99bc43d2c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/69b32785cda0d863c6712bbed45be58871ce17c1b14b7b5c5a0f6478c1c49aff.ogg",
+        "b": "speech/c53bc2b7a32cf26a87308c631e29b4ef62e02adc4e39a61abd722497603d2965.ogg",
+        "c": "speech/58b01088326e0efc888eaa943ea20336260ca06fc3b90bad0c4b799ee0210da2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/fae9903c9a5edcb9da143f3dfd527d75ad03468d6361c10aa5925a64fd77be2b.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d00496fae189040243c2813c4763f365a6bc6ab334e85a87bd61202613f51926.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u09-02",
@@ -10097,7 +10649,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u09-02.svg",
+      "promptAudioAssetPath": "speech/90c085833c0c61bc3fe7592442fed6bd48088ab9fa0a1e189cd3aaf407dcb270.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/6ad6d79a0b75070f74cfa73e113a91c091ecca5c0840561c641b9abe0a555aed.ogg",
+        "b": "speech/fa4c1350bf55895692aebbb351f020a17aa84545605f86ee33b2f8487464bb84.ogg",
+        "c": "speech/c44df5c3a32875a315cbcf52c577d3dde4ce6bac3eb5c6c5e306a58d07841177.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/ba3621cf25429b52bbc8ad8b79e27b5e5dbed0b6d7c8b0dbcb0e89f5fa6940ca.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4fca9b118b55cd24f1f2cc9d379f6810f157db0345a8796afb6ad74524249487.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-01",
@@ -10123,7 +10683,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-01.svg",
+      "promptAudioAssetPath": "speech/5243ced51616099693d7b91a83c2b304b19ead50df80fc467d91fac04779db26.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/adb0ce736cf7090a3ee8a0c9c2936d61ce0973dea72ed7cdd68f34ecff2d3fa3.ogg",
+        "b": "speech/da7e43289699995c48813acc4813f6283f153a46d4668d7bb0dc14333cd346a0.ogg",
+        "c": "speech/591fe43815e46e94e5c85fccdb18321d1005f18f7fa0920686e3a290209066dd.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/68c2d3c728a524060cc71e01b68e053d46c5131b4443de564b9974c78a2b18ca.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/870f245e4d29146c941a3fc4c9800da6c6f2f77b892c96a8b9a6ba2c48add05e.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u10-02",
@@ -10149,7 +10717,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u10-02.svg",
+      "promptAudioAssetPath": "speech/9c0d83d9d0074503d0e06521539a22f62cc6644d502b4828988a12cfa1c51f39.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/37433de7f1655889f4b30e4060f2bb2749f0787dff0fa9a7ad165b31033848f4.ogg",
+        "b": "speech/d52b4b230a38d8f6f9e9d22977025b4d9f9558b359cb0e83616cf5c49680c45c.ogg",
+        "c": "speech/ecc604a5b47d220cfaa837c279c80c405061cc36b1b03d1f9b88154364489fd2.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9657356a4d616bb885e093fff03b6aed1987dc4254fb8a847c6bb41ed7c134f3.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cc8932e083b5f566acc8c8f523d5b66d6528f133b994d6bfcfd87fea896f992b.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-01",
@@ -10178,7 +10754,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-01.svg",
+      "promptAudioAssetPath": "speech/bbc7159f9b2c90d45926d8e6e609f15877058c2bdec446018f6a5963582ede14.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/fd5a079a4ddf3d0546ff997bf37bdc231fa9e53751ac4c18eedd9a6f87939694.ogg",
+        "b": "speech/18db59a4af23a7a8263c1de7a5ef6cf8b0e56825adc9dd8132d47b6d694e464e.ogg",
+        "c": "speech/5e6893702c6f4597d231a255c5d2e5336804a5a5febb31b4ec1a1a6168d0d156.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b07fad59c71b8a1721ffa19b2afa8f8684f0ced24dbea53aa0029488c0b866fd.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5d3ab11aa57ebab8e370a5810788dacef570694bfda49fbfd4ac66e285f2bcbb.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u11-02",
@@ -10207,7 +10791,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u11-02.svg",
+      "promptAudioAssetPath": "speech/0d78f5cb94e802834a80ea6a73bcab38acc3c5dfaf79f6c4082da350d8ac497c.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4eb73a71c1ad13a019ff8b8b3368e3660fc4ece820212e14f799ff0ab261cade.ogg",
+        "b": "speech/8b3d4a95685bec046b05117a8c0538bc075a2e21d4a6606c764211918ee287f1.ogg",
+        "c": "speech/cb6cd39f6d8b0d0ffaa7225490897a027a82a185a29f4f4ea440fe449fbd7bb1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/490850274a5efe4c9729083a8783d3f46dba2002b47480146b1d80b805da942c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d1fe119016a5079c396bd37998eab9379b37c180c871dc937cc1eb30da7f0b67.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-01",
@@ -10236,7 +10828,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-01.svg",
+      "promptAudioAssetPath": "speech/4399545dccd5f9fd07177732c10b04a56132e63584961637d60820e41769bbac.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d273a97961d763937e58c5b59217bb8765a6eee31bf208f1d379013647e1031d.ogg",
+        "b": "speech/dfaad7ab054a7c20d6ebad01c678fef88fc16989505e7279fde9850b85f1d6ec.ogg",
+        "c": "speech/0e04638aeb816529af5322d8bd22192f553d0813733e25c5c97615d08f440c29.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/148893202ebe72c2a2676daa7132325c66108449c4be92051548cc74f53f321c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/5f65170d6ed06c0b430c0e05ecaa2a7d6405d3c3ed61ccb52f9f741ec0a66c09.ogg"
     },
     {
       "activityId": "aas2-2a-mm2a-u12-02",
@@ -10265,7 +10865,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2a-mm2a-u12-02.svg",
+      "promptAudioAssetPath": "speech/f45915f013d35440cd13e8f7b049310df10d43337c38f9141ea4a222270c3726.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/9a7f1b5a571ff4f4794954696aadd7fa8a1a8e85c6dc076c8e92d51e272f87de.ogg",
+        "b": "speech/14db29d1fa9e94ee6cdfe0616ad6a591e2c94ec0c48e66eb900c786732eb4056.ogg",
+        "c": "speech/7dd63d3a1e04007923d4af6dd426b9b3bdbd3a2b6d937df21f1622d4b3c14a2b.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2bd73826b0a2f83e98b7abdd0a7195f2dade3c53a8f370492f8be4306fdb2264.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/8fe7c348c222c48e47d26b350aa6fa5b5ea153a881d6cfe7bf9d0e2eabdded0b.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-01",
@@ -10294,7 +10902,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-01.svg",
+      "promptAudioAssetPath": "speech/5449d0daa3ba1a59e838528b1767079c7e2516bc9292198e47d20eea75604fab.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a0f8b121db1db8b368f9e8cd5a191dca840ddec33095d6e3cef6f185d2d65d26.ogg",
+        "b": "speech/f16828a90246cd9ca5d60730f741c61dd5e4675370a53766cd205351af8a9558.ogg",
+        "c": "speech/eb754585cef8cc2fd688949e91996fc4dc1ab8614fae3483395077927566efa1.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/62f3c65ed3a47c809b51f61ffa978983a0237ca7f8fb13a071aa81bc185395f7.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/d78987100f8ad2a7a46387055266174824cd54b254abf589504cb5b93653b136.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u13-02",
@@ -10323,7 +10939,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u13-02.svg",
+      "promptAudioAssetPath": "speech/ef16ab7b01988e9c7262f7ce721445fa2b5464e1e1da9eae915378adfa4c9a15.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/126cb5fd0434ab7efb2e4f41b3a08e61fd3c7e4b24a0d7605c2d6288febf600d.ogg",
+        "b": "speech/e12176b6f7039a6535224e0aeeff7d5e1d8a72869f56a17492b20d85f6dd5e5b.ogg",
+        "c": "speech/fb0cd9dc0c37b5b751ad00587317a3a8f85aa78c653e72c6cf32fdc154a1b2cf.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/a7db39f1da13b6caef41b0770e0e9f112410168bedef113128c1dd1f9e3c6623.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1a9ca5ffa37ff2577600d8dfd6b84da6d4fdfc459a126578e5707c521b8bde9c.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-01",
@@ -10352,7 +10976,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-01.svg",
+      "promptAudioAssetPath": "speech/3ada3b57077f4b668ef9d542555900024bf8ae7d609a4046173856808b9180e6.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c8a6a0771b0e2c6d9dc9cc81c6be938ecf645aa16d13fe74aceb75946539a91c.ogg",
+        "b": "speech/5568063f45e936275f08ad7e3e5304ec0a5f83c26cf412cb14dd9d59a27e75d8.ogg",
+        "c": "speech/e1f793c03f0cf95186d6ef7bdde675d4f580d448863e417cdd20a365f3eb277e.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/3eebf70fe6820b0b4e93d7b4e963898673dadb778ff9153891da3307d82df413.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/dab9c1b09df095aed84b5f080d3266d367216c35592e063c916e86b1e3e98f32.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u14-02",
@@ -10381,7 +11013,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u14-02.svg",
+      "promptAudioAssetPath": "speech/98c41a00c75c5b80171eb4bb48ed8060f5257b4ed654c3640760d9b22abb0a3e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d1d76b1a44ec8b4381eef158cbfe87e511e4a235cdcf2b42a71f517194ae44dd.ogg",
+        "b": "speech/54c034c4c7174286173ced455cd29a0f96de71035f98f99f039af730e678f083.ogg",
+        "c": "speech/3b206f4050630a4a4e41ba3f39edee000dd6b61568e45571c441e12a5c2c0278.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/498565c093a1c02d203935e6376d213675d74620c00efc8ce94b044b38eafd20.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/32244d9c331c4b3e02d070371b205556b9835e521392ae7d5c55600a7a4607d5.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-01",
@@ -10410,7 +11050,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-01.svg",
+      "promptAudioAssetPath": "speech/04f79da09992ed9a9bca662199c7727d0645a9af361020509333052a5f46ce98.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/579eb51fa48a4ca290256106058aa7d9636e119296b3861bf1cdb6124b7c6cd5.ogg",
+        "b": "speech/884af4a8cd09cdc956083b1ae329e78f640a45f30d1ed102f43767a259e273f3.ogg",
+        "c": "speech/9a395356490135348d26bb9bc2b01b7f8dea0636cdbc00c82916686e53db2bee.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/03665c36e5202fb97735c19abd3a41e98b8b57128d369be2c6c34695b77f2c68.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/997841b9d0c93296fe8b0f690904ab0d813e6dbb24d290b00b32a0f49719f9f1.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u15-02",
@@ -10439,7 +11087,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u15-02.svg",
+      "promptAudioAssetPath": "speech/2e6b5fae4ad233352216e7285a7c6bb2a6484b1d9ce95907c43c49e25e09d000.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/836503292dc65c77ea91611eb87cace7b5ad08fc36839703ad6286c19e78c574.ogg",
+        "b": "speech/450c22e80535558423e551378b9c1713e496bcb151b43538fe3b81248a0aec1e.ogg",
+        "c": "speech/3a6b8543c9b2e9a557c4d1c4419cc49126521fba12c90dac46ac92eb0296dc74.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b4f3f0a4357f25592399535c28a534538a2f2a38fa726c6d02addae2be9115e5.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/4655f86c44463ebfa56d227ab2ab879459d186265b3baf7b2bd5f1527e0fd10c.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-01",
@@ -10467,7 +11123,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-01.svg",
+      "promptAudioAssetPath": "speech/cd473f0273fab2e986cd59731742833f7e0a0700542e3263883908692adc7ae9.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/66dd81c6e800bc7988a31dc66585b60bef3490fa6eed0a444e0041a4c491d1c0.ogg",
+        "b": "speech/8f334d5c31f201a617dc89e4d8ce7a7f2694fb67f9da133afdbd7335df353b5f.ogg",
+        "c": "speech/cf89824e7b0f6e29598fd49acc7dd5141460b36fd84499ff983ca00ba177c5f0.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e75684759d485c41bc3bf49409f7e9fb9fe5322571f18842aff61d343061472e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/436831f89f6211e678d960bdeb9a11ad7967c78cb88fd420784deb89cf45efe4.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u16-02",
@@ -10496,7 +11160,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u16-02.svg",
+      "promptAudioAssetPath": "speech/10bb005c7ca9435f606095b924d56037c8b4b39d835cd0193617ddf590f9970a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/a62c818d55719e9ca44d41755bdff780522f5f2a9edbeef183730d880edde092.ogg",
+        "b": "speech/174a8383d9548f363e4da7d627bcbe30bb5154cd35aa74958db8060a08bfcd66.ogg",
+        "c": "speech/99c13e09cb51bea23b9cfea61a78d831649a70f85c2e2bb0eca1fbc702494d17.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/b3cbb2da6c62565457184d233694747314d5e113995769bf9e4b85dea7e3bd5c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3538d9c12fbbb99a320aaba633a1b360f725e334c0b2af480ad48c4ac46ceb11.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-01",
@@ -10522,7 +11194,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-01.svg",
+      "promptAudioAssetPath": "speech/774e26bbec466b0935c3da8ee6dc0945426d592e8d9bdff6d3ef15a35313625b.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c080046d82fe2c20b932e056cea484b29acfac3d5e16e30e1078d6af086bcc40.ogg",
+        "b": "speech/8d3f03edefd5afca68a64044c657e45ba08062b172cfd9c8d903455c0c62f127.ogg",
+        "c": "speech/080f7e07cf03eeebb9f050bcbbc42ab1158b14905a1f435f0c4aae7d669d0fb6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cfa1bebf91b59cb2201863db8d9dd75304f02bae29323beca35498110ae8e6c1.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a8694762b1de31ae0dfa98210d659cb8fe4fa3e94bc79c01bbc233a66bf468a4.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u17-02",
@@ -10551,7 +11231,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u17-02.svg",
+      "promptAudioAssetPath": "speech/83bc3430f60e0ec10263f36314b301628ce7acb33a76f64ac841f2dfe3400a0f.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4a87424431e02f81883e5b860165f40e3006a340588d019d81a82773d102b0fa.ogg",
+        "b": "speech/3c1293b372d870d0aac6b7a93fed7f6a422963eacbe03403f7aa6c8d960327f9.ogg",
+        "c": "speech/545c399e5c884353bc315117142e3b87ecf181e0ca49221f98a04def20b9ce49.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e2c35a50109491bda47e14fee125d4143d057700b46bdbb029ea9847fa438f09.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/13febd738ebac901bda6c6f65a090a14b380752db91f22ba0339e53db77d9e0d.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-01",
@@ -10577,7 +11265,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-01.svg",
+      "promptAudioAssetPath": "speech/f13d0c0c6844c7bf78a028c838f9778a28e950033fa94ac736c4fdc29c714d39.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/74d16e294eb74f1f5e17c89da94c13e18e9d4f0faa5b16bf15857d29ccf589fa.ogg",
+        "b": "speech/5b41c6948bc685453714b34c88f548ccdc489e35629b5a95abecd1843cbf124a.ogg",
+        "c": "speech/10b2b02e64c58d545bb49b7020eefbb07d025596d974486d2f82386ecbc0f1a4.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/4e24d505df8721017b24c1621e9e91dfe04fcb5c16320d4aead7505f5221c45a.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/03b38ee2bb44637a63e314353bbc8354a2702967d9941f55bd8dc008324b2c3f.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u18-02",
@@ -10606,7 +11302,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u18-02.svg",
+      "promptAudioAssetPath": "speech/4d4734975b534fefa3afd747c88cce8f50073b77975d0f379be23ab881d74e44.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/726da65422d4f828103ba134f5beb5ac5afd7d04beb0e3510014c5c76ff67769.ogg",
+        "b": "speech/59c713c065d6eca3289fca46aba4484ae1766a1d609503c1922f8f448d2923a9.ogg",
+        "c": "speech/6b0c00770ad6b4273c2de6914254de46ee697ee5ed61b7074d8747d467768f38.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cd73675cc604037ca20b4cceb7238dc42f0ba8f946e391d20dfa311771703af9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/19bd7d8574b5852bc40018d916cbaf72e52b125d3e825523ff99cb30d60162bf.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-01",
@@ -10635,7 +11339,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-01.svg",
+      "promptAudioAssetPath": "speech/acddfc10c8dd66e4f9e301282fee425901a6b7698b32217d39c8d64537de181e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/72ca56be8a87937e1defb346a060bfcbda0eba9492afc1f452f78608cfe1cd4e.ogg",
+        "b": "speech/2df7c5ff0424de018fe56c1194b431e94880639a0990bc92a435aca98e9f066e.ogg",
+        "c": "speech/e53f3d631126140d07c0c81738464f7b9c5ccabcb9395ee1d4c2f91ee749932f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/6ee4299ca20a126f70d40a108d5573386d76d8483f0b9c2807e68568a55c48ae.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/96d7f9cb642bb1010ab8f6c6732869df1b2360cd8de1e0600c5d8897078e71e8.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u19-02",
@@ -10663,7 +11375,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u19-02.svg",
+      "promptAudioAssetPath": "speech/03fcd47b51ee4078e81834a6d0257b909beb57902305cd4bd92ee850fe912ad8.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/1a4f3545101653689aaa8ecb20bb3e836643723a822b6c4c752a4247137ffa51.ogg",
+        "b": "speech/fe0b591f7ba0fae8d55c2f5760cc6ed54f078f1e77e5565aada523a01b99145d.ogg",
+        "c": "speech/69f676fbf479ed7ec7072a44ace4a51c6fdeaddb94d193e9a4ffe87442c2f513.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/9461113eae5f3e48dbfedabee580edf54742009d9baef9a70260e283e2e5e4b0.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/701fa30c2b69b8eb49e84ad862e518f8c467c4aede7fa50724cbf92450d7ff6c.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-01",
@@ -10692,7 +11412,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-01.svg",
+      "promptAudioAssetPath": "speech/7f86f37c2a4315039b59edd51e9b5332b99db96b4db46ce3a2e2d0f2bb5d3c8e.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/65e24671acfd3a66c38c021aa349e665e43d1fa07ef9adc779a8c31878fcf017.ogg",
+        "b": "speech/655725672732e8bc4eea4727f5f77aba0cba3673b4dbd963d34f148aefa6567d.ogg",
+        "c": "speech/9a43e30a23878d2cef17b1f5f31e39b6060ab062217a6a1620ffc195e76481f6.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/2239cff6fffdf0e7bccde6f44c889b0c375f59a28504544e5483c62e9a25b260.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/e34ef50499a720ee10b3dfbaf5a0dd9a94a00a198434df11c838eaf9f5a8cd21.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u20-02",
@@ -10721,7 +11449,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u20-02.svg",
+      "promptAudioAssetPath": "speech/f91c397fa67ee20771520dcecf40514639f45e283f5d3b470134af0ab1a29de4.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/78a96f7eaf84e5c9ce4f37b9512c10fed751d0be04558abc4d0a269659121145.ogg",
+        "b": "speech/d16ee344547bf9f30ae81ee5b766a1791cefef2633672afd4b49411bff5664e0.ogg",
+        "c": "speech/0259cfe24daa70862606750d4ab8fe242b8a222de3d8b05af02203f8ed24322f.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/d65520576b33c3732c4b3d71e200767efa662fa68c173fdeb361e22557959d33.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3e532f131030d24e8a7b1775c17c15fcdd550d03eb9232428ca195a087d99287.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-01",
@@ -10749,7 +11485,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-01.svg",
+      "promptAudioAssetPath": "speech/578747cbfbade0a0197d8f6d77d5bcafd39a6787153933be046ffdd33e6e9320.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/c1d533294d3e2e2924d984a572db69a74f31dc3540a5bbd9f549ab342773f050.ogg",
+        "b": "speech/1fafef17b38e54498125cf29fef8c8c9273997555a6c974077df4d26a7b83d87.ogg",
+        "c": "speech/7341418f513870406a58ded7935465c23cca1edf14892aa6c00e806e1f8b9a9d.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/e379bc5e8f2c04ef61fb43e409aeef1bba8d1969611d2fe075abeb212c7a0359.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cbd784841793dc75075ccddb08f5e6e40e57700c54ce84340e27fa83cf497f82.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u21-02",
@@ -10775,7 +11519,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u21-02.svg",
+      "promptAudioAssetPath": "speech/e4fba93f72d649827bc752bfd34de33c2ce4bd61cd4d429532cb2aea9a2ebddd.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/856d6229d52e326a41473cea075d564457e74f66a565f7a0fce13873d7544218.ogg",
+        "b": "speech/5baed90e9c431ef4d4796bfbd8e9f960d82458a347067dc2b79f6ce203316cb2.ogg",
+        "c": "speech/f0c967593b522b1dae14d0d94de66eba8e2577187c0767c8ff7f46f7e744ea39.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/11e253f0ff5b393fd1ca4e34ae52175435ad3bdeff026951cb87b57f18b51a23.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/081da87edf1c6db99ecde46d0fd9c53204069e714e26db17769b5a92a66dec88.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-01",
@@ -10801,7 +11553,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-01.svg",
+      "promptAudioAssetPath": "speech/02358f63d511647356819e8c024fafacc5260a77109e4b7926466bd496c3a5b5.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/b1804d086540e139ace06d15a0a1a41c6da48e5c1299695ba7506a3118581c89.ogg",
+        "b": "speech/af05af8c6d6385daa9e52318b020ca2c9908ce20593b2e3543ef1753eb2dac58.ogg",
+        "c": "speech/634059816dbd0eb5c5f75c6af6a6a639a4bfc93ad52212035262a41df349fcc8.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/114701c309649c4d3eb783bd46c5719edbdfa45629dbc722c150397064e2d7ae.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/b3dc4c6cc1fda8eb413fb66bc063b23de7a7b7e36b538ba59bd4619974eb785f.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u22-02",
@@ -10829,7 +11589,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u22-02.svg",
+      "promptAudioAssetPath": "speech/f9d8939642e5e359dd2a933642c71a2a4c69c11f4ed302314acce4b263c27578.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/e0921143e412bac0a12e6bfc7fb1c1d5fba7e3cfe3796694ca2a861034960900.ogg",
+        "b": "speech/58ca71644aaf027494a82e9ae277288eda9d8a546634fee262cd403bdbead3bc.ogg",
+        "c": "speech/40802490fb4d84f3d289571a20970c843e2b88f03005ffe48118ab6de46f4a86.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/7141ecab1fe2b3e22c5115fdec9714c8841cdb96a41677b6b0b446cdd3f2bb90.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/cdf4655e1f360b30b6df6a92708376185602206b205a29dbfb178a69d4a67644.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-01",
@@ -10858,7 +11626,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-01.svg",
+      "promptAudioAssetPath": "speech/2499ace87588322c18b6f23a0881cb7f3c68c07382bafc858238e6524baa18ca.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/55e867730a5b79e524b7be8d0b8cfe0acc4285d354d8ff08f129e4e944799982.ogg",
+        "b": "speech/1821b72d9c8a5ed8de101b452554cbc180d377b69466b777e49d363d1ffc3e65.ogg",
+        "c": "speech/53b2ec3c5453fd782bbe16fd2f94a9fc4f7c85bf7cd998c74a73a0f842a54990.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/33eb19aaa1b14b988e0496ebcac0f56e53a38ab0d6719e3fab1a2fd7674dab6e.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/3dcdbe94dc6cf218e919944405ee8004eea442e719f7566568ea0b860cb90414.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u23-02",
@@ -10886,7 +11662,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u23-02.svg",
+      "promptAudioAssetPath": "speech/eba62f8c8acb7c01af82152d64cfb51c227ad4da74aad48c69089abe639ebcf1.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/4d97ad266f068b89536a3baf0aeaa6597189e0b48051202db3463e890728cc18.ogg",
+        "b": "speech/45c44aa6aaa004765c4783ec92ebcecdbe84411c7a01b76e7c3abb96f704bc60.ogg",
+        "c": "speech/b409117424e9fe27df922e834b2aefa8a6ba669e2c132fc27319e719b794a092.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8432bb49b644f207f3e33fb364d23610e71484c157c3f05e8a26e336a116f75c.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/bc457221fd408d7b996262c9778d1d60433b2d9bebeae166ff455fa083b828cc.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-01",
@@ -10912,7 +11696,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 1,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-01.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-01.svg",
+      "promptAudioAssetPath": "speech/385adff135e56776db82af2b1a4a231cf5317f1be7bfa4534e5d9c07b7490c31.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/708efb59507b2d1aede4c3d73d435d87934ce471cd16e917ab3935117af2fb5d.ogg",
+        "b": "speech/b366fa2b7e579980bce80088ab8a17e2cf3ae77a07e0b81c541001e8800e2261.ogg",
+        "c": "speech/d88fb1ad06df5a9388b3e980c62d8085845657684cb734cdf8a32983001717ab.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/cf0319fce331a8b5e11e0df9a6994a446f17e06e073cd55686641d2190ca2cb9.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/a86d392bb80f32679effa8768f7fd603fc82ca27d13f1eace439e815746e46f2.ogg"
     },
     {
       "activityId": "aas2-2b-mm2b-u24-02",
@@ -10941,7 +11733,15 @@
       "feedbackCorrect": "Great work! Keep thinking.",
       "feedbackIncorrect": "Good effort. Try once more.",
       "difficulty": 2,
-      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-02.svg"
+      "promptImageAssetPath": "question-art/aas2-2b-mm2b-u24-02.svg",
+      "promptAudioAssetPath": "speech/f84a97928c926dad1959e8937144f10e2ed25f454587bc2bd5aa86e80afdf02a.ogg",
+      "optionAudioAssetPaths": {
+        "a": "speech/d37a632aac11d01ba5a07e0e84cb0939f18f9ea8f27b328fcd5882575a5a2e0b.ogg",
+        "b": "speech/9eb592bd2f24a243bae90c7974eff8cfa70a5e443602d6833bd0ca9289087a9c.ogg",
+        "c": "speech/cc3248dc9370856625bd3f759cd56aeb3c5095cfed2b35d005b45e0fb8d1dd0c.ogg"
+      },
+      "feedbackCorrectAudioAssetPath": "speech/8292461e5df15e6a07f20dd63876b4a00cca2ad2bea8d3db9a205a0f87d7eb18.ogg",
+      "feedbackIncorrectAudioAssetPath": "speech/1687b1f90db82ed35a59c5a9f408f227d2951e2b6a24f14b36502f8e4533375d.ogg"
     }
   ],
   "books": [
