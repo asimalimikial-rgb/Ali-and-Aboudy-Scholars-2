@@ -1,6 +1,6 @@
 {
   "packId": "aas2-kg2-foundation",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "schemaVersion": 3,
   "learnerPath": "KG2",
   "sourceReferences": [
@@ -5838,6 +5838,46 @@
       "bookId": "aas2-my-world-discovery-kg2",
       "unitId": "MWD-KG2-U01",
       "lessonId": "MWD-KG2-U01-L02"
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-rhyme-song",
+      "skillId": "aas2-ali-rhyming-words",
+      "title": "Make a rhyme and clap the beat",
+      "visualCue": "Cat  ↔  Mat     ·     Bee  ↔  Tree",
+      "instructions": [
+        "Ask an adult to say the words cat and mat, then bee and tree.",
+        "Say each pair aloud and listen for the same ending sound.",
+        "Clap the beat for each word and think of one more rhyming pair with the adult."
+      ],
+      "observableCriteria": [
+        "Recognises that each pair shares an ending sound",
+        "Joins in saying or clapping the words",
+        "Attempts an original rhyming pair with support"
+      ],
+      "assessment": "Adult observation; accept spoken, repeated or gestured participation. Do not score pronunciation.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U02",
+      "lessonId": "HSJ-KG2-U02-L02"
+    },
+    {
+      "activityId": "aas2-kg2-hsj-guided-art-craft",
+      "skillId": "aas2-ali-creative-expression",
+      "title": "Create a picture with shapes",
+      "visualCue": "Draw  →  Colour  →  Tell",
+      "instructions": [
+        "With an adult, choose paper, crayons and safe pre-cut shapes.",
+        "Make a picture using at least two shapes or colours. Ask an adult for help with any cutting or glue.",
+        "Tell the adult what your picture shows and why you chose the shapes."
+      ],
+      "observableCriteria": [
+        "Uses materials safely with age-appropriate support",
+        "Combines shapes or colours to represent an idea",
+        "Describes one part of the picture in their own words"
+      ],
+      "assessment": "Adult observation; no fixed right/wrong answer. An adult handles cutting tools.",
+      "bookId": "hop-skip-jump-senior-kg",
+      "unitId": "HSJ-KG2-U03",
+      "lessonId": "HSJ-KG2-U03-L02"
     }
   ]
 }
