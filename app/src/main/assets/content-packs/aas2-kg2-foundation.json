@@ -5299,8 +5299,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Well done! Five blocks is two more than three blocks.",
-      "feedbackIncorrect": "Count on from 3 to 5 to find the difference.",
+      "feedbackCorrect": "Well done! That's 2 blocks more.",
+      "feedbackIncorrect": "Good try! Have another look.",
       "difficulty": 1,
       "bookId": "maths-xpress-senior-kg",
       "unitId": "MXSKG-U05",
@@ -5345,8 +5345,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! Six cups is more than four cups.",
-      "feedbackIncorrect": "Compare the number of cups each jug holds.",
+      "feedbackCorrect": "Correct! Jug B holds more.",
+      "feedbackIncorrect": "Good try! Have another look.",
       "difficulty": 2,
       "bookId": "maths-xpress-senior-kg",
       "unitId": "MXSKG-U05",
@@ -5391,8 +5391,8 @@
         }
       ],
       "correctOptionId": "b",
-      "feedbackCorrect": "Correct! Five cubes is the smallest length.",
-      "feedbackIncorrect": "Compare 8 cubes, 5 cubes and 10 cubes. Choose the smallest length.",
+      "feedbackCorrect": "Correct! The crayon is shortest.",
+      "feedbackIncorrect": "Good try! Have another look.",
       "difficulty": 2,
       "bookId": "maths-xpress-senior-kg",
       "unitId": "MXSKG-U05",
