@@ -49,6 +49,7 @@ data class GuidedTaskDefinition(
     val activityId: String,
     val skillId: String,
     val title: String,
+    val visualCue: String? = null,
     val instructions: List<String>,
     val observableCriteria: List<String>,
     val assessment: String,
