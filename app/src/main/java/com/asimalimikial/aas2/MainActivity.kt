@@ -66,6 +66,7 @@ import com.asimalimikial.aas2.content.AssetContentPackRepository
 import com.asimalimikial.aas2.content.ContentPackSelectionPolicy
 import com.asimalimikial.aas2.content.ContentPack
 import com.asimalimikial.aas2.learning.ActivitySubmissionService
+import com.asimalimikial.aas2.learning.GuidedTaskCompletionService
 import com.asimalimikial.aas2.learning.LearnerPracticeSummaryCalculator
 import com.asimalimikial.aas2.ui.LearningExperienceScreen
 import com.asimalimikial.aas2.ui.ParentDashboardScreen
@@ -101,6 +102,10 @@ class MainActivity : ComponentActivity() {
             AndroidAssetContentPackTextSource(applicationContext)
         )
         val submissionService = ActivitySubmissionService(
+            learnerProfileDao = profileDao,
+            learningAttemptDao = database.learningAttemptDao()
+        )
+        val guidedTaskCompletionService = GuidedTaskCompletionService(
             learnerProfileDao = profileDao,
             learningAttemptDao = database.learningAttemptDao()
         )
@@ -218,6 +223,7 @@ class MainActivity : ComponentActivity() {
                             contentPackRepository = contentPackRepository,
                             learningAttemptDao = database.learningAttemptDao(),
                             submissionService = submissionService,
+                            guidedTaskCompletionService = guidedTaskCompletionService,
                             initialDomain = selectedLearningArea,
                             onExit = { showLearningExperience = false; selectedLearningArea = null }
                         )
