@@ -22,7 +22,7 @@
   },
   "sourceEnglishActivityCount": 493,
   "count": 2958,
-  "totalBytes": 46898486,
+  "totalBytes": 46953665,
   "activities": {
     "g2-place-01-en": {
       "prompt": "fe71cf664a317181ec54c264b94f991f3c102cd9cb2f20525664e48dd7e5e532.ogg",
@@ -1785,7 +1785,7 @@
       "feedbackIncorrect": "6429c5bab1a637d01cfeb3cc4695f46c1e24175ec9ffffcf1fefacd705f6d4d2.ogg"
     },
     "aas2-ew2-ew2-u01-l02-003": {
-      "prompt": "641b92fc2241e3edeaa1de20a4ae0d2f5d67680df9ffbe044292ff77c587fd66.ogg",
+      "prompt": "a4ea02b743717a5c4a4dbe8d33b081885a49a776c3ea8c15ccd059cce1f82287.ogg",
       "options": {
         "a": "02fddeb57688104693a5144324e307d114170a1b18f0fa2cd7f36b8bb4775c10.ogg",
         "b": "193db1368e19f84d36b35eaece6830391c54ec61a3ee20988100d16f13063041.ogg",
@@ -25873,24 +25873,6 @@
       "peak": 0.3238561153411865
     },
     {
-      "key": "641b92fc2241e3edeaa1de20a4ae0d2f5d67680df9ffbe044292ff77c587fd66",
-      "file": "641b92fc2241e3edeaa1de20a4ae0d2f5d67680df9ffbe044292ff77c587fd66.ogg",
-      "text": "What should come first when making a sandwich?",
-      "language": "en",
-      "voice": "F1",
-      "sid": 0,
-      "speed": 0.7,
-      "steps": 8,
-      "activityId": "aas2-ew2-ew2-u01-l02-003",
-      "role": "prompt",
-      "optionId": null,
-      "sha256": "86083dc0141c440d426a408fa66416d05c594fc6122cdc13dc41f3b0ea594bc6",
-      "bytes": 24752,
-      "durationMs": 4501,
-      "sampleRate": 44100,
-      "peak": 0.3188224732875824
-    },
-    {
       "key": "6429c5bab1a637d01cfeb3cc4695f46c1e24175ec9ffffcf1fefacd705f6d4d2",
       "file": "6429c5bab1a637d01cfeb3cc4695f46c1e24175ec9ffffcf1fefacd705f6d4d2.ogg",
       "text": "Good try. Read it again and try once more.",
@@ -39587,6 +39569,24 @@
       "durationMs": 2184,
       "sampleRate": 44100,
       "peak": 0.2987948954105377
+    },
+    {
+      "key": "a4ea02b743717a5c4a4dbe8d33b081885a49a776c3ea8c15ccd059cce1f82287",
+      "file": "a4ea02b743717a5c4a4dbe8d33b081885a49a776c3ea8c15ccd059cce1f82287.ogg",
+      "text": "Read: Ali puts bread on a plate. Next, he spreads the filling. Then, he closes the sandwich. What does Ali do after putting the bread on the plate?",
+      "language": "en",
+      "voice": "F1",
+      "sid": 0,
+      "speed": 0.7,
+      "steps": 8,
+      "activityId": "aas2-ew2-ew2-u01-l02-003",
+      "role": "prompt",
+      "optionId": null,
+      "sha256": "efb0ad0a1aa3ada13b194a3d2e183d4058061dbb33c5bea9ff8d2f935c334bbb",
+      "bytes": 79931,
+      "durationMs": 15737,
+      "sampleRate": 44100,
+      "peak": 0.5923326015472412
     },
     {
       "key": "a5013fdb8f8e441b8b6abdba01d1c598570be2842763ce2b80e963629bbcfda5",

@@ -8267,7 +8267,7 @@
       "feedbackIncorrect": "Good try. Read it again and try once more.",
       "difficulty": 1,
       "promptImageAssetPath": "question-art/aas2-ew2-ew2-u01-l02-003.png",
-      "promptAudioAssetPath": "speech/641b92fc2241e3edeaa1de20a4ae0d2f5d67680df9ffbe044292ff77c587fd66.ogg",
+      "promptAudioAssetPath": "speech/a4ea02b743717a5c4a4dbe8d33b081885a49a776c3ea8c15ccd059cce1f82287.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/02fddeb57688104693a5144324e307d114170a1b18f0fa2cd7f36b8bb4775c10.ogg",
         "b": "speech/193db1368e19f84d36b35eaece6830391c54ec61a3ee20988100d16f13063041.ogg",
