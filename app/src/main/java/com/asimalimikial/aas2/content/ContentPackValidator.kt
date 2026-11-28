@@ -198,8 +198,6 @@ object ContentPackValidator {
                     ) add("Activity at index $index must have one nonblank rationale for each option")
                 }
             }
-        }
-
         val guidedTaskIds = pack.guidedTasks.map { it.activityId }
         if (guidedTaskIds.any(String::isBlank)) add("guided task activityId must not be blank")
         if (guidedTaskIds.size != guidedTaskIds.toSet().size) add("guided task activityId values must be unique")
@@ -228,6 +226,8 @@ object ContentPackValidator {
                 add("Guided task at index $index skillId is not assigned to its lesson")
             }
         }
+        }
+
         return ContentPackValidation(isValid = errors.isEmpty(), errors = errors)
     }
 
