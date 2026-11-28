@@ -134,6 +134,18 @@ fun ParentDashboardScreen(
             )
     }
 
+    val guidedTasks = remember(loadedPack) { loadedPack?.guidedTasks.orEmpty() }
+    val guidedTaskIds = remember(guidedTasks) { guidedTasks.map { it.activityId }.toSet() }
+    val guidedTaskAttempts = remember(attempts, packId, guidedTaskIds) {
+        attempts.filter { it.contentPackId == packId && it.activityId in guidedTaskIds && it.isCorrect == null }
+    }
+    val completedGuidedTaskIds = remember(guidedTaskAttempts) {
+        guidedTaskAttempts.map { it.activityId }.toSet()
+    }
+    val latestGuidedTaskObservations = remember(guidedTaskAttempts) {
+        guidedTaskAttempts.groupBy { it.activityId }.mapValues { (_, entries) -> entries.last().feedbackText }
+    }
+
     BackHandler(onBack = onExit)
 
     Column(
@@ -243,6 +255,35 @@ fun ParentDashboardScreen(
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
+                    }
+                }
+
+                if (guidedTasks.isNotEmpty()) {
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(22.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color.White)
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(18.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Text(
+                                stringResource(
+                                    R.string.parent_guided_tasks_completed,
+                                    completedGuidedTaskIds.size,
+                                    guidedTasks.size
+                                ),
+                                style = MaterialTheme.typography.titleMedium
+                            )
+                            guidedTasks.filter { it.activityId in completedGuidedTaskIds }.forEach { task ->
+                                Text(task.title, style = MaterialTheme.typography.bodyMedium)
+                                latestGuidedTaskObservations[task.activityId]?.takeIf { it.isNotBlank() }?.let { note ->
+                                    Text(note, style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            }
+                        }
                     }
                 }
 
