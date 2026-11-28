@@ -4410,7 +4410,7 @@
         "b": "speech/029b7f4e8ff0ac930d9e896dabf7f9b60fcd3d40dc033336306746586d2f41b3.ogg",
         "c": "speech/5ed1a3cd505f2364e5af5e97a85f96ad284fd339c3e3cbfa1c1cd7ed8c732533.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/744ddce7b17ffca5c50b114175fff20afa13e0bd4a30ab1789df788d051d7f1b.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/2f0e4189bc149c5ac142a6015d3601523f229d916b341dccbe611a8d37b8d11f.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/309ebcaca4bcb6e2183df3bbbea0fc67cc7057df18252e8b72e418997f5c3dc8.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-01.svg"
     },
@@ -4446,7 +4446,7 @@
         "b": "speech/dc61bb81c0690989c7424cce3d3d01c9552415af002ef1332bb930d4b178020f.ogg",
         "c": "speech/cb19d136c03f5686c1dc38387ed96b89df681deae08ff448973cfb0281216021.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/472cec29fcd52785f7910ac00234b3baabf69b10eab301aaa38830cd79604e78.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/a7cd07f039c870d27bd527942ff1fa6a202e269eb07299aa4cdd819545a6d897.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/14e8bf2013c02a83177cd66b017c63d8fa7a73f74f1994cbe18a16a1dc6310a7.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-02.svg"
     },
@@ -4482,7 +4482,7 @@
         "b": "speech/bee52cad9424302a8fc90ecd5cd4b83e13542fbdd01ba898e1c13a29e350e92e.ogg",
         "c": "speech/2f2f06a611a8c96aa03b0708c5848a89ef64226260e6bb983423fa92aee25cfd.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/616bb4c11ebc3c76be7c2bbf9cb65cca43cb7458132c73128c58064573568132.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/7cf2d961007376f3411abead6c0043146b29c307887180c32911f9d2476b8c9c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/2a6bc1af52f1b43efe717bf1996c62d18abea67cd48212cf28be75f91e10830e.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-listening-comprehension-03.svg"
     },
@@ -4519,7 +4519,7 @@
         "b": "speech/c8f6ba8a568b2ebf20ef0b7d24064794b0d470836545e75ac1b5c33fa473139d.ogg",
         "c": "speech/46802231226831033b637aeaab3660e230d66c01235b7660b792c0fd8bc851cd.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/f4896d9d48f38430b39cbe1f41ec7578dc9df418843af9c3c40456d2db0d8ce5.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/27fadce0a7e58d368342c4d57a26af4da8b9e9f2c07223d7bc58665da3e74775.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/12bde31e78f4c6236096100da2e3a5196530c3ae55d34b34c8ab7c252eccc4f9.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-01.png"
     },
@@ -4554,7 +4554,7 @@
         "b": "speech/dd1afaf673c214278c621bd948ad4c407b5b99674f6f866e6edcd6916393f936.ogg",
         "c": "speech/f6719ff1c5a3055b948b34c73ef1dcc65bd8c00ca89f032fefb304c5f9d3bf02.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/102c6feb70b0d569abb3bd2b43dfb0f3854197987fdd64519419c2ff0b98e63b.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/57b1ed7bccf85968e60c5b65f7fec7c4e2161772b2d46f93bf9f7c4da077f46f.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/da6fa92b424a34f4c9d98ea346c4fe29b9dd4851495f6e72e9bf7354c4258789.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-02.png"
     },
@@ -4591,7 +4591,7 @@
         "b": "speech/e91c1ac2e24067fac187aaec17e8320b4ffb97753e90c19a3cb774912b6e8df8.ogg",
         "c": "speech/bb6b067cff6deb5a0be47b25d1916ef5e24fc5ec6f84e1a15d8883a1563bf3f7.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/5ab864b8370d2ed148e3fbe25680dbe70bed4d4ba432b55d94020b6c1658c828.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/8ba76b546e75cc1ef52f1cbd1d9d2bf37b9b45ccab91c5af3ec38ba10036f3df.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/5ce6f47fb0f9602a3de488e99200874bf404dfa0805a08654be6c27706119e01.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-story-sequencing-03.png"
     },
@@ -4626,7 +4626,7 @@
         "b": "speech/3b61902de506f3763aa6daf0c13f581618d405cf9be146293af74e2f36e674eb.ogg",
         "c": "speech/f74b1e1af89970a1071d3a9f95594543fb0fc0bb00191977f3a1b2f9dc6aad30.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/8e5fbd99e464ffbbfdd80be1a683d1e53faf1241795648d50831f29adeb80ecb.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/28eb689fbb268edb7f98d4c98c27b4d59dfbba5942379ebc5bdf933657fdc70f.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/9d0fbb6357888bb49d864042f330131458c546902fcff3fb4264abed5a59c0d6.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-01.svg"
     },
@@ -4656,13 +4656,13 @@
       "feedbackCorrect": "Well done! Great noticing.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
       "difficulty": 1,
-      "promptAudioAssetPath": "speech/c9742d70546427974c2f16892c96e43b2169efc178d88a1668914379c531e68e.ogg",
+      "promptAudioAssetPath": "speech/8c27a602bd7cb2bf530135b4d6a84643a6147d9a8857969efc7e05c2c603b67d.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/4cce34760c2b035db4a56cebe9507dc50e990836e58c0f83f7be7eeee6dc9c2c.ogg",
         "b": "speech/5fff9d23b67833636dfd14de9631d77cdbaf13834eb07a64042742a965ec3028.ogg",
         "c": "speech/f4528bf76659566890c475b5184224281238bf3fd7f6cb5f8303d69f5891e7f4.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/0a9bc9d279045ecc4f875c298908a574636180d3b0107ea1e84696e537aea734.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/0fc720b476398634e0f27ee74f5298c6d4e52208e3eed9285a7c92cf13d07d17.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/b27bbc78f17bf99833e259caf04febb8e92ec85b681e8c587113e967a9b08a72.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-02.svg"
     },
@@ -4691,13 +4691,13 @@
       "feedbackCorrect": "Well done! Great noticing.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
       "difficulty": 2,
-      "promptAudioAssetPath": "speech/daf1684c12c610fb38e77d496097a6f208687dbfd05a3d76e10fdbd37bb74973.ogg",
+      "promptAudioAssetPath": "speech/92c7722430e20c5f568ee596d14daa5b3a5a9cd43ab85ea1ca7775f385201564.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/52344733fcc1450516b5bf629a4960067ffe334676038b33e23bf856b15b9678.ogg",
         "b": "speech/39ed9c92b5c50492d8c29524aff276faec624c0e9ee8ea9ba9d40f674e009901.ogg",
         "c": "speech/e650e787e26b32b53f8869e1df8a1067cd03344e90ef4d9968e344c427c608b6.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/7757c481dab1d0fc160b8cbd8e2fc6d16100e851a20383e061be2b494593435c.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/5612a6bf6ceecd99667d24dc5e1c6628ae21634c9c2c194d4e1bdd7e5fb75b44.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/d79e8139ff4eddcda31051d7f787076e7db97ab6a0f50b378f95e36c84496154.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-measure-compare-03.svg"
     },
@@ -4734,7 +4734,7 @@
         "b": "speech/bc9427a4fafdad66b582d01efe1cd446e536515df91c254c36ab1cd0949c0bb3.ogg",
         "c": "speech/09f0236b9c5c93eeecd40bfbe00d9a4c0db6a946b262f52bfefb402c125a51ca.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/32ae7defcf8e3c06ad3c421687aa497038776381ce09e98411c3f04913ef5690.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/5686bafbdd1897c5e6503756912a45abf7174deeb3f6316a3fe77a4562f068ec.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/e099d0774ccd3cb1195d3da6912994684d5ede38911f664593e9cf7ce4140713.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-01.svg"
     },
@@ -4770,7 +4770,7 @@
         "b": "speech/964791f888134f7586cbd80554c61da853b55a3cefa0ebc6148591de8684900f.ogg",
         "c": "speech/3bb5f173b9352b63c0fd2159bc9c3119d45a26b3a463ea3cc71dbd71309a5f11.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/d945aec9f7f97e6548097315ea5df3209eaaa1a9013ca74b5ca1e19ec9e4058c.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/b1bc04ee8e8979e1c905ea46784787fd623e3bf70f8f7133ec7aa45fe28047a6.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/7017786630e9f2380abe20dc9caf6a1e350baf9374556f9ef8d05b53c6c7c4f6.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-02.svg"
     },
@@ -4806,7 +4806,7 @@
         "b": "speech/3013d361a6218b6110bd9a4aadf2482cd71c65097b8eb2c8fa2bb147b6fe72f7.ogg",
         "c": "speech/b5ad30fe1b10e63882592d997ce5a29f1192ba3411542e57d9c8f6aaa289b932.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/e25302d4ea607a75caa3eba7dcb20f0d4e994821a9bc0a69be578a24553a2dec.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/b916ae2b8ad28b561ecd9b40a03e6f931f6082c9332d6bee76d349a44500a449.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/4073fc598bb89de361ebf5de6220bb4a92624d95b95b7f11d4af4c78aac83deb.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-plant-needs-03.svg"
     },
@@ -4843,7 +4843,7 @@
         "b": "speech/ce1a860c245a9da08c0d72c40c125cfd37af622fdc67cf87b1506030f589421d.ogg",
         "c": "speech/91fff1ee8bcb16af869e99fc8d51c77fdb6decb5613b46bc2630a8fb4631520c.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/4a9c06c7e712478f68d37b5c972719ef79c45920f54928211c1f14075c552b93.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/663c908b0c06d61a9a9c22fc9425471b245defd5b1777cfa4a62322931c74e07.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/91e9017bf110d7ed0c4efe1d0dc0deb9f7333aa4938973dd991a6b6028c167f8.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-01.svg"
     },
@@ -4878,7 +4878,7 @@
         "b": "speech/bbbc8d13e5df22cb596f2643e3ba827229469934c2967ec6018e1895fd573212.ogg",
         "c": "speech/9a94badf9253a2b55e1bcd7128342dd2c9e8e8f75edad3592fed47a5e4ccf2b2.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/dff618bbf32fce49784ed9def7b49bf6e3d883fca90221a923ffdf4ae90661eb.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/394d2e38681e49e315d588d191f5fd3feac06abd2324b4af691e09dcdaf763c2.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/5776295caf89235f702d643a51d2732161bf3ee148283b80bb67331383de9bde.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-02.svg"
     },
@@ -4914,7 +4914,7 @@
         "b": "speech/77fde4981d0d87e075587af53b3dbd9e2ebe99e79cd7ae48dccc456d8b90f712.ogg",
         "c": "speech/338d68744c38e3831c957f0dd7b6d313b167557d88f32ccf6ffd5557ce39a29a.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/96f9c352004b209be33afc1ee13b4a4fe5d82291784cbaec929b379a27dd07bc.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/63c2412ac0861377a4af70dca7f5a7e6a09e43faa46d8bd7f3740e0c8c6fa869.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/8c0e9b542d0aa02f7aee3efb3299ba713ad84a4967e609486169a61711467188.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-discovering-world-03.svg"
     },
@@ -4950,7 +4950,7 @@
         "b": "speech/0048953ff6669f32692d7ec8c7add357f4c56c8c44ef46d04b61beceeef3fc57.ogg",
         "c": "speech/40850469fd41e5a7052242e665ddcb1b5639e8afbba7e7092747cf3019c641d9.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/022c15c08c8eefcc56a5fde66b9a9b639e6262cc3cddf4fe0db405332af53694.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/ab77e34857ec062bbbb3392e2a64fb78f480f4420e7ddbb9dfe0ead3f4ab0885.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/4facd1fdce282124c35fe42c5a84f7c48195de3d46b8cfbadf857ec5f48a0048.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-01.svg"
     },
@@ -4981,13 +4981,13 @@
       "feedbackCorrect": "Well done! Great noticing.",
       "feedbackIncorrect": "Good try. Think carefully and try once more.",
       "difficulty": 1,
-      "promptAudioAssetPath": "speech/5cc32032f8fc76e55de5b31d58df903e34da9bc505039d9f4ac8a873d6bc4ca4.ogg",
+      "promptAudioAssetPath": "speech/1e8145851789814d074e5f5e905da87548d5d46aaf268bde6bed171becffdaa7.ogg",
       "optionAudioAssetPaths": {
         "a": "speech/da1c2cc302d0066b8d5e10d9d9fbc78e56706573ce79da179328396e5b702ea2.ogg",
-        "b": "speech/fff1c830623914e77330cb372e0a7124e0b1023b7d27ef02a5f9dc546933a77b.ogg",
+        "b": "speech/39d4f997c47e1eea8eb132a3c0aa90fd3b4bc63102db2a6c697bf1eedf0e693a.ogg",
         "c": "speech/393d58120f7b4160840bf4985fd85868288ae045365166cdb4afdebdef757478.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/faa0dc8149e4e517c8b1faacc0233d74ba773bbdf70de8dd2a2030a5f3ce3c22.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/457da98c17fb270a594970d698e08b5e32383391d4f04c91e1cf92650dae69d7.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/6e119977eb5c278eb4e8a942d02f4ae3ef65efb7746dcd8b71d21b71732e5690.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-02.svg"
     },
@@ -5023,7 +5023,7 @@
         "b": "speech/6d40994bc294c418d0825c2d59c96b54b94eeaf108950f4718752de6b0265265.ogg",
         "c": "speech/df344c58490d20e3a498de0c3d84e83361229c8d0c5aa86f4aaae0b904da4936.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/6b45a96f97f9f9d1d7022989eafbc9b74b6c52ad9aea3799d36a35a337c1aba3.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/c7fc3339bf7f2aeec80de997bbcf33db6aefdf3aaf59d4e0d2acad2ea2cc6aa6.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/e8d9b538181ace49d8d0c4c618a4a8f87a301169bffdc8cb020f28e7bb41a820.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-observe-predict-03.svg"
     },
@@ -5059,7 +5059,7 @@
         "b": "speech/6e9383b1dc64378b062544444b15c250d51e326248d06bf55d64d054d9099449.ogg",
         "c": "speech/8e8de65b9ec54b41fb61a7c8541963a55d3ef3f11a5a6f55aeaf80e740536504.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/b05a216309d2a0fd57216dc9dd64e78935287ba806bc11de08984ed80a359445.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/d8b0157d671477de3ded217a5f77b111d7029c4c87d4ae2558ad2720bd8cc653.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/50acb584d843017b0378aa235c77b2af0b871599b83ee04d25f44faa1dcc4ab2.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-01.svg"
     },
@@ -5096,7 +5096,7 @@
         "b": "speech/73a4787891aa81d9b3ea4783d203772b7340b0a0d6099c4c2c46e0ec95a3d54b.ogg",
         "c": "speech/d6a2e1ddce0be18522061f18009d056cdd2ebb72ea317d6faa13ceaeea2b63d6.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/62c8bb5781e058fa91f891757b8fede1916759dddc738606cecfd38428595e14.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/a6ddeff7a6502a96c50d22ca812badd175358726ef8ac6af90834faab2e68d9d.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/b16f51dcfe27e502d27bf87c8da5daad168769f5be966c92abe33eacb5b80695.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-02.svg"
     },
@@ -5132,7 +5132,7 @@
         "b": "speech/cd1d4866189909faec08f58dc3cbb139c83df2115bebff9ae23aab039bce3487.ogg",
         "c": "speech/4440e127228e67b5b4050a372ef23a9293da1cbffc050be855fa22634ae823a3.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/8b1c6e4def9d5500e64c67320684af1b51358ff1789bac199669904b3303adab.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/49a76d187d503ab9bdf9976dcbc024e873385ed461e1e3526927edafc076566c.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/5182b5c438e8a19e2cf6df0bafc61774595edba3f36917004a84aa9a1dce1988.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-weather-observation-03.svg"
     },
@@ -5168,7 +5168,7 @@
         "b": "speech/a211adf8ecf2c4dad32f1e7775b2b2f5e2d8aa75ac0d040435018ff03d97cdae.ogg",
         "c": "speech/b76c4ddb03e9419b814e88b15961a37742ab814f3fae881ee192f4e7db8365b3.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/a1ed244bec6e46f8b9906fe1883973abe3c1c87bb1e0a464094d8deee0c7574a.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/47fb47183966b188798aaa877dd46b8546ba65ba720cb9d7bb64a479b96282c7.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/51f16889b2ba35eec51c3a61c88bfe279014aa63af8e4cd2922cc66152979bbf.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-environment-care-01.svg"
     },
@@ -5204,7 +5204,7 @@
         "b": "speech/eb792f64f09215c44373f318b2ab11a2ead9b78ba5d9fc9acabc8e3018730303.ogg",
         "c": "speech/ec4dc5393ba69c3c89f6961621a4d173b530e9cbe60b8822ab485ddad55fa200.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/4c029e815be168edb9c5dee43b59161da36a8e102b0af0bf5c4bf588a9666b2e.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/544d92d96ca037e6b63b2e228c15efd98e32ae61c5fc1869c4a93425bfc11204.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/ff2d2f651ee0766a619dfd01b5e7f51bf10a4fda2b6247315135ce8595d5959b.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-environment-care-02.svg"
     },
@@ -5241,7 +5241,7 @@
         "b": "speech/9ce9a8fafe2bcc3f61b80e180235a8dd0d98f5422d4c1445288d3bbca512446c.ogg",
         "c": "speech/3ab6a503f987e586031fef62bd5fdef69293d3738680e12d7a1c9271e280ffac.ogg"
       },
-      "feedbackCorrectAudioAssetPath": "speech/b9d3b60bdb74871c54f5db09f7adc3332ef6f6134480b60e8f2d203651b08013.ogg",
+      "feedbackCorrectAudioAssetPath": "speech/d00dab155c677634cbea56ca5ac18af29ff5046f0fa924c882ad1da1107b7962.ogg",
       "feedbackIncorrectAudioAssetPath": "speech/43bab263f259e146555b66232772d7db3abc2d18c01ba852adc5cc3f51606b7b.ogg",
       "promptImageAssetPath": "question-art/aas2-kg2-environment-care-03.svg"
     }
