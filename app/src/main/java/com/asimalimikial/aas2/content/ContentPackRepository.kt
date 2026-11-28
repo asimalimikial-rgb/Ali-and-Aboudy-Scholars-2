@@ -37,7 +37,7 @@ class ContentPackFormatException(
 
 class InvalidContentPackDefinitionException(
     val validationErrors: List<String>
-) : Exception("Content pack failed validation")
+) : Exception("Content pack failed validation: ${validationErrors.joinToString(separator = "; ")}")
 
 /**
  * Loads bundled JSON content packs without network access.
