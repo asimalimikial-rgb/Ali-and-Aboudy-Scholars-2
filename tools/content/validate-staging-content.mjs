@@ -345,9 +345,9 @@ for (const [relativePath, unitId, expectedCount, expectedLessons, idPattern] of 
       assert.equal(activity.reviewStatus, "REVISED_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
       assert.equal(activity.prompt, "Which two senses help you notice the smell and taste of an orange?");
     } else {
-      assert.equal(activity.reviewStatus, "DRAFT_PENDING_SCIENCE_PEDAGOGY_LANGUAGE_AND_ACCESSIBILITY_REVIEW");
+      assert.equal(activity.reviewStatus, "INTEGRATED_PENDING_INDEPENDENT_QA");
     }
-    assert.equal(activity.runtimeStatus, "NOT_INTEGRATED");
+    assert.equal(activity.runtimeStatus, "INTEGRATED_PENDING_MEDIA_AND_REVIEW_QA");
     assert.equal(activity.options.length, 3);
     const optionIds = activity.options.map(option => option.optionId);
     assert.equal(new Set(optionIds).size, 3);
